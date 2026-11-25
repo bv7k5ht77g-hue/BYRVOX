@@ -1,3 +1,4 @@
+import { SITE_ORIGIN } from '../../lib/site-url';
 import Image from 'next/image';
 import { useRef, useState } from 'react';
 import { AudioLines, BookOpen, Clapperboard, History, LayoutDashboard, Menu, Settings2, SquarePen, X } from 'lucide-react';
@@ -18,7 +19,7 @@ export function AdminNavigation({ tab, busy, onNavigate }: { tab: string; busy: 
   return <aside className="sidebar portal-sidebar" onKeyDown={event => {
     if (expanded && event.key === 'Escape') { setExpanded(false); toggle.current?.focus(); }
   }}>
-    <div className="portal-brand"><a href="/" className="brand" aria-label="BYRVOX, accueil">
+    <div className="portal-brand"><a href={SITE_ORIGIN} className="brand" aria-label="BYRVOX, accueil">
       <Image unoptimized width={600} height={112} src="/brand/logo-dark.png" alt="BYRVOX" /></a>
       <button ref={toggle} type="button" className="portal-menu-toggle" aria-controls="portal-navigation"
         aria-expanded={expanded} onClick={() => setExpanded(!expanded)}>
@@ -30,7 +31,7 @@ export function AdminNavigation({ tab, busy, onNavigate }: { tab: string; busy: 
         disabled={busy} onClick={() => {
           setExpanded(false); onNavigate(name);
         }}><Icon size={18} aria-hidden="true" /> {name}</button>)}
-      <a className="portal-site-link" href="/">Voir le site public</a>
+      <a className="portal-site-link" href={SITE_ORIGIN}>Voir le site public</a>
     </nav>
   </aside>;
 }

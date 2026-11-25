@@ -444,10 +444,12 @@ test('la une peut être épinglée puis rendue à la publication automatique', a
   for (const path of ['/admin', '/editeur']) {
     const login = await mf.dispatchFetch(origin + path, { redirect: 'manual' });
     const target = login.headers.get('location');
-    const loginMarkup = target ? '' : await login.text();
-    assert.ok(target ? new URL(target, origin).searchParams.get('return_to') === path :
-      loginMarkup.includes('/signin-with-chatgpt?return_to=' + encodeURIComponent(path)),
-      'Le portail doit renvoyer vers la connexion avec son chemin de retour (' + login.status + ', ' + target + ').');
+    assert.ok(target, 'Le portail anonyme doit renvoyer vers la rédaction sécurisée.');
+    if (path === '/editeur') {
+      assert.equal(target, 'https://byrvox.h2y4xnnm6g.chatgpt.site/admin');
+    } else {
+      assert.equal(new URL(target, origin).searchParams.get('return_to'), '/admin');
+    }
     assert.match(await (await request(path, 'lecteur@example.invalid')).text(), /Accès réservé/);
     assert.equal((await request(path, editor)).status, 200);
   }
