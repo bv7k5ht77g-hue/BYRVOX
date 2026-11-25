@@ -1,6 +1,6 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.3.1 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.h2y4xnnm6g.chatgpt.site)
+Version 0.3.2 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.noventra.ca)
 
 Plateforme francophone Next/React sur Vinext, Cloudflare Workers et D1. Design basé sur le mockup fourni, logos officiels conservés. Le site démarre avec des contenus de présentation identifiés, sans actualités inventées.
 
