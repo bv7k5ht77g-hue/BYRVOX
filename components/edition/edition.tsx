@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { editionHref, sections, type EditionRoute, type Section, type Summary } from '../../lib/edition';
 import { EditionFront, SectionContent } from './sections';
@@ -10,10 +9,10 @@ const navigation: Section[] = ['accueil', 'actualites', 'radio', 'tv', 'podcasts
 const policies = ['Politique éditoriale', 'Corrections', 'Confidentialité', 'Conditions d’utilisation'] as const;
 
 export function Brand() {
-  return <Link prefetch={false} className="brand edition-brand" href="/" aria-label="BYRVOX, accueil">
+  return <a className="brand edition-brand" href="/" aria-label="BYRVOX, accueil">
     <span className="brand-mark" aria-hidden="true" />
     <small>BEYOND THE HEADLINES</small>
-  </Link>;
+  </a>;
 }
 
 function NavLinks({ current }: { current: Section }) {
@@ -66,7 +65,7 @@ function Footer({ open }: { open: (name: DialogName) => void }) {
     <div><b>Explorer</b>{(['actualites', 'radio', 'tv', 'podcasts', 'favoris'] as Section[]).map(section =>
       <a key={section} href={editionHref(section)}>{sections[section]}</a>)}<a href="/rss.xml">Flux RSS</a></div>
     <div><b>Le groupe</b><button onClick={() => open('marques')}>RadioYO &amp; TVYO</button>
-      <Link prefetch={false} href="/article/notre-methode">Notre démarche</Link><button onClick={() => open('abonnement')}>Abonnements</button>
+      <a href="/article/notre-methode">Notre démarche</a><button onClick={() => open('abonnement')}>Abonnements</button>
       <a href="/admin">Command Center ↗</a></div>
     <div><b>Transparence</b>{policies.map(policy => <button key={policy} onClick={() => open(policy)}>{policy}</button>)}</div>
   </div>

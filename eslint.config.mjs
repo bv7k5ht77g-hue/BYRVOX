@@ -5,6 +5,11 @@ import nextTs from "eslint-config-next/typescript";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
+  {
+    // Use native navigation in the Vinext Worker. Its client router can fail on production links.
+    files: ["app/**/*.tsx", "components/edition/**/*.tsx"],
+    rules: { "@next/next/no-html-link-for-pages": "off" },
+  },
   globalIgnores([
     "dist/**",
     ".vinext/**",

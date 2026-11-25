@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import type { articles, events, revisions, runs } from '../../db/schema';
 
@@ -116,10 +115,10 @@ export default function Admin() {
 
   return <div className="admin-shell">
     <aside className="sidebar">
-      <Link href="/" className="brand"><Image unoptimized width={600} height={112} src="/brand/logo-dark.png" alt="BYRVOX"/></Link>
+      <a href="/" className="brand"><Image unoptimized width={600} height={112} src="/brand/logo-dark.png" alt="BYRVOX"/></a>
       {tabs.map(item => <button key={item} className={tab === item ? 'selected' : ''} aria-current={tab === item ? 'page' : undefined}
         disabled={busy} onClick={() => setTab(item)}>{item}</button>)}
-      <Link href="/">↗ Voir le site</Link>
+      <a href="/">↗ Voir le site</a>
       <small>COMMAND CENTER<br/>BYRVOX<br/>Validation humaine avant publication.</small>
     </aside>
     <main className="admin-main">
