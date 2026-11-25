@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
 import { articleUrl } from "../../../lib/site-url";
 import { notFound } from "next/navigation";
@@ -78,11 +77,11 @@ export default async function Article({ params }: ArticleProps) {
       <a className="skip" href="#lecture">Aller à l’article</a>
       <header className="reader-header">
         <div className="reader-header-inner">
-          <Link href="/" className="reader-logo" aria-label="Accueil BYRVOX">
+          <a href="/" className="reader-logo" aria-label="Accueil BYRVOX">
             <span aria-hidden="true">BYRVOX</span>
-          </Link>
+          </a>
           <div className="reader-tools">
-            <Link href="/"><ArrowLeft size={17} aria-hidden="true" /> Accueil</Link>
+            <a href="/"><ArrowLeft size={17} aria-hidden="true" /> Accueil</a>
             <ReaderThemeSwitch />
           </div>
         </div>
@@ -128,7 +127,7 @@ export default async function Article({ params }: ArticleProps) {
             </section>
           )}
         </article>
-        <Link href="/" className="reader-back"><ArrowLeft size={16} aria-hidden="true" /> Retour à l’accueil</Link>
+        <a href="/" className="reader-back"><ArrowLeft size={16} aria-hidden="true" /> Retour à l’accueil</a>
       </main>
       <script type="application/ld+json"
               dangerouslySetInnerHTML={{ __html: JSON.stringify(linkedData).replace(/</g, "\\u003c") }} />

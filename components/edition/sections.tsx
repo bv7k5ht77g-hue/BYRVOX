@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import type { ReactNode } from 'react';
 import { articleHref, editionHref, fold, sections, type EditionRoute, type Section, type Summary } from '../../lib/edition';
 import type { DialogName } from './reader-dialog';
@@ -51,7 +50,7 @@ export function EditionFront({ stories, presentations, unavailable, open }: Fron
       </div>
     </section>
     <div className="wrap">
-      <div className="launch"><span className="dot" /> ÉDITION DE LANCEMENT <span>Les directs radio et TV sont en préparation.</span></div>
+      <div className="launch"><span className="dot" /> ÉDITION DE LANCEMENT <span><a href={editionHref('direct')}>Les directs radio et TV sont en préparation. <span aria-hidden="true">→</span></a></span></div>
       <ChannelCards />
       <section className="headlines" aria-label="La sélection de la rédaction">
         <div><div className="section-title"><h2>{stories.length ? 'À la une' : 'À la découverte de BYRVOX'}</h2></div>
@@ -131,7 +130,7 @@ export function SectionContent({ route, stories, presentations, unavailable, sav
   if (page > 1) empty = 'Aucun résultat sur cette page.';
   if (category || query) empty = 'Aucun résultat pour cette sélection.';
   return <div className="wrap section-page"><section className="page-title">
-    <Link className="eyebrow" prefetch={false} href="/">Accueil</Link>
+    <a className="eyebrow" href="/">Accueil</a>
     <h1>{sections[section]}</h1>{descriptions[section] && <p>{descriptions[section]}</p>}</section>
     {format ? <section className="availability format-card">
       <Image unoptimized src={'/media/' + format.image + '.webp'} width="900" height="400" alt="" />
