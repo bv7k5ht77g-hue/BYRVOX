@@ -4,7 +4,7 @@ import { articleUrl } from "../../../lib/site-url";
 import { notFound } from "next/navigation";
 import { cache } from "react";
 import { and, eq } from "drizzle-orm";
-import { ArrowLeft, ArrowUpRight, Clock3 } from "lucide-react";
+import { Clock3, House, Link2 } from "lucide-react";
 import { features, type Story } from "../../../lib/content";
 import { getDb } from "../../../db";
 import { articles } from "../../../db/schema";
@@ -81,7 +81,7 @@ export default async function Article({ params }: ArticleProps) {
             <span aria-hidden="true">BYRVOX</span>
           </a>
           <div className="reader-tools">
-            <a href="/"><ArrowLeft size={17} aria-hidden="true" /> Accueil</a>
+            <a href="/"><House size={17} aria-hidden="true" /> Accueil</a>
             <ReaderThemeSwitch />
           </div>
         </div>
@@ -119,7 +119,7 @@ export default async function Article({ params }: ArticleProps) {
                   <li key={s.url}>
                     <a href={s.url}>
                       <span><strong>{s.name}</strong><small>{new URL(s.url).hostname}</small></span>
-                      <ArrowUpRight size={18} aria-hidden="true" />
+                      <Link2 size={18} aria-hidden="true" />
                     </a>
                   </li>
                 ))}</ul>
@@ -127,7 +127,7 @@ export default async function Article({ params }: ArticleProps) {
             </section>
           )}
         </article>
-        <a href="/" className="reader-back"><ArrowLeft size={16} aria-hidden="true" /> Retour à l’accueil</a>
+        <a href="/" className="reader-back"><House size={16} aria-hidden="true" /> Retour à l’accueil</a>
       </main>
       <script type="application/ld+json"
               dangerouslySetInnerHTML={{ __html: JSON.stringify(linkedData).replace(/</g, "\\u003c") }} />

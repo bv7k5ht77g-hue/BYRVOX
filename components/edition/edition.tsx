@@ -1,5 +1,6 @@
 'use client';
 
+import { Bookmark, BookmarkCheck, CircleUserRound, Menu, Moon, Rss, Search, Settings2, Sun, X } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { editionHref, sections, type EditionRoute, type Section, type Summary } from '../../lib/edition';
 import { EditionFront, SectionContent } from './sections';
@@ -39,20 +40,23 @@ function Header({ current, profile, open }: {
     <nav className="desktop-nav" aria-label="Navigation principale"><NavLinks current={current} /></nav>
     <div className="tools">
       <button className="tool-icon" aria-label="Rechercher" onClick={() => show('recherche')}>
-        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><circle cx="10" cy="10" r="6.5" /><path d="m15 15 6 6" /></svg>
+        <Search size={20} aria-hidden="true" />
       </button>
-      <button className="tool-icon" onClick={toggleTheme} aria-label="Changer le thème clair ou sombre"><span className="theme-sun" aria-hidden="true">☀</span><span className="theme-moon" aria-hidden="true">☾</span></button>
-      <button className="outline account" onClick={() => show(profile ? 'profil' : 'connexion')}>{profile ? 'Mon compte' : 'Se connecter'}</button>
+      <button className="tool-icon" onClick={toggleTheme}>
+        <span className="theme-sun"><Sun size={20} aria-hidden="true" /><span className="edition-sr-only">Activer le thème clair</span></span>
+        <span className="theme-moon"><Moon size={20} aria-hidden="true" /><span className="edition-sr-only">Activer le thème sombre</span></span>
+      </button>
+      <button className="outline account" onClick={() => show(profile ? 'profil' : 'connexion')}><CircleUserRound size={16} aria-hidden="true" /> {profile ? 'Mon compte' : 'Se connecter'}</button>
       <details className="edition-menu" ref={menu} onKeyDown={event => {
         if (event.key === 'Escape' && menu.current?.open) {
           menu.current.open = false;
           menu.current.querySelector('summary')?.focus();
         }
       }}>
-        <summary>Menu <span aria-hidden="true">☰</span></summary>
+        <summary><Menu className="menu-show" size={19} aria-hidden="true" /><X className="menu-hide" size={19} aria-hidden="true" /> Menu</summary>
         <nav aria-label="Menu principal"><NavLinks current={current} />
-          <a href={editionHref('favoris')}>Mes favoris</a>
-          <button onClick={() => show(profile ? 'profil' : 'connexion')}>{profile ? 'Mon compte' : 'Se connecter'}</button>
+          <a className="edition-icon-link" href={editionHref('favoris')}><Bookmark size={16} aria-hidden="true" /> Mes favoris</a>
+          <button onClick={() => show(profile ? 'profil' : 'connexion')}><CircleUserRound size={16} aria-hidden="true" /> {profile ? 'Mon compte' : 'Se connecter'}</button>
         </nav>
       </details>
     </div>
@@ -63,13 +67,13 @@ function Footer({ open }: { open: (name: DialogName) => void }) {
   return <footer><div className="wrap footer-grid">
     <div><Brand /><p>Un nouveau regard sur le monde.</p></div>
     <div><b>Explorer</b>{(['actualites', 'radio', 'tv', 'podcasts', 'favoris'] as Section[]).map(section =>
-      <a key={section} href={editionHref(section)}>{sections[section]}</a>)}<a href="/rss.xml">Flux RSS</a></div>
+      <a key={section} href={editionHref(section)}>{sections[section]}</a>)}<a className="edition-icon-link" href="/rss.xml"><Rss size={16} aria-hidden="true" /> Flux RSS</a></div>
     <div><b>Le groupe</b><button onClick={() => open('marques')}>RadioYO &amp; TVYO</button>
       <a href="/article/notre-methode">Notre démarche</a><button onClick={() => open('abonnement')}>Abonnements</button>
-      <a href="/admin">Command Center ↗</a></div>
+      <a className="edition-icon-link" href="/admin"><Settings2 size={16} aria-hidden="true" /> Command Center</a></div>
     <div><b>Transparence</b>{policies.map(policy => <button key={policy} onClick={() => open(policy)}>{policy}</button>)}</div>
   </div>
-  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.2.0 · Information · Radio · Télévision · Podcasts</span></div></footer>;
+  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.3.0 · Information · Radio · Télévision · Podcasts</span></div></footer>;
 }
 
 type EditionProps = {
@@ -135,9 +139,10 @@ export function Edition({ route, stories, presentations, unavailable, hasNext, c
   const saved = profile?.preferences.saved || [];
   function saveButton(story: Summary) {
     const selected = saved.includes(story.slug);
-    return <button className="save" disabled={pending || accountStatus === 'loading'} aria-pressed={selected}
+    const SaveIcon = selected ? BookmarkCheck : Bookmark;
+    return <button className="save edition-icon-link" disabled={pending || accountStatus === 'loading'} aria-pressed={selected}
       aria-label={(selected ? 'Retirer des favoris : ' : 'Sauvegarder : ') + story.title}
-      onClick={() => updatePreferences(story.slug)}>{selected ? '◆ Enregistré' : '◇ Sauvegarder'}</button>;
+      onClick={() => updatePreferences(story.slug)}><SaveIcon size={16} aria-hidden="true" />{selected ? 'Enregistré' : 'Sauvegarder'}</button>;
   }
   const currentUrl = editionHref(route.section, route.query, route.category, route.page);
   return <div className="edition-site">
@@ -152,6 +157,6 @@ export function Edition({ route, stories, presentations, unavailable, hasNext, c
     <Footer open={setDialog} />
     {dialog && <ReaderDialog name={dialog} close={close} open={setDialog} profile={profile} currentUrl={currentUrl}
       query={route.query} pending={pending} clear={() => updatePreferences()} />}
-    {notice && <div className="toast" role="status">{notice}<button aria-label="Fermer la notification" onClick={() => setNotice('')}>×</button></div>}
+    {notice && <div className="toast" role="status">{notice}<button aria-label="Fermer la notification" onClick={() => setNotice('')}><X size={17} aria-hidden="true" /></button></div>}
   </div>;
 }

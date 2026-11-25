@@ -25,6 +25,7 @@ test('le Worker distingue les versions publiques et les révisions de la rédact
   // Vinext imports some chunks dynamically. Workerd needs the complete module list, entry point first.
   const chunks = (await readdir(server, { recursive: true })).filter((file) =>
     file !== config.main && /\.m?js$/.test(file));
+  const editionKey = process.env.BYRVOX_REVIEW_KEY_20261125;
   const mf = new Miniflare({
     host: '127.0.0.1',
     cf: false,
@@ -33,7 +34,7 @@ test('le Worker distingue les versions publiques et les révisions de la rédact
     compatibilityDate: config.compatibility_date,
     compatibilityFlags: config.compatibility_flags,
     d1Databases: ['DB'],
-    bindings: { ADMIN_EMAILS: editor },
+    bindings: { ADMIN_EMAILS: editor, ...(editionKey ? { BYRVOX_REVIEW_KEY_20261125: editionKey } : {}) },
   });
   t.after(() => mf.dispose());
   const db = await mf.getD1Database('DB');
@@ -161,4 +162,41 @@ test('le Worker distingue les versions publiques et les révisions de la rédact
   assert.equal(afterRace.articles.find((row) => row.id === id).title, accepted.title);
   assert.equal(afterRace.revisions.length, beforeRace.revisions.length + 1);
   assert.deepEqual(await published(), [correction]);
+
+  await t.test('le lot de rédaction respecte les droits, la confidentialité et les corrections', async () => {
+    const path = '/api/newsroom/edition';
+    for (const email of [undefined, 'reader@example.invalid']) {
+      await json(path, { email, data: {}, expected: 403 });
+    }
+    if (!editionKey) {
+      await json(path, { email: editor, data: {}, expected: 503 });
+      assert.deepEqual(await published(), [correction]);
+      return;
+    }
+    const supply = () => json(path, { email: editor, data: {} });
+    const results = await Promise.all([supply(), supply()]);
+    assert.deepEqual(results.map(r => r.imported).sort((a, b) => a - b), [0, 15]);
+    const newsroom = await json('/api/newsroom', { email: editor });
+    const issue = newsroom.articles.filter(row => row.id !== id);
+    assert.equal(issue.length, 15);
+    assert.equal(new Set(issue.map(row => row.slug)).size, 15);
+    const xml = await feed();
+    const map = await sitemap();
+    for (const article of issue) {
+      assert.equal(article.status, 'review');
+      assert.equal(article.publishedAt, null);
+      assert.ok(JSON.parse(article.sources).length >= 2);
+      assert.ok(article.body.split(/\s+/u).length >= 200);
+      assert.ok(!xml.includes(article.slug));
+      assert.ok(!map.includes(article.slug));
+    }
+    assert.deepEqual(await published(), [correction]);
+    const first = issue[0];
+    await document('/article/' + first.slug, /text\/html/i, 404);
+    await edit({ id: first.id, version: first.version, action: 'publish' });
+    assert.ok((await published()).some(row => row.slug === first.slug));
+    assert.equal((await supply()).imported, 0);
+    assert.ok((await published()).some(row => row.slug === first.slug));
+    assert.ok((await feed()).includes(first.slug));
+  });
 });

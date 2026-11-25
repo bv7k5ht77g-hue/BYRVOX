@@ -1,12 +1,13 @@
+import { Bookmark, BookOpen, Mail, Newspaper, Radio, RefreshCw, Search, Tv } from 'lucide-react';
 import Image from 'next/image';
 import type { ReactNode } from 'react';
 import { articleHref, editionHref, fold, sections, type EditionRoute, type Section, type Summary } from '../../lib/edition';
 import type { DialogName } from './reader-dialog';
 
 const channels = [
-  { section: 'actualites', name: 'News', image: 'news', text: 'Actualités, sources et décryptages.', cta: 'Lire les actualités' },
-  { section: 'radio', name: 'Radio', image: 'radio', text: 'Entretiens, débats et formats audio.', cta: 'Découvrir la radio' },
-  { section: 'tv', name: 'TV', image: 'tv', text: 'Le journal en images et les formats du studio.', cta: 'Découvrir la télévision' }
+  { section: 'actualites', name: 'News', icon: Newspaper, image: 'news', text: 'Actualités, sources et décryptages.', cta: 'Lire les actualités' },
+  { section: 'radio', name: 'Radio', icon: Radio, image: 'radio', text: 'Entretiens, débats et formats audio.', cta: 'Découvrir la radio' },
+  { section: 'tv', name: 'TV', icon: Tv, image: 'tv', text: 'Le journal en images et les formats du studio.', cta: 'Découvrir la télévision' }
 ] as const;
 const formats = {
   radio: { title: 'La radio se prépare.', text: 'BYRVOX Radio prépare ses entretiens et ses débats. La date de la première diffusion sera annoncée ici.', slug: 'radio', cta: 'Lire la présentation de la radio', image: 'radio-live' },
@@ -29,7 +30,7 @@ function ChannelCards({ direct = false }: { direct?: boolean }) {
     {cards.map(channel => <a className={'channel ' + channel.image} key={channel.section} href={editionHref(channel.section)}>
       <Image unoptimized loading="lazy" decoding="async" width="900" height="400" src={'/media/' + channel.image + '.webp'} alt="" />
       <div><h2>BYRVOX <em>{channel.name.toUpperCase()}</em></h2>
-        <p>{direct ? 'Direct en préparation.' : channel.text}</p><span className="glass">{channel.cta} <span aria-hidden="true">→</span></span></div>
+        <p>{direct ? 'Direct en préparation.' : channel.text}</p><span className="glass"><channel.icon size={16} aria-hidden="true" /> {channel.cta}</span></div>
     </a>)}
   </section>;
 }
@@ -45,12 +46,12 @@ export function EditionFront({ stories, presentations, unavailable, open }: Fron
       <div className="wrap hero-content"><p className="eyebrow">INFORMATION · RADIO · TÉLÉVISION</p>
         <h1>L’information<br />nouvelle génération<span>.</span></h1>
         <p>Comprendre les faits, remonter aux sources et découvrir les voix de BYRVOX.</p>
-        <div className="actions"><a className="red" href={stories.length ? articleHref(lead) : '/article/notre-methode'}>{stories.length ? 'Lire la une' : 'Découvrir notre démarche'} <span aria-hidden="true">→</span></a>
+        <div className="actions"><a className="red" href={stories.length ? articleHref(lead) : '/article/notre-methode'}><BookOpen size={17} aria-hidden="true" /> {stories.length ? 'Lire la une' : 'Découvrir notre démarche'}</a>
           <a className="outline" href="#chaines">Explorer les rubriques</a></div>
       </div>
     </section>
     <div className="wrap">
-      <div className="launch"><span className="dot" /> ÉDITION DE LANCEMENT <span><a href={editionHref('direct')}>Les directs radio et TV sont en préparation. <span aria-hidden="true">→</span></a></span></div>
+      <div className="launch"><span className="dot" /> ÉDITION DE LANCEMENT <span><a href={editionHref('direct')}>Les directs radio et TV sont en préparation.</a></span></div>
       <ChannelCards />
       <section className="headlines" aria-label="La sélection de la rédaction">
         <div><div className="section-title"><h2>{stories.length ? 'À la une' : 'À la découverte de BYRVOX'}</h2></div>
@@ -62,23 +63,23 @@ export function EditionFront({ stories, presentations, unavailable, open }: Fron
         <div className="story-stack"><h2>Le projet BYRVOX</h2>{stack.map(story =>
           <a href={articleHref(story)} key={story.slug}><Image unoptimized loading="lazy" decoding="async" width="88" height="78" src={'/media/' + story.image + '.webp'} alt="" />
             <div><span className="eyebrow">{story.category}</span><h3>{story.title}</h3></div></a>)}
-          <a className="text-button" href={editionHref('presentations')}>Toutes les présentations →</a>
+          <a className="text-button" href={editionHref('presentations')}>Toutes les présentations</a>
         </div>
         <aside className="feed"><h2>Le fil info</h2>
           {feed.length ? feed.map(story => <a className="feed-entry" href={articleHref(story)} key={story.slug}>
             <small><StoryDate story={story} /></small><p>{story.title}</p></a>) : <div className="empty-feed">
             <p>{unavailable ? 'Le fil est temporairement indisponible.' : stories.length ? 'La dernière publication est à la une.' : 'Le premier article apparaîtra ici après sa publication par la rédaction.'}</p></div>}
-          <a className="outline" href={editionHref('actualites')}>Toutes les actualités →</a></aside>
+          <a className="outline" href={editionHref('actualites')}><Newspaper size={16} aria-hidden="true" /> Toutes les actualités</a></aside>
       </section>
       <section className="app-banner"><div><p className="eyebrow">WEB ET MOBILE</p><h2>BYRVOX te suit partout.</h2>
-        <p>Lis BYRVOX sur ton navigateur et garde les articles que tu veux retrouver.</p><a className="outline" href={editionHref('favoris')}>Mes favoris →</a></div>
+        <p>Lis BYRVOX sur ton navigateur et garde les articles que tu veux retrouver.</p><a className="outline" href={editionHref('favoris')}><Bookmark size={16} aria-hidden="true" /> Mes favoris</a></div>
         <div className="phone" aria-hidden="true"><Image unoptimized loading="lazy" decoding="async" src="/brand/logo-dark.png" width="150" height="29" alt="" />
           <div className="phone-screen">BEYOND<br />THE<br /><span>HEADLINES.</span></div><small>NEWS · RADIO · TV</small></div>
         <ul><li>Articles et décryptages</li><li>Lectures sauvegardées</li><li>Applications en préparation</li></ul>
       </section>
       <section className="newsletter"><div><p className="eyebrow">BYRVOX MAIL</p><h2>L’essentiel. Avec du recul.</h2>
         <p>Découvre les éditions de la newsletter en préparation.</p></div>
-        <button className="red" onClick={() => open('newsletters')}>Découvrir les éditions →</button></section>
+        <button className="red" onClick={() => open('newsletters')}><Mail size={16} aria-hidden="true" /> Découvrir les éditions</button></section>
     </div>
   </>;
 }
@@ -96,7 +97,7 @@ function SearchForm({ route }: { route: EditionRoute }) {
     <input type="hidden" name="rubrique" value={route.section} />
     {route.category && <input type="hidden" name="categorie" value={route.category} />}
     <input type="search" name="q" aria-label="Rechercher dans cette rubrique" placeholder="Rechercher un sujet…" defaultValue={route.query} maxLength={160} />
-    <button className="outline" type="submit">Rechercher</button>
+    <button className="outline" type="submit"><Search size={16} aria-hidden="true" /> Rechercher</button>
   </form>;
 }
 
@@ -135,27 +136,27 @@ export function SectionContent({ route, stories, presentations, unavailable, sav
     {format ? <section className="availability format-card">
       <Image unoptimized src={'/media/' + format.image + '.webp'} width="900" height="400" alt="" />
       <div><p className="eyebrow">EN PRÉPARATION</p><h2>{format.title}</h2><p>{format.text}</p>
-        <a href={'/article/' + format.slug} className="outline">{format.cta} →</a></div>
+        <a href={'/article/' + format.slug} className="outline">{format.cta}</a></div>
     </section> : section === 'direct' ? <ChannelCards direct /> : <section className="content-section">
       {section === 'favoris' && !signedIn ? <div className="empty">
-        {accountStatus === 'loading' ? 'Chargement de tes favoris…' : accountStatus === 'error' ? <><p>Ton espace est temporairement indisponible.</p><a href={editionHref('favoris')}>Réessayer →</a></> :
+        {accountStatus === 'loading' ? 'Chargement de tes favoris…' : accountStatus === 'error' ? <><p>Ton espace est temporairement indisponible.</p><a className="edition-icon-link" href={editionHref('favoris')}><RefreshCw size={16} aria-hidden="true" /> Réessayer</a></> :
           <><p>Connecte-toi pour retrouver tes articles sauvegardés.</p><a className="outline" href={'/signin-with-chatgpt?return_to=' + encodeURIComponent(editionHref('favoris'))} target="_top">Se connecter</a></>}
       </div> : <>
         <div className="section-title"><h2>{section === 'recherche' ? 'Résultats' : section === 'favoris' ? 'Tes lectures' : section === 'presentations' ? 'Les présentations' : 'Le fil de la rédaction'}</h2>
-          {section !== 'favoris' && <a className="text-button" href={editionHref('favoris')}>Mes favoris →</a>}</div>
+          {section !== 'favoris' && <a className="text-button edition-icon-link" href={editionHref('favoris')}><Bookmark size={16} aria-hidden="true" /> Mes favoris</a>}</div>
         {(pool.length > 0 || section === 'recherche' || query || category) && <div className="filter-area"><SearchForm route={route} />
           {categories.length > 0 && <nav className="edition-filters" aria-label="Filtrer par catégorie">
             {['', ...categories].map(item => <a key={item} href={editionHref(section, query, item)}
               aria-current={fold(category) === fold(item) ? 'true' : undefined}>{item || 'Tout'}</a>)}</nav>}
         </div>}
-        {unavailable && section !== 'presentations' && <div className="empty"><p>Le fil d’actualité est temporairement indisponible.</p><a href={editionHref(section, query, category)}>Réessayer →</a></div>}
+        {unavailable && section !== 'presentations' && <div className="empty"><p>Le fil d’actualité est temporairement indisponible.</p><a className="edition-icon-link" href={editionHref(section, query, category)}><RefreshCw size={16} aria-hidden="true" /> Réessayer</a></div>}
         {list.length > 0 ? <div className="content-grid">{list.map(story => <StoryCard key={story.slug} story={story} save={saveButton(story)} />)}</div> :
           (!unavailable || section === 'presentations') && <div className="empty"><p>{empty}</p>
-            {category || query || page > 1 ? <a href={editionHref(section)}>Effacer les filtres →</a> : <a href={editionHref('presentations')}>Découvrir les présentations du média →</a>}</div>}
+            {category || query || page > 1 ? <a href={editionHref(section)}>Effacer les filtres</a> : <a href={editionHref('presentations')}>Découvrir les présentations du média</a>}</div>}
         {serverFiltered && (hasNext || page > 1) && <nav className="edition-pagination" aria-label="Pagination">
-          {page > 1 && <a className="outline" rel="prev" href={editionHref(section, query, category, page - 1)}>← Précédent</a>}
+          {page > 1 && <a className="outline" rel="prev" href={editionHref(section, query, category, page - 1)}>Précédent</a>}
           <span>Page {page}</span>
-          {hasNext && <a className="outline" rel="next" href={editionHref(section, query, category, page + 1)}>Suivant →</a>}
+          {hasNext && <a className="outline" rel="next" href={editionHref(section, query, category, page + 1)}>Suivant</a>}
         </nav>}
       </>}
     </section>}

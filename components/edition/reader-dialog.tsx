@@ -1,3 +1,4 @@
+import { Bookmark, CircleUserRound, Download, Search, Trash2, X } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { editionHref } from '../../lib/edition';
 
@@ -15,10 +16,12 @@ export function ReaderDialog({ name, close, open, profile, currentUrl, query, pe
   currentUrl: string; query: string; pending: boolean; clear: () => Promise<void>;
 }) {
   const ref = useRef<HTMLDialogElement>(null);
+  const searchInput = useRef<HTMLInputElement>(null);
   const [confirm, setConfirm] = useState(false);
   useEffect(() => {
     const dialog = ref.current;
     dialog?.showModal();
+    searchInput.current?.focus();
     return () => { dialog?.close(); };
   }, []);
   function exportData() {
@@ -36,24 +39,24 @@ export function ReaderDialog({ name, close, open, profile, currentUrl, query, pe
         if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) close();
       }
     }}>
-    <button className="close" aria-label="Fermer" onClick={close}>×</button>
+    <button className="close" aria-label="Fermer" onClick={close}><X size={20} aria-hidden="true" /></button>
     <p className="eyebrow">BYRVOX</p>
     {name === 'recherche' ? <>
       <h2 id="reader-dialog-title">Rechercher sur BYRVOX</h2>
       <form action="/" role="search"><input type="hidden" name="rubrique" value="recherche" />
-        <label htmlFor="site-search">Titre, sujet ou rubrique</label><input id="site-search" type="search" name="q" autoFocus defaultValue={query} maxLength={160} />
-        <button className="red">Rechercher →</button></form>
+        <label htmlFor="site-search">Titre, sujet ou rubrique</label><input id="site-search" type="search" name="q" ref={searchInput} defaultValue={query} maxLength={160} />
+        <button className="red"><Search size={16} aria-hidden="true" /> Rechercher</button></form>
     </> : name === 'connexion' ? <>
       <h2 id="reader-dialog-title">Bienvenue chez BYRVOX.</h2><p>Connecte-toi pour retrouver tes articles sauvegardés et ton espace personnel.</p>
-      <a className="red" href={'/signin-with-chatgpt?return_to=' + encodeURIComponent(currentUrl)} target="_top">Continuer avec ChatGPT →</a>
+      <a className="red" href={'/signin-with-chatgpt?return_to=' + encodeURIComponent(currentUrl)} target="_top"><CircleUserRound size={16} aria-hidden="true" /> Continuer avec ChatGPT</a>
     </> : name === 'profil' ? <>
       <h2 id="reader-dialog-title">Ton espace</h2><p>{profile?.name}</p>
-      <a className="outline" href={editionHref('favoris')}>Mes articles sauvegardés</a>
-      <button className="outline" onClick={exportData}>Exporter mes données</button>
+      <a className="outline" href={editionHref('favoris')}><Bookmark size={16} aria-hidden="true" /> Mes articles sauvegardés</a>
+      <button className="outline" onClick={exportData}><Download size={16} aria-hidden="true" /> Exporter mes données</button>
       {confirm ? <div><p>Effacer les favoris et préférences de ce compte ?</p>
         <button className="outline" onClick={() => setConfirm(false)}>Annuler</button>
         <button className="red" disabled={pending} onClick={clear}>Confirmer l’effacement</button></div> :
-        <button className="outline" onClick={() => setConfirm(true)}>Effacer mes préférences BYRVOX</button>}
+        <button className="outline" onClick={() => setConfirm(true)}><Trash2 size={16} aria-hidden="true" /> Effacer mes préférences BYRVOX</button>}
       <a href={'/signout-with-chatgpt?return_to=' + encodeURIComponent(currentUrl)} target="_top">Se déconnecter</a>
     </> : name === 'newsletters' ? <>
       <h2 id="reader-dialog-title">Les newsletters en préparation</h2>
