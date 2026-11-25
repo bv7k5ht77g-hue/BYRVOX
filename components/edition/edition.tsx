@@ -74,7 +74,7 @@ function Footer({ open }: { open: (name: DialogName) => void }) {
       <a className="edition-icon-link" href={SITE_ORIGIN + '/editeur'}><Settings2 size={16} aria-hidden="true" /> Portail éditeur</a></div>
     <div><b>Transparence</b>{policies.map(policy => <button key={policy} onClick={() => open(policy)}>{policy}</button>)}</div>
   </div>
-  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.4.0 · Information · Radio · Télévision · Podcasts</span></div></footer>;
+  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.4.1 · Information · Radio · Télévision · Podcasts</span></div></footer>;
 }
 
 type EditionProps = {

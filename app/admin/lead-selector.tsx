@@ -1,3 +1,4 @@
+import { SITE_ORIGIN } from '../../lib/site-url';
 import { useEffect, useState } from 'react';
 import { ExternalLink } from 'lucide-react';
 
@@ -51,7 +52,7 @@ export function LeadSelector({ articles }: { articles: Choice[] }) {
     </select></label>
     <div className="button-row"><button className="outline" disabled={!current || saving || selected === (current.articleId || '')}
       onClick={save}>{saving ? 'Enregistrement…' : 'Enregistrer la une'}</button>
-      <a className="portal-link" href="/" target="_blank" rel="noreferrer" aria-label="Voir l’accueil, nouvel onglet">Voir l’accueil <ExternalLink size={15} aria-hidden="true" /></a>
+      <a className="portal-link" href={SITE_ORIGIN} target="_blank" rel="noreferrer" aria-label="Voir l’accueil, nouvel onglet">Voir l’accueil <ExternalLink size={15} aria-hidden="true" /></a>
       {loadFailed && <button className="outline" onClick={() => setAttempt(value => value + 1)}>Réessayer</button>}
     </div>
     {notice && <p role="status">{notice}</p>}
