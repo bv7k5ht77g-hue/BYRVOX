@@ -2,12 +2,13 @@
 
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import { ExternalLink, Plus, SquarePen } from 'lucide-react';
 import type { articles, events, revisions, runs } from '../../db/schema';
 
 type Source = { name: string; url: string };
 type Article = Omit<typeof articles.$inferSelect, 'draft'> & { isLive: boolean };
 type Editor = Pick<Article, 'id' | 'title' | 'category' | 'summary' | 'body' | 'risk' | 'status' | 'isLive'>
-  & { version?: number; sources: Source[] };
+  & { authorId?: string; version?: number; sources: Source[] };
 type Newsroom = {
   articles: Article[];
   events: (typeof events.$inferSelect)[];
@@ -28,8 +29,8 @@ function statusLabel(article: Pick<Article, 'status' | 'isLive'>) {
   return article.isLive ? state + ' · version précédente en ligne' : state;
 }
 
-async function loadNewsroom(): Promise<Newsroom> {
-  const response = await fetch('/api/newsroom', { cache: 'no-store' });
+async function loadNewsroom(signal?: AbortSignal): Promise<Newsroom> {
+  const response = await fetch('/api/newsroom', { cache: 'no-store', signal });
   if (!response.ok) throw Error('Rédaction indisponible.');
   return await response.json() as Newsroom;
 }
@@ -53,11 +54,30 @@ export default function Admin() {
   const [notes, setNotes] = useState('');
 
   useEffect(() => {
-    let active = true;
-    loadNewsroom().then(result => {
-      if (active) { setData(result); setLoaded(true); }
-    }).catch(() => { if (active) setMessage('Impossible de charger la rédaction.'); });
-    return () => { active = false; };
+    const controller = new AbortController();
+    const { signal } = controller;
+    async function initialize() {
+      let importNotice = '';
+      try {
+        const response = await fetch('/api/newsroom/edition', { method: 'POST', signal });
+        if (!response.ok) throw Error();
+        const result = await response.json() as { ok?: boolean; status?: string };
+        if (result.ok !== true || !['imported', 'unchanged', 'unavailable'].includes(result.status ?? '')) throw Error();
+        if (result.status === 'unavailable') importNotice = 'Aucune édition disponible à importer.';
+      } catch {
+        importNotice = 'Impossible d’importer l’édition.';
+      }
+      if (signal.aborted) return;
+      if (importNotice) setMessage(importNotice);
+      try {
+        const result = await loadNewsroom(signal);
+        if (!signal.aborted) { setData(result); setLoaded(true); }
+      } catch {
+        if (!signal.aborted) setMessage([importNotice, 'Impossible de charger la rédaction.'].filter(Boolean).join(' '));
+      }
+    }
+    void initialize();
+    return () => controller.abort();
   }, []);
 
   function open(article?: Article) {
@@ -111,6 +131,7 @@ export default function Admin() {
   }
 
   const aiStatus = loaded ? (data.generationConfigured ? 'Clé serveur configurée' : 'Clé serveur à configurer') : 'Chargement…';
+  const assistedEdition = edit.authorId === 'byrvox-redaction-assistee' || /^edition-[a-f0-9]{64}$/.test(edit.id);
   const canSubmit = !busy && edit.title.trim() && (dirty || edit.status !== 'published');
 
   return <div className="admin-shell">
@@ -118,12 +139,12 @@ export default function Admin() {
       <a href="/" className="brand"><Image unoptimized width={600} height={112} src="/brand/logo-dark.png" alt="BYRVOX"/></a>
       {tabs.map(item => <button key={item} className={tab === item ? 'selected' : ''} aria-current={tab === item ? 'page' : undefined}
         disabled={busy} onClick={() => setTab(item)}>{item}</button>)}
-      <a href="/">↗ Voir le site</a>
+      <a href="/">Voir le site</a>
       <small>COMMAND CENTER<br/>BYRVOX<br/>Validation humaine avant publication.</small>
     </aside>
     <main className="admin-main">
       <div className="admin-top"><div><p className="eyebrow">BYRVOX COMMAND CENTER</p><h1>{tab}</h1></div>
-        <button className="red" disabled={busy} onClick={() => open()}>+ Nouvel article</button>
+        <button className="red" disabled={busy} onClick={() => open()}><Plus size={16} aria-hidden="true" /> Nouvel article</button>
       </div>
       {message && <div role="status" className="admin-note">{message}</div>}
 
@@ -152,7 +173,7 @@ export default function Admin() {
       {tab === 'Articles' && <section className="panel"><h2>Articles récemment modifiés</h2>
         {data.articles.map(article => <div className="article-row" key={article.id}><div><h3>{article.title}</h3>
           <small>{article.category} · {statusLabel(article)}</small></div>
-          <button className="outline" onClick={() => open(article)}>Ouvrir →</button>
+          <button className="outline" onClick={() => open(article)} aria-label={'Ouvrir dans l’éditeur : ' + article.title}><SquarePen size={16} aria-hidden="true" /> Ouvrir</button>
         </div>)}
         {loaded && !data.articles.length && <p>Aucun article.</p>}
       </section>}
@@ -160,6 +181,7 @@ export default function Admin() {
       {tab === 'Éditeur' && <div className="admin-two">
         <section className="panel"><h2>{edit.id ? 'Modifier l’article' : 'Nouveau brouillon'}</h2>
           <p>{statusLabel(edit)}{dirty && ' · modifications à enregistrer'}</p>
+          {assistedEdition && <p className="admin-note">Texte préparé avec assistance IA. Vérifie les sources avant publication.</p>}
           {edit.isLive && <p>La version publiée reste accessible aux lecteurs jusqu’à la prochaine publication.</p>}
           <label>Titre<input disabled={busy} value={edit.title} maxLength={250} onChange={e => change({ title: e.target.value })}/></label>
           <label>Catégorie<select disabled={busy} value={edit.category} onChange={e => change({ category: e.target.value })}>
@@ -183,7 +205,7 @@ export default function Admin() {
             <label>URL HTTPS<input disabled={busy} type="url" value={source.url} maxLength={2000} onChange={e => updateSource(i, { url: e.target.value })}/></label>
             <button className="text-button" disabled={busy} onClick={() => change({ sources: edit.sources.filter((_, j) => j !== i) })}>Retirer cette source</button><hr/>
           </div>)}
-          <button className="outline" disabled={busy || edit.sources.length >= 20} onClick={() => change({ sources: [...edit.sources, { name: '', url: '' }] })}>+ Ajouter une source</button>
+          <button className="outline" disabled={busy || edit.sources.length >= 20} onClick={() => change({ sources: [...edit.sources, { name: '', url: '' }] })}><Plus size={16} aria-hidden="true" /> Ajouter une source</button>
           <p className="admin-note">Contrôle les faits, les dates, les citations et l’indépendance des sources avant de publier.</p>
         </section><section className="panel" style={{ marginTop: 20 }}><h2>Assistant de rédaction</h2>
           <label>Faits vérifiés et extraits autorisés<textarea disabled={busy} value={notes} maxLength={12000} onChange={e => setNotes(e.target.value)}/></label>
@@ -199,7 +221,7 @@ export default function Admin() {
         <button disabled={busy} className="red" onClick={() => action('/api/pulse', {})}>{busy ? 'Collecte en cours…' : 'Collecter les pistes NASA'}</button>
       </section><section className="panel" style={{ marginTop: 20 }}><h2>Pistes à vérifier</h2>
         {data.events.map(event => <div className="article-row" key={event.id}><div><h3>{event.title}</h3><small>{event.source}</small></div>
-          <a className="outline" href={event.url} target="_blank" rel="noreferrer">Source ↗</a></div>)}
+          <a className="outline" href={event.url} target="_blank" rel="noreferrer" aria-label={'Source de « ' + event.title + ' » (nouvel onglet)'}>Source <ExternalLink size={16} aria-hidden="true" /></a></div>)}
         {loaded && !data.events.length && <p>Aucune piste collectée.</p>}
       </section></>}
 

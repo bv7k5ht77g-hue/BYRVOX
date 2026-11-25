@@ -1,6 +1,6 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.2.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.h2y4xnnm6g.chatgpt.site)
+Version 0.3.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.h2y4xnnm6g.chatgpt.site)
 
 Plateforme francophone Next/React sur Vinext, Cloudflare Workers et D1. Design basé sur le mockup fourni, logos officiels conservés. Le site démarre avec des contenus de présentation identifiés, sans actualités inventées.
 
@@ -43,3 +43,9 @@ Les illustrations sont extraites du mockup fourni ; elles ne sont pas des photog
 `app/` : site, articles, administration et API ; `db/` : schéma D1 ; `lib/` : identité et règles éditoriales ; `public/brand` : logos ; `public/media` : illustrations du mockup ; `docs/` : état et feuille de route ; `tests/` : règles de publication ; `worker/` : point d’entrée serveur.
 
 Les écritures authentifiées vérifient l’origine. Le contenu des articles est rendu comme texte React et ne peut exécuter du HTML collecté. Les collecteurs n’acceptent aucune URL arbitraire. La clé API, les emails d’administration et les jetons d’accès ne doivent jamais être versionnés.
+
+## Édition du 25 novembre 2026
+
+Le Command Center charge les quinze articles de l’édition au premier accès d’un administrateur. Ils entrent dans le circuit « En vérification ». Chaque texte et ses références sont modifiables dans l’onglet Articles. Le bouton de publication rend uniquement l’article sélectionné visible aux lecteurs et l’ajoute au RSS.
+
+Le dépôt public conserve le lot chiffré dans `lib/review/2026-11-25.json`. La clé AES-GCM reste dans le secret serveur `BYRVOX_REVIEW_KEY_20261125`. Les articles importés sont conservés en D1 avec leur historique.
