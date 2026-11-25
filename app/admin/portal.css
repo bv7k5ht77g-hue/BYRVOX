@@ -1,0 +1,82 @@
+.admin-shell { grid-template-columns: 232px minmax(0,1fr); align-items: start; }
+.admin-shell .portal-sidebar {
+  position: sticky; top: 0; height: 100vh; height: 100dvh; overflow-y: auto;
+  overscroll-behavior: contain; scrollbar-gutter: stable; padding: 30px 16px;
+  gap: 28px; background: #202126; color: #fff;
+}
+.portal-sidebar .portal-brand { display: flex; align-items: center; padding: 0 10px; }
+.portal-sidebar .brand { width: 148px; margin: 0; }
+.portal-sidebar .brand img { display: block; height: auto; }
+.portal-sidebar nav { display: flex; flex-direction: column; gap: 4px; }
+.admin-shell .portal-sidebar nav button, .admin-shell .portal-sidebar nav a {
+  display: flex; align-items: center; gap: 11px; min-height: 44px; padding: 10px 14px;
+  font-size: 14px; font-weight: 600; text-align: left; border-radius: 6px; color: #e5e5e8;
+}
+.admin-shell .portal-sidebar nav button[aria-current] { background: #b80028; color: #fff; }
+.portal-sidebar nav button:not([aria-current]):hover, .portal-sidebar nav a:hover { background: #ffffff18; }
+.portal-sidebar nav .portal-site-link { margin-top: 14px; text-decoration: underline; text-underline-offset: 4px; }
+.portal-sidebar .portal-brand .portal-menu-toggle { display: none; }
+.admin-shell .admin-main { width: 100%; max-width: 1530px; margin-inline: auto; min-width: 0; overflow: visible; padding: clamp(20px,3vw,48px); }
+.admin-shell .admin-two { align-items: start; grid-template-columns: minmax(0,1.38fr) minmax(0,1fr); }
+.admin-shell .admin-top { flex-wrap: wrap; }
+.admin-shell .panel { min-width: 0; overflow-wrap: anywhere; padding: clamp(16px,2vw,28px); }
+.admin-shell .panel h2 { font-size: 21px; }
+.admin-shell .panel h3 { font-size: 16px; }
+.admin-shell .panel label { font-size: 14px; line-height: 1.45; margin: 15px 0; }
+.admin-shell .panel input, .admin-shell .panel select, .admin-shell .panel textarea { min-width: 0; font-size: 15px; line-height: 1.45; color: var(--ink); }
+.admin-shell .panel textarea.body-edit { min-height: 340px; line-height: 1.65; }
+.admin-shell .panel p, .admin-shell .panel .portal-help, .admin-shell .admin-note { font-size: 14px; }
+.admin-shell .panel small { font-size: 13px; line-height: 1.5; }
+.admin-shell .badge { white-space: normal; align-self: start; font-size: 12px; text-align: center; }
+.admin-shell .button-row { align-items: center; }
+.admin-shell :is(.outline,.red) { min-height: 42px; white-space: normal; }
+.admin-shell .portal-lead { margin-bottom: 22px; }
+.admin-shell .portal-lead .button-row, .admin-shell .portal-photo-actions { margin-block: 12px; }
+.admin-shell .portal-lead select { max-width: 48rem; }
+.admin-shell .portal-link { display: inline-flex; align-items: center; gap: 6px; min-height: 42px; text-decoration: underline; text-underline-offset: 4px; padding: 6px; }
+.admin-shell .portal-filters { display: grid; grid-template-columns: minmax(0,2fr) minmax(150px,1fr); gap: 16px; }
+.admin-shell .portal-editor-tools { display: grid; gap: 20px; }
+.admin-shell .portal-photo input[hidden] { display: none; }
+.admin-shell .portal-photo-image { display: block; width: 100%; height: auto; max-height: 300px; object-fit: contain; background: var(--surface); border-radius: 6px; }
+.admin-shell .portal-photo-fields label span { font-weight: 400; color: var(--muted); }
+.admin-shell .portal-photo-fields textarea { min-height: 72px; }
+.admin-shell .portal-photo .portal-photo-status { margin-top: 10px; font-weight: 600; color: var(--ink); }
+.admin-shell .portal-preview-trigger { margin-bottom: 10px; }
+.admin-shell .portal-empty { padding-block: 20px; }
+.admin-shell .portal-empty button { margin-top: 12px; }
+.portal-preview { color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 12px; width: min(880px,calc(100vw - 24px)); max-height: calc(100dvh - 30px); padding: 0; margin: auto; }
+.portal-preview::backdrop { background: #111a; }
+.portal-preview-head { position: sticky; top: 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; background: var(--bg); padding: 10px 18px; border-bottom: 1px solid var(--line); }
+.portal-preview article { padding: clamp(20px,5vw,54px); overflow-wrap: anywhere; }
+.portal-preview article h2 { font-size: clamp(30px,4.3vw,54px); margin: 12px 0 18px; line-height: 1.05; }
+.portal-preview .portal-preview-summary { color: var(--muted); font-size: 19px; margin: 14px 0; }
+.portal-preview figure { margin: 24px 0; }
+.portal-preview figure img { max-width: 100%; height: auto; display: block; margin: auto; }
+.portal-preview figcaption, .portal-preview figcaption span, .portal-preview li small { display: block; margin-top: 5px; color: var(--muted); }
+.portal-preview-copy p { font-size: 17px; line-height: 1.8; margin: 20px 0; }
+.portal-preview article section { padding-top: 14px; border-top: 1px solid var(--line); }
+@media(max-width:1150px) {
+  .admin-shell { grid-template-columns: 196px minmax(0,1fr); }
+  .admin-shell .admin-two { grid-template-columns: minmax(0,1fr); }
+}
+@media(max-width:760px) {
+  .admin-shell { grid-template-columns: minmax(0,1fr); }
+  .admin-shell .portal-sidebar { z-index: 20; display: block; height: auto; max-height: 80vh; max-height: 80dvh; width: 100%; padding: 9px 14px; overflow: auto; scrollbar-gutter: auto; }
+  .portal-sidebar .portal-brand { justify-content: space-between; padding: 0; }
+  .portal-sidebar .brand { width: 118px; margin: 0; }
+  .portal-sidebar .portal-brand .portal-menu-toggle { display: inline-flex; align-items: center; gap: 7px; min-height: 42px; font-size: 14px; color: white; }
+  .portal-sidebar nav:not(.is-open) { display: none; }
+  .portal-sidebar nav.is-open { margin-top: 8px; }
+  .admin-shell .admin-main { padding: 22px 16px; }
+  .admin-shell .portal-filters { grid-template-columns: 1fr; gap: 0; }
+  .admin-shell .portal-filters label { margin-block: 6px; }
+  .admin-shell .article-row { align-items: start; flex-wrap: wrap; }
+  .admin-shell .panel input, .admin-shell .panel select, .admin-shell .panel textarea { font-size: 16px; }
+}
+.admin-shell .portal-gallery { min-width: 0; }
+.admin-shell .portal-gallery summary { cursor: pointer; font-weight: 700; font-size: 18px; padding-block: 4px; }
+.admin-shell .portal-gallery summary span { font-size: 13px; color: var(--muted); margin-left: .4em; }
+.admin-shell .portal-gallery > p { margin-block: 14px; }
+.admin-shell .portal-gallery fieldset { min-width: 0; margin: 16px 0; border: 1px solid var(--line); border-radius: 6px; padding: 12px; }
+.admin-shell .portal-gallery legend { padding-inline: 6px; font-weight: 700; }
+.admin-shell .portal-gallery input[hidden] { display: none; }

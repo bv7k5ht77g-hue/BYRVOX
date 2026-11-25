@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { features } from '../lib/content';
 import { SITE_ORIGIN } from '../lib/site-url';
 import { editionHref, sections, type Section, type Summary } from '../lib/edition';
-import { listPublishedArticles, readEditionArticles } from '../lib/public-articles';
+import { listHomepageStories, readEditionArticles } from '../lib/public-articles';
 import { Edition } from '../components/edition/edition';
 
 export const dynamic = 'force-dynamic';
@@ -39,7 +39,7 @@ export default async function Home({ searchParams }: Props) {
   let hasNext = false;
   let categories: string[] = [];
   try {
-    if (route.section === 'accueil') stories = await listPublishedArticles(6);
+    if (route.section === 'accueil') stories = await listHomepageStories();
     if (route.section === 'recherche' || route.section === 'actualites') {
       ({ stories, hasNext, categories } = await readEditionArticles(route));
     }

@@ -121,3 +121,8 @@ html[data-theme="dark"] .reader-category { color: #ff8d9c }
 .reader-sources a:hover strong { text-decoration: underline; text-underline-offset: 3px }
 .reader-sources small { display: block; margin-top: 2px; font-size: .8rem; color: var(--muted) }
 .reader-back { margin-top: 22px }
+.reader-main .cover-figure { margin: 28px 0 0; }
+.reader-main .cover-figure > img { max-height: 72vh; object-fit: contain; background: var(--surface); }
+.reader-gallery { margin: 36px 0; display: grid; gap: 24px; }
+.reader-gallery h2 { font-size: 1.3rem; letter-spacing: -.02em; }
+.reader-gallery .cover-figure { margin: 0; }

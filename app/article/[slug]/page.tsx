@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { articleUrl } from "../../../lib/site-url";
+import type { ArticlePhoto } from "../../../lib/article-photo";
+import { resolveCover, type CoverPhoto } from "../../../lib/cover-photo";
+import { CoverFigure } from "../../../components/edition/cover-figure";
+import { articleUrl, SITE_ORIGIN } from "../../../lib/site-url";
 import { notFound } from "next/navigation";
 import { cache } from "react";
 import { and, eq } from "drizzle-orm";
@@ -16,27 +19,31 @@ import "../reader.css";
 export const dynamic = "force-dynamic";
 type ArticleProps = { params: Promise<{ slug: string }> };
 
-type ReaderArticle = { story: Story; isFeature: boolean };
+type ReaderArticle = { story: Story; isFeature: boolean; photo: CoverPhoto | null; gallery: ArticlePhoto[] };
 
 const getArticle = cache(async (slug: string): Promise<ReaderArticle | null> => {
   const feature = features.find((article) => article.slug === slug);
-  if (feature) return { story: feature, isFeature: true };
+  if (feature) return { story: feature, isFeature: true, photo: null, gallery: [] };
 
   const [story] = await getDb().select({
     slug: articles.slug, title: articles.title, category: articles.category, summary: articles.summary,
+    photo: articles.photo, photoHidden: articles.photoHidden, gallery: articles.gallery,
     body: articles.body, sources: articles.sources, publishedAt: articles.publishedAt, updatedAt: articles.updatedAt,
   }).from(articles)
     .where(and(eq(articles.slug, slug), eq(articles.status, "published")))
     .limit(1);
-  return story ? { story, isFeature: false } : null;
+  if (!story) return null;
+  const { photo, photoHidden, gallery, ...content } = story;
+  return { story: content, isFeature: false, photo: resolveCover(slug, photo, photoHidden), gallery: gallery || [] };
 });
 
 export async function generateMetadata({ params }: ArticleProps): Promise<Metadata> {
   const { slug } = await params;
   const record = await getArticle(slug);
   if (!record) return { title: "Article introuvable", robots: { index: false, follow: false } };
-  const { story, isFeature } = record;
+  const { story, isFeature, photo } = record;
   const path = articleUrl(slug);
+  const image = photo ? { url: photo.url, alt: photo.alt } : isFeature && story.image ? { url: "/media/" + story.image + ".webp" } : null;
   return {
     title: story.title,
     description: story.summary,
@@ -46,9 +53,10 @@ export async function generateMetadata({ params }: ArticleProps): Promise<Metada
       url: path, locale: "fr_CA", siteName: "BYRVOX", section: story.category,
       publishedTime: isoDate(story.publishedAt) ?? undefined,
       modifiedTime: isoDate(story.updatedAt) ?? undefined,
-      ...(isFeature && story.image ? { images: [{ url: "/media/" + story.image + ".webp" }] } : {}),
+      ...(image ? { images: [image] } : {}),
     },
-    twitter: { card: "summary", title: story.title, description: story.summary },
+    twitter: { card: image ? "summary_large_image" : "summary", title: story.title, description: story.summary,
+      ...(image ? { images: [image] } : {}) },
   };
 }
 
@@ -56,7 +64,7 @@ export default async function Article({ params }: ArticleProps) {
   const { slug } = await params;
   const record = await getArticle(slug);
   if (!record) notFound();
-  const { story, isFeature } = record;
+  const { story, isFeature, photo } = record;
   const sources = sourcesForReader(story.sources);
   const published = isoDate(story.publishedAt);
   const updated = isoDate(story.updatedAt);
@@ -65,6 +73,7 @@ export default async function Article({ params }: ArticleProps) {
     "@context": "https://schema.org",
     "@type": isFeature ? "Article" : "NewsArticle",
     mainEntityOfPage: articleUrl(slug),
+    image: photo ? new URL(photo.url, SITE_ORIGIN).href : undefined,
     headline: story.title, description: story.summary, articleSection: story.category,
     inLanguage: "fr", author: { "@type": "Organization", name: "BYRVOX" },
     publisher: { "@type": "Organization", name: "BYRVOX" },
@@ -102,6 +111,7 @@ export default async function Article({ params }: ArticleProps) {
               <span className="reader-duration"><Clock3 size={14} aria-hidden="true" />{readingMinutes} min de lecture</span>
             </div>
           </div>
+          {photo && <CoverFigure photo={photo} priority />}
           {isFeature && story.image && story.image !== "city" && (
             <figure className="reader-photo">
               <Image src={"/media/" + story.image + ".webp"} width={900} height={400} alt="" loading="eager" unoptimized />
@@ -111,6 +121,10 @@ export default async function Article({ params }: ArticleProps) {
           <div className="reader-copy">
             {story.body.split(/\r?\n/).filter((p) => p.trim()).map((p, i) => <p key={i}>{p}</p>)}
           </div>
+          {record.gallery.length > 0 && <section className="reader-gallery" aria-labelledby="gallery-title">
+            <h2 id="gallery-title">En images</h2>
+            {record.gallery.map((item, index) => <CoverFigure key={item.url + index} photo={item} />)}
+          </section>}
           {(!isFeature || sources.length > 0) && (
             <section aria-labelledby="sources" className="reader-sources">
               <h2 id="sources">Sources de l’article</h2>

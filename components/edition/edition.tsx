@@ -3,6 +3,7 @@
 import { Bookmark, BookmarkCheck, CircleUserRound, Menu, Moon, Rss, Search, Settings2, Sun, X } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { editionHref, sections, type EditionRoute, type Section, type Summary } from '../../lib/edition';
+import { SITE_ORIGIN } from '../../lib/site-url';
 import { EditionFront, SectionContent } from './sections';
 import { ReaderDialog, type DialogName, type Profile } from './reader-dialog';
 
@@ -70,10 +71,10 @@ function Footer({ open }: { open: (name: DialogName) => void }) {
       <a key={section} href={editionHref(section)}>{sections[section]}</a>)}<a className="edition-icon-link" href="/rss.xml"><Rss size={16} aria-hidden="true" /> Flux RSS</a></div>
     <div><b>Le groupe</b><button onClick={() => open('marques')}>RadioYO &amp; TVYO</button>
       <a href="/article/notre-methode">Notre démarche</a><button onClick={() => open('abonnement')}>Abonnements</button>
-      <a className="edition-icon-link" href="/admin"><Settings2 size={16} aria-hidden="true" /> Command Center</a></div>
+      <a className="edition-icon-link" href={SITE_ORIGIN + '/editeur'}><Settings2 size={16} aria-hidden="true" /> Portail éditeur</a></div>
     <div><b>Transparence</b>{policies.map(policy => <button key={policy} onClick={() => open(policy)}>{policy}</button>)}</div>
   </div>
-  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.3.2 · Information · Radio · Télévision · Podcasts</span></div></footer>;
+  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.4.0 · Information · Radio · Télévision · Podcasts</span></div></footer>;
 }
 
 type EditionProps = {

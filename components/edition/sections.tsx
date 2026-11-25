@@ -3,6 +3,7 @@ import Image from 'next/image';
 import type { ReactNode } from 'react';
 import { articleHref, editionHref, fold, sections, type EditionRoute, type Section, type Summary } from '../../lib/edition';
 import type { DialogName } from './reader-dialog';
+import { CoverFigure } from './cover-figure';
 
 const channels = [
   { section: 'actualites', name: 'News', icon: Newspaper, image: 'news', text: 'Actualités, sources et décryptages.', cta: 'Lire les actualités' },
@@ -35,42 +36,56 @@ function ChannelCards({ direct = false }: { direct?: boolean }) {
   </section>;
 }
 
+function FrontLead({ story }: { story: Summary }) {
+  const href = articleHref(story);
+  return <section className="wrap front-lead" aria-labelledby="lead-title">
+    <div className={'front-lead-grid' + (story.photo ? '' : ' front-lead-text-only')}>
+      <div className="front-lead-copy">
+        <div className="front-lead-meta"><strong>À la une</strong><span>{story.category}</span><span><StoryDate story={story} /></span></div>
+        <h1 id="lead-title"><a href={href}>{story.title}</a></h1>
+        <p>{story.summary}</p>
+        <a className="red front-lead-cta" href={href}><BookOpen size={17} aria-hidden="true" /> Lire l’article</a>
+      </div>
+      {story.photo && <CoverFigure photo={story.photo} href={href} priority />}
+    </div>
+  </section>;
+}
+
+function Welcome() {
+  return <section className="hero"><picture className="hero-image"><source media="(max-width: 640px)" srcSet="/media/hero-mobile.webp" />
+    <img src="/media/hero.webp" width="1104" height="540" fetchPriority="high" alt="" /></picture>
+    <div className="wrap hero-content"><p className="eyebrow">INFORMATION · RADIO · TÉLÉVISION</p>
+      <h1>L’information<br />nouvelle génération<span>.</span></h1>
+      <p>Comprendre les faits, remonter aux sources et découvrir les voix de BYRVOX.</p>
+      <div className="actions"><a className="red" href="/article/notre-methode"><BookOpen size={17} aria-hidden="true" /> Découvrir notre démarche</a>
+        <a className="outline" href="#chaines">Explorer les rubriques</a></div>
+    </div>
+  </section>;
+}
+
 type FrontProps = { stories: Summary[]; presentations: Summary[]; unavailable: boolean; open: (name: DialogName) => void };
 export function EditionFront({ stories, presentations, unavailable, open }: FrontProps) {
-  const lead = stories[0] || presentations[0];
-  const stack = presentations.filter(story => story.slug !== lead.slug).slice(0, 3);
-  const feed = stories.slice(1, 6);
+  const [lead, ...feed] = stories;
   return <>
-    <section className="hero"><picture className="hero-image"><source media="(max-width: 640px)" srcSet="/media/hero-mobile.webp" />
-      <img src="/media/hero.webp" width="1104" height="540" fetchPriority="high" alt="" /></picture>
-      <div className="wrap hero-content"><p className="eyebrow">INFORMATION · RADIO · TÉLÉVISION</p>
-        <h1>L’information<br />nouvelle génération<span>.</span></h1>
-        <p>Comprendre les faits, remonter aux sources et découvrir les voix de BYRVOX.</p>
-        <div className="actions"><a className="red" href={stories.length ? articleHref(lead) : '/article/notre-methode'}><BookOpen size={17} aria-hidden="true" /> {stories.length ? 'Lire la une' : 'Découvrir notre démarche'}</a>
-          <a className="outline" href="#chaines">Explorer les rubriques</a></div>
-      </div>
-    </section>
+    {lead ? <FrontLead story={lead} /> : <Welcome />}
     <div className="wrap">
-      <div className="launch"><span className="dot" /> ÉDITION DE LANCEMENT <span><a href={editionHref('direct')}>Les directs radio et TV sont en préparation.</a></span></div>
-      <ChannelCards />
-      <section className="headlines" aria-label="La sélection de la rédaction">
-        <div><div className="section-title"><h2>{stories.length ? 'À la une' : 'À la découverte de BYRVOX'}</h2></div>
-          <a href={articleHref(lead)} className={lead.presentation ? "lead-story" : "lead-story published-lead"}>
-            {lead.image && <Image unoptimized loading="lazy" decoding="async" width="900" height="400" src={'/media/' + lead.image + '.webp'} alt="" />}
-            <div><span className="pill">{lead.category}</span><h3>{lead.title}</h3><p>{lead.summary}</p><small><StoryDate story={lead} /></small></div>
-          </a>
-        </div>
-        <div className="story-stack"><h2>Le projet BYRVOX</h2>{stack.map(story =>
+      <div className="front-columns">
+        <section className="front-feed" aria-labelledby="feed-title">
+          <div className="section-title"><h2 id="feed-title">Le fil info</h2>
+            <a href={editionHref('actualites')}>Toutes les actualités</a></div>
+          {feed.length ? <ul>{feed.map(story => <li key={story.slug}><a className="front-feed-entry" href={articleHref(story)}>
+            <div><span className="eyebrow">{story.category}</span><h3>{story.title}</h3><small><StoryDate story={story} /></small></div>
+            {story.photo && <Image unoptimized loading="lazy" decoding="async" width={120} height={80} src={story.photo.thumbnailUrl || story.photo.url} alt="" />}
+          </a></li>)}</ul> : <p className="front-feed-empty">
+            {unavailable ? 'Le fil est temporairement indisponible.' : lead ? 'La dernière publication est à la une.' : 'Le premier article apparaîtra ici après sa publication par la rédaction.'}</p>}
+        </section>
+        <section className="story-stack"><h2>Le projet BYRVOX</h2>{presentations.slice(0, 3).map(story =>
           <a href={articleHref(story)} key={story.slug}><Image unoptimized loading="lazy" decoding="async" width="88" height="78" src={'/media/' + story.image + '.webp'} alt="" />
             <div><span className="eyebrow">{story.category}</span><h3>{story.title}</h3></div></a>)}
           <a className="text-button" href={editionHref('presentations')}>Toutes les présentations</a>
-        </div>
-        <aside className="feed"><h2>Le fil info</h2>
-          {feed.length ? feed.map(story => <a className="feed-entry" href={articleHref(story)} key={story.slug}>
-            <small><StoryDate story={story} /></small><p>{story.title}</p></a>) : <div className="empty-feed">
-            <p>{unavailable ? 'Le fil est temporairement indisponible.' : stories.length ? 'La dernière publication est à la une.' : 'Le premier article apparaîtra ici après sa publication par la rédaction.'}</p></div>}
-          <a className="outline" href={editionHref('actualites')}><Newspaper size={16} aria-hidden="true" /> Toutes les actualités</a></aside>
-      </section>
+        </section>
+      </div>
+      <ChannelCards />
       <section className="app-banner"><div><p className="eyebrow">WEB ET MOBILE</p><h2>BYRVOX te suit partout.</h2>
         <p>Lis BYRVOX sur ton navigateur et garde les articles que tu veux retrouver.</p><a className="outline" href={editionHref('favoris')}><Bookmark size={16} aria-hidden="true" /> Mes favoris</a></div>
         <div className="phone" aria-hidden="true"><Image unoptimized loading="lazy" decoding="async" src="/brand/logo-dark.png" width="150" height="29" alt="" />
@@ -102,9 +117,10 @@ function SearchForm({ route }: { route: EditionRoute }) {
 }
 
 function StoryCard({ story, save }: { story: Summary; save: ReactNode }) {
-  return <article className={story.image ? 'story-card' : 'story-card published-card'}><a href={articleHref(story)}>
-    {story.image && <div className="thumb"><Image unoptimized src={'/media/' + story.image + '.webp'} width="900" height="400" loading="lazy" decoding="async" alt="" />
-      <span>PRÉSENTATION</span></div>}
+  const src = story.photo?.thumbnailUrl || story.photo?.url || (story.image ? '/media/' + story.image + '.webp' : undefined);
+  return <article className={src ? 'story-card' : 'story-card published-card'}><a href={articleHref(story)}>
+    {src && <div className="thumb"><Image unoptimized src={src} width={450} height={250} loading="lazy" decoding="async" alt="" />
+      {story.presentation && <span>PRÉSENTATION</span>}</div>}
     <p className="eyebrow">{story.category}</p><h3>{story.title}</h3><p>{story.summary}</p>
     <small><StoryDate story={story} /></small></a>{save}</article>;
 }
