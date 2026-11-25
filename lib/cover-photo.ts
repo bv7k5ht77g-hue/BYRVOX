@@ -10,7 +10,8 @@ const catalog: Record<string, CatalogEntry> = { ...collectionA, ...collectionB }
 export function catalogCover(slug: string): CoverPhoto | null {
   if (!Object.hasOwn(catalog, slug)) return null;
   const { src, alt, caption, credit, sourceUrl, license, licenseUrl } = catalog[slug];
-  return { url: src, thumbnailUrl: '/media/editorial/thumbs/' + slug + '.webp', alt, caption, credit, sourceUrl, license, licenseUrl };
+  const thumbnailUrl = src.replace('/media/editorial/', '/media/editorial/thumbs/');
+  return { url: src, thumbnailUrl, alt, caption, credit, sourceUrl, license, licenseUrl };
 }
 
 export function resolveCover(slug: string, photo: ArticlePhoto | null, hidden = false): CoverPhoto | null {

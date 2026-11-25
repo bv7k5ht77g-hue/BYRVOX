@@ -4,7 +4,7 @@ import { z } from 'zod';
 import { getDb } from '../../../db';
 import { articles, events, revisions, runs } from '../../../db/schema';
 import { admin, runtime, sameOrigin } from '../../../lib/access';
-import { uploadedPhotoName } from '../../../lib/article-photo';
+import { photoPublicationError, uploadedPhotoName } from '../../../lib/article-photo';
 import { publicationError, slugify, validSourceUrl } from '../../../lib/editorial.mjs';
 import { boundedJson } from '../../../lib/input';
 
@@ -93,12 +93,9 @@ export async function POST(req: Request) {
   const now = new Date().toISOString();
   let next: Content;
   if (input.action === 'publish' && previous) {
-    const error = publicationError(previous);
+    const liveEdition = stored?.status === 'published' ? stored : undefined;
+    const error = publicationError(previous) || photoPublicationError(previous, liveEdition);
     if (error) return problem(error, 422);
-    const images = previous.photo ? [previous.photo, ...previous.gallery] : previous.gallery;
-    if (images.some(photo => !photo.alt.trim() || !photo.credit.trim())) {
-      return problem('Ajoute un texte alternatif et un crédit à chaque photo avant de publier.', 422);
-    }
     next = { ...contentOf(previous), status: 'published', updatedAt: now };
   } else if (input.action === 'restore' && stored) {
     const revision = input.revisionId && await db.select().from(revisions)
