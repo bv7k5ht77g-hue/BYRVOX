@@ -13,3 +13,4 @@ jobs:
       - run: node --test tests/editorial.test.mjs
       - run: node node_modules/typescript/bin/tsc --noEmit
       - run: npm run build
+      - run: node --test tests/worker-cms.mjs
