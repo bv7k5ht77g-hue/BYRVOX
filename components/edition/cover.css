@@ -1,5 +1,5 @@
 .cover-figure { margin: 0; min-width: 0; }
-.cover-figure > img, .cover-link img { display: block; width: 100%; height: auto; }
+.cover-figure > img, .cover-link img { display: block; width: auto; max-width: 100%; height: auto; margin-inline: auto; }
 .cover-link { display: block; }
 .cover-figure figcaption { display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 7px; padding-top: 8px; color: var(--muted); font-size: .8rem; line-height: 1.5; }
 .cover-credit { font-size: .76rem; }

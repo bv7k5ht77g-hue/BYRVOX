@@ -342,6 +342,15 @@ test('la rédaction contrôle les fichiers et la visibilité des photos au fil d
     const blocked = await request('/api/newsroom', editor, { id: incomplete.id, version: incomplete.version, action: 'publish' });
     assert.equal(blocked.status, 422);
   }
+  for (const [images, label] of [
+    [{ photo: { ...photo, caption: ' ' } }, 'photo de couverture'],
+    [{ gallery: [photo, { ...replacement, caption: '' }] }, 'photo 2 de la galerie'],
+  ]) {
+    const draft = await edit({ ...initial, action: 'review', ...images });
+    const response = await request('/api/newsroom', editor, { id: draft.id, version: draft.version, action: 'publish' });
+    assert.equal(response.status, 422);
+    assert.equal((await response.json()).error, `Ajoute une légende à la ${label} avant de publier.`);
+  }
   const invalidSource = await request('/api/newsroom', editor, { ...initial,
     photo: { ...photo, sourceUrl: 'https://user:password@example.invalid/image' } });
   assert.ok(invalidSource.status >= 400 && invalidSource.status < 500);
@@ -430,6 +439,23 @@ test('la rédaction contrôle les fichiers et la visibilité des photos au fil d
   assert.deepEqual(restoredGallery.gallery, gallery);
   assert.equal((await request(galleryUrl)).status, 404);
   assert.equal((await request(replacementUrl)).status, 200);
+
+  // Simulate public media stored before the caption requirement.
+  const legacyPhoto = { ...photo, caption: '' };
+  const legacyGallery = [{ ...replacement, caption: '' }];
+  await db.prepare("UPDATE articles SET photo = ?, photo_hidden = 0, gallery = ?, draft = NULL WHERE id = ?")
+    .bind(JSON.stringify(legacyPhoto), JSON.stringify(legacyGallery), id).run();
+  assert.equal((await request(url)).status, 200);
+  const textCorrection = await edit({ ...initial, id, title: 'Texte corrigé', action: 'review' });
+  const kept = await edit({ id, version: textCorrection.version, action: 'publish' });
+  assert.deepEqual(kept.photo, legacyPhoto);
+  assert.deepEqual(kept.gallery, legacyGallery);
+  const captioned = await edit({ ...initial, id, photo, gallery: [replacement], action: 'review' });
+  await edit({ id, version: captioned.version, action: 'publish' });
+  const erased = await edit({ ...initial, id, photo: legacyPhoto, action: 'review' });
+  const refused = await request('/api/newsroom', editor, { id, version: erased.version, action: 'publish' });
+  assert.equal(refused.status, 422);
+  assert.deepEqual(await publicPhoto(), photo);
 });
 
 test('la une peut être épinglée puis rendue à la publication automatique', async (t) => {

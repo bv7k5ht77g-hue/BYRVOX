@@ -6,6 +6,23 @@ export type ArticlePhoto = {
   sourceUrl?: string;
 };
 
+type PhotoEdition = { photo: ArticlePhoto | null; gallery: ArticlePhoto[] };
+
+export function photoPublicationError(edition: PhotoEdition, published?: PhotoEdition) {
+  const livePhotos = published ? [published.photo, ...published.gallery] : [];
+  for (const [position, photo] of [edition.photo, ...edition.gallery].entries()) {
+    if (!photo) continue;
+    const label = position === 0 ? 'la photo de couverture' : `la photo ${position} de la galerie`;
+    if (!photo.alt?.trim()) return `Ajoute un texte alternatif à ${label} avant de publier.`;
+    if (!photo.credit?.trim()) return `Indique le crédit de ${label} avant de publier.`;
+    // A text correction can retain a photo published before captions were required.
+    if (!photo.caption?.trim() && !livePhotos.some(live => live?.url === photo.url && !live.caption?.trim())) {
+      return `Ajoute une légende à ${label} avant de publier.`;
+    }
+  }
+  return null;
+}
+
 export const photoByteLimit = 8 * 1024 * 1024;
 export const photoRoute = '/api/photos/';
 export const photoNamePattern = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}\.(jpg|png|webp)$/;

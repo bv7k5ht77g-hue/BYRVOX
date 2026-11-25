@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useId, useRef, useState } from 'react';
 import Image from 'next/image';
 import { ChevronDown, ChevronUp, ImagePlus, Replace, Trash2 } from 'lucide-react';
 import { catalogCover, resolveCover } from '../../lib/cover-photo';
@@ -29,7 +29,7 @@ function UploadButton({ replace, busy, setUploading, change, notify, label }: Up
       const result = await response.json() as { url?: string; error?: string };
       if (!response.ok || !result.url) throw Error(result.error || 'L’envoi de la photo a échoué.');
       change({ url: result.url, alt: '', caption: '', credit: '' });
-      notify('Photo chargée. Renseigne la description et le crédit, puis enregistre l’article.');
+      notify('Photo chargée. Ajoute son texte alternatif, son crédit et sa légende avant de publier.');
     } catch (error) {
       if (!controller.signal.aborted) notify(error instanceof Error && !(error instanceof TypeError || error instanceof SyntaxError)
         ? error.message : 'La photo n’a pas pu être envoyée. Réessaie dans un instant.');
@@ -50,14 +50,16 @@ function UploadButton({ replace, busy, setUploading, change, notify, label }: Up
 function PhotoMetadata({ photo, busy, change }: {
   photo: ArticlePhoto; busy: boolean; change: (photo: ArticlePhoto) => void;
 }) {
+  const captionHelpId = useId();
   return <div className="portal-photo-fields">
     <label>Texte alternatif<input disabled={busy} value={photo.alt} maxLength={300}
       onChange={event => change({ ...photo, alt: event.target.value })} /></label>
     <label>Crédit photo<input disabled={busy} value={photo.credit} maxLength={300}
       onChange={event => change({ ...photo, credit: event.target.value })} /></label>
-    <p className="portal-help">Le texte alternatif décrit l’image pour les lecteurs d’écran. Le crédit identifie le photographe ou l’agence. Ces deux champs sont requis pour publier.</p>
-    <label>Légende <span>(facultatif)</span><textarea disabled={busy} value={photo.caption} maxLength={1000} rows={2}
+    <p className="portal-help">Le texte alternatif décrit l’image pour les lecteurs d’écran. Le crédit identifie le photographe ou l’agence. Tous deux sont requis pour publier.</p>
+    <label>Légende<textarea disabled={busy} value={photo.caption} aria-describedby={captionHelpId} maxLength={1000} rows={2}
       onChange={event => change({ ...photo, caption: event.target.value })} /></label>
+    <p id={captionHelpId} className="portal-help">Pour publier une nouvelle photo, indique qui ou quoi elle montre. Précise le lieu et la date si tu les connais. S’il s’agit d’une archive ou d’une illustration, signale-le dans la légende.</p>
     <label>Lien vers la source de la photo <span>(facultatif)</span><input type="url" disabled={busy}
       placeholder="https://" value={photo.sourceUrl || ''} maxLength={2000}
       onChange={event => change({ ...photo, sourceUrl: event.target.value || undefined })} /></label>
