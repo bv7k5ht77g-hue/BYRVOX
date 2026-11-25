@@ -1,16 +1,8 @@
-import { requireChatGPTUser } from '../chatgpt-auth';
-import { admin } from '../../lib/access';
-import Admin from './ui';
+import { EditorPortal } from '../../components/editor-portal';
 
 export const dynamic = 'force-dynamic';
+export const metadata = { title: 'Portail éditeur', robots: { index: false, follow: false } };
 
-export default async function Page() {
-  await requireChatGPTUser('/admin');
-  if (!await admin()) {
-    return <main className="article-page"><h1>Accès réservé</h1>
-      <p>Seuls les membres autorisés de la rédaction peuvent ouvrir le Command Center.</p>
-      <a className="outline" href="/">Retour au site</a>
-    </main>;
-  }
-  return <Admin/>;
+export default function Page() {
+  return EditorPortal({ returnTo: "/admin" });
 }

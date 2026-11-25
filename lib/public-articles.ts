@@ -2,6 +2,8 @@ import { and, asc, desc, eq, inArray, sql, type SQL } from "drizzle-orm";
 import { getDb } from "../db";
 import { articles } from "../db/schema";
 import { isoDate } from "./publication-date";
+import { resolveCover } from "./cover-photo";
+import { getHomepageLeadSlug } from "./homepage-lead";
 
 const summaryFields = {
   slug: articles.slug,
@@ -10,24 +12,33 @@ const summaryFields = {
   summary: articles.summary,
   publishedAt: articles.publishedAt,
   updatedAt: articles.updatedAt,
+  photo: articles.photo,
+  photoHidden: articles.photoHidden,
 };
 const isPublished = eq(articles.status, "published");
 const editionPageSize = 12;
 
-function publishedQuery(criteria?: SQL) {
+function publishedQuery(criteria?: SQL, leadSlug?: string | null) {
   return getDb().select(summaryFields).from(articles)
     .where(and(isPublished, criteria))
-    .orderBy(desc(articles.publishedAt), desc(articles.slug));
+    .orderBy(...(leadSlug ? [desc(eq(articles.slug, leadSlug))] : []), desc(articles.publishedAt), desc(articles.slug));
 }
 
 type Row = Awaited<ReturnType<typeof publishedQuery>>[number];
 
-function summary(article: Row) {
+function summary({ photo, photoHidden, ...article }: Row) {
+  const cover = resolveCover(article.slug, photo, photoHidden);
   return {
     ...article,
+    ...(cover ? { photo: cover } : {}),
     publishedAt: isoDate(article.publishedAt),
     updatedAt: isoDate(article.updatedAt),
   };
+}
+
+export async function listHomepageStories() {
+  const pinned = await getHomepageLeadSlug();
+  return (await publishedQuery(undefined, pinned).limit(6)).map(summary);
 }
 
 export async function listPublishedArticles(limit?: number) {

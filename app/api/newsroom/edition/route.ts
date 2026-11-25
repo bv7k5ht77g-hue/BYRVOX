@@ -35,7 +35,7 @@ async function importEdition(source: ReviewEditionSource, actor: string): Promis
       const id = await articleId(edition.id, item.slug);
       const row: typeof articles.$inferSelect = {
         ...item, id, sources: JSON.stringify(item.sources), status: 'review', publishedAt: null,
-        createdAt: edition.createdAt, updatedAt: now, authorId: 'byrvox-redaction-assistee', draft: null, version: 0,
+        createdAt: edition.createdAt, updatedAt: now, authorId: 'byrvox-redaction-assistee', photo: null, photoHidden: false, gallery: [], draft: null, version: 0,
       };
       // SQLite changes() reflects the immediately preceding insert on this batch's connection.
       // A conflicting ID or slug therefore keeps both the existing article and its audit trail intact.

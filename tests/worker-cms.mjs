@@ -43,6 +43,7 @@ async function createNewsroom(t, editionBindings) {
     compatibilityDate: config.compatibility_date,
     compatibilityFlags: config.compatibility_flags,
     d1Databases: ['DB'],
+    r2Buckets: ['BUCKET'],
     bindings: { ADMIN_EMAILS: editor, ...editionBindings },
   });
   t.after(() => mf.dispose());
@@ -274,4 +275,203 @@ test('un supplément respecte les articles déjà importés et révisés', async
   const retry = await supply();
   assert.equal(retry.status, 'unchanged');
   assert.equal(retry.imported, 0);
+});
+
+test('la rédaction contrôle les fichiers et la visibilité des photos au fil des publications', async (t) => {
+  const { mf, db, request, json } = await createNewsroom(t, {});
+  const uploadPath = origin + '/api/newsroom/photos';
+  const png = await readFile(resolve(root, 'public/brand/logo-dark.png'));
+  const webp = await readFile(resolve(root, 'public/media/news.webp'));
+  // A complete one-pixel grayscale JPEG.
+  const jpeg = Buffer.from('/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/wAALCAABAAEBAREA/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EABQQAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQEAAD8Af3//2Q==', 'base64');
+
+  function upload(body, type, email = editor, from = origin) {
+    const headers = new Headers({ 'content-type': type, origin: from });
+    if (email) {
+      headers.set('oai-authenticated-user-id', 'test-' + email);
+      headers.set('oai-authenticated-user-email', email);
+    }
+    return mf.dispatchFetch(uploadPath, { method: 'POST', headers, body });
+  }
+
+  const invalidUploads = [
+    await upload(png, 'image/png', null),
+    await upload(png, 'image/png', 'reader@example.invalid'),
+    await upload(png, 'image/png', editor, 'https://other.example.invalid'),
+    await upload(Buffer.from('<svg xmlns="http://www.w3.org/2000/svg"></svg>'), 'image/png'),
+    await upload(png, 'image/webp'),
+  ];
+  for (const response of invalidUploads) {
+    assert.ok(response.status >= 400 && response.status < 500, 'Refus attendu, statut ' + response.status);
+  }
+  const oversized = Buffer.alloc(8 * 1024 * 1024 + 1);
+  png.copy(oversized);
+  assert.equal((await upload(oversized, 'image/png')).status, 413);
+  const bucket = await mf.getR2Bucket('BUCKET');
+  assert.equal((await bucket.list()).objects.length, 0);
+
+  async function uploadPhoto(bytes, type) {
+    const response = await upload(bytes, type);
+    assert.equal(response.status, 201, await response.clone().text());
+    const { url } = await response.json();
+    assert.match(url, /^\/api\/photos\/[\da-f-]+\.(?:jpe?g|webp|png)$/);
+    assert.equal((await request(url)).status, 404);
+    assert.equal((await request(url, 'reader@example.invalid')).status, 404);
+    const preview = await request(url, editor);
+    assert.equal(preview.status, 200);
+    assert.equal(preview.headers.get('content-type'), type);
+    assert.match(preview.headers.get('cache-control') || '', /private|no-store/i);
+    assert.ok((await preview.arrayBuffer()).byteLength > 0);
+    return url;
+  }
+  const url = await uploadPhoto(png, 'image/png');
+  const replacementUrl = await uploadPhoto(webp, 'image/webp');
+  const galleryUrl = await uploadPhoto(jpeg, 'image/jpeg');
+
+  const photo = { url, alt: 'Logo de la rédaction', credit: 'BYRVOX', caption: 'Le logo de BYRVOX.',
+    sourceUrl: 'https://source.example.invalid/photo' };
+  const replacement = { url: replacementUrl, alt: 'Deuxième illustration', credit: 'Rédaction',
+    caption: 'Nouvelle légende.', sourceUrl: 'https://source.example.invalid/suite' };
+  const edit = (data) => json('/api/newsroom', { email: editor, data });
+  for (const invalidUrl of ['https://other.example.invalid/photo.png', '/api/photos/00000000-0000-4000-8000-000000000000.png']) {
+    const response = await request('/api/newsroom', editor, { ...initial, photo: { ...photo, url: invalidUrl } });
+    assert.ok(response.status >= 400 && response.status < 500);
+  }
+  for (const patch of [{ alt: ' ' }, { credit: ' ' }]) {
+    const incomplete = await edit({ ...initial, action: 'review', photo: { ...photo, ...patch } });
+    const blocked = await request('/api/newsroom', editor, { id: incomplete.id, version: incomplete.version, action: 'publish' });
+    assert.equal(blocked.status, 422);
+  }
+  const invalidSource = await request('/api/newsroom', editor, { ...initial,
+    photo: { ...photo, sourceUrl: 'https://user:password@example.invalid/image' } });
+  assert.ok(invalidSource.status >= 400 && invalidSource.status < 500);
+  const first = await edit({ ...initial, photo });
+  assert.deepEqual(first.photo, photo);
+  const { id } = first;
+  const reviewed = await edit({ ...initial, id, version: first.version, action: 'review' });
+  assert.deepEqual(reviewed.photo, photo, 'Un client qui omet la photo conserve celle du brouillon.');
+  assert.equal((await request(url)).status, 404);
+  const published = await edit({ id, version: reviewed.version, action: 'publish' });
+  const publicPhoto = async () => (await json('/api/articles')).find(row => row.slug === first.slug)?.photo;
+  assert.deepEqual(await publicPhoto(), photo);
+  const readArticle = () => request('/article/' + first.slug).then(response => response.text());
+  const html = await readArticle();
+  for (const value of [photo.url, photo.alt, photo.caption, photo.credit, photo.sourceUrl]) assert.ok(html.includes(value), value);
+  const publicImage = await request(url);
+  assert.equal(publicImage.status, 200);
+  assert.equal(publicImage.headers.get('content-type'), 'image/png');
+
+  const correction = await edit({ ...initial, id, version: published.version, action: 'review', photo: replacement });
+  assert.deepEqual(correction.photo, replacement);
+  assert.deepEqual(await publicPhoto(), photo);
+  assert.ok(!(await readArticle()).includes(replacement.caption));
+  assert.equal((await request(replacementUrl)).status, 404);
+  assert.equal((await request(url)).status, 200);
+  const republished = await edit({ id, version: correction.version, action: 'publish' });
+  assert.deepEqual(republished.photo, replacement);
+  assert.deepEqual(await publicPhoto(), replacement);
+  assert.ok((await readArticle()).includes(replacement.caption));
+  assert.equal((await request(replacementUrl)).status, 200);
+  assert.equal((await request(url)).status, 404);
+
+  const history = await json('/api/newsroom', { email: editor });
+  const revision = history.revisions.find(record =>
+    record.articleId === id && record.action === 'publish' && JSON.parse(record.snapshot).photo?.url === url);
+  assert.ok(revision, 'La précédente photo doit être conservée dans les révisions.');
+  const restored = await edit({ id, version: republished.version, action: 'restore', revisionId: revision.id });
+  assert.deepEqual(restored.photo, photo);
+  assert.equal((await request(url)).status, 404);
+  assert.equal((await request(url, editor)).status, 200);
+  assert.equal((await request(replacementUrl)).status, 200);
+
+  const withoutPhoto = await edit({ ...initial, id, version: restored.version, action: 'review', photo: null, photoHidden: true });
+  assert.equal(withoutPhoto.photo, null);
+  assert.equal(withoutPhoto.photoHidden, true);
+  assert.deepEqual(await publicPhoto(), replacement);
+  const liveHidden = () => db.prepare('select photo_hidden from articles where id = ?').bind(id).first('photo_hidden');
+  assert.equal(await liveHidden(), 0);
+  assert.equal((await request(replacementUrl)).status, 200);
+  const cleared = await edit({ id, version: withoutPhoto.version, action: 'publish' });
+  assert.equal(cleared.photoHidden, true);
+  assert.equal(await liveHidden(), 1);
+  assert.equal(await publicPhoto(), undefined);
+  assert.equal((await request(replacementUrl)).status, 404);
+
+  const galleryPhoto = { url: galleryUrl, alt: 'Photo du supplément', caption: 'Une légende de galerie.', credit: 'Archives BYRVOX' };
+  const gallery = [galleryPhoto, photo];
+  const oversizedGallery = await request('/api/newsroom', editor, {
+    ...initial, id, version: cleared.version, gallery: Array(5).fill(galleryPhoto),
+  });
+  assert.ok(oversizedGallery.status >= 400 && oversizedGallery.status < 500);
+  const withGallery = await edit({ ...initial, id, version: cleared.version, action: 'save', gallery });
+  assert.deepEqual(withGallery.gallery, gallery);
+  const readyGallery = await edit({ ...initial, id, version: withGallery.version, action: 'review' });
+  assert.deepEqual(readyGallery.gallery, gallery, 'Le client peut enregistrer le texte sans remplacer la galerie.');
+  assert.equal((await request(galleryUrl)).status, 404);
+  const liveGallery = await edit({ id, version: readyGallery.version, action: 'publish' });
+  for (const item of gallery) assert.equal((await request(item.url)).status, 200);
+  const galleryHtml = await readArticle();
+  assert.ok(galleryHtml.includes(galleryPhoto.caption));
+  assert.ok(galleryHtml.includes(galleryPhoto.alt));
+
+  const changedGallery = await edit({ ...initial, id, version: liveGallery.version, action: 'review', gallery: [replacement] });
+  assert.equal((await request(replacementUrl)).status, 404);
+  assert.equal((await request(galleryUrl)).status, 200);
+  const nextGallery = await edit({ id, version: changedGallery.version, action: 'publish' });
+  assert.equal((await request(galleryUrl)).status, 404);
+  assert.equal((await request(url)).status, 404);
+  assert.equal((await request(replacementUrl)).status, 200);
+
+  const updatedHistory = await json('/api/newsroom', { email: editor });
+  const galleryRevision = updatedHistory.revisions.find(record => record.articleId === id &&
+    record.action === 'publish' && JSON.parse(record.snapshot).gallery?.[0]?.url === galleryUrl);
+  assert.ok(galleryRevision);
+  const restoredGallery = await edit({ id, version: nextGallery.version, action: 'restore', revisionId: galleryRevision.id });
+  assert.deepEqual(restoredGallery.gallery, gallery);
+  assert.equal((await request(galleryUrl)).status, 404);
+  assert.equal((await request(replacementUrl)).status, 200);
+});
+
+test('la une peut être épinglée puis rendue à la publication automatique', async (t) => {
+  const { mf, db, request, json } = await createNewsroom(t, {});
+  const leadPath = '/api/newsroom/lead';
+  const setLead = (articleId, email = editor, requestOrigin = origin) =>
+    mf.dispatchFetch(origin + leadPath, { method: 'PUT', headers: {
+      origin: requestOrigin, 'content-type': 'application/json',
+      'oai-authenticated-user-id': 'test-' + email, 'oai-authenticated-user-email': email,
+    }, body: JSON.stringify({ articleId }) });
+  const edit = (data) => json('/api/newsroom', { email: editor, data });
+  for (const path of ['/admin', '/editeur']) {
+    const login = await mf.dispatchFetch(origin + path, { redirect: 'manual' });
+    const target = login.headers.get('location');
+    const loginMarkup = target ? '' : await login.text();
+    assert.ok(target ? new URL(target, origin).searchParams.get('return_to') === path :
+      loginMarkup.includes('/signin-with-chatgpt?return_to=' + encodeURIComponent(path)),
+      'Le portail doit renvoyer vers la connexion avec son chemin de retour (' + login.status + ', ' + target + ').');
+    assert.match(await (await request(path, 'lecteur@example.invalid')).text(), /Accès réservé/);
+    assert.equal((await request(path, editor)).status, 200);
+  }
+  assert.equal((await request(leadPath)).status, 403);
+  assert.equal((await setLead(null, 'lecteur@example.invalid')).status, 403);
+  assert.equal((await setLead(null, editor, 'https://autre.example')).status, 403);
+  assert.deepEqual(await json(leadPath, { email: editor }), { articleId: null, title: null });
+  const first = await edit({ ...initial, title: 'Article régional', action: 'review' });
+  assert.equal((await setLead(first.id)).status, 422);
+  await edit({ id: first.id, version: first.version, action: 'publish' });
+  const second = await edit({ ...initial, title: 'Article national', action: 'review' });
+  await edit({ id: second.id, version: second.version, action: 'publish' });
+  await db.prepare('UPDATE articles SET published_at = ? WHERE id = ?').bind('2024-01-01T00:00:00.000Z', first.id).run();
+  const home = async () => (await request('/')).text();
+  const isFirst = async (a, b) => {
+    const markup = await home();
+    const link = slug => 'href="/article/' + slug + '"';
+    assert.ok(markup.indexOf(link(a)) >= 0 && markup.indexOf(link(a)) < markup.indexOf(link(b)));
+  };
+  await isFirst(second.slug, first.slug);
+  assert.deepEqual(await (await setLead(first.id)).json(), { articleId: first.id, title: first.title });
+  await isFirst(first.slug, second.slug);
+  assert.equal((await setLead('inconnu')).status, 422);
+  assert.equal((await json(leadPath, { email: editor })).articleId, first.id);
+  assert.deepEqual(await (await setLead(null)).json(), { articleId: null, title: null });
+  await isFirst(second.slug, first.slug);
 });

@@ -1,3 +1,5 @@
+import type { CoverPhoto } from './cover-photo';
+
 export const sections = {
   accueil: 'Accueil',
   actualites: 'Actualités',
@@ -21,6 +23,7 @@ export type Summary = {
   summary: string;
   publishedAt?: string | null;
   image?: string;
+  photo?: CoverPhoto;
   presentation?: boolean;
 };
 

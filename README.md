@@ -1,6 +1,6 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.3.2 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.noventra.ca)
+Version 0.4.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.noventra.ca)
 
 Plateforme francophone Next/React sur Vinext, Cloudflare Workers et D1. Design basé sur le mockup fourni, logos officiels conservés. Le site démarre avec des contenus de présentation identifiés, sans actualités inventées.
 
@@ -10,9 +10,13 @@ Node >=22.13.0. Installer via `node scripts/install-ci.mjs`, puis `npm run dev`.
 
 Le schéma est dans `db/schema.ts`, les migrations dans `drizzle/`. Générer les migrations avec `npm run db:generate`. Le déploiement Sites applique les migrations hébergées. Une base locale nécessite leur application séparée.
 
+## Portail éditeur
+
+Le [portail de la rédaction](https://byrvox.noventra.ca/editeur) est réservé aux comptes autorisés. L’adresse `/admin` reste disponible. Dans le tableau de bord, la rédaction peut choisir un article publié pour la une ou laisser apparaître la dernière publication. Chaque article peut recevoir une photo de couverture et jusqu’à quatre photos complémentaires. L’éditeur accepte les formats JPEG, PNG et WebP, jusqu’à 8 Mio par fichier. La rédaction renseigne le texte alternatif et le crédit, et peut ajouter une légende et un lien vers la source. D1 conserve les métadonnées et R2 les fichiers téléversés. Les photos de l’édition du 25 novembre sont livrées avec leurs crédits et leurs licences.
+
 ## Fonctionnel
 
-- La une affiche la dernière publication du CMS. Les rubriques, recherches et filtres ont une adresse partageable. Les articles conservent le thème de lecture.
+- La une affiche la sélection de la rédaction ou, en mode automatique, la dernière publication du CMS. Les rubriques, recherches et filtres ont une adresse partageable. Les articles conservent le thème de lecture.
 - Connexion via l’identité ChatGPT du fournisseur ; favoris personnels, export et suppression des préférences.
 - Command Center réservé aux emails explicitement présents dans le secret `ADMIN_EMAILS`. Autorisation vérifiée côté serveur pour chaque action. Aucun rôle attribué automatiquement au premier visiteur.
 - Le CMS conserve la version publique pendant la préparation ou la restauration d’un brouillon. Une republication explicite met à jour l’article.

@@ -1,13 +1,23 @@
+import { env } from 'cloudflare:workers';
 import { and, desc, eq, sql } from 'drizzle-orm';
 import { z } from 'zod';
 import { getDb } from '../../../db';
 import { articles, events, revisions, runs } from '../../../db/schema';
 import { admin, runtime, sameOrigin } from '../../../lib/access';
-import { publicationError, slugify } from '../../../lib/editorial.mjs';
+import { uploadedPhotoName } from '../../../lib/article-photo';
+import { publicationError, slugify, validSourceUrl } from '../../../lib/editorial.mjs';
 import { boundedJson } from '../../../lib/input';
 
 type Article = typeof articles.$inferSelect;
-type Content = Pick<Article, 'title' | 'category' | 'summary' | 'body' | 'sources' | 'risk' | 'status' | 'authorId' | 'updatedAt'>;
+type Content = Pick<Article, 'title' | 'category' | 'summary' | 'body' | 'sources' | 'risk' | 'status' | 'authorId' | 'updatedAt' | 'photo' | 'photoHidden' | 'gallery'>;
+
+const photoSchema = z.object({
+  url: z.string().max(100).refine(value => uploadedPhotoName(value) !== null),
+  alt: z.string().trim().max(300).default(''),
+  credit: z.string().trim().max(300).default(''),
+  caption: z.string().trim().max(1000).default(''),
+  sourceUrl: z.string().trim().max(2000).refine(value => !value || validSourceUrl(value)).optional(),
+});
 
 const requestSchema = z.object({
   id: z.string().max(100).optional(),
@@ -18,6 +28,9 @@ const requestSchema = z.object({
   category: z.string().max(100).optional(),
   summary: z.string().max(3000).optional(),
   body: z.string().max(60000).optional(),
+  photo: photoSchema.nullable().optional(),
+  gallery: z.array(photoSchema).max(4).optional(),
+  photoHidden: z.boolean().optional(),
   risk: z.enum(['standard', 'sensitive']).optional(),
   sources: z.array(z.object({ name: z.string().max(200), url: z.string().max(2000) })).max(20).optional(),
 });
@@ -29,7 +42,9 @@ function editorArticle({ draft, ...row }: Article) {
 
 function contentOf(source: Content): Content {
   const { title, category, summary, body, sources, risk, status, authorId, updatedAt } = source;
-  return { title, category, summary, body, sources, risk, status, authorId, updatedAt };
+  // Snapshots created before photos were introduced have neither field.
+  return { title, category, summary, body, sources, risk, status, authorId, updatedAt,
+    photo: source.photo ?? null, gallery: source.gallery ?? [], photoHidden: source.photoHidden ?? false };
 }
 
 function problem(error: string, status: number) {
@@ -80,6 +95,10 @@ export async function POST(req: Request) {
   if (input.action === 'publish' && previous) {
     const error = publicationError(previous);
     if (error) return problem(error, 422);
+    const images = previous.photo ? [previous.photo, ...previous.gallery] : previous.gallery;
+    if (images.some(photo => !photo.alt.trim() || !photo.credit.trim())) {
+      return problem('Ajoute un texte alternatif et un crédit à chaque photo avant de publier.', 422);
+    }
     next = { ...contentOf(previous), status: 'published', updatedAt: now };
   } else if (input.action === 'restore' && stored) {
     const revision = input.revisionId && await db.select().from(revisions)
@@ -88,11 +107,27 @@ export async function POST(req: Request) {
     next = { ...contentOf(JSON.parse(revision.snapshot)), status: 'draft', updatedAt: now, authorId: user.userId };
   } else {
     if (!input.title?.trim()) return problem('Un titre est requis.', 422);
+    const photo = input.photo !== undefined ? input.photo : previous?.photo ?? null;
+    const photoHidden = input.photoHidden ?? (input.photo === undefined ? previous?.photoHidden ?? false : input.photo === null);
     next = {
+      photo: photoHidden ? null : photo, photoHidden, gallery: input.gallery ?? previous?.gallery ?? [],
       title: input.title.trim(), category: input.category || 'International', summary: input.summary || '',
       body: input.body || '', sources: JSON.stringify(input.sources || []), risk: input.risk || 'standard',
       status: input.action === 'review' ? 'review' : 'draft', authorId: user.userId, updatedAt: now,
     };
+  }
+
+  const images = next.photo ? [next.photo, ...next.gallery] : next.gallery;
+  const previousUrls = new Set([previous?.photo?.url, ...previous?.gallery.map(photo => photo.url) ?? []]);
+  const checkUrls = [...new Set(images.map(photo => photo.url))].filter(url => input.action === 'publish' || !previousUrls.has(url));
+  if (checkUrls.length) {
+    const bucket = env.BUCKET;
+    if (!bucket) return problem('Le stockage des photos est indisponible.', 503);
+    const objects = await Promise.all(checkUrls.map(url => {
+      const name = uploadedPhotoName(url);
+      return name ? bucket.head('photos/' + name) : null;
+    }));
+    if (objects.some(object => !object)) return problem('Photo téléversée introuvable.', 422);
   }
 
   const id = stored?.id || crypto.randomUUID();
