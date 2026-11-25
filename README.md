@@ -1,6 +1,6 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.3.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.h2y4xnnm6g.chatgpt.site)
+Version 0.3.1 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.h2y4xnnm6g.chatgpt.site)
 
 Plateforme francophone Next/React sur Vinext, Cloudflare Workers et D1. Design basé sur le mockup fourni, logos officiels conservés. Le site démarre avec des contenus de présentation identifiés, sans actualités inventées.
 
@@ -46,6 +46,6 @@ Les écritures authentifiées vérifient l’origine. Le contenu des articles es
 
 ## Édition du 25 novembre 2026
 
-Le Command Center charge les quinze articles de l’édition au premier accès d’un administrateur. Ils entrent dans le circuit « En vérification ». Chaque texte et ses références sont modifiables dans l’onglet Articles. Le bouton de publication rend uniquement l’article sélectionné visible aux lecteurs et l’ajoute au RSS.
+À l’ouverture du Command Center par un administrateur, le serveur importe les lots disponibles. L’édition initiale compte quinze articles, dont celui consacré à Haïti. Le supplément ajoute le sujet sur Middletown. Le dossier de lecture révisé comporte quinze articles, avec l’Iowa en ouverture et le manuscrit sur Haïti conservé en réserve dans la rédaction. Chaque texte importé entre dans le circuit « En vérification ». Chaque texte et ses références sont modifiables dans l’onglet Articles. Le bouton de publication rend uniquement l’article sélectionné visible aux lecteurs et l’ajoute au RSS.
 
-Le dépôt public conserve le lot chiffré dans `lib/review/2026-11-25.json`. La clé AES-GCM reste dans le secret serveur `BYRVOX_REVIEW_KEY_20261125`. Les articles importés sont conservés en D1 avec leur historique.
+Le dépôt public conserve les fichiers chiffrés `lib/review/2026-11-25.json` et `lib/review/2026-11-25-iowa.json`. Le serveur lit leurs clés AES-GCM dans les secrets `BYRVOX_REVIEW_KEY_20261125` et `BYRVOX_REVIEW_KEY_20261125_IOWA`, respectivement. Si une seule clé est configurée, le lot correspondant peut être importé. Lorsqu’une édition est déjà installée, le Command Center ajoute le lot manquant dès qu’il est disponible. D1 conserve les modifications et l’historique des articles déjà importés.

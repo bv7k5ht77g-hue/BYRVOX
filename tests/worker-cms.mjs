@@ -1,6 +1,7 @@
 // Run after npm run build: node --test tests/worker-cms.mjs
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { createRequire } from 'node:module';
 import { resolve } from 'node:path';
 import { test } from 'node:test';
@@ -19,13 +20,21 @@ const initial = {
   sources: [{ name: 'Procès-verbal local', url: 'https://source.example.invalid/compte-rendu' }],
 };
 
-test('le Worker distingue les versions publiques et les révisions de la rédaction', async (t) => {
+const originalEdition = 'byrvox-2026-11-25';
+const iowaEdition = 'byrvox-2026-11-25-iowa';
+const originalKey = process.env.BYRVOX_REVIEW_KEY_20261125;
+const iowaKey = process.env.BYRVOX_REVIEW_KEY_20261125_IOWA;
+
+function importedId(edition, slug) {
+  return 'edition-' + createHash('sha256').update(JSON.stringify([edition, slug])).digest('hex');
+}
+
+async function createNewsroom(t, editionBindings) {
   const server = resolve(root, 'dist/server');
   const config = JSON.parse(await readFile(resolve(server, 'wrangler.json'), 'utf8'));
   // Vinext imports some chunks dynamically. Workerd needs the complete module list, entry point first.
   const chunks = (await readdir(server, { recursive: true })).filter((file) =>
     file !== config.main && /\.m?js$/.test(file));
-  const editionKey = process.env.BYRVOX_REVIEW_KEY_20261125;
   const mf = new Miniflare({
     host: '127.0.0.1',
     cf: false,
@@ -34,7 +43,7 @@ test('le Worker distingue les versions publiques et les révisions de la rédact
     compatibilityDate: config.compatibility_date,
     compatibilityFlags: config.compatibility_flags,
     d1Databases: ['DB'],
-    bindings: { ADMIN_EMAILS: editor, ...(editionKey ? { BYRVOX_REVIEW_KEY_20261125: editionKey } : {}) },
+    bindings: { ADMIN_EMAILS: editor, ...editionBindings },
   });
   t.after(() => mf.dispose());
   const db = await mf.getD1Database('DB');
@@ -65,6 +74,14 @@ test('le Worker distingue les versions publiques et les révisions de la rédact
     assert.equal(response.status, expected, path + ' ' + body.slice(0, 400));
     return JSON.parse(body);
   }
+  return { mf, db, request, json };
+}
+
+test('le Worker distingue les versions publiques et les révisions de la rédaction', async (t) => {
+  const { mf, request, json } = await createNewsroom(t, {
+    ...(originalKey ? { BYRVOX_REVIEW_KEY_20261125: originalKey } : {}),
+    ...(iowaKey ? { BYRVOX_REVIEW_KEY_20261125_IOWA: iowaKey } : {}),
+  });
   const edit = (data, expected = 200) => json('/api/newsroom', { email: editor, data, expected });
   const published = () => json('/api/articles');
   async function document(path, contentType, expected = 200) {
@@ -168,25 +185,39 @@ test('le Worker distingue les versions publiques et les révisions de la rédact
     for (const email of [undefined, 'reader@example.invalid']) {
       await json(path, { email, data: {}, expected: 403 });
     }
-    if (!editionKey) {
-      await json(path, { email: editor, data: {}, expected: 503 });
+    const expectedTotal = (originalKey ? 15 : 0) + (iowaKey ? 1 : 0);
+    if (!expectedTotal) {
+      const result = await json(path, { email: editor, data: {}, expected: 503 });
+      assert.equal(result.status, 'unavailable');
       assert.deepEqual(await published(), [correction]);
       return;
     }
     const supply = () => json(path, { email: editor, data: {} });
     const results = await Promise.all([supply(), supply()]);
-    assert.deepEqual(results.map(r => r.imported).sort((a, b) => a - b), [0, 15]);
+    assert.equal(results.reduce((sum, result) => sum + result.imported, 0), expectedTotal);
+    const partial = !originalKey || !iowaKey;
+    for (const result of results) {
+      assert.equal(result.status, partial ? 'partial' : result.imported ? 'imported' : 'unchanged');
+      if (partial) assert.equal(result.unavailable, 1);
+    }
     const newsroom = await json('/api/newsroom', { email: editor });
     const issue = newsroom.articles.filter(row => row.id !== id);
-    assert.equal(issue.length, 15);
-    assert.equal(new Set(issue.map(row => row.slug)).size, 15);
+    assert.equal(issue.length, expectedTotal);
+    assert.equal(new Set(issue.map(row => row.slug)).size, expectedTotal);
+    assert.equal(issue.filter(row => row.id === importedId(originalEdition, row.slug)).length, originalKey ? 15 : 0);
+    assert.equal(issue.filter(row => row.id === importedId(iowaEdition, row.slug)).length, iowaKey ? 1 : 0);
+    const importHistory = newsroom.revisions.filter(row => row.action === 'import-review');
+    assert.equal(importHistory.length, expectedTotal);
+    assert.equal(new Set(importHistory.map(row => row.articleId)).size, expectedTotal);
     const xml = await feed();
     const map = await sitemap();
     for (const article of issue) {
       assert.equal(article.status, 'review');
       assert.equal(article.publishedAt, null);
+      assert.equal(article.authorId, 'byrvox-redaction-assistee');
       assert.ok(JSON.parse(article.sources).length >= 2);
-      assert.ok(article.body.split(/\s+/u).length >= 200);
+      assert.ok(article.body.trim().length > 0);
+      if (article.id === importedId(originalEdition, article.slug)) assert.ok(article.body.split(/\s+/u).length >= 200);
       assert.ok(!xml.includes(article.slug));
       assert.ok(!map.includes(article.slug));
     }
@@ -199,4 +230,48 @@ test('le Worker distingue les versions publiques et les révisions de la rédact
     assert.ok((await published()).some(row => row.slug === first.slug));
     assert.ok((await feed()).includes(first.slug));
   });
+});
+
+test('un supplément respecte les articles déjà importés et révisés', async (t) => {
+  const { db, json } = await createNewsroom(t, iowaKey ? { BYRVOX_REVIEW_KEY_20261125_IOWA: iowaKey } : {});
+  const date = '2026-11-25T00:00:00.000Z';
+  const marker = (edition) => db.prepare(
+    'INSERT INTO runs (id, kind, status, detail, created_at) VALUES (?, ?, ?, ?, ?)',
+  ).bind('review-edition:' + edition, 'review-edition', 'ok', edition, date);
+  const slug = 'article-de-test-modifie';
+  const legacyId = importedId(originalEdition, slug);
+  const title = 'Correction déjà enregistrée par un membre de la rédaction';
+  await db.batch([
+    marker(originalEdition),
+    db.prepare(`INSERT INTO articles
+      (id, slug, title, category, summary, body, status, created_at, updated_at, author_id, version)
+      VALUES (?, ?, ?, 'Culture', 'Résumé de test', 'Texte de test corrigé', 'draft', ?, ?, ?, 3)`)
+      .bind(legacyId, slug, title, date, date, editor),
+    db.prepare(`INSERT INTO revisions (id, article_id, snapshot, actor, action, created_at)
+      VALUES ('legacy-edit', ?, '{}', ?, 'save', ?)`).bind(legacyId, editor, date),
+  ]);
+  const supply = () => json('/api/newsroom/edition', { email: editor, data: {} });
+  const result = await supply();
+  assert.equal(result.status, iowaKey ? 'imported' : 'partial');
+  assert.equal(result.imported, iowaKey ? 1 : 0);
+  if (!iowaKey) assert.equal(result.unavailable, 1);
+  const newsroom = await json('/api/newsroom', { email: editor });
+  const existing = newsroom.articles.find(article => article.id === legacyId);
+  assert.equal(existing.title, title);
+  assert.equal(existing.version, 3);
+  assert.equal(existing.authorId, editor);
+  assert.equal(existing.status, 'draft');
+  assert.deepEqual(newsroom.revisions.filter(row => row.articleId === legacyId).map(row => row.id), ['legacy-edit']);
+  const additions = newsroom.articles.filter(article => article.id !== legacyId);
+  assert.equal(additions.length, iowaKey ? 1 : 0);
+  for (const article of additions) {
+    assert.equal(article.id, importedId(iowaEdition, article.slug));
+    assert.equal(article.status, 'review');
+  }
+  assert.deepEqual(await json('/api/articles'), []);
+  // Installed editions stay installed even when their decryption keys are absent.
+  if (!iowaKey) await marker(iowaEdition).run();
+  const retry = await supply();
+  assert.equal(retry.status, 'unchanged');
+  assert.equal(retry.imported, 0);
 });

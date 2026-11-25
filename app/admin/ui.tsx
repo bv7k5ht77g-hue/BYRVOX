@@ -62,7 +62,8 @@ export default function Admin() {
         const response = await fetch('/api/newsroom/edition', { method: 'POST', signal });
         if (!response.ok) throw Error();
         const result = await response.json() as { ok?: boolean; status?: string };
-        if (result.ok !== true || !['imported', 'unchanged', 'unavailable'].includes(result.status ?? '')) throw Error();
+        if (result.ok !== true || !['imported', 'unchanged', 'partial', 'unavailable'].includes(result.status ?? '')) throw Error();
+        if (result.status === 'partial') importNotice = 'Une partie des sujets de vérification reste à importer.';
         if (result.status === 'unavailable') importNotice = 'Aucune édition disponible à importer.';
       } catch {
         importNotice = 'Impossible d’importer l’édition.';
