@@ -1,3 +1,137 @@
-import {features,Story} from '../../../lib/content';import {getDb} from '../../../db';import {articles} from '../../../db/schema';import {and,eq} from 'drizzle-orm';import {notFound} from 'next/navigation';
-export const dynamic='force-dynamic';
-export default async function Article({params}:{params:Promise<{slug:string}>}){const {slug}=await params;let story:Story|undefined=features.find(s=>s.slug===slug);if(!story)story=(await getDb().select().from(articles).where(and(eq(articles.slug,slug),eq(articles.status,'published'))))[0];if(!story)notFound();const sources=story.sources?JSON.parse(story.sources):[];return <><header><div className="topbar"><a className="brand" href="/"><img src="/brand/logo-light.png" alt="BYRVOX"/><small>BEYOND THE HEADLINES</small></a><a className="outline" href="/">← Retour à l’accueil</a></div></header><main className="article-page"><p className="eyebrow">{story.category}</p><h1>{story.title}</h1><p className="summary">{story.summary}</p><div className="byline">BYRVOX · {story.publishedAt?'Publié le '+new Date(story.publishedAt).toLocaleDateString('fr-CA'):'Présentation du projet · édition de lancement'}{story.updatedAt&&' · Mis à jour le '+new Date(story.updatedAt).toLocaleDateString('fr-CA')}</div><img src={'/media/'+(story.image||'news')+'.webp'} alt="Illustration éditoriale issue du visuel de référence"/><small>Illustration du projet — ne représente pas un reportage sur les faits décrits.</small><div className="body">{story.body.split('\n').filter(Boolean).map((p,i)=><p key={i}>{p}</p>)}</div><section className="sources"><h2>Sources et transparence</h2>{sources.length?sources.map((s:any,i:number)=><a key={i} href={/^https:\/\//.test(s.url)?s.url:'#'} target="_blank" rel="noopener noreferrer">{s.name} ↗</a>):<p>Texte de présentation BYRVOX. Aucun fait d’actualité externe n’est annoncé dans cet article.</p>}</section><div className="actions"><a className="red" href="/">Explorer BYRVOX →</a></div></main></>}
+import type { Metadata } from "next";
+import Link from "next/link";
+import Image from "next/image";
+import { articleUrl } from "../../../lib/site-url";
+import { notFound } from "next/navigation";
+import { cache } from "react";
+import { and, eq } from "drizzle-orm";
+import { ArrowLeft, ArrowUpRight, Clock3 } from "lucide-react";
+import { features, type Story } from "../../../lib/content";
+import { getDb } from "../../../db";
+import { articles } from "../../../db/schema";
+import { formatDate, isoDate } from "../../../lib/publication-date";
+import { sourcesForReader } from "../presentation";
+import ReaderThemeSwitch from "../theme-switch";
+import "../reader.css";
+
+export const dynamic = "force-dynamic";
+type ArticleProps = { params: Promise<{ slug: string }> };
+
+type ReaderArticle = { story: Story; isFeature: boolean };
+
+const getArticle = cache(async (slug: string): Promise<ReaderArticle | null> => {
+  const feature = features.find((article) => article.slug === slug);
+  if (feature) return { story: feature, isFeature: true };
+
+  const [story] = await getDb().select({
+    slug: articles.slug, title: articles.title, category: articles.category, summary: articles.summary,
+    body: articles.body, sources: articles.sources, publishedAt: articles.publishedAt, updatedAt: articles.updatedAt,
+  }).from(articles)
+    .where(and(eq(articles.slug, slug), eq(articles.status, "published")))
+    .limit(1);
+  return story ? { story, isFeature: false } : null;
+});
+
+export async function generateMetadata({ params }: ArticleProps): Promise<Metadata> {
+  const { slug } = await params;
+  const record = await getArticle(slug);
+  if (!record) return { title: "Article introuvable", robots: { index: false, follow: false } };
+  const { story, isFeature } = record;
+  const path = articleUrl(slug);
+  return {
+    title: story.title,
+    description: story.summary,
+    alternates: { canonical: path, types: { "application/rss+xml": "/rss.xml" } },
+    openGraph: {
+      title: story.title, description: story.summary, type: "article",
+      url: path, locale: "fr_CA", siteName: "BYRVOX", section: story.category,
+      publishedTime: isoDate(story.publishedAt) ?? undefined,
+      modifiedTime: isoDate(story.updatedAt) ?? undefined,
+      ...(isFeature && story.image ? { images: [{ url: "/media/" + story.image + ".webp" }] } : {}),
+    },
+    twitter: { card: "summary", title: story.title, description: story.summary },
+  };
+}
+
+export default async function Article({ params }: ArticleProps) {
+  const { slug } = await params;
+  const record = await getArticle(slug);
+  if (!record) notFound();
+  const { story, isFeature } = record;
+  const sources = sourcesForReader(story.sources);
+  const published = isoDate(story.publishedAt);
+  const updated = isoDate(story.updatedAt);
+  const readingMinutes = Math.max(1, Math.ceil(story.body.trim().split(/\s+/u).length / 220));
+  const linkedData = {
+    "@context": "https://schema.org",
+    "@type": isFeature ? "Article" : "NewsArticle",
+    mainEntityOfPage: articleUrl(slug),
+    headline: story.title, description: story.summary, articleSection: story.category,
+    inLanguage: "fr", author: { "@type": "Organization", name: "BYRVOX" },
+    publisher: { "@type": "Organization", name: "BYRVOX" },
+    datePublished: published || undefined, dateModified: updated || undefined,
+    citation: sources.length ? sources.map((s) => s.url) : undefined,
+  };
+
+  return (
+    <>
+      <a className="skip" href="#lecture">Aller à l’article</a>
+      <header className="reader-header">
+        <div className="reader-header-inner">
+          <Link href="/" className="reader-logo" aria-label="Accueil BYRVOX">
+            <span aria-hidden="true">BYRVOX</span>
+          </Link>
+          <div className="reader-tools">
+            <Link href="/"><ArrowLeft size={17} aria-hidden="true" /> Accueil</Link>
+            <ReaderThemeSwitch />
+          </div>
+        </div>
+      </header>
+      <main id="lecture" className="reader-main">
+        <article>
+          <div className="reader-heading">
+            <p className="reader-category">{story.category}</p>
+            <h1>{story.title}</h1>
+            <p className="reader-deck">{story.summary}</p>
+            <div className="reader-byline">
+              <strong>La rédaction BYRVOX</strong>
+              {isFeature && <span>Présentation du média</span>}
+              {published && <span>Publié le <time dateTime={published}>{formatDate(published)}</time></span>}
+              {updated && published && updated > published && (
+                <span>Mis à jour le <time dateTime={updated}>{formatDate(updated)}</time></span>
+              )}
+              <span className="reader-duration"><Clock3 size={14} aria-hidden="true" />{readingMinutes} min de lecture</span>
+            </div>
+          </div>
+          {isFeature && story.image && story.image !== "city" && (
+            <figure className="reader-photo">
+              <Image src={"/media/" + story.image + ".webp"} width={900} height={400} alt="" loading="eager" unoptimized />
+              <figcaption>Illustration de présentation BYRVOX</figcaption>
+            </figure>
+          )}
+          <div className="reader-copy">
+            {story.body.split(/\r?\n/).filter((p) => p.trim()).map((p, i) => <p key={i}>{p}</p>)}
+          </div>
+          {(!isFeature || sources.length > 0) && (
+            <section aria-labelledby="sources" className="reader-sources">
+              <h2 id="sources">Sources de l’article</h2>
+              {sources.length ? (
+                <ul>{sources.map((s) => (
+                  <li key={s.url}>
+                    <a href={s.url}>
+                      <span><strong>{s.name}</strong><small>{new URL(s.url).hostname}</small></span>
+                      <ArrowUpRight size={18} aria-hidden="true" />
+                    </a>
+                  </li>
+                ))}</ul>
+              ) : <p>Aucun lien de source disponible pour cet article.</p>}
+            </section>
+          )}
+        </article>
+        <Link href="/" className="reader-back"><ArrowLeft size={16} aria-hidden="true" /> Retour à l’accueil</Link>
+      </main>
+      <script type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(linkedData).replace(/</g, "\\u003c") }} />
+    </>
+  );
+}

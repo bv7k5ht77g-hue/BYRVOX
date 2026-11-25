@@ -1,6 +1,6 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.1.0 — première livraison, octobre 2026.
+Version 0.2.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.h2y4xnnm6g.chatgpt.site)
 
 Plateforme francophone Next/React sur Vinext, Cloudflare Workers et D1. Design basé sur le mockup fourni, logos officiels conservés. Le site démarre avec des contenus de présentation identifiés, sans actualités inventées.
 
@@ -12,10 +12,11 @@ Le schéma est dans `db/schema.ts`, les migrations dans `drizzle/`. Générer le
 
 ## Fonctionnel
 
-- Accueil responsive, thèmes clair et sombre (#333333), navigation, recherche, filtres, pages d’articles.
+- La une affiche la dernière publication du CMS. Les rubriques, recherches et filtres ont une adresse partageable. Les articles conservent le thème de lecture.
 - Connexion via l’identité ChatGPT du fournisseur ; favoris personnels, export et suppression des préférences.
 - Command Center réservé aux emails explicitement présents dans le secret `ADMIN_EMAILS`. Autorisation vérifiée côté serveur pour chaque action. Aucun rôle attribué automatiquement au premier visiteur.
-- CMS D1 : brouillon, vérification, publication validée, révisions immuables et restauration en brouillon.
+- Le CMS conserve la version publique pendant la préparation ou la restauration d’un brouillon. Une republication explicite met à jour l’article.
+- Le flux public `/rss.xml` contient les 50 dernières publications. Le plan du site `/sitemap.xml` référence aussi les rubriques et les articles de présentation.
 - Collecte des métadonnées NASA RSS à la demande, déduplication par URL et journal d’exécution. Les pistes restent non vérifiées.
 - Endpoint de brouillon IA, limité à une demande par minute et par administrateur, sur faits fournis et sources explicites. La clé serveur doit être configurée pour le rendre opérationnel. Aucun appel ou texte IA n’est présenté comme vérifié.
 
@@ -34,6 +35,8 @@ Les illustrations sont extraites du mockup fourni ; elles ne sont pas des photog
 `node node_modules/typescript/bin/tsc --noEmit`
 
 `npm run build`
+
+`node --test tests/worker-cms.mjs` exécute le Worker compilé avec une base D1 temporaire.
 
 ## Architecture
 
