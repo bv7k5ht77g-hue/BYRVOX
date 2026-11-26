@@ -837,3 +837,48 @@ test('les invitations séparent la contribution, l’approbation et la gestion d
   await success(await changeTeam(editor, 'POST', {email:contributor, role:'contributor'}));
   assert.equal((await sessionDashboard()).status, 403);
 });
+
+test('les éditions de novembre distinguent dossier, discipline et simple coïncidence géographique', async t => {
+  const {db, request} = await createNewsroom(t,{});
+  const at = '2026-11-26T00:00:00Z';
+  const bind = db.prepare(`INSERT INTO articles
+    (id,slug,title,category,summary,body,status,risk,created_at,updated_at,published_at,author_id)
+    VALUES (?,?,?,?,?,?,'published','standard',?,?,?,'test')`);
+  const articles = [];
+  for (const edition of ['2026-11-26T00','2026-11-26T01-thematique']) {
+    const manifest = JSON.parse(await readFile(resolve(root,'newswire',edition,'edition.json'),'utf8'));
+    articles.push(...manifest.articles.map(s=>({slug:s.eventKey,title:s.title,summary:s.summary,category:s.category})));
+  }
+  // The translated archive retains the exact published French headlines and decks.
+  const archive = JSON.parse(await readFile(resolve(root,'lib/translations/en.json'),'utf8'));
+  const iowa = 'iowa-middletown-departs-temporaires-detonation-controlee';
+  const elections = 'cap-vert-presidentielle-neves-abstention';
+  const bepicolombo = 'bepicolombo-orbite-mercure-freinage';
+  for (const [slug,category] of [[iowa,'États-Unis'],[elections,'International'],[bepicolombo,'Espace']]) {
+    const {sourceTitle:title,sourceSummary:summary}=archive[slug];
+    articles.push({slug,category,title,summary});
+  }
+  await db.batch(articles.map(s=>bind.bind(s.slug,s.slug,s.title,s.category,s.summary,s.summary,at,at,at)));
+  const related = async slug => {
+    const response=await request('/article/'+slug);
+    assert.equal(response.status,200);
+    const content=await response.text();
+    const rail=content.match(/<ol\b[^>]*id="recommended-list"[^>]*>([\s\S]*?)<\/ol>/)?.[1];
+    assert.ok(rail,'carrousel de '+slug);
+    return new Set([...rail.matchAll(/<li\b[^>]*>([\s\S]*?)<\/li>/g)].filter(x=>x[1].includes('Sur le même sujet'))
+      .map(x=>x[1].match(/href="\/article\/([^"]+)"/)?.[1]));
+  };
+  const prior='middletown-iowa-premieres-mesures-air-apres-operation';
+  const follow='middletown-fin-alerte-habitants-resultats-sols-eau';
+  const cuba='cuba-dix-ans-fidel-castro-veillee-universite-2026';
+  const psg='paris-roma-malen-penalty-ligue-champions-2026-11-25';
+  assert.deepEqual(await related(follow),new Set([iowa,prior]));
+  assert.deepEqual(await related(prior),new Set([iowa,follow]));
+  assert.deepEqual(await related(cuba),new Set());
+  assert.deepEqual(await related('haiti-elections-2027-candidatures-novembre-2026'),new Set([elections]));
+  assert.deepEqual(await related('iss-progress-97-cygnus-ravitaillements-novembre'),new Set(['shenzhou-24-premier-astronaute-pakistanais-tiangong']));
+  assert.deepEqual(await related('ethiopie-fentale-methane-volcan-satellites'),new Set());
+  assert.deepEqual(await related('hera-dimorphos-blocs-orbite-novembre-2026'),new Set([bepicolombo]));
+  assert.deepEqual(await related('colorado-cale-makar-retour-contre-canadien-2026-11-25'),new Set(['edmonton-vegas-double-eichel-connelly-2026-11-24']));
+  assert.deepEqual(await related('prague-villarreal-buchanan-ligue-champions-2026-11-25'),new Set([psg,'lille-bayern-ligue-des-champions-2026-11-25']));
+});
