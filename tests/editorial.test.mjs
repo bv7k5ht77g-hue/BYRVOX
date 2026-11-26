@@ -5,7 +5,7 @@ test('rejects unsafe source protocols',()=>assert.match(publicationError({...art
 test('requires review before publication',()=>assert.match(publicationError({...article,status:'draft'}),/vérification/));
 test('accepts complete reviewed article',()=>assert.equal(publicationError(article),null));
 test('malformed stored source JSON fails closed',()=>assert.match(publicationError({...article,sources:'bad-json'}),/invalides/));
-test('automatic publication remains disabled',()=>assert.equal(canAutoPublish({...article,risk:'sensitive'}),false));
+test('manual drafts require editorial review',()=>assert.equal(canAutoPublish({...article,risk:'sensitive'}),false));
 test('slugs normalize accents and punctuation',()=>assert.equal(slugify('Économie : l’avenir ?'),'economie-l-avenir'));
 
 test('rejects relative, abbreviated and malformed HTTPS addresses', () => {

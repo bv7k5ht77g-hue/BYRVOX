@@ -29,7 +29,7 @@ function importedId(edition, slug) {
   return 'edition-' + createHash('sha256').update(JSON.stringify([edition, slug])).digest('hex');
 }
 
-async function createNewsroom(t, editionBindings) {
+async function createNewsroom(t, editionBindings, outboundService) {
   const server = resolve(root, 'dist/server');
   const config = JSON.parse(await readFile(resolve(server, 'wrangler.json'), 'utf8'));
   // Vinext imports some chunks dynamically. Workerd needs the complete module list, entry point first.
@@ -44,6 +44,7 @@ async function createNewsroom(t, editionBindings) {
     compatibilityFlags: config.compatibility_flags,
     d1Databases: ['DB'],
     r2Buckets: ['BUCKET'],
+    ...(outboundService ? {outboundService} : {}),
     bindings: { ADMIN_EMAILS: editor, ...editionBindings },
   });
   t.after(() => mf.dispose());
@@ -467,18 +468,10 @@ test('la une peut être épinglée puis rendue à la publication automatique', a
       'oai-authenticated-user-id': 'test-' + email, 'oai-authenticated-user-email': email,
     }, body: JSON.stringify({ articleId }) });
   const edit = (data) => json('/api/newsroom', { email: editor, data });
-  for (const path of ['/admin', '/editeur']) {
-    const login = await mf.dispatchFetch(origin + path, { redirect: 'manual' });
-    const target = login.headers.get('location');
-    assert.ok(target, 'Le portail anonyme doit renvoyer vers la rédaction sécurisée.');
-    if (path === '/editeur') {
-      assert.equal(target, 'https://byrvox.h2y4xnnm6g.chatgpt.site/admin');
-    } else {
-      assert.equal(new URL(target, origin).searchParams.get('return_to'), '/admin');
-    }
-    assert.match(await (await request(path, 'lecteur@example.invalid')).text(), /Accès réservé/);
-    assert.equal((await request(path, editor)).status, 200);
-  }
+  assert.equal((await mf.dispatchFetch(origin + '/editeur', {redirect:'manual'})).headers.get('location'), 'https://byrvox.noventra.ca/admin');
+  assert.match(await (await request('/admin')).text(), /Se connecter à la rédaction/);
+  assert.match(await (await request('/admin', 'lecteur@example.invalid')).text(), /Accès réservé/);
+  assert.match(await (await request('/admin', editor)).text(), /Tableau de bord/);
   assert.equal((await request(leadPath)).status, 403);
   assert.equal((await setLead(null, 'lecteur@example.invalid')).status, 403);
   assert.equal((await setLead(null, editor, 'https://autre.example')).status, 403);
@@ -502,4 +495,143 @@ test('la une peut être épinglée puis rendue à la publication automatique', a
   assert.equal((await json(leadPath, { email: editor })).articleId, first.id);
   assert.deepEqual(await (await setLead(null)).json(), { articleId: null, title: null });
   await isFirst(second.slug, first.slug);
+});
+
+test('une connexion éditeur revient sur le domaine Noventra et expire après sa révocation', async t => {
+  const {mf} = await createNewsroom(t, {});
+  const custom = 'https://byrvox.noventra.ca';
+  const provider = 'https://byrvox.h2y4xnnm6g.chatgpt.site';
+  const send = (url, options) => mf.dispatchFetch(url, {redirect:'manual', ...options});
+  // The custom domain only accepts its own issued session.
+  assert.equal((await send(custom+'/api/newsroom',{headers:{'oai-authenticated-user-id':'editor','oai-authenticated-user-email':editor}})).status,403);
+  const start = await send(custom + '/api/editor-session/start');
+  assert.equal(start.status,303);
+  const proofCookie = start.headers.get('set-cookie').split(';')[0];
+  const authorize = start.headers.get('location');
+  assert.equal(new URL(authorize).origin,provider);
+  assert.equal(new URL((await send(authorize)).headers.get('location')).pathname, '/signin-with-chatgpt');
+  const unauth = await send(authorize, {headers:{'oai-authenticated-user-id':'reader', 'oai-authenticated-user-email':'reader@example.invalid'}});
+  assert.equal(unauth.status,403);
+  const issued = await send(authorize, {headers:{'oai-authenticated-user-id':'editor', 'oai-authenticated-user-email':editor}});
+  assert.equal(issued.status,200);
+  assert.equal(issued.headers.get('referrer-policy'),'origin');
+  const grant = (await issued.text()).match(/name="grant" value="([0-9a-f]{64})"/)[1];
+  const finish = (cookie, postOrigin) => send(custom+'/api/editor-session/finish',{method:'POST',headers:{
+    origin:postOrigin, cookie,'content-type':'application/x-www-form-urlencoded'},body:'grant='+grant});
+  assert.equal((await finish('',provider)).status,403);
+  assert.equal((await finish(proofCookie,custom)).status,403);
+  const accepted = await finish(proofCookie,provider);
+  assert.equal(accepted.status,303);
+  assert.equal(accepted.headers.get('location'),custom+'/admin');
+  assert.equal((await finish(proofCookie,provider)).status,403);
+  const cookie = accepted.headers.get('set-cookie').match(/__Host-byrvox-editor=[a-f0-9]{64}/)[0];
+  assert.equal((await send(custom+'/api/newsroom',{headers:{cookie}})).status,200);
+  assert.equal((await send(provider+'/api/newsroom',{headers:{cookie}})).status,403);
+  assert.match(await (await send(custom+'/admin',{headers:{cookie}})).text(), /Tableau de bord/);
+  assert.equal((await send(custom+'/api/editor-session/logout',{method:'POST',headers:{origin:custom, cookie}})).status,303);
+  assert.equal((await send(custom+'/api/newsroom',{headers:{cookie}})).status,403);
+});
+
+test('une édition approuvée est livrée avec sa photo et peut être reprise sans modifier un article existant', async t => {
+  const hour = new Date(Date.now()-3600000).toISOString().slice(0,13);
+  const date = hour + ':00:00Z';
+  const story = {
+    eventKey:'actualite-locale-verifiee',title:'L’actualité de la ville confirmée par deux rédactions',
+    summary:'La rédaction présente les faits relevés dans les sources consultées pour cette édition.',
+    category:'Canada',body:'Des informations vérifiées ont été réunies dans l’édition horaire. '.repeat(7),
+    translations:{en:{title:'A meeting in the city',summary:'The local newsroom reports from the meeting.',
+      body:'Residents attended the meeting in the town square.',photoAlt:'View of the town square.',
+      photoCaption:'The square where the meeting took place.'}},
+    verified:true,sources:[{name:'Organisme régional',url:'https://alpha.example/evenement',publishedAt:date},
+      {name:'Journal local indépendant',url:'https://beta.example/enquete',publishedAt:date}],
+    photo:{download:'media/scene.webp',sourceUrl:'https://photo.example/scene',credit:'Photographe',
+      license:'CC BY 4.0',licenseUrl:'https://creativecommons.org/licenses/by/4.0/',alt:'Une vue du quartier concerné.',
+      caption:'Cette photographie montre le quartier où se tient la rencontre.'}
+  };
+  const all = [story,{...story,eventKey:'autre-evenement-regional',sources:[{...story.sources[0],url:'https://alpha.example/visite'},story.sources[1]]},
+    {...story,eventKey:'autre-angle-edition',sources:[{...story.sources[0],url:story.sources[0].url+'?utm_medium=site'},story.sources[1]]},
+    {...story,eventKey:'illustration-indisponible',photo:{...story.photo,download:'media/absente.webp'},sources:[{...story.sources[0],url:'https://alpha.example/autre'},story.sources[1]]},
+    {...story,eventKey:'evenement-en-attente',sources:[story.sources[0],{...story.sources[0],url:'https://alpha.example/autre'}]},
+    {...story,eventKey:'bulletin-officiel-journee-precedente',sources:[{
+      ...story.sources[0],publishedAt:new Date(Date.parse(date)-86400000).toISOString()},story.sources[1]]}];
+  const base = 'https://raw.githubusercontent.com/bv7k5ht77g-hue/BYRVOX/main/newswire/'+hour+'/';
+  const picture = await readFile(resolve(root,'public/media/editorial/thumbs/canada-recettes-fermes-canola-neuf-mois.webp'));
+  const seen = [];
+  const {db,json,request} = await createNewsroom(t,{}, async req => {
+    seen.push(req.url);
+    if (req.url === base+'edition.json') return Response.json({hour,articles:all});
+    if (req.url === base+'media/scene.webp') return new Response(picture, {headers:{'content-type':'image/webp'}});
+    return new Response('Missing',{status:404});
+  });
+  const post = (rank,expected=200) => json('/api/newswire',{data:{hour,rank},expected});
+  await json('/api/newswire',{data:{hour,rank:1,articles:all},expected:400});
+  await json('/api/newswire',{data:{hour:'1999-01-01T00',rank:1},expected:400});
+  assert.deepEqual(seen,[]);
+  assert.equal((await post(1,201)).status,'published');
+  const [row] = (await db.prepare('SELECT id,slug,photo,title FROM articles').all()).results;
+  const photo = JSON.parse(row.photo);
+  assert.equal(photo.licenseUrl,story.photo.licenseUrl);
+  assert.deepEqual(new Uint8Array(await (await request(photo.url)).arrayBuffer()),new Uint8Array(picture));
+  assert.ok((await (await request('/article/'+row.slug)).text()).includes(story.photo.credit));
+  const translatedPage = await (await request('/article/'+row.slug+'?lang=en')).text();
+  assert.ok(translatedPage.includes(story.translations.en.title));
+  assert.ok(translatedPage.includes(story.translations.en.photoCaption));
+  const edit = data => json('/api/newsroom',{email:editor,data});
+  const reviewed = await edit({id:row.id,action:'review',version:0,title:'Correction de la rédaction',
+    summary:story.summary,category:story.category,body:story.body,sources:story.sources,photo});
+  assert.equal((await post(1)).status,'recorded');
+  const corrected = await edit({id:row.id,action:'publish',version:reviewed.version});
+  assert.equal(corrected.title,'Correction de la rédaction');
+  assert.equal(corrected.photo.licenseUrl,story.photo.licenseUrl);
+  assert.equal((await post(1)).status,'recorded');
+  assert.equal((await post(3)).status,'duplicate');
+  assert.equal((await db.prepare('SELECT title FROM articles WHERE id=?').bind(row.id).first()).title,'Correction de la rédaction');
+  const concurrent = await Promise.all([1,2].map(()=>request('/api/newswire',null,{hour,rank:2})));
+  assert.ok(concurrent.every(r=>r.status===200||r.status===201));
+  await post(4,404);
+  await post(5,422);
+  assert.equal((await post(15)).status,'no_entry');
+  assert.equal((await post(6,201)).status,'published');
+  const registry = await json('/api/newswire');
+  assert.equal(registry.recent.length,3);
+  assert.equal((await db.prepare('SELECT COUNT(*) AS n FROM articles').first()).n,3);
+  assert.equal((await db.prepare("SELECT COUNT(*) AS n FROM revisions WHERE action='publication-horaire'").first()).n,3);
+  assert.ok(seen.every(url=>url.startsWith(base)));
+});
+
+test('le lecteur propose des sujets proches puis des découvertes publiées, sans doublon', async t => {
+  const { db, request } = await createNewsroom(t, {});
+  const now = new Date().toISOString();
+  const insert = db.prepare(`INSERT INTO articles
+    (id, slug, title, category, summary, body, status, risk, created_at, updated_at, published_at, author_id)
+    VALUES (?, ?, ?, ?, ?, ?, ?, 'standard', ?, ?, ?, 'test')`);
+  const sample = (slug, title, category, status='published') =>
+    insert.bind(slug, slug, title, category, title, title, status, now, now, now);
+  await sample('le-tunnel', 'La réfection du tunnel de Montréal', 'Transports').run();
+  const html = async () => {
+    const res = await request('/article/le-tunnel');
+    assert.equal(res.status, 200);
+    return res.text();
+  };
+  assert.doesNotMatch(await html(), /id="recommended-list"/);
+  await db.batch([
+    sample('tunnel-chantier', 'Un nouveau chantier pour le tunnel de Montréal', 'Économie'),
+    sample('secteur-aerien', 'Le patron des lignes aériennes quitte son poste', 'Transports'),
+    sample('brouillon', 'Un secret sur le tunnel de Montréal', 'Transports', 'draft'),
+    sample('festival', 'Un festival primé à Cannes', 'Culture'),
+    sample('patinage', 'La patineuse remporte la finale', 'Sports'),
+  ]);
+  const list = (await html()).match(/<ol\b[^>]*id="recommended-list"[^>]*>([\s\S]*?)<\/ol>/)?.[1];
+  assert.ok(list);
+  const slugs = [...list.matchAll(/href="\/article\/([^"]+)"/g)].map(match=>match[1]);
+  assert.deepEqual(slugs.slice(0,2), ['tunnel-chantier','secteur-aerien']);
+  assert.deepEqual(new Set(slugs.slice(2)),new Set(['festival','patinage']));
+  assert.equal(slugs.length,4);
+
+  await db.prepare('UPDATE articles SET author_id = ? WHERE slug = ?').bind('byrvox-agent-horaire','le-tunnel').run();
+  const arabic = await (await request('/article/le-tunnel?lang=ar')).text();
+  assert.match(arabic, /lang="ar" dir="rtl"/);
+  assert.match(arabic, /إصدار BYRVOX الآلي/);
+  assert.match(arabic, /href="\/article\/tunnel-chantier\?lang=ar"/);
+  assert.match(arabic, /<h1 lang="fr"/);
 });

@@ -1,4 +1,4 @@
-export async function boundedBytes(req: Request, limit: number) {
+export async function boundedBytes(req: Pick<Request, 'headers' | 'body'>, limit: number) {
   if (Number(req.headers.get('content-length')) > limit) throw new RangeError('Document trop volumineux.');
   if (!req.body) throw Error('Corps requis.');
   const reader = req.body.getReader();

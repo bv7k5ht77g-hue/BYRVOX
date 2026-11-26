@@ -1,3 +1,5 @@
+import { headers } from "next/headers";
+import { preferredLocale } from "../lib/i18n";
 import type { Metadata } from "next";
 import { SITE_ORIGIN } from "../lib/site-url";
 import "./globals.css";
@@ -22,9 +24,10 @@ const initialTheme = `(function () {
   document.documentElement.dataset.theme = dark ? 'dark' : 'light';
 })();`;
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default async function Layout({ children }: { children: React.ReactNode }) {
+  const locale = preferredLocale((await headers()).get("x-byrvox-language"),undefined);
   return (
-    <html lang="fr" suppressHydrationWarning>
+    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"} suppressHydrationWarning>
       <head><script dangerouslySetInnerHTML={{ __html: initialTheme }} /></head>
       <body>{children}</body>
     </html>

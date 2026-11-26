@@ -1,0 +1,13 @@
+.weather-nav {position:relative;flex:none}
+.weather-nav>summary {display:flex;align-items:center;gap:5px;min-height:40px;padding:0 4px;font-weight:700;font-size:.87rem;cursor:pointer;list-style:none;white-space:nowrap}
+.weather-nav summary::-webkit-details-marker {display:none}
+.weather-nav summary:focus-visible,.weather-nav select:focus-visible {outline:2px solid var(--red);outline-offset:2px}
+.weather-nav-place {font-weight:500;color:var(--muted)}
+.weather-nav-panel {position:absolute;inset-block-start:calc(100% + 7px);inset-inline-end:0;z-index:40;display:grid;gap:12px;width:min(275px,calc(100vw - 28px));padding:16px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 28px #0002;text-align:start;white-space:normal}
+.weather-nav-panel label {display:grid;gap:4px;font-weight:650}
+.weather-nav-panel select {box-sizing:border-box;width:100%;border:1px solid var(--line);padding:7px;border-radius:5px;background:var(--surface);color:var(--ink)}
+.weather-nav-panel strong {display:flex;align-items:center;gap:6px}
+.weather-nav-panel p,.weather-nav-panel small {font-size:.78rem;color:var(--muted);line-height:1.5;margin:4px 0 0}
+.weather-nav-panel a {text-decoration:underline;text-underline-offset:2px}
+@media(max-width:1250px){.weather-nav-place{display:none}}
+@media(max-width:700px){.weather-nav{position:static}.weather-nav-panel{inset-inline-end:12px;inset-block-start:100%}.weather-nav>summary{font-size:.75rem;padding:0 2px;gap:2px}.weather-nav>summary svg{width:16px}}

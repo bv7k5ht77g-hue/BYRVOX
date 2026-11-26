@@ -1,0 +1,31 @@
+header.edition-header { z-index:35; inset-block-start:0; position:sticky; background:var(--bg); box-shadow:0 5px 15px -7px #15172455; }
+html[data-theme=dark] header.edition-header { box-shadow:0 6px 16px -7px #000b; }
+.byrvox-progress { position:absolute; inset-inline:0; inset-block-end:-2px; height:3px; pointer-events:none; }
+.byrvox-progress span { display:block; width:100%; height:100%; transform:scaleX(0); transform-origin:left; background:#dc183d; }
+[dir=rtl] .byrvox-progress span { transform-origin:right; }
+.edition-site.edition-header .topbar { gap:clamp(8px,1.4vw,22px); }
+.edition-header .tools { margin-inline-start:auto; display:flex; align-items:center; }
+.edition-site.edition-header .tools .tool-icon { min-width:34px; }
+.edition-header .edition-menu nav { inset-inline-end:0; }
+[dir=rtl] .edition-header .edition-menu nav { right:auto; left:0; }
+@media(max-width:1300px) {
+ .edition-site.edition-header .topbar .desktop-nav { display:none; }
+ .edition-site.edition-header .edition-menu { display:block; }
+}
+@media(min-width:821px) and (max-width:1300px) {
+ .edition-site.edition-header .topbar { display:grid; grid-template-columns:minmax(0,1fr) auto; row-gap:0; padding-block:8px 0; }
+ .edition-site.edition-header .topbar .tools { grid-column:2; grid-row:1; margin:0; }
+ .edition-site.edition-header .topbar .desktop-nav { grid-column:1 / -1; grid-row:2; display:flex; justify-content:flex-start; flex-wrap:nowrap; gap:clamp(16px,2.4vw,32px); border-top:1px solid var(--line); margin-block-start:4px; overflow-x:auto; }
+ .edition-site.edition-header .topbar .desktop-nav a { padding-block:9px 12px; }
+ .edition-site.edition-header .edition-menu { display:none; }
+}
+@media(max-width:650px){
+ .edition-site.edition-header .topbar { padding:8px 12px; min-height:58px; justify-content:space-between; }
+ .edition-site.edition-header .tools {gap:3px; margin:0;}
+ .edition-site.edition-header .topbar .brand { width:clamp(81px,20vw,125px); }
+ .edition-site.edition-header .tools .tool-icon {min-width:29px; padding:3px;}
+ .edition-header .edition-menu summary { width:34px; justify-content:center; }
+ .edition-header .menu-caption { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+ .edition-header select {max-width:68px;}
+}
+@media(max-width:370px){ .edition-site.edition-header .topbar{padding-inline:6px;gap:3px;} }

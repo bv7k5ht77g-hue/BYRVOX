@@ -15,6 +15,8 @@ const photoSchema = z.object({
   url: z.string().max(100).refine(value => uploadedPhotoName(value) !== null),
   alt: z.string().trim().max(300).default(''),
   credit: z.string().trim().max(300).default(''),
+  license: z.string().trim().max(100).optional(),
+  licenseUrl: z.string().trim().max(1800).refine(validSourceUrl).optional(),
   caption: z.string().trim().max(1000).default(''),
   sourceUrl: z.string().trim().max(2000).refine(value => !value || validSourceUrl(value)).optional(),
 });

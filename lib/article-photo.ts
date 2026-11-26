@@ -4,6 +4,8 @@ export type ArticlePhoto = {
   caption: string;
   credit: string;
   sourceUrl?: string;
+  license?: string;
+  licenseUrl?: string;
 };
 
 type PhotoEdition = { photo: ArticlePhoto | null; gallery: ArticlePhoto[] };
