@@ -1,7 +1,7 @@
 import { and, eq, inArray, sql } from 'drizzle-orm';
 import { getDb } from '../../../../db';
 import { articles, revisions, runs } from '../../../../db/schema';
-import { admin, sameOrigin } from '../../../../lib/access';
+import { newsroomOwner, sameOrigin } from '../../../../lib/access';
 import { readReviewEdition, reviewEditions, type ReviewEditionSource } from '../../../../lib/review-edition';
 
 function runId(editionId: string) {
@@ -66,7 +66,7 @@ async function importEdition(source: ReviewEditionSource, actor: string): Promis
 }
 
 export async function POST(request: Request) {
-  const user = await admin();
+  const user = await newsroomOwner();
   if (!user || !sameOrigin(request)) return response({ ok: false, error: 'Accès interdit.' }, 403);
   try {
     const markers = await getDb().select({ id: runs.id }).from(runs)

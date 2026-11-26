@@ -38,8 +38,8 @@ export async function exchangeGrant(grant: string, proof: string) {
   const [row] = await getDb().update(editorSessions)
     .set({ digest: await hashSecret(token), proofHash: '', expiresAt: now() + sessionLifetime })
     .where(and(eq(editorSessions.digest, await hashSecret(grant)), eq(editorSessions.proofHash, await hashSecret(proof)), gt(editorSessions.expiresAt, now())))
-    .returning({ email:editorSessions.email });
-  return row ? {token, email:row.email} : null;
+    .returning({ email:editorSessions.email, userId:editorSessions.userId });
+  return row ? {token, ...row} : null;
 }
 export async function getEditorSession(token: string): Promise<ChatGPTUser | null> {
   const row = await getDb().select({ userId:editorSessions.userId, email:editorSessions.email }).from(editorSessions)

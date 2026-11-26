@@ -67,10 +67,11 @@ def main():
     args = parser.parse_args()
     errors = []
     for hour in args.hours:
-        if not re.fullmatch(r'[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}', hour):
+        if not re.fullmatch(r'[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}(?:-thematique)?', hour):
             raise ValueError('Invalid UTC hour')
         document = json.loads((Path('newswire') / hour / 'edition.json').read_text())
-        if document['hour'] != hour or not 1 <= len(document['articles']) <= 15:
+        limit = 16 if hour.endswith('-thematique') else 15
+        if document['hour'] != hour or not 1 <= len(document['articles']) <= limit:
             raise ValueError('Invalid edition')
         recorded = set() if args.redeliver else receipts(hour)
         for rank in range(len(document['articles']), 0, -1):

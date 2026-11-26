@@ -599,6 +599,64 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
   assert.ok(seen.every(url=>url.startsWith(base)));
 });
 
+test('les éditions thématique et horaire de la même heure ont leurs propres limites et reçus', async t => {
+  const hour = new Date(Date.now() - 3600000).toISOString().slice(0, 13);
+  const thematic = hour + '-thematique';
+  const recentDate = hour + ':00:00Z';
+  const contextDate = new Date(Date.parse(recentDate) - 10 * 86400000).toISOString();
+
+  function article(eventKey, publishedAt) {
+    return {
+      eventKey, verified: true, category: 'Sciences', title: 'Une étude documentée dans plusieurs régions',
+      summary: 'Les auteurs de deux enquêtes indépendantes ont rendu leurs observations publiques.',
+      body: 'Les équipes ont comparé leurs observations et publié les résultats de leur étude. '.repeat(6),
+      sources: ['observatoire', 'journal'].map(name => ({
+        name, url: 'https://' + name + '.example/' + eventKey, publishedAt,
+      })),
+      photo: {
+        download: 'media/etude.webp', sourceUrl: 'https://photo.example/etude',
+        credit: 'Service photographique', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
+        alt: 'Le bâtiment où se déroule l’étude.', caption: 'Le bâtiment de recherche au moment de l’étude.',
+      },
+    };
+  }
+
+  const thematicStories = Array.from({length:16}, (_, i) => article('dossier-sciences-' + (i + 1), contextDate));
+  const hourlyStories = [article('bulletin-sciences-recent', recentDate),article('bulletin-sciences-ancien', contextDate)];
+  const manifests = new Map([[hour, thematicStories], [thematic, thematicStories]]);
+  const picture = await readFile(resolve(root, 'public/media/editorial/thumbs/canada-recettes-fermes-canola-neuf-mois.webp'));
+  const repo = 'https://raw.githubusercontent.com/bv7k5ht77g-hue/BYRVOX/main/newswire/';
+  const {json} = await createNewsroom(t, {}, async req => {
+    for (const [edition, articles] of manifests) {
+      if (req.url === repo + edition + '/edition.json') return Response.json({hour:edition, articles});
+      if (req.url === repo + edition + '/media/etude.webp') return new Response(picture, {headers:{'content-type':'image/webp'}});
+    }
+    return new Response(null, {status:404});
+  });
+  const deliver = (edition, rank, expected) => json('/api/newswire', {data:{hour:edition, rank}, expected});
+
+  // The regular endpoint rejects rank 16, and its manifest cannot hide a sixteenth story behind rank 1.
+  await deliver(hour, 16, 400);
+  await deliver(hour, 1, 422);
+  manifests.set(hour, hourlyStories);
+  await deliver(hour, 2, 422);
+  assert.deepEqual(await deliver(hour, 1, 201), {status:'published', slug:hourlyStories[0].eventKey});
+
+  assert.deepEqual(await deliver(thematic, 16, 201), {status:'published', slug:thematicStories[15].eventKey});
+  assert.deepEqual(await deliver(thematic, 1, 201), {status:'published', slug:thematicStories[0].eventKey});
+  await deliver(thematic, 17, 400);
+
+  for (const [edition, slug] of [[hour, hourlyStories[0].eventKey], [thematic, thematicStories[0].eventKey]]) {
+    assert.deepEqual(await deliver(edition, 1, 200), {status:'recorded', slug});
+  }
+  const {recent} = await json('/api/newswire');
+  assert.deepEqual(new Map(recent.map(({id,slug}) => [id,slug])), new Map([
+    ['wire:' + hour + ':1', hourlyStories[0].eventKey],
+    ['wire:' + thematic + ':1', thematicStories[0].eventKey],
+    ['wire:' + thematic + ':16', thematicStories[15].eventKey],
+  ]));
+});
+
 test('le lecteur propose des sujets proches puis des découvertes publiées, sans doublon', async t => {
   const { db, request } = await createNewsroom(t, {});
   const now = new Date().toISOString();
@@ -621,11 +679,15 @@ test('le lecteur propose des sujets proches puis des découvertes publiées, san
     sample('festival', 'Un festival primé à Cannes', 'Culture'),
     sample('patinage', 'La patineuse remporte la finale', 'Sports'),
   ]);
-  const list = (await html()).match(/<ol\b[^>]*id="recommended-list"[^>]*>([\s\S]*?)<\/ol>/)?.[1];
+  const page = await html();
+  assert.ok(page.indexOf('id="recommended-list"') < page.indexOf('data-ad-slot="article"'));
+  assert.ok(page.indexOf('id="recommended-list"') < page.indexOf('id="sources"'));
+  const list = page.match(/<ol\b[^>]*id="recommended-list"[^>]*>([\s\S]*?)<\/ol>/)?.[1];
   assert.ok(list);
   const slugs = [...list.matchAll(/href="\/article\/([^"]+)"/g)].map(match=>match[1]);
-  assert.deepEqual(slugs.slice(0,2), ['tunnel-chantier','secteur-aerien']);
-  assert.deepEqual(new Set(slugs.slice(2)),new Set(['festival','patinage']));
+  assert.equal(slugs[0], 'tunnel-chantier');
+  assert.deepEqual(new Set(slugs.slice(1)),new Set(['secteur-aerien','festival','patinage']));
+  assert.equal((list.match(/Sur le même sujet/g)||[]).length,1);
   assert.equal(slugs.length,4);
 
   await db.prepare('UPDATE articles SET author_id = ? WHERE slug = ?').bind('byrvox-agent-horaire','le-tunnel').run();
@@ -634,4 +696,144 @@ test('le lecteur propose des sujets proches puis des découvertes publiées, san
   assert.match(arabic, /إصدار BYRVOX الآلي/);
   assert.match(arabic, /href="\/article\/tunnel-chantier\?lang=ar"/);
   assert.match(arabic, /<h1 lang="fr"/);
+
+  await db.batch([
+    sample('paris-rome','Le PSG concède le nul à Rome en Ligue des champions','Sports'),
+    sample('paris-qualifie','Le Paris Saint-Germain se qualifie pour la finale','Soccer'),
+    sample('autre-match','Villarreal se relance en Ligue des champions','Soccer'),
+    sample('canadien-hockey','Le capitaine du Canadien de Montréal mène le pointage dans la LNH','LNH'),
+  ]);
+  const soccer = await (await request('/article/paris-rome')).text();
+  const carousel = soccer.match(/<ol\b[^>]*id="recommended-list"[^>]*>([\s\S]*?)<\/ol>/)?.[1] || '';
+  const relatedCards = [...carousel.matchAll(/<li\b[^>]*>([\s\S]*?)<\/li>/g)]
+    .filter(match=>match[1].includes('Sur le même sujet')).map(match=>match[1].match(/href="\/article\/([^"]+)"/)?.[1]);
+  assert.deepEqual(new Set(relatedCards),new Set(['paris-qualifie','autre-match']));
+  assert.ok(carousel.indexOf('Sur le même sujet') < carousel.indexOf('À découvrir'));
+});
+
+test('les invitations séparent la contribution, l’approbation et la gestion de l’équipe', async t => {
+  const {mf, json, request} = await createNewsroom(t, {}, () => new Response(null, {status:503}));
+  const newsroom = '/api/newsroom';
+  const team = '/api/newsroom/team';
+  const contributor = 'auteur@example.invalid';
+  const other = 'reporter@example.invalid';
+  const approver = 'approbateur@example.invalid';
+  const userHeaders = email => ({
+    'oai-authenticated-user-id': 'test-' + email,
+    'oai-authenticated-user-email': email,
+  });
+  const write = (email, data) => json(newsroom, {email, data});
+  const dashboard = email => json(newsroom, {email});
+  const changeTeam = (actor, method, data, from = origin) =>
+    mf.dispatchFetch(origin + team, {method, headers:{
+      ...userHeaders(actor), origin:from, 'content-type':'application/json',
+    }, body:JSON.stringify(data)});
+  const success = async response => {
+    assert.ok(response.ok, response.status + ' ' + (await response.text()).slice(0,120));
+  };
+  const refused = response => assert.ok(response.status >= 400 && response.status < 500,
+    'Refus attendu, statut ' + response.status);
+
+  const owners = await json(team, {email:editor});
+  assert.ok(owners.owners.includes(editor));
+  assert.equal((await dashboard(editor)).role, 'owner');
+  assert.equal((await request(team, contributor)).status, 403);
+  assert.equal((await request(newsroom, contributor)).status, 403);
+  assert.equal((await changeTeam(contributor, 'POST', {email:contributor, role:'approver'})).status, 403);
+  assert.equal((await changeTeam(editor, 'POST', {email:contributor, role:'approver'}, 'https://foreign.example.invalid')).status, 403);
+  refused(await changeTeam(editor, 'POST', {email:contributor, role:'owner'}));
+  refused(await changeTeam(editor, 'DELETE', {email:editor}));
+  for (const [email, role] of [[contributor,'contributor'],[other,'contributor'],[approver,'approver']]) {
+    await success(await changeTeam(editor, 'POST', {email, role}));
+  }
+  await success(await changeTeam(editor, 'POST', {email:contributor.toUpperCase(),role:'contributor'}));
+  const {members} = await json(team, {email:editor});
+  assert.equal(members.length,3);
+  const invited = members.find(member => member.email === contributor);
+  assert.equal(invited.role, 'contributor');
+  assert.equal(invited.acceptedAt, null);
+
+  const custom = 'https://byrvox.noventra.ca';
+  const provider = 'https://byrvox.h2y4xnnm6g.chatgpt.site';
+  const start = await mf.dispatchFetch(custom + '/api/editor-session/start', {redirect:'manual'});
+  const authorize = start.headers.get('location');
+  assert.equal(new URL(authorize).origin, provider);
+  const authorized = await mf.dispatchFetch(authorize, {redirect:'manual', headers:userHeaders(contributor)});
+  assert.equal(authorized.status, 200);
+  const grant = (await authorized.text()).match(/name="grant" value="([0-9a-f]{64})"/)[1];
+  const proofCookie = start.headers.get('set-cookie').split(';')[0];
+  const finish = await mf.dispatchFetch(custom + '/api/editor-session/finish', {method:'POST', redirect:'manual',
+    headers:{origin:provider,cookie:proofCookie,'content-type':'application/x-www-form-urlencoded'},body:'grant='+grant});
+  assert.equal(finish.status,303);
+  const sessionCookie = finish.headers.get('set-cookie').match(/__Host-byrvox-editor=[a-f0-9]{64}/)[0];
+  const sessionDashboard = () => mf.dispatchFetch(custom + newsroom, {headers:{cookie:sessionCookie}});
+  const activeSession = await sessionDashboard();
+  assert.equal(activeSession.status, 200);
+  assert.equal((await activeSession.json()).role, 'contributor');
+  const accepted = (await json(team, {email:editor})).members.find(member => member.email === contributor);
+  assert.ok(accepted.acceptedAt);
+  const differentAccount = await mf.dispatchFetch(origin + newsroom, {headers:{
+    'oai-authenticated-user-id':'other-provider-account', 'oai-authenticated-user-email':contributor,
+  }});
+  assert.equal(differentAccount.status, 403);
+  assert.equal((await dashboard(approver)).role, 'approver');
+  for (const actor of [contributor, approver]) {
+    assert.equal((await request(team, actor)).status,403);
+    assert.equal((await changeTeam(actor, 'POST', {email:other, role:'approver'})).status, 403);
+    assert.equal((await changeTeam(actor, 'DELETE', {email:other})).status, 403);
+  }
+  for (const path of ['/api/newsroom/edition','/api/pulse','/api/generate']) {
+    assert.equal((await request(path, contributor, {})).status, 403, path);
+  }
+
+  const otherDraft = await write(other, {...initial, title:'Sujet réservé au second auteur'});
+  const png = await readFile(resolve(root, 'public/brand/logo-dark.png'));
+  const uploaded = await mf.dispatchFetch(origin + newsroom + '/photos', {method:'POST',
+    headers:{...userHeaders(contributor),origin,'content-type':'image/png'},body:png});
+  assert.equal(uploaded.status, 201);
+  const {url} = await uploaded.json();
+  assert.equal((await request(url, contributor)).status, 200);
+  assert.equal((await request(url, approver)).status, 200);
+  assert.equal((await request(url, other)).status, 404);
+  assert.equal((await request(url)).status, 404);
+  const photo = {url, alt:'Photo de la rédaction', credit:'Photographe', caption:'Une scène locale.'};
+  refused(await request(newsroom, other, {...initial, id:otherDraft.id, version:otherDraft.version, photo}));
+  const draft = await write(contributor, {...initial, photo});
+  const mine = await dashboard(contributor);
+  assert.deepEqual(mine.articles.map(article => article.id), [draft.id]);
+  assert.ok(mine.revisions.every(revision => revision.articleId === draft.id));
+  const updated = await write(contributor, {...initial, title:'Titre soumis par le collaborateur', photo,
+    id:draft.id, version:draft.version});
+  refused(await request(newsroom, contributor, {...initial, id:otherDraft.id, version:otherDraft.version}));
+  refused(await request(newsroom, other, {...initial, id:draft.id, version:updated.version, action:'review'}));
+  const review = await write(contributor, {...initial, photo, id:draft.id, version:updated.version, action:'review'});
+  assert.equal(review.status,'review');
+  assert.deepEqual((await dashboard(approver)).reviewQueue.map(article => article.id),[draft.id]);
+  assert.deepEqual(await json('/api/articles'), []);
+  assert.equal((await request(url)).status, 404);
+  for (const action of ['publish','return','restore','save']) {
+    refused(await request(newsroom, contributor, {...initial, id:draft.id, version:review.version, action}));
+  }
+  const returned = await write(approver, {id:draft.id, version:review.version, action:'return'});
+  assert.equal(returned.status,'draft');
+  const again = await write(contributor, {...initial, photo, title:'Version corrigée après relecture',
+    id:draft.id, version:returned.version, action:'review'});
+  const live = await write(approver, {id:draft.id, version:again.version, action:'publish'});
+  assert.equal(live.status,'published');
+  assert.deepEqual((await dashboard(approver)).reviewQueue,[]);
+  assert.equal((await json('/api/articles'))[0].title, again.title);
+  refused(await request(newsroom, contributor, {...initial, id:draft.id, version:live.version, action:'save'}));
+  assert.equal((await request(url)).status, 200);
+
+  // Changing and revoking a role must affect the session already issued on the custom domain.
+  await success(await changeTeam(editor, 'POST', {email:contributor, role:'approver'}));
+  assert.equal((await (await sessionDashboard()).json()).role, 'approver');
+  await success(await changeTeam(editor, 'DELETE', {email:contributor}));
+  assert.equal((await sessionDashboard()).status, 403);
+  assert.equal((await request(newsroom, contributor)).status, 403);
+  assert.equal((await request(newsroom, contributor, initial)).status, 403);
+  assert.equal((await mf.dispatchFetch(origin + newsroom + '/photos', {method:'POST',
+    headers:{...userHeaders(contributor),origin,'content-type':'image/png'},body:png})).status,403);
+  await success(await changeTeam(editor, 'POST', {email:contributor, role:'contributor'}));
+  assert.equal((await sessionDashboard()).status, 403);
 });

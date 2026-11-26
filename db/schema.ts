@@ -57,3 +57,12 @@ export const articleTranslations = sqliteTable('article_translations', {
   photo: text('photo', {mode:'json'}).$type<{sourceUrl:string;sourceAlt:string;sourceCaption:string;alt:string;caption:string}>(),
   summary: text('summary').notNull(), body: text('body').notNull(),
 }, table => [primaryKey({columns:[table.slug,table.locale]})]);
+
+export const newsroomMembers = sqliteTable('newsroom_members', {
+  email: text('email').primaryKey(),
+  role: text('role', {enum:['contributor','approver']}).notNull(),
+  userId: text('user_id'),
+  invitedBy: text('invited_by').notNull(),
+  createdAt: text('created_at').notNull(),
+  acceptedAt: text('accepted_at'),
+});

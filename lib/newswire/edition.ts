@@ -23,14 +23,17 @@ const storySchema = z.object({
   translations: z.object({en:translated, es:translated, ar:translated, 'zh-CN':translated, ru:translated, ko:translated}).partial().optional(),
 });
 export type WireStory = z.infer<typeof storySchema>;
-export const editionSchema = z.object({hour:z.string(), articles:z.array(storySchema).min(1).max(15)});
+export const editionLimit = (edition: string) => edition.endsWith('-thematique') ? 16 : 15;
+export const editionSchema = z.object({hour:z.string(), articles:z.array(storySchema).min(1).max(16)})
+  .refine(edition => edition.articles.length <= editionLimit(edition.hour));
 export type WireEdition = z.infer<typeof editionSchema>;
 export const repoBase = 'https://raw.githubusercontent.com/bv7k5ht77g-hue/BYRVOX/main/newswire/';
 
 export function recentHour(hour: unknown, now = Date.now()): hour is string {
-  if (typeof hour !== 'string' || !/^\d{4}-\d{2}-\d{2}T\d{2}$/.test(hour)) return false;
-  const t = Date.parse(hour + ':00:00Z');
-  return Number.isFinite(t) && new Date(t).toISOString().startsWith(hour + ':') && t <= now && now - t < 72 * 3600000;
+  if (typeof hour !== 'string' || !/^\d{4}-\d{2}-\d{2}T\d{2}(?:-thematique)?$/.test(hour)) return false;
+  const timestamp = hour.slice(0,13);
+  const t = Date.parse(timestamp + ':00:00Z');
+  return Number.isFinite(t) && new Date(t).toISOString().startsWith(timestamp + ':') && t <= now && now - t < 72 * 3600000;
 }
 
 const imageOrigins = new Set(['upload.wikimedia.org', 'images-assets.nasa.gov', 'images.pexels.com',
@@ -45,9 +48,9 @@ export function imageAddress(download: string, hour: string) {
 export function articleError(story: WireStory, hour: string, now = Date.now()) {
   const publishers = new Set(story.sources.map(s => new URL(s.url).hostname.toLowerCase().replace(/^www\./,'')));
   if (publishers.size < 2) return 'Deux éditeurs distincts sont nécessaires.';
-  const end = Date.parse(hour + ':00:00Z') + 3600000;
+  const end = Date.parse(hour.slice(0,13) + ':00:00Z') + 3600000;
   const dates = story.sources.map(s => Date.parse(s.publishedAt));
-  if (dates.some(date => date >= end || date > now + 300000) || !dates.some(date => date >= end - 49*3600000)) {
+  if (dates.some(date => date >= end || date > now + 300000) || (!hour.endsWith('-thematique') && !dates.some(date => date >= end - 49*3600000))) {
     return 'La date des sources ne correspond pas à cette édition.';
   }
   if (!imageAddress(story.photo.download,hour)) return 'Source de la photographie non prise en charge.';

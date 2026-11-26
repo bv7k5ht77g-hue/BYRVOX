@@ -1,7 +1,7 @@
 'use client';
 import {useState} from 'react';
 
-export function EditionDelivery({hour}:{hour:string}) {
+export function EditionDelivery({hour,maxRank}:{hour:string;maxRank:number}) {
   const [running,setRunning] = useState(false);
   const [results,setResults] = useState<string[]>([]);
   async function deliver(){
@@ -10,7 +10,7 @@ export function EditionDelivery({hour}:{hour:string}) {
     let published = 0, failures = 0;
     try {
       // Deliver the top-ranked article last so it can lead an automatically ordered edition.
-      for (let rank=15;rank>=1;rank--) {
+      for (let rank=maxRank;rank>=1;rank--) {
         try {
           const response = await fetch('/api/newswire',{method:'POST',headers:{'Content-Type':'application/json'},
             body:JSON.stringify({hour,rank})});
@@ -34,7 +34,7 @@ export function EditionDelivery({hour}:{hour:string}) {
     }
   }
   return <section>
-    <p>Livraison de l’édition du <strong>{hour.replace('T',' à ')} h UTC</strong> depuis le dépôt de la rédaction.</p>
+    <p>Livraison de l’édition du <strong>{hour.slice(0,13).replace('T',' à ')} h UTC</strong> depuis le dépôt de la rédaction.</p>
     <button type="button" className="red" disabled={running} onClick={deliver} style={{marginBlock:18}}>
       {running?'Livraison en cours…':'Publier l’édition GitHub'}
     </button>

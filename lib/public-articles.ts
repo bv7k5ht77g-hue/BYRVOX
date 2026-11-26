@@ -1,11 +1,16 @@
-import { and, asc, desc, eq, inArray, or, sql, type SQL } from "drizzle-orm";
+import { and, asc, desc, eq, inArray, not, or, sql, type SQL } from "drizzle-orm";
 import { getDb } from "../db";
 import { articles, articleTranslations } from "../db/schema";
 import { matchingSeedSummaries } from "./public-translations";
 import type { PublicLocale } from "./i18n";
 import { isoDate } from "./publication-date";
+import { archiveSearchTerms } from "./reader-recommendations";
+import type { Summary } from "./edition";
 import { resolveCover } from "./cover-photo";
 import { getHomepageLeadSlug } from "./homepage-lead";
+import { canonicalCategory, categoryAliases, orderedCategories, type CategoryHeadlines } from "./editorial-sections";
+import { sportKeywords } from "./story-topics";
+import { containsSearchTerms, hasSearchPhrase, normalizedSearchSql } from "./search-text";
 
 const summaryFields = {
   slug: articles.slug,
@@ -49,22 +54,44 @@ export async function listPublishedArticles(limit?: number) {
   return rows.map(summary);
 }
 
-// SQLite's built-in case folding is ASCII-only. Match French letters in either
-// case and with common diacritics; keep reader-supplied glob operators literal.
-const frenchLetters: Record<string, string> = {
-  a: "aàâäáãå", c: "cç", e: "eéèêë", i: "iîïíì", o: "oôöóòõ",
-  u: "uûùüú", y: "yÿý", n: "nñ", "œ": "œ", "æ": "æ",
-};
+const haitiTerms = ['Haïti', 'haïtien', 'haïtienne', 'haïtiens', 'haïtiennes', 'Port-au-Prince'];
+const caribbeanTerms = [...haitiTerms, 'Caraïbes', 'Antilles', 'Guadeloupe', 'Martinique', 'Cuba', 'Jamaïque',
+  'Porto Rico', 'Puerto Rico', 'République dominicaine', 'Barbade', 'Trinité-et-Tobago', 'Bahamas', 'Sainte-Lucie'];
+const electionTerms = ['élection', 'élections', 'électoral', 'électorale', 'électoraux', 'électorales',
+  'présidentielle', 'législatives', 'scrutin', 'scrutins', 'référendum'];
 
-function searchPattern(term: string) {
-  const plain = term.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
-  const chars = Array.from(plain, (c) => {
-    if (c === "[" || c === "?" || c === "*") return "[" + c + "]";
-    const letters = frenchLetters[c] ?? c;
-    const upper = letters.toUpperCase();
-    return upper === letters ? c : "[" + letters + upper + "]";
-  });
-  return "*" + chars.join("") + "*";
+function categoryPredicate(name: string) {
+  const category = canonicalCategory(name);
+  const exact = (names: string[]) => or(...names.map(n => sql`${articles.category} = ${n} COLLATE NOCASE`));
+  const names = Object.hasOwn(categoryAliases,category) ? categoryAliases[category] : [category];
+  if (category === 'Sports') return exact([...names, ...categoryAliases.Soccer, ...categoryAliases.LNH, ...categoryAliases.Basketball, ...categoryAliases.Tennis, ...categoryAliases['Football américain'], 'Hockey','Hockey sur glace']);
+  if (category === 'Sciences') return exact([...names,...categoryAliases.Espace]);
+  if (category === 'Soccer' || category === 'LNH') {
+    const sports = exact(['Sport','Sports','Hockey','Hockey sur glace']);
+    const copy = sql`(' ' || ${articles.title} || ' ' || ${articles.summary} || ' ')`;
+    const otherFootball = category === 'Soccer' ? hasSearchPhrase(copy,['football américain','football canadien','NFL','LCF']) : undefined;
+    return or(exact(names), and(sports, hasSearchPhrase(copy,sportKeywords[category]), otherFootball ? not(otherFootball) : undefined));
+  }
+  const headline = sql`(' ' || ${articles.title} || ' ')`;
+  if (category === 'Caraïbes') return or(exact([...names,...categoryAliases.Haïti,...caribbeanTerms]),hasSearchPhrase(headline,caribbeanTerms));
+  if (category === 'Haïti') return or(exact(names),hasSearchPhrase(headline,haitiTerms));
+  if (category === 'Élections') return or(exact(names),hasSearchPhrase(headline,electionTerms));
+  return exact(names);
+}
+
+export async function listCategoryHeadlines(selected?: string): Promise<CategoryHeadlines[]> {
+  const db = getDb();
+  const categories = selected ? [canonicalCategory(selected)] : orderedCategories(
+    (await db.selectDistinct({name:articles.category}).from(articles).where(isPublished).orderBy(asc(articles.category))).map(row=>row.name));
+  const groups: CategoryHeadlines[] = [];
+  // Batch the per-section limits so a prolific desk cannot crowd out quieter sections.
+  for (let i=0; i<categories.length; i+=20) {
+    const batch = categories.slice(i,i+20);
+    const [first,...rest] = batch.map(category=>publishedQuery(categoryPredicate(category)).limit(6));
+    const rows = await db.batch([first,...rest]);
+    batch.forEach((category,index) => groups.push({category,stories:rows[index].map(summary)}));
+  }
+  return groups;
 }
 
 export async function readEditionArticles({ page = 1, query = "", category = "", locale = "fr" }: {
@@ -77,10 +104,10 @@ export async function readEditionArticles({ page = 1, query = "", category = "",
   const cachedMatches = locale !== "fr" && words.length ? getDb().select({ slug:articleTranslations.slug })
     .from(articleTranslations).where(and(eq(articleTranslations.locale, locale),
       eq(articleTranslations.sourceTitle, articles.title), eq(articleTranslations.sourceSummary, articles.summary),
-      ...words.map(word => sql`${translatedContent} GLOB ${searchPattern(word)}`))) : null;
+      containsSearchTerms(translatedContent,words))) : null;
   const criteria = and(
-    category ? eq(articles.category, category) : undefined,
-    or(and(...words.map((word) => sql`${content} GLOB ${searchPattern(word)}`)),
+    category ? categoryPredicate(category) : undefined,
+    or(containsSearchTerms(content,words),
       cachedMatches ? inArray(articles.slug, cachedMatches) : undefined,
       ...seedMatches.map(match => and(eq(articles.slug,match.slug),eq(articles.title,match.sourceTitle),eq(articles.summary,match.sourceSummary)))),
   );
@@ -93,7 +120,7 @@ export async function readEditionArticles({ page = 1, query = "", category = "",
   return {
     stories: rows.slice(0, editionPageSize).map(summary),
     hasNext: rows.length > editionPageSize,
-    categories: categories.map(({ name }) => name),
+    categories: orderedCategories(categories.map(({ name }) => name)),
   };
 }
 
@@ -110,10 +137,14 @@ export async function listSavedArticles(slugs: string[]) {
   });
 }
 
-// Include the article's own news cycle on archive visits, alongside current stories.
-export async function readerCandidates(publishedAt?: string | null) {
-  const recent = await listPublishedArticles(96);
-  if (!publishedAt || !recent.length || publishedAt >= (recent[recent.length - 1].publishedAt ?? '')) return recent;
-  const past = await publishedQuery(sql`${articles.publishedAt} <= ${publishedAt}`).limit(48);
-  return [...recent, ...past.map(summary)];
+// Recent discoveries and matching archive stories are ranked together by the reader.
+export async function readerCandidates(story:Summary) {
+  const text=sql`(${articles.title} || ' ' || ${articles.summary})`;
+  const keywords=archiveSearchTerms(story);
+  const [recent, sameCategory, archive] = await Promise.all([
+    listPublishedArticles(72),
+    publishedQuery(eq(articles.category,story.category)).limit(40),
+    keywords.length ? publishedQuery(hasSearchPhrase(text,keywords)).limit(64) : Promise.resolve([]),
+  ]);
+  return [...recent,...sameCategory.map(summary),...archive.map(summary)];
 }

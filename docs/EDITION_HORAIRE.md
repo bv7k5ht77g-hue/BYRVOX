@@ -35,3 +35,7 @@ Le workflow GitHub « Publish BYRVOX hourly edition » livre chaque rang de la b
 3. Contrôler le registre public, le flux RSS et les liens des articles. Réessayer le rang après une interruption de réseau. Le serveur accepte les reprises pendant 72 heures et conserve les corrections manuelles. Consigner les succès, les doublons et les obstacles réels.
 
 L’agent de recherche et de rédaction est la tâche horaire liée au site. Ce workflow GitHub assure la livraison des éditions déjà rédigées. Le serveur ne reçoit ni jeton GitHub ni clé d’un service d’IA pour cette opération.
+
+## Éditions thématiques
+
+Une commande éditoriale distincte peut utiliser le dossier `newswire/YYYY-MM-DDTHH-thematique/`. Ces dossiers peuvent regrouper jusqu’à seize articles, y compris un suivi, et des sources de référence plus anciennes pour des sujets de fond. Le suffixe réserve des reçus distincts et laisse à la tâche horaire son dossier habituel. La date réelle de chaque source reste obligatoire.

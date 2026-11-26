@@ -2,19 +2,23 @@ import { PortalThemeToggle } from './theme-toggle';
 import { SITE_ORIGIN } from '../../lib/site-url';
 import Image from 'next/image';
 import { useRef, useState } from 'react';
-import { AudioLines, BookOpen, Clapperboard, History, LayoutDashboard, Menu, Settings2, SquarePen, X } from 'lucide-react';
+import { AudioLines, BookOpen, Clapperboard, ClipboardCheck, History, LayoutDashboard, Menu, Settings2, SquarePen, Users, X } from 'lucide-react';
 
-const sections = [
+import type { NewsroomRole } from '../../lib/access';
+
+const sections: {name: string; icon: typeof Menu; owner?: boolean; reviewer?: boolean}[] = [
   { name: 'Tableau de bord', icon: LayoutDashboard },
   { name: 'Articles', icon: BookOpen },
   { name: 'Éditeur', icon: SquarePen },
-  { name: 'PULSE AI', icon: AudioLines },
-  { name: 'Studio AI', icon: Clapperboard },
-  { name: 'Historique', icon: History },
-  { name: 'Intégrations', icon: Settings2 },
+  { name: 'À approuver', icon: ClipboardCheck, reviewer: true },
+  { name: 'Équipe', icon: Users, owner: true },
+  { name: 'PULSE AI', icon: AudioLines, owner: true },
+  { name: 'Studio AI', icon: Clapperboard, owner: true },
+  { name: 'Historique', icon: History, reviewer: true },
+  { name: 'Intégrations', icon: Settings2, owner: true },
 ];
 
-export function AdminNavigation({ tab, busy, onNavigate }: { tab: string; busy: boolean; onNavigate: (tab: string) => void }) {
+export function AdminNavigation({ tab, busy, role, onNavigate }: { tab: string; busy: boolean; role: NewsroomRole; onNavigate: (tab: string) => void }) {
   const [expanded, setExpanded] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
   return <aside className="sidebar portal-sidebar" onKeyDown={event => {
@@ -29,7 +33,7 @@ export function AdminNavigation({ tab, busy, onNavigate }: { tab: string; busy: 
       </button>
     </div>
     <nav id="portal-navigation" aria-label="Navigation de la rédaction" className={expanded ? 'is-open' : ''}>
-      {sections.map(({name, icon: Icon}) => <button key={name} aria-current={name === tab ? 'page' : undefined}
+      {sections.filter(item => (!item.owner || role === 'owner') && (!item.reviewer || role !== 'contributor')).map(({name, icon: Icon}) => <button key={name} aria-current={name === tab ? 'page' : undefined}
         disabled={busy} onClick={() => {
           setExpanded(false); onNavigate(name);
         }}><Icon size={18} aria-hidden="true" /> {name}</button>)}
