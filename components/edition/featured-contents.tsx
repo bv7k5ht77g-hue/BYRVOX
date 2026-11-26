@@ -4,6 +4,7 @@ import { Bookmark, ChevronDown, Plus, Search } from 'lucide-react';
 import { useState, type ReactNode } from 'react';
 import { canonicalCategory } from '../../lib/editorial-sections';
 import { articleHref, editionHref, fold, type Summary } from '../../lib/edition';
+import {Mark} from './category-mark';
 import { categoryLabel, localizedHref, sectionLabel, type PublicLocale } from '../../lib/i18n';
 import { usePublicLocale } from '../language-select';
 import { sectionText } from './section-copy';
@@ -11,7 +12,7 @@ import { StoryCardImage, StoryDate } from './story-card';
 import './featured-contents.css';
 
 const labels: Record<PublicLocale, {title: string; more: string}> = {
-  fr: {title: 'Nos contenus à la une', more: 'Afficher plus de contenus'},
+  fr: {title: 'À découvrir dans nos rubriques', more: 'Afficher plus de contenus'},
   en: {title: 'Featured stories', more: 'Show more stories'},
   es: {title: 'Contenidos destacados', more: 'Mostrar más contenidos'},
   ar: {title: 'مختارات التحرير', more: 'عرض المزيد'},
@@ -34,7 +35,7 @@ function SpotlightCard({ story, lang, save }: { story: Summary; lang: PublicLoca
   return <article className="by-spotlight-card">
     <StoryCardImage story={story} />
     <div className="by-spotlight-copy">
-      <p className="by-category">{categoryLabel(story.category, lang)}</p>
+      <p className="by-category"><Mark category={story.category} label={categoryLabel(story.category, lang)}/></p>
       <h3 lang={story.contentLocale} dir="auto"><a href={localizedHref(articleHref(story), lang)}>{story.title}</a></h3>
       <p className="by-spotlight-deck" lang={story.contentLocale} dir="auto">{story.summary}</p>
       <div className="by-spotlight-meta">
@@ -50,7 +51,10 @@ export function FeaturedContents({ stories, presentations, savedCount, saveButto
   const [activeCategory, setActiveCategory] = useState('');
   const [query, setQuery] = useState('');
   const [visibleCount, setVisibleCount] = useState(pageSize);
-  const pool = Array.from(new Map([...presentations, ...stories].map(story => [story.slug, story])).values());
+  const unique = Array.from(new Map([...presentations, ...stories].map(story => [story.slug, story])).values());
+  const desks=new Map<string,Summary[]>();
+  for(const item of unique){const group=desks.get(item.category)||[];group.push(item);desks.set(item.category,group)}
+  const pool=Array.from({length:Math.max(0,...Array.from(desks.values(),g=>g.length))},(_,i)=>Array.from(desks.values()).flatMap(g=>g[i]?[g[i]]:[])).flat();
   const categories = [...new Set(stories.filter(story => !story.presentation).map(story => canonicalCategory(story.category)).filter(Boolean))];
   if (presentations.length) categories.push(presentationsFilter);
   const terms = fold(query).split(/\s+/u).filter(Boolean);

@@ -32,6 +32,8 @@ const sectionRows: Record<Section, Row> = {
  recherche:['Recherche','Search','Buscar','بحث','搜索','Поиск','검색'],
 };
 const categoryRows: Row[] = [
+ ['Éditorial','Editorial','Editorial','افتتاحية','社论','Редакционная статья','사설'],
+ ['Article sponsorisé','Sponsored article','Artículo patrocinado','مقال برعاية','赞助文章','Спонсорский материал','협찬 기사'],
  ['Caraïbes','Caribbean','Caribe','الكاريبي','加勒比','Карибский регион','카리브해'],
  ['Haïti','Haiti','Haití','هايتي','海地','Гаити','아이티'],
  ['Élections','Elections','Elecciones','الانتخابات','选举','Выборы','선거'],

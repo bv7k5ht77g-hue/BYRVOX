@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import type { ReactNode } from 'react';
 import { articleHref, type Summary } from '../../lib/edition';
+import {Awards} from './rankings';
+import {Mark} from './category-mark';
 import { categoryLabel, localizedHref, type PublicLocale } from '../../lib/i18n';
 import { sectionText } from './section-copy';
 
@@ -28,8 +30,8 @@ export function StoryCardImage({ story }: { story: Summary }) {
 
 export function StoryCard({ story, save, lang, showSummary = false }: { story: Summary; save?: ReactNode; lang: PublicLocale; showSummary?: boolean }) {
   return <article className="by-card"><a href={localizedHref(articleHref(story),lang)}>
-    <StoryCardImage story={story} />
-    <p className="by-category">{categoryLabel(story.category,lang)}</p><h3 lang={story.contentLocale} dir="auto">{story.title}</h3>
+    <StoryCardImage story={story} /><Awards slug={story.slug} lang={lang}/>
+    <p className="by-category"><Mark category={story.category} label={categoryLabel(story.category,lang)}/></p><h3 lang={story.contentLocale} dir="auto">{story.title}</h3>
     {showSummary && <p className="by-card-summary" lang={story.contentLocale} dir="auto">{story.summary}</p>}
     <small><StoryDate story={story} lang={lang} /></small>
   </a>{save}</article>;

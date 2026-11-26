@@ -1,7 +1,7 @@
 import { editionHref, fold, type Summary } from './edition';
 
 export type CategoryHeadlines = { category: string; stories: Summary[] };
-export const featuredCategories = ['Caraïbes', 'Haïti', 'Élections', 'Sports', 'Soccer', 'LNH', 'Sciences', 'Espace'] as const;
+export const featuredCategories = ['International','Canada','Économie','Sports','Sciences','Technologie','Culture','Environnement','Société','Espace'] as const;
 export const categoryAliases: Record<string, string[]> = {
   'Caraïbes': ['Caraïbes', 'Caraibes', 'Caribbean', 'Antilles'],
   'Haïti': ['Haïti', 'Haiti'],

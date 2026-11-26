@@ -119,3 +119,7 @@ export const adSenseSettings = sqliteTable('adsense_settings', {
   client: text('client').notNull(),
   version: integer('version').notNull(),
 });
+
+export const audienceDaily = sqliteTable('audience_daily', {
+  day:text('day').notNull(), slug:text('slug').notNull(), kind:text('kind').notNull(), total:integer('total').notNull(),
+}, t=>[primaryKey({columns:[t.day,t.slug,t.kind]})]);

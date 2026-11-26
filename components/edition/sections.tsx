@@ -2,6 +2,8 @@ import { ArrowLeft, ArrowRight, ArrowUpRight, AudioLines, Bookmark, Radio, Refre
 import Image from 'next/image';
 import { useState, type ReactNode } from 'react';
 import { articleHref, editionHref, fold, type EditionRoute, type Summary } from '../../lib/edition';
+import {Rankings} from './rankings';
+import {Mark} from './category-mark';
 import { categoryLabel, localizedHref, sectionLabel, type PublicLocale } from '../../lib/i18n';
 import { usePublicLocale } from '../language-select';
 import { StoryCard, StoryDate } from './story-card';
@@ -80,7 +82,7 @@ function FrontLead({ story, lang }: { story: Summary; lang: PublicLocale }) {
     <div className="by-lead-copy">
       <div className="by-lead-meta">
         <span className="by-lead-badge">{sectionText(lang, 'lead')}</span>
-        <span>{categoryLabel(story.category, lang)}</span>
+        <span><Mark category={story.category} label={categoryLabel(story.category, lang)}/></span>
       </div>
       <h1 id="lead-title" lang={story.contentLocale} dir="auto"><a href={href}>{story.title}</a></h1>
       <p className="by-deck" lang={story.contentLocale} dir="auto">{story.summary}</p>
@@ -102,7 +104,7 @@ function LatestFeed({ stories, lang }: { stories: Summary[]; lang: PublicLocale 
   return <section className="by-feed" aria-labelledby="feed-title">
     <h2 id="feed-title"><AudioLines size={21} aria-hidden="true" />{sectionText(lang, 'wire')}</h2>
     <ul>{stories.map(story => <li key={story.slug}><a href={localizedHref(articleHref(story),lang)}>
-      <div><span className="by-category">{categoryLabel(story.category,lang)}</span><h3 lang={story.contentLocale} dir="auto">{story.title}</h3><small><StoryDate story={story} lang={lang} withTime /></small></div>
+      <div><span className="by-category"><Mark category={story.category} label={categoryLabel(story.category,lang)}/></span><h3 lang={story.contentLocale} dir="auto">{story.title}</h3><small><StoryDate story={story} lang={lang} withTime /></small></div>
       {story.photo && <Image unoptimized loading="lazy" decoding="async" width={128} height={88} src={story.photo.thumbnailUrl || story.photo.url} alt="" />}
     </a></li>)}</ul>
     <a className="by-section-link" href={localizedHref(editionHref('actualites'),lang)}>{sectionText(lang,'allNews')}</a>
@@ -116,7 +118,7 @@ function TopicDirectory({ categories, current, lang }: { categories:string[]; cu
 }
 
 const topicFamilies = [
-  ['Caraïbes','Haïti','Élections'], ['Sports','Soccer','LNH','Basketball','Tennis','Football américain'],
+  ['Sports','Soccer','LNH','Basketball','Tennis','Football américain'],
   ['Sciences','Espace'],
 ] as const;
 
@@ -139,7 +141,7 @@ function TopicGrid({ groups, lang }: { groups:CategoryHeadlines[]; lang:PublicLo
     available.delete(category);
     return group ? [group] : [];
   }));
-  desks.push([...available.values()]);
+  desks.push(...[...available.values()].map(group=>[group]));
   return <div className="by-topic-grid">{desks.filter(desk=>desk.length).map(desk=>
     <DeskRail key={desk[0].category} groups={desk} lang={lang}/>)}</div>;
 }
@@ -171,14 +173,14 @@ export function EditionFront({ stories, headlines, presentations, savedCount, sa
       <AdSlot placement="home-lower" />
     </>}
     {feed.length>0 && <LatestFeed stories={feed} lang={lang} />}
-    <BrandShowcase lang={lang} />
-    <FeaturedContents stories={more} presentations={presentations} savedCount={savedCount} saveButton={saveButton} />
+    
+    <FeaturedContents stories={more} presentations={[]} savedCount={savedCount} saveButton={saveButton} />
     {headlines.length>0 && <section className="by-section" aria-labelledby="topics-heading">
       <div className="by-section-title"><h2 id="topics-heading">{sectionText(lang,'topics')}</h2></div>
       <AllTopicLinks categories={headlines.map(group=>group.category)} lang={lang}/>
       <TopicGrid groups={headlines} lang={lang}/>
     </section>}
-    <RadioYO lang={lang} compact/>
+    <BrandShowcase lang={lang}/><RadioYO lang={lang} compact/>
     <MobileReading lang={lang} />
   </div>;
 }

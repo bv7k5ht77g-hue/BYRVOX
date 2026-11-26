@@ -8,6 +8,7 @@ import { parseAdSenseSnippet } from '../../lib/adsense.mjs';
 import { validAdImageUrl, type AdPlacement, type AdSenseSettings, type Placement } from '../../lib/ad-placements';
 
 const slotNames: Record<Placement,string> = {
+  footer:'Pied de page · site public',
   home: 'Accueil · sous la navigation',
   'home-lower': 'Accueil · sous la manchette',
   masthead: 'Pages intérieures · sous la navigation',

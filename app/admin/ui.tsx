@@ -34,7 +34,7 @@ const empty: Editor = {
   id: '', slug: '', title: '', photo: null, photoHidden: false, gallery: [], category: 'International', summary: '', body: '', risk: 'standard',
   sources: [], status: 'draft', isLive: false,
 };
-const categories = ['International', 'Politique', 'Économie', 'Société', 'Technologie', 'Environnement', 'Sports', 'Culture'];
+const categories = ['International', 'Politique', 'Économie', 'Société', 'Technologie', 'Environnement', 'Sports', 'Culture','Éditorial','Article sponsorisé'];
 
 function statusLabel(article: Pick<Article, 'status' | 'isLive'>) {
   if (article.status === 'published') return 'Publié';

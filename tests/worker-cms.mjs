@@ -651,7 +651,7 @@ test('les responsables configurent les espaces publicitaires sans écraser une c
 
   const { placements } = await json(endpoint, {email: editor});
   assert.deepEqual(placements.map(p => p.placement).sort(), [
-    'article', 'article-photo', 'home', 'home-lower', 'masthead', 'news', 'news-lower', 'radio',
+    'article', 'article-photo', 'footer', 'home', 'home-lower', 'masthead', 'news', 'news-lower', 'radio',
   ]);
   assert.ok(placements.every(p => p.mode === 'available' && p.version === 0));
   const initialHome = placements.find(p => p.placement === 'home');

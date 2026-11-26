@@ -1,10 +1,9 @@
 'use client';
 
 import Image from 'next/image';
-import { Bookmark, BookmarkCheck, CircleUserRound, Menu, Moon, Rss, Search, Settings2, Sun, X } from 'lucide-react';
+import { Bookmark, BookmarkCheck, CircleUserRound, Menu, Moon, Rss, Search, Sun, X } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { editionHref, type EditionRoute, type Section, type Summary } from '../../lib/edition';
-import { NEWSROOM_URL } from '../../lib/site-url';
 import type { CategoryHeadlines } from '../../lib/editorial-sections';
 import { AdSlot } from './ad-slot';
 import { HeaderTopics } from './header-topics';
@@ -90,7 +89,7 @@ function Footer({ open }: { open: (name: DialogName) => void }) {
   const lang = usePublicLocale();
   const policyLabels = ['editorial','corrections','privacy','terms'] as const;
   return <footer className="by-footer">
-    <div className="wrap by-footer-main">
+    <div className="wrap"><AdSlot placement="footer"/></div><div className="wrap by-footer-main">
       <div className="by-footer-brand"><Brand /><p>{navText(lang,'perspective')}</p></div>
       <nav aria-label={navText(lang,'explore')}>
         <h2>{navText(lang,'explore')}</h2>
@@ -103,7 +102,7 @@ function Footer({ open }: { open: (name: DialogName) => void }) {
         <a href={localizedHref(editionHref('presentations'),lang)}>{sectionLabel('presentations',lang)}</a>
         <button onClick={() => open('marques')}>RadioYO &amp; TVYO</button>
         <button onClick={() => open('abonnement')}>{navText(lang,'subscriptions')}</button>
-        <a href={NEWSROOM_URL}><Settings2 size={15} aria-hidden="true" />{navText(lang,'editor')}</a>
+
       </nav>
       <nav aria-label={navText(lang,'transparency')}>
         <h2>{navText(lang,'transparency')}</h2>

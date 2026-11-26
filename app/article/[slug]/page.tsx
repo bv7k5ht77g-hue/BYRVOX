@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import { cache } from 'react';
 import { and, eq } from 'drizzle-orm';
 import { Clock3, House, Link2 } from 'lucide-react';
+import {Awards} from '../../../components/edition/rankings';
+import {ArticleMeter} from "../../../components/edition/audience";
 import { ArticleNavigation } from '../../../components/edition/edition';
 import { CoverFigure } from '../../../components/edition/cover-figure';
 import { AdSlot } from '../../../components/edition/ad-slot';
@@ -104,7 +106,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
   };
   return <PublicEditionProvider locale={locale} adsEnabled={record.adsEnabled}>
     <a className="skip" href="#lecture">{copy.skip}</a>
-    <ArticleNavigation currentUrl={localizedHref('/article/'+encodeURIComponent(slug),locale)}>
+    <ArticleNavigation currentUrl={localizedHref('/article/'+encodeURIComponent(slug),locale)}><ArticleMeter slug={slug}/><Awards slug={slug} lang={locale}/>
     <main id="lecture" tabIndex={-1}>
       <div className={isFeature ? "reader-main reader-feature" : "reader-main"}>
         <article>

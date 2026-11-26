@@ -129,3 +129,4 @@ html[data-theme=dark] .edition-header {
   .edition-site.edition-header .topbar .tools { gap: 1px; padding-inline: 4px; }
   .byrvox-language > svg:first-child { display:none; }
 }
+.edition-header .byrvox-language select{padding-inline-end:36px}.edition-header .byrvox-language .language-chevron,.edition-header .byrvox-language svg:last-child{inset-inline-end:12px}
