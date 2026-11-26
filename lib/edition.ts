@@ -25,6 +25,7 @@ export type Summary = {
   image?: string;
   photo?: CoverPhoto;
   presentation?: boolean;
+  contentLocale?: string;
 };
 
 export function editionHref(section: Section, query = '', category = '', page = 1) {

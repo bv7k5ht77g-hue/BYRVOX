@@ -152,6 +152,9 @@ export default function Admin() {
   }
 
   const aiStatus = loaded ? (data.generationConfigured ? 'Clé serveur configurée' : 'Clé serveur à configurer') : 'Chargement…';
+  const lastWire = data.runs.find(run => run.kind === 'hourly-publication' && run.status === 'published');
+  const wireStatus = !loaded ? 'Chargement…' : lastWire
+    ? 'Dernière publication · ' + new Date(lastWire.createdAt).toLocaleString('fr-CA') : 'Aucune livraison dans l’historique récent';
   const assistedEdition = edit.authorId === 'byrvox-redaction-assistee' || /^edition-[a-f0-9]{64}$/.test(edit.id);
   const terms = fold(keyword).split(/\s+/).filter(Boolean);
   const filtered = data.articles.filter(article => {
@@ -188,7 +191,7 @@ export default function Admin() {
           <small>Statistiques des 100 derniers articles modifiés et des 50 dernières pistes collectées.</small>
         </section><section className="panel"><h2>État des services</h2><ServiceList entries={[
           ['CMS et historique', loaded ? 'Disponible' : 'Chargement…'], ['Collecte NASA', 'À la demande'],
-          ['Publication automatique', 'Désactivée'], ['Rédaction IA', aiStatus],
+          ['Agent horaire', wireStatus], ['Rédaction IA', aiStatus],
           ['Radio et TV', 'Flux à connecter'], ['Audience et coûts', 'Non mesurés'],
         ]}/></section></div>
       </>}

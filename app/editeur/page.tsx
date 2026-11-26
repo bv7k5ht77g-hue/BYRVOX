@@ -1,8 +1,4 @@
-import { EditorPortal } from '../../components/editor-portal';
-
-export const dynamic = 'force-dynamic';
+import { redirect } from 'next/navigation';
+import { NEWSROOM_URL } from '../../lib/site-url';
 export const metadata = { title: 'Portail éditeur', robots: { index: false, follow: false } };
-
-export default function Page() {
-  return EditorPortal({ returnTo: "/editeur" });
-}
+export default function Page() { redirect(NEWSROOM_URL); }

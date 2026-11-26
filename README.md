@@ -1,8 +1,8 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.4.2 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.noventra.ca)
+Version 0.5.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.noventra.ca)
 
-Plateforme francophone Next/React sur Vinext, Cloudflare Workers et D1. Design basé sur le mockup fourni, logos officiels conservés. Le site démarre avec des contenus de présentation identifiés, sans actualités inventées.
+Média numérique publié en français, anglais, espagnol, arabe, chinois simplifié, russe et coréen. Le site utilise Next/React sur Vinext, Cloudflare Workers, D1 et R2.
 
 ## Démarrage
 
@@ -12,7 +12,13 @@ Le schéma est dans `db/schema.ts`, les migrations dans `drizzle/`. Générer le
 
 ## Portail éditeur
 
-Le [portail de la rédaction](https://byrvox.noventra.ca/editeur) est réservé aux comptes autorisés. Le raccourci ouvre la session protégée sur le domaine d’authentification BYRVOX. L’adresse `/admin` reste disponible. Dans le tableau de bord, la rédaction peut choisir un article publié pour la une ou laisser apparaître la dernière publication. Chaque article peut recevoir une photo de couverture et jusqu’à quatre photos complémentaires. L’éditeur accepte les formats JPEG, PNG et WebP, jusqu’à 8 Mio par fichier. Pour publier une nouvelle photo, la rédaction renseigne le texte alternatif, le crédit et une légende qui précise ce que montre l’image. Elle peut aussi ajouter un lien vers la source. D1 conserve les métadonnées et R2 les fichiers téléversés. Pour choisir la couverture, privilégier une photo de l’événement. Une archive du même lieu, chantier ou protagoniste peut convenir si la légende explique le lien avec l’article et précise quand l’image a été prise. Pour une statistique, un graphique sourcé peut mieux expliquer le sujet. Conserver le crédit, la source et les conditions de réutilisation avec chaque visuel.
+Le [portail de la rédaction](https://byrvox.noventra.ca/admin) est réservé aux comptes autorisés. Après identification, le tableau de bord s’ouvre sur `byrvox.noventra.ca/admin`. La barre latérale reste visible sur grand écran. Le bouton soleil ou lune conserve le thème choisi pour le portail. Dans le tableau de bord, la rédaction peut choisir un article publié pour la une ou laisser apparaître la dernière publication. Chaque article peut recevoir une photo de couverture et jusqu’à quatre photos complémentaires. L’éditeur accepte les formats JPEG, PNG et WebP, jusqu’à 8 Mio par fichier. Pour publier une nouvelle photo, la rédaction renseigne le texte alternatif, le crédit et une légende qui précise ce que montre l’image. Elle peut aussi ajouter un lien vers la source. D1 conserve les métadonnées et R2 les fichiers téléversés. Pour choisir la couverture, privilégier une photo de l’événement. Une archive du même lieu, chantier ou protagoniste peut convenir si la légende explique le lien avec l’article et précise quand l’image a été prise. Pour une statistique, un graphique sourcé peut mieux expliquer le sujet. Conserver le crédit, la source et les conditions de réutilisation avec chaque visuel.
+
+## Édition horaire
+
+La tâche « Publier l’édition horaire BYRVOX » est planifiée à chaque heure selon le fuseau de Toronto. Elle recherche quinze événements distincts, vérifie leurs sources et les droits sur les photos, puis livre les articles prêts à publier. Une édition peut compter moins de quinze articles lorsque les éléments requis ne sont pas réunis. Les éditions sont conservées dans `newswire/`. [Procédure de rédaction et de publication](docs/EDITION_HORAIRE.md) · [Registre des publications](https://byrvox.noventra.ca/api/newswire).
+
+La navigation affiche les observations d’Environnement et Changement climatique Canada pour la ville choisie. La barre de lecture suit le défilement. Sous chaque article, le carrousel commence par des sujets apparentés puis propose d’autres lectures. Les espaces publicitaires accueillent des annonces maison identifiées.
 
 ## Fonctionnel
 
@@ -26,7 +32,7 @@ Le [portail de la rédaction](https://byrvox.noventra.ca/editeur) est réservé 
 
 ## Limites de cette livraison
 
-Ce produit ne constitue pas l’ensemble du cahier des charges. La surveillance permanente toutes les 60 secondes, la vérification indépendante automatisée, la génération vidéo/voix/avatars, les newsletters, la distribution sociale, les flux radio/TV, les rôles multiples, la bibliothèque multimédia et les paiements restent à développer ou raccorder. RadioYO et TVYO sont des marques distinctes, pas des remplacements des pôles BYRVOX.
+Ce produit ne constitue pas l’ensemble du cahier des charges. La surveillance permanente toutes les 60 secondes, la génération vidéo/voix/avatars, les newsletters, la distribution sociale, les flux radio/TV, les rôles multiples, la bibliothèque multimédia et les paiements restent à développer ou raccorder. RadioYO et TVYO sont des marques distinctes, pas des remplacements des pôles BYRVOX.
 
 L’interface signale les modules indisponibles et n’affiche aucun chiffre d’audience inventé. La validation d’un article par un administrateur n’est pas un fact-check automatisé. Les documents légaux sont des textes de lancement incomplets, à finaliser par l’éditeur avant lancement commercial.
 
@@ -48,7 +54,7 @@ Les illustrations sont extraites du mockup fourni ; elles ne sont pas des photog
 
 Les écritures authentifiées vérifient l’origine. Le contenu des articles est rendu comme texte React et ne peut exécuter du HTML collecté. Les collecteurs n’acceptent aucune URL arbitraire. La clé API, les emails d’administration et les jetons d’accès ne doivent jamais être versionnés.
 
-## Édition du 25 novembre 2026
+## Historique de l’édition de lancement du 25 novembre 2026
 
 À l’ouverture du Command Center par un administrateur, le serveur importe les lots disponibles. L’édition initiale compte quinze articles, dont celui consacré à Haïti. Le supplément ajoute le sujet sur Middletown. Le dossier de lecture révisé comporte quinze articles, avec l’Iowa en ouverture et le manuscrit sur Haïti conservé en réserve dans la rédaction. Chaque texte importé entre dans le circuit « En vérification ». Chaque texte et ses références sont modifiables dans l’onglet Articles. Le bouton de publication rend uniquement l’article sélectionné visible aux lecteurs et l’ajoute au RSS.
 

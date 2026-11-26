@@ -17,6 +17,6 @@ export function catalogCover(slug: string): CoverPhoto | null {
 export function resolveCover(slug: string, photo: ArticlePhoto | null, hidden = false): CoverPhoto | null {
   if (hidden) return null;
   if (!photo) return catalogCover(slug);
-  const { url, alt, caption, credit, sourceUrl } = photo;
-  return { url, alt, caption, credit, ...(sourceUrl ? { sourceUrl } : {}) };
+  const { url, alt, caption, credit, sourceUrl, license, licenseUrl } = photo;
+  return { url, alt, caption, credit, ...(sourceUrl ? { sourceUrl } : {}), ...(license ? { license, licenseUrl } : {}) };
 }

@@ -41,3 +41,19 @@ export const revisions = sqliteTable('revisions',{id:text('id').primaryKey(),art
 export const runs=sqliteTable('runs',{id:text('id').primaryKey(),kind:text('kind').notNull(),status:text('status').notNull(),detail:text('detail').notNull(),createdAt:text('created_at').notNull()});
 export const events=sqliteTable('events',{id:text('id').primaryKey(),source:text('source').notNull(),url:text('url').notNull().unique(),title:text('title').notNull(),publishedAt:text('published_at'),createdAt:text('created_at').notNull()});
 export const preferences=sqliteTable('preferences',{userId:text('user_id').primaryKey(),data:text('data').notNull(),updatedAt:text('updated_at').notNull()});
+
+export const editorSessions = sqliteTable('editor_sessions', {
+  digest: text('digest').primaryKey(),
+  proofHash: text('proof_hash').notNull(),
+  userId: text('user_id').notNull(),
+  email: text('email').notNull(),
+  expiresAt: integer('expires_at').notNull(),
+}, table => [index('editor_sessions_expiry_idx').on(table.expiresAt)]);
+
+export const articleTranslations = sqliteTable('article_translations', {
+  slug: text('slug').notNull(), locale: text('locale').notNull(),
+  sourceTitle: text('source_title').notNull(), sourceSummary: text('source_summary').notNull(),
+  sourceHash: text('source_hash').notNull(), title: text('title').notNull(),
+  photo: text('photo', {mode:'json'}).$type<{sourceUrl:string;sourceAlt:string;sourceCaption:string;alt:string;caption:string}>(),
+  summary: text('summary').notNull(), body: text('body').notNull(),
+}, table => [primaryKey({columns:[table.slug,table.locale]})]);

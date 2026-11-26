@@ -1,0 +1,96 @@
+import { env } from 'cloudflare:workers';
+import { eq, or } from 'drizzle-orm';
+import { getDb } from '../../db';
+import { articles, revisions, runs } from '../../db/schema';
+import { boundedBytes } from '../input';
+import { photoByteLimit, photoFormat, photoRoute, photoTypes } from '../article-photo';
+import { storeStoryTranslations } from '../public-translations';
+import { articleError, canonicalSource, editionSchema, imageAddress, repoBase, type WireEdition } from './edition';
+
+export class DeliveryProblem extends Error {
+  constructor(public status: number, message: string) { super(message); }
+}
+
+async function readRemote(url: string, limit: number) {
+  const remote = await fetch(url, { redirect:'manual', signal:AbortSignal.timeout(18000),
+    headers:{ 'User-Agent':'BYRVOX/1.0 (https://byrvox.noventra.ca)' }});
+  if (!remote.ok) {
+    throw new DeliveryProblem(remote.status === 404 ? 404 : 503, 'Le fichier de la rédaction est indisponible.');
+  }
+  return boundedBytes(remote, limit);
+}
+
+// Parse only documents from the newsroom repository. A small cache avoids downloading
+// one document fifteen times during delivery and expires promptly after a correction.
+const recent = new Map<string, { expires: number; edition: WireEdition }>();
+export async function fetchEdition(hour: string) {
+  const saved = recent.get(hour);
+  if (saved && saved.expires > Date.now()) return saved.edition;
+  const data = await readRemote(repoBase + hour + '/edition.json', 3000000);
+  const parsed = editionSchema.safeParse(JSON.parse(new TextDecoder().decode(data)));
+  if (!parsed.success || parsed.data.hour !== hour || new Set(parsed.data.articles.map(s=>s.eventKey)).size !== parsed.data.articles.length) {
+    throw new DeliveryProblem(422,'Le manifeste GitHub est invalide.');
+  }
+  for (const [key, value] of recent) if (value.expires <= Date.now()) recent.delete(key);
+  recent.set(hour, { expires:Date.now()+60000, edition:parsed.data });
+  return parsed.data;
+}
+
+async function hash(bytes: Uint8Array<ArrayBuffer>) {
+  const bytesHash = await crypto.subtle.digest('SHA-256',bytes);
+  return Array.from(new Uint8Array(bytesHash), b=>b.toString(16).padStart(2,'0')).join('');
+}
+
+async function storePhoto(url: string) {
+  const bucket = env.BUCKET;
+  if (!bucket) throw new DeliveryProblem(503,'Stockage des photos indisponible.');
+  const bytes = await readRemote(url, photoByteLimit);
+  const format = photoFormat(bytes);
+  if (!format) throw new DeliveryProblem(422,'Le fichier photo doit être au format JPEG, PNG ou WebP.');
+  const key = await hash(bytes);
+  // The newsroom image route expects UUID-shaped names. Equal content produces the
+  // same key, including on concurrent deliveries and after an interrupted D1 write.
+  const name = [key.slice(0,8), key.slice(8,12), '4'+key.slice(13,16), '8'+key.slice(17,20), key.slice(20,32)].join('-')+'.'+format;
+  if (!await bucket.head('photos/'+name)) await bucket.put('photos/'+name,bytes,{httpMetadata:{contentType:photoTypes[format]}});
+  return photoRoute + name;
+}
+
+export async function deliverRank(hour: string, rank: number) {
+  const db = getDb();
+  const marker = 'wire:' + hour + ':' + rank;
+  const recorded = () => db.select({slug:runs.detail}).from(runs).where(eq(runs.id,marker)).get();
+  const prior = await recorded();
+  if (prior) return {status:'recorded',slug:prior.slug};
+  const edition = await fetchEdition(hour);
+  const story = edition.articles[rank-1];
+  if (!story) return {status:'no_entry',size:edition.articles.length};
+  const error = articleError(story,hour);
+  if (error) throw new DeliveryProblem(422,error);
+  const primary = story.sources[0];
+  // A rolling official bulletin can reuse its URL for a different event on a later day.
+  const publicationDay = new Date(primary.publishedAt).toISOString().slice(0,10);
+  const sourceIdentity = JSON.stringify([canonicalSource(primary.url), publicationDay]);
+  const id = 'wire-' + await hash(new TextEncoder().encode(sourceIdentity));
+  const existing = () => db.select({slug:articles.slug}).from(articles)
+    .where(or(eq(articles.id,id),eq(articles.slug,story.eventKey))).limit(1).get();
+  const duplicate = await existing();
+  if (duplicate) return {status:'duplicate',slug:duplicate.slug};
+  const url = await storePhoto(imageAddress(story.photo.download,hour)!);
+  const now = new Date().toISOString();
+  const {alt,caption,credit,sourceUrl,license,licenseUrl} = story.photo;
+  const entry = {id,slug:story.eventKey,title:story.title,category:story.category,summary:story.summary,body:story.body,
+    sources:JSON.stringify(story.sources.map(({name,url})=>({name,url}))), status:'published',risk:'standard',
+    authorId:'byrvox-agent-horaire',createdAt:now,updatedAt:now,publishedAt:now,
+    photo:{url,alt,caption,credit,sourceUrl,license,licenseUrl},gallery:[]};
+  if (story.translations) await storeStoryTranslations(entry,story.translations);
+  try {
+    await db.batch([db.insert(articles).values(entry),
+      db.insert(revisions).values({id:marker,articleId:id,actor:entry.authorId,action:'publication-horaire',snapshot:JSON.stringify(entry),createdAt:now}),
+      db.insert(runs).values({id:marker,kind:'hourly-publication',status:'published',detail:entry.slug,createdAt:now})]);
+  } catch (cause) {
+    const done = await recorded() || await existing();
+    if (done) return {status:'recorded',slug:done.slug};
+    throw cause;
+  }
+  return {status:'published',slug:entry.slug};
+}

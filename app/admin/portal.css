@@ -80,3 +80,25 @@
 .admin-shell .portal-gallery fieldset { min-width: 0; margin: 16px 0; border: 1px solid var(--line); border-radius: 6px; padding: 12px; }
 .admin-shell .portal-gallery legend { padding-inline: 6px; font-weight: 700; }
 .admin-shell .portal-gallery input[hidden] { display: none; }
+
+.portal-brand, .portal-entry-header { gap: 8px; }
+.portal-theme-toggle { flex: 0 0 40px; width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%; }
+.portal-sidebar .portal-brand .portal-theme-toggle { color: white; padding: 0; }
+.portal-theme-toggle:hover { background: #8882; }
+.portal-theme-light, html[data-theme=dark] .portal-theme-dark { display: none; }
+.portal-theme-dark, html[data-theme=dark] .portal-theme-light { display: inline-flex; align-items: center; }
+.portal-sidebar .portal-brand .brand { flex: 1; min-width: 0; }
+.portal-entry { min-height: 100dvh; display: grid; place-items: center; padding: 24px; background: var(--surface); }
+.portal-entry-box { width: min(100%, 480px); padding: clamp(24px, 6vw, 44px); background: var(--bg); border: 1px solid var(--line); border-radius: 14px; }
+.portal-entry-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 36px; }
+.portal-entry-header .brand { width: 145px; }
+.portal-entry h1 { font-size: clamp(30px, 5vw, 44px); letter-spacing: -.04em; }
+.portal-entry p { color: var(--muted); margin: 18px 0 24px; font-size: 16px; }
+.portal-return { display: block; margin-top: 22px; text-decoration: underline; text-underline-offset: 3px; }
+html[data-theme=dark] :is(.admin-shell, .portal-entry) { --surface: #17191c; --bg: #22252a; --ink: #f4f4f6; --muted: #b7bdc8; --line: #41464e; color-scheme: dark; color: var(--ink); }
+html[data-theme=dark] .admin-shell :is(.eyebrow,.badge) { color: #ff8c9c; }
+html[data-theme=dark] .admin-shell .admin-note { background: #41252c; border-color: #73444e; }
+html[data-theme=dark] .admin-shell :is(input,select,textarea) { background: var(--surface); border-color: var(--line); }
+@media(max-width:760px) {
+  .portal-sidebar .portal-brand .brand { flex: 0 1 118px; margin-inline-end: auto; }
+}

@@ -1,3 +1,4 @@
+import { PortalThemeToggle } from './theme-toggle';
 import { SITE_ORIGIN } from '../../lib/site-url';
 import Image from 'next/image';
 import { useRef, useState } from 'react';
@@ -21,6 +22,7 @@ export function AdminNavigation({ tab, busy, onNavigate }: { tab: string; busy: 
   }}>
     <div className="portal-brand"><a href={SITE_ORIGIN} className="brand" aria-label="BYRVOX, accueil">
       <Image unoptimized width={600} height={112} src="/brand/logo-dark.png" alt="BYRVOX" /></a>
+      <PortalThemeToggle/>
       <button ref={toggle} type="button" className="portal-menu-toggle" aria-controls="portal-navigation"
         aria-expanded={expanded} onClick={() => setExpanded(!expanded)}>
         {expanded ? <X size={18} aria-hidden="true" /> : <Menu size={18} aria-hidden="true" />} Menu
@@ -32,6 +34,7 @@ export function AdminNavigation({ tab, busy, onNavigate }: { tab: string; busy: 
           setExpanded(false); onNavigate(name);
         }}><Icon size={18} aria-hidden="true" /> {name}</button>)}
       <a className="portal-site-link" href={SITE_ORIGIN}>Voir le site public</a>
+      <form method="post" action="/api/editor-session/logout"><button type="submit">Se déconnecter</button></form>
     </nav>
   </aside>;
 }

@@ -3,6 +3,10 @@ import { features } from '../lib/content';
 import { SITE_ORIGIN } from '../lib/site-url';
 import { editionHref, sections, type Section, type Summary } from '../lib/edition';
 import { listHomepageStories, readEditionArticles } from '../lib/public-articles';
+import { PublicLocaleProvider } from '../components/language-select';
+import { localizedHref, publicLocales, sectionLabel } from '../lib/i18n';
+import { resolvePublicLocale } from '../lib/public-locale';
+import { translateSummaries } from '../lib/public-translations';
 import { Edition } from '../components/edition/edition';
 
 export const dynamic = 'force-dynamic';
@@ -23,17 +27,24 @@ function routeFrom(params: Params) {
 }
 
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
-  const { section, query, category, page } = routeFrom(await searchParams);
+  const params = await searchParams;
+  const locale = await resolvePublicLocale(params);
+  const { section, query, category, page } = routeFrom(params);
+  const href = editionHref(section, '', '', page);
+  const languages = Object.fromEntries(publicLocales.map(language => [language,
+    new URL(localizedHref(href,language), SITE_ORIGIN).href]));
   return {
-    ...(section !== 'accueil' ? { title: sections[section] } : {}),
-    alternates: { canonical: new URL(editionHref(section, '', '', page), SITE_ORIGIN).href,
+    ...(section !== 'accueil' ? { title: sectionLabel(section, locale) } : {}),
+    alternates: { canonical: languages[locale], languages,
       types: { 'application/rss+xml': '/rss.xml' } },
     ...(section === 'favoris' || section === 'recherche' || category || query ? { robots: { index: false } } : {})
   };
 }
 
 export default async function Home({ searchParams }: Props) {
-  const route = routeFrom(await searchParams);
+  const params = await searchParams;
+  const locale = await resolvePublicLocale(params);
+  const route = routeFrom(params);
   let stories: Summary[] = [];
   let unavailable = false;
   let hasNext = false;
@@ -41,7 +52,7 @@ export default async function Home({ searchParams }: Props) {
   try {
     if (route.section === 'accueil') stories = await listHomepageStories();
     if (route.section === 'recherche' || route.section === 'actualites') {
-      ({ stories, hasNext, categories } = await readEditionArticles(route));
+      ({ stories, hasNext, categories } = await readEditionArticles({...route,locale}));
     }
   } catch {
     unavailable = true;
@@ -49,5 +60,8 @@ export default async function Home({ searchParams }: Props) {
   const presentations = features.map(({ slug, title, category, summary, image }) => ({
     slug, title, category, summary, image, presentation: true
   }));
-  return <Edition route={route} stories={stories} presentations={presentations} unavailable={unavailable} hasNext={hasNext} categories={categories} />;
+  const [localStories, localPresentations] = await Promise.all([
+    translateSummaries(stories, locale), translateSummaries(presentations, locale)
+  ]);
+  return <PublicLocaleProvider locale={locale}><Edition route={route} stories={localStories} presentations={localPresentations} unavailable={unavailable} hasNext={hasNext} categories={categories} /></PublicLocaleProvider>;
 }
