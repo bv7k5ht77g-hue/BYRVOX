@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {test} from 'node:test';
-import {parseAdSenseSnippet} from '../lib/adsense.mjs';
+import {parseAdSenseSnippet, recognizeAdSenseVerification} from '../lib/adsense.mjs';
 
 const client = 'ca-pub-1234567890123456';
 const slot = '0123456789';
@@ -23,4 +23,15 @@ test('rejette les extraits incomplets, incohérents ou extérieurs au format pri
     unit.replace('push({})','push({other:1})'), script + script, unit + unit]) {
     assert.equal(parseAdSenseSnippet(invalid), null);
   }
+});
+
+test('identifie les justificatifs de propriété sans les importer comme bloc publicitaire', () => {
+  const meta = `<meta content="${client}" name="google-adsense-account" />`;
+  const seller = 'google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0';
+  assert.deepEqual(recognizeAdSenseVerification(meta), {kind:'meta',client});
+  assert.deepEqual(recognizeAdSenseVerification(seller), {kind:'ads.txt',client});
+  assert.equal(parseAdSenseSnippet(meta),null);
+  assert.equal(parseAdSenseSnippet(seller),null);
+  assert.equal(recognizeAdSenseVerification(meta.replace(' />', ' test="unknown" />')),null);
+  assert.equal(recognizeAdSenseVerification(script),null);
 });

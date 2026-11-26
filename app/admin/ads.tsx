@@ -4,7 +4,7 @@ import { useEffect, useState, type FormEvent } from 'react';
 import { photoByteLimit, photoTypes } from '../../lib/article-photo';
 import { AdFrame } from '../../components/edition/ad-frame';
 import { parseAdFrame, parseAdScript } from '../../lib/ad-frame.mjs';
-import { adSlotPattern, parseAdSenseSnippet } from '../../lib/adsense.mjs';
+import { adSlotPattern, parseAdSenseSnippet, recognizeAdSenseVerification } from '../../lib/adsense.mjs';
 import { validAdImageUrl, type AdPlacement, type AdSenseSettings, type Placement } from '../../lib/ad-placements';
 
 const slotNames: Record<Placement,string> = {
@@ -33,7 +33,7 @@ function PlacementStatus({slot, settings}: {slot:AdPlacement; settings:AdSenseSe
     label=slot.mode === 'embed' ? 'Partenaire · iframe' : 'Partenaire · script';
     try { detail=[slot.name,new URL(slot.url).hostname].filter(Boolean).join(' · '); }
     catch { detail=slot.name; }
-  } else if (slot.mode === 'available') label='Libre';
+  } else if (slot.mode === 'available') label='Non attribué';
   return <span className="placement-state"><span className={'placement-badge mode-'+slot.mode}>{label}</span>
     {detail && <small>{detail}</small>}</span>;
 }
@@ -60,8 +60,17 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
   const parsed = snippet.trim() ? parseAdSenseSnippet(snippet.trim()) : null;
   const client = parsed?.client || (!siteSetup && edit?.adClient) || settings?.client || '';
   const unit = parsed?.slot || edit?.adSlot || '';
+  const verification = recognizeAdSenseVerification(snippet);
+  const editingUnit = !siteSetup && edit?.mode === 'adsense';
+  const validUnit = adSlotPattern.test(unit);
+  const unitHint = unit && !validUnit ? 'Recopie les 10 chiffres de data-ad-slot fournis par Google pour ce bloc.' : '';
   function validateSnippet() {
     if (!snippet.trim()) return '';
+    if (verification) {
+      const reason = verification.kind === 'meta' ? 'Cette balise Meta vérifie la propriété du site.' : 'Cette ligne ads.txt identifie le vendeur publicitaire autorisé.';
+      if (editingUnit && validUnit && verification.client === client) return '';
+      return reason + (siteSetup ? ' Pour activer le chargement des annonces, colle le script du site.' : ' Pour la bannière, ouvre Annonces → Par bloc d’annonces et copie le code du bloc display.');
+    }
     if (editingFrame) {
       if (parsed) return parsed.slot ? 'Ce code correspond à un bloc Google AdSense.' : 'Ce code configure Google AdSense pour le site.';
       if (parseExternal(snippet)) return '';
@@ -266,7 +275,9 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
       <h2 id="ad-editor-title">{slotNames[edit.placement]}</h2>
       {current.mode==='available' && settings?.enabled && <p className="portal-help">AdSense est activé pour le site. Cet emplacement attend l’attribution d’un bloc ou d’une campagne.</p>}
       {edit.placement==='home' && <a href="https://byrvox.today/#publicite-sous-navigation" target="_blank" rel="noreferrer">Voir la position sur l’accueil ↗</a>}
-      <div>Configuration enregistrée <PlacementStatus slot={current} settings={settings}/></div>
+      <div>Attribution actuellement enregistrée <PlacementStatus slot={current} settings={settings}/></div>
+      {editingUnit && changed && <p role="status" className="portal-help">{validUnit && !snippetError && client
+        ? 'Bloc prêt à enregistrer pour cet emplacement.' : 'Attribution en cours · numéro ou code de bloc à compléter.'}</p>}
       <fieldset disabled={busy}>
         <label>Afficher sur le site<select value={edit.mode} onChange={event => changeMode(event.target.value as AdPlacement['mode'])}>
           <option value="available">Emplacement disponible</option>
@@ -278,12 +289,14 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
         </select></label>
         {edit.mode === 'adsense' && <>
           {settings?.client && <label>Numéro du bloc Google (data-ad-slot)<input type="text" dir="ltr" inputMode="numeric" maxLength={10}
-            pattern="[0-9]{10}" value={parsed?.slot || edit.adSlot} readOnly={Boolean(parsed?.slot)} onChange={event=>update({adSlot:event.target.value.trim()})}/></label>}
-          {codeField(edit.adSlot ? 'Remplacer le code du bloc display' : 'Code du bloc display AdSense')}
+            aria-invalid={Boolean(unitHint)} aria-describedby={unitHint ? 'ad-unit-hint' : undefined} pattern="[0-9]{10}" value={parsed?.slot || edit.adSlot} readOnly={Boolean(parsed?.slot)} onChange={event=>update({adSlot:event.target.value.trim()})}/></label>}
+          {unitHint && <span id="ad-unit-hint" className="portal-help">{unitHint}</span>}
+          {codeField(current.mode === 'adsense' ? 'Remplacer le code du bloc display' : 'Code du bloc display AdSense')}
           {parsed && !parsed.slot && parsed.client !== settings?.client && <button className="outline" type="button" onClick={transferSiteCode}>Utiliser ce code pour le site</button>}
           <p className="portal-help">Dans AdSense, ouvre Annonces → Par bloc d’annonces et copie le code du bloc display. Si le compte éditeur est déjà enregistré ici, son numéro de bloc à 10 chiffres suffit.</p>
           {client && <p>Identifiant éditeur · <bdi>{client}</bdi></p>}
-          {unit && <p>Bloc publicitaire · <bdi>{unit}</bdi></p>}
+          {validUnit && <p>Numéro de bloc saisi · <bdi>{unit}</bdi></p>}
+          <a href="https://support.google.com/adsense/answer/9274025?hl=fr" target="_blank" rel="noreferrer">Créer un bloc display dans Google AdSense ↗</a>
           {(!settings?.enabled || (client && settings.client !== client)) && <p className="portal-help">La diffusion de ce bloc nécessite un code de site activé pour le même identifiant dans « Google AdSense ».</p>}
         </>}
         {editingFrame && <>
@@ -317,7 +330,7 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
           {edit.image.trim() && <label>Texte alternatif de l’image<input value={edit.alt} required maxLength={300} onChange={event => update({alt:event.target.value})}/></label>}
         </>}
       </fieldset>
-      <div className="button-row"><button className="red" type="submit" disabled={busy || conflict || !changed || Boolean(snippetError)}>{saving ? 'Enregistrement…' : 'Enregistrer l’emplacement'}</button>
+      <div className="button-row"><button className="red" type="submit" disabled={busy || conflict || !changed || Boolean(snippetError) || (editingUnit && (!validUnit || !client))}>{saving ? 'Enregistrement…' : 'Enregistrer l’emplacement'}</button>
         {changed && !conflict && <button className="outline" type="button" disabled={busy} onClick={() => {setEdit(current);setSnippet('');setPreview('');setError('');setNotice('');}}>Annuler les modifications</button>}
       </div>
       {notice && <p role="status" className="admin-note">{notice}</p>}

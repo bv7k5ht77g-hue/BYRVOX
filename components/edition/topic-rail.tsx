@@ -3,7 +3,7 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useEffect, useId, useRef, useState, type ReactNode } from 'react';
 import { categoryHref } from '../../lib/editorial-sections';
-import {CategoryLink} from './category-mark';
+import { CategoryLink, categoryStyle } from './category-mark';
 import { categoryLabel, localizedHref, type PublicLocale } from '../../lib/i18n';
 import { sectionText } from './section-copy';
 
@@ -35,7 +35,7 @@ export function TopicRail({ category, lang, children, controls, current = false 
     rail.scrollBy({left:(rtl?-1:1)*direction*(amount+gap), behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
   }
   const Back=rtl?ChevronRight:ChevronLeft, Forward=rtl?ChevronLeft:ChevronRight;
-  return <section className="by-topic-rail" aria-labelledby={uid}>
+  return <section className="by-topic-rail" style={categoryStyle(category)} aria-labelledby={uid}>
     <div className="by-rail-title"><h2 id={uid}>{current ? sectionText(lang,'headlines') :
       <CategoryLink href={localizedHref(categoryHref(category),lang)} category={category} label={categoryLabel(category,lang)}/>}</h2>
       {controls}
