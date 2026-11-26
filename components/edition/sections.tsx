@@ -49,8 +49,10 @@ function FrontLead({ story, lang }: { story: Summary; lang: PublicLocale }) {
     <div className="by-lead-bottom"><small><StoryDate story={story} lang={lang} /></small>
       <a href={href}><BookOpen size={16} aria-hidden="true" />{sectionText(lang,'read')}</a></div>
     </div>
-    {story.photo ? <CoverFigure photo={story.photo} href={href} badge={badge} priority /> :
-      story.image && <a className="by-feature-photo" href={href} aria-label={story.title}>{badge}<Image unoptimized width={900} height={400} src={'/media/' + story.image + '.webp'} alt="" priority /></a>}
+    {hasPhoto && <div className="by-lead-media">
+      {story.photo ? <CoverFigure photo={story.photo} href={href} badge={badge} priority /> :
+        <a className="by-feature-photo" href={href} aria-label={story.title}>{badge}<Image unoptimized width={900} height={400} src={'/media/' + story.image + '.webp'} alt="" priority /></a>}
+    </div>}
   </article>;
 }
 
