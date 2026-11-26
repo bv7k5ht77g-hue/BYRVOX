@@ -2,6 +2,7 @@ import { Bookmark, CircleUserRound, Download, Search, Trash2, X } from 'lucide-r
 import { useEffect, useRef, useState } from 'react';
 import { usePublicLocale } from '../language-select';
 import { localizedHref } from '../../lib/i18n';
+import { navText } from './navigation-copy';
 import dialogCopy from '../../lib/translations/dialog.json';
 import { editionHref } from '../../lib/edition';
 
@@ -55,9 +56,11 @@ export function ReaderDialog({ name, close, open, profile, currentUrl, query, pe
     </> : name === 'connexion' ? <>
       <h2 id="reader-dialog-title">{label("Bienvenue chez BYRVOX.")}</h2><p>{label("Connecte-toi pour retrouver tes articles sauvegardés et ton espace personnel.")}</p>
       <a className="red" href={'/signin-with-chatgpt?return_to=' + encodeURIComponent(localizedHref(currentUrl,locale))} target="_top"><CircleUserRound size={16} aria-hidden="true" /> {label("Continuer avec ChatGPT")}</a>
+      <a className="outline" href="/admin">{navText(locale,'editor')}</a>
     </> : name === 'profil' ? <>
       <h2 id="reader-dialog-title">{label("Ton espace")}</h2><p>{profile?.name}</p>
       <a className="outline" href={localizedHref(editionHref('favoris'),locale)}><Bookmark size={16} aria-hidden="true" /> {label("Mes articles sauvegardés")}</a>
+      <a className="outline" href="/admin">{navText(locale,'editor')}</a>
       <button className="outline" onClick={exportData}><Download size={16} aria-hidden="true" /> {label("Exporter mes données")}</button>
       {confirm ? <div><p>{label("Effacer les favoris et préférences de ce compte ?")}</p>
         <button className="outline" onClick={() => setConfirm(false)}>{label("Annuler")}</button>

@@ -16,7 +16,7 @@ export async function EditorPortal() {
     <div className="portal-entry-box">
       <div className="portal-entry-header"><a className="brand edition-brand" href={SITE_ORIGIN} aria-label="BYRVOX, accueil"><span className="brand-mark" aria-hidden="true"/></a><PortalThemeToggle/></div>
       <h1>{native ? 'Accès réservé' : 'Portail éditeur'}</h1>
-      <p>{native ? 'Demande au propriétaire de la rédaction d’inviter l’adresse de ton compte ou connecte-toi avec l’adresse invitée.' : 'Connecte-toi avec l’adresse invitée par le propriétaire de la rédaction pour accéder à tes articles.'}</p>
+      <p>{native ? 'Demande au propriétaire de la rédaction d’inviter l’adresse de ton compte ou connecte-toi avec l’adresse invitée.' : 'Connecte-toi avec le compte ChatGPT associé à ton adresse de propriétaire ou à l’adresse que la rédaction a invitée.'}</p>
       {native ? <form method="post" action="/api/editor-session/logout"><button className="outline">Changer de compte</button></form>
         : <a className="red" href={signInHref} target="_top">Se connecter à la rédaction</a>}
       <a className="portal-return" href={SITE_ORIGIN}>Retour au site</a>
