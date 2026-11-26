@@ -1,7 +1,7 @@
 import { headers } from "next/headers";
 import { preferredLocale, type PublicLocale } from "../lib/i18n";
 import type { Metadata } from "next";
-import { publicSiteOrigin } from "../lib/site-url";
+import { NEW_SITE_ORIGIN } from "../lib/site-url";
 import "./globals.css";
 
 const descriptions: Record<PublicLocale,string> = {
@@ -18,7 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();
   const locale = preferredLocale(requestHeaders.get("x-byrvox-language"), undefined);
   return {
-    metadataBase: new URL(publicSiteOrigin(requestHeaders.get("host"))),
+    metadataBase: new URL(NEW_SITE_ORIGIN),
     title: {
       default: "BYRVOX — Beyond the Headlines",
       template: "%s | BYRVOX",

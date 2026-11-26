@@ -7,6 +7,7 @@ import { parseAdFrame, parseAdScript } from '../../lib/ad-frame.mjs';
 import { adSlotPattern, parseAdSenseSnippet, recognizeAdSenseVerification } from '../../lib/adsense.mjs';
 import { validAdImageUrl, type AdPlacement, type AdSenseSettings, type Placement } from '../../lib/ad-placements';
 import { articleUrl, NEW_SITE_ORIGIN } from '../../lib/site-url';
+import { ArticleAdInspector } from './article-ad-inspector';
 
 const positions: Record<Placement, {section: string; name: string}> = {
   home: {section:'Accueil', name:'Sous la navigation'},
@@ -33,7 +34,7 @@ function PlacementStatus({slot, settings}: {slot:AdPlacement; settings:AdSenseSe
   if (slot.mode === 'adsense') {
     label='AdSense';
     detail=!settings?.enabled ? 'Bloc attribué · diffusion globale désactivée' :
-      settings.client !== slot.adClient ? 'Bloc attribué · compte éditeur différent' : 'Bloc attribué · diffusion autorisée';
+      settings.client !== slot.adClient ? 'Bloc attribué · compte éditeur différent' : 'Bloc attribué · actif sur les pages autorisées';
   } else if (slot.mode === 'campaign') {
     label='Campagne directe';
     detail=slot.name;
@@ -46,7 +47,9 @@ function PlacementStatus({slot, settings}: {slot:AdPlacement; settings:AdSenseSe
     {detail && <small>{detail}</small>}</span>;
 }
 
-export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; onSaving:(saving:boolean)=>void}) {
+export function AdsPanel({onDirty, onSaving, openArticle}: {
+  onDirty:(dirty:boolean)=>void; onSaving:(saving:boolean)=>void; openArticle:(slug:string)=>Promise<void>;
+}) {
   const [slots, setSlots] = useState<AdPlacement[]>([]);
   const [edit, setEdit] = useState<AdPlacement|null>(null);
   const [settings, setSettings] = useState<AdSenseSettings|null>(null);
@@ -248,6 +251,11 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
   }
 
   return <div className="portal-ads">
+    <ArticleAdInspector busy={busy} openReview={async slug => {
+      if (changed && !window.confirm('Abandonner les modifications de cet emplacement pour ouvrir l’article ?')) return;
+      await openArticle(slug);
+      requestAnimationFrame(() => document.querySelector<HTMLElement>('[data-live-ad-review]')?.focus());
+    }}/>
     <section className="panel ad-directory" aria-labelledby="ads-list-title">
       {settings && <><h2>Site public</h2><button type="button" disabled={busy} aria-pressed={siteSetup} onClick={() => {if (!siteSetup) select(null);}}>
         <span>Code du site Google AdSense</span><small>{settings.enabled ? 'Activé · en-tête HTML' : 'Désactivé'}</small>
@@ -268,6 +276,7 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
     {settings && siteSetup && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-google-title">
       <h2 id="ad-google-title">Google AdSense sur le site public</h2>
       <p>Ce script relie BYRVOX à ton compte Google. Pour placer une bannière précise, attribue son numéro de bloc à l’emplacement voulu.</p>
+      {settings.enabled && settings.client && <a href={NEW_SITE_ORIGIN + '/ads.txt'} target="_blank" rel="noreferrer">Voir le vendeur autorisé dans ads.txt ↗</a>}
       {settings.client && <details className="ad-saved-script"><summary>Voir le code du site enregistré</summary>
         <p>{settings.enabled ? 'Le site ajoute cette balise dans l’en-tête HTML des pages autorisées.' : 'Le script enregistré est désactivé.'}</p>
         <code>{`<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${settings.client}" crossorigin="anonymous"></script>`}</code>
@@ -286,6 +295,7 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
     </form>}
     {!siteSetup && edit && current && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-editor-title">
       <h2 id="ad-editor-title">{slotTitle(edit.placement)}</h2>
+      {edit.placement === 'footer' && <p className="portal-help">Le pied de page suit aussi les règles publicitaires de l’article en lecture. <a href={kyotoArticle + '#publicite-footer'} target="_blank" rel="noreferrer">Voir le pied de page d’un article ↗</a></p>}
       {edit.placement === 'masthead' && <p className="portal-help">Ce réglage s’applique aussi aux autres pages intérieures sous la navigation.</p>}
       {edit.placement === 'article-photo' && <p className="portal-help">Cet emplacement suit la photo de couverture ou l’illustration des articles qui en ont une.</p>}
       {edit.placement === 'article-mid' && <p className="portal-help">Cet emplacement apparaît entre deux paragraphes, à mi-lecture des articles qui en comptent au moins deux.</p>}
@@ -318,6 +328,7 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
           {client && <p>Identifiant éditeur · <bdi>{client}</bdi></p>}
           {validUnit && <p>Numéro de bloc saisi · <bdi>{unit}</bdi></p>}
           <a href="https://support.google.com/adsense/answer/9274025?hl=fr" target="_blank" rel="noreferrer">Créer un bloc display dans Google AdSense ↗</a>
+          <p className="portal-help">Le cadre reste visible si Google ne fournit aucune annonce. Consulte le statut du site et le rapport de couverture dans AdSense pour vérifier la diffusion réelle.</p>
           {(!settings?.enabled || (client && settings.client !== client)) && <p className="portal-help">La diffusion de ce bloc nécessite un code de site activé pour le même identifiant dans « Google AdSense ».</p>}
         </>}
         {editingFrame && <>

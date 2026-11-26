@@ -7,8 +7,8 @@ import { CategoryLink } from './category-mark';
 import { categoryLabel, localizedHref, type PublicLocale } from '../../lib/i18n';
 import { sectionText } from './section-copy';
 
-export function TopicRail({ category, lang, children, controls, current = false }: {
-  category: string; lang: PublicLocale; children: ReactNode; controls?: ReactNode; current?: boolean;
+export function TopicRail({ category, lang, children, controls, selection, current = false }: {
+  category: string; lang: PublicLocale; children: ReactNode; controls?: ReactNode; selection?: string; current?: boolean;
 }) {
   const uid = useId(), viewport = useRef<HTMLDivElement>(null);
   const [movement,setMovement] = useState({ back:false, next:false });
@@ -27,6 +27,9 @@ export function TopicRail({ category, lang, children, controls, current = false 
     rail.addEventListener('scroll',inspect,{passive:true});
     return () => { observer.disconnect(); rail.removeEventListener('scroll',inspect); };
   },[children,rtl]);
+  useEffect(() => {
+    if (viewport.current) viewport.current.scrollLeft = 0;
+  },[selection]);
   function scroll(direction: number) {
     const rail = viewport.current;
     if (!rail) return;
@@ -38,11 +41,11 @@ export function TopicRail({ category, lang, children, controls, current = false 
   return <section className="by-topic-rail" aria-labelledby={uid}>
     <div className="by-rail-title"><h2 id={uid}>{current ? sectionText(lang,'headlines') :
       <CategoryLink href={localizedHref(categoryHref(category),lang)} category={category} label={categoryLabel(category,lang)}/>}</h2>
-      {controls}
       {(movement.back || movement.next) && <div className="by-rail-buttons">
         <button type="button" aria-label={sectionText(lang,'prev')} aria-controls={uid+'-items'} disabled={!movement.back} onClick={()=>scroll(-1)}><Back size={16}/></button>
         <button type="button" aria-label={sectionText(lang,'next')} aria-controls={uid+'-items'} disabled={!movement.next} onClick={()=>scroll(1)}><Forward size={16}/></button>
       </div>}</div>
+    {controls}
     <div className="by-rail-items" ref={viewport} id={uid+'-items'} tabIndex={0} aria-labelledby={uid}>{children}</div>
   </section>;
 }

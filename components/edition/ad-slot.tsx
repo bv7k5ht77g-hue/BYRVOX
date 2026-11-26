@@ -55,8 +55,9 @@ export function AdSlot({ placement, locale }: { placement: Placement; locale?: P
   const label = sectionText(lang,'advert');
   return <aside id={'publicite-' + placement} className="by-ad" aria-label={label} data-ad-slot={placement}>
     <span className="by-ad-disclosure">{label}</span>
-    {campaign?.mode === 'adsense' && <AdSenseUnit key={campaign.adClient + '-' + campaign.adSlot}
-      client={campaign.adClient} slot={campaign.adSlot} />}
+    {campaign?.mode === 'adsense' && <div className="by-ad-unit">
+      <AdSenseUnit key={campaign.adClient + '-' + campaign.adSlot} client={campaign.adClient} slot={campaign.adSlot} />
+    </div>}
     {campaign?.mode === 'embed' && <AdFrame name={campaign.name} url={campaign.url} />}
     {campaign?.mode === 'script' && <AdFrame script name={campaign.name} url={campaign.url} />}
     {campaign?.mode === 'campaign' && <a className="by-ad-campaign" href={campaign.url} rel="sponsored">

@@ -1,8 +1,12 @@
-import { publicSiteOrigin } from '@/lib/site-url';
+import { NEW_SITE_ORIGIN } from '@/lib/site-url';
 
-export function GET(request: Request) {
-  const origin = publicSiteOrigin(new URL(request.url).host);
-  return new Response(`User-agent: *\nAllow: /\nDisallow: /admin\nDisallow: /editeur\nDisallow: /api/\nSitemap: ${origin}/sitemap.xml\n`, {
-    headers: { 'Content-Type': 'text/plain; charset=utf-8' }
+export function GET() {
+  const rules = [
+    'User-agent: *', 'Allow: /', 'Disallow: /admin', 'Disallow: /editeur', 'Disallow: /api/',
+    'Allow: /api/photos/', 'Sitemap: ' + NEW_SITE_ORIGIN + '/sitemap.xml',
+    'Sitemap: ' + NEW_SITE_ORIGIN + '/news-sitemap.xml',
+  ];
+  return new Response(rules.join('\n') + '\n', {
+    headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control':'public, max-age=300' }
   });
 }

@@ -11,10 +11,9 @@ import { CoverFigure } from '../../../components/edition/cover-figure';
 import { AdSlot } from '../../../components/edition/ad-slot';
 import { PublicEditionProvider } from '../../../components/edition/public-edition-provider';
 import type { ArticlePhoto } from '../../../lib/article-photo';
-import { isPendingWireAdReview } from '../../../lib/article-ad-policy';
+import { articleAdState } from '../../../lib/article-ad-policy';
 import { resolveCover, type CoverPhoto } from '../../../lib/cover-photo';
-import { headers } from 'next/headers';
-import { publicSiteOrigin } from '../../../lib/site-url';
+import { NEW_SITE_ORIGIN, publicPublisher } from '../../../lib/site-url';
 import { features, type Story } from '../../../lib/content';
 import { getDb } from '../../../db';
 import { articles } from '../../../db/schema';
@@ -23,7 +22,7 @@ import { categoryHref } from '../../../lib/editorial-sections';
 import { editionHref } from '../../../lib/edition';
 import { categoryLabel, localeLabels, localizedHref, sectionLabel, translationFallbackHref, type PublicLocale } from '../../../lib/i18n';
 import { resolvePublicLocale } from '../../../lib/public-locale';
-import { localizeCover, translateStory, translateSummaries } from '../../../lib/public-translations';
+import { availableStoryLanguages, localizeCover, translateStory, translateSummaries } from '../../../lib/public-translations';
 import { readerCandidates } from '../../../lib/public-articles';
 import { recommend } from '../../../lib/reader-recommendations';
 import { sourcesForReader } from '../presentation';
@@ -46,9 +45,10 @@ const getArticle = cache(async (slug: string): Promise<ReaderArticle | null> => 
   }).from(articles).where(and(eq(articles.slug,slug),eq(articles.status,'published'))).limit(1);
   if (!row) return null;
   const {photo, photoHidden, gallery, authorId, adReview, ...story} = row;
+  const state = articleAdState(adReview);
   return {
-    adsEnabled:adReview === null || adReview.decision === 'allow',
-    reserveArticleSpaces:isPendingWireAdReview(adReview), story, isFeature:false,
+    adsEnabled:state === 'allowed',
+    reserveArticleSpaces:state === 'pending', story, isFeature:false,
     isWire:authorId === 'byrvox-agent-horaire' || authorId === 'byrvox-agent-thematique',
     photo:resolveCover(slug,photo,photoHidden), gallery:gallery || [],
   };
@@ -76,12 +76,15 @@ export async function generateMetadata({params,searchParams}:ArticleProps):Promi
   const record = await localizedArticle(slug,locale);
   if (!record) return {title:readerLabels(locale).missing, robots:{index:false,follow:false}};
   const {story, photo, art, language} = record;
-  const origin = publicSiteOrigin((await headers()).get('host'));
+  const origin = NEW_SITE_ORIGIN;
   const path = absoluteArticleUrl(slug,language,origin);
+  const available = await availableStoryLanguages(record.original);
+  const languages = Object.fromEntries(available.map(lang=>[lang,absoluteArticleUrl(slug,lang,origin)]));
+  languages['x-default'] = languages.fr;
   const cover = photo ?? art;
   const image = cover ? {url:new URL(cover.url,origin).href, alt:cover.alt} : null;
   return {
-    title:story.title, description:story.summary, alternates:{canonical:path, types:{'application/rss+xml':'/rss.xml'}},
+    title:story.title, description:story.summary, robots:{'max-image-preview':'large'}, alternates:{canonical:path, languages, types:{'application/rss+xml':'/rss.xml'}},
     openGraph:{ title:story.title, description:story.summary, type:'article', url:path, locale:openGraphLocales[language],
       siteName:'BYRVOX', section:categoryLabel(story.category,locale), publishedTime:isoDate(story.publishedAt) ?? undefined,
       modifiedTime:isoDate(story.updatedAt) ?? undefined, ...(image ? {images:[image]} : {}) },
@@ -106,17 +109,18 @@ export default async function Article({params,searchParams}:ArticleProps) {
   const candidates = await readerCandidates(original).catch(() => []);
   const suggestions = recommend(original,candidates);
   const cards = await translateSummaries(suggestions.stories,locale);
-  const origin = publicSiteOrigin((await headers()).get('host'));
+  const origin = NEW_SITE_ORIGIN;
+  const url = absoluteArticleUrl(slug,language,origin);
   const linkedData = {
-    '@context':'https://schema.org', '@type':isFeature?'Article':'NewsArticle', mainEntityOfPage:absoluteArticleUrl(slug,language,origin),
+    '@context':'https://schema.org', '@type':isFeature?'Article':'NewsArticle', '@id':url+'#article', url, mainEntityOfPage:{'@type':'WebPage','@id':url},
     image:art ? new URL(art.url,origin).href : photo ? new URL(photo.url,origin).href : undefined, headline:story.title, description:story.summary,
-    articleSection:categoryLabel(story.category,locale), inLanguage:language, author:{'@type':'Organization',name:'BYRVOX'},
-    publisher:{'@type':'Organization',name:'BYRVOX'}, datePublished:published || undefined, dateModified:updated || undefined,
+    articleSection:categoryLabel(story.category,locale), inLanguage:language, author:{'@type':'Organization',name:'BYRVOX',url:absoluteArticleUrl('notre-methode',language,origin)},
+    publisher:publicPublisher, datePublished:published || undefined, dateModified:updated || undefined,
     citation:sources.length ? sources.map(s=>s.url) : undefined,
   };
   return <PublicEditionProvider locale={locale} adsEnabled={record.adsEnabled} reserveArticleSpaces={record.reserveArticleSpaces}>
     <a className="skip" href="#lecture">{copy.skip}</a>
-    <ArticleNavigation currentUrl={localizedHref('/article/'+encodeURIComponent(slug),locale)}><ArticleMeter slug={slug}/>
+    <ArticleNavigation article={{title:story.title, language}} currentUrl={localizedHref('/article/'+encodeURIComponent(slug),locale)}><ArticleMeter slug={slug}/>
     <main id="lecture" tabIndex={-1}>
       <div className={isFeature ? "reader-main reader-feature" : "reader-main"}>
         <article>
@@ -127,7 +131,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
               <a href={localizedHref(editionHref('presentations'),locale)}>{sectionLabel('presentations',locale)}</a>
               <Mark category={story.category} label={categoryLabel(story.category,locale)}/>
             </p> : <p className="reader-category"><CategoryLink href={localizedHref(categoryHref(story.category),locale)} category={story.category} label={categoryLabel(story.category,locale)}/></p>}
-            <h1 lang={language} dir="auto">{story.title}</h1>
+            <h1 lang={language} dir="auto" id="article-heading" tabIndex={-1}>{story.title}</h1>
             <p lang={language} dir="auto" className="reader-deck">{story.summary}</p>
             <div className="reader-byline">
               <strong>{isWire ? copy.wire : copy.newsroom}</strong>

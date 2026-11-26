@@ -92,11 +92,11 @@ async function createNewsroom(t, editionBindings, outboundService) {
   return { mf, db, request, json, editorHeaders };
 }
 
-test('les adresses publiques suivent le domaine et le portail conserve ses sessions sur Noventra', async (t) => {
+test('les adresses publiques désignent byrvox.today et le portail conserve ses sessions sur Noventra', async (t) => {
   const { mf } = await createNewsroom(t);
   const legacy = origin;
   const today = publicOrigin;
-  for (const [base, canonical] of [[today,today], [legacy,legacy], ['https://byrvox.test',legacy]]) {
+  for (const [base, canonical] of [[today,today], [legacy,today], ['https://byrvox.test',today]]) {
     const read = async path => {
       const response = await mf.dispatchFetch(base + path);
       assert.equal(response.status, 200, path);
@@ -621,6 +621,7 @@ test('la vérification publicitaire est obligatoire et le retrait immédiat rest
   const policy = {id:live.id, version:draft.version, action:'ad-policy', adReview:off};
   const paused = await edit(policy);
   assert.equal(paused.adReview.reason,off.reason);
+  assert.equal((await json('/api/newsroom/ads?article=' + live.slug,{email:editor})).article.state,'off');
   assert.equal(paused.title, 'Manchette de travail');
   assert.equal(paused.status,'draft');
   const audit = await db.prepare("SELECT snapshot FROM revisions WHERE article_id=? AND action='ad-policy'").bind(live.id).first();
@@ -634,6 +635,7 @@ test('la vérification publicitaire est obligatoire et le retrait immédiat rest
   const resumed = await edit({...policy, version:paused.version, adReview:reviewedAds});
   assert.match(await page('fr'), ads);
   assert.equal(resumed.status,'draft');
+  assert.equal((await json('/api/newsroom/ads?article=' + live.id,{email:editor})).article.state,'allowed');
   const reviewed = await edit({...initial, title:'Correction publiée sans annonces', id:live.id,version:resumed.version,action:'review'});
   await edit({...publish, version:reviewed.version},422);
   await edit({...publish, version:reviewed.version,adReview:off});
@@ -659,11 +661,16 @@ test('les responsables configurent les espaces publicitaires sans écraser une c
     'home', 'home-lower', 'masthead', 'article-photo', 'article-mid', 'article', 'news', 'news-lower', 'radio', 'footer',
   ]);
   assert.ok(placements.every(p => p.mode === 'available' && p.version === 0));
+  const feature = await json(endpoint + '?article=notre-methode', {email:approver});
+  assert.equal(feature.article.state,'allowed');
+  assert.equal(feature.article.editable,false);
+  await json(endpoint + '?article=introuvable', {email:approver, expected:404});
   const initialHome = placements.find(p => p.placement === 'home');
   const creative = {...initialHome, mode: 'campaign', name: 'Annonceur test', url: 'https://example.org/campagne'};
 
   for (const email of [undefined, contributor]) {
     assert.equal((await request(endpoint, email)).status, 403);
+    assert.equal((await request(endpoint + '?article=notre-methode', email)).status, 403);
     assert.equal((await update(email, creative)).status, 403);
   }
   assert.equal((await update(editor, creative, publicOrigin)).status, 403);
@@ -706,6 +713,8 @@ test('la rédaction conserve et active le compte AdSense et les créations aux v
   };
   const read = () => json(endpoint, {email:approver});
   const client = 'ca-pub-1234567890123456';
+  const sellers = () => mf.dispatchFetch(publicOrigin + '/ads.txt');
+  assert.equal((await sellers()).status, 404);
   const publicHeadHasLoader = async () => {
     const response = await mf.dispatchFetch(publicOrigin + '/article/notre-methode');
     assert.equal(response.status, 200);
@@ -783,6 +792,11 @@ test('la rédaction conserve et active le compte AdSense et les créations aux v
   const {adsense:active} = await put(master, {...saved, enabled:true}, 200, editor);
   assert.deepEqual(active, {...saved, enabled:true, version:2});
   assert.equal(await publicHeadHasLoader(), true);
+  const sellerFile = await sellers();
+  assert.equal(sellerFile.status, 200);
+  assert.match(sellerFile.headers.get('content-type'), /text\/plain/);
+  assert.equal(await sellerFile.text(), 'google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0\n');
+  assert.equal((await mf.dispatchFetch(origin + '/ads.txt')).status,404);
   await put(master, {...saved, client:''}, 409);
   const {adsense:paused} = await put(master, {...active, enabled:false}, 200);
   assert.deepEqual(paused, {...saved, version:3});
@@ -1058,19 +1072,23 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
   const articlePage = async lang => (await mf.dispatchFetch(publicOrigin + '/article/' + row.slug + '?lang=' + lang)).text();
   const publicSlots = html => [...html.matchAll(/<aside\b[^>]*\bdata-ad-slot="([^"]+)"/g)].map(match => match[1]);
   const page = await articlePage('fr');
-  assert.deepEqual(publicSlots(page), ['masthead','article-photo','article-mid']);
-  assert.equal((page.match(/>Espace publicitaire réservé</g) ?? []).length, 3);
+  assert.deepEqual(publicSlots(page), ['masthead','article-photo','article-mid','article','footer']);
+  assert.equal((await json('/api/newsroom/ads?article=' + row.slug, {email:editor})).article.state, 'pending');
+  assert.equal((page.match(/>Espace publicitaire réservé</g) ?? []).length, 5);
   assert.ok(page.includes(story.photo.credit));
   const captionEnd = page.indexOf('</figcaption>');
   assert.ok(captionEnd >= 0 && captionEnd < page.indexOf('data-ad-slot="article-photo"'));
   assert.match(page, /<p[^>]*>Des informations vérifiées[^<]*<\/p><aside[^>]*data-ad-slot="article-mid"[^>]*>[\s\S]*?<\/aside><p[^>]*>La rencontre se poursuit/);
   assert.doesNotMatch(page, /campagne-horaire|ca-pub-1234567890123456|<ins\b[^>]*adsbygoogle|<script\b[^>]*googlesyndication/);
   const translatedPage = await articlePage('en');
-  assert.deepEqual(publicSlots(translatedPage), ['masthead','article-photo']);
+  assert.deepEqual(publicSlots(translatedPage), ['masthead','article-photo','article','footer']);
   assert.ok(translatedPage.includes(story.translations.en.title));
   assert.ok(translatedPage.includes(story.translations.en.photoCaption));
-  await db.prepare("UPDATE ad_placements SET mode='hidden' WHERE placement='article-photo'").run();
-  assert.deepEqual(publicSlots(await articlePage('fr')), ['masthead','article-mid']);
+  await db.batch([
+    db.prepare("UPDATE ad_placements SET mode='hidden' WHERE placement='article-photo'"),
+    db.prepare("INSERT INTO ad_placements (placement,mode,name,url,image,alt,version) VALUES ('footer','hidden','','','','',1)"),
+  ]);
+  assert.deepEqual(publicSlots(await articlePage('fr')), ['masthead','article-mid','article']);
   const edit = data => json('/api/newsroom',{email:editor,data});
   const reviewed = await edit({id:row.id,action:'review',version:0,title:'Correction de la rédaction',
     summary:story.summary,category:story.category,body:story.body,sources:story.sources,photo});
@@ -1579,4 +1597,88 @@ test('les lecteurs évaluent une seule fois et la rédaction contrôle les comme
   assert.equal((await submit(first,{kind:'rating',score:2})).status,403);
   assert.equal((await submit(first,comment)).status,403);
   assert.equal((await db.prepare("SELECT count(*) AS n FROM article_comments WHERE slug=?").bind(slug).first()).n,1);
+});
+
+test('les rubriques regroupent les sous-rubriques et le classement compte les votes des articles publiés', async t => {
+  const {mf,db} = await createNewsroom(t);
+  const now = new Date().toISOString();
+  const topics = [
+    ['trade','Commerce international'], ['business','Entreprise'], ['bank','Économie'],
+    ['trial','Justice internationale'], ['ottawa','Ontario'],
+    ['tech-a','Technologie'], ['tech-b','Technologies'], ['hidden','Entreprise'],
+  ];
+  const insert = db.prepare(`INSERT INTO articles
+    (id,slug,title,category,summary,body,status,created_at,updated_at,published_at,author_id)
+    VALUES (?,?,?,?,?,?,?,?,?,?,'test')`);
+  await db.batch(topics.map(([slug,category])=>insert.bind(slug,slug,'Article '+slug,category,'Résumé','Corps',
+    slug === 'hidden' ? 'draft' : 'published',now,now,now)));
+  const reader = db.prepare(`INSERT INTO reader_accounts(user_id,email,first_name,last_name,created_at,last_seen_at,last_ip,last_location)
+    VALUES (?, ?, '', '', ?, ?, '', '')`);
+  const rating = db.prepare('INSERT INTO article_ratings(slug,user_id,score,updated_at) VALUES (?,?,?,?)');
+  await db.batch([reader.bind('r1','r1@example.invalid',now,now),reader.bind('r2','r2@example.invalid',now,now),
+    rating.bind('trade','r1',3,now),rating.bind('trade','r2',4,now),rating.bind('business','r1',5,now),
+    rating.bind('hidden','r1',5,now)]);
+  const html = async path => {
+    const response = await mf.dispatchFetch(publicOrigin+path);
+    assert.equal(response.status,200);
+    return (await response.text()).split('<script type="module"')[0];
+  };
+  const home = await html('/');
+  const ratingSection = home.match(/<section[^>]*aria-labelledby="most-rated-heading"[^>]*>([\s\S]*?)<\/section>/)?.[1];
+  assert.ok(ratingSection);
+  assert.deepEqual([...ratingSection.matchAll(/href="\/article\/([^"]+)"/g)].map(x=>x[1]),['trade','business']);
+  assert.match(ratingSection,/3,5/);
+  const archive = await html('/?rubrique=actualites&categorie=%C3%89conomie');
+  for(const slug of ['trade','business','bank']) assert.ok(archive.includes('href="/article/'+slug+'"'),slug);
+  assert.ok(!archive.includes('href="/article/trial"'));
+  const internationalJustice = await html('/?rubrique=actualites&categorie=Justice');
+  assert.ok(internationalJustice.includes('href="/article/trial"'));
+  const canada = await html('/?rubrique=actualites&categorie=Canada');
+  assert.ok(canada.includes('href="/article/ottawa"'));
+  const science = await html('/?rubrique=actualites&categorie=Technologie');
+  for(const slug of ['tech-a','tech-b']) assert.ok(science.includes('href="/article/'+slug+'"'),slug);
+  assert.match(home,/<button[^>]*aria-pressed="false"[^>]*>Commerce international<\/button>/);
+  assert.match(home,/<button[^>]*aria-pressed="false"[^>]*>Entreprises<\/button>/);
+  await db.prepare('DELETE FROM article_ratings').run();
+  const empty = await html('/?lang=en');
+  const emptyRatings = empty.match(/<section[^>]*aria-labelledby="most-rated-heading"[^>]*>([\s\S]*?)<\/section>/)?.[1];
+  assert.match(emptyRatings || '', /Most rated stories/);
+  assert.match(emptyRatings || '', /No ratings yet/);
+  assert.doesNotMatch(emptyRatings || '', /href="\/article/);
+});
+
+test('les moteurs trouvent les photos publiques, les traductions à jour et les dépêches récentes',async t=>{
+  const {mf,db}=await createNewsroom(t);
+  const read=async path=>(await mf.dispatchFetch(publicOrigin+path)).text();
+  const now=Date.now(), hour=3600000, stamp=hours=>new Date(now+hours*hour).toISOString();
+  const insert=db.prepare(`INSERT INTO articles(id,slug,title,category,summary,body,status,created_at,updated_at,published_at,author_id)
+    VALUES(?,?,?,'Sciences','Résumé','Corps',?,?,?,?, 'redaction')`);
+  const contents=[['recent','Lancement & découverte','published',-1],['ancien','Archive','published',-49],
+    ['demain','À venir','published',1],['brouillon','En préparation','review',-2]];
+  await db.batch(contents.map(([id,title,status,delta])=>insert.bind(id,id,title,status,stamp(delta),stamp(delta),stamp(delta))));
+  const date=stamp(-1), hash=createHash('sha256').update(JSON.stringify(['Lancement & découverte','Résumé','Corps'])).digest('hex');
+  const translation=db.prepare(`INSERT INTO article_translations(slug,locale,source_title,source_summary,source_hash,title,summary,body)
+    VALUES('recent',?,'Lancement & découverte','Résumé',?,'Launch','Summary','Text')`);
+  await db.batch([translation.bind('en',hash),translation.bind('es','obsolete')]);
+  await db.prepare("UPDATE articles SET photo=? WHERE id='recent'")
+    .bind(JSON.stringify({url:'/api/photos/visible.webp',alt:'Fusée',caption:'Lancement',credit:'Agence'})).run();
+  const robots=await read('/robots.txt');
+  assert.match(robots,/Allow: \/api\/photos\//); assert.match(robots,/Disallow: \/api\//);
+  assert.match(robots,/Sitemap: https:\/\/byrvox\.today\/news-sitemap\.xml/);
+  const archive=await read('/sitemap.xml');
+  assert.ok(archive.includes('<image:loc>'+publicOrigin+'/api/photos/visible.webp</image:loc>'));
+  const news=await read('/news-sitemap.xml');
+  assert.ok(news.includes('<news:title>Lancement &amp; découverte</news:title>'));
+  assert.ok(news.includes('<news:publication_date>'+date+'</news:publication_date>'));
+  assert.doesNotMatch(news,/\/article\/(?:ancien|brouillon|demain)/);
+  assert.equal((await mf.dispatchFetch(publicOrigin+'/news-sitemap.xml?page=2')).status,404);
+  const alternateLinks=html=>[...html.matchAll(/<link\b[^>]*>/gi)].map(m=>m[0]).filter(link=>/hreflang=/i.test(link));
+  for(const locale of ['fr','en','es']) {
+    const html=await read('/article/recent?lang='+locale), links=alternateLinks(html);
+    assert.ok(links.some(link=>/hreflang="en"/i.test(link) && link.includes('/article/recent?lang=en')));
+    assert.ok(links.some(link=>/hreflang="fr"/i.test(link)));
+    assert.ok(links.some(link=>/hreflang="x-default"/i.test(link)));
+    assert.ok(!links.some(link=>/hreflang="es"/i.test(link)));
+    assert.ok(html.includes('rel="canonical" href="'+publicOrigin+'/article/recent'+(locale==='en'?'?lang=en':'')+'"'));
+  }
 });

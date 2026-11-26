@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { AdsPanel } from './ads';
+import { StudioPanel } from './studio';
 import { AdminNavigation } from './navigation';
 import { OpenArticle } from './open-article';
 import { ArticlePreview } from './article-preview';
@@ -250,7 +251,7 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
         ]}/></section>}</div>
       </>}
 
-      {tab === 'Espaces publicitaires' && canApprove && <AdsPanel onDirty={setAdDirty} onSaving={setAdSaving}/>}
+      {tab === 'Espaces publicitaires' && canApprove && <AdsPanel onDirty={setAdDirty} onSaving={setAdSaving} openArticle={openByIdentifier}/>}
       {tab === 'Commentaires' && canApprove && <CommentsPanel/>}
       {tab === 'Lecteurs' && canApprove && <ReadersPanel/>}
       {tab === 'Équipe' && owner && <TeamPanel/>}
@@ -354,10 +355,9 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
         {loaded && !data.runs.length && <p>Aucune exécution enregistrée.</p>}
       </section>}
 
-      {tab === 'Studio AI' && owner && <section className="panel"><h2>BYRVOX Studio AI</h2>
-        <p>Le Studio prépare des bulletins de 30, 60 et 90 secondes, avec voix, avatars autorisés et sous-titres.</p>
-        <p className="admin-note">La production audiovisuelle et la diffusion sociale attendent la configuration des fournisseurs et des comptes de distribution.</p>
-      </section>}
+      {tab === 'Studio AI' && owner && <StudioPanel onOpenArticles={() => {
+        setKeyword(''); setFilter('live'); setTab('Articles');
+      }}/>}
 
       {tab === 'Intégrations' && owner && <section className="panel"><h2>Connexions et activation</h2><ServiceList entries={[
         ['GitHub', 'bv7k5ht77g-hue/BYRVOX'], ['OpenAI', aiStatus], ['NASA RSS', 'Collecte à la demande'],

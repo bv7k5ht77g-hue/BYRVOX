@@ -21,6 +21,18 @@ async function hashOf(story: Copy) {
   const bytes = new TextEncoder().encode(JSON.stringify([story.title,story.summary,story.body]));
   return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)), byte=>byte.toString(16).padStart(2,'0')).join('');
 }
+/** Only return languages whose text is tied to this French revision. This never requests an AI translation. */
+export async function availableStoryLanguages(story:Source):Promise<PublicLocale[]> {
+  const hash=await hashOf(story);
+  const [stored, catalog]=await Promise.all([
+    getDb().select({locale:articleTranslations.locale}).from(articleTranslations)
+      .where(and(eq(articleTranslations.slug,story.slug),eq(articleTranslations.sourceHash,hash))),
+    Promise.all(publicLocales.map(async locale=>locale === 'fr' || (await packs[locale]()).default[story.slug]?.sourceHash === hash)),
+  ]);
+  const saved = new Set(stored.map(row=>row.locale));
+  return publicLocales.filter((locale,index)=>catalog[index] || saved.has(locale));
+}
+
 function validCopy(value:unknown):value is Copy {
   if (!value || typeof value!=='object') return false;
   const v=value as Record<string,unknown>;

@@ -23,6 +23,13 @@ export function unreviewedWireAds(actor: string, at: string): ArticleAdReview {
     reason: pendingWireReason, actor, at };
 }
 
+export type ArticleAdState = 'allowed' | 'pending' | 'off';
+
+export function articleAdState(review: ArticleAdReview | null): ArticleAdState {
+  if (!review || review.decision === 'allow') return 'allowed';
+  return isPendingWireAdReview(review) ? 'pending' : 'off';
+}
+
 export function isPendingWireAdReview(review: ArticleAdReview | null): boolean {
   return review?.decision === 'off' && review.reason === pendingWireReason
     && (review.actor === 'byrvox-agent-horaire' || review.actor === 'byrvox-agent-thematique');

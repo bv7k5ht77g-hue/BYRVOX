@@ -1,8 +1,8 @@
 import { ArrowLeft, ArrowRight, ArrowUpRight, AudioLines, Bookmark, Radio, RefreshCw, Search, Tv } from 'lucide-react';
 import Image from 'next/image';
-import { useState, type ReactNode } from 'react';
+import type { ReactNode } from 'react';
 import { articleHref, editionHref, fold, type EditionRoute, type Summary } from '../../lib/edition';
-import {Rankings} from './rankings';
+import { DeskCollections, DeskDirectory, MostRated } from './desk-collections';
 import { NewsLeaders } from './news-leaders';
 import type { NewsSlide } from '../../lib/news-leaders';
 import {CategoryLink, Mark} from './category-mark';
@@ -13,7 +13,7 @@ import { BrandShowcase, MobileReading } from './brand-showcase';
 import { FeaturedContents } from './featured-contents';
 import { AdSlot } from './ad-slot';
 import { CoverFigure } from './cover-figure';
-import { canonicalCategory, categoryHref, type CategoryHeadlines } from '../../lib/editorial-sections';
+import { canonicalCategory, type CategoryHeadlines, type RatedArticle } from '../../lib/editorial-sections';
 import { TopicRail } from './topic-rail';
 import { RadioYO } from './radioyo';
 import { readerAccountUrl } from '../../lib/reader-links';
@@ -110,55 +110,20 @@ function LatestFeed({ stories, lang }: { stories: Summary[]; lang: PublicLocale 
   </section>;
 }
 
-function TopicDirectory({ categories, current, lang }: { categories:string[]; current?:string; lang:PublicLocale }) {
-  return <nav className="by-topic-directory" aria-label={sectionText(lang,'topics')}>
-    {categories.map(category=><CategoryLink key={category} category={category} label={categoryLabel(category,lang)} href={localizedHref(categoryHref(category),lang)} aria-current={current===category?'page':undefined}/>)}
-  </nav>;
-}
-
-const topicFamilies = [
-  ['Sports','Soccer','LNH','Basketball','Tennis','Football américain'],
-  ['Sciences','Espace'],
-] as const;
-
-function DeskRail({ groups, lang }: { groups:CategoryHeadlines[]; lang:PublicLocale }) {
-  const [choice,setChoice] = useState('');
-  const active = groups.find(group=>group.category===choice) || groups[0];
-  const select = groups.length>1 && <select className="by-desk-select" aria-label={sectionText(lang,'topics')+' · '+categoryLabel(groups[0].category,lang)}
-    value={active.category} onChange={event=>setChoice(event.target.value)}>
-    {groups.map(group=><option key={group.category} value={group.category}>{categoryLabel(group.category,lang)}</option>)}
-  </select>;
-  return <TopicRail key={active.category} category={active.category} lang={lang} controls={select}>
-    {active.stories.map(story=><StoryCard key={story.slug} story={story} lang={lang}/>)}
-  </TopicRail>;
-}
-
-function TopicGrid({ groups, lang }: { groups:CategoryHeadlines[]; lang:PublicLocale }) {
-  const available = new Map(groups.filter(group=>group.stories.length).map(group=>[group.category,group]));
-  const desks = topicFamilies.map(family=>family.flatMap(category=>{
-    const group = available.get(category);
-    available.delete(category);
-    return group ? [group] : [];
-  }));
-  desks.push(...[...available.values()].map(group=>[group]));
-  return <div className="by-topic-grid">{desks.filter(desk=>desk.length).map(desk=>
-    <DeskRail key={desk[0].category} groups={desk} lang={lang}/>)}</div>;
-}
-
 function AllTopicLinks({ categories, lang }: { categories:string[]; lang:PublicLocale }) {
   return <details className="by-all-topics"><summary>{sectionText(lang,'allTopics')}</summary>
-    <TopicDirectory categories={categories} lang={lang}/>
+    <DeskDirectory categories={categories} lang={lang}/>
   </details>;
 }
 
-type FrontProps = { stories: Summary[]; headlines: CategoryHeadlines[]; unavailable: boolean };
+type FrontProps = { mostRated: RatedArticle[] | null; stories: Summary[]; headlines: CategoryHeadlines[]; unavailable: boolean };
 type HomeProps = FrontProps & {
   presentations: Summary[];
   savedCount: number;
   saveButton: (story: Summary) => ReactNode;
 };
 
-export function EditionFront({ stories, headlines, presentations, savedCount, saveButton, unavailable }: HomeProps) {
+export function EditionFront({ mostRated, stories, headlines, presentations, savedCount, saveButton, unavailable }: HomeProps) {
   const lang = usePublicLocale();
   const [lead,...remaining] = stories;
   const feed = remaining.slice(0,4);
@@ -174,10 +139,11 @@ export function EditionFront({ stories, headlines, presentations, savedCount, sa
     {feed.length>0 && <LatestFeed stories={feed} lang={lang} />}
     
     <FeaturedContents stories={more} presentations={[]} savedCount={savedCount} saveButton={saveButton} />
+    {mostRated && <MostRated rows={mostRated} lang={lang}/>}
     {headlines.length>0 && <section className="by-section" aria-labelledby="topics-heading">
       <div className="by-section-title"><h2 id="topics-heading">{sectionText(lang,'topics')}</h2></div>
       <AllTopicLinks categories={headlines.map(group=>group.category)} lang={lang}/>
-      <TopicGrid groups={headlines} lang={lang}/>
+      <DeskCollections groups={headlines} lang={lang}/>
     </section>}
     <BrandShowcase lang={lang}/><RadioYO lang={lang} compact/>
     <MobileReading lang={lang} />
@@ -200,7 +166,7 @@ type SectionProps = FrontProps & {
   hasNext: boolean; publishedCategories: string[]; route: EditionRoute; saved: string[];
   signedIn: boolean; accountStatus: string; saveButton: (story: Summary) => ReactNode;
 };
-export function SectionContent({ leaders, route, stories, headlines, presentations, unavailable, saved, signedIn, accountStatus, saveButton, hasNext, publishedCategories }: SectionProps) {
+export function SectionContent({ mostRated, leaders, route, stories, headlines, presentations, unavailable, saved, signedIn, accountStatus, saveButton, hasNext, publishedCategories }: SectionProps) {
   const lang = usePublicLocale();
   const href = (path: string)=>localizedHref(path,lang);
   const { section, query, category, page } = route;
@@ -226,7 +192,7 @@ export function SectionContent({ leaders, route, stories, headlines, presentatio
       {(section==='favoris'||section==='recherche') && <p>{sectionText(lang,section==='favoris'?'favoritesIntro':'searchIntro')}</p>}
     </section>}
     {topicPage && <>
-      <TopicDirectory categories={categories} current={category} lang={lang}/>
+      <DeskDirectory categories={categories} current={category} lang={lang}/>
       {featured.length>0 && <TopicRail category={category} lang={lang} current>{featured.map(card)}</TopicRail>}
       {featured.length>0 && <AdSlot placement="news"/>}
     </>}
@@ -248,7 +214,7 @@ export function SectionContent({ leaders, route, stories, headlines, presentatio
         {accountStatus === 'loading' ? sectionText(lang,'loading') : accountStatus === 'error' ? <><p>{sectionText(lang,'accountError')}</p><a className="edition-icon-link" href={href(editionHref('favoris'))}><RefreshCw size={16} aria-hidden="true" />{sectionText(lang,'retry')}</a></> :
           <><p>{sectionText(lang,'loginPrompt')}</p><a className="outline" href={readerAccountUrl('connexion',href(editionHref('favoris')),lang)} target="_top">{sectionText(lang,'login')}</a></>}
       </div> : <>
-        {topicIndex && <><AllTopicLinks categories={categories} lang={lang}/><TopicGrid groups={headlines} lang={lang}/><AdSlot placement="news-lower"/></>}
+        {topicIndex && <>{mostRated && <MostRated rows={mostRated} lang={lang}/>}<AllTopicLinks categories={categories} lang={lang}/><DeskCollections groups={headlines} lang={lang}/><AdSlot placement="news-lower"/></>}
         {(!featured.length || archive.length>0) && <div className="by-section-title"><h2>{sectionText(lang,topicPage||topicIndex?'archive':section==='recherche'?'results':section==='favoris'?'saved':section==='presentations'?'presentations':'wire')}</h2>
           {section !== 'favoris' && <a className="by-section-link" href={href(editionHref('favoris'))}><Bookmark size={15} aria-hidden="true" />{sectionLabel('favoris',lang)}</a>}</div>}
         {(pool.length > 0 || section === 'recherche' || query || category) && <div className="filter-area"><SearchForm route={route} lang={lang} />

@@ -181,11 +181,6 @@ html[data-theme=dark] :is(.by-home,.by-index) { --edition-accent: #ff8aa0; }
 .by-rail-items .by-card:first-child:last-child {grid-column:span 2;}
 .by-rail-items .by-card:first-child:last-child .by-card-photo img {max-height:220px;}
 .by-index>.by-topic-rail .by-rail-items {grid-auto-columns:calc((100% - 54px)/4);}
-.by-radioyo-promo,.by-radioyo-panel {display:flex;align-items:center;gap:18px 26px;padding:24px;background:var(--surface);border:1px solid var(--line);border-radius:4px;flex-wrap:wrap;}
-.by-radioyo-promo img,.by-radioyo-panel img {width:min(168px,52vw);height:auto;}
-.by-radioyo-promo span {font-weight:650;text-decoration:underline;text-underline-offset:3px;}
-.by-radioyo-panel {margin-block:16px;scroll-margin-top:180px;}
-.by-radioyo-panel p {margin:0;max-width:540px;}
 @media(max-width:760px) {
  .by-topic-grid {grid-template-columns:minmax(0,1fr);gap:20px;}
  .by-rail-buttons button {width:44px;height:44px;}

@@ -1,5 +1,5 @@
 import { useId, useState, type FormEvent } from 'react';
-import type { ArticleAdDecision, ArticleAdReview } from '../../lib/article-ad-policy';
+import { articleAdState, type ArticleAdDecision, type ArticleAdReview } from '../../lib/article-ad-policy';
 import { TranslationImport, type TranslationSubmission } from './article-translations';
 import { articleUrl, NEW_SITE_ORIGIN } from '../../lib/site-url';
 
@@ -46,10 +46,10 @@ export function ArticleAdReviewForm({ mode, slug, current, busy, hasEdits, block
   }
 
   const title = publication ? 'Validation publicitaire avant publication' : 'Publicité de la version en ligne';
-  return <section className={publication ? 'article-ad-review' : 'panel article-ad-review'} aria-labelledby={fieldId}>
+  return <section className={publication ? 'article-ad-review' : 'panel article-ad-review'} aria-labelledby={fieldId} data-live-ad-review={publication ? undefined : true} tabIndex={publication ? undefined : -1}>
     <h2 id={fieldId}>{title}</h2>
     {!publication && <>
-      <p>Évaluation en vigueur · <strong>{current ? current.decision === 'off' ? 'Publicité désactivée' : 'Publicité autorisée' : 'Aucune évaluation consignée'}</strong></p>
+      <p>Évaluation en vigueur · <strong>{articleAdState(current ?? null) === 'pending' ? 'En attente de validation' : current ? {pending:'Validation en attente', off:'Publicité désactivée', allowed:'Publicité autorisée'}[articleAdState(current)] : 'Aucune évaluation consignée'}</strong></p>
       {current?.reason && <p>Motif · {current.reason}</p>}
       <a className="portal-link" href={articleUrl(slug, NEW_SITE_ORIGIN)} target="_blank" rel="noreferrer">Relire la version en ligne (nouvel onglet)</a>
     </>}

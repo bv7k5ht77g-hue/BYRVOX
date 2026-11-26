@@ -1,12 +1,12 @@
 import { listPublishedArticles } from '@/lib/public-articles';
-import { articleUrl, publicSiteOrigin } from '@/lib/site-url';
+import { articleUrl, NEW_SITE_ORIGIN } from '@/lib/site-url';
 import { xml, xmlResponse } from '@/lib/xml';
 
 // Keep the original feed identifiers stable for readers subscribed before the domain change.
 const feedIdOrigin = 'https://byrvox.h2y4xnnm6g.chatgpt.site';
 
-export async function GET(request: Request) {
-  const origin = publicSiteOrigin(new URL(request.url).host);
+export async function GET() {
+  const origin = NEW_SITE_ORIGIN;
   const stories = await listPublishedArticles(50);
   const items = stories.map(story => {
     const url = xml(articleUrl(story.slug, origin));

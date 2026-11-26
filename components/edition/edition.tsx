@@ -4,15 +4,17 @@ import Image from 'next/image';
 import { Bookmark, BookmarkCheck, CircleUserRound, Menu, Rss, Search, X } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { editionHref, type EditionRoute, type Section, type Summary } from '../../lib/edition';
-import type { CategoryHeadlines } from '../../lib/editorial-sections';
+import type { CategoryHeadlines, RatedArticle } from '../../lib/editorial-sections';
 import { AdSlot } from './ad-slot';
 import { HeaderTopics } from './header-topics';
 import { ThemeToggle } from './theme-toggle';
 import { WeatherNav } from '../weather-nav';
 import { LanguageSelect, usePublicLocale } from '../language-select';
-import { localizedHref, sectionLabel } from '../../lib/i18n';
+import { localizedHref, sectionLabel, type PublicLocale } from '../../lib/i18n';
 import { readerAccountUrl } from '../../lib/reader-links';
 import { navText } from './navigation-copy';
+import { ReaderMenu } from './reader-menu';
+import { ArticleHeaderTitle } from './article-header-title';
 import { ReadingProgress } from './reading-progress';
 import './navigation.css';
 import './footer.css';
@@ -41,39 +43,37 @@ function NavLinks({ current, category }: { current: Section; category?: string }
   });
 }
 
-function Header({ current, category, profile, open }: {
+function Header({ current, category, profile, open, currentUrl, article }: {
   current: Section; category?: string; profile: Profile | null; open: (name: DialogName) => void;
+  currentUrl: string; article?: { title: string; language: PublicLocale };
 }) {
   const lang = usePublicLocale();
-  const menu = useRef<HTMLDetailsElement>(null);
-  function show(name: DialogName) {
-    if (menu.current) menu.current.open = false;
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuTrigger = useRef<HTMLButtonElement>(null);
+  function show(name:DialogName) {
+    setMenuOpen(false);
     open(name);
   }
-  return <><header className="edition-site edition-header"><div className="topbar">
+  return <><header className="edition-site edition-header"><div className="topbar" dir="ltr">
     <Brand />
-    <nav className="desktop-nav" aria-label={navText(lang,'main')}><NavLinks current={current} category={category} /></nav>
-    <div className="tools"><WeatherNav locale={lang} /><LanguageSelect />
+    {article && <ArticleHeaderTitle {...article} />}
+    <nav className="desktop-nav" dir={lang === 'ar' ? 'rtl' : 'ltr'} aria-label={navText(lang,'main')}><NavLinks current={current} category={category} /></nav>
+    <div className="tools" dir={lang === 'ar' ? 'rtl' : 'ltr'}><WeatherNav locale={lang} /><LanguageSelect />
       <button className="tool-icon" aria-label={navText(lang,'search')} onClick={() => show('recherche')}>
         <Search size={20} aria-hidden="true" />
       </button>
       <ThemeToggle locale={lang} />
-      <button className="outline account" onClick={() => show(profile ? 'profil' : 'connexion')}><CircleUserRound size={16} aria-hidden="true" /> {navText(lang,profile ? 'account' : 'login')}</button>
-      <details className="edition-menu" ref={menu} onKeyDown={event => {
-        if (event.key === 'Escape' && menu.current?.open) {
-          menu.current.open = false;
-          menu.current.querySelector('summary')?.focus();
-        }
-      }}>
-        <summary><Menu className="menu-show" size={19} aria-hidden="true" /><X className="menu-hide" size={19} aria-hidden="true" /> <span className="menu-caption">{navText(lang,'menu')}</span></summary>
-        <nav aria-label={navText(lang,'main')}><NavLinks current={current} category={category} />
-          <a className="edition-icon-link" aria-current={current === 'favoris' ? 'page' : undefined} href={localizedHref(editionHref('favoris'),lang)}><Bookmark size={16} aria-hidden="true" /> {sectionLabel('favoris',lang)}</a>
-          <button onClick={() => show(profile ? 'profil' : 'connexion')}><CircleUserRound size={16} aria-hidden="true" /> {navText(lang,profile ? 'account' : 'login')}</button>
-        </nav>
-      </details>
+      {!profile && <button className="outline account" onClick={() => show('connexion')}><CircleUserRound size={16} aria-hidden="true" /> {navText(lang,'login')}</button>}
+      <button type="button" ref={menuTrigger} className={'edition-menu reader-menu-trigger' + (profile ? ' signed-in-menu' : '')}
+        aria-label={navText(lang,'menu')} aria-expanded={menuOpen} aria-haspopup="dialog"
+        aria-controls={menuOpen ? 'reader-navigation-panel' : undefined} onClick={()=>setMenuOpen(true)}>
+        <Menu size={21} aria-hidden="true"/>
+      </button>
     </div>
   </div>
     <ReadingProgress /></header>
+    {menuOpen && <ReaderMenu trigger={menuTrigger} lang={lang} current={current} category={category} currentUrl={currentUrl} profile={profile}
+      dismiss={()=>setMenuOpen(false)} open={show}/>}
     <div id={current === 'accueil' ? 'publicite-sous-navigation' : undefined} className="wrap by-masthead-placement"><AdSlot placement={current === 'accueil' ? 'home' : 'masthead'} /></div></>;
 }
 
@@ -112,6 +112,7 @@ function Footer({ open }: { open: (name: DialogName) => void }) {
 }
 
 type EditionProps = {
+  mostRated: RatedArticle[] | null;
   leaders: import('../../lib/news-leaders').NewsSlide[];
   route: EditionRoute;
   stories: Summary[];
@@ -122,7 +123,7 @@ type EditionProps = {
   categories: string[];
 };
 
-export function Edition({ leaders, route, stories, headlines, presentations, unavailable, hasNext, categories }: EditionProps) {
+export function Edition({ mostRated, leaders, route, stories, headlines, presentations, unavailable, hasNext, categories }: EditionProps) {
   const lang = usePublicLocale();
   const [dialog, setDialog] = useState<DialogName | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
@@ -185,11 +186,11 @@ export function Edition({ leaders, route, stories, headlines, presentations, una
   const currentUrl = localizedHref(editionHref(route.section, route.query, route.category, route.page),lang);
   return <div className="edition-site">
     <a className="skip" href="#main">{navText(lang,'skip')}</a>
-    <Header current={route.section} category={route.category} open={setDialog} profile={profile} />
+    <Header current={route.section} category={route.category} open={setDialog} profile={profile} currentUrl={currentUrl} />
     <main id="main" tabIndex={-1}>
       {route.section === 'accueil'
-        ? <EditionFront stories={stories} headlines={headlines} presentations={presentations} savedCount={saved.length} saveButton={saveButton} unavailable={unavailable} />
-        : <SectionContent leaders={leaders} headlines={headlines} route={route} hasNext={hasNext} publishedCategories={categories} stories={route.section === 'favoris' ? savedStories : stories} presentations={presentations} unavailable={unavailable}
+        ? <EditionFront mostRated={mostRated} stories={stories} headlines={headlines} presentations={presentations} savedCount={saved.length} saveButton={saveButton} unavailable={unavailable} />
+        : <SectionContent mostRated={mostRated} leaders={leaders} headlines={headlines} route={route} hasNext={hasNext} publishedCategories={categories} stories={route.section === 'favoris' ? savedStories : stories} presentations={presentations} unavailable={unavailable}
             saved={saved} accountStatus={accountStatus} signedIn={Boolean(profile)} saveButton={saveButton} />}
     </main>
     <Footer open={setDialog} />
@@ -199,7 +200,7 @@ export function Edition({ leaders, route, stories, headlines, presentations, una
   </div>;
 }
 
-export function ArticleNavigation({children, currentUrl}: {children: ReactNode; currentUrl: string}) {
+export function ArticleNavigation({children, currentUrl, article}: {children: ReactNode; currentUrl: string; article: { title:string; language:PublicLocale }}) {
   const [dialog, setDialog] = useState<DialogName | null>(null);
   const lang = usePublicLocale();
   const [profile, setProfile] = useState<Profile | null>(null);
@@ -210,18 +211,33 @@ export function ArticleNavigation({children, currentUrl}: {children: ReactNode; 
     }).catch(() => {});
     return () => controller.abort();
   }, []);
+  const [clearing,setClearing] = useState(false);
+  const [clearMessage,setClearMessage] = useState('');
+  async function clearPreferences() {
+    if (clearing || !profile) return;
+    setClearing(true);
+    try {
+      const result = await fetch('/api/profile',{method:'DELETE'});
+      if (!result.ok) throw Error();
+      setProfile({...profile,preferences:{saved:[],topics:[]}});
+      setDialog(null);
+      setClearMessage(navText(lang,'cleared'));
+    } catch {setClearMessage(navText(lang,'failed'));}
+    finally {setClearing(false);}
+  }
   function open(name: DialogName) {
     if (name === 'connexion') {
       window.location.assign(readerAccountUrl('connexion',location.pathname+location.search,lang));
     } else {
-      window.location.assign(localizedHref(editionHref(name==='recherche'?'recherche':'favoris'),lang));
+      setDialog(name);
     }
   }
   return <>
-    <Header current="actualites" profile={profile} open={open} />
+    <Header current="actualites" profile={profile} open={open} currentUrl={currentUrl} article={article} />
     {children}
     <Footer open={setDialog} />
     {dialog && <ReaderDialog name={dialog} close={() => setDialog(null)} open={open}
-      profile={profile} currentUrl={currentUrl} query="" pending={false} clear={async () => {}} />}
+      profile={profile} currentUrl={currentUrl} query="" pending={clearing} clear={clearPreferences} />}
+    {clearMessage && <div className="toast" role="status">{clearMessage}<button aria-label={navText(lang,'close')} onClick={() => setClearMessage('')}><X size={17}/></button></div>}
   </>;
 }

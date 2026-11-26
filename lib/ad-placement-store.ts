@@ -33,7 +33,7 @@ export async function getPublicAdConfiguration(allowThirdParty = true): Promise<
   return {placements, client};
 }
 
-const reservedArticleSlots: ReadonlySet<Placement> = new Set(['masthead', 'article-photo', 'article-mid']);
+const reservedArticleSlots: ReadonlySet<Placement> = new Set(['masthead', 'article-photo', 'article-mid', 'article', 'footer']);
 
 export async function getReservedArticlePlacements(): Promise<PublicAdPlacements> {
   const hidden = await getDb().select({ placement: adPlacements.placement }).from(adPlacements)

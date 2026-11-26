@@ -139,6 +139,10 @@ html[data-theme=dark] .admin-shell .reader-status-banned { color:#ff9fb5; }
 .admin-shell .reader-pagination { justify-content:flex-end; margin-top:18px; }
 
 .admin-shell .portal-ads { display:grid; grid-template-columns:minmax(230px,.8fr) minmax(0,1.4fr); gap:20px; align-items:start; }
+.ad-inspector { grid-column:1 / -1; }
+.ad-inspector summary { font-weight:700; cursor:pointer; }
+.ad-inspector form { display:flex; align-items:end; flex-wrap:wrap; gap:12px; margin-block:14px; }
+.admin-shell .ad-inspector form label { flex:1 1 260px; margin:0; }
 .admin-shell .portal-ads > .admin-note { grid-column:1 / -1; }
 .ad-position-group h3 { margin:18px 0 4px; }
 .ad-directory ul { list-style:none; padding:0; margin:0; }
@@ -192,3 +196,8 @@ html[data-theme=dark] .admin-shell .reader-status-banned { color:#ff9fb5; }
 .moderation-byline time { color:var(--muted); font-size:.85rem; }
 .moderation-body { white-space:pre-wrap; overflow-wrap:anywhere; }
 .moderation-panel .button-row { flex-wrap:wrap; }
+
+.portal-studio p, .portal-studio ul { max-width: 75ch; }
+.portal-studio button { margin-block: .75rem 1.5rem; }
+.portal-studio ul { padding-inline-start: 1.25rem; margin-block: .65rem 0; }
+.portal-studio li { line-height: 1.55; margin-block: .45rem; }

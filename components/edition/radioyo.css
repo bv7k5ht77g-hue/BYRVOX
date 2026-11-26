@@ -1,0 +1,28 @@
+.by-radio-studio {
+  display: grid;
+  grid-template-columns: minmax(0, .84fr) minmax(0, 1.16fr);
+  background: #211e20;
+  color: #fff9f3;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-block: clamp(24px, 4vw, 58px);
+}
+.by-radio-studio-copy { padding: clamp(23px, 3.4vw, 50px); align-self: center; }
+.by-radio-station { scroll-margin-top: 180px; }
+.by-radio-station + .by-radio-station { margin-block-start: 22px; padding-block-start: 22px; border-top: 1px solid #65595b; }
+.by-radio-station h2 { margin: 0; color: inherit; }
+.by-radio-station h2 a { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding-block: 4px; color: inherit; text-decoration: none; }
+.by-radio-station h2 a:hover { color: #ffbc87; }
+.by-radio-station h2 a:focus-visible { outline: 2px solid #ffbc87; outline-offset: 4px; }
+.by-radio-station h2 img { display: block; width: clamp(118px, 14vw, 170px); height: auto; }
+.by-radio-station-wordmark { display: inline-flex; align-items: center; gap: 8px; font: 780 clamp(1.2rem,2.05vw,2.05rem)/1.18 Inter,Arial,sans-serif; letter-spacing: -.045em; }
+.by-radio-station-wordmark svg { color: #ff887f; flex-shrink: 0; }
+.by-radio-station p { margin: 7px 0 0; color: #ede5de; line-height: 1.5; font-size: .97rem; }
+.by-radio-studio-art { display: block; min-height: 100%; position: relative; }
+.by-radio-studio-art img { position: absolute; width: 100%; height: 100%; object-fit: cover; object-position: center 48%; }
+@media (max-width: 680px) {
+  .by-radio-studio { grid-template-columns: minmax(0, 1fr); }
+  .by-radio-studio-art { grid-row: 1; aspect-ratio: 1.95; }
+  .by-radio-studio-copy { padding: 22px; }
+  .by-radio-station + .by-radio-station { margin-block-start: 16px; padding-block-start: 16px; }
+}

@@ -1,5 +1,6 @@
-import { publicSiteOrigin, SITE_ORIGIN } from './site-url';
+import { NEW_SITE_ORIGIN, SITE_ORIGIN } from './site-url';
 import type { Section } from './edition';
+import { canonicalCategory } from './editorial-sections';
 
 export const publicLocales = ['fr','en','es','ar','zh-CN','ru','ko'] as const;
 export type PublicLocale = typeof publicLocales[number];
@@ -32,6 +33,32 @@ const sectionRows: Record<Section, Row> = {
  recherche:['Recherche','Search','Buscar','بحث','搜索','Поиск','검색'],
 };
 const categoryRows: Row[] = [
+ ['Québec','Quebec','Quebec','كيبيك','魁北克','Квебек','퀘벡'],
+ ['Montréal','Montreal','Montreal','مونتريال','蒙特利尔','Монреаль','몬트리올'],
+ ['Colombie-Britannique','British Columbia','Columbia Británica','كولومبيا البريطانية','不列颠哥伦比亚省','Британская Колумбия','브리티시컬럼비아'],
+ ['Alberta','Alberta','Alberta','ألبرتا','艾伯塔省','Альберта','앨버타'],
+ ['Nunavut','Nunavut','Nunavut','نونافوت','努纳武特','Нунавут','누나부트'],
+ ['Europe','Europe','Europa','أوروبا','欧洲','Европа','유럽'],
+ ['Afrique','Africa','África','أفريقيا','非洲','Африка','아프리카'],
+ ['Asie','Asia','Asia','آسيا','亚洲','Азия','아시아'],
+ ['Océanie','Oceania','Oceanía','أوقيانوسيا','大洋洲','Океания','오세아니아'],
+ ['Amérique latine','Latin America','América Latina','أمريكا اللاتينية','拉丁美洲','Латинская Америка','라틴아메리카'],
+ ['Moyen-Orient','Middle East','Oriente Medio','الشرق الأوسط','中东','Ближний Восток','중동'],
+ ['Politique canadienne','Canadian politics','Política canadiense','السياسة الكندية','加拿大政治','Политика Канады','캐나다 정치'],
+ ['Politique municipale','Local politics','Política municipal','السياسة البلدية','市政','Муниципальная политика','지방 정치'],
+ ['Commerce international','International trade','Comercio internacional','التجارة الدولية','国际贸易','Международная торговля','국제 무역'],
+ ['Entreprises','Business','Empresas','الشركات','企业','Компании','기업'],
+ ['Finance','Finance','Finanzas','التمويل','金融','Финансы','금융'],
+ ['Marchés','Markets','Mercados','الأسواق','市场','Рынки','시장'],
+ ['Justice','Justice','Justicia','القضاء','司法','Правосудие','사법'],
+ ['Justice internationale','International justice','Justicia internacional','العدالة الدولية','国际司法','Международное правосудие','국제 사법'],
+ ['Logement','Housing','Vivienda','الإسكان','住房','Жильё','주거'],
+ ['Éducation','Education','Educación','التعليم','教育','Образование','교육'],
+ ['Climat','Climate','Clima','المناخ','气候','Климат','기후'],
+ ['Hockey','Hockey','Hockey sobre hielo','هوكي الجليد','冰球','Хоккей','아이스하키'],
+ ['Santé','Health','Salud','الصحة','健康','Здоровье','건강'],
+ ['Monde','World','Mundo','العالم','世界','Мир','세계'],
+ ['Sciences et technologies','Science and technology','Ciencia y tecnología','العلوم والتكنولوجيا','科学与技术','Наука и технологии','과학기술'],
  ['Éditorial','Editorial','Editorial','افتتاحية','社论','Редакционная статья','사설'],
  ['Article sponsorisé','Sponsored article','Artículo patrocinado','مقال برعاية','赞助文章','Спонсорский материал','협찬 기사'],
  ['Caraïbes','Caribbean','Caribe','الكاريبي','加勒比','Карибский регион','카리브해'],
@@ -63,8 +90,10 @@ const categoryRows: Row[] = [
 export function sectionLabel(section: Section, locale: PublicLocale) { return sectionRows[section][publicLocales.indexOf(locale)]; }
 export function categoryLabel(category: string, locale: PublicLocale) {
  const name = category.toLocaleLowerCase('fr');
- const lookup = name === 'technologie' ? 'technologies' : name;
- return categoryRows.find(row => row[0].toLocaleLowerCase('fr') === lookup)?.[publicLocales.indexOf(locale)] || category;
+ const row = categoryRows.find(row => row[0].toLocaleLowerCase('fr') === name);
+ if (row) return row[publicLocales.indexOf(locale)];
+ const canonical = canonicalCategory(category).toLocaleLowerCase('fr');
+ return categoryRows.find(row => row[0].toLocaleLowerCase('fr') === canonical)?.[publicLocales.indexOf(locale)] || category;
 }
 export const localeLabels: Record<PublicLocale, {language:string;sourceFallback:string;translate:string}> = {
  fr:{language:'Langue de lecture',sourceFallback:'Version française originale',translate:'Traduire la page avec Google'},
@@ -79,6 +108,6 @@ export function translationFallbackHref(publicUrl:string,locale:PublicLocale) {
   const page = new URL(publicUrl,SITE_ORIGIN);
   // A translator sees only the public article path, never reader search or identity parameters.
   const link = new URL('https://translate.google.com/translate');
-  link.search = new URLSearchParams({sl:'fr',tl:locale,hl:locale,u:publicSiteOrigin(page.host)+page.pathname}).toString();
+  link.search = new URLSearchParams({sl:'fr',tl:locale,hl:locale,u:NEW_SITE_ORIGIN+page.pathname}).toString();
   return link.href;
 }

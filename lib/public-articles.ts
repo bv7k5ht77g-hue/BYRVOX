@@ -1,6 +1,6 @@
 import { and, asc, desc, eq, inArray, not, or, sql, type SQL } from "drizzle-orm";
 import { getDb } from "../db";
-import { articles, articleTranslations } from "../db/schema";
+import { articles, articleRatings, articleTranslations } from "../db/schema";
 import { matchingSeedSummaries } from "./public-translations";
 import type { PublicLocale } from "./i18n";
 import { isoDate } from "./publication-date";
@@ -9,7 +9,7 @@ import type { Summary } from "./edition";
 import { features } from "./content";
 import { resolveCover } from "./cover-photo";
 import { getHomepageLeadSlug } from "./homepage-lead";
-import { canonicalCategory, categoryAliases, orderedCategories, type CategoryHeadlines } from "./editorial-sections";
+import { canonicalCategory, categoryAliases, deskFamilies, orderedCategories, type CategoryHeadlines } from "./editorial-sections";
 import { sportKeywords } from "./story-topics";
 import { containsSearchTerms, hasSearchPhrase, normalizedSearchSql } from "./search-text";
 
@@ -55,6 +55,16 @@ const dossierFeatures = [
   'musk-deux-actions-spacex-enfants-comptes-actifs',
 ];
 
+export async function listMostRatedArticles() {
+  const count = sql<number>`count(*)`;
+  const average = sql<number>`avg(${articleRatings.score})`;
+  const rows = await getDb().select({...summaryFields, count, average}).from(articleRatings)
+    .innerJoin(articles, eq(articles.slug,articleRatings.slug)).where(isPublished)
+    .groupBy(articles.slug)
+    .orderBy(desc(count), desc(average), desc(articles.publishedAt), asc(articles.slug)).limit(6);
+  return rows.map(({count,average,...fields}) => ({story:summary(fields),count,average}));
+}
+
 export async function listDossierArticles() {
   const categories = ['Dossier', 'Dossiers', 'Analyse', 'Analyses', 'Enquête', 'Enquêtes'];
   const inDossier = or(inArray(articles.slug, dossierFeatures),
@@ -78,8 +88,8 @@ function categoryPredicate(name: string) {
   const category = canonicalCategory(name);
   const exact = (names: string[]) => or(...names.map(n => sql`${articles.category} = ${n} COLLATE NOCASE`));
   const names = Object.hasOwn(categoryAliases,category) ? categoryAliases[category] : [category];
-  if (category === 'Sports') return exact([...names, ...categoryAliases.Soccer, ...categoryAliases.LNH, ...categoryAliases.Basketball, ...categoryAliases.Tennis, ...categoryAliases['Football américain'], 'Hockey','Hockey sur glace']);
-  if (category === 'Sciences') return exact([...names,...categoryAliases.Espace]);
+  const children = Object.hasOwn(deskFamilies,category) ? deskFamilies[category] : [];
+  if (children.length) return exact([...names, ...children.flatMap(child => categoryAliases[child] || [child])]);
   if (category === 'Soccer' || category === 'LNH') {
     const sports = exact(['Sport','Sports','Hockey','Hockey sur glace']);
     const copy = sql`(' ' || ${articles.title} || ' ' || ${articles.summary} || ' ')`;

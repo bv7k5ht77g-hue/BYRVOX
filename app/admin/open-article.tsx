@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from 'react';
 import { NEW_SITE_ORIGIN, SITE_ORIGIN } from '../../lib/site-url';
 
-function articleIdentifier(value: string) {
+export function articleIdentifier(value: string) {
   const clean = value.trim();
   if (!clean.includes('/')) return clean;
   try {

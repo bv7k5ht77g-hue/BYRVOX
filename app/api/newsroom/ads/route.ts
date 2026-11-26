@@ -1,4 +1,9 @@
 import { z } from 'zod';
+import { and, eq, or } from 'drizzle-orm';
+import { getDb } from '@/db';
+import { articles } from '@/db/schema';
+import { features } from '@/lib/content';
+import { articleAdState } from '@/lib/article-ad-policy';
 import { admin, sameOrigin } from '@/lib/access';
 import { PLACEMENTS, AD_MODES, validAdImageUrl } from '@/lib/ad-placements';
 import { getAdPlacements, getAdSenseSettings, saveAdPlacement } from '@/lib/ad-placement-store';
@@ -42,8 +47,18 @@ function reply(data: unknown, status = 200) {
   return Response.json(data, {status, headers: {'Cache-Control': 'private, no-store'}});
 }
 
-export async function GET() {
+export async function GET(request: Request) {
   if (!await admin()) return reply({error: 'Accès réservé aux responsables de la rédaction.'}, 403);
+  const identifier = new URL(request.url).searchParams.get('article');
+  if (identifier !== null) {
+    if (!identifier || identifier.length > 220) return reply({error:'Lien ou identifiant d’article invalide.'}, 400);
+    const feature = features.find(item => item.slug === identifier);
+    if (feature) return reply({article:{slug:feature.slug, title:feature.title, state:'allowed', editable:false}});
+    const row = await getDb().select({slug:articles.slug, title:articles.title, review:articles.adReview}).from(articles)
+      .where(and(eq(articles.status, 'published'), or(eq(articles.slug, identifier), eq(articles.id, identifier)))).limit(1).get();
+    if (!row) return reply({error:'Aucun article en ligne ne correspond à ce lien ou à cet identifiant.'}, 404);
+    return reply({article:{slug:row.slug, title:row.title, state:articleAdState(row.review), editable:true}});
+  }
   const [placements, adsense] = await Promise.all([getAdPlacements(), getAdSenseSettings()]);
   return reply({placements, adsense});
 }
