@@ -29,3 +29,12 @@ html[data-theme=dark] header.edition-header { box-shadow:0 6px 16px -7px #000b; 
  .edition-header select {max-width:68px;}
 }
 @media(max-width:370px){ .edition-site.edition-header .topbar{padding-inline:6px;gap:3px;} }
+
+.byrvox-language { display:inline-flex; position:relative; align-items:center; gap:4px; flex:none; }
+.byrvox-language select { color:var(--ink); background:var(--bg); border:1px solid var(--line); border-radius:4px; line-height:1.3; padding:5px 2px; }
+@media(max-width:650px) {
+ .byrvox-language { gap:3px; min-height:40px; padding-inline:2px; }
+ .byrvox-language:after { content:attr(data-short); font-size:.74rem; font-weight:700; }
+ .byrvox-language select { position:absolute; inset:0; width:100%; height:100%; opacity:0; cursor:pointer; }
+ .byrvox-language:focus-within { outline:2px solid var(--red); outline-offset:2px; }
+}
