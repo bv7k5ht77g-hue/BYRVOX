@@ -1,5 +1,5 @@
 import { env } from 'cloudflare:workers';
-import { admin, sameOrigin } from '../../../../lib/access';
+import { adManagementDenial } from '../../../../lib/access';
 import { photoByteLimit, photoFormat, photoTypes } from '../../../../lib/article-photo';
 import { boundedBytes } from '../../../../lib/input';
 
@@ -7,7 +7,8 @@ const headers = { 'Cache-Control': 'private, no-store' };
 const problem = (error: string, status: number) => Response.json({ error }, { status, headers });
 
 export async function POST(request: Request) {
-  if (!sameOrigin(request) || !await admin()) return problem('Accès réservé aux responsables de la rédaction.', 403);
+  const denied = await adManagementDenial(request);
+  if (denied) return denied;
   if (!env.BUCKET) return problem('Le stockage des bannières est indisponible.', 503);
 
   const declaredType = request.headers.get('content-type')?.split(';')[0].trim().toLowerCase();

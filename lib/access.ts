@@ -34,19 +34,25 @@ export async function newsroomRole(identity: Pick<ChatGPTUser,'email'|'userId'>)
   return current?.role ?? null;
 }
 
-export async function newsroomUser(): Promise<NewsroomUser | null> {
+async function newsroomIdentity() {
   const requestHeaders = await headers();
   if (requestHeaders.get('host') !== new URL(SITE_ORIGIN).host) return null;
   const token = getCookie(requestHeaders.get('cookie'), sessionCookie);
-  const identity = validSecret(token) ? await getEditorSession(token) : null;
+  return validSecret(token) ? getEditorSession(token) : null;
+}
+
+export async function newsroomUser(): Promise<NewsroomUser | null> {
+  const identity = await newsroomIdentity();
   if (!identity) return null;
   const role = await newsroomRole(identity);
   return role ? {...identity,role} : null;
 }
 
+const isResponsible = (role: NewsroomRole | null) => role === 'owner' || role === 'approver';
+
 export async function admin() {
   const user = await newsroomUser();
-  return user?.role === 'owner' || user?.role === 'approver' ? user : null;
+  return user && isResponsible(user.role) ? user : null;
 }
 export async function newsroomOwner() {
   const user = await newsroomUser();
@@ -54,4 +60,21 @@ export async function newsroomOwner() {
 }
 export function sameOrigin(req: Request) {
   return req.headers.get('origin') === new URL(req.url).origin;
+}
+
+export async function adManagementDenial(request: Request): Promise<Response | null> {
+  const deny = (code: string, error: string, status: number) =>
+    Response.json({code, error}, {status, headers: {'Cache-Control': 'private, no-store'}});
+  const readsOnly = request.method === 'GET' || request.method === 'HEAD';
+  if (new URL(request.url).origin !== SITE_ORIGIN || (!readsOnly && !sameOrigin(request))) {
+    return deny('forbidden_origin', 'Ouvre les espaces publicitaires depuis le portail éditeur BYRVOX.', 403);
+  }
+  const identity = await newsroomIdentity();
+  if (!identity) {
+    return deny('editor_session_required', 'Reconnecte-toi au portail éditeur pour accéder aux emplacements publicitaires.', 401);
+  }
+  if (!isResponsible(await newsroomRole(identity))) {
+    return deny('editor_role_required', 'Accès réservé aux propriétaires et aux approbateurs de la rédaction.', 403);
+  }
+  return null;
 }

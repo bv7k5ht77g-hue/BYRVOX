@@ -643,7 +643,7 @@ test('la vérification publicitaire est obligatoire et le retrait immédiat rest
 });
 
 test('les responsables configurent les espaces publicitaires sans écraser une campagne concurrente', async t => {
-  const { mf, json, request, editorHeaders } = await createNewsroom(t);
+  const { mf, db, json, request, editorHeaders } = await createNewsroom(t);
   const endpoint = '/api/newsroom/ads';
   const approver = 'responsable-pub@example.invalid';
   const contributor = 'correspondant@example.invalid';
@@ -668,12 +668,22 @@ test('les responsables configurent les espaces publicitaires sans écraser une c
   const initialHome = placements.find(p => p.placement === 'home');
   const creative = {...initialHome, mode: 'campaign', name: 'Annonceur test', url: 'https://example.org/campagne'};
 
-  for (const email of [undefined, contributor]) {
-    assert.equal((await request(endpoint, email)).status, 403);
-    assert.equal((await request(endpoint + '?article=notre-methode', email)).status, 403);
-    assert.equal((await update(email, creative)).status, 403);
+  const expired = 'session-expiree@example.invalid';
+  await editorHeaders(expired);
+  await db.prepare('UPDATE editor_sessions SET expires_at=0 WHERE email=?').bind(expired).run();
+  for (const [email, status, code] of [
+    [undefined, 401, 'editor_session_required'], [expired, 401, 'editor_session_required'],
+    [contributor, 403, 'editor_role_required'], ['sans-role@example.invalid', 403, 'editor_role_required'],
+  ]) {
+    for (const response of [await request(endpoint, email), await request(endpoint + '?article=notre-methode', email), await update(email, creative)]) {
+      assert.equal(response.status, status);
+      assert.match(response.headers.get('cache-control'), /no-store/);
+      assert.equal((await response.json()).code, code);
+    }
   }
-  assert.equal((await update(editor, creative, publicOrigin)).status, 403);
+  const deniedOrigin = await update(editor, creative, publicOrigin);
+  assert.equal(deniedOrigin.status, 403);
+  assert.equal((await deniedOrigin.json()).code, 'forbidden_origin');
   for (const change of [
     {placement: 'emplacement-absent'}, {url: 'http://example.org'}, {name: ''},
     {image: '//example.org/banner.png', alt: 'Bannière'}, {image: '/brand/banner.png', alt: ''},
@@ -726,9 +736,9 @@ test('la rédaction conserve et active le compte AdSense et les créations aux v
   const initial = {client:'', enabled:false, version:0};
   assert.deepEqual((await read()).adsense, initial);
   const pending = {...initial, client};
-  await put(master, pending, 403, null);
-  await put(master, pending, 403, contributor);
-  await put(master, pending, 403, approver, publicOrigin);
+  assert.equal((await put(master, pending, 401, null)).code, 'editor_session_required');
+  assert.equal((await put(master, pending, 403, contributor)).code, 'editor_role_required');
+  assert.equal((await put(master, pending, 403, approver, publicOrigin)).code, 'forbidden_origin');
   await put(master, {...initial, enabled:true}, 422);
   await put(master, {...pending, client:'1234'}, 422);
   await put(master, {...pending, html:'<script></script>'}, 422);
@@ -822,7 +832,7 @@ test('les responsables téléversent une bannière dont les lecteurs peuvent cha
     headers: {...await editorHeaders(email), origin: from, 'content-type': 'image/png'},
     body: data,
   });
-  assert.equal((await upload(undefined)).status, 403);
+  assert.equal((await upload(undefined)).status, 401);
   assert.equal((await upload(contributor)).status, 403);
   assert.equal((await upload(approver, publicOrigin)).status, 403);
   assert.equal((await upload(approver, origin, Buffer.from('Ceci est du texte.'))).status, 415);

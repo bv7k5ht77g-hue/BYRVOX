@@ -4,7 +4,7 @@ import { getDb } from '@/db';
 import { articles } from '@/db/schema';
 import { features } from '@/lib/content';
 import { articleAdState } from '@/lib/article-ad-policy';
-import { admin, sameOrigin } from '@/lib/access';
+import { adManagementDenial } from '@/lib/access';
 import { PLACEMENTS, AD_MODES, validAdImageUrl } from '@/lib/ad-placements';
 import { getAdPlacements, getAdSenseSettings, saveAdPlacement } from '@/lib/ad-placement-store';
 import { adClientPattern, adSlotPattern } from '@/lib/adsense.mjs';
@@ -48,7 +48,8 @@ function reply(data: unknown, status = 200) {
 }
 
 export async function GET(request: Request) {
-  if (!await admin()) return reply({error: 'Accès réservé aux responsables de la rédaction.'}, 403);
+  const denied = await adManagementDenial(request);
+  if (denied) return denied;
   const identifier = new URL(request.url).searchParams.get('article');
   if (identifier !== null) {
     if (!identifier || identifier.length > 220) return reply({error:'Lien ou identifiant d’article invalide.'}, 400);
@@ -64,7 +65,8 @@ export async function GET(request: Request) {
 }
 
 export async function PUT(req: Request) {
-  if (!sameOrigin(req) || !await admin()) return reply({error: 'Accès refusé.'}, 403);
+  const denied = await adManagementDenial(req);
+  if (denied) return denied;
   const input = placementSchema.safeParse(await boundedJson(req, 12000).catch(() => null));
   if (!input.success) {
     const error = input.error.issues.find(issue => issue.code === 'custom')?.message;

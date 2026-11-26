@@ -5,9 +5,11 @@ import { photoByteLimit, photoTypes } from '../../lib/article-photo';
 import { AdFrame } from '../../components/edition/ad-frame';
 import { parseAdFrame, parseAdScript } from '../../lib/ad-frame.mjs';
 import { adSlotPattern, parseAdSenseSnippet, recognizeAdSenseVerification } from '../../lib/adsense.mjs';
-import { validAdImageUrl, type AdPlacement, type AdSenseSettings, type Placement } from '../../lib/ad-placements';
+import { AD_MODES, PLACEMENTS, validAdImageUrl, type AdPlacement, type AdSenseSettings, type Placement } from '../../lib/ad-placements';
 import { articleUrl, NEW_SITE_ORIGIN } from '../../lib/site-url';
 import { ArticleAdInspector } from './article-ad-inspector';
+import { AdPortalSignIn } from './ad-portal-sign-in';
+import { AdPortalError, adPortalError, adPortalRequest } from './ad-portal-request';
 
 const positions: Record<Placement, {section: string; name: string}> = {
   home: {section:'Accueil', name:'Sous la navigation'},
@@ -47,7 +49,8 @@ function PlacementStatus({slot, settings}: {slot:AdPlacement; settings:AdSenseSe
     {detail && <small>{detail}</small>}</span>;
 }
 
-export function AdsPanel({onDirty, onSaving, openArticle}: {
+export function AdsPanel({onDirty, onSaving, openArticle, initialArticle}: {
+  initialArticle?:string;
   onDirty:(dirty:boolean)=>void; onSaving:(saving:boolean)=>void; openArticle:(slug:string)=>Promise<void>;
 }) {
   const [slots, setSlots] = useState<AdPlacement[]>([]);
@@ -57,13 +60,17 @@ export function AdsPanel({onDirty, onSaving, openArticle}: {
   const [enabled, setEnabled] = useState(false);
   const [snippet, setSnippet] = useState('');
   const [attempt, setAttempt] = useState(0);
+  const [loadState, setLoadState] = useState<'loading'|'ready'|'failed'>('loading');
+  const [loadError, setLoadError] = useState<AdPortalError|null>(null);
+  const [partialInventory, setPartialInventory] = useState(false);
   const [error, setError] = useState('');
+  const [sessionExpired, setSessionExpired] = useState(false);
   const [notice, setNotice] = useState('');
   const [conflict, setConflict] = useState(false);
   const [saving, setSaving] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [preview, setPreview] = useState('');
-  const busy = saving || uploading;
+  const busy = saving || uploading || loadState !== 'ready' || sessionExpired || conflict;
   const current = slots.find(slot => slot.placement === edit?.placement);
   const exampleArticle = edit?.placement === 'article' ? methodArticle : kyotoArticle;
   const sections = [...new Set(slots.map(slot => positions[slot.placement].section))];
@@ -111,26 +118,52 @@ export function AdsPanel({onDirty, onSaving, openArticle}: {
     const abort = new AbortController();
     async function load() {
       try {
-        const response = await fetch('/api/newsroom/ads', {cache:'no-store',signal:abort.signal});
-        if (!response.ok) throw Error();
-        const result = await response.json() as {placements:AdPlacement[]; adsense:AdSenseSettings};
-        if (!result.placements.length) throw Error();
+        const result = await adPortalRequest<{placements:AdPlacement[]; adsense:AdSenseSettings}>(
+          '/api/newsroom/ads', {cache:'no-store',signal:abort.signal});
+        if (typeof result.adsense?.enabled !== 'boolean' || typeof result.adsense.client !== 'string' || !Number.isInteger(result.adsense.version) || !Array.isArray(result.placements)) {
+          throw new AdPortalError('Le portail a renvoyé une configuration publicitaire incomplète. Recharge les emplacements.');
+        }
+        const usable: AdPlacement[] = [];
+        for (const key of PLACEMENTS) {
+          const matches = result.placements.filter(slot => slot?.placement === key);
+          const slot = matches[0];
+          if (matches.length === 1 && AD_MODES.includes(slot.mode) && Number.isInteger(slot.version) && slot.version >= 0 &&
+              [slot.name, slot.url, slot.image, slot.alt, slot.adClient, slot.adSlot].every(value => typeof value === 'string')) usable.push(slot);
+        }
+        if (!usable.length) throw new AdPortalError('La configuration publicitaire reçue est incomplète. Recharge les emplacements.');
         if (!abort.signal.aborted) {
-          setSlots(result.placements);
+          setSlots(usable);
+          setPartialInventory(usable.length < PLACEMENTS.length || usable.length < result.placements.length);
           setSettings(result.adsense);
           setEnabled(result.adsense.enabled);
           setSnippet('');
-          setEdit(previous => result.placements.find(slot => slot.placement === previous?.placement) ?? result.placements[0]);
+          setEdit(previous => usable.find(slot => slot.placement === previous?.placement) ?? usable[0]);
           setConflict(false);
+          setSessionExpired(false);
+          setLoadState('ready');
           setError('');
         }
-      } catch {
-        if (!abort.signal.aborted) setError('Impossible de charger les emplacements publicitaires.');
+      } catch (cause) {
+        if (abort.signal.aborted) return;
+        setLoadState('failed');
+        setLoadError(adPortalError(cause, 'Impossible de charger les emplacements publicitaires.'));
       }
     }
     void load();
     return () => abort.abort();
   }, [attempt]);
+
+  function reload() {
+    if (changed && !window.confirm('Recharger la version enregistrée et abandonner les modifications locales ?')) return;
+    setLoadState('loading'); setLoadError(null); setError(''); setNotice('');
+    setAttempt(value => value + 1);
+  }
+
+  function reportFailure(cause: unknown, fallback: string) {
+    const problem = adPortalError(cause, fallback);
+    setError(problem.message);
+    if (problem.status === 401) setSessionExpired(true);
+  }
 
   function clearFeedback() {
     setNotice('');
@@ -151,16 +184,14 @@ export function AdsPanel({onDirty, onSaving, openArticle}: {
     }
     setUploading(true); onSaving(true); setError(''); setNotice('');
     try {
-      const response = await fetch('/api/newsroom/ad-images', {method:'POST', headers:{'Content-Type':file.type}, body:file});
-      const result = await response.json() as {url?:string;error?:string};
-      if (!response.ok || !result.url) {
-        setError(result.error || 'L’envoi de la bannière a échoué.');
-        return;
-      }
+      const result = await adPortalRequest<{url:string}>('/api/newsroom/ad-images', {
+        method:'POST', headers:{'Content-Type':file.type}, body:file,
+      });
+      if (!result.url) throw new AdPortalError('Le portail n’a renvoyé aucune adresse pour la bannière.');
       update({image:result.url});
       setPreview(result.url);
       setNotice('Bannière chargée. Enregistre l’emplacement pour appliquer le changement.');
-    } catch { setError('L’image n’a pas pu être envoyée. Vérifie ta connexion et réessaie.'); }
+    } catch (cause) { reportFailure(cause, 'L’image n’a pas pu être envoyée.'); }
     finally { setUploading(false); onSaving(false); }
   }
 
@@ -179,27 +210,24 @@ export function AdsPanel({onDirty, onSaving, openArticle}: {
     setSaving(true); onSaving(true); setError(''); setNotice('');
     try {
       const data = siteSetup ? {enabled,client,version:settings.version} : placingUnit ? {...edit,adClient:client,adSlot:unit} : edit;
-      const response = await fetch(siteSetup ? '/api/newsroom/ads/adsense' : '/api/newsroom/ads', {
-        method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data),
-      });
-      if (!response.ok) {
-        const result = await response.json().catch(() => null) as {error?:string}|null;
-        setConflict(response.status === 409);
-        setError(result?.error || 'Impossible d’enregistrer cet emplacement.');
-        return;
-      }
+      const options = {method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data)};
       if (siteSetup) {
-        const {adsense} = await response.json() as {adsense:AdSenseSettings};
+        const {adsense} = await adPortalRequest<{adsense:AdSenseSettings}>('/api/newsroom/ads/adsense', options);
+        if (typeof adsense?.enabled !== 'boolean' || !Number.isInteger(adsense.version)) throw new AdPortalError('La réponse d’enregistrement est incomplète. Rouvre les emplacements pour vérifier la configuration.');
         setSettings(adsense); setEnabled(adsense.enabled);
         setNotice(adsense.enabled ? 'Code du site enregistré et activé dans l’en-tête HTML des pages autorisées.' : 'Configuration enregistrée. Le chargement du script sur le site est désactivé.');
       } else {
-        const {placement} = await response.json() as {placement:AdPlacement};
+        const {placement} = await adPortalRequest<{placement:AdPlacement}>('/api/newsroom/ads', options);
+        if (placement?.placement !== edit.placement || !Number.isInteger(placement.version)) throw new AdPortalError('La réponse d’enregistrement est incomplète. Rouvre les emplacements pour vérifier la configuration.');
         setSlots(previous => previous.map(slot => slot.placement === placement.placement ? placement : slot));
         setEdit(placement);
         setNotice(placement.mode === 'adsense' ? 'Bloc AdSense '+placement.adSlot+' attribué à « '+slotTitle(placement.placement)+' ».' : 'Emplacement enregistré.');
       }
       setSnippet('');
-    } catch { setError('L’enregistrement a échoué. Vérifie ta connexion et réessaie.'); }
+    } catch (cause) {
+      setConflict(cause instanceof AdPortalError && cause.status === 409);
+      reportFailure(cause, 'L’enregistrement a échoué. Recharge les emplacements pour vérifier la configuration enregistrée.');
+    }
     finally { setSaving(false); onSaving(false); }
   }
 
@@ -251,18 +279,27 @@ export function AdsPanel({onDirty, onSaving, openArticle}: {
   }
 
   return <div className="portal-ads">
-    <ArticleAdInspector busy={busy} openReview={async slug => {
+    <ArticleAdInspector initialArticle={initialArticle} busy={saving || uploading} openReview={async slug => {
       if (changed && !window.confirm('Abandonner les modifications de cet emplacement pour ouvrir l’article ?')) return;
       await openArticle(slug);
       requestAnimationFrame(() => document.querySelector<HTMLElement>('[data-live-ad-review]')?.focus());
     }}/>
     <section className="panel ad-directory" aria-labelledby="ads-list-title">
-      {settings && <><h2>Site public</h2><button type="button" disabled={busy} aria-pressed={siteSetup} onClick={() => {if (!siteSetup) select(null);}}>
+      {loadState === 'ready' && settings && <><h2>Site public</h2><button type="button" disabled={busy} aria-pressed={siteSetup} onClick={() => {if (!siteSetup) select(null);}}>
         <span>Code du site Google AdSense</span><small>{settings.enabled ? 'Activé · en-tête HTML' : 'Désactivé'}</small>
       </button></>}
       <h2 id="ads-list-title">Emplacements</h2>
-      {slots.length === 0 && !error && <p role="status">Chargement des emplacements…</p>}
-      {sections.map(section => <section key={section} className="ad-position-group" aria-label={section}>
+      {loadState === 'loading' && <p role="status">Chargement des emplacements…</p>}
+      {loadState === 'ready' && partialInventory && <div className="admin-note" role="status">
+        <p>Certains emplacements sont indisponibles. Les emplacements chargés figurent ci-dessous.</p>
+        <button className="outline" type="button" disabled={busy} onClick={reload}>Recharger les emplacements</button>
+      </div>}
+      {loadError && <div className="admin-note" role="alert">
+        <p>{loadError.message}</p>
+        {loadError.status === 401 && <AdPortalSignIn/>}
+        <button className="outline" type="button" onClick={reload}>Recharger les emplacements</button>
+      </div>}
+      {loadState === 'ready' && sections.map(section => <section key={section} className="ad-position-group" aria-label={section}>
         <h3>{section}</h3>
         <ul>{slots.filter(slot => positions[slot.placement].section === section).map(slot => <li key={slot.placement}>
           <button type="button" disabled={busy} aria-pressed={!siteSetup && slot.placement === edit?.placement} onClick={() => {
@@ -273,7 +310,7 @@ export function AdsPanel({onDirty, onSaving, openArticle}: {
         </li>)}</ul>
       </section>)}
     </section>
-    {settings && siteSetup && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-google-title">
+    {loadState === 'ready' && settings && siteSetup && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-google-title">
       <h2 id="ad-google-title">Google AdSense sur le site public</h2>
       <p>Ce script relie BYRVOX à ton compte Google. Pour placer une bannière précise, attribue son numéro de bloc à l’emplacement voulu.</p>
       {settings.enabled && settings.client && <a href={NEW_SITE_ORIGIN + '/ads.txt'} target="_blank" rel="noreferrer">Voir le vendeur autorisé dans ads.txt ↗</a>}
@@ -293,7 +330,7 @@ export function AdsPanel({onDirty, onSaving, openArticle}: {
       {notice && <p role="status" className="admin-note">{notice}</p>}
       {current && <button type="button" className="outline" disabled={busy} onClick={() => select(current)}>Configurer l’emplacement « {slotTitle(current.placement)} »</button>}
     </form>}
-    {!siteSetup && edit && current && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-editor-title">
+    {loadState === 'ready' && !siteSetup && edit && current && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-editor-title">
       <h2 id="ad-editor-title">{slotTitle(edit.placement)}</h2>
       {edit.placement === 'footer' && <p className="portal-help">Le pied de page suit aussi les règles publicitaires de l’article en lecture. <a href={kyotoArticle + '#publicite-footer'} target="_blank" rel="noreferrer">Voir le pied de page d’un article ↗</a></p>}
       {edit.placement === 'masthead' && <p className="portal-help">Ce réglage s’applique aussi aux autres pages intérieures sous la navigation.</p>}
@@ -367,10 +404,8 @@ export function AdsPanel({onDirty, onSaving, openArticle}: {
       </div>
       {notice && <p role="status" className="admin-note">{notice}</p>}
     </form>}
-    {error && <div className="admin-note" role="alert">{error} {(!slots.length || conflict) &&
-      <button className="outline" type="button" onClick={() => {
-        if (changed && !window.confirm('Recharger la version enregistrée et abandonner les modifications locales ?')) return;
-        setAttempt(value => value+1);
-      }}>Recharger les emplacements</button>}</div>}
+    {error && <div className="admin-note" role="alert">{error} {sessionExpired &&
+      <AdPortalSignIn/>} {conflict &&
+      <button className="outline" type="button" onClick={reload}>Recharger les emplacements</button>}</div>}
   </div>;
 }

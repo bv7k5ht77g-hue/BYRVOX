@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { AdsPanel } from './ads';
+import { consumeAdPortalReturn } from './ad-portal-sign-in';
 import { StudioPanel } from './studio';
 import { AdminNavigation } from './navigation';
 import { OpenArticle } from './open-article';
@@ -60,6 +61,7 @@ function ServiceList({ entries }: { entries: string[][] }) {
 
 export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
   const [tab, setTab] = useState('Tableau de bord');
+  const [inspectionArticle, setInspectionArticle] = useState('');
   const [data, setData] = useState<Newsroom>({ role:initialRole, email:'', userId:'', articles: [], events: [], revisions: [], runs: [], generationConfigured: false });
   const [loaded, setLoaded] = useState(false);
   const [edit, setEdit] = useState<Editor>(empty);
@@ -76,6 +78,14 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
   const [notes, setNotes] = useState('');
 
   useEffect(() => {
+    const inspection = consumeAdPortalReturn();
+    if (inspection !== null) {
+      if (initialRole === 'contributor') setMessage('Les espaces publicitaires sont réservés aux propriétaires et aux approbateurs de la rédaction.');
+      else {
+        setInspectionArticle(inspection);
+        setTab('Espaces publicitaires');
+      }
+    }
     const controller = new AbortController();
     const { signal } = controller;
     async function initialize() {
@@ -251,7 +261,7 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
         ]}/></section>}</div>
       </>}
 
-      {tab === 'Espaces publicitaires' && canApprove && <AdsPanel onDirty={setAdDirty} onSaving={setAdSaving} openArticle={openByIdentifier}/>}
+      {tab === 'Espaces publicitaires' && canApprove && <AdsPanel initialArticle={inspectionArticle} onDirty={setAdDirty} onSaving={setAdSaving} openArticle={openByIdentifier}/>}
       {tab === 'Commentaires' && canApprove && <CommentsPanel/>}
       {tab === 'Lecteurs' && canApprove && <ReadersPanel/>}
       {tab === 'Équipe' && owner && <TeamPanel/>}
