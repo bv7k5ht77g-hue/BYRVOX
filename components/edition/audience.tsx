@@ -19,6 +19,16 @@ export function ArticleMeter({slug}:{slug:string}){
   }
   let seconds=0;const timer=setInterval(()=>{if(!document.hidden){record('view');if(++seconds>=30)record('read')}},1000);
   function engagement(e:MouseEvent){const link=(e.target as Element)?.closest('article a[href]');if(e.isTrusted&&link)record('engage')}
-  record('view');document.addEventListener('click',engagement);return()=>{clearInterval(timer);document.removeEventListener('click',engagement)}
+  function readerFeedback(event: Event) {
+    if (event instanceof CustomEvent && event.detail === slug) record('engage');
+  }
+  record('view');
+  document.addEventListener('click',engagement);
+  window.addEventListener('byrvox:article-engagement',readerFeedback);
+  return () => {
+    clearInterval(timer);
+    document.removeEventListener('click',engagement);
+    window.removeEventListener('byrvox:article-engagement',readerFeedback);
+  };
  },[slug]);return null;
 }

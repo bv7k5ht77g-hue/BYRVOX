@@ -2,7 +2,7 @@ import { PortalThemeToggle } from './theme-toggle';
 import { SITE_ORIGIN } from '../../lib/site-url';
 import Image from 'next/image';
 import { useRef, useState } from 'react';
-import { AudioLines, BookOpen, Clapperboard, ClipboardCheck, History, LayoutDashboard, Megaphone, Menu, Settings2, SquarePen, UserRound, Users, X } from 'lucide-react';
+import { AudioLines, BookOpen, Clapperboard, ClipboardCheck, History, LayoutDashboard, Megaphone, Menu, MessageSquare, Settings2, SquarePen, UserRound, Users, X } from 'lucide-react';
 
 import type { NewsroomRole } from '../../lib/access';
 
@@ -12,6 +12,7 @@ const sections: {name: string; icon: typeof Menu; owner?: boolean; reviewer?: bo
   { name: 'Éditeur', icon: SquarePen },
   { name: 'À approuver', icon: ClipboardCheck, reviewer: true },
   { name: 'Espaces publicitaires', icon: Megaphone, reviewer: true },
+  { name: 'Commentaires', icon: MessageSquare, reviewer: true },
   { name: 'Lecteurs', icon: UserRound, reviewer: true },
   { name: 'Équipe', icon: Users, owner: true },
   { name: 'PULSE AI', icon: AudioLines, owner: true },

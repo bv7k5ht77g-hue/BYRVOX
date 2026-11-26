@@ -5,7 +5,8 @@ import { legacyBookmarksUrl, readerAccountUrl, readerReturnPath, readerText, typ
 import { resolvePublicLocale } from '../../lib/public-locale';
 import { localizedHref } from '../../lib/i18n';
 import { NEW_SITE_ORIGIN } from '../../lib/site-url';
-import { ClerkReader } from './reader';
+import { ArrowLeft } from 'lucide-react';
+import { AccountControls, ClerkReader } from './reader';
 import './reader.css';
 
 export const dynamic = 'force-dynamic';
@@ -26,12 +27,14 @@ export default async function ReaderAccount({searchParams}:Params) {
   if (host !== new URL(NEW_SITE_ORIGIN).host) redirect(readerAccountUrl(mode,returnTo,lang));
   const config = clerkConfiguration();
   return <main className="reader-account" lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
-    <a className="brand edition-brand" href={localizedHref('/',lang)} aria-label="BYRVOX"><span className="brand-mark" aria-hidden="true"/></a>
-    <section aria-labelledby="account-title">
-      <h1 id="account-title">{readerText(lang,mode)}</h1>
-      <ClerkReader publishableKey={config?.publishableKey || ''} issuer={config?.issuer || ''} mode={mode} returnTo={returnTo} lang={lang}/>
-      {mode === 'connexion' && <p><a href={legacyBookmarksUrl(lang)}>{readerText(lang,'legacy')}</a></p>}
-    </section>
-    <a href={returnTo}>{readerText(lang,'back')}</a>
+    <div className="reader-account-controls"><AccountControls lang={lang} mode={mode} returnTo={returnTo}/></div>
+    <div className="reader-account-content">
+      <span className="brand edition-brand" role="img" aria-label="BYRVOX"><span className="brand-mark" aria-hidden="true"/></span>
+      <section className="reader-account-form" aria-label={readerText(lang,mode)}>
+        <ClerkReader publishableKey={config?.publishableKey || ''} issuer={config?.issuer || ''} mode={mode} returnTo={returnTo} lang={lang}/>
+      </section>
+      {mode === 'connexion' && <a className="reader-account-legacy" href={legacyBookmarksUrl(lang)}>{readerText(lang,'legacy')}</a>}
+      <a className="reader-account-back" href={returnTo}><ArrowLeft size={16} aria-hidden="true"/>{readerText(lang,'back')}</a>
+    </div>
   </main>;
 }

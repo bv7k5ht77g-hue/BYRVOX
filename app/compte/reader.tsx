@@ -2,7 +2,9 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { readerAccountUrl, readerText, type ReaderMode } from '../../lib/reader-links';
-import type { PublicLocale } from '../../lib/i18n';
+import { localizedHref, type PublicLocale } from '../../lib/i18n';
+import { LanguageSelect } from '../../components/language-select';
+import { ThemeToggle } from '../../components/edition/theme-toggle';
 
 type ClerkSession = {getToken: () => Promise<string|null>};
 type Clerk = {
@@ -34,13 +36,13 @@ function loadScript(src:string, key?:string) {
 
 const localizations = {
   fr: () => import('@clerk/localizations/fr-FR').then(module => module.frFR),
-  en: async () => undefined,
+  en: async () => ({signIn:{start:{}}, signUp:{start:{}}}),
   es: () => import('@clerk/localizations/es-ES').then(module => module.esES),
   ar: () => import('@clerk/localizations/ar-SA').then(module => module.arSA),
   'zh-CN': () => import('@clerk/localizations/zh-CN').then(module => module.zhCN),
   ru: () => import('@clerk/localizations/ru-RU').then(module => module.ruRU),
   ko: () => import('@clerk/localizations/ko-KR').then(module => module.koKR),
-} satisfies Record<PublicLocale, () => Promise<unknown>>;
+} satisfies Record<PublicLocale, () => Promise<typeof import('@clerk/localizations/fr-FR').frFR>>;
 
 function loadClerk(key:string, issuer:string, lang:PublicLocale) {
   if (!loading) loading = (async () => {
@@ -53,15 +55,34 @@ function loadClerk(key:string, issuer:string, lang:PublicLocale) {
     if (!scope.Clerk || !scope.__internal_ClerkUICtor) throw new Error('Clerk unavailable');
     await scope.Clerk.load({
       ui:{ClerkUI:scope.__internal_ClerkUICtor},
-      localization,
+      localization: {
+        ...localization,
+        signIn: {...localization.signIn, start:{...localization.signIn?.start, title:readerText(lang,'connexion'), titleCombined:readerText(lang,'connexion'), subtitle:'', subtitleCombined:''}},
+        signUp: {...localization.signUp, start:{...localization.signUp?.start, title:readerText(lang,'inscription'), titleCombined:readerText(lang,'inscription'), subtitle:'', subtitleCombined:''}},
+      },
       appearance: {
-        variables: {colorPrimary:'#981832', fontFamily:'inherit'},
-        elements: {rootBox:'reader-clerk-root', cardBox:'reader-clerk-card', card:'reader-clerk-card'},
+        variables: {
+          colorBackground:'var(--bg)', colorInput:'var(--surface)', colorForeground:'var(--ink)',
+          colorInputForeground:'var(--ink)', colorMutedForeground:'var(--muted)', colorNeutral:'var(--ink)',
+          colorBorder:'var(--line)', colorPrimary:'#981832', colorPrimaryForeground:'#ffffff', fontFamily:'inherit',
+        },
+        elements: {
+          rootBox:'reader-clerk-root', cardBox:'reader-clerk-card', logoBox:{display:'none'},
+          headerTitle:{fontSize:'clamp(1.375rem, 3vw, 1.75rem)', letterSpacing:'-.025em'},
+          footerActionLink:{color:'var(--reader-form-link)'},
+        },
       },
     });
     return scope.Clerk;
   })().catch(error => {loading = null; throw error;});
   return loading;
+}
+
+export function AccountControls({lang, mode, returnTo}:{lang:PublicLocale; mode:ReaderMode; returnTo:string}) {
+  function changeLanguage(locale: PublicLocale) {
+    return readerAccountUrl(mode, localizedHref(returnTo,locale),locale) + window.location.hash;
+  }
+  return <><ThemeToggle locale={lang}/><LanguageSelect locale={lang} hrefForLocale={changeLanguage}/></>;
 }
 
 export function ClerkReader({publishableKey,issuer,mode,returnTo,lang}:{

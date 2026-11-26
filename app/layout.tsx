@@ -1,17 +1,29 @@
 import { headers } from "next/headers";
-import { preferredLocale } from "../lib/i18n";
+import { preferredLocale, type PublicLocale } from "../lib/i18n";
 import type { Metadata } from "next";
 import { publicSiteOrigin } from "../lib/site-url";
 import "./globals.css";
 
+const descriptions: Record<PublicLocale,string> = {
+  fr: "Actualités, radio, télévision et podcasts de BYRVOX.",
+  en: "News, radio, television and podcasts from BYRVOX.",
+  es: "Noticias, radio, televisión y pódcasts de BYRVOX.",
+  ar: "الأخبار والإذاعة والتلفزيون والبودكاست من BYRVOX.",
+  "zh-CN": "BYRVOX 的新闻、广播、电视与播客。",
+  ru: "Новости, радио, телевидение и подкасты BYRVOX.",
+  ko: "BYRVOX의 뉴스, 라디오, TV, 팟캐스트.",
+};
+
 export async function generateMetadata(): Promise<Metadata> {
+  const requestHeaders = await headers();
+  const locale = preferredLocale(requestHeaders.get("x-byrvox-language"), undefined);
   return {
-    metadataBase: new URL(publicSiteOrigin((await headers()).get("host"))),
+    metadataBase: new URL(publicSiteOrigin(requestHeaders.get("host"))),
     title: {
       default: "BYRVOX — Beyond the Headlines",
       template: "%s | BYRVOX",
     },
-    description: "Actualités, radio, télévision et podcasts de BYRVOX.",
+    description: descriptions[locale],
     alternates: { types: { "application/rss+xml": "/rss.xml" } },
     icons: { icon: "/favicon.svg" },
   };

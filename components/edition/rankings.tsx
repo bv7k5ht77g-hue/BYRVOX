@@ -10,7 +10,10 @@ const labels=[
  ['Champion du mois','Monthly leader','Líder mensual','متصدر الشهر','本月榜首','Лидер месяца','월간 1위'],
  ['Champion de l’année','Yearly leader','Líder anual','متصدر السنة','年度榜首','Лидер года','연간 1위']
 ];
-const awardLabels = {view:labels[0], engage:labels[2], week:labels[3], month:labels[4], year:labels[5]};
+const awardLabels = {read:labels[1], view:labels[0], engage:labels[2], week:labels[3], month:labels[4], year:labels[5]};
+export function leaderLabel(label: keyof typeof awardLabels, lang: PublicLocale) {
+  return awardLabels[label][publicLocales.indexOf(lang)];
+}
 export function Rankings({lang}:{lang:PublicLocale}){
  const rows=useAudience();const i=publicLocales.indexOf(lang);
  return <div className="by-ranking-grid">{['view','read','engage'].map((kind,k)=>{

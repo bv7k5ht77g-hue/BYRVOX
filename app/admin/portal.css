@@ -185,3 +185,10 @@ html[data-theme=dark] .admin-shell .reader-status-banned { color:#ff9fb5; }
 .ad-saved-script { margin-block:1rem; }
 .ad-saved-script summary { cursor:pointer; font-weight:650; }
 .ad-saved-script code { display:block; padding:.75rem; background:var(--surface); overflow-wrap:anywhere; direction:ltr; }
+
+.moderation-panel > label { display:grid; gap:.45rem; max-width:18rem; }
+.moderation-panel li { padding:1rem 0; border-bottom:1px solid var(--line); }
+.moderation-byline { display:flex; gap:.5rem 1rem; align-items:baseline; flex-wrap:wrap; }
+.moderation-byline time { color:var(--muted); font-size:.85rem; }
+.moderation-body { white-space:pre-wrap; overflow-wrap:anywhere; }
+.moderation-panel .button-row { flex-wrap:wrap; }

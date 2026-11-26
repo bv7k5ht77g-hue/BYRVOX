@@ -112,6 +112,11 @@ test('les adresses publiques suivent le domaine et le portail conserve ses sessi
     assert.ok((await read('/sitemap.xml')).includes('<loc>' + canonical + path + '</loc>'));
     assert.ok((await read('/robots.txt')).includes('Sitemap: ' + canonical + '/sitemap.xml'));
   }
+  const englishNews = await mf.dispatchFetch(today + '/?rubrique=actualites&lang=en');
+  assert.match(await englishNews.text(), /<meta name="description" content="News, radio, television and podcasts from BYRVOX\."/);
+  const missing = await mf.dispatchFetch(today + '/article/absent-du-catalogue?lang=es');
+  assert.equal(missing.status, 404);
+  assert.match(await missing.text(), /Artículo no encontrado/i);
   const newsroom = await mf.dispatchFetch(today + '/admin', {redirect:'manual'});
   assert.equal(newsroom.status, 307);
   assert.equal(newsroom.headers.get('location'), legacy + '/admin');
@@ -1478,4 +1483,89 @@ test('la rédaction publie ensemble la version française et les six traductions
   }
   await edit({...action,translations:{source,translations}},409);
   assert.equal(await count(),6);
+});
+
+test('les lecteurs évaluent une seule fois et la rédaction contrôle les commentaires visibles', async t => {
+  const {mf, db, json, editorHeaders} = await createNewsroom(t);
+  const slug = 'notre-methode';
+  const feedback = publicOrigin + '/api/article-feedback/' + slug;
+  const moderation = '/api/newsroom/comments';
+  const now = new Date().toISOString();
+  async function session(userId, firstName) {
+    const token = randomBytes(32).toString('hex');
+    const digest = createHash('sha256').update(token).digest('hex');
+    await db.prepare(`INSERT INTO reader_accounts(user_id,email,first_name,last_name,
+      created_at,last_seen_at,last_ip,last_location) VALUES (?,?,?,'',?,?,'','')`)
+      .bind(userId, userId + '@example.invalid', firstName, now, now).run();
+    await db.prepare('INSERT INTO reader_sessions(digest,user_id,expires_at) VALUES (?,?,?)')
+      .bind(digest,userId,Math.floor(Date.now()/1000)+3600).run();
+    return '__Host-byrvox-reader=' + token;
+  }
+  const first = await session('feedback-reader-a','Camille');
+  const second = await session('feedback-reader-b','Sam');
+  const staff = await editorHeaders(editor);
+  const read = async cookie => {
+    const response = await mf.dispatchFetch(feedback,{headers:cookie ? {cookie} : {}});
+    assert.equal(response.status,200);
+    assert.match(response.headers.get('cache-control') ?? '',/no-store/);
+    return response.json();
+  };
+  const submit = (cookie, data, from=publicOrigin) => mf.dispatchFetch(feedback,{
+    method:'POST', headers:{...(cookie ? {cookie} : {}),origin:from,'content-type':'application/json'},
+    body:JSON.stringify(data),
+  });
+  const decide = (id, expectedStatus, status) => mf.dispatchFetch(origin + moderation,{
+    method:'PATCH', headers:{...staff,origin,'content-type':'application/json'},
+    body:JSON.stringify({id,expectedStatus,status}),
+  });
+  const anonymous = await read();
+  assert.equal(anonymous.canParticipate,false);
+  assert.deepEqual(anonymous.comments,[]);
+  assert.deepEqual(anonymous.ratings,{average:null,count:0,mine:null});
+  assert.equal((await read(first)).canParticipate,true);
+  assert.equal((await submit(null,{kind:'rating',score:5})).status,401);
+  assert.equal((await submit(null,{kind:'comment',body:'Commentaire anonyme.'})).status,401);
+  assert.equal((await submit(first,{kind:'rating',score:4},'https://other.example.invalid')).status,403);
+  for (const score of [0,6,2.5]) assert.equal((await submit(first,{kind:'rating',score})).status,422);
+  for (const [cookie,score] of [[first,1],[first,5],[first,5],[second,3]]) {
+    assert.equal((await submit(cookie,{kind:'rating',score})).status,200);
+  }
+  assert.deepEqual((await read()).ratings,{average:4,count:2,mine:null});
+  assert.deepEqual((await read(first)).ratings,{average:4,count:2,mine:5});
+  assert.deepEqual((await read(second)).ratings,{average:4,count:2,mine:3});
+
+  const comment = {kind:'comment',body:'Comment la rédaction vérifie-t-elle les sources de cet article ?',
+    requestId:'a714aca0-c397-4d57-b10d-93991a84dc09'};
+  assert.equal((await submit(first,comment)).status,201);
+  const retry = await submit(first,comment);
+  assert.equal(retry.status,200);
+  assert.equal((await retry.json()).status,'pending');
+  assert.equal((await submit(first,{...comment,requestId:'b827c858-c20d-4722-95d7-6951bf3183eb'})).status,429);
+  assert.equal((await submit(first,{...comment,body:'Texte différent avec le même identifiant.'})).status,429);
+  assert.deepEqual((await read()).comments,[]);
+  assert.deepEqual((await read(first)).comments,[]);
+  const queue = await json(moderation + '?status=pending',{email:editor});
+  assert.equal(queue.comments.length,1);
+  const [{id}] = queue.comments;
+  assert.equal(queue.comments[0].body,comment.body);
+  assert.equal(queue.comments[0].slug,slug);
+  assert.equal((await mf.dispatchFetch(origin + moderation)).status,403);
+  assert.equal((await decide(id,'pending','approved')).status,200);
+  assert.equal((await decide(id,'pending','rejected')).status,409);
+  const visible = (await read()).comments;
+  assert.deepEqual(visible.map(entry => entry.body),[comment.body]);
+  assert.ok(!JSON.stringify(visible).includes('@example.invalid'));
+  assert.ok(!JSON.stringify(visible).includes('feedback-reader-a'));
+  assert.equal((await decide(id,'approved','rejected')).status,200);
+  assert.deepEqual((await read()).comments,[]);
+  assert.deepEqual((await json(moderation + '?status=rejected',{email:editor})).comments.map(entry=>entry.id),[id]);
+
+  const suspension = await mf.dispatchFetch(origin + '/api/newsroom/readers',{
+    method:'PATCH', headers:{...staff,origin,'content-type':'application/json'},
+    body:JSON.stringify({userId:'feedback-reader-a',expectedStatus:'active',status:'suspended'}),
+  });
+  assert.equal(suspension.status,200);
+  assert.equal((await submit(first,{kind:'rating',score:2})).status,403);
+  assert.equal((await submit(first,comment)).status,403);
+  assert.equal((await db.prepare("SELECT count(*) AS n FROM article_comments WHERE slug=?").bind(slug).first()).n,1);
 });

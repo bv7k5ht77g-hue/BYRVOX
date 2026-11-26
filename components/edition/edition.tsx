@@ -1,12 +1,13 @@
 'use client';
 
 import Image from 'next/image';
-import { Bookmark, BookmarkCheck, CircleUserRound, Menu, Moon, Rss, Search, Sun, X } from 'lucide-react';
+import { Bookmark, BookmarkCheck, CircleUserRound, Menu, Rss, Search, X } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { editionHref, type EditionRoute, type Section, type Summary } from '../../lib/edition';
 import type { CategoryHeadlines } from '../../lib/editorial-sections';
 import { AdSlot } from './ad-slot';
 import { HeaderTopics } from './header-topics';
+import { ThemeToggle } from './theme-toggle';
 import { WeatherNav } from '../weather-nav';
 import { LanguageSelect, usePublicLocale } from '../language-select';
 import { localizedHref, sectionLabel } from '../../lib/i18n';
@@ -49,12 +50,6 @@ function Header({ current, category, profile, open }: {
     if (menu.current) menu.current.open = false;
     open(name);
   }
-  function toggleTheme() {
-    const root = document.documentElement;
-    const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
-    root.dataset.theme = next;
-    try { localStorage.setItem('byrvox-theme', next); } catch { /* Applies for this page. */ }
-  }
   return <><header className="edition-site edition-header"><div className="topbar">
     <Brand />
     <nav className="desktop-nav" aria-label={navText(lang,'main')}><NavLinks current={current} category={category} /></nav>
@@ -62,10 +57,7 @@ function Header({ current, category, profile, open }: {
       <button className="tool-icon" aria-label={navText(lang,'search')} onClick={() => show('recherche')}>
         <Search size={20} aria-hidden="true" />
       </button>
-      <button className="tool-icon" onClick={toggleTheme}>
-        <span className="theme-sun"><Sun size={20} aria-hidden="true" /><span className="edition-sr-only">{navText(lang,'light')}</span></span>
-        <span className="theme-moon"><Moon size={20} aria-hidden="true" /><span className="edition-sr-only">{navText(lang,'dark')}</span></span>
-      </button>
+      <ThemeToggle locale={lang} />
       <button className="outline account" onClick={() => show(profile ? 'profil' : 'connexion')}><CircleUserRound size={16} aria-hidden="true" /> {navText(lang,profile ? 'account' : 'login')}</button>
       <details className="edition-menu" ref={menu} onKeyDown={event => {
         if (event.key === 'Escape' && menu.current?.open) {
@@ -120,6 +112,7 @@ function Footer({ open }: { open: (name: DialogName) => void }) {
 }
 
 type EditionProps = {
+  leaders: import('../../lib/news-leaders').NewsSlide[];
   route: EditionRoute;
   stories: Summary[];
   headlines: CategoryHeadlines[];
@@ -129,7 +122,7 @@ type EditionProps = {
   categories: string[];
 };
 
-export function Edition({ route, stories, headlines, presentations, unavailable, hasNext, categories }: EditionProps) {
+export function Edition({ leaders, route, stories, headlines, presentations, unavailable, hasNext, categories }: EditionProps) {
   const lang = usePublicLocale();
   const [dialog, setDialog] = useState<DialogName | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
@@ -196,7 +189,7 @@ export function Edition({ route, stories, headlines, presentations, unavailable,
     <main id="main" tabIndex={-1}>
       {route.section === 'accueil'
         ? <EditionFront stories={stories} headlines={headlines} presentations={presentations} savedCount={saved.length} saveButton={saveButton} unavailable={unavailable} />
-        : <SectionContent headlines={headlines} route={route} hasNext={hasNext} publishedCategories={categories} stories={route.section === 'favoris' ? savedStories : stories} presentations={presentations} unavailable={unavailable}
+        : <SectionContent leaders={leaders} headlines={headlines} route={route} hasNext={hasNext} publishedCategories={categories} stories={route.section === 'favoris' ? savedStories : stories} presentations={presentations} unavailable={unavailable}
             saved={saved} accountStatus={accountStatus} signedIn={Boolean(profile)} saveButton={saveButton} />}
     </main>
     <Footer open={setDialog} />

@@ -29,6 +29,7 @@ import { recommend } from '../../../lib/reader-recommendations';
 import { sourcesForReader } from '../presentation';
 import { readerLabels } from '../reader-labels';
 import { Recommendations } from '../recommendations';
+import { ArticleDiscussion } from '../discussion';
 import '../reader.css';
 
 export const dynamic = 'force-dynamic';
@@ -165,6 +166,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
             </a></li>)}</ul> : <p>{copy.noSources}</p>}
           </section>}
         </article>
+        <ArticleDiscussion key={slug} slug={slug} locale={locale}/>
         <a href={localizedHref('/',locale)} className="reader-back"><House size={16} aria-hidden="true"/> {copy.home}</a>
       </div>
     </main>

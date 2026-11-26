@@ -1,10 +1,44 @@
-.reader-account { max-width: 32rem; margin: clamp(2.5rem,10vh,8rem) auto; padding: 0 1.25rem; color: var(--ink, #24191b); }
-.reader-account .edition-brand { width: 10rem; }
-.reader-account section { margin: 2rem 0; padding: 2rem 0; border-block: 1px solid var(--line); }
-.reader-account h1 { margin: 0 0 1.25rem; font-size: clamp(2rem,5vw,3rem); line-height: 1.1; }
-.reader-account p { line-height: 1.6; }
-.reader-account .reader-clerk-root, .reader-account .reader-clerk-card { max-width: 100%; min-width: 0; }
-.reader-clerk:not(:empty) { margin-block-end: 1.25rem; }
-.reader-account p > a, .reader-account > a:last-child { text-decoration: underline; text-underline-offset: .2em; }
-.reader-account p + button { margin-block-start: .7rem; }
-.reader-account a:focus-visible,.reader-account button:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.reader-account {
+  --reader-form-link: #90132e;
+  max-width: 66rem;
+  min-height: 84svh;
+  margin-inline: auto;
+  padding: clamp(.8rem, 3vw, 2rem) clamp(1rem, 4vw, 3rem) 3rem;
+  color: var(--ink);
+}
+html[data-theme=dark] .reader-account { --reader-form-link: #ff9db0; }
+.reader-account-controls { display: flex; justify-content: flex-end; align-items: center; gap: .5rem; }
+.reader-account-controls .tool-icon {
+  display: grid; place-items: center; width: 2.75rem; height: 2.75rem;
+  border: 1px solid var(--line); border-radius: .65rem; background: var(--bg);
+}
+.reader-account-controls .tool-icon:hover, .reader-account-back:hover { background: var(--surface); }
+.reader-account-controls .tool-icon svg { display: block; }
+.reader-account-controls .byrvox-language { display: inline-flex; position: relative; align-items: center; }
+.reader-account-controls .byrvox-language > svg:first-child { display: none; }
+.reader-account-controls select {
+  appearance: none; height: 2.75rem; padding-inline: .8rem 2.2rem;
+  background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: .65rem; cursor: pointer;
+}
+.reader-account-controls .byrvox-language-chevron { position: absolute; inset-inline-end: .78rem; pointer-events: none; }
+.reader-account-content {
+  max-width: 26rem; margin: clamp(1.5rem, 6vh, 4rem) auto 0;
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+}
+.reader-account .edition-brand { width: clamp(8.5rem, 21vw, 10.5rem); margin-bottom: 2rem; }
+.reader-account-form { width: 100%; }
+.reader-clerk { text-align: start; }
+.reader-account .reader-clerk-root, .reader-account .reader-clerk-card { width: 100%; min-width: 0; max-width: 100%; }
+.reader-account-form > [role=status] { margin-block: .8rem; }
+.reader-account-legacy { margin-top: 1rem; font-size: .83rem; text-decoration: underline; text-underline-offset: .18em; color: var(--muted); }
+.reader-account-back {
+  display: inline-flex; align-items: center; justify-content: center; gap: .55rem;
+  min-height: 2.75rem; margin-top: 1.4rem; padding: .55rem 1.2rem; border: 1px solid var(--line);
+  border-radius: .6rem; font-weight: 650;
+}
+.reader-account[dir=rtl] .reader-account-back svg { transform: rotate(180deg); }
+.reader-account :is(a, button, select):focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+@media (forced-colors:active) {
+  .reader-account-controls select { appearance: auto; padding-inline: .5rem; }
+  .reader-account-controls .byrvox-language-chevron { display: none; }
+}

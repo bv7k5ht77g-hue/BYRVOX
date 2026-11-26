@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { useState, type ReactNode } from 'react';
 import { articleHref, editionHref, fold, type EditionRoute, type Summary } from '../../lib/edition';
 import {Rankings} from './rankings';
+import { NewsLeaders } from './news-leaders';
+import type { NewsSlide } from '../../lib/news-leaders';
 import {CategoryLink, Mark} from './category-mark';
 import { categoryLabel, localizedHref, sectionLabel, type PublicLocale } from '../../lib/i18n';
 import { usePublicLocale } from '../language-select';
@@ -23,6 +25,9 @@ const hubPages = {
   actualites: { image: 'news', description: 'newsChannel' },
   presentations: { image: 'editorial' },
   direct: { image: 'live' },
+  podcasts: { image: 'listening', description: 'podcastsInfo' },
+  emissions: { image: 'formats', description: 'showsInfo' },
+  dossiers: { image: 'editorial', description: 'dossiersInfo' },
   radio: { image: 'radio', description: 'radioInfo' },
   tv: { image: 'tv', description: 'tvInfo' }
 } as const;
@@ -58,12 +63,6 @@ const liveChannels = [
   { section: 'radio', icon: Radio },
   { section: 'tv', icon: Tv }
 ] as const;
-
-const formats = {
-  podcasts: { description: 'podcastsInfo', image: 'radio' },
-  emissions: { description: 'showsInfo', image: 'tv' },
-  dossiers: { description: 'dossiersInfo', image: 'news' }
-} as const;
 
 function LiveChannels({ lang }: { lang: PublicLocale }) {
   return <nav className="by-hub-channels" id="chaines" aria-label={sectionText(lang, 'coverage')}>
@@ -196,15 +195,16 @@ function SearchForm({ route, lang }: { route: EditionRoute; lang: PublicLocale }
 }
 
 type SectionProps = FrontProps & {
+  leaders: NewsSlide[];
   presentations:Summary[];
   hasNext: boolean; publishedCategories: string[]; route: EditionRoute; saved: string[];
   signedIn: boolean; accountStatus: string; saveButton: (story: Summary) => ReactNode;
 };
-export function SectionContent({ route, stories, headlines, presentations, unavailable, saved, signedIn, accountStatus, saveButton, hasNext, publishedCategories }: SectionProps) {
+export function SectionContent({ leaders, route, stories, headlines, presentations, unavailable, saved, signedIn, accountStatus, saveButton, hasNext, publishedCategories }: SectionProps) {
   const lang = usePublicLocale();
   const href = (path: string)=>localizedHref(path,lang);
   const { section, query, category, page } = route;
-  const format = Object.hasOwn(formats, section) ? formats[section as keyof typeof formats] : undefined;
+  const format = section === 'podcasts' || section === 'emissions' || section === 'dossiers';
   const serverFiltered = section === 'actualites' || section === 'recherche';
   const articles = section === 'presentations' ? presentations : stories;
   const pool = section === 'favoris' ? articles.filter(story => saved.includes(story.slug)) : articles;
@@ -220,7 +220,7 @@ export function SectionContent({ route, stories, headlines, presentations, unava
   const archive = list.slice(featured.length);
   function card(story: Summary) { return <StoryCard key={story.slug} story={story} save={saveButton(story)} lang={lang} showSummary/>; }
   return <div className="wrap section-page by-index">
-    {hubPage ? <HubHeader section={section as HubPage} lang={lang}/> : <section className="page-title">
+    {topicIndex && leaders.length > 0 ? <NewsLeaders slides={leaders} lang={lang}/> : hubPage ? <HubHeader section={section as HubPage} lang={lang}/> : <section className="page-title">
       <a className="by-section-link" href={href('/')}>{sectionLabel('accueil',lang)}</a>
       <h1>{topicPage ? categoryLabel(category,lang) : sectionLabel(section,lang)}</h1>
       {(section==='favoris'||section==='recherche') && <p>{sectionText(lang,section==='favoris'?'favoritesIntro':'searchIntro')}</p>}
@@ -232,9 +232,16 @@ export function SectionContent({ route, stories, headlines, presentations, unava
     </>}
     {section === 'radio' && <><RadioYO lang={lang}/><AdSlot placement="radio"/></>}
     {section === 'direct' && <LiveChannels lang={lang}/>}
-    {format && <section className="availability format-card">
-        <Image unoptimized src={'/media/' + format.image + '.webp'} width="900" height="400" alt="" />
-        <div><h2>{sectionText(lang,'upcoming')}</h2><p>{sectionText(lang,format.description)}</p></div>
+    {format && <section className="content-section">
+      {section === 'dossiers' ? <>
+        <div className="by-section-title"><h2>{sectionText(lang,'dossierSelection')}</h2></div>
+        {unavailable && <p role="status">{sectionText(lang,'unavailable')}</p>}
+        <div className="by-story-grid">{stories.map(story => <StoryCard key={story.slug} story={story} save={saveButton(story)} lang={lang} showSummary />)}</div>
+      </> : <>
+        <div className="by-section-title"><h2>{sectionText(lang,section === 'podcasts' ? 'radioChannel' : 'tvChannel')}</h2>
+          <a className="by-section-link" href={href(editionHref(section === 'podcasts' ? 'radio' : 'tv'))}>{sectionLabel(section === 'podcasts' ? 'radio' : 'tv',lang)} <ArrowRight size={16} aria-hidden="true"/></a></div>
+        <div className="by-story-grid">{presentations.map(story => <StoryCard key={story.slug} story={story} lang={lang} showSummary />)}</div>
+      </>}
     </section>}
     {!format && section !== 'radio' && section !== 'tv' && section !== 'direct' && <section className="content-section">
       {section === 'favoris' && !signedIn ? <div className="empty">

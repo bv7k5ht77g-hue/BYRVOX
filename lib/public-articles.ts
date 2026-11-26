@@ -49,6 +49,19 @@ export async function listHomepageStories() {
   return (await publishedQuery(undefined, pinned).limit(9)).map(summary);
 }
 
+// These two reported features predate a dedicated dossier category.
+const dossierFeatures = [
+  'starshield-la-face-cachee-de-starlink-65da7a18',
+  'musk-deux-actions-spacex-enfants-comptes-actifs',
+];
+
+export async function listDossierArticles() {
+  const categories = ['Dossier', 'Dossiers', 'Analyse', 'Analyses', 'Enquête', 'Enquêtes'];
+  const inDossier = or(inArray(articles.slug, dossierFeatures),
+    ...categories.map(category => sql`${articles.category} = ${category} COLLATE NOCASE`));
+  return (await publishedQuery(inDossier).limit(24)).map(summary);
+}
+
 export async function listPublishedArticles(limit?: number) {
   const query = publishedQuery();
   const rows = await (limit === undefined ? query : query.limit(limit));

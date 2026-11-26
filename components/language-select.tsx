@@ -14,13 +14,13 @@ export function PublicLocaleProvider({locale, children}:{locale:PublicLocale;chi
   },[locale]);
   return <ReadingLocale.Provider value={locale}><div lang={locale} dir={locale === 'ar' ? 'rtl':'ltr'} style={{display:'contents'}}>{children}</div></ReadingLocale.Provider>;
 }
-export function LanguageSelect({locale: explicit}:{locale?:PublicLocale} = {}) {
+export function LanguageSelect({locale: explicit, hrefForLocale}:{locale?:PublicLocale; hrefForLocale?:(locale: PublicLocale) => string} = {}) {
   const inherited = usePublicLocale();
   const locale = explicit || inherited;
   function change(value:string) {
     if (!isPublicLocale(value)) return;
     document.cookie = 'byrvox-language='+value+'; Path=/; Max-Age=31536000; SameSite=Lax'+(location.protocol==='https:'?'; Secure':'');
-    location.assign(localizedHref(location.pathname+location.search+location.hash,value));
+    location.assign(hrefForLocale ? hrefForLocale(value) : localizedHref(location.pathname+location.search+location.hash,value));
   }
   return <label className="byrvox-language" dir={locale === 'ar' ? 'rtl' : 'ltr'} title={nativeNames[locale]}>
     <Languages size={17} aria-hidden="true" />

@@ -77,6 +77,6 @@ export function ReaderDialog({ name, close, open, profile, currentUrl, query, pe
     </> : name === 'marques' ? <>
       <h2 id="reader-dialog-title">{label("Les marques du groupe")}</h2><p>{label("BYRVOX News, BYRVOX Radio et BYRVOX TV forment les trois pôles du média BYRVOX.")}</p>
       <p>{label("RadioYO et TVYO sont deux marques distinctes du groupe. Chacune prépare sa propre programmation.")}</p>
-    </> : <><h2 id="reader-dialog-title">{label(name)}</h2><p>{label(policies[name])}</p><small>{label("Édition de lancement · documents à finaliser par l’éditeur.")}</small></>}
+    </> : <><h2 id="reader-dialog-title">{label(name)}</h2><p>{label(policies[name])}</p>{name === 'Confidentialité' && <p>{label("La rédaction examine les commentaires avant leur publication. Chaque compte lecteur peut attribuer une note par article et la modifier. La moyenne des notes est publique.")}</p>}<small>{label("Édition de lancement · documents à finaliser par l’éditeur.")}</small></>}
   </dialog>;
 }

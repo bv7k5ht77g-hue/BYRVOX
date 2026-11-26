@@ -35,7 +35,8 @@
     "Commencer la journée": "Start your day",
     "Prendre du recul": "A broader view",
     "La semaine en perspective": "The week in perspective",
-    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "A newsroom editor approves articles prepared in the portal. For the hourly feed, the BYRVOX agent cross-checks at least two independent sources, verifies the photo and its reuse rights, and checks for duplicates before publishing automatically under its own byline. The newsroom can correct any published article."
+    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "A newsroom editor approves articles prepared in the portal. For the hourly feed, the BYRVOX agent cross-checks at least two independent sources, verifies the photo and its reuse rights, and checks for duplicates before publishing automatically under its own byline. The newsroom can correct any published article.",
+    "La rédaction examine les commentaires avant leur publication. Chaque compte lecteur peut attribuer une note par article et la modifier. La moyenne des notes est publique.": "Editors review comments before publication. Each reader account can rate an article once and change its rating. The average rating is public."
   },
   "es": {
     "Rechercher sur BYRVOX": "Búsqueda BYRVOX",
@@ -73,7 +74,8 @@
     "Commencer la journée": "¡Emanda tu día",
     "Prendre du recul": "Una visión más amplia",
     "La semaine en perspective": "La semana en perspectiva",
-    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "Una persona de la redacción aprueba los artículos preparados en el portal. Para el servicio horario, el agente de BYRVOX contrasta al menos dos fuentes independientes, verifica la foto y sus derechos de reutilización y busca posibles duplicados antes de publicar automáticamente con su propia firma. La redacción puede corregir cualquier artículo publicado."
+    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "Una persona de la redacción aprueba los artículos preparados en el portal. Para el servicio horario, el agente de BYRVOX contrasta al menos dos fuentes independientes, verifica la foto y sus derechos de reutilización y busca posibles duplicados antes de publicar automáticamente con su propia firma. La redacción puede corregir cualquier artículo publicado.",
+    "La rédaction examine les commentaires avant leur publication. Chaque compte lecteur peut attribuer une note par article et la modifier. La moyenne des notes est publique.": "La redacción revisa los comentarios antes de publicarlos. Cada cuenta de lector puede asignar una calificación por artículo y modificarla. La calificación media es pública."
   },
   "ar": {
     "Rechercher sur BYRVOX": "البحث BYRVOX",
@@ -111,7 +113,8 @@
     "Commencer la journée": "ابدأ يومك",
     "Prendre du recul": "نظرة أوسع",
     "La semaine en perspective": "الأسبوع في المنظور",
-    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "يعتمد أحد أفراد فريق التحرير المقالات المعدّة في البوابة. أما في النشرة التي تصدر كل ساعة، فيقارن وكيل BYRVOX الآلي بين مصدرين مستقلين على الأقل، ويتحقق من الصورة وحقوق إعادة استخدامها، ويبحث عن أي تكرار قبل أن ينشر تلقائيًا بتوقيعه. ويمكن لفريق التحرير تصحيح أي مقال منشور."
+    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "يعتمد أحد أفراد فريق التحرير المقالات المعدّة في البوابة. أما في النشرة التي تصدر كل ساعة، فيقارن وكيل BYRVOX الآلي بين مصدرين مستقلين على الأقل، ويتحقق من الصورة وحقوق إعادة استخدامها، ويبحث عن أي تكرار قبل أن ينشر تلقائيًا بتوقيعه. ويمكن لفريق التحرير تصحيح أي مقال منشور.",
+    "La rédaction examine les commentaires avant leur publication. Chaque compte lecteur peut attribuer une note par article et la modifier. La moyenne des notes est publique.": "تراجع هيئة التحرير التعليقات قبل نشرها. ويمكن لكلّ حساب قارئ تقييم كلّ مقال مرة واحدة وتعديل تقييمه. ويظهر متوسّط التقييمات للعموم."
   },
   "zh-CN": {
     "Rechercher sur BYRVOX": "搜索 BYRVOX",
@@ -149,7 +152,8 @@
     "Commencer la journée": "开启你的一天",
     "Prendre du recul": "更广泛的视角",
     "La semaine en perspective": "本周的视角",
-    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "在编辑后台撰写的文章由编辑部成员审核。对于每小时新闻，BYRVOX 智能体至少对照两个独立来源，核实照片及其转载权限，并检查是否重复，再以自己的名义自动发布。编辑部可以更正任何已发布的文章。"
+    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "在编辑后台撰写的文章由编辑部成员审核。对于每小时新闻，BYRVOX 智能体至少对照两个独立来源，核实照片及其转载权限，并检查是否重复，再以自己的名义自动发布。编辑部可以更正任何已发布的文章。",
+    "La rédaction examine les commentaires avant leur publication. Chaque compte lecteur peut attribuer une note par article et la modifier. La moyenne des notes est publique.": "评论经编辑审核后发布。每个读者账号可对每篇文章评分一次，也可以修改评分。平均分公开显示。"
   },
   "ru": {
     "Rechercher sur BYRVOX": "Поиск BYRVOX",
@@ -187,7 +191,8 @@
     "Commencer la journée": "Начните свой день",
     "Prendre du recul": "Более широкий взгляд",
     "La semaine en perspective": "Неделя в перспективе",
-    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "Материалы, подготовленные на портале, утверждает сотрудник редакции. Для ежечасной ленты агент BYRVOX сверяет сведения не менее чем по двум независимым источникам, проверяет фотографию и права на её использование, ищет возможные повторы и затем автоматически публикует материал за своей подписью. Редакция может исправить любую опубликованную статью."
+    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "Материалы, подготовленные на портале, утверждает сотрудник редакции. Для ежечасной ленты агент BYRVOX сверяет сведения не менее чем по двум независимым источникам, проверяет фотографию и права на её использование, ищет возможные повторы и затем автоматически публикует материал за своей подписью. Редакция может исправить любую опубликованную статью.",
+    "La rédaction examine les commentaires avant leur publication. Chaque compte lecteur peut attribuer une note par article et la modifier. La moyenne des notes est publique.": "Редакция проверяет комментарии перед публикацией. С каждого читательского аккаунта можно поставить статье одну оценку и впоследствии изменить её. Средняя оценка видна всем."
   },
   "ko": {
     "Rechercher sur BYRVOX": "BYRVOX 검색",
@@ -225,6 +230,7 @@
     "Commencer la journée": "하루 시작",
     "Prendre du recul": "더 넓은 뷰",
     "La semaine en perspective": "관점의 주",
-    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "포털에서 작성한 기사는 편집국 직원이 승인합니다. 시간별 뉴스는 BYRVOX 에이전트가 독립적인 출처 두 곳 이상을 대조하고 사진과 재사용 권리를 확인한 뒤 중복 여부를 살펴 자신의 이름으로 자동 발행합니다. 편집국은 발행된 모든 기사를 정정할 수 있습니다."
+    "Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.": "포털에서 작성한 기사는 편집국 직원이 승인합니다. 시간별 뉴스는 BYRVOX 에이전트가 독립적인 출처 두 곳 이상을 대조하고 사진과 재사용 권리를 확인한 뒤 중복 여부를 살펴 자신의 이름으로 자동 발행합니다. 편집국은 발행된 모든 기사를 정정할 수 있습니다.",
+    "La rédaction examine les commentaires avant leur publication. Chaque compte lecteur peut attribuer une note par article et la modifier. La moyenne des notes est publique.": "댓글은 편집부의 검토를 거쳐 공개됩니다. 독자는 계정당 기사 한 편에 한 번씩 평점을 매길 수 있으며 나중에 수정할 수 있습니다. 평균 평점은 모두에게 공개됩니다."
   }
 }

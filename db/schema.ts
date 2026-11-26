@@ -123,3 +123,26 @@ export const adSenseSettings = sqliteTable('adsense_settings', {
 export const audienceDaily = sqliteTable('audience_daily', {
   day:text('day').notNull(), slug:text('slug').notNull(), kind:text('kind').notNull(), total:integer('total').notNull(),
 }, t=>[primaryKey({columns:[t.day,t.slug,t.kind]})]);
+
+export const articleComments = sqliteTable('article_comments', {
+  id: text('id').primaryKey(),
+  slug: text('slug').notNull(),
+  userId: text('user_id').notNull().references(() => readerAccounts.userId, {onDelete:'cascade'}),
+  authorName: text('author_name').notNull(),
+  body: text('body').notNull(),
+  status: text('status', {enum:['pending','approved','rejected']}).notNull().default('pending'),
+  createdAt: text('created_at').notNull(),
+  moderatedBy: text('moderated_by'),
+  moderatedAt: text('moderated_at'),
+}, table => [
+  index('article_comments_public_idx').on(table.slug,table.status,table.createdAt,table.id),
+  index('article_comments_queue_idx').on(table.status,table.createdAt,table.id),
+  index('article_comments_user_idx').on(table.userId,table.createdAt),
+]);
+
+export const articleRatings = sqliteTable('article_ratings', {
+  slug: text('slug').notNull(),
+  userId: text('user_id').notNull().references(() => readerAccounts.userId, {onDelete:'cascade'}),
+  score: integer('score').notNull(),
+  updatedAt: text('updated_at').notNull(),
+}, table => [primaryKey({columns:[table.slug,table.userId]})]);

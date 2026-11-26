@@ -9,6 +9,7 @@ import { ArticleAdReviewForm, PublicationReview } from './article-ad-review';
 import type { ArticleAdReview } from '../../lib/article-ad-policy';
 import { GalleryField, PhotoField } from './photo-field';
 import { LeadSelector } from './lead-selector';
+import { CommentsPanel } from './comments';
 import { ReadersPanel } from './readers';
 import { roleNames, TeamPanel } from './team';
 import type { NewsroomRole } from '../../lib/access';
@@ -216,7 +217,7 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
     }} />
     <main className="admin-main" id="portal-main" tabIndex={-1}>
       <div className="admin-top"><div><p className="eyebrow">BYRVOX · {roleNames[data.role]}</p><h1>{tab}</h1></div>
-        {tab !== 'Espaces publicitaires' && <button className="red" disabled={busy || !loaded} onClick={() => open()}><Plus size={16} aria-hidden="true" /> Nouvel article</button>}
+        {tab !== 'Espaces publicitaires' && tab !== 'Commentaires' && <button className="red" disabled={busy || !loaded} onClick={() => open()}><Plus size={16} aria-hidden="true" /> Nouvel article</button>}
       </div>
       {message && <div role="status" className="admin-note">{message}</div>}
 
@@ -250,6 +251,7 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
       </>}
 
       {tab === 'Espaces publicitaires' && canApprove && <AdsPanel onDirty={setAdDirty} onSaving={setAdSaving}/>}
+      {tab === 'Commentaires' && canApprove && <CommentsPanel/>}
       {tab === 'Lecteurs' && canApprove && <ReadersPanel/>}
       {tab === 'Équipe' && owner && <TeamPanel/>}
       {tab === 'À approuver' && canApprove && <section className="panel"><h2>Articles en attente d’approbation</h2>
