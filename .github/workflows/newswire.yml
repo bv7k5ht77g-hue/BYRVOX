@@ -2,7 +2,10 @@ name: Publish BYRVOX hourly edition
 on:
   push:
     branches: [main]
-    paths: ['newswire/*/edition.json']
+    paths:
+      - 'newswire/*/edition.json'
+      - 'scripts/publish-hourly.py'
+      - '.github/workflows/newswire.yml'
   workflow_dispatch:
     inputs:
       hour:
@@ -26,11 +29,21 @@ jobs:
         run: |
           set -euo pipefail
           if [[ -n "$MANUAL_HOUR" ]]; then
-            python3 scripts/publish-hourly.py "$MANUAL_HOUR"
+            python3 scripts/publish-hourly.py --redeliver "$MANUAL_HOUR"
           else
             if ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
               git fetch --depth=1 origin "$BEFORE"
             fi
             mapfile -t hours < <(git diff --diff-filter=AM --name-only "$BEFORE" HEAD -- 'newswire/*/edition.json' | cut -d/ -f2)
-            if (( ${#hours[@]} )); then python3 scripts/publish-hourly.py "${hours[@]}"; fi
+            if (( ${#hours[@]} )); then
+              python3 scripts/publish-hourly.py "${hours[@]}"
+            else
+              # A publisher change exercises the revised workflow against one real, recent edition.
+              earliest=$(date -u -d '72 hours ago' +%Y-%m-%dT%H)
+              current=$(date -u +%Y-%m-%dT%H)
+              recent=$(git ls-files 'newswire/*/edition.json' | cut -d/ -f2 |
+                awk -v earliest="$earliest" -v current="$current" '$0 > earliest && $0 <= current' |
+                sort | tail -n 1)
+              if [[ -n "$recent" ]]; then python3 scripts/publish-hourly.py --redeliver "$recent"; fi
+            fi
           fi
