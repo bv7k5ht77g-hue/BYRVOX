@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { AdsPanel } from './ads';
 import { AdminNavigation } from './navigation';
 import { ArticlePreview } from './article-preview';
 import { GalleryField, PhotoField } from './photo-field';
@@ -64,7 +65,9 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
   const [preview, setPreview] = useState(false);
   const [keyword, setKeyword] = useState('');
   const [filter, setFilter] = useState('all');
-  const busy = acting || uploading;
+  const [adDirty, setAdDirty] = useState(false);
+  const [adSaving, setAdSaving] = useState(false);
+  const busy = acting || uploading || adSaving;
   const [notes, setNotes] = useState('');
 
   useEffect(() => {
@@ -103,11 +106,11 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
   }, [initialRole]);
 
   useEffect(() => {
-    if (!dirty) return;
+    if (!dirty && !adDirty) return;
     const warn = (event: BeforeUnloadEvent) => { event.preventDefault(); event.returnValue = ''; };
     window.addEventListener('beforeunload', warn);
     return () => window.removeEventListener('beforeunload', warn);
-  }, [dirty]);
+  }, [dirty, adDirty]);
 
   function open(article?: Article) {
     if (dirty && edit.id && article?.id === edit.id) { setTab('Éditeur'); return; }
@@ -184,10 +187,13 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
 
   return <div className="admin-shell">
     <a className="skip" href="#portal-main">Aller au contenu de la rédaction</a>
-    <AdminNavigation tab={tab} busy={busy} role={data.role} onNavigate={name => { setTab(name); setPreview(false); }} />
+    <AdminNavigation tab={tab} busy={busy} role={data.role} onNavigate={name => {
+      if (tab === 'Espaces publicitaires' && name !== tab && adDirty && !window.confirm('Abandonner les modifications de cet emplacement ?')) return;
+      setTab(name); setPreview(false);
+    }} />
     <main className="admin-main" id="portal-main" tabIndex={-1}>
       <div className="admin-top"><div><p className="eyebrow">BYRVOX · {roleNames[data.role]}</p><h1>{tab}</h1></div>
-        <button className="red" disabled={busy || !loaded} onClick={() => open()}><Plus size={16} aria-hidden="true" /> Nouvel article</button>
+        {tab !== 'Espaces publicitaires' && <button className="red" disabled={busy || !loaded} onClick={() => open()}><Plus size={16} aria-hidden="true" /> Nouvel article</button>}
       </div>
       {message && <div role="status" className="admin-note">{message}</div>}
 
@@ -220,6 +226,7 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
         ]}/></section>}</div>
       </>}
 
+      {tab === 'Espaces publicitaires' && canApprove && <AdsPanel onDirty={setAdDirty} onSaving={setAdSaving}/>}
       {tab === 'Lecteurs' && canApprove && <ReadersPanel/>}
       {tab === 'Équipe' && owner && <TeamPanel/>}
       {tab === 'À approuver' && canApprove && <section className="panel"><h2>Articles en attente d’approbation</h2>

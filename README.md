@@ -1,6 +1,6 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.8.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.today)
+Version 0.9.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.today)
 
 Média numérique publié en français, anglais, espagnol, arabe, chinois simplifié, russe et coréen. Le site utilise Next/React sur Vinext, Cloudflare Workers, D1 et R2.
 
@@ -25,6 +25,10 @@ La connexion et l’inscription des lecteurs passent par la [page de compte BYRV
 Le lien de récupération des anciens favoris permet aux lecteurs qui avaient déjà sauvegardé leurs préférences avec ChatGPT de retrouver ces données avec leur compte d’origine.
 
 Dans **Portail éditeur → Lecteurs**, les propriétaires et approbateurs peuvent retrouver un compte par nom ou courriel, consulter sa fiche, le suspendre, le bannir ou rétablir son accès. La fiche affiche les coordonnées fournies par le compte et, lorsqu’elles sont disponibles, la dernière adresse IP et la localisation approximative communiquées par l’hébergeur. L’historique conserve les 100 événements les plus récents par lecteur, y compris les changements de statut. Les mesures de modération s’appliquent au compte, et la presse publique reste accessible en lecture anonyme.
+
+## Espaces publicitaires
+
+Dans **Portail éditeur → Espaces publicitaires**, les propriétaires et les approbateurs gèrent les huit emplacements du site. Chaque emplacement peut signaler sa disponibilité, diffuser une campagne ou être masqué. Pour une campagne, renseigner le nom de l’annonceur et son lien HTTPS. Une bannière facultative peut être téléversée (JPEG, PNG ou WebP, 8 Mio maximum) ou fournie par URL. Une bannière nécessite un texte alternatif. Les changements enregistrés s’appliquent aux pages publiques lors de leur prochain chargement.
 
 ## Édition horaire
 

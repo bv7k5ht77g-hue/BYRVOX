@@ -1,3 +1,4 @@
+import { AD_MODES, PLACEMENTS } from "../lib/ad-placements";
 import type { ArticlePhoto } from '../lib/article-photo';
 import { index, integer, primaryKey, sqliteTable, text } from 'drizzle-orm/sqlite-core';
 
@@ -97,3 +98,13 @@ export const readerSessions = sqliteTable('reader_sessions', {
   index('reader_sessions_expiry_idx').on(table.expiresAt),
   index('reader_sessions_user_idx').on(table.userId),
 ]);
+
+export const adPlacements = sqliteTable('ad_placements', {
+  placement: text('placement', {enum: PLACEMENTS}).primaryKey(),
+  mode: text('mode', {enum: AD_MODES}).notNull(),
+  name: text('name').notNull(),
+  url: text('url').notNull(),
+  image: text('image').notNull(),
+  alt: text('alt').notNull(),
+  version: integer('version').notNull(),
+});

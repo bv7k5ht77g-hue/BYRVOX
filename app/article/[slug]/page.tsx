@@ -6,7 +6,7 @@ import { Clock3, House, Link2 } from 'lucide-react';
 import { ArticleNavigation } from '../../../components/edition/edition';
 import { CoverFigure } from '../../../components/edition/cover-figure';
 import { AdSlot } from '../../../components/edition/ad-slot';
-import { PublicLocaleProvider } from '../../../components/language-select';
+import { PublicEditionProvider } from '../../../components/edition/public-edition-provider';
 import type { ArticlePhoto } from '../../../lib/article-photo';
 import { resolveCover, type CoverPhoto } from '../../../lib/cover-photo';
 import { headers } from 'next/headers';
@@ -102,7 +102,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
     publisher:{'@type':'Organization',name:'BYRVOX'}, datePublished:published || undefined, dateModified:updated || undefined,
     citation:sources.length ? sources.map(s=>s.url) : undefined,
   };
-  return <PublicLocaleProvider locale={locale}>
+  return <PublicEditionProvider locale={locale}>
     <a className="skip" href="#lecture">{copy.skip}</a>
     <ArticleNavigation currentUrl={localizedHref('/article/'+encodeURIComponent(slug),locale)}>
     <main id="lecture" tabIndex={-1}>
@@ -155,5 +155,5 @@ export default async function Article({params,searchParams}:ArticleProps) {
     </main>
     </ArticleNavigation>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(linkedData).replace(/</g,'\\u003c')}}/>
-  </PublicLocaleProvider>;
+  </PublicEditionProvider>;
 }

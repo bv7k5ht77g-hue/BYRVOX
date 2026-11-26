@@ -50,6 +50,13 @@
       "when": 1795665045642,
       "tag": "0006_reader_accounts",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1795672155411,
+      "tag": "0007_ad_placements",
+      "breakpoints": true
     }
   ]
 }

@@ -2,7 +2,14 @@
 .by-ad-disclosure { display:block; color:var(--muted); margin-block-end:5px; font-size:.64rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
 .by-ad-open,.by-ad-campaign { display:flex; align-items:center; justify-content:center; gap:12px; min-height:clamp(46px,5.5vw,76px); background:var(--surface); border-block:1px solid var(--line); color:var(--muted); font-size:.8rem; }
 .by-ad-open { background-image:repeating-linear-gradient(135deg,transparent 0 12px,color-mix(in srgb,var(--ink) 2%,transparent) 12px 13px); }
-.by-ad-campaign img {max-height:100px;max-width:75%;object-fit:contain;}
+.by-ad-campaign { padding:10px 14px; color:var(--ink); overflow-wrap:anywhere; }
+.by-ad-campaign img { min-width:0; width:auto; height:auto; max-height:100px; max-width:75%; object-fit:contain; }
+.by-ad-campaign:focus-visible { outline:2px solid currentColor; outline-offset:3px; }
+.by-masthead-placement:empty { display:none; }
+@media (max-width:600px) {
+  .by-ad-campaign { flex-direction:column; gap:5px; }
+  .by-ad-campaign img { max-width:100%; }
+}
 
 .by-masthead-placement { padding-block:clamp(10px,1.3vw,20px) clamp(18px,2vw,32px); }
 .by-masthead-placement .by-ad { margin:0; }

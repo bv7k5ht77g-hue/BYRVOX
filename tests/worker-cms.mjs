@@ -124,11 +124,11 @@ test('seul le domaine éditeur accepte les sessions et les opérations de rédac
     const page = await mf.dispatchFetch(host + '/admin', {redirect:'manual', headers});
     assert.equal(page.status, 307, host);
     assert.equal(page.headers.get('location'), origin + '/admin');
-    for (const path of ['/api/newsroom', '/api/newsroom/lead', '/api/newsroom/team', '/api/newsroom/readers']) {
+    for (const path of ['/api/newsroom', '/api/newsroom/lead', '/api/newsroom/team', '/api/newsroom/readers', '/api/newsroom/ads']) {
       assert.equal((await mf.dispatchFetch(host + path, {headers})).status, 403, host + path);
     }
     for (const [method, path] of [
-      ['POST','/api/newsroom'], ['PUT','/api/newsroom/lead'], ['PATCH','/api/newsroom/readers'],
+      ['POST','/api/newsroom'], ['PUT','/api/newsroom/lead'], ['PATCH','/api/newsroom/readers'], ['PUT','/api/newsroom/ads'],
       ['POST','/api/editor-session/logout'],
     ]) {
       const response = await mf.dispatchFetch(host + path, {method,headers,body:'{}',redirect:'manual'});
@@ -588,6 +588,80 @@ test('une connexion éditeur revient sur le domaine Noventra et expire après sa
   assert.match(await (await send(custom+'/admin',{headers:{cookie}})).text(), /Tableau de bord/);
   assert.equal((await send(custom+'/api/editor-session/logout',{method:'POST',headers:{origin:custom, cookie}})).status,303);
   assert.equal((await send(custom+'/api/newsroom',{headers:{cookie}})).status,403);
+});
+
+test('les responsables configurent les espaces publicitaires sans écraser une campagne concurrente', async t => {
+  const { mf, json, request, editorHeaders } = await createNewsroom(t);
+  const endpoint = '/api/newsroom/ads';
+  const approver = 'responsable-pub@example.invalid';
+  const contributor = 'correspondant@example.invalid';
+  for (const [email, role] of [[approver, 'approver'], [contributor, 'contributor']]) {
+    await json('/api/newsroom/team', {email: editor, data: {email, role}});
+  }
+  const update = async (email, placement, from = origin) => mf.dispatchFetch(origin + endpoint, {
+    method: 'PUT',
+    headers: {...await editorHeaders(email), origin: from, 'content-type': 'application/json'},
+    body: JSON.stringify(placement),
+  });
+
+  const { placements } = await json(endpoint, {email: editor});
+  assert.deepEqual(placements.map(p => p.placement).sort(), [
+    'article', 'article-photo', 'home', 'home-lower', 'masthead', 'news', 'news-lower', 'radio',
+  ]);
+  assert.ok(placements.every(p => p.mode === 'available' && p.version === 0));
+  const initialHome = placements.find(p => p.placement === 'home');
+  const creative = {...initialHome, mode: 'campaign', name: 'Annonceur test', url: 'https://example.org/campagne'};
+
+  for (const email of [undefined, contributor]) {
+    assert.equal((await request(endpoint, email)).status, 403);
+    assert.equal((await update(email, creative)).status, 403);
+  }
+  assert.equal((await update(editor, creative, publicOrigin)).status, 403);
+  for (const change of [
+    {placement: 'emplacement-absent'}, {url: 'http://example.org'}, {name: ''},
+    {image: '//example.org/banner.png', alt: 'Bannière'}, {image: '/brand/banner.png', alt: ''},
+  ]) {
+    assert.equal((await update(editor, {...creative, ...change})).status, 422);
+  }
+
+  const saved = await update(approver, creative);
+  assert.equal(saved.status, 200);
+  const { placement: first } = await saved.json();
+  assert.deepEqual(first, {...creative, version: 1});
+  assert.equal((await update(editor, creative)).status, 409);
+  const paused = await update(editor, {...first, mode: 'hidden'});
+  assert.equal(paused.status, 200);
+  assert.equal((await update(approver, {...first, mode: 'available'})).status, 409);
+  const current = (await json(endpoint, {email: approver})).placements;
+  assert.deepEqual(current.find(p => p.placement === 'home'), {...first, mode: 'hidden', version: 2});
+  assert.deepEqual(current.filter(p => p.placement !== 'home'), placements.filter(p => p.placement !== 'home'));
+});
+
+test('les responsables téléversent une bannière dont les lecteurs peuvent charger le fichier', async t => {
+  const { mf, json, editorHeaders } = await createNewsroom(t);
+  const url = origin + '/api/newsroom/ad-images';
+  const approver = 'annonces@example.invalid';
+  const contributor = 'contribution@example.invalid';
+  for (const [email, role] of [[approver, 'approver'], [contributor, 'contributor']]) {
+    await json('/api/newsroom/team', {email: editor, data: {email, role}});
+  }
+  const png = await readFile(resolve(root, 'public/brand/logo-dark.png'));
+  const upload = async (email, from = origin, data = png) => mf.dispatchFetch(url, {
+    method: 'POST',
+    headers: {...await editorHeaders(email), origin: from, 'content-type': 'image/png'},
+    body: data,
+  });
+  assert.equal((await upload(undefined)).status, 403);
+  assert.equal((await upload(contributor)).status, 403);
+  assert.equal((await upload(approver, publicOrigin)).status, 403);
+  assert.equal((await upload(approver, origin, Buffer.from('Ceci est du texte.'))).status, 415);
+  const saved = await upload(approver);
+  assert.equal(saved.status, 201);
+  const result = await saved.json();
+  const image = await mf.dispatchFetch(publicOrigin + result.url);
+  assert.equal(image.status, 200);
+  assert.equal(image.headers.get('content-type'), 'image/png');
+  assert.deepEqual(Buffer.from(await image.arrayBuffer()), png);
 });
 
 test('la rédaction consulte les comptes et applique immédiatement suspension, bannissement et rétablissement', async t => {
@@ -1103,4 +1177,40 @@ test('les éditions de novembre distinguent dossier, discipline et simple coïnc
   assert.deepEqual(await related('hera-dimorphos-blocs-orbite-novembre-2026'),new Set([bepicolombo]));
   assert.deepEqual(await related('colorado-cale-makar-retour-contre-canadien-2026-11-25'),new Set(['edmonton-vegas-double-eichel-connelly-2026-11-24']));
   assert.deepEqual(await related('prague-villarreal-buchanan-ligue-champions-2026-11-25'),new Set([psg,'lille-bayern-ligue-des-champions-2026-11-25']));
+});
+
+test('les pages publiques rendent les annonces actives et retirent les emplacements masqués', async t => {
+  const {mf, db} = await createNewsroom(t);
+  const read = async path => {
+    const response = await mf.dispatchFetch(publicOrigin + path);
+    assert.equal(response.status, 200);
+    return response.text();
+  };
+  const home = await read('/?lang=en');
+  assert.match(home, /data-ad-slot="home"/);
+  assert.match(home, /Advertising space available/);
+
+  const insert = db.prepare('INSERT INTO ad_placements (placement, mode, name, url, image, alt, version) VALUES (?, ?, ?, ?, ?, ?, 1)');
+  await db.batch([
+    insert.bind('home', 'hidden', 'Campagne en réserve', '', '', ''),
+    insert.bind('radio', 'campaign', 'Annonce radio', 'https://example.org/radio', '', ''),
+    insert.bind('article-photo', 'campaign', 'Annonce illustrée', 'https://example.org/article', 'https://example.org/banniere.jpg', 'Bannière de campagne'),
+  ]);
+  const updatedHome = await read('/');
+  assert.doesNotMatch(updatedHome, /data-ad-slot="home"/);
+  assert.doesNotMatch(updatedHome, /Campagne en réserve/);
+  const radio = await read('/?rubrique=radio');
+  const radioAd = radio.match(/<aside[^>]*data-ad-slot="radio"[^>]*>[\s\S]*?<\/aside>/)?.[0];
+  assert.ok(radioAd);
+  assert.match(radioAd, /Annonce radio/);
+  assert.match(radioAd, /href="https:\/\/example.org\/radio"/);
+  assert.doesNotMatch(radioAd, /<img/);
+
+  const article = await read('/article/notre-methode');
+  const photoAd = article.match(/<aside[^>]*data-ad-slot="article-photo"[^>]*>[\s\S]*?<\/aside>/)?.[0];
+  assert.ok(photoAd);
+  assert.match(photoAd, /rel="sponsored"/);
+  assert.match(photoAd, /alt="Bannière de campagne"/);
+  assert.match(photoAd, /src="https:\/\/example.org\/banniere.jpg"/);
+  assert.match(article, /data-ad-slot="article"/);
 });

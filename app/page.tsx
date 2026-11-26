@@ -4,7 +4,7 @@ import { headers } from 'next/headers';
 import { publicSiteOrigin } from '../lib/site-url';
 import { editionHref, sections, type Section, type Summary } from '../lib/edition';
 import { listHomepageStories, listCategoryHeadlines, readEditionArticles } from '../lib/public-articles';
-import { PublicLocaleProvider } from '../components/language-select';
+import { PublicEditionProvider } from '../components/edition/public-edition-provider';
 import { categoryLabel, localizedHref, publicLocales, sectionLabel } from '../lib/i18n';
 import { resolvePublicLocale } from '../lib/public-locale';
 import { translateSummaries } from '../lib/public-translations';
@@ -72,5 +72,5 @@ export default async function Home({ searchParams }: Props) {
   const localize = (items: Summary[]) => items.map(story=>local.get(story.slug) || story);
   const localStories = localize(stories), localPresentations = localize(presentations);
   const localHeadlines = headlines.map(group=>({...group,stories:localize(group.stories)}));
-  return <PublicLocaleProvider locale={locale}><Edition route={route} stories={localStories} headlines={localHeadlines} presentations={localPresentations} unavailable={unavailable} hasNext={hasNext} categories={categories} /></PublicLocaleProvider>;
+  return <PublicEditionProvider locale={locale}><Edition route={route} stories={localStories} headlines={localHeadlines} presentations={localPresentations} unavailable={unavailable} hasNext={hasNext} categories={categories} /></PublicEditionProvider>;
 }
