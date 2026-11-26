@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { cache } from 'react';
 import { and, eq } from 'drizzle-orm';
 import { Clock3, House, Link2 } from 'lucide-react';
+import {CategoryLink, Mark} from '../../../components/edition/category-mark';
 import {Awards} from '../../../components/edition/rankings';
 import {ArticleMeter} from "../../../components/edition/audience";
 import { ArticleNavigation } from '../../../components/edition/edition';
@@ -115,8 +116,8 @@ export default async function Article({params,searchParams}:ArticleProps) {
             {locale !== 'fr' && language === locale && <p className="reader-translation-note"><a href={'/article/'+encodeURIComponent(slug)+'?lang=fr'} hrefLang="fr">{copy.frenchOriginal}</a></p>}
             {isFeature ? <p className="reader-category reader-feature-kicker">
               <a href={localizedHref(editionHref('presentations'),locale)}>{sectionLabel('presentations',locale)}</a>
-              <span>{categoryLabel(story.category,locale)}</span>
-            </p> : <p className="reader-category"><a href={localizedHref(categoryHref(story.category),locale)}>{categoryLabel(story.category,locale)}</a></p>}
+              <Mark category={story.category} label={categoryLabel(story.category,locale)}/>
+            </p> : <p className="reader-category"><CategoryLink href={localizedHref(categoryHref(story.category),locale)} category={story.category} label={categoryLabel(story.category,locale)}/></p>}
             <h1 lang={language} dir="auto">{story.title}</h1>
             <p lang={language} dir="auto" className="reader-deck">{story.summary}</p>
             <div className="reader-byline">

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useState, type ReactNode } from 'react';
 import { articleHref, editionHref, fold, type EditionRoute, type Summary } from '../../lib/edition';
 import {Rankings} from './rankings';
-import {Mark} from './category-mark';
+import {CategoryLink, Mark} from './category-mark';
 import { categoryLabel, localizedHref, sectionLabel, type PublicLocale } from '../../lib/i18n';
 import { usePublicLocale } from '../language-select';
 import { StoryCard, StoryDate } from './story-card';
@@ -113,7 +113,7 @@ function LatestFeed({ stories, lang }: { stories: Summary[]; lang: PublicLocale 
 
 function TopicDirectory({ categories, current, lang }: { categories:string[]; current?:string; lang:PublicLocale }) {
   return <nav className="by-topic-directory" aria-label={sectionText(lang,'topics')}>
-    {categories.map(category=><a key={category} href={localizedHref(categoryHref(category),lang)} aria-current={current===category?'page':undefined}>{categoryLabel(category,lang)}</a>)}
+    {categories.map(category=><CategoryLink key={category} category={category} label={categoryLabel(category,lang)} href={localizedHref(categoryHref(category),lang)} aria-current={current===category?'page':undefined}/>)}
   </nav>;
 }
 
@@ -246,8 +246,8 @@ export function SectionContent({ route, stories, headlines, presentations, unava
           {section !== 'favoris' && <a className="by-section-link" href={href(editionHref('favoris'))}><Bookmark size={15} aria-hidden="true" />{sectionLabel('favoris',lang)}</a>}</div>}
         {(pool.length > 0 || section === 'recherche' || query || category) && <div className="filter-area"><SearchForm route={route} lang={lang} />
           {!topicPage && !topicIndex && categories.length > 0 && <nav className="edition-filters" aria-label={sectionText(lang,'filter')}>
-            {['', ...categories].map(item => <a key={item} href={href(editionHref(section, query, item))}
-              aria-current={fold(category) === fold(item) ? 'true' : undefined}>{item ? categoryLabel(item,lang) : sectionText(lang,'all')}</a>)}</nav>}
+            {['', ...categories].map(item => <CategoryLink key={item} category={item} label={item ? categoryLabel(item,lang) : sectionText(lang,'all')} href={href(editionHref(section, query, item))}
+              aria-current={fold(category) === fold(item) ? 'true' : undefined}/>)}</nav>}
         </div>}
         {unavailable && section !== 'presentations' && <div className="empty"><p>{sectionText(lang,'unavailable')}</p><a className="edition-icon-link" href={href(editionHref(section, query, category))}><RefreshCw size={16} aria-hidden="true" />{sectionText(lang,'retry')}</a></div>}
         {archive.length>0 ? <><div className="by-story-grid">{(section==='actualites'?archive.slice(0,4):archive).map(card)}</div>

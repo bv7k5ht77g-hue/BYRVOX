@@ -4,7 +4,7 @@ import { Bookmark, ChevronDown, Plus, Search } from 'lucide-react';
 import { useState, type ReactNode } from 'react';
 import { canonicalCategory } from '../../lib/editorial-sections';
 import { articleHref, editionHref, fold, type Summary } from '../../lib/edition';
-import {Mark} from './category-mark';
+import {CategoryButton, Mark} from './category-mark';
 import { categoryLabel, localizedHref, sectionLabel, type PublicLocale } from '../../lib/i18n';
 import { usePublicLocale } from '../language-select';
 import { sectionText } from './section-copy';
@@ -91,8 +91,8 @@ export function FeaturedContents({ stories, presentations, savedCount, saveButto
       <div className="by-spotlight-topics" role="group" aria-label={sectionText(lang,'filter')}>
         <div className="by-spotlight-categories">
           {['', ...categories.slice(0, 3)].map(category =>
-            <button key={category} type="button" aria-pressed={activeCategory === category}
-              onClick={() => selectCategory(category)}>{categoryName(category)}</button>)}
+            <CategoryButton key={category} category={category} label={categoryName(category)} aria-pressed={activeCategory === category}
+              onClick={() => selectCategory(category)}/>)}
         </div>
         {categories.length > 0 && <label className="by-spotlight-picker">
           <select aria-label={sectionText(lang,'filter')} value={activeCategory}

@@ -1,7 +1,7 @@
 import { validSourceUrl } from './editorial.mjs';
 
 export const PLACEMENTS = [
-  'footer', 'home', 'masthead', 'home-lower', 'news', 'news-lower', 'radio', 'article-photo', 'article',
+  'home', 'masthead', 'home-lower', 'news', 'radio', 'article-photo', 'news-lower', 'article', 'footer',
 ] as const;
 
 export type Placement = typeof PLACEMENTS[number];

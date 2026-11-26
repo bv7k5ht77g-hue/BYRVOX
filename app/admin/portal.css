@@ -180,3 +180,7 @@ html[data-theme=dark] .admin-shell .reader-status-banned { color:#ff9fb5; }
 .portal-ads .placement-badge.mode-campaign{background:#cde2ff;color:#143d76}
 .portal-ads .placement-badge.mode-embed,.portal-ads .placement-badge.mode-script{background:#e5dbff;color:#472579}
 .portal-ads .placement-badge.mode-hidden{background:#ffe8bb;color:#613d01}
+
+.ad-saved-script { margin-block:1rem; }
+.ad-saved-script summary { cursor:pointer; font-weight:650; }
+.ad-saved-script code { display:block; padding:.75rem; background:var(--surface); overflow-wrap:anywhere; direction:ltr; }

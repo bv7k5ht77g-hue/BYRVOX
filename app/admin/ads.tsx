@@ -4,7 +4,7 @@ import { useEffect, useState, type FormEvent } from 'react';
 import { photoByteLimit, photoTypes } from '../../lib/article-photo';
 import { AdFrame } from '../../components/edition/ad-frame';
 import { parseAdFrame, parseAdScript } from '../../lib/ad-frame.mjs';
-import { parseAdSenseSnippet } from '../../lib/adsense.mjs';
+import { adSlotPattern, parseAdSenseSnippet } from '../../lib/adsense.mjs';
 import { validAdImageUrl, type AdPlacement, type AdSenseSettings, type Placement } from '../../lib/ad-placements';
 
 const slotNames: Record<Placement,string> = {
@@ -58,7 +58,7 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
   const editingFrame = !siteSetup && (edit?.mode === 'embed' || editingScript);
   const parseExternal = editingScript ? parseAdScript : parseAdFrame;
   const parsed = snippet.trim() ? parseAdSenseSnippet(snippet.trim()) : null;
-  const client = parsed?.client || (siteSetup ? settings?.client : edit?.adClient) || '';
+  const client = parsed?.client || (!siteSetup && edit?.adClient) || settings?.client || '';
   const unit = parsed?.slot || edit?.adSlot || '';
   function validateSnippet() {
     if (!snippet.trim()) return '';
@@ -70,7 +70,7 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
     }
     if (!parsed) return 'Code non reconnu. Copie le code Google AdSense complet depuis ton compte.';
     if (siteSetup && parsed.slot) return 'Ce code correspond à un bloc display. Choisis son emplacement ou colle le code du site fourni par Google.';
-    if (!siteSetup && !parsed.slot) return 'Ce code configure le site. Pour cet emplacement, colle le code d’un bloc display contenant data-ad-slot.';
+    if (!siteSetup && !parsed.slot && !adSlotPattern.test(edit?.adSlot || '')) return 'Code du site reconnu. Renseigne le numéro du bloc display à diffuser ici.';
     return '';
   }
   const snippetError = validateSnippet();
@@ -146,7 +146,7 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
     event.preventDefault();
     if (!edit || !settings || !changed || snippetError || conflict || busy) return;
     const placingUnit = !siteSetup && edit.mode === 'adsense';
-    if ((siteSetup && enabled && !client) || (placingUnit && (!client || !unit))) {
+    if ((siteSetup && enabled && !client) || (placingUnit && (!client || !adSlotPattern.test(unit)))) {
       setError(siteSetup ? 'Colle le code de ton compte AdSense pour activer la diffusion.' : 'Colle le code du bloc display à diffuser.');
       return;
     }
@@ -169,12 +169,12 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
       if (siteSetup) {
         const {adsense} = await response.json() as {adsense:AdSenseSettings};
         setSettings(adsense); setEnabled(adsense.enabled);
-        setNotice('Configuration Google AdSense enregistrée.');
+        setNotice(adsense.enabled ? 'Code du site enregistré et activé dans l’en-tête HTML des pages autorisées.' : 'Configuration enregistrée. Le chargement du script sur le site est désactivé.');
       } else {
         const {placement} = await response.json() as {placement:AdPlacement};
         setSlots(previous => previous.map(slot => slot.placement === placement.placement ? placement : slot));
         setEdit(placement);
-        setNotice('Emplacement enregistré.');
+        setNotice(placement.mode === 'adsense' ? 'Bloc AdSense '+placement.adSlot+' attribué à « '+slotNames[placement.placement]+' ».' : 'Emplacement enregistré.');
       }
       setSnippet('');
     } catch { setError('L’enregistrement a échoué. Vérifie ta connexion et réessaie.'); }
@@ -231,7 +231,7 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
   return <div className="portal-ads">
     <section className="panel ad-directory" aria-labelledby="ads-list-title">
       {settings && <><h2>Site public</h2><button type="button" disabled={busy} aria-pressed={siteSetup} onClick={() => {if (!siteSetup) select(null);}}>
-        <span>Google AdSense</span><small>{settings.enabled ? 'Activé' : 'Désactivé'}</small>
+        <span>Code du site Google AdSense</span><small>{settings.enabled ? 'Activé · en-tête HTML' : 'Désactivé'}</small>
       </button></>}
       <h2 id="ads-list-title">Emplacements</h2>
       {slots.length === 0 && !error && <p role="status">Chargement des emplacements…</p>}
@@ -245,7 +245,11 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
     </section>
     {settings && siteSetup && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-google-title">
       <h2 id="ad-google-title">Google AdSense sur le site public</h2>
-      <p>Colle le code du site fourni par Google. Tu peux enregistrer ton identifiant avant d’activer la diffusion.</p>
+      <p>Ce script relie BYRVOX à ton compte Google. Pour placer une bannière précise, attribue son numéro de bloc à l’emplacement voulu.</p>
+      {settings.client && <details className="ad-saved-script"><summary>Voir le code du site enregistré</summary>
+        <p>{settings.enabled ? 'Le site ajoute cette balise dans l’en-tête HTML des pages autorisées.' : 'Le script enregistré est désactivé.'}</p>
+        <code>{`<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${settings.client}" crossorigin="anonymous"></script>`}</code>
+      </details>}
       <fieldset disabled={busy}>
         {codeField(settings.client ? 'Remplacer le code du site' : 'Code du site Google AdSense')}
         {client && <p>Identifiant éditeur · <bdi>{client}</bdi></p>}
@@ -256,9 +260,12 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
       </fieldset>
       <button className="red" type="submit" disabled={busy || !changed || conflict || Boolean(snippetError)}>{saving ? 'Enregistrement…' : 'Enregistrer la configuration'}</button>
       {notice && <p role="status" className="admin-note">{notice}</p>}
+      {current && <button type="button" className="outline" disabled={busy} onClick={() => select(current)}>Configurer l’emplacement « {slotNames[current.placement]} »</button>}
     </form>}
     {!siteSetup && edit && current && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-editor-title">
       <h2 id="ad-editor-title">{slotNames[edit.placement]}</h2>
+      {current.mode==='available' && settings?.enabled && <p className="portal-help">AdSense est activé pour le site. Cet emplacement attend l’attribution d’un bloc ou d’une campagne.</p>}
+      {edit.placement==='home' && <a href="https://byrvox.today/#publicite-sous-navigation" target="_blank" rel="noreferrer">Voir la position sur l’accueil ↗</a>}
       <div>Configuration enregistrée <PlacementStatus slot={current} settings={settings}/></div>
       <fieldset disabled={busy}>
         <label>Afficher sur le site<select value={edit.mode} onChange={event => changeMode(event.target.value as AdPlacement['mode'])}>
@@ -270,9 +277,11 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
           <option value="hidden">Masquer l’emplacement</option>
         </select></label>
         {edit.mode === 'adsense' && <>
+          {settings?.client && <label>Numéro du bloc Google (data-ad-slot)<input type="text" dir="ltr" inputMode="numeric" maxLength={10}
+            pattern="[0-9]{10}" value={parsed?.slot || edit.adSlot} readOnly={Boolean(parsed?.slot)} onChange={event=>update({adSlot:event.target.value.trim()})}/></label>}
           {codeField(edit.adSlot ? 'Remplacer le code du bloc display' : 'Code du bloc display AdSense')}
-          {parsed && !parsed.slot && <button className="outline" type="button" onClick={transferSiteCode}>Utiliser ce code pour le site</button>}
-          <p className="portal-help">Copie le code généré pour ce bloc dans Google AdSense. Il contient l’identifiant éditeur et le numéro du bloc (data-ad-slot).</p>
+          {parsed && !parsed.slot && parsed.client !== settings?.client && <button className="outline" type="button" onClick={transferSiteCode}>Utiliser ce code pour le site</button>}
+          <p className="portal-help">Dans AdSense, ouvre Annonces → Par bloc d’annonces et copie le code du bloc display. Si le compte éditeur est déjà enregistré ici, son numéro de bloc à 10 chiffres suffit.</p>
           {client && <p>Identifiant éditeur · <bdi>{client}</bdi></p>}
           {unit && <p>Bloc publicitaire · <bdi>{unit}</bdi></p>}
           {(!settings?.enabled || (client && settings.client !== client)) && <p className="portal-help">La diffusion de ce bloc nécessite un code de site activé pour le même identifiant dans « Google AdSense ».</p>}

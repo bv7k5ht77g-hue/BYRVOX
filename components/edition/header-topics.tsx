@@ -8,7 +8,7 @@ import { usePublicLocale } from '../language-select';
 import { sectionText } from './section-copy';
 
 import {useAudience} from './audience';
-import {Mark} from './category-mark';
+import {CategoryLink} from './category-mark';
 export function HeaderTopics({ category }: { category?: string }) {
   const lang = usePublicLocale();
   const data=useAudience();
@@ -55,8 +55,8 @@ export function HeaderTopics({ category }: { category?: string }) {
     </summary>
     <div className="header-topics-panel">
       <div className="header-topics-list">
-        {visible.map(topic => <a key={topic} href={localizedHref(categoryHref(topic), lang)}
-          aria-current={category === topic ? 'page' : undefined}><Mark category={topic} label={categoryLabel(topic, lang)}/></a>)}
+        {visible.map(topic => <CategoryLink key={topic} category={topic} label={categoryLabel(topic, lang)} href={localizedHref(categoryHref(topic), lang)}
+          aria-current={category === topic ? 'page' : undefined}/>)}
       </div>
     </div>
   </details>;

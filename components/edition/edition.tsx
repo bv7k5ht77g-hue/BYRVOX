@@ -82,7 +82,7 @@ function Header({ current, category, profile, open }: {
     </div>
   </div>
     <ReadingProgress /></header>
-    <div className="wrap by-masthead-placement"><AdSlot placement={current === 'accueil' ? 'home' : 'masthead'} /></div></>;
+    <div id={current === 'accueil' ? 'publicite-sous-navigation' : undefined} className="wrap by-masthead-placement"><AdSlot placement={current === 'accueil' ? 'home' : 'masthead'} /></div></>;
 }
 
 function Footer({ open }: { open: (name: DialogName) => void }) {
