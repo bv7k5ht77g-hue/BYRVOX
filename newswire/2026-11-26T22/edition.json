@@ -1,0 +1,162 @@
+{
+  "hour": "2026-11-26T22",
+  "articles": [
+    {
+      "eventKey": "cote-ivoire-coulibaly-234-liberations-presidentielle-2025",
+      "category": "Afrique",
+      "verified": true,
+      "sources": [
+        {
+          "name": "RFI / PressAfrik — entretien avec Amadou Coulibaly",
+          "url": "https://www.pressafrik.com/Cote-d-Ivoire-234-personnes-arretees-en-marge-de-la-presidentielle-de-2025-remises-en-liberte_a315117.html",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Pulse Côte d’Ivoire — Aïssatou Doumbia",
+          "url": "https://www.pulse.ci/article/deces-en-prison-de-militants-du-ppa-ci-le-gouvernement-exprime-ses-regrets-et-annonce-234-relaxations-2026112617310633534",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Ivory Coast says 234 people detained around the 2025 presidential election have been released",
+          "summary": "In Abidjan, the government spokesman attributed the releases to insufficient evidence. Investigations continue in the remaining cases.",
+          "body": "In Ivory Coast, 234 people detained following unrest surrounding the October 2025 presidential election have been released, Amadou Coulibaly announced. The government spokesman was answering reporters’ questions in Abidjan on November 25 after a cabinet meeting.\n\nSpeaking to RFI, the minister said the investigating judge had found insufficient evidence to proceed against these people. Other cases remain under investigation. The figure, also reported by Pulse Côte d’Ivoire, refers to people already released.",
+          "photoAlt": "Amadou Coulibaly in a blue suit at a fellowship award ceremony in Ivory Coast.",
+          "photoCaption": "Archive, November 2, 2023. Amadou Coulibaly, left, at the presentation of the Ghislaine Dupont and Claude Verlon fellowship in Ivory Coast."
+        },
+        "es": {
+          "title": "Costa de Marfil anuncia la liberación de 234 personas detenidas en torno a las elecciones de 2025",
+          "summary": "En Abiyán, el portavoz del Gobierno atribuyó las liberaciones a la insuficiencia de pruebas. La instrucción de las demás causas continúa.",
+          "body": "En Costa de Marfil han recuperado la libertad 234 personas detenidas tras los disturbios que rodearon las elecciones presidenciales de octubre de 2025, anunció Amadou Coulibaly. El portavoz del Gobierno respondió a los periodistas en Abiyán el 25 de noviembre, tras el Consejo de Ministros.\n\nEn declaraciones a RFI, el ministro explicó que el juez instructor consideró insuficientes los indicios para proceder contra estas personas. Otras causas siguen en instrucción. La cifra, recogida también por Pulse Côte d’Ivoire, se refiere a personas que ya han sido liberadas.",
+          "photoAlt": "Amadou Coulibaly con traje azul en una entrega de becas en Costa de Marfil.",
+          "photoCaption": "Archivo del 2 de noviembre de 2023. Amadou Coulibaly, a la izquierda, en la entrega de la beca Ghislaine Dupont y Claude Verlon en Costa de Marfil."
+        },
+        "ar": {
+          "title": "ساحل العاج تعلن الإفراج عن 234 شخصاً اعتُقلوا في سياق انتخابات الرئاسة عام 2025",
+          "summary": "عزا المتحدث باسم الحكومة في أبيدجان الإفراج عنهم إلى عدم كفاية الأدلة. ويستمر التحقيق في القضايا الأخرى.",
+          "body": "أعلن أمادو كوليبالي الإفراج في ساحل العاج عن 234 شخصاً كانوا محتجزين عقب الاضطرابات التي رافقت الانتخابات الرئاسية في أكتوبر 2025. وكان المتحدث باسم الحكومة يجيب عن أسئلة الصحفيين في أبيدجان يوم 25 نوفمبر بعد اجتماع مجلس الوزراء.\n\nوأوضح الوزير لإذاعة فرنسا الدولية أن قاضي التحقيق خلص إلى عدم كفاية الأدلة لمتابعة هؤلاء الأشخاص. ولا تزال ملفات أخرى قيد التحقيق. ويشير الرقم، الذي نقله أيضاً موقع بولس كوت ديفوار، إلى عدد من أُفرج عنهم بالفعل.",
+          "photoAlt": "أمادو كوليبالي ببدلة زرقاء في حفل تسليم منحة في ساحل العاج.",
+          "photoCaption": "صورة أرشيفية من 2 نوفمبر 2023. أمادو كوليبالي إلى اليسار خلال تسليم منحة غيسلين دوبون وكلود فيرلون في ساحل العاج."
+        },
+        "zh-CN": {
+          "title": "科特迪瓦宣布释放234名在2025年总统选举前后被捕的人士",
+          "summary": "政府发言人在阿比让表示，获释的原因是证据不足，其余案件仍在调查中。",
+          "body": "科特迪瓦政府发言人阿马杜·库利巴利宣布，234名因2025年10月总统选举前后骚乱而被拘押的人士已获释。他于11月25日在阿比让的内阁会议后回答了记者提问。\n\n库利巴利向法国国际广播电台解释，预审法官认为没有足够证据继续追诉这些人，其余案件仍在调查。科特迪瓦媒体Pulse也报道了这一数字，指的是已经获释的人数。",
+          "photoAlt": "阿马杜·库利巴利身穿蓝色西装出席科特迪瓦的一场奖学金颁奖活动。",
+          "photoCaption": "资料照片，摄于2023年11月2日。阿马杜·库利巴利（左）出席在科特迪瓦举行的吉斯莱娜·迪蓬和克洛德·韦尔隆奖学金颁奖活动。"
+        },
+        "ru": {
+          "title": "В Кот-д’Ивуаре освободили 234 человека, задержанных на фоне президентских выборов 2025 года",
+          "summary": "Представитель правительства в Абиджане объяснил освобождения недостатком доказательств. Расследование остальных дел продолжается.",
+          "body": "В Кот-д’Ивуаре вышли на свободу 234 человека, задержанных после волнений в период президентских выборов в октябре 2025 года, сообщил Амаду Кулибали. Представитель правительства отвечал на вопросы журналистов 25 ноября в Абиджане после заседания кабинета министров.\n\nВ интервью RFI министр пояснил, что следственный судья счёл доказательства недостаточными для дальнейшего преследования этих людей. По другим делам следствие продолжается. Приведённая цифра, о которой также сообщило издание Pulse Côte d’Ivoire, относится к уже освобождённым людям.",
+          "photoAlt": "Амаду Кулибали в синем костюме на церемонии вручения стипендии в Кот-д’Ивуаре.",
+          "photoCaption": "Архивное фото от 2 ноября 2023 года. Амаду Кулибали (слева) на вручении стипендии имени Гислен Дюпон и Клода Верлона в Кот-д’Ивуаре."
+        },
+        "ko": {
+          "title": "코트디부아르, 2025년 대선 전후 구금된 234명 석방 발표",
+          "summary": "정부 대변인은 아비장에서 증거 부족으로 이들이 석방됐으며 나머지 사건은 수사가 계속된다고 밝혔다.",
+          "body": "아마두 쿨리발리 코트디부아르 정부 대변인은 2025년 10월 대통령 선거를 전후해 벌어진 소요 이후 구금된 234명이 풀려났다고 발표했다. 쿨리발리는 11월 25일 아비장에서 국무회의를 마친 뒤 기자들의 질문에 답했다.\n\n쿨리발리는 프랑스국제방송(RFI)에 예심판사가 이들에 대한 절차를 계속할 증거가 충분하지 않다고 판단했다고 설명했다. 다른 사건은 여전히 수사 중이다. 현지 매체 펄스 코트디부아르도 보도한 234명은 이미 석방된 사람들의 수다.",
+          "photoAlt": "코트디부아르 장학금 수여식에 파란 정장을 입고 참석한 아마두 쿨리발리.",
+          "photoCaption": "2023년 11월 2일 자료 사진. 아마두 쿨리발리(왼쪽)가 코트디부아르에서 열린 기슬렌 뒤퐁·클로드 베를롱 장학금 수여식에 참석했다."
+        }
+      },
+      "photo": {
+        "subject": "Amadou Coulibaly",
+        "context": "Côte d’Ivoire",
+        "capturedOn": "2023-11-02",
+        "download": "media/iv.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amadou_Coulibaly_03.jpg",
+        "credit": "Maad86 / Wikimedia Commons",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "alt": "Amadou Coulibaly en costume bleu lors d’une remise de bourse en Côte d’Ivoire.",
+        "caption": "Archives du 2 novembre 2023. Amadou Coulibaly, à gauche, lors de la remise de la bourse Ghislaine Dupont et Claude Verlon en Côte d’Ivoire."
+      },
+      "title": "Côte d’Ivoire : 234 personnes arrêtées autour de la présidentielle de 2025 ont été libérées",
+      "summary": "À Abidjan, le porte-parole du gouvernement attribue ces remises en liberté à l’insuffisance des éléments recueillis. L’instruction se poursuit dans les autres dossiers.",
+      "body": "En Côte d’Ivoire, 234 personnes détenues à la suite des troubles qui ont entouré l’élection présidentielle d’octobre 2025 ont retrouvé la liberté, a annoncé Amadou Coulibaly. Le porte-parole du gouvernement répondait aux journalistes le 25 novembre à Abidjan, après le Conseil des ministres.\n\nInterrogé par RFI, le ministre a expliqué que le juge d’instruction avait estimé les éléments insuffisants pour poursuivre ces personnes. D’autres dossiers restent à l’instruction. Le chiffre annoncé, également rapporté par Pulse Côte d’Ivoire, désigne donc les personnes déjà libérées."
+    },
+    {
+      "eventKey": "jamaique-holness-abstention-cuba-demande-etats-unis",
+      "category": "Caraïbes",
+      "verified": true,
+      "sources": [
+        {
+          "name": "PBC Jamaica — séance du 24 novembre, enregistrement",
+          "url": "https://abeng.org/sitting-of-the-house-of-representatives-november-24-2026-2026-11-25-02-29-451307e",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "The Jamaica Gleaner",
+          "url": "https://jamaica-gleaner.com/article/news/20261126/holness-us-asked-jamaica-support-cuba-embargo-vote",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Jamaica Observer",
+          "url": "https://www.jamaicaobserver.com/2026/11/25/not-pressured-says-holness-re-jamaicas-un-vote-cuba/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Andrew Holness acknowledges US request and defends Jamaica’s abstention on Cuba",
+          "summary": "In Parliament, Jamaica’s prime minister distinguished Washington’s request for support from pressure on his decision.",
+          "body": "Andrew Holness told the House of Representatives that the United States had sought Jamaica’s support ahead of the UN vote on the embargo against Cuba. Questioned on November 24 by opposition leader Mark Golding, the prime minister said he personally faced neither pressure nor threats.\n\nJamaica abstained on October 28 on the resolution calling for an end to the US embargo. According to the parliamentary proceedings, the Jamaica Gleaner and the Jamaica Observer, Holness maintains that his government opposes the embargo. Lawmakers asked why that position had not translated into a vote in favour.",
+          "photoAlt": "Andrew Holness, left, walks alongside US Secretary of State Marco Rubio.",
+          "photoCaption": "Archive, February 25, 2026, Basseterre, Saint Kitts and Nevis. Andrew Holness speaks with US Secretary of State Marco Rubio several months before the Cuba vote."
+        },
+        "es": {
+          "title": "Andrew Holness reconoce una petición de EE. UU. y defiende la abstención de Jamaica sobre Cuba",
+          "summary": "Ante los diputados, el primer ministro jamaicano distinguió la solicitud de apoyo de Washington de una presión sobre su decisión.",
+          "body": "Andrew Holness declaró ante la Cámara de Representantes que Estados Unidos había solicitado el apoyo de Jamaica antes de la votación de la ONU sobre el embargo contra Cuba. Al responder el 24 de noviembre al jefe de la oposición, Mark Golding, el primer ministro dijo que personalmente no había sufrido presiones ni amenazas.\n\nJamaica se abstuvo el 28 de octubre en la resolución que pedía levantar el embargo estadounidense. Según la sesión parlamentaria, el Jamaica Gleaner y el Jamaica Observer, Holness mantiene que su Gobierno se opone al embargo. Los diputados le preguntaron por qué esa posición no se había traducido en un voto favorable.",
+          "photoAlt": "Andrew Holness, a la izquierda, camina con el secretario de Estado estadounidense, Marco Rubio.",
+          "photoCaption": "Archivo del 25 de febrero de 2026 en Basseterre, San Cristóbal y Nieves. Andrew Holness conversa con el secretario de Estado estadounidense, Marco Rubio, meses antes de la votación sobre Cuba."
+        },
+        "ar": {
+          "title": "هولنس يقر بطلب أميركي ويدافع عن امتناع جامايكا عن التصويت بشأن كوبا",
+          "summary": "ميّز رئيس وزراء جامايكا أمام النواب بين طلب واشنطن الدعم وممارسة الضغط عليه لاتخاذ قراره.",
+          "body": "قال أندرو هولنس لمجلس النواب إن الولايات المتحدة طلبت دعم جامايكا قبل تصويت الأمم المتحدة بشأن الحظر المفروض على كوبا. ورداً على سؤال زعيم المعارضة مارك غولدينغ في 24 نوفمبر، قال رئيس الوزراء إنه لم يتعرض شخصياً لأي ضغط أو تهديد.\n\nامتنعت جامايكا في 28 أكتوبر عن التصويت على قرار يدعو إلى رفع الحظر الأميركي. وبحسب وقائع الجلسة وصحيفتي جامايكا غلينر وجامايكا أوبزرفر، يؤكد هولنس أن حكومته تعارض الحظر. وسأله النواب لماذا لم يترجم هذا الموقف إلى تصويت مؤيد.",
+          "photoAlt": "أندرو هولنس إلى اليسار يسير مع وزير الخارجية الأميركي ماركو روبيو.",
+          "photoCaption": "صورة أرشيفية بتاريخ 25 فبراير 2026 في باستير بسانت كيتس ونيفيس. أندرو هولنس يتحدث مع وزير الخارجية الأميركي ماركو روبيو قبل أشهر من التصويت بشأن كوبا."
+        },
+        "zh-CN": {
+          "title": "霍尔尼斯承认美国曾争取支持，为牙买加在古巴问题上弃权作出解释",
+          "summary": "牙买加总理在议会表示，华盛顿寻求支持与他受到压力是两回事。",
+          "body": "安德鲁·霍尔尼斯向众议院表示，在联合国就对古巴禁运问题投票前，美国曾请求牙买加支持。11月24日回答反对党领袖马克·戈尔丁提问时，总理表示他本人没有受到压力或威胁。\n\n牙买加在10月28日就要求解除美国禁运的决议投了弃权票。据议会会议记录、《牙买加拾穗报》和《牙买加观察家报》报道，霍尔尼斯坚持认为政府反对禁运。议员要求他解释，为何这一立场没有转化为赞成票。",
+          "photoAlt": "安德鲁·霍尔尼斯（左）与美国国务卿马尔科·鲁比奥并肩行走。",
+          "photoCaption": "资料照片，2026年2月25日摄于圣基茨和尼维斯首都巴斯特尔。安德鲁·霍尔尼斯与美国国务卿马尔科·鲁比奥交谈，距古巴问题投票尚有数月。"
+        },
+        "ru": {
+          "title": "Эндрю Холнесс подтвердил обращение США и объяснил, почему Ямайка воздержалась при голосовании по Кубе",
+          "summary": "В парламенте премьер Ямайки разграничил просьбу Вашингтона о поддержке и давление при принятии решения.",
+          "body": "Эндрю Холнесс сообщил Палате представителей, что перед голосованием ООН по вопросу об эмбарго против Кубы США обратились к Ямайке за поддержкой. Отвечая 24 ноября на вопрос лидера оппозиции Марка Голдинга, премьер заявил, что лично ему не угрожали и на него не давили.\n\n28 октября Ямайка воздержалась при голосовании по резолюции о снятии американского эмбарго. Согласно записи заседания, Jamaica Gleaner и Jamaica Observer, Холнесс настаивает, что его правительство выступает против эмбарго. Депутаты спросили, почему тогда страна не проголосовала за резолюцию.",
+          "photoAlt": "Эндрю Холнесс (слева) идёт рядом с госсекретарём США Марко Рубио.",
+          "photoCaption": "Архивное фото от 25 февраля 2026 года, Бастер, Сент-Китс и Невис. Эндрю Холнесс беседует с госсекретарём США Марко Рубио за несколько месяцев до голосования по Кубе."
+        },
+        "ko": {
+          "title": "홀니스 총리, 미국의 지지 요청 인정…자메이카의 쿠바 결의안 기권 설명",
+          "summary": "자메이카 총리는 의회에서 미국의 지지 요청과 자신의 결정에 대한 압박은 다르다고 말했다.",
+          "body": "앤드루 홀니스는 유엔에서 쿠바 금수 조치를 표결하기 전 미국이 자메이카에 지지를 요청했다고 하원에 밝혔다. 11월 24일 야당 대표 마크 골딩의 질의에 총리는 자신이 직접 압박이나 위협을 받지는 않았다고 답했다.\n\n자메이카는 10월 28일 미국의 금수 조치 해제를 요구하는 결의안에 기권했다. 의회 회의 기록과 자메이카 글리너, 자메이카 옵서버에 따르면 홀니스는 정부가 금수 조치에 반대한다는 입장을 유지했다. 의원들은 왜 그 입장이 찬성표로 이어지지 않았는지 물었다.",
+          "photoAlt": "앤드루 홀니스(왼쪽)가 마코 루비오 미국 국무장관과 나란히 걷고 있다.",
+          "photoCaption": "2026년 2월 25일 세인트키츠 네비스 바스테르에서 촬영한 자료 사진. 앤드루 홀니스가 쿠바 관련 표결 수개월 전 마코 루비오 미국 국무장관과 대화하고 있다."
+        }
+      },
+      "photo": {
+        "subject": "Andrew Holness",
+        "context": "États-Unis",
+        "capturedOn": "2026-02-25",
+        "download": "media/jm.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Secretary_Rubio_Meets_with_Jamaican_Prime_Minister_(55115444622).jpg",
+        "credit": "Freddie Everett / U.S. Department of State",
+        "license": "Domaine public — gouvernement fédéral des États-Unis",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Secretary_Rubio_Meets_with_Jamaican_Prime_Minister_(55115444622).jpg#Licensing",
+        "alt": "Andrew Holness, à gauche, marche avec le secrétaire d’État des États-Unis Marco Rubio.",
+        "caption": "Archives du 25 février 2026 à Basseterre, à Saint-Christophe-et-Niévès. Andrew Holness s’entretient avec Marco Rubio, secrétaire d’État des États-Unis, plusieurs mois avant le vote sur Cuba."
+      },
+      "title": "Vote sur Cuba : Andrew Holness reconnaît une demande américaine et défend l’abstention de la Jamaïque",
+      "summary": "Devant les députés, le premier ministre jamaïcain a distingué la demande de soutien de Washington d’une pression sur sa décision.",
+      "body": "Andrew Holness a déclaré à la Chambre des représentants que les États-Unis avaient sollicité le soutien de la Jamaïque avant le vote de l’ONU sur l’embargo contre Cuba. Interrogé le 24 novembre par le chef de l’opposition, Mark Golding, le premier ministre a dit n’avoir personnellement subi ni pression ni menace.\n\nLa Jamaïque s’était abstenue le 28 octobre sur la résolution demandant la levée de l’embargo américain. Selon le compte rendu parlementaire, le Jamaica Gleaner et le Jamaica Observer, Holness maintient que son gouvernement s’oppose à l’embargo. Les députés lui demandaient pourquoi cette position ne s’était pas traduite par un vote favorable."
+    }
+  ]
+}
