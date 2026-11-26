@@ -1,0 +1,1140 @@
+{
+  "hour": "2026-11-26T11",
+  "articles": [
+    {
+      "eventKey": "puvirnituq-tribunal-eau-centre-sante-logements",
+      "category": "Québec",
+      "title": "À Puvirnituq, le tribunal ordonne au centre de santé d’améliorer l’accès à l’eau",
+      "summary": "L’ordonnance couvre aussi les logements que le Centre de santé Inuulitsivik fournit au personnel.",
+      "body": "Le Centre de santé Inuulitsivik dispose de 90 jours pour évaluer les besoins en eau du personnel à Puvirnituq, selon la FIQ, qui a rendu publique le 26 novembre une décision datée du 20 novembre. L’employeur devra aussi chercher à coordonner l’approvisionnement avec la municipalité.\n\nLa Presse Canadienne rapporte que le Tribunal administratif du travail a reconnu le logement fourni aux travailleurs comme une condition de travail. Le centre a un an pour améliorer l’accès à l’eau et son stockage, au travail comme dans ces logements.",
+      "sources": [
+        {
+          "name": "FIQ",
+          "url": "https://www.newswire.ca/fr/news-releases/des-professionnelles-en-soins-privees-d-eau-a-puvirnituq-le-tat-donne-raison-a-la-fiq-et-force-l-employeur-a-agir-802309715.html",
+          "publishedAt": "2026-11-26T05:00:00-05:00"
+        },
+        {
+          "name": "La Presse Canadienne / L’Écho de Laval",
+          "url": "https://lechodelaval.ca/actualites-nationale/la-fiq-au-tribunal-du-travail-pour-l-acces-a-de-l-eau-potable-a-puvirnituq/41909",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/puvi.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puvirnituq_hospital.JPG",
+        "credit": "Curtis Groom",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Bâtiment de l’hôpital avec une rampe et un drapeau du Québec.",
+        "caption": "Hôpital de Puvirnituq — Bâtiment de l’hôpital avec une rampe et un drapeau du Québec. Photo d’archives · 2007-06-24."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Puvirnituq health centre ordered to improve access to water",
+          "summary": "The order also covers housing that the Inuulitsivik Health Centre provides for its staff.",
+          "body": "The Inuulitsivik Health Centre has 90 days to assess staff water needs in Puvirnituq, according to the FIQ union, which publicized the November 20 ruling on November 26. The employer must also seek to coordinate supplies with the municipality.\n\nThe Canadian Press reports that the Administrative Labour Tribunal recognized employer-provided housing as a condition of employment. The centre has a year to improve water access and storage both at work and in those homes.",
+          "photoAlt": "Hospital building with a ramp and a Quebec flag.",
+          "photoCaption": "Puvirnituq hospital — Hospital building with a ramp and a Quebec flag. Archive photograph · 2007-06-24."
+        },
+        "es": {
+          "title": "Un tribunal ordena al centro de salud de Puvirnituq mejorar el acceso al agua",
+          "summary": "La orden abarca también las viviendas que el Centro de Salud Inuulitsivik proporciona al personal.",
+          "body": "El centro dispone de 90 días para evaluar las necesidades de agua del personal en Puvirnituq, según el sindicato FIQ, que el 26 de noviembre dio a conocer el fallo del día 20. El empleador también deberá intentar coordinar el suministro con el municipio.\n\nSegún La Presse Canadienne, el Tribunal Administrativo del Trabajo reconoció la vivienda facilitada por el empleador como condición laboral. El centro tiene un año para mejorar el acceso al agua y su almacenamiento tanto en el trabajo como en esas viviendas.",
+          "photoAlt": "Edificio del hospital con una rampa y una bandera de Quebec.",
+          "photoCaption": "Hospital de Puvirnituq — Edificio del hospital con una rampa y una bandera de Quebec. Foto de archivo · 2007-06-24."
+        },
+        "ar": {
+          "title": "محكمة تلزم مركز بوفيرنيتوك الصحي بتحسين إمدادات المياه",
+          "summary": "يشمل القرار أيضا المساكن التي يوفرها مركز إينوليتسيفيك الصحي لموظفيه.",
+          "body": "أمام المركز 90 يوما لتقييم احتياجات العاملين من المياه في بوفيرنيتوك، بحسب نقابة FIQ التي أعلنت في 26 نوفمبر مضمون حكم صدر في 20 منه. وعلى جهة العمل أيضا السعي إلى تنسيق الإمدادات مع البلدية.\n\nوأفادت وكالة الصحافة الكندية بأن محكمة العمل الإدارية اعتبرت السكن الذي توفره جهة العمل من شروط العمل. وأمهلت المركز سنة لتحسين الوصول إلى المياه وتخزينها في مكان العمل وفي تلك المساكن.",
+          "photoAlt": "مبنى المستشفى وأمامه منحدر وعلم كيبيك.",
+          "photoCaption": "مستشفى بوفيرنيتوك — مبنى المستشفى وأمامه منحدر وعلم كيبيك. صورة أرشيفية · 2007-06-24."
+        },
+        "zh-CN": {
+          "title": "法庭要求普维尔尼图克卫生中心改善供水",
+          "summary": "裁决也适用于因努利齐维克卫生中心为员工提供的住房。",
+          "body": "据工会FIQ介绍，卫生中心须在90天内评估普维尔尼图克员工的用水需求，并须设法与当地政府协调供水。工会于11月26日公布了这项11月20日作出的裁决。\n\n据加拿大通讯社报道，行政劳动法庭认定，雇主提供的住房属于工作条件。卫生中心须在一年内改善工作场所和员工住房的供水和储水条件。",
+          "photoAlt": "医院楼前有坡道，旁边悬挂着魁北克旗帜。",
+          "photoCaption": "普维尔尼图克医院 — 医院楼前有坡道，旁边悬挂着魁北克旗帜。 档案照片 · 2007-06-24."
+        },
+        "ru": {
+          "title": "Трибунал обязал медцентр в Пувирнитуке улучшить водоснабжение",
+          "summary": "Решение касается и жилья, которое медцентр Инуулитсивик предоставляет сотрудникам.",
+          "body": "У медцентра есть 90 дней, чтобы оценить потребности работников в воде в Пувирнитуке, сообщил профсоюз FIQ, обнародовавший 26 ноября решение от 20 ноября. Работодатель также должен попытаться наладить поставки воды совместно с муниципалитетом.\n\nПо данным The Canadian Press, административный трибунал по трудовым спорам признал предоставляемое работникам жильё одним из условий труда. Центру дали год, чтобы улучшить доступ к воде и её хранение на рабочих местах и в этих домах.",
+          "photoAlt": "Здание больницы с пандусом и флагом Квебека.",
+          "photoCaption": "Больница в Пувирнитуке — Здание больницы с пандусом и флагом Квебека. Архивное фото · 2007-06-24."
+        },
+        "ko": {
+          "title": "노동재판소, 푸비르니투크 보건센터에 급수 개선 명령",
+          "summary": "이누울리치비크 보건센터가 직원에게 제공하는 숙소도 명령 대상에 포함됐다.",
+          "body": "노조 FIQ가 11월 26일 공개한 20일자 결정에 따르면 보건센터는 90일 안에 푸비르니투크 직원들의 물 수요를 파악해야 한다. 고용주는 지방자치단체와 급수 조율에도 나서야 한다.\n\n캐나디안 프레스에 따르면 행정노동재판소는 고용주가 제공하는 숙소를 근로조건으로 인정했다. 센터는 1년 안에 일터와 직원 숙소에서 물을 구하고 저장하는 여건을 개선해야 한다.",
+          "photoAlt": "경사로와 퀘벡 깃발이 보이는 병원 건물.",
+          "photoCaption": "푸비르니투크 병원 — 경사로와 퀘벡 깃발이 보이는 병원 건물. 자료 사진 · 2007-06-24."
+        }
+      }
+    },
+    {
+      "eventKey": "israel-enquete-sept-octobre-lecture-preliminaire",
+      "category": "Monde",
+      "title": "La Knesset franchit une première étape vers une enquête d’État sur le 7 octobre",
+      "summary": "Le Parlement israélien a approuvé en lecture préliminaire un texte réclamé par des familles de victimes.",
+      "body": "La Knesset a approuvé le 25 novembre en lecture préliminaire un projet visant à créer une commission d’enquête d’État sur l’attaque du Hamas du 7 octobre 2023. Le Jerusalem Post rapporte que des proches de victimes ont assisté au vote depuis la tribune du Parlement.\n\nLa députée qui porte le texte, Orit Farkash-Hacohen, a salué le début du processus, selon le Times of Israel. D’autres lectures restent nécessaires avant la création de la commission, dont les membres seraient désignés par le président de la Cour suprême.",
+      "sources": [
+        {
+          "name": "The Times of Israel — déclaration de la députée Orit Farkash-Hacohen",
+          "url": "https://www.timesofisrael.com/liveblog_entry/knesset-advances-bill-establishing-state-commission-of-inquiry-into-october-7-failures/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "The Jerusalem Post",
+          "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-916114",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/isr.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Knesset_front_side_-_2022.jpg",
+        "credit": "Clema12",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Entrée de la Knesset à Jérusalem, avec son esplanade.",
+        "caption": "Entrée de la Knesset à Jérusalem, avec son esplanade. Photo d’archives · 2022-07-03."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Knesset takes first step towards state inquiry into October 7",
+          "summary": "Israeli lawmakers gave preliminary approval to a bill sought by victims’ families.",
+          "body": "On November 25 the Knesset gave preliminary approval to a bill to set up a state commission of inquiry into the Hamas attack of October 7, 2023. The Jerusalem Post reports that victims’ relatives watched the vote from the parliamentary gallery.\n\nThe bill’s sponsor, Orit Farkash-Hacohen, welcomed the start of the process, according to The Times of Israel. Further readings are required before the commission can be established. The Supreme Court president would appoint its members.",
+          "photoAlt": "Entrance to the Knesset in Jerusalem and its forecourt.",
+          "photoCaption": "Entrance to the Knesset in Jerusalem and its forecourt. Archive photograph · 2022-07-03."
+        },
+        "es": {
+          "title": "La Knéset da un primer paso hacia una investigación estatal sobre el 7 de octubre",
+          "summary": "El Parlamento israelí aprobó en lectura preliminar un proyecto reclamado por familias de víctimas.",
+          "body": "El 25 de noviembre la Knéset aprobó en lectura preliminar un proyecto para crear una comisión estatal de investigación sobre el ataque de Hamás del 7 de octubre de 2023. Según The Jerusalem Post, familiares de las víctimas siguieron la votación desde la tribuna.\n\nLa diputada promotora, Orit Farkash-Hacohen, celebró el inicio del proceso, según The Times of Israel. Aún se requieren más lecturas para crear la comisión, cuyos miembros designaría el presidente del Tribunal Supremo.",
+          "photoAlt": "Entrada de la Knéset en Jerusalén y su explanada.",
+          "photoCaption": "Entrada de la Knéset en Jerusalén y su explanada. Foto de archivo · 2022-07-03."
+        },
+        "ar": {
+          "title": "الكنيست يخطو خطوة أولى نحو تحقيق رسمي في هجوم 7 أكتوبر",
+          "summary": "وافق البرلمان الإسرائيلي في قراءة تمهيدية على مشروع طالبت به عائلات ضحايا.",
+          "body": "أقر الكنيست في 25 نوفمبر في قراءة تمهيدية مشروعا لإنشاء لجنة تحقيق رسمية في هجوم حماس في 7 أكتوبر 2023. وذكرت جيروزاليم بوست أن أقارب ضحايا تابعوا التصويت من شرفة البرلمان.\n\nورحبت النائبة مقدمة المشروع أوريت فركاش هكوهين ببدء العملية، بحسب تايمز أوف إسرائيل. ولا تزال هناك قراءات أخرى قبل إنشاء اللجنة التي سيعين رئيس المحكمة العليا أعضاءها.",
+          "photoAlt": "مدخل الكنيست في القدس والساحة أمامه.",
+          "photoCaption": "مدخل الكنيست في القدس والساحة أمامه. صورة أرشيفية · 2022-07-03."
+        },
+        "zh-CN": {
+          "title": "以色列议会初步通过就10月7日袭击设立国家调查委员会的法案",
+          "summary": "遇难者家属一直呼吁立法机构支持成立这一委员会。",
+          "body": "以色列议会11月25日初步通过一项法案，拟设国家调查委员会，调查哈马斯于2023年10月7日发动的袭击。据《耶路撒冷邮报》报道，遇难者家属在议会旁听席观看了表决。\n\n据《以色列时报》报道，提案议员奥里特·法尔卡什-哈科亨对程序启动表示欢迎。委员会成立前仍需经过多轮审议，其成员将由最高法院院长任命。",
+          "photoAlt": "耶路撒冷的以色列议会入口及门前广场。",
+          "photoCaption": "耶路撒冷的以色列议会入口及门前广场。 档案照片 · 2022-07-03."
+        },
+        "ru": {
+          "title": "Кнессет сделал первый шаг к государственному расследованию нападения 7 октября",
+          "summary": "Парламент Израиля предварительно одобрил законопроект, которого добивались семьи жертв.",
+          "body": "25 ноября Кнессет в предварительном чтении одобрил проект о создании государственной комиссии для расследования нападения ХАМАС 7 октября 2023 года. По данным The Jerusalem Post, родственники погибших наблюдали за голосованием с парламентской галереи.\n\nАвтор проекта Орит Фаркаш-Хакоэн приветствовала начало процесса, сообщает The Times of Israel. До создания комиссии предстоят дальнейшие чтения. Её членов назначит председатель Верховного суда.",
+          "photoAlt": "Вход в здание Кнессета в Иерусалиме и площадь перед ним.",
+          "photoCaption": "Вход в здание Кнессета в Иерусалиме и площадь перед ним. Архивное фото · 2022-07-03."
+        },
+        "ko": {
+          "title": "이스라엘 의회, 10월 7일 공격 국가조사위 설치 법안 예비 통과",
+          "summary": "희생자 가족들이 요구해 온 법안이 의회의 첫 문턱을 넘었다.",
+          "body": "이스라엘 의회는 11월 25일 하마스의 2023년 10월 7일 공격을 조사할 국가조사위원회 설치 법안을 예비 독회에서 통과시켰다. 예루살렘 포스트에 따르면 희생자 가족들이 방청석에서 표결을 지켜봤다.\n\n타임스 오브 이스라엘에 따르면 발의자인 오리트 파르카시하코헨 의원은 절차 개시를 환영했다. 위원회 설치까지 추가 독회가 필요하며 위원은 대법원장이 임명하게 된다.",
+          "photoAlt": "예루살렘의 이스라엘 의회 입구와 앞 광장.",
+          "photoCaption": "예루살렘의 이스라엘 의회 입구와 앞 광장. 자료 사진 · 2022-07-03."
+        }
+      }
+    },
+    {
+      "eventKey": "bresil-avions-sucre-reaction-consultation-americaine",
+      "category": "Économie",
+      "title": "Brasília veut négocier après la proposition américaine de taxer les avions et le sucre",
+      "summary": "Le Brésil réserve ses options devant l’OMC tandis que Washington ouvre une consultation.",
+      "body": "La présidence brésilienne a annoncé le 25 novembre qu’elle chercherait une issue négociée au différend sur le sucre et les avions. Dans son communiqué, elle laisse ouverte la possibilité d’une action devant l’Organisation mondiale du commerce ou de mesures de réciprocité.\n\nLe représentant américain au Commerce a soumis à consultation un droit additionnel de 10 % sur les avions finis importés du Brésil, aujourd’hui exemptés dans cette procédure. Il propose aussi une taxe spécifique sur le sucre. Ces taux restent au stade de propositions.",
+      "sources": [
+        {
+          "name": "Présidence du Brésil",
+          "url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/noticias/2026/11/nota-a-imprensa-sobre-as-tarifas-dos-estados-unidos-para-aeronaves-e-acucar-brasileiro",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "USTR",
+          "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/brazil.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fachada_do_Pal%C3%A1cio_do_Planalto_-_49727772326.jpg",
+        "credit": "Senado Federal",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Façade du palais du Planalto, siège de la présidence brésilienne.",
+        "caption": "Façade du palais du Planalto, siège de la présidence brésilienne. Photo d’archives · 2020-04-02."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Brasília seeks talks on proposed US aircraft and sugar duties",
+          "summary": "Brazil is keeping its WTO options open as Washington seeks public comment.",
+          "body": "Brazil’s presidency said on November 25 that it would seek a negotiated settlement over sugar and aircraft. Its statement left open the possibility of action at the World Trade Organization or reciprocal measures.\n\nThe US Trade Representative is seeking comment on an additional 10% duty on finished aircraft from Brazil, currently exempt under this proceeding. It also proposed a specific duty on sugar. The duties remain proposals.",
+          "photoAlt": "Facade of the Planalto Palace, seat of the Brazilian presidency.",
+          "photoCaption": "Facade of the Planalto Palace, seat of the Brazilian presidency. Archive photograph · 2020-04-02."
+        },
+        "es": {
+          "title": "Brasilia busca negociar los aranceles estadounidenses propuestos para aviones y azúcar",
+          "summary": "Brasil mantiene abiertas sus opciones ante la OMC mientras Washington abre una consulta.",
+          "body": "La presidencia brasileña anunció el 25 de noviembre que buscará una salida negociada al diferendo sobre azúcar y aviones. Su comunicado deja abierta una actuación ante la Organización Mundial del Comercio o la aplicación de medidas de reciprocidad.\n\nLa oficina del representante comercial de Estados Unidos consulta sobre un arancel adicional del 10 % a los aviones terminados de Brasil, hoy exentos en este procedimiento. También propone un gravamen específico sobre el azúcar. Ambos siguen siendo propuestas.",
+          "photoAlt": "Fachada del Palacio del Planalto, sede de la presidencia brasileña.",
+          "photoCaption": "Fachada del Palacio del Planalto, sede de la presidencia brasileña. Foto de archivo · 2020-04-02."
+        },
+        "ar": {
+          "title": "برازيليا تسعى للتفاوض بشأن رسوم أميركية مقترحة على الطائرات والسكر",
+          "summary": "البرازيل تبقي خياراتها مفتوحة أمام منظمة التجارة العالمية فيما تطلب واشنطن آراء الجمهور.",
+          "body": "أعلنت الرئاسة البرازيلية في 25 نوفمبر أنها ستسعى إلى تسوية تفاوضية للخلاف حول السكر والطائرات. وأبقى بيانها الباب مفتوحا أمام اللجوء إلى منظمة التجارة العالمية أو اتخاذ تدابير بالمثل.\n\nويطلب مكتب الممثل التجاري الأميركي التعليق على رسم إضافي قدره 10% على الطائرات البرازيلية المكتملة المعفاة حاليا ضمن هذا الإجراء. واقترح أيضا رسما نوعيا على السكر. ولا يزال الرسمان قيد الاقتراح.",
+          "photoAlt": "واجهة قصر بلانالتو، مقر الرئاسة البرازيلية.",
+          "photoCaption": "واجهة قصر بلانالتو، مقر الرئاسة البرازيلية. صورة أرشيفية · 2020-04-02."
+        },
+        "zh-CN": {
+          "title": "巴西寻求就美国拟征的飞机和食糖关税展开谈判",
+          "summary": "华盛顿征求公众意见之际，巴西保留诉诸世贸组织的选项。",
+          "body": "巴西总统府11月25日表示，将寻求通过谈判解决食糖和飞机贸易争端。声明保留向世界贸易组织提起诉讼或采取对等措施的可能性。\n\n美国贸易代表办公室正就对巴西进口整机加征10%关税征求意见。这些飞机目前在该程序下享有豁免。美方还提议对食糖征收从量税，两项措施都仍是提案。",
+          "photoAlt": "巴西总统府普拉纳尔托宫的正面。",
+          "photoCaption": "巴西总统府普拉纳尔托宫的正面。 档案照片 · 2020-04-02."
+        },
+        "ru": {
+          "title": "Бразилия добивается переговоров о предложенных США пошлинах на самолёты и сахар",
+          "summary": "Пока Вашингтон собирает отзывы, Бразилия сохраняет возможность обращения в ВТО.",
+          "body": "Администрация президента Бразилии 25 ноября объявила, что будет добиваться урегулирования спора о сахаре и самолётах путём переговоров. В заявлении она допустила обращение во Всемирную торговую организацию или ответные меры.\n\nТорговое представительство США вынесло на обсуждение дополнительную пошлину в 10% на готовые самолёты из Бразилии, пока освобождённые от неё в рамках этой процедуры. Предложена также специфическая пошлина на сахар. Обе меры остаются предложениями.",
+          "photoAlt": "Фасад дворца Планалту, резиденции администрации президента Бразилии.",
+          "photoCaption": "Фасад дворца Планалту, резиденции администрации президента Бразилии. Архивное фото · 2020-04-02."
+        },
+        "ko": {
+          "title": "브라질, 미국의 항공기·설탕 관세안에 협상 추진",
+          "summary": "미국이 의견 수렴에 나서자 브라질은 세계무역기구 제소 가능성도 열어 뒀다.",
+          "body": "브라질 대통령실은 11월 25일 설탕과 항공기를 둘러싼 분쟁의 협상 해결을 모색하겠다고 밝혔다. 성명은 세계무역기구 제소나 상응 조치 가능성도 남겼다.\n\n미국 무역대표부는 해당 절차에서 현재 면제되는 브라질산 완성 항공기에 10%의 추가 관세를 부과하는 방안에 대해 의견을 받고 있다. 설탕에는 종량세를 제안했다. 두 조치 모두 제안 단계다.",
+          "photoAlt": "브라질 대통령 집무실이 있는 플라나우투궁 정면.",
+          "photoCaption": "브라질 대통령 집무실이 있는 플라나우투궁 정면. 자료 사진 · 2020-04-02."
+        }
+      }
+    },
+    {
+      "eventKey": "ontario-sondage-liaison-bains-novembre",
+      "category": "Canada",
+      "title": "En Ontario, les progressistes-conservateurs devancent les libéraux de 12 points",
+      "summary": "Le premier sondage provincial depuis l’élection de Navdeep Bains donne 41 % au parti de Doug Ford et 29 % aux libéraux.",
+      "body": "Liaison Strategies a interrogé par téléphone 1 000 Ontariens les 23 et 24 novembre. Dans les résultats publiés le 26, les progressistes-conservateurs recueillent 41 % des intentions de vote, devant les libéraux à 29 % et le NPD à 24 %.\n\nSelon Global News, 42 % des répondants disent ne pas connaître Navdeep Bains, élu chef libéral le 21 novembre. Le sondage donne ainsi une première mesure de sa notoriété dans la province depuis le scrutin interne. La marge d’erreur annoncée est de 3,1 points.",
+      "sources": [
+        {
+          "name": "Liaison Strategies",
+          "url": "https://www.liaison.ca/polls/ontario-pcs-lead-by-12-bains-19-favourable-november-26-2026",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Global News",
+          "url": "https://globalnews.ca/news/12166777/no-bains-bump-in-first-province-wide-poll-since-new-ontario-liberal-leader-crowned/",
+          "publishedAt": "2026-11-26T06:00:00-05:00"
+        }
+      ],
+      "photo": {
+        "download": "media/ont.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Navdeep_Bains3_(cropped)2.jpg",
+        "credit": "Vaughn Ridley/Collision via Sportsfile",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Portrait de Navdeep Bains coiffé d’un turban rouge.",
+        "caption": "Portrait de Navdeep Bains coiffé d’un turban rouge. Photo d’archives · 2019-05-22."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Ontario PCs lead Liberals by 12 points in poll",
+          "summary": "The first provincial poll since Navdeep Bains won the leadership puts Doug Ford’s party at 41% and the Liberals at 29%.",
+          "body": "Liaison Strategies surveyed 1,000 Ontarians by telephone on November 23 and 24. In results released on November 26, the Progressive Conservatives received 41% support, the Liberals 29% and the NDP 24%.\n\nGlobal News reports that 42% of respondents said they were unfamiliar with Bains, elected Liberal leader on November 21. The poll provides an early measure of his name recognition across Ontario after the party vote. The reported margin of error is 3.1 points.",
+          "photoAlt": "Portrait of Navdeep Bains wearing a red turban.",
+          "photoCaption": "Portrait of Navdeep Bains wearing a red turban. Archive photograph · 2019-05-22."
+        },
+        "es": {
+          "title": "Los conservadores progresistas de Ontario aventajan en 12 puntos a los liberales",
+          "summary": "El primer sondeo provincial tras la elección de Navdeep Bains sitúa al partido de Doug Ford en el 41 % y a los liberales en el 29 %.",
+          "body": "Liaison Strategies entrevistó por teléfono a 1.000 habitantes de Ontario los días 23 y 24 de noviembre. En los resultados publicados el 26, los conservadores progresistas obtuvieron el 41 %, los liberales el 29 % y el NPD el 24 %.\n\nSegún Global News, el 42 % dijo no conocer a Bains, elegido líder liberal el 21 de noviembre. Es una primera medida de su notoriedad en la provincia tras la votación interna. El margen de error declarado es de 3,1 puntos.",
+          "photoAlt": "Retrato de Navdeep Bains con turbante rojo.",
+          "photoCaption": "Retrato de Navdeep Bains con turbante rojo. Foto de archivo · 2019-05-22."
+        },
+        "ar": {
+          "title": "محافظو أونتاريو التقدميون يتقدمون على الليبراليين بـ12 نقطة",
+          "summary": "أعطى أول استطلاع إقليمي بعد انتخاب نافديب باينز حزب دوغ فورد 41% والليبراليين 29%.",
+          "body": "استطلعت مؤسسة ليازون ستراتيجيز هاتفيا آراء ألف شخص في أونتاريو يومي 23 و24 نوفمبر. وفي النتائج المنشورة في 26 نوفمبر، نال المحافظون التقدميون 41% والليبراليون 29% والحزب الديمقراطي الجديد 24%.\n\nوبحسب غلوبال نيوز، قال 42% إنهم لا يعرفون باينز الذي انتخب زعيما لليبراليين في 21 نوفمبر. ويقدم الاستطلاع مؤشرا أوليا إلى مدى شهرته في المقاطعة بعد تصويت الحزب. ويبلغ هامش الخطأ المعلن 3.1 نقاط.",
+          "photoAlt": "صورة لنافديب باينز بعمامة حمراء.",
+          "photoCaption": "صورة لنافديب باينز بعمامة حمراء. صورة أرشيفية · 2019-05-22."
+        },
+        "zh-CN": {
+          "title": "安大略省民调显示进步保守党领先自由党12个百分点",
+          "summary": "纳夫迪普·贝恩斯当选党领后的首份全省民调显示，道格·福特领导的政党支持率为41%，自由党为29%。",
+          "body": "民调机构Liaison Strategies于11月23日和24日电话调查了1000名安大略省居民。26日公布的结果显示，进步保守党支持率为41%，自由党为29%，新民主党为24%。\n\n据环球新闻报道，42%的受访者表示不熟悉11月21日当选自由党党领的贝恩斯。这是党内选举后首次衡量他在全省知名度的民调，公布的误差幅度为3.1个百分点。",
+          "photoAlt": "戴红色头巾的纳夫迪普·贝恩斯。",
+          "photoCaption": "戴红色头巾的纳夫迪普·贝恩斯。 档案照片 · 2019-05-22."
+        },
+        "ru": {
+          "title": "Прогрессивные консерваторы Онтарио опережают либералов на 12 пунктов",
+          "summary": "В первом провинциальном опросе после избрания Навдипа Бейнса партия Дага Форда получила 41%, а либералы — 29%.",
+          "body": "Компания Liaison Strategies опросила по телефону тысячу жителей Онтарио 23 и 24 ноября. Согласно результатам, опубликованным 26 ноября, прогрессивных консерваторов поддержали 41%, либералов — 29%, а Новую демократическую партию — 24%.\n\nКак сообщает Global News, 42% опрошенных не знают Бейнса, избранного лидером либералов 21 ноября. Это первая оценка его узнаваемости в провинции после партийных выборов. Заявленная погрешность составляет 3,1 пункта.",
+          "photoAlt": "Навдип Бейнс в красном тюрбане.",
+          "photoCaption": "Навдип Бейнс в красном тюрбане. Архивное фото · 2019-05-22."
+        },
+        "ko": {
+          "title": "온타리오 여론조사서 진보보수당이 자유당에 12%포인트 앞서",
+          "summary": "나브디프 베인스 대표 선출 뒤 첫 주 전체 조사에서 더그 포드의 정당은 41%, 자유당은 29%를 기록했다.",
+          "body": "리에종 스트래티지스가 11월 23일과 24일 온타리오 주민 1,000명을 전화로 조사했다. 26일 발표한 결과에서 진보보수당은 41%, 자유당은 29%, 신민주당은 24%의 지지를 받았다.\n\n글로벌 뉴스에 따르면 응답자의 42%가 11월 21일 자유당 대표로 선출된 베인스를 잘 모른다고 답했다. 당내 투표 뒤 그의 주 전체 인지도를 처음 측정한 결과다. 발표된 오차범위는 3.1%포인트다.",
+          "photoAlt": "붉은 터번을 쓴 나브디프 베인스.",
+          "photoCaption": "붉은 터번을 쓴 나브디프 베인스. 자료 사진 · 2019-05-22."
+        }
+      }
+    },
+    {
+      "eventKey": "pologne-projet-zone-interdiction-vol-frontiere-est",
+      "category": "Monde",
+      "title": "La Pologne prépare une zone d’interdiction de vol le long de sa frontière orientale",
+      "summary": "Le vice-ministre de la Défense vise une entrée en vigueur fin décembre ou début janvier.",
+      "body": "Le vice-ministre polonais de la Défense, Cezary Tomczyk, a présenté le 25 novembre un projet de restriction des vols à l’est du pays. Lors d’un point de presse repris par Reuters, il a dit vouloir faciliter la protection de l’espace aérien et encourager les alliés de la région à envisager des mesures similaires.\n\nSelon la radio publique polonaise, le ministère a préparé deux projets de règlement. Le périmètre précis reste à annoncer. L’échéance évoquée par le vice-ministre, fin décembre ou début janvier, constitue un objectif gouvernemental.",
+      "sources": [
+        {
+          "name": "Polskie Radio / IAR / PAP — point de presse de Cezary Tomczyk",
+          "url": "https://www.polskieradio.pl/395/7784/artykul/3757226,poland-plans-nofly-zone-along-eastern-border-after-russian-airspace-violations",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/polish-defence-official-calls-regional-border-no-fly-zones-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/pol.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Min._Cezary_Tomczyk_2023_(cropped_2).jpg",
+        "credit": "Ministry of National Defence",
+        "license": "CC BY 3.0 pl",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
+        "alt": "Portrait de Cezary Tomczyk en costume et cravate.",
+        "caption": "Portrait de Cezary Tomczyk en costume et cravate. Photo d’archives · 2023."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Poland plans no-fly zone along its eastern border",
+          "summary": "The deputy defence minister wants the rules in place in late December or early January.",
+          "body": "Polish Deputy Defence Minister Cezary Tomczyk outlined proposed flight restrictions in the east on November 25. At a briefing covered by Reuters, he said he wanted to make it easier to protect Polish airspace and would encourage regional allies to consider similar steps.\n\nPolish public radio reports that the ministry has prepared two draft regulations. The precise boundaries have yet to be announced. Late December or early January is the government’s target, according to the deputy minister.",
+          "photoAlt": "Portrait of Cezary Tomczyk in a suit and tie.",
+          "photoCaption": "Portrait of Cezary Tomczyk in a suit and tie. Archive photograph · 2023."
+        },
+        "es": {
+          "title": "Polonia prepara una zona de exclusión aérea en su frontera oriental",
+          "summary": "El viceministro de Defensa quiere que las normas rijan a finales de diciembre o principios de enero.",
+          "body": "El viceministro polaco de Defensa, Cezary Tomczyk, presentó el 25 de noviembre un plan para restringir los vuelos en el este. En una rueda de prensa cubierta por Reuters, dijo que busca facilitar la protección del espacio aéreo y animar a los aliados regionales a considerar medidas similares.\n\nLa radio pública polaca informa de que el ministerio ha preparado dos proyectos de reglamento. Falta anunciar los límites exactos. Según el viceministro, el Gobierno aspira a aplicar las normas a finales de diciembre o principios de enero.",
+          "photoAlt": "Retrato de Cezary Tomczyk con traje y corbata.",
+          "photoCaption": "Retrato de Cezary Tomczyk con traje y corbata. Foto de archivo · 2023."
+        },
+        "ar": {
+          "title": "بولندا تعتزم إنشاء منطقة حظر طيران بمحاذاة حدودها الشرقية",
+          "summary": "يأمل نائب وزير الدفاع بدء تطبيق القواعد أواخر ديسمبر أو مطلع يناير.",
+          "body": "عرض نائب وزير الدفاع البولندي تشيزاري تومتشيك في 25 نوفمبر خطة لتقييد الطيران في شرق البلاد. وقال في إحاطة نقلتها رويترز إن هدفه تسهيل حماية المجال الجوي وتشجيع الحلفاء في المنطقة على دراسة خطوات مماثلة.\n\nوذكرت الإذاعة العامة البولندية أن الوزارة أعدت مشروعي لائحتين. ولم تعلن بعد الحدود الدقيقة. وقال نائب الوزير إن الحكومة تستهدف أواخر ديسمبر أو مطلع يناير للتطبيق.",
+          "photoAlt": "صورة لتشيزاري تومتشيك بالبدلة وربطة العنق.",
+          "photoCaption": "صورة لتشيزاري تومتشيك بالبدلة وربطة العنق. صورة أرشيفية · 2023."
+        },
+        "zh-CN": {
+          "title": "波兰拟在东部边境设立禁飞区",
+          "summary": "国防部副部长希望新规定于12月底或1月初生效。",
+          "body": "波兰国防部副部长切扎里·托姆奇克11月25日介绍了限制东部地区飞行的方案。据路透社报道，他在记者会上表示，希望以此加强领空保护，并鼓励地区盟友考虑类似措施。\n\n据波兰公共广播电台报道，该部已起草两份条例草案，确切范围尚待公布。副部长表示，政府的实施目标是12月底或1月初。",
+          "photoAlt": "身穿西装、系领带的切扎里·托姆奇克。",
+          "photoCaption": "身穿西装、系领带的切扎里·托姆奇克。 档案照片 · 2023."
+        },
+        "ru": {
+          "title": "Польша готовит бесполётную зону вдоль восточной границы",
+          "summary": "Замминистра обороны рассчитывает ввести правила в конце декабря или начале января.",
+          "body": "Заместитель министра обороны Польши Цезарий Томчик 25 ноября представил план ограничения полётов на востоке страны. На брифинге, который освещало Reuters, он пояснил, что хочет облегчить защиту воздушного пространства и предложить союзникам в регионе рассмотреть сходные меры.\n\nПо данным Польского радио, министерство подготовило два проекта постановлений. Точные границы ещё предстоит объявить. По словам Томчика, правительство ориентируется на конец декабря или начало января.",
+          "photoAlt": "Портрет Цезария Томчика в костюме и галстуке.",
+          "photoCaption": "Портрет Цезария Томчика в костюме и галстуке. Архивное фото · 2023."
+        },
+        "ko": {
+          "title": "폴란드, 동부 국경 따라 비행금지구역 추진",
+          "summary": "국방차관은 12월 말이나 1월 초에 새 규정을 시행하는 것이 목표라고 말했다.",
+          "body": "체자리 톰치크 폴란드 국방차관이 11월 25일 동부 지역의 비행 제한안을 공개했다. 로이터가 보도한 브리핑에서 그는 영공 보호를 수월하게 하고 역내 동맹국에도 비슷한 조치를 검토하도록 권하겠다고 말했다.\n\n폴란드 공영라디오에 따르면 국방부는 규정 초안 두 건을 마련했다. 정확한 경계는 아직 발표되지 않았다. 차관이 제시한 12월 말 또는 1월 초는 정부가 목표로 삼은 시점이다.",
+          "photoAlt": "양복에 넥타이를 착용한 체자리 톰치크의 초상.",
+          "photoCaption": "양복에 넥타이를 착용한 체자리 톰치크의 초상. 자료 사진 · 2023."
+        }
+      }
+    },
+    {
+      "eventKey": "montreal-budget-reponse-mairesse-comparaison-macaroni",
+      "category": "Québec",
+      "title": "Budget de Montréal : la mairesse revient sur sa comparaison avec le Kraft Dinner",
+      "summary": "Après la présentation du budget de 2027, Soraya Martinez Ferrada a reconnu que sa comparaison alimentaire était maladroite.",
+      "body": "Dans une entrevue à Quatre95 sur le budget municipal, Soraya Martinez Ferrada avait comparé les choix de la Ville à ceux d’un ménage qui remplace du filet mignon par du macaroni en boîte. Le commentaire a suscité des critiques alors que le projet de budget prévoit une hausse moyenne de 9,8 % des taxes foncières résidentielles, rapporte Global News.\n\nLe développement depuis la présentation du budget est la réponse de la mairesse. Le 25 novembre, elle a reconnu la maladresse de la formule et expliqué qu’elle parlait des priorités de dépenses de la Ville.",
+      "sources": [
+        {
+          "name": "Quatre95 / URBANIA",
+          "url": "https://urbania.ca/video/le-budget-de-montreal-en-4-questions",
+          "publishedAt": "2026-11-25T15:01:04-05:00"
+        },
+        {
+          "name": "Global News",
+          "url": "https://globalnews.ca/news/12166634/montreal-mayor-apologizes-kraft-dinner-tax-hike-backlash/",
+          "publishedAt": "2026-11-25T21:58:00-05:00"
+        }
+      ],
+      "photo": {
+        "download": "media/mtl.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montreal_City_Hall_2026.JPG",
+        "credit": "Canmenwalker",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "alt": "Façade de pierre et entrée principale de l’hôtel de ville de Montréal.",
+        "caption": "Façade de pierre et entrée principale de l’hôtel de ville de Montréal. Photo d’archives · 2026."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Montreal mayor revisits Kraft Dinner comparison over city budget",
+          "summary": "After presenting the 2027 budget, Soraya Martinez Ferrada acknowledged that her food analogy was ill-chosen.",
+          "body": "In a Quatre95 interview on the municipal budget, Soraya Martinez Ferrada compared the city’s choices to a household swapping filet mignon for boxed macaroni. Global News reports that the remarks drew criticism as the proposed budget calls for an average 9.8% increase in residential property taxes.\n\nThe development since the budget presentation is the mayor’s response. On November 25 she acknowledged the poor choice of words and explained that she was referring to the city’s spending priorities.",
+          "photoAlt": "Stone facade and main entrance of Montreal City Hall.",
+          "photoCaption": "Stone facade and main entrance of Montreal City Hall. Archive photograph · 2026."
+        },
+        "es": {
+          "title": "La alcaldesa de Montreal rectifica su comparación con los macarrones Kraft Dinner",
+          "summary": "Tras presentar el presupuesto de 2027, Soraya Martinez Ferrada reconoció que la analogía fue desafortunada.",
+          "body": "En una entrevista con Quatre95 sobre el presupuesto, Martinez Ferrada comparó las decisiones municipales con las de una familia que cambia el solomillo por macarrones de caja. Según Global News, sus palabras suscitaron críticas cuando el proyecto prevé subir un 9,8 % de media el impuesto residencial sobre la propiedad.\n\nLa novedad tras la presentación del presupuesto es la respuesta de la alcaldesa. El 25 de noviembre reconoció que había elegido mal las palabras y explicó que se refería a las prioridades de gasto de la ciudad.",
+          "photoAlt": "Fachada de piedra y entrada principal del ayuntamiento de Montreal.",
+          "photoCaption": "Fachada de piedra y entrada principal del ayuntamiento de Montreal. Foto de archivo · 2026."
+        },
+        "ar": {
+          "title": "رئيسة بلدية مونتريال تتراجع عن تشبيه خيارات الميزانية بوجبة معكرونة جاهزة",
+          "summary": "أقرت سورايا مارتينيز فيرادا بعد عرض ميزانية 2027 بأن تشبيهها الغذائي لم يكن موفقا.",
+          "body": "في مقابلة مع منصة Quatre95 حول الميزانية، شبهت رئيسة البلدية خيارات المدينة بخيارات عائلة تستعيض عن قطع اللحم الفاخرة بمعكرونة معلبة. وذكرت غلوبال نيوز أن التعليق أثار انتقادات في وقت يقترح فيه المشروع زيادة الضرائب العقارية السكنية بنسبة 9.8% في المتوسط.\n\nوالتطور منذ عرض الميزانية هو رد رئيسة البلدية. فقد أقرت في 25 نوفمبر بسوء اختيار الكلمات وأوضحت أنها كانت تتحدث عن أولويات الإنفاق البلدي.",
+          "photoAlt": "الواجهة الحجرية والمدخل الرئيسي لمبنى بلدية مونتريال.",
+          "photoCaption": "الواجهة الحجرية والمدخل الرئيسي لمبنى بلدية مونتريال. صورة أرشيفية · 2026."
+        },
+        "zh-CN": {
+          "title": "蒙特利尔市长回应以盒装通心粉比喻预算取舍的争议",
+          "summary": "在公布2027年预算后，索拉娅·马丁内斯·费拉达承认用食物作比喻并不妥当。",
+          "body": "马丁内斯·费拉达在Quatre95关于市政预算的采访中，将政府的选择比作家庭用盒装通心粉代替菲力牛排。据环球新闻报道，在预算草案拟将住宅房产税平均提高9.8%之际，这番话引起批评。\n\n预算公布后的新进展是市长的回应。她于11月25日承认措辞不当，并解释说她指的是市政支出的优先顺序。",
+          "photoAlt": "蒙特利尔市政厅的石质外墙和正门。",
+          "photoCaption": "蒙特利尔市政厅的石质外墙和正门。 档案照片 · 2026."
+        },
+        "ru": {
+          "title": "Мэр Монреаля признала неудачным сравнение городского бюджета с выбором макарон",
+          "summary": "После представления бюджета на 2027 год Сорайя Мартинес Феррада признала неудачной свою аналогию с едой.",
+          "body": "В интервью Quatre95 Мартинес Феррада сравнила бюджетный выбор города с решением семьи заменить филе-миньон макаронами из коробки. По данным Global News, высказывание вызвало критику на фоне проекта повышения налога на жилую недвижимость в среднем на 9,8%.\n\nНовой после презентации бюджета стала реакция мэра. 25 ноября она признала, что неудачно подобрала слова, и пояснила, что говорила о приоритетах городских расходов.",
+          "photoAlt": "Каменный фасад и главный вход ратуши Монреаля.",
+          "photoCaption": "Каменный фасад и главный вход ратуши Монреаля. Архивное фото · 2026."
+        },
+        "ko": {
+          "title": "몬트리올 시장, 예산을 즉석 마카로니에 빗댄 발언에 해명",
+          "summary": "소라야 마르티네스 페라다 시장은 2027년 예산안 발표 뒤 음식에 빗댄 표현이 부적절했다고 인정했다.",
+          "body": "마르티네스 페라다 시장은 Quatre95와의 예산 인터뷰에서 시의 선택을 가정에서 안심 스테이크 대신 상자에 든 마카로니를 먹는 데 빗댔다. 글로벌 뉴스에 따르면 주택 재산세를 평균 9.8% 인상하는 예산안이 나온 상황에서 발언에 비판이 일었다.\n\n예산 발표 이후 새로 나온 것은 시장의 답변이다. 시장은 11월 25일 표현이 부적절했다고 인정하며 시의 지출 우선순위를 이야기한 것이라고 설명했다.",
+          "photoAlt": "몬트리올 시청의 석조 외벽과 정문.",
+          "photoCaption": "몬트리올 시청의 석조 외벽과 정문. 자료 사진 · 2026."
+        }
+      }
+    },
+    {
+      "eventKey": "pets-at-home-benefice-semestriel-novembre",
+      "category": "Économie",
+      "title": "Pets at Home porte son bénéfice avant impôt à 52,2 millions de livres",
+      "summary": "Le groupe britannique annonce une hausse de 44,2 % sur les 28 semaines closes le 8 octobre.",
+      "body": "Le distributeur britannique Pets at Home a publié le 25 novembre un bénéfice avant impôt de 52,2 millions de livres pour son premier semestre, contre 36,2 millions un an plus tôt. Son chiffre d’affaires consolidé atteint 809,1 millions de livres, en hausse de 3,9 % selon ses comptes.\n\nLe rebond est particulièrement marqué dans la distribution. Son bénéfice sous-jacent avant impôt passe de 3,5 à 16 millions de livres. City AM rapporte que le directeur général James Bailey a également présenté aux actionnaires sa stratégie associant magasins, soins vétérinaires et assurance.",
+      "sources": [
+        {
+          "name": "Pets at Home Group",
+          "url": "https://www.petsathomeplc.com/media/zl5fnnji/pets-at-home-fy27-interims-combined-final.pdf",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "City AM",
+          "url": "https://www.cityam.com/pets-at-home-profit-jumps-as-ex-waitrose-boss-leads-turnaround/",
+          "publishedAt": "2026-11-25T12:27:00Z"
+        }
+      ],
+      "photo": {
+        "download": "media/pets.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pets_at_Home_shop,_Treliske_Retail_Park,_Truro,_Cornwall_-_July_2024.jpg",
+        "credit": "Mutney",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Enseigne verte à l’entrée du magasin Pets at Home de Truro.",
+        "caption": "Enseigne verte à l’entrée du magasin Pets at Home de Truro. Photo d’archives · 2024-07-28."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Pets at Home lifts pre-tax profit to £52.2 million",
+          "summary": "The British group reported a 44.2% increase over the 28 weeks to October 8.",
+          "body": "British retailer Pets at Home reported first-half pre-tax profit of £52.2 million on November 25, up from £36.2 million a year earlier. Consolidated revenue reached £809.1 million, up 3.9%, according to its accounts.\n\nRetail showed a particularly sharp recovery. Its underlying pre-tax profit rose from £3.5 million to £16 million. City AM reports that chief executive James Bailey also presented shareholders with his strategy spanning stores, veterinary care and insurance.",
+          "photoAlt": "Green sign at the entrance to the Pets at Home store in Truro.",
+          "photoCaption": "Green sign at the entrance to the Pets at Home store in Truro. Archive photograph · 2024-07-28."
+        },
+        "es": {
+          "title": "Pets at Home eleva su beneficio antes de impuestos a 52,2 millones de libras",
+          "summary": "El grupo británico registró un alza del 44,2 % en las 28 semanas hasta el 8 de octubre.",
+          "body": "Pets at Home anunció el 25 de noviembre un beneficio semestral antes de impuestos de 52,2 millones de libras, frente a 36,2 millones un año antes. Según sus cuentas, los ingresos consolidados subieron un 3,9 %, hasta 809,1 millones.\n\nLa recuperación fue especialmente marcada en las tiendas. Su beneficio subyacente antes de impuestos pasó de 3,5 a 16 millones de libras. Según City AM, el director ejecutivo James Bailey también presentó a los accionistas su estrategia de tiendas, atención veterinaria y seguros.",
+          "photoAlt": "Letrero verde en la entrada de la tienda Pets at Home de Truro.",
+          "photoCaption": "Letrero verde en la entrada de la tienda Pets at Home de Truro. Foto de archivo · 2024-07-28."
+        },
+        "ar": {
+          "title": "أرباح Pets at Home قبل الضرائب ترتفع إلى 52.2 مليون جنيه إسترليني",
+          "summary": "أعلنت المجموعة البريطانية زيادة بنسبة 44.2% في الأسابيع الثمانية والعشرين المنتهية في 8 أكتوبر.",
+          "body": "أعلنت شركة Pets at Home البريطانية في 25 نوفمبر أن أرباح نصف السنة قبل الضرائب بلغت 52.2 مليون جنيه مقابل 36.2 مليونا قبل عام. وبحسب حساباتها ارتفعت الإيرادات الموحدة 3.9% لتصل إلى 809.1 ملايين جنيه.\n\nوكان التعافي واضحا خصوصا في قطاع التجزئة، حيث ارتفعت الأرباح الأساسية قبل الضرائب من 3.5 ملايين إلى 16 مليون جنيه. وذكرت سيتي إيه إم أن الرئيس التنفيذي جيمس بيلي عرض على المساهمين استراتيجيته التي تشمل المتاجر والرعاية البيطرية والتأمين.",
+          "photoAlt": "لافتة خضراء عند مدخل متجر Pets at Home في ترورو.",
+          "photoCaption": "لافتة خضراء عند مدخل متجر Pets at Home في ترورو. صورة أرشيفية · 2024-07-28."
+        },
+        "zh-CN": {
+          "title": "英国Pets at Home税前利润升至5220万英镑",
+          "summary": "英国集团报告，截至10月8日的28周内，税前利润增长44.2%。",
+          "body": "英国零售商Pets at Home于11月25日公布上半财年税前利润为5220万英镑，上年同期为3620万英镑。财报显示，集团合并收入增长3.9%，至8.091亿英镑。\n\n零售业务反弹尤其明显，基础税前利润从350万英镑升至1600万英镑。据City AM报道，首席执行官詹姆斯·贝利还向股东介绍了涵盖门店、兽医服务和保险的战略。",
+          "photoAlt": "特鲁罗Pets at Home门店入口处的绿色招牌。",
+          "photoCaption": "特鲁罗Pets at Home门店入口处的绿色招牌。 档案照片 · 2024-07-28."
+        },
+        "ru": {
+          "title": "Прибыль Pets at Home до налогов выросла до 52,2 млн фунтов",
+          "summary": "Британская группа сообщила о росте на 44,2% за 28 недель по 8 октября.",
+          "body": "25 ноября британская сеть Pets at Home сообщила, что прибыль до налогов за полугодие составила 52,2 млн фунтов против 36,2 млн годом ранее. Согласно отчётности, консолидированная выручка выросла на 3,9%, до 809,1 млн фунтов.\n\nОсобенно заметным стало восстановление розницы. Её базовая прибыль до налогов выросла с 3,5 млн до 16 млн фунтов. По данным City AM, гендиректор Джеймс Бейли также представил акционерам стратегию, объединяющую магазины, ветеринарные услуги и страхование.",
+          "photoAlt": "Зелёная вывеска у входа в магазин Pets at Home в Труро.",
+          "photoCaption": "Зелёная вывеска у входа в магазин Pets at Home в Труро. Архивное фото · 2024-07-28."
+        },
+        "ko": {
+          "title": "영국 펫츠앳홈, 세전이익 5,220만 파운드로 증가",
+          "summary": "10월 8일까지 28주 동안 세전이익이 전년 동기보다 44.2% 늘었다.",
+          "body": "영국 유통업체 펫츠앳홈은 11월 25일 상반기 세전이익이 5,220만 파운드로 전년 동기 3,620만 파운드에서 늘었다고 발표했다. 연결매출은 3.9% 증가한 8억910만 파운드였다.\n\n특히 소매 부문의 회복이 두드러졌다. 이 부문의 기초 세전이익은 350만 파운드에서 1,600만 파운드로 늘었다. 시티AM에 따르면 제임스 베일리 최고경영자는 매장과 동물 진료, 보험을 아우르는 전략도 주주들에게 설명했다.",
+          "photoAlt": "트루로 펫츠앳홈 매장 입구의 초록색 간판.",
+          "photoCaption": "트루로 펫츠앳홈 매장 입구의 초록색 간판. 자료 사진 · 2024-07-28."
+        }
+      }
+    },
+    {
+      "eventKey": "real-madrid-psv-double-mbappe",
+      "category": "Sports",
+      "title": "Madrid reste en tête après le doublé de Mbappé contre le PSV",
+      "summary": "Après cinq rencontres de Ligue des champions, Real Madrid compte 15 points et PSV Eindhoven en totalise 4.",
+      "body": "La feuille de match de l’UEFA donne le score final de la rencontre du 24 novembre au Santiago Bernabéu : Real Madrid 5, PSV Eindhoven 1. Selon le compte rendu d’ESPN, mené après le penalty d’Ivan Perisic, le Real a marqué cinq fois en seconde période. Kylian Mbappé a inscrit les troisième et quatrième buts madrilènes.\n\nÀ l’issue de la cinquième journée, Real Madrid occupe le rang 1 et PSV Eindhoven le rang 30. Selon le calendrier de l’UEFA, leurs prochains adversaires en décembre seront respectivement Arsenal et Atlético de Madrid.",
+      "sources": [
+        {
+          "name": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049625--real-madrid-vs-psv/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915298/psv-eindhoven-real-madrid",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "UEFA — résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/401915298.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Estadio_Santiago_Bernab%C3%A9u_%E2%80%94_Real_Madrid_Juvenil_A_-_Santiago_Wanderers_Sub-20_(Intercontinental_Sub-20_2026)_%E2%80%94_R%C3%A9cord_de_asistencia_en_un_partido_de_juveniles.jpg",
+        "credit": "Badefa",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Terrain et tribunes — Santiago Bernabéu.",
+        "caption": "Terrain et tribunes — Santiago Bernabéu. Photo d’archives · 2026-09-19."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Madrid stays top after Mbappé double against PSV",
+          "summary": "After five Champions League games, Real Madrid has 15 points and PSV Eindhoven has 4.",
+          "body": "UEFA recorded the November 24 result at Santiago Bernabéu as Real Madrid 5, PSV Eindhoven 1. ESPN’s play-by-play details the scoring. Behind after Ivan Perisic’s penalty, Real scored five times after the break. Kylian Mbappé got Madrid’s third and fourth goals.\n\nAt the end of matchday five, Real Madrid ranks 1 and PSV Eindhoven ranks 30. UEFA lists their next opponents in December as Arsenal and Atlético de Madrid, respectively.",
+          "photoAlt": "Pitch and stands — Santiago Bernabéu.",
+          "photoCaption": "Pitch and stands — Santiago Bernabéu. Archive photograph · 2026-09-19."
+        },
+        "es": {
+          "title": "El Madrid sigue líder tras el doblete de Mbappé ante el PSV",
+          "summary": "Tras cinco jornadas de la Liga de Campeones, Real Madrid suma 15 puntos y PSV Eindhoven tiene 4.",
+          "body": "La ficha de la UEFA registra el resultado del 24 de noviembre en Santiago Bernabéu: Real Madrid 5, PSV Eindhoven 1. El minuto a minuto de ESPN detalla los goles. Por detrás tras el penalti de Ivan Perisic, el Real marcó cinco veces después del descanso. Kylian Mbappé anotó el tercer y el cuarto gol madridista.\n\nAl término de la quinta jornada, Real Madrid ocupa el puesto 1 y PSV Eindhoven el 30. En diciembre, según la UEFA, sus próximos rivales serán Arsenal y Atlético de Madrid, respectivamente.",
+          "photoAlt": "Campo y gradas — Santiago Bernabéu.",
+          "photoCaption": "Campo y gradas — Santiago Bernabéu. Foto de archivo · 2026-09-19."
+        },
+        "ar": {
+          "title": "مدريد يحتفظ بالصدارة بعد ثنائية مبابي أمام آيندهوفن",
+          "summary": "بعد خمس مباريات في دوري الأبطال، رصيد ريال مدريد هو 15 من النقاط ورصيد آيندهوفن هو 4.",
+          "body": "سجل الاتحاد الأوروبي نتيجة مباراة 24 نوفمبر في ملعب Santiago Bernabéu: ريال مدريد 5، آيندهوفن 1. وأوردت ESPN تفاصيل التسجيل. تأخر ريال مدريد بهدف إيفان بيريشيتش من ركلة جزاء ثم سجل خمسة أهداف بعد الاستراحة. وأحرز كيليان مبابي الهدفين الثالث والرابع.\n\nفي ختام الجولة الخامسة جاء ريال مدريد في المركز 1 وآيندهوفن في المركز 30. ووفقا لجدول الاتحاد الأوروبي سيواجهان في ديسمبر أرسنال وأتلتيكو مدريد على الترتيب.",
+          "photoAlt": "الملعب والمدرجات — Santiago Bernabéu.",
+          "photoCaption": "الملعب والمدرجات — Santiago Bernabéu. صورة أرشيفية · 2026-09-19."
+        },
+        "zh-CN": {
+          "title": "姆巴佩对阵埃因霍温梅开二度，皇马继续领跑",
+          "summary": "欧冠五轮过后，皇家马德里积15分，埃因霍温积4分。",
+          "body": "欧足联记录显示，11月24日在Santiago Bernabéu的比赛结果为皇家马德里 5比1 埃因霍温。ESPN的实况记录还原了进球过程。 伊万·佩里希奇点球命中后，皇马一度落后，但在下半场连进五球。基利安·姆巴佩包办了主队的第三和第四球。\n\n第五轮结束后，皇家马德里排第1，埃因霍温排第30。按欧足联赛程，两队12月的下一个对手分别是阿森纳和马德里竞技。",
+          "photoAlt": "球场和看台 — Santiago Bernabéu.",
+          "photoCaption": "球场和看台 — Santiago Bernabéu. 档案照片 · 2026-09-19."
+        },
+        "ru": {
+          "title": "«Реал» сохранил лидерство после дубля Мбаппе в игре с ПСВ",
+          "summary": "После пяти туров Лиги чемпионов у Реал Мадрид — 15 очк., у ПСВ — 4.",
+          "body": "По протоколу УЕФА, матч 24 ноября на стадионе Santiago Bernabéu завершился со счётом Реал Мадрид — ПСВ 5–1. Ход игры описывает ESPN. Уступая после пенальти Ивана Перишича, «Реал» забил пять мячей после перерыва. Третий и четвёртый голы мадридцев на счету Килиана Мбаппе.\n\nПосле пятого тура Реал Мадрид занимает место № 1, а ПСВ — № 30. По календарю УЕФА следующими соперниками команд в декабре станут соответственно Арсенал и Атлетико Мадрид.",
+          "photoAlt": "Поле и трибуны — Santiago Bernabéu.",
+          "photoCaption": "Поле и трибуны — Santiago Bernabéu. Архивное фото · 2026-09-19."
+        },
+        "ko": {
+          "title": "음바페 두 골, 레알 마드리드 PSV전 승리로 선두 유지",
+          "summary": "챔피언스리그 5경기를 치른 현재 레알 마드리드의 승점은 15점, PSV 에인트호번의 승점은 4점이다.",
+          "body": "UEFA 공식 기록에 따르면 11월 24일 Santiago Bernabéu에서 열린 경기의 결과는 레알 마드리드 5, PSV 에인트호번 1였다. ESPN의 실시간 기록은 득점 과정을 전한다. 이반 페리시치의 페널티킥으로 뒤진 레알은 후반에만 다섯 골을 넣었다. 킬리안 음바페가 팀의 세 번째와 네 번째 골을 기록했다.\n\n5라운드 종료 기준 레알 마드리드는 1위, PSV 에인트호번는 30위다. UEFA 일정에 따르면 12월 다음 상대는 각각 아스널, 아틀레티코 마드리드다.",
+          "photoAlt": "경기장 그라운드와 관중석 — Santiago Bernabéu.",
+          "photoCaption": "경기장 그라운드와 관중석 — Santiago Bernabéu. 자료 사진 · 2026-09-19."
+        }
+      }
+    },
+    {
+      "eventKey": "manchester-city-naples-cherki-egalisation",
+      "category": "Sports",
+      "title": "Cherki arrache un point pour Manchester City contre Naples",
+      "summary": "Après cinq rencontres de Ligue des champions, Manchester City compte 10 points et Napoli en totalise 4.",
+      "body": "La feuille de match de l’UEFA donne le score final de la rencontre du 24 novembre au Etihad Stadium : Manchester City 2, Napoli 2. Selon le compte rendu d’ESPN, Naples a mené deux fois, par Rasmus Højlund puis Noa Lang. Après une première égalisation d’Ayyoub Bouaddi, Rayan Cherki a ramené City à hauteur à la 86e minute.\n\nÀ l’issue de la cinquième journée, Manchester City occupe le rang 8 et Napoli le rang 28. Selon le calendrier de l’UEFA, leurs prochains adversaires en décembre seront respectivement Barcelona et Club Brugge.",
+      "sources": [
+        {
+          "name": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049626--man-city-vs-napoli/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915379/napoli-manchester-city",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "UEFA — résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/401915379.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:City_of_Manchester_Stadium_2023_cropped.jpg",
+        "credit": "Arne Müseler / arne-mueseler.com, cropped by Blackcat",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "alt": "Vue aérienne du stade — Etihad Stadium.",
+        "caption": "Vue aérienne du stade — Etihad Stadium. Photo d’archives · 2023-07-31."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Cherki salvages a point for Manchester City against Napoli",
+          "summary": "After five Champions League games, Manchester City has 10 points and Napoli has 4.",
+          "body": "UEFA recorded the November 24 result at Etihad Stadium as Manchester City 2, Napoli 2. ESPN’s play-by-play details the scoring. Napoli led twice through Rasmus Højlund and Noa Lang. After Ayyoub Bouaddi’s first equaliser, Rayan Cherki brought City level again in the 86th minute.\n\nAt the end of matchday five, Manchester City ranks 8 and Napoli ranks 28. UEFA lists their next opponents in December as Barcelona and Club Brugge, respectively.",
+          "photoAlt": "Aerial view of the stadium — Etihad Stadium.",
+          "photoCaption": "Aerial view of the stadium — Etihad Stadium. Archive photograph · 2023-07-31."
+        },
+        "es": {
+          "title": "Cherki rescata un punto para el Manchester City ante el Nápoles",
+          "summary": "Tras cinco jornadas de la Liga de Campeones, Manchester City suma 10 puntos y Napoli tiene 4.",
+          "body": "La ficha de la UEFA registra el resultado del 24 de noviembre en Etihad Stadium: Manchester City 2, Napoli 2. El minuto a minuto de ESPN detalla los goles. El Nápoles se adelantó dos veces con Rasmus Højlund y Noa Lang. Tras el primer empate de Ayyoub Bouaddi, Rayan Cherki volvió a igualar en el minuto 86.\n\nAl término de la quinta jornada, Manchester City ocupa el puesto 8 y Napoli el 28. En diciembre, según la UEFA, sus próximos rivales serán Barcelona y Club Brugge, respectivamente.",
+          "photoAlt": "Vista aérea del estadio — Etihad Stadium.",
+          "photoCaption": "Vista aérea del estadio — Etihad Stadium. Foto de archivo · 2023-07-31."
+        },
+        "ar": {
+          "title": "شرقي ينقذ نقطة لمانشستر سيتي أمام نابولي",
+          "summary": "بعد خمس مباريات في دوري الأبطال، رصيد مانشستر سيتي هو 10 من النقاط ورصيد نابولي هو 4.",
+          "body": "سجل الاتحاد الأوروبي نتيجة مباراة 24 نوفمبر في ملعب Etihad Stadium: مانشستر سيتي 2، نابولي 2. وأوردت ESPN تفاصيل التسجيل. تقدم نابولي مرتين عبر راسموس هويلوند ونوا لانغ. وبعد التعادل الأول لأيوب بوعدي، أدرك ريان شرقي التعادل مجددا في الدقيقة 86.\n\nفي ختام الجولة الخامسة جاء مانشستر سيتي في المركز 8 ونابولي في المركز 28. ووفقا لجدول الاتحاد الأوروبي سيواجهان في ديسمبر برشلونة وكلوب بروج على الترتيب.",
+          "photoAlt": "منظر جوي للملعب — Etihad Stadium.",
+          "photoCaption": "منظر جوي للملعب — Etihad Stadium. صورة أرشيفية · 2023-07-31."
+        },
+        "zh-CN": {
+          "title": "谢尔基为曼城在那不勒斯身上抢回一分",
+          "summary": "欧冠五轮过后，曼城积10分，那不勒斯积4分。",
+          "body": "欧足联记录显示，11月24日在Etihad Stadium的比赛结果为曼城 2比2 那不勒斯。ESPN的实况记录还原了进球过程。 拉斯穆斯·霍伊伦和诺阿·朗两度让那不勒斯领先。阿尤布·布阿迪首次扳平后，拉扬·谢尔基在第86分钟再次追平。\n\n第五轮结束后，曼城排第8，那不勒斯排第28。按欧足联赛程，两队12月的下一个对手分别是巴塞罗那和布鲁日。",
+          "photoAlt": "球场航拍图 — Etihad Stadium.",
+          "photoCaption": "球场航拍图 — Etihad Stadium. 档案照片 · 2023-07-31."
+        },
+        "ru": {
+          "title": "Шерки спас для «Манчестер Сити» очко в матче с «Наполи»",
+          "summary": "После пяти туров Лиги чемпионов у Манчестер Сити — 10 очк., у Наполи — 4.",
+          "body": "По протоколу УЕФА, матч 24 ноября на стадионе Etihad Stadium завершился со счётом Манчестер Сити — Наполи 2–2. Ход игры описывает ESPN. Расмус Хёйлунн и Ноа Ланг дважды выводили «Наполи» вперёд. После первого ответного гола Айюба Буадди Райан Шерки вновь сравнял счёт на 86-й минуте.\n\nПосле пятого тура Манчестер Сити занимает место № 8, а Наполи — № 28. По календарю УЕФА следующими соперниками команд в декабре станут соответственно Барселона и Брюгге.",
+          "photoAlt": "Стадион с воздуха — Etihad Stadium.",
+          "photoCaption": "Стадион с воздуха — Etihad Stadium. Архивное фото · 2023-07-31."
+        },
+        "ko": {
+          "title": "셰르키, 나폴리전 막판 동점골로 맨시티에 승점 1점",
+          "summary": "챔피언스리그 5경기를 치른 현재 맨체스터 시티의 승점은 10점, 나폴리의 승점은 4점이다.",
+          "body": "UEFA 공식 기록에 따르면 11월 24일 Etihad Stadium에서 열린 경기의 결과는 맨체스터 시티 2, 나폴리 2였다. ESPN의 실시간 기록은 득점 과정을 전한다. 나폴리는 라스무스 호일룬과 노아 랑의 골로 두 차례 앞섰다. 아유브 부아디가 첫 동점골을 넣었고 라얀 셰르키가 86분 다시 동점을 만들었다.\n\n5라운드 종료 기준 맨체스터 시티는 8위, 나폴리는 28위다. UEFA 일정에 따르면 12월 다음 상대는 각각 바르셀로나, 클뤼프 브뤼허다.",
+          "photoAlt": "경기장 항공 사진 — Etihad Stadium.",
+          "photoCaption": "경기장 항공 사진 — Etihad Stadium. 자료 사진 · 2023-07-31."
+        }
+      }
+    },
+    {
+      "eventKey": "arsenal-dortmund-beier-point-londres",
+      "category": "Sports",
+      "title": "Beier répond à Gyökeres et Dortmund repart de Londres avec un point",
+      "summary": "Après cinq rencontres de Ligue des champions, Arsenal compte 11 points et Borussia Dortmund en totalise 10.",
+      "body": "La feuille de match de l’UEFA donne le score final de la rencontre du 24 novembre au Emirates Stadium : Arsenal 1, Borussia Dortmund 1. Selon le compte rendu d’ESPN, Viktor Gyökeres a ouvert la marque à la dixième minute d’une frappe de l’extérieur de la surface. Sur une passe de Joane Gadou, Maximilian Beier a égalisé à la 55e.\n\nÀ l’issue de la cinquième journée, Arsenal occupe le rang 7 et Borussia Dortmund le rang 10. Selon le calendrier de l’UEFA, leurs prochains adversaires en décembre seront respectivement Real Madrid et Inter.",
+      "sources": [
+        {
+          "name": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049627--arsenal-vs-b-dortmund/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915295/borussia-dortmund-arsenal",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "UEFA — résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/401915295.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emirates_Stadium_22-09-2009.JPG",
+        "credit": "Daniel Roßmann",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emirates_Stadium_22-09-2009.JPG#Licensing",
+        "alt": "Entrée du stade — Emirates Stadium.",
+        "caption": "Entrée du stade — Emirates Stadium. Photo d’archives · 2009-09-22."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Beier answers Gyökeres as Dortmund leaves London with a point",
+          "summary": "After five Champions League games, Arsenal has 11 points and Borussia Dortmund has 10.",
+          "body": "UEFA recorded the November 24 result at Emirates Stadium as Arsenal 1, Borussia Dortmund 1. ESPN’s play-by-play details the scoring. Viktor Gyökeres opened the scoring in the tenth minute with a shot from outside the box. Maximilian Beier equalised in the 55th from Joane Gadou’s pass.\n\nAt the end of matchday five, Arsenal ranks 7 and Borussia Dortmund ranks 10. UEFA lists their next opponents in December as Real Madrid and Inter, respectively.",
+          "photoAlt": "Stadium entrance — Emirates Stadium.",
+          "photoCaption": "Stadium entrance — Emirates Stadium. Archive photograph · 2009-09-22."
+        },
+        "es": {
+          "title": "Beier responde a Gyökeres y el Dortmund se lleva un punto de Londres",
+          "summary": "Tras cinco jornadas de la Liga de Campeones, Arsenal suma 11 puntos y Borussia Dortmund tiene 10.",
+          "body": "La ficha de la UEFA registra el resultado del 24 de noviembre en Emirates Stadium: Arsenal 1, Borussia Dortmund 1. El minuto a minuto de ESPN detalla los goles. Viktor Gyökeres abrió el marcador a los diez minutos desde fuera del área. Maximilian Beier empató en el 55 tras un pase de Joane Gadou.\n\nAl término de la quinta jornada, Arsenal ocupa el puesto 7 y Borussia Dortmund el 10. En diciembre, según la UEFA, sus próximos rivales serán Real Madrid y Inter, respectivamente.",
+          "photoAlt": "Entrada del estadio — Emirates Stadium.",
+          "photoCaption": "Entrada del estadio — Emirates Stadium. Foto de archivo · 2009-09-22."
+        },
+        "ar": {
+          "title": "باير يرد على غيوكيريس ودورتموند يعود من لندن بنقطة",
+          "summary": "بعد خمس مباريات في دوري الأبطال، رصيد أرسنال هو 11 من النقاط ورصيد بوروسيا دورتموند هو 10.",
+          "body": "سجل الاتحاد الأوروبي نتيجة مباراة 24 نوفمبر في ملعب Emirates Stadium: أرسنال 1، بوروسيا دورتموند 1. وأوردت ESPN تفاصيل التسجيل. افتتح فيكتور غيوكيريس التسجيل في الدقيقة العاشرة من خارج منطقة الجزاء. وعادل ماكسيميليان باير في الدقيقة 55 بتمريرة من جوان غادو.\n\nفي ختام الجولة الخامسة جاء أرسنال في المركز 7 وبوروسيا دورتموند في المركز 10. ووفقا لجدول الاتحاد الأوروبي سيواجهان في ديسمبر ريال مدريد وإنتر على الترتيب.",
+          "photoAlt": "مدخل الملعب — Emirates Stadium.",
+          "photoCaption": "مدخل الملعب — Emirates Stadium. صورة أرشيفية · 2009-09-22."
+        },
+        "zh-CN": {
+          "title": "拜尔回应哲凯赖什，多特蒙德从伦敦带走一分",
+          "summary": "欧冠五轮过后，阿森纳积11分，多特蒙德积10分。",
+          "body": "欧足联记录显示，11月24日在Emirates Stadium的比赛结果为阿森纳 1比1 多特蒙德。ESPN的实况记录还原了进球过程。 维克托·哲凯赖什第10分钟在禁区外起脚首开纪录。马克西米利安·拜尔第55分钟接若安·加杜传球扳平。\n\n第五轮结束后，阿森纳排第7，多特蒙德排第10。按欧足联赛程，两队12月的下一个对手分别是皇家马德里和国际米兰。",
+          "photoAlt": "球场入口 — Emirates Stadium.",
+          "photoCaption": "球场入口 — Emirates Stadium. 档案照片 · 2009-09-22."
+        },
+        "ru": {
+          "title": "Байер ответил Дьёкерешу и принёс Дортмунду очко в Лондоне",
+          "summary": "После пяти туров Лиги чемпионов у Арсенал — 11 очк., у Боруссия Дортмунд — 10.",
+          "body": "По протоколу УЕФА, матч 24 ноября на стадионе Emirates Stadium завершился со счётом Арсенал — Боруссия Дортмунд 1–1. Ход игры описывает ESPN. Виктор Дьёкереш открыл счёт на десятой минуте ударом из-за штрафной. Максимилиан Байер сравнял на 55-й минуте с передачи Жоана Гаду.\n\nПосле пятого тура Арсенал занимает место № 7, а Боруссия Дортмунд — № 10. По календарю УЕФА следующими соперниками команд в декабре станут соответственно Реал Мадрид и Интер.",
+          "photoAlt": "Вход на стадион — Emirates Stadium.",
+          "photoCaption": "Вход на стадион — Emirates Stadium. Архивное фото · 2009-09-22."
+        },
+        "ko": {
+          "title": "바이어 동점골, 도르트문트 런던 원정서 승점 1점",
+          "summary": "챔피언스리그 5경기를 치른 현재 아스널의 승점은 11점, 보루시아 도르트문트의 승점은 10점이다.",
+          "body": "UEFA 공식 기록에 따르면 11월 24일 Emirates Stadium에서 열린 경기의 결과는 아스널 1, 보루시아 도르트문트 1였다. ESPN의 실시간 기록은 득점 과정을 전한다. 빅토르 요케레스가 10분 페널티 지역 밖에서 선제골을 넣었다. 막시밀리안 바이어가 55분 조안 가두의 패스를 받아 동점을 만들었다.\n\n5라운드 종료 기준 아스널는 7위, 보루시아 도르트문트는 10위다. UEFA 일정에 따르면 12월 다음 상대는 각각 레알 마드리드, 인테르다.",
+          "photoAlt": "경기장 입구 — Emirates Stadium.",
+          "photoCaption": "경기장 입구 — Emirates Stadium. 자료 사진 · 2009-09-22."
+        }
+      }
+    },
+    {
+      "eventKey": "leipzig-lens-double-antonio-nusa",
+      "category": "Sports",
+      "title": "Nusa marque deux fois pour Leipzig face à Lens",
+      "summary": "Après cinq rencontres de Ligue des champions, RB Leipzig compte 6 points et Lens en totalise 3.",
+      "body": "La feuille de match de l’UEFA donne le score final de la rencontre du 24 novembre au Red Bull Arena : RB Leipzig 3, Lens 1. Selon le compte rendu d’ESPN, David Raum a ouvert le score sur coup franc avant le premier but d’Antonio Nusa. Matthieu Udol a réduit l’écart, mais Nusa a de nouveau marqué dans le temps additionnel sur une passe de Christopher Nkunku.\n\nÀ l’issue de la cinquième journée, RB Leipzig occupe le rang 23 et Lens le rang 34. Selon le calendrier de l’UEFA, leurs prochains adversaires en décembre seront respectivement Manchester United et Bodø/Glimt.",
+      "sources": [
+        {
+          "name": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049630--leipzig-vs-lens/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915299/lens-rb-leipzig",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "UEFA — résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/401915299.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leipzig_stadium.jpg",
+        "credit": "Arne Müseler / arne-mueseler.com",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "alt": "Vue aérienne du stade — Red Bull Arena.",
+        "caption": "Vue aérienne du stade — Red Bull Arena. Photo d’archives · 2022-04-28."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Nusa scores twice for Leipzig against Lens",
+          "summary": "After five Champions League games, RB Leipzig has 6 points and Lens has 3.",
+          "body": "UEFA recorded the November 24 result at Red Bull Arena as RB Leipzig 3, Lens 1. ESPN’s play-by-play details the scoring. David Raum opened the scoring with a free kick before Antonio Nusa’s first goal. Matthieu Udol cut the deficit, but Nusa struck again in stoppage time from Christopher Nkunku’s pass.\n\nAt the end of matchday five, RB Leipzig ranks 23 and Lens ranks 34. UEFA lists their next opponents in December as Manchester United and Bodø/Glimt, respectively.",
+          "photoAlt": "Aerial view of the stadium — Red Bull Arena.",
+          "photoCaption": "Aerial view of the stadium — Red Bull Arena. Archive photograph · 2022-04-28."
+        },
+        "es": {
+          "title": "Doblete de Nusa para el Leipzig contra el Lens",
+          "summary": "Tras cinco jornadas de la Liga de Campeones, RB Leipzig suma 6 puntos y Lens tiene 3.",
+          "body": "La ficha de la UEFA registra el resultado del 24 de noviembre en Red Bull Arena: RB Leipzig 3, Lens 1. El minuto a minuto de ESPN detalla los goles. David Raum abrió el marcador de tiro libre antes del primer gol de Antonio Nusa. Matthieu Udol recortó distancias, pero Nusa volvió a marcar en el descuento a pase de Christopher Nkunku.\n\nAl término de la quinta jornada, RB Leipzig ocupa el puesto 23 y Lens el 34. En diciembre, según la UEFA, sus próximos rivales serán Manchester United y Bodø/Glimt, respectivamente.",
+          "photoAlt": "Vista aérea del estadio — Red Bull Arena.",
+          "photoCaption": "Vista aérea del estadio — Red Bull Arena. Foto de archivo · 2022-04-28."
+        },
+        "ar": {
+          "title": "نوسا يسجل هدفين للايبزيغ أمام لانس",
+          "summary": "بعد خمس مباريات في دوري الأبطال، رصيد لايبزيغ هو 6 من النقاط ورصيد لانس هو 3.",
+          "body": "سجل الاتحاد الأوروبي نتيجة مباراة 24 نوفمبر في ملعب Red Bull Arena: لايبزيغ 3، لانس 1. وأوردت ESPN تفاصيل التسجيل. افتتح دافيد راوم التسجيل من ركلة حرة قبل هدف أنطونيو نوسا الأول. وقلص ماتيو أودول الفارق، لكن نوسا سجل مجددا في الوقت بدل الضائع بتمريرة من كريستوفر نكونكو.\n\nفي ختام الجولة الخامسة جاء لايبزيغ في المركز 23 ولانس في المركز 34. ووفقا لجدول الاتحاد الأوروبي سيواجهان في ديسمبر مانشستر يونايتد وبودو غليمت على الترتيب.",
+          "photoAlt": "منظر جوي للملعب — Red Bull Arena.",
+          "photoCaption": "منظر جوي للملعب — Red Bull Arena. صورة أرشيفية · 2022-04-28."
+        },
+        "zh-CN": {
+          "title": "努萨梅开二度助莱比锡击败朗斯",
+          "summary": "欧冠五轮过后，莱比锡积6分，朗斯积3分。",
+          "body": "欧足联记录显示，11月24日在Red Bull Arena的比赛结果为莱比锡 3比1 朗斯。ESPN的实况记录还原了进球过程。 大卫·劳姆任意球首开纪录，随后安东尼奥·努萨攻入个人首球。马蒂厄·于多尔缩小分差，但努萨在补时阶段接克里斯托弗·恩昆库传球再次破门。\n\n第五轮结束后，莱比锡排第23，朗斯排第34。按欧足联赛程，两队12月的下一个对手分别是曼联和博德闪耀。",
+          "photoAlt": "球场航拍图 — Red Bull Arena.",
+          "photoCaption": "球场航拍图 — Red Bull Arena. 档案照片 · 2022-04-28."
+        },
+        "ru": {
+          "title": "Дубль Нусы помог «Лейпцигу» обыграть «Ланс»",
+          "summary": "После пяти туров Лиги чемпионов у РБ Лейпциг — 6 очк., у Ланс — 3.",
+          "body": "По протоколу УЕФА, матч 24 ноября на стадионе Red Bull Arena завершился со счётом РБ Лейпциг — Ланс 3–1. Ход игры описывает ESPN. Давид Раум открыл счёт со штрафного, а затем Антонио Нуса забил свой первый гол. Матьё Юдоль сократил отставание, но в добавленное время Нуса снова забил с передачи Кристофера Нкунку.\n\nПосле пятого тура РБ Лейпциг занимает место № 23, а Ланс — № 34. По календарю УЕФА следующими соперниками команд в декабре станут соответственно Манчестер Юнайтед и Будё-Глимт.",
+          "photoAlt": "Стадион с воздуха — Red Bull Arena.",
+          "photoCaption": "Стадион с воздуха — Red Bull Arena. Архивное фото · 2022-04-28."
+        },
+        "ko": {
+          "title": "누사 두 골로 라이프치히, 랑스에 승리",
+          "summary": "챔피언스리그 5경기를 치른 현재 RB 라이프치히의 승점은 6점, 랑스의 승점은 3점이다.",
+          "body": "UEFA 공식 기록에 따르면 11월 24일 Red Bull Arena에서 열린 경기의 결과는 RB 라이프치히 3, 랑스 1였다. ESPN의 실시간 기록은 득점 과정을 전한다. 다비트 라움이 프리킥으로 선제골을 넣은 뒤 안토니오 누사가 첫 골을 넣었다. 마티외 위돌이 추격했지만 추가시간 누사가 크리스토퍼 은쿤쿠의 패스를 받아 또 득점했다.\n\n5라운드 종료 기준 RB 라이프치히는 23위, 랑스는 34위다. UEFA 일정에 따르면 12월 다음 상대는 각각 맨체스터 유나이티드, 보되 글림트다.",
+          "photoAlt": "경기장 항공 사진 — Red Bull Arena.",
+          "photoCaption": "경기장 항공 사진 — Red Bull Arena. 자료 사진 · 2022-04-28."
+        }
+      }
+    },
+    {
+      "eventKey": "galatasaray-aston-villa-deniz-gul-tete",
+      "category": "Sports",
+      "title": "Une tête de Deniz Gül donne la victoire à Galatasaray contre Aston Villa",
+      "summary": "Après cinq rencontres de Ligue des champions, Galatasaray compte 9 points et Aston Villa en totalise 9.",
+      "body": "La feuille de match de l’UEFA donne le score final de la rencontre du 24 novembre au Rams Park : Galatasaray 1, Aston Villa 0. Selon le compte rendu d’ESPN, les deux équipes étaient toujours à égalité après une heure de jeu. À la 77e minute, Deniz Gül a repris de la tête à bout portant un ballon venu sur corner pour inscrire le seul but.\n\nÀ l’issue de la cinquième journée, Galatasaray occupe le rang 14 et Aston Villa le rang 11. Selon le calendrier de l’UEFA, leurs prochains adversaires en décembre seront respectivement Fenerbahçe et Paris Saint-Germain.",
+      "sources": [
+        {
+          "name": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049631--galatasaray-vs-aston-villa/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915300/aston-villa-galatasaray",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "UEFA — résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/401915300.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rams_Park_i%C3%A7_g%C3%B6r%C3%BCn%C3%BCm_2025.jpg",
+        "credit": "Antoloji",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Terrain et tribunes — Rams Park.",
+        "caption": "Terrain et tribunes — Rams Park. Photo d’archives · 2025-05-07."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Deniz Gül header gives Galatasaray victory over Aston Villa",
+          "summary": "After five Champions League games, Galatasaray has 9 points and Aston Villa has 9.",
+          "body": "UEFA recorded the November 24 result at Rams Park as Galatasaray 1, Aston Villa 0. ESPN’s play-by-play details the scoring. The sides were still level after an hour. Deniz Gül headed in from close range following a corner in the 77th minute for the only goal.\n\nAt the end of matchday five, Galatasaray ranks 14 and Aston Villa ranks 11. UEFA lists their next opponents in December as Fenerbahçe and Paris Saint-Germain, respectively.",
+          "photoAlt": "Pitch and stands — Rams Park.",
+          "photoCaption": "Pitch and stands — Rams Park. Archive photograph · 2025-05-07."
+        },
+        "es": {
+          "title": "Un cabezazo de Deniz Gül da la victoria al Galatasaray ante el Aston Villa",
+          "summary": "Tras cinco jornadas de la Liga de Campeones, Galatasaray suma 9 puntos y Aston Villa tiene 9.",
+          "body": "La ficha de la UEFA registra el resultado del 24 de noviembre en Rams Park: Galatasaray 1, Aston Villa 0. El minuto a minuto de ESPN detalla los goles. El partido seguía igualado pasada la hora de juego. Deniz Gül marcó el único tanto en el minuto 77 con un cabezazo a quemarropa tras un córner.\n\nAl término de la quinta jornada, Galatasaray ocupa el puesto 14 y Aston Villa el 11. En diciembre, según la UEFA, sus próximos rivales serán Fenerbahçe y Paris Saint-Germain, respectivamente.",
+          "photoAlt": "Campo y gradas — Rams Park.",
+          "photoCaption": "Campo y gradas — Rams Park. Foto de archivo · 2025-05-07."
+        },
+        "ar": {
+          "title": "رأسية دنيز غول تمنح غلطة سراي الفوز على أستون فيلا",
+          "summary": "بعد خمس مباريات في دوري الأبطال، رصيد غلطة سراي هو 9 من النقاط ورصيد أستون فيلا هو 9.",
+          "body": "سجل الاتحاد الأوروبي نتيجة مباراة 24 نوفمبر في ملعب Rams Park: غلطة سراي 1، أستون فيلا 0. وأوردت ESPN تفاصيل التسجيل. بقي التعادل قائما بعد ساعة من اللعب. وسجل دنيز غول الهدف الوحيد في الدقيقة 77 برأسية من مسافة قريبة إثر ركلة ركنية.\n\nفي ختام الجولة الخامسة جاء غلطة سراي في المركز 14 وأستون فيلا في المركز 11. ووفقا لجدول الاتحاد الأوروبي سيواجهان في ديسمبر فنربخشة وباريس سان جيرمان على الترتيب.",
+          "photoAlt": "الملعب والمدرجات — Rams Park.",
+          "photoCaption": "الملعب والمدرجات — Rams Park. صورة أرشيفية · 2025-05-07."
+        },
+        "zh-CN": {
+          "title": "德尼兹·居尔头球助加拉塔萨雷战胜阿斯顿维拉",
+          "summary": "欧冠五轮过后，加拉塔萨雷积9分，阿斯顿维拉积9分。",
+          "body": "欧足联记录显示，11月24日在Rams Park的比赛结果为加拉塔萨雷 1比0 阿斯顿维拉。ESPN的实况记录还原了进球过程。 比赛进行一小时后双方仍然战平。第77分钟，德尼兹·居尔在一次角球进攻中近距离头球破门，打入全场唯一进球。\n\n第五轮结束后，加拉塔萨雷排第14，阿斯顿维拉排第11。按欧足联赛程，两队12月的下一个对手分别是费内巴切和巴黎圣日耳曼。",
+          "photoAlt": "球场和看台 — Rams Park.",
+          "photoCaption": "球场和看台 — Rams Park. 档案照片 · 2025-05-07."
+        },
+        "ru": {
+          "title": "Гол Дениза Гюля головой принёс «Галатасараю» победу над «Астон Виллой»",
+          "summary": "После пяти туров Лиги чемпионов у Галатасарай — 9 очк., у Астон Вилла — 9.",
+          "body": "По протоколу УЕФА, матч 24 ноября на стадионе Rams Park завершился со счётом Галатасарай — Астон Вилла 1–0. Ход игры описывает ESPN. Через час после начала игры счёт оставался равным. На 77-й минуте Дениз Гюль после углового головой с близкого расстояния забил единственный мяч.\n\nПосле пятого тура Галатасарай занимает место № 14, а Астон Вилла — № 11. По календарю УЕФА следующими соперниками команд в декабре станут соответственно Фенербахче и Пари Сен-Жермен.",
+          "photoAlt": "Поле и трибуны — Rams Park.",
+          "photoCaption": "Поле и трибуны — Rams Park. Архивное фото · 2025-05-07."
+        },
+        "ko": {
+          "title": "데니즈 귈 헤더로 갈라타사라이, 애스턴 빌라에 승리",
+          "summary": "챔피언스리그 5경기를 치른 현재 갈라타사라이의 승점은 9점, 애스턴 빌라의 승점은 9점이다.",
+          "body": "UEFA 공식 기록에 따르면 11월 24일 Rams Park에서 열린 경기의 결과는 갈라타사라이 1, 애스턴 빌라 0였다. ESPN의 실시간 기록은 득점 과정을 전한다. 경기 시작 한 시간이 지나도록 균형이 이어졌다. 77분 코너킥 상황에서 데니즈 귈이 가까운 거리에서 머리로 유일한 골을 넣었다.\n\n5라운드 종료 기준 갈라타사라이는 14위, 애스턴 빌라는 11위다. UEFA 일정에 따르면 12월 다음 상대는 각각 페네르바체, 파리 생제르맹다.",
+          "photoAlt": "경기장 그라운드와 관중석 — Rams Park.",
+          "photoCaption": "경기장 그라운드와 관중석 — Rams Park. 자료 사진 · 2025-05-07."
+        }
+      }
+    },
+    {
+      "eventKey": "feyenoord-porto-targhalline-contre-son-camp",
+      "category": "Sports",
+      "title": "Porto s’impose à Rotterdam sur un but contre son camp dès la deuxième minute",
+      "summary": "Après cinq rencontres de Ligue des champions, Feyenoord compte 3 points et FC Porto en totalise 6.",
+      "body": "La feuille de match de l’UEFA donne le score final de la rencontre du 24 novembre au De Kuip : Feyenoord 0, FC Porto 1. Selon le compte rendu d’ESPN, Oussama Targhalline a envoyé le ballon dans ses propres filets alors que la rencontre venait de commencer. Feyenoord a joué presque tout le match avec un but à remonter, sans parvenir à égaliser.\n\nÀ l’issue de la cinquième journée, Feyenoord occupe le rang 32 et FC Porto le rang 22. Selon le calendrier de l’UEFA, leurs prochains adversaires en décembre seront respectivement Viking et Liverpool.",
+      "sources": [
+        {
+          "name": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049628--feyenoord-vs-porto/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915294/fc-porto-feyenoord-rotterdam",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "UEFA — résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/401915294.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Feyenoord_Rotterdam%27s_De_Kuip_stadium_in_2022_before_a_match_against_FC_Emmen.jpg",
+        "credit": "Vincenzo.togni",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Terrain et tribunes — De Kuip.",
+        "caption": "Terrain et tribunes — De Kuip. Photo d’archives · 2022-08-27."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Porto wins in Rotterdam on second-minute own goal",
+          "summary": "After five Champions League games, Feyenoord has 3 points and FC Porto has 6.",
+          "body": "UEFA recorded the November 24 result at De Kuip as Feyenoord 0, FC Porto 1. ESPN’s play-by-play details the scoring. Oussama Targhalline put the ball into his own net just after kick-off. Feyenoord spent almost the entire match a goal down and never found an equaliser.\n\nAt the end of matchday five, Feyenoord ranks 32 and FC Porto ranks 22. UEFA lists their next opponents in December as Viking and Liverpool, respectively.",
+          "photoAlt": "Pitch and stands — De Kuip.",
+          "photoCaption": "Pitch and stands — De Kuip. Archive photograph · 2022-08-27."
+        },
+        "es": {
+          "title": "El Porto gana en Róterdam con un autogol en el segundo minuto",
+          "summary": "Tras cinco jornadas de la Liga de Campeones, Feyenoord suma 3 puntos y FC Porto tiene 6.",
+          "body": "La ficha de la UEFA registra el resultado del 24 de noviembre en De Kuip: Feyenoord 0, FC Porto 1. El minuto a minuto de ESPN detalla los goles. Oussama Targhalline envió el balón a su propia portería nada más comenzar el partido. El Feyenoord jugó casi todo el encuentro en desventaja sin lograr el empate.\n\nAl término de la quinta jornada, Feyenoord ocupa el puesto 32 y FC Porto el 22. En diciembre, según la UEFA, sus próximos rivales serán Viking y Liverpool, respectivamente.",
+          "photoAlt": "Campo y gradas — De Kuip.",
+          "photoCaption": "Campo y gradas — De Kuip. Foto de archivo · 2022-08-27."
+        },
+        "ar": {
+          "title": "بورتو يفوز في روتردام بهدف عكسي في الدقيقة الثانية",
+          "summary": "بعد خمس مباريات في دوري الأبطال، رصيد فينورد هو 3 من النقاط ورصيد بورتو هو 6.",
+          "body": "سجل الاتحاد الأوروبي نتيجة مباراة 24 نوفمبر في ملعب De Kuip: فينورد 0، بورتو 1. وأوردت ESPN تفاصيل التسجيل. أدخل أسامة ترغالين الكرة في شباك فريقه بعد البداية مباشرة. ولعب فينورد معظم المباراة متأخرا بهدف ولم يتمكن من التعادل.\n\nفي ختام الجولة الخامسة جاء فينورد في المركز 32 وبورتو في المركز 22. ووفقا لجدول الاتحاد الأوروبي سيواجهان في ديسمبر فيكينغ وليفربول على الترتيب.",
+          "photoAlt": "الملعب والمدرجات — De Kuip.",
+          "photoCaption": "الملعب والمدرجات — De Kuip. صورة أرشيفية · 2022-08-27."
+        },
+        "zh-CN": {
+          "title": "开场第二分钟出现乌龙球，波尔图在鹿特丹取胜",
+          "summary": "欧冠五轮过后，费耶诺德积3分，波尔图积6分。",
+          "body": "欧足联记录显示，11月24日在De Kuip的比赛结果为费耶诺德 0比1 波尔图。ESPN的实况记录还原了进球过程。 开场不久，乌萨马·塔尔加利纳便将球送入自家球门。费耶诺德几乎整场都落后一球，最终未能追平。\n\n第五轮结束后，费耶诺德排第32，波尔图排第22。按欧足联赛程，两队12月的下一个对手分别是维京和利物浦。",
+          "photoAlt": "球场和看台 — De Kuip.",
+          "photoCaption": "球场和看台 — De Kuip. 档案照片 · 2022-08-27."
+        },
+        "ru": {
+          "title": "Автогол на второй минуте принёс «Порту» победу в Роттердаме",
+          "summary": "После пяти туров Лиги чемпионов у Фейеноорд — 3 очк., у Порту — 6.",
+          "body": "По протоколу УЕФА, матч 24 ноября на стадионе De Kuip завершился со счётом Фейеноорд — Порту 0–1. Ход игры описывает ESPN. Усама Таргаллин отправил мяч в собственные ворота вскоре после стартового свистка. «Фейеноорд» почти весь матч уступал один мяч и так и не смог сравнять счёт.\n\nПосле пятого тура Фейеноорд занимает место № 32, а Порту — № 22. По календарю УЕФА следующими соперниками команд в декабре станут соответственно Викинг и Ливерпуль.",
+          "photoAlt": "Поле и трибуны — De Kuip.",
+          "photoCaption": "Поле и трибуны — De Kuip. Архивное фото · 2022-08-27."
+        },
+        "ko": {
+          "title": "포르투, 로테르담에서 전반 2분 자책골로 승리",
+          "summary": "챔피언스리그 5경기를 치른 현재 페예노르트의 승점은 3점, FC 포르투의 승점은 6점이다.",
+          "body": "UEFA 공식 기록에 따르면 11월 24일 De Kuip에서 열린 경기의 결과는 페예노르트 0, FC 포르투 1였다. ESPN의 실시간 기록은 득점 과정을 전한다. 우사마 타르갈린이 경기 시작 직후 공을 자기 골문에 넣었다. 페예노르트는 거의 내내 한 골 뒤진 채 뛰었고 동점을 만들지 못했다.\n\n5라운드 종료 기준 페예노르트는 32위, FC 포르투는 22위다. UEFA 일정에 따르면 12월 다음 상대는 각각 비킹, 리버풀다.",
+          "photoAlt": "경기장 그라운드와 관중석 — De Kuip.",
+          "photoCaption": "경기장 그라운드와 관중석 — De Kuip. 자료 사진 · 2022-08-27."
+        }
+      }
+    },
+    {
+      "eventKey": "come-aek-luis-milla-frappe-lointaine",
+      "category": "Sports",
+      "title": "Une frappe lointaine de Luis Milla permet à Côme de battre l’AEK",
+      "summary": "Après cinq rencontres de Ligue des champions, Como compte 12 points et AEK Athens en totalise 3.",
+      "body": "La feuille de match de l’UEFA donne le score final de la rencontre du 24 novembre au Giuseppe Sinigaglia : Como 1, AEK Athens 0. Selon le compte rendu d’ESPN, le match était sans but à la pause. À la 57e minute, Martin Baturina a servi Luis Milla, dont la frappe de l’extérieur de la surface a fini dans la lucarne.\n\nÀ l’issue de la cinquième journée, Como occupe le rang 3 et AEK Athens le rang 31. Selon le calendrier de l’UEFA, leurs prochains adversaires en décembre seront respectivement LASK et Sporting CP.",
+      "sources": [
+        {
+          "name": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049633--como-vs-aek-athens/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915296/aek-athens-como",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "UEFA — résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/401915296.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stadio_Sinigaglia_Como_16-07-2025.jpg",
+        "credit": "Vale93b",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Terrain et tribunes — Giuseppe Sinigaglia.",
+        "caption": "Terrain et tribunes — Giuseppe Sinigaglia. Photo d’archives · 2025-08-16."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Luis Milla’s long-range strike gives Como victory over AEK",
+          "summary": "After five Champions League games, Como has 12 points and AEK Athens has 3.",
+          "body": "UEFA recorded the November 24 result at Giuseppe Sinigaglia as Como 1, AEK Athens 0. ESPN’s play-by-play details the scoring. The match was goalless at half-time. In the 57th minute Martin Baturina found Luis Milla, whose shot from outside the box went into the top corner.\n\nAt the end of matchday five, Como ranks 3 and AEK Athens ranks 31. UEFA lists their next opponents in December as LASK and Sporting CP, respectively.",
+          "photoAlt": "Pitch and stands — Giuseppe Sinigaglia.",
+          "photoCaption": "Pitch and stands — Giuseppe Sinigaglia. Archive photograph · 2025-08-16."
+        },
+        "es": {
+          "title": "Un disparo lejano de Luis Milla da la victoria al Como ante el AEK",
+          "summary": "Tras cinco jornadas de la Liga de Campeones, Como suma 12 puntos y AEK Athens tiene 3.",
+          "body": "La ficha de la UEFA registra el resultado del 24 de noviembre en Giuseppe Sinigaglia: Como 1, AEK Athens 0. El minuto a minuto de ESPN detalla los goles. El encuentro llegó sin goles al descanso. En el minuto 57, Martin Baturina sirvió a Luis Milla, cuyo disparo desde fuera del área entró por la escuadra.\n\nAl término de la quinta jornada, Como ocupa el puesto 3 y AEK Athens el 31. En diciembre, según la UEFA, sus próximos rivales serán LASK y Sporting CP, respectivamente.",
+          "photoAlt": "Campo y gradas — Giuseppe Sinigaglia.",
+          "photoCaption": "Campo y gradas — Giuseppe Sinigaglia. Foto de archivo · 2025-08-16."
+        },
+        "ar": {
+          "title": "تسديدة بعيدة للويس ميا تمنح كومو الفوز على أيك",
+          "summary": "بعد خمس مباريات في دوري الأبطال، رصيد كومو هو 12 من النقاط ورصيد أيك أثينا هو 3.",
+          "body": "سجل الاتحاد الأوروبي نتيجة مباراة 24 نوفمبر في ملعب Giuseppe Sinigaglia: كومو 1، أيك أثينا 0. وأوردت ESPN تفاصيل التسجيل. انتهى الشوط الأول من دون أهداف. وفي الدقيقة 57 مرر مارتن باتورينا إلى لويس ميا الذي سدد من خارج المنطقة في الزاوية العليا.\n\nفي ختام الجولة الخامسة جاء كومو في المركز 3 وأيك أثينا في المركز 31. ووفقا لجدول الاتحاد الأوروبي سيواجهان في ديسمبر لاسك وسبورتينغ على الترتيب.",
+          "photoAlt": "الملعب والمدرجات — Giuseppe Sinigaglia.",
+          "photoCaption": "الملعب والمدرجات — Giuseppe Sinigaglia. صورة أرشيفية · 2025-08-16."
+        },
+        "zh-CN": {
+          "title": "路易斯·米利亚远射破门，科莫战胜雅典AEK",
+          "summary": "欧冠五轮过后，科莫积12分，雅典AEK积3分。",
+          "body": "欧足联记录显示，11月24日在Giuseppe Sinigaglia的比赛结果为科莫 1比0 雅典AEK。ESPN的实况记录还原了进球过程。 双方上半场互交白卷。第57分钟，马丁·巴图里纳传给路易斯·米利亚，后者在禁区外射中球门上角。\n\n第五轮结束后，科莫排第3，雅典AEK排第31。按欧足联赛程，两队12月的下一个对手分别是林茨LASK和葡萄牙体育。",
+          "photoAlt": "球场和看台 — Giuseppe Sinigaglia.",
+          "photoCaption": "球场和看台 — Giuseppe Sinigaglia. 档案照片 · 2025-08-16."
+        },
+        "ru": {
+          "title": "Дальний удар Луиса Мильи принёс «Комо» победу над АЕК",
+          "summary": "После пяти туров Лиги чемпионов у Комо — 12 очк., у АЕК — 3.",
+          "body": "По протоколу УЕФА, матч 24 ноября на стадионе Giuseppe Sinigaglia завершился со счётом Комо — АЕК 1–0. Ход игры описывает ESPN. До перерыва голов не было. На 57-й минуте Мартин Батурина отдал пас Луису Милье, и тот ударом из-за штрафной отправил мяч в верхний угол.\n\nПосле пятого тура Комо занимает место № 3, а АЕК — № 31. По календарю УЕФА следующими соперниками команд в декабре станут соответственно ЛАСК и Спортинг.",
+          "photoAlt": "Поле и трибуны — Giuseppe Sinigaglia.",
+          "photoCaption": "Поле и трибуны — Giuseppe Sinigaglia. Архивное фото · 2025-08-16."
+        },
+        "ko": {
+          "title": "루이스 미야 중거리골로 코모, AEK에 승리",
+          "summary": "챔피언스리그 5경기를 치른 현재 코모의 승점은 12점, AEK 아테네의 승점은 3점이다.",
+          "body": "UEFA 공식 기록에 따르면 11월 24일 Giuseppe Sinigaglia에서 열린 경기의 결과는 코모 1, AEK 아테네 0였다. ESPN의 실시간 기록은 득점 과정을 전한다. 전반은 득점 없이 끝났다. 57분 마르틴 바투리나의 패스를 받은 루이스 미야가 페널티 지역 밖에서 골문 위쪽 구석으로 공을 찼다.\n\n5라운드 종료 기준 코모는 3위, AEK 아테네는 31위다. UEFA 일정에 따르면 12월 다음 상대는 각각 LASK 린츠, 스포르팅다.",
+          "photoAlt": "경기장 그라운드와 관중석 — Giuseppe Sinigaglia.",
+          "photoCaption": "경기장 그라운드와 관중석 — Giuseppe Sinigaglia. 자료 사진 · 2025-08-16."
+        }
+      }
+    },
+    {
+      "eventKey": "bratislava-betis-deux-tetes-cucho-hernandez",
+      "category": "Sports",
+      "title": "Deux têtes de Cucho Hernández font gagner le Betis à Bratislava",
+      "summary": "Après cinq rencontres de Ligue des champions, Slovan Bratislava compte 0 points et Real Betis en totalise 12.",
+      "body": "La feuille de match de l’UEFA donne le score final de la rencontre du 24 novembre au Národný futbalový štadión : Slovan Bratislava 0, Real Betis 2. Selon le compte rendu d’ESPN, Cucho Hernández a ouvert la marque sur un centre d’Ángel Ortiz à la 43e minute. Il a doublé l’avance à la 57e sur un ballon d’Isco, de nouveau de la tête.\n\nÀ l’issue de la cinquième journée, Slovan Bratislava occupe le rang 36 et Real Betis le rang 6. Selon le calendrier de l’UEFA, leurs prochains adversaires en décembre seront respectivement Shakhtar Donetsk et Roma.",
+      "sources": [
+        {
+          "name": "UEFA",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049632--s-bratislava-vs-real-betis/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401915297/real-betis-slovan-bratislava",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "UEFA — résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-uefa-champions-league-all-the-league-phase-fixtures/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/401915297.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slovakia_bratislava_N%C3%A1rodn%C3%BD_futbalov%C3%BD_%C5%A1tadi%C3%B3n.jpg",
+        "credit": "Arne Müseler / arne-mueseler.com",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "alt": "Vue aérienne du stade — Národný futbalový štadión.",
+        "caption": "Vue aérienne du stade — Národný futbalový štadión. Photo d’archives · 2024-05-05."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Two Cucho Hernández headers give Betis victory in Bratislava",
+          "summary": "After five Champions League games, Slovan Bratislava has 0 points and Real Betis has 12.",
+          "body": "UEFA recorded the November 24 result at Národný futbalový štadión as Slovan Bratislava 0, Real Betis 2. ESPN’s play-by-play details the scoring. Cucho Hernández opened the scoring from Ángel Ortiz’s cross in the 43rd minute. He doubled the lead in the 57th from an Isco delivery, again with his head.\n\nAt the end of matchday five, Slovan Bratislava ranks 36 and Real Betis ranks 6. UEFA lists their next opponents in December as Shakhtar Donetsk and Roma, respectively.",
+          "photoAlt": "Aerial view of the stadium — Národný futbalový štadión.",
+          "photoCaption": "Aerial view of the stadium — Národný futbalový štadión. Archive photograph · 2024-05-05."
+        },
+        "es": {
+          "title": "Dos cabezazos del Cucho Hernández dan la victoria al Betis en Bratislava",
+          "summary": "Tras cinco jornadas de la Liga de Campeones, Slovan Bratislava suma 0 puntos y Real Betis tiene 12.",
+          "body": "La ficha de la UEFA registra el resultado del 24 de noviembre en Národný futbalový štadión: Slovan Bratislava 0, Real Betis 2. El minuto a minuto de ESPN detalla los goles. Cucho Hernández abrió el marcador en el minuto 43 tras un centro de Ángel Ortiz. En el 57 dobló la ventaja, otra vez de cabeza, a pase de Isco.\n\nAl término de la quinta jornada, Slovan Bratislava ocupa el puesto 36 y Real Betis el 6. En diciembre, según la UEFA, sus próximos rivales serán Shakhtar Donetsk y Roma, respectivamente.",
+          "photoAlt": "Vista aérea del estadio — Národný futbalový štadión.",
+          "photoCaption": "Vista aérea del estadio — Národný futbalový štadión. Foto de archivo · 2024-05-05."
+        },
+        "ar": {
+          "title": "رأسيتان لكوتشو هرنانديز تمنحان بيتيس الفوز في براتيسلافا",
+          "summary": "بعد خمس مباريات في دوري الأبطال، رصيد سلوفان براتيسلافا هو 0 من النقاط ورصيد ريال بيتيس هو 12.",
+          "body": "سجل الاتحاد الأوروبي نتيجة مباراة 24 نوفمبر في ملعب Národný futbalový štadión: سلوفان براتيسلافا 0، ريال بيتيس 2. وأوردت ESPN تفاصيل التسجيل. افتتح كوتشو هرنانديز التسجيل من عرضية أنخل أورتيز في الدقيقة 43. وضاعف التقدم في الدقيقة 57 من كرة أرسلها إيسكو، برأسية أخرى.\n\nفي ختام الجولة الخامسة جاء سلوفان براتيسلافا في المركز 36 وريال بيتيس في المركز 6. ووفقا لجدول الاتحاد الأوروبي سيواجهان في ديسمبر شاختار دونيتسك وروما على الترتيب.",
+          "photoAlt": "منظر جوي للملعب — Národný futbalový štadión.",
+          "photoCaption": "منظر جوي للملعب — Národný futbalový štadión. صورة أرشيفية · 2024-05-05."
+        },
+        "zh-CN": {
+          "title": "库乔·埃尔南德斯两记头球助贝蒂斯客胜布拉迪斯拉发",
+          "summary": "欧冠五轮过后，布拉迪斯拉发斯洛万积0分，皇家贝蒂斯积12分。",
+          "body": "欧足联记录显示，11月24日在Národný futbalový štadión的比赛结果为布拉迪斯拉发斯洛万 0比2 皇家贝蒂斯。ESPN的实况记录还原了进球过程。 第43分钟，库乔·埃尔南德斯接安赫尔·奥尔蒂斯传中首开纪录。第57分钟他接伊斯科传球再度头槌破门，扩大领先优势。\n\n第五轮结束后，布拉迪斯拉发斯洛万排第36，皇家贝蒂斯排第6。按欧足联赛程，两队12月的下一个对手分别是顿涅茨克矿工和罗马。",
+          "photoAlt": "球场航拍图 — Národný futbalový štadión.",
+          "photoCaption": "球场航拍图 — Národný futbalový štadión. 档案照片 · 2024-05-05."
+        },
+        "ru": {
+          "title": "Два гола Кучо Эрнандеса головой принесли «Бетису» победу в Братиславе",
+          "summary": "После пяти туров Лиги чемпионов у Слован Братислава — 0 очк., у Реал Бетис — 12.",
+          "body": "По протоколу УЕФА, матч 24 ноября на стадионе Národný futbalový štadión завершился со счётом Слован Братислава — Реал Бетис 0–2. Ход игры описывает ESPN. Кучо Эрнандес открыл счёт после подачи Анхеля Ортиса на 43-й минуте. На 57-й он удвоил преимущество после передачи Иско, снова забив головой.\n\nПосле пятого тура Слован Братислава занимает место № 36, а Реал Бетис — № 6. По календарю УЕФА следующими соперниками команд в декабре станут соответственно Шахтёр Донецк и Рома.",
+          "photoAlt": "Стадион с воздуха — Národný futbalový štadión.",
+          "photoCaption": "Стадион с воздуха — Národný futbalový štadión. Архивное фото · 2024-05-05."
+        },
+        "ko": {
+          "title": "쿠초 에르난데스 헤더 두 골로 베티스, 브라티슬라바서 승리",
+          "summary": "챔피언스리그 5경기를 치른 현재 슬로반 브라티슬라바의 승점은 0점, 레알 베티스의 승점은 12점이다.",
+          "body": "UEFA 공식 기록에 따르면 11월 24일 Národný futbalový štadión에서 열린 경기의 결과는 슬로반 브라티슬라바 0, 레알 베티스 2였다. ESPN의 실시간 기록은 득점 과정을 전한다. 쿠초 에르난데스가 43분 앙헬 오르티스의 크로스로 선제골을 넣었다. 57분에는 이스코의 패스를 다시 머리로 마무리해 점수 차를 벌렸다.\n\n5라운드 종료 기준 슬로반 브라티슬라바는 36위, 레알 베티스는 6위다. UEFA 일정에 따르면 12월 다음 상대는 각각 샤흐타르 도네츠크, AS 로마다.",
+          "photoAlt": "경기장 항공 사진 — Národný futbalový štadión.",
+          "photoCaption": "경기장 항공 사진 — Národný futbalový štadión. 자료 사진 · 2024-05-05."
+        }
+      }
+    }
+  ]
+}
