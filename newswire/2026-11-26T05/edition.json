@@ -1,0 +1,1100 @@
+{
+  "hour": "2026-11-26T05",
+  "articles": [
+    {
+      "eventKey": "ukraine-poltava-naftogaz-incendie-production-suspendue",
+      "category": "Monde",
+      "title": "En Ukraine, Naftogaz suspend la production sur un site touché dans la région de Poltava",
+      "summary": "L’entreprise fait état d’un incendie après une frappe nocturne. Des coupures d’électricité ont aussi touché cinq régions ukrainiennes.",
+      "body": "Naftogaz a annoncé le 25 novembre l’arrêt des activités d’un site de production de gaz dans la région de Poltava, au centre de l’Ukraine. Selon l’entreprise, un drone russe a frappé l’installation pendant la nuit et y a déclenché un incendie.\n\nSon dirigeant par intérim, Sergii Fedorenko, a indiqué que l’évaluation des dégâts attendrait que les conditions de sécurité le permettent. Reuters rapporte, en citant les autorités ukrainiennes, que les frappes de la nuit ont aussi privé d’électricité des usagers dans cinq régions.",
+      "sources": [
+        {
+          "name": "Naftogaz",
+          "url": "https://www.naftogaz.com/en/news/rosiyany-atakuvaly-ob-ekt-naftogazu-na-poltavschyni",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/europe/russian-attack-damages-ukraines-energy-gas-sites-cuts-power-five-regions-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:6_Khmelnytskoho_street,_Kyiv.jpg",
+        "download": "media/kyiv.webp",
+        "credit": "Xsandriel / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Façade claire d’un bâtiment historique de Kyiv, derrière des arbres.",
+        "caption": "Archives du 19 juin 2025. Le bâtiment qui abrite le siège de Naftogaz à Kyiv."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Ukraine’s Naftogaz suspends operations at a gas production site hit in Poltava region",
+          "summary": "The company reported a fire following an overnight strike. Power outages also affected five Ukrainian regions.",
+          "body": "Naftogaz announced on November 25 that it had halted operations at a gas production site in central Ukraine’s Poltava region. The company said a Russian drone struck the facility overnight and started a fire.\n\nActing chief executive Sergii Fedorenko said the damage assessment would have to wait until conditions were safe. Reuters, citing Ukrainian authorities, reported that the overnight strikes also cut electricity to customers in five regions.",
+          "photoAlt": "Pale facade of a historic Kyiv building behind trees.",
+          "photoCaption": "Archive, June 19, 2025. The building housing Naftogaz headquarters in Kyiv."
+        },
+        "es": {
+          "title": "Naftogaz suspende la actividad en una instalación de gas atacada en la región ucraniana de Poltava",
+          "summary": "La empresa informó de un incendio tras un ataque nocturno. También se registraron cortes de electricidad en cinco regiones de Ucrania.",
+          "body": "Naftogaz anunció el 25 de noviembre que había detenido la actividad en una instalación de producción de gas en Poltava, en el centro de Ucrania. Según la empresa, un dron ruso alcanzó la instalación durante la noche y provocó un incendio.\n\nEl director interino, Sergii Fedorenko, dijo que los daños se evaluarían cuando las condiciones de seguridad lo permitieran. Reuters informó, citando a las autoridades ucranianas, de que los ataques nocturnos también dejaron sin electricidad a usuarios de cinco regiones.",
+          "photoAlt": "Fachada clara de un edificio histórico de Kyiv detrás de árboles.",
+          "photoCaption": "Archivo del 19 de junio de 2025. Edificio que alberga la sede de Naftogaz en Kyiv."
+        },
+        "ar": {
+          "title": "نافتوغاز تعلق العمل في منشأة لإنتاج الغاز تعرضت للقصف في منطقة بولتافا الأوكرانية",
+          "summary": "أعلنت الشركة اندلاع حريق بعد ضربة ليلية. وطال انقطاع الكهرباء أيضاً خمس مناطق أوكرانية.",
+          "body": "أعلنت نافتوغاز في 25 نوفمبر وقف العمل في منشأة لإنتاج الغاز في منطقة بولتافا وسط أوكرانيا. وقالت الشركة إن طائرة مسيّرة روسية ضربت المنشأة ليلاً وتسببت في حريق.\n\nوقال رئيس الشركة بالإنابة سيرهي فيدورينكو إن تقييم الأضرار سينتظر توافر ظروف آمنة. ونقلت رويترز عن السلطات الأوكرانية أن الضربات الليلية قطعت أيضاً الكهرباء عن مستهلكين في خمس مناطق.",
+          "photoAlt": "واجهة فاتحة اللون لمبنى تاريخي في كييف خلف الأشجار.",
+          "photoCaption": "أرشيف 19 يونيو 2025. المبنى الذي يضم مقر نافتوغاز في كييف."
+        },
+        "zh-CN": {
+          "title": "乌克兰国家石油天然气公司暂停波尔塔瓦州一处遇袭设施的生产",
+          "summary": "该公司称，夜间袭击引发火灾。乌克兰另有五个地区出现停电。",
+          "body": "乌克兰国家石油天然气公司11月25日宣布，已暂停乌中部波尔塔瓦州一处天然气生产设施的运营。该公司称，一架俄罗斯无人机夜间击中设施并引发火灾。\n\n代理首席执行官谢尔希·费多连科表示，待现场安全条件允许后才能评估损失。路透社援引乌克兰当局的消息报道，夜间袭击还导致五个地区的部分用户停电。",
+          "photoAlt": "树木后方是基辅一座历史建筑的浅色外墙。",
+          "photoCaption": "资料照片：2025年6月19日，乌克兰国家石油天然气公司总部所在的基辅大楼。"
+        },
+        "ru": {
+          "title": "«Нафтогаз» остановил работу газодобывающего объекта после удара в Полтавской области",
+          "summary": "Компания сообщила о пожаре после ночного удара. Перебои с электричеством также затронули пять областей Украины.",
+          "body": "25 ноября «Нафтогаз» сообщил о приостановке работы газодобывающего объекта в Полтавской области в центральной части Украины. По данным компании, ночью в объект попал российский беспилотник, вызвав пожар.\n\nИсполняющий обязанности главы компании Сергей Федоренко заявил, что ущерб оценят, как только позволят условия безопасности. По сообщению Reuters со ссылкой на украинские власти, ночные удары также оставили без электричества потребителей в пяти областях.",
+          "photoAlt": "Светлый фасад исторического здания в Киеве за деревьями.",
+          "photoCaption": "Архив, 19 июня 2025 года. Здание штаб-квартиры «Нафтогаза» в Киеве."
+        },
+        "ko": {
+          "title": "우크라이나 나프토가스, 피격된 폴타바주 가스 생산시설 가동 중단",
+          "summary": "회사 측은 야간 공격으로 화재가 발생했다고 밝혔다. 우크라이나 5개 지역에서는 정전도 발생했다.",
+          "body": "나프토가스는 11월 25일 우크라이나 중부 폴타바주의 가스 생산시설 한 곳의 가동을 중단했다고 밝혔다. 회사에 따르면 밤사이 러시아 무인기가 시설을 타격해 불이 났다.\n\n세르히 페도렌코 대표 대행은 안전이 확보된 뒤 피해 규모를 평가할 것이라고 말했다. 로이터는 우크라이나 당국을 인용해 밤사이 공격으로 5개 지역 일부 주민과 사업장의 전력 공급도 끊겼다고 전했다.",
+          "photoAlt": "나무 뒤로 보이는 키이우 역사 건물의 밝은색 외벽.",
+          "photoCaption": "자료 사진. 2025년 6월 19일 키이우에 있는 나프토가스 본부 건물."
+        }
+      }
+    },
+    {
+      "eventKey": "canada-octobre-ventes-gros-recul-automobile",
+      "category": "Économie",
+      "title": "Les ventes des grossistes canadiens auraient reculé de 1,8 % en octobre",
+      "summary": "Les véhicules et les pièces automobiles expliquent l’essentiel de la baisse estimée par Statistique Canada.",
+      "body": "Après une hausse de 0,7 % en septembre, les ventes de gros auraient diminué de 1,8 % en octobre par rapport au mois précédent, selon l’estimation publiée le 25 novembre. Le relevé exclut les hydrocarbures, les graines oléagineuses et les céréales.\n\nStatistique Canada attribue le recul principalement à l’automobile. Le taux de réponse pondéré atteignait 68,4 % au moment du calcul. Les réponses encore attendues pourraient donc modifier le résultat. Trading Economics relève que ce serait la plus forte baisse depuis avril 2025.",
+      "sources": [
+        {
+          "name": "Statistique Canada",
+          "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261125/dq261125c-fra.htm",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Trading Economics",
+          "url": "https://tradingeconomics.com/canada/wholesale-sales/news/604332",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Bldg_Ottawa.JPG",
+        "download": "media/f05-0.webp",
+        "credit": "Demetri1968 / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Entrée vitrée d’un bâtiment de Statistique Canada à Ottawa.",
+        "caption": "Archives. Bâtiment de Statistique Canada à Ottawa, photo mise en ligne le 1er septembre 2008."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Canadian wholesale sales estimated to have fallen 1.8% in October",
+          "summary": "Vehicles and auto parts accounted for most of the estimated decline, Statistics Canada says.",
+          "body": "After rising 0.7% in September, wholesale sales likely fell 1.8% in October from the previous month, according to the estimate released on November 25. The figures exclude hydrocarbons, oilseeds and grain.\n\nStatistics Canada attributes most of the drop to the automotive sector. The weighted response rate was 68.4% when the estimate was calculated. Outstanding responses could change the result. Trading Economics says it would be the largest decline since April 2025.",
+          "photoAlt": "Glass entrance to a Statistics Canada building in Ottawa.",
+          "photoCaption": "Archive. Statistics Canada building in Ottawa, photograph uploaded September 1, 2008."
+        },
+        "es": {
+          "title": "Las ventas mayoristas de Canadá habrían bajado un 1,8 % en octubre",
+          "summary": "Los vehículos y los repuestos explican la mayor parte del descenso estimado por Statistics Canada.",
+          "body": "Tras subir un 0,7 % en septiembre, las ventas mayoristas habrían caído un 1,8 % mensual en octubre, según la estimación publicada el 25 de noviembre. Las cifras excluyen hidrocarburos, oleaginosas y cereales.\n\nStatistics Canada atribuye la mayor parte de la caída al sector automotor. La tasa de respuesta ponderada era del 68,4 % al calcular la estimación. Las respuestas pendientes podrían modificar el resultado. Según Trading Economics, sería la mayor caída desde abril de 2025.",
+          "photoAlt": "Entrada acristalada de un edificio de Statistics Canada en Ottawa.",
+          "photoCaption": "Archivo. Edificio de Statistics Canada en Ottawa. Foto publicada el 1 de septiembre de 2008."
+        },
+        "ar": {
+          "title": "تقديرات بتراجع مبيعات الجملة في كندا 1.8% في أكتوبر",
+          "summary": "تعزو هيئة الإحصاء الكندية معظم الانخفاض المقدر إلى المركبات وقطع الغيار.",
+          "body": "بعد ارتفاع مبيعات الجملة 0.7% في سبتمبر، تشير تقديرات صدرت في 25 نوفمبر إلى تراجعها 1.8% في أكتوبر مقارنة بالشهر السابق. وتستثني البيانات المحروقات والبذور الزيتية والحبوب.\n\nوتعزو الهيئة معظم الانخفاض إلى قطاع السيارات. وبلغ معدل الاستجابة المرجح عند إعداد التقدير 68.4%، ما يترك مجالاً لتغير النتيجة بعد ورود بقية الإجابات. وبحسب «تريدينغ إيكونوميكس» سيكون هذا أكبر انخفاض منذ أبريل 2025.",
+          "photoAlt": "مدخل زجاجي لمبنى هيئة الإحصاء الكندية في أوتاوا.",
+          "photoCaption": "من الأرشيف. مبنى الهيئة في أوتاوا في صورة نُشرت في 1 سبتمبر 2008."
+        },
+        "zh-CN": {
+          "title": "加拿大10月批发销售额估计环比下降1.8%",
+          "summary": "加拿大统计局表示，汽车及零部件是销售额下滑的主要原因。",
+          "body": "11月25日公布的初步估计显示，继9月增长0.7%后，加拿大批发销售额10月可能环比下降1.8%。这一指标不包括碳氢化合物、油籽和谷物。\n\n加拿大统计局将此次下滑主要归因于汽车行业。计算初值时，加权回复率为68.4%，尚未收到的回复可能改变结果。Trading Economics指出，若数据得到确认，这将是2025年4月以来的最大降幅。",
+          "photoAlt": "渥太华加拿大统计局大楼的玻璃入口。",
+          "photoCaption": "资料照片：渥太华的加拿大统计局大楼，照片上传于2008年9月1日。"
+        },
+        "ru": {
+          "title": "Оптовые продажи в Канаде в октябре могли снизиться на 1,8%",
+          "summary": "По оценке Статистического управления Канады, основной вклад в спад внесли автомобили и комплектующие.",
+          "body": "После роста на 0,7% в сентябре оптовые продажи в октябре, по оценке от 25 ноября, сократились на 1,8% к предыдущему месяцу. Данные не учитывают углеводороды, масличные и зерновые культуры.\n\nУправление связывает спад прежде всего с автомобильным сектором. На момент расчёта взвешенная доля ответов составляла 68,4%. Поступление оставшихся ответов может изменить результат. По данным Trading Economics, это было бы крупнейшее падение с апреля 2025 года.",
+          "photoAlt": "Стеклянный вход в здание Статистического управления Канады в Оттаве.",
+          "photoCaption": "Архив. Здание управления в Оттаве. Снимок опубликован 1 сентября 2008 года."
+        },
+        "ko": {
+          "title": "캐나다 10월 도매 매출 1.8% 감소 추정",
+          "summary": "캐나다 통계청은 자동차와 부품 판매가 추정 감소분의 대부분을 차지했다고 밝혔다.",
+          "body": "11월 25일 발표된 잠정치에 따르면 도매 매출은 9월 0.7% 증가한 뒤 10월에는 전월보다 1.8% 감소한 것으로 추정된다. 탄화수소, 유지 종자와 곡물은 집계에서 제외된다.\n\n통계청은 자동차 부문을 주된 감소 요인으로 꼽았다. 추정 당시 가중 응답률은 68.4%여서 추가 응답에 따라 결과가 바뀔 수 있다. 트레이딩이코노믹스에 따르면 잠정치가 확정될 경우 2025년 4월 이후 가장 큰 하락이다.",
+          "photoAlt": "오타와 캐나다 통계청 건물의 유리 출입구.",
+          "photoCaption": "자료 사진. 오타와의 캐나다 통계청 건물로, 2008년 9월 1일 게시됐다."
+        }
+      }
+    },
+    {
+      "eventKey": "australie-investissement-centres-donnees-trimestre-septembre",
+      "category": "Économie",
+      "title": "En Australie, les centres de données tirent l’investissement privé vers le haut",
+      "summary": "Les dépenses en capital neuf des entreprises ont bondi de 12,2 % au trimestre clos en septembre.",
+      "body": "Les entreprises australiennes ont consacré 59,5 milliards de dollars australiens à de nouveaux investissements au cours du trimestre clos en septembre, en dollars corrigés de l’inflation, rapporte Reuters. La hausse trimestrielle de 12,2 % est la plus forte depuis 2011.\n\nLe bureau australien de la statistique souligne le rôle des achats de baies de serveurs et de matériel informatique. La progression est très inégale. Les dépenses en machines et équipements ont gagné 23,1 %, contre 1,7 % pour les bâtiments et autres ouvrages.",
+      "sources": [
+        {
+          "name": "Australian Bureau of Statistics",
+          "url": "https://www.abs.gov.au/media-centre/media-releases/data-centre-investment-continues-drive-new-capital-expenditure",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/data-centre-rush-drives-biggest-rise-australian-business-investment-since-mining-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ABS_House.jpg",
+        "download": "media/f05-3.webp",
+        "credit": "Bidgee / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Façade du siège du bureau australien de la statistique.",
+        "caption": "Archives du 23 février 2009. Le siège du bureau à Belconnen, en Australie."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Data centres drive a surge in Australian business investment",
+          "summary": "Business spending on new capital rose 12.2% in the quarter ending in September.",
+          "body": "Australian businesses spent an inflation-adjusted A$59.5 billion on new capital during the quarter ending in September, Reuters reported. The 12.2% quarterly increase was the largest since 2011.\n\nThe Australian Bureau of Statistics highlighted purchases of server racks and computing equipment. The gains were uneven. Spending on machinery and equipment rose 23.1%, compared with 1.7% for buildings and other structures.",
+          "photoAlt": "Facade of the Australian Bureau of Statistics headquarters.",
+          "photoCaption": "Archive photograph from February 23, 2009. The bureau’s headquarters in Belconnen, Australia."
+        },
+        "es": {
+          "title": "Los centros de datos impulsan la inversión empresarial en Australia",
+          "summary": "El gasto de las empresas en nuevo capital creció un 12,2 % en el trimestre terminado en septiembre.",
+          "body": "Las empresas australianas destinaron 59.500 millones de dólares australianos, ajustados por inflación, a nuevas inversiones en el trimestre terminado en septiembre, según Reuters. El aumento trimestral del 12,2 % fue el mayor desde 2011.\n\nLa oficina australiana de estadística destacó las compras de bastidores para servidores y equipos informáticos. La evolución fue desigual. El gasto en maquinaria y equipos subió un 23,1 %, frente al 1,7 % en edificios y otras estructuras.",
+          "photoAlt": "Fachada de la sede de la oficina australiana de estadística.",
+          "photoCaption": "Archivo del 23 de febrero de 2009. Sede de la oficina en Belconnen, Australia."
+        },
+        "ar": {
+          "title": "مراكز البيانات تدفع الاستثمار الخاص إلى الارتفاع في أستراليا",
+          "summary": "ارتفع إنفاق الشركات على الأصول الرأسمالية الجديدة 12.2% في الربع المنتهي في سبتمبر.",
+          "body": "أنفقت الشركات الأسترالية 59.5 مليار دولار أسترالي بعد احتساب التضخم على استثمارات جديدة خلال الربع المنتهي في سبتمبر، بحسب رويترز. وكانت الزيادة الفصلية البالغة 12.2% الأكبر منذ 2011.\n\nوأشار مكتب الإحصاء الأسترالي إلى مشتريات رفوف الخوادم ومعدات الحوسبة. وتفاوت النمو بين الفئات، إذ ارتفع الإنفاق على الآلات والمعدات 23.1% مقابل 1.7% للمباني والمنشآت الأخرى.",
+          "photoAlt": "واجهة مقر مكتب الإحصاء الأسترالي.",
+          "photoCaption": "صورة أرشيفية بتاريخ 23 فبراير 2009 لمقر المكتب في بيلكونن بأستراليا."
+        },
+        "zh-CN": {
+          "title": "数据中心推动澳大利亚企业投资大幅增长",
+          "summary": "截至9月的季度，企业新增资本支出环比增长12.2%。",
+          "body": "据路透社报道，截至9月的季度，澳大利亚企业新增资本支出经通胀调整后达595亿澳元。12.2%的环比增幅为2011年以来最高。\n\n澳大利亚统计局指出，企业购入了大量服务器机架和计算设备。各类投资增势不一：机器设备支出增长23.1%，建筑物及其他构筑物支出增长1.7%。",
+          "photoAlt": "澳大利亚统计局总部大楼的外立面。",
+          "photoCaption": "资料照片：2009年2月23日，位于澳大利亚贝尔康嫩的统计局总部。"
+        },
+        "ru": {
+          "title": "Центры обработки данных ускорили рост инвестиций в Австралии",
+          "summary": "Расходы бизнеса на новые основные фонды выросли за квартал по сентябрь на 12,2%.",
+          "body": "За квартал, завершившийся в сентябре, австралийские предприятия вложили в новые основные фонды 59,5 млрд австралийских долларов с поправкой на инфляцию, сообщает Reuters. Квартальный рост на 12,2% стал крупнейшим с 2011 года.\n\nАвстралийское бюро статистики отметило закупки серверных стоек и вычислительного оборудования. Динамика по категориям различалась. Расходы на машины и оборудование выросли на 23,1%, а на здания и другие сооружения — на 1,7%.",
+          "photoAlt": "Фасад штаб-квартиры Австралийского бюро статистики.",
+          "photoCaption": "Архивный снимок от 23 февраля 2009 года. Штаб-квартира бюро в Белконнене, Австралия."
+        },
+        "ko": {
+          "title": "데이터센터가 호주 기업 투자 증가세 이끌어",
+          "summary": "9월에 끝난 분기 기업의 신규 자본 지출은 전 분기보다 12.2% 늘었다.",
+          "body": "로이터에 따르면 호주 기업들은 9월에 끝난 분기에 물가 조정 기준 595억 호주달러를 신규 자본에 투자했다. 전 분기 대비 12.2%의 증가율은 2011년 이후 가장 높았다.\n\n호주 통계청은 기업의 서버 랙과 전산 장비 구매를 주요 요인으로 꼽았다. 항목별로 차이가 컸다. 기계·장비 지출은 23.1% 증가한 반면 건물과 기타 구조물 지출은 1.7% 늘었다.",
+          "photoAlt": "호주 통계청 본부 건물의 외관.",
+          "photoCaption": "자료 사진. 2009년 2월 23일 호주 벨코넨의 통계청 본부."
+        }
+      }
+    },
+    {
+      "eventKey": "denver-canadien-blanchi-six-buts-makar-trois-aides",
+      "category": "Sports",
+      "title": "Le Colorado blanchit le Canadien 6 à 0 au retour de Cale Makar",
+      "summary": "Makar a obtenu trois passes et Mackenzie Blackwood a repoussé les 28 tirs de Montréal à Denver.",
+      "body": "BYRVOX avait annoncé le retour de Cale Makar avant la rencontre du 25 novembre. La feuille de match de la LNH donne désormais la mesure de sa contribution : trois passes dans une victoire de 6 à 0 de l’Avalanche. Devon Toews a marqué deux fois en deuxième période.\n\nSelon Field Level Media, il s’agit du troisième blanchissage consécutif du Colorado à domicile. Montréal amorce ainsi un déplacement de trois matchs avec une troisième défaite de suite.",
+      "sources": [
+        {
+          "name": "Ligue nationale de hockey",
+          "url": "https://www.nhl.com/scores/htmlreports/20262027/GS020397.HTM",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Field Level Media / Reuters",
+          "url": "https://www.reuters.com/sports/nhl/avalanche-blank-canadiens-third-consecutive-home-shutout-win--flm-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cale_Makar_playing_with_the_Avalanche_in_2020_(Quintin_Soloviev)_(cropped).jpg",
+        "download": "media/f05-1.webp",
+        "credit": "Quintin Soloviev / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Cale Makar en chandail du Colorado et casque blanc.",
+        "caption": "Archives du 6 janvier 2020. Cale Makar lors d’un match contre les Islanders."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Colorado blanks Montreal 6–0 in Cale Makar’s return",
+          "summary": "Makar recorded three assists and Mackenzie Blackwood stopped all 28 Montreal shots in Denver.",
+          "body": "BYRVOX reported Makar’s return before the November 25 game. The NHL game sheet now shows his contribution: three assists in a 6–0 Avalanche victory. Devon Toews scored twice in the second period.\n\nField Level Media reports it was Colorado’s third straight home shutout. Montreal opened a three-game road trip with its third consecutive loss.",
+          "photoAlt": "Cale Makar in a Colorado jersey and white helmet.",
+          "photoCaption": "Archive, January 6, 2020. Cale Makar playing against the Islanders."
+        },
+        "es": {
+          "title": "Colorado deja a Montreal sin marcar y gana 6-0 en el regreso de Makar",
+          "summary": "Makar dio tres asistencias y Mackenzie Blackwood detuvo los 28 tiros de Montreal en Denver.",
+          "body": "BYRVOX había anunciado el regreso de Cale Makar antes del partido del 25 de noviembre. El acta de la NHL recoge su aporte: tres asistencias en el triunfo del Avalanche por 6-0. Devon Toews marcó dos veces en el segundo periodo.\n\nSegún Field Level Media, Colorado mantuvo su portería a cero en casa por tercer partido consecutivo. Montreal abrió una gira de tres encuentros con su tercera derrota seguida.",
+          "photoAlt": "Cale Makar con camiseta de Colorado y casco blanco.",
+          "photoCaption": "Archivo del 6 de enero de 2020. Cale Makar ante los Islanders."
+        },
+        "ar": {
+          "title": "كولورادو يهزم مونتريال 6-0 في عودة كايل ماكار",
+          "summary": "صنع ماكار ثلاثة أهداف وتصدى ماكنزي بلاكوود لتسديدات مونتريال الـ28 في دنفر.",
+          "body": "كانت BYRVOX قد أعلنت عودة ماكار قبل مباراة 25 نوفمبر. ويظهر سجل دوري الهوكي الآن إسهامه بثلاث تمريرات حاسمة في فوز أفالانش 6-0. وسجل ديفون تويز هدفين في الفترة الثانية.\n\nوبحسب فيلد ليفل ميديا، هذه ثالث مباراة متتالية ينهيها كولورادو على أرضه بشباك نظيفة. وافتتح مونتريال جولة من ثلاث مباريات خارج أرضه بخسارته الثالثة توالياً.",
+          "photoAlt": "كايل ماكار بقميص كولورادو وخوذة بيضاء.",
+          "photoCaption": "أرشيف 6 يناير 2020. ماكار في مباراة ضد آيلاندرز."
+        },
+        "zh-CN": {
+          "title": "马卡尔复出送出三次助攻，科罗拉多6比0零封蒙特利尔",
+          "summary": "在丹佛，马卡尔贡献三次助攻，麦肯齐·布莱克伍德扑出蒙特利尔全部28次射门。",
+          "body": "BYRVOX在11月25日赛前报道了凯尔·马卡尔复出的消息。NHL赛后记录显示，他在雪崩队6比0获胜的比赛中送出三次助攻。德文·托斯在第二节独中两元。\n\n据Field Level Media报道，这是科罗拉多连续第三场主场零封对手。蒙特利尔以三连败开启了连续三个客场的赛程。",
+          "photoAlt": "马卡尔身穿科罗拉多队球衣，头戴白色头盔。",
+          "photoCaption": "资料照片：2020年1月6日，马卡尔在对阵岛人队的比赛中。"
+        },
+        "ru": {
+          "title": "«Колорадо» обыграл «Монреаль» 6:0 в первом матче после возвращения Макара",
+          "summary": "Макар отдал три голевые передачи, а Маккензи Блэквуд отразил все 28 бросков гостей в Денвере.",
+          "body": "Перед матчем 25 ноября BYRVOX сообщал о возвращении Кейла Макара. Теперь протокол НХЛ показывает его вклад: три результативные передачи в победном для «Эвеланш» матче со счётом 6:0. Девон Тэйвз дважды забил во втором периоде.\n\nПо данным Field Level Media, «Колорадо» в третий раз подряд сыграл дома на ноль. «Монреаль» начал серию из трёх выездных матчей с третьего поражения подряд.",
+          "photoAlt": "Кейл Макар в форме «Колорадо» и белом шлеме.",
+          "photoCaption": "Архив, 6 января 2020 года. Макар в матче против «Айлендерс»."
+        },
+        "ko": {
+          "title": "마카르 복귀한 콜로라도, 몬트리올에 6대 0 완승",
+          "summary": "덴버에서 마카르는 3도움을 기록했고 매켄지 블랙우드는 몬트리올의 슛 28개를 모두 막았다.",
+          "body": "BYRVOX는 11월 25일 경기 전 케일 마카르의 복귀를 보도했다. NHL 경기 기록에 따르면 마카르는 3도움을 올려 애벌랜치의 6대 0 승리에 기여했다. 데번 테이브스는 2피리어드에 두 골을 넣었다.\n\n필드레벨미디어에 따르면 콜로라도는 홈에서 세 경기 연속 무실점을 기록했다. 몬트리올은 원정 3연전 첫 경기에서 시즌 일정을 통틀어 3연패를 당했다.",
+          "photoAlt": "콜로라도 유니폼과 흰 헬멧을 착용한 케일 마카르.",
+          "photoCaption": "자료 사진. 2020년 1월 6일 아일런더스와의 경기에 나선 마카르."
+        }
+      }
+    },
+    {
+      "eventKey": "france-confiance-menages-novembre-82",
+      "category": "Europe",
+      "title": "En France, la confiance des ménages regagne un point en novembre",
+      "summary": "L’indicateur de l’Insee remonte à 82. Les ménages se montrent un peu moins inquiets pour l’emploi.",
+      "body": "L’enquête publiée le 25 novembre par l’Insee situe la confiance des ménages à 82 en novembre après 81 en octobre. Ce léger mieux, conforme aux attentes rapportées par Trading Economics, laisse l’indice 18 points sous sa moyenne de longue période.\n\nLes réponses sur le chômage éclairent ce mouvement. Le solde qui mesure les craintes à ce sujet perd six points, de 60 à 54. Il reste néanmoins au-dessus de sa moyenne historique.",
+      "sources": [
+        {
+          "name": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/9156257",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Trading Economics",
+          "url": "https://tradingeconomics.com/france/consumer-confidence/news/604216",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:INSEE_White.jpg",
+        "download": "media/extra05-0.webp",
+        "credit": "Boubloub / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Bâtiment blanc de l’Insee le long d’une rue.",
+        "caption": "Archives du 4 janvier 2023. Le siège de l’Insee à Montrouge."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "French household confidence gains one point in November",
+          "summary": "The Insee index rose to 82 as households expressed slightly less concern about employment.",
+          "body": "Insee’s survey released on November 25 put household confidence at 82 in November, up from 81 in October. The modest improvement matched expectations reported by Trading Economics and left the index 18 points below its long-term average.\n\nResponses on unemployment help explain the shift. The balance measuring concerns about joblessness fell six points, from 60 to 54. It remained above its historical average.",
+          "photoAlt": "White Insee building along a street.",
+          "photoCaption": "Archive, January 4, 2023. Insee headquarters in Montrouge."
+        },
+        "es": {
+          "title": "La confianza de los hogares franceses gana un punto en noviembre",
+          "summary": "El índice del Insee subió a 82 y los hogares manifestaron algo menos de temor por el empleo.",
+          "body": "La encuesta que publicó el Insee el 25 de noviembre sitúa la confianza en 82 en noviembre, frente a 81 en octubre. La leve mejora, acorde con las previsiones recogidas por Trading Economics, deja el índice 18 puntos por debajo de su media histórica.\n\nLas respuestas sobre desempleo ayudan a explicar la variación. El saldo que mide esa preocupación bajó seis puntos, de 60 a 54, aunque sigue por encima de su media histórica.",
+          "photoAlt": "Edificio blanco del Insee junto a una calle.",
+          "photoCaption": "Archivo del 4 de enero de 2023. Sede del Insee en Montrouge."
+        },
+        "ar": {
+          "title": "ثقة الأسر الفرنسية ترتفع نقطة واحدة في نوفمبر",
+          "summary": "صعد مؤشر معهد الإحصاء الفرنسي إلى 82 مع تراجع طفيف في القلق حيال الوظائف.",
+          "body": "أظهر المسح الذي نشره المعهد في 25 نوفمبر ارتفاع مؤشر ثقة الأسر إلى 82 في نوفمبر مقابل 81 في أكتوبر. وجاء التحسن المتواضع موافقاً للتوقعات التي أوردتها تريدينغ إيكونوميكس، لكنه أبقى المؤشر أقل من متوسطه الطويل الأجل بـ18 نقطة.\n\nوتلقي الإجابات عن البطالة ضوءاً على هذا التغير. فقد تراجع رصيد الآراء الذي يقيس المخاوف إزاء البطالة ست نقاط من 60 إلى 54، لكنه بقي فوق متوسطه التاريخي.",
+          "photoAlt": "مبنى أبيض لمعهد الإحصاء الفرنسي بمحاذاة شارع.",
+          "photoCaption": "أرشيف 4 يناير 2023. مقر المعهد في مونروج."
+        },
+        "zh-CN": {
+          "title": "法国11月家庭信心指数回升一个点",
+          "summary": "法国统计局的指数升至82，家庭对就业的担忧略有缓和。",
+          "body": "法国统计局11月25日公布的调查显示，11月家庭信心指数从10月的81升至82。这一小幅改善符合Trading Economics报道的预期，但指数仍比长期平均水平低18点。\n\n受访者对失业的看法有助于解释这一变化。衡量失业担忧的净差额下降6点，由60降至54，但仍高于历史平均水平。",
+          "photoAlt": "临街的法国统计局白色大楼。",
+          "photoCaption": "资料照片：2023年1月4日，位于蒙鲁日的法国统计局总部。"
+        },
+        "ru": {
+          "title": "Доверие французских домохозяйств в ноябре выросло на один пункт",
+          "summary": "Индекс Insee поднялся до 82, опасения семей по поводу занятости немного ослабли.",
+          "body": "Согласно опросу Insee от 25 ноября, индекс доверия домохозяйств вырос с 81 в октябре до 82 в ноябре. Небольшой рост совпал с ожиданиями, о которых сообщает Trading Economics, однако индекс остался на 18 пунктов ниже долгосрочного среднего.\n\nОтветы на вопросы о безработице помогают объяснить сдвиг. Баланс мнений, отражающий опасения по поводу безработицы, снизился на шесть пунктов, с 60 до 54. Он по-прежнему выше исторического среднего.",
+          "photoAlt": "Белое здание Insee вдоль улицы.",
+          "photoCaption": "Архив, 4 января 2023 года. Штаб-квартира Insee в Монруже."
+        },
+        "ko": {
+          "title": "프랑스 11월 가계 신뢰지수 1포인트 상승",
+          "summary": "프랑스 통계청 지수가 82로 오르면서 가계의 고용 불안이 다소 완화됐다.",
+          "body": "프랑스 통계청이 11월 25일 발표한 조사에 따르면 가계 신뢰지수는 10월 81에서 11월 82로 올랐다. 트레이딩이코노믹스가 전한 예상에 부합하는 소폭 개선이지만 장기 평균에는 여전히 18포인트 못 미친다.\n\n실업 관련 응답에서도 변화가 나타났다. 실업 우려를 보여 주는 응답 차이 지표는 60에서 54로 6포인트 내렸다. 다만 과거 평균보다는 여전히 높았다.",
+          "photoAlt": "거리에 면한 프랑스 통계청의 흰색 건물.",
+          "photoCaption": "자료 사진. 2023년 1월 4일 몽루주에 있는 프랑스 통계청 본부."
+        }
+      }
+    },
+    {
+      "eventKey": "nba-houston-durant-seuil-33000-25-novembre",
+      "category": "Sports",
+      "title": "Kevin Durant devient le cinquième joueur de NBA à franchir les 33 000 points",
+      "summary": "Houston a battu Phoenix 116 à 104 lors de la rencontre de Coupe NBA du 25 novembre.",
+      "body": "Un tir à trois points à 46,3 secondes de la mi-temps a permis à Kevin Durant d’atteindre ce seuil contre Phoenix. Selon l’Associated Press, il a terminé le match avec 20 points et dix rebonds. LeBron James, Kareem Abdul-Jabbar, Karl Malone et Kobe Bryant l’avaient précédé.\n\nLa feuille de match de la NBA montre où l’écart s’est creusé le plus nettement en faveur de Houston. Dans le deuxième quart-temps, l’équipe a marqué 37 points et en a concédé 23. Sur ces douze minutes, le différentiel a donc atteint 14 points, pour une marge finale de 12 points.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "NBA",
+          "url": "https://www.nba.com/game/phx-vs-hou-0022600061/box-score",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Associated Press / ESPN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909323",
+          "publishedAt": "2026-11-26T04:20:31Z"
+        }
+      ],
+      "photo": {
+        "download": "media/nba-6.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kevin_Durant,_Paris_2024_(cropped).jpg",
+        "credit": "Clément Bardot · Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Archives du 2024-08-03. Kevin Durant.",
+        "alt": "Kevin Durant porte un t-shirt de l’équipe américaine."
+      },
+      "translations": {
+        "en": {
+          "title": "Kevin Durant becomes fifth NBA player to reach 33,000 points",
+          "summary": "Houston beat Phoenix 116–104 in their November 25 NBA Cup game.",
+          "body": "A three-pointer with 46.3 seconds left before halftime took Kevin Durant to the milestone against Phoenix. The Associated Press reported that he finished with 20 points and ten rebounds. LeBron James, Kareem Abdul-Jabbar, Karl Malone and Kobe Bryant reached the mark before him.\n\nThe NBA box score shows where Houston built its biggest quarterly advantage. In the second quarter the team scored 37 points and allowed 23, a 14-point edge in those twelve minutes. The final margin was 12 points.",
+          "photoAlt": "Kevin Durant wears a Team USA T-shirt.",
+          "photoCaption": "Archive photograph, 2024-08-03. Kevin Durant."
+        },
+        "es": {
+          "title": "Kevin Durant se convierte en el quinto jugador de la NBA en llegar a 33.000 puntos",
+          "summary": "Houston venció a Phoenix por 116-104 en la Copa NBA el 25 de noviembre.",
+          "body": "Un triple a 46,3 segundos del descanso permitió a Durant alcanzar la cifra ante Phoenix. Según Associated Press, terminó con 20 puntos y diez rebotes. LeBron James, Kareem Abdul-Jabbar, Karl Malone y Kobe Bryant habían llegado antes a esa marca.\n\nEl acta de la NBA muestra en qué tramo Houston obtuvo su mayor ventaja parcial. En el segundo cuarto anotó 37 puntos y concedió 23: una diferencia de 14 en esos doce minutos, frente a un margen final de 12.",
+          "photoAlt": "Kevin Durant lleva una camiseta de la selección estadounidense.",
+          "photoCaption": "Foto de archivo, 2024-08-03. Kevin Durant."
+        },
+        "ar": {
+          "title": "كيفن دورانت خامس لاعب في تاريخ الدوري يصل إلى 33 ألف نقطة",
+          "summary": "فاز هيوستن على فينيكس بنتيجة 116-104 في كأس الدوري يوم 25 نوفمبر.",
+          "body": "بلغ دورانت هذا الرقم أمام فينيكس بثلاثية قبل 46.3 ثانية من الاستراحة. وبحسب أسوشيتد برس أنهى المباراة بـ20 نقطة وعشر متابعات. وسبقه إلى هذا الإنجاز ليبرون جيمس وكريم عبد الجبار وكارل مالون وكوبي براينت.\n\nتوضح إحصاءات الدوري أن هيوستن حقق أكبر تفوق له خلال ربع واحد في الربع الثاني، حين سجل 37 نقطة مقابل 23. وبلغ الفارق في تلك الدقائق الاثنتي عشرة 14، فيما بلغ الفارق النهائي 12.",
+          "photoAlt": "كيفن دورانت يرتدي قميص المنتخب الأميركي.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2024-08-03. Kevin Durant."
+        },
+        "zh-CN": {
+          "title": "杜兰特成为NBA史上第五位达到33000分的球员",
+          "summary": "11月25日的NBA杯比赛中，休斯敦以116比104战胜菲尼克斯。",
+          "body": "上半场还剩46.3秒，凯文·杜兰特对阵菲尼克斯命中三分，达到这一里程碑。据美联社报道，他最终得到20分和10个篮板。此前达到这一得分纪录的是詹姆斯、贾巴尔、卡尔·马龙和科比·布莱恩特。\n\nNBA技术统计显示，休斯敦单节净胜分最多的是第二节。在这12分钟内，球队得到37分、失23分，净胜14分；全场最终分差为12分。",
+          "photoAlt": "杜兰特身穿美国队训练衫。",
+          "photoCaption": "资料照片：2024-08-03，Kevin Durant。"
+        },
+        "ru": {
+          "title": "Кевин Дюрант стал пятым игроком НБА, набравшим 33 000 очков",
+          "summary": "Кубок НБА, 25 ноября. Счёт матча: «Хьюстон» — «Финикс» 116:104.",
+          "body": "Дюрант достиг отметки в игре с «Финиксом», забросив трёхочковый за 46,3 секунды до большого перерыва. По данным Associated Press, он завершил матч с 20 очками и десятью подборами. Ранее рубеж преодолели Леброн Джеймс, Карим Абдул-Джаббар, Карл Мэлоун и Коби Брайант.\n\nПо протоколу НБА наибольшее преимущество за отдельный отрезок команда «Хьюстон» получила в второй четверти, набрав 37 очков против 23. Разница за эти двенадцать минут составила 14, итоговая разница в счёте — 12.",
+          "photoAlt": "Кевин Дюрант в футболке сборной США.",
+          "photoCaption": "Архивное фото, 2024-08-03. Kevin Durant."
+        },
+        "ko": {
+          "title": "케빈 듀랜트, NBA 역대 다섯 번째 통산 3만3000점",
+          "summary": "11월 25일 NBA컵 경기에서 휴스턴, 피닉스 상대로 116대 104 승리.",
+          "body": "듀랜트는 피닉스전 전반 종료 46.3초 전 3점슛으로 이 기록을 달성했다. AP통신에 따르면 20점 10리바운드로 경기를 마쳤다. 앞서 르브론 제임스, 카림 압둘자바, 칼 말론, 코비 브라이언트가 이 고지에 올랐다.\n\nNBA 기록을 보면 휴스턴의 쿼터별 득실 차가 가장 컸던 시점은 2쿼터였다. 이 12분간 37점을 넣고 23점을 내줘 14점을 앞섰다. 최종 점수 차는 12점이었다.",
+          "photoAlt": "미국 대표팀 티셔츠를 착용한 케빈 듀랜트.",
+          "photoCaption": "자료 사진. 2024-08-03 촬영, Kevin Durant."
+        }
+      }
+    },
+    {
+      "eventKey": "nba-philadelphie-james-triple-double-miami-25-novembre",
+      "category": "Sports",
+      "title": "LeBron James signe son premier triple-double avec Philadelphie",
+      "summary": "Philadelphie a battu Miami 111 à 104 lors de la rencontre de Coupe NBA du 25 novembre.",
+      "body": "Pour la première fois depuis son arrivée chez les 76ers, LeBron James a atteint la dizaine dans trois catégories au cours du même match. L’Associated Press lui compte 25 points, 12 passes et 10 rebonds face à Miami. Tyrese Maxey a mené Philadelphie avec 30 points.\n\nLa feuille de match de la NBA montre où l’écart s’est creusé le plus nettement en faveur de Philadelphie. Dans le deuxième quart-temps, l’équipe a marqué 33 points et en a concédé 21. Sur ces douze minutes, le différentiel a donc atteint 12 points, pour une marge finale de 7 points.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "NBA",
+          "url": "https://www.nba.com/game/mia-vs-phi-0022600055/box-score",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Associated Press / ESPN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909317",
+          "publishedAt": "2026-11-26T00:42:31Z"
+        }
+      ],
+      "photo": {
+        "download": "media/nba-0.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:LeBron_James_(51959977144)_(cropped2).jpg",
+        "credit": "Erik Drost · Wikimedia Commons · WebP",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "caption": "Archives du 2022-03-21. LeBron James.",
+        "alt": "LeBron James tient le ballon, en maillot jaune des Lakers."
+      },
+      "translations": {
+        "en": {
+          "title": "LeBron James records his first triple-double for Philadelphia",
+          "summary": "Philadelphia beat Miami 111–104 in their November 25 NBA Cup game.",
+          "body": "For the first time since joining the 76ers, LeBron James reached double figures in three categories in a single game. The Associated Press credited him with 25 points, 12 assists and 10 rebounds against Miami. Tyrese Maxey led Philadelphia with 30 points.\n\nThe NBA box score shows where Philadelphia built its biggest quarterly advantage. In the second quarter the team scored 33 points and allowed 21, a 12-point edge in those twelve minutes. The final margin was 7 points.",
+          "photoAlt": "LeBron James holds the ball in a yellow Lakers jersey.",
+          "photoCaption": "Archive photograph, 2022-03-21. LeBron James."
+        },
+        "es": {
+          "title": "LeBron James firma su primer triple-doble con Filadelfia",
+          "summary": "Filadelfia venció a Miami por 111-104 en la Copa NBA el 25 de noviembre.",
+          "body": "Por primera vez desde su llegada a los 76ers, LeBron James alcanzó dobles dígitos en tres categorías en un partido. Associated Press le contabilizó 25 puntos, 12 asistencias y 10 rebotes ante Miami. Tyrese Maxey lideró a Filadelfia con 30 puntos.\n\nEl acta de la NBA muestra en qué tramo Filadelfia obtuvo su mayor ventaja parcial. En el segundo cuarto anotó 33 puntos y concedió 21: una diferencia de 12 en esos doce minutos, frente a un margen final de 7.",
+          "photoAlt": "LeBron James sostiene el balón con la camiseta amarilla de los Lakers.",
+          "photoCaption": "Foto de archivo, 2022-03-21. LeBron James."
+        },
+        "ar": {
+          "title": "ليبرون جيمس يحقق أول ثلاثية مزدوجة مع فيلادلفيا",
+          "summary": "فاز فيلادلفيا على ميامي بنتيجة 111-104 في كأس الدوري يوم 25 نوفمبر.",
+          "body": "للمرة الأولى منذ انضمامه إلى سيكسرز بلغ ليبرون جيمس خانة العشرات في ثلاث فئات خلال مباراة واحدة. وأحصت له أسوشيتد برس 25 نقطة و12 تمريرة حاسمة و10 متابعات أمام ميامي. وتصدر تايريس ماكسي مسجلي فيلادلفيا بـ30 نقطة.\n\nتوضح إحصاءات الدوري أن فيلادلفيا حقق أكبر تفوق له خلال ربع واحد في الربع الثاني، حين سجل 33 نقطة مقابل 21. وبلغ الفارق في تلك الدقائق الاثنتي عشرة 12، فيما بلغ الفارق النهائي 7.",
+          "photoAlt": "ليبرون جيمس يحمل الكرة بقميص ليكرز الأصفر.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2022-03-21. LeBron James."
+        },
+        "zh-CN": {
+          "title": "詹姆斯拿到加盟费城后的首次三双",
+          "summary": "11月25日的NBA杯比赛中，费城以111比104战胜迈阿密。",
+          "body": "加盟76人队以来，勒布朗·詹姆斯首次在一场比赛中三项数据上双。美联社报道，对阵迈阿密时他得到25分、12次助攻和10个篮板。泰瑞斯·马克西拿下费城全队最高的30分。\n\nNBA技术统计显示，费城单节净胜分最多的是第二节。在这12分钟内，球队得到33分、失21分，净胜12分；全场最终分差为7分。",
+          "photoAlt": "詹姆斯身穿湖人队黄色球衣持球。",
+          "photoCaption": "资料照片：2022-03-21，LeBron James。"
+        },
+        "ru": {
+          "title": "Леброн Джеймс оформил первый трипл-дабл за «Филадельфию»",
+          "summary": "Кубок НБА, 25 ноября. Счёт матча: «Филадельфия» — «Майами» 111:104.",
+          "body": "Впервые после перехода в «Сиксерс» Леброн Джеймс набрал двузначные показатели в трёх категориях за матч. По данным Associated Press, против «Майами» у него 25 очков, 12 передач и 10 подборов. Самым результативным у «Филадельфии» стал Тайриз Макси с 30 очками.\n\nПо протоколу НБА наибольшее преимущество за отдельный отрезок команда «Филадельфия» получила в второй четверти, набрав 33 очков против 21. Разница за эти двенадцать минут составила 12, итоговая разница в счёте — 7.",
+          "photoAlt": "Джеймс держит мяч в жёлтой форме «Лейкерс».",
+          "photoCaption": "Архивное фото, 2022-03-21. LeBron James."
+        },
+        "ko": {
+          "title": "르브론 제임스, 필라델피아 이적 후 첫 트리플더블",
+          "summary": "11월 25일 NBA컵 경기에서 필라델피아, 마이애미 상대로 111대 104 승리.",
+          "body": "르브론 제임스가 세븐티식서스 합류 후 처음으로 한 경기 세 부문에서 두 자릿수를 기록했다. AP통신에 따르면 마이애미를 상대로 25점 12도움 10리바운드를 올렸다. 타이리스 맥시는 필라델피아에서 가장 많은 30점을 넣었다.\n\nNBA 기록을 보면 필라델피아의 쿼터별 득실 차가 가장 컸던 시점은 2쿼터였다. 이 12분간 33점을 넣고 21점을 내줘 12점을 앞섰다. 최종 점수 차는 7점이었다.",
+          "photoAlt": "레이커스의 노란 유니폼을 입고 공을 든 르브론 제임스.",
+          "photoCaption": "자료 사진. 2022-03-21 촬영, LeBron James."
+        }
+      }
+    },
+    {
+      "eventKey": "nba-portland-avdija-wembanyama-44-25-novembre",
+      "category": "Sports",
+      "title": "Portland s’impose malgré les 44 points et 16 rebonds de Wembanyama",
+      "summary": "Portland a battu San Antonio 116 à 111 lors de la rencontre de Coupe NBA du 25 novembre.",
+      "body": "Deni Avdija et Damian Lillard ont marqué respectivement 33 et 29 points pour Portland. De l’autre côté, Victor Wembanyama a réussi 17 de ses 30 tirs. Selon l’Associated Press, ses 44 points ont constitué le meilleur total individuel du match.\n\nLa feuille de match de la NBA montre où l’écart s’est creusé le plus nettement en faveur de Portland. Dans le quatrième quart-temps, l’équipe a marqué 32 points et en a concédé 24. Sur ces douze minutes, le différentiel a donc atteint 8 points, pour une marge finale de 5 points.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "NBA",
+          "url": "https://www.nba.com/game/sas-vs-por-0022600063/box-score",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Associated Press / ESPN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909325",
+          "publishedAt": "2026-11-26T05:56:39Z"
+        }
+      ],
+      "photo": {
+        "download": "media/nba-8.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Victor_Wembanyama_San_Antonio_Spurs_2024.jpg",
+        "credit": "Frenchieinportland · Wikimedia Commons · WebP",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "caption": "Archives du 2024-12-13. Victor Wembanyama.",
+        "alt": "Victor Wembanyama en maillot noir des Spurs."
+      },
+      "translations": {
+        "en": {
+          "title": "Portland wins despite Wembanyama’s 44 points and 16 rebounds",
+          "summary": "Portland beat San Antonio 116–111 in their November 25 NBA Cup game.",
+          "body": "Deni Avdija and Damian Lillard scored 33 and 29 points respectively for Portland. Victor Wembanyama made 17 of his 30 shots for the visitors. According to the Associated Press, his 44 points were the highest individual total of the game.\n\nThe NBA box score shows where Portland built its biggest quarterly advantage. In the fourth quarter the team scored 32 points and allowed 24, a 8-point edge in those twelve minutes. The final margin was 5 points.",
+          "photoAlt": "Victor Wembanyama wears a black Spurs jersey.",
+          "photoCaption": "Archive photograph, 2024-12-13. Victor Wembanyama."
+        },
+        "es": {
+          "title": "Portland gana pese a los 44 puntos y 16 rebotes de Wembanyama",
+          "summary": "Portland venció a San Antonio por 116-111 en la Copa NBA el 25 de noviembre.",
+          "body": "Deni Avdija y Damian Lillard anotaron 33 y 29 puntos respectivamente para Portland. Victor Wembanyama convirtió 17 de sus 30 tiros para los visitantes. Según Associated Press, sus 44 puntos fueron la mejor marca individual del partido.\n\nEl acta de la NBA muestra en qué tramo Portland obtuvo su mayor ventaja parcial. En el último cuarto anotó 32 puntos y concedió 24: una diferencia de 8 en esos doce minutos, frente a un margen final de 5.",
+          "photoAlt": "Victor Wembanyama con la camiseta negra de los Spurs.",
+          "photoCaption": "Foto de archivo, 2024-12-13. Victor Wembanyama."
+        },
+        "ar": {
+          "title": "بورتلاند يفوز رغم 44 نقطة و16 متابعة لويمبانياما",
+          "summary": "فاز بورتلاند على سان أنطونيو بنتيجة 116-111 في كأس الدوري يوم 25 نوفمبر.",
+          "body": "سجل ديني أفديا وداميان ليلارد 33 و29 نقطة على الترتيب لبورتلاند. وأحرز فيكتور ويمبانياما 17 من محاولاته الثلاثين للضيوف. ووفقاً لأسوشيتد برس، كانت نقاطه الـ44 أعلى حصيلة فردية في المباراة.\n\nتوضح إحصاءات الدوري أن بورتلاند حقق أكبر تفوق له خلال ربع واحد في الربع الرابع، حين سجل 32 نقطة مقابل 24. وبلغ الفارق في تلك الدقائق الاثنتي عشرة 8، فيما بلغ الفارق النهائي 5.",
+          "photoAlt": "فيكتور ويمبانياما يرتدي قميص سبيرز الأسود.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2024-12-13. Victor Wembanyama."
+        },
+        "zh-CN": {
+          "title": "文班亚马砍下44分16篮板，波特兰仍获胜",
+          "summary": "11月25日的NBA杯比赛中，波特兰以116比111战胜圣安东尼奥。",
+          "body": "德尼·阿夫迪亚和达米安·利拉德分别为波特兰得到33分和29分。客队的维克托·文班亚马30投17中。据美联社报道，他拿下的44分是全场个人最高分。\n\nNBA技术统计显示，波特兰单节净胜分最多的是第四节。在这12分钟内，球队得到32分、失24分，净胜8分；全场最终分差为5分。",
+          "photoAlt": "文班亚马身穿马刺队黑色球衣。",
+          "photoCaption": "资料照片：2024-12-13，Victor Wembanyama。"
+        },
+        "ru": {
+          "title": "«Портленд» победил, несмотря на 44 очка и 16 подборов Вембаньямы",
+          "summary": "Кубок НБА, 25 ноября. Счёт матча: «Портленд» — «Сан-Антонио» 116:111.",
+          "body": "Дени Авдия и Дамиан Лиллард набрали за «Портленд» 33 и 29 очков соответственно. У гостей Виктор Вембаньяма реализовал 17 из 30 бросков. По данным Associated Press, его 44 очка стали лучшим индивидуальным результатом матча.\n\nПо протоколу НБА наибольшее преимущество за отдельный отрезок команда «Портленд» получила в четвёртой четверти, набрав 32 очков против 24. Разница за эти двенадцать минут составила 8, итоговая разница в счёте — 5.",
+          "photoAlt": "Виктор Вембаньяма в чёрной форме «Спёрс».",
+          "photoCaption": "Архивное фото, 2024-12-13. Victor Wembanyama."
+        },
+        "ko": {
+          "title": "포틀랜드, 웸반야마의 44점 16리바운드에도 승리",
+          "summary": "11월 25일 NBA컵 경기에서 포틀랜드, 샌안토니오 상대로 116대 111 승리.",
+          "body": "포틀랜드의 데니 아브디야와 데이미언 릴러드가 각각 33점, 29점을 넣었다. 원정팀의 빅토르 웸반야마는 슛 30개 중 17개를 성공시켰다. AP통신에 따르면 그가 기록한 44점은 양 팀 통틀어 최다였다.\n\nNBA 기록을 보면 포틀랜드의 쿼터별 득실 차가 가장 컸던 시점은 4쿼터였다. 이 12분간 32점을 넣고 24점을 내줘 8점을 앞섰다. 최종 점수 차는 5점이었다.",
+          "photoAlt": "샌안토니오의 검은 유니폼을 입은 빅토르 웸반야마.",
+          "photoCaption": "자료 사진. 2024-12-13 촬영, Victor Wembanyama."
+        }
+      }
+    },
+    {
+      "eventKey": "nba-minnesota-mcdaniels-oklahoma-coupe-25-novembre",
+      "category": "Sports",
+      "title": "Le Minnesota reste invaincu en Coupe NBA grâce aux 32 points de McDaniels",
+      "summary": "Minnesota a battu Oklahoma City 113 à 106 lors de la rencontre de Coupe NBA du 25 novembre.",
+      "body": "Jaden McDaniels a ajouté dix rebonds à ses 32 points contre le Thunder. Selon l’Associated Press, le Minnesota a remporté chacun de ses trois premiers matchs de Coupe NBA. Shai Gilgeous-Alexander a aussi marqué 32 points pour Oklahoma City.\n\nLa feuille de match de la NBA montre où l’écart s’est creusé le plus nettement en faveur de Minnesota. Dans le premier quart-temps, l’équipe a marqué 26 points et en a concédé 16. Sur ces douze minutes, le différentiel a donc atteint 10 points, pour une marge finale de 7 points.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "NBA",
+          "url": "https://www.nba.com/game/min-vs-okc-0022600058/box-score",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Associated Press / ESPN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909320",
+          "publishedAt": "2026-11-26T03:41:32Z"
+        }
+      ],
+      "photo": {
+        "download": "media/nba-3.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-08-09_Deutschland_gegen_Kanada_(Basketball-Länderspiel)_by_Sandro_Halank–109.jpg",
+        "credit": "Sandro Halank, Wikimedia Commons · Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Archives du 2023-08-09. Shai Gilgeous-Alexander.",
+        "alt": "Shai Gilgeous-Alexander tient le ballon en maillot rouge du Canada."
+      },
+      "translations": {
+        "en": {
+          "title": "Minnesota stays unbeaten in NBA Cup play behind McDaniels’ 32 points",
+          "summary": "Minnesota beat Oklahoma City 113–106 in their November 25 NBA Cup game.",
+          "body": "Jaden McDaniels added ten rebounds to his 32 points against the Thunder. According to the Associated Press, Minnesota won all three of its opening NBA Cup games. Shai Gilgeous-Alexander also scored 32 for Oklahoma City.\n\nThe NBA box score shows where Minnesota built its biggest quarterly advantage. In the first quarter the team scored 26 points and allowed 16, a 10-point edge in those twelve minutes. The final margin was 7 points.",
+          "photoAlt": "Shai Gilgeous-Alexander holds the ball in a red Canada jersey.",
+          "photoCaption": "Archive photograph, 2023-08-09. Shai Gilgeous-Alexander."
+        },
+        "es": {
+          "title": "Minnesota sigue invicto en la Copa NBA con 32 puntos de McDaniels",
+          "summary": "Minnesota venció a Oklahoma City por 113-106 en la Copa NBA el 25 de noviembre.",
+          "body": "Jaden McDaniels sumó diez rebotes a sus 32 puntos ante el Thunder. Según Associated Press, Minnesota ganó sus tres primeros partidos de la Copa NBA. Shai Gilgeous-Alexander también anotó 32 por Oklahoma City.\n\nEl acta de la NBA muestra en qué tramo Minnesota obtuvo su mayor ventaja parcial. En el primer cuarto anotó 26 puntos y concedió 16: una diferencia de 10 en esos doce minutos, frente a un margen final de 7.",
+          "photoAlt": "Shai Gilgeous-Alexander sostiene el balón con la camiseta roja de Canadá.",
+          "photoCaption": "Foto de archivo, 2023-08-09. Shai Gilgeous-Alexander."
+        },
+        "ar": {
+          "title": "مينيسوتا يحافظ على سجله المثالي في كأس الدوري بفضل 32 نقطة لماكدانييلز",
+          "summary": "فاز مينيسوتا على أوكلاهوما سيتي بنتيجة 113-106 في كأس الدوري يوم 25 نوفمبر.",
+          "body": "أضاف جايدن ماكدانييلز عشر متابعات إلى نقاطه الـ32 أمام ثاندر. وبحسب أسوشيتد برس فاز مينيسوتا بمبارياته الثلاث الأولى في كأس الدوري. وسجل شاي غيلجوس ألكسندر أيضاً 32 نقطة لأوكلاهوما سيتي.\n\nتوضح إحصاءات الدوري أن مينيسوتا حقق أكبر تفوق له خلال ربع واحد في الربع الأول، حين سجل 26 نقطة مقابل 16. وبلغ الفارق في تلك الدقائق الاثنتي عشرة 10، فيما بلغ الفارق النهائي 7.",
+          "photoAlt": "شاي غيلجوس ألكسندر يحمل الكرة بقميص كندا الأحمر.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2023-08-09. Shai Gilgeous-Alexander."
+        },
+        "zh-CN": {
+          "title": "麦克丹尼尔斯贡献32分，明尼苏达保持NBA杯全胜",
+          "summary": "11月25日的NBA杯比赛中，明尼苏达以113比106战胜俄克拉荷马城。",
+          "body": "杰登·麦克丹尼尔斯对阵雷霆得到32分和10个篮板。美联社报道，明尼苏达在本届NBA杯的前三场比赛中全部取胜。谢伊·吉尔杰斯-亚历山大为俄克拉荷马城同样得到32分。\n\nNBA技术统计显示，明尼苏达单节净胜分最多的是第一节。在这12分钟内，球队得到26分、失16分，净胜10分；全场最终分差为7分。",
+          "photoAlt": "吉尔杰斯-亚历山大身穿加拿大红色球衣持球。",
+          "photoCaption": "资料照片：2023-08-09，Shai Gilgeous-Alexander。"
+        },
+        "ru": {
+          "title": "32 очка Макдэниелса помогли «Миннесоте» остаться непобеждённой в Кубке НБА",
+          "summary": "Кубок НБА, 25 ноября. Счёт матча: «Миннесота» — «Оклахома-Сити» 113:106.",
+          "body": "Джейден Макдэниелс добавил десять подборов к 32 очкам против «Тандер». По данным Associated Press, «Миннесота» выиграла все три первых матча Кубка НБА. Шай Гилджес-Александер также набрал 32 очка за «Оклахома-Сити».\n\nПо протоколу НБА наибольшее преимущество за отдельный отрезок команда «Миннесота» получила в первой четверти, набрав 26 очков против 16. Разница за эти двенадцать минут составила 10, итоговая разница в счёте — 7.",
+          "photoAlt": "Шай Гилджес-Александер с мячом в красной форме Канады.",
+          "photoCaption": "Архивное фото, 2023-08-09. Shai Gilgeous-Alexander."
+        },
+        "ko": {
+          "title": "맥대니얼스 32점, 미네소타 NBA컵 무패 유지",
+          "summary": "11월 25일 NBA컵 경기에서 미네소타, 오클라호마시티 상대로 113대 106 승리.",
+          "body": "제이든 맥대니얼스는 선더를 상대로 32점에 리바운드 10개를 보탰다. AP통신에 따르면 미네소타는 이번 NBA컵 첫 세 경기를 모두 이겼다. 오클라호마시티의 샤이 길저스알렉산더도 32점을 넣었다.\n\nNBA 기록을 보면 미네소타의 쿼터별 득실 차가 가장 컸던 시점은 1쿼터였다. 이 12분간 26점을 넣고 16점을 내줘 10점을 앞섰다. 최종 점수 차는 7점이었다.",
+          "photoAlt": "캐나다의 붉은 유니폼을 입고 공을 든 길저스알렉산더.",
+          "photoCaption": "자료 사진. 2023-08-09 촬영, Shai Gilgeous-Alexander."
+        }
+      }
+    },
+    {
+      "eventKey": "utah-met-fin-serie-quinze-matchs-minnesota",
+      "category": "Sports",
+      "title": "L’Utah met fin à la série de 15 matchs avec un point du Minnesota",
+      "summary": "Le Mammoth l’a emporté 4 à 3 à Saint Paul. Logan Cooley et Dylan Guenther ont chacun inscrit un but et une passe.",
+      "body": "Le Wild a subi le 25 novembre sa première défaite en temps réglementaire en 16 rencontres. Selon la LNH, le Minnesota avait accumulé 12 victoires et trois défaites après le temps réglementaire au cours de sa série, un record d’équipe.\n\nDeux buts de Blake Coleman n’ont pas suffi aux hôtes. L’Associated Press souligne que Kirill Kaprizov a également vu sa série personnelle s’arrêter : l’attaquant du Wild avait inscrit au moins un point dans chacun des 15 matchs précédents.",
+      "sources": [
+        {
+          "name": "Ligue nationale de hockey",
+          "url": "https://www.nhl.com/news/utah-mammoth-minnesota-wild-game-recap-november-25-2026",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Associated Press / CBS Sports",
+          "url": "https://www.cbssports.com/nhl/gametracker/live/NHL_20261125_UTA@MIN/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:NHL-Utah-STL-DesMoines2024.jpg",
+        "download": "media/f05-2.webp",
+        "credit": "Jar-Lar / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Logan Cooley et Dalibor Dvorsky se préparent à une mise au jeu.",
+        "caption": "Archives du 22 septembre 2024. Cooley et Dvorsky à Des Moines lors d’un match préparatoire."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Utah ends Minnesota’s 15-game point streak",
+          "summary": "The Mammoth won 4–3 in Saint Paul. Logan Cooley and Dylan Guenther each had a goal and an assist.",
+          "body": "On November 25 the Wild lost in regulation for the first time in 16 games. According to the NHL, Minnesota had posted 12 wins and three losses beyond regulation during its franchise-record streak.\n\nTwo goals from Blake Coleman were not enough for the hosts. The Associated Press noted that Kirill Kaprizov’s own streak also ended: the Wild forward had recorded at least one point in each of the previous 15 games.",
+          "photoAlt": "Logan Cooley and Dalibor Dvorsky prepare for a face-off.",
+          "photoCaption": "Archive, September 22, 2024. Cooley and Dvorsky in a preseason game in Des Moines."
+        },
+        "es": {
+          "title": "Utah corta la racha de 15 partidos puntuando de Minnesota",
+          "summary": "El Mammoth ganó 4-3 en Saint Paul. Logan Cooley y Dylan Guenther sumaron un gol y una asistencia cada uno.",
+          "body": "El 25 de noviembre el Wild perdió en tiempo reglamentario por primera vez en 16 partidos. Según la NHL, Minnesota había logrado 12 victorias y tres derrotas más allá del tiempo reglamentario durante su racha récord.\n\nLos dos goles de Blake Coleman no bastaron para los locales. Associated Press destacó que también terminó la racha personal de Kirill Kaprizov: el delantero había sumado al menos un punto en cada uno de los 15 encuentros anteriores.",
+          "photoAlt": "Logan Cooley y Dalibor Dvorsky se preparan para un saque neutral.",
+          "photoCaption": "Archivo del 22 de septiembre de 2024. Cooley y Dvorsky en un partido de pretemporada en Des Moines."
+        },
+        "ar": {
+          "title": "يوتا ينهي سلسلة مينيسوتا بعد 15 مباراة متتالية حصد فيها نقاطاً",
+          "summary": "فاز ماموث 4-3 في سانت بول. وسجل كل من لوغان كولي وديلان غينثر هدفاً وصنع آخر.",
+          "body": "خسر وايلد في الوقت الأصلي يوم 25 نوفمبر للمرة الأولى في 16 مباراة. وبحسب دوري الهوكي، حقق مينيسوتا 12 فوزاً وثلاث هزائم بعد الوقت الأصلي خلال سلسلته القياسية في تاريخ الفريق.\n\nولم يكف هدفا بليك كولمان أصحاب الأرض. وأشارت أسوشيتد برس إلى انتهاء سلسلة كيريل كابريزوف أيضاً، إذ سجل مهاجم وايلد نقطة واحدة على الأقل في كل من المباريات الـ15 السابقة.",
+          "photoAlt": "لوغان كولي وداليبور دفورسكي يستعدان لإسقاط القرص.",
+          "photoCaption": "أرشيف 22 سبتمبر 2024. كولي ودفورسكي في مباراة تحضيرية في دي موين."
+        },
+        "zh-CN": {
+          "title": "犹他终结明尼苏达连续15场取得积分的纪录",
+          "summary": "猛犸队在圣保罗以4比3取胜。洛根·库利和迪伦·冈瑟各有一球一次助攻。",
+          "body": "11月25日，狂野队在近16场比赛中首次于常规时间落败。据NHL统计，明尼苏达此前在创队史纪录的15场比赛中获胜12场，另有3场在常规时间结束后落败。\n\n布莱克·科尔曼的两粒进球未能为主队挽回败局。美联社指出，基里尔·卡普里佐夫的个人纪录也告终结。这名狂野队前锋在此前的15场比赛中每场都至少得到一个得分点。",
+          "photoAlt": "洛根·库利与达利博尔·德沃尔斯基准备争球。",
+          "photoCaption": "资料照片：2024年9月22日，库利和德沃尔斯基在得梅因参加季前赛。"
+        },
+        "ru": {
+          "title": "«Юта» прервала 15-матчевую серию «Миннесоты» с набранными очками",
+          "summary": "«Маммот» выиграл в Сент-Поле со счётом 4:3. Логан Кули и Дилан Гюнтер набрали по голу и результативной передаче.",
+          "body": "25 ноября «Уайлд» впервые за 16 матчей уступил в основное время. По данным НХЛ, в ходе рекордной для клуба серии «Миннесота» одержала 12 побед и потерпела три поражения за пределами основного времени.\n\nДвух шайб Блейка Коулмана хозяевам не хватило. Как отмечает Associated Press, завершилась и личная серия Кирилла Капризова: нападающий «Уайлд» набирал как минимум одно очко в каждом из предыдущих 15 матчей.",
+          "photoAlt": "Логан Кули и Далибор Дворски готовятся к вбрасыванию.",
+          "photoCaption": "Архив, 22 сентября 2024 года. Кули и Дворски в предсезонном матче в Де-Мойне."
+        },
+        "ko": {
+          "title": "유타, 미네소타의 15경기 연속 승점 행진 저지",
+          "summary": "매머스가 세인트폴에서 4대 3으로 이겼다. 로건 쿨리와 딜런 귄서는 각각 1골 1도움을 기록했다.",
+          "body": "와일드는 11월 25일 16경기 만에 처음으로 정규시간 패배를 당했다. NHL에 따르면 미네소타는 구단 기록을 세운 지난 15경기에서 12승을 올렸고 나머지 세 경기는 정규시간 이후에 졌다.\n\n블레이크 콜먼이 두 골을 넣었지만 홈팀의 패배를 막지는 못했다. AP통신은 와일드 공격수 키릴 카프리조프의 개인 기록도 끝났다고 전했다. 그는 앞선 15경기 모두에서 공격 포인트를 한 개 이상 올렸다.",
+          "photoAlt": "로건 쿨리와 달리보르 드보르스키가 페이스오프를 준비한다.",
+          "photoCaption": "자료 사진. 2024년 9월 22일 디모인에서 프리시즌 경기에 나선 쿨리와 드보르스키."
+        }
+      }
+    },
+    {
+      "eventKey": "nba-golden-state-melton-huit-trois-points-25-novembre",
+      "category": "Sports",
+      "title": "Melton égale son record avec huit paniers à trois points contre Sacramento",
+      "summary": "Golden State a battu Sacramento 129 à 110 lors de la rencontre de Coupe NBA du 25 novembre.",
+      "body": "De’Anthony Melton a inscrit ses 24 points derrière l’arc. L’Associated Press lui attribue également sept passes. Golden State a réussi 20 tirs à trois points au total et Gui Santos a contribué 22 points en sortant du banc.\n\nLa feuille de match de la NBA montre où l’écart s’est creusé le plus nettement en faveur de Golden State. Dans le premier quart-temps, l’équipe a marqué 44 points et en a concédé 19. Sur ces douze minutes, le différentiel a donc atteint 25 points, pour une marge finale de 19 points.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "NBA",
+          "url": "https://www.nba.com/game/sac-vs-gsw-0022600062/box-score",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Associated Press / ESPN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909324",
+          "publishedAt": "2026-11-26T05:33:41Z"
+        }
+      ],
+      "photo": {
+        "download": "media/nba-7.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:De'Anthony_Melton_(cropped).jpg",
+        "credit": "Frenchieinportland · Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Archives du 2021-10-27. De’Anthony Melton.",
+        "alt": "De’Anthony Melton en maillot de Memphis, le regard levé."
+      },
+      "translations": {
+        "en": {
+          "title": "Melton ties his career high with eight threes against Sacramento",
+          "summary": "Golden State beat Sacramento 129–110 in their November 25 NBA Cup game.",
+          "body": "De’Anthony Melton scored all 24 of his points from beyond the arc. The Associated Press also credited him with seven assists. Golden State made 20 threes in all, and Gui Santos contributed 22 points off the bench.\n\nThe NBA box score shows where Golden State built its biggest quarterly advantage. In the first quarter the team scored 44 points and allowed 19, a 25-point edge in those twelve minutes. The final margin was 19 points.",
+          "photoAlt": "De’Anthony Melton looks up in a Memphis jersey.",
+          "photoCaption": "Archive photograph, 2021-10-27. De’Anthony Melton."
+        },
+        "es": {
+          "title": "Melton iguala su récord con ocho triples ante Sacramento",
+          "summary": "Golden State venció a Sacramento por 129-110 en la Copa NBA el 25 de noviembre.",
+          "body": "De’Anthony Melton anotó sus 24 puntos desde el perímetro. Associated Press le atribuye además siete asistencias. Golden State logró 20 triples en total y Gui Santos aportó 22 puntos desde el banquillo.\n\nEl acta de la NBA muestra en qué tramo Golden State obtuvo su mayor ventaja parcial. En el primer cuarto anotó 44 puntos y concedió 19: una diferencia de 25 en esos doce minutos, frente a un margen final de 19.",
+          "photoAlt": "De’Anthony Melton mira hacia arriba con la camiseta de Memphis.",
+          "photoCaption": "Foto de archivo, 2021-10-27. De’Anthony Melton."
+        },
+        "ar": {
+          "title": "ميلتون يعادل رقمه الشخصي بثماني ثلاثيات أمام ساكرامنتو",
+          "summary": "فاز غولدن ستيت على ساكرامنتو بنتيجة 129-110 في كأس الدوري يوم 25 نوفمبر.",
+          "body": "سجل دي أنثوني ميلتون نقاطه الـ24 كلها من خارج القوس. وأحصت له أسوشيتد برس سبع تمريرات حاسمة أيضاً. وسجل غولدن ستيت 20 ثلاثية إجمالاً وأسهم البديل غي سانتوس بـ22 نقطة.\n\nتوضح إحصاءات الدوري أن غولدن ستيت حقق أكبر تفوق له خلال ربع واحد في الربع الأول، حين سجل 44 نقطة مقابل 19. وبلغ الفارق في تلك الدقائق الاثنتي عشرة 25، فيما بلغ الفارق النهائي 19.",
+          "photoAlt": "دي أنثوني ميلتون ينظر إلى أعلى مرتدياً قميص ممفيس.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2021-10-27. De’Anthony Melton."
+        },
+        "zh-CN": {
+          "title": "梅尔顿对阵萨克拉门托投进八记三分，追平个人纪录",
+          "summary": "11月25日的NBA杯比赛中，金州以129比110战胜萨克拉门托。",
+          "body": "德安东尼·梅尔顿的24分全部来自三分线外。美联社报道，他还送出7次助攻。金州全队命中20个三分球，替补出场的吉·桑托斯贡献22分。\n\nNBA技术统计显示，金州单节净胜分最多的是第一节。在这12分钟内，球队得到44分、失19分，净胜25分；全场最终分差为19分。",
+          "photoAlt": "梅尔顿身穿孟菲斯队球衣向上望。",
+          "photoCaption": "资料照片：2021-10-27，De’Anthony Melton。"
+        },
+        "ru": {
+          "title": "Мелтон повторил личный рекорд, забросив восемь трёхочковых против «Сакраменто»",
+          "summary": "Кубок НБА, 25 ноября. Счёт матча: «Голден Стэйт» — «Сакраменто» 129:110.",
+          "body": "Все 24 очка Де’Энтони Мелтон набрал из-за дуги. По данным Associated Press, на его счету также семь передач. «Голден Стэйт» реализовал 20 трёхочковых, а Ги Сантос принёс 22 очка со скамейки.\n\nПо протоколу НБА наибольшее преимущество за отдельный отрезок команда «Голден Стэйт» получила в первой четверти, набрав 44 очков против 19. Разница за эти двенадцать минут составила 25, итоговая разница в счёте — 19.",
+          "photoAlt": "Де’Энтони Мелтон смотрит вверх в форме «Мемфиса».",
+          "photoCaption": "Архивное фото, 2021-10-27. De’Anthony Melton."
+        },
+        "ko": {
+          "title": "멜턴, 새크라멘토전 3점슛 8개로 개인 최다 타이",
+          "summary": "11월 25일 NBA컵 경기에서 골든스테이트, 새크라멘토 상대로 129대 110 승리.",
+          "body": "디앤서니 멜턴은 24점 전부를 3점슛으로 올렸다. AP통신에 따르면 도움도 7개 기록했다. 골든스테이트는 팀 전체로 3점슛 20개를 넣었고 벤치에서 나온 기 산투스는 22점을 보탰다.\n\nNBA 기록을 보면 골든스테이트의 쿼터별 득실 차가 가장 컸던 시점은 1쿼터였다. 이 12분간 44점을 넣고 19점을 내줘 25점을 앞섰다. 최종 점수 차는 19점이었다.",
+          "photoAlt": "멤피스 유니폼을 입고 위를 바라보는 디앤서니 멜턴.",
+          "photoCaption": "자료 사진. 2021-10-27 촬영, De’Anthony Melton."
+        }
+      }
+    },
+    {
+      "eventKey": "nba-new-york-alvarado-cleveland-sixieme-25-novembre",
+      "category": "Sports",
+      "title": "Les Knicks renversent Cleveland dans le dernier quart pour une sixième victoire",
+      "summary": "New York a battu Cleveland 121 à 102 lors de la rencontre de Coupe NBA du 25 novembre.",
+      "body": "New York était encore mené avant le dernier quart. Selon l’Associated Press, le remplaçant Jose Alvarado était sur le parquet lorsque les Knicks ont pris le dessus. Il a terminé avec 21 points, son meilleur total de la saison, et Mikal Bridges en a ajouté 19.\n\nLa feuille de match de la NBA montre où l’écart s’est creusé le plus nettement en faveur de New York. Dans le quatrième quart-temps, l’équipe a marqué 39 points et en a concédé 17. Sur ces douze minutes, le différentiel a donc atteint 22 points, pour une marge finale de 19 points.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "NBA",
+          "url": "https://www.nba.com/game/cle-vs-nyk-0022600057/box-score",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Associated Press / ESPN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909319",
+          "publishedAt": "2026-11-26T03:12:34Z"
+        }
+      ],
+      "photo": {
+        "download": "media/nba-2.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jose_Alvarado_2024.jpg",
+        "credit": "Clément Bardot · Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Archives du 2024-08-03. Jose Alvarado.",
+        "alt": "Jose Alvarado en tenue blanche sur le parquet."
+      },
+      "translations": {
+        "en": {
+          "title": "The Knicks rally in the fourth to beat Cleveland for a sixth straight win",
+          "summary": "New York beat Cleveland 121–102 in their November 25 NBA Cup game.",
+          "body": "New York still trailed entering the fourth quarter. According to the Associated Press, reserve guard Jose Alvarado was on the floor when the Knicks took control. He finished with a season-high 21 points, and Mikal Bridges added 19.\n\nThe NBA box score shows where New York built its biggest quarterly advantage. In the fourth quarter the team scored 39 points and allowed 17, a 22-point edge in those twelve minutes. The final margin was 19 points.",
+          "photoAlt": "Jose Alvarado in a white uniform on the court.",
+          "photoCaption": "Archive photograph, 2024-08-03. Jose Alvarado."
+        },
+        "es": {
+          "title": "Los Knicks remontan ante Cleveland en el último cuarto y encadenan seis triunfos",
+          "summary": "Nueva York venció a Cleveland por 121-102 en la Copa NBA el 25 de noviembre.",
+          "body": "Nueva York aún perdía al empezar el último cuarto. Según Associated Press, el suplente Jose Alvarado estaba en pista cuando los Knicks tomaron el control. Terminó con 21 puntos, su mejor marca de la temporada, y Mikal Bridges añadió 19.\n\nEl acta de la NBA muestra en qué tramo Nueva York obtuvo su mayor ventaja parcial. En el último cuarto anotó 39 puntos y concedió 17: una diferencia de 22 en esos doce minutos, frente a un margen final de 19.",
+          "photoAlt": "Jose Alvarado en la cancha con uniforme blanco.",
+          "photoCaption": "Foto de archivo, 2024-08-03. Jose Alvarado."
+        },
+        "ar": {
+          "title": "نيكس يقلب النتيجة على كليفلاند في الربع الأخير ويحقق فوزه السادس توالياً",
+          "summary": "فاز نيويورك على كليفلاند بنتيجة 121-102 في كأس الدوري يوم 25 نوفمبر.",
+          "body": "دخل نيويورك الربع الأخير متأخراً. وبحسب أسوشيتد برس كان البديل خوسيه ألفارادو في الملعب عندما تسلم نيكس زمام المباراة. وأنهاها بـ21 نقطة، أفضل حصيلة له هذا الموسم، وأضاف ميكال بريدجز 19.\n\nتوضح إحصاءات الدوري أن نيويورك حقق أكبر تفوق له خلال ربع واحد في الربع الرابع، حين سجل 39 نقطة مقابل 17. وبلغ الفارق في تلك الدقائق الاثنتي عشرة 22، فيما بلغ الفارق النهائي 19.",
+          "photoAlt": "خوسيه ألفارادو بالزي الأبيض على أرض الملعب.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2024-08-03. Jose Alvarado."
+        },
+        "zh-CN": {
+          "title": "尼克斯末节逆转克利夫兰，收获六连胜",
+          "summary": "11月25日的NBA杯比赛中，纽约以121比102战胜克利夫兰。",
+          "body": "进入第四节时纽约仍落后。据美联社报道，尼克斯夺回主动权时，替补后卫何塞·阿尔瓦拉多正在场上。他得到赛季个人新高21分，米卡尔·布里奇斯另得19分。\n\nNBA技术统计显示，纽约单节净胜分最多的是第四节。在这12分钟内，球队得到39分、失17分，净胜22分；全场最终分差为19分。",
+          "photoAlt": "阿尔瓦拉多身穿白色球衣在场上。",
+          "photoCaption": "资料照片：2024-08-03，Jose Alvarado。"
+        },
+        "ru": {
+          "title": "«Никс» переломили игру с «Кливлендом» в последней четверти и победили в шестой раз подряд",
+          "summary": "Кубок НБА, 25 ноября. Счёт матча: «Нью-Йорк» — «Кливленд» 121:102.",
+          "body": "Перед четвёртой четвертью «Нью-Йорк» ещё уступал. По данным Associated Press, запасной защитник Хосе Альварадо был на площадке, когда «Никс» перехватили инициативу. Он набрал рекордное для себя в сезоне 21 очко, а Микал Бриджес добавил 19.\n\nПо протоколу НБА наибольшее преимущество за отдельный отрезок команда «Нью-Йорк» получила в четвёртой четверти, набрав 39 очков против 17. Разница за эти двенадцать минут составила 22, итоговая разница в счёте — 19.",
+          "photoAlt": "Хосе Альварадо на площадке в белой форме.",
+          "photoCaption": "Архивное фото, 2024-08-03. Jose Alvarado."
+        },
+        "ko": {
+          "title": "뉴욕, 4쿼터에 클리블랜드 뒤집고 6연승",
+          "summary": "11월 25일 NBA컵 경기에서 뉴욕, 클리블랜드 상대로 121대 102 승리.",
+          "body": "뉴욕은 4쿼터 시작 때만 해도 뒤지고 있었다. AP통신에 따르면 닉스가 주도권을 잡았을 때 벤치 가드 호세 알바라도가 코트에 있었다. 알바라도는 시즌 개인 최다인 21점을 올렸고 미칼 브리지스가 19점을 보탰다.\n\nNBA 기록을 보면 뉴욕의 쿼터별 득실 차가 가장 컸던 시점은 4쿼터였다. 이 12분간 39점을 넣고 17점을 내줘 22점을 앞섰다. 최종 점수 차는 19점이었다.",
+          "photoAlt": "코트에서 흰 유니폼을 입은 호세 알바라도.",
+          "photoCaption": "자료 사진. 2024-08-03 촬영, Jose Alvarado."
+        }
+      }
+    },
+    {
+      "eventKey": "dallas-bourque-premier-but-nashville-contre-stars",
+      "category": "Sports",
+      "title": "Mavrik Bourque marque son premier but pour Nashville face à son ancien club",
+      "summary": "Les Predators ont gagné 3 à 1 à Dallas, où les Stars restaient sur cinq victoires consécutives.",
+      "body": "Il restait 58 secondes à la première période quand Mavrik Bourque a ouvert la marque à Dallas le 25 novembre. La LNH attribue la passe à Brady Skjei, qui a récupéré sa tentative bloquée avant de trouver Bourque de l’autre côté de la patinoire.\n\nCe premier but de la saison a une résonance particulière pour l’attaquant, échangé par Dallas à Nashville le 1er juillet. Selon l’Associated Press, le succès de 3 à 1 des Predators met fin à une série de cinq victoires des Stars.",
+      "sources": [
+        {
+          "name": "Ligue nationale de hockey",
+          "url": "https://www.nhl.com/news/nashville-predators-dallas-stars-game-recap-november-25-2026",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Associated Press / CBS Sports",
+          "url": "https://www.cbssports.com/nhl/gametracker/NHL_20261125_NSH@DAL/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_Airlines_Center_Dallas.JPG",
+        "download": "media/extra05-1.webp",
+        "credit": "NoTalkMan / Wikimedia Commons · WebP",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "alt": "Façade de brique de l’American Airlines Center à Dallas.",
+        "caption": "Archives du 8 décembre 2011. L’American Airlines Center, où s’est joué le match."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Mavrik Bourque scores first Nashville goal against his old team",
+          "summary": "The Predators won 3–1 in Dallas, ending the Stars’ five-game winning streak.",
+          "body": "With 58 seconds left in the first period, Mavrik Bourque opened the scoring in Dallas on November 25. The NHL credited Brady Skjei with the feed after he recovered his blocked attempt and found Bourque across the ice.\n\nThe forward’s first goal of the season carried special meaning after Dallas traded him to Nashville on July 1. The Associated Press reported that the Predators’ 3–1 win ended a run of five straight victories for the Stars.",
+          "photoAlt": "Brick facade of the American Airlines Center in Dallas.",
+          "photoCaption": "Archive, December 8, 2011. The American Airlines Center, where the game was played."
+        },
+        "es": {
+          "title": "Mavrik Bourque marca su primer gol con Nashville ante su antiguo equipo",
+          "summary": "Los Predators ganaron 3-1 en Dallas y cortaron una racha de cinco triunfos de los Stars.",
+          "body": "Faltaban 58 segundos para terminar el primer periodo cuando Mavrik Bourque abrió el marcador el 25 de noviembre en Dallas. La NHL acreditó la asistencia a Brady Skjei, que recuperó su disparo bloqueado y encontró a Bourque al otro lado de la pista.\n\nEl primer gol de la temporada tuvo un significado especial para el delantero, traspasado por Dallas a Nashville el 1 de julio. Según Associated Press, el 3-1 de los Predators puso fin a cinco victorias consecutivas de los Stars.",
+          "photoAlt": "Fachada de ladrillo del American Airlines Center de Dallas.",
+          "photoCaption": "Archivo del 8 de diciembre de 2011. El American Airlines Center, sede del partido."
+        },
+        "ar": {
+          "title": "مافريك بورك يسجل أول أهدافه مع ناشفيل أمام فريقه السابق",
+          "summary": "فاز بريداتورز 3-1 في دالاس وأنهى سلسلة من خمسة انتصارات متتالية لستارز.",
+          "body": "افتتح مافريك بورك التسجيل في دالاس يوم 25 نوفمبر قبل 58 ثانية من نهاية الفترة الأولى. ونسب الدوري التمريرة الحاسمة إلى برادي سكي، الذي استعاد القرص بعد اعتراض تسديدته ومرره إلى بورك على الجانب الآخر من الملعب.\n\nحمل الهدف الأول هذا الموسم معنى خاصاً للمهاجم الذي انتقل من دالاس إلى ناشفيل في 1 يوليو. وذكرت أسوشيتد برس أن فوز بريداتورز 3-1 أنهى سلسلة ستارز المؤلفة من خمسة انتصارات.",
+          "photoAlt": "واجهة من الطوب لأمريكان إيرلاينز سنتر في دالاس.",
+          "photoCaption": "أرشيف 8 ديسمبر 2011. أمريكان إيرلاينز سنتر حيث أقيمت المباراة."
+        },
+        "zh-CN": {
+          "title": "布尔克面对旧主打入加盟纳什维尔后首球",
+          "summary": "掠夺者队客场3比1击败达拉斯，终结星队五连胜。",
+          "body": "11月25日在达拉斯，第一节还剩58秒时，马夫里克·布尔克首开纪录。NHL记录显示，布雷迪·谢伊射门被挡后重新拿到球，随后横传找到布尔克，收获助攻。\n\n这是布尔克本赛季第一球，对这名7月1日被达拉斯交易至纳什维尔的前锋有特殊意义。据美联社报道，掠夺者3比1获胜，终结了星队的五连胜。",
+          "photoAlt": "达拉斯美国航空中心的砖砌外墙。",
+          "photoCaption": "资料照片：2011年12月8日，本场比赛场馆美国航空中心。"
+        },
+        "ru": {
+          "title": "Маврик Бурк забросил первую шайбу за «Нэшвилл» в матче с бывшим клубом",
+          "summary": "«Предаторз» победили в Далласе со счётом 3:1 и прервали серию «Старз» из пяти побед.",
+          "body": "25 ноября в Далласе Маврик Бурк открыл счёт за 58 секунд до конца первого периода. По данным НХЛ, передачу отдал Брэди Шей: после заблокированного броска он вновь завладел шайбой и нашёл Бурка на другом краю площадки.\n\nПервый гол сезона стал особенным для форварда, которого «Даллас» обменял в «Нэшвилл» 1 июля. Как сообщает Associated Press, победа «Предаторз» со счётом 3:1 прервала серию «Старз» из пяти побед.",
+          "photoAlt": "Кирпичный фасад арены American Airlines Center в Далласе.",
+          "photoCaption": "Архив, 8 декабря 2011 года. Арена American Airlines Center, где проходил матч."
+        },
+        "ko": {
+          "title": "마브리크 부르크, 친정팀 상대로 내슈빌 이적 후 첫 골",
+          "summary": "프레더터스가 댈러스에서 3대 1로 이기며 스타스의 5연승을 끝냈다.",
+          "body": "11월 25일 댈러스에서 마브리크 부르크가 1피리어드 종료 58초를 남기고 선제골을 넣었다. NHL 기록에 따르면 브레이디 셰이가 막힌 슛을 다시 잡아 반대편의 부르크에게 패스하며 도움을 올렸다.\n\n7월 1일 댈러스에서 내슈빌로 트레이드된 부르크에게 이번 시즌 첫 골은 각별했다. AP통신에 따르면 프레더터스의 3대 1 승리로 스타스의 5연승이 끝났다.",
+          "photoAlt": "댈러스 아메리칸 에어라인스 센터의 벽돌 외관.",
+          "photoCaption": "자료 사진. 2011년 12월 8일 촬영한 경기 장소 아메리칸 에어라인스 센터."
+        }
+      }
+    },
+    {
+      "eventKey": "nba-chicago-buzelis-charlotte-deux-points-25-novembre",
+      "category": "Sports",
+      "title": "Chicago résiste à Charlotte malgré les 35 points de Brandon Miller",
+      "summary": "Chicago a battu Charlotte 107 à 105 lors de la rencontre de Coupe NBA du 25 novembre.",
+      "body": "Le tir de Coby White à la sirène a heurté le cercle. Selon l’Associated Press, cet échec a scellé le septième revers de suite des Hornets. Matas Buzelis a inscrit 24 points pour les Bulls, tandis que Josh Giddey a ajouté 12 points, 11 rebonds et sept passes.\n\nLa feuille de match de la NBA montre où l’écart s’est creusé le plus nettement en faveur de Chicago. Dans le troisième quart-temps, l’équipe a marqué 27 points et en a concédé 23. Sur ces douze minutes, le différentiel a donc atteint 4 points, pour une marge finale de 2 points.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "NBA",
+          "url": "https://www.nba.com/game/chi-vs-cha-0022600056/box-score",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Associated Press / ESPN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909318",
+          "publishedAt": "2026-11-26T02:44:33Z"
+        }
+      ],
+      "photo": {
+        "download": "media/nba-1.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matas_Buzelis_Jan_14_2026.jpg",
+        "credit": "Brady Saylor · Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "caption": "Archives du 2026-01-14. Matas Buzelis.",
+        "alt": "Matas Buzelis porte le maillot noir de Chicago."
+      },
+      "translations": {
+        "en": {
+          "title": "Chicago holds off Charlotte despite Brandon Miller’s 35 points",
+          "summary": "Chicago beat Charlotte 107–105 in their November 25 NBA Cup game.",
+          "body": "Coby White’s shot at the buzzer hit the rim. The Associated Press reported that the miss sealed a seventh straight defeat for the Hornets. Matas Buzelis scored 24 for the Bulls, while Josh Giddey added 12 points, 11 rebounds and seven assists.\n\nThe NBA box score shows where Chicago built its biggest quarterly advantage. In the third quarter the team scored 27 points and allowed 23, a 4-point edge in those twelve minutes. The final margin was 2 points.",
+          "photoAlt": "Matas Buzelis wears a black Chicago jersey.",
+          "photoCaption": "Archive photograph, 2026-01-14. Matas Buzelis."
+        },
+        "es": {
+          "title": "Chicago resiste ante Charlotte pese a los 35 puntos de Brandon Miller",
+          "summary": "Chicago venció a Charlotte por 107-105 en la Copa NBA el 25 de noviembre.",
+          "body": "El tiro de Coby White sobre la bocina golpeó el aro. Según Associated Press, el fallo selló la séptima derrota seguida de los Hornets. Matas Buzelis anotó 24 puntos para los Bulls y Josh Giddey añadió 12 puntos, 11 rebotes y siete asistencias.\n\nEl acta de la NBA muestra en qué tramo Chicago obtuvo su mayor ventaja parcial. En el tercer cuarto anotó 27 puntos y concedió 23: una diferencia de 4 en esos doce minutos, frente a un margen final de 2.",
+          "photoAlt": "Matas Buzelis lleva la camiseta negra de Chicago.",
+          "photoCaption": "Foto de archivo, 2026-01-14. Matas Buzelis."
+        },
+        "ar": {
+          "title": "شيكاغو يصمد أمام شارلوت رغم نقاط براندون ميلر الـ35",
+          "summary": "فاز شيكاغو على شارلوت بنتيجة 107-105 في كأس الدوري يوم 25 نوفمبر.",
+          "body": "اصطدمت تسديدة كوبي وايت بالحَلقة مع صافرة النهاية. ووفق أسوشيتد برس حسم الإخفاق الخسارة السابعة توالياً لهورنتس. وسجل ماتاس بوزيليس 24 نقطة لبولز وأضاف جوش غيدي 12 نقطة و11 متابعة وسبع تمريرات حاسمة.\n\nتوضح إحصاءات الدوري أن شيكاغو حقق أكبر تفوق له خلال ربع واحد في الربع الثالث، حين سجل 27 نقطة مقابل 23. وبلغ الفارق في تلك الدقائق الاثنتي عشرة 4، فيما بلغ الفارق النهائي 2.",
+          "photoAlt": "ماتاس بوزيليس يرتدي قميص شيكاغو الأسود.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2026-01-14. Matas Buzelis."
+        },
+        "zh-CN": {
+          "title": "米勒砍下35分，芝加哥仍险胜夏洛特",
+          "summary": "11月25日的NBA杯比赛中，芝加哥以107比105战胜夏洛特。",
+          "body": "科比·怀特的压哨投篮弹框而出。美联社报道，这次失手让黄蜂吞下七连败。马塔斯·布泽利斯为公牛拿到24分，约什·吉迪贡献12分、11个篮板和7次助攻。\n\nNBA技术统计显示，芝加哥单节净胜分最多的是第三节。在这12分钟内，球队得到27分、失23分，净胜4分；全场最终分差为2分。",
+          "photoAlt": "布泽利斯身穿芝加哥队黑色球衣。",
+          "photoCaption": "资料照片：2026-01-14，Matas Buzelis。"
+        },
+        "ru": {
+          "title": "«Чикаго» удержал победу над «Шарлотт», несмотря на 35 очков Миллера",
+          "summary": "Кубок НБА, 25 ноября. Счёт матча: «Чикаго» — «Шарлотт» 107:105.",
+          "body": "Бросок Коби Уайта с сиреной пришёлся в дужку. По данным Associated Press, этот промах принёс «Хорнетс» седьмое поражение подряд. Матас Бузялис набрал за «Буллз» 24 очка, а Джош Гидди добавил 12 очков, 11 подборов и семь передач.\n\nПо протоколу НБА наибольшее преимущество за отдельный отрезок команда «Чикаго» получила в третьей четверти, набрав 27 очков против 23. Разница за эти двенадцать минут составила 4, итоговая разница в счёте — 2.",
+          "photoAlt": "Матас Бузялис в чёрной форме «Чикаго».",
+          "photoCaption": "Архивное фото, 2026-01-14. Matas Buzelis."
+        },
+        "ko": {
+          "title": "시카고, 브랜던 밀러의 35점에도 샬럿에 신승",
+          "summary": "11월 25일 NBA컵 경기에서 시카고, 샬럿 상대로 107대 105 승리.",
+          "body": "코비 화이트의 종료 직전 슛이 림을 맞고 나왔다. AP통신에 따르면 이 슛이 빗나가면서 호니츠의 7연패가 확정됐다. 불스의 마타스 부젤리스는 24점, 조시 기디는 12점 11리바운드 7도움을 올렸다.\n\nNBA 기록을 보면 시카고의 쿼터별 득실 차가 가장 컸던 시점은 3쿼터였다. 이 12분간 27점을 넣고 23점을 내줘 4점을 앞섰다. 최종 점수 차는 2점이었다.",
+          "photoAlt": "시카고의 검은 유니폼을 입은 마타스 부젤리스.",
+          "photoCaption": "자료 사진. 2026-01-14 촬영, Matas Buzelis."
+        }
+      }
+    },
+    {
+      "eventKey": "nba-brooklyn-randle-milwaukee-serie-25-novembre",
+      "category": "Sports",
+      "title": "À Milwaukee, Brooklyn met fin à cinq défaites de suite",
+      "summary": "Brooklyn a battu Milwaukee 104 à 97 lors de la rencontre de Coupe NBA du 25 novembre.",
+      "body": "Julius Randle a inscrit 28 points pour les Nets, autant que Tyler Herro pour les Bucks. Selon l’Associated Press, Noah Clowney a ajouté 17 points pour Brooklyn, qui a décroché sa première victoire en trois matchs de groupe de la Coupe NBA.\n\nLa feuille de match de la NBA montre où l’écart s’est creusé le plus nettement en faveur de Brooklyn. Dans le premier quart-temps, l’équipe a marqué 28 points et en a concédé 24. Sur ces douze minutes, le différentiel a donc atteint 4 points, pour une marge finale de 7 points.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "NBA",
+          "url": "https://www.nba.com/game/bkn-vs-mil-0022600060/box-score",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Associated Press / ESPN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909322",
+          "publishedAt": "2026-11-26T03:45:31Z"
+        }
+      ],
+      "photo": {
+        "download": "media/nba-5.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Julius_Randle_with_Lakers.jpg",
+        "credit": "Keith Allison from Hanover, MD, USA · Wikimedia Commons · WebP",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "caption": "Archives du 2015-12-02. Julius Randle.",
+        "alt": "Julius Randle s’apprête à tirer, en maillot des Lakers."
+      },
+      "translations": {
+        "en": {
+          "title": "Brooklyn ends five-game skid in Milwaukee",
+          "summary": "Brooklyn beat Milwaukee 104–97 in their November 25 NBA Cup game.",
+          "body": "Julius Randle scored 28 points for the Nets, matching Tyler Herro’s total for the Bucks. According to the Associated Press, Noah Clowney added 17 for Brooklyn, which earned its first victory in three NBA Cup group games.\n\nThe NBA box score shows where Brooklyn built its biggest quarterly advantage. In the first quarter the team scored 28 points and allowed 24, a 4-point edge in those twelve minutes. The final margin was 7 points.",
+          "photoAlt": "Julius Randle prepares to shoot in a Lakers jersey.",
+          "photoCaption": "Archive photograph, 2015-12-02. Julius Randle."
+        },
+        "es": {
+          "title": "Brooklyn corta en Milwaukee una racha de cinco derrotas",
+          "summary": "Brooklyn venció a Milwaukee por 104-97 en la Copa NBA el 25 de noviembre.",
+          "body": "Julius Randle anotó 28 puntos para los Nets, los mismos que Tyler Herro para los Bucks. Según Associated Press, Noah Clowney añadió 17 para Brooklyn, que logró su primera victoria en tres partidos de grupo de la Copa NBA.\n\nEl acta de la NBA muestra en qué tramo Brooklyn obtuvo su mayor ventaja parcial. En el primer cuarto anotó 28 puntos y concedió 24: una diferencia de 4 en esos doce minutos, frente a un margen final de 7.",
+          "photoAlt": "Julius Randle prepara un tiro con la camiseta de los Lakers.",
+          "photoCaption": "Foto de archivo, 2015-12-02. Julius Randle."
+        },
+        "ar": {
+          "title": "بروكلين ينهي سلسلة من خمس هزائم في ميلووكي",
+          "summary": "فاز بروكلين على ميلووكي بنتيجة 104-97 في كأس الدوري يوم 25 نوفمبر.",
+          "body": "سجل جوليوس راندل 28 نقطة لنتس، في حين أحرز تايلر هيرو العدد نفسه لباكس. ووفق أسوشيتد برس أضاف نواه كلاوني 17 نقطة لبروكلين الذي حقق فوزه الأول في ثلاث مباريات بدور المجموعات في كأس الدوري.\n\nتوضح إحصاءات الدوري أن بروكلين حقق أكبر تفوق له خلال ربع واحد في الربع الأول، حين سجل 28 نقطة مقابل 24. وبلغ الفارق في تلك الدقائق الاثنتي عشرة 4، فيما بلغ الفارق النهائي 7.",
+          "photoAlt": "جوليوس راندل يستعد للتسديد بقميص ليكرز.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2015-12-02. Julius Randle."
+        },
+        "zh-CN": {
+          "title": "布鲁克林客胜密尔沃基，终结五连败",
+          "summary": "11月25日的NBA杯比赛中，布鲁克林以104比97战胜密尔沃基。",
+          "body": "朱利叶斯·兰德尔为篮网砍下28分，与雄鹿的泰勒·希罗持平。据美联社报道，诺阿·克洛尼为布鲁克林再添17分，球队由此在三场NBA杯小组赛中取得首胜。\n\nNBA技术统计显示，布鲁克林单节净胜分最多的是第一节。在这12分钟内，球队得到28分、失24分，净胜4分；全场最终分差为7分。",
+          "photoAlt": "兰德尔身穿湖人球衣准备投篮。",
+          "photoCaption": "资料照片：2015-12-02，Julius Randle。"
+        },
+        "ru": {
+          "title": "«Бруклин» прервал серию из пяти поражений в Милуоки",
+          "summary": "Кубок НБА, 25 ноября. Счёт матча: «Бруклин» — «Милуоки» 104:97.",
+          "body": "Джулиус Рэндл набрал 28 очков за «Нетс», столько же, сколько Тайлер Хирро за «Бакс». По данным Associated Press, Ноа Клауни добавил 17 очков, а «Бруклин» впервые выиграл в трёх матчах группового этапа Кубка НБА.\n\nПо протоколу НБА наибольшее преимущество за отдельный отрезок команда «Бруклин» получила в первой четверти, набрав 28 очков против 24. Разница за эти двенадцать минут составила 4, итоговая разница в счёте — 7.",
+          "photoAlt": "Джулиус Рэндл готовится к броску в форме «Лейкерс».",
+          "photoCaption": "Архивное фото, 2015-12-02. Julius Randle."
+        },
+        "ko": {
+          "title": "브루클린, 밀워키 원정에서 5연패 탈출",
+          "summary": "11월 25일 NBA컵 경기에서 브루클린, 밀워키 상대로 104대 97 승리.",
+          "body": "네츠의 줄리어스 랜들과 벅스의 타일러 히로는 나란히 28점을 넣었다. AP통신에 따르면 노아 클라우니가 17점을 보탠 브루클린은 NBA컵 조별리그 세 경기 만에 첫 승을 거뒀다.\n\nNBA 기록을 보면 브루클린의 쿼터별 득실 차가 가장 컸던 시점은 1쿼터였다. 이 12분간 28점을 넣고 24점을 내줘 4점을 앞섰다. 최종 점수 차는 7점이었다.",
+          "photoAlt": "레이커스 유니폼을 입고 슛을 준비하는 줄리어스 랜들.",
+          "photoCaption": "자료 사진. 2015-12-02 촬영, Julius Randle."
+        }
+      }
+    }
+  ]
+}
