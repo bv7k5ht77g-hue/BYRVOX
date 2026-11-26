@@ -1,7 +1,7 @@
 import {env} from 'cloudflare:workers';
 import {and,eq,isNull} from 'drizzle-orm';
 import {headers} from 'next/headers';
-import {getChatGPTUser, type ChatGPTUser} from '../app/chatgpt-auth';
+import type {ChatGPTUser} from '../app/chatgpt-auth';
 import {getDb} from '../db';
 import {newsroomMembers} from '../db/schema';
 import {getCookie, getEditorSession, sessionCookie, validSecret} from './editor-session';
@@ -36,13 +36,9 @@ export async function newsroomRole(identity: Pick<ChatGPTUser,'email'|'userId'>)
 
 export async function newsroomUser(): Promise<NewsroomUser | null> {
   const requestHeaders = await headers();
-  let identity: ChatGPTUser | null;
-  if (requestHeaders.get('host') === new URL(SITE_ORIGIN).host) {
-    const token = getCookie(requestHeaders.get('cookie'),sessionCookie);
-    identity = validSecret(token) ? await getEditorSession(token) : null;
-  } else {
-    identity = await getChatGPTUser();
-  }
+  if (requestHeaders.get('host') !== new URL(SITE_ORIGIN).host) return null;
+  const token = getCookie(requestHeaders.get('cookie'), sessionCookie);
+  const identity = validSecret(token) ? await getEditorSession(token) : null;
   if (!identity) return null;
   const role = await newsroomRole(identity);
   return role ? {...identity,role} : null;

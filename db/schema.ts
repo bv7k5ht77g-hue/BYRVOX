@@ -66,3 +66,34 @@ export const newsroomMembers = sqliteTable('newsroom_members', {
   createdAt: text('created_at').notNull(),
   acceptedAt: text('accepted_at'),
 });
+
+export const readerAccounts = sqliteTable('reader_accounts', {
+  userId: text('user_id').primaryKey(),
+  email: text('email').notNull(),
+  firstName: text('first_name').notNull(),
+  lastName: text('last_name').notNull(),
+  status: text('status', {enum: ['active','suspended','banned']}).notNull().default('active'),
+  createdAt: text('created_at').notNull(),
+  lastSeenAt: text('last_seen_at').notNull(),
+  lastIp: text('last_ip'),
+  lastLocation: text('last_location'),
+  moderatedBy: text('moderated_by'),
+  moderatedAt: text('moderated_at'),
+}, table => [index('reader_accounts_seen_idx').on(table.lastSeenAt, table.userId)]);
+
+export const readerActivity = sqliteTable('reader_activity', {
+  id: integer('id').primaryKey({autoIncrement:true}),
+  userId: text('user_id').notNull().references(() => readerAccounts.userId, {onDelete:'cascade'}),
+  action: text('action', {enum: ['signin','page','signout','suspended','banned','active']}).notNull(),
+  path: text('path'),
+  occurredAt: text('occurred_at').notNull(),
+}, table => [index('reader_activity_user_idx').on(table.userId, table.id), index('reader_activity_time_idx').on(table.occurredAt)]);
+
+export const readerSessions = sqliteTable('reader_sessions', {
+  digest: text('digest').primaryKey(),
+  userId: text('user_id').notNull().references(() => readerAccounts.userId, {onDelete:'cascade'}),
+  expiresAt: integer('expires_at').notNull(),
+}, table => [
+  index('reader_sessions_expiry_idx').on(table.expiresAt),
+  index('reader_sessions_user_idx').on(table.userId),
+]);

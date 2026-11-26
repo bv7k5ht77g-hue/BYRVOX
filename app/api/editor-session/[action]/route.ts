@@ -1,4 +1,4 @@
-import { chatGPTSignInPath, chatGPTSignOutPath, getChatGPTUser } from '../../../chatgpt-auth';
+import { chatGPTSignInPath, getChatGPTUser } from '../../../chatgpt-auth';
 import { newsroomRole, sameOrigin } from '../../../../lib/access';
 import { cookieHeader, exchangeGrant, getCookie, hashSecret, issueGrant, randomSecret, revokeEditorSession,
   sessionCookie, sessionLifetime, validSecret, verifierCookie } from '../../../../lib/editor-session';
@@ -40,10 +40,10 @@ export async function GET(req: Request, { params }: Props) {
 export async function POST(req: Request, {params}: Props) {
   const {action} = await params;
   const origin = new URL(req.url).origin;
-  if (action === 'logout' && sameOrigin(req)) {
+  if (action === 'logout' && origin === SITE_ORIGIN && sameOrigin(req)) {
     const token = getCookie(req.headers.get('cookie'), sessionCookie);
-    if (origin === SITE_ORIGIN && validSecret(token)) await revokeEditorSession(token);
-    const response = go(origin !== SITE_ORIGIN && await getChatGPTUser() ? origin + chatGPTSignOutPath('/admin') : NEWSROOM_URL);
+    if (validSecret(token)) await revokeEditorSession(token);
+    const response = go(NEWSROOM_URL);
     response.headers.append('Set-Cookie',cookieHeader(sessionCookie,'',0));
     return response;
   }

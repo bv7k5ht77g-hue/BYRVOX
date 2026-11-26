@@ -5,6 +5,7 @@ import { AdminNavigation } from './navigation';
 import { ArticlePreview } from './article-preview';
 import { GalleryField, PhotoField } from './photo-field';
 import { LeadSelector } from './lead-selector';
+import { ReadersPanel } from './readers';
 import { roleNames, TeamPanel } from './team';
 import type { NewsroomRole } from '../../lib/access';
 import type { ArticlePhoto } from '../../lib/article-photo';
@@ -219,6 +220,7 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
         ]}/></section>}</div>
       </>}
 
+      {tab === 'Lecteurs' && canApprove && <ReadersPanel/>}
       {tab === 'Équipe' && owner && <TeamPanel/>}
       {tab === 'À approuver' && canApprove && <section className="panel"><h2>Articles en attente d’approbation</h2>
         {reviewQueue.length === 50 && <p>Les 50 soumissions les plus anciennes s’affichent en premier.</p>}

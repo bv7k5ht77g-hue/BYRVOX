@@ -1,16 +1,24 @@
-import { NEW_SITE_ORIGIN, NEWSROOM_URL } from "../lib/site-url";
+import { SITE_ORIGIN, NEWSROOM_URL } from "../lib/site-url";
+import { withReaderNetwork } from "../lib/reader-network";
+import { handleReaderAccess } from "../lib/reader-auth";
 import { preferredLocale } from "../lib/i18n";
 import handler from "vinext/server/fetch-handler";
 import { runWithConnectorBinding } from "../lib/connector-context";
 import type { ConnectorBinding } from "../lib/connector-contract.mjs";
 
 const worker = {
-  fetch(request: Request, env: Cloudflare.Env, ctx: ExecutionContext<{ CONNECTORS?: ConnectorBinding }>) {
+  async fetch(request: Request, env: Cloudflare.Env, ctx: ExecutionContext<{ CONNECTORS?: ConnectorBinding }>) {
     // Server components see headers, whereas the Worker also knows the effective URL.
     const url = new URL(request.url);
-    if (url.origin === NEW_SITE_ORIGIN && (url.pathname === "/admin" || url.pathname === "/admin/")) {
-      return Response.redirect(NEWSROOM_URL + url.search, 307);
+    if (url.origin !== SITE_ORIGIN && /^\/admin(?:\/|$)/.test(url.pathname)) {
+      if (request.method === "GET" || request.method === "HEAD") {
+        return Response.redirect(NEWSROOM_URL + url.search, 307);
+      }
+      return new Response(null, {status: 403, headers: {"Cache-Control": "no-store"}});
     }
+    request = withReaderNetwork(request);
+    const readerResponse = await handleReaderAccess(request, ctx);
+    if (readerResponse) return readerResponse;
     if (request.headers.get("host") !== url.host) {
       const headers = new Headers(request.headers);
       headers.set("host", url.host);

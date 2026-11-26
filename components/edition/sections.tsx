@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowUpRight, AudioLines, Bookmark, BookOpen, Radio, RefreshCw, Search, Tv } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ArrowUpRight, AudioLines, Bookmark, Radio, RefreshCw, Search, Tv } from 'lucide-react';
 import Image from 'next/image';
 import { useState, type ReactNode } from 'react';
 import { articleHref, editionHref, fold, type EditionRoute, type Summary } from '../../lib/edition';
@@ -12,6 +12,7 @@ import { CoverFigure } from './cover-figure';
 import { canonicalCategory, categoryHref, type CategoryHeadlines } from '../../lib/editorial-sections';
 import { TopicRail } from './topic-rail';
 import { RadioYO } from './radioyo';
+import { readerAccountUrl } from '../../lib/reader-links';
 import { sectionText } from './section-copy';
 import './front-page.css';
 import './hub-pages.css';
@@ -75,18 +76,24 @@ function LiveChannels({ lang }: { lang: PublicLocale }) {
 function FrontLead({ story, lang }: { story: Summary; lang: PublicLocale }) {
   const href = localizedHref(articleHref(story), lang);
   const hasPhoto = Boolean(story.photo || story.image);
-  const badge = <span className="by-lead-badge">{sectionText(lang, 'lead')}</span>;
   return <article aria-labelledby="lead-title" className={'by-lead' + (hasPhoto ? '' : ' by-lead-type')}>
     <div className="by-lead-copy">
-    <div className="by-lead-meta">{!hasPhoto && badge}<b>{categoryLabel(story.category, lang)}</b></div>
-    <h1 id="lead-title" lang={story.contentLocale} dir="auto"><a href={href}>{story.title}</a></h1>
-    <p className="by-deck" lang={story.contentLocale} dir="auto">{story.summary}</p>
-    <div className="by-lead-bottom"><small><StoryDate story={story} lang={lang} /></small>
-      <a href={href}><BookOpen size={16} aria-hidden="true" />{sectionText(lang,'read')}</a></div>
+      <div className="by-lead-meta">
+        <span className="by-lead-badge">{sectionText(lang, 'lead')}</span>
+        <span>{categoryLabel(story.category, lang)}</span>
+      </div>
+      <h1 id="lead-title" lang={story.contentLocale} dir="auto"><a href={href}>{story.title}</a></h1>
+      <p className="by-deck" lang={story.contentLocale} dir="auto">{story.summary}</p>
+      <div className="by-lead-bottom">
+        <a href={href}>{sectionText(lang,'read')}<ArrowRight className="by-direction-arrow" size={17} aria-hidden="true" /></a>
+        <small><StoryDate story={story} lang={lang} /></small>
+      </div>
     </div>
     {hasPhoto && <div className="by-lead-media">
-      {story.photo ? <CoverFigure photo={story.photo} href={href} badge={badge} priority /> :
-        <a className="by-feature-photo" href={href} aria-label={story.title}>{badge}<Image unoptimized width={900} height={400} src={'/media/' + story.image + '.webp'} alt="" priority /></a>}
+      {story.photo ? <CoverFigure photo={story.photo} href={href} priority /> :
+        <a className="by-feature-photo" href={href} aria-label={story.title}>
+          <Image unoptimized width={900} height={400} src={'/media/' + story.image + '.webp'} alt="" priority />
+        </a>}
     </div>}
   </article>;
 }
@@ -230,7 +237,7 @@ export function SectionContent({ route, stories, headlines, presentations, unava
     {!format && section !== 'radio' && section !== 'tv' && section !== 'direct' && <section className="content-section">
       {section === 'favoris' && !signedIn ? <div className="empty">
         {accountStatus === 'loading' ? sectionText(lang,'loading') : accountStatus === 'error' ? <><p>{sectionText(lang,'accountError')}</p><a className="edition-icon-link" href={href(editionHref('favoris'))}><RefreshCw size={16} aria-hidden="true" />{sectionText(lang,'retry')}</a></> :
-          <><p>{sectionText(lang,'loginPrompt')}</p><a className="outline" href={'/signin-with-chatgpt?return_to=' + encodeURIComponent(href(editionHref('favoris')))} target="_top">{sectionText(lang,'login')}</a></>}
+          <><p>{sectionText(lang,'loginPrompt')}</p><a className="outline" href={readerAccountUrl('connexion',href(editionHref('favoris')),lang)} target="_top">{sectionText(lang,'login')}</a></>}
       </div> : <>
         {topicIndex && <><AllTopicLinks categories={categories} lang={lang}/><TopicGrid groups={headlines} lang={lang}/><AdSlot placement="news-lower"/></>}
         {(!featured.length || archive.length>0) && <div className="by-section-title"><h2>{sectionText(lang,topicPage||topicIndex?'archive':section==='recherche'?'results':section==='favoris'?'saved':section==='presentations'?'presentations':'wire')}</h2>

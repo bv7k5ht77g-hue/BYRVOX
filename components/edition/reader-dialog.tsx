@@ -2,18 +2,18 @@ import { Bookmark, CircleUserRound, Download, Search, Trash2, X } from 'lucide-r
 import { useEffect, useRef, useState } from 'react';
 import { usePublicLocale } from '../language-select';
 import { localizedHref } from '../../lib/i18n';
-import { navText } from './navigation-copy';
+import { legacySignOutUrl, readerAccountUrl, readerText } from '../../lib/reader-links';
 import dialogCopy from '../../lib/translations/dialog.json';
 import { editionHref } from '../../lib/edition';
 
 const policies = {
   'Politique éditoriale': 'Un membre de la rédaction valide les articles préparés dans le portail. Pour le fil horaire, l’agent BYRVOX recoupe au moins deux sources indépendantes, vérifie la photo et ses droits, puis recherche d’éventuels doublons avant de publier automatiquement sous sa signature. La rédaction peut corriger tout article publié.',
   'Corrections': 'Une erreur doit donner lieu à une correction explicite. Le système éditorial conserve les versions et les décisions de validation. Le contact éditorial sera communiqué dès son ouverture.',
-  'Confidentialité': 'Tes préférences et tes articles sauvegardés sont associés à ton identité de connexion. Tu peux les exporter ou les effacer depuis ton profil. Les emplacements publicitaires sont identifiés comme tels.',
+  'Confidentialité': 'Tes préférences et tes articles sauvegardés sont associés à ton compte. Tu peux les exporter ou les effacer depuis ton profil. Pour gérer les accès, les responsables de la rédaction peuvent consulter ton nom, ton prénom, ton courriel, ta dernière adresse IP et ton emplacement approximatif. BYRVOX conserve les 100 dernières activités de ton compte, y compris les connexions, les pages lues pendant tes sessions et les décisions de modération. Les espaces publicitaires sont identifiés comme tels.',
   'Conditions d’utilisation': 'Le site est en phase de lancement. Les présentations décrivent le projet et ses futurs services. Les modalités commerciales, la société éditrice et le contact officiel seront précisés avant le lancement commercial.'
 };
 export type DialogName = keyof typeof policies | 'recherche' | 'connexion' | 'profil' | 'abonnement' | 'newsletters' | 'marques';
-export type Profile = { name: string; preferences: { saved: string[]; topics: string[] } };
+export type Profile = { name: string; legacy?: boolean; preferences: { saved: string[]; topics: string[] } };
 
 export function ReaderDialog({ name, close, open, profile, currentUrl, query, pending, clear }: {
   name: DialogName; close: () => void; open: (name: DialogName) => void; profile: Profile | null;
@@ -55,18 +55,18 @@ export function ReaderDialog({ name, close, open, profile, currentUrl, query, pe
         <button className="red"><Search size={16} aria-hidden="true" /> {label("Rechercher")}</button></form>
     </> : name === 'connexion' ? <>
       <h2 id="reader-dialog-title">{label("Bienvenue chez BYRVOX.")}</h2><p>{label("Connecte-toi pour retrouver tes articles sauvegardés et ton espace personnel.")}</p>
-      <a className="red" href={'/signin-with-chatgpt?return_to=' + encodeURIComponent(localizedHref(currentUrl,locale))} target="_top"><CircleUserRound size={16} aria-hidden="true" /> {label("Continuer avec ChatGPT")}</a>
-      <a className="outline" href="/admin">{navText(locale,'editor')}</a>
+      <a className="red" href={readerAccountUrl('connexion',localizedHref(currentUrl,locale),locale)} target="_top"><CircleUserRound size={16} aria-hidden="true" /> {readerText(locale,'connexion')}</a>
+      <a className="outline" href={readerAccountUrl('inscription',localizedHref(currentUrl,locale),locale)} target="_top">{readerText(locale,'inscription')}</a>
+      <button className="outline" onClick={() => open('Confidentialité')}>{label("Confidentialité")}</button>
     </> : name === 'profil' ? <>
       <h2 id="reader-dialog-title">{label("Ton espace")}</h2><p>{profile?.name}</p>
       <a className="outline" href={localizedHref(editionHref('favoris'),locale)}><Bookmark size={16} aria-hidden="true" /> {label("Mes articles sauvegardés")}</a>
-      <a className="outline" href="/admin">{navText(locale,'editor')}</a>
       <button className="outline" onClick={exportData}><Download size={16} aria-hidden="true" /> {label("Exporter mes données")}</button>
       {confirm ? <div><p>{label("Effacer les favoris et préférences de ce compte ?")}</p>
         <button className="outline" onClick={() => setConfirm(false)}>{label("Annuler")}</button>
         <button className="red" disabled={pending} onClick={clear}>{label("Confirmer l’effacement")}</button></div> :
         <button className="outline" onClick={() => setConfirm(true)}><Trash2 size={16} aria-hidden="true" /> {label("Effacer mes préférences BYRVOX")}</button>}
-      <a href={'/signout-with-chatgpt?return_to=' + encodeURIComponent(localizedHref(currentUrl,locale))} target="_top">{label("Se déconnecter")}</a>
+      <a href={profile?.legacy ? legacySignOutUrl(locale) : readerAccountUrl('sortie',localizedHref(currentUrl,locale),locale)} target="_top">{label("Se déconnecter")}</a>
     </> : name === 'newsletters' ? <>
       <h2 id="reader-dialog-title">{label("Les newsletters en préparation")}</h2>
       <dl>{[['Breaking', 'Les événements majeurs'], ['Morning Brief', 'Commencer la journée'], ['Evening Brief', 'Prendre du recul'], ['Weekly', 'La semaine en perspective']].map(([title, text]) =>

@@ -13,6 +13,7 @@ const labels = {
   close:['Fermer','Close','Cerrar','إغلاق','关闭','Закрыть','닫기'],
   explore:['Explorer','Explore','Explorar','استكشف','探索','Рубрики','둘러보기'],
   group:['Le groupe','The group','El grupo','المجموعة','集团','Медиагруппа','그룹'],
+  poweredBy:['Propulsé par','Powered by','Con tecnología de','بدعم تقني من','技术支持','Технологии','기술 제공'],
   perspective:['Un nouveau regard sur le monde.','A new perspective on the world.','Una nueva mirada al mundo.','نظرة جديدة إلى العالم.','用新的视角看世界。','Новый взгляд на мир.','세상을 보는 새로운 시각.'],
   method:['Notre démarche','Our approach','Nuestro enfoque','نهجنا','我们的理念','Наш подход','편집 방향'],
   subscriptions:['Abonnements','Subscriptions','Suscripciones','الاشتراكات','订阅','Подписки','구독'],

@@ -43,6 +43,13 @@
       "when": 1795654522255,
       "tag": "0005_newsroom_members",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1795665045642,
+      "tag": "0006_reader_accounts",
+      "breakpoints": true
     }
   ]
 }

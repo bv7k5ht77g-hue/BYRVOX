@@ -1,0 +1,6 @@
+.reader-account { max-width: 32rem; margin: clamp(2.5rem,10vh,8rem) auto; padding: 0 1.25rem; color: var(--ink, #24191b); }
+.reader-account .reader-wordmark { font-size: 1.55rem; color: #831630; letter-spacing: -.07em; font-weight: 900; text-decoration: none; }
+.reader-account section { margin: 2rem 0; padding: 2rem 0; border-block: 1px solid #d7c9cb; }
+.reader-account h1 { margin: 0 0 1.25rem; font-size: clamp(2rem,5vw,3rem); line-height: 1.1; }
+.reader-account p { line-height: 1.6; }
+.reader-account a:focus-visible,.reader-account button:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }

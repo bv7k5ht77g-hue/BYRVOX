@@ -1,17 +1,21 @@
 'use client';
 
+import Image from 'next/image';
 import { Bookmark, BookmarkCheck, CircleUserRound, Menu, Moon, Rss, Search, Settings2, Sun, X } from 'lucide-react';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { editionHref, type EditionRoute, type Section, type Summary } from '../../lib/edition';
+import { NEWSROOM_URL } from '../../lib/site-url';
 import type { CategoryHeadlines } from '../../lib/editorial-sections';
 import { AdSlot } from './ad-slot';
 import { HeaderTopics } from './header-topics';
 import { WeatherNav } from '../weather-nav';
 import { LanguageSelect, usePublicLocale } from '../language-select';
 import { localizedHref, sectionLabel } from '../../lib/i18n';
+import { readerAccountUrl } from '../../lib/reader-links';
 import { navText } from './navigation-copy';
 import { ReadingProgress } from './reading-progress';
 import './navigation.css';
+import './footer.css';
 import { EditionFront, SectionContent } from './sections';
 import { ReaderDialog, type DialogName, type Profile } from './reader-dialog';
 
@@ -85,16 +89,35 @@ function Header({ current, category, profile, open }: {
 function Footer({ open }: { open: (name: DialogName) => void }) {
   const lang = usePublicLocale();
   const policyLabels = ['editorial','corrections','privacy','terms'] as const;
-  return <footer><div className="wrap footer-grid">
-    <div><Brand /><p>{navText(lang,'perspective')}</p></div>
-    <div><b>{navText(lang,'explore')}</b>{(['actualites', 'radio', 'tv', 'podcasts', 'favoris'] as Section[]).map(section =>
-      <a key={section} href={localizedHref(editionHref(section),lang)}>{sectionLabel(section,lang)}</a>)}<a className="edition-icon-link" href="/rss.xml"><Rss size={16} aria-hidden="true" /> {navText(lang,'rss')}</a></div>
-    <div><b>{navText(lang,'group')}</b><button onClick={() => open('marques')}>RadioYO &amp; TVYO</button>
-      <button onClick={() => open('abonnement')}>{navText(lang,'subscriptions')}</button>
-      <a className="edition-icon-link" href="/admin"><Settings2 size={16} aria-hidden="true" /> {navText(lang,'editor')}</a></div>
-    <div><b>{navText(lang,'transparency')}</b>{policies.map((policy,i) => <button key={policy} onClick={() => open(policy)}>{navText(lang,policyLabels[i])}</button>)}</div>
-  </div>
-  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.8.0</span></div></footer>;
+  return <footer className="by-footer">
+    <div className="wrap by-footer-main">
+      <div className="by-footer-brand"><Brand /><p>{navText(lang,'perspective')}</p></div>
+      <nav aria-label={navText(lang,'explore')}>
+        <h2>{navText(lang,'explore')}</h2>
+        {(['actualites', 'radio', 'tv', 'podcasts', 'favoris'] as const).map(section =>
+          <a key={section} href={localizedHref(editionHref(section),lang)}>{sectionLabel(section,lang)}</a>)}
+        <a href="/rss.xml"><Rss size={15} aria-hidden="true" />{navText(lang,'rss')}</a>
+      </nav>
+      <nav aria-label={navText(lang,'group')}>
+        <h2>{navText(lang,'group')}</h2>
+        <a href={localizedHref(editionHref('presentations'),lang)}>{sectionLabel('presentations',lang)}</a>
+        <button onClick={() => open('marques')}>RadioYO &amp; TVYO</button>
+        <button onClick={() => open('abonnement')}>{navText(lang,'subscriptions')}</button>
+        <a href={NEWSROOM_URL}><Settings2 size={15} aria-hidden="true" />{navText(lang,'editor')}</a>
+      </nav>
+      <nav aria-label={navText(lang,'transparency')}>
+        <h2>{navText(lang,'transparency')}</h2>
+        {policies.map((policy,i) => <button key={policy} onClick={() => open(policy)}>{navText(lang,policyLabels[i])}</button>)}
+      </nav>
+    </div>
+    <div className="by-footer-base"><div className="wrap by-footer-colophon">
+      <small>© {new Date().getUTCFullYear()} BYRVOX Media Group</small>
+      <span className="by-footer-partner">
+        {navText(lang,'poweredBy')}
+        <Image unoptimized src="/brand/zm06tech.webp" width={500} height={105} loading="lazy" alt="ZM06TECH" />
+      </span>
+    </div></div>
+  </footer>;
 }
 
 type EditionProps = {
@@ -125,7 +148,7 @@ export function Edition({ route, stories, headlines, presentations, unavailable,
       return await response.json() as Profile & { stories?: Summary[] };
     }).then(data => {
       if (data) {
-        setProfile({ name: data.name, preferences: data.preferences });
+        setProfile({ name: data.name, legacy: data.legacy, preferences: data.preferences });
         setSavedStories(data.stories || []);
       }
       setAccountStatus('ready');
@@ -184,7 +207,8 @@ export function Edition({ route, stories, headlines, presentations, unavailable,
   </div>;
 }
 
-export function ArticleNavigation() {
+export function ArticleNavigation({children, currentUrl}: {children: ReactNode; currentUrl: string}) {
+  const [dialog, setDialog] = useState<DialogName | null>(null);
   const lang = usePublicLocale();
   const [profile, setProfile] = useState<Profile | null>(null);
   useEffect(() => {
@@ -196,10 +220,16 @@ export function ArticleNavigation() {
   }, []);
   function open(name: DialogName) {
     if (name === 'connexion') {
-      window.location.assign('/signin-with-chatgpt?return_to='+encodeURIComponent(location.pathname+location.search));
+      window.location.assign(readerAccountUrl('connexion',location.pathname+location.search,lang));
     } else {
       window.location.assign(localizedHref(editionHref(name==='recherche'?'recherche':'favoris'),lang));
     }
   }
-  return <Header current="actualites" profile={profile} open={open} />;
+  return <>
+    <Header current="actualites" profile={profile} open={open} />
+    {children}
+    <Footer open={setDialog} />
+    {dialog && <ReaderDialog name={dialog} close={() => setDialog(null)} open={open}
+      profile={profile} currentUrl={currentUrl} query="" pending={false} clear={async () => {}} />}
+  </>;
 }

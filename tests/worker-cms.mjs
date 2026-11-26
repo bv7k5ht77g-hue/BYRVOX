@@ -1,7 +1,7 @@
 // Run after npm run build: node --test tests/worker-cms.mjs
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
-import { createHash } from 'node:crypto';
+import { createHash, generateKeyPairSync, randomBytes, sign } from 'node:crypto';
 import { createRequire } from 'node:module';
 import { resolve } from 'node:path';
 import { test } from 'node:test';
@@ -10,7 +10,9 @@ import { fileURLToPath } from 'node:url';
 const require = createRequire(import.meta.url);
 const { Miniflare } = createRequire(require.resolve('wrangler/package.json'))('miniflare');
 const root = fileURLToPath(new URL('../', import.meta.url));
-const origin = 'https://byrvox.test';
+const origin = 'https://byrvox.noventra.ca';
+const publicOrigin = 'https://byrvox.today';
+const providerOrigin = 'https://byrvox.h2y4xnnm6g.chatgpt.site';
 const editor = 'editor@example.invalid';
 const initial = {
   title: 'Conseil & culture <édition locale>',
@@ -56,12 +58,22 @@ async function createNewsroom(t, editionBindings, outboundService) {
     await db.batch(statements.map((sql) => db.prepare(sql)));
   }
 
-  function request(path, email, data) {
-    const headers = new Headers();
-    if (email) {
-      headers.set('oai-authenticated-user-id', 'test-' + email);
-      headers.set('oai-authenticated-user-email', email);
+  const sessions = new Map();
+  async function editorHeaders(email, userId = 'test-' + email) {
+    if (!email) return {};
+    const key = JSON.stringify([userId, email]);
+    if (!sessions.has(key)) {
+      const token = randomBytes(32).toString('hex');
+      const digest = createHash('sha256').update(token).digest('hex');
+      const insert = db.prepare(
+        "INSERT INTO editor_sessions(digest,proof_hash,user_id,email,expires_at) VALUES (?,'',?,?,?)"
+      ).bind(digest, userId, email, Math.floor(Date.now() / 1000) + 3600).run();
+      sessions.set(key, insert.then(() => ({cookie: '__Host-byrvox-editor=' + token})));
     }
+    return sessions.get(key);
+  }
+  async function request(path, email, data) {
+    const headers = new Headers(await editorHeaders(email));
     const options = { headers };
     if (data) {
       headers.set('origin', origin);
@@ -76,14 +88,14 @@ async function createNewsroom(t, editionBindings, outboundService) {
     assert.equal(response.status, expected, path + ' ' + body.slice(0, 400));
     return JSON.parse(body);
   }
-  return { mf, db, request, json };
+  return { mf, db, request, json, editorHeaders };
 }
 
 test('les adresses publiques suivent le domaine et le portail conserve ses sessions sur Noventra', async (t) => {
   const { mf } = await createNewsroom(t);
-  const legacy = 'https://byrvox.noventra.ca';
-  const today = 'https://byrvox.today';
-  for (const [base, canonical] of [[today,today], [legacy,legacy], [origin,legacy]]) {
+  const legacy = origin;
+  const today = publicOrigin;
+  for (const [base, canonical] of [[today,today], [legacy,legacy], ['https://byrvox.test',legacy]]) {
     const read = async path => {
       const response = await mf.dispatchFetch(base + path);
       assert.equal(response.status, 200, path);
@@ -102,6 +114,31 @@ test('les adresses publiques suivent le domaine et le portail conserve ses sessi
   const newsroom = await mf.dispatchFetch(today + '/admin', {redirect:'manual'});
   assert.equal(newsroom.status, 307);
   assert.equal(newsroom.headers.get('location'), legacy + '/admin');
+});
+
+test('seul le domaine éditeur accepte les sessions et les opérations de rédaction', async t => {
+  const {mf, editorHeaders} = await createNewsroom(t);
+  const staff = await editorHeaders(editor);
+  for (const host of [publicOrigin, 'https://www.byrvox.today', providerOrigin, 'https://byrvox.test']) {
+    const headers = {...staff, origin:host, 'content-type':'application/json'};
+    const page = await mf.dispatchFetch(host + '/admin', {redirect:'manual', headers});
+    assert.equal(page.status, 307, host);
+    assert.equal(page.headers.get('location'), origin + '/admin');
+    for (const path of ['/api/newsroom', '/api/newsroom/lead', '/api/newsroom/team', '/api/newsroom/readers']) {
+      assert.equal((await mf.dispatchFetch(host + path, {headers})).status, 403, host + path);
+    }
+    for (const [method, path] of [
+      ['POST','/api/newsroom'], ['PUT','/api/newsroom/lead'], ['PATCH','/api/newsroom/readers'],
+      ['POST','/api/editor-session/logout'],
+    ]) {
+      const response = await mf.dispatchFetch(host + path, {method,headers,body:'{}',redirect:'manual'});
+      assert.equal(response.status, 403, method + ' ' + host + path);
+    }
+    const start = await mf.dispatchFetch(host + '/api/editor-session/start', {redirect:'manual'});
+    assert.equal(start.status, 403);
+    assert.equal(start.headers.get('set-cookie'), null);
+  }
+  assert.equal((await mf.dispatchFetch(origin + '/api/newsroom', {headers:staff})).status,200);
 });
 
 test('le Worker distingue les versions publiques et les révisions de la rédaction', async (t) => {
@@ -304,19 +341,15 @@ test('un supplément respecte les articles déjà importés et révisés', async
 });
 
 test('la rédaction contrôle les fichiers et la visibilité des photos au fil des publications', async (t) => {
-  const { mf, db, request, json } = await createNewsroom(t, {});
+  const { mf, db, request, json, editorHeaders } = await createNewsroom(t, {});
   const uploadPath = origin + '/api/newsroom/photos';
   const png = await readFile(resolve(root, 'public/brand/logo-dark.png'));
   const webp = await readFile(resolve(root, 'public/media/news.webp'));
   // A complete one-pixel grayscale JPEG.
   const jpeg = Buffer.from('/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/wAALCAABAAEBAREA/8QAFAABAAAAAAAAAAAAAAAAAAAAB//EABQQAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQEAAD8Af3//2Q==', 'base64');
 
-  function upload(body, type, email = editor, from = origin) {
-    const headers = new Headers({ 'content-type': type, origin: from });
-    if (email) {
-      headers.set('oai-authenticated-user-id', 'test-' + email);
-      headers.set('oai-authenticated-user-email', email);
-    }
+  async function upload(body, type, email = editor, from = origin) {
+    const headers = { ...await editorHeaders(email), 'content-type': type, origin: from };
     return mf.dispatchFetch(uploadPath, { method: 'POST', headers, body });
   }
 
@@ -485,17 +518,17 @@ test('la rédaction contrôle les fichiers et la visibilité des photos au fil d
 });
 
 test('la une peut être épinglée puis rendue à la publication automatique', async (t) => {
-  const { mf, db, request, json } = await createNewsroom(t, {});
+  const { mf, db, request, json, editorHeaders } = await createNewsroom(t, {});
   const leadPath = '/api/newsroom/lead';
-  const setLead = (articleId, email = editor, requestOrigin = origin) =>
+  const setLead = async (articleId, email = editor, requestOrigin = origin) =>
     mf.dispatchFetch(origin + leadPath, { method: 'PUT', headers: {
       origin: requestOrigin, 'content-type': 'application/json',
-      'oai-authenticated-user-id': 'test-' + email, 'oai-authenticated-user-email': email,
+      ...await editorHeaders(email),
     }, body: JSON.stringify({ articleId }) });
   const edit = (data) => json('/api/newsroom', { email: editor, data });
   assert.equal((await mf.dispatchFetch(origin + '/editeur', {redirect:'manual'})).headers.get('location'), 'https://byrvox.noventra.ca/admin');
   assert.match(await (await request('/admin')).text(), /Se connecter à la rédaction/);
-  assert.match(await (await request('/admin', 'lecteur@example.invalid')).text(), /Accès réservé/);
+  assert.match(await (await request('/admin', 'lecteur@example.invalid')).text(), /Se connecter à la rédaction/);
   assert.match(await (await request('/admin', editor)).text(), /Tableau de bord/);
   assert.equal((await request(leadPath)).status, 403);
   assert.equal((await setLead(null, 'lecteur@example.invalid')).status, 403);
@@ -524,8 +557,8 @@ test('la une peut être épinglée puis rendue à la publication automatique', a
 
 test('une connexion éditeur revient sur le domaine Noventra et expire après sa révocation', async t => {
   const {mf} = await createNewsroom(t, {});
-  const custom = 'https://byrvox.noventra.ca';
-  const provider = 'https://byrvox.h2y4xnnm6g.chatgpt.site';
+  const custom = origin;
+  const provider = providerOrigin;
   const send = (url, options) => mf.dispatchFetch(url, {redirect:'manual', ...options});
   // The custom domain only accepts its own issued session.
   assert.equal((await send(custom+'/api/newsroom',{headers:{'oai-authenticated-user-id':'editor','oai-authenticated-user-email':editor}})).status,403);
@@ -555,6 +588,170 @@ test('une connexion éditeur revient sur le domaine Noventra et expire après sa
   assert.match(await (await send(custom+'/admin',{headers:{cookie}})).text(), /Tableau de bord/);
   assert.equal((await send(custom+'/api/editor-session/logout',{method:'POST',headers:{origin:custom, cookie}})).status,303);
   assert.equal((await send(custom+'/api/newsroom',{headers:{cookie}})).status,403);
+});
+
+test('la rédaction consulte les comptes et applique immédiatement suspension, bannissement et rétablissement', async t => {
+  const {mf, db, request, json, editorHeaders} = await createNewsroom(t);
+  const endpoint = '/api/newsroom/readers';
+  const userId = 'user_test_clerk';
+  const email = 'camille@example.invalid';
+  const approver = 'responsable@example.invalid';
+  const contributor = 'contributeur@example.invalid';
+  for (const [member,role] of [[approver,'approver'],[contributor,'contributor']]) {
+    await json('/api/newsroom/team', {email:editor,data:{email:member,role}});
+  }
+  const at = new Date().toISOString();
+  await db.prepare(`INSERT INTO reader_accounts(user_id,email,first_name,last_name,
+    created_at,last_seen_at,last_ip,last_location) VALUES (?,?,?,?,?,?,?,?)`)
+    .bind(userId,email,'Camille','Tremblay',at,at,'192.0.2.3','Montréal, Québec, CA').run();
+  const token = randomBytes(32).toString('hex');
+  const digest = createHash('sha256').update(token).digest('hex');
+  await db.prepare('INSERT INTO reader_sessions(digest,user_id,expires_at) VALUES (?,?,?)')
+    .bind(digest,userId,Math.floor(Date.now()/1000)+3600).run();
+  const readerCookie = '__Host-byrvox-reader=' + token;
+  const detail = endpoint + '?id=' + userId;
+  const change = async (actor, expectedStatus, status, from = origin) =>
+    mf.dispatchFetch(origin + endpoint,{method:'PATCH',headers:{
+      ...await editorHeaders(actor), origin:from, 'content-type':'application/json',
+    },body:JSON.stringify({userId,expectedStatus,status})});
+  const visit = path => mf.dispatchFetch(publicOrigin + path, {headers:{cookie:readerCookie,accept:'text/html','sec-fetch-dest':'document'}});
+  assert.equal((await request(detail)).status,403);
+  assert.equal((await request(detail,contributor)).status,403);
+  assert.equal((await mf.dispatchFetch(origin + detail,{headers:{cookie:readerCookie}})).status,403);
+  assert.equal((await change(contributor,'active','banned')).status,403);
+  assert.equal((await change(editor,'active','banned',publicOrigin)).status,403);
+
+  const directory = await json(endpoint + '?search=Tremblay',{email:editor});
+  assert.deepEqual(directory.readers.map(r => [r.userId,r.firstName,r.lastName,r.email,r.status]),
+    [[userId,'Camille','Tremblay',email,'active']]);
+  assert.equal((await json(endpoint + '?search=Introuvable',{email:approver})).readers.length,0);
+  assert.equal((await request(endpoint + '?id=absent',editor)).status,404);
+  const profile = await request(detail,approver);
+  assert.match(profile.headers.get('cache-control'),/no-store/);
+  const {reader} = await profile.json();
+  assert.equal(reader.lastIp,'192.0.2.3');
+  assert.equal(reader.lastLocation,'Montréal, Québec, CA');
+
+  const article = '/article/notre-methode';
+  assert.equal((await visit(article + '?source=lecture-privee')).status,200);
+  const findPage = () => db.prepare("SELECT path FROM reader_activity WHERE user_id=? AND action='page' ORDER BY id DESC LIMIT 1")
+    .bind(userId).first();
+  for (let i=0; i<50 && !await findPage(); i++) await new Promise(done => setTimeout(done,20));
+  assert.equal((await findPage())?.path,article);
+  const pages = (await json(detail,{email:editor})).activity.filter(event=>event.action==='page');
+  assert.equal(pages[0].path,article);
+  assert.ok(pages[0].occurredAt);
+  for (const status of ['suspended','banned']) {
+    assert.equal((await change(approver,'active',status)).status,200);
+    assert.equal((await change(editor,'active',status)).status,409);
+    assert.equal((await visit(article)).status,403);
+    assert.equal((await visit('/api/articles')).status,403);
+    assert.equal((await mf.dispatchFetch(publicOrigin + article)).status,200);
+    const restricted = (await json(detail,{email:editor})).reader;
+    assert.equal(restricted.status,status);
+    assert.equal(restricted.moderatedBy,approver);
+    assert.ok(restricted.moderatedAt);
+    assert.equal((await change(editor,status,'active')).status,200);
+    assert.equal((await visit('/api/articles')).status,200);
+  }
+});
+
+test('la connexion lecteur vérifie la session Clerk et enregistre les accès BYRVOX', async t => {
+  const issuer = 'https://clerk.byrvox.today';
+  const credential = 'sk_live_fixture';
+  const {publicKey,privateKey} = generateKeyPairSync('rsa',{modulusLength:2048});
+  const jwk = {...publicKey.export({format:'jwk'}),kid:'test-key',alg:'RS256',use:'sig'};
+  const sub = 'user_0123456789abcdef';
+  const sid = 'sess_0123456789abcdef';
+  const now = Math.floor(Date.now()/1000);
+  const claims = {iss:issuer,sub,sid,azp:publicOrigin,iat:now,exp:now+60,nbf:now-1};
+  const token = (overrides = {}) => {
+    const part = value => Buffer.from(JSON.stringify(value)).toString('base64url');
+    const data = part({alg:'RS256',kid:jwk.kid,typ:'JWT'}) + '.' + part({...claims,...overrides});
+    return data + '.' + sign('RSA-SHA256',Buffer.from(data),privateKey).toString('base64url');
+  };
+  let verification = 'verified';
+  const bindings = {
+    CLERK_PUBLISHABLE_KEY:'pk_live_' + Buffer.from('clerk.byrvox.today$').toString('base64'),
+    CLERK_SECRET_KEY:credential,
+  };
+  const calls = [];
+  const {mf,db,json} = await createNewsroom(t,bindings,async request => {
+    calls.push(request.url);
+    if (request.url === issuer + '/.well-known/jwks.json') {
+      assert.equal(request.headers.get('authorization'),null);
+      return Response.json({keys:[jwk]});
+    }
+    assert.equal(request.headers.get('authorization'),'Bearer ' + credential);
+    if (request.url === 'https://api.clerk.com/v1/sessions/' + sid) {
+      return Response.json({id:sid,user_id:sub,status:'active',expire_at:(now+3600)*1000});
+    }
+    if (request.url === 'https://api.clerk.com/v1/users/' + sub) {
+      return Response.json({id:sub,first_name:'Sam',last_name:'Roy',primary_email_address_id:'idn_123',
+        email_addresses:[{id:'idn_123',email_address:'sam@example.invalid',verification:{status:verification}}]});
+    }
+    return new Response(null,{status:404});
+  });
+  const activate = (jwt,from=publicOrigin) => mf.dispatchFetch(publicOrigin + '/api/reader-session/activate',{
+    method:'POST',redirect:'manual',
+    cf:{colo:'YUL',city:'Montreal',region:'Quebec',country:'CA'},
+    headers:{origin:from,authorization:'Bearer '+jwt,'cf-connecting-ip':'192.0.2.21'},
+  });
+  for (const rejected of [
+    await activate(token(),origin), await activate(token({azp:origin})),
+    await activate(token({iat:now-3600,nbf:now-3600,exp:now-3500})),
+  ]) {
+    assert.ok([401,403].includes(rejected.status));
+    assert.equal(rejected.headers.get('set-cookie'),null);
+  }
+  verification = 'unverified';
+  const unverified = await activate(token());
+  assert.equal(unverified.status,401,await unverified.text() + ' ' + JSON.stringify(calls));
+  assert.equal((await db.prepare('SELECT COUNT(*) AS n FROM reader_accounts').first()).n,0);
+  verification = 'verified';
+  const signedIn = await activate(token());
+  assert.ok(signedIn.ok, signedIn.status + ' ' + await signedIn.text());
+  const setCookie = signedIn.headers.get('set-cookie');
+  assert.match(setCookie,/; Secure/i);
+  assert.match(setCookie,/; HttpOnly/i);
+  const cookie = setCookie.match(/__Host-byrvox-reader=[0-9a-f]{64}/)[0];
+  const id = 'clerk:' + sub;
+  const detail = () => json('/api/newsroom/readers?id=' + encodeURIComponent(id),{email:editor});
+  const {reader,activity} = await detail();
+  assert.deepEqual([reader.firstName,reader.lastName,reader.email],['Sam','Roy','sam@example.invalid']);
+  assert.equal(reader.lastIp,'192.0.2.21');
+  assert.equal(reader.lastLocation,'Montreal, Quebec, CA');
+  assert.ok(activity.some(event => event.action==='signin'));
+  assert.equal((await mf.dispatchFetch(origin + '/api/newsroom',{headers:{cookie}})).status,403);
+  const out = await mf.dispatchFetch(publicOrigin + '/api/reader-session/logout',{
+    method:'POST',headers:{origin:publicOrigin,cookie},redirect:'manual',
+  });
+  assert.ok(out.ok || out.status===303);
+  assert.equal((await db.prepare('SELECT COUNT(*) AS n FROM reader_sessions').first()).n,0);
+  assert.ok((await detail()).activity.some(event=>event.action==='signout'));
+});
+
+test('les préférences des lecteurs historiques restent liées au compte de leur fournisseur', async t => {
+  const {mf,db,json} = await createNewsroom(t);
+  const userId = 'native-history';
+  const email = 'historique@example.invalid';
+  const prefs = {saved:['notre-methode'],topics:['Canada']};
+  await db.prepare('INSERT INTO preferences(user_id,data,updated_at) VALUES (?,?,?)')
+    .bind(userId,JSON.stringify(prefs),new Date().toISOString()).run();
+  const profile = (host,subject) => mf.dispatchFetch(host + '/api/profile',{headers:{
+    'oai-authenticated-user-id':subject,'oai-authenticated-user-email':email,
+  }});
+  assert.equal((await profile(publicOrigin,userId)).status,401);
+  assert.equal((await profile(origin,userId)).status,401);
+  assert.equal((await profile(providerOrigin,'autre-compte')).status,401);
+  const response = await profile(providerOrigin,userId);
+  assert.equal(response.status,200);
+  const account = await response.json();
+  assert.equal(account.legacy,true);
+  assert.deepEqual(account.preferences,prefs);
+  const detail = await json('/api/newsroom/readers?id=' + userId,{email:editor});
+  assert.equal(detail.reader.email,email);
+  assert.equal(detail.reader.userId,userId);
 });
 
 test('une édition approuvée est livrée avec sa photo et peut être reprise sans modifier un article existant', async t => {
@@ -737,21 +934,21 @@ test('le lecteur propose des sujets proches puis des découvertes publiées, san
 });
 
 test('les invitations séparent la contribution, l’approbation et la gestion de l’équipe', async t => {
-  const {mf, json, request} = await createNewsroom(t, {}, () => new Response(null, {status:503}));
+  const {mf, json, request, editorHeaders} = await createNewsroom(t, {}, () => new Response(null, {status:503}));
   const newsroom = '/api/newsroom';
   const team = '/api/newsroom/team';
   const contributor = 'auteur@example.invalid';
   const other = 'reporter@example.invalid';
   const approver = 'approbateur@example.invalid';
-  const userHeaders = email => ({
+  const providerHeaders = email => ({
     'oai-authenticated-user-id': 'test-' + email,
     'oai-authenticated-user-email': email,
   });
   const write = (email, data) => json(newsroom, {email, data});
   const dashboard = email => json(newsroom, {email});
-  const changeTeam = (actor, method, data, from = origin) =>
+  const changeTeam = async (actor, method, data, from = origin) =>
     mf.dispatchFetch(origin + team, {method, headers:{
-      ...userHeaders(actor), origin:from, 'content-type':'application/json',
+      ...await editorHeaders(actor), origin:from, 'content-type':'application/json',
     }, body:JSON.stringify(data)});
   const success = async response => {
     assert.ok(response.ok, response.status + ' ' + (await response.text()).slice(0,120));
@@ -778,12 +975,12 @@ test('les invitations séparent la contribution, l’approbation et la gestion d
   assert.equal(invited.role, 'contributor');
   assert.equal(invited.acceptedAt, null);
 
-  const custom = 'https://byrvox.noventra.ca';
-  const provider = 'https://byrvox.h2y4xnnm6g.chatgpt.site';
+  const custom = origin;
+  const provider = providerOrigin;
   const start = await mf.dispatchFetch(custom + '/api/editor-session/start', {redirect:'manual'});
   const authorize = start.headers.get('location');
   assert.equal(new URL(authorize).origin, provider);
-  const authorized = await mf.dispatchFetch(authorize, {redirect:'manual', headers:userHeaders(contributor)});
+  const authorized = await mf.dispatchFetch(authorize, {redirect:'manual', headers:providerHeaders(contributor)});
   assert.equal(authorized.status, 200);
   const grant = (await authorized.text()).match(/name="grant" value="([0-9a-f]{64})"/)[1];
   const proofCookie = start.headers.get('set-cookie').split(';')[0];
@@ -797,9 +994,9 @@ test('les invitations séparent la contribution, l’approbation et la gestion d
   assert.equal((await activeSession.json()).role, 'contributor');
   const accepted = (await json(team, {email:editor})).members.find(member => member.email === contributor);
   assert.ok(accepted.acceptedAt);
-  const differentAccount = await mf.dispatchFetch(origin + newsroom, {headers:{
-    'oai-authenticated-user-id':'other-provider-account', 'oai-authenticated-user-email':contributor,
-  }});
+  const differentAccount = await mf.dispatchFetch(origin + newsroom, {
+    headers: await editorHeaders(contributor, 'other-provider-account'),
+  });
   assert.equal(differentAccount.status, 403);
   assert.equal((await dashboard(approver)).role, 'approver');
   for (const actor of [contributor, approver]) {
@@ -814,7 +1011,7 @@ test('les invitations séparent la contribution, l’approbation et la gestion d
   const otherDraft = await write(other, {...initial, title:'Sujet réservé au second auteur'});
   const png = await readFile(resolve(root, 'public/brand/logo-dark.png'));
   const uploaded = await mf.dispatchFetch(origin + newsroom + '/photos', {method:'POST',
-    headers:{...userHeaders(contributor),origin,'content-type':'image/png'},body:png});
+    headers:{...await editorHeaders(contributor),origin,'content-type':'image/png'},body:png});
   assert.equal(uploaded.status, 201);
   const {url} = await uploaded.json();
   assert.equal((await request(url, contributor)).status, 200);
@@ -858,7 +1055,7 @@ test('les invitations séparent la contribution, l’approbation et la gestion d
   assert.equal((await request(newsroom, contributor)).status, 403);
   assert.equal((await request(newsroom, contributor, initial)).status, 403);
   assert.equal((await mf.dispatchFetch(origin + newsroom + '/photos', {method:'POST',
-    headers:{...userHeaders(contributor),origin,'content-type':'image/png'},body:png})).status,403);
+    headers:{...await editorHeaders(contributor),origin,'content-type':'image/png'},body:png})).status,403);
   await success(await changeTeam(editor, 'POST', {email:contributor, role:'contributor'}));
   assert.equal((await sessionDashboard()).status, 403);
 });

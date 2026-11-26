@@ -104,7 +104,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
   };
   return <PublicLocaleProvider locale={locale}>
     <a className="skip" href="#lecture">{copy.skip}</a>
-    <ArticleNavigation />
+    <ArticleNavigation currentUrl={localizedHref('/article/'+encodeURIComponent(slug),locale)}>
     <main id="lecture" tabIndex={-1}>
       <div className={isFeature ? "reader-main reader-feature" : "reader-main"}>
         <article>
@@ -153,6 +153,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
         <a href={localizedHref('/',locale)} className="reader-back"><House size={16} aria-hidden="true"/> {copy.home}</a>
       </div>
     </main>
+    </ArticleNavigation>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(linkedData).replace(/</g,'\\u003c')}}/>
   </PublicLocaleProvider>;
 }

@@ -118,3 +118,22 @@ html[data-theme=dark] .admin-shell :is(input,select,textarea) { background: var(
 .admin-shell .portal-member { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--line); }
 .admin-shell .portal-member:last-child { border: 0; }
 .admin-shell .portal-member select { width: auto; }
+.admin-shell .reader-detail-head, .admin-shell .reader-pagination { display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+.admin-shell .reader-detail-head h2 { margin:0; }
+.admin-shell .reader-status { border:1px solid var(--line); border-radius:100px; padding:3px 10px; font-size:.8rem; font-weight:650; }
+.admin-shell .reader-status-active { color:#296846; }
+.admin-shell .reader-status-suspended { color:#8a5515; }
+.admin-shell .reader-status-banned { color:#942442; }
+html[data-theme=dark] .admin-shell .reader-status-active { color:#8ed6ad; }
+html[data-theme=dark] .admin-shell .reader-status-suspended { color:#f6c177; }
+html[data-theme=dark] .admin-shell .reader-status-banned { color:#ff9fb5; }
+.admin-shell .reader-directory-row > div { flex:1 1 180px; min-width:0; overflow-wrap:anywhere; }
+.admin-shell .reader-identity { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(210px,100%),1fr)); gap:16px 22px; margin:24px 0; }
+.admin-shell .reader-identity dt,.admin-shell .reader-moderated,.admin-shell .reader-timeline time,.admin-shell .reader-timeline small { color:var(--muted); font-size:.85rem; }
+.admin-shell .reader-identity dd { margin:3px 0 0; overflow-wrap:anywhere; }
+.admin-shell .reader-confirm { margin-top:16px; padding:16px; border:1px solid var(--line); border-radius:8px; }
+.admin-shell .reader-confirm p { margin-top:0; }
+.admin-shell .reader-timeline { margin:0; padding:0; list-style:none; }
+.admin-shell .reader-timeline li { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; border-top:1px solid var(--line); padding:10px 0; }
+.admin-shell .reader-timeline small { display:block; overflow-wrap:anywhere; }
+.admin-shell .reader-pagination { justify-content:flex-end; margin-top:18px; }
