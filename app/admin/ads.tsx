@@ -20,6 +20,24 @@ const slotNames: Record<Placement,string> = {
 };
 const modes = {available:'Disponible', hidden:'Masqué', campaign:'Campagne active', adsense:'Bloc AdSense', embed:'Code iframe', script:'Script externe'};
 
+function PlacementStatus({slot, settings}: {slot:AdPlacement; settings:AdSenseSettings|null}) {
+  let label=modes[slot.mode], detail='';
+  if (slot.mode === 'adsense') {
+    label='AdSense';
+    detail=!settings?.enabled ? 'Bloc attribué · diffusion globale désactivée' :
+      settings.client !== slot.adClient ? 'Bloc attribué · compte éditeur différent' : 'Bloc attribué · diffusion autorisée';
+  } else if (slot.mode === 'campaign') {
+    label='Campagne directe';
+    detail=slot.name;
+  } else if (slot.mode === 'embed' || slot.mode === 'script') {
+    label=slot.mode === 'embed' ? 'Partenaire · iframe' : 'Partenaire · script';
+    try { detail=[slot.name,new URL(slot.url).hostname].filter(Boolean).join(' · '); }
+    catch { detail=slot.name; }
+  } else if (slot.mode === 'available') label='Libre';
+  return <span className="placement-state"><span className={'placement-badge mode-'+slot.mode}>{label}</span>
+    {detail && <small>{detail}</small>}</span>;
+}
+
 export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; onSaving:(saving:boolean)=>void}) {
   const [slots, setSlots] = useState<AdPlacement[]>([]);
   const [edit, setEdit] = useState<AdPlacement|null>(null);
@@ -221,7 +239,7 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
         <button type="button" disabled={busy} aria-pressed={!siteSetup && slot.placement === edit?.placement} onClick={() => {
           if (siteSetup || edit?.placement !== slot.placement) select(slot);
         }}>
-          <span>{slotNames[slot.placement]}</span><small>{modes[slot.mode]}</small>
+          <span>{slotNames[slot.placement]}</span><PlacementStatus slot={slot} settings={settings}/>
         </button>
       </li>)}</ul>
     </section>
@@ -241,7 +259,7 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
     </form>}
     {!siteSetup && edit && current && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-editor-title">
       <h2 id="ad-editor-title">{slotNames[edit.placement]}</h2>
-      <p>Affichage enregistré · <strong>{modes[current.mode]}</strong></p>
+      <div>Configuration enregistrée <PlacementStatus slot={current} settings={settings}/></div>
       <fieldset disabled={busy}>
         <label>Afficher sur le site<select value={edit.mode} onChange={event => changeMode(event.target.value as AdPlacement['mode'])}>
           <option value="available">Emplacement disponible</option>
