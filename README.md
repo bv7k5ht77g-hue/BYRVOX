@@ -1,6 +1,6 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.7.1 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.noventra.ca)
+Version 0.7.2 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.noventra.ca)
 
 Média numérique publié en français, anglais, espagnol, arabe, chinois simplifié, russe et coréen. Le site utilise Next/React sur Vinext, Cloudflare Workers, D1 et R2.
 

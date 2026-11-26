@@ -55,7 +55,6 @@ html[data-theme=dark] .edition-header {
   --nav-pressed: #252527;
   --nav-active: #ff869b;
 }
-.edition-site.edition-header .topbar .brand,
 .edition-site.edition-header .topbar .tools {
   background: var(--nav-panel);
   border: 1px solid var(--nav-edge);
@@ -117,7 +116,7 @@ html[data-theme=dark] .edition-header {
   .edition-header .edition-menu .header-topics-list a { text-align: start; }
 }
 @media (max-width:650px) {
-  .edition-header .topbar .brand { padding: 5px; border-radius: 8px; }
+  .edition-header .topbar .brand { padding: 5px; }
   .edition-site.edition-header .topbar .tools { gap: 1px; padding: 1px 3px; border-radius: 8px; }
   .edition-header .topbar .brand small { font-size: 5px; letter-spacing: .8px; margin-top: 3px; }
 }

@@ -39,16 +39,18 @@ function ChannelCards({ direct = false, lang }: { direct?: boolean; lang: Public
 
 function FrontLead({ story, lang }: { story: Summary; lang: PublicLocale }) {
   const href = localizedHref(articleHref(story), lang);
-  return <article aria-labelledby="lead-title" className={'by-lead' + (story.photo || story.image ? '' : ' by-lead-type')}>
+  const hasPhoto = Boolean(story.photo || story.image);
+  const badge = <span className="by-lead-badge">{sectionText(lang, 'lead')}</span>;
+  return <article aria-labelledby="lead-title" className={'by-lead' + (hasPhoto ? '' : ' by-lead-type')}>
     <div className="by-lead-copy">
-    <div className="by-lead-meta"><span>{sectionText(lang, story.presentation ? 'feature' : 'lead')}</span><b>{categoryLabel(story.category, lang)}</b></div>
+    <div className="by-lead-meta">{!hasPhoto && badge}<b>{categoryLabel(story.category, lang)}</b></div>
     <h1 id="lead-title" lang={story.contentLocale} dir="auto"><a href={href}>{story.title}</a></h1>
     <p className="by-deck" lang={story.contentLocale} dir="auto">{story.summary}</p>
     <div className="by-lead-bottom"><small><StoryDate story={story} lang={lang} /></small>
       <a href={href}><BookOpen size={16} aria-hidden="true" />{sectionText(lang,'read')}</a></div>
     </div>
-    {story.photo ? <CoverFigure photo={story.photo} href={href} priority /> :
-      story.image && <a className="by-feature-photo" href={href} aria-label={story.title}><Image unoptimized width={900} height={400} src={'/media/' + story.image + '.webp'} alt="" priority /></a>}
+    {story.photo ? <CoverFigure photo={story.photo} href={href} badge={badge} priority /> :
+      story.image && <a className="by-feature-photo" href={href} aria-label={story.title}>{badge}<Image unoptimized width={900} height={400} src={'/media/' + story.image + '.webp'} alt="" priority /></a>}
   </article>;
 }
 
