@@ -72,5 +72,5 @@ export default async function Home({ searchParams }: Props) {
   const localize = (items: Summary[]) => items.map(story=>local.get(story.slug) || story);
   const localStories = localize(stories), localPresentations = localize(presentations);
   const localHeadlines = headlines.map(group=>({...group,stories:localize(group.stories)}));
-  return <PublicEditionProvider locale={locale}><Edition route={route} stories={localStories} headlines={localHeadlines} presentations={localPresentations} unavailable={unavailable} hasNext={hasNext} categories={categories} /></PublicEditionProvider>;
+  return <PublicEditionProvider locale={locale} allowThirdParty={route.section !== 'favoris'}><Edition route={route} stories={localStories} headlines={localHeadlines} presentations={localPresentations} unavailable={unavailable} hasNext={hasNext} categories={categories} /></PublicEditionProvider>;
 }

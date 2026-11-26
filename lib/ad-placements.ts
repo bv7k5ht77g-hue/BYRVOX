@@ -5,7 +5,7 @@ export const PLACEMENTS = [
 ] as const;
 
 export type Placement = typeof PLACEMENTS[number];
-export const AD_MODES = ['available', 'hidden', 'campaign'] as const;
+export const AD_MODES = ['available', 'hidden', 'campaign', 'adsense', 'embed', 'script'] as const;
 
 export type AdPlacement = {
   placement: Placement;
@@ -14,11 +14,18 @@ export type AdPlacement = {
   url: string;
   image: string;
   alt: string;
+  adClient: string;
+  adSlot: string;
   version: number;
 };
 
+export type AdSenseSettings = {enabled: boolean; client: string; version: number};
+
 export type PublicAdPlacements = Partial<Record<Placement,
   | {mode: 'hidden'}
+  | {mode: 'adsense'; adClient: string; adSlot: string}
+  | {mode: 'embed'; name: string; url: string}
+  | {mode: 'script'; name: string; url: string}
   | ({mode: 'campaign'} & Pick<AdPlacement, 'name' | 'url' | 'image' | 'alt'>)
 >>;
 

@@ -106,5 +106,14 @@ export const adPlacements = sqliteTable('ad_placements', {
   url: text('url').notNull(),
   image: text('image').notNull(),
   alt: text('alt').notNull(),
+  adClient: text('ad_client').notNull().default(''),
+  adSlot: text('ad_slot').notNull().default(''),
+  version: integer('version').notNull(),
+});
+
+export const adSenseSettings = sqliteTable('adsense_settings', {
+  id: integer('id').primaryKey(),
+  enabled: integer('enabled', {mode:'boolean'}).notNull(),
+  client: text('client').notNull(),
   version: integer('version').notNull(),
 });

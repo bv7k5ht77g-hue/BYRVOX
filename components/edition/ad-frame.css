@@ -1,0 +1,8 @@
+.by-ad-frame {
+  display: block;
+  width: 100%;
+  max-width: 970px;
+  height: clamp(90px, 18vw, 250px);
+  margin-inline: auto;
+  border: 0;
+}

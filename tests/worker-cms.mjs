@@ -637,6 +637,113 @@ test('les responsables configurent les espaces publicitaires sans écraser une c
   assert.deepEqual(current.filter(p => p.placement !== 'home'), placements.filter(p => p.placement !== 'home'));
 });
 
+test('la rédaction conserve et active le compte AdSense et les créations aux versions attendues', async t => {
+  const {mf, json, editorHeaders} = await createNewsroom(t);
+  const endpoint = '/api/newsroom/ads';
+  const master = endpoint + '/adsense';
+  const approver = 'responsable-regie@example.invalid';
+  const contributor = 'journaliste-regie@example.invalid';
+  for (const [email, role] of [[approver, 'approver'], [contributor, 'contributor']]) {
+    await json('/api/newsroom/team', {email:editor, data:{email, role}});
+  }
+  const put = async (path, payload, expected, email = approver, from = origin) => {
+    const response = await mf.dispatchFetch(origin + path, {method:'PUT', headers:{
+      ...await editorHeaders(email), origin:from, 'content-type':'application/json',
+    }, body:JSON.stringify(payload)});
+    const body = await response.text();
+    assert.equal(response.status, expected, `${path} ${body}`);
+    return JSON.parse(body);
+  };
+  const read = () => json(endpoint, {email:approver});
+  const client = 'ca-pub-1234567890123456';
+  const publicHeadHasLoader = async () => {
+    const response = await mf.dispatchFetch(publicOrigin + '/article/notre-methode');
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    const head = html.match(/<head\b[^>]*>([\s\S]*?)<\/head>/i)?.[1];
+    assert.ok(head, 'en-tête HTML de l’article');
+    return head.includes(`src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}"`);
+  };
+  const initial = {client:'', enabled:false, version:0};
+  assert.deepEqual((await read()).adsense, initial);
+  const pending = {...initial, client};
+  await put(master, pending, 403, null);
+  await put(master, pending, 403, contributor);
+  await put(master, pending, 403, approver, publicOrigin);
+  await put(master, {...initial, enabled:true}, 422);
+  await put(master, {...pending, client:'1234'}, 422);
+  await put(master, {...pending, html:'<script></script>'}, 422);
+  const {adsense:saved} = await put(master, pending, 200);
+  assert.deepEqual(saved, {...pending, version:1});
+  assert.deepEqual((await read()).adsense, saved);
+  assert.equal(await publicHeadHasLoader(), false);
+  await put(master, {...pending, enabled:true}, 409, editor);
+
+  // Existing clients know only the original campaign fields.
+  const legacy = {placement:'home', mode:'campaign', name:'Annonceur', url:'https://example.org',
+    image:'', alt:'', version:0};
+  const {placement:campaign} = await put(endpoint, legacy, 200);
+  assert.deepEqual(campaign, {...legacy, adClient:'', adSlot:'', version:1});
+  const manual = {...campaign, mode:'adsense', adClient:client, adSlot:'0123456789'};
+  await put(endpoint, {...manual, adSlot:''}, 422);
+  await put(endpoint, {...manual, adClient:''}, 422);
+  await put(endpoint, {...manual, adSlot:'1234x'}, 422);
+  const {placement:unit} = await put(endpoint, manual, 200);
+  assert.deepEqual(unit, {...manual, version:2});
+  await put(endpoint, {...manual, mode:'hidden'}, 409);
+
+  const frame = {...legacy, placement:'radio', mode:'embed', name:'Partenaire', url:'https://example.org/pub'};
+  await put(endpoint, {...frame, url:'javascript:void(0)'}, 422);
+  await put(endpoint, {...frame, url:publicOrigin + '/admin'}, 422);
+  await put(endpoint, {...frame, name:''}, 422);
+  const {placement:embedded} = await put(endpoint, frame, 200);
+  assert.deepEqual(embedded, {...frame, adClient:'', adSlot:'', version:1});
+
+  const external = {...legacy, placement:'masthead', mode:'script', name:'Régie indépendante',
+    url:'https://ads.example.org/diffusion.js'};
+  for (const url of [
+    `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}`,
+    `${origin}/regie.js`, `${publicOrigin}/regie.js`, 'http://ads.example.org/regie.js',
+    'https://localhost/regie.js', 'data:text/javascript,0',
+  ]) {
+    await put(endpoint, {...external, url}, 422);
+  }
+  await put(endpoint, {...external, name:''}, 422);
+  await put(endpoint, external, 403, contributor);
+  const {placement:scriptSlot} = await put(endpoint, external, 200);
+  assert.deepEqual(scriptSlot, {...external, adClient:'', adSlot:'', version:1});
+  await put(endpoint, {...external, mode:'hidden'}, 409);
+  const publicArticle = await mf.dispatchFetch(publicOrigin + '/article/notre-methode');
+  assert.equal(publicArticle.status, 200);
+  const articleHtml = await publicArticle.text();
+  const placement = articleHtml.match(/<aside\b[^>]*data-ad-slot="masthead"[^>]*>([\s\S]*?)<\/aside>/i)?.[1];
+  const iframe = placement?.match(/<iframe\b[^>]*>/i)?.[0];
+  assert.ok(iframe, 'cadre du script dans l’emplacement sous la navigation de l’article');
+  assert.ok(/\bsrcdoc="/i.test(iframe) && iframe.includes(external.url), 'script de la régie dans le cadre');
+  const sandbox = iframe.match(/\bsandbox="([^"]*)"/i)?.[1].split(/\s+/) || [];
+  assert.ok(sandbox.includes('allow-scripts'));
+  assert.ok(!sandbox.includes('allow-same-origin'));
+  assert.doesNotMatch(articleHtml, /<script\b[^>]*\bsrc="https:\/\/ads\.example\.org\/diffusion\.js"/i);
+  for (const url of [origin + '/admin', publicOrigin + '/compte', publicOrigin + '/?rubrique=favoris']) {
+    const response = await mf.dispatchFetch(url);
+    assert.equal(response.status, 200, url);
+    assert.ok(!(await response.text()).includes(external.url), url);
+  }
+
+  const {adsense:active} = await put(master, {...saved, enabled:true}, 200, editor);
+  assert.deepEqual(active, {...saved, enabled:true, version:2});
+  assert.equal(await publicHeadHasLoader(), true);
+  await put(master, {...saved, client:''}, 409);
+  const {adsense:paused} = await put(master, {...active, enabled:false}, 200);
+  assert.deepEqual(paused, {...saved, version:3});
+  assert.equal(await publicHeadHasLoader(), false);
+  const snapshot = await read();
+  assert.deepEqual(snapshot.adsense, paused);
+  assert.deepEqual(snapshot.placements.find(p => p.placement === 'home'), unit);
+  assert.deepEqual(snapshot.placements.find(p => p.placement === 'radio'), embedded);
+  assert.deepEqual(snapshot.placements.find(p => p.placement === 'masthead'), scriptSlot);
+});
+
 test('les responsables téléversent une bannière dont les lecteurs peuvent charger le fichier', async t => {
   const { mf, json, editorHeaders } = await createNewsroom(t);
   const url = origin + '/api/newsroom/ad-images';
@@ -1213,4 +1320,58 @@ test('les pages publiques rendent les annonces actives et retirent les emplaceme
   assert.match(photoAd, /alt="Bannière de campagne"/);
   assert.match(photoAd, /src="https:\/\/example.org\/banniere.jpg"/);
   assert.match(article, /data-ad-slot="article"/);
+});
+
+test('AdSense se charge une seule fois dans la tête des pages éditoriales et suit le réglage du portail', async t => {
+  const {mf, db} = await createNewsroom(t);
+  const html = async address => {
+    const response = await mf.dispatchFetch(address);
+    assert.equal(response.status, 200, address);
+    return response.text();
+  };
+  const client = 'ca-pub-1234567890123456';
+  const loader = /<script\b[^>]*\bsrc="https:\/\/pagead2\.googlesyndication\.com\/pagead\/js\/adsbygoogle\.js\?client=[^"]+"[^>]*>/gi;
+  assert.equal((await html(publicOrigin + '/')).match(loader), null);
+  await db.prepare('INSERT INTO adsense_settings (id,enabled,client,version) VALUES (1,1,?,1)').bind(client).run();
+  const unit = db.prepare("INSERT INTO ad_placements (placement,mode,ad_client,ad_slot,name,url,image,alt,version) VALUES (?,'adsense',?,?,'','','','',1)");
+  await db.batch([
+    // The second homepage slot follows the lead story and needs a published article.
+    db.prepare(`INSERT INTO articles (id,slug,title,category,summary,body,status,created_at,updated_at,published_at,author_id)
+      VALUES ('une','une','Une du journal','Canada','Résumé','Article','published','2026-11-25','2026-11-25','2026-11-25','rédaction')`),
+    unit.bind('home', client, '1234567890'),
+    unit.bind('home-lower', client, '9999999999'),
+    unit.bind('article', 'ca-pub-9999999999999999', '0000000001'),
+    db.prepare("INSERT INTO ad_placements (placement,mode,name,url,image,alt,version) VALUES ('masthead','embed','Partenaire','https://example.org/affiche','','',1)"),
+  ]);
+  for (const path of ['/', '/article/notre-methode', '/?rubrique=radio&lang=en']) {
+    const body = await html(publicOrigin + path);
+    const scripts = body.match(loader) ?? [];
+    const head = body.match(/<head\b[^>]*>[\s\S]*?<\/head>/i)?.[0] ?? '';
+    assert.equal(scripts.length, 1, path);
+    assert.ok(head.includes(scripts[0]), 'chargeur dans head ' + path);
+    assert.ok(scripts[0].includes('client=' + client));
+    assert.match(scripts[0], /\basync\b/i);
+    assert.match(scripts[0], /crossorigin="anonymous"/i);
+    if (path === '/') {
+      const units = body.match(/<ins\b[^>]*class="adsbygoogle"[^>]*>/g) ?? [];
+      assert.equal(units.length, 2);
+      assert.ok(units.every(tag => tag.includes('data-ad-client="' + client + '"')));
+      assert.match(units.join(''), /data-ad-slot="1234567890"/);
+      assert.match(units.join(''), /data-ad-slot="9999999999"/);
+    } else {
+      assert.doesNotMatch(body, /<ins\b[^>]*class="adsbygoogle"/);
+      assert.match(body, /<iframe\b[^>]*src="https:\/\/example\.org\/affiche"[^>]*sandbox="allow-scripts allow-popups"/);
+    }
+  }
+  for (const address of [origin + '/admin', publicOrigin + '/compte', publicOrigin + '/?rubrique=favoris']) {
+    const body = await html(address);
+    assert.equal(body.match(loader), null, address);
+    assert.doesNotMatch(body, /<iframe\b[^>]*src="https:\/\/example\.org\/affiche"/);
+  }
+  await db.prepare('UPDATE adsense_settings SET enabled=0,version=2 WHERE id=1').run();
+  const disabled = await html(publicOrigin + '/');
+  assert.equal(disabled.match(loader), null);
+  assert.doesNotMatch(disabled, /<ins\b[^>]*class="adsbygoogle"/);
+  assert.doesNotMatch(disabled, /data-ad-slot="home"/);
+  assert.match(await html(publicOrigin + '/?rubrique=radio'), /<iframe\b[^>]*src="https:\/\/example\.org\/affiche"/);
 });

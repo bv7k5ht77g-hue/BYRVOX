@@ -1,6 +1,6 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.9.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.today)
+Version 0.10.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.today)
 
 Média numérique publié en français, anglais, espagnol, arabe, chinois simplifié, russe et coréen. Le site utilise Next/React sur Vinext, Cloudflare Workers, D1 et R2.
 
@@ -29,6 +29,10 @@ Dans **Portail éditeur → Lecteurs**, les propriétaires et approbateurs peuve
 ## Espaces publicitaires
 
 Dans **Portail éditeur → Espaces publicitaires**, les propriétaires et les approbateurs gèrent les huit emplacements du site. Chaque emplacement peut signaler sa disponibilité, diffuser une campagne ou être masqué. Pour une campagne, renseigner le nom de l’annonceur et son lien HTTPS. Une bannière facultative peut être téléversée (JPEG, PNG ou WebP, 8 Mio maximum) ou fournie par URL. Une bannière nécessite un texte alternatif. Les changements enregistrés s’appliquent aux pages publiques lors de leur prochain chargement.
+
+Pour Google AdSense, coller le code fourni par Google dans la configuration AdSense du portail, enregistrer le compte puis activer le chargement sur le site quand la régie est prête. Google contrôle la diffusion des annonces automatiques dans le compte de l’éditeur. Pour réserver un emplacement précis, choisir AdSense sur cet emplacement et coller le code du bloc correspondant, qui contient son identifiant `data-ad-slot`. La configuration du compte et celle des emplacements sont modifiables sans redéployer le site.
+
+Pour une autre régie, choisir le mode iframe ou script externe de l’emplacement et coller la balise HTTPS fournie par le partenaire. BYRVOX conserve l’adresse de la création et son titre. Les intégrations tierces s’affichent dans un cadre isolé. Le mode script accepte une balise avec une adresse `src` et un corps vide.
 
 ## Édition horaire
 

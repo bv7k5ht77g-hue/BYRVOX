@@ -2,7 +2,10 @@
 
 import { useEffect, useState, type FormEvent } from 'react';
 import { photoByteLimit, photoTypes } from '../../lib/article-photo';
-import { validAdImageUrl, type AdPlacement, type Placement } from '../../lib/ad-placements';
+import { AdFrame } from '../../components/edition/ad-frame';
+import { parseAdFrame, parseAdScript } from '../../lib/ad-frame.mjs';
+import { parseAdSenseSnippet } from '../../lib/adsense.mjs';
+import { validAdImageUrl, type AdPlacement, type AdSenseSettings, type Placement } from '../../lib/ad-placements';
 
 const slotNames: Record<Placement,string> = {
   home: 'Accueil · sous la navigation',
@@ -14,11 +17,15 @@ const slotNames: Record<Placement,string> = {
   'article-photo': 'Articles · sous la photo de couverture',
   article: 'Articles · avant les sources',
 };
-const modes = {available:'Disponible', hidden:'Masqué', campaign:'Campagne active'};
+const modes = {available:'Disponible', hidden:'Masqué', campaign:'Campagne active', adsense:'Bloc AdSense', embed:'Code iframe', script:'Script externe'};
 
 export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; onSaving:(saving:boolean)=>void}) {
   const [slots, setSlots] = useState<AdPlacement[]>([]);
   const [edit, setEdit] = useState<AdPlacement|null>(null);
+  const [settings, setSettings] = useState<AdSenseSettings|null>(null);
+  const [siteSetup, setSiteSetup] = useState(false);
+  const [enabled, setEnabled] = useState(false);
+  const [snippet, setSnippet] = useState('');
   const [attempt, setAttempt] = useState(0);
   const [error, setError] = useState('');
   const [notice, setNotice] = useState('');
@@ -28,8 +35,31 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
   const [preview, setPreview] = useState('');
   const busy = saving || uploading;
   const current = slots.find(slot => slot.placement === edit?.placement);
-  const changed = Boolean(edit && current && (edit.mode !== current.mode || edit.name !== current.name ||
-    edit.url !== current.url || edit.image !== current.image || edit.alt !== current.alt));
+  const editingScript = !siteSetup && edit?.mode === 'script';
+  const editingFrame = !siteSetup && (edit?.mode === 'embed' || editingScript);
+  const parseExternal = editingScript ? parseAdScript : parseAdFrame;
+  const parsed = snippet.trim() ? parseAdSenseSnippet(snippet.trim()) : null;
+  const client = parsed?.client || (siteSetup ? settings?.client : edit?.adClient) || '';
+  const unit = parsed?.slot || edit?.adSlot || '';
+  function validateSnippet() {
+    if (!snippet.trim()) return '';
+    if (editingFrame) {
+      if (parsed) return parsed.slot ? 'Ce code correspond à un bloc Google AdSense.' : 'Ce code configure Google AdSense pour le site.';
+      if (parseExternal(snippet)) return '';
+      return editingScript ? 'Colle une balise script avec une adresse HTTPS externe dans son attribut src et un corps vide.'
+        : 'Colle une balise iframe avec une adresse HTTPS externe dans son attribut src.';
+    }
+    if (!parsed) return 'Code non reconnu. Copie le code Google AdSense complet depuis ton compte.';
+    if (siteSetup && parsed.slot) return 'Ce code correspond à un bloc display. Choisis son emplacement ou colle le code du site fourni par Google.';
+    if (!siteSetup && !parsed.slot) return 'Ce code configure le site. Pour cet emplacement, colle le code d’un bloc display contenant data-ad-slot.';
+    return '';
+  }
+  const snippetError = validateSnippet();
+  const siteChanged = Boolean(settings && (enabled !== settings.enabled || client !== settings.client));
+  const slotChanged = Boolean(edit && current && (edit.mode !== current.mode || edit.name !== current.name ||
+    edit.url !== current.url || edit.image !== current.image || edit.alt !== current.alt ||
+    (edit.mode === 'adsense' && (client !== current.adClient || unit !== current.adSlot))));
+  const changed = (siteSetup ? siteChanged : slotChanged) || Boolean(snippet.trim());
 
   useEffect(() => {
     onDirty(changed);
@@ -42,10 +72,13 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
       try {
         const response = await fetch('/api/newsroom/ads', {cache:'no-store',signal:abort.signal});
         if (!response.ok) throw Error();
-        const result = await response.json() as {placements:AdPlacement[]};
+        const result = await response.json() as {placements:AdPlacement[]; adsense:AdSenseSettings};
         if (!result.placements.length) throw Error();
         if (!abort.signal.aborted) {
           setSlots(result.placements);
+          setSettings(result.adsense);
+          setEnabled(result.adsense.enabled);
+          setSnippet('');
           setEdit(previous => result.placements.find(slot => slot.placement === previous?.placement) ?? result.placements[0]);
           setConflict(false);
           setError('');
@@ -58,11 +91,15 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
     return () => abort.abort();
   }, [attempt]);
 
+  function clearFeedback() {
+    setNotice('');
+    if (!conflict) setError('');
+  }
+
   function update(patch: Partial<AdPlacement>) {
     if (patch.image !== undefined) setPreview('');
     setEdit(previous => previous && {...previous, ...patch});
-    setNotice('');
-    if (!conflict) setError('');
+    clearFeedback();
   }
 
   async function upload(file?: File) {
@@ -88,11 +125,21 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
 
   async function save(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (!edit || !changed || conflict || busy) return;
+    if (!edit || !settings || !changed || snippetError || conflict || busy) return;
+    const placingUnit = !siteSetup && edit.mode === 'adsense';
+    if ((siteSetup && enabled && !client) || (placingUnit && (!client || !unit))) {
+      setError(siteSetup ? 'Colle le code de ton compte AdSense pour activer la diffusion.' : 'Colle le code du bloc display à diffuser.');
+      return;
+    }
+    if (editingFrame && (!edit.url || !edit.name.trim())) {
+      setError('Colle le code de la régie puis donne un titre à l’annonce.');
+      return;
+    }
     setSaving(true); onSaving(true); setError(''); setNotice('');
     try {
-      const response = await fetch('/api/newsroom/ads', {
-        method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify(edit),
+      const data = siteSetup ? {enabled,client,version:settings.version} : placingUnit ? {...edit,adClient:client,adSlot:unit} : edit;
+      const response = await fetch(siteSetup ? '/api/newsroom/ads/adsense' : '/api/newsroom/ads', {
+        method:'PUT', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data),
       });
       if (!response.ok) {
         const result = await response.json().catch(() => null) as {error?:string}|null;
@@ -100,40 +147,130 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
         setError(result?.error || 'Impossible d’enregistrer cet emplacement.');
         return;
       }
-      const {placement} = await response.json() as {placement:AdPlacement};
-      setSlots(previous => previous.map(slot => slot.placement === placement.placement ? placement : slot));
-      setEdit(placement);
-      setNotice('Emplacement enregistré.');
+      if (siteSetup) {
+        const {adsense} = await response.json() as {adsense:AdSenseSettings};
+        setSettings(adsense); setEnabled(adsense.enabled);
+        setNotice('Configuration Google AdSense enregistrée.');
+      } else {
+        const {placement} = await response.json() as {placement:AdPlacement};
+        setSlots(previous => previous.map(slot => slot.placement === placement.placement ? placement : slot));
+        setEdit(placement);
+        setNotice('Emplacement enregistré.');
+      }
+      setSnippet('');
     } catch { setError('L’enregistrement a échoué. Vérifie ta connexion et réessaie.'); }
     finally { setSaving(false); onSaving(false); }
   }
 
-  function select(slot:AdPlacement) {
-    if (busy || (changed && !window.confirm('Abandonner les modifications de cet emplacement ?'))) return;
-    setEdit(slot); setPreview(''); setNotice(''); setError(''); setConflict(false);
+  function select(slot:AdPlacement|null) {
+    if (busy || (changed && !window.confirm('Abandonner les modifications en cours ?'))) return;
+    if (slot) setEdit(slot);
+    else if (current) setEdit(current);
+    setSiteSetup(slot === null);
+    setEnabled(Boolean(settings?.enabled));
+    setSnippet(''); setPreview(''); setNotice(''); setError(''); setConflict(false);
+  }
+
+  function transferSiteCode() {
+    if (busy) return;
+    if (!editingFrame && edit && current && (edit.name !== current.name || edit.url !== current.url || edit.image !== current.image || edit.alt !== current.alt)
+      && !window.confirm('Abandonner les autres modifications de cet emplacement ?')) return;
+    if (current) setEdit(current);
+    setSiteSetup(true);
+    setEnabled(Boolean(settings?.enabled));
+    setPreview(''); setNotice(''); setError(''); setConflict(false);
+  }
+
+  function changeMode(mode:AdPlacement['mode']) {
+    setSnippet('');
+    setPreview('');
+    if (mode === 'embed' || mode === 'script' || (mode === 'campaign' && editingFrame)) {
+      const source = current?.mode === mode ? current : null;
+      update({mode, name:source?.name || '', url:source?.url || '', image:source?.image || '', alt:source?.alt || ''});
+    } else update({mode});
+  }
+
+  function codeField(label:string) {
+    return <label>{label}<textarea rows={5} dir="ltr" spellCheck={false} autoCapitalize="off" autoCorrect="off"
+      maxLength={12000} value={snippet} onChange={event => {
+        const value = event.target.value;
+        setSnippet(value);
+        if (editingFrame) {
+          setPreview('');
+          const nextFrame = parseExternal(value);
+          if (nextFrame) update({url:nextFrame.url, name:nextFrame.name});
+          else if (!current || current.mode !== edit?.mode || value.trim()) update({url:'', name:''});
+          else update({url:current.url, name:current.name});
+        }
+        clearFeedback();
+      }}
+      aria-invalid={Boolean(snippetError)} aria-describedby={snippetError ? 'adsense-code-error' : undefined}/>
+      {snippetError && <span id="adsense-code-error" role="alert">{snippetError}</span>}
+    </label>;
   }
 
   return <div className="portal-ads">
     <section className="panel ad-directory" aria-labelledby="ads-list-title">
+      {settings && <><h2>Site public</h2><button type="button" disabled={busy} aria-pressed={siteSetup} onClick={() => {if (!siteSetup) select(null);}}>
+        <span>Google AdSense</span><small>{settings.enabled ? 'Activé' : 'Désactivé'}</small>
+      </button></>}
       <h2 id="ads-list-title">Emplacements</h2>
       {slots.length === 0 && !error && <p role="status">Chargement des emplacements…</p>}
       <ul>{slots.map(slot => <li key={slot.placement}>
-        <button type="button" disabled={busy} aria-pressed={slot.placement === edit?.placement} onClick={() => {
-          if (edit?.placement !== slot.placement) select(slot);
+        <button type="button" disabled={busy} aria-pressed={!siteSetup && slot.placement === edit?.placement} onClick={() => {
+          if (siteSetup || edit?.placement !== slot.placement) select(slot);
         }}>
           <span>{slotNames[slot.placement]}</span><small>{modes[slot.mode]}</small>
         </button>
       </li>)}</ul>
     </section>
-    {edit && current && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-editor-title">
+    {settings && siteSetup && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-google-title">
+      <h2 id="ad-google-title">Google AdSense sur le site public</h2>
+      <p>Colle le code du site fourni par Google. Tu peux enregistrer ton identifiant avant d’activer la diffusion.</p>
+      <fieldset disabled={busy}>
+        {codeField(settings.client ? 'Remplacer le code du site' : 'Code du site Google AdSense')}
+        {client && <p>Identifiant éditeur · <bdi>{client}</bdi></p>}
+        <label>Diffusion du code Google sur BYRVOX<select value={enabled ? 'on' : 'off'} onChange={event => {setEnabled(event.target.value === 'on');clearFeedback();}}>
+          <option value="off">Désactivée</option><option value="on">Activée</option>
+        </select></label>
+        <p className="portal-help">Pour que Google choisisse où placer les annonces, active également les annonces automatiques dans ton compte AdSense.</p>
+      </fieldset>
+      <button className="red" type="submit" disabled={busy || !changed || conflict || Boolean(snippetError)}>{saving ? 'Enregistrement…' : 'Enregistrer la configuration'}</button>
+      {notice && <p role="status" className="admin-note">{notice}</p>}
+    </form>}
+    {!siteSetup && edit && current && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-editor-title">
       <h2 id="ad-editor-title">{slotNames[edit.placement]}</h2>
       <p>Affichage enregistré · <strong>{modes[current.mode]}</strong></p>
       <fieldset disabled={busy}>
-        <label>Afficher sur le site<select value={edit.mode} onChange={event => update({mode:event.target.value as AdPlacement['mode']})}>
+        <label>Afficher sur le site<select value={edit.mode} onChange={event => changeMode(event.target.value as AdPlacement['mode'])}>
           <option value="available">Emplacement disponible</option>
           <option value="campaign">Campagne publicitaire</option>
+          <option value="adsense">Bloc Google AdSense</option>
+          <option value="embed">Code intégré (iframe)</option>
+          <option value="script">Code script externe</option>
           <option value="hidden">Masquer l’emplacement</option>
         </select></label>
+        {edit.mode === 'adsense' && <>
+          {codeField(edit.adSlot ? 'Remplacer le code du bloc display' : 'Code du bloc display AdSense')}
+          {parsed && !parsed.slot && <button className="outline" type="button" onClick={transferSiteCode}>Utiliser ce code pour le site</button>}
+          <p className="portal-help">Copie le code généré pour ce bloc dans Google AdSense. Il contient l’identifiant éditeur et le numéro du bloc (data-ad-slot).</p>
+          {client && <p>Identifiant éditeur · <bdi>{client}</bdi></p>}
+          {unit && <p>Bloc publicitaire · <bdi>{unit}</bdi></p>}
+          {(!settings?.enabled || (client && settings.client !== client)) && <p className="portal-help">La diffusion de ce bloc nécessite un code de site activé pour le même identifiant dans « Google AdSense ».</p>}
+        </>}
+        {editingFrame && <>
+          {codeField(editingScript ? 'Code script externe' : current.mode === 'embed' ? 'Remplacer le code iframe' : 'Code iframe de l’annonce')}
+          <p className="portal-help">{editingScript ? 'Colle la balise script fournie par la régie. Elle se charge dans un cadre isolé.' : 'Colle la balise iframe fournie par la régie publicitaire.'}</p>
+          {parsed && (parsed.slot
+            ? <button className="outline" type="button" onClick={() => {setEdit({...current,mode:'adsense'});setPreview('');clearFeedback();}}>Utiliser comme bloc Google AdSense</button>
+            : <button className="outline" type="button" onClick={transferSiteCode}>Utiliser ce code pour le site</button>)}
+          {edit.url && <>
+            <p className="portal-help ad-source">Source · <bdi>{edit.url}</bdi></p>
+            <label>Titre de l’annonce<input required maxLength={160} value={edit.name} onChange={event => update({name:event.target.value})}/></label>
+            <button className="outline" type="button" onClick={() => setPreview(preview ? '' : edit.url)}>{preview ? 'Fermer l’aperçu' : 'Afficher un aperçu'}</button>
+            {preview === edit.url && <AdFrame url={edit.url} name={edit.name} script={editingScript}/>}
+          </>}
+        </>}
         {edit.mode === 'campaign' && <>
           <label>Nom de l’annonceur<input value={edit.name} required maxLength={160} onChange={event => update({name:event.target.value})}/></label>
           <label>Lien de destination<input type="url" value={edit.url} required maxLength={2000} placeholder="https://" onChange={event => update({url:event.target.value})}/></label>
@@ -152,8 +289,8 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
           {edit.image.trim() && <label>Texte alternatif de l’image<input value={edit.alt} required maxLength={300} onChange={event => update({alt:event.target.value})}/></label>}
         </>}
       </fieldset>
-      <div className="button-row"><button className="red" type="submit" disabled={busy || conflict || !changed}>{saving ? 'Enregistrement…' : 'Enregistrer l’emplacement'}</button>
-        {changed && !conflict && <button className="outline" type="button" disabled={busy} onClick={() => {setEdit(current);setPreview('');setError('');setNotice('');}}>Annuler les modifications</button>}
+      <div className="button-row"><button className="red" type="submit" disabled={busy || conflict || !changed || Boolean(snippetError)}>{saving ? 'Enregistrement…' : 'Enregistrer l’emplacement'}</button>
+        {changed && !conflict && <button className="outline" type="button" disabled={busy} onClick={() => {setEdit(current);setSnippet('');setPreview('');setError('');setNotice('');}}>Annuler les modifications</button>}
       </div>
       {notice && <p role="status" className="admin-note">{notice}</p>}
     </form>}

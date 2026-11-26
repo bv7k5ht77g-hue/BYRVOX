@@ -153,3 +153,6 @@ html[data-theme=dark] .admin-shell .reader-status-banned { color:#ff9fb5; }
   .ad-directory li + li { border-top:0; }
 }
 .ad-editor .ad-preview { display:block; width:100%; height:auto; max-height:200px; object-fit:contain; margin-top:12px; background:var(--surface); }
+
+.ad-editor textarea[dir=ltr] { width:100%; max-width:100%; min-height:7em; resize:vertical; font-family:ui-monospace,monospace; }
+.ad-editor .ad-source { overflow-wrap:anywhere; }

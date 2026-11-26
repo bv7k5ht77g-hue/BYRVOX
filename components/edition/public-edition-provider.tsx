@@ -1,12 +1,16 @@
 import type { ReactNode } from 'react';
-import { getPublicAdPlacements } from '../../lib/ad-placement-store';
+import { getPublicAdConfiguration } from '../../lib/ad-placement-store';
 import type { PublicLocale } from '../../lib/i18n';
 import { PublicLocaleProvider } from '../language-select';
 import { AdPlacementsProvider } from './ad-slot';
 
-export async function PublicEditionProvider({ locale, children }: { locale: PublicLocale; children: ReactNode }) {
-  const placements = await getPublicAdPlacements().catch(() => ({}));
+export async function PublicEditionProvider({ locale, children, allowThirdParty = true }: {
+  locale: PublicLocale; children: ReactNode; allowThirdParty?: boolean;
+}) {
+  const { placements, client } = await getPublicAdConfiguration(allowThirdParty).catch(() => ({ placements: {}, client: '' }));
   return <PublicLocaleProvider locale={locale}>
+    {client && <script async crossOrigin="anonymous"
+      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}`} />}
     <AdPlacementsProvider placements={placements}>{children}</AdPlacementsProvider>
   </PublicLocaleProvider>;
 }
