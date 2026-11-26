@@ -1,0 +1,1100 @@
+{
+  "hour": "2026-11-26T06",
+  "articles": [
+    {
+      "eventKey": "ue-sommet-budget-pluriannuel-ukraine-novembre-2026",
+      "title": "Budget européen et financement de l’Ukraine au menu du sommet de Bruxelles",
+      "category": "Monde",
+      "summary": "Les Vingt-Sept doivent s’entendre sur les dépenses des sept prochaines années et sur la façon d’aider Kyiv en 2027.",
+      "body": "Les dirigeants de l’Union européenne se retrouvent à Bruxelles les 26 et 27 novembre pour négocier le budget de 2028 à 2034. Dans sa lettre aux membres du Conseil européen, António Costa leur soumet une proposition de compromis.\n\nUn autre dossier porte sur les moyens de financer l’Ukraine en 2027. Selon l’Associated Press, les capitales restent divisées sur le recours à un nouvel emprunt. L’ouverture du sommet laisse donc en suspens le mode de financement comme la répartition des dépenses européennes.",
+      "sources": [
+        {
+          "name": "Conseil européen",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/24/special-european-council-of-26-27-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/",
+          "publishedAt": "2026-11-24T08:00:00Z"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/europe-ukraine-budget-summit-loan-debt-f073925a2ed77232e0d7db404600985e",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/ue-sommet-budget-pluriannuel.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Europa_Building_in_Brussels.jpg",
+        "credit": "PPEscientist / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Drapeau européen devant la façade quadrillée du bâtiment Europa à Bruxelles.",
+        "caption": "Photo d’archives du 2019-07-03. Drapeau européen devant la façade quadrillée du bâtiment Europa à Bruxelles."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "EU leaders meet in Brussels over budget and Ukraine financing",
+          "summary": "The 27 member states face decisions on seven years of spending and how to support Kyiv in 2027.",
+          "body": "European Union leaders are meeting in Brussels on 26 and 27 November to negotiate the 2028–34 budget. In his letter to members of the European Council, António Costa put forward a compromise proposal.\n\nA separate issue is how to finance Ukraine in 2027. The Associated Press reports that capitals remain divided over taking out another loan. As the summit opens, both the financing mechanism and the allocation of EU spending remain unsettled.",
+          "photoAlt": "EU flag outside the lattice facade of the Europa building in Brussels.",
+          "photoCaption": "Archive photo, 2019-07-03. EU flag outside the lattice facade of the Europa building in Brussels."
+        },
+        "es": {
+          "title": "Los dirigentes de la UE negocian en Bruselas el presupuesto y la financiación de Ucrania",
+          "summary": "Los Veintisiete deben acordar siete años de gasto y cómo apoyar a Kyiv en 2027.",
+          "body": "Los dirigentes de la Unión Europea se reúnen en Bruselas el 26 y el 27 de noviembre para negociar el presupuesto de 2028 a 2034. En su carta a los miembros del Consejo Europeo, António Costa les propone un compromiso.\n\nOtra cuestión es cómo financiar a Ucrania en 2027. Según Associated Press, las capitales siguen divididas sobre la posibilidad de contraer un nuevo préstamo. Al abrirse la cumbre siguen pendientes tanto el mecanismo de financiación como el reparto del gasto europeo.",
+          "photoAlt": "Bandera europea ante la fachada en cuadrícula del edificio Europa en Bruselas.",
+          "photoCaption": "Foto de archivo, 2019-07-03. Bandera europea ante la fachada en cuadrícula del edificio Europa en Bruselas."
+        },
+        "ar": {
+          "title": "ميزانية الاتحاد وتمويل أوكرانيا على جدول قمة بروكسل",
+          "summary": "على الدول السبع والعشرين الاتفاق على إنفاق سبع سنوات وطريقة دعم كييف في 2027.",
+          "body": "يجتمع قادة الاتحاد الأوروبي في بروكسل يومي 26 و27 نوفمبر للتفاوض بشأن ميزانية الأعوام 2028 إلى 2034. وطرح أنطونيو كوستا في رسالته إلى أعضاء المجلس الأوروبي مقترح تسوية.\n\nويبحث القادة أيضا سبل تمويل أوكرانيا في 2027. وبحسب أسوشيتد برس، لا تزال العواصم منقسمة بشأن اقتراض مبالغ جديدة. ومع افتتاح القمة، يبقى كل من آلية التمويل وتوزيع الإنفاق الأوروبي قيد التفاوض.",
+          "photoAlt": "علم الاتحاد أمام الواجهة الشبكية لمبنى أوروبا في بروكسل.",
+          "photoCaption": "صورة أرشيفية، 2019-07-03. علم الاتحاد أمام الواجهة الشبكية لمبنى أوروبا في بروكسل."
+        },
+        "zh-CN": {
+          "title": "欧盟领导人在布鲁塞尔磋商长期预算和对乌融资",
+          "summary": "欧盟27国需就未来七年支出以及2027年如何援助基辅达成共识。",
+          "body": "欧盟领导人于11月26日至27日在布鲁塞尔举行会议，磋商2028至2034年预算。欧洲理事会主席安东尼奥·科斯塔在致成员的信中提出了折中方案。\n\n另一项议题是如何在2027年为乌克兰提供资金。据美联社报道，各国政府对是否再次举债仍有分歧。峰会开幕之际，融资方式和欧盟支出的分配方案均有待商定。",
+          "photoAlt": "布鲁塞尔欧罗巴大楼格状外墙前的欧盟旗帜。",
+          "photoCaption": "档案照片，2019-07-03. 布鲁塞尔欧罗巴大楼格状外墙前的欧盟旗帜。"
+        },
+        "ru": {
+          "title": "Лидеры ЕС обсуждают в Брюсселе бюджет и финансирование Украины",
+          "summary": "Странам ЕС предстоит согласовать расходы на семь лет и финансирование Киева в 2027 году.",
+          "body": "Лидеры Евросоюза собираются в Брюсселе 26 и 27 ноября на переговоры о бюджете на 2028–2034 годы. В письме членам Европейского совета Антониу Кошта предложил компромиссный вариант.\n\nОтдельный вопрос — источники финансирования Украины в 2027 году. По данным Associated Press, столицы расходятся во мнениях о новом займе. К открытию саммита остаются несогласованными как механизм финансирования, так и распределение расходов ЕС.",
+          "photoAlt": "Флаг ЕС перед решётчатым фасадом здания «Европа» в Брюсселе.",
+          "photoCaption": "Архивное фото, 2019-07-03. Флаг ЕС перед решётчатым фасадом здания «Европа» в Брюсселе."
+        },
+        "ko": {
+          "title": "EU 정상들, 브뤼셀에서 장기 예산과 우크라이나 재원 논의",
+          "summary": "EU 27개국이 7년간의 지출과 2027년 우크라이나 지원 방식을 협의한다.",
+          "body": "유럽연합 정상들이 11월 26~27일 브뤼셀에서 2028~2034년 예산을 협상한다. 안토니우 코스타 유럽이사회 상임의장은 이사회 구성원들에게 보낸 서한에서 절충안을 제시했다.\n\n별도 의제는 2027년 우크라이나 지원 재원을 어떻게 마련할지다. AP통신에 따르면 회원국들은 신규 차입을 놓고 의견이 갈린다. 정상회의가 시작되는 시점에도 재원 조달 방식과 EU 지출 배분은 협상 과제로 남아 있다.",
+          "photoAlt": "브뤼셀 에우로파 건물의 격자무늬 외벽 앞에 걸린 EU 깃발.",
+          "photoCaption": "자료 사진, 2019-07-03. 브뤼셀 에우로파 건물의 격자무늬 외벽 앞에 걸린 EU 깃발."
+        }
+      }
+    },
+    {
+      "eventKey": "alberta-projet-loi-40-carte-electorale-adoption",
+      "title": "L’Alberta adopte une carte électorale de 91 circonscriptions",
+      "category": "Canada",
+      "summary": "La province ajoute quatre sièges. Le poids des électeurs urbains reste au cœur du désaccord sur les limites des circonscriptions.",
+      "body": "À Edmonton, les députés albertains ont adopté en troisième lecture le projet de loi 40 le 25 novembre, selon le procès-verbal de l’Assemblée législative. La nouvelle carte porte de 87 à 91 le nombre de circonscriptions provinciales.\n\nLe débat a porté sur le poids relatif des électeurs des villes. Selon La Presse canadienne, le chef néo-démocrate Naheed Nenshi reproche au découpage de réduire leur représentation. L’ajout de quatre sièges laisse donc ouverte la contestation du tracé des frontières.",
+      "sources": [
+        {
+          "name": "Assemblée législative de l’Alberta",
+          "url": "https://docs.assembly.ab.ca/LADDAR_files/docs/houserecords/vp/legislature_31/session_2/20261125_1200_01_vp.pdf",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "La Presse canadienne / Global News",
+          "url": "https://globalnews.ca/news/12166561/alberta-legislature-riding-maps-debate/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/alberta-projet-loi-40.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Facade_Alberta_Legislature_Building_%287%29.jpg",
+        "credit": "Ferfive / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Façade et escalier de l’Assemblée législative de l’Alberta à Edmonton.",
+        "caption": "Photo d’archives du 2026-09-27. Façade et escalier de l’Assemblée législative de l’Alberta à Edmonton."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Alberta passes electoral map with 91 ridings",
+          "summary": "The province adds four seats. The weight of the urban vote is at the heart of the dispute over boundaries.",
+          "body": "Alberta legislators passed Bill 40 at third reading in Edmonton on November 25, according to the assembly’s minutes. The new map increases the number of provincial constituencies from 87 to 91.\n\nDebate centred on the relative voting power of city residents. The Canadian Press reports that NDP leader Naheed Nenshi says the boundaries dilute their representation. Adding four seats thus leaves the dispute over where the boundaries fall unresolved.",
+          "photoAlt": "Facade and steps of the Alberta legislature in Edmonton.",
+          "photoCaption": "Archive photo, 2026-09-27. Facade and steps of the Alberta legislature in Edmonton."
+        },
+        "es": {
+          "title": "Alberta aprueba un mapa electoral con 91 circunscripciones",
+          "summary": "La provincia suma cuatro escaños. El peso del voto urbano centra la disputa sobre los límites.",
+          "body": "Los diputados de Alberta aprobaron en tercera lectura el proyecto de ley 40 en Edmonton el 25 de noviembre, según el acta de la Asamblea Legislativa. El nuevo mapa eleva de 87 a 91 las circunscripciones provinciales.\n\nEl debate giró en torno al peso relativo del voto urbano. Según The Canadian Press, el líder del Nuevo Partido Democrático, Naheed Nenshi, considera que los límites reducen la representación de las ciudades. Los cuatro escaños adicionales dejan abierta la disputa sobre el trazado.",
+          "photoAlt": "Fachada y escalinata de la Asamblea Legislativa de Alberta en Edmonton.",
+          "photoCaption": "Foto de archivo, 2026-09-27. Fachada y escalinata de la Asamblea Legislativa de Alberta en Edmonton."
+        },
+        "ar": {
+          "title": "ألبرتا تقر خريطة انتخابية تضم 91 دائرة",
+          "summary": "تضيف المقاطعة أربعة مقاعد، ويبقى وزن أصوات سكان المدن محور الخلاف على الحدود.",
+          "body": "أقر نواب ألبرتا في إدمونتون مشروع القانون 40 في القراءة الثالثة يوم 25 نوفمبر، وفق محضر المجلس التشريعي. وترفع الخريطة الجديدة عدد دوائر المقاطعة من 87 إلى 91.\n\nودار النقاش حول الوزن النسبي لأصوات سكان المدن. ونقلت وكالة الصحافة الكندية عن زعيم الحزب الديمقراطي الجديد ناهد نينشي انتقاده للحدود التي يقول إنها تضعف تمثيلهم. وهكذا يبقى الخلاف على ترسيم الدوائر قائما رغم إضافة أربعة مقاعد.",
+          "photoAlt": "واجهة المجلس التشريعي في ألبرتا وسلالمه في إدمونتون.",
+          "photoCaption": "صورة أرشيفية، 2026-09-27. واجهة المجلس التشريعي في ألبرتا وسلالمه في إدمونتون."
+        },
+        "zh-CN": {
+          "title": "艾伯塔省通过新选区图，选区增至91个",
+          "summary": "该省增加四个席位，城市选票的权重仍是选区划分争议的焦点。",
+          "body": "据省议会会议记录，艾伯塔省议员11月25日在埃德蒙顿三读通过第40号法案。新选区图将省级选区从87个增至91个。\n\n争论集中在城市选民的相对投票权重。据加拿大通讯社报道，新民主党领袖纳希德·嫩希认为，新划界削弱了城市居民的代表性。增加四个席位并未平息有关边界划法的争议。",
+          "photoAlt": "埃德蒙顿艾伯塔省议会大楼的正面和台阶。",
+          "photoCaption": "档案照片，2026-09-27. 埃德蒙顿艾伯塔省议会大楼的正面和台阶。"
+        },
+        "ru": {
+          "title": "В Альберте приняли новую карту с 91 избирательным округом",
+          "summary": "Провинция добавляет четыре места. В центре спора о границах — вес голосов горожан.",
+          "body": "25 ноября депутаты Альберты в Эдмонтоне приняли в третьем чтении законопроект № 40, следует из протокола законодательного собрания. По новой карте число провинциальных округов увеличивается с 87 до 91.\n\nДепутаты обсуждали, каким будет относительный вес голосов горожан. По данным Canadian Press, лидер Новой демократической партии Нахид Ненши считает, что границы ослабляют их представительство. Добавление четырёх мандатов оставляет спор о границах открытым.",
+          "photoAlt": "Фасад и лестница здания законодательного собрания Альберты в Эдмонтоне.",
+          "photoCaption": "Архивное фото, 2026-09-27. Фасад и лестница здания законодательного собрания Альберты в Эдмонтоне."
+        },
+        "ko": {
+          "title": "앨버타주의회, 선거구를 91개로 늘리는 법안 통과",
+          "summary": "의석은 네 개 늘어난다. 도시 유권자 표의 영향력이 선거구 경계 논쟁의 핵심이다.",
+          "body": "앨버타주의회 회의록에 따르면 의원들은 11월 25일 에드먼턴에서 제40호 법안을 3독회에서 통과시켰다. 새 선거구 지도에 따라 주 선거구는 87개에서 91개로 늘어난다.\n\n논쟁은 도시 유권자 표의 상대적 영향력에 집중됐다. 캐나디안프레스에 따르면 나히드 넨시 신민주당 대표는 새 경계가 도시 주민의 대표성을 약화한다고 비판했다. 의석 네 개가 추가돼도 경계 획정에 대한 이견은 남는다.",
+          "photoAlt": "에드먼턴 앨버타주의회 건물 정면과 계단.",
+          "photoCaption": "자료 사진, 2026-09-27. 에드먼턴 앨버타주의회 건물 정면과 계단."
+        }
+      }
+    },
+    {
+      "eventKey": "laval-pti-adoption-2027-2029-investissements",
+      "title": "Laval réserve près de 80 % de son plan d’immobilisations à l’entretien",
+      "category": "Québec",
+      "summary": "La mise aux normes des réseaux d’eau mobilisera à elle seule plus de 800 millions de dollars sur trois ans.",
+      "body": "Le conseil municipal de Laval a adopté le 24 novembre un programme de 2,2387 milliards de dollars pour les années 2027 à 2029. Près de quatre dollars sur cinq serviront à maintenir les biens municipaux en état, rapporte le Courrier Laval.\n\nLa mise aux normes des installations d’eau potable, d’eaux usées et d’eaux pluviales représente à elle seule plus de 800 millions. Les élus Isabelle Piché et David De Cotis ont voté contre le programme. Leur parti, Action Laval, met en cause le recours à l’endettement.",
+      "sources": [
+        {
+          "name": "Courrier Laval",
+          "url": "https://courrierlaval.com/pti-22-milliards-de-dollars-largement-consace-au-maintien-des-actifs/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Action Laval",
+          "url": "https://www.actionlaval.com/cp-pti-20272029",
+          "publishedAt": "2026-11-24"
+        }
+      ],
+      "photo": {
+        "download": "media/laval-pti-adoption-2027.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_ville_de_Laval.jpg",
+        "credit": "Laurent Bélanger / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Pelouse et façade de l’hôtel de ville de Laval.",
+        "caption": "Photo d’archives du 2015-06-04. Pelouse et façade de l’hôtel de ville de Laval."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Laval earmarks nearly 80% of its capital plan for upkeep",
+          "summary": "Water infrastructure upgrades alone will account for more than $800 million over three years.",
+          "body": "Laval city council adopted a $2.2387 billion capital plan on November 24 for the years 2027 to 2029. Nearly four dollars in five will go toward maintaining municipal assets, Courrier Laval reports.\n\nBringing drinking water, wastewater and stormwater facilities up to standard accounts for more than $800 million alone. Councillors Isabelle Piché and David De Cotis voted against the plan. Their party, Action Laval, questioned the use of borrowing.",
+          "photoAlt": "Lawn and facade of Laval city hall.",
+          "photoCaption": "Archive photo, 2015-06-04. Lawn and facade of Laval city hall."
+        },
+        "es": {
+          "title": "Laval destina casi el 80 % de su plan de inversiones al mantenimiento",
+          "summary": "Solo las mejoras de los sistemas de agua superarán los 800 millones de dólares en tres años.",
+          "body": "El consejo municipal de Laval aprobó el 24 de noviembre un plan de 2.238,7 millones de dólares para 2027–2029. Casi cuatro de cada cinco dólares servirán para conservar los bienes municipales, según Courrier Laval.\n\nSolo la adecuación de las instalaciones de agua potable, aguas residuales y aguas pluviales supera los 800 millones. Los concejales Isabelle Piché y David De Cotis votaron en contra. Su partido, Action Laval, cuestionó el recurso al endeudamiento.",
+          "photoAlt": "Césped y fachada del ayuntamiento de Laval.",
+          "photoCaption": "Foto de archivo, 2015-06-04. Césped y fachada del ayuntamiento de Laval."
+        },
+        "ar": {
+          "title": "لافال تخصص نحو 80% من خطتها الاستثمارية للصيانة",
+          "summary": "ستتجاوز كلفة تأهيل شبكات المياه وحدها 800 مليون دولار على مدى ثلاث سنوات.",
+          "body": "أقر مجلس مدينة لافال في 24 نوفمبر خطة استثمارية بقيمة 2.2387 مليار دولار للأعوام 2027 إلى 2029. وبحسب صحيفة كورييه لافال، سيُخصص نحو أربعة دولارات من كل خمسة للحفاظ على ممتلكات البلدية.\n\nوتتجاوز كلفة تأهيل مرافق مياه الشرب والصرف الصحي وتصريف الأمطار لتطابق المعايير 800 مليون دولار وحدها. وصوّت عضوا المجلس إيزابيل بيشيه وديفيد دي كوتيس ضد الخطة. وانتقد حزبهما أكسيون لافال اللجوء إلى الاقتراض.",
+          "photoAlt": "واجهة مبنى بلدية لافال والمرج أمامها.",
+          "photoCaption": "صورة أرشيفية، 2015-06-04. واجهة مبنى بلدية لافال والمرج أمامها."
+        },
+        "zh-CN": {
+          "title": "拉瓦尔市近八成资本投资将用于维护市政资产",
+          "summary": "仅供排水设施达标改造一项，三年支出就将超过8亿加元。",
+          "body": "拉瓦尔市议会11月24日通过了2027至2029年总额为22.387亿加元的投资计划。据《拉瓦尔信使报》报道，每五加元中有近四加元将用于维护市政资产。\n\n仅饮用水、污水和雨水设施的达标改造就超过8亿加元。市议员伊莎贝尔·皮谢和戴维·德科蒂斯投了反对票。他们所属的拉瓦尔行动党质疑举债融资的做法。",
+          "photoAlt": "拉瓦尔市政厅正面及门前草坪。",
+          "photoCaption": "档案照片，2015-06-04. 拉瓦尔市政厅正面及门前草坪。"
+        },
+        "ru": {
+          "title": "Лаваль направит почти 80% капитальных вложений на содержание городского имущества",
+          "summary": "Только на модернизацию систем водоснабжения и водоотведения за три года пойдёт более 800 млн долларов.",
+          "body": "24 ноября городской совет Лаваля принял программу капиталовложений на 2027–2029 годы объёмом 2,2387 млрд долларов. По данным Courrier Laval, почти четыре доллара из пяти направят на поддержание муниципального имущества в рабочем состоянии.\n\nТолько приведение систем питьевого водоснабжения, канализации и ливневого стока в соответствие с нормами обойдётся более чем в 800 млн. Депутаты Изабель Пише и Дэвид Де Котис проголосовали против. Их партия Action Laval поставила под сомнение использование заёмных средств.",
+          "photoAlt": "Газон перед фасадом ратуши Лаваля.",
+          "photoCaption": "Архивное фото, 2015-06-04. Газон перед фасадом ратуши Лаваля."
+        },
+        "ko": {
+          "title": "라발시, 자본 지출 계획의 약 80%를 시설 유지에 배정",
+          "summary": "물 관련 기반시설을 기준에 맞게 개선하는 데만 3년간 8억 캐나다달러가 넘게 투입된다.",
+          "body": "라발 시의회가 11월 24일 2027~2029년 총 22억 3,870만 캐나다달러 규모의 투자 계획을 채택했다. 지역지 쿠리에 라발에 따르면 5달러 중 거의 4달러가 시 자산을 유지하는 데 들어간다.\n\n상수도와 하수도, 빗물 처리 시설을 기준에 맞게 개선하는 데만 8억 달러가 넘는다. 이자벨 피셰와 데이비드 드코티스 시의원은 반대표를 던졌다. 두 의원이 속한 악시옹 라발은 차입을 통한 재원 조달에 이의를 제기했다.",
+          "photoAlt": "라발 시청 정면과 앞쪽 잔디밭.",
+          "photoCaption": "자료 사진, 2015-06-04. 라발 시청 정면과 앞쪽 잔디밭."
+        }
+      }
+    },
+    {
+      "eventKey": "ue-tribunal-calendrier-elevage-cages-t151-24",
+      "title": "Élevage en cage : la justice européenne exige un calendrier actualisé",
+      "category": "Justice",
+      "summary": "Après l’échéance manquée de 2023, les citoyens qui ont saisi la Commission européenne ont droit à un nouveau calendrier.",
+      "body": "Le Tribunal de l’Union européenne a donné raison le 25 novembre aux organisateurs de l’initiative citoyenne « End the Cage Age ». La Commission avait annoncé une proposition législative pour 2023, puis laissé passer cette échéance sans actualiser son calendrier.\n\nSelon le jugement rendu à Luxembourg, la Commission doit communiquer un calendrier à jour. La décision porte sur la réponse due aux citoyens qui ont saisi Bruxelles. Comme le relève Euronews, elle laisse aux institutions européennes le soin de légiférer sur l’élevage en cage.",
+      "sources": [
+        {
+          "name": "Tribunal de l’Union européenne",
+          "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260171en.pdf",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/historic-victory-caged-farm-animals-could-be-banned-in-the-eu-after-landmark-court-ruling",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/ue-tribunal-calendrier-elevage.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Court_of_Justice_of_the_European_Union_Luxembourg_01.jpg",
+        "credit": "FrDr / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Façade vitrée de la Cour de justice de l’Union européenne à Luxembourg.",
+        "caption": "Photo d’archives du 2026-09-27. Façade vitrée de la Cour de justice de l’Union européenne à Luxembourg."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "EU court orders updated timetable on caged farming",
+          "summary": "After the missed 2023 deadline, the citizens who petitioned the European Commission are entitled to a revised timetable.",
+          "body": "On November 25 the EU General Court ruled in favour of the organisers of the End the Cage Age citizens’ initiative. The Commission had promised a legislative proposal for 2023 but let the deadline pass without updating its timetable.\n\nUnder the judgment delivered in Luxembourg, the Commission must communicate a revised schedule. The ruling concerns the response owed to the citizens who petitioned Brussels. As Euronews reports, legislation on caged farming remains in the hands of EU institutions.",
+          "photoAlt": "Glass facade of the Court of Justice of the European Union in Luxembourg.",
+          "photoCaption": "Archive photo, 2026-09-27. Glass facade of the Court of Justice of the European Union in Luxembourg."
+        },
+        "es": {
+          "title": "La justicia europea exige un calendario actualizado sobre la cría en jaulas",
+          "summary": "Tras incumplirse el plazo de 2023, los ciudadanos que acudieron a la Comisión Europea tienen derecho a un calendario actualizado.",
+          "body": "El Tribunal General de la UE dio la razón el 25 de noviembre a los promotores de la iniciativa ciudadana End the Cage Age. La Comisión había anunciado una propuesta legislativa para 2023 y dejó pasar el plazo sin actualizar su calendario.\n\nSegún el fallo dictado en Luxemburgo, la Comisión debe comunicar un nuevo calendario. La decisión aborda la respuesta debida a los ciudadanos que acudieron a Bruselas. Como señala Euronews, legislar sobre la cría en jaulas sigue correspondiendo a las instituciones europeas.",
+          "photoAlt": "Fachada acristalada del Tribunal de Justicia de la Unión Europea en Luxemburgo.",
+          "photoCaption": "Foto de archivo, 2026-09-27. Fachada acristalada del Tribunal de Justicia de la Unión Europea en Luxemburgo."
+        },
+        "ar": {
+          "title": "المحكمة الأوروبية تطلب جدولا زمنيا محدثا بشأن تربية الحيوانات في الأقفاص",
+          "summary": "بعد انقضاء مهلة 2023، يحق للمواطنين الذين رفعوا المبادرة إلى المفوضية الأوروبية الحصول على جدول زمني محدث.",
+          "body": "حكمت المحكمة العامة للاتحاد الأوروبي في 25 نوفمبر لصالح منظمي مبادرة المواطنين «إنهاء عصر الأقفاص». وكانت المفوضية قد أعلنت أنها ستقدم مقترحا تشريعيا في 2023 ثم انقضى الموعد من دون تحديث جدولها.\n\nوبموجب الحكم الصادر في لوكسمبورغ، يتعين على المفوضية إبلاغ المعنيين بجدول زمني محدث. ويتناول القرار حق المواطنين الذين رفعوا المسألة إلى بروكسل في الحصول على رد. وكما أوردت يورونيوز، يبقى التشريع بشأن التربية في الأقفاص من اختصاص مؤسسات الاتحاد.",
+          "photoAlt": "الواجهة الزجاجية لمحكمة العدل التابعة للاتحاد الأوروبي في لوكسمبورغ.",
+          "photoCaption": "صورة أرشيفية، 2026-09-27. الواجهة الزجاجية لمحكمة العدل التابعة للاتحاد الأوروبي في لوكسمبورغ."
+        },
+        "zh-CN": {
+          "title": "欧盟法院要求更新笼养立法时间表",
+          "summary": "2023年的期限已过，向欧委会提出倡议的公民有权获知新的时间表。",
+          "body": "欧盟普通法院11月25日裁定，发起“终结笼养时代”公民倡议的组织者胜诉。欧盟委员会曾宣布将在2023年提出立法建议，但期限届满后仍未更新时间表。\n\n根据在卢森堡作出的判决，欧委会须告知有关各方新的时间安排。此案涉及向提出倡议的公民作出答复的义务。欧洲新闻台指出，是否以及如何就笼养立法，仍由欧盟相关机构决定。",
+          "photoAlt": "位于卢森堡的欧盟法院玻璃外墙。",
+          "photoCaption": "档案照片，2026-09-27. 位于卢森堡的欧盟法院玻璃外墙。"
+        },
+        "ru": {
+          "title": "Суд ЕС обязал Еврокомиссию обновить график работы над вопросом клеточного содержания",
+          "summary": "После срыва срока в 2023 году граждане, обратившиеся в Еврокомиссию, вправе получить новый график.",
+          "body": "25 ноября Общий суд ЕС поддержал организаторов гражданской инициативы End the Cage Age. Еврокомиссия обещала представить законодательное предложение в 2023 году, но срок прошёл, а график остался прежним.\n\nСогласно решению, вынесенному в Люксембурге, Комиссия должна сообщить обновлённые сроки. Суд рассматривал её обязанность ответить гражданам, обратившимся в Брюссель. Как отмечает Euronews, принятие законов о клеточном содержании остаётся за институтами ЕС.",
+          "photoAlt": "Стеклянный фасад Суда Европейского союза в Люксембурге.",
+          "photoCaption": "Архивное фото, 2026-09-27. Стеклянный фасад Суда Европейского союза в Люксембурге."
+        },
+        "ko": {
+          "title": "EU 법원, 가축 케이지 사육 관련 입법 일정 갱신 요구",
+          "summary": "2023년 시한이 지나면서 EU 집행위에 청원한 시민들은 새 일정을 안내받을 권리가 있다.",
+          "body": "EU 일반법원은 11월 25일 시민 발의 ‘케이지 시대를 끝내자’의 주최 측 손을 들어줬다. 집행위원회는 2023년에 법안을 제안하겠다고 발표했지만 시한이 지난 뒤에도 일정을 갱신하지 않았다.\n\n룩셈부르크에서 나온 판결에 따라 집행위는 새 일정을 알려야 한다. 이번 결정은 브뤼셀에 청원한 시민에게 답할 의무를 다뤘다. 유로뉴스가 전했듯이 케이지 사육에 관한 입법은 여전히 EU 기관들의 몫이다.",
+          "photoAlt": "룩셈부르크에 있는 유럽연합 사법재판소의 유리 외벽.",
+          "photoCaption": "자료 사진, 2026-09-27. 룩셈부르크에 있는 유럽연합 사법재판소의 유리 외벽."
+        }
+      }
+    },
+    {
+      "eventKey": "singapour-production-manufacturiere-octobre-2026",
+      "title": "À Singapour, les équipements pour puces tirent la production industrielle",
+      "category": "Économie",
+      "summary": "En octobre, la mécanique de précision a gagné 54,1 % sur un an, tandis que la production biomédicale a reculé de 35,8 %.",
+      "body": "La production manufacturière de Singapour a augmenté de 6,1 % en octobre sur un an, selon les données publiées le 26 novembre par l’Economic Development Board. L’accélération masque des écarts considérables entre les branches.\n\nLa mécanique de précision a produit 54,1 % de plus qu’un an auparavant, portée principalement par les équipements destinés à fabriquer des semi-conducteurs. À l’autre extrême, la production biomédicale a chuté de 35,8 %, rapporte le Straits Times.",
+      "sources": [
+        {
+          "name": "Singapore Department of Statistics / EDB",
+          "url": "https://www.singstat.gov.sg/find-data/explore-data-themes/industry/manufacturing/latest-news-data",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "The Straits Times",
+          "url": "https://www.straitstimes.com/business/economy/singapore-factory-output-grows-6-1-in-october-as-ai-demand-remains-robust",
+          "publishedAt": "2026-11-26T13:00:00+08:00"
+        }
+      ],
+      "photo": {
+        "download": "media/singapour-production-manufacturiere-octobre.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raffles_City_development.jpg",
+        "credit": "Terence Ong / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "alt": "Tours du complexe Raffles City à Singapour.",
+        "caption": "Photo d’archives du 2007-06. Tours du complexe Raffles City à Singapour. L’Economic Development Board siège dans ce complexe."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Chip equipment drives Singapore’s factory output higher",
+          "summary": "In October precision engineering grew 54.1% year on year, while biomedical output fell 35.8%.",
+          "body": "Singapore’s manufacturing output rose 6.1% in October from a year earlier, according to data released November 26 by the Economic Development Board. The acceleration conceals wide differences between industries.\n\nPrecision engineering output rose 54.1% year on year, driven mainly by equipment used to make semiconductors. At the other extreme, biomedical manufacturing fell 35.8%, the Straits Times reports.",
+          "photoAlt": "Towers of the Raffles City complex in Singapore.",
+          "photoCaption": "Archive photo, 2007-06. Towers of the Raffles City complex in Singapore. The Economic Development Board has its head office in this complex."
+        },
+        "es": {
+          "title": "Los equipos para fabricar chips impulsan la industria de Singapur",
+          "summary": "En octubre, la ingeniería de precisión creció un 54,1 % interanual y la producción biomédica cayó un 35,8 %.",
+          "body": "La producción manufacturera de Singapur creció un 6,1 % interanual en octubre, según los datos que publicó el 26 de noviembre el Consejo de Desarrollo Económico. La aceleración oculta amplias diferencias sectoriales.\n\nLa ingeniería de precisión produjo un 54,1 % más que un año antes, gracias principalmente a los equipos para fabricar semiconductores. En el extremo opuesto, la producción biomédica cayó un 35,8 %, informa The Straits Times.",
+          "photoAlt": "Torres del complejo Raffles City en Singapur.",
+          "photoCaption": "Foto de archivo, 2007-06. Torres del complejo Raffles City en Singapur. El Consejo de Desarrollo Económico tiene su sede en este complejo."
+        },
+        "ar": {
+          "title": "معدات صناعة الرقائق تدفع إنتاج المصانع في سنغافورة إلى الارتفاع",
+          "summary": "زاد إنتاج الهندسة الدقيقة في أكتوبر 54.1% سنويا بينما انخفض الإنتاج الطبي الحيوي 35.8%.",
+          "body": "ارتفع الإنتاج الصناعي في سنغافورة 6.1% في أكتوبر مقارنة بالعام السابق، وفق بيانات نشرها مجلس التنمية الاقتصادية في 26 نوفمبر. ويخفي التسارع تفاوتا كبيرا بين القطاعات.\n\nوزاد إنتاج الهندسة الدقيقة بنسبة 54.1% على أساس سنوي مدفوعا أساسا بمعدات تصنيع أشباه الموصلات. وفي المقابل انخفض إنتاج الصناعات الطبية الحيوية 35.8%، بحسب ستريتس تايمز.",
+          "photoAlt": "أبراج مجمع رافلز سيتي في سنغافورة.",
+          "photoCaption": "صورة أرشيفية، 2007-06. أبراج مجمع رافلز سيتي في سنغافورة. يضم هذا المجمع المقر الرئيسي لمجلس التنمية الاقتصادية."
+        },
+        "zh-CN": {
+          "title": "芯片设备带动新加坡制造业产出增长",
+          "summary": "10月精密工程产出同比增长54.1%，生物医药产出则下降35.8%。",
+          "body": "新加坡经济发展局11月26日发布的数据显示，10月制造业产出同比增长6.1%。总体增速加快，但各行业表现相差很大。\n\n受半导体制造设备带动，精密工程业产出同比增长54.1%。据《海峡时报》报道，生物医药制造业则处于另一端，产出下跌35.8%。",
+          "photoAlt": "新加坡莱佛士城建筑群的高楼。",
+          "photoCaption": "档案照片，2007-06. 新加坡莱佛士城建筑群的高楼。 新加坡经济发展局总部设在该建筑群内。"
+        },
+        "ru": {
+          "title": "Оборудование для выпуска чипов поддержало рост промышленности Сингапура",
+          "summary": "В октябре точное машиностроение выросло на 54,1% за год, а биомедицинское производство сократилось на 35,8%.",
+          "body": "В октябре выпуск обрабатывающей промышленности Сингапура вырос на 6,1% в годовом выражении. Такие данные 26 ноября опубликовал Совет по экономическому развитию. За ускорением скрываются большие различия между отраслями.\n\nВыпуск продукции точного машиностроения вырос на 54,1% за год, главным образом благодаря оборудованию для изготовления полупроводников. На другом полюсе оказалось биомедицинское производство, сократившееся на 35,8%, сообщает Straits Times.",
+          "photoAlt": "Башни комплекса Raffles City в Сингапуре.",
+          "photoCaption": "Архивное фото, 2007-06. Башни комплекса Raffles City в Сингапуре. В этом комплексе находится штаб-квартира Совета по экономическому развитию."
+        },
+        "ko": {
+          "title": "반도체 장비가 싱가포르 제조업 생산 증가 이끌어",
+          "summary": "10월 정밀공학 생산은 전년 대비 54.1% 늘었지만 바이오의료 생산은 35.8% 줄었다.",
+          "body": "싱가포르 경제개발청이 11월 26일 발표한 자료에 따르면 10월 제조업 생산은 전년 동월 대비 6.1% 늘었다. 증가세가 빨라졌지만 업종 간 차이는 컸다.\n\n정밀공학 생산은 반도체 제조 장비에 힘입어 1년 전보다 54.1% 증가했다. 반대로 바이오의료 제조업 생산은 35.8% 감소했다고 스트레이츠타임스가 전했다.",
+          "photoAlt": "싱가포르 래플스 시티 단지의 고층 건물들.",
+          "photoCaption": "자료 사진, 2007-06. 싱가포르 래플스 시티 단지의 고층 건물들. 이 단지에 싱가포르 경제개발청 본부가 있다."
+        }
+      }
+    },
+    {
+      "eventKey": "sylvie-laniel-prix-janette-bertrand-2026",
+      "title": "Sylvie Laniel reçoit le prix Janette-Bertrand pour son premier livre",
+      "category": "Culture",
+      "summary": "Le jury a choisi « Longtemps, se taire », où la psychologue de 73 ans explore les répercussions des violences sexuelles.",
+      "body": "Janette Bertrand a remis le prix littéraire qui porte son nom à Sylvie Laniel le 25 novembre au Palais des congrès, en ouverture du Salon du livre de Montréal. Le jury présidé par Pauline Marois a retenu « Longtemps, se taire » parmi cinq ouvrages finalistes.\n\nPublié aux Presses de l’Université de Montréal, le premier livre de cette psychologue de 73 ans mêle récit personnel et réflexion sur les effets durables des violences sexuelles. Le Salon et le Journal de Montréal rapportent qu’il s’agit de la troisième remise du prix.",
+      "sources": [
+        {
+          "name": "Salon du livre de Montréal",
+          "url": "https://www.salondulivredemontreal.com/actualites/longtemps-se-taire-de-sylvie-laniel-remporte-le-prix-litteraire-janette-bertrand-2026",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Le Journal de Montréal / TVA Nouvelles",
+          "url": "https://www.tvanouvelles.ca/2026/11/25/salon-du-livre-de-montreal-sylvie-laniel-remporte-le-prix-litteraire-janette-bertrand",
+          "publishedAt": "2026-11-25T22:53:00-05:00"
+        }
+      ],
+      "photo": {
+        "download": "media/sylvie-laniel-prix-janette.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palais_des_congr%C3%A8s_de_Montr%C3%A9al_et_sa_fa%C3%A7ade_color%C3%A9e_sign%C3%A9e_Mario_Saia.jpg",
+        "credit": "congresmtl.com / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "Façade vitrée multicolore du Palais des congrès de Montréal.",
+        "caption": "Photo d’archives du 2021-06-07. Façade vitrée multicolore du Palais des congrès de Montréal."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Sylvie Laniel wins Janette-Bertrand prize for her first book",
+          "summary": "The jury chose Longtemps, se taire, in which the 73-year-old psychologist explores the effects of sexual violence.",
+          "body": "Janette Bertrand presented the literary award bearing her name to Sylvie Laniel on November 25 at the Palais des congrès during the opening of the Montreal Book Fair. The jury chaired by Pauline Marois chose Longtemps, se taire from five finalists.\n\nPublished by Presses de l’Université de Montréal, the 73-year-old psychologist’s first book combines personal narrative with reflections on the lasting effects of sexual violence. The fair and Le Journal de Montréal report that this is the third presentation of the prize.",
+          "photoAlt": "Multicoloured glass facade of Montreal’s Palais des congrès.",
+          "photoCaption": "Archive photo, 2021-06-07. Multicoloured glass facade of Montreal’s Palais des congrès."
+        },
+        "es": {
+          "title": "Sylvie Laniel gana el premio Janette-Bertrand por su primer libro",
+          "summary": "El jurado eligió Longtemps, se taire, donde la psicóloga de 73 años explora las repercusiones de la violencia sexual.",
+          "body": "Janette Bertrand entregó el premio literario que lleva su nombre a Sylvie Laniel el 25 de noviembre en el Palacio de Congresos, durante la apertura del Salón del Libro de Montreal. El jurado presidido por Pauline Marois eligió Longtemps, se taire entre cinco obras finalistas.\n\nPublicado por Presses de l’Université de Montréal, el primer libro de esta psicóloga de 73 años combina el relato personal con una reflexión sobre los efectos duraderos de la violencia sexual. El Salón y Le Journal de Montréal señalan que es la tercera entrega del premio.",
+          "photoAlt": "Fachada de vidrio multicolor del Palacio de Congresos de Montreal.",
+          "photoCaption": "Foto de archivo, 2021-06-07. Fachada de vidrio multicolor del Palacio de Congresos de Montreal."
+        },
+        "ar": {
+          "title": "سيلفي لانييل تفوز بجائزة جانيت برتران عن كتابها الأول",
+          "summary": "اختارت اللجنة كتاب Longtemps, se taire الذي تستكشف فيه عالمة النفس البالغة 73 عاما آثار العنف الجنسي.",
+          "body": "سلمت جانيت برتران الجائزة الأدبية التي تحمل اسمها إلى سيلفي لانييل في 25 نوفمبر بقصر المؤتمرات خلال افتتاح معرض مونتريال للكتاب. واختارت لجنة التحكيم برئاسة بولين ماروا كتاب Longtemps, se taire من بين خمسة أعمال في القائمة النهائية.\n\nيجمع الكتاب الأول لعالمة النفس البالغة 73 عاما بين السرد الشخصي والتأمل في الآثار الممتدة للعنف الجنسي. ونشرته مطبعة جامعة مونتريال. وبحسب المعرض وصحيفة لو جورنال دو مونتريال، هذه المرة الثالثة التي تُمنح فيها الجائزة.",
+          "photoAlt": "الواجهة الزجاجية متعددة الألوان لقصر المؤتمرات في مونتريال.",
+          "photoCaption": "صورة أرشيفية، 2021-06-07. الواجهة الزجاجية متعددة الألوان لقصر المؤتمرات في مونتريال."
+        },
+        "zh-CN": {
+          "title": "西尔维·拉尼埃凭首部作品获雅内特·贝特朗文学奖",
+          "summary": "评委会选中了《Longtemps, se taire》，这位73岁心理学家在书中探讨性暴力的影响。",
+          "body": "11月25日，在蒙特利尔会展中心举行的书展开幕活动上，雅内特·贝特朗亲自将以她名字命名的文学奖颁给西尔维·拉尼埃。由波利娜·马鲁瓦主持的评委会从五部入围作品中选出了《Longtemps, se taire》。\n\n这位73岁心理学家的首部作品由蒙特利尔大学出版社出版，将个人叙事与对性暴力长期影响的思考结合起来。据书展方面和《蒙特利尔日报》报道，这是该奖项第三次颁发。",
+          "photoAlt": "蒙特利尔会展中心的彩色玻璃外墙。",
+          "photoCaption": "档案照片，2021-06-07. 蒙特利尔会展中心的彩色玻璃外墙。"
+        },
+        "ru": {
+          "title": "Сильви Ланьель получила премию Жанетт Бертран за свою первую книгу",
+          "summary": "Жюри выбрало Longtemps, se taire, где 73-летний психолог исследует последствия сексуального насилия.",
+          "body": "25 ноября на открытии Монреальской книжной ярмарки во Дворце конгрессов Жанетт Бертран вручила Сильви Ланьель литературную премию, носящую её имя. Жюри под председательством Полин Маруа выбрало Longtemps, se taire из пяти книг финалистов.\n\nДебютная книга 73-летнего психолога вышла в издательстве Монреальского университета. Личный рассказ в ней сочетается с размышлениями о долгосрочных последствиях сексуального насилия. По данным ярмарки и Le Journal de Montréal, премию вручили в третий раз.",
+          "photoAlt": "Разноцветный стеклянный фасад Дворца конгрессов в Монреале.",
+          "photoCaption": "Архивное фото, 2021-06-07. Разноцветный стеклянный фасад Дворца конгрессов в Монреале."
+        },
+        "ko": {
+          "title": "실비 라니엘, 첫 책으로 자네트 베르트랑 문학상 수상",
+          "summary": "심사위원단은 73세 심리학자가 성폭력의 영향을 탐구한 《Longtemps, se taire》를 선정했다.",
+          "body": "11월 25일 몬트리올 도서전 개막 행사에서 자네트 베르트랑이 자신의 이름을 딴 문학상을 실비 라니엘에게 직접 수여했다. 몬트리올 컨벤션센터에서 폴린 마루아가 이끈 심사위원단은 최종 후보 다섯 권 가운데 《Longtemps, se taire》를 선정했다.\n\n몬트리올대학교 출판부에서 낸 이 책은 73세 심리학자의 첫 저서로, 개인적 서사와 성폭력의 지속적인 영향에 대한 성찰을 함께 담았다. 도서전과 르 주르날 드 몬트리올에 따르면 올해가 세 번째 시상이다.",
+          "photoAlt": "몬트리올 컨벤션센터의 여러 색으로 된 유리 외벽.",
+          "photoCaption": "자료 사진, 2021-06-07. 몬트리올 컨벤션센터의 여러 색으로 된 유리 외벽."
+        }
+      }
+    },
+    {
+      "eventKey": "finma-ubs-approbation-plan-redressement-novembre-2026",
+      "title": "Le régulateur suisse approuve le plan de redressement d’UBS",
+      "category": "Économie",
+      "summary": "La FINMA juge que l’intégration de Credit Suisse facilite une éventuelle restructuration du groupe bancaire.",
+      "body": "La FINMA a annoncé le 25 novembre son approbation du plan de redressement qu’UBS lui avait remis en 2025. Selon le régulateur suisse, l’intégration de Credit Suisse a aussi amélioré les possibilités de restructurer le groupe en cas de crise.\n\nLa stratégie privilégiée par la FINMA consisterait à recapitaliser UBS puis à la restructurer pour que les activités essentielles continuent. Reuters relève que la disponibilité de liquidités en période de crise reste un enjeu distinct de cette préparation.",
+      "sources": [
+        {
+          "name": "FINMA",
+          "url": "https://www.finma.ch/en/news/2026/11/20261125-mm-resolution-ubs/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/transactional/swiss-regulator-finma-sees-progress-by-ubs-crisis-readiness-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/finma-ubs-approbation-plan.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:UBS_headquarters%2C_Zurich.jpg",
+        "credit": "VKras / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Tour portant le nom d’UBS à Zurich.",
+        "caption": "Photo d’archives du 2019-06-27. Tour portant le nom d’UBS à Zurich."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Swiss regulator approves UBS recovery plan",
+          "summary": "FINMA says the integration of Credit Suisse makes a potential restructuring of the banking group easier.",
+          "body": "FINMA announced on November 25 that it had approved the recovery plan UBS submitted in 2025. The Swiss regulator said the integration of Credit Suisse had also improved the options for restructuring the group in a crisis.\n\nFINMA’s preferred strategy would be to recapitalise UBS and then restructure it so critical operations can continue. Reuters notes that the availability of liquidity in a crisis remains a separate issue from these preparations.",
+          "photoAlt": "Tower bearing the UBS name in Zurich.",
+          "photoCaption": "Archive photo, 2019-06-27. Tower bearing the UBS name in Zurich."
+        },
+        "es": {
+          "title": "El regulador suizo aprueba el plan de recuperación de UBS",
+          "summary": "La FINMA considera que la integración de Credit Suisse facilita una eventual reestructuración del grupo.",
+          "body": "La FINMA anunció el 25 de noviembre que aprobó el plan de recuperación que UBS le presentó en 2025. Según el regulador suizo, la integración de Credit Suisse también ha mejorado las opciones para reestructurar el grupo en caso de crisis.\n\nLa estrategia preferida de la FINMA sería recapitalizar UBS y después reestructurarlo para mantener las operaciones esenciales. Reuters señala que la disponibilidad de liquidez en una crisis sigue siendo una cuestión distinta de estos preparativos.",
+          "photoAlt": "Torre con el nombre de UBS en Zúrich.",
+          "photoCaption": "Foto de archivo, 2019-06-27. Torre con el nombre de UBS en Zúrich."
+        },
+        "ar": {
+          "title": "الرقابة المالية السويسرية تقر خطة تعافي يو بي إس",
+          "summary": "ترى الهيئة أن دمج كريدي سويس يسهّل أي إعادة هيكلة محتملة للمجموعة المصرفية.",
+          "body": "أعلنت هيئة الرقابة المالية السويسرية في 25 نوفمبر موافقتها على خطة التعافي التي قدمها بنك يو بي إس في 2025. وقالت إن دمج كريدي سويس حسّن أيضا إمكانات إعادة هيكلة المجموعة في حال تعرضها لأزمة.\n\nوتفضل الهيئة إعادة رسملة البنك ثم إعادة هيكلته لضمان استمرار الأنشطة الأساسية. وأشارت رويترز إلى أن توافر السيولة في أوقات الأزمات يظل مسألة منفصلة عن هذه الاستعدادات.",
+          "photoAlt": "برج يحمل اسم بنك يو بي إس في زيورخ.",
+          "photoCaption": "صورة أرشيفية، 2019-06-27. برج يحمل اسم بنك يو بي إس في زيورخ."
+        },
+        "zh-CN": {
+          "title": "瑞士监管机构批准瑞银恢复计划",
+          "summary": "瑞士监管机构认为，整合瑞信有助于集团在必要时进行重组。",
+          "body": "瑞士金融市场监督管理局11月25日宣布，已批准瑞银在2025年提交的恢复计划。该机构认为，瑞信的整合也改善了在危机中对集团进行重组的条件。\n\n监管机构倾向于先为瑞银补充资本，再进行重组，以维持关键业务。路透社指出，危机时能否获得流动性支持，仍是有别于上述准备工作的另一项问题。",
+          "photoAlt": "苏黎世一座带有瑞银标识的大楼。",
+          "photoCaption": "档案照片，2019-06-27. 苏黎世一座带有瑞银标识的大楼。"
+        },
+        "ru": {
+          "title": "Швейцарский регулятор одобрил план восстановления UBS",
+          "summary": "По оценке FINMA, интеграция Credit Suisse облегчает возможную реструктуризацию группы.",
+          "body": "25 ноября FINMA объявила об одобрении плана восстановления, представленного UBS в 2025 году. По оценке швейцарского регулятора, интеграция Credit Suisse также расширила возможности реструктуризации группы в случае кризиса.\n\nFINMA предпочла бы сначала рекапитализировать UBS, а затем реструктурировать банк, сохранив критически важные операции. Как отмечает Reuters, доступность ликвидности в кризис остаётся отдельным вопросом.",
+          "photoAlt": "Башня с названием UBS в Цюрихе.",
+          "photoCaption": "Архивное фото, 2019-06-27. Башня с названием UBS в Цюрихе."
+        },
+        "ko": {
+          "title": "스위스 금융감독청, UBS 회복 계획 승인",
+          "summary": "감독청은 크레디트스위스 통합이 향후 그룹 구조조정에 도움이 된다고 평가했다.",
+          "body": "스위스 금융감독청은 UBS가 2025년에 제출한 회복 계획을 승인했다고 11월 25일 발표했다. 감독청은 크레디트스위스 통합으로 위기 시 그룹을 재편할 여건도 개선됐다고 평가했다.\n\n감독청이 선호하는 방안은 UBS의 자본을 먼저 확충하고 이후 구조조정을 실시해 핵심 업무를 유지하는 것이다. 로이터는 위기가 닥쳤을 때 유동성을 확보할 수 있는지는 이 같은 준비와 별개의 문제라고 전했다.",
+          "photoAlt": "취리히에 있는 UBS 이름이 표시된 고층 건물.",
+          "photoCaption": "자료 사진, 2019-06-27. 취리히에 있는 UBS 이름이 표시된 고층 건물."
+        }
+      }
+    },
+    {
+      "eventKey": "royaume-uni-bailey-energie-pic-inflation-audition-novembre",
+      "title": "Royaume-Uni : le recul de l’énergie pourrait abaisser le pic d’inflation",
+      "category": "Économie",
+      "summary": "Andrew Bailey a expliqué aux députés ce qui pourrait modifier la prévision d’un sommet proche de 5 % en 2027.",
+      "body": "Devant la commission du Trésor du Parlement britannique le 25 novembre, Andrew Bailey a expliqué que la baisse récente des prix de l’énergie pourrait atténuer la poussée des prix à la consommation. Cela suppose que l’énergie reste autour de ses niveaux récents, rapporte Reuters.\n\nLa Banque d’Angleterre avait envisagé un pic d’inflation proche de 5 % au deuxième trimestre de 2027. Son gouverneur a décrit aux députés comment une hypothèse différente sur l’énergie modifierait cette trajectoire. Il n’a pas chiffré de nouveau pic.",
+      "sources": [
+        {
+          "name": "Commission du Trésor du Parlement britannique",
+          "url": "https://committees.parliament.uk/event/28810",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/uk/boes-bailey-sees-lower-inflation-peak-if-energy-prices-stabilise-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/royaume-uni-bailey-energie.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bank_of_England_Facade.jpg",
+        "credit": "Michael / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "alt": "Colonnes de la façade de la Banque d’Angleterre à Londres.",
+        "caption": "Photo d’archives du 2021-10-11. Colonnes de la façade de la Banque d’Angleterre à Londres."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Lower energy prices could reduce UK inflation peak, Bailey says",
+          "summary": "Andrew Bailey told MPs what could change the forecast of a peak near 5% in 2027.",
+          "body": "Andrew Bailey told Parliament’s Treasury Committee on November 25 that the recent fall in energy prices could temper the rise in consumer prices. That depends on energy prices staying near recent levels, Reuters reports.\n\nThe Bank of England had projected that inflation could peak near 5% in the second quarter of 2027. The governor explained to MPs how a different energy assumption would change that path. He gave no figure for a new peak.",
+          "photoAlt": "Columns on the facade of the Bank of England in London.",
+          "photoCaption": "Archive photo, 2021-10-11. Columns on the facade of the Bank of England in London."
+        },
+        "es": {
+          "title": "Bailey prevé un pico de inflación menor si se mantiene la caída de la energía",
+          "summary": "Andrew Bailey explicó a los diputados qué podría alterar la previsión de un pico cercano al 5 % en 2027.",
+          "body": "Andrew Bailey explicó el 25 de noviembre ante la Comisión del Tesoro del Parlamento británico que la reciente caída de la energía podría moderar el alza de los precios al consumo. Depende de que los precios energéticos se mantengan cerca de sus niveles recientes, según Reuters.\n\nEl Banco de Inglaterra había previsto un pico cercano al 5 % en el segundo trimestre de 2027. El gobernador explicó a los diputados cómo cambiaría esa trayectoria bajo un supuesto energético diferente. No dio una cifra nueva.",
+          "photoAlt": "Columnas de la fachada del Banco de Inglaterra en Londres.",
+          "photoCaption": "Foto de archivo, 2021-10-11. Columnas de la fachada del Banco de Inglaterra en Londres."
+        },
+        "ar": {
+          "title": "بيلي: تراجع أسعار الطاقة قد يخفض ذروة التضخم في بريطانيا",
+          "summary": "شرح أندرو بيلي للنواب ما قد يغير توقع بلوغ التضخم ذروة تقارب 5% في 2027.",
+          "body": "أبلغ أندرو بيلي لجنة الخزانة في البرلمان البريطاني في 25 نوفمبر بأن هبوط أسعار الطاقة أخيرا قد يحد من ارتفاع أسعار المستهلكين. ويتوقف ذلك على بقاء أسعار الطاقة قرب مستوياتها الأخيرة، بحسب رويترز.\n\nوكان بنك إنجلترا قد توقع أن يقترب التضخم عند ذروته من 5% في الربع الثاني من 2027. وشرح المحافظ للنواب كيف يمكن لافتراض مختلف بشأن الطاقة أن يغير المسار، من دون تحديد رقم جديد للذروة.",
+          "photoAlt": "أعمدة واجهة بنك إنجلترا في لندن.",
+          "photoCaption": "صورة أرشيفية، 2021-10-11. أعمدة واجهة بنك إنجلترا في لندن."
+        },
+        "zh-CN": {
+          "title": "贝利称能源价格回落或降低英国通胀峰值",
+          "summary": "贝利向议员解释了哪些因素可能改变通胀率在2027年达到近5%峰值的预测。",
+          "body": "安德鲁·贝利11月25日向英国议会财政委员会表示，近期能源价格下跌可能缓和消费价格上涨。据路透社报道，这取决于能源价格能否保持在近期水平附近。\n\n英格兰银行此前预计，通胀率可能在2027年第二季度达到接近5%的峰值。行长向议员解释了改变能源价格假设会如何影响这一走势，没有给出新的峰值数字。",
+          "photoAlt": "伦敦英格兰银行正面的立柱。",
+          "photoCaption": "档案照片，2021-10-11. 伦敦英格兰银行正面的立柱。"
+        },
+        "ru": {
+          "title": "Бейли допустил более низкий пик инфляции в Великобритании из-за удешевления энергии",
+          "summary": "Эндрю Бейли объяснил депутатам, что может изменить прогноз пика инфляции вблизи 5% в 2027 году.",
+          "body": "25 ноября Эндрю Бейли заявил комитету по делам казначейства британского парламента, что недавнее снижение цен на энергию может сдержать рост потребительских цен. По данным Reuters, для этого энергоносители должны остаться вблизи нынешних уровней.\n\nРанее Банк Англии ожидал пик инфляции вблизи 5% во втором квартале 2027 года. Глава банка объяснил депутатам, как иная предпосылка о стоимости энергии меняет эту траекторию. Новую оценку пика он не назвал.",
+          "photoAlt": "Колонны фасада Банка Англии в Лондоне.",
+          "photoCaption": "Архивное фото, 2021-10-11. Колонны фасада Банка Англии в Лондоне."
+        },
+        "ko": {
+          "title": "베일리 “에너지 가격 하락세 유지되면 영국 물가 정점 낮아질 수 있어”",
+          "summary": "베일리 총재는 2027년 약 5% 정점 전망을 바꿀 수 있는 요인을 의회에 설명했다.",
+          "body": "앤드루 베일리는 11월 25일 영국 의회 재무위원회에서 최근 에너지 가격 하락이 소비자물가 상승을 완화할 수 있다고 말했다. 로이터에 따르면 이는 에너지 가격이 최근 수준 부근에 머물러야 가능하다.\n\n영란은행은 앞서 물가상승률이 2027년 2분기에 5%에 가까운 정점을 기록할 수 있다고 봤다. 베일리 총재는 에너지 가격 가정이 달라지면 경로가 어떻게 바뀌는지 의원들에게 설명했으며 새로운 정점 수치는 제시하지 않았다.",
+          "photoAlt": "런던 영란은행 건물 정면의 기둥들.",
+          "photoCaption": "자료 사진, 2021-10-11. 런던 영란은행 건물 정면의 기둥들."
+        }
+      }
+    },
+    {
+      "eventKey": "mexique-inflation-premiere-quinzaine-novembre-2026",
+      "title": "Au Mexique, l’inflation atteint 3,96 % dans la première moitié de novembre",
+      "category": "Économie",
+      "summary": "L’indice général accélère sur un an, alors que l’inflation sous-jacente ralentit à 3,68 %.",
+      "body": "Les prix à la consommation au Mexique dépassaient de 3,96 % leur niveau d’un an plus tôt pendant la première quinzaine de novembre, selon l’INEGI. Ce taux annuel était de 3,62 % à la même période du mois précédent. D’une quinzaine à l’autre, les prix ont augmenté de 0,54 %.\n\nLa mesure sous-jacente, qui écarte certains prix volatils, évolue en sens inverse. Son taux annuel est revenu de 3,78 % à 3,68 %, relève Reuters à la publication des chiffres le 24 novembre. Le panier complet et sa composante plus stable donnent ainsi deux lectures de la période.",
+      "sources": [
+        {
+          "name": "INEGI",
+          "url": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/inpc/inpc_1q2026_11.pdf",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/americas/mexicos-inflation-hits-six-month-high-core-measure-undershoots-forecasts-2026-11-24/",
+          "publishedAt": "2026-11-24T13:08:03Z"
+        }
+      ],
+      "photo": {
+        "download": "media/mexique-inflation-premiere-quinzaine.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acceso_principal_al_INEGI%2C_Aguascalientes.JPG",
+        "credit": "Luisalvaz / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Entrée du siège de l’INEGI à Aguascalientes.",
+        "caption": "Photo d’archives du 2014-09-01. Entrée du siège de l’INEGI à Aguascalientes."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Mexico’s inflation reaches 3.96% in first half of November",
+          "summary": "Headline annual inflation picked up while core inflation slowed to 3.68%.",
+          "body": "Consumer prices in Mexico were 3.96% higher than a year earlier in the first half of November, according to INEGI. The annual rate was 3.62% in the same part of the preceding month. Prices rose 0.54% from the previous fortnight.\n\nThe core measure, which excludes some volatile prices, moved the other way. Its annual rate eased from 3.78% to 3.68%, Reuters reported when the figures were released on November 24. The full basket and its more stable component thus gave different readings for the period.",
+          "photoAlt": "Entrance to INEGI headquarters in Aguascalientes.",
+          "photoCaption": "Archive photo, 2014-09-01. Entrance to INEGI headquarters in Aguascalientes."
+        },
+        "es": {
+          "title": "La inflación mexicana alcanza el 3,96 % en la primera quincena de noviembre",
+          "summary": "El indicador general se acelera en términos interanuales mientras la inflación subyacente baja al 3,68 %.",
+          "body": "Los precios al consumidor en México superaron en un 3,96 % los de un año antes en la primera quincena de noviembre, según el INEGI. La tasa anual fue del 3,62 % en la misma quincena del mes anterior. Frente a la quincena inmediata anterior, los precios subieron un 0,54 %.\n\nEl indicador subyacente, que excluye algunos precios volátiles, se movió en sentido contrario. Su tasa anual bajó del 3,78 % al 3,68 %, señaló Reuters al publicarse los datos el 24 de noviembre. La canasta completa y su parte más estable ofrecieron así lecturas distintas.",
+          "photoAlt": "Entrada de la sede del INEGI en Aguascalientes.",
+          "photoCaption": "Foto de archivo, 2014-09-01. Entrada de la sede del INEGI en Aguascalientes."
+        },
+        "ar": {
+          "title": "التضخم في المكسيك يبلغ 3.96% في النصف الأول من نوفمبر",
+          "summary": "تسارع التضخم العام على أساس سنوي فيما تباطأ التضخم الأساسي إلى 3.68%.",
+          "body": "ارتفعت أسعار المستهلكين في المكسيك 3.96% على أساس سنوي في النصف الأول من نوفمبر وفق معهد الإحصاء. وكان المعدل السنوي 3.62% في الفترة نفسها من الشهر السابق. وزادت الأسعار 0.54% مقارنة بالنصف السابق من الشهر.\n\nوسلك المؤشر الأساسي الذي يستبعد بعض الأسعار المتقلبة مسارا معاكسا. وأوردت رويترز عند نشر الأرقام في 24 نوفمبر أن معدله السنوي انخفض من 3.78% إلى 3.68%. وهكذا أعطت السلة بأكملها ومكونها الأكثر استقرارا قراءتين مختلفتين للفترة.",
+          "photoAlt": "مدخل مقر معهد الإحصاء المكسيكي في أغواسكاليينتس.",
+          "photoCaption": "صورة أرشيفية، 2014-09-01. مدخل مقر معهد الإحصاء المكسيكي في أغواسكاليينتس."
+        },
+        "zh-CN": {
+          "title": "墨西哥11月上半月通胀率升至3.96%",
+          "summary": "总体通胀年率加快，核心通胀却放缓至3.68%。",
+          "body": "墨西哥国家统计局数据显示，11月上半月消费价格同比上涨3.96%，高于上月同期的3.62%。与前半个月相比，价格上涨了0.54%。\n\n剔除部分波动较大价格的核心指标走势相反。路透社在11月24日数据发布时报道，核心通胀年率从3.78%降至3.68%。整个消费篮子与其中较稳定部分反映的价格变化有所不同。",
+          "photoAlt": "阿瓜斯卡连特斯的墨西哥国家统计局总部入口。",
+          "photoCaption": "档案照片，2014-09-01. 阿瓜斯卡连特斯的墨西哥国家统计局总部入口。"
+        },
+        "ru": {
+          "title": "Инфляция в Мексике достигла 3,96% в первой половине ноября",
+          "summary": "Общая годовая инфляция ускорилась, тогда как базовая замедлилась до 3,68%.",
+          "body": "В первой половине ноября потребительские цены в Мексике были на 3,96% выше, чем годом ранее, сообщил институт INEGI. За аналогичный период предыдущего месяца годовой рост составлял 3,62%. По сравнению с предшествующими двумя неделями цены выросли на 0,54%.\n\nБазовый показатель, исключающий некоторые волатильные цены, изменился в обратном направлении. Как сообщило Reuters при публикации данных 24 ноября, годовой темп снизился с 3,78% до 3,68%. Динамика полной корзины и её более устойчивой части разошлась.",
+          "photoAlt": "Вход в штаб-квартиру INEGI в Агуаскальентесе.",
+          "photoCaption": "Архивное фото, 2014-09-01. Вход в штаб-квартиру INEGI в Агуаскальентесе."
+        },
+        "ko": {
+          "title": "멕시코 11월 상반월 소비자물가 상승률 3.96%",
+          "summary": "전체 물가의 연간 상승 속도는 빨라졌지만 근원물가 상승률은 3.68%로 둔화했다.",
+          "body": "멕시코 통계청에 따르면 11월 상반월 소비자물가는 전년 동기 대비 3.96% 올랐다. 전월 같은 기간의 상승률은 3.62%였다. 직전 반월과 비교하면 물가는 0.54% 상승했다.\n\n변동성이 큰 일부 가격을 제외한 근원 지표는 반대로 움직였다. 로이터는 11월 24일 통계 발표에서 근원물가의 연간 상승률이 3.78%에서 3.68%로 낮아졌다고 전했다. 전체 소비 바구니와 가격이 상대적으로 안정된 부분의 흐름이 엇갈렸다.",
+          "photoAlt": "아과스칼리엔테스에 있는 멕시코 통계청 본부 입구.",
+          "photoCaption": "자료 사진, 2014-09-01. 아과스칼리엔테스에 있는 멕시코 통계청 본부 입구."
+        }
+      }
+    },
+    {
+      "eventKey": "nigeria-taux-directeur-maintien-novembre-2026",
+      "title": "Au Nigeria, la banque centrale maintient son taux directeur à 23 %",
+      "category": "Économie",
+      "summary": "Malgré le ralentissement de l’inflation en octobre, le gouverneur surveille les dépenses liées au scrutin de janvier.",
+      "body": "Le comité de politique monétaire du Nigeria a décidé le 24 novembre de conserver un taux directeur de 23 %. Dans son communiqué, la banque centrale constate que l’inflation annuelle a ralenti, de 14,63 % en septembre à 14,06 % en octobre.\n\nLe gouverneur Olayemi Cardoso a toutefois évoqué le risque que les dépenses liées aux élections exercent une pression sur les prix, selon Reuters. Il s’agissait de la dernière réunion ordinaire du comité prévue avant le scrutin national de janvier.",
+      "sources": [
+        {
+          "name": "Banque centrale du Nigeria",
+          "url": "https://www.cbn.gov.ng/Out/2026/CCD/MPC%20Communique%20No%20165%20of%20November%202026.pdf",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/africa/nigerias-central-bank-maintains-key-rate-anchor-inflation-expectations-2026-11-24/",
+          "publishedAt": "2026-11-24T13:11:46Z"
+        }
+      ],
+      "photo": {
+        "download": "media/nigeria-taux-directeur-maintien.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Central_Bank_of_Nigeria.jpg",
+        "credit": "GodwinPaya / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Siège de la Banque centrale du Nigeria à Abuja.",
+        "caption": "Photo d’archives du 2017-09-21. Siège de la Banque centrale du Nigeria à Abuja."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Nigeria’s central bank keeps benchmark rate at 23%",
+          "summary": "Despite October’s slowdown in inflation, the governor is watching spending tied to January’s election.",
+          "body": "Nigeria’s monetary policy committee decided on November 24 to retain its 23% benchmark rate. The central bank said in its statement that annual inflation had slowed from 14.63% in September to 14.06% in October.\n\nGovernor Olayemi Cardoso nevertheless cited the risk that election-related spending could push prices higher, Reuters reports. This was the committee’s last regularly scheduled meeting before the national election in January.",
+          "photoAlt": "Headquarters of the Central Bank of Nigeria in Abuja.",
+          "photoCaption": "Archive photo, 2017-09-21. Headquarters of the Central Bank of Nigeria in Abuja."
+        },
+        "es": {
+          "title": "El banco central de Nigeria mantiene el tipo de referencia en el 23 %",
+          "summary": "Pese a la moderación de la inflación en octubre, el gobernador vigila los gastos ligados a las elecciones de enero.",
+          "body": "El comité de política monetaria de Nigeria decidió el 24 de noviembre mantener el tipo de referencia en el 23 %. En su comunicado, el banco central señaló que la inflación anual se había moderado del 14,63 % en septiembre al 14,06 % en octubre.\n\nEl gobernador Olayemi Cardoso señaló, sin embargo, el riesgo de que el gasto electoral presione los precios al alza, según Reuters. Era la última reunión ordinaria del comité prevista antes de las elecciones nacionales de enero.",
+          "photoAlt": "Sede del Banco Central de Nigeria en Abuya.",
+          "photoCaption": "Foto de archivo, 2017-09-21. Sede del Banco Central de Nigeria en Abuya."
+        },
+        "ar": {
+          "title": "البنك المركزي النيجيري يبقي الفائدة الرئيسية عند 23%",
+          "summary": "رغم تباطؤ التضخم في أكتوبر يراقب المحافظ الإنفاق المرتبط بانتخابات يناير.",
+          "body": "قررت لجنة السياسة النقدية في نيجيريا في 24 نوفمبر تثبيت سعر الفائدة الرئيسي عند 23%. وقال البنك المركزي في بيانه إن التضخم السنوي تباطأ من 14.63% في سبتمبر إلى 14.06% في أكتوبر.\n\nلكن المحافظ أولاييمي كاردوسو أشار إلى احتمال أن يؤدي الإنفاق المرتبط بالانتخابات إلى ضغوط تصاعدية على الأسعار، وفق رويترز. وكان هذا آخر اجتماع عادي مقرر للجنة قبل الانتخابات الوطنية في يناير.",
+          "photoAlt": "مقر البنك المركزي النيجيري في أبوجا.",
+          "photoCaption": "صورة أرشيفية، 2017-09-21. مقر البنك المركزي النيجيري في أبوجا."
+        },
+        "zh-CN": {
+          "title": "尼日利亚央行将基准利率维持在23%",
+          "summary": "尽管10月通胀放缓，央行行长仍关注与1月选举有关的支出。",
+          "body": "尼日利亚货币政策委员会11月24日决定将基准利率维持在23%。央行在公报中表示，年通胀率已从9月的14.63%回落至10月的14.06%。\n\n不过，据路透社报道，央行行长奥拉耶米·卡尔多索指出，与选举有关的支出可能推高价格。这是该委员会在1月全国选举前安排的最后一次例会。",
+          "photoAlt": "位于阿布贾的尼日利亚中央银行总部。",
+          "photoCaption": "档案照片，2017-09-21. 位于阿布贾的尼日利亚中央银行总部。"
+        },
+        "ru": {
+          "title": "Центробанк Нигерии сохранил ключевую ставку на уровне 23%",
+          "summary": "Несмотря на замедление инфляции в октябре, глава ЦБ следит за расходами в связи с январскими выборами.",
+          "body": "24 ноября комитет по денежной политике Нигерии оставил ключевую ставку на уровне 23%. В заявлении центробанк отметил, что годовая инфляция замедлилась с 14,63% в сентябре до 14,06% в октябре.\n\nПри этом глава банка Олайеми Кардосо указал на риск роста цен из-за расходов, связанных с выборами, сообщает Reuters. Это было последнее плановое заседание комитета перед общенациональными выборами в январе.",
+          "photoAlt": "Штаб-квартира Центрального банка Нигерии в Абудже.",
+          "photoCaption": "Архивное фото, 2017-09-21. Штаб-квартира Центрального банка Нигерии в Абудже."
+        },
+        "ko": {
+          "title": "나이지리아 중앙은행, 기준금리 23% 동결",
+          "summary": "10월 물가상승세는 꺾였지만 중앙은행 총재는 1월 선거 관련 지출을 주시하고 있다.",
+          "body": "나이지리아 통화정책위원회는 11월 24일 기준금리를 23%로 유지하기로 했다. 중앙은행은 성명에서 연간 물가상승률이 9월 14.63%에서 10월 14.06%로 둔화했다고 밝혔다.\n\n다만 올라예미 카르도소 총재는 선거 관련 지출이 물가를 끌어올릴 위험이 있다고 말했다고 로이터가 보도했다. 이번 회의는 1월 전국 선거 전 마지막으로 예정된 정례회의였다.",
+          "photoAlt": "아부자에 있는 나이지리아 중앙은행 본부.",
+          "photoCaption": "자료 사진, 2017-09-21. 아부자에 있는 나이지리아 중앙은행 본부."
+        }
+      }
+    },
+    {
+      "eventKey": "japon-rapport-economique-novembre-2026-consommation",
+      "title": "Le Japon revoit à la baisse son appréciation de la consommation",
+      "category": "Économie",
+      "summary": "Tokyo abaisse son jugement sur les dépenses des ménages pour la première fois depuis février 2024 et relève celui sur les exportations.",
+      "body": "Dans son rapport de novembre, publié le 24, le gouvernement japonais se montre plus réservé sur les dépenses des ménages. Selon Reuters, c’est la première fois depuis février 2024 que Tokyo abaisse son appréciation de la consommation privée.\n\nLe Cabinet porte en revanche un regard plus favorable sur les exportations, soutenues par les marchés américain et européen. Il constate également une reprise de l’investissement des entreprises et maintient son diagnostic général de redressement modéré de l’économie.",
+      "sources": [
+        {
+          "name": "Bureau du Cabinet du Japon",
+          "url": "https://www5.cao.go.jp/keizai3/getsurei-e/2026nov.html",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/markets/asia/japan-cuts-view-consumer-spending-1st-time-since-2024-2026-11-24/",
+          "publishedAt": "2026-11-24T08:21:39Z"
+        }
+      ],
+      "photo": {
+        "download": "media/japon-rapport-economique-novembre.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:PMO_cropped.jpg",
+        "credit": "っ (Tsu) / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Bureau du premier ministre japonais derrière une clôture à Tokyo.",
+        "caption": "Photo d’archives du 2005-12. Bureau du premier ministre japonais derrière une clôture à Tokyo."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Japan downgrades its view of consumer spending",
+          "summary": "Tokyo downgraded its view of household spending for the first time since February 2024 and upgraded exports.",
+          "body": "Japan’s government took a more cautious view of household spending in its November report, released on the 24th. Reuters reports that this is the first time since February 2024 that Tokyo has downgraded its assessment of private consumption.\n\nThe Cabinet takes a more favourable view of exports, supported by US and European markets. It also sees business investment picking up and retains its overall assessment that the economy is recovering moderately.",
+          "photoAlt": "Japanese prime minister’s office behind a fence in Tokyo.",
+          "photoCaption": "Archive photo, 2005-12. Japanese prime minister’s office behind a fence in Tokyo."
+        },
+        "es": {
+          "title": "Japón rebaja su valoración del consumo privado",
+          "summary": "Tokio rebaja su evaluación del gasto de los hogares por primera vez desde febrero de 2024 y mejora la de las exportaciones.",
+          "body": "En su informe de noviembre, publicado el día 24, el Gobierno japonés se mostró más cauto sobre el gasto de los hogares. Según Reuters, es la primera vez desde febrero de 2024 que Tokio rebaja su valoración del consumo privado.\n\nEl Gobierno ve con mejores ojos las exportaciones, apoyadas por los mercados estadounidense y europeo. También observa una recuperación de la inversión empresarial y mantiene su diagnóstico general de recuperación moderada de la economía.",
+          "photoAlt": "Oficina del primer ministro japonés tras una verja en Tokio.",
+          "photoCaption": "Foto de archivo, 2005-12. Oficina del primer ministro japonés tras una verja en Tokio."
+        },
+        "ar": {
+          "title": "اليابان تخفض تقييمها للإنفاق الاستهلاكي",
+          "summary": "خفضت طوكيو تقييمها لإنفاق الأسر لأول مرة منذ فبراير 2024 ورفعت تقييم الصادرات.",
+          "body": "أبدت الحكومة اليابانية مزيدا من التحفظ تجاه إنفاق الأسر في تقريرها لشهر نوفمبر الصادر في الرابع والعشرين منه. وبحسب رويترز، هذه أول مرة منذ فبراير 2024 تخفض فيها طوكيو تقييمها للاستهلاك الخاص.\n\nفي المقابل، نظرت الحكومة بإيجابية أكبر إلى الصادرات بدعم من أسواق الولايات المتحدة وأوروبا. ورصدت أيضا تحسنا في استثمار الشركات، وأبقت على تقييمها العام بأن الاقتصاد يتعافى بوتيرة معتدلة.",
+          "photoAlt": "مكتب رئيس الوزراء الياباني خلف سياج في طوكيو.",
+          "photoCaption": "صورة أرشيفية، 2005-12. مكتب رئيس الوزراء الياباني خلف سياج في طوكيو."
+        },
+        "zh-CN": {
+          "title": "日本下调对居民消费的判断",
+          "summary": "东京自2024年2月以来首次下调家庭消费评估，同时上调出口评估。",
+          "body": "日本政府在11月24日发布的月度经济报告中，对家庭支出给出更谨慎的判断。据路透社报道，这是东京自2024年2月以来首次下调对私人消费的评估。\n\n与此同时，受美国和欧洲市场支撑，政府上调了对出口的判断。报告还指出企业投资正在回升，并维持经济整体温和复苏的评估。",
+          "photoAlt": "东京围栏后方的日本首相官邸。",
+          "photoCaption": "档案照片，2005-12. 东京围栏后方的日本首相官邸。"
+        },
+        "ru": {
+          "title": "Япония понизила оценку потребительских расходов",
+          "summary": "Токио впервые с февраля 2024 года понизил оценку расходов семей и улучшил оценку экспорта.",
+          "body": "В ноябрьском докладе, опубликованном 24-го числа, правительство Японии дало более осторожную оценку расходам домохозяйств. По данным Reuters, Токио впервые с февраля 2024 года понизил оценку частного потребления.\n\nВ то же время правительство улучшило оценку экспорта благодаря спросу со стороны США и Европы. Оно также отмечает оживление инвестиций компаний и сохраняет общий вывод об умеренном восстановлении экономики.",
+          "photoAlt": "Здание канцелярии премьер-министра Японии за оградой в Токио.",
+          "photoCaption": "Архивное фото, 2005-12. Здание канцелярии премьер-министра Японии за оградой в Токио."
+        },
+        "ko": {
+          "title": "일본 정부, 민간소비에 대한 판단 하향",
+          "summary": "일본은 2024년 2월 이후 처음으로 가계 지출 판단을 낮추고 수출 평가는 높였다.",
+          "body": "일본 정부는 11월 24일 발표한 월간 경제보고서에서 가계 지출에 대해 더 신중한 평가를 내렸다. 로이터에 따르면 일본이 민간소비 판단을 낮춘 것은 2024년 2월 이후 처음이다.\n\n반면 미국과 유럽 시장이 뒷받침하면서 수출에 대한 평가는 높아졌다. 정부는 기업 투자도 회복되고 있다고 진단하면서 경제 전반이 완만하게 회복되고 있다는 판단을 유지했다.",
+          "photoAlt": "도쿄의 울타리 너머로 보이는 일본 총리 관저.",
+          "photoCaption": "자료 사진, 2005-12. 도쿄의 울타리 너머로 보이는 일본 총리 관저."
+        }
+      }
+    },
+    {
+      "eventKey": "norvege-chomage-tendance-octobre-2026",
+      "title": "En Norvège, le chômage atteint 4,7 % en octobre selon l’enquête sur l’emploi",
+      "category": "Économie",
+      "summary": "Le taux des femmes et celui des hommes se rapprochent, malgré des évolutions contraires depuis le début de l’année.",
+      "body": "L’institut norvégien de statistique estime à 144 000 le nombre de chômeurs âgés de 15 à 74 ans en octobre. Selon la série qui dégage la tendance de son enquête sur la population active, le taux de chômage atteint 4,7 %, un dixième de point de plus qu’en septembre.\n\nLes trajectoires divergent depuis le début de l’année. Le taux des femmes est passé de 4,1 % à 4,5 %, tandis que celui des hommes a reculé de 5,1 % à 4,8 %. Comme le rappelle l’agence NTB, l’enquête et le registre administratif des demandeurs d’emploi mesurent le chômage différemment.",
+      "sources": [
+        {
+          "name": "Statistique Norvège",
+          "url": "https://www.ssb.no/arbeid-og-lonn/sysselsetting/statistikk/arbeidskraftundersokelsen/artikler/arbeidsledigheten-pa-4-7-prosent",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "NTB / Dagsavisen",
+          "url": "https://www.dagsavisen.no/notice/10650469",
+          "publishedAt": "2026-11-25T07:54:56Z"
+        }
+      ],
+      "photo": {
+        "download": "media/norvege-chomage-tendance-octobre.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statistisk-sentralbyraa-building-akersveien26-oslo-norway.jpg",
+        "credit": "Thomasbjornskau / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Bâtiment en briques rouges de l’institut norvégien de statistique à Oslo.",
+        "caption": "Photo d’archives du 2014-08-05. Bâtiment en briques rouges de l’institut norvégien de statistique à Oslo."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Norwegian labour survey puts October unemployment at 4.7%",
+          "summary": "Women’s and men’s rates are drawing closer, moving in opposite directions since the start of the year.",
+          "body": "Statistics Norway estimates that 144,000 people aged 15 to 74 were unemployed in October. The trend series from its labour force survey puts the unemployment rate at 4.7%, a tenth of a percentage point higher than in September.\n\nThe trends have diverged since the start of the year. The rate for women rose from 4.1% to 4.5%, while the rate for men fell from 5.1% to 4.8%. As the NTB news agency notes, the survey and the administrative register of jobseekers measure unemployment differently.",
+          "photoAlt": "Red-brick Statistics Norway building in Oslo.",
+          "photoCaption": "Archive photo, 2014-08-05. Red-brick Statistics Norway building in Oslo."
+        },
+        "es": {
+          "title": "La encuesta laboral de Noruega sitúa el desempleo de octubre en el 4,7 %",
+          "summary": "Las tasas de mujeres y hombres se acercan pese a seguir direcciones opuestas desde principios de año.",
+          "body": "La oficina noruega de estadística calcula que en octubre había 144.000 desempleados de 15 a 74 años. La serie de tendencia de su encuesta de población activa sitúa la tasa en el 4,7 %, una décima de punto más que en septiembre.\n\nLas trayectorias divergen desde principios de año. La tasa femenina pasó del 4,1 % al 4,5 %, mientras que la masculina bajó del 5,1 % al 4,8 %. Como recuerda la agencia NTB, la encuesta y el registro administrativo de demandantes de empleo miden el paro de forma distinta.",
+          "photoAlt": "Edificio de ladrillo rojo de la oficina de estadística noruega en Oslo.",
+          "photoCaption": "Foto de archivo, 2014-08-05. Edificio de ladrillo rojo de la oficina de estadística noruega en Oslo."
+        },
+        "ar": {
+          "title": "مسح العمل في النرويج يضع بطالة أكتوبر عند 4.7%",
+          "summary": "تقارب معدلا بطالة النساء والرجال رغم تحركهما في اتجاهين متعاكسين منذ بداية العام.",
+          "body": "تقدر هيئة الإحصاء النرويجية عدد العاطلين بين سن 15 و74 عاما في أكتوبر بنحو 144 ألفا. وبلغ معدل البطالة وفقا لسلسلة الاتجاه العام في مسح القوى العاملة 4.7%، بزيادة عُشر نقطة مئوية على سبتمبر.\n\nوتباين المساران منذ بداية العام. فقد ارتفع معدل النساء من 4.1% إلى 4.5%، بينما هبط معدل الرجال من 5.1% إلى 4.8%. وكما تذكر وكالة إن تي بي، يختلف قياس البطالة في المسح عنه في السجل الإداري للباحثين عن عمل.",
+          "photoAlt": "مبنى هيئة الإحصاء النرويجية المشيد بالطوب الأحمر في أوسلو.",
+          "photoCaption": "صورة أرشيفية، 2014-08-05. مبنى هيئة الإحصاء النرويجية المشيد بالطوب الأحمر في أوسلو."
+        },
+        "zh-CN": {
+          "title": "挪威劳动力调查显示10月失业率为4.7%",
+          "summary": "年初以来男女失业率走势相反，两者差距缩小。",
+          "body": "挪威统计局估计，10月有14.4万名15至74岁的人失业。劳动力调查的趋势序列显示，失业率为4.7%，比9月高0.1个百分点。\n\n男女失业率从年初以来的走势不同。女性失业率从4.1%升至4.5%，男性则从5.1%降至4.8%。挪威通讯社NTB指出，劳动力调查与求职者行政登记采用不同方法衡量失业。",
+          "photoAlt": "奥斯陆的挪威统计局红砖建筑。",
+          "photoCaption": "档案照片，2014-08-05. 奥斯陆的挪威统计局红砖建筑。"
+        },
+        "ru": {
+          "title": "Опрос рабочей силы в Норвегии показал безработицу в октябре на уровне 4,7%",
+          "summary": "Разрыв между женской и мужской безработицей сокращается: с начала года показатели движутся в разных направлениях.",
+          "body": "Статистическое управление Норвегии оценило число безработных в возрасте от 15 до 74 лет в октябре в 144 тысячи. По трендовому ряду обследования рабочей силы уровень безработицы достиг 4,7%, на 0,1 процентного пункта выше сентября.\n\nС начала года показатели для женщин и мужчин менялись в разных направлениях. Для женщин уровень вырос с 4,1% до 4,5%, для мужчин снизился с 5,1% до 4,8%. Как отмечает агентство NTB, опрос и административный реестр соискателей по-разному измеряют безработицу.",
+          "photoAlt": "Краснокирпичное здание статистического управления Норвегии в Осло.",
+          "photoCaption": "Архивное фото, 2014-08-05. Краснокирпичное здание статистического управления Норвегии в Осло."
+        },
+        "ko": {
+          "title": "노르웨이 노동력 조사, 10월 실업률 4.7%",
+          "summary": "연초 이후 남녀 실업률이 반대로 움직이면서 격차가 좁아졌다.",
+          "body": "노르웨이 통계청은 10월 15~74세 실업자가 14만 4,000명이라고 추산했다. 노동력 조사의 추세 계열로 본 실업률은 4.7%로 9월보다 0.1%포인트 높았다.\n\n연초 이후 남녀 실업률은 다른 방향으로 움직였다. 여성은 4.1%에서 4.5%로 올랐고 남성은 5.1%에서 4.8%로 내렸다. NTB통신에 따르면 이 조사와 구직자 행정 등록부는 실업을 측정하는 방식이 다르다.",
+          "photoAlt": "오슬로에 있는 노르웨이 통계청의 붉은 벽돌 건물.",
+          "photoCaption": "자료 사진, 2014-08-05. 오슬로에 있는 노르웨이 통계청의 붉은 벽돌 건물."
+        }
+      }
+    },
+    {
+      "eventKey": "alouettes-sept-contrats-horvat-novembre-2026",
+      "title": "Les Alouettes engagent sept joueurs, dont le botteur canadien Michael Horvat",
+      "category": "Sports",
+      "summary": "Six défenseurs de l’équipe d’entraînement reviennent à Montréal. Horvat est le seul nouveau venu parmi les sept joueurs sous contrat.",
+      "body": "Les Alouettes de Montréal ont annoncé le 25 novembre la signature de sept joueurs. Six ont fait partie de leur équipe d’entraînement. Le septième, le botteur canadien Michael Horvat, rejoint le groupe, rapporte le média spécialisé 3DownNation.\n\nLes six joueurs de retour évoluent en défense. Ty Anderson, Kylan Guidry et TJ Guy jouent sur la ligne, Donovan Manuel et Quinn Urwiler sont secondeurs, et Gemon Green est demi défensif. Guidry s’était aussi illustré sur les unités spéciales en bloquant deux dégagements dans un même match contre Edmonton.",
+      "sources": [
+        {
+          "name": "Alouettes de Montréal",
+          "url": "https://en.montrealalouettes.prod.s.cfl.ca/article/als-ink-seven-players-including-two-canadians",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "3DownNation",
+          "url": "https://3downnation.com/2026/11/25/montreal-alouettes-sign-seven/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/alouettes-sept-contrats-horvat.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Percival_Molson_Memorial_Stadium%2C_Montreal%2C_Quebec.jpg",
+        "credit": "Quintin Soloviev / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "Vue en hauteur du stade Percival-Molson à Montréal.",
+        "caption": "Photo d’archives du 2024-10-14. Vue en hauteur du stade Percival-Molson à Montréal."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Alouettes sign seven players, including Canadian kicker Michael Horvat",
+          "summary": "Six practice-roster defenders return to Montreal. Horvat is the only newcomer among the seven signings.",
+          "body": "The Montreal Alouettes announced seven signings on November 25. Six players have been on their practice roster. The seventh, Canadian kicker Michael Horvat, joins the group, football outlet 3DownNation reports.\n\nAll six returning players play defence. Ty Anderson, Kylan Guidry and TJ Guy are linemen, Donovan Manuel and Quinn Urwiler are linebackers and Gemon Green is a defensive back. Guidry also stood out on special teams by blocking two punts in one game against Edmonton.",
+          "photoAlt": "Elevated view of Percival Molson Stadium in Montreal.",
+          "photoCaption": "Archive photo, 2024-10-14. Elevated view of Percival Molson Stadium in Montreal."
+        },
+        "es": {
+          "title": "Los Alouettes fichan a siete jugadores, entre ellos el pateador canadiense Michael Horvat",
+          "summary": "Regresan seis defensores del equipo de prácticas de Montreal. Horvat es el único recién llegado de los siete fichajes.",
+          "body": "Los Alouettes de Montreal anunciaron siete fichajes el 25 de noviembre. Seis jugadores han formado parte de su equipo de prácticas. El séptimo, el pateador canadiense Michael Horvat, se incorpora al grupo, según el medio especializado 3DownNation.\n\nLos seis que regresan juegan en defensa. Ty Anderson, Kylan Guidry y TJ Guy forman parte de la línea, Donovan Manuel y Quinn Urwiler son linebackers y Gemon Green juega en la secundaria. Guidry también destacó en equipos especiales al bloquear dos despejes en un partido contra Edmonton.",
+          "photoAlt": "Vista elevada del estadio Percival Molson en Montreal.",
+          "photoCaption": "Foto de archivo, 2024-10-14. Vista elevada del estadio Percival Molson en Montreal."
+        },
+        "ar": {
+          "title": "مونتريال ألويت يوقع مع سبعة لاعبين بينهم الراكل الكندي مايكل هورفات",
+          "summary": "يعود ستة مدافعين من فريق التدريب في مونتريال، وهورفات هو الوافد الوحيد بين اللاعبين السبعة.",
+          "body": "أعلن فريق مونتريال ألويت في 25 نوفمبر التعاقد مع سبعة لاعبين. وسبق أن شارك ستة منهم في فريقه التدريبي. أما السابع فهو الراكل الكندي مايكل هورفات الذي ينضم إلى المجموعة، بحسب موقع 3DownNation المتخصص.\n\nويلعب الستة العائدون في الدفاع. يشغل تاي أندرسون وكايلان غايدري وتي جي غاي مواقع في الخط، ودونوفان مانويل وكوين أورويلر في مركز الظهير المساند، وغيمون غرين في الدفاع الخلفي. وتميز غايدري أيضا ضمن الفرق الخاصة حين صد ركلتي إبعاد في مباراة واحدة ضد إدمونتون.",
+          "photoAlt": "منظر من أعلى لاستاد بيرسيفال مولسون في مونتريال.",
+          "photoCaption": "صورة أرشيفية، 2024-10-14. منظر من أعلى لاستاد بيرسيفال مولسون في مونتريال."
+        },
+        "zh-CN": {
+          "title": "蒙特利尔云雀队签下七人，包括加拿大踢球手迈克尔·霍瓦特",
+          "summary": "六名训练名单上的防守球员回归。霍瓦特是七名签约球员中唯一的新面孔。",
+          "body": "蒙特利尔云雀队11月25日宣布签下七名球员。其中六人曾进入球队训练名单。据专业媒体3DownNation报道，第七人是新加入的加拿大踢球手迈克尔·霍瓦特。\n\n回归的六人都是防守球员。泰·安德森、凯兰·吉德里和TJ·盖伊打防守锋线，多诺万·曼努埃尔和奎因·厄尔维勒打线卫，杰蒙·格林打防守后卫。吉德里也曾在特勤组有突出表现，一场对埃德蒙顿的比赛中两度封堵弃踢。",
+          "photoAlt": "从高处俯瞰蒙特利尔珀西瓦尔·莫尔森体育场。",
+          "photoCaption": "档案照片，2024-10-14. 从高处俯瞰蒙特利尔珀西瓦尔·莫尔森体育场。"
+        },
+        "ru": {
+          "title": "«Алуэтт» подписали семерых игроков, включая канадского кикера Майкла Хорвата",
+          "summary": "В Монреаль возвращаются шесть защитников тренировочного состава. Хорват — единственный новичок из семерых.",
+          "body": "25 ноября «Монреаль Алуэтт» объявили о подписании семерых игроков. Шестеро уже входили в тренировочный состав. Седьмой, канадский кикер Майкл Хорват, присоединяется к группе, сообщает профильное издание 3DownNation.\n\nВсе шестеро вернувшихся играют в защите. Тай Андерсон, Кайлан Гидри и Ти Джей Гай выступают в линии, Донован Мануэл и Куинн Урвилер — лайнбекеры, Джемон Грин — защитник задней линии. Гидри также отличился в спецкоманде, заблокировав два панта в одной игре против Эдмонтона.",
+          "photoAlt": "Вид сверху на стадион имени Персиваля Молсона в Монреале.",
+          "photoCaption": "Архивное фото, 2024-10-14. Вид сверху на стадион имени Персиваля Молсона в Монреале."
+        },
+        "ko": {
+          "title": "몬트리올 알루에츠, 캐나다인 키커 마이클 호바트 등 7명 계약",
+          "summary": "연습 명단에 있던 수비수 6명이 복귀한다. 호바트는 계약 선수 7명 중 유일한 새 얼굴이다.",
+          "body": "몬트리올 알루에츠는 11월 25일 선수 7명과 계약했다고 발표했다. 이 가운데 6명은 팀 연습 명단에 있었고, 캐나다인 키커 마이클 호바트가 새로 합류했다고 전문 매체 3DownNation이 전했다.\n\n복귀한 6명은 모두 수비수다. 타이 앤더슨, 카일런 기드리, TJ 가이는 수비 라인을 맡고 도너번 매뉴얼과 퀸 어윌러는 라인배커, 지몬 그린은 디펜시브백이다. 기드리는 스페셜팀에서도 에드먼턴전 한 경기에서 펀트를 두 번 막아낸 바 있다.",
+          "photoAlt": "높은 곳에서 바라본 몬트리올 퍼시벌 몰슨 경기장.",
+          "photoCaption": "자료 사진, 2024-10-14. 높은 곳에서 바라본 몬트리올 퍼시벌 몰슨 경기장."
+        }
+      }
+    },
+    {
+      "eventKey": "ducks-gauthier-dix-neuf-buts-novembre-sharks",
+      "title": "Cutter Gauthier marque son 19e but du mois dans un gain de 7 à 0 des Ducks",
+      "category": "Sports",
+      "summary": "À deux matchs de la fin novembre, l’attaquant d’Anaheim est à un but du record mensuel de la LNH.",
+      "body": "Les Ducks d’Anaheim ont mis fin le 25 novembre à une série de quatre défaites en blanchissant les Sharks de San José 7 à 0. Selon la LNH, Cutter Gauthier a inscrit son 19e but de novembre. Il lui reste deux rencontres pour tenter d’égaler le record de buts en un mois.\n\nJoe Malone et Teemu Selanne partagent ce record avec 20 buts chacun. Dans la victoire des Ducks, Alex Killorn a marqué deux fois et Laurent Brossoit a repoussé les 22 tirs des Sharks, rapporte Field Level Media.",
+      "sources": [
+        {
+          "name": "Ligue nationale de hockey",
+          "url": "https://www.nhl.com/news/san-jose-sharks-anaheim-ducks-game-recap-november-25-2026",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Field Level Media / Reuters",
+          "url": "https://www.reuters.com/sports/nhl/ducks-end-4-game-losing-streak-with-7-0-demolition-sharks--flm-2026-11-26/",
+          "publishedAt": "2026-11-26T05:59:51Z"
+        }
+      ],
+      "photo": {
+        "download": "media/ducks-gauthier-dix-neuf.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Honda-ext4.jpg",
+        "credit": "Arnold C (User:Buchanan-Hermit) / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "Attribution — réutilisation autorisée par Arnold C",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Honda-ext4.jpg#Summary",
+        "alt": "Entrée vitrée du Honda Center à Anaheim.",
+        "caption": "Photo d’archives du 2007-04-29. Entrée vitrée du Honda Center à Anaheim."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Cutter Gauthier scores 19th goal of month as Ducks win 7–0",
+          "summary": "With two games left in November, the Anaheim forward is one goal short of the NHL’s monthly record.",
+          "body": "The Anaheim Ducks ended a four-game losing streak on November 25 by shutting out the San Jose Sharks 7–0. According to the NHL, Cutter Gauthier scored his 19th goal of November. He has two games left to try to match the record for goals in a month.\n\nJoe Malone and Teemu Selanne share that record with 20 apiece. Alex Killorn scored twice in the Ducks’ win and Laurent Brossoit stopped all 22 Sharks shots, Field Level Media reports.",
+          "photoAlt": "Glass entrance to the Honda Center in Anaheim.",
+          "photoCaption": "Archive photo, 2007-04-29. Glass entrance to the Honda Center in Anaheim."
+        },
+        "es": {
+          "title": "Cutter Gauthier suma su 19.º gol del mes en el triunfo de los Ducks por 7-0",
+          "summary": "A falta de dos partidos en noviembre, el delantero de Anaheim está a un gol del récord mensual de la NHL.",
+          "body": "Los Ducks de Anaheim cortaron el 25 de noviembre una racha de cuatro derrotas al vencer 7-0 a los Sharks de San José. Según la NHL, Cutter Gauthier anotó su 19.º gol de noviembre. Le quedan dos partidos para intentar igualar el récord de goles en un mes.\n\nJoe Malone y Teemu Selanne comparten el récord con 20 tantos cada uno. Alex Killorn marcó dos veces en la victoria de los Ducks y Laurent Brossoit detuvo los 22 tiros de los Sharks, informa Field Level Media.",
+          "photoAlt": "Entrada acristalada del Honda Center en Anaheim.",
+          "photoCaption": "Foto de archivo, 2007-04-29. Entrada acristalada del Honda Center en Anaheim."
+        },
+        "ar": {
+          "title": "غوتييه يسجل هدفه التاسع عشر هذا الشهر في فوز داكس بسباعية",
+          "summary": "قبل مباراتين من نهاية نوفمبر يبتعد مهاجم أنهايم بهدف واحد عن الرقم الشهري لدوري الهوكي.",
+          "body": "أنهى أنهايم داكس سلسلة من أربع هزائم يوم 25 نوفمبر بفوزه على سان خوسيه شاركس 7-0. وبحسب دوري الهوكي الوطني سجل كاتر غوتييه هدفه التاسع عشر في نوفمبر. وتبقت له مباراتان لمحاولة معادلة الرقم القياسي لعدد الأهداف في شهر واحد.\n\nويتقاسم جو مالون وتيمو سيلانه الرقم برصيد 20 هدفا لكل منهما. وسجل أليكس كيلورن هدفين لداكس وتصدى لوران بروسوا لتسديدات شاركس الـ22 كلها، وفق فيلد ليفل ميديا.",
+          "photoAlt": "المدخل الزجاجي لمركز هوندا في أنهايم.",
+          "photoCaption": "صورة أرشيفية، 2007-04-29. المدخل الزجاجي لمركز هوندا في أنهايم."
+        },
+        "zh-CN": {
+          "title": "戈捷打入本月第19球，鸭队7比0取胜",
+          "summary": "11月还剩两场比赛，阿纳海姆前锋距离联盟单月进球纪录只差一球。",
+          "body": "阿纳海姆鸭队11月25日以7比0零封圣何塞鲨鱼队，结束四连败。据北美冰球联盟统计，卡特·戈捷打进了他在11月的第19球。本月还剩两场比赛，他有机会追平单月进球纪录。\n\n乔·马隆和泰穆·塞兰内以各20球并列保持纪录。据Field Level Media报道，亚历克斯·基洛恩为鸭队攻入两球，洛朗·布罗苏瓦扑出了鲨鱼队全部22次射门。",
+          "photoAlt": "阿纳海姆本田中心的玻璃入口。",
+          "photoCaption": "档案照片，2007-04-29. 阿纳海姆本田中心的玻璃入口。"
+        },
+        "ru": {
+          "title": "Готье забросил 19-ю шайбу за месяц в победном матче «Анахайма» со счётом 7:0",
+          "summary": "За две игры до конца ноября нападающему «Анахайма» не хватает одной шайбы до месячного рекорда НХЛ.",
+          "body": "25 ноября «Анахайм Дакс» прервали серию из четырёх поражений, обыграв «Сан-Хосе Шаркс» всухую 7:0. По данным НХЛ, Каттер Готье забросил 19-ю шайбу в ноябре. У него осталось две игры, чтобы попытаться повторить рекорд результативности за месяц.\n\nРекорд делят Джо Мэлоун и Теему Селянне, забросившие по 20 шайб. Как сообщает Field Level Media, Алекс Киллорн оформил дубль, а Лоран Броссуа отразил все 22 броска «Шаркс».",
+          "photoAlt": "Стеклянный вход в «Хонда-центр» в Анахайме.",
+          "photoCaption": "Архивное фото, 2007-04-29. Стеклянный вход в «Хонда-центр» в Анахайме."
+        },
+        "ko": {
+          "title": "고티에, 이달 19호 골… 애너하임 7 대 0 완승",
+          "summary": "11월 두 경기를 남긴 애너하임 공격수는 NHL 월간 최다 골 기록에 한 골 차로 다가섰다.",
+          "body": "애너하임 덕스가 11월 25일 산호세 샤크스를 7 대 0으로 꺾고 4연패를 끊었다. NHL에 따르면 커터 고티에는 11월 들어 19번째 골을 넣었다. 한 달 최다 골 기록에 도전할 기회는 두 경기 남았다.\n\n조 멀론과 테무 셀란네가 각각 20골로 기록을 보유하고 있다. 필드레벨미디어에 따르면 알렉스 킬론이 두 골을 넣고 로랑 브로수아가 샤크스의 슛 22개를 모두 막았다.",
+          "photoAlt": "애너하임 혼다 센터의 유리 출입구.",
+          "photoCaption": "자료 사진, 2007-04-29. 애너하임 혼다 센터의 유리 출입구."
+        }
+      }
+    },
+    {
+      "eventKey": "chicago-seattle-kantserov-double-25-novembre-2026",
+      "title": "Deux buts de Roman Kantserov donnent la victoire à Chicago à Seattle",
+      "category": "Sports",
+      "summary": "Tous les buts sont venus en troisième période. Spencer Knight a effectué 29 arrêts dans le gain de 3 à 1 des Blackhawks.",
+      "body": "Après deux périodes sans but, les Blackhawks de Chicago ont battu le Kraken 3 à 1 à Seattle le 25 novembre. Selon le compte rendu de la LNH, Cole Smith a ouvert la marque à 5 min 58 s de la troisième période. Roman Kantserov a inscrit les deux autres buts des visiteurs.\n\nSpencer Knight a réalisé 29 arrêts devant le filet de Chicago. Seul Jordan Eberle a réussi à le déjouer pour Seattle, rapporte Field Level Media. Les Blackhawks remportent ainsi un troisième match de suite pendant leur voyage.",
+      "sources": [
+        {
+          "name": "Ligue nationale de hockey",
+          "url": "https://www.nhl.com/news/chicago-blackhawks-seattle-kraken-game-recap-november-25-2026",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Field Level Media / Reuters",
+          "url": "https://www.reuters.com/sports/nhl/roman-kantserov-scores-pair-blackhawks-shut-down-kraken--flm-2026-11-26/",
+          "publishedAt": "2026-11-26T05:53:51Z"
+        }
+      ],
+      "photo": {
+        "download": "media/chicago-seattle-kantserov-double.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Climate_Pledge_Arena_NW.jpg",
+        "credit": "Sea Cow / Wikimedia Commons (redimensionnement, WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Vue aérienne du toit clair de la Climate Pledge Arena à Seattle.",
+        "caption": "Photo d’archives du 2022-05-28. Vue aérienne du toit clair de la Climate Pledge Arena à Seattle."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Kantserov scores twice as Chicago wins in Seattle",
+          "summary": "All the goals came in the third period. Spencer Knight made 29 saves in the Blackhawks’ 3–1 win.",
+          "body": "After two scoreless periods, the Chicago Blackhawks beat the Kraken 3–1 in Seattle on November 25. According to the NHL recap, Cole Smith opened the scoring 5:58 into the third period. Roman Kantserov scored the visitors’ other two goals.\n\nSpencer Knight made 29 saves for Chicago. Only Jordan Eberle beat him for Seattle, Field Level Media reports. The Blackhawks have now won three straight games on their road trip.",
+          "photoAlt": "Aerial view of the pale roof of Climate Pledge Arena in Seattle.",
+          "photoCaption": "Archive photo, 2022-05-28. Aerial view of the pale roof of Climate Pledge Arena in Seattle."
+        },
+        "es": {
+          "title": "Dos goles de Kantserov dan la victoria a Chicago en Seattle",
+          "summary": "Todos los goles llegaron en el tercer período. Spencer Knight hizo 29 paradas en el triunfo de los Blackhawks por 3-1.",
+          "body": "Tras dos períodos sin goles, los Blackhawks de Chicago vencieron 3-1 al Kraken en Seattle el 25 de noviembre. Según la crónica de la NHL, Cole Smith abrió el marcador a los 5:58 del tercer período. Roman Kantserov marcó los otros dos tantos visitantes.\n\nSpencer Knight hizo 29 paradas para Chicago. Solo Jordan Eberle consiguió superarlo por Seattle, informa Field Level Media. Los Blackhawks suman tres victorias consecutivas en su gira.",
+          "photoAlt": "Vista aérea del techo claro del Climate Pledge Arena de Seattle.",
+          "photoCaption": "Foto de archivo, 2022-05-28. Vista aérea del techo claro del Climate Pledge Arena de Seattle."
+        },
+        "ar": {
+          "title": "هدفان لكانتسيروف يمنحان شيكاغو الفوز في سياتل",
+          "summary": "جاءت الأهداف كلها في الفترة الثالثة وتصدى سبنسر نايت لـ29 تسديدة في فوز بلاكهوكس 3-1.",
+          "body": "بعد فترتين بلا أهداف تغلب شيكاغو بلاكهوكس على كراكن 3-1 في سياتل يوم 25 نوفمبر. وبحسب تقرير دوري الهوكي افتتح كول سميث التسجيل بعد خمس دقائق و58 ثانية من بداية الفترة الثالثة. وسجل رومان كانتسيروف هدفي الضيوف الآخرين.\n\nوتصدى سبنسر نايت لـ29 تسديدة لحساب شيكاغو. وكان جوردان إيبرلي الوحيد الذي هز شباكه لصالح سياتل، وفق فيلد ليفل ميديا. وحقق بلاكهوكس بذلك انتصارهم الثالث تواليا في جولتهم خارج الديار.",
+          "photoAlt": "منظر جوي للسقف الفاتح لقاعة كلايمت بليدج أرينا في سياتل.",
+          "photoCaption": "صورة أرشيفية، 2022-05-28. منظر جوي للسقف الفاتح لقاعة كلايمت بليدج أرينا في سياتل."
+        },
+        "zh-CN": {
+          "title": "坎采罗夫梅开二度，芝加哥客场战胜西雅图",
+          "summary": "所有进球都出现在第三节。斯潘塞·奈特完成29次扑救，帮助黑鹰队以3比1取胜。",
+          "body": "前两节双方均无进球，芝加哥黑鹰队最终于11月25日在西雅图以3比1击败海怪队。据北美冰球联盟战报，科尔·史密斯在第三节开始5分58秒时首开纪录，罗曼·坎采罗夫打入客队其余两球。\n\n斯潘塞·奈特为芝加哥完成29次扑救。据Field Level Media报道，西雅图只有乔丹·埃伯利攻破了他把守的大门。黑鹰队由此在这趟客场之旅中取得三连胜。",
+          "photoAlt": "从空中俯瞰西雅图气候承诺球馆的浅色屋顶。",
+          "photoCaption": "档案照片，2022-05-28. 从空中俯瞰西雅图气候承诺球馆的浅色屋顶。"
+        },
+        "ru": {
+          "title": "Дубль Романа Канцерова принёс «Чикаго» победу в Сиэтле",
+          "summary": "Все шайбы забросили в третьем периоде. Спенсер Найт сделал 29 сейвов в победном матче «Блэкхокс» со счётом 3:1.",
+          "body": "После двух безголевых периодов «Чикаго Блэкхокс» 25 ноября обыграли «Кракен» в Сиэтле со счётом 3:1. По данным НХЛ, Коул Смит открыл счёт на отметке 5:58 третьего периода. Две другие шайбы гостей забросил Роман Канцеров.\n\nСпенсер Найт сделал 29 сейвов в воротах «Чикаго». Как сообщает Field Level Media, у «Сиэтла» его сумел переиграть только Джордан Эберле. Для «Блэкхокс» это третья победа подряд в выездной серии.",
+          "photoAlt": "Вид с воздуха на светлую крышу арены Climate Pledge в Сиэтле.",
+          "photoCaption": "Архивное фото, 2022-05-28. Вид с воздуха на светлую крышу арены Climate Pledge в Сиэтле."
+        },
+        "ko": {
+          "title": "칸체로프 두 골로 시카고, 시애틀 원정 승리",
+          "summary": "모든 골이 3피리어드에 나왔다. 스펜서 나이트가 29세이브로 블랙호크스의 3 대 1 승리를 도왔다.",
+          "body": "시카고 블랙호크스가 두 피리어드 동안 득점 없이 맞선 끝에 11월 25일 시애틀에서 크라켄을 3 대 1로 꺾었다. NHL 경기 기록에 따르면 콜 스미스가 3피리어드 5분 58초에 선제골을 넣었다. 로만 칸체로프가 원정팀의 나머지 두 골을 넣었다.\n\n시카고 골리 스펜서 나이트는 29세이브를 기록했다. 시애틀에서 그의 골문을 뚫은 선수는 조던 에벌리뿐이었다고 필드레벨미디어가 전했다. 블랙호크스는 이번 원정에서 3연승을 거뒀다.",
+          "photoAlt": "시애틀 클라이밋 플레지 아레나의 밝은색 지붕을 내려다본 모습.",
+          "photoCaption": "자료 사진, 2022-05-28. 시애틀 클라이밋 플레지 아레나의 밝은색 지붕을 내려다본 모습."
+        }
+      }
+    }
+  ]
+}
