@@ -3,6 +3,8 @@ import { createContext, useContext, useEffect, type ReactNode } from 'react';
 import { Languages } from 'lucide-react';
 import { isPublicLocale, nativeNames, localeLabels, localizedHref, publicLocales, type PublicLocale } from '../lib/i18n';
 
+const shortName = (code: PublicLocale) => code.split('-')[0].toUpperCase();
+
 const ReadingLocale = createContext<PublicLocale>('fr');
 export const usePublicLocale = () => useContext(ReadingLocale);
 export function PublicLocaleProvider({locale, children}:{locale:PublicLocale;children:ReactNode}) {
@@ -20,5 +22,10 @@ export function LanguageSelect({locale: explicit}:{locale?:PublicLocale} = {}) {
     document.cookie = 'byrvox-language='+value+'; Path=/; Max-Age=31536000; SameSite=Lax'+(location.protocol==='https:'?'; Secure':'');
     location.assign(localizedHref(location.pathname+location.search+location.hash,value));
   }
-  return <label className="byrvox-language" data-short={locale === 'zh-CN' ? '中文' : locale.toUpperCase()}><Languages size={17} aria-hidden="true" /><select aria-label={localeLabels[locale].language} value={locale} onChange={e=>change(e.target.value)}>{publicLocales.map(code=><option key={code} value={code} lang={code} dir={code==='ar'?'rtl':'ltr'}>{nativeNames[code]}</option>)}</select></label>;
+  return <label className="byrvox-language" data-short={shortName(locale)} title={nativeNames[locale]}>
+    <Languages size={17} aria-hidden="true" />
+    <select dir="ltr" aria-label={localeLabels[locale].language} value={locale} onChange={e=>change(e.target.value)}>
+      {publicLocales.map(code=><option key={code} value={code} aria-label={nativeNames[code]}>{shortName(code)}</option>)}
+    </select>
+  </label>;
 }

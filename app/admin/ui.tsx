@@ -5,6 +5,8 @@ import { AdminNavigation } from './navigation';
 import { ArticlePreview } from './article-preview';
 import { GalleryField, PhotoField } from './photo-field';
 import { LeadSelector } from './lead-selector';
+import { roleNames, TeamPanel } from './team';
+import type { NewsroomRole } from '../../lib/access';
 import type { ArticlePhoto } from '../../lib/article-photo';
 import { fold } from '../../lib/edition';
 import './portal.css';
@@ -16,7 +18,8 @@ type Article = Omit<typeof articles.$inferSelect, 'draft' | 'photo' | 'photoHidd
 type Editor = Pick<Article, 'id' | 'slug' | 'title' | 'photo' | 'photoHidden' | 'gallery' | 'category' | 'summary' | 'body' | 'risk' | 'status' | 'isLive'>
   & { authorId?: string; version?: number; sources: Source[] };
 type Newsroom = {
-  articles: Article[];
+  role: NewsroomRole; email: string; userId: string;
+  articles: Article[]; reviewQueue?: Article[];
   events: (typeof events.$inferSelect)[];
   revisions: (typeof revisions.$inferSelect)[];
   runs: (typeof runs.$inferSelect)[];
@@ -48,9 +51,9 @@ function ServiceList({ entries }: { entries: string[][] }) {
   return <>{entries.map(([name, value]) => <div className="status-line" key={name}><span>{name}</span><small>{value}</small></div>)}</>;
 }
 
-export default function Admin() {
+export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
   const [tab, setTab] = useState('Tableau de bord');
-  const [data, setData] = useState<Newsroom>({ articles: [], events: [], revisions: [], runs: [], generationConfigured: false });
+  const [data, setData] = useState<Newsroom>({ role:initialRole, email:'', userId:'', articles: [], events: [], revisions: [], runs: [], generationConfigured: false });
   const [loaded, setLoaded] = useState(false);
   const [edit, setEdit] = useState<Editor>(empty);
   const [dirty, setDirty] = useState(false);
@@ -67,6 +70,13 @@ export default function Admin() {
     const controller = new AbortController();
     const { signal } = controller;
     async function initialize() {
+      if (initialRole !== 'owner') {
+        try {
+          const result = await loadNewsroom(signal);
+          if (!signal.aborted) { setData(result); setLoaded(true); }
+        } catch { if (!signal.aborted) setMessage('Impossible de charger la rédaction.'); }
+        return;
+      }
       let importNotice = '';
       try {
         const response = await fetch('/api/newsroom/edition', { method: 'POST', signal });
@@ -89,7 +99,7 @@ export default function Admin() {
     }
     void initialize();
     return () => controller.abort();
-  }, []);
+  }, [initialRole]);
 
   useEffect(() => {
     if (!dirty) return;
@@ -118,7 +128,7 @@ export default function Admin() {
     change({ sources: edit.sources.map((source, i) => i === index ? { ...source, ...patch } : source) });
   }
 
-  async function action(url: string, input: object) {
+  async function action(url: string, input: {action?: string; [key:string]: unknown}) {
     setBusy(true);
     setMessage('');
     try {
@@ -133,7 +143,9 @@ export default function Admin() {
         setEdit(editArticle(row));
         setDirty(false);
         setTab('Éditeur');
-        setMessage(row.status === 'published' ? 'Article publié.' : 'Version enregistrée.');
+        setMessage(row.status === 'published' ? 'Article publié.' : input.action === 'return'
+          ? 'Article renvoyé en brouillon. Son auteur peut le corriger et le soumettre à nouveau.' : row.status === 'review'
+          ? 'Article en attente d’approbation.' : 'Brouillon enregistré.');
       } else if (url === '/api/generate') {
         const result = await response.json() as Pick<Editor, 'title' | 'summary' | 'body'> & { message: string };
         change({ title: result.title, summary: result.summary, body: result.body });
@@ -162,41 +174,61 @@ export default function Admin() {
     return statusMatches && terms.every(term => fold(article.title + ' ' + article.category + ' ' + article.summary).includes(term));
   });
   const words = edit.body.trim() ? edit.body.trim().split(/\s+/).length : 0;
-  const canSubmit = !busy && edit.title.trim() && (dirty || edit.status !== 'published');
+  const owner = data.role === 'owner';
+  const canApprove = owner || data.role === 'approver';
+  const reviewQueue = data.reviewQueue ?? data.articles.filter(article => article.status === 'review');
+  const locked = !canApprove && Boolean(edit.id) && (edit.status !== 'draft' || edit.authorId !== data.userId);
+  const fieldsDisabled = busy || locked;
+  const canSubmit = loaded && !fieldsDisabled && edit.title.trim() && (dirty || edit.status !== 'published');
 
   return <div className="admin-shell">
     <a className="skip" href="#portal-main">Aller au contenu de la rédaction</a>
-    <AdminNavigation tab={tab} busy={busy} onNavigate={name => { setTab(name); setPreview(false); }} />
+    <AdminNavigation tab={tab} busy={busy} role={data.role} onNavigate={name => { setTab(name); setPreview(false); }} />
     <main className="admin-main" id="portal-main" tabIndex={-1}>
-      <div className="admin-top"><div><p className="eyebrow">BYRVOX · RÉDACTION</p><h1>{tab}</h1></div>
-        <button className="red" disabled={busy} onClick={() => open()}><Plus size={16} aria-hidden="true" /> Nouvel article</button>
+      <div className="admin-top"><div><p className="eyebrow">BYRVOX · {roleNames[data.role]}</p><h1>{tab}</h1></div>
+        <button className="red" disabled={busy || !loaded} onClick={() => open()}><Plus size={16} aria-hidden="true" /> Nouvel article</button>
       </div>
       {message && <div role="status" className="admin-note">{message}</div>}
 
       {tab === 'Tableau de bord' && <>
+        <section className="panel portal-workflow"><h2>{canApprove ? 'Vérification éditoriale' : 'Mes contributions'}</h2>
+          <p>{canApprove
+            ? 'Ouvre les articles soumis pour vérifier les sources, corriger le texte ou demander des modifications avant publication.'
+            : 'Rédige ton article, ajoute ses photos et ses sources, puis sélectionne « Soumettre pour approbation ». Tu pourras reprendre un article renvoyé en brouillon.'}</p>
+          {canApprove && <button className="outline" onClick={() => setTab('À approuver')}>Voir les articles à approuver{loaded ? ' (' + reviewQueue.length + (reviewQueue.length === 50 ? '+' : '') + ')' : ''}</button>}
+        </section>
         <div className="stats">{[
-          ['Articles récents', data.articles.length],
-          ['À vérifier', data.articles.filter(article => article.status === 'review').length],
+          [canApprove ? 'Articles récents' : 'Mes articles', data.articles.length],
+          ['À approuver', reviewQueue.length === 50 && canApprove ? '50+' : reviewQueue.length],
           ['En ligne', data.articles.filter(article => article.isLive).length],
-          ['Pistes récentes', data.events.length],
+          ...(owner ? [['Pistes récentes', data.events.length]] : []),
         ].map(([title, value]) => <div className="stat" key={title}><small>{title}</small><b>{loaded ? value : '—'}</b></div>)}</div>
-        <LeadSelector articles={data.articles} />
-        <div className="admin-two"><section className="panel"><h2>La rédaction</h2>
+        {canApprove && <LeadSelector articles={data.articles} />}
+        <div className={owner ? 'admin-two' : ''}><section className="panel"><h2>{canApprove ? 'Articles récents' : 'Mes derniers articles'}</h2>
           {data.articles.slice(0, 8).map(article => <button className="article-row" style={{ width: '100%', textAlign: 'left' }}
             key={article.id} onClick={() => open(article)}>
             <div><h3>{article.title}</h3><small>{article.category} · {new Date(article.updatedAt).toLocaleString('fr-CA')}</small></div>
             <span className="badge">{statusLabel(article)}</span>
           </button>)}
           {loaded && !data.articles.length && <p>Aucun article créé. Commence par un brouillon sourcé.</p>}
-          <small>Statistiques des 100 derniers articles modifiés et des 50 dernières pistes collectées.</small>
-        </section><section className="panel"><h2>État des services</h2><ServiceList entries={[
+          <small>Jusqu’à 100 articles, classés par dernière modification.</small>
+        </section>{owner && <section className="panel"><h2>État des services</h2><ServiceList entries={[
           ['CMS et historique', loaded ? 'Disponible' : 'Chargement…'], ['Collecte NASA', 'À la demande'],
           ['Agent horaire', wireStatus], ['Rédaction IA', aiStatus],
           ['Radio et TV', 'Flux à connecter'], ['Audience et coûts', 'Non mesurés'],
-        ]}/></section></div>
+        ]}/></section>}</div>
       </>}
 
-      {tab === 'Articles' && <section className="panel"><h2>Articles récemment modifiés</h2>
+      {tab === 'Équipe' && owner && <TeamPanel/>}
+      {tab === 'À approuver' && canApprove && <section className="panel"><h2>Articles en attente d’approbation</h2>
+        {reviewQueue.length === 50 && <p>Les 50 soumissions les plus anciennes s’affichent en premier.</p>}
+        {!loaded && <p>Chargement des soumissions…</p>}
+        {loaded && !reviewQueue.length && <p>Aucun article en attente d’approbation.</p>}
+        {reviewQueue.map(article => <div className="article-row" key={article.id}><div><h3>{article.title}</h3>
+          <small>{article.category} · {new Date(article.updatedAt).toLocaleString('fr-CA')}</small></div>
+          <button className="outline" onClick={() => open(article)} aria-label={'Examiner ' + article.title}>Examiner</button></div>)}
+      </section>}
+      {tab === 'Articles' && <section className="panel"><h2>{canApprove ? 'Articles récemment modifiés' : 'Mes articles'}</h2>
         <div className="portal-filters"><label>Rechercher un article<input type="search" placeholder="Titre, résumé ou rubrique"
           value={keyword} onChange={event => setKeyword(event.target.value)} /></label>
           <label>Statut<select value={filter} onChange={event => setFilter(event.target.value)}>
@@ -213,50 +245,54 @@ export default function Admin() {
       </section>}
 
       {tab === 'Éditeur' && <div className="admin-two">
-        <section className="panel"><h2>{edit.id ? 'Modifier l’article' : 'Nouveau brouillon'}</h2>
+        <section className="panel"><h2>{locked ? 'Consulter l’article' : edit.status === 'review' ? 'Examiner l’article' : edit.id ? 'Modifier l’article' : 'Nouveau brouillon'}</h2>
           <button className="outline portal-preview-trigger" disabled={busy} onClick={() => setPreview(true)}><Eye size={16} aria-hidden="true" /> Aperçu privé</button>
           <p>{statusLabel(edit)}{dirty && ' · modifications à enregistrer'}</p>
+          {locked && edit.status === 'review' && <p className="admin-note">Ton article a été soumis. La rédaction peut le publier ou te le renvoyer en brouillon pour correction.</p>}
           {assistedEdition && <p className="admin-note">Texte préparé avec assistance IA. Vérifie les sources avant publication.</p>}
           {edit.isLive && <p>La version publiée reste accessible aux lecteurs jusqu’à la prochaine publication.</p>}
-          <label>Titre<input disabled={busy} value={edit.title} maxLength={250} onChange={e => change({ title: e.target.value })}/></label>
-          <label>Catégorie<select disabled={busy} value={edit.category} onChange={e => change({ category: e.target.value })}>
+          <label>Titre<input disabled={fieldsDisabled} value={edit.title} maxLength={250} onChange={e => change({ title: e.target.value })}/></label>
+          <label>Catégorie<select disabled={fieldsDisabled} value={edit.category} onChange={e => change({ category: e.target.value })}>
             {Array.from(new Set([...categories, edit.category])).map(category => <option key={category}>{category}</option>)}
           </select></label>
-          <label>Résumé<textarea disabled={busy} value={edit.summary} maxLength={3000} onChange={e => change({ summary: e.target.value })}/></label>
-          <label>Article<textarea disabled={busy} className="body-edit" value={edit.body} maxLength={60000} onChange={e => change({ body: e.target.value })}/></label>
+          <label>Résumé<textarea disabled={fieldsDisabled} value={edit.summary} maxLength={3000} onChange={e => change({ summary: e.target.value })}/></label>
+          <label>Article<textarea disabled={fieldsDisabled} className="body-edit" value={edit.body} maxLength={60000} onChange={e => change({ body: e.target.value })}/></label>
           <p className="portal-help">{words} mot{words > 1 ? 's' : ''}{words > 0 && ' · ' + Math.ceil(words / 220) + ' min de lecture'}</p>
-          <div className="button-row">
-            <button disabled={!canSubmit} className="outline" onClick={() => action('/api/newsroom', { ...edit, action: 'save' })}>Enregistrer le brouillon</button>
-            <button disabled={!canSubmit} className="outline" onClick={() => action('/api/newsroom', { ...edit, action: 'review' })}>Soumettre à vérification</button>
-            {edit.status === 'review' && !dirty && <button disabled={busy} className="red"
-              onClick={() => action('/api/newsroom', { id: edit.id, version: edit.version, action: 'publish' })}>Valider et publier</button>}
-          </div>
+          {!locked && <div className="button-row">
+            {edit.status !== 'review' && <button disabled={!canSubmit} className="outline" onClick={() => action('/api/newsroom', { ...edit, action: 'save' })}>Enregistrer le brouillon</button>}
+            {edit.status !== 'review' && <button disabled={!canSubmit} className="red" onClick={() => action('/api/newsroom', { ...edit, action: 'review' })}>Soumettre pour approbation</button>}
+            {canApprove && edit.status === 'review' && <>
+              {dirty && <button disabled={!canSubmit} className="outline" onClick={() => action('/api/newsroom', {...edit, action:'review'})}>Enregistrer les corrections</button>}
+              <button disabled={busy || dirty} className="outline" onClick={() => action('/api/newsroom', {id:edit.id, version:edit.version, action:'return'})}>Renvoyer en brouillon</button>
+              <button disabled={busy || dirty} className="red" onClick={() => action('/api/newsroom', {id:edit.id, version:edit.version, action:'publish'})}>Valider et publier</button>
+            </>}
+          </div>}
         </section>
         <div className="portal-editor-tools">
           <PhotoField key={edit.id} slug={edit.slug} value={edit.photo} hidden={edit.photoHidden}
-            change={(photo, photoHidden) => change({ photo, photoHidden })} busy={busy} setUploading={setUploading} />
-          <GalleryField key={'gallery-' + edit.id} photos={edit.gallery} change={gallery => change({ gallery })} busy={busy} setUploading={setUploading} />
+            change={(photo, photoHidden) => change({ photo, photoHidden })} busy={fieldsDisabled} setUploading={setUploading} />
+          <GalleryField key={'gallery-' + edit.id} photos={edit.gallery} change={gallery => change({ gallery })} busy={fieldsDisabled} setUploading={setUploading} />
           <section className="panel"><h2>Preuves et sources</h2>
-          <label>Niveau éditorial<select disabled={busy} value={edit.risk} onChange={e => change({ risk: e.target.value })}>
+          <label>Niveau éditorial<select disabled={fieldsDisabled} value={edit.risk} onChange={e => change({ risk: e.target.value })}>
             <option value="standard">Standard — validation humaine</option><option value="sensitive">Sensible — vérification renforcée</option>
           </select></label>
           {edit.sources.map((source, i) => <div key={i}>
-            <label>Nom<input disabled={busy} value={source.name} maxLength={200} onChange={e => updateSource(i, { name: e.target.value })}/></label>
-            <label>URL HTTPS<input disabled={busy} type="url" value={source.url} maxLength={2000} onChange={e => updateSource(i, { url: e.target.value })}/></label>
-            <button className="text-button" disabled={busy} onClick={() => change({ sources: edit.sources.filter((_, j) => j !== i) })}>Retirer cette source</button><hr/>
+            <label>Nom<input disabled={fieldsDisabled} value={source.name} maxLength={200} onChange={e => updateSource(i, { name: e.target.value })}/></label>
+            <label>URL HTTPS<input disabled={fieldsDisabled} type="url" value={source.url} maxLength={2000} onChange={e => updateSource(i, { url: e.target.value })}/></label>
+            <button className="text-button" disabled={fieldsDisabled} onClick={() => change({ sources: edit.sources.filter((_, j) => j !== i) })}>Retirer cette source</button><hr/>
           </div>)}
-          <button className="outline" disabled={busy || edit.sources.length >= 20} onClick={() => change({ sources: [...edit.sources, { name: '', url: '' }] })}><Plus size={16} aria-hidden="true" /> Ajouter une source</button>
+          <button className="outline" disabled={fieldsDisabled || edit.sources.length >= 20} onClick={() => change({ sources: [...edit.sources, { name: '', url: '' }] })}><Plus size={16} aria-hidden="true" /> Ajouter une source</button>
           <p className="admin-note">Contrôle les faits, les dates, les citations et l’indépendance des sources avant de publier.</p>
-        </section><section className="panel"><h2>Assistant de rédaction</h2>
-          <label>Faits vérifiés et extraits autorisés<textarea disabled={busy} value={notes} maxLength={12000} onChange={e => setNotes(e.target.value)}/></label>
+        </section>{owner && <section className="panel"><h2>Assistant de rédaction</h2>
+          <label>Faits vérifiés et extraits autorisés<textarea disabled={fieldsDisabled} value={notes} maxLength={12000} onChange={e => setNotes(e.target.value)}/></label>
           <button disabled={busy || !data.generationConfigured || notes.trim().length < 30 || !edit.sources.length} className="outline"
             onClick={() => action('/api/generate', { notes, sources: edit.sources, title: edit.title })}>{busy ? 'Traitement…' : 'Préparer un brouillon IA'}</button>
           <small style={{ display: 'block', marginTop: 12 }}>{data.generationConfigured
             ? 'Ajoute au moins 30 caractères et une source pour préparer un brouillon à vérifier.' : aiStatus}</small>
-        </section></div>
+        </section>}</div>
       </div>}
 
-      {tab === 'PULSE AI' && <><section className="panel"><h2>Collecte de sources officielles</h2>
+      {tab === 'PULSE AI' && owner && <><section className="panel"><h2>Collecte de sources officielles</h2>
         <p>Importe les titres et les liens du flux NASA pour les vérifier en rédaction.</p>
         <button disabled={busy} className="red" onClick={() => action('/api/pulse', {})}>{busy ? 'Collecte en cours…' : 'Collecter les pistes NASA'}</button>
       </section><section className="panel" style={{ marginTop: 20 }}><h2>Pistes à vérifier</h2>
@@ -265,7 +301,7 @@ export default function Admin() {
         {loaded && !data.events.length && <p>Aucune piste collectée.</p>}
       </section></>}
 
-      {tab === 'Historique' && <section className="panel"><h2>Journal des versions</h2>
+      {tab === 'Historique' && canApprove && <section className="panel"><h2>Journal des versions</h2>
         {data.revisions.map(revision => <div className="log" key={revision.id}><b>{revision.action}</b> · {new Date(revision.createdAt).toLocaleString('fr-CA')}
           <p>{JSON.parse(revision.snapshot).title}</p>
           <button className="outline" disabled={busy} onClick={() => action('/api/newsroom', {
@@ -278,12 +314,12 @@ export default function Admin() {
         {loaded && !data.runs.length && <p>Aucune exécution enregistrée.</p>}
       </section>}
 
-      {tab === 'Studio AI' && <section className="panel"><h2>BYRVOX Studio AI</h2>
+      {tab === 'Studio AI' && owner && <section className="panel"><h2>BYRVOX Studio AI</h2>
         <p>Le Studio prépare des bulletins de 30, 60 et 90 secondes, avec voix, avatars autorisés et sous-titres.</p>
         <p className="admin-note">La production audiovisuelle et la diffusion sociale attendent la configuration des fournisseurs et des comptes de distribution.</p>
       </section>}
 
-      {tab === 'Intégrations' && <section className="panel"><h2>Connexions et activation</h2><ServiceList entries={[
+      {tab === 'Intégrations' && owner && <section className="panel"><h2>Connexions et activation</h2><ServiceList entries={[
         ['GitHub', 'bv7k5ht77g-hue/BYRVOX'], ['OpenAI', aiStatus], ['NASA RSS', 'Collecte à la demande'],
         ['Radio et TV', 'Flux à connecter'], ['YouTube et réseaux sociaux', 'Comptes et autorisations requis'],
         ['Newsletters', 'Fournisseur et expéditeur vérifié requis'], ['Paiements', 'Désactivés'],

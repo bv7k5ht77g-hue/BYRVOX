@@ -1,9 +1,10 @@
 import { env } from 'cloudflare:workers';
-import { and, desc, eq, sql } from 'drizzle-orm';
+import { and, asc, desc, eq, sql } from 'drizzle-orm';
 import { z } from 'zod';
 import { getDb } from '../../../db';
 import { articles, events, revisions, runs } from '../../../db/schema';
-import { admin, runtime, sameOrigin } from '../../../lib/access';
+import { belongsToContributorArticle } from '../../../lib/private-photo';
+import { newsroomUser, runtime, sameOrigin } from '../../../lib/access';
 import { photoPublicationError, uploadedPhotoName } from '../../../lib/article-photo';
 import { publicationError, slugify, validSourceUrl } from '../../../lib/editorial.mjs';
 import { boundedJson } from '../../../lib/input';
@@ -25,7 +26,7 @@ const requestSchema = z.object({
   id: z.string().max(100).optional(),
   version: z.number().int().nonnegative().optional(),
   revisionId: z.string().max(100).optional(),
-  action: z.enum(['save', 'review', 'publish', 'restore']).default('save'),
+  action: z.enum(['save', 'review', 'publish', 'restore', 'return']).default('save'),
   title: z.string().max(250).optional(),
   category: z.string().max(100).optional(),
   summary: z.string().max(3000).optional(),
@@ -39,7 +40,7 @@ const requestSchema = z.object({
 
 function editorArticle({ draft, ...row }: Article) {
   const workingCopy: Partial<Content> = draft ? JSON.parse(draft) : {};
-  return { ...row, ...workingCopy, isLive: row.status === 'published' };
+  return { ...row, ...workingCopy, authorId:row.authorId, isLive: row.status === 'published' };
 }
 
 function contentOf(source: Content): Content {
@@ -58,22 +59,30 @@ function conflict() {
 }
 
 export async function GET() {
-  if (!await admin()) return problem('Accès réservé à la rédaction.', 403);
+  const user = await newsroomUser();
+  if (!user) return problem('Accès réservé à la rédaction.', 403);
   const db = getDb();
   const lastEdit = sql`coalesce(json_extract(${articles.draft}, '$.updatedAt'), ${articles.updatedAt})`;
-  const [rows, recentRuns, recentEvents, history] = await db.batch([
+  const access = {role:user.role,email:user.email,userId:user.userId};
+  const headers = {'Cache-Control':'private, no-store'};
+  if (user.role === 'contributor') {
+    const rows = await db.select().from(articles).where(eq(articles.authorId,user.userId)).orderBy(desc(lastEdit)).limit(100);
+    return Response.json({...access,articles:rows.map(editorArticle),runs:[],events:[],revisions:[],generationConfigured:false},{headers});
+  }
+  const [rows, recentRuns, recentEvents, history, queue] = await db.batch([
     db.select().from(articles).orderBy(desc(lastEdit)).limit(100),
     db.select().from(runs).orderBy(desc(runs.createdAt)).limit(30),
     db.select().from(events).orderBy(desc(events.createdAt)).limit(50),
     db.select().from(revisions).orderBy(desc(revisions.createdAt)).limit(50),
+    db.select().from(articles).where(sql`coalesce(json_extract(${articles.draft}, '$.status'), ${articles.status}) = 'review'`)
+      .orderBy(asc(lastEdit),asc(articles.id)).limit(50),
   ]);
-  return Response.json({ articles: rows.map(editorArticle), runs: recentRuns, events: recentEvents, revisions: history,
-    generationConfigured: Boolean(runtime('OPENAI_API_KEY')) },
-    { headers: { 'Cache-Control': 'no-store' } });
+  return Response.json({ ...access, articles: rows.map(editorArticle), reviewQueue:queue.map(editorArticle), runs: recentRuns, events: recentEvents, revisions: history,
+    generationConfigured: user.role === 'owner' && Boolean(runtime('OPENAI_API_KEY')) },{headers});
 }
 
 export async function POST(req: Request) {
-  const user = await admin();
+  const user = await newsroomUser();
   if (!user) return problem('Accès interdit.', 403);
   if (!sameOrigin(req)) return problem('Origine refusée.', 403);
   if (Number(req.headers.get('content-length')) > 100000) return problem('Document trop volumineux.', 413);
@@ -84,17 +93,26 @@ export async function POST(req: Request) {
     return problem('Document JSON invalide.', 400);
   }
 
+  if (user.role === 'contributor' && input.action !== 'save' && input.action !== 'review') {
+    return problem('Cette action nécessite un approbateur.',403);
+  }
   const db = getDb();
   const stored = input.id ? await db.select().from(articles).where(eq(articles.id, input.id)).get() : undefined;
-  if ((input.id || input.action === 'publish' || input.action === 'restore') && !stored) {
+  if ((input.id || ['publish','restore','return'].includes(input.action)) && !stored) {
     return problem('Article introuvable.', 404);
   }
-  if (stored && input.version !== undefined && input.version !== stored.version) return conflict();
-
   const previous = stored && editorArticle(stored);
+  if (user.role === 'contributor' && stored) {
+    if (stored.authorId !== user.userId) return problem('Article inaccessible.',403);
+    if (previous?.status !== 'draft') return problem('Ce texte est verrouillé pendant la vérification ou après publication.',403);
+  }
+  if (stored && input.version !== undefined && input.version !== stored.version) return conflict();
   const now = new Date().toISOString();
   let next: Content;
-  if (input.action === 'publish' && previous) {
+  if (input.action === 'return' && previous) {
+    if (previous.status !== 'review') return problem('Seule une soumission en vérification peut être retournée.',422);
+    next = {...contentOf(previous),status:'draft',updatedAt:now};
+  } else if (input.action === 'publish' && previous) {
     const liveEdition = stored?.status === 'published' ? stored : undefined;
     const error = publicationError(previous) || photoPublicationError(previous, liveEdition);
     if (error) return problem(error, 422);
@@ -103,7 +121,7 @@ export async function POST(req: Request) {
     const revision = input.revisionId && await db.select().from(revisions)
       .where(and(eq(revisions.id, input.revisionId), eq(revisions.articleId, stored.id))).get();
     if (!revision) return problem('Révision introuvable.', 404);
-    next = { ...contentOf(JSON.parse(revision.snapshot)), status: 'draft', updatedAt: now, authorId: user.userId };
+    next = { ...contentOf(JSON.parse(revision.snapshot)), status: 'draft', updatedAt: now, authorId: stored.authorId };
   } else {
     if (!input.title?.trim()) return problem('Un titre est requis.', 422);
     const photo = input.photo !== undefined ? input.photo : previous?.photo ?? null;
@@ -112,7 +130,7 @@ export async function POST(req: Request) {
       photo: photoHidden ? null : photo, photoHidden, gallery: input.gallery ?? previous?.gallery ?? [],
       title: input.title.trim(), category: input.category || 'International', summary: input.summary || '',
       body: input.body || '', sources: JSON.stringify(input.sources || []), risk: input.risk || 'standard',
-      status: input.action === 'review' ? 'review' : 'draft', authorId: user.userId, updatedAt: now,
+      status: input.action === 'review' ? 'review' : 'draft', authorId: stored?.authorId ?? user.userId, updatedAt: now,
     };
   }
 
@@ -127,6 +145,13 @@ export async function POST(req: Request) {
       return name ? bucket.head('photos/' + name) : null;
     }));
     if (objects.some(object => !object)) return problem('Photo téléversée introuvable.', 422);
+    if (user.role === 'contributor') {
+      for (const [index,object] of objects.entries()) {
+        if (object?.customMetadata?.userId !== user.userId && !await belongsToContributorArticle(user.userId,checkUrls[index])) {
+          return problem('Cette photographie ne fait pas partie de tes téléversements ou de tes articles.',403);
+        }
+      }
+    }
   }
 
   const id = stored?.id || crypto.randomUUID();

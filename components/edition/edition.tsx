@@ -3,9 +3,11 @@
 import { Bookmark, BookmarkCheck, CircleUserRound, Menu, Moon, Rss, Search, Settings2, Sun, X } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { editionHref, type EditionRoute, type Section, type Summary } from '../../lib/edition';
+import { categoryHref, featuredCategories, type CategoryHeadlines } from '../../lib/editorial-sections';
+import { sectionText } from './section-copy';
 import { WeatherNav } from '../weather-nav';
 import { LanguageSelect, usePublicLocale } from '../language-select';
-import { localizedHref, sectionLabel } from '../../lib/i18n';
+import { categoryLabel, localizedHref, sectionLabel } from '../../lib/i18n';
 import { navText } from './navigation-copy';
 import { ReadingProgress } from './reading-progress';
 import './navigation.css';
@@ -29,8 +31,8 @@ function NavLinks({ current }: { current: Section }) {
     aria-current={current === section ? 'page' : undefined}>{sectionLabel(section,lang)}</a>);
 }
 
-function Header({ current, profile, open }: {
-  current: Section; profile: Profile | null; open: (name: DialogName) => void;
+function Header({ current, category, profile, open }: {
+  current: Section; category?: string; profile: Profile | null; open: (name: DialogName) => void;
 }) {
   const lang = usePublicLocale();
   const menu = useRef<HTMLDetailsElement>(null);
@@ -69,7 +71,10 @@ function Header({ current, profile, open }: {
         </nav>
       </details>
     </div>
-  </div><ReadingProgress /></header>;
+  </div>
+    <nav className="by-header-topics" aria-label={sectionText(lang,'topics')}><div>
+      {featuredCategories.map(topic=><a href={localizedHref(categoryHref(topic),lang)} key={topic} aria-current={category===topic?'page':undefined}>{categoryLabel(topic,lang)}</a>)}
+    </div></nav><ReadingProgress /></header>;
 }
 
 function Footer({ open }: { open: (name: DialogName) => void }) {
@@ -80,23 +85,24 @@ function Footer({ open }: { open: (name: DialogName) => void }) {
     <div><b>{navText(lang,'explore')}</b>{(['actualites', 'radio', 'tv', 'podcasts', 'favoris'] as Section[]).map(section =>
       <a key={section} href={localizedHref(editionHref(section),lang)}>{sectionLabel(section,lang)}</a>)}<a className="edition-icon-link" href="/rss.xml"><Rss size={16} aria-hidden="true" /> {navText(lang,'rss')}</a></div>
     <div><b>{navText(lang,'group')}</b><button onClick={() => open('marques')}>RadioYO &amp; TVYO</button>
-      <a href={localizedHref('/article/notre-methode',lang)}>{navText(lang,'method')}</a><button onClick={() => open('abonnement')}>{navText(lang,'subscriptions')}</button>
+      <button onClick={() => open('abonnement')}>{navText(lang,'subscriptions')}</button>
       <a className="edition-icon-link" href="/admin"><Settings2 size={16} aria-hidden="true" /> {navText(lang,'editor')}</a></div>
     <div><b>{navText(lang,'transparency')}</b>{policies.map((policy,i) => <button key={policy} onClick={() => open(policy)}>{navText(lang,policyLabels[i])}</button>)}</div>
   </div>
-  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.5.0</span></div></footer>;
+  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.6.0</span></div></footer>;
 }
 
 type EditionProps = {
   route: EditionRoute;
   stories: Summary[];
+  headlines: CategoryHeadlines[];
   presentations: Summary[];
   unavailable: boolean;
   hasNext: boolean;
   categories: string[];
 };
 
-export function Edition({ route, stories, presentations, unavailable, hasNext, categories }: EditionProps) {
+export function Edition({ route, stories, headlines, presentations, unavailable, hasNext, categories }: EditionProps) {
   const lang = usePublicLocale();
   const [dialog, setDialog] = useState<DialogName | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
@@ -159,11 +165,11 @@ export function Edition({ route, stories, presentations, unavailable, hasNext, c
   const currentUrl = localizedHref(editionHref(route.section, route.query, route.category, route.page),lang);
   return <div className="edition-site">
     <a className="skip" href="#main">{navText(lang,'skip')}</a>
-    <Header current={route.section} open={setDialog} profile={profile} />
+    <Header current={route.section} category={route.category} open={setDialog} profile={profile} />
     <main id="main" tabIndex={-1}>
       {route.section === 'accueil'
-        ? <EditionFront stories={stories} presentations={presentations} unavailable={unavailable} open={setDialog} />
-        : <SectionContent route={route} hasNext={hasNext} publishedCategories={categories} stories={route.section === 'favoris' ? savedStories : stories} presentations={presentations} unavailable={unavailable}
+        ? <EditionFront stories={stories} headlines={headlines} unavailable={unavailable} />
+        : <SectionContent headlines={headlines} route={route} hasNext={hasNext} publishedCategories={categories} stories={route.section === 'favoris' ? savedStories : stories} presentations={presentations} unavailable={unavailable}
             saved={saved} accountStatus={accountStatus} signedIn={Boolean(profile)} saveButton={saveButton} />}
     </main>
     <Footer open={setDialog} />

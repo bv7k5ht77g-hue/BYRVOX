@@ -5,6 +5,7 @@
   overflow-wrap: anywhere;
 }
 .reader-heading { margin: 0 auto }
+.reader-category a { text-decoration: underline; text-underline-offset: 3px; }
 .reader-category {
   color: #b51229;
   font-weight: 750;
@@ -69,10 +70,10 @@ html[data-theme="dark"] .reader-category { color: #ff8d9c }
 .reader-gallery h2 { font-size: 1.3rem; letter-spacing: -.02em; }
 .reader-gallery .cover-figure { margin: 0; }
 
-.reader-recommendations { max-width: 1220px; margin: 0 auto 64px; padding: 0 clamp(18px, 5vw, 58px); }
+.reader-recommendations { margin: clamp(24px,4vw,44px) 0 30px; }
 .recommendation-heading { display: flex; min-height: 62px; align-items: center; justify-content: space-between; gap: 16px; border-block-start: 2px solid var(--ink); }
 .recommendation-heading h2 { font-size: clamp(1.4rem, 2.8vw, 2.15rem); letter-spacing: -.04em; }
-.recommendation-track { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 3 * 20px) / 4); gap: 20px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; padding: 4px 0 12px; margin: 0; list-style: none; scrollbar-width: thin; }
+.recommendation-track { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 2 * 20px) / 3); gap: 20px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; padding: 4px 0 12px; margin: 0; list-style: none; scrollbar-width: thin; }
 .recommendation-card { scroll-snap-align: start; min-width: 0; }
 .recommendation-card a { display: block; color: inherit; }
 .recommendation-image { display:grid; place-items:center; aspect-ratio: 16/9; background: var(--surface); color:var(--muted); overflow: hidden; }

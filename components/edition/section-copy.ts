@@ -3,6 +3,15 @@ import type { PublicLocale } from '../../lib/i18n';
 type Translations = readonly [string, string, string, string, string, string, string];
 const index: Record<PublicLocale, number> = { fr: 0, en: 1, es: 2, ar: 3, 'zh-CN': 4, ru: 5, ko: 6 };
 const text = {
+  emptyTopic: ['Aucun article publié dans cette rubrique pour le moment.','No stories have been published in this section yet.','Todavía no hay artículos publicados en esta sección.','لا توجد مقالات منشورة في هذا القسم حتى الآن.','本栏目暂时还没有文章。','В этой рубрике пока нет публикаций.','이 분야에는 아직 발행된 기사가 없습니다.'],
+  allTopics: ['Toutes les rubriques','All sections','Todas las secciones','كل الأقسام','所有栏目','Все рубрики','전체 분야'],
+  topics: ['Rubriques','Sections','Secciones','الأقسام','栏目','Рубрики','분야'],
+  headlines: ['Manchettes','Headlines','Titulares','أبرز العناوين','头条','Главные новости','주요 기사'],
+  archive: ['Tous les articles','All stories','Todos los artículos','جميع المقالات','全部文章','Все материалы','전체 기사'],
+  adAvailable: ['Espace publicitaire disponible','Advertising space available','Espacio publicitario disponible','مساحة إعلانية متاحة','可投放广告','Место для рекламы','광고 게재 공간'],
+  radioBrands: ['RadioYO dans la rubrique Radio','RadioYO in the Radio section','RadioYO en la sección Radio','RadioYO في قسم الإذاعة','广播栏目中的 RadioYO','RadioYO в разделе «Радио»','라디오 섹션의 RadioYO'],
+  radioBrandInfo: ['RadioYO est une marque du groupe NOVENTRA, distincte de BYRVOX Radio.','RadioYO is a NOVENTRA Group brand with a separate identity from BYRVOX Radio.','RadioYO es una marca del grupo NOVENTRA independiente de BYRVOX Radio.','RadioYO علامة تابعة لمجموعة NOVENTRA ولها هوية مستقلة عن إذاعة BYRVOX.','RadioYO 是 NOVENTRA 集团旗下的品牌，与 BYRVOX 广播各自独立。','RadioYO — отдельный бренд группы NOVENTRA со своей идентичностью, отличной от BYRVOX Radio.','RadioYO는 NOVENTRA 그룹 소속으로 BYRVOX 라디오와 별개의 브랜드입니다.'],
+
   lead: ['À la une','Top story','En portada','الخبر الرئيسي','头条','Главное','주요 뉴스'],
   wire: ['Le fil info','Latest news','Última hora','آخر الأخبار','最新消息','Лента новостей','최신 뉴스'],
   allNews: ['Toutes les actualités','All news','Todas las noticias','كل الأخبار','全部新闻','Все новости','전체 뉴스'],

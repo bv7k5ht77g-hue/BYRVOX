@@ -102,3 +102,19 @@ html[data-theme=dark] .admin-shell :is(input,select,textarea) { background: var(
 @media(max-width:760px) {
   .portal-sidebar .portal-brand .brand { flex: 0 1 118px; margin-inline-end: auto; }
 }
+
+.admin-shell .portal-workflow { margin: 0 0 22px; border-inline-start: 3px solid var(--accent, #ba0c36); }
+.admin-shell .portal-workflow p { margin: 5px 0 0; color: var(--muted); }
+.admin-shell .portal-workflow .outline { margin-top: 12px; }
+.admin-shell .portal-team { display: grid; gap: 20px; }
+.admin-shell .portal-team .admin-note { margin: 0; }
+.admin-shell .portal-invite { display: flex; align-items: end; gap: 14px; flex-wrap: wrap; margin-block: 14px 22px; }
+.admin-shell .portal-invite label { margin: 0; flex: 1 1 170px; }
+.admin-shell .portal-invite label:first-child { flex: 2 1 230px; }
+.admin-shell .portal-invite-link { border-top: 1px solid var(--line); padding-top: 14px; }
+.admin-shell .portal-invite-link a { display: inline-block; margin: 8px 14px 8px 0; font-weight: 600; text-decoration: underline; }
+.admin-shell .portal-invite-link small, .admin-shell .portal-members small { display: block; color: var(--muted); }
+.admin-shell .portal-members { list-style: none; margin: 0; padding: 0; }
+.admin-shell .portal-member { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.admin-shell .portal-member:last-child { border: 0; }
+.admin-shell .portal-member select { width: auto; }

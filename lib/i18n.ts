@@ -31,6 +31,14 @@ const sectionRows: Record<Section, Row> = {
  recherche:['Recherche','Search','Buscar','بحث','搜索','Поиск','검색'],
 };
 const categoryRows: Row[] = [
+ ['Caraïbes','Caribbean','Caribe','الكاريبي','加勒比','Карибский регион','카리브해'],
+ ['Haïti','Haiti','Haití','هايتي','海地','Гаити','아이티'],
+ ['Élections','Elections','Elecciones','الانتخابات','选举','Выборы','선거'],
+ ['Soccer','Soccer','Fútbol','كرة القدم','足球','Футбол','축구'],
+ ['Basketball','Basketball','Baloncesto','كرة السلة','篮球','Баскетбол','농구'],
+ ['Tennis','Tennis','Tenis','التنس','网球','Теннис','테니스'],
+ ['Football américain','American football','Fútbol americano','كرة القدم الأمريكية','美式橄榄球','Американский футбол','미식축구'],
+ ['LNH','NHL','NHL','دوري الهوكي الوطني','北美冰球职业联赛','НХЛ','북미 아이스하키 리그'],
  ['États-Unis','United States','Estados Unidos','الولايات المتحدة','美国','США','미국'],
  ['Canada','Canada','Canadá','كندا','加拿大','Канада','캐나다'],
  ['Ontario','Ontario','Ontario','أونتاريو','安大略省','Онтарио','온타리오'],

@@ -15,6 +15,7 @@ import { features, type Story } from '../../../lib/content';
 import { getDb } from '../../../db';
 import { articles } from '../../../db/schema';
 import { isoDate } from '../../../lib/publication-date';
+import { categoryHref } from '../../../lib/editorial-sections';
 import { categoryLabel, localeLabels, localizedHref, translationFallbackHref, type PublicLocale } from '../../../lib/i18n';
 import { resolvePublicLocale } from '../../../lib/public-locale';
 import { localizeCover, translateStory, translateSummaries } from '../../../lib/public-translations';
@@ -39,7 +40,7 @@ const getArticle = cache(async (slug: string): Promise<ReaderArticle | null> => 
   }).from(articles).where(and(eq(articles.slug,slug),eq(articles.status,'published'))).limit(1);
   if (!row) return null;
   const {photo, photoHidden, gallery, authorId, ...story} = row;
-  return {story, isFeature:false, isWire:authorId === 'byrvox-agent-horaire', photo:resolveCover(slug,photo,photoHidden), gallery:gallery || []};
+  return {story, isFeature:false, isWire:authorId === 'byrvox-agent-horaire' || authorId === 'byrvox-agent-thematique', photo:resolveCover(slug,photo,photoHidden), gallery:gallery || []};
 });
 const localizedArticle = cache(async (slug:string, locale:PublicLocale) => {
   const article = await getArticle(slug);
@@ -82,7 +83,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
   const dateFormat = new Intl.DateTimeFormat(locale, {day:'numeric', month:'long', year:'numeric', hour:'2-digit', minute:'2-digit', timeZone:'America/Toronto', timeZoneName:'short'});
   // The French word count gives a consistent estimate even for languages without spaces.
   const minutes = Math.max(1,Math.ceil(original.body.trim().split(/\s+/u).length/220));
-  const candidates = await readerCandidates(original.publishedAt).catch(() => []);
+  const candidates = await readerCandidates(original).catch(() => []);
   const suggestions = recommend(original,candidates);
   const cards = await translateSummaries(suggestions.stories,locale);
   const linkedData = {
@@ -101,7 +102,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
           <div className="reader-heading">
             {locale !== language && <p className="reader-translation-note">{localeLabels[locale].sourceFallback}{' '}<a href={translationFallbackHref(absoluteArticleUrl(slug,'fr'),locale)} rel="external">{localeLabels[locale].translate}</a></p>}
             {locale !== 'fr' && language === locale && <p className="reader-translation-note"><a href={'/article/'+encodeURIComponent(slug)+'?lang=fr'} hrefLang="fr">{copy.frenchOriginal}</a></p>}
-            <p className="reader-category">{categoryLabel(story.category,locale)}</p>
+            <p className="reader-category"><a href={localizedHref(categoryHref(story.category),locale)}>{categoryLabel(story.category,locale)}</a></p>
             <h1 lang={language} dir="auto">{story.title}</h1>
             <p lang={language} dir="auto" className="reader-deck">{story.summary}</p>
             <div className="reader-byline">
@@ -120,6 +121,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
           <div lang={language} dir="auto" className="reader-copy">
             {story.body.split(/\r?\n/).filter(p=>p.trim()).map((p,i)=><p key={i}>{p}</p>)}
           </div>
+          <Recommendations stories={cards} relatedCount={suggestions.relatedCount} locale={locale}/>
           {record.gallery.length>0 && <section className="reader-gallery" aria-labelledby="gallery-title">
             <h2 id="gallery-title">{copy.gallery}</h2>
             {record.gallery.map((item,index)=><div lang="fr" dir="auto" key={item.url+index}><CoverFigure photo={item}/></div>)}
@@ -135,7 +137,6 @@ export default async function Article({params,searchParams}:ArticleProps) {
         </article>
         <a href={localizedHref('/',locale)} className="reader-back"><House size={16} aria-hidden="true"/> {copy.home}</a>
       </div>
-      <Recommendations stories={cards} relatedCount={suggestions.relatedCount} locale={locale}/>
     </main>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(linkedData).replace(/</g,'\\u003c')}}/>
   </PublicLocaleProvider>;

@@ -78,15 +78,16 @@ export async function deliverRank(hour: string, rank: number) {
   const url = await storePhoto(imageAddress(story.photo.download,hour)!);
   const now = new Date().toISOString();
   const {alt,caption,credit,sourceUrl,license,licenseUrl} = story.photo;
+  const thematic = hour.endsWith('-thematique');
   const entry = {id,slug:story.eventKey,title:story.title,category:story.category,summary:story.summary,body:story.body,
     sources:JSON.stringify(story.sources.map(({name,url})=>({name,url}))), status:'published',risk:'standard',
-    authorId:'byrvox-agent-horaire',createdAt:now,updatedAt:now,publishedAt:now,
+    authorId:thematic ? 'byrvox-agent-thematique' : 'byrvox-agent-horaire',createdAt:now,updatedAt:now,publishedAt:now,
     photo:{url,alt,caption,credit,sourceUrl,license,licenseUrl},gallery:[]};
   if (story.translations) await storeStoryTranslations(entry,story.translations);
   try {
     await db.batch([db.insert(articles).values(entry),
-      db.insert(revisions).values({id:marker,articleId:id,actor:entry.authorId,action:'publication-horaire',snapshot:JSON.stringify(entry),createdAt:now}),
-      db.insert(runs).values({id:marker,kind:'hourly-publication',status:'published',detail:entry.slug,createdAt:now})]);
+      db.insert(revisions).values({id:marker,articleId:id,actor:entry.authorId,action:thematic ? 'publication-thematique' : 'publication-horaire',snapshot:JSON.stringify(entry),createdAt:now}),
+      db.insert(runs).values({id:marker,kind:thematic ? 'thematic-publication' : 'hourly-publication',status:'published',detail:entry.slug,createdAt:now})]);
   } catch (cause) {
     const done = await recorded() || await existing();
     if (done) return {status:'recorded',slug:done.slug};

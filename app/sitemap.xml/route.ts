@@ -1,3 +1,4 @@
+import { categoryHref, orderedCategories } from '@/lib/editorial-sections';
 import { features } from '@/lib/content';
 import { editionHref, type Section } from '@/lib/edition';
 import { desc, eq } from 'drizzle-orm';
@@ -12,6 +13,10 @@ export async function GET() {
   const sections: Section[] = ['actualites', 'radio', 'tv', 'podcasts', 'emissions', 'dossiers', 'direct', 'presentations'];
   for (const section of sections) {
     urls.set(new URL(editionHref(section), SITE_ORIGIN).href, null);
+  }
+  const publishedCategories = await getDb().selectDistinct({category:articles.category}).from(articles).where(eq(articles.status,'published'));
+  for (const category of orderedCategories(publishedCategories.map(row=>row.category))) {
+    urls.set(new URL(categoryHref(category),SITE_ORIGIN).href,null);
   }
   for (const feature of features) urls.set(articleUrl(feature.slug), null);
   const publications = await getDb()

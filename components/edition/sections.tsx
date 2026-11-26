@@ -1,12 +1,14 @@
-import { AudioLines, Bookmark, BookOpen, Mail, Newspaper, Radio, RefreshCw, Search, Tv } from 'lucide-react';
+import { AudioLines, Bookmark, BookOpen, Newspaper, Radio, RefreshCw, Search, Tv } from 'lucide-react';
 import Image from 'next/image';
-import type { ReactNode } from 'react';
+import { useState, type ReactNode } from 'react';
 import { articleHref, editionHref, fold, type EditionRoute, type Section, type Summary } from '../../lib/edition';
 import { categoryLabel, localizedHref, sectionLabel, type PublicLocale } from '../../lib/i18n';
 import { usePublicLocale } from '../language-select';
 import { AdSlot } from './ad-slot';
 import { CoverFigure } from './cover-figure';
-import type { DialogName } from './reader-dialog';
+import { canonicalCategory, categoryHref, type CategoryHeadlines } from '../../lib/editorial-sections';
+import { TopicRail } from './topic-rail';
+import { RadioYO } from './radioyo';
 import { sectionText } from './section-copy';
 import './front-page.css';
 
@@ -16,11 +18,11 @@ const channels = [
   { section: 'tv', name: 'TV', icon: Tv, text: 'tvChannel' }
 ] as const;
 const formats = {
-  radio: { description: 'radioInfo', slug: 'radio', cta: 'aboutRadio', image: 'radio-live' },
-  tv: { description: 'tvInfo', slug: 'studio', cta: 'aboutStudio', image: 'tv-live' },
-  podcasts: { description: 'podcastsInfo', slug: 'radio', cta: 'aboutRadio', image: 'radio' },
-  emissions: { description: 'showsInfo', slug: 'studio', cta: 'aboutStudio', image: 'tv' },
-  dossiers: { description: 'dossiersInfo', slug: 'verification', cta: 'aboutMethod', image: 'news' }
+  radio: { description: 'radioInfo', image: 'radio-live' },
+  tv: { description: 'tvInfo', image: 'tv-live' },
+  podcasts: { description: 'podcastsInfo', image: 'radio' },
+  emissions: { description: 'showsInfo', image: 'tv' },
+  dossiers: { description: 'dossiersInfo', image: 'news' }
 } as const;
 const dateFormat = (lang: PublicLocale, time: boolean): Intl.DateTimeFormat =>
   new Intl.DateTimeFormat(lang, { day: 'numeric', month: 'short', ...(time ? { hour: '2-digit', minute: '2-digit' } : {year:'numeric'}), timeZone: 'America/Toronto' });
@@ -74,17 +76,56 @@ function LatestFeed({ stories, lang }: { stories: Summary[]; lang: PublicLocale 
   </section>;
 }
 
-type FrontProps = { stories: Summary[]; presentations: Summary[]; unavailable: boolean; open: (name: DialogName) => void };
-export function EditionFront({ stories, presentations, unavailable, open }: FrontProps) {
+function TopicDirectory({ categories, current, lang }: { categories:string[]; current?:string; lang:PublicLocale }) {
+  return <nav className="by-topic-directory" aria-label={sectionText(lang,'topics')}>
+    {categories.map(category=><a key={category} href={localizedHref(categoryHref(category),lang)} aria-current={current===category?'page':undefined}>{categoryLabel(category,lang)}</a>)}
+  </nav>;
+}
+
+const topicFamilies = [
+  ['Caraïbes','Haïti','Élections'], ['Sports','Soccer','LNH','Basketball','Tennis','Football américain'],
+  ['Sciences','Espace'],
+] as const;
+
+function DeskRail({ groups, lang }: { groups:CategoryHeadlines[]; lang:PublicLocale }) {
+  const [choice,setChoice] = useState('');
+  const active = groups.find(group=>group.category===choice) || groups[0];
+  const select = groups.length>1 && <select className="by-desk-select" aria-label={sectionText(lang,'topics')+' · '+categoryLabel(groups[0].category,lang)}
+    value={active.category} onChange={event=>setChoice(event.target.value)}>
+    {groups.map(group=><option key={group.category} value={group.category}>{categoryLabel(group.category,lang)}</option>)}
+  </select>;
+  return <TopicRail key={active.category} category={active.category} lang={lang} controls={select}>
+    {active.stories.map(story=><StoryCard key={story.slug} story={story} lang={lang}/>)}
+  </TopicRail>;
+}
+
+function TopicGrid({ groups, lang }: { groups:CategoryHeadlines[]; lang:PublicLocale }) {
+  const available = new Map(groups.filter(group=>group.stories.length).map(group=>[group.category,group]));
+  const desks = topicFamilies.map(family=>family.flatMap(category=>{
+    const group = available.get(category);
+    available.delete(category);
+    return group ? [group] : [];
+  }));
+  desks.push([...available.values()]);
+  return <div className="by-topic-grid">{desks.filter(desk=>desk.length).map(desk=>
+    <DeskRail key={desk[0].category} groups={desk} lang={lang}/>)}</div>;
+}
+
+function AllTopicLinks({ categories, lang }: { categories:string[]; lang:PublicLocale }) {
+  return <details className="by-all-topics"><summary>{sectionText(lang,'allTopics')}</summary>
+    <TopicDirectory categories={categories} lang={lang}/>
+  </details>;
+}
+
+type FrontProps = { stories: Summary[]; headlines: CategoryHeadlines[]; unavailable: boolean };
+export function EditionFront({ stories, headlines, unavailable }: FrontProps) {
   const lang = usePublicLocale();
-  const [latest, ...remaining] = stories;
-  const lead = latest || presentations[0];
-  const feed = remaining.slice(0, 4);
-  const extras = remaining.slice(4, 8);
-  const features = presentations.filter(story=>story.slug!==lead?.slug);
+  const [lead,...remaining] = stories;
+  const feed = remaining.slice(0,4);
+  const extras = remaining.slice(4,8);
   return <div className="wrap by-home">
     {unavailable && <p role="status" className="by-feed-status">{sectionText(lang,'unavailable')}</p>}
-    {!latest && !unavailable && <p className="by-feed-status">{sectionText(lang,'emptyNews')}</p>}
+    {!lead && !unavailable && <p className="by-feed-status">{sectionText(lang,'emptyNews')}</p>}
     {lead && <div className={'by-front-grid' + (feed.length ? '' : ' by-single')}>
       <FrontLead story={lead} lang={lang} />
       {feed.length>0 && <LatestFeed stories={feed} lang={lang} />}
@@ -95,14 +136,13 @@ export function EditionFront({ stories, presentations, unavailable, open }: Fron
         <a className="by-section-link" href={localizedHref(editionHref('actualites'),lang)}>{sectionText(lang,'allNews')}</a></div>
       <div className="by-story-grid">{extras.map(story=><StoryCard key={story.slug} story={story} lang={lang}/>)}</div>
     </section>}
-    <section className="by-section" aria-labelledby="channels-title"><div className="by-section-title"><h2 id="channels-title">{sectionText(lang,'coverage')}</h2></div>
-      <ChannelCards lang={lang} /></section>
-    <section className="by-project" aria-labelledby="project-title"><div className="by-section-title">
-      <h2 id="project-title">{sectionText(lang, 'project')}</h2><a className="by-section-link" href={localizedHref(editionHref('presentations'),lang)}>{sectionText(lang,'allFeatures')}</a>
-    </div>
-      <div className="by-project-links">{features.slice(0,3).map(story=><a key={story.slug} lang={story.contentLocale} dir="auto" href={localizedHref(articleHref(story),lang)}>{story.title}</a>)}</div>
-      <button className="by-section-link by-mail" onClick={()=>open('newsletters')}><Mail size={16} aria-hidden="true" />{sectionText(lang,'subscribe')}</button>
-    </section>
+    {headlines.length>0 && <section className="by-section" aria-labelledby="topics-heading">
+      <div className="by-section-title"><h2 id="topics-heading">{sectionText(lang,'topics')}</h2></div>
+      <AllTopicLinks categories={headlines.map(group=>group.category)} lang={lang}/>
+      <TopicGrid groups={headlines} lang={lang}/>
+      <AdSlot placement="home-lower"/>
+    </section>}
+    <RadioYO lang={lang} compact/>
   </div>;
 }
 
@@ -116,51 +156,63 @@ function SearchForm({ route, lang }: { route: EditionRoute; lang: PublicLocale }
   </form>;
 }
 
-type SectionProps = Omit<FrontProps, 'open'> & {
+type SectionProps = FrontProps & {
+  presentations:Summary[];
   hasNext: boolean; publishedCategories: string[]; route: EditionRoute; saved: string[];
   signedIn: boolean; accountStatus: string; saveButton: (story: Summary) => ReactNode;
 };
-export function SectionContent({ route, stories, presentations, unavailable, saved, signedIn, accountStatus, saveButton, hasNext, publishedCategories }: SectionProps) {
+export function SectionContent({ route, stories, headlines, presentations, unavailable, saved, signedIn, accountStatus, saveButton, hasNext, publishedCategories }: SectionProps) {
   const lang = usePublicLocale();
   const href = (path: string)=>localizedHref(path,lang);
   const { section, query, category, page } = route;
   const format = Object.hasOwn(formats, section) ? formats[section as keyof typeof formats] : undefined;
   const serverFiltered = section === 'actualites' || section === 'recherche';
-  const visiblePresentations = section === 'recherche' && page !== 1 ? [] : presentations;
-  const articles = section === 'actualites' ? stories : section === 'presentations' ? presentations : [...stories, ...visiblePresentations];
+  const articles = section === 'presentations' ? presentations : stories;
   const pool = section === 'favoris' ? articles.filter(story => saved.includes(story.slug)) : articles;
-  const categories = [...new Set([...publishedCategories, ...pool.map(story => story.category), ...(section === 'recherche' ? presentations.map(story => story.category) : [])])];
+  const categories = [...new Set([...publishedCategories, ...pool.map(story => canonicalCategory(story.category))])];
+  const topicPage = section === 'actualites' && !!category;
+  const topicIndex = section === 'actualites' && !category && !query && page===1;
   const terms = fold(query).split(/\s+/).filter(Boolean);
   const list = pool.filter(story => (serverFiltered && !story.presentation) || ((!category || fold(story.category) === fold(category)) &&
     terms.every(term => fold([story.title, story.category, categoryLabel(story.category,lang), story.summary, story.slug].join(' ')).includes(term))));
   const empty = category || query ? 'noMatch' : page>1 ? 'noPage' : section==='favoris' ? 'emptySaved' : section==='actualites' ? 'emptyNews' : 'empty';
+  const featured = topicPage && !query && page===1 ? list.slice(0,6) : [];
+  const archive = list.slice(featured.length);
   function card(story: Summary) { return <StoryCard key={story.slug} story={story} save={saveButton(story)} lang={lang} showSummary/>; }
   return <div className="wrap section-page by-index"><section className="page-title">
     <a className="by-section-link" href={href('/')}>{sectionLabel('accueil',lang)}</a>
-    <h1>{sectionLabel(section,lang)}</h1>
+    <h1>{topicPage ? categoryLabel(category,lang) : sectionLabel(section,lang)}</h1>
     {(section==='favoris'||section==='recherche') && <p>{sectionText(lang,section==='favoris'?'favoritesIntro':'searchIntro')}</p>}
   </section>
-    {format ? <section className="availability format-card">
-      <Image unoptimized src={'/media/' + format.image + '.webp'} width="900" height="400" alt="" />
-      <div><h2>{sectionText(lang,'upcoming')}</h2><p>{sectionText(lang,format.description)}</p>
-        <a href={href('/article/' + format.slug)} className="outline">{sectionText(lang,format.cta)}</a></div>
-    </section> : section === 'direct' ? <ChannelCards direct lang={lang}/> : <section className="content-section">
+    {topicPage && <>
+      <TopicDirectory categories={categories} current={category} lang={lang}/>
+      {featured.length>0 && <TopicRail category={category} lang={lang} current>{featured.map(card)}</TopicRail>}
+      {featured.length>0 && <AdSlot placement="news"/>}
+    </>}
+    {format ? <>
+      <section className="availability format-card">
+        <Image unoptimized src={'/media/' + format.image + '.webp'} width="900" height="400" alt="" />
+        <div><h2>{sectionText(lang,'upcoming')}</h2><p>{sectionText(lang,format.description)}</p></div>
+      </section>
+      {section==='radio' && <><RadioYO lang={lang}/><AdSlot placement="radio"/></>}
+    </> : section === 'direct' ? <ChannelCards direct lang={lang}/> : <section className="content-section">
       {section === 'favoris' && !signedIn ? <div className="empty">
         {accountStatus === 'loading' ? sectionText(lang,'loading') : accountStatus === 'error' ? <><p>{sectionText(lang,'accountError')}</p><a className="edition-icon-link" href={href(editionHref('favoris'))}><RefreshCw size={16} aria-hidden="true" />{sectionText(lang,'retry')}</a></> :
           <><p>{sectionText(lang,'loginPrompt')}</p><a className="outline" href={'/signin-with-chatgpt?return_to=' + encodeURIComponent(href(editionHref('favoris')))} target="_top">{sectionText(lang,'login')}</a></>}
       </div> : <>
-        <div className="by-section-title"><h2>{sectionText(lang,section==='recherche'?'results':section==='favoris'?'saved':section==='presentations'?'presentations':'wire')}</h2>
-          {section !== 'favoris' && <a className="by-section-link" href={href(editionHref('favoris'))}><Bookmark size={15} aria-hidden="true" />{sectionLabel('favoris',lang)}</a>}</div>
+        {topicIndex && <><AllTopicLinks categories={categories} lang={lang}/><TopicGrid groups={headlines} lang={lang}/><AdSlot placement="news-lower"/></>}
+        {(!featured.length || archive.length>0) && <div className="by-section-title"><h2>{sectionText(lang,topicPage||topicIndex?'archive':section==='recherche'?'results':section==='favoris'?'saved':section==='presentations'?'presentations':'wire')}</h2>
+          {section !== 'favoris' && <a className="by-section-link" href={href(editionHref('favoris'))}><Bookmark size={15} aria-hidden="true" />{sectionLabel('favoris',lang)}</a>}</div>}
         {(pool.length > 0 || section === 'recherche' || query || category) && <div className="filter-area"><SearchForm route={route} lang={lang} />
-          {categories.length > 0 && <nav className="edition-filters" aria-label={sectionText(lang,'filter')}>
+          {!topicPage && !topicIndex && categories.length > 0 && <nav className="edition-filters" aria-label={sectionText(lang,'filter')}>
             {['', ...categories].map(item => <a key={item} href={href(editionHref(section, query, item))}
               aria-current={fold(category) === fold(item) ? 'true' : undefined}>{item ? categoryLabel(item,lang) : sectionText(lang,'all')}</a>)}</nav>}
         </div>}
         {unavailable && section !== 'presentations' && <div className="empty"><p>{sectionText(lang,'unavailable')}</p><a className="edition-icon-link" href={href(editionHref(section, query, category))}><RefreshCw size={16} aria-hidden="true" />{sectionText(lang,'retry')}</a></div>}
-        {list.length>0 ? <><div className="by-story-grid">{(section==='actualites'?list.slice(0,4):list).map(card)}</div>
-          {section==='actualites' && <><AdSlot placement="news"/>{list.length>4 && <div className="by-story-grid">{list.slice(4).map(card)}</div>}</>}
-        </> : (!unavailable || section === 'presentations') && <div className="empty"><p>{sectionText(lang,empty)}</p>
-          {category || query || page>1 ? <a href={href(editionHref(section))}>{sectionText(lang,'reset')}</a> : <a href={href(editionHref('presentations'))}>{sectionText(lang,'allFeatures')}</a>}</div>}
+        {archive.length>0 ? <><div className="by-story-grid">{(section==='actualites'?archive.slice(0,4):archive).map(card)}</div>
+          {section==='actualites' && archive.length>4 && <><AdSlot placement={topicPage?'news-lower':'news'}/><div className="by-story-grid">{archive.slice(4).map(card)}</div></>}
+        </> : !featured.length && (!unavailable || section === 'presentations') && <div className="empty"><p>{sectionText(lang,topicPage && !query && page===1?'emptyTopic':empty)}</p>
+          {category || query || page>1 ? <a href={href(editionHref(section))}>{sectionText(lang,'reset')}</a> : <a href={href(editionHref('actualites'))}>{sectionText(lang,'allNews')}</a>}</div>}
         {serverFiltered && (hasNext || page>1) && <nav className="edition-pagination" aria-label={sectionText(lang,'pagination')}>
           {page>1 && <a className="outline" rel="prev" href={href(editionHref(section,query,category,page-1))}>{sectionText(lang,'prev')}</a>}
           <span>{sectionText(lang,'page')} {new Intl.NumberFormat(lang).format(page)}</span>

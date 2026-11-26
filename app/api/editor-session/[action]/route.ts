@@ -1,5 +1,5 @@
 import { chatGPTSignInPath, chatGPTSignOutPath, getChatGPTUser } from '../../../chatgpt-auth';
-import { canEdit, sameOrigin } from '../../../../lib/access';
+import { newsroomRole, sameOrigin } from '../../../../lib/access';
 import { cookieHeader, exchangeGrant, getCookie, hashSecret, issueGrant, randomSecret, revokeEditorSession,
   sessionCookie, sessionLifetime, validSecret, verifierCookie } from '../../../../lib/editor-session';
 import { boundedBytes } from '../../../../lib/input';
@@ -26,7 +26,7 @@ export async function GET(req: Request, { params }: Props) {
   if (action !== 'authorize' || url.origin !== SIGN_IN_ORIGIN || !validSecret(challenge)) return denied();
   const native = await getChatGPTUser();
   if (!native) return go(SIGN_IN_ORIGIN + chatGPTSignInPath(authorizePath + '?challenge=' + challenge));
-  if (!canEdit(native.email)) return denied();
+  if (!await newsroomRole(native)) return denied();
   const grant = await issueGrant(native,challenge);
   const nonce = randomSecret();
   // Only the grant is posted. The independent browser proof remains on the custom origin.
@@ -56,7 +56,7 @@ export async function POST(req: Request, {params}: Props) {
   const grant = new URLSearchParams(body).get('grant');
   if (!validSecret(grant)) return denied();
   const session = await exchangeGrant(grant,proof);
-  if (!session || !canEdit(session.email)) return denied();
+  if (!session || !await newsroomRole(session)) return denied();
   const response = go(NEWSROOM_URL);
   response.headers.append('Set-Cookie',cookieHeader(sessionCookie,session.token,sessionLifetime));
   response.headers.append('Set-Cookie',cookieHeader(verifierCookie,'',0));

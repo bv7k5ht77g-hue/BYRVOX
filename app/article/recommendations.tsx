@@ -37,7 +37,7 @@ export function Recommendations({stories, relatedCount, locale}: Props) {
   const Previous = rtl ? ChevronRight : ChevronLeft, Next = rtl ? ChevronLeft : ChevronRight;
   return <section className="reader-recommendations" aria-labelledby="recommended-title">
     <div className="recommendation-heading">
-      <h2 id="recommended-title">{copy.more}</h2>
+      <h2 id="recommended-title">{relatedCount ? copy.related : copy.discover}</h2>
       {!(edges.start && edges.end) && <div className="recommendation-controls">
         <button type="button" aria-controls="recommended-list" aria-label={copy.previous} disabled={edges.start} onClick={()=>step(-1)}><Previous size={18}/></button>
         <button type="button" aria-controls="recommended-list" aria-label={copy.next} disabled={edges.end} onClick={()=>step(1)}><Next size={18}/></button>
