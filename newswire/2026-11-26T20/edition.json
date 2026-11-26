@@ -1,0 +1,1110 @@
+{
+  "hour": "2026-11-26T20",
+  "articles": [
+    {
+      "eventKey": "wainwright-dix-neuf-hospitalisations-sept-etat-critique",
+      "category": "Canada",
+      "sources": [
+        {
+          "name": "La Presse Canadienne / Global News — point de presse d’Acute Care Alberta",
+          "url": "https://globalnews.ca/news/12167185/cfb-wainwright-fire-injury-update/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "CBC News",
+          "url": "https://www.cbc.ca/news/canada/edmonton/alta-wainwright-hospital-update-9.7436928",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Wainwright fire: 19 soldiers remain in Alberta hospitals, seven in critical condition",
+          "summary": "The provincial count is down by one patient from November 20. The critical count remains at seven.",
+          "body": "Nineteen soldiers injured in the Wainwright base fire are still being treated in Alberta hospitals, Acute Care Alberta said Thursday. Seven are in critical condition. The provincial count excludes patients transferred outside Alberta.\n\nIn Edmonton, University of Alberta Hospital surgeon Josh Wong said recovery from severe burns can take months or years. The Canadian Press reported that he also stressed the psychological toll of the injuries.",
+          "photoAlt": "Canadian soldiers aboard a Hercules at CFB Wainwright.",
+          "photoCaption": "Archive photograph, 2016-05-25. Canadian soldiers aboard a Hercules at CFB Wainwright."
+        },
+        "es": {
+          "title": "Incendio de Wainwright: 19 militares siguen hospitalizados en Alberta, siete en estado crítico",
+          "summary": "El balance provincial registra un paciente menos que el 20 de noviembre. Siguen siendo siete los casos críticos.",
+          "body": "Diecinueve militares heridos en el incendio de la base de Wainwright siguen en hospitales de Alberta, informó el jueves Acute Care Alberta. Siete están en estado crítico. El recuento provincial excluye a los pacientes trasladados fuera de Alberta.\n\nEn Edmonton, el cirujano Josh Wong, del Hospital de la Universidad de Alberta, explicó que la recuperación de quemaduras graves puede durar meses o años. The Canadian Press informó que también destacó el impacto psicológico de las heridas.",
+          "photoAlt": "Militares canadienses a bordo de un Hercules en la base de Wainwright.",
+          "photoCaption": "Fotografía de archivo del 2016-05-25. Militares canadienses a bordo de un Hercules en la base de Wainwright."
+        },
+        "ar": {
+          "title": "حريق وينرايت: 19 عسكرياً ما زالوا في مستشفيات ألبرتا بينهم سبعة في حالة حرجة",
+          "summary": "انخفض العدد في المقاطعة بمريض واحد مقارنة بحصيلة 20 نوفمبر، وبقي عدد الحالات الحرجة سبعاً.",
+          "body": "قالت هيئة الرعاية الحادة في ألبرتا الخميس إن 19 عسكرياً أصيبوا في حريق قاعدة وينرايت ما زالوا في مستشفيات المقاطعة، سبعة منهم في حالة حرجة. ولا يشمل العدد المرضى الذين نقلوا إلى خارج ألبرتا.\n\nوفي إدمونتون أوضح الجراح جوش وونغ من مستشفى جامعة ألبرتا أن التعافي من الحروق البالغة قد يستغرق أشهراً أو سنوات. وذكرت وكالة الصحافة الكندية أنه شدد أيضاً على العبء النفسي لهذه الإصابات.",
+          "photoAlt": "جنود كنديون على متن طائرة هركيوليز في قاعدة وينرايت.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2016-05-25. جنود كنديون على متن طائرة هركيوليز في قاعدة وينرايت."
+        },
+        "zh-CN": {
+          "title": "温赖特基地火灾后仍有19名军人在阿尔伯塔省住院，7人情况危急",
+          "summary": "省内住院人数较11月20日减少一人，危重患者仍为七人。",
+          "body": "阿尔伯塔省急症护理机构周四表示，在温赖特基地火灾中受伤的军人中，仍有19人在省内医院接受治疗，其中7人情况危急。这一数字不包括转往省外的患者。\n\n在埃德蒙顿，阿尔伯塔大学医院外科医生乔什·王表示，严重烧伤的康复可能需要数月乃至数年。据加拿大通讯社报道，他还强调了烧伤带来的心理负担。",
+          "photoAlt": "加拿大士兵在温赖特基地一架大力神运输机内。",
+          "photoCaption": "资料照片，摄于2016-05-25。加拿大士兵在温赖特基地一架大力神运输机内。"
+        },
+        "ru": {
+          "title": "После пожара в Уэйнрайте в больницах Альберты остаются 19 военнослужащих, семь в критическом состоянии",
+          "summary": "По сравнению с 20 ноября в провинции госпитализировано на одного пациента меньше. В критическом состоянии по-прежнему семь человек.",
+          "body": "В четверг Acute Care Alberta сообщила, что 19 военнослужащих, пострадавших при пожаре на базе Уэйнрайт, продолжают лечение в больницах Альберты. Семеро в критическом состоянии. Пациенты, переведённые за пределы провинции, в эту цифру не входят.\n\nВ Эдмонтоне хирург больницы Альбертского университета Джош Вонг пояснил, что восстановление после тяжёлых ожогов может занять месяцы или годы. По данным The Canadian Press, он также подчеркнул психологические последствия травм.",
+          "photoAlt": "Канадские военнослужащие на борту «Геркулеса» на базе Уэйнрайт.",
+          "photoCaption": "Архивное фото от 2016-05-25. Канадские военнослужащие на борту «Геркулеса» на базе Уэйнрайт."
+        },
+        "ko": {
+          "title": "웨인라이트 기지 화재 부상 군인 19명 앨버타서 입원 중…7명 위중",
+          "summary": "주내 입원 환자는 11월 20일보다 한 명 줄었고 위중한 환자는 7명으로 같다.",
+          "body": "앨버타 급성의료기관은 목요일 웨인라이트 기지 화재로 다친 군인 19명이 주내 병원에서 치료를 받고 있고 이 중 7명이 위중하다고 밝혔다. 다른 주로 이송된 환자는 집계에서 제외됐다.\n\n에드먼턴 앨버타대학병원의 외과의 조시 웡은 심한 화상에서 회복하는 데 수개월에서 수년이 걸릴 수 있다고 설명했다. 캐나디안 프레스에 따르면 그는 부상에 따른 심리적 부담도 강조했다.",
+          "photoAlt": "웨인라이트 기지의 허큘리스 수송기에 탑승한 캐나다 군인들.",
+          "photoCaption": "자료 사진(2016-05-25). 웨인라이트 기지의 허큘리스 수송기에 탑승한 캐나다 군인들."
+        }
+      },
+      "title": "Incendie de Wainwright : 19 militaires restent hospitalisés en Alberta, dont sept en état critique",
+      "summary": "Le nouveau bilan provincial compte un patient hospitalisé de moins que celui du 20 novembre. Le nombre de cas critiques reste à sept.",
+      "body": "Dix-neuf militaires blessés dans l’incendie de la base de Wainwright sont toujours soignés dans des hôpitaux albertains, a indiqué jeudi Acute Care Alberta. Sept sont dans un état critique. Ce décompte provincial exclut les patients transférés hors de l’Alberta.\n\nÀ Edmonton, le chirurgien Josh Wong, de l’Hôpital de l’Université de l’Alberta, a expliqué que le rétablissement après des brûlures graves pouvait durer des mois, voire des années. La Presse Canadienne rapporte qu’il a aussi souligné le poids psychologique de ces blessures.",
+      "photo": {
+        "download": "media/burn.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:160525-Z-ZD742-017_(27394682533).jpg",
+        "credit": "Staff Sgt. Ed Omelina / U.S. Army / Oregon National Guard",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Des militaires canadiens à bord d’un Hercules à la base de Wainwright.",
+        "caption": "Photo d’archives du 2016-05-25. Des militaires canadiens à bord d’un Hercules à la base de Wainwright."
+      }
+    },
+    {
+      "eventKey": "repentigny-cn-retour-progressif-vitesse-trains-voyageurs",
+      "category": "Québec",
+      "sources": [
+        {
+          "name": "Canadien National",
+          "url": "https://www.cn.ca/en/news/2026/11/public-notice-update-on-cn-incident-response-in-repentigny-quebec-on-july-5th-2026/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "CityNews Montréal",
+          "url": "https://montreal.citynews.ca/2026/11/26/cn-passenger-train-speed-increase-repentigny-derailment/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "CN to raise passenger train speeds in stages in Repentigny",
+          "summary": "On the section affected by the July 5 derailment in Le Gardeur, the first increase is scheduled for November 27.",
+          "body": "VIA Rail trains will be able to travel at 48 km/h starting Friday on the section where they were limited to 16 km/h. CN then plans limits of 80 km/h on December 14 and 121 km/h on January 4, 2027. Mayor Nicolas Dufour shared the schedule Thursday, CityNews reported.\n\nCN says it has rebuilt about 750 metres of track and replaced all ties on the affected section since the freight train derailment. The announced schedule for restoring normal speeds applies to passenger trains.",
+          "photoAlt": "Glass-fronted station building in Repentigny, Quebec.",
+          "photoCaption": "Archive photograph, 2019-04-21. Glass-fronted station building in Repentigny, Quebec."
+        },
+        "es": {
+          "title": "CN aumentará por etapas la velocidad de los trenes de pasajeros en Repentigny",
+          "summary": "En el tramo afectado por el descarrilamiento del 5 de julio en Le Gardeur, la primera subida está prevista para el 27 de noviembre.",
+          "body": "Desde el viernes, los trenes de VIA Rail podrán circular a 48 km/h donde el límite era de 16. CN prevé elevarlo a 80 km/h el 14 de diciembre y a 121 el 4 de enero de 2027. El alcalde Nicolas Dufour difundió el calendario el jueves, según CityNews.\n\nCN dice haber reconstruido unos 750 metros de vía y sustituido todas las traviesas del tramo tras el descarrilamiento del tren de mercancías. El calendario de recuperación de la velocidad normal corresponde a los trenes de pasajeros.",
+          "photoAlt": "Edificio acristalado de la estación de Repentigny, en Quebec.",
+          "photoCaption": "Fotografía de archivo del 2019-04-21. Edificio acristalado de la estación de Repentigny, en Quebec."
+        },
+        "ar": {
+          "title": "شركة سي إن ترفع تدريجياً سرعة قطارات الركاب في روبنتيني",
+          "summary": "الزيادة الأولى مقررة في 27 نوفمبر على المقطع المتضرر من خروج قطار عن السكة في لو غاردور في 5 يوليو.",
+          "body": "ستتمكن قطارات فيا ريل بدءاً من الجمعة من السير بسرعة 48 كم/ساعة في المقطع الذي كان الحد فيه 16. وتعتزم سي إن رفعه إلى 80 في 14 ديسمبر ثم إلى 121 في 4 يناير 2027. ونقل العمدة نيكولا دوفور الجدول الخميس بحسب سيتي نيوز.\n\nوتقول الشركة إنها أعادت بناء نحو 750 متراً من السكة واستبدلت جميع العوارض في المقطع المتضرر منذ خروج قطار البضائع عن مساره. ويخص جدول العودة إلى السرعة العادية قطارات الركاب.",
+          "photoAlt": "المبنى الزجاجي لمحطة قطارات ريبنتيني في كيبيك.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2019-04-21. المبنى الزجاجي لمحطة قطارات ريبنتيني في كيبيك."
+        },
+        "zh-CN": {
+          "title": "加拿大国家铁路将在勒庞蒂尼分阶段提高客车限速",
+          "summary": "勒加德尔7月5日脱轨事故所涉路段计划11月27日首次提速。",
+          "body": "从周五起，维亚铁路列车在该路段的限速将从每小时16公里升至48公里。加拿大国家铁路计划12月14日升至80公里，2027年1月4日升至121公里。据CityNews报道，市长尼古拉·迪富尔周四转发了这一时间表。\n\n铁路公司表示，自货运列车脱轨以来，已重建约750米轨道并更换受影响路段的全部枕木。此次恢复正常速度的时间表适用于客运列车。",
+          "photoAlt": "魁北克省勒庞蒂尼火车站的玻璃外墙建筑。",
+          "photoCaption": "资料照片，摄于2019-04-21。魁北克省勒庞蒂尼火车站的玻璃外墙建筑。"
+        },
+        "ru": {
+          "title": "CN поэтапно повысит скорость пассажирских поездов в Репантиньи",
+          "summary": "На участке в Ле-Гардере, где 5 июля сошёл с рельсов поезд, первое повышение намечено на 27 ноября.",
+          "body": "С пятницы поезда VIA Rail смогут ехать со скоростью 48 км/ч там, где предел составлял 16 км/ч. CN планирует повысить его до 80 км/ч 14 декабря и до 121 км/ч 4 января 2027 года. По данным CityNews, мэр Никола Дюфур обнародовал график в четверг.\n\nПо данным CN, после схода грузового поезда восстановлено около 750 метров пути и заменены все шпалы повреждённого участка. График восстановления обычной скорости касается пассажирских поездов.",
+          "photoAlt": "Здание железнодорожной станции Репантиньи в Квебеке со стеклянным фасадом.",
+          "photoCaption": "Архивное фото от 2019-04-21. Здание железнодорожной станции Репантиньи в Квебеке со стеклянным фасадом."
+        },
+        "ko": {
+          "title": "CN, 르팡티니 여객열차 제한속도 단계적 상향",
+          "summary": "7월 5일 르가르되르 탈선 사고가 발생한 구간에서 11월 27일 첫 인상이 예정됐다.",
+          "body": "비아레일 열차는 금요일부터 기존 시속 16㎞ 제한 구간에서 48㎞로 달릴 수 있다. CN은 12월 14일 80㎞, 2027년 1월 4일 121㎞로 높일 계획이다. 시티뉴스에 따르면 니콜라 뒤푸르 시장이 목요일 이 일정을 알렸다.\n\nCN은 화물열차 탈선 이후 선로 약 750m를 재건하고 해당 구간의 침목을 모두 교체했다고 밝혔다. 정상 속도 복귀 일정은 여객열차에 적용된다.",
+          "photoAlt": "퀘벡주 르팡티니 기차역의 유리 외벽 건물.",
+          "photoCaption": "자료 사진(2019-04-21). 퀘벡주 르팡티니 기차역의 유리 외벽 건물."
+        }
+      },
+      "title": "À Repentigny, le CN relèvera progressivement la vitesse des trains de voyageurs",
+      "summary": "Sur le tronçon touché par le déraillement du 5 juillet dans le secteur Le Gardeur, la première hausse est prévue le 27 novembre.",
+      "body": "Les trains de VIA Rail pourront circuler à 48 km/h dès vendredi sur la section où leur vitesse était limitée à 16 km/h. Le CN prévoit ensuite un plafond de 80 km/h le 14 décembre, puis de 121 km/h le 4 janvier 2027. Le maire Nicolas Dufour a relayé cet échéancier jeudi, rapporte CityNews.\n\nLe CN dit avoir reconstruit environ 750 mètres de voie et remplacé toutes les traverses de la section touchée depuis le déraillement du train de marchandises. L’échéancier annoncé pour le retour à la vitesse normale concerne les trains de voyageurs.",
+      "photo": {
+        "download": "media/train.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Repentigny_(exo)_train_station.jpg",
+        "credit": "Ed7789",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Bâtiment vitré de la gare de Repentigny, au Québec.",
+        "caption": "Photo d’archives du 2019-04-21. Bâtiment vitré de la gare de Repentigny, au Québec."
+      }
+    },
+    {
+      "eventKey": "montreal-poste-21-suspension-patrouilleur-personne-vulnerable",
+      "category": "Québec",
+      "sources": [
+        {
+          "name": "Le Journal de Montréal — déclaration du SPVM",
+          "url": "https://www.journaldemontreal.com/2026/11/26/allegations-de-comportements-inappropries-un-policier-du-poste-de-quartier-21-suspendu",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "CityNews Montréal",
+          "url": "https://montreal.citynews.ca/2026/11/26/spvm-suspends-officer-station-21-vulnerable-person/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Montreal suspends Station 21 patrol officer following complaint",
+          "summary": "Montreal police are investigating alleged conduct toward a vulnerable person downtown.",
+          "body": "Montreal police suspended a patrol officer at neighbourhood station 21 on Thursday. In a statement reported by Le Journal de Montréal and CityNews, the force said the allegations concern the officer’s conduct toward a vulnerable person.\n\nThe professional standards division is investigating. Police declined to describe the alleged conduct, citing employee privacy and the ongoing investigation. The suspension takes effect while the facts are being examined.",
+          "photoAlt": "Entrance to Montreal police headquarters on Saint-Urbain Street.",
+          "photoCaption": "Archive photograph, 2012-09-07. Entrance to Montreal police headquarters on Saint-Urbain Street."
+        },
+        "es": {
+          "title": "Montreal suspende a un patrullero de la comisaría 21 tras una denuncia",
+          "summary": "La policía investiga la presunta conducta del agente hacia una persona vulnerable en el centro.",
+          "body": "La policía de Montreal suspendió el jueves a un patrullero de la comisaría de barrio 21. En una declaración recogida por Le Journal de Montréal y CityNews, el cuerpo señaló que las alegaciones se refieren al trato del agente hacia una persona vulnerable.\n\nLa división de normas profesionales sigue investigando. La policía declinó precisar los actos alegados por la confidencialidad del expediente laboral y para preservar la investigación. La suspensión rige mientras se examinan los hechos.",
+          "photoAlt": "Entrada de la sede de la policía de Montreal en la calle Saint-Urbain.",
+          "photoCaption": "Fotografía de archivo del 2012-09-07. Entrada de la sede de la policía de Montreal en la calle Saint-Urbain."
+        },
+        "ar": {
+          "title": "شرطة مونتريال توقف عن العمل شرطياً من المركز 21 بعد بلاغ",
+          "summary": "تحقق الشرطة في مزاعم بشأن تعامل الشرطي مع شخص في وضع هش وسط المدينة.",
+          "body": "أوقفت شرطة مونتريال عن العمل الخميس شرطياً من دوريات مركز الحي رقم 21. وقالت في بيان نقلته لو جورنال دو مونتريال وسيتي نيوز إن المزاعم تتعلق بسلوك الشرطي تجاه شخص في وضع هش.\n\nيواصل قسم المعايير المهنية التحقيق. وامتنعت الشرطة عن تحديد طبيعة الأفعال المزعومة حفاظاً على سرية ملف الموظف وعلى سير التحقيق. ويسري الإيقاف خلال تقصي الوقائع.",
+          "photoAlt": "مدخل مقر شرطة مونتريال في شارع سان أوربان.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2012-09-07. مدخل مقر شرطة مونتريال في شارع سان أوربان."
+        },
+        "zh-CN": {
+          "title": "蒙特利尔第21分局一名巡警接获投诉后被停职",
+          "summary": "警方正调查这名巡警涉嫌在市中心不当对待一名弱势人士的事件。",
+          "body": "蒙特利尔警方星期四暂停了第21社区分局一名巡警的职务。据《蒙特利尔日报》和CityNews报道，警方在声明中表示，指控涉及该警员对待一名弱势人士的行为。\n\n警方专业标准部门仍在调查。警方以雇员档案保密及保障调查为由，拒绝说明被指行为的细节。停职措施在核查事实期间生效。",
+          "photoAlt": "蒙特利尔警方总部位于圣于尔班街的入口。",
+          "photoCaption": "资料照片，摄于2012-09-07。蒙特利尔警方总部位于圣于尔班街的入口。"
+        },
+        "ru": {
+          "title": "В Монреале после жалобы отстранили патрульного из участка № 21",
+          "summary": "Полиция выясняет обстоятельства предполагаемого обращения с уязвимым человеком в центре города.",
+          "body": "Полиция Монреаля в четверг отстранила от работы патрульного из районного участка № 21. В заявлении, которое приводят Le Journal de Montréal и CityNews, ведомство сообщило, что жалоба касается поведения сотрудника по отношению к уязвимому человеку.\n\nРасследование ведёт отдел профессиональных стандартов. Полиция отказалась уточнить характер предполагаемых действий, сославшись на конфиденциальность личного дела сотрудника и интересы расследования. Отстранение действует на время проверки.",
+          "photoAlt": "Вход в штаб-квартиру полиции Монреаля на улице Сент-Юрбен.",
+          "photoCaption": "Архивное фото от 2012-09-07. Вход в штаб-квартиру полиции Монреаля на улице Сент-Юрбен."
+        },
+        "ko": {
+          "title": "몬트리올 경찰, 신고 접수 뒤 21지구대 순찰관 직무 정지",
+          "summary": "시내에서 취약한 처지의 사람을 부당하게 대했다는 의혹을 경찰이 조사하고 있다.",
+          "body": "몬트리올 경찰은 목요일 21지구대 소속 순찰관 한 명의 직무를 정지했다. 르 주르날 드 몽레알과 시티뉴스가 보도한 경찰 성명에 따르면 의혹은 이 순찰관이 취약한 처지의 사람을 대하는 과정에서 한 행동에 관한 것이다.\n\n경찰 직무기준 부서가 조사를 이어가고 있다. 경찰은 직원 인사 기록의 비밀을 보호하고 조사에 지장을 주지 않기 위해 구체적인 의혹을 밝히지 않았다. 직무 정지는 사실관계를 확인하는 동안 적용된다.",
+          "photoAlt": "생튀르뱅 거리의 몬트리올 경찰 본부 입구.",
+          "photoCaption": "자료 사진(2012-09-07). 생튀르뱅 거리의 몬트리올 경찰 본부 입구."
+        }
+      },
+      "title": "Montréal suspend un patrouilleur du poste 21 après un signalement",
+      "summary": "Le SPVM enquête sur des gestes présumés envers une personne vulnérable au centre-ville.",
+      "body": "Le Service de police de la Ville de Montréal a suspendu jeudi un patrouilleur du poste de quartier 21. Dans une déclaration rapportée par Le Journal de Montréal et CityNews, le SPVM indique que les allégations concernent la conduite de l’agent envers une personne vulnérable.\n\nLa Division des normes professionnelles poursuit l’enquête. Le service refuse de préciser la nature des gestes en invoquant la confidentialité du dossier de l’employé et le travail des enquêteurs. La suspension intervient pendant cet examen des faits.",
+      "photo": {
+        "download": "media/pol.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quartier_general_du_Service_de_police_de_la_Ville_de_Montreal.jpg",
+        "credit": "Jeangagnon",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Entrée du quartier général de la police de Montréal, rue Saint-Urbain.",
+        "caption": "Photo d’archives du 2012-09-07. Entrée du quartier général de la police de Montréal, rue Saint-Urbain."
+      }
+    },
+    {
+      "eventKey": "c-39-reaction-congres-travail-droit-de-greve-apres-rapport",
+      "category": "Canada",
+      "sources": [
+        {
+          "name": "La Presse Canadienne / CityNews",
+          "url": "https://vancouver.citynews.ca/2026/11/26/labour-group-says-bill-c-39-changes-fail-to-protect-workers-right-to-strike/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Parlement du Canada — rapport du comité",
+          "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-39",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Congrès du travail du Canada — déclaration initiale",
+          "url": "https://canadianlabour.ca/government-legislation-undermines-the-right-to-strike/",
+          "publishedAt": "2026-09-21"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Canadian Labour Congress says changes to Bill C-39 fall short on strike rights",
+          "summary": "The labour federation responded to the committee report on federally regulated labour disputes.",
+          "body": "The Canadian Labour Congress still opposes provisions in C-39 that would allow the minister to end a strike or lockout in the national interest. Vice-president Siobhan Vipond told The Canadian Press on Thursday that the government had not seriously considered the safeguards unions proposed.\n\nThe committee added a parliamentary review after each use of the power. Minister Patty Hajdu’s office said the committee spent more than 100 hours on debate and testimony.",
+          "photoAlt": "West Block on Parliament Hill in Ottawa, surrounded by cranes.",
+          "photoCaption": "Archive photograph, 2016-09-29. West Block on Parliament Hill in Ottawa, surrounded by cranes."
+        },
+        "es": {
+          "title": "La central sindical canadiense considera insuficientes los cambios a C-39 sobre el derecho de huelga",
+          "summary": "La organización respondió al informe de la comisión sobre los conflictos laborales de competencia federal.",
+          "body": "El Congreso del Trabajo de Canadá mantiene su oposición a las disposiciones de C-39 que permitirían al ministro poner fin a una huelga o un cierre patronal por motivos de interés nacional. Su vicepresidenta, Siobhan Vipond, dijo el jueves a The Canadian Press que el Gobierno no había estudiado seriamente las garantías propuestas por los sindicatos.\n\nLa comisión añadió una revisión parlamentaria cada vez que se ejerza esa facultad. La oficina de la ministra Patty Hajdu señaló que la comisión dedicó más de 100 horas al debate y a escuchar testimonios.",
+          "photoAlt": "Edificio del Oeste del Parlamento en Ottawa, rodeado de grúas.",
+          "photoCaption": "Fotografía de archivo del 2016-09-29. Edificio del Oeste del Parlamento en Ottawa, rodeado de grúas."
+        },
+        "ar": {
+          "title": "مؤتمر العمال الكندي يرى أن تعديلات مشروع C-39 لا تكفي لحماية حق الإضراب",
+          "summary": "رد الاتحاد العمالي على تقرير اللجنة بشأن النزاعات العمالية الخاضعة للاختصاص الاتحادي.",
+          "body": "لا يزال مؤتمر العمال الكندي يعارض بنوداً في مشروع C-39 تتيح للوزير إنهاء إضراب أو إغلاق يفرضه صاحب العمل بداعي المصلحة الوطنية. وقالت نائبة رئيس المؤتمر شيفون فيبوند لوكالة الصحافة الكندية الخميس إن الحكومة لم تدرس بجدية الضمانات التي اقترحتها النقابات.\n\nأضافت اللجنة مراجعة برلمانية بعد كل استخدام لهذه الصلاحية. وقال مكتب الوزيرة باتي هايدو إن اللجنة أمضت أكثر من مئة ساعة في النقاش والاستماع إلى الشهادات.",
+          "photoAlt": "المبنى الغربي في تلة البرلمان بأوتاوا وحوله رافعات.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2016-09-29. المبنى الغربي في تلة البرلمان بأوتاوا وحوله رافعات."
+        },
+        "zh-CN": {
+          "title": "加拿大劳工大会认为C-39法案修订不足以保障罢工权",
+          "summary": "该工会组织就委员会有关联邦管辖劳资纠纷的报告作出回应。",
+          "body": "加拿大劳工大会仍反对C-39法案中允许部长以国家利益为由终止罢工或雇主停工的条款。副主席希沃恩·维庞德星期四告诉加拿大通讯社，政府没有认真考虑工会提出的保障措施。\n\n委员会增列条款，要求部长每次动用这项权力后由议会审查。部长帕蒂·海杜的办公室表示，委员会用于辩论和听取证词的时间超过100小时。",
+          "photoAlt": "渥太华国会山西座大楼，四周可见起重机。",
+          "photoCaption": "资料照片，摄于2016-09-29。渥太华国会山西座大楼，四周可见起重机。"
+        },
+        "ru": {
+          "title": "Канадский конгресс труда считает поправки к C-39 недостаточными для защиты права на забастовку",
+          "summary": "Профсоюзное объединение отреагировало на доклад комитета по трудовым спорам в отраслях федеральной юрисдикции.",
+          "body": "Канадский конгресс труда по-прежнему возражает против положений C-39, которые позволят министру прекращать забастовку или локаут в национальных интересах. Вице-президент объединения Шивон Випонд в четверг заявила The Canadian Press, что правительство не рассмотрело всерьёз предложенные профсоюзами гарантии.\n\nКомитет добавил требование проводить парламентскую проверку после каждого применения этих полномочий. В аппарате министра Патти Хайду сообщили, что комитет посвятил обсуждению и заслушиванию свидетельств более 100 часов.",
+          "photoAlt": "Западный блок на Парламентском холме в Оттаве в окружении кранов.",
+          "photoCaption": "Архивное фото от 2016-09-29. Западный блок на Парламентском холме в Оттаве в окружении кранов."
+        },
+        "ko": {
+          "title": "캐나다 노동총연맹 “C-39 수정안, 파업권 보호에 부족”",
+          "summary": "연방 관할 업종의 노사 분쟁에 관한 의회 위원회 보고서에 노동계가 입장을 밝혔다.",
+          "body": "캐나다 노동총연맹은 장관이 국익을 이유로 파업이나 직장폐쇄를 끝낼 수 있도록 하는 C-39 법안 조항에 여전히 반대한다. 시오반 비폰드 부위원장은 목요일 캐나디안 프레스에 정부가 노조가 제시한 보호 장치를 진지하게 검토하지 않았다고 말했다.\n\n위원회는 이 권한을 행사할 때마다 의회가 사후 심사하도록 하는 내용을 추가했다. 패티 하이두 장관실은 위원회가 토론과 증언 청취에 100시간 넘게 썼다고 밝혔다.",
+          "photoAlt": "크레인에 둘러싸인 오타와 국회의사당 서관.",
+          "photoCaption": "자료 사진(2016-09-29). 크레인에 둘러싸인 오타와 국회의사당 서관."
+        }
+      },
+      "title": "Droit de grève : le Congrès du travail du Canada juge les changements à C-39 insuffisants",
+      "summary": "La centrale syndicale réagit au rapport du comité sur les conflits de travail de compétence fédérale.",
+      "body": "Le Congrès du travail du Canada maintient son opposition aux dispositions de C-39 qui permettraient au ministre de mettre fin à une grève ou à un lock-out au nom de l’intérêt national. Sa vice-présidente Siobhan Vipond a déclaré jeudi à La Presse canadienne que le gouvernement n’avait pas sérieusement examiné les garanties proposées par les syndicats.\n\nLe comité a ajouté un examen parlementaire après chaque recours à ce pouvoir. Le cabinet de la ministre Patty Hajdu souligne que les débats et les témoignages en comité ont occupé plus de 100 heures.",
+      "photo": {
+        "download": "media/union.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_Block,_Parliament_Hill,_Ottawa,_Ontario_(30069044195).jpg",
+        "credit": "Ken Lund from Reno, Nevada, USA",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "Édifice de l’Ouest sur la colline du Parlement à Ottawa, entouré de grues.",
+        "caption": "Photo d’archives du 2016-09-29. Édifice de l’Ouest sur la colline du Parlement à Ottawa, entouré de grues."
+      }
+    },
+    {
+      "eventKey": "ontario-ford-demande-legitime-defense-invasions-domicile",
+      "category": "Canada",
+      "sources": [
+        {
+          "name": "CityNews Toronto — point de presse à Queen’s Park",
+          "url": "https://toronto.citynews.ca/2026/11/26/ford-castle-law-after-spate-violent-gta-home-invasions/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Queen’s Park Briefing",
+          "url": "https://www.qpbriefing.com/news/protect-your-family-at-all-costs-ford-vows-to-push-self-defence-rules-right-up-to-the-edge",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "After two Toronto home invasions, Doug Ford asks Ottawa to revisit self-defence laws",
+          "summary": "Ontario’s premier wants broader protection for people who defend themselves at home.",
+          "body": "At Queen’s Park on Thursday, Doug Ford called on the federal government to amend the Criminal Code after two violent break-ins at Toronto homes in less than a month. CityNews reported that his remarks followed the death of a Casa Loma resident on Wednesday.\n\nAttorney General Doug Downey said the province would renew its request to Ottawa. Queen’s Park Briefing reported that Ontario is also examining measures it could take within its own jurisdiction.",
+          "photoAlt": "Portrait of Doug Ford in a dark suit jacket and tie.",
+          "photoCaption": "Archive photograph, 2025-06-03. Portrait of Doug Ford in a dark suit jacket and tie."
+        },
+        "es": {
+          "title": "Tras dos asaltos a viviendas en Toronto, Doug Ford pide a Ottawa revisar la legítima defensa",
+          "summary": "El primer ministro de Ontario quiere ampliar la protección de quienes se defienden en su casa.",
+          "body": "El jueves en Queen’s Park, Doug Ford pidió al Gobierno federal modificar el Código Penal tras dos asaltos violentos a viviendas de Toronto en menos de un mes. Según CityNews, sus declaraciones se produjeron después de que un vecino del barrio de Casa Loma muriera el miércoles.\n\nEl fiscal general Doug Downey dijo que la provincia reiterará su petición a Ottawa. Queen’s Park Briefing informó de que Ontario también estudia medidas que podría adoptar en el ámbito de sus competencias.",
+          "photoAlt": "Retrato de Doug Ford con chaqueta oscura y corbata.",
+          "photoCaption": "Fotografía de archivo del 2025-06-03. Retrato de Doug Ford con chaqueta oscura y corbata."
+        },
+        "ar": {
+          "title": "دوغ فورد يدعو أوتاوا لمراجعة قواعد الدفاع عن النفس بعد اقتحام منزلين في تورونتو",
+          "summary": "يريد رئيس حكومة أونتاريو توسيع الحماية لمن يدافعون عن أنفسهم في منازلهم.",
+          "body": "دعا دوغ فورد في كوينز بارك الخميس الحكومة الاتحادية إلى تعديل القانون الجنائي بعد اقتحام منزلين في تورونتو بعنف خلال أقل من شهر. وأفادت سيتي نيوز بأن التصريحات جاءت عقب وفاة أحد سكان حي كاسا لوما الأربعاء.\n\nوقال المدعي العام للمقاطعة دوغ داوني إن أونتاريو ستجدد طلبها لأوتاوا. وأفادت كوينز بارك بريفينغ بأن حكومة المقاطعة تدرس أيضاً ما يمكنها اتخاذه من تدابير ضمن صلاحياتها.",
+          "photoAlt": "صورة لدوغ فورد يرتدي سترة داكنة وربطة عنق.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2025-06-03. صورة لدوغ فورد يرتدي سترة داكنة وربطة عنق."
+        },
+        "zh-CN": {
+          "title": "多伦多发生两起暴力入室案后，福特要求联邦政府重审正当防卫规定",
+          "summary": "安大略省省长希望扩大对在家中自卫者的法律保护。",
+          "body": "安省省长道格·福特星期四在省议会呼吁联邦政府修改《刑法》。多伦多在不到一个月内发生两起暴力入室案。据CityNews报道，福特发表讲话前一天，卡萨洛马社区一名居民死亡。\n\n省总检察长道格·唐尼表示，安省将再次向联邦政府提出要求。据Queen’s Park Briefing报道，省政府也正在研究自身权限范围内可以采取的措施。",
+          "photoAlt": "身穿深色西装、系领带的道格·福特。",
+          "photoCaption": "资料照片，摄于2025-06-03。身穿深色西装、系领带的道格·福特。"
+        },
+        "ru": {
+          "title": "После двух нападений в жилых домах Торонто Даг Форд призвал Оттаву пересмотреть правила самообороны",
+          "summary": "Премьер Онтарио хочет расширить правовую защиту людей, которые обороняются у себя дома.",
+          "body": "В четверг в Куинс-Парке Даг Форд призвал федеральное правительство изменить Уголовный кодекс. Менее чем за месяц в Торонто произошли два насильственных вторжения в жилые дома. По данным CityNews, заявление последовало за гибелью в среду жителя района Каса-Лома.\n\nГенеральный прокурор провинции Даг Дауни заявил, что Онтарио вновь обратится к Оттаве. Как сообщает Queen’s Park Briefing, правительство провинции также рассматривает меры в пределах собственных полномочий.",
+          "photoAlt": "Портрет Дага Форда в тёмном пиджаке и галстуке.",
+          "photoCaption": "Архивное фото от 2025-06-03. Портрет Дага Форда в тёмном пиджаке и галстуке."
+        },
+        "ko": {
+          "title": "토론토 주택 침입 사건 두 건 뒤 포드 주총리, 연방정부에 정당방위법 재검토 요구",
+          "summary": "온타리오 주총리는 집에서 자신을 방어한 사람에 대한 법적 보호를 확대하자고 밝혔다.",
+          "body": "더그 포드 주총리는 목요일 주의회에서 한 달도 채 안 돼 토론토 주택에서 두 건의 폭력 침입 사건이 발생했다며 연방정부에 형법 개정을 요구했다. 시티뉴스에 따르면 발언 전날 카사로마 지역 주민 한 명이 숨졌다.\n\n더그 다우니 주 법무장관은 연방정부에 요청을 다시 전달할 것이라고 말했다. 퀸스 파크 브리핑에 따르면 온타리오 정부는 자체 권한으로 취할 수 있는 조치도 검토 중이다.",
+          "photoAlt": "어두운 양복에 넥타이를 맨 더그 포드.",
+          "photoCaption": "자료 사진(2025-06-03). 어두운 양복에 넥타이를 맨 더그 포드."
+        }
+      },
+      "title": "Après deux invasions de domicile à Toronto, Doug Ford demande à Ottawa de revoir la légitime défense",
+      "summary": "Le premier ministre de l’Ontario veut élargir la protection des personnes qui se défendent chez elles.",
+      "body": "À Queen’s Park jeudi, Doug Ford a demandé au gouvernement fédéral de modifier le Code criminel après deux intrusions violentes dans des résidences de Toronto en moins d’un mois. Selon CityNews, son intervention fait suite à la mort d’un résident du quartier Casa Loma mercredi.\n\nLe procureur général Doug Downey a dit que la province comptait renouveler sa demande auprès d’Ottawa. Queen’s Park Briefing rapporte que le gouvernement ontarien examine aussi les mesures qu’il pourrait prendre dans ses propres champs de compétence.",
+      "photo": {
+        "download": "media/ford.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doug_Ford_in_Toronto_June_2025_(edited).jpg",
+        "credit": "Ambassador Pete Hoekstra / U.S. Department of State",
+        "license": "Domaine public — œuvre du gouvernement fédéral des États-Unis",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Doug_Ford_in_Toronto_June_2025_(edited).jpg#Licensing",
+        "alt": "Portrait de Doug Ford en veste sombre et cravate.",
+        "caption": "Photo d’archives du 2025-06-03. Portrait de Doug Ford en veste sombre et cravate."
+      }
+    },
+    {
+      "eventKey": "altria-imperial-brands-offre-eventuelle-decembre",
+      "category": "Économie",
+      "sources": [
+        {
+          "name": "Altria Group",
+          "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-Response-to-Media-Speculation-on-Possible-Offer-for-Imperial-Brands-plc/default.aspx",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/nov/26/marlboro-maker-altria-considering-takeover-bid-for-imperial-brands",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Altria weighs Imperial Brands bid and discusses selling part of the business",
+          "summary": "The US tobacco group has until December 24 to clarify its intentions unless the deadline is extended.",
+          "body": "Altria confirmed on Thursday that it was considering buying Britain’s Imperial Brands. The US group said in a statement that any offer would likely be entirely in cash. It also said it was in talks with a third party that might buy part of Imperial’s business.\n\nNo deal to sell those operations has been reached. Under the UK timetable outlined by Altria and reported by the Guardian, the group must announce its decision by 5 p.m. London time on December 24 unless it receives an extension.",
+          "photoAlt": "Tree-lined approach to the Imperial Brands offices in Bristol.",
+          "photoCaption": "Archive photograph, 2014-04-28. Tree-lined approach to the Imperial Brands offices in Bristol."
+        },
+        "es": {
+          "title": "Altria estudia comprar Imperial Brands y negocia vender parte del negocio",
+          "summary": "El grupo tabacalero estadounidense tiene hasta el 24 de diciembre para aclarar sus intenciones, salvo prórroga.",
+          "body": "Altria confirmó el jueves que estudia adquirir la británica Imperial Brands. La compañía estadounidense señaló en un comunicado que, de presentar una oferta, probablemente sería íntegramente en efectivo. También conversa con un tercero que podría adquirir parte de las actividades de Imperial.\n\nAún no hay acuerdo para vender esas actividades. Según el calendario británico expuesto por Altria y recogido por The Guardian, el grupo debe anunciar su decisión antes de las 17.00, hora de Londres, del 24 de diciembre, salvo prórroga.",
+          "photoAlt": "Paseo arbolado de acceso a las oficinas de Imperial Brands en Bristol.",
+          "photoCaption": "Fotografía de archivo del 2014-04-28. Paseo arbolado de acceso a las oficinas de Imperial Brands en Bristol."
+        },
+        "ar": {
+          "title": "ألتريا تدرس شراء إمبريال براندز وتبحث بيع جزء من أنشطتها",
+          "summary": "أمام مجموعة التبغ الأميركية حتى 24 ديسمبر لتوضيح موقفها ما لم تُمدد المهلة.",
+          "body": "أكدت ألتريا الخميس أنها تدرس الاستحواذ على مجموعة إمبريال براندز البريطانية. وقالت المجموعة الأميركية في بيان إن أي عرض تتقدم به سيكون على الأرجح نقدياً بالكامل. وأضافت أنها تتفاوض مع طرف ثالث قد يشتري جزءاً من أنشطة إمبريال.\n\nلم يتم التوصل إلى اتفاق لبيع تلك الأنشطة. وبحسب الجدول الزمني البريطاني الذي عرضته ألتريا ونقلته الغارديان، يتعين على المجموعة إعلان قرارها بحلول الخامسة مساء بتوقيت لندن يوم 24 ديسمبر ما لم تُمدد المهلة.",
+          "photoAlt": "ممر تصطف الأشجار على جانبيه يؤدي إلى مكاتب إمبريال براندز في بريستول.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2014-04-28. ممر تصطف الأشجار على جانبيه يؤدي إلى مكاتب إمبريال براندز في بريستول."
+        },
+        "zh-CN": {
+          "title": "奥驰亚考虑收购帝国品牌，并就出售部分业务展开磋商",
+          "summary": "除非获准延期，这家美国烟草集团须在12月24日前说明意向。",
+          "body": "奥驰亚星期四证实，正在考虑收购英国帝国品牌集团。这家美国公司在声明中说，如果正式出价，很可能全部以现金支付。公司还在与可能接手帝国品牌部分业务的第三方磋商。\n\n双方尚未达成出售协议。根据奥驰亚说明、《卫报》报道的英国收购程序，除非获准延期，奥驰亚须在伦敦时间12月24日下午5时前公布决定。",
+          "photoAlt": "通向布里斯托尔帝国品牌办公楼的林荫步道。",
+          "photoCaption": "资料照片，摄于2014-04-28。通向布里斯托尔帝国品牌办公楼的林荫步道。"
+        },
+        "ru": {
+          "title": "Altria рассматривает покупку Imperial Brands и обсуждает продажу части бизнеса",
+          "summary": "У американской табачной группы есть время до 24 декабря, если срок не продлят.",
+          "body": "В четверг Altria подтвердила, что рассматривает покупку британской Imperial Brands. В заявлении американская группа сообщила, что возможное предложение, скорее всего, будет полностью денежным. Компания также ведёт переговоры с третьей стороной, которая может приобрести часть бизнеса Imperial.\n\nСоглашения о продаже этих активов пока нет. По британским правилам, о которых напомнила Altria и написала The Guardian, группа должна объявить решение до 17 часов по лондонскому времени 24 декабря, если срок не продлят.",
+          "photoAlt": "Аллея, ведущая к зданию Imperial Brands в Бристоле.",
+          "photoCaption": "Архивное фото от 2014-04-28. Аллея, ведущая к зданию Imperial Brands в Бристоле."
+        },
+        "ko": {
+          "title": "앨트리아, 임페리얼 브랜즈 인수 검토…일부 사업 매각도 협의",
+          "summary": "미국 담배 그룹 앨트리아는 기한이 연장되지 않으면 12월 24일까지 입장을 밝혀야 한다.",
+          "body": "앨트리아는 목요일 영국 임페리얼 브랜즈 인수를 검토 중이라고 확인했다. 회사는 성명에서 정식 제안을 낸다면 전액 현금 방식이 될 가능성이 크다고 밝혔다. 임페리얼 사업 일부를 인수할 수 있는 제삼자와도 협의 중이다.\n\n해당 사업 매각에 관해 아직 합의한 사항은 없다. 앨트리아가 설명하고 가디언이 보도한 영국의 인수 절차에 따르면, 기한이 연장되지 않는 한 12월 24일 런던 시간 오후 5시까지 결정을 발표해야 한다.",
+          "photoAlt": "브리스틀의 임페리얼 브랜즈 사무실로 향하는 가로수길.",
+          "photoCaption": "자료 사진(2014-04-28). 브리스틀의 임페리얼 브랜즈 사무실로 향하는 가로수길."
+        }
+      },
+      "title": "Altria envisage une offre sur Imperial Brands et discute d’une cession partielle",
+      "summary": "Le groupe américain du tabac a jusqu’au 24 décembre pour préciser ses intentions, sauf prolongation.",
+      "body": "Altria a confirmé jeudi qu’il étudiait le rachat du groupe britannique Imperial Brands. Dans son communiqué, le groupe américain dit qu’il paierait vraisemblablement entièrement en espèces s’il présentait une offre. Il indique aussi discuter avec un tiers qui pourrait reprendre une partie des activités d’Imperial.\n\nAucun accord de cession n’a été conclu. Selon le calendrier britannique rappelé par Altria et rapporté par le Guardian, le groupe doit annoncer sa décision au plus tard le 24 décembre à 17 h, heure de Londres, sauf prolongation.",
+      "photo": {
+        "download": "media/altria.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Imperial_Brands_offices,_Bristol.jpg",
+        "credit": "Neil Owen",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "Allée bordée d’arbres menant aux bureaux d’Imperial Brands à Bristol.",
+        "caption": "Photo d’archives du 2014-04-28. Allée bordée d’arbres menant aux bureaux d’Imperial Brands à Bristol."
+      }
+    },
+    {
+      "eventKey": "paris-ouverture-proces-emilie-konig-assises-speciales",
+      "category": "France",
+      "sources": [
+        {
+          "name": "AFP / TV5MONDE — audience à Paris",
+          "url": "https://information.tv5monde.com/france/le-proces-de-lex-figure-francaise-du-jihad-emilie-konig-sest-ouvert-2847106",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Le Figaro — compte rendu d’audience",
+          "url": "https://www.lefigaro.fr/faits-divers/je-voudrais-m-excuser-aupres-de-toute-la-nation-francaise-declare-emilie-koenig-revenante-de-daech-au-premier-jour-de-son-proces-20261126",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Émilie König apologizes as her trial opens in Paris",
+          "summary": "A special criminal court is trying the 41-year-old French woman on a charge of participation in a terrorist conspiracy.",
+          "body": "Émilie König spoke before the special criminal court in Paris on Thursday as her trial on a charge of participation in a terrorist conspiracy opened. According to courtroom reports from AFP and Le Figaro, she apologized to her children and to the French nation.\n\nProsecutors accuse her of a role in propaganda for the Islamic State group in Syria. The judges are to examine the allegations over four days of hearings. The court has yet to issue a verdict.",
+          "photoAlt": "Gilded gate in front of the main courtyard of the Paris Palais de Justice.",
+          "photoCaption": "Archive photograph, 2010-06-19. Gilded gate in front of the main courtyard of the Paris Palais de Justice."
+        },
+        "es": {
+          "title": "Émilie König pide disculpas al comenzar su juicio en París",
+          "summary": "Un tribunal especial juzga a la francesa de 41 años por asociación delictiva con fines terroristas.",
+          "body": "Émilie König tomó la palabra el jueves ante el tribunal especial de París al comenzar su juicio por asociación delictiva con fines terroristas. Según las crónicas de la audiencia de AFP y Le Figaro, pidió perdón a sus hijos y a la nación francesa.\n\nLa fiscalía la acusa de haber participado en la propaganda del grupo Estado Islámico en Siria. Los magistrados examinarán los hechos durante cuatro días de audiencias. El tribunal aún no ha emitido un veredicto.",
+          "photoAlt": "Verja dorada frente al patio de honor del Palacio de Justicia de París.",
+          "photoCaption": "Fotografía de archivo del 2010-06-19. Verja dorada frente al patio de honor del Palacio de Justicia de París."
+        },
+        "ar": {
+          "title": "إميلي كونيغ تعتذر في افتتاح محاكمتها في باريس",
+          "summary": "تنظر محكمة جنائية خاصة في اتهام الفرنسية البالغة 41 عاماً بالمشاركة في تجمع إجرامي لأغراض إرهابية.",
+          "body": "تحدثت إميلي كونيغ الخميس أمام المحكمة الجنائية الخاصة في باريس عند بدء محاكمتها بتهمة المشاركة في تجمع إجرامي لأغراض إرهابية. وبحسب تغطية وكالة فرانس برس ولو فيغارو من قاعة المحكمة، اعتذرت لأبنائها وللشعب الفرنسي.\n\nتتهمها النيابة بأداء دور في دعاية تنظيم الدولة الإسلامية في سوريا. ومن المقرر أن ينظر القضاة في الوقائع خلال أربعة أيام من الجلسات. ولم تصدر المحكمة حكمها بعد.",
+          "photoAlt": "بوابة مذهبة أمام الساحة الرئيسية لقصر العدل في باريس.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2010-06-19. بوابة مذهبة أمام الساحة الرئيسية لقصر العدل في باريس."
+        },
+        "zh-CN": {
+          "title": "埃米莉·柯尼希案在巴黎开庭，被告当庭道歉",
+          "summary": "特别重罪法庭审理这名41岁法国女子涉嫌参与恐怖主义犯罪团伙一案。",
+          "body": "巴黎特别重罪法庭星期四开庭审理埃米莉·柯尼希涉嫌参与恐怖主义犯罪团伙一案。根据法新社和《费加罗报》从庭审现场发回的报道，柯尼希在庭上向自己的孩子和法国民众道歉。\n\n检方指控她曾在叙利亚参与“伊斯兰国”组织的宣传活动。法官将通过为期四天的庭审调查相关指控。法庭尚未作出裁决。",
+          "photoAlt": "巴黎司法宫主庭院前的镀金门栏。",
+          "photoCaption": "资料照片，摄于2010-06-19。巴黎司法宫主庭院前的镀金门栏。"
+        },
+        "ru": {
+          "title": "Эмили Кёниг принесла извинения в первый день процесса в Париже",
+          "summary": "Специальный уголовный суд рассматривает обвинение 41-летней француженки в участии в террористическом сговоре.",
+          "body": "Эмили Кёниг выступила в четверг перед специальным уголовным судом Парижа в первый день процесса по обвинению в участии в террористическом сговоре. Как сообщили из зала суда AFP и Le Figaro, она принесла извинения своим детям и французскому народу.\n\nПрокуратура обвиняет её в участии в пропаганде группировки «Исламское государство» в Сирии. Судьи рассмотрят обстоятельства дела в течение четырёх дней слушаний. Приговор пока не вынесен.",
+          "photoAlt": "Позолоченные ворота перед парадным двором Дворца правосудия в Париже.",
+          "photoCaption": "Архивное фото от 2010-06-19. Позолоченные ворота перед парадным двором Дворца правосудия в Париже."
+        },
+        "ko": {
+          "title": "파리에서 에밀리 쾨니히 재판 시작…첫날 자녀와 프랑스 국민에게 사과",
+          "summary": "프랑스 특별중죄재판소가 테러 목적 범죄단체 가담 혐의를 받는 41세 프랑스 여성을 심리한다.",
+          "body": "에밀리 쾨니히는 목요일 파리 특별중죄재판소에서 테러 목적 범죄단체 가담 혐의에 대한 재판이 시작되자 직접 발언했다. AFP와 르피가로의 법정 취재에 따르면 쾨니히는 자녀와 프랑스 국민에게 사과했다.\n\n검찰은 쾨니히가 시리아에서 이슬람국가 조직의 선전에 관여했다고 주장한다. 재판부는 나흘 동안 혐의를 심리할 예정이다. 아직 판결은 내려지지 않았다.",
+          "photoAlt": "파리 법원 청사 안뜰 앞의 금빛 대문.",
+          "photoCaption": "자료 사진(2010-06-19). 파리 법원 청사 안뜰 앞의 금빛 대문."
+        }
+      },
+      "title": "À Paris, Émilie König présente ses excuses à l’ouverture de son procès",
+      "summary": "La cour d’assises spéciale juge cette Française de 41 ans pour association de malfaiteurs terroriste.",
+      "body": "Émilie König a pris la parole jeudi devant la cour d’assises spéciale de Paris, à l’ouverture de son procès pour association de malfaiteurs terroriste. D’après les comptes rendus d’audience de l’AFP et du Figaro, elle a présenté ses excuses à ses enfants ainsi qu’à la nation française.\n\nL’accusation lui reproche d’avoir joué un rôle dans la propagande du groupe État islamique en Syrie. Les magistrats doivent examiner ces faits au cours de quatre jours d’audience. La cour n’a pas encore rendu de verdict.",
+      "photo": {
+        "download": "media/par.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palais_de_Justice_(Paris)_June_2010.jpg",
+        "credit": "King of Hearts",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Grille dorée devant la cour d’honneur du palais de justice de Paris.",
+        "caption": "Photo d’archives du 2010-06-19. Grille dorée devant la cour d’honneur du palais de justice de Paris."
+      }
+    },
+    {
+      "eventKey": "canada-clutch-prix-occasion-octobre-rogue-rav4",
+      "category": "Économie",
+      "sources": [
+        {
+          "name": "Clutch — rapport sur les prix d’octobre",
+          "url": "https://www.clutch.ca/blog/posts/clutch-used-car-pricing-report",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Global News",
+          "url": "https://globalnews.ca/news/12167284/used-car-prices-falling/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Used car prices in Canada diverge by model, Clutch figures show",
+          "summary": "Clutch estimates a comparable vehicle cost an average of C$630 less in October than a year earlier.",
+          "body": "The average used vehicle in Clutch’s Canadian data fetched C$33,920 in October, down 0.3% year over year. Nearly new vehicles accounted for a larger share of sales, pulling the average up, the company explained in its report covered by Global News.\n\nComparing the same model at the same age, the decline was closer to 2%, or about C$630. Two popular SUVs illustrate the difference. At comparable ages and mileage, a Nissan Rogue cost about C$2,600 less and a Toyota RAV4 about C$1,000 more than a year earlier.",
+          "photoAlt": "Grey Nissan Rogue on display at the Montreal International Auto Show.",
+          "photoCaption": "Archive photograph, 2023-01-20. Grey Nissan Rogue on display at the Montreal International Auto Show."
+        },
+        "es": {
+          "title": "Los precios de los coches usados en Canadá evolucionan de forma distinta según el modelo",
+          "summary": "Clutch estima que en octubre un vehículo comparable costaba unos 630 dólares canadienses menos que un año antes.",
+          "body": "El precio medio de un vehículo usado en los datos canadienses de Clutch fue de 33.920 dólares canadienses en octubre, un 0,3 % menos interanual. Según explicó la empresa en su informe, recogido por Global News, los vehículos casi nuevos ganaron peso en las ventas y elevaron la media.\n\nAl comparar el mismo modelo a la misma edad, la caída rondó el 2 %, unos 630 dólares. Entre dos todocaminos populares de edad y kilometraje comparables, el Nissan Rogue costaba unos 2.600 dólares menos que un año antes y el Toyota RAV4 unos 1.000 más.",
+          "photoAlt": "Nissan Rogue gris expuesto en el Salón Internacional del Automóvil de Montreal.",
+          "photoCaption": "Fotografía de archivo del 2023-01-20. Nissan Rogue gris expuesto en el Salón Internacional del Automóvil de Montreal."
+        },
+        "ar": {
+          "title": "أسعار السيارات المستعملة في كندا تتباين باختلاف الطراز بحسب كلاتش",
+          "summary": "تقدر الشركة أن سعر سيارة مماثلة في أكتوبر انخفض في المتوسط بنحو 630 دولاراً كندياً عن العام السابق.",
+          "body": "بلغ متوسط سعر السيارة المستعملة في بيانات كلاتش الكندية 33,920 دولاراً كندياً في أكتوبر، بانخفاض سنوي قدره 0.3%. وأوضحت الشركة في تقرير تناولته غلوبال نيوز أن ارتفاع حصة السيارات شبه الجديدة من المبيعات رفع المتوسط.\n\nوعند مقارنة الطراز نفسه في العمر نفسه، بلغ الانخفاض نحو 2% أو 630 دولاراً. ويظهر التباين بين سيارتين رياضيتين شائعتين: فعند تقارب العمر والمسافة المقطوعة انخفض سعر نيسان روغ بنحو 2,600 دولار وارتفع سعر تويوتا راف فور بنحو 1,000 دولار عن العام السابق.",
+          "photoAlt": "سيارة نيسان روغ رمادية معروضة في معرض مونتريال الدولي للسيارات.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2023-01-20. سيارة نيسان روغ رمادية معروضة في معرض مونتريال الدولي للسيارات."
+        },
+        "zh-CN": {
+          "title": "加拿大二手车价格走势因车型而异，Clutch数据显示",
+          "summary": "Clutch估算，10月同类二手车价格比一年前平均低约630加元。",
+          "body": "Clutch的加拿大数据显示，10月二手车平均售价为33,920加元，同比下降0.3%。据Global News报道，公司在报告中解释，车龄很短的车辆占成交量的比重增加，拉高了平均价格。\n\n若比较同车型、同车龄的车辆，跌幅接近2%，约合630加元。两款畅销SUV的表现迥异：在车龄和里程相近的情况下，日产Rogue比一年前便宜约2,600加元，丰田RAV4则贵约1,000加元。",
+          "photoAlt": "蒙特利尔国际车展上展出的灰色日产Rogue。",
+          "photoCaption": "资料照片，摄于2023-01-20。蒙特利尔国际车展上展出的灰色日产Rogue。"
+        },
+        "ru": {
+          "title": "Цены на подержанные машины в Канаде меняются по-разному в зависимости от модели",
+          "summary": "По оценке Clutch, в октябре сопоставимый автомобиль стоил в среднем на 630 канадских долларов меньше, чем год назад.",
+          "body": "Средняя цена подержанной машины в канадских данных Clutch в октябре составила 33 920 канадских долларов, на 0,3% меньше, чем год назад. Как пояснила компания в отчёте, о котором рассказала Global News, выросла доля почти новых автомобилей, что подняло среднюю цену.\n\nПри сравнении одной и той же модели в одном возрасте снижение составило около 2%, или 630 долларов. Среди популярных кроссоверов при сопоставимом возрасте и пробеге Nissan Rogue стоил примерно на 2600 долларов меньше, а Toyota RAV4 — на 1000 долларов больше, чем годом ранее.",
+          "photoAlt": "Серый Nissan Rogue на международном автосалоне в Монреале.",
+          "photoCaption": "Архивное фото от 2023-01-20. Серый Nissan Rogue на международном автосалоне в Монреале."
+        },
+        "ko": {
+          "title": "캐나다 중고차 가격, 차종에 따라 엇갈려",
+          "summary": "클러치는 10월 같은 조건의 중고차 가격이 1년 전보다 평균 약 630캐나다달러 낮았다고 추산했다.",
+          "body": "클러치의 캐나다 자료에서 10월 중고차 평균 판매가는 3만3920캐나다달러로 전년보다 0.3% 낮았다. 글로벌뉴스가 소개한 보고서에서 회사는 신차에 가까운 차량의 판매 비중이 커져 평균 가격을 끌어올렸다고 설명했다.\n\n같은 차종과 차령으로 비교한 하락 폭은 약 2%, 금액으로 약 630달러였다. 인기 SUV 두 종의 경우 차령과 주행거리가 비슷한 닛산 로그는 전년보다 약 2600달러 저렴했고 도요타 RAV4는 약 1000달러 비쌌다.",
+          "photoAlt": "몬트리올 국제 모터쇼에 전시된 회색 닛산 로그.",
+          "photoCaption": "자료 사진(2023-01-20). 몬트리올 국제 모터쇼에 전시된 회색 닛산 로그."
+        }
+      },
+      "title": "Au Canada, l’écart de prix entre voitures d’occasion s’accentue selon le modèle",
+      "summary": "Clutch estime qu’en octobre un véhicule comparable coûtait en moyenne 630 $ de moins qu’un an auparavant.",
+      "body": "Le prix moyen d’un véhicule d’occasion dans les données canadiennes de Clutch a atteint 33 920 $ en octobre, en baisse de 0,3 % sur un an. La part des véhicules presque neufs a augmenté, ce qui tire la moyenne vers le haut, explique l’entreprise dans son rapport commenté par Global News.\n\nÀ modèle et âge comparables, le recul avoisine plutôt 2 %, soit environ 630 $. Deux véhicules utilitaires populaires illustrent l’écart : à âge et kilométrage comparables, le Nissan Rogue coûtait environ 2 600 $ de moins et le Toyota RAV4 environ 1 000 $ de plus qu’un an plus tôt.",
+      "photo": {
+        "download": "media/cars.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023_Nissan_Rogue_au_SIAM_2023.jpg",
+        "credit": "Bull-Doser",
+        "license": "Domaine public — dédicace de l’auteur",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:2023_Nissan_Rogue_au_SIAM_2023.jpg#Licensing",
+        "alt": "Nissan Rogue gris exposé au Salon international de l’auto de Montréal.",
+        "caption": "Photo d’archives du 2023-01-20. Nissan Rogue gris exposé au Salon international de l’auto de Montréal."
+      }
+    },
+    {
+      "eventKey": "royaume-uni-neuf-cent-cinquante-neuf-mille-jeunes-trimestre",
+      "category": "Royaume-Uni",
+      "sources": [
+        {
+          "name": "Office for National Statistics",
+          "url": "https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/bulletins/youngpeoplenotineducationemploymentortrainingneet/november2026",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/society/2026/nov/26/neets-uk-young-people-education-employment-training-andy-burnham",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "UK counts 959,000 young people outside work, education and training in third quarter",
+          "summary": "Their number fell by 22,000 in three months, according to the UK Labour Force Survey.",
+          "body": "The Office for National Statistics estimates that 12.7% of UK residents aged 16 to 24 were neither in work nor in education or training from July through September. The share reported on Thursday was down 0.3 percentage points from the previous quarter and close to its level a year earlier.\n\nOf the 959,000 people in this group, 867,000 were aged 18 to 24. The survey, covered by the Guardian, distinguishes between young people seeking work and those outside the labour force.",
+          "photoAlt": "Access road and sign at the entrance to the government offices in Newport.",
+          "photoCaption": "Archive photograph, 2011-04-10. Access road and sign at the entrance to the government offices in Newport."
+        },
+        "es": {
+          "title": "El Reino Unido registra 959.000 jóvenes sin trabajo, estudios ni formación en el tercer trimestre",
+          "summary": "La cifra bajó en 22.000 personas en tres meses, según la encuesta británica de población activa.",
+          "body": "La Oficina Nacional de Estadística estima que el 12,7 % de los jóvenes de 16 a 24 años en el Reino Unido no trabajaba, estudiaba ni recibía formación entre julio y septiembre. El porcentaje publicado el jueves bajó 0,3 puntos en un trimestre y se mantuvo cerca del nivel de un año antes.\n\nDe las 959.000 personas en esta situación, 867.000 tenían entre 18 y 24 años. La encuesta, recogida por The Guardian, distingue entre quienes buscan trabajo y quienes están fuera de la población activa.",
+          "photoAlt": "Vía de acceso y letrero a la entrada de las oficinas gubernamentales de Newport.",
+          "photoCaption": "Fotografía de archivo del 2011-04-10. Vía de acceso y letrero a la entrada de las oficinas gubernamentales de Newport."
+        },
+        "ar": {
+          "title": "959 ألف شاب وشابة في بريطانيا خارج العمل والتعليم والتدريب في الربع الثالث",
+          "summary": "انخفض العدد بمقدار 22 ألفاً خلال ثلاثة أشهر وفق مسح القوى العاملة البريطاني.",
+          "body": "يقدر مكتب الإحصاءات الوطنية أن 12.7% ممن تراوح أعمارهم بين 16 و24 عاماً في المملكة المتحدة كانوا خارج العمل والتعليم والتدريب بين يوليو وسبتمبر. وانخفضت النسبة التي نشرت الخميس بمقدار 0.3 نقطة مئوية عن الربع السابق وبقيت قريبة من مستواها قبل عام.\n\nمن بين 959 ألف شخص في هذه الفئة، كان 867 ألفاً بين سن 18 و24 عاماً. ويميز المسح الذي تناولته الغارديان بين الشباب الباحثين عن عمل وأولئك الموجودين خارج القوى العاملة.",
+          "photoAlt": "طريق ولافتة عند مدخل المكاتب الحكومية في نيوبورت.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2011-04-10. طريق ولافتة عند مدخل المكاتب الحكومية في نيوبورت."
+        },
+        "zh-CN": {
+          "title": "英国第三季度有95.9万名年轻人既未就业也未就学或受训",
+          "summary": "英国劳动力调查显示，三个月内这一人群减少了2.2万人。",
+          "body": "英国国家统计局估算，7月至9月英国16至24岁人群中，12.7%既未就业，也未就学或接受培训。星期四公布的这一比例较前一季度下降0.3个百分点，与上年同期相近。\n\n在这95.9万人中，86.7万人的年龄为18至24岁。《卫报》报道的这项调查区分了正在求职的年轻人和未参与劳动力市场的年轻人。",
+          "photoAlt": "纽波特政府办公区入口的道路和标牌。",
+          "photoCaption": "资料照片，摄于2011-04-10。纽波特政府办公区入口的道路和标牌。"
+        },
+        "ru": {
+          "title": "В Великобритании 959 тысяч молодых людей в третьем квартале не работали и не учились",
+          "summary": "По данным британского обследования рабочей силы, за три месяца их стало на 22 тысячи меньше.",
+          "body": "Национальная статистическая служба оценивает долю жителей Великобритании 16–24 лет, которые с июля по сентябрь не работали, не учились и не проходили профподготовку, в 12,7%. Опубликованный в четверг показатель снизился на 0,3 процентного пункта за квартал и остался близок к прошлогоднему уровню.\n\nИз 959 тысяч человек в этой группе 867 тысяч были в возрасте от 18 до 24 лет. Обследование, о котором написала The Guardian, различает молодых людей, ищущих работу, и тех, кто не входит в состав рабочей силы.",
+          "photoAlt": "Подъездная дорога и указатель у въезда к правительственным офисам в Ньюпорте.",
+          "photoCaption": "Архивное фото от 2011-04-10. Подъездная дорога и указатель у въезда к правительственным офисам в Ньюпорте."
+        },
+        "ko": {
+          "title": "영국 3분기 일·교육·훈련 모두 쉬는 청년 95만9000명",
+          "summary": "영국 노동력 조사에 따르면 석 달 사이 해당 인원이 2만2000명 줄었다.",
+          "body": "영국 통계청은 7~9월 영국의 16~24세 인구 중 12.7%가 일하거나 공부하거나 직업훈련을 받지 않았다고 추산했다. 목요일 발표된 이 비율은 전 분기보다 0.3%포인트 낮아졌고 1년 전과 비슷했다.\n\n해당 청년 95만9000명 중 86만7000명은 18~24세였다. 가디언이 보도한 이 조사는 구직 중인 청년과 노동시장에 참여하지 않는 청년을 구분했다.",
+          "photoAlt": "뉴포트 정부 청사 입구 진입로와 안내판.",
+          "photoCaption": "자료 사진(2011-04-10). 뉴포트 정부 청사 입구 진입로와 안내판."
+        }
+      },
+      "title": "Au Royaume-Uni, 959 000 jeunes sans emploi, études ni formation au troisième trimestre",
+      "summary": "Leur nombre recule de 22 000 en trois mois, selon l’enquête britannique sur la population active.",
+      "body": "L’Office for National Statistics estime que 12,7 % des jeunes de 16 à 24 ans au Royaume-Uni étaient sans emploi et ne suivaient ni études ni formation entre juillet et septembre. Cette proportion, publiée jeudi, recule de 0,3 point par rapport au trimestre précédent et reste proche de celle d’il y a un an.\n\nParmi les 959 000 personnes concernées, 867 000 avaient entre 18 et 24 ans. L’enquête reprise par le Guardian distingue les jeunes qui cherchent du travail de ceux qui se trouvent en dehors de la population active.",
+      "photo": {
+        "download": "media/neet.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_road_to_government_offices,_Newport_-_geograph.org.uk_-_2403025.jpg",
+        "credit": "John Grayson",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "Voie d’accès et panneau à l’entrée des bureaux gouvernementaux de Newport.",
+        "caption": "Photo d’archives du 2011-04-10. Voie d’accès et panneau à l’entrée des bureaux gouvernementaux de Newport."
+      }
+    },
+    {
+      "eventKey": "ofcom-code-television-connectee-neuf-premieres-applications",
+      "category": "Royaume-Uni",
+      "sources": [
+        {
+          "name": "Ofcom — code définitif",
+          "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/digital-tv/prominence-and-accessibility-on-connected-tv-platforms-consultation-on-our-draft-code-of-practice-and-draft-guidance-on-the-agreement-objectives",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/26/public-service-broadcaster-services-top-of-tv-app-menus-ofcom",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Ofcom sets out where UK public service apps should appear on smart TVs",
+          "summary": "The regulator recommends displaying the apps among the first nine icons in the menu.",
+          "body": "BBC iPlayer and other public service broadcasters’ apps should be visible as soon as viewers open a smart TV’s app menu, according to the code Ofcom published on Thursday. The UK regulator recommends placing them among the first nine icons, in an order that varies by UK nation.\n\nThe code also addresses voice and text searches. According to Ofcom and the Guardian, a public service programme should be given prominence when it is among the most relevant results for a viewer’s search.",
+          "photoAlt": "Riverside House, home to Ofcom’s London offices, seen from the Thames.",
+          "photoCaption": "Archive photograph, 2010-07-27. Riverside House, home to Ofcom’s London offices, seen from the Thames."
+        },
+        "es": {
+          "title": "Ofcom detalla dónde deberían aparecer los servicios públicos británicos en televisores conectados",
+          "summary": "El regulador recomienda mostrar sus aplicaciones entre los nueve primeros iconos del menú.",
+          "body": "BBC iPlayer y las demás aplicaciones de televisión de servicio público deberían verse al abrir el menú de aplicaciones de un televisor conectado, según el código publicado el jueves por Ofcom. El regulador recomienda situarlas entre los nueve primeros iconos, en un orden adaptado a cada nación del Reino Unido.\n\nEl código también aborda las búsquedas por voz y texto. Según Ofcom y The Guardian, se debería destacar un programa de servicio público cuando figure entre los resultados más pertinentes para la consulta.",
+          "photoAlt": "Riverside House, sede londinense de Ofcom, vista desde el Támesis.",
+          "photoCaption": "Fotografía de archivo del 2010-07-27. Riverside House, sede londinense de Ofcom, vista desde el Támesis."
+        },
+        "ar": {
+          "title": "أوفكوم يحدد موقع تطبيقات البث ذات الخدمة العامة على أجهزة التلفزيون الذكية",
+          "summary": "توصي الهيئة البريطانية بإظهار هذه التطبيقات ضمن الأيقونات التسع الأولى في القائمة.",
+          "body": "ينبغي أن تظهر خدمة بي بي سي آي بلاير وغيرها من خدمات البث العام فور فتح قائمة التطبيقات على التلفزيون الذكي، بحسب مدونة نشرها أوفكوم الخميس. وتوصي الهيئة بوضعها ضمن الأيقونات التسع الأولى بترتيب يختلف بحسب البلد الذي يقيم فيه المشاهد داخل المملكة المتحدة.\n\nوتتناول المدونة أيضاً البحث بالصوت أو الكتابة. ووفقاً لأوفكوم والغارديان، ينبغي إبراز برنامج الخدمة العامة إذا كان من بين النتائج الأكثر صلة بما يبحث عنه المشاهد.",
+          "photoAlt": "مبنى ريفرسايد هاوس الذي يضم مكاتب أوفكوم في لندن كما يبدو من نهر التايمز.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2010-07-27. مبنى ريفرسايد هاوس الذي يضم مكاتب أوفكوم في لندن كما يبدو من نهر التايمز."
+        },
+        "zh-CN": {
+          "title": "英国通信管理局建议将公共服务电视应用列入智能电视菜单前九位",
+          "summary": "监管机构希望观众打开应用菜单即可看到这些服务。",
+          "body": "英国通信管理局星期四发布的操作规范建议，观众打开智能电视应用菜单，就应能看到BBC iPlayer等公共服务电视应用。规范建议将这些应用放在前九个图标之中，具体顺序依英国各构成国而异。\n\n规范也涉及语音和文字搜索。据通信管理局及《卫报》报道，如果公共服务节目属于与观众查询最相关的结果，应在搜索界面突出展示。",
+          "photoAlt": "从泰晤士河望向英国通信管理局伦敦办事处所在的河滨大楼。",
+          "photoCaption": "资料照片，摄于2010-07-27。从泰晤士河望向英国通信管理局伦敦办事处所在的河滨大楼。"
+        },
+        "ru": {
+          "title": "Ofcom уточнил, где на смарт-телевизорах должны появляться приложения британских общественных вещателей",
+          "summary": "Регулятор рекомендует разместить приложения среди первых девяти значков меню.",
+          "body": "Согласно опубликованному в четверг кодексу Ofcom, BBC iPlayer и другие приложения общественных вещателей должны быть видны сразу при открытии меню приложений на смарт-телевизоре. Британский регулятор рекомендует поместить их среди первых девяти значков в порядке, который зависит от части страны.\n\nКодекс также касается голосового и текстового поиска. По данным Ofcom и The Guardian, программу общественного вещателя следует выделять, когда она входит в число наиболее релевантных результатов запроса.",
+          "photoAlt": "Вид с Темзы на Риверсайд-хаус, где расположены лондонские офисы Ofcom.",
+          "photoCaption": "Архивное фото от 2010-07-27. Вид с Темзы на Риверсайд-хаус, где расположены лондонские офисы Ofcom."
+        },
+        "ko": {
+          "title": "영국 오프콤 “공공서비스 방송 앱, 스마트TV 메뉴 첫 아홉 칸에”",
+          "summary": "규제 당국은 시청자가 메뉴를 여는 즉시 이들 앱을 볼 수 있도록 권고했다.",
+          "body": "영국 오프콤이 목요일 발표한 지침에 따르면 스마트TV의 앱 메뉴를 열자마자 BBC 아이플레이어를 비롯한 공공서비스 방송 앱이 보여야 한다. 오프콤은 이 앱들을 영국 각 구성국에 맞는 순서로 첫 아홉 개 아이콘 안에 배치하도록 권고했다.\n\n지침에는 음성과 문자 검색도 포함됐다. 오프콤과 가디언에 따르면 시청자의 검색어와 가장 관련성이 높은 결과에 공공서비스 방송 프로그램이 포함되면 이를 눈에 띄게 표시하도록 했다.",
+          "photoAlt": "템스강에서 바라본 오프콤 런던 사무실이 있는 리버사이드 하우스.",
+          "photoCaption": "자료 사진(2010-07-27). 템스강에서 바라본 오프콤 런던 사무실이 있는 리버사이드 하우스."
+        }
+      },
+      "title": "Téléviseurs connectés : l’Ofcom précise où devraient apparaître les services publics britanniques",
+      "summary": "Le régulateur recommande d’afficher leurs applications parmi les neuf premières icônes du menu.",
+      "body": "BBC iPlayer et les autres services de télévision publique devraient être visibles dès l’ouverture du menu des applications d’un téléviseur connecté, selon le code publié jeudi par l’Ofcom. Le régulateur britannique recommande de les placer parmi les neuf premières icônes, dans un ordre adapté à la nation du Royaume-Uni où se trouve le public.\n\nLe code porte aussi sur la recherche vocale ou écrite. Selon l’Ofcom et le Guardian, un programme de service public devrait y être mis en avant lorsqu’il figure parmi les résultats les plus pertinents pour la demande.",
+      "photo": {
+        "download": "media/ofcom.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARiverside_House%2C_Bankside_01.jpg",
+        "credit": "Jim Linwood",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Riverside House, qui abrite les bureaux de l’Ofcom à Londres, vue de la Tamise.",
+        "caption": "Photo d’archives du 2010-07-27. Riverside House, qui abrite les bureaux de l’Ofcom à Londres, vue de la Tamise."
+      }
+    },
+    {
+      "eventKey": "travelodge-krueger-nomination-securite-chambres",
+      "category": "Économie",
+      "sources": [
+        {
+          "name": "Travelodge — résultats trimestriels",
+          "url": "https://www.travelodge.co.uk/our-business/media/press-release/travelodge-group/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "ITV News",
+          "url": "https://www.itv.com/news/2026-11-26/travelodge-hires-new-boss-following-fallout-of-sexual-assault-at-hotel",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Travelodge names Peter Krueger chief executive and plans room security investment",
+          "summary": "The former TUI executive will take over from interim chief Ray Reidy on December 1.",
+          "body": "Hotel chain Travelodge announced Peter Krueger’s appointment as chief executive on Thursday. The former TUI executive will succeed Ray Reidy on December 1 after Reidy served in an interim capacity from August. ITV reported that the group plans further investment in room security in 2027 following an independent review.\n\nTravelodge reported revenue of £811.9 million for the first nine months, up from £783.2 million a year earlier. Earnings before interest, tax, depreciation and amortisation fell from £140.2 million to £133.6 million over the same period.",
+          "photoAlt": "View of the Travelodge hotel buildings at Staples Corner in London.",
+          "photoCaption": "Archive photograph, 2026-08-05. View of the Travelodge hotel buildings at Staples Corner in London."
+        },
+        "es": {
+          "title": "Travelodge nombra director general a Peter Krueger y prevé invertir en seguridad de las habitaciones",
+          "summary": "El exdirectivo de TUI relevará al director interino Ray Reidy el 1 de diciembre.",
+          "body": "La cadena hotelera Travelodge anunció el jueves el nombramiento de Peter Krueger como director general. El exdirectivo de TUI sucederá el 1 de diciembre a Ray Reidy, que ocupaba el cargo de forma interina desde agosto. Según ITV, el grupo prevé nuevas inversiones en seguridad de las habitaciones en 2027 tras una revisión independiente.\n\nTravelodge facturó 811,9 millones de libras en los nueve primeros meses, frente a 783,2 millones un año antes. El beneficio antes de intereses, impuestos, depreciaciones y amortizaciones bajó de 140,2 a 133,6 millones de libras en el mismo periodo.",
+          "photoAlt": "Vista de los edificios del hotel Travelodge de Staples Corner, en Londres.",
+          "photoCaption": "Fotografía de archivo del 2026-08-05. Vista de los edificios del hotel Travelodge de Staples Corner, en Londres."
+        },
+        "ar": {
+          "title": "ترافيلودج تعين بيتر كروغر رئيساً تنفيذياً وتعتزم الاستثمار في أمن الغرف",
+          "summary": "يتولى المسؤول السابق في توي المنصب في 1 ديسمبر خلفاً للرئيس المؤقت راي ريدي.",
+          "body": "أعلنت سلسلة فنادق ترافيلودج الخميس تعيين بيتر كروغر رئيساً تنفيذياً. ويتسلم المسؤول السابق في توي مهامه في 1 ديسمبر من راي ريدي الذي تولى المنصب مؤقتاً منذ أغسطس. وذكرت آي تي في أن المجموعة تخطط لاستثمارات إضافية في أمن الغرف عام 2027 بعد مراجعة مستقلة.\n\nوأعلنت ترافيلودج تحقيق إيرادات قدرها 811.9 مليون جنيه إسترليني في الأشهر التسعة الأولى، مقابل 783.2 مليوناً قبل عام. وتراجعت الأرباح قبل الفوائد والضرائب والإهلاك والاستهلاك من 140.2 إلى 133.6 مليون جنيه خلال الفترة نفسها.",
+          "photoAlt": "منظر لمباني فندق ترافيلودج في ستيبلز كورنر بلندن.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2026-08-05. منظر لمباني فندق ترافيلودج في ستيبلز كورنر بلندن."
+        },
+        "zh-CN": {
+          "title": "Travelodge任命彼得·克吕格为首席执行官，计划增加客房安保投入",
+          "summary": "这名前途易集团高管将于12月1日接替临时负责人雷·里迪。",
+          "body": "连锁酒店集团Travelodge星期四宣布任命彼得·克吕格为首席执行官。这名前途易集团高管将于12月1日接替自8月起临时掌舵的雷·里迪。据英国独立电视台报道，在独立审查后，集团计划于2027年进一步投资客房安全。\n\nTravelodge公布，前九个月营业收入为8.119亿英镑，高于上年同期的7.832亿英镑。同期息税折旧摊销前利润从1.402亿英镑降至1.336亿英镑。",
+          "photoAlt": "伦敦斯泰普尔斯角Travelodge酒店建筑外观。",
+          "photoCaption": "资料照片，摄于2026-08-05。伦敦斯泰普尔斯角Travelodge酒店建筑外观。"
+        },
+        "ru": {
+          "title": "Travelodge назначила Петера Крюгера гендиректором и планирует вложения в безопасность номеров",
+          "summary": "Бывший руководитель TUI сменит временного главу Рэя Риди 1 декабря.",
+          "body": "Гостиничная сеть Travelodge в четверг объявила о назначении Петера Крюгера генеральным директором. Бывший руководитель TUI 1 декабря сменит Рэя Риди, временно занимавшего пост с августа. По данным ITV, после независимой проверки группа планирует в 2027 году дополнительные вложения в безопасность номеров.\n\nВыручка Travelodge за первые девять месяцев составила 811,9 млн фунтов против 783,2 млн годом ранее. Прибыль до вычета процентов, налогов, износа и амортизации за тот же период снизилась со 140,2 до 133,6 млн фунтов.",
+          "photoAlt": "Корпуса отеля Travelodge в лондонском Стейплс-Корнере.",
+          "photoCaption": "Архивное фото от 2026-08-05. Корпуса отеля Travelodge в лондонском Стейплс-Корнере."
+        },
+        "ko": {
+          "title": "트래블로지, 피터 크뤼거 신임 CEO 선임…객실 보안 추가 투자 계획",
+          "summary": "전 TUI 임원 크뤼거가 12월 1일 레이 라이디 임시 대표의 뒤를 잇는다.",
+          "body": "호텔 체인 트래블로지는 목요일 피터 크뤼거를 최고경영자로 선임했다고 발표했다. 전 TUI 임원인 크뤼거는 8월부터 임시로 회사를 이끈 레이 라이디의 뒤를 이어 12월 1일 취임한다. ITV에 따르면 회사는 독립적인 검토를 거쳐 2027년 객실 보안에 추가로 투자할 계획이다.\n\n트래블로지의 첫 9개월 매출은 8억1190만 파운드로 전년 동기 7억8320만 파운드보다 늘었다. 같은 기간 이자·세금·감가상각비 차감 전 이익은 1억4020만 파운드에서 1억3360만 파운드로 줄었다.",
+          "photoAlt": "런던 스테이플스 코너에 있는 트래블로지 호텔 건물.",
+          "photoCaption": "자료 사진(2026-08-05). 런던 스테이플스 코너에 있는 트래블로지 호텔 건물."
+        }
+      },
+      "title": "Travelodge nomme Peter Krueger à sa tête et prévoit de renforcer la sécurité des chambres",
+      "summary": "L’ancien dirigeant de TUI prendra ses fonctions le 1er décembre après l’intérim de Ray Reidy.",
+      "body": "La chaîne hôtelière Travelodge a annoncé jeudi la nomination de Peter Krueger au poste de directeur général. Cet ancien dirigeant de TUI succédera le 1er décembre à Ray Reidy, qui assurait l’intérim depuis août. Selon ITV, le groupe prévoit de nouveaux investissements dans la sécurité des chambres en 2027 après un examen indépendant.\n\nDans ses résultats des neuf premiers mois, Travelodge fait état d’un chiffre d’affaires de 811,9 millions de livres, contre 783,2 millions un an plus tôt. Sur la même période, le bénéfice avant intérêts, impôts et amortissements est passé de 140,2 à 133,6 millions de livres.",
+      "photo": {
+        "download": "media/hotel.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enormous_Travelodge_hotel,_Staples_Corner_-_geograph.org.uk_-_8379937.jpg",
+        "credit": "Bikeboy",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "Vue des bâtiments de l’hôtel Travelodge de Staples Corner à Londres.",
+        "caption": "Photo d’archives du 2026-08-05. Vue des bâtiments de l’hôtel Travelodge de Staples Corner à Londres."
+      }
+    },
+    {
+      "eventKey": "laura-freigang-suspension-seize-mois-localisation",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "Fédération allemande de football",
+          "url": "https://www.dfb.de/news/laura-freigang-suspended-for-16-months-following-anti-doping-rule-violation/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.com/sport/football/articles/cqlym4rd3y52o",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Germany’s Laura Freigang suspended for 16 months over three whereabouts failures",
+          "summary": "The Germany international will be eligible to compete again on October 8, 2027.",
+          "body": "Germany’s football federation announced a 16-month suspension for Laura Freigang on Thursday. The agreement with the player and the German and world anti-doping agencies covers three whereabouts failures between March 11, 2025 and February 23, 2026, as the BBC also reported.\n\nThe ban runs from June 8, 2026, the date of notification. Freigang may resume team training on August 8, 2027, two months before she can return to competition. Her teams’ results stand.",
+          "photoAlt": "Laura Freigang at the German national team’s media day.",
+          "photoCaption": "Archive photograph, 2023-07-03. Laura Freigang at the German national team’s media day."
+        },
+        "es": {
+          "title": "Laura Freigang, suspendida 16 meses por tres incumplimientos de localización",
+          "summary": "La internacional alemana podrá volver a competir el 8 de octubre de 2027.",
+          "body": "La federación alemana de fútbol anunció el jueves una suspensión de 16 meses para Laura Freigang. El acuerdo con la jugadora y las agencias antidopaje alemana y mundial abarca tres incumplimientos de las obligaciones de localización entre el 11 de marzo de 2025 y el 23 de febrero de 2026, según recogió también la BBC.\n\nLa sanción cuenta desde el 8 de junio de 2026, fecha de la notificación. Freigang podrá volver a entrenar con un equipo el 8 de agosto de 2027, dos meses antes de poder competir. Se mantienen los resultados de sus equipos.",
+          "photoAlt": "Retrato de Laura Freigang en la jornada con la prensa de la selección alemana.",
+          "photoCaption": "Fotografía de archivo del 2023-07-03. Retrato de Laura Freigang en la jornada con la prensa de la selección alemana."
+        },
+        "ar": {
+          "title": "إيقاف الألمانية لاورا فرايغانغ 16 شهراً لثلاث مخالفات تتعلق بمكان وجودها",
+          "summary": "تستعيد لاعبة المنتخب الألماني أهلية المشاركة في المنافسات في 8 أكتوبر 2027.",
+          "body": "أعلن الاتحاد الألماني لكرة القدم الخميس إيقاف لاورا فرايغانغ 16 شهراً. ويشمل الاتفاق مع اللاعبة والوكالتين الألمانية والعالمية لمكافحة المنشطات ثلاث مخالفات لالتزامات تحديد مكان الوجود بين 11 مارس 2025 و23 فبراير 2026، وفق ما أوردته بي بي سي أيضاً.\n\nتُحتسب العقوبة من تاريخ الإخطار في 8 يونيو 2026. ويمكن لفرايغانغ استئناف التدريبات الجماعية في 8 أغسطس 2027، قبل شهرين من إمكان عودتها إلى المنافسات. وتبقى نتائج فرقها سارية.",
+          "photoAlt": "صورة للاورا فرايغانغ خلال اليوم الإعلامي للمنتخب الألماني.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2023-07-03. صورة للاورا فرايغانغ خلال اليوم الإعلامي للمنتخب الألماني."
+        },
+        "zh-CN": {
+          "title": "德国球员弗赖冈因三次违反行踪规定被禁赛16个月",
+          "summary": "这名德国国脚可于2027年10月8日重新参加比赛。",
+          "body": "德国足协星期四宣布，对劳拉·弗赖冈禁赛16个月。据德国足协和英国广播公司报道，球员与德国足协、德国及世界反兴奋剂机构达成的协议涉及2025年3月11日至2026年2月23日之间三次违反行踪规定的行为。\n\n禁赛从发出通知的2026年6月8日起算。弗赖冈可在2027年8月8日恢复随队训练，两个月后才可复赛。其所在球队的比赛成绩不受影响。",
+          "photoAlt": "劳拉·弗赖冈在德国国家队媒体日的肖像。",
+          "photoCaption": "资料照片，摄于2023-07-03。劳拉·弗赖冈在德国国家队媒体日的肖像。"
+        },
+        "ru": {
+          "title": "Лауру Фрайганг дисквалифицировали на 16 месяцев за три нарушения правил о местонахождении",
+          "summary": "Футболистка сборной Германии сможет вернуться к соревнованиям 8 октября 2027 года.",
+          "body": "Немецкий футбольный союз в четверг объявил о дисквалификации Лауры Фрайганг на 16 месяцев. Соглашение с участием футболистки, немецкого и Всемирного антидопинговых агентств касается трёх нарушений правил о местонахождении с 11 марта 2025 года по 23 февраля 2026 года, о чём также сообщила Би-би-си.\n\nСрок отсчитывается с даты уведомления, 8 июня 2026 года. Фрайганг сможет вернуться к командным тренировкам 8 августа 2027 года, за два месяца до возможного возвращения на поле. Результаты её команд остаются в силе.",
+          "photoAlt": "Портрет Лауры Фрайганг на медиа-дне сборной Германии.",
+          "photoCaption": "Архивное фото от 2023-07-03. Портрет Лауры Фрайганг на медиа-дне сборной Германии."
+        },
+        "ko": {
+          "title": "독일 축구 국가대표 프라이강, 소재지 의무 세 차례 위반으로 16개월 출전 정지",
+          "summary": "라우라 프라이강은 2027년 10월 8일부터 다시 경기에 출전할 수 있다.",
+          "body": "독일축구협회는 목요일 라우라 프라이강에게 16개월 출전 정지 처분을 내렸다고 발표했다. BBC도 보도한 이번 합의에는 선수와 독일 및 세계도핑방지기구가 참여했다. 대상은 2025년 3월 11일부터 2026년 2월 23일까지 발생한 세 차례의 소재지 의무 위반이다.\n\n징계는 통지일인 2026년 6월 8일부터 적용된다. 프라이강은 경기 복귀가 가능해지기 두 달 전인 2027년 8월 8일부터 팀 훈련을 재개할 수 있다. 소속 팀들의 경기 결과는 유지된다.",
+          "photoAlt": "독일 대표팀 미디어 행사에 참석한 라우라 프라이강.",
+          "photoCaption": "자료 사진(2023-07-03). 독일 대표팀 미디어 행사에 참석한 라우라 프라이강."
+        }
+      },
+      "title": "Football : Laura Freigang suspendue seize mois pour trois manquements à ses obligations de localisation",
+      "summary": "L’internationale allemande sera de nouveau admissible en compétition le 8 octobre 2027.",
+      "body": "La Fédération allemande de football a annoncé jeudi une suspension de seize mois pour Laura Freigang. L’accord conclu avec la joueuse et les agences antidopage allemande et mondiale porte sur trois manquements aux obligations de localisation entre le 11 mars 2025 et le 23 février 2026, rapporte aussi la BBC.\n\nLa sanction court à partir du 8 juin 2026, date de la notification. Freigang pourra reprendre l’entraînement collectif le 8 août 2027, deux mois avant son retour possible en compétition. Les résultats de ses équipes sont maintenus.",
+      "photo": {
+        "download": "media/freig.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-07-03_Fussball,_Frauen,_Deutsche_Nationalmannschaft,_Media_Day_1DX_6580_by_Stepro-2.jpg",
+        "credit": "Steffen Prößdorf",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Portrait de Laura Freigang au rassemblement médiatique de l’équipe d’Allemagne.",
+        "caption": "Photo d’archives du 2023-07-03. Portrait de Laura Freigang au rassemblement médiatique de l’équipe d’Allemagne."
+      }
+    },
+    {
+      "eventKey": "calgary-stampeders-noel-thorpe-defense-montreal",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "Ligue canadienne de football — annonce des Stampeders",
+          "url": "https://www.cfl.ca/article/stampeders-hire-noel-thorpe-as-defensive-coordinator-and-defensive-backs-coach",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "3DownNation",
+          "url": "https://3downnation.com/2026/11/26/calgary-stampeders-hire-noel-thorpe-as-defensive-coordinator/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Noel Thorpe leaves Montreal to run the Calgary Stampeders’ defence",
+          "summary": "The former Alouettes coordinator will also coach Calgary’s defensive backs.",
+          "body": "The Stampeders announced Thursday that they had hired Noel Thorpe as defensive coordinator and defensive backs coach. He had held both jobs in Montreal since July 2022, according to the Canadian Football League and specialist outlet 3DownNation.\n\nThorpe joins Calgary after the Alouettes posted 14 wins and four losses and played in the 113th Grey Cup. Stampeders head coach Dave Dickenson highlighted the pressure Thorpe’s defences put on opposing offences.",
+          "photoAlt": "Noel Thorpe claps on the field in Montreal Alouettes colours.",
+          "photoCaption": "Archive photograph, 2022-11-13. Noel Thorpe claps on the field in Montreal Alouettes colours."
+        },
+        "es": {
+          "title": "Noel Thorpe deja Montreal para dirigir la defensa de los Calgary Stampeders",
+          "summary": "El excoordinador de los Alouettes también entrenará a la secundaria defensiva en Calgary.",
+          "body": "Los Stampeders anunciaron el jueves la contratación de Noel Thorpe como coordinador defensivo y entrenador de la secundaria. Ocupaba ambos cargos en Montreal desde julio de 2022, según la Liga Canadiense de Fútbol y el medio especializado 3DownNation.\n\nThorpe llega a Calgary después de que los Alouettes sumaran 14 victorias y cuatro derrotas y disputaran la 113.ª Copa Grey. El entrenador principal de los Stampeders, Dave Dickenson, destacó la presión que ejercen las defensas de Thorpe sobre los ataques rivales.",
+          "photoAlt": "Noel Thorpe aplaude en el campo con los colores de los Alouettes de Montreal.",
+          "photoCaption": "Fotografía de archivo del 2022-11-13. Noel Thorpe aplaude en el campo con los colores de los Alouettes de Montreal."
+        },
+        "ar": {
+          "title": "نويل ثورب يغادر مونتريال لقيادة دفاع كالغاري ستامبيدرز",
+          "summary": "سيتولى منسق دفاع ألويت السابق أيضاً تدريب لاعبي الخط الخلفي الدفاعي في كالغاري.",
+          "body": "أعلن ستامبيدرز الخميس تعيين نويل ثورب منسقاً للدفاع ومدرباً للاعبي الخط الخلفي الدفاعي. وكان يشغل المنصبين في مونتريال منذ يوليو 2022، وفق رابطة كرة القدم الكندية وموقع ثري داون نيشن المتخصص.\n\nينضم ثورب إلى كالغاري بعد موسم أحرز فيه ألويت 14 انتصاراً مقابل أربع هزائم وخاض نهائي كأس غراي الـ113. وأشاد ديف ديكنسون، المدرب الرئيسي لستامبيدرز، بالضغط الذي تفرضه دفاعات ثورب على هجمات الخصوم.",
+          "photoAlt": "نويل ثورب يصفق في الملعب مرتدياً ألوان مونتريال ألويت.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2022-11-13. نويل ثورب يصفق في الملعب مرتدياً ألوان مونتريال ألويت."
+        },
+        "zh-CN": {
+          "title": "诺埃尔·索普离开蒙特利尔，执掌卡尔加里奔马队防守",
+          "summary": "这名前云雀队防守协调员还将兼任卡尔加里的防守后卫教练。",
+          "body": "卡尔加里奔马队星期四宣布，聘请诺埃尔·索普担任防守协调员兼防守后卫教练。据加拿大橄榄球联盟和专业媒体3DownNation报道，他自2022年7月起在蒙特利尔兼任这两个职位。\n\n在索普转赴卡尔加里前，云雀队取得14胜4负，并打进第113届格雷杯决赛。奔马队主教练戴夫·迪肯森特别提到，索普执教的防守组能给对手的进攻施加压力。",
+          "photoAlt": "身着蒙特利尔云雀队队服的诺埃尔·索普在场上鼓掌。",
+          "photoCaption": "资料照片，摄于2022-11-13。身着蒙特利尔云雀队队服的诺埃尔·索普在场上鼓掌。"
+        },
+        "ru": {
+          "title": "Ноэл Торп переходит из Монреаля в Калгари, где возглавит защиту «Стампидерс»",
+          "summary": "Бывший координатор защиты «Алуэтт» также будет тренировать заднюю линию защиты в Калгари.",
+          "body": "«Стампидерс» объявили в четверг о назначении Ноэла Торпа координатором защиты и тренером задней линии защиты. По данным Канадской футбольной лиги и профильного издания 3DownNation, с июля 2022 года он совмещал эти должности в Монреале.\n\nТорп переходит в Калгари после сезона, в котором «Алуэтт» одержали 14 побед при четырёх поражениях и сыграли в 113-м Кубке Грея. Главный тренер «Стампидерс» Дэйв Дикенсон отметил давление, которое оборона Торпа оказывает на нападение соперников.",
+          "photoAlt": "Ноэл Торп аплодирует на поле в форме «Монреаль Алуэтт».",
+          "photoCaption": "Архивное фото от 2022-11-13. Ноэл Торп аплодирует на поле в форме «Монреаль Алуэтт»."
+        },
+        "ko": {
+          "title": "노엘 소프, 몬트리올 떠나 캘거리 스탬피더스 수비 지휘",
+          "summary": "몬트리올 알루에츠의 전 수비 코디네이터가 캘거리에서 수비 백 코치도 맡는다.",
+          "body": "스탬피더스는 목요일 노엘 소프를 수비 코디네이터 겸 수비 백 코치로 영입했다고 발표했다. 캐나다풋볼리그와 전문 매체 3다운네이션에 따르면 소프는 2022년 7월부터 몬트리올에서 두 직책을 함께 맡았다.\n\n소프는 알루에츠가 14승 4패를 기록하고 제113회 그레이컵 결승에 진출한 시즌을 마친 뒤 캘거리에 합류한다. 데이브 디컨슨 스탬피더스 감독은 소프가 이끄는 수비진이 상대 공격진을 압박하는 능력을 강조했다.",
+          "photoAlt": "몬트리올 알루에츠 팀복을 입고 경기장에서 박수를 치는 노엘 소프.",
+          "photoCaption": "자료 사진(2022-11-13). 몬트리올 알루에츠 팀복을 입고 경기장에서 박수를 치는 노엘 소프."
+        }
+      },
+      "title": "Noel Thorpe quitte Montréal pour diriger la défense des Stampeders de Calgary",
+      "summary": "L’ancien coordonnateur des Alouettes dirigera aussi les demis défensifs à Calgary.",
+      "body": "Les Stampeders ont annoncé jeudi l’embauche de Noel Thorpe comme coordonnateur défensif et entraîneur des demis défensifs. Il occupait ces deux postes à Montréal depuis juillet 2022, selon la Ligue canadienne de football et le média spécialisé 3DownNation.\n\nThorpe arrive à Calgary après une saison où les Alouettes ont signé une fiche de 14 victoires et quatre défaites avant de jouer la 113e Coupe Grey. L’entraîneur-chef des Stampeders, Dave Dickenson, a souligné la pression que les défenses de Thorpe exercent sur l’attaque adverse.",
+      "photo": {
+        "download": "media/thorpe.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022,_Coach_Noel_Thorpe.jpg",
+        "credit": "Cmm3",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Noel Thorpe applaudit sur le terrain avec les couleurs des Alouettes de Montréal.",
+        "caption": "Photo d’archives du 2022-11-13. Noel Thorpe applaudit sur le terrain avec les couleurs des Alouettes de Montréal."
+      }
+    },
+    {
+      "eventKey": "canadien-florian-xhekaj-amende-svechkov-denver",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "LNH — Sécurité des joueurs",
+          "url": "https://www.nhl.com/news/florian-xhekaj-fined-maximum-for-tripping-in-montreal-canadiens-game",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Sportsnet — reportage et images du match",
+          "url": "https://www.sportsnet.ca/nhl/article/canadiens-florian-xhekaj-receives-match-penalty-for-slew-foot/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Colorado Hockey Daily",
+          "url": "https://www.coloradohockeydaily.com/nhl-team/colorado-avalanche/florian-xhekaj-avoids-suspension",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "NHL fines Florian Xhekaj the maximum for tripping Fedor Svechkov",
+          "summary": "The Canadiens forward owes US$2,426.98 after Wednesday’s game in Denver.",
+          "body": "The NHL’s Department of Player Safety announced a US$2,426.98 fine for Florian Xhekaj on Thursday. The Montreal forward dangerously tripped Colorado’s Fedor Svechkov with a minute and 24 seconds left in the third period in Denver.\n\nOfficials had assessed Xhekaj a match penalty, as Sportsnet footage shows. The league said the fine is the maximum under the collective agreement and the money will go to the Players’ Emergency Assistance Fund.",
+          "photoAlt": "Exterior of Ball Arena in Denver, home of the Colorado Avalanche.",
+          "photoCaption": "Archive photograph, 2022-08-02. Exterior of Ball Arena in Denver, home of the Colorado Avalanche."
+        },
+        "es": {
+          "title": "La NHL impone a Florian Xhekaj la multa máxima por una zancadilla a Fedor Svechkov",
+          "summary": "El delantero de Montreal deberá pagar 2.426,98 dólares estadounidenses tras el partido del miércoles en Denver.",
+          "body": "El departamento de seguridad de los jugadores de la NHL anunció el jueves una multa de 2.426,98 dólares estadounidenses para Florian Xhekaj. El delantero de Montreal hizo tropezar de manera peligrosa a Fedor Svechkov, de Colorado, cuando quedaban un minuto y 24 segundos del tercer periodo en Denver.\n\nLos árbitros habían sancionado a Xhekaj con una penalización de partido, como muestran las imágenes de Sportsnet. La liga indicó que la multa es la máxima prevista en el convenio colectivo y se destinará al fondo de ayuda de emergencia para los jugadores.",
+          "photoAlt": "Fachada del Ball Arena de Denver, sede del Colorado Avalanche.",
+          "photoCaption": "Fotografía de archivo del 2022-08-02. Fachada del Ball Arena de Denver, sede del Colorado Avalanche."
+        },
+        "ar": {
+          "title": "دوري الهوكي يفرض الغرامة القصوى على فلوريان شيكاي لعرقلة فيدور سفيتشكوف",
+          "summary": "سيدفع مهاجم مونتريال 2426.98 دولاراً أميركياً بعد مباراة الأربعاء في دنفر.",
+          "body": "أعلنت إدارة سلامة اللاعبين في دوري الهوكي الخميس تغريم فلوريان شيكاي 2426.98 دولاراً أميركياً. وعرقل مهاجم مونتريال لاعب كولورادو فيدور سفيتشكوف بطريقة خطرة قبل دقيقة و24 ثانية من نهاية الشوط الثالث في دنفر.\n\nوكان الحكام قد فرضوا على شيكاي عقوبة الطرد من المباراة، كما تُظهر لقطات سبورتسنت. وقال الدوري إن المبلغ هو الحد الأقصى بموجب الاتفاق الجماعي وسيذهب إلى صندوق مساعدة اللاعبين في حالات الطوارئ.",
+          "photoAlt": "واجهة بول أرينا في دنفر، ملعب كولورادو أفالانش.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2022-08-02. واجهة بول أرينا في دنفر، ملعب كولورادو أفالانش."
+        },
+        "zh-CN": {
+          "title": "NHL因危险绊人对弗洛里安·谢凯处以最高罚款",
+          "summary": "这名蒙特利尔前锋因星期三在丹佛比赛中的犯规将支付2,426.98美元。",
+          "body": "NHL球员安全部门星期四宣布，对弗洛里安·谢凯罚款2,426.98美元。在丹佛比赛第三节还剩1分24秒时，这名蒙特利尔前锋危险地绊倒了科罗拉多雪崩队的费奥多尔·斯韦奇科夫。\n\nSportsnet的画面显示，裁判已对谢凯判罚比赛罚则，将他罚出场。联盟表示，罚款达到集体协议规定的上限，款项将转入球员紧急援助基金。",
+          "photoAlt": "科罗拉多雪崩队主场丹佛波尔球馆的外观。",
+          "photoCaption": "资料照片，摄于2022-08-02。科罗拉多雪崩队主场丹佛波尔球馆的外观。"
+        },
+        "ru": {
+          "title": "НХЛ оштрафовала Флориана Джекая на максимальную сумму за подножку Фёдору Свечкову",
+          "summary": "Нападающий «Монреаля» заплатит 2426,98 доллара США после матча в Денвере в среду.",
+          "body": "В четверг департамент безопасности игроков НХЛ объявил о штрафе в 2426,98 доллара США для Флориана Джекая. Нападающий «Монреаля» поставил опасную подножку Фёдору Свечкову из «Колорадо» за минуту и 24 секунды до конца третьего периода в Денвере.\n\nНа кадрах Sportsnet видно, что судьи назначили Джекаю матч-штраф. По данным лиги, сумма соответствует максимуму по коллективному соглашению и поступит в фонд экстренной помощи игрокам.",
+          "photoAlt": "Фасад «Болл-арены» в Денвере, где играет «Колорадо Эвеланш».",
+          "photoCaption": "Архивное фото от 2022-08-02. Фасад «Болл-арены» в Денвере, где играет «Колорадо Эвеланш»."
+        },
+        "ko": {
+          "title": "NHL, 표도르 스베치코프 넘어뜨린 플로리안 제카이에게 최고액 벌금",
+          "summary": "몬트리올 공격수 제카이는 수요일 덴버 경기에서 한 반칙으로 2426.98미국달러를 낸다.",
+          "body": "NHL 선수안전부는 목요일 플로리안 제카이에게 2426.98미국달러의 벌금을 부과했다. 제카이는 덴버에서 열린 경기 3피리어드 종료 1분 24초 전 콜로라도의 표도르 스베치코프를 위험하게 걸어 넘어뜨렸다.\n\n스포츠넷 영상에는 심판진이 제카이에게 매치 페널티를 부과해 퇴장시키는 모습이 담겼다. 리그는 단체협약상 최고액인 이 벌금이 선수 긴급지원기금으로 들어간다고 밝혔다.",
+          "photoAlt": "콜로라도 애벌랜치의 홈구장인 덴버 볼 아레나 외관.",
+          "photoCaption": "자료 사진(2022-08-02). 콜로라도 애벌랜치의 홈구장인 덴버 볼 아레나 외관."
+        }
+      },
+      "title": "La LNH impose l’amende maximale à Florian Xhekaj pour un geste contre Fedor Svechkov",
+      "summary": "L’attaquant du Canadien devra verser 2 426,98 $ US après le match de mercredi à Denver.",
+      "body": "Le service de la sécurité des joueurs de la LNH a annoncé jeudi une amende de 2 426,98 $ US à Florian Xhekaj. L’attaquant montréalais a fait trébucher dangereusement Fedor Svechkov, de l’Avalanche, alors qu’il ne restait qu’une minute et 24 secondes à jouer en troisième période à Denver.\n\nLes arbitres avaient imposé une pénalité de match à Xhekaj, comme le montrent les images de Sportsnet. La ligue indique que le montant correspond au plafond prévu par la convention collective et qu’il ira au fonds d’aide d’urgence des joueurs.",
+      "photo": {
+        "download": "media/xhek.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ball_Arena_exterior_2022.jpg",
+        "credit": "Troutfarm27",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Façade du Ball Arena à Denver, où joue l’Avalanche du Colorado.",
+        "caption": "Photo d’archives du 2022-08-02. Façade du Ball Arena à Denver, où joue l’Avalanche du Colorado."
+      }
+    },
+    {
+      "eventKey": "devils-brenden-dillon-suspension-quatre-matchs-mateychuk",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "LNH — Sécurité des joueurs",
+          "url": "https://www.nhl.com/news/brenden-dillion-suspended-four-games-for-actions-in-devils-blue-jackets-game",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "RotoWire / CBS Sports",
+          "url": "https://www.cbssports.com/fantasy/hockey/news/devils-brenden-dillon-receives-four-game-suspension/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "NHL suspends Brenden Dillon for four games for illegal check to the head",
+          "summary": "The New Jersey defenceman will lose pay for the hit on Denton Mateychuk in Columbus.",
+          "body": "Brenden Dillon will miss four New Jersey Devils games. The NHL announced its decision on Thursday after reviewing the illegal check to the head of Blue Jackets defenceman Denton Mateychuk in Columbus on Wednesday. The hit came 12 minutes and 48 seconds into the first period.\n\nDillon received a match penalty on the ice. The suspension, also reported by CBS Sports, is without pay. The league calculated that he will forfeit US$82,474.24, which will go to the Players’ Emergency Assistance Fund.",
+          "photoAlt": "Entrance to Nationwide Arena in Columbus, home of the Blue Jackets.",
+          "photoCaption": "Archive photograph, 2021-05-02. Entrance to Nationwide Arena in Columbus, home of the Blue Jackets."
+        },
+        "es": {
+          "title": "La NHL suspende cuatro partidos a Brenden Dillon por un golpe ilegal en la cabeza",
+          "summary": "El defensa de Nueva Jersey perderá parte de su sueldo por la acción contra Denton Mateychuk en Columbus.",
+          "body": "Brenden Dillon se perderá cuatro encuentros de los New Jersey Devils. La NHL anunció el jueves su decisión tras revisar el golpe ilegal en la cabeza al defensa de los Blue Jackets Denton Mateychuk el miércoles en Columbus. La acción ocurrió a los 12 minutos y 48 segundos del primer periodo.\n\nDillon recibió una penalización de partido en la pista. La suspensión, de la que también informó CBS Sports, es sin sueldo. Según el cálculo de la liga, perderá 82.474,24 dólares estadounidenses, que irán al fondo de ayuda de emergencia a jugadores.",
+          "photoAlt": "Entrada al Nationwide Arena en Columbus, pista de los Blue Jackets.",
+          "photoCaption": "Fotografía de archivo del 2021-05-02. Entrada al Nationwide Arena en Columbus, pista de los Blue Jackets."
+        },
+        "ar": {
+          "title": "دوري الهوكي يوقف برندن ديلون أربع مباريات بسبب التحام غير قانوني بالرأس",
+          "summary": "سيُحرم مدافع نيوجيرسي من جزء من راتبه بعد تدخله ضد دنتون ماتيتشوك في كولومبوس.",
+          "body": "سيغيب برندن ديلون عن أربع مباريات لنيوجيرسي ديفلز. وأعلن الدوري قراره الخميس بعد مراجعة التحام غير قانوني استهدف رأس مدافع بلو جاكيتس دنتون ماتيتشوك الأربعاء في كولومبوس. ووقع التدخل بعد 12 دقيقة و48 ثانية من بداية الشوط الأول.\n\nوكان ديلون قد تعرض لعقوبة طرد من المباراة على الجليد. والإيقاف الذي أوردته أيضاً سي بي إس سبورتس من دون أجر. وبحسب حسابات الدوري سيخسر 82,474.24 دولاراً أميركياً تُحوّل إلى صندوق مساعدة اللاعبين في حالات الطوارئ.",
+          "photoAlt": "مدخل نيشن وايد أرينا في كولومبوس، ملعب بلو جاكيتس.",
+          "photoCaption": "صورة أرشيفية بتاريخ 2021-05-02. مدخل نيشن وايد أرينا في كولومبوس، ملعب بلو جاكيتس."
+        },
+        "zh-CN": {
+          "title": "NHL因违规冲撞头部对布伦登·狄龙禁赛四场",
+          "summary": "这名新泽西后卫因在哥伦布冲撞登顿·马泰丘克而被扣薪。",
+          "body": "布伦登·狄龙将缺席新泽西魔鬼队的四场比赛。NHL审查了他星期三在哥伦布违规冲撞蓝衣队后卫登顿·马泰丘克头部的动作，星期四公布处罚决定。这一犯规发生在第一节进行到12分48秒时。\n\n狄龙在场上已被判比赛罚则并罚出场。CBS体育也报道了这项停薪禁赛处罚。联盟计算，狄龙将损失82,474.24美元，这笔钱将转入球员紧急援助基金。",
+          "photoAlt": "哥伦布蓝衣队主场全国保险球馆的入口。",
+          "photoCaption": "资料照片，摄于2021-05-02。哥伦布蓝衣队主场全国保险球馆的入口。"
+        },
+        "ru": {
+          "title": "НХЛ дисквалифицировала Брендена Диллона на четыре матча за удар в голову",
+          "summary": "Защитник «Нью-Джерси» лишится части зарплаты за силовой приём против Дентона Матейчука в Коламбусе.",
+          "body": "Бренден Диллон пропустит четыре матча «Нью-Джерси Девилз». НХЛ объявила решение в четверг, изучив запрещённый силовой приём в голову защитника «Блю Джекетс» Дентона Матейчука в среду в Коламбусе. Инцидент произошёл на отметке 12 минут 48 секунд первого периода.\n\nНа льду Диллон получил матч-штраф. Дисквалификация, о которой также сообщила CBS Sports, предусматривает потерю зарплаты. По расчётам лиги, 82 474,24 доллара США будут удержаны и перечислены в фонд экстренной помощи игрокам.",
+          "photoAlt": "Вход на «Нейшнуайд-арену» в Коламбусе, домашнюю площадку «Блю Джекетс».",
+          "photoCaption": "Архивное фото от 2021-05-02. Вход на «Нейшнуайд-арену» в Коламбусе, домашнюю площадку «Блю Джекетс»."
+        },
+        "ko": {
+          "title": "NHL, 머리에 불법 체크 가한 브렌던 딜런에 4경기 출전 정지",
+          "summary": "뉴저지 수비수 딜런은 콜럼버스에서 덴턴 마테이척에게 한 반칙으로 급여도 일부 잃는다.",
+          "body": "브렌던 딜런이 뉴저지 데블스의 네 경기에 결장한다. NHL은 수요일 콜럼버스에서 블루재키츠 수비수 덴턴 마테이척의 머리에 가한 불법 체크를 검토한 뒤 목요일 결정을 발표했다. 반칙은 1피리어드 시작 12분 48초 만에 나왔다.\n\n딜런은 현장에서 매치 페널티를 받고 퇴장했다. CBS 스포츠도 보도한 이번 출전 정지는 무급이다. 리그 계산에 따르면 급여에서 8만2474.24미국달러가 공제돼 선수 긴급지원기금으로 들어간다.",
+          "photoAlt": "콜럼버스 블루재키츠의 홈구장 네이션와이드 아레나 입구.",
+          "photoCaption": "자료 사진(2021-05-02). 콜럼버스 블루재키츠의 홈구장 네이션와이드 아레나 입구."
+        }
+      },
+      "title": "La LNH suspend Brenden Dillon pour quatre matchs après une mise en échec à la tête",
+      "summary": "Le défenseur du New Jersey sera privé de salaire pour son geste contre Denton Mateychuk à Columbus.",
+      "body": "Brenden Dillon manquera quatre matchs des Devils du New Jersey. La LNH a annoncé sa décision jeudi après avoir examiné la mise en échec illégale à la tête du défenseur des Blue Jackets Denton Mateychuk, mercredi à Columbus. Le geste est survenu à 12 min 48 s de la première période.\n\nDillon avait reçu une pénalité de match sur la patinoire. La suspension, également rapportée par CBS Sports, est sans salaire. D’après le calcul de la ligue, il perdra 82 474,24 $ US, somme qui sera versée au fonds d’aide d’urgence des joueurs.",
+      "photo": {
+        "download": "media/dillon.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nationwide_Arena_exterior.jpg",
+        "credit": "Eric",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "Entrée du Nationwide Arena à Columbus, patinoire des Blue Jackets.",
+        "caption": "Photo d’archives du 2021-05-02. Entrée du Nationwide Arena à Columbus, patinoire des Blue Jackets."
+      }
+    }
+  ]
+}
