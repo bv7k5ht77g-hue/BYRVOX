@@ -38,9 +38,62 @@ html[data-theme="dark"] .reader-category { color: #ff8d9c }
 }
 .reader-byline strong { color: var(--ink) }
 .reader-duration { gap: 5px }
-.reader-photo { margin: 28px 0 0 }
-.reader-photo img { width: 100%; height: auto; aspect-ratio: 2.1; object-fit: cover; display: block }
-.reader-photo figcaption { margin-top: 6px; font-size: .78rem; color: var(--muted) }
+/* A magazine opener for the four presentations. */
+.reader-feature {
+  max-width: 1152px;
+  padding-block-start: clamp(28px, 4.5vw, 64px);
+}
+.reader-feature-kicker {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin-block-end: clamp(16px, 2.6vw, 32px);
+}
+.reader-feature-kicker a { color: var(--muted); text-decoration: none }
+.reader-feature-kicker a:hover { text-decoration: underline }
+.reader-feature-kicker span {
+  border-inline-start: 1px solid var(--line);
+  padding-inline-start: .65rem;
+}
+.reader-feature .reader-heading h1 {
+  font-family: inherit;
+  font-size: clamp(2.45rem, 5vw, 4.7rem);
+  line-height: 1.01;
+  letter-spacing: -.055em;
+  font-weight: 800;
+  text-wrap: pretty;
+}
+[dir=rtl] .reader-feature .reader-heading h1 { letter-spacing: normal; line-height: 1.18 }
+.reader-feature .reader-byline {
+  margin-block-start: clamp(16px, 2.6vw, 30px);
+  border-block-end: 0;
+}
+.reader-feature-art { margin: 0 }
+.reader-feature-art picture, .reader-feature-art img { display: block; width: 100% }
+.reader-feature-art img { height: auto; border-radius: 8px }
+.reader-feature-art figcaption {
+  margin-block-start: .6rem;
+  color: var(--muted);
+  font-size: .78rem;
+  line-height: 1.45;
+}
+@media (min-width: 880px) {
+  .reader-feature .reader-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+    column-gap: clamp(32px, 5vw, 76px);
+  }
+  .reader-feature .reader-heading > p:not(.reader-deck),
+  .reader-feature .reader-byline { grid-column: 1 / -1 }
+  .reader-feature .reader-heading h1 { grid-column: 1 }
+  .reader-feature .reader-deck {
+    grid-column: 2;
+    align-self: end;
+    margin: 0;
+    text-wrap: pretty;
+  }
+}
 .reader-copy {
   max-width: 65ch;
   margin: 32px auto;

@@ -12,10 +12,23 @@ export function StoryDate({ story, lang, withTime = false }: { story: Summary; l
   return <time dateTime={story.publishedAt}>{dateFormat(lang, withTime).format(new Date(story.publishedAt))}</time>;
 }
 
-export function StoryCard({ story, save, lang, showSummary = false }: { story: Summary; save?: ReactNode; lang: PublicLocale; showSummary?: boolean }) {
+export function StoryCardImage({ story }: { story: Summary }) {
   const src = story.photo?.thumbnailUrl || story.photo?.url || (story.image ? '/media/' + story.image + '.webp' : undefined);
+  if (!src) return null;
+  const collectionImage = !story.photo && story.image?.startsWith('collection-2026/');
+  return <div className="by-card-photo">
+    {collectionImage
+      ? <picture>
+          <source srcSet={'/media/' + story.image + '-720.webp 1x, ' + src + ' 2x'} />
+          <img src={src} width={720} height={480} loading="lazy" decoding="async" alt="" />
+        </picture>
+      : <Image unoptimized src={src} width={450} height={250} loading="lazy" decoding="async" alt="" />}
+  </div>;
+}
+
+export function StoryCard({ story, save, lang, showSummary = false }: { story: Summary; save?: ReactNode; lang: PublicLocale; showSummary?: boolean }) {
   return <article className="by-card"><a href={localizedHref(articleHref(story),lang)}>
-    {src && <div className="by-card-photo"><Image unoptimized src={src} width={450} height={250} loading="lazy" decoding="async" alt="" /></div>}
+    <StoryCardImage story={story} />
     <p className="by-category">{categoryLabel(story.category,lang)}</p><h3 lang={story.contentLocale} dir="auto">{story.title}</h3>
     {showSummary && <p className="by-card-summary" lang={story.contentLocale} dir="auto">{story.summary}</p>}
     <small><StoryDate story={story} lang={lang} /></small>

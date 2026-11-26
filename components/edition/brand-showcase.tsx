@@ -24,10 +24,6 @@ export function BrandShowcase({ lang }: { lang: PublicLocale }) {
   const locale = publicLocales.indexOf(lang);
   return <section className="by-showcase" aria-labelledby="by-brand-title">
     <div className="by-showcase-hero">
-      <picture className="by-showcase-art">
-        <source media="(max-width: 680px)" srcSet="/media/hero-mobile.webp" />
-        <img src="/media/hero.webp" width={1104} height={540} loading="lazy" decoding="async" alt="" />
-      </picture>
       <div className="by-showcase-intro">
         <h2 id="by-brand-title">{copy.title[locale]}<span aria-hidden="true">.</span></h2>
         <p>{copy.intro[locale]}</p>
@@ -36,14 +32,25 @@ export function BrandShowcase({ lang }: { lang: PublicLocale }) {
           <a href={localizedHref(editionHref('presentations'),lang)}>{sectionLabel('presentations',lang)}<ArrowRight size={16} aria-hidden="true" className="by-direction-arrow" /></a>
         </div>
       </div>
+      <picture className="by-showcase-art">
+        <source media="(max-width: 680px)" srcSet="/media/collection-2026/hero-720.webp" />
+        <img src="/media/collection-2026/hero.webp" width={1672} height={941} loading="lazy" decoding="async" alt="" />
+      </picture>
     </div>
     <nav className="by-showcase-channels" aria-label={sectionText(lang,'coverage')}>
       {channels.map(({section, name, image, icon: Icon, text}) => <a key={section} href={localizedHref(editionHref(section),lang)}>
-        <Image unoptimized width={900} height={400} loading="lazy" src={'/media/' + image + '.webp'} alt="" />
-        <div className="by-channel-copy"><Icon size={20} strokeWidth={1.7} aria-hidden="true" />
-          <strong dir="ltr">BYRVOX <span>{name}</span></strong><small>{sectionText(lang,text)}</small>
+        <div className="by-channel-art">
+          <Image unoptimized width={720} height={405} loading="lazy" decoding="async"
+            src={'/media/collection-2026/' + image + '-720.webp'} alt="" />
         </div>
-        <ArrowRight className="by-channel-arrow by-direction-arrow" size={18} aria-hidden="true" />
+        <div className="by-channel-copy">
+          <div className="by-channel-marks">
+            <Icon size={19} strokeWidth={1.6} aria-hidden="true" />
+            <ArrowRight className="by-direction-arrow" size={18} aria-hidden="true" />
+          </div>
+          <strong dir="ltr">BYRVOX {name}</strong>
+          <small>{sectionText(lang,text)}</small>
+        </div>
       </a>)}
     </nav>
   </section>;

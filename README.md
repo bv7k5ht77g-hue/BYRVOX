@@ -1,6 +1,6 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.7.3 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.noventra.ca)
+Version 0.8.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.noventra.ca)
 
 Média numérique publié en français, anglais, espagnol, arabe, chinois simplifié, russe et coréen. Le site utilise Next/React sur Vinext, Cloudflare Workers, D1 et R2.
 
@@ -40,7 +40,7 @@ Ce produit ne constitue pas l’ensemble du cahier des charges. La surveillance 
 
 L’interface signale les modules indisponibles et n’affiche aucun chiffre d’audience inventé. La validation d’un article par un administrateur n’est pas un fact-check automatisé. Les documents légaux sont des textes de lancement incomplets, à finaliser par l’éditeur avant lancement commercial.
 
-Les illustrations sont extraites du mockup fourni ; elles ne sont pas des photographies d’événements d’actualité. Leur licence doit être confirmée pour l’exploitation commerciale.
+Les neuf illustrations de marque de l’accueil et de ses pages de destination ont été générées pour BYRVOX. Les fichiers WebP et leurs variantes de 720 pixels sont regroupés dans `public/media/collection-2026/`. Les fiches de présentation identifient ces images dans leur légende. Les illustrations antérieures issues de la maquette ont une provenance distincte et leur licence reste à confirmer pour l’exploitation commerciale.
 
 ## Validation
 
@@ -54,7 +54,7 @@ Les illustrations sont extraites du mockup fourni ; elles ne sont pas des photog
 
 ## Architecture
 
-`app/` : site, articles, administration et API ; `db/` : schéma D1 ; `lib/` : identité et règles éditoriales ; `public/brand` : logos ; `public/media` : illustrations du mockup ; `docs/` : état et feuille de route ; `tests/` : règles de publication ; `worker/` : point d’entrée serveur.
+`app/` : site, articles, administration et API ; `db/` : schéma D1 ; `lib/` : identité et règles éditoriales ; `public/brand` : logos ; `public/media` : illustrations de marque et médias éditoriaux ; `docs/` : état et feuille de route ; `tests/` : règles de publication ; `worker/` : point d’entrée serveur.
 
 Les écritures authentifiées vérifient l’origine. Le contenu des articles est rendu comme texte React et ne peut exécuter du HTML collecté. Les collecteurs n’acceptent aucune URL arbitraire. La clé API, les emails d’administration et les jetons d’accès ne doivent jamais être versionnés.
 

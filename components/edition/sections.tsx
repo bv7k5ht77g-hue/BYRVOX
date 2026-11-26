@@ -1,7 +1,7 @@
-import { AudioLines, Bookmark, BookOpen, Newspaper, Radio, RefreshCw, Search, Tv } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, AudioLines, Bookmark, BookOpen, Radio, RefreshCw, Search, Tv } from 'lucide-react';
 import Image from 'next/image';
 import { useState, type ReactNode } from 'react';
-import { articleHref, editionHref, fold, type EditionRoute, type Section, type Summary } from '../../lib/edition';
+import { articleHref, editionHref, fold, type EditionRoute, type Summary } from '../../lib/edition';
 import { categoryLabel, localizedHref, sectionLabel, type PublicLocale } from '../../lib/i18n';
 import { usePublicLocale } from '../language-select';
 import { StoryCard, StoryDate } from './story-card';
@@ -14,25 +14,60 @@ import { TopicRail } from './topic-rail';
 import { RadioYO } from './radioyo';
 import { sectionText } from './section-copy';
 import './front-page.css';
+import './hub-pages.css';
 
-const channels = [
-  { section: 'actualites', name: 'NEWS', icon: Newspaper, text: 'newsChannel' },
-  { section: 'radio', name: 'RADIO', icon: Radio, text: 'radioChannel' },
-  { section: 'tv', name: 'TV', icon: Tv, text: 'tvChannel' }
+const hubPages = {
+  actualites: { image: 'news', description: 'newsChannel' },
+  presentations: { image: 'editorial' },
+  direct: { image: 'live' },
+  radio: { image: 'radio', description: 'radioInfo' },
+  tv: { image: 'tv', description: 'tvInfo' }
+} as const;
+
+type HubPage = keyof typeof hubPages;
+
+function HubHeader({ section, lang }: { section: HubPage; lang: PublicLocale }) {
+  const page = hubPages[section];
+  const image = '/media/collection-2026/' + page.image;
+  const isChannel = section === 'radio' || section === 'tv';
+  return <section className={'by-hub-header by-hub-' + section} aria-labelledby="hub-title">
+    <div className="by-hub-copy">
+      <a className="by-hub-home" href={localizedHref('/',lang)}>
+        <ArrowLeft size={15} aria-hidden="true"/>{sectionLabel('accueil',lang)}
+      </a>
+      <div className="by-hub-titles">
+        {isChannel && <span className="by-hub-status">{sectionText(lang,'upcoming')}</span>}
+        <h1 id="hub-title">{sectionLabel(section,lang)}</h1>
+        {'description' in page && <p>{sectionText(lang,page.description)}</p>}
+        {section === 'presentations' && <a className="by-hub-method" href={localizedHref('/article/verification',lang)}>
+          {sectionText(lang,'aboutMethod')}<ArrowUpRight size={17} aria-hidden="true"/>
+        </a>}
+      </div>
+    </div>
+    <picture className="by-hub-art">
+      <source media="(max-width: 720px)" srcSet={image + '-720.webp'}/>
+      <img src={image + '.webp'} alt="" width={section === 'presentations' ? 1536 : 1640} height={section === 'presentations' ? 1024 : 923} decoding="async" fetchPriority="high"/>
+    </picture>
+  </section>;
+}
+
+const liveChannels = [
+  { section: 'radio', icon: Radio },
+  { section: 'tv', icon: Tv }
 ] as const;
+
 const formats = {
-  radio: { description: 'radioInfo', image: 'radio-live' },
-  tv: { description: 'tvInfo', image: 'tv-live' },
   podcasts: { description: 'podcastsInfo', image: 'radio' },
   emissions: { description: 'showsInfo', image: 'tv' },
   dossiers: { description: 'dossiersInfo', image: 'news' }
 } as const;
-function ChannelCards({ direct = false, lang }: { direct?: boolean; lang: PublicLocale }) {
-  const cards = direct ? channels.slice(1) : channels;
-  return <nav className="by-channels" id="chaines" aria-label={sectionText(lang, 'coverage')}>
-    {cards.map(channel => <a key={channel.section} href={localizedHref(editionHref(channel.section),lang)}>
-      <channel.icon size={28} strokeWidth={1.6} aria-hidden="true" />
-      <div><strong dir="ltr">BYRVOX {channel.name}</strong><span>{sectionText(lang, direct ? 'upcoming' : channel.text)}</span></div>
+
+function LiveChannels({ lang }: { lang: PublicLocale }) {
+  return <nav className="by-hub-channels" id="chaines" aria-label={sectionText(lang, 'coverage')}>
+    {liveChannels.map(({section, icon: Icon}) => <a key={section} href={localizedHref(editionHref(section),lang)}>
+      <Icon size={26} strokeWidth={1.5} aria-hidden="true" />
+      <div><strong>{sectionLabel(section,lang)}</strong><span>{sectionText(lang,'upcoming')}</span></div>
+      <ArrowUpRight size={20} aria-hidden="true"/>
     </a>)}
   </nav>;
 }
@@ -167,6 +202,7 @@ export function SectionContent({ route, stories, headlines, presentations, unava
   const categories = [...new Set([...publishedCategories, ...pool.map(story => canonicalCategory(story.category))])];
   const topicPage = section === 'actualites' && !!category;
   const topicIndex = section === 'actualites' && !category && !query && page===1;
+  const hubPage = section === 'actualites' ? topicIndex : Object.hasOwn(hubPages,section);
   const terms = fold(query).split(/\s+/).filter(Boolean);
   const list = pool.filter(story => (serverFiltered && !story.presentation) || ((!category || fold(story.category) === fold(category)) &&
     terms.every(term => fold([story.title, story.category, categoryLabel(story.category,lang), story.summary, story.slug].join(' ')).includes(term))));
@@ -174,23 +210,24 @@ export function SectionContent({ route, stories, headlines, presentations, unava
   const featured = topicPage && !query && page===1 ? list.slice(0,6) : [];
   const archive = list.slice(featured.length);
   function card(story: Summary) { return <StoryCard key={story.slug} story={story} save={saveButton(story)} lang={lang} showSummary/>; }
-  return <div className="wrap section-page by-index"><section className="page-title">
-    <a className="by-section-link" href={href('/')}>{sectionLabel('accueil',lang)}</a>
-    <h1>{topicPage ? categoryLabel(category,lang) : sectionLabel(section,lang)}</h1>
-    {(section==='favoris'||section==='recherche') && <p>{sectionText(lang,section==='favoris'?'favoritesIntro':'searchIntro')}</p>}
-  </section>
+  return <div className="wrap section-page by-index">
+    {hubPage ? <HubHeader section={section as HubPage} lang={lang}/> : <section className="page-title">
+      <a className="by-section-link" href={href('/')}>{sectionLabel('accueil',lang)}</a>
+      <h1>{topicPage ? categoryLabel(category,lang) : sectionLabel(section,lang)}</h1>
+      {(section==='favoris'||section==='recherche') && <p>{sectionText(lang,section==='favoris'?'favoritesIntro':'searchIntro')}</p>}
+    </section>}
     {topicPage && <>
       <TopicDirectory categories={categories} current={category} lang={lang}/>
       {featured.length>0 && <TopicRail category={category} lang={lang} current>{featured.map(card)}</TopicRail>}
       {featured.length>0 && <AdSlot placement="news"/>}
     </>}
-    {format ? <>
-      <section className="availability format-card">
+    {section === 'radio' && <><RadioYO lang={lang}/><AdSlot placement="radio"/></>}
+    {section === 'direct' && <LiveChannels lang={lang}/>}
+    {format && <section className="availability format-card">
         <Image unoptimized src={'/media/' + format.image + '.webp'} width="900" height="400" alt="" />
         <div><h2>{sectionText(lang,'upcoming')}</h2><p>{sectionText(lang,format.description)}</p></div>
-      </section>
-      {section==='radio' && <><RadioYO lang={lang}/><AdSlot placement="radio"/></>}
-    </> : section === 'direct' ? <ChannelCards direct lang={lang}/> : <section className="content-section">
+    </section>}
+    {!format && section !== 'radio' && section !== 'tv' && section !== 'direct' && <section className="content-section">
       {section === 'favoris' && !signedIn ? <div className="empty">
         {accountStatus === 'loading' ? sectionText(lang,'loading') : accountStatus === 'error' ? <><p>{sectionText(lang,'accountError')}</p><a className="edition-icon-link" href={href(editionHref('favoris'))}><RefreshCw size={16} aria-hidden="true" />{sectionText(lang,'retry')}</a></> :
           <><p>{sectionText(lang,'loginPrompt')}</p><a className="outline" href={'/signin-with-chatgpt?return_to=' + encodeURIComponent(href(editionHref('favoris')))} target="_top">{sectionText(lang,'login')}</a></>}

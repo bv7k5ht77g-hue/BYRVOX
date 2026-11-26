@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { cache } from 'react';
 import { and, eq } from 'drizzle-orm';
@@ -17,7 +16,8 @@ import { getDb } from '../../../db';
 import { articles } from '../../../db/schema';
 import { isoDate } from '../../../lib/publication-date';
 import { categoryHref } from '../../../lib/editorial-sections';
-import { categoryLabel, localeLabels, localizedHref, translationFallbackHref, type PublicLocale } from '../../../lib/i18n';
+import { editionHref } from '../../../lib/edition';
+import { categoryLabel, localeLabels, localizedHref, sectionLabel, translationFallbackHref, type PublicLocale } from '../../../lib/i18n';
 import { resolvePublicLocale } from '../../../lib/public-locale';
 import { localizeCover, translateStory, translateSummaries } from '../../../lib/public-translations';
 import { readerCandidates } from '../../../lib/public-articles';
@@ -49,7 +49,12 @@ const localizedArticle = cache(async (slug:string, locale:PublicLocale) => {
   const [{story,translated}, cover] = await Promise.all([
     translateStory(article.story,locale), localizeCover(slug,article.photo,locale),
   ]);
-  return { ...article, original:article.story, story, photo:cover.photo, photoLanguage:cover.translated ? locale : 'fr', language:translated ? locale : 'fr' as const };
+  const art = article.isFeature && story.image && story.imageAlt ? {
+    url: '/media/' + story.image + '.webp',
+    smallUrl: '/media/' + story.image + '-720.webp',
+    alt: [story.imageAlt[locale], readerLabels(locale).illustration].join(' '),
+  } : null;
+  return { ...article, original:article.story, story, art, photo:cover.photo, photoLanguage:cover.translated ? locale : 'fr', language:translated ? locale : 'fr' as const };
 });
 const openGraphLocales = {fr:'fr_CA', en:'en_CA', es:'es_ES', ar:'ar_SA', 'zh-CN':'zh_CN', ru:'ru_RU', ko:'ko_KR'} as const;
 function absoluteArticleUrl(slug:string, locale:PublicLocale, origin:string) {
@@ -60,10 +65,11 @@ export async function generateMetadata({params,searchParams}:ArticleProps):Promi
   const locale = await resolvePublicLocale(await searchParams);
   const record = await localizedArticle(slug,locale);
   if (!record) return {title:readerLabels(locale).missing, robots:{index:false,follow:false}};
-  const {story, photo, isFeature, language} = record;
+  const {story, photo, art, language} = record;
   const origin = publicSiteOrigin((await headers()).get('host'));
   const path = absoluteArticleUrl(slug,language,origin);
-  const image = photo ? {url:new URL(photo.url,origin).href, alt:photo.alt} : isFeature && story.image ? {url:new URL('/media/' + story.image + '.webp',origin).href} : null;
+  const cover = photo ?? art;
+  const image = cover ? {url:new URL(cover.url,origin).href, alt:cover.alt} : null;
   return {
     title:story.title, description:story.summary, alternates:{canonical:path, types:{'application/rss+xml':'/rss.xml'}},
     openGraph:{ title:story.title, description:story.summary, type:'article', url:path, locale:openGraphLocales[language],
@@ -78,8 +84,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
   const locale = await resolvePublicLocale(await searchParams);
   const record = await localizedArticle(slug,locale);
   if (!record) notFound();
-  const {story, original, isFeature, isWire, photo, language} = record;
-  const illustration = isFeature && story.image !== 'city' ? story.image : undefined;
+  const {story, original, isFeature, isWire, photo, art, language} = record;
   const copy = readerLabels(locale);
   const sources = sourcesForReader(story.sources);
   const published = isoDate(story.publishedAt), updated = isoDate(story.updatedAt);
@@ -92,7 +97,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
   const origin = publicSiteOrigin((await headers()).get('host'));
   const linkedData = {
     '@context':'https://schema.org', '@type':isFeature?'Article':'NewsArticle', mainEntityOfPage:absoluteArticleUrl(slug,language,origin),
-    image:photo ? new URL(photo.url,origin).href : undefined, headline:story.title, description:story.summary,
+    image:art ? new URL(art.url,origin).href : photo ? new URL(photo.url,origin).href : undefined, headline:story.title, description:story.summary,
     articleSection:categoryLabel(story.category,locale), inLanguage:language, author:{'@type':'Organization',name:'BYRVOX'},
     publisher:{'@type':'Organization',name:'BYRVOX'}, datePublished:published || undefined, dateModified:updated || undefined,
     citation:sources.length ? sources.map(s=>s.url) : undefined,
@@ -101,28 +106,33 @@ export default async function Article({params,searchParams}:ArticleProps) {
     <a className="skip" href="#lecture">{copy.skip}</a>
     <ArticleNavigation />
     <main id="lecture" tabIndex={-1}>
-      <div className="reader-main">
+      <div className={isFeature ? "reader-main reader-feature" : "reader-main"}>
         <article>
           <div className="reader-heading">
             {locale !== language && <p className="reader-translation-note">{localeLabels[locale].sourceFallback}{' '}<a href={translationFallbackHref(absoluteArticleUrl(slug,'fr',origin),locale)} rel="external">{localeLabels[locale].translate}</a></p>}
             {locale !== 'fr' && language === locale && <p className="reader-translation-note"><a href={'/article/'+encodeURIComponent(slug)+'?lang=fr'} hrefLang="fr">{copy.frenchOriginal}</a></p>}
-            <p className="reader-category"><a href={localizedHref(categoryHref(story.category),locale)}>{categoryLabel(story.category,locale)}</a></p>
+            {isFeature ? <p className="reader-category reader-feature-kicker">
+              <a href={localizedHref(editionHref('presentations'),locale)}>{sectionLabel('presentations',locale)}</a>
+              <span>{categoryLabel(story.category,locale)}</span>
+            </p> : <p className="reader-category"><a href={localizedHref(categoryHref(story.category),locale)}>{categoryLabel(story.category,locale)}</a></p>}
             <h1 lang={language} dir="auto">{story.title}</h1>
             <p lang={language} dir="auto" className="reader-deck">{story.summary}</p>
             <div className="reader-byline">
               <strong>{isWire ? copy.wire : copy.newsroom}</strong>
-              {isFeature && <span>{copy.presentation}</span>}
               {published && <span>{copy.published} <time dateTime={published}>{dateFormat.format(Date.parse(published))}</time></span>}
               {updated && published && updated > published && <span>{copy.updated} <time dateTime={updated}>{dateFormat.format(Date.parse(updated))}</time></span>}
               <span className="reader-duration"><Clock3 size={14} aria-hidden="true"/>{new Intl.NumberFormat(locale).format(minutes)} {copy.minutes}</span>
             </div>
           </div>
           {photo && <div lang={record.photoLanguage} dir="auto"><CoverFigure photo={photo} priority /></div>}
-          {illustration && <figure className="reader-photo">
-            <Image src={'/media/'+illustration+'.webp'} width={900} height={400} alt="" loading="eager" unoptimized/>
+          {art && <figure className="reader-feature-art">
+            <picture>
+              <source media="(max-width: 720px)" srcSet={art.smallUrl}/>
+              <img src={art.url} width={1536} height={1024} alt={art.alt} decoding="async" fetchPriority="high"/>
+            </picture>
             <figcaption>{copy.illustration}</figcaption>
           </figure>}
-          {(photo || illustration) && <AdSlot placement="article-photo" locale={locale}/>}
+          {(photo || art) && <AdSlot placement="article-photo" locale={locale}/>}
           <div lang={language} dir="auto" className="reader-copy">
             {story.body.split(/\r?\n/).filter(p=>p.trim()).map((p,i)=><p key={i}>{p}</p>)}
           </div>

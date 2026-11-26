@@ -1,13 +1,13 @@
 'use client';
 
-import { Bookmark, Plus, Search } from 'lucide-react';
+import { Bookmark, ChevronDown, Plus, Search } from 'lucide-react';
 import { useState, type ReactNode } from 'react';
 import { canonicalCategory } from '../../lib/editorial-sections';
-import { editionHref, fold, type Summary } from '../../lib/edition';
+import { articleHref, editionHref, fold, type Summary } from '../../lib/edition';
 import { categoryLabel, localizedHref, sectionLabel, type PublicLocale } from '../../lib/i18n';
 import { usePublicLocale } from '../language-select';
 import { sectionText } from './section-copy';
-import { StoryCard } from './story-card';
+import { StoryCardImage, StoryDate } from './story-card';
 import './featured-contents.css';
 
 const labels: Record<PublicLocale, {title: string; more: string}> = {
@@ -30,6 +30,21 @@ type FeaturedContentsProps = {
   saveButton: (story: Summary) => ReactNode;
 };
 
+function SpotlightCard({ story, lang, save }: { story: Summary; lang: PublicLocale; save: ReactNode }) {
+  return <article className="by-spotlight-card">
+    <StoryCardImage story={story} />
+    <div className="by-spotlight-copy">
+      <p className="by-category">{categoryLabel(story.category, lang)}</p>
+      <h3 lang={story.contentLocale} dir="auto"><a href={localizedHref(articleHref(story), lang)}>{story.title}</a></h3>
+      <p className="by-spotlight-deck" lang={story.contentLocale} dir="auto">{story.summary}</p>
+      <div className="by-spotlight-meta">
+        <small><StoryDate story={story} lang={lang} /></small>
+        {save}
+      </div>
+    </div>
+  </article>;
+}
+
 export function FeaturedContents({ stories, presentations, savedCount, saveButton }: FeaturedContentsProps) {
   const lang = usePublicLocale();
   const [activeCategory, setActiveCategory] = useState('');
@@ -47,20 +62,42 @@ export function FeaturedContents({ stories, presentations, savedCount, saveButto
   });
   if (!pool.length) return null;
   const copy = labels[lang];
+  function categoryName(category: string) {
+    if (category === presentationsFilter) return sectionText(lang,'presentations');
+    return category ? categoryLabel(category,lang) : sectionText(lang,'all');
+  }
+  function selectCategory(category: string) {
+    setActiveCategory(category);
+    setVisibleCount(pageSize);
+  }
+  const visibleStories = filtered.slice(0, visibleCount);
+  const firstSpread = visibleStories.slice(0, pageSize);
+  const moreStories = visibleStories.slice(pageSize);
+  function card(story: Summary) {
+    return <SpotlightCard key={story.slug} story={story} lang={lang} save={saveButton(story)} />;
+  }
   return <section className="by-section by-spotlight" aria-labelledby="featured-contents-title">
-    <div className="by-section-title">
+    <div className="by-spotlight-heading">
       <h2 id="featured-contents-title">{copy.title}</h2>
       <a className="by-spotlight-saved" href={localizedHref(editionHref('favoris'),lang)}>
         <Bookmark size={16} aria-hidden="true"/>{sectionLabel('favoris',lang)} <span>{new Intl.NumberFormat(lang).format(savedCount)}</span>
       </a>
     </div>
     <div className="by-spotlight-toolbar">
-      <div className="by-spotlight-categories" role="group" aria-label={sectionText(lang,'filter')}>
-        {['', ...categories].map(category =>
-          <button key={category} type="button" aria-pressed={activeCategory === category}
-            onClick={() => { setActiveCategory(category); setVisibleCount(pageSize); }}>
-            {category === presentationsFilter ? sectionText(lang,'presentations') : category ? categoryLabel(category,lang) : sectionText(lang,'all')}
-          </button>)}
+      <div className="by-spotlight-topics" role="group" aria-label={sectionText(lang,'filter')}>
+        <div className="by-spotlight-categories">
+          {['', ...categories.slice(0, 3)].map(category =>
+            <button key={category} type="button" aria-pressed={activeCategory === category}
+              onClick={() => selectCategory(category)}>{categoryName(category)}</button>)}
+        </div>
+        {categories.length > 0 && <label className="by-spotlight-picker">
+          <select aria-label={sectionText(lang,'filter')} value={activeCategory}
+            onChange={event => selectCategory(event.target.value)}>
+            <option value="">{sectionText(lang,'topics')} · {sectionText(lang,'all')}</option>
+            {categories.map(category => <option key={category} value={category}>{categoryName(category)}</option>)}
+          </select>
+          <ChevronDown size={14} aria-hidden="true"/>
+        </label>}
       </div>
       <label className="by-spotlight-search"><Search size={16} aria-hidden="true" />
         <input type="search" value={query} maxLength={160} aria-label={sectionText(lang,'searchField')}
@@ -68,10 +105,10 @@ export function FeaturedContents({ stories, presentations, savedCount, saveButto
       </label>
     </div>
     {filtered.length ? <>
-      <div className="by-story-grid by-spotlight-grid">
-        {filtered.slice(0, visibleCount).map(story =>
-          <StoryCard key={story.slug} story={story} lang={lang} showSummary save={saveButton(story)} />)}
+      <div className={'by-spotlight-grid' + (firstSpread.length === pageSize ? ' by-spotlight-spread' : '')}>
+        {firstSpread.map(card)}
       </div>
+      {moreStories.length > 0 && <div className="by-spotlight-grid by-spotlight-continuation">{moreStories.map(card)}</div>}
       {filtered.length > visibleCount &&
         <button className="by-spotlight-more" type="button" onClick={() => setVisibleCount(count => count + pageSize)}>
           <Plus size={16} aria-hidden="true"/>{copy.more}
