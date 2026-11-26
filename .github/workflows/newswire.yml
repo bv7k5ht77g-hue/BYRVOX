@@ -1,0 +1,36 @@
+name: Publish BYRVOX hourly edition
+on:
+  push:
+    branches: [main]
+    paths: ['newswire/*/edition.json']
+  workflow_dispatch:
+    inputs:
+      hour:
+        description: UTC edition (YYYY-MM-DDTHH)
+        required: true
+permissions:
+  contents: read
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Deliver approved stories and photos
+        shell: bash
+        env:
+          MANUAL_HOUR: ${{ inputs.hour }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+          if [[ -n "$MANUAL_HOUR" ]]; then
+            python3 scripts/publish-hourly.py "$MANUAL_HOUR"
+          else
+            if ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+              git fetch --depth=1 origin "$BEFORE"
+            fi
+            mapfile -t hours < <(git diff --diff-filter=AM --name-only "$BEFORE" HEAD -- 'newswire/*/edition.json' | cut -d/ -f2)
+            if (( ${#hours[@]} )); then python3 scripts/publish-hourly.py "${hours[@]}"; fi
+          fi
