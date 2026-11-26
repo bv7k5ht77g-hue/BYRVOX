@@ -9,18 +9,24 @@ import { ClerkReader } from './reader';
 import './reader.css';
 
 export const dynamic = 'force-dynamic';
-export const metadata = {title:'Compte lecteur · BYRVOX',robots:{index:false,follow:false}};
+type Params = {searchParams:Promise<Record<string,string|string[]|undefined>>};
+const accountMode = (mode:unknown):ReaderMode => mode === 'inscription' || mode === 'sortie' ? mode : 'connexion';
 
-export default async function ReaderAccount({searchParams}:{searchParams:Promise<Record<string,string|string[]|undefined>>}) {
+export async function generateMetadata({searchParams}:Params) {
+  const params = await searchParams;
+  return {title:readerText(await resolvePublicLocale(params), accountMode(params.mode)), robots:{index:false,follow:false}};
+}
+
+export default async function ReaderAccount({searchParams}:Params) {
   const params = await searchParams;
   const lang = await resolvePublicLocale(params);
-  const mode:ReaderMode = params.mode === 'inscription' || params.mode === 'sortie' ? params.mode : 'connexion';
+  const mode = accountMode(params.mode);
   const returnTo = localizedHref(readerReturnPath(params.return_to),lang);
   const host = (await headers()).get('host');
   if (host !== new URL(NEW_SITE_ORIGIN).host) redirect(readerAccountUrl(mode,returnTo,lang));
   const config = clerkConfiguration();
   return <main className="reader-account" lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
-    <a className="reader-wordmark" href={localizedHref('/',lang)}>BYRVOX</a>
+    <a className="brand edition-brand" href={localizedHref('/',lang)} aria-label="BYRVOX"><span className="brand-mark" aria-hidden="true"/></a>
     <section aria-labelledby="account-title">
       <h1 id="account-title">{readerText(lang,mode)}</h1>
       <ClerkReader publishableKey={config?.publishableKey || ''} issuer={config?.issuer || ''} mode={mode} returnTo={returnTo} lang={lang}/>

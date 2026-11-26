@@ -57,6 +57,10 @@ function PhotoMetadata({ photo, busy, change }: {
     <label>Crédit photo<input disabled={busy} value={photo.credit} maxLength={300}
       onChange={event => change({ ...photo, credit: event.target.value })} /></label>
     <p className="portal-help">Le texte alternatif décrit l’image pour les lecteurs d’écran. Le crédit identifie le photographe ou l’agence. Tous deux sont requis pour publier.</p>
+    <label>Licence ou statut des droits<input disabled={busy} value={photo.license || ''} maxLength={100}
+      placeholder="Ex. CC BY 4.0" onChange={event => change({ ...photo, license: event.target.value || undefined })} /></label>
+    <label>Lien vers la licence<input type="url" disabled={busy} value={photo.licenseUrl || ''} maxLength={1800}
+      placeholder="https://" onChange={event => change({ ...photo, licenseUrl: event.target.value || undefined })} /></label>
     <label>Légende<textarea disabled={busy} value={photo.caption} aria-describedby={captionHelpId} maxLength={1000} rows={2}
       onChange={event => change({ ...photo, caption: event.target.value })} /></label>
     <p id={captionHelpId} className="portal-help">Pour publier une nouvelle photo, indique qui ou quoi elle montre. Précise le lieu et la date si tu les connais. S’il s’agit d’une archive ou d’une illustration, signale-le dans la légende.</p>

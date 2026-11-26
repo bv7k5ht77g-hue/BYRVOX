@@ -8,8 +8,8 @@ import { AdFrame } from './ad-frame';
 import { sectionText } from './section-copy';
 import './ad-slot.css';
 
-const PlacementsContext = createContext<PublicAdPlacements>({});
-export function AdPlacementsProvider({ placements, children }: { placements: PublicAdPlacements; children: ReactNode }) {
+const PlacementsContext = createContext<PublicAdPlacements | null>({});
+export function AdPlacementsProvider({ placements, children }: { placements: PublicAdPlacements | null; children: ReactNode }) {
   return <PlacementsContext.Provider value={placements}>{children}</PlacementsContext.Provider>;
 }
 
@@ -48,7 +48,9 @@ function AdSenseUnit({ client, slot }: { client: string; slot: string }) {
 export function AdSlot({ placement, locale }: { placement: Placement; locale?: PublicLocale }) {
   const current = usePublicLocale();
   const lang = locale ?? current;
-  const campaign = useContext(PlacementsContext)[placement];
+  const placements = useContext(PlacementsContext);
+  if (!placements) return null;
+  const campaign = placements[placement];
   if (campaign?.mode === 'hidden') return null;
   const label = sectionText(lang,'advert');
   return <aside className="by-ad" aria-label={label} data-ad-slot={placement}>

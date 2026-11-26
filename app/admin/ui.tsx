@@ -3,7 +3,10 @@
 import { useEffect, useState } from 'react';
 import { AdsPanel } from './ads';
 import { AdminNavigation } from './navigation';
+import { OpenArticle } from './open-article';
 import { ArticlePreview } from './article-preview';
+import { ArticleAdReviewForm, PublicationReview } from './article-ad-review';
+import type { ArticleAdReview } from '../../lib/article-ad-policy';
 import { GalleryField, PhotoField } from './photo-field';
 import { LeadSelector } from './lead-selector';
 import { ReadersPanel } from './readers';
@@ -18,7 +21,7 @@ import type { articles, events, revisions, runs } from '../../db/schema';
 type Source = { name: string; url: string };
 type Article = Omit<typeof articles.$inferSelect, 'draft' | 'photo' | 'photoHidden' | 'gallery'> & { isLive: boolean; photo: ArticlePhoto | null; photoHidden: boolean; gallery: ArticlePhoto[] };
 type Editor = Pick<Article, 'id' | 'slug' | 'title' | 'photo' | 'photoHidden' | 'gallery' | 'category' | 'summary' | 'body' | 'risk' | 'status' | 'isLive'>
-  & { authorId?: string; version?: number; sources: Source[] };
+  & { authorId?: string; version?: number; sources: Source[]; adReview?: ArticleAdReview | null };
 type Newsroom = {
   role: NewsroomRole; email: string; userId: string;
   articles: Article[]; reviewQueue?: Article[];
@@ -123,6 +126,16 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
     setTab('Éditeur');
   }
 
+  async function openByIdentifier(identifier: string) {
+    setBusy(true);
+    try {
+      const response = await fetch('/api/newsroom?article=' + encodeURIComponent(identifier), {cache:'no-store'});
+      if (!response.ok) throw Error(response.status === 404 ? 'Aucun article accessible ne correspond à cet identifiant.' : 'Impossible de charger cet article.');
+      const { article } = await response.json() as {article: Article};
+      open(article);
+    } finally { setBusy(false); }
+  }
+
   function change(patch: Partial<Editor>) {
     setEdit(previous => ({ ...previous, ...patch }));
     setDirty(true);
@@ -139,7 +152,15 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
       const response = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(input) });
       if (!response.ok) {
         const result = await response.json() as { error?: string };
-        if (response.status === 409) setData(await loadNewsroom());
+        if (response.status === 409) {
+          const refreshed = await loadNewsroom();
+          setData(refreshed);
+          if (input.action === 'publish' || input.action === 'ad-policy') {
+            const current = [...(refreshed.reviewQueue || []), ...refreshed.articles].find(article => article.id === input.id);
+            if (current) setEdit(editArticle(current));
+            else if (typeof input.id === 'string') await openByIdentifier(input.id);
+          }
+        }
         throw Error(result.error || 'Échec de l’opération.');
       }
       if (url === '/api/newsroom') {
@@ -147,7 +168,8 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
         setEdit(editArticle(row));
         setDirty(false);
         setTab('Éditeur');
-        setMessage(row.status === 'published' ? 'Article publié.' : input.action === 'return'
+        setMessage(input.action === 'ad-policy' ? 'La diffusion publicitaire a été mise à jour pour cet article.' :
+          row.status === 'published' ? 'Article publié.' : input.action === 'return'
           ? 'Article renvoyé en brouillon. Son auteur peut le corriger et le soumettre à nouveau.' : row.status === 'review'
           ? 'Article en attente d’approbation.' : 'Brouillon enregistré.');
       } else if (url === '/api/generate') {
@@ -183,6 +205,7 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
   const reviewQueue = data.reviewQueue ?? data.articles.filter(article => article.status === 'review');
   const locked = !canApprove && Boolean(edit.id) && (edit.status !== 'draft' || edit.authorId !== data.userId);
   const fieldsDisabled = busy || locked;
+  const draftFields = {...edit, adReview: undefined};
   const canSubmit = loaded && !fieldsDisabled && edit.title.trim() && (dirty || edit.status !== 'published');
 
   return <div className="admin-shell">
@@ -244,6 +267,7 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
             <option value="all">Tous les statuts</option><option value="draft">Brouillons</option>
             <option value="review">En vérification</option><option value="live">En ligne</option>
           </select></label></div>
+        <OpenArticle open={openByIdentifier} busy={busy || !loaded}/>
         {loaded && <p role="status" className="portal-help">{filtered.length} article{filtered.length > 1 ? 's' : ''} sur {data.articles.length}</p>}
         {filtered.map(article => <div className="article-row" key={article.id}><div><h3>{article.title}</h3>
           <small>{article.category} · {statusLabel(article)}</small></div>
@@ -268,16 +292,21 @@ export default function Admin({ initialRole }: { initialRole: NewsroomRole }) {
           <label>Article<textarea disabled={fieldsDisabled} className="body-edit" value={edit.body} maxLength={60000} onChange={e => change({ body: e.target.value })}/></label>
           <p className="portal-help">{words} mot{words > 1 ? 's' : ''}{words > 0 && ' · ' + Math.ceil(words / 220) + ' min de lecture'}</p>
           {!locked && <div className="button-row">
-            {edit.status !== 'review' && <button disabled={!canSubmit} className="outline" onClick={() => action('/api/newsroom', { ...edit, action: 'save' })}>Enregistrer le brouillon</button>}
-            {edit.status !== 'review' && <button disabled={!canSubmit} className="red" onClick={() => action('/api/newsroom', { ...edit, action: 'review' })}>Soumettre pour approbation</button>}
+            {edit.status !== 'review' && <button disabled={!canSubmit} className="outline" onClick={() => action('/api/newsroom', { ...draftFields, action: 'save' })}>Enregistrer le brouillon</button>}
+            {edit.status !== 'review' && <button disabled={!canSubmit} className="red" onClick={() => action('/api/newsroom', { ...draftFields, action: 'review' })}>Soumettre pour approbation</button>}
             {canApprove && edit.status === 'review' && <>
-              {dirty && <button disabled={!canSubmit} className="outline" onClick={() => action('/api/newsroom', {...edit, action:'review'})}>Enregistrer les corrections</button>}
+              {dirty && <button disabled={!canSubmit} className="outline" onClick={() => action('/api/newsroom', {...draftFields, action:'review'})}>Enregistrer les corrections</button>}
               <button disabled={busy || dirty} className="outline" onClick={() => action('/api/newsroom', {id:edit.id, version:edit.version, action:'return'})}>Renvoyer en brouillon</button>
-              <button disabled={busy || dirty} className="red" onClick={() => action('/api/newsroom', {id:edit.id, version:edit.version, action:'publish'})}>Valider et publier</button>
             </>}
           </div>}
+          {canApprove && edit.status === 'review' && <PublicationReview key={'publish-' + edit.id + '-' + edit.version}
+            slug={edit.slug} busy={busy} hasEdits={dirty}
+            onPublish={(adReview, translations) => action('/api/newsroom', {id:edit.id, version:edit.version, action:'publish', adReview, translations})}/>}
         </section>
         <div className="portal-editor-tools">
+          {canApprove && edit.isLive && <ArticleAdReviewForm key={'live-' + edit.id + '-' + edit.version}
+            mode="live" slug={edit.slug} current={edit.adReview} busy={busy} hasEdits={dirty}
+            onSubmit={adReview => action('/api/newsroom', {id:edit.id, version:edit.version, action:'ad-policy', adReview})}/>}
           <PhotoField key={edit.id} slug={edit.slug} value={edit.photo} hidden={edit.photoHidden}
             change={(photo, photoHidden) => change({ photo, photoHidden })} busy={fieldsDisabled} setUploading={setUploading} />
           <GalleryField key={'gallery-' + edit.id} photos={edit.gallery} change={gallery => change({ gallery })} busy={fieldsDisabled} setUploading={setUploading} />

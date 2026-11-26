@@ -1,0 +1,1 @@
+ALTER TABLE `articles` ADD `ad_review` text;

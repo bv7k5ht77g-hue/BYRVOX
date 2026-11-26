@@ -2,6 +2,7 @@ import { env } from 'cloudflare:workers';
 import { eq, or } from 'drizzle-orm';
 import { getDb } from '../../db';
 import { articles, revisions, runs } from '../../db/schema';
+import { unreviewedWireAds } from '../article-ad-policy';
 import { boundedBytes } from '../input';
 import { photoByteLimit, photoFormat, photoRoute, photoTypes } from '../article-photo';
 import { storeStoryTranslations } from '../public-translations';
@@ -79,9 +80,10 @@ export async function deliverRank(hour: string, rank: number) {
   const now = new Date().toISOString();
   const {alt,caption,credit,sourceUrl,license,licenseUrl} = story.photo;
   const thematic = hour.endsWith('-thematique');
+  const authorId = thematic ? 'byrvox-agent-thematique' : 'byrvox-agent-horaire';
   const entry = {id,slug:story.eventKey,title:story.title,category:story.category,summary:story.summary,body:story.body,
     sources:JSON.stringify(story.sources.map(({name,url})=>({name,url}))), status:'published',risk:'standard',
-    authorId:thematic ? 'byrvox-agent-thematique' : 'byrvox-agent-horaire',createdAt:now,updatedAt:now,publishedAt:now,
+    adReview:unreviewedWireAds(authorId,now),authorId,createdAt:now,updatedAt:now,publishedAt:now,
     photo:{url,alt,caption,credit,sourceUrl,license,licenseUrl},gallery:[]};
   if (story.translations) await storeStoryTranslations(entry,story.translations);
   try {

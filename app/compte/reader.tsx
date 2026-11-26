@@ -32,13 +32,33 @@ function loadScript(src:string, key?:string) {
   });
 }
 
-function loadClerk(key:string, issuer:string) {
+const localizations = {
+  fr: () => import('@clerk/localizations/fr-FR').then(module => module.frFR),
+  en: async () => undefined,
+  es: () => import('@clerk/localizations/es-ES').then(module => module.esES),
+  ar: () => import('@clerk/localizations/ar-SA').then(module => module.arSA),
+  'zh-CN': () => import('@clerk/localizations/zh-CN').then(module => module.zhCN),
+  ru: () => import('@clerk/localizations/ru-RU').then(module => module.ruRU),
+  ko: () => import('@clerk/localizations/ko-KR').then(module => module.koKR),
+} satisfies Record<PublicLocale, () => Promise<unknown>>;
+
+function loadClerk(key:string, issuer:string, lang:PublicLocale) {
   if (!loading) loading = (async () => {
     const scope = window as ClerkWindow;
-    if (!scope.__internal_ClerkUICtor) await loadScript(issuer + '/npm/@clerk/ui@1/dist/ui.browser.js');
+    const [localization] = await Promise.all([
+      localizations[lang](),
+      scope.__internal_ClerkUICtor ? undefined : loadScript(issuer + '/npm/@clerk/ui@1/dist/ui.browser.js'),
+    ]);
     if (!scope.Clerk) await loadScript(issuer + '/npm/@clerk/clerk-js@6/dist/clerk.browser.js',key);
     if (!scope.Clerk || !scope.__internal_ClerkUICtor) throw new Error('Clerk unavailable');
-    await scope.Clerk.load({ui:{ClerkUI:scope.__internal_ClerkUICtor}});
+    await scope.Clerk.load({
+      ui:{ClerkUI:scope.__internal_ClerkUICtor},
+      localization,
+      appearance: {
+        variables: {colorPrimary:'#981832', fontFamily:'inherit'},
+        elements: {rootBox:'reader-clerk-root', cardBox:'reader-clerk-card', card:'reader-clerk-card'},
+      },
+    });
     return scope.Clerk;
   })().catch(error => {loading = null; throw error;});
   return loading;
@@ -48,7 +68,7 @@ export function ClerkReader({publishableKey,issuer,mode,returnTo,lang}:{
   publishableKey:string; issuer:string; mode:ReaderMode; returnTo:string; lang:PublicLocale;
 }) {
   const mount = useRef<HTMLDivElement>(null);
-  const [notice,setNotice] = useState<'waiting'|'error'|'suspended'|'banned'|null>('waiting');
+  const [notice,setNotice] = useState<'waiting'|'serviceError'|'error'|'suspended'|'banned'|null>('waiting');
   const [attempt,setAttempt] = useState(0);
   const [leaving,setLeaving] = useState(false);
   useEffect(() => {
@@ -73,7 +93,7 @@ export function ClerkReader({publishableKey,issuer,mode,returnTo,lang}:{
       } catch { fail(); }
     }
     setNotice('waiting');
-    loadClerk(publishableKey,issuer).then(clerk => {
+    loadClerk(publishableKey,issuer,lang).then(clerk => {
       if (closed) return;
       if (clerk.session) {void activate(clerk.session);return;}
       const signIn = readerAccountUrl('connexion',returnTo,lang);
@@ -85,7 +105,7 @@ export function ClerkReader({publishableKey,issuer,mode,returnTo,lang}:{
       const unsubscribe = clerk.addListener(state => {if (state.session) void activate(state.session);});
       cleanup = () => {unsubscribe(); if (mode === 'inscription') clerk.unmountSignUp(el); else clerk.unmountSignIn(el);};
       setNotice(null);
-    }).catch(fail);
+    }).catch(() => { if (!closed) setNotice('serviceError'); });
     return () => {closed = true;cleanup?.();};
   },[mode,publishableKey,issuer,returnTo,lang,attempt]);
 
@@ -95,7 +115,7 @@ export function ClerkReader({publishableKey,issuer,mode,returnTo,lang}:{
       const response = await fetch('/api/reader-session/logout',{method:'POST',cache:'no-store'});
       if (!response.ok) throw new Error();
       if (publishableKey) {
-        const clerk = await loadClerk(publishableKey,issuer);
+        const clerk = await loadClerk(publishableKey,issuer,lang);
         if (clerk.session) {await clerk.signOut({redirectUrl:returnTo});return;}
       }
       window.location.replace(returnTo);
@@ -105,7 +125,7 @@ export function ClerkReader({publishableKey,issuer,mode,returnTo,lang}:{
   if (mode === 'sortie') return <><button className="red" disabled={leaving} onClick={signOut}>{readerText(lang,'sortie')}</button>
     {notice === 'error' && <p role="alert">{readerText(lang,'error')}</p>}</>;
   if (!publishableKey) return <p role="status">{readerText(lang,'unavailable')}</p>;
-  return <><div ref={mount}/>{notice && <p role="status">{readerText(lang,notice)}</p>}
-    {notice === 'error' && <button className="outline" onClick={() => setAttempt(n=>n+1)}>{readerText(lang,'retry')}</button>}
+  return <><div className="reader-clerk" ref={mount}/>{notice && <p role="status">{readerText(lang,notice)}</p>}
+    {(notice === 'serviceError' || notice === 'error') && <button className="outline" onClick={() => setAttempt(n=>n+1)}>{readerText(lang,'retry')}</button>}
     {(notice === 'banned' || notice === 'suspended') && <a href={readerAccountUrl('sortie',returnTo,lang)}>{readerText(lang,'sortie')}</a>}</>;
 }

@@ -14,6 +14,7 @@ const origin = 'https://byrvox.noventra.ca';
 const publicOrigin = 'https://byrvox.today';
 const providerOrigin = 'https://byrvox.h2y4xnnm6g.chatgpt.site';
 const editor = 'editor@example.invalid';
+const reviewedAds = { decision:'allow', checks:{ rights:true, safety:true, accuracy:true }, reason:'' };
 const initial = {
   title: 'Conseil & culture <édition locale>',
   category: 'Canada',
@@ -173,13 +174,13 @@ test('le Worker distingue les versions publiques et les révisions de la rédact
   assert.ok(!(await feed()).includes(slug));
   assert.ok(!(await sitemap()).includes(slug));
   for (const page of await editionPages()) assert.ok(!page.includes(slug));
-  await edit({ id, version: draft.version, action: 'publish' }, 422);
+  await edit({ id, version: draft.version, adReview:reviewedAds, action:'publish' }, 422);
   const reviewed = await edit({ ...initial, id, version: draft.version, action: 'review' });
   assert.equal(reviewed.status, 'review');
   assert.deepEqual(await published(), []);
   assert.ok(!(await feed()).includes(slug));
   await edit({ ...initial, id, version: draft.version, action: 'save' }, 409);
-  const first = await edit({ id, version: reviewed.version, action: 'publish' });
+  const first = await edit({ id, version: reviewed.version, adReview:reviewedAds, action:'publish' });
   assert.equal(first.status, 'published');
   assert.equal(first.isLive, true);
   const [entry] = await published();
@@ -212,10 +213,10 @@ test('le Worker distingue les versions publiques et les révisions de la rédact
     assert.ok(page.includes('>' + htmlTitle + '<'));
     assert.ok(!page.includes(corrected.title));
   }
-  await edit({ id, version: changes.version, action: 'publish' }, 422);
+  await edit({ id, version: changes.version, adReview:reviewedAds, action:'publish' }, 422);
   const ready = await edit({ ...corrected, id, version: changes.version, action: 'review' });
   assert.deepEqual(await published(), [entry]);
-  const second = await edit({ id, version: ready.version, action: 'publish' });
+  const second = await edit({ id, version: ready.version, adReview:reviewedAds, action:'publish' });
   const [correction] = await published();
   assert.equal(correction.title, corrected.title);
   assert.equal(correction.slug, slug);
@@ -288,7 +289,7 @@ test('le Worker distingue les versions publiques et les révisions de la rédact
     assert.deepEqual(await published(), [correction]);
     const first = issue[0];
     await document('/article/' + first.slug, /text\/html/i, 404);
-    await edit({ id: first.id, version: first.version, action: 'publish' });
+    await edit({ id: first.id, version: first.version, adReview:reviewedAds, action:'publish' });
     assert.ok((await published()).some(row => row.slug === first.slug));
     assert.equal((await supply()).imported, 0);
     assert.ok((await published()).some(row => row.slug === first.slug));
@@ -398,7 +399,7 @@ test('la rédaction contrôle les fichiers et la visibilité des photos au fil d
   }
   for (const patch of [{ alt: ' ' }, { credit: ' ' }]) {
     const incomplete = await edit({ ...initial, action: 'review', photo: { ...photo, ...patch } });
-    const blocked = await request('/api/newsroom', editor, { id: incomplete.id, version: incomplete.version, action: 'publish' });
+    const blocked = await request('/api/newsroom', editor, { id: incomplete.id, version: incomplete.version, adReview:reviewedAds, action:'publish' });
     assert.equal(blocked.status, 422);
   }
   for (const [images, label] of [
@@ -406,7 +407,7 @@ test('la rédaction contrôle les fichiers et la visibilité des photos au fil d
     [{ gallery: [photo, { ...replacement, caption: '' }] }, 'photo 2 de la galerie'],
   ]) {
     const draft = await edit({ ...initial, action: 'review', ...images });
-    const response = await request('/api/newsroom', editor, { id: draft.id, version: draft.version, action: 'publish' });
+    const response = await request('/api/newsroom', editor, { id: draft.id, version: draft.version, adReview:reviewedAds, action:'publish' });
     assert.equal(response.status, 422);
     assert.equal((await response.json()).error, `Ajoute une légende à la ${label} avant de publier.`);
   }
@@ -419,7 +420,7 @@ test('la rédaction contrôle les fichiers et la visibilité des photos au fil d
   const reviewed = await edit({ ...initial, id, version: first.version, action: 'review' });
   assert.deepEqual(reviewed.photo, photo, 'Un client qui omet la photo conserve celle du brouillon.');
   assert.equal((await request(url)).status, 404);
-  const published = await edit({ id, version: reviewed.version, action: 'publish' });
+  const published = await edit({ id, version: reviewed.version, adReview:reviewedAds, action:'publish' });
   const publicPhoto = async () => (await json('/api/articles')).find(row => row.slug === first.slug)?.photo;
   assert.deepEqual(await publicPhoto(), photo);
   const readArticle = () => request('/article/' + first.slug).then(response => response.text());
@@ -435,7 +436,7 @@ test('la rédaction contrôle les fichiers et la visibilité des photos au fil d
   assert.ok(!(await readArticle()).includes(replacement.caption));
   assert.equal((await request(replacementUrl)).status, 404);
   assert.equal((await request(url)).status, 200);
-  const republished = await edit({ id, version: correction.version, action: 'publish' });
+  const republished = await edit({ id, version: correction.version, adReview:reviewedAds, action:'publish' });
   assert.deepEqual(republished.photo, replacement);
   assert.deepEqual(await publicPhoto(), replacement);
   assert.ok((await readArticle()).includes(replacement.caption));
@@ -459,7 +460,7 @@ test('la rédaction contrôle les fichiers et la visibilité des photos au fil d
   const liveHidden = () => db.prepare('select photo_hidden from articles where id = ?').bind(id).first('photo_hidden');
   assert.equal(await liveHidden(), 0);
   assert.equal((await request(replacementUrl)).status, 200);
-  const cleared = await edit({ id, version: withoutPhoto.version, action: 'publish' });
+  const cleared = await edit({ id, version: withoutPhoto.version, adReview:reviewedAds, action:'publish' });
   assert.equal(cleared.photoHidden, true);
   assert.equal(await liveHidden(), 1);
   assert.equal(await publicPhoto(), undefined);
@@ -476,7 +477,7 @@ test('la rédaction contrôle les fichiers et la visibilité des photos au fil d
   const readyGallery = await edit({ ...initial, id, version: withGallery.version, action: 'review' });
   assert.deepEqual(readyGallery.gallery, gallery, 'Le client peut enregistrer le texte sans remplacer la galerie.');
   assert.equal((await request(galleryUrl)).status, 404);
-  const liveGallery = await edit({ id, version: readyGallery.version, action: 'publish' });
+  const liveGallery = await edit({ id, version: readyGallery.version, adReview:reviewedAds, action:'publish' });
   for (const item of gallery) assert.equal((await request(item.url)).status, 200);
   const galleryHtml = await readArticle();
   assert.ok(galleryHtml.includes(galleryPhoto.caption));
@@ -485,7 +486,7 @@ test('la rédaction contrôle les fichiers et la visibilité des photos au fil d
   const changedGallery = await edit({ ...initial, id, version: liveGallery.version, action: 'review', gallery: [replacement] });
   assert.equal((await request(replacementUrl)).status, 404);
   assert.equal((await request(galleryUrl)).status, 200);
-  const nextGallery = await edit({ id, version: changedGallery.version, action: 'publish' });
+  const nextGallery = await edit({ id, version: changedGallery.version, adReview:reviewedAds, action:'publish' });
   assert.equal((await request(galleryUrl)).status, 404);
   assert.equal((await request(url)).status, 404);
   assert.equal((await request(replacementUrl)).status, 200);
@@ -506,13 +507,13 @@ test('la rédaction contrôle les fichiers et la visibilité des photos au fil d
     .bind(JSON.stringify(legacyPhoto), JSON.stringify(legacyGallery), id).run();
   assert.equal((await request(url)).status, 200);
   const textCorrection = await edit({ ...initial, id, title: 'Texte corrigé', action: 'review' });
-  const kept = await edit({ id, version: textCorrection.version, action: 'publish' });
+  const kept = await edit({ id, version: textCorrection.version, adReview:reviewedAds, action:'publish' });
   assert.deepEqual(kept.photo, legacyPhoto);
   assert.deepEqual(kept.gallery, legacyGallery);
   const captioned = await edit({ ...initial, id, photo, gallery: [replacement], action: 'review' });
-  await edit({ id, version: captioned.version, action: 'publish' });
+  await edit({ id, version: captioned.version, adReview:reviewedAds, action:'publish' });
   const erased = await edit({ ...initial, id, photo: legacyPhoto, action: 'review' });
-  const refused = await request('/api/newsroom', editor, { id, version: erased.version, action: 'publish' });
+  const refused = await request('/api/newsroom', editor, { id, version: erased.version, adReview:reviewedAds, action:'publish' });
   assert.equal(refused.status, 422);
   assert.deepEqual(await publicPhoto(), photo);
 });
@@ -536,9 +537,9 @@ test('la une peut être épinglée puis rendue à la publication automatique', a
   assert.deepEqual(await json(leadPath, { email: editor }), { articleId: null, title: null });
   const first = await edit({ ...initial, title: 'Article régional', action: 'review' });
   assert.equal((await setLead(first.id)).status, 422);
-  await edit({ id: first.id, version: first.version, action: 'publish' });
+  await edit({ id: first.id, version: first.version, adReview:reviewedAds, action:'publish' });
   const second = await edit({ ...initial, title: 'Article national', action: 'review' });
-  await edit({ id: second.id, version: second.version, action: 'publish' });
+  await edit({ id: second.id, version: second.version, adReview:reviewedAds, action:'publish' });
   await db.prepare('UPDATE articles SET published_at = ? WHERE id = ?').bind('2024-01-01T00:00:00.000Z', first.id).run();
   const home = async () => (await request('/')).text();
   const isFirst = async (a, b) => {
@@ -588,6 +589,50 @@ test('une connexion éditeur revient sur le domaine Noventra et expire après sa
   assert.match(await (await send(custom+'/admin',{headers:{cookie}})).text(), /Tableau de bord/);
   assert.equal((await send(custom+'/api/editor-session/logout',{method:'POST',headers:{origin:custom, cookie}})).status,303);
   assert.equal((await send(custom+'/api/newsroom',{headers:{cookie}})).status,403);
+});
+
+test('la vérification publicitaire est obligatoire et le retrait immédiat reste indépendant des corrections', async t => {
+  const {db, mf, json} = await createNewsroom(t);
+  await db.prepare("INSERT INTO adsense_settings (id,enabled,client,version) VALUES (1,1,'ca-pub-1234567890123456',1)").run();
+  const edit = (data, expected=200) => json('/api/newsroom', {email:editor, data, expected});
+  const submission = await edit({...initial, action:'review'});
+  const publish = {action:'publish', id:submission.id, version:submission.version};
+  const off = {decision:'off', checks:{rights:true, safety:false, accuracy:true}, reason:'Choix éditorial'};
+  await edit(publish, 422);
+  await edit({...publish, adReview:{...reviewedAds, checks:off.checks}}, 422);
+  await edit({...publish, adReview:{...off, reason:' '}}, 422);
+  await edit({...publish, action:'ad-policy', adReview:off}, 422);
+  const live = await edit({...publish, adReview:reviewedAds});
+  assert.equal(live.adReview.decision,'allow');
+  assert.ok(live.adReview.actor);
+  assert.equal((await json('/api/newsroom?article='+live.slug, {email:editor})).article.id, live.id);
+  assert.equal((await json('/api/newsroom?article='+live.id, {email:editor})).article.slug, live.slug);
+  await json('/api/newsroom?article=inexistant', {email:editor, expected:404});
+  const page = async lang => (await mf.dispatchFetch(publicOrigin+'/article/'+live.slug+'?lang='+lang)).text();
+  const ads = /<aside\b[^>]*data-ad-slot=|<script\b[^>]*src="https:\/\/pagead2\.googlesyndication\.com/;
+  assert.match(await page('fr'),ads);
+  const draft = await edit({...initial,id:live.id, version:live.version, action:'save', title:'Manchette de travail', adReview:off});
+  assert.equal(draft.adReview.decision,'allow');
+  const policy = {id:live.id, version:draft.version, action:'ad-policy', adReview:off};
+  const paused = await edit(policy);
+  assert.equal(paused.adReview.reason,off.reason);
+  assert.equal(paused.title, 'Manchette de travail');
+  assert.equal(paused.status,'draft');
+  const audit = await db.prepare("SELECT snapshot FROM revisions WHERE article_id=? AND action='ad-policy'").bind(live.id).first();
+  assert.equal(JSON.parse(audit.snapshot).appliedAdReview.reason,off.reason);
+  for (const lang of ['fr','en','ar']) {
+    const reader = await page(lang);
+    assert.doesNotMatch(reader,ads);
+    assert.ok(!reader.includes('Manchette de travail') && !reader.includes(off.reason));
+  }
+  await edit({...policy, adReview:reviewedAds},409);
+  const resumed = await edit({...policy, version:paused.version, adReview:reviewedAds});
+  assert.match(await page('fr'), ads);
+  assert.equal(resumed.status,'draft');
+  const reviewed = await edit({...initial, title:'Correction publiée sans annonces', id:live.id,version:resumed.version,action:'review'});
+  await edit({...publish, version:reviewed.version},422);
+  await edit({...publish, version:reviewed.version,adReview:off});
+  assert.doesNotMatch(await page('fr'),ads);
 });
 
 test('les responsables configurent les espaces publicitaires sans écraser une campagne concurrente', async t => {
@@ -837,6 +882,20 @@ test('la rédaction consulte les comptes et applique immédiatement suspension, 
   }
 });
 
+test('la page Clerk conserve la langue et le retour à l’article dans les deux parcours', async t => {
+  const {mf} = await createNewsroom(t);
+  for (const [mode, lang, dir, title] of [['connexion','en','ltr','Sign in'], ['inscription','ar','rtl','إنشاء حساب']]) {
+    const target = '/article/notre-methode?lang=' + lang;
+    const query = new URLSearchParams({mode, lang, return_to:target});
+    const account = await mf.dispatchFetch(publicOrigin + '/compte?' + query);
+    assert.equal(account.status, 200);
+    const page = await account.text();
+    assert.ok(page.includes('<html lang="' + lang + '" dir="' + dir + '"'));
+    assert.ok(page.includes('<title>' + title));
+    assert.ok(page.includes('href="' + target + '"'));
+  }
+});
+
 test('la connexion lecteur vérifie la session Clerk et enregistre les accès BYRVOX', async t => {
   const issuer = 'https://clerk.byrvox.today';
   const credential = 'sk_live_fixture';
@@ -983,7 +1042,9 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
   const reviewed = await edit({id:row.id,action:'review',version:0,title:'Correction de la rédaction',
     summary:story.summary,category:story.category,body:story.body,sources:story.sources,photo});
   assert.equal((await post(1)).status,'recorded');
-  const corrected = await edit({id:row.id,action:'publish',version:reviewed.version});
+  const wirePolicy = await db.prepare('SELECT ad_review FROM articles WHERE id=?').bind(row.id).first();
+  assert.equal(JSON.parse(wirePolicy.ad_review).decision, 'off');
+  const corrected = await edit({id:row.id,adReview:reviewedAds, action:'publish',version:reviewed.version});
   assert.equal(corrected.title,'Correction de la rédaction');
   assert.equal(corrected.photo.licenseUrl,story.photo.licenseUrl);
   assert.equal((await post(1)).status,'recorded');
@@ -1214,18 +1275,19 @@ test('les invitations séparent la contribution, l’approbation et la gestion d
   assert.deepEqual((await dashboard(approver)).reviewQueue.map(article => article.id),[draft.id]);
   assert.deepEqual(await json('/api/articles'), []);
   assert.equal((await request(url)).status, 404);
-  for (const action of ['publish','return','restore','save']) {
+  for (const action of ['publish','return','restore','save','ad-policy']) {
     refused(await request(newsroom, contributor, {...initial, id:draft.id, version:review.version, action}));
   }
   const returned = await write(approver, {id:draft.id, version:review.version, action:'return'});
   assert.equal(returned.status,'draft');
   const again = await write(contributor, {...initial, photo, title:'Version corrigée après relecture',
     id:draft.id, version:returned.version, action:'review'});
-  const live = await write(approver, {id:draft.id, version:again.version, action:'publish'});
+  const live = await write(approver, {id:draft.id, version:again.version, adReview:reviewedAds, action:'publish'});
   assert.equal(live.status,'published');
   assert.deepEqual((await dashboard(approver)).reviewQueue,[]);
   assert.equal((await json('/api/articles'))[0].title, again.title);
   refused(await request(newsroom, contributor, {...initial, id:draft.id, version:live.version, action:'save'}));
+  refused(await request(newsroom, contributor, {action:'ad-policy', id:live.id,version:live.version,adReview:reviewedAds}));
   assert.equal((await request(url)).status, 200);
 
   // Changing and revoking a role must affect the session already issued on the custom domain.
@@ -1374,4 +1436,29 @@ test('AdSense se charge une seule fois dans la tête des pages éditoriales et s
   assert.doesNotMatch(disabled, /<ins\b[^>]*class="adsbygoogle"/);
   assert.doesNotMatch(disabled, /data-ad-slot="home"/);
   assert.match(await html(publicOrigin + '/?rubrique=radio'), /<iframe\b[^>]*src="https:\/\/example\.org\/affiche"/);
+});
+
+test('la rédaction publie ensemble la version française et les six traductions de la version vérifiée', async t => {
+  const {db,mf,json}=await createNewsroom(t);
+  const edit=(data,expected=200)=>json('/api/newsroom',{email:editor,data,expected});
+  const item=await edit({...initial,action:'review'});
+  const action={id:item.id,version:item.version,action:'publish',adReview:reviewedAds};
+  const locales=['en','es','ar','zh-CN','ru','ko'];
+  const translations=Object.fromEntries(locales.map(locale=>[locale,{
+    title:'Titre traduit '+locale, summary:'Résumé traduit '+locale, body:'Corps traduit '+locale,
+  }]));
+  const source={title:item.title,summary:item.summary,body:item.body,photo:null};
+  await edit({...action,translations:{source:{...source,body:'Texte obsolète.'},translations}},422);
+  const count=()=>db.prepare('SELECT COUNT(*) AS n FROM article_translations WHERE slug=?').bind(item.slug).first('n');
+  assert.equal(await count(),0);
+  const live=await edit({...action,translations:{source,translations}});
+  assert.equal(live.status,'published');
+  assert.equal(await count(),6);
+  for(const lang of locales) {
+    const page=await (await mf.dispatchFetch(publicOrigin+'/article/'+item.slug+'?lang='+lang)).text();
+    assert.ok(page.includes('Titre traduit '+lang));
+    assert.ok(page.includes('Corps traduit '+lang));
+  }
+  await edit({...action,translations:{source,translations}},409);
+  assert.equal(await count(),6);
 });

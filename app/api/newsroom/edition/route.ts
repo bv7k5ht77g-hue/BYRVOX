@@ -34,7 +34,7 @@ async function importEdition(source: ReviewEditionSource, actor: string): Promis
     const statements = await Promise.all(edition.articles.map(async item => {
       const id = await articleId(edition.id, item.slug);
       const row: typeof articles.$inferSelect = {
-        ...item, id, sources: JSON.stringify(item.sources), status: 'review', publishedAt: null,
+        ...item, id, sources: JSON.stringify(item.sources), status: 'review', publishedAt: null, adReview: null,
         createdAt: edition.createdAt, updatedAt: now, authorId: 'byrvox-redaction-assistee', photo: null, photoHidden: false, gallery: [], draft: null, version: 0,
       };
       // SQLite changes() reflects the immediately preceding insert on this batch's connection.

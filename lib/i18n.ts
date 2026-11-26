@@ -60,7 +60,9 @@ const categoryRows: Row[] = [
 ];
 export function sectionLabel(section: Section, locale: PublicLocale) { return sectionRows[section][publicLocales.indexOf(locale)]; }
 export function categoryLabel(category: string, locale: PublicLocale) {
- return categoryRows.find(row => row[0].toLocaleLowerCase('fr') === category.toLocaleLowerCase('fr'))?.[publicLocales.indexOf(locale)] || category;
+ const name = category.toLocaleLowerCase('fr');
+ const lookup = name === 'technologie' ? 'technologies' : name;
+ return categoryRows.find(row => row[0].toLocaleLowerCase('fr') === lookup)?.[publicLocales.indexOf(locale)] || category;
 }
 export const localeLabels: Record<PublicLocale, {language:string;sourceFallback:string;translate:string}> = {
  fr:{language:'Langue de lecture',sourceFallback:'Version française originale',translate:'Traduire la page avec Google'},

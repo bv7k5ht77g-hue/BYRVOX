@@ -29,19 +29,19 @@ import '../reader.css';
 
 export const dynamic = 'force-dynamic';
 type ArticleProps = { params: Promise<{ slug: string }>; searchParams: Promise<Record<string,string | string[] | undefined>> };
-type ReaderArticle = { story: Story; isFeature: boolean; isWire: boolean; photo: CoverPhoto | null; gallery: ArticlePhoto[] };
+type ReaderArticle = { adsEnabled: boolean; story: Story; isFeature: boolean; isWire: boolean; photo: CoverPhoto | null; gallery: ArticlePhoto[] };
 
 const getArticle = cache(async (slug: string): Promise<ReaderArticle | null> => {
   const feature = features.find(article => article.slug === slug);
-  if (feature) return { story: feature, isFeature: true, isWire:false, photo:null, gallery:[] };
+  if (feature) return { adsEnabled:true, story: feature, isFeature: true, isWire:false, photo:null, gallery:[] };
   const [row] = await getDb().select({
-    slug:articles.slug, title:articles.title, category:articles.category, summary:articles.summary, authorId:articles.authorId,
+    adReview:articles.adReview, slug:articles.slug, title:articles.title, category:articles.category, summary:articles.summary, authorId:articles.authorId,
     photo:articles.photo, photoHidden:articles.photoHidden, gallery:articles.gallery,
     body:articles.body, sources:articles.sources, publishedAt:articles.publishedAt, updatedAt:articles.updatedAt,
   }).from(articles).where(and(eq(articles.slug,slug),eq(articles.status,'published'))).limit(1);
   if (!row) return null;
-  const {photo, photoHidden, gallery, authorId, ...story} = row;
-  return {story, isFeature:false, isWire:authorId === 'byrvox-agent-horaire' || authorId === 'byrvox-agent-thematique', photo:resolveCover(slug,photo,photoHidden), gallery:gallery || []};
+  const {photo, photoHidden, gallery, authorId, adReview, ...story} = row;
+  return {adsEnabled:adReview === null || adReview.decision === 'allow', story, isFeature:false, isWire:authorId === 'byrvox-agent-horaire' || authorId === 'byrvox-agent-thematique', photo:resolveCover(slug,photo,photoHidden), gallery:gallery || []};
 });
 const localizedArticle = cache(async (slug:string, locale:PublicLocale) => {
   const article = await getArticle(slug);
@@ -102,7 +102,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
     publisher:{'@type':'Organization',name:'BYRVOX'}, datePublished:published || undefined, dateModified:updated || undefined,
     citation:sources.length ? sources.map(s=>s.url) : undefined,
   };
-  return <PublicEditionProvider locale={locale}>
+  return <PublicEditionProvider locale={locale} adsEnabled={record.adsEnabled}>
     <a className="skip" href="#lecture">{copy.skip}</a>
     <ArticleNavigation currentUrl={localizedHref('/article/'+encodeURIComponent(slug),locale)}>
     <main id="lecture" tabIndex={-1}>

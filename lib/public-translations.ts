@@ -1,7 +1,7 @@
-import { and, eq, inArray } from 'drizzle-orm';
+import { and, eq, inArray, sql } from 'drizzle-orm';
 import { cache } from 'react';
 import { getDb } from '../db';
-import { articleTranslations } from '../db/schema';
+import { articles, articleTranslations } from '../db/schema';
 import { runtime } from './access';
 import { nativeNames, publicLocales, type PublicLocale } from './i18n';
 import { fold, type Summary } from './edition';
@@ -27,24 +27,39 @@ function validCopy(value:unknown):value is Copy {
   return ['title','summary','body'].every(k=>typeof v[k]==='string' && v[k].trim()) &&
     String(v.title).length<=600 && String(v.summary).length<=6500 && String(v.body).length<=100000;
 }
-export async function storeStoryTranslations(story:Source,translations?:TranslationMap) {
-  if (!translations) return;
+async function translationRows(story:Source, translations:TranslationMap) {
   const sourceHash=await hashOf(story);
-  const db=getDb();
-  const rows = publicLocales.flatMap(locale=>{
+  return publicLocales.flatMap(locale=>{
     if(locale==='fr') return [];
     const copy=translations[locale];
     if(!validCopy(copy)) return [];
     const photo = story.photo && copy.photoAlt?.trim() && copy.photoCaption?.trim()
       ? {sourceUrl:story.photo.url,sourceAlt:story.photo.alt,sourceCaption:story.photo.caption,
-        alt:copy.photoAlt.trim(),caption:copy.photoCaption.trim()} : undefined;
-    const values={...(photo ? {photo} : {}),slug:story.slug,locale,sourceTitle:story.title,sourceSummary:story.summary,sourceHash,
-      title:copy.title,summary:copy.summary,body:copy.body};
-    return [db.insert(articleTranslations).values(values).onConflictDoUpdate({
-      target:[articleTranslations.slug,articleTranslations.locale],set:values
-    })];
+        alt:copy.photoAlt.trim(),caption:copy.photoCaption.trim()} : null;
+    return [{photo,slug:story.slug,locale,sourceTitle:story.title,sourceSummary:story.summary,sourceHash,
+      title:copy.title,summary:copy.summary,body:copy.body}];
   });
-  if(rows.length) await db.batch([rows[0],...rows.slice(1)]);
+}
+export async function storeStoryTranslations(story:Source,translations?:TranslationMap) {
+  if (!translations) return;
+  const db=getDb(), values=await translationRows(story,translations);
+  const writes=values.map(row=>db.insert(articleTranslations).values(row).onConflictDoUpdate({
+    target:[articleTranslations.slug,articleTranslations.locale],set:{...row,photo:row.photo??undefined},
+  }));
+  if(writes.length) await db.batch([writes[0],...writes.slice(1)]);
+}
+
+// Each insert is guarded by the same version check as the article update in the caller's transaction.
+export async function manualTranslationWrites(story:Source,translations:TranslationMap,id:string,version:number) {
+  const db=getDb(), values=await translationRows(story,translations);
+  return values.map(row=>db.insert(articleTranslations).select(db.select({
+    slug:articles.slug, locale:sql<string>`${row.locale}`.as('locale'),
+    sourceTitle:sql<string>`${row.sourceTitle}`.as('source_title'),sourceSummary:sql<string>`${row.sourceSummary}`.as('source_summary'),
+    sourceHash:sql<string>`${row.sourceHash}`.as('source_hash'),title:sql<string>`${row.title}`.as('title'),
+    photo:sql<typeof row.photo>`${row.photo?JSON.stringify(row.photo):null}`.as('photo'),
+    summary:sql<string>`${row.summary}`.as('summary'), body:sql<string>`${row.body}`.as('body'),
+  }).from(articles).where(and(eq(articles.id,id),eq(articles.version,version))))
+    .onConflictDoUpdate({target:[articleTranslations.slug,articleTranslations.locale],set:row}));
 }
 export async function matchingSeedSummaries(words:string[], locale:ForeignLocale) {
   const seed = (await packs[locale]()).default;

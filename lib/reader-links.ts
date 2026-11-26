@@ -15,7 +15,7 @@ export function readerReturnPath(value: unknown) {
 export function readerAccountUrl(mode: ReaderMode, returnTo: string, lang: PublicLocale) {
   const url = new URL('/compte', NEW_SITE_ORIGIN);
   url.searchParams.set('mode', mode);
-  if (lang !== 'fr') url.searchParams.set('lang', lang);
+  url.searchParams.set('lang', lang);
   url.searchParams.set('return_to', readerReturnPath(returnTo));
   return url.href;
 }
@@ -40,6 +40,7 @@ const copy = {
   sortie: ['Se déconnecter','Sign out','Cerrar sesión','تسجيل الخروج','退出登录','Выйти','로그아웃'],
   back: ['Retour à BYRVOX','Back to BYRVOX','Volver a BYRVOX','العودة إلى BYRVOX','返回 BYRVOX','Вернуться на BYRVOX','BYRVOX로 돌아가기'],
   unavailable: ['La connexion et la création de compte sont temporairement indisponibles.','Sign-in and registration are temporarily unavailable.','El acceso y el registro no están disponibles temporalmente.','تسجيل الدخول وإنشاء الحساب غير متاحين مؤقتًا.','暂时无法登录或注册。','Вход и регистрация временно недоступны.','현재 로그인과 가입을 이용할 수 없습니다.'],
+  serviceError: ['Le formulaire de connexion est temporairement indisponible.', 'The sign-in form is temporarily unavailable.', 'El formulario de acceso no está disponible temporalmente.', 'نموذج تسجيل الدخول غير متاح مؤقتًا.', '登录表单暂时不可用。', 'Форма входа временно недоступна.', '로그인 양식을 일시적으로 이용할 수 없습니다.'],
   retry: ['Réessayer','Try again','Reintentar','إعادة المحاولة','重试','Попробовать снова','다시 시도'],
   suspended: ['Votre compte est suspendu.','Your account is suspended.','Tu cuenta está suspendida.','حسابك معلّق.','您的账户已被暂停。','Ваш аккаунт приостановлен.','계정 이용이 정지되었습니다.'],
   banned: ['Votre compte a été banni.','Your account has been banned.','Tu cuenta ha sido vetada.','تم حظر حسابك.','您的账户已被封禁。','Ваш аккаунт заблокирован.','계정 이용이 차단되었습니다.'],

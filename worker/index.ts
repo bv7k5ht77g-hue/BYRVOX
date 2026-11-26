@@ -25,10 +25,11 @@ const worker = {
       request = new Request(request, { headers });
     }
     // Forward the public edition's resolved language to the root document during SSR.
-    if (url.pathname === "/" || url.pathname.startsWith("/article/") || request.headers.has("x-byrvox-language")) {
+    const publicDocument = url.pathname === "/" || url.pathname.startsWith("/article/") || url.pathname === "/compte";
+    if (publicDocument || request.headers.has("x-byrvox-language")) {
       const headers = new Headers(request.headers);
       headers.delete("x-byrvox-language");
-      if (url.pathname === "/" || url.pathname.startsWith("/article/")) {
+      if (publicDocument) {
         const cookie = request.headers.get("cookie")?.match(/(?:^|;\s*)byrvox-language=([^;]*)/)?.[1];
         headers.set("x-byrvox-language", preferredLocale(url.searchParams.get("lang"),cookie));
       }

@@ -1,6 +1,6 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.10.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.today)
+Version 0.11.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.today)
 
 Média numérique publié en français, anglais, espagnol, arabe, chinois simplifié, russe et coréen. Le site utilise Next/React sur Vinext, Cloudflare Workers, D1 et R2.
 
@@ -22,11 +22,15 @@ Depuis [le portail](https://byrvox.noventra.ca/admin), choisir **Se connecter à
 
 La connexion et l’inscription des lecteurs passent par la [page de compte BYRVOX](https://byrvox.today/compte). Pour activer Clerk, associer une instance de production à `byrvox.today`, valider les enregistrements DNS indiqués par Clerk, activer le courriel vérifié et les champs de prénom et de nom dans cette instance. Configurer `CLERK_PUBLISHABLE_KEY` et le secret serveur `CLERK_SECRET_KEY` dans les variables du site puis publier la version avec cette configuration. [Guide de production de Clerk](https://clerk.com/docs/guides/development/deployment/production).
 
+La page compte monte les formulaires officiels de connexion et d’inscription de Clerk dans la langue du lecteur. Les options proposées suivent les méthodes activées dans l’instance de production. Après vérification de la session, BYRVOX ramène le lecteur à l’article ouvert.
+
 Le lien de récupération des anciens favoris permet aux lecteurs qui avaient déjà sauvegardé leurs préférences avec ChatGPT de retrouver ces données avec leur compte d’origine.
 
 Dans **Portail éditeur → Lecteurs**, les propriétaires et approbateurs peuvent retrouver un compte par nom ou courriel, consulter sa fiche, le suspendre, le bannir ou rétablir son accès. La fiche affiche les coordonnées fournies par le compte et, lorsqu’elles sont disponibles, la dernière adresse IP et la localisation approximative communiquées par l’hébergeur. L’historique conserve les 100 événements les plus récents par lecteur, y compris les changements de statut. Les mesures de modération s’appliquent au compte, et la presse publique reste accessible en lecture anonyme.
 
 ## Espaces publicitaires
+
+Avant la publication manuelle, un propriétaire ou un approbateur examine le texte, les images et les liens puis consigne sa décision publicitaire. Il peut publier sans annonces et modifier ensuite la diffusion sur cet article depuis le portail. Ce réglage vaut pour les sept langues et couvre les bannières, les intégrations tierces et Google AdSense. Les nouvelles publications automatiques sont diffusées sans annonces en attendant cet examen.
 
 Dans **Portail éditeur → Espaces publicitaires**, les propriétaires et les approbateurs gèrent les huit emplacements du site. Chaque emplacement peut signaler sa disponibilité, diffuser une campagne ou être masqué. Pour une campagne, renseigner le nom de l’annonceur et son lien HTTPS. Une bannière facultative peut être téléversée (JPEG, PNG ou WebP, 8 Mio maximum) ou fournie par URL. Une bannière nécessite un texte alternatif. Les changements enregistrés s’appliquent aux pages publiques lors de leur prochain chargement.
 

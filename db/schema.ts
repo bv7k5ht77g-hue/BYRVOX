@@ -1,4 +1,5 @@
 import { AD_MODES, PLACEMENTS } from "../lib/ad-placements";
+import type { ArticleAdReview } from '../lib/article-ad-policy';
 import type { ArticlePhoto } from '../lib/article-photo';
 import { index, integer, primaryKey, sqliteTable, text } from 'drizzle-orm/sqlite-core';
 
@@ -19,6 +20,7 @@ export const articles = sqliteTable('articles', {
   photo: text('photo', { mode: 'json' }).$type<ArticlePhoto>(),
   gallery: text('gallery', { mode: 'json' }).$type<ArticlePhoto[]>().notNull().default([]),
   photoHidden: integer('photo_hidden', { mode: 'boolean' }).notNull().default(false),
+  adReview: text('ad_review', { mode: 'json' }).$type<ArticleAdReview>(),
   draft: text('draft'),
   version: integer('version').notNull().default(0),
 }, (table) => [

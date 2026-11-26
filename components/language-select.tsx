@@ -1,6 +1,6 @@
 'use client';
 import { createContext, useContext, useEffect, type ReactNode } from 'react';
-import { Languages } from 'lucide-react';
+import { ChevronDown, Languages } from 'lucide-react';
 import { isPublicLocale, nativeNames, localeLabels, localizedHref, publicLocales, type PublicLocale } from '../lib/i18n';
 
 const shortName = (code: PublicLocale) => code.split('-')[0].toUpperCase();
@@ -22,10 +22,11 @@ export function LanguageSelect({locale: explicit}:{locale?:PublicLocale} = {}) {
     document.cookie = 'byrvox-language='+value+'; Path=/; Max-Age=31536000; SameSite=Lax'+(location.protocol==='https:'?'; Secure':'');
     location.assign(localizedHref(location.pathname+location.search+location.hash,value));
   }
-  return <label className="byrvox-language" data-short={shortName(locale)} title={nativeNames[locale]}>
+  return <label className="byrvox-language" dir={locale === 'ar' ? 'rtl' : 'ltr'} title={nativeNames[locale]}>
     <Languages size={17} aria-hidden="true" />
-    <select dir="ltr" aria-label={localeLabels[locale].language} value={locale} onChange={e=>change(e.target.value)}>
+    <select aria-label={localeLabels[locale].language} value={locale} onChange={e=>change(e.target.value)}>
       {publicLocales.map(code=><option key={code} value={code} aria-label={nativeNames[code]}>{shortName(code)}</option>)}
     </select>
+    <ChevronDown className="byrvox-language-chevron" size={13} aria-hidden="true" />
   </label>;
 }
