@@ -3,6 +3,7 @@ import { and, eq, exists, or, sql } from 'drizzle-orm';
 import { getDb } from '../../db';
 import { articles, articleTranslations, revisions, runs } from '../../db/schema';
 import { unreviewedWireAds } from '../article-ad-policy';
+import { publicLocales } from '../i18n';
 import { boundedBytes } from '../input';
 import { publicStoryCategory } from '../story-topics';
 import { photoByteLimit, photoFormat, photoRoute, photoTypes, type ArticlePhoto } from '../article-photo';
@@ -59,14 +60,17 @@ async function storePhoto(url: string) {
 
 async function wirePhoto(story: WireStory, hour: string): Promise<ArticlePhoto> {
   const url = await storePhoto(imageAddress(story.photo.download,hour)!);
-  const {alt,caption,credit,sourceUrl,license,licenseUrl} = story.photo;
-  return {url,alt,caption,credit,sourceUrl,license,licenseUrl};
+  const {alt,caption,credit,sourceUrl,license,licenseUrl,blueskyPost,blueskyCaption} = story.photo;
+  return {url,alt,caption,credit,sourceUrl,license,licenseUrl,
+    ...(blueskyPost && {blueskyPost}), ...(blueskyCaption && {blueskyCaption})};
 }
 
 // The newsroom manifest identifies the exact published image and its original metadata.
 function photoHash(photo: ArticlePhoto) {
   return hash(new TextEncoder().encode(JSON.stringify([
     photo.url, photo.alt, photo.caption, photo.credit, photo.sourceUrl, photo.license, photo.licenseUrl,
+    ...(photo.blueskyPost ? [photo.blueskyPost] : []),
+    ...(photo.blueskyCaption ? [publicLocales.map(locale=>photo.blueskyCaption?.[locale] ?? null)] : []),
   ])));
 }
 

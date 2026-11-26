@@ -1077,7 +1077,7 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
       photoCaption:'The square where the meeting took place.'}},
     verified:true,sources:[{name:'Organisme régional',url:'https://alpha.example/evenement',publishedAt:date},
       {name:'Journal local indépendant',url:'https://beta.example/enquete',publishedAt:date}],
-    photo:{subject:'place du quartier',download:'media/scene.webp',sourceUrl:'https://photo.example/scene',credit:'Photographe',
+    photo:{subject:'place du quartier',context:'quartier',capturedOn:date.slice(0,10),download:'media/scene.webp',sourceUrl:'https://photo.example/scene',credit:'Photographe',
       license:'CC BY 4.0',licenseUrl:'https://creativecommons.org/licenses/by/4.0/',alt:'Une vue du quartier concerné.',
       caption:'Cette photographie montre la place du quartier où se tient la rencontre.'}
   };
@@ -1159,8 +1159,10 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
   const publishedHash = createHash('sha256').update(JSON.stringify(keys.map(key=>photo[key]))).digest('hex');
   const translated = {...story.translations.en, title:'Titre de manifeste à ignorer',photoAlt:'A closer view of the square.',
     photoCaption:'Archive photo of the town square.'};
+  const officialPost = 'https://bsky.app/profile/did:plc:zi55hvfbtohpdx7y35viqqma/post/3n33hzavdwk2e';
+  const postCaption = {en:'A photograph from the event.',fr:'Une photographie de la rencontre.'};
   all[0] = {...story,photo:{...story.photo,alt:'Vue rapprochée de la place du quartier.',caption:'Photographie d’archives de la place du quartier.',
-    replacesPublishedHash:'0'.repeat(64)},translations:{en:translated}};
+    blueskyPost:officialPost,blueskyCaption:postCaption,replacesPublishedHash:'0'.repeat(64)},translations:{en:translated}};
   await correctPhoto(409);
   all[0].photo.replacesPublishedHash = publishedHash;
   assert.equal((await correctPhoto()).status,'photo_corrected');
@@ -1175,6 +1177,21 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
   assert.equal(audit.length,1);
   assert.equal(JSON.parse(audit[0].snapshot).photo.alt,photo.alt);
   assert.ok((await articlePage('fr')).includes(all[0].photo.caption));
+  const storedPhoto = JSON.parse((await db.prepare('SELECT photo FROM articles WHERE id=?').bind(row.id).first()).photo);
+  assert.equal(storedPhoto.blueskyPost,officialPost);
+  const review = await edit({id:row.id,action:'review',version:after.version,title:corrected.title,summary:story.summary,
+    category:story.category,body:story.body,sources:story.sources,photo:storedPhoto});
+  const updated = await edit({id:row.id,action:'publish',version:review.version,adReview:reviewedAds});
+  assert.equal(updated.photo.blueskyPost,officialPost);
+  assert.deepEqual(updated.photo.blueskyCaption,postCaption);
+  delete all[0].photo.blueskyPost;
+  delete all[0].photo.blueskyCaption;
+  await correctPhoto(409);
+  const withPost = [...keys,'blueskyPost'].map(key=>storedPhoto[key]);
+  withPost.push([postCaption.fr,postCaption.en,null,null,null,null,null]);
+  all[0].photo.replacesPublishedHash = createHash('sha256').update(JSON.stringify(withPost)).digest('hex');
+  assert.equal((await correctPhoto()).status,'photo_corrected');
+  assert.equal((await correctPhoto()).status,'recorded');
   assert.ok(seen.every(url=>url.startsWith(base)));
 });
 
@@ -1193,7 +1210,8 @@ test('les éditions thématique et horaire de la même heure ont leurs propres l
         name, url: 'https://' + name + '.example/' + eventKey, publishedAt,
       })),
       photo: {
-        subject: 'Massif central', download: 'media/etude.webp', sourceUrl: 'https://photo.example/etude',
+        subject: 'Massif central', context: 'Massif central', capturedOn: publishedAt.slice(0,10),
+        download: 'media/etude.webp', sourceUrl: 'https://photo.example/etude',
         credit: 'Service photographique', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
         alt: 'Le bâtiment où se déroule l’étude.', caption: 'Le bâtiment de recherche dans le Massif central.',
       },
@@ -1706,11 +1724,18 @@ test('les rubriques regroupent les sous-rubriques et le classement compte les vo
   const extra = Array.from({length:7}, (_,i) => 'commerce-'+i);
   await db.batch(extra.map(slug=>insert.bind(slug,slug,'Article '+slug,'Commerce international','Résumé','Corps','published',now,now,now)));
   await db.batch(extra.map(slug=>rating.bind(slug,'r1',5,now)));
+  await db.prepare("UPDATE articles SET published_at = '2018-01-01' WHERE slug = 'trade'").run();
   const updatedHome=await html('/');
   const updatedNews=await html('/?rubrique=actualites');
-  const ratingItems=page=>page.match(/aria-labelledby="most-rated-heading"[^>]*>([\s\S]*?)<\/section>/)[1].match(/<li>/g).length;
-  assert.equal(ratingItems(updatedHome),5);
-  assert.equal(ratingItems(updatedNews),5);
+  const ratingSlugs = page => [...page.match(/aria-labelledby="most-rated-heading"[^>]*>([\s\S]*?)<\/section>/)[1]
+    .matchAll(/href="\/article\/([^"]+)"/g)].map(match=>match[1]);
+  const topFive = ['trade','business','commerce-0','commerce-1','commerce-2'];
+  assert.deepEqual(ratingSlugs(updatedHome),topFive);
+  assert.deepEqual(ratingSlugs(updatedNews),topFive);
+  await rating.bind('commerce-6','r2',3,now).run();
+  assert.deepEqual(ratingSlugs(await html('/')),['commerce-6',...topFive.slice(0,4)]);
+  await db.prepare("UPDATE article_ratings SET score = 1 WHERE slug = 'commerce-6' AND user_id = 'r2'").run();
+  assert.deepEqual(ratingSlugs(await html('/?rubrique=actualites')),['trade','commerce-6',...topFive.slice(1,4)]);
   const economySelection=page=>[...page.matchAll(/<section class="by-topic-rail"[^>]*>([\s\S]*?)<\/section>/g)]
     .map(item=>item[1]).find(rail=>rail.includes('>Commerce international</button>'));
   const categoryPage = await html('/?rubrique=actualites&categorie=%C3%89conomie');

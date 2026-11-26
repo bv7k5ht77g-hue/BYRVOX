@@ -1,9 +1,10 @@
 'use client';
 import { ArrowLeft, ArrowRight, Pause, Play } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { articleHref } from '../../lib/edition';
 import { categoryLabel, localizedHref, publicLocales, sectionLabel, type PublicLocale } from '../../lib/i18n';
 import type { NewsSlide } from '../../lib/news-leaders';
+import { categoryColor, Mark } from './category-mark';
 import { CoverFigure } from './cover-figure';
 import { leaderLabel } from './rankings';
 import { sectionText } from './section-copy';
@@ -64,9 +65,9 @@ export function NewsLeaders({ slides, lang }: { slides: NewsSlide[]; lang: Publi
       </div>}
     </div>
     <div className="by-leaders-slide" aria-live={playing ? 'off' : 'polite'} aria-atomic="true">
-      <div className="by-leaders-copy">
+      <div className="by-leaders-copy" style={{ '--desk-color': categoryColor(story.category) } as CSSProperties}>
         <div className="by-leaders-labels">{labels.map(label => <span key={label}>{leaderLabel(label, lang)}</span>)}</div>
-        <p className="by-leaders-category">{categoryLabel(story.category, lang)}</p>
+        <p className="by-leaders-category"><Mark category={story.category} label={categoryLabel(story.category, lang)}/></p>
         <h2><a href={href}>{story.title}</a></h2>
         <p className="by-leaders-summary">{story.summary}</p>
         <a href={href} className="by-leaders-read">{sectionText(lang,'read')} <ArrowRight size={17} aria-hidden="true"/></a>

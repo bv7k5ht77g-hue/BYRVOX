@@ -1,4 +1,5 @@
 import type { ArticlePhoto } from './article-photo';
+import { validBlueskyPost } from './editorial.mjs';
 import collectionA from './editorial-photos-a.json';
 import collectionB from './editorial-photos-b.json';
 
@@ -14,9 +15,10 @@ export function catalogCover(slug: string): CoverPhoto | null {
   return { url: src, thumbnailUrl, alt, caption, credit, sourceUrl, license, licenseUrl };
 }
 
-export function resolveCover(slug: string, photo: ArticlePhoto | null, hidden = false): CoverPhoto | null {
+export function resolveCover(slug: string, photo: ArticlePhoto | null, hidden = false, includePost = false): CoverPhoto | null {
   if (hidden) return null;
   if (!photo) return catalogCover(slug);
   const { url, alt, caption, credit, sourceUrl, license, licenseUrl } = photo;
-  return { url, alt, caption, credit, ...(sourceUrl ? { sourceUrl } : {}), ...(license ? { license, licenseUrl } : {}) };
+  return { url, alt, caption, credit, ...(sourceUrl ? { sourceUrl } : {}), ...(license ? { license, licenseUrl } : {}),
+    ...(includePost && validBlueskyPost(photo.blueskyPost) ? {blueskyPost:photo.blueskyPost, blueskyCaption:photo.blueskyCaption} : {}) };
 }

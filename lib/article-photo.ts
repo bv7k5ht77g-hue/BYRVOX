@@ -1,3 +1,5 @@
+import type { PublicLocale } from './i18n';
+
 export type ArticlePhoto = {
   url: string;
   alt: string;
@@ -6,6 +8,8 @@ export type ArticlePhoto = {
   sourceUrl?: string;
   license?: string;
   licenseUrl?: string;
+  blueskyPost?: string;
+  blueskyCaption?: Partial<Record<PublicLocale,string>>;
 };
 
 type PhotoEdition = { photo: ArticlePhoto | null; gallery: ArticlePhoto[] };

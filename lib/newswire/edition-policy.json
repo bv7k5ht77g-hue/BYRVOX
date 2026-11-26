@@ -1,5 +1,6 @@
 {
   "fromHour": "2026-11-26T21",
+  "photoContextFromHour": "2026-11-26T22",
   "hourlyLimit": 7,
   "legacyHourlyLimit": 15,
   "thematicLimit": 16

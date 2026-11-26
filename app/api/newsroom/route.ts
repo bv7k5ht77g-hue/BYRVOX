@@ -7,6 +7,7 @@ import { belongsToContributorArticle } from '../../../lib/private-photo';
 import { newsroomUser, runtime, sameOrigin } from '../../../lib/access';
 import { photoPublicationError, uploadedPhotoName } from '../../../lib/article-photo';
 import { publicationError, slugify, validSourceUrl } from '../../../lib/editorial.mjs';
+import { blueskyPhotoFields, captionsHavePost } from '../../../lib/bluesky-photo.mjs';
 import { reviewArticleAds, type ArticleAdReview } from '../../../lib/article-ad-policy';
 import { boundedJson } from '../../../lib/input';
 import { manualTranslationWrites } from '../../../lib/public-translations';
@@ -21,9 +22,10 @@ const photoSchema = z.object({
   credit: z.string().trim().max(300).default(''),
   license: z.string().trim().max(100).optional(),
   licenseUrl: z.string().trim().max(1800).refine(validSourceUrl).optional(),
+  ...blueskyPhotoFields,
   caption: z.string().trim().max(1000).default(''),
   sourceUrl: z.string().trim().max(2000).refine(value => !value || validSourceUrl(value)).optional(),
-});
+}).refine(captionsHavePost);
 
 const requestSchema = z.object({
   id: z.string().max(100).optional(),

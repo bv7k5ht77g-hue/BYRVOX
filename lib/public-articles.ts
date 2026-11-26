@@ -9,7 +9,7 @@ import type { Summary } from "./edition";
 import { features } from "./content";
 import { resolveCover } from "./cover-photo";
 import { getHomepageLeadSlug } from "./homepage-lead";
-import { canonicalCategory, categoryAliases, deskFamilies, orderedCategories, type CategoryHeadlines } from "./editorial-sections";
+import { canonicalCategory, categoryAliases, deskFamilies, mostRatedLimit, orderedCategories, type CategoryHeadlines } from "./editorial-sections";
 import { albertaNationalTerms, albertaRegionalTerms, publicStoryCategory, sportKeywords } from "./story-topics";
 import { containsSearchTerms, hasSearchPhrase } from "./search-text";
 
@@ -62,7 +62,7 @@ export async function listMostRatedArticles() {
   const rows = await getDb().select({...summaryFields, count, average}).from(articleRatings)
     .innerJoin(articles, eq(articles.slug,articleRatings.slug)).where(isPublished)
     .groupBy(articles.slug)
-    .orderBy(desc(count), desc(average), desc(articles.publishedAt), asc(articles.slug)).limit(6);
+    .orderBy(desc(count), desc(average), desc(articles.publishedAt), asc(articles.slug)).limit(mostRatedLimit);
   return rows.map(({count,average,...fields}) => ({story:summary(fields),count,average}));
 }
 

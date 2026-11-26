@@ -30,6 +30,7 @@ import { sourcesForReader } from '../presentation';
 import { readerLabels } from '../reader-labels';
 import { Recommendations } from '../recommendations';
 import { ArticleDiscussion } from '../discussion';
+import { ArticlePostCover } from '../post-cover';
 import '../reader.css';
 
 export const dynamic = 'force-dynamic';
@@ -51,7 +52,7 @@ const getArticle = cache(async (slug: string): Promise<ReaderArticle | null> => 
     adsEnabled:state === 'allowed',
     reserveArticleSpaces:state === 'pending', story:{...story, category:publicStoryCategory(story)}, isFeature:false,
     isWire:authorId === 'byrvox-agent-horaire' || authorId === 'byrvox-agent-thematique',
-    photo:resolveCover(slug,photo,photoHidden), gallery:gallery || [],
+    photo:resolveCover(slug,photo,photoHidden,true), gallery:gallery || [],
   };
 });
 const localizedArticle = cache(async (slug:string, locale:PublicLocale) => {
@@ -113,6 +114,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
   const cards = await translateSummaries(suggestions.stories,locale);
   const origin = NEW_SITE_ORIGIN;
   const url = absoluteArticleUrl(slug,language,origin);
+  const coverFigure = photo && <div lang={record.photoLanguage} dir="auto"><CoverFigure photo={photo} priority /></div>;
   const linkedData = {
     '@context':'https://schema.org', '@type':isFeature?'Article':'NewsArticle', '@id':url+'#article', url, mainEntityOfPage:{'@type':'WebPage','@id':url},
     image:art ? new URL(art.url,origin).href : photo ? new URL(photo.url,origin).href : undefined, headline:story.title, description:story.summary,
@@ -145,7 +147,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
               <Awards slug={slug} lang={locale}/>
             </div>
           </div>
-          {photo && <div lang={record.photoLanguage} dir="auto"><CoverFigure photo={photo} priority /></div>}
+          {photo?.blueskyPost ? <ArticlePostCover key={photo.blueskyPost} postUrl={photo.blueskyPost} caption={photo.blueskyCaption?.[locale]} locale={locale}>{coverFigure}</ArticlePostCover> : coverFigure}
           {art && <figure className="reader-feature-art">
             <picture>
               <source media="(max-width: 720px)" srcSet={art.smallUrl}/>

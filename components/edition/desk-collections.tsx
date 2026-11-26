@@ -1,9 +1,10 @@
 'use client';
 
 import { Star } from 'lucide-react';
-import { useState, type CSSProperties, type ReactNode } from 'react';
+import { useRouter } from 'next/navigation';
+import { useEffect, useState, type CSSProperties, type ReactNode } from 'react';
 import { articleHref, type Summary } from '../../lib/edition';
-import { groupDesks, categoryHref, type CategoryHeadlines, type RatedArticle } from '../../lib/editorial-sections';
+import { groupDesks, categoryHref, ratingChangedKey, type CategoryHeadlines, type RatedArticle } from '../../lib/editorial-sections';
 import { discussionText } from '../../lib/discussion-copy';
 import { categoryLabel, localizedHref, publicLocales, type PublicLocale } from '../../lib/i18n';
 import { categoryColor } from './category-mark';
@@ -79,13 +80,24 @@ export function DeskCollections({groups,lang}: {groups:CategoryHeadlines[];lang:
 }
 
 export function MostRated({rows,lang}: {rows:RatedArticle[];lang:PublicLocale}) {
+  const router = useRouter();
+  useEffect(() => {
+    const restored = (event:PageTransitionEvent) => { if (event.persisted) router.refresh(); };
+    const votedInAnotherTab = (event:StorageEvent) => { if (event.key === ratingChangedKey) router.refresh(); };
+    window.addEventListener('pageshow',restored);
+    window.addEventListener('storage',votedInAnotherTab);
+    return () => {
+      window.removeEventListener('pageshow',restored);
+      window.removeEventListener('storage',votedInAnotherTab);
+    };
+  },[router]);
   const countFormat = new Intl.NumberFormat(lang);
   const ratingFormat = new Intl.NumberFormat(lang,{minimumFractionDigits:1,maximumFractionDigits:1});
   return <section className="by-section by-most-rated" aria-labelledby="most-rated-heading">
     <div className="by-section-title"><h2 id="most-rated-heading">{ratedTitle[publicLocales.indexOf(lang)]}</h2></div>
-    {rows.length ? <ol>{rows.slice(0,sectionStoryLimit).map(({story,count,average})=><li key={story.slug}>
+    {rows.length ? <ol>{rows.map(({story,count,average},rank)=><li key={story.slug}>
       <a href={localizedHref(articleHref(story),lang)}>
-        <span className="by-rating-meta"><Star size={15} aria-hidden="true"/>
+        <span className="by-rating-meta"><b className="by-rating-rank" aria-hidden="true">{countFormat.format(rank + 1)}</b><Star size={15} aria-hidden="true"/>
           <span aria-label={discussionText(lang,'outOfFive').replace('{value}', ratingFormat.format(average))}>{ratingFormat.format(average)} / 5</span>
           <span> · {discussionText(lang,'votes')} {countFormat.format(count)}</span></span>
         <strong lang={story.contentLocale} dir="auto">{story.title}</strong>

@@ -46,6 +46,7 @@
 .by-most-rated li a:hover strong,.by-desk-directory a:hover {text-decoration:underline}
 .by-rating-meta {display:flex;align-items:center;flex-wrap:wrap;gap:.25rem;font-size:.78rem;color:var(--muted)}
 .by-rating-meta svg {color:var(--edition-accent,var(--red))}
+.by-rating-rank {font-variant-numeric:tabular-nums;color:var(--ink);border-inline-end:1px solid var(--line);padding-inline-end:.45rem;margin-inline-end:.15rem}
 @media(max-width:1000px) {.by-desk-collection .by-rail-items {grid-auto-columns:calc((100% - 2rem)/3)}}
 @media(max-width:760px) {.by-desk-collection .by-rail-items {grid-auto-columns:calc((100% - 1rem)/2)}}
 @media(max-width:520px) {

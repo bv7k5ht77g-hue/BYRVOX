@@ -119,6 +119,14 @@ html[data-theme="dark"] .reader-category { color: #ff8d9c }
 .reader-back { margin-top: 22px; min-height: 44px; font-weight: 700; }
 .reader-back:hover { text-decoration: underline; }
 .reader-main .cover-figure { margin: 28px 0 0; }
+.reader-post-cover { position: relative; margin-block-start: 28px; }
+.reader-embedded-post { max-inline-size: 600px; margin: 0 auto; }
+.reader-embedded-post iframe { display: block; border: 0; width: 100%; }
+.reader-embedded-post .reader-embed-pending { position: absolute; max-width: 600px; visibility: hidden; }
+.reader-embedded-post figcaption { margin-block-start: .55rem; color: var(--muted); font-size: .8rem; line-height: 1.5; }
+.reader-embedded-post figcaption a { text-decoration: underline; text-underline-offset: .16em; }
+.reader-archive-photo { max-inline-size: 600px; margin: .8rem auto 0; }
+.reader-archive-photo summary { width: fit-content; font-size: .875rem; color: var(--muted); cursor: pointer; }
 .reader-main .cover-figure > img { max-height: 72vh; object-fit: contain; background: var(--surface); }
 .reader-gallery { margin: 36px 0; display: grid; gap: 24px; }
 .reader-gallery h2 { font-size: 1.3rem; letter-spacing: -.02em; }

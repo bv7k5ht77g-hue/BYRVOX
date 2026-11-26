@@ -616,15 +616,27 @@
         }
       ],
       "photo": {
-        "download": "media/rayan-cherki-archives.webp",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rayan_Cherki_France_v_Senegal_16_June_2026-497.jpg",
-        "credit": "Bryan Berlin / WikiPortraits",
+        "download": "media/cherki-manchester-city-palerme.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palermo_FC_v_Manchester_City_FC,_9_August_2025_-_23.jpg",
+        "credit": "SonoGrazy / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "alt": "Rayan Cherki conduit le ballon sous le maillot bleu de la France.",
-        "caption": "Photo d’archives. Rayan Cherki face au Sénégal, le 16 juin 2026 à East Rutherford, lors de la Coupe du monde.",
+        "alt": "Rayan Cherki, vu de dos avec le maillot noir numéro 29 de Manchester City, aux côtés de ses coéquipiers.",
+        "caption": "Photo d’archives recadrée. Rayan Cherki (n° 29) avant le match amical de Manchester City à Palerme, le 9 août 2025.",
         "subject": "Rayan Cherki",
-        "replacesPublishedHash": "f59cdaea9abdd95dfd57cfa969150072279236a2aa2ba2ed9ba917e906c139a5"
+        "replacesPublishedHash": "a5bbaf74438b7016983a94cfece2bdb7d52be1765c117220d2f543ac455b4779",
+        "context": "Manchester City",
+        "capturedOn": "2025-08-09",
+        "blueskyPost": "https://bsky.app/profile/did:plc:zi55hvfbtohpdx7y35viqqma/post/3n33hzavdwk2e",
+        "blueskyCaption": {
+          "fr": "Rayan Cherki au poteau de corner, en maillot orange de Manchester City, lors du match contre Naples à Manchester le 24 novembre 2026. Photo publiée par Manchester City.",
+          "en": "Rayan Cherki at the corner flag in Manchester City’s orange kit during the match against Napoli in Manchester on 24 November 2026. Photo posted by Manchester City.",
+          "es": "Rayan Cherki junto al banderín de córner, con la camiseta naranja del Manchester City, durante el partido ante el Nápoles en Manchester el 24 de noviembre de 2026. Foto publicada por el Manchester City.",
+          "ar": "ريان شرقي عند راية الركنية بقميص مانشستر سيتي البرتقالي خلال مباراة نابولي في مانشستر في 24 نوفمبر 2026. نشر مانشستر سيتي الصورة.",
+          "zh-CN": "2026年11月24日，曼城在曼彻斯特迎战那不勒斯。身穿曼城橙色球衣的拉扬·谢尔基站在角旗旁。图片由曼城俱乐部发布。",
+          "ru": "Райан Шерки у углового флажка в оранжевой форме «Манчестер Сити» во время матча с «Наполи» в Манчестере 24 ноября 2026 года. Фото опубликовал «Манчестер Сити».",
+          "ko": "2026년 11월 24일 맨체스터에서 열린 나폴리전에서 맨체스터 시티의 주황색 유니폼을 입은 라얀 셰르키가 코너 플래그 옆에 서 있다. 맨체스터 시티가 공개한 사진."
+        }
       },
       "verified": true,
       "translations": {
@@ -632,43 +644,43 @@
           "title": "Cherki salvages a point for Manchester City against Napoli",
           "summary": "After five Champions League games, Manchester City has 10 points and Napoli has 4.",
           "body": "UEFA recorded the November 24 result at Etihad Stadium as Manchester City 2, Napoli 2. ESPN’s play-by-play details the scoring. Napoli led twice through Rasmus Højlund and Noa Lang. After Ayyoub Bouaddi’s first equaliser, Rayan Cherki brought City level again in the 86th minute.\n\nAt the end of matchday five, Manchester City ranks 8 and Napoli ranks 28. UEFA lists their next opponents in December as Barcelona and Club Brugge, respectively.",
-          "photoAlt": "Rayan Cherki dribbles in France’s blue shirt.",
-          "photoCaption": "Archive photo. Rayan Cherki playing against Senegal at the World Cup in East Rutherford on June 16, 2026."
+          "photoAlt": "Rayan Cherki, seen from behind in Manchester City’s black number 29 shirt, alongside his teammates.",
+          "photoCaption": "Cropped archive photo. Rayan Cherki (No. 29) before Manchester City’s friendly in Palermo on 9 August 2025."
         },
         "es": {
           "title": "Cherki rescata un punto para el Manchester City ante el Nápoles",
           "summary": "Tras cinco jornadas de la Liga de Campeones, Manchester City suma 10 puntos y Napoli tiene 4.",
           "body": "La ficha de la UEFA registra el resultado del 24 de noviembre en Etihad Stadium: Manchester City 2, Napoli 2. El minuto a minuto de ESPN detalla los goles. El Nápoles se adelantó dos veces con Rasmus Højlund y Noa Lang. Tras el primer empate de Ayyoub Bouaddi, Rayan Cherki volvió a igualar en el minuto 86.\n\nAl término de la quinta jornada, Manchester City ocupa el puesto 8 y Napoli el 28. En diciembre, según la UEFA, sus próximos rivales serán Barcelona y Club Brugge, respectivamente.",
-          "photoAlt": "Rayan Cherki conduce el balón con la camiseta azul de Francia.",
-          "photoCaption": "Foto de archivo. Rayan Cherki ante Senegal durante el Mundial, el 16 de junio de 2026 en East Rutherford."
+          "photoAlt": "Rayan Cherki, de espaldas con la camiseta negra número 29 del Manchester City, junto a sus compañeros.",
+          "photoCaption": "Foto de archivo recortada. Rayan Cherki (n.º 29) antes del amistoso del Manchester City en Palermo el 9 de agosto de 2025."
         },
         "ar": {
           "title": "شرقي ينقذ نقطة لمانشستر سيتي أمام نابولي",
           "summary": "بعد خمس مباريات في دوري الأبطال، رصيد مانشستر سيتي هو 10 من النقاط ورصيد نابولي هو 4.",
           "body": "سجل الاتحاد الأوروبي نتيجة مباراة 24 نوفمبر في ملعب Etihad Stadium: مانشستر سيتي 2، نابولي 2. وأوردت ESPN تفاصيل التسجيل. تقدم نابولي مرتين عبر راسموس هويلوند ونوا لانغ. وبعد التعادل الأول لأيوب بوعدي، أدرك ريان شرقي التعادل مجددا في الدقيقة 86.\n\nفي ختام الجولة الخامسة جاء مانشستر سيتي في المركز 8 ونابولي في المركز 28. ووفقا لجدول الاتحاد الأوروبي سيواجهان في ديسمبر برشلونة وكلوب بروج على الترتيب.",
-          "photoAlt": "ريان شرقي يتقدم بالكرة مرتديًا قميص منتخب فرنسا الأزرق.",
-          "photoCaption": "صورة أرشيفية لريان شرقي في مباراة فرنسا أمام السنغال في كأس العالم يوم 16 يونيو 2026 في إيست راذرفورد."
+          "photoAlt": "ريان شرقي من الخلف مرتدياً قميص مانشستر سيتي الأسود رقم 29، إلى جانب زملائه.",
+          "photoCaption": "صورة أرشيفية مقتصة. ريان شرقي (رقم 29) قبل مباراة مانشستر سيتي الودية في باليرمو يوم 9 أغسطس 2025."
         },
         "zh-CN": {
           "title": "谢尔基为曼城在那不勒斯身上抢回一分",
           "summary": "欧冠五轮过后，曼城积10分，那不勒斯积4分。",
           "body": "欧足联记录显示，11月24日在Etihad Stadium的比赛结果为曼城 2比2 那不勒斯。ESPN的实况记录还原了进球过程。 拉斯穆斯·霍伊伦和诺阿·朗两度让那不勒斯领先。阿尤布·布阿迪首次扳平后，拉扬·谢尔基在第86分钟再次追平。\n\n第五轮结束后，曼城排第8，那不勒斯排第28。按欧足联赛程，两队12月的下一个对手分别是巴塞罗那和布鲁日。",
-          "photoAlt": "拉扬·谢尔基身穿法国队蓝色球衣带球前进。",
-          "photoCaption": "资料照片：2026年6月16日，拉扬·谢尔基在东拉瑟福德举行的世界杯比赛中对阵塞内加尔队。"
+          "photoAlt": "拉扬·谢尔基身穿曼城黑色29号球衣，背对镜头，与队友并排站立。",
+          "photoCaption": "裁剪后的资料照片。2025年8月9日，身穿29号球衣的拉扬·谢尔基在曼城于巴勒莫举行的友谊赛前与队友列队。"
         },
         "ru": {
           "title": "Шерки спас для «Манчестер Сити» очко в матче с «Наполи»",
           "summary": "После пяти туров Лиги чемпионов у Манчестер Сити — 10 очк., у Наполи — 4.",
           "body": "По протоколу УЕФА, матч 24 ноября на стадионе Etihad Stadium завершился со счётом Манчестер Сити — Наполи 2–2. Ход игры описывает ESPN. Расмус Хёйлунн и Ноа Ланг дважды выводили «Наполи» вперёд. После первого ответного гола Айюба Буадди Райан Шерки вновь сравнял счёт на 86-й минуте.\n\nПосле пятого тура Манчестер Сити занимает место № 8, а Наполи — № 28. По календарю УЕФА следующими соперниками команд в декабре станут соответственно Барселона и Брюгге.",
-          "photoAlt": "Райан Шерки ведёт мяч в синей форме сборной Франции.",
-          "photoCaption": "Архивное фото. Райан Шерки в матче чемпионата мира против Сенегала, 16 июня 2026 года в Ист-Ратерфорде."
+          "photoAlt": "Райан Шерки со спины в чёрной футболке «Манчестер Сити» с номером 29 рядом с партнёрами по команде.",
+          "photoCaption": "Архивное фото, кадрировано. Райан Шерки (№ 29) перед товарищеским матчем «Манчестер Сити» в Палермо 9 августа 2025 года."
         },
         "ko": {
           "title": "셰르키, 나폴리전 막판 동점골로 맨시티에 승점 1점",
           "summary": "챔피언스리그 5경기를 치른 현재 맨체스터 시티의 승점은 10점, 나폴리의 승점은 4점이다.",
           "body": "UEFA 공식 기록에 따르면 11월 24일 Etihad Stadium에서 열린 경기의 결과는 맨체스터 시티 2, 나폴리 2였다. ESPN의 실시간 기록은 득점 과정을 전한다. 나폴리는 라스무스 호일룬과 노아 랑의 골로 두 차례 앞섰다. 아유브 부아디가 첫 동점골을 넣었고 라얀 셰르키가 86분 다시 동점을 만들었다.\n\n5라운드 종료 기준 맨체스터 시티는 8위, 나폴리는 28위다. UEFA 일정에 따르면 12월 다음 상대는 각각 바르셀로나, 클뤼프 브뤼허다.",
-          "photoAlt": "라얀 셰르키가 프랑스 대표팀의 파란 유니폼을 입고 공을 몰고 있다.",
-          "photoCaption": "자료 사진. 2026년 6월 16일 이스트러더퍼드에서 열린 월드컵 세네갈전에 출전한 라얀 셰르키."
+          "photoAlt": "맨체스터 시티의 검은색 29번 유니폼을 입고 동료들과 나란히 선 라얀 셰르키의 뒷모습.",
+          "photoCaption": "일부를 자른 자료 사진. 2025년 8월 9일 팔레르모에서 열린 맨체스터 시티의 친선경기를 앞둔 라얀 셰르키(29번)."
         }
       }
     },

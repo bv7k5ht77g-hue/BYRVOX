@@ -2,6 +2,8 @@ import { editionHref, fold, type Summary } from './edition';
 
 export type CategoryHeadlines = { category: string; stories: Summary[] };
 export type RatedArticle = { story: Summary; count: number; average: number };
+export const mostRatedLimit = 5;
+export const ratingChangedKey = 'byrvox:rating-changed';
 
 export const deskFamilies: Record<string, readonly string[]> = {
   International: ['Europe', 'États-Unis', 'Caraïbes', 'Haïti', 'Afrique', 'Asie', 'Amérique latine', 'Moyen-Orient', 'Océanie'],

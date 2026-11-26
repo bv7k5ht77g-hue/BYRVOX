@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { LogIn, Star } from 'lucide-react';
 import { discussionText } from '../../lib/discussion-copy';
+import { ratingChangedKey } from '../../lib/editorial-sections';
 import { localizedHref, type PublicLocale } from '../../lib/i18n';
 import { readerAccountUrl } from '../../lib/reader-links';
 import './discussion.css';
@@ -118,6 +119,7 @@ export function ArticleDiscussion({slug,locale}: {slug:string;locale:PublicLocal
       if (kind === 'rating') {
         const {ratings} = await response.json() as {ratings:Ratings};
         setData(previous => previous && {...previous,ratings});
+        try {localStorage.setItem(ratingChangedKey,String(Date.now()));} catch { /* Storage can be unavailable in private browsing. */ }
         notify('rated');
       } else {
         attempt.current = null;

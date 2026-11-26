@@ -1,8 +1,10 @@
 import { z } from 'zod';
 import { validSourceUrl } from '../editorial.mjs';
+import { blueskyPhotoFields, captionsHavePost } from '../bluesky-photo.mjs';
 import policy from './edition-policy.json' with {type:'json'};
 
 const webUrl = z.string().max(1800).refine(validSourceUrl);
+const calendarDay = z.string().date();
 const line = (min: number, max: number) => z.string().trim().min(min).max(max);
 const translated = z.object({
   title: line(1, 400), summary: line(1, 3200), body: line(1, 50000),
@@ -21,8 +23,11 @@ const storySchema = z.object({
     download: line(4, 1800), sourceUrl: webUrl, credit: line(2, 200), license: line(2, 100),
     licenseUrl: webUrl, alt: line(8, 300), caption: line(12, 1000),
     subject: z.string().optional(),
+    context: line(2, 160).optional(),
+    capturedOn: z.string().max(10).nullable().optional(),
+    ...blueskyPhotoFields,
     replacesPublishedHash: z.string().regex(/^[a-f0-9]{64}$/).optional(),
-  }),
+  }).refine(captionsHavePost),
   translations: z.object({en:translated, es:translated, ar:translated, 'zh-CN':translated, ru:translated, ko:translated}).partial().optional(),
 });
 export type WireStory = z.infer<typeof storySchema>;
@@ -60,14 +65,34 @@ export function articleError(story: WireStory, hour: string, now = Date.now()) {
     return 'La date des sources ne correspond pas à cette édition.';
   }
   if (!imageAddress(story.photo.download,hour)) return 'Source de la photographie non prise en charge.';
+  const inArticleAndPhoto = (term: string) => {
+    const phrase = ' ' + photoWords(term) + ' ';
+    const contains = (copy: string) => (' ' + photoWords(copy) + ' ').includes(phrase);
+    return [story.title, story.summary, story.body].some(contains) &&
+      [story.photo.alt, story.photo.caption].some(contains);
+  };
   if (hour.slice(0,13) >= policy.fromHour) {
     const subject = story.photo.subject?.trim() ?? '';
-    const words = photoWords(subject);
-    if (subject.length > 160 || words.length < 2) return 'Indique le sujet précis visible sur la photographie dans photo.subject.';
-    const mentionsSubject = (value: string) => (' ' + photoWords(value) + ' ').includes(' ' + words + ' ');
-    if (![story.title, story.summary, story.body].some(mentionsSubject) ||
-        ![story.photo.alt, story.photo.caption].some(mentionsSubject)) {
+    if (subject.length > 160 || photoWords(subject).length < 2) return 'Indique le sujet précis visible sur la photographie dans photo.subject.';
+    if (!inArticleAndPhoto(subject)) {
       return 'Le sujet choisi pour la photo doit figurer dans le texte de l’article et dans le texte alternatif ou la légende.';
+    }
+  }
+  if (hour.slice(0,13) >= policy.photoContextFromHour) {
+    const { context, capturedOn } = story.photo;
+    if (!context || photoWords(context).length < 2 || !inArticleAndPhoto(context)) {
+      return 'Précise dans photo.context le contexte réellement visible (club, service ou situation) repris dans l’article et la description de l’image.';
+    }
+    if (capturedOn === null) {
+      if (!/\bnon datee?\b/.test(photoWords(story.photo.caption))) return 'Pour une illustration non datée, indique-le dans la légende.';
+    } else {
+      if (!capturedOn || !/^\d{4}(?:-\d{2}(?:-\d{2})?)?$/.test(capturedOn)) {
+        return 'Renseigne photo.capturedOn avec la date de prise de vue connue (AAAA, AAAA-MM ou AAAA-MM-JJ).';
+      }
+      const earliestDay = (capturedOn + '-01-01').slice(0, 10);
+      if (!calendarDay.safeParse(earliestDay).success || earliestDay > new Date(now).toISOString().slice(0, 10)) {
+        return 'La date de prise de vue est impossible ou future.';
+      }
     }
   }
   return null;
