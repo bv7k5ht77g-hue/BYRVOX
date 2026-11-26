@@ -1,0 +1,1115 @@
+{
+  "hour": "2026-11-26T17",
+  "articles": [
+    {
+      "eventKey": "canada-soins-primaires-delai-consultation-enquete-icis",
+      "category": "Santé",
+      "sources": [
+        {
+          "name": "Institut canadien d’information sur la santé",
+          "url": "https://www.cihi.ca/en/primary-health-care-in-canada-access-experience-and-progress-2026/how-primary-health-care-is-working-for-canadians",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Global News",
+          "url": "https://globalnews.ca/news/12167321/primary-care-doctors-cihi/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Only one in four Canadian adults who sought primary care got a same-day or next-day appointment",
+          "summary": "A Canadian Institute for Health Information report measures the wait at the most recent consultation prompted by a health concern.",
+          "body": "Among adults who had consulted a primary care provider in the previous twelve months because they were sick or concerned about their health, 26% got an appointment that day or the next. The figure was 41% for children and youth, according to 2025 data the institute released Thursday.\n\nGlobal News notes an important distinction in these Statistics Canada surveys. In 2025, 83% of adults had a regular primary care provider. That measure captures a relationship with a provider, while the waiting time describes the experience of those who sought care.",
+          "photoAlt": "Aerial view of Tunney’s Pasture in Ottawa, home to Statistics Canada offices.",
+          "photoCaption": "Archive photo (2022-09-12). Aerial view of Tunney’s Pasture in Ottawa, home to Statistics Canada offices."
+        },
+        "es": {
+          "title": "Solo uno de cada cuatro adultos que consultaron en Canadá obtuvo cita en atención primaria ese día o al siguiente",
+          "summary": "Un informe del Instituto Canadiense de Información Sanitaria mide la espera en la última consulta motivada por un problema de salud.",
+          "body": "Entre los adultos que habían consultado en atención primaria en los doce meses previos por enfermedad o preocupación por su salud, el 26 % consiguió cita ese mismo día o al siguiente. En niños y jóvenes la proporción llegó al 41 %, según datos de 2025 publicados el jueves por el instituto.\n\nGlobal News destaca una distinción importante en estas encuestas de Statistics Canada. En 2025, el 83 % de los adultos tenía un profesional habitual de atención primaria. Esa cifra mide el vínculo con un profesional, mientras que la espera describe la experiencia de quienes consultaron.",
+          "photoAlt": "Vista aérea de Tunney’s Pasture en Ottawa, donde se encuentran oficinas de Statistics Canada.",
+          "photoCaption": "Foto de archivo (2022-09-12). Vista aérea de Tunney’s Pasture en Ottawa, donde se encuentran oficinas de Statistics Canada."
+        },
+        "ar": {
+          "title": "ربع البالغين فقط ممن راجعوا الرعاية الأولية في كندا حصلوا على موعد في اليوم نفسه أو التالي",
+          "summary": "يقيس تقرير للمعهد الكندي للمعلومات الصحية مدة الانتظار عند آخر استشارة بسبب مشكلة صحية.",
+          "body": "من بين البالغين الذين راجعوا مقدم رعاية أولية خلال الاثني عشر شهراً السابقة بسبب مرض أو قلق صحي، حصل 26% على موعد في اليوم نفسه أو التالي. وبلغت النسبة 41% بين الأطفال واليافعين بحسب بيانات 2025 التي نشرها المعهد الخميس.\n\nوتلفت غلوبال نيوز إلى فرق مهم في مسوح هيئة الإحصاء الكندية. ففي 2025 كان لدى 83% من البالغين مقدم رعاية أولية معتاد. وتقيس هذه النسبة وجود علاقة مع مقدم الرعاية، بينما تعكس مدة الانتظار تجربة من راجعوه.",
+          "photoAlt": "منظر جوي لمجمع تانيز باستشر في أوتاوا حيث توجد مكاتب هيئة الإحصاء الكندية.",
+          "photoCaption": "صورة أرشيفية (2022-09-12). منظر جوي لمجمع تانيز باستشر في أوتاوا حيث توجد مكاتب هيئة الإحصاء الكندية."
+        },
+        "zh-CN": {
+          "title": "加拿大寻求初级医疗服务的成年人中，仅约四分之一当天或次日获得预约",
+          "summary": "加拿大卫生信息研究所的报告衡量了人们最近一次因健康问题就诊时的等待时间。",
+          "body": "在过去12个月因患病或担心自身健康而接受初级医疗服务的成年人中，26%在当天或次日获得预约。研究所周四公布的2025年数据显示，儿童和青少年中这一比例为41%。\n\n据环球新闻报道，加拿大统计局的这些调查区分了两项指标。2025年，83%的成年人有固定的初级医疗服务提供者。这一比例反映的是与医护人员的固定联系，而预约等待时间反映已就诊者的经历。",
+          "photoAlt": "渥太华特尼牧场办公区的鸟瞰图，加拿大统计局在此设有办公室。",
+          "photoCaption": "资料照片 (2022-09-12). 渥太华特尼牧场办公区的鸟瞰图，加拿大统计局在此设有办公室。"
+        },
+        "ru": {
+          "title": "Лишь четверть взрослых в Канаде, обращавшихся за первичной помощью, получили запись в тот же или на следующий день",
+          "summary": "Канадский институт медицинской информации оценил срок ожидания при последнем обращении по поводу здоровья.",
+          "body": "Среди взрослых, которые за предыдущие двенадцать месяцев обращались за первичной помощью из-за болезни или беспокойства о здоровье, 26% получили запись в тот же или на следующий день. Для детей и молодёжи показатель составил 41%, свидетельствуют данные за 2025 год, опубликованные институтом в четверг.\n\nGlobal News отмечает важное различие в этих опросах Статистического управления Канады. В 2025 году у 83% взрослых был постоянный специалист первичной помощи. Этот показатель отражает наличие связи с медработником, а срок ожидания — опыт тех, кто обращался.",
+          "photoAlt": "Вид с воздуха на комплекс Таннис-Пасчер в Оттаве, где расположены офисы Статистического управления Канады.",
+          "photoCaption": "Архивное фото (2022-09-12). Вид с воздуха на комплекс Таннис-Пасчер в Оттаве, где расположены офисы Статистического управления Канады."
+        },
+        "ko": {
+          "title": "캐나다에서 1차 진료를 받은 성인 중 당일이나 다음 날 예약을 잡은 비율은 4명 중 1명",
+          "summary": "캐나다 보건정보연구소가 건강 문제로 가장 최근에 진료받았을 때의 대기 기간을 조사했다.",
+          "body": "지난 12개월간 질병이나 건강에 대한 우려로 1차 진료를 받은 성인 가운데 26%가 당일이나 다음 날 예약을 잡았다. 연구소가 목요일 발표한 2025년 자료에서 아동·청소년의 비율은 41%였다.\n\n글로벌뉴스는 캐나다 통계청 조사에서 두 지표가 구분된다고 전했다. 2025년 성인의 83%에게는 정기적으로 찾는 1차 의료인이 있었다. 이는 의료인과의 지속적인 관계를 측정하며, 예약 대기 기간은 실제 진료를 받은 사람들의 경험을 나타낸다.",
+          "photoAlt": "캐나다 통계청 사무실이 있는 오타와 터니스 패스처의 항공 사진.",
+          "photoCaption": "자료 사진 (2022-09-12). 캐나다 통계청 사무실이 있는 오타와 터니스 패스처의 항공 사진."
+        }
+      },
+      "verified": true,
+      "title": "Soins primaires au Canada : un adulte sur quatre ayant consulté a obtenu un rendez-vous le jour même ou le lendemain",
+      "summary": "Un rapport de l’Institut canadien d’information sur la santé mesure l’attente lors de la dernière consultation motivée par un problème de santé.",
+      "body": "Parmi les adultes qui avaient consulté en soins primaires au cours des douze mois précédents parce qu’ils étaient malades ou inquiets pour leur santé, 26 % avaient obtenu un rendez-vous le jour même ou le lendemain. Pour les enfants et les jeunes, la proportion atteignait 41 %, selon les données de 2025 publiées jeudi par l’Institut.\n\nGlobal News relève une distinction importante dans ces enquêtes de Statistique Canada. En 2025, 83 % des adultes avaient un professionnel de soins primaires habituel. Cette proportion mesure le lien avec un soignant, tandis que le délai de rendez-vous décrit l’expérience de ceux qui ont consulté.",
+      "photo": {
+        "download": "media/med.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TunneysPasture2022.jpg",
+        "credit": "Harleyd613",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Vue aérienne du pré Tunney à Ottawa, où se trouvent des bureaux de Statistique Canada.",
+        "caption": "Photo d’archives (2022-09-12). Vue aérienne du pré Tunney à Ottawa, où se trouvent des bureaux de Statistique Canada."
+      }
+    },
+    {
+      "eventKey": "bce-accord-dirigeants-europeens-pablo-hernandez-de-cos",
+      "category": "Économie",
+      "sources": [
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/d308b6cfbe6399b131255f2a678b10e4",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Conseil européen — Sommet de la zone euro",
+          "url": "https://www.consilium.europa.eu/en/meetings/euro-summit/2026/11/26/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/economia/2026-11-26/hernandez-de-cos-se-convertira-en-febrero-en-el-primer-espanol-en-presidir-el-bce.html",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "European leaders agree on Pablo Hernández de Cos to succeed Christine Lagarde",
+          "summary": "The political agreement in Brussels opens the way for the European Central Bank’s first Spanish president.",
+          "body": "European leaders on Thursday chose Pablo Hernández de Cos, the former governor of the Bank of Spain, to lead the ECB. The Associated Press reports that French President Emmanuel Macron confirmed the agreement reached at the Brussels summit.\n\nThe European Parliament and the ECB must still be consulted before formal appointment, El País reports. Christine Lagarde, in office since November 2019, has announced she will leave on February 7, 2027, the European Council notes.",
+          "photoAlt": "Portrait of Pablo Hernández de Cos wearing a suit and tie.",
+          "photoCaption": "Archive photo (2025-05-23). Portrait of Pablo Hernández de Cos wearing a suit and tie."
+        },
+        "es": {
+          "title": "Los líderes europeos acuerdan que Pablo Hernández de Cos suceda a Christine Lagarde",
+          "summary": "El acuerdo político alcanzado en Bruselas abre la puerta a la primera presidencia española del Banco Central Europeo.",
+          "body": "Los líderes europeos eligieron el jueves al exgobernador del Banco de España Pablo Hernández de Cos para dirigir el BCE. Según Associated Press, el presidente francés Emmanuel Macron confirmó el acuerdo alcanzado en la cumbre de Bruselas.\n\nTodavía deben ser consultados el Parlamento Europeo y el BCE antes del nombramiento formal, precisa El País. Christine Lagarde, en el cargo desde noviembre de 2019, anunció que lo dejará el 7 de febrero de 2027, recuerda el Consejo Europeo.",
+          "photoAlt": "Retrato de Pablo Hernández de Cos con traje y corbata.",
+          "photoCaption": "Foto de archivo (2025-05-23). Retrato de Pablo Hernández de Cos con traje y corbata."
+        },
+        "ar": {
+          "title": "القادة الأوروبيون يتفقون على اختيار بابلو إرنانديث دي كوس خلفاً لكريستين لاغارد",
+          "summary": "يمهّد الاتفاق السياسي في بروكسل الطريق أمام أول رئاسة إسبانية للبنك المركزي الأوروبي.",
+          "body": "اختار القادة الأوروبيون الخميس محافظ بنك إسبانيا السابق بابلو إرنانديث دي كوس لقيادة البنك المركزي الأوروبي. وأفادت أسوشيتد برس بأن الرئيس الفرنسي إيمانويل ماكرون أكد الاتفاق الذي تم التوصل إليه في قمة بروكسل.\n\nوتوضح إل باييس أن التعيين الرسمي يسبقه أخذ رأي البرلمان الأوروبي والبنك المركزي الأوروبي. ويذكّر المجلس الأوروبي بأن كريستين لاغارد التي تتولى المنصب منذ نوفمبر 2019 أعلنت أنها ستغادره في 7 فبراير 2027.",
+          "photoAlt": "صورة لبابلو إرنانديث دي كوس ببدلة وربطة عنق.",
+          "photoCaption": "صورة أرشيفية (2025-05-23). صورة لبابلو إرنانديث دي كوس ببدلة وربطة عنق."
+        },
+        "zh-CN": {
+          "title": "欧洲领导人同意由巴勃罗·埃尔南德斯·德科斯接替拉加德",
+          "summary": "布鲁塞尔达成的政治协议为欧洲央行迎来首位西班牙籍行长铺平了道路。",
+          "body": "欧洲领导人周四选定西班牙央行前行长巴勃罗·埃尔南德斯·德科斯执掌欧洲央行。据美联社报道，法国总统马克龙证实了布鲁塞尔峰会达成的协议。\n\n据西班牙《国家报》报道，正式任命前仍须征询欧洲议会和欧洲央行意见。欧洲理事会指出，2019年11月就任的克里斯蒂娜·拉加德已宣布将于2027年2月7日离任。",
+          "photoAlt": "身穿西装、系领带的巴勃罗·埃尔南德斯·德科斯肖像。",
+          "photoCaption": "资料照片 (2025-05-23). 身穿西装、系领带的巴勃罗·埃尔南德斯·德科斯肖像。"
+        },
+        "ru": {
+          "title": "Европейские лидеры согласовали кандидатуру Пабло Эрнандеса де Коса на смену Кристин Лагард",
+          "summary": "Политическая договорённость в Брюсселе открывает путь первому испанцу на пост президента Европейского центрального банка.",
+          "body": "В четверг европейские лидеры выбрали бывшего управляющего Банком Испании Пабло Эрнандеса де Коса для руководства ЕЦБ. По данным Associated Press, президент Франции Эмманюэль Макрон подтвердил договорённость, достигнутую на брюссельском саммите.\n\nПеред формальным назначением ещё предстоят консультации с Европарламентом и ЕЦБ, уточняет El País. Европейский совет напоминает, что Кристин Лагард, занимающая пост с ноября 2019 года, объявила об уходе 7 февраля 2027 года.",
+          "photoAlt": "Портрет Пабло Эрнандеса де Коса в костюме и галстуке.",
+          "photoCaption": "Архивное фото (2025-05-23). Портрет Пабло Эрнандеса де Коса в костюме и галстуке."
+        },
+        "ko": {
+          "title": "유럽 정상들, 라가르드 후임으로 파블로 에르난데스 데 코스에 합의",
+          "summary": "브뤼셀에서 이뤄진 정치적 합의로 스페인 출신 첫 유럽중앙은행 총재가 나올 길이 열렸다.",
+          "body": "유럽 정상들은 목요일 파블로 에르난데스 데 코스 전 스페인 중앙은행 총재를 유럽중앙은행 차기 수장으로 선택했다. AP에 따르면 에마뉘엘 마크롱 프랑스 대통령이 브뤼셀 정상회의에서 이뤄진 합의를 확인했다.\n\n엘파이스는 정식 임명에 앞서 유럽의회와 유럽중앙은행의 의견을 들어야 한다고 전했다. 유럽이사회에 따르면 2019년 11월 취임한 크리스틴 라가르드는 2027년 2월 7일 물러날 것이라고 밝혔다.",
+          "photoAlt": "정장과 넥타이 차림의 파블로 에르난데스 데 코스.",
+          "photoCaption": "자료 사진 (2025-05-23). 정장과 넥타이 차림의 파블로 에르난데스 데 코스."
+        }
+      },
+      "verified": true,
+      "title": "Les dirigeants européens s’entendent sur Pablo Hernández de Cos pour succéder à Christine Lagarde",
+      "summary": "L’accord politique conclu à Bruxelles ouvre la voie à une première présidence espagnole de la Banque centrale européenne.",
+      "body": "Les dirigeants européens ont retenu jeudi Pablo Hernández de Cos, ancien gouverneur de la Banque d’Espagne, pour prendre la tête de la BCE. L’Associated Press rapporte que le président français Emmanuel Macron a confirmé l’accord trouvé au sommet de Bruxelles.\n\nLa procédure doit encore passer par la consultation du Parlement européen et de la BCE avant la nomination formelle, précise El País. Christine Lagarde, en fonction depuis novembre 2019, a annoncé qu’elle quitterait son poste le 7 février 2027, rappelle le Conseil européen.",
+      "photo": {
+        "download": "media/ecb.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pablo_Hernandez_de_Cos_-_official_portrait_2025.jpg",
+        "credit": "Chospo",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Portrait de Pablo Hernández de Cos en costume et cravate.",
+        "caption": "Photo d’archives (2025-05-23). Portrait de Pablo Hernández de Cos en costume et cravate."
+      }
+    },
+    {
+      "eventKey": "koweit-deux-techniciens-italiens-decedes-attaque",
+      "category": "International",
+      "sources": [
+        {
+          "name": "Ministère italien des Affaires étrangères",
+          "url": "https://www.esteri.it/en/sala_stampa/archivionotizie/comunicati/2026/11/attacco-con-droni-in-kuwait-due-cittadini-italiani-deceduti/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/two-italians-killed-iranian-drone-attack-kuwait-italy-says-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Two Italian technicians die after drone attack in Kuwait",
+          "summary": "Rome confirmed the deaths of the two Rheinmetall Italia employees. Two other people were injured, Kuwaiti authorities said.",
+          "body": "Italy’s foreign ministry announced Thursday that two Italian nationals died at a site in Kuwait where they were carrying out maintenance work for Rheinmetall Italia. The Italian embassy is in contact with local authorities to keep the families informed.\n\nReuters reports that Kuwait’s defence ministry attributed the attack to Iran. It said debris injured four people, including the two technicians who subsequently died. The other two injured people are a Kuwaiti national and a Pakistani national.",
+          "photoAlt": "Facade of the Farnesina palace, home to the Italian foreign ministry in Rome.",
+          "photoCaption": "Archive photo (2025-05-18). Facade of the Farnesina palace, home to the Italian foreign ministry in Rome."
+        },
+        "es": {
+          "title": "Dos técnicos italianos mueren tras un ataque con drones en Kuwait",
+          "summary": "Roma confirmó las muertes de los dos empleados de Rheinmetall Italia. Otras dos personas resultaron heridas, según las autoridades kuwaitíes.",
+          "body": "El Ministerio de Exteriores italiano anunció el jueves que dos ciudadanos italianos murieron en unas instalaciones de Kuwait donde realizaban labores de mantenimiento para Rheinmetall Italia. La embajada italiana mantiene el contacto con las autoridades locales para informar a las familias.\n\nSegún Reuters, el Ministerio de Defensa kuwaití atribuyó el ataque a Irán. Indicó que los escombros hirieron a cuatro personas, entre ellas los dos técnicos que fallecieron después. Los otros heridos son un ciudadano kuwaití y uno pakistaní.",
+          "photoAlt": "Fachada del palacio de la Farnesina, sede del Ministerio de Exteriores italiano en Roma.",
+          "photoCaption": "Foto de archivo (2025-05-18). Fachada del palacio de la Farnesina, sede del Ministerio de Exteriores italiano en Roma."
+        },
+        "ar": {
+          "title": "وفاة فنيين إيطاليين بعد هجوم بمسيّرات في الكويت",
+          "summary": "أكدت روما وفاة موظفين لدى راينميتال إيطاليا. وأصيب شخصان آخران بحسب السلطات الكويتية.",
+          "body": "أعلنت وزارة الخارجية الإيطالية الخميس وفاة اثنين من مواطنيها في موقع بالكويت كانا ينفذان فيه أعمال صيانة لحساب شركة راينميتال إيطاليا. وتتواصل السفارة الإيطالية مع السلطات المحلية لإطلاع العائلتين على المستجدات.\n\nوبحسب رويترز نسبت وزارة الدفاع الكويتية الهجوم إلى إيران. وقالت إن حطاماً أصاب أربعة أشخاص بينهم الفنيان اللذان توفيا لاحقاً، وإن المصابين الآخرين مواطن كويتي وآخر باكستاني.",
+          "photoAlt": "واجهة قصر فارنيزينا مقر وزارة الخارجية الإيطالية في روما.",
+          "photoCaption": "صورة أرشيفية (2025-05-18). واجهة قصر فارنيزينا مقر وزارة الخارجية الإيطالية في روما."
+        },
+        "zh-CN": {
+          "title": "两名意大利技术人员在科威特无人机袭击后死亡",
+          "summary": "意大利证实两名莱茵金属意大利公司员工身亡。科威特当局表示另有两人受伤。",
+          "body": "意大利外交部周四宣布，两名意大利公民在科威特一处设施死亡，当时他们正在为莱茵金属意大利公司执行维护工作。意大利大使馆正与当地有关部门联系，以便向家属通报情况。\n\n据路透社报道，科威特国防部称袭击来自伊朗。该部表示，坠落的碎片导致四人受伤，其中两名技术人员随后伤重死亡。另外两名伤者分别是科威特和巴基斯坦公民。",
+          "photoAlt": "罗马法尔内西纳宫正面，这里是意大利外交部所在地。",
+          "photoCaption": "资料照片 (2025-05-18). 罗马法尔内西纳宫正面，这里是意大利外交部所在地。"
+        },
+        "ru": {
+          "title": "Два итальянских техника погибли после атаки дронов в Кувейте",
+          "summary": "Рим подтвердил гибель двух сотрудников Rheinmetall Italia. По данным кувейтских властей, ещё два человека ранены.",
+          "body": "МИД Италии сообщил в четверг, что двое итальянских граждан погибли на объекте в Кувейте, где выполняли работы по техническому обслуживанию для Rheinmetall Italia. Посольство Италии поддерживает связь с местными властями, чтобы информировать семьи.\n\nКак передаёт Reuters, Минобороны Кувейта возложило ответственность за атаку на Иран. По его данным, обломки ранили четырёх человек, включая двух техников, позднее скончавшихся от ран. Двое других раненых — граждане Кувейта и Пакистана.",
+          "photoAlt": "Фасад дворца Фарнезина в Риме, где размещается МИД Италии.",
+          "photoCaption": "Архивное фото (2025-05-18). Фасад дворца Фарнезина в Риме, где размещается МИД Италии."
+        },
+        "ko": {
+          "title": "쿠웨이트 드론 공격 이후 이탈리아 기술자 2명 사망",
+          "summary": "이탈리아 정부가 라인메탈 이탈리아 직원 2명의 사망을 확인했다. 쿠웨이트 당국에 따르면 다른 2명도 다쳤다.",
+          "body": "이탈리아 외교부는 목요일 쿠웨이트의 한 시설에서 자국민 2명이 숨졌다고 발표했다. 이들은 라인메탈 이탈리아를 위해 유지보수 업무를 하던 중이었다. 이탈리아 대사관은 가족에게 상황을 알리기 위해 현지 당국과 연락하고 있다.\n\n로이터에 따르면 쿠웨이트 국방부는 이란을 공격 주체로 지목했다. 국방부는 낙하한 잔해로 4명이 다쳤고 이 가운데 기술자 2명이 이후 숨졌다고 밝혔다. 다른 부상자는 쿠웨이트인과 파키스탄인이다.",
+          "photoAlt": "로마에 있는 이탈리아 외교부 청사 파르네시나궁 정면.",
+          "photoCaption": "자료 사진 (2025-05-18). 로마에 있는 이탈리아 외교부 청사 파르네시나궁 정면."
+        }
+      },
+      "verified": true,
+      "title": "Deux techniciens italiens meurent après une attaque de drones au Koweït",
+      "summary": "Rome a confirmé la mort des deux employés de Rheinmetall Italia. Deux autres personnes ont été blessées, selon les autorités koweïtiennes.",
+      "body": "Le ministère italien des Affaires étrangères a annoncé jeudi que deux de ses ressortissants étaient morts sur un site au Koweït où ils effectuaient des travaux de maintenance pour Rheinmetall Italia. L’ambassade d’Italie est en contact avec les autorités locales afin de renseigner les familles.\n\nSelon Reuters, le ministère koweïtien de la Défense a attribué l’attaque à l’Iran. Il a indiqué que des débris avaient fait quatre blessés, dont les deux techniciens qui ont ensuite succombé. Les deux autres blessés sont un ressortissant koweïtien et un ressortissant pakistanais.",
+      "photo": {
+        "download": "media/italy.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palazzo_della_Farnesina,_Zentrale_des_Au%C3%9Fenministeriums_in_Rom,_2025.jpg",
+        "credit": "C.Berlin",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Façade du palais de la Farnesina, siège de la diplomatie italienne à Rome.",
+        "caption": "Photo d’archives (2025-05-18). Façade du palais de la Farnesina, siège de la diplomatie italienne à Rome."
+      }
+    },
+    {
+      "eventKey": "ontario-unifor-penalites-emissions-constructeurs-canadiens",
+      "category": "Canada",
+      "sources": [
+        {
+          "name": "Unifor — déclaration de Lana Payne et Doug Ford",
+          "url": "https://www.unifor.org/news/all-news/joint-statement-unifor-national-president-lana-payne-and-premier-doug-ford-0",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Windsor News Today",
+          "url": "https://windsornewstoday.ca/windsor/news/2026/11/26/ford-payne-call-for-auto-exemption-from-greenhouse-gas-emission-penalties",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Doug Ford and Unifor seek penalty exemption for automakers that build in Canada",
+          "summary": "Ontario’s premier and the union president want Ottawa to ease the cost of passenger-car emissions rules.",
+          "body": "In a joint statement, Doug Ford and Lana Payne called on the federal government to exempt automakers that manufacture in Canada from penalties for failing to comply with passenger automobile greenhouse gas regulations.\n\nWindsor News Today reports that Ontario’s government and Unifor are making the joint appeal to keep vehicle production in Canada. The signatories cite US tariffs and argue the penalties threaten jobs. The decision rests with Ottawa.",
+          "photoAlt": "Doug Ford in a dark jacket, photographed outdoors.",
+          "photoCaption": "Archive photo (2026-06-24). Doug Ford in a dark jacket, photographed outdoors."
+        },
+        "es": {
+          "title": "Doug Ford y Unifor piden eximir de sanciones a quienes fabrican automóviles en Canadá",
+          "summary": "El primer ministro de Ontario y la presidenta sindical piden a Ottawa que alivie el coste de las normas sobre emisiones de turismos.",
+          "body": "En una declaración conjunta, Doug Ford y Lana Payne solicitaron al gobierno federal que exima a los fabricantes que producen en Canadá de las sanciones por incumplir el reglamento de gases de efecto invernadero de los automóviles de pasajeros.\n\nSegún Windsor News Today, el gobierno de Ontario y Unifor se unieron en esta petición para mantener la producción en el país. Los firmantes citan los aranceles estadounidenses y consideran que las sanciones amenazan empleos. La decisión corresponde a Ottawa.",
+          "photoAlt": "Doug Ford con chaqueta oscura, fotografiado al aire libre.",
+          "photoCaption": "Foto de archivo (2026-06-24). Doug Ford con chaqueta oscura, fotografiado al aire libre."
+        },
+        "ar": {
+          "title": "دوغ فورد ونقابة يونيفور يطلبان إعفاء مصنّعي السيارات في كندا من غرامات الانبعاثات",
+          "summary": "يريد رئيس حكومة أونتاريو ورئيسة النقابة أن تخفف أوتاوا كلفة تطبيق قواعد انبعاثات سيارات الركاب.",
+          "body": "دعا دوغ فورد ولانا باين في بيان مشترك الحكومة الفدرالية إلى إعفاء الشركات التي تصنّع السيارات في كندا من عقوبات مخالفة اللوائح الخاصة بانبعاثات غازات الدفيئة من سيارات الركاب.\n\nوبحسب ويندسور نيوز توداي، يهدف التحرك المشترك لأونتاريو ويونيفور إلى إبقاء الإنتاج في البلاد. ويستشهد الموقّعان بالرسوم الأميركية ويعتبران أن الغرامات تهدد الوظائف. والقرار بيد أوتاوا.",
+          "photoAlt": "دوغ فورد مرتدياً سترة داكنة في صورة خارجية.",
+          "photoCaption": "صورة أرشيفية (2026-06-24). دوغ فورد مرتدياً سترة داكنة في صورة خارجية."
+        },
+        "zh-CN": {
+          "title": "道格·福特与Unifor工会要求豁免在加拿大生产汽车的企业所面临的排放罚款",
+          "summary": "安大略省省长和工会主席呼吁联邦政府减轻乘用车排放规定带来的成本。",
+          "body": "道格·福特与拉娜·佩恩发表联合声明，要求联邦政府免除在加拿大生产汽车的企业因未达到乘用车温室气体排放规定而面临的罚款。\n\n据温莎新闻今日报道，安省政府和Unifor工会共同提出这一诉求，希望让汽车生产留在加拿大。两人提及美国关税，并认为罚款威胁就业。决定权在联邦政府。",
+          "photoAlt": "在户外身穿深色外套的道格·福特。",
+          "photoCaption": "资料照片 (2026-06-24). 在户外身穿深色外套的道格·福特。"
+        },
+        "ru": {
+          "title": "Даг Форд и Unifor просят освободить производителей автомобилей в Канаде от штрафов за выбросы",
+          "summary": "Премьер Онтарио и глава профсоюза призывают Оттаву снизить издержки от правил по выбросам легковых машин.",
+          "body": "В совместном заявлении Даг Форд и Лана Пейн попросили федеральное правительство освободить компании, выпускающие автомобили в Канаде, от штрафов за несоблюдение нормативов выбросов парниковых газов легковыми автомобилями.\n\nКак сообщает Windsor News Today, правительство Онтарио и Unifor выступили вместе ради сохранения автомобильного производства в стране. Авторы заявления указывают на пошлины США и считают, что штрафы угрожают рабочим местам. Решение принимает Оттава.",
+          "photoAlt": "Даг Форд в тёмном пиджаке на улице.",
+          "photoCaption": "Архивное фото (2026-06-24). Даг Форд в тёмном пиджаке на улице."
+        },
+        "ko": {
+          "title": "더그 포드와 유니포, 캐나다 내 자동차 생산업체에 배출 규정 벌금 면제 요구",
+          "summary": "온타리오주 총리와 노조 위원장은 연방정부에 승용차 배출 규정에 따른 비용을 완화해 달라고 요청했다.",
+          "body": "더그 포드와 라나 페인은 공동성명에서 캐나다에서 자동차를 생산하는 업체들에 승용차 온실가스 배출 규정 미준수에 따른 벌금을 면제해 달라고 연방정부에 촉구했다.\n\n윈저뉴스투데이에 따르면 온타리오주 정부와 유니포는 국내 자동차 생산을 유지하기 위해 뜻을 모았다. 두 사람은 미국 관세를 언급하며 벌금이 일자리를 위협한다고 주장했다. 결정권은 연방정부에 있다.",
+          "photoAlt": "야외에서 어두운 재킷을 입은 더그 포드.",
+          "photoCaption": "자료 사진 (2026-06-24). 야외에서 어두운 재킷을 입은 더그 포드."
+        }
+      },
+      "verified": true,
+      "title": "Doug Ford et Unifor réclament une exemption de pénalités pour les constructeurs qui produisent au Canada",
+      "summary": "Le premier ministre ontarien et la présidente du syndicat demandent à Ottawa d’alléger le coût des règles sur les émissions des voitures particulières.",
+      "body": "Dans une déclaration commune, Doug Ford et Lana Payne demandent au gouvernement fédéral d’exempter les constructeurs qui fabriquent au Canada des pénalités pour non-respect du règlement sur les émissions de gaz à effet de serre des voitures particulières.\n\nSelon Windsor News Today, cette démarche réunit le gouvernement ontarien et Unifor autour du maintien de la production automobile au pays. Les signataires invoquent les droits de douane américains et estiment que les pénalités menacent les emplois. La décision revient à Ottawa.",
+      "photo": {
+        "download": "media/ford.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doug_Ford_-_2026_(cropped).jpg",
+        "credit": "Ambassador Pete Hoekstra / U.S. Department of State",
+        "license": "Domaine public aux États-Unis — œuvre du gouvernement fédéral (17 USC § 105)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Doug_Ford_-_2026_(cropped).jpg#Licensing",
+        "alt": "Doug Ford en veste sombre, photographié à l’extérieur.",
+        "caption": "Photo d’archives (2026-06-24). Doug Ford en veste sombre, photographié à l’extérieur."
+      }
+    },
+    {
+      "eventKey": "montreal-vanier-dawson-greve-loi-neuf-novembre",
+      "category": "Québec",
+      "sources": [
+        {
+          "name": "CityNews Montréal",
+          "url": "https://montreal.citynews.ca/2026/11/26/vanier-students-strike-protest-bill-9/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Dawson Student Union — appel au piquetage",
+          "url": "https://www.instagram.com/p/DgG7of4NYq_/embed/captioned/",
+          "publishedAt": "2026-11-24T02:55:50Z"
+        },
+        {
+          "name": "Cégep Vanier",
+          "url": "https://www.vaniercollege.qc.ca/fr/nouvelles/loi-9-nouvelles-dispositions-sur-la-laicite-des-le-1er-septembre",
+          "publishedAt": "2026-08-28"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Students at Montreal’s Vanier and Dawson colleges protest restrictions on religious practices",
+          "summary": "A one-day student strike challenges Quebec’s secularism law. Vanier’s student association expected about a hundred participants.",
+          "body": "Students at Vanier and Dawson colleges went on strike Thursday to protest restrictions on religious practices on campus, CityNews reports. The organising association at Vanier estimated likely turnout ahead of any final count.\n\nIn a notice published in August, Vanier outlined the provisions in force since September 1. The college distinguishes the ban on religious practices on its premises, including prayer, from wearing religious symbols, which remains permitted there.",
+          "photoAlt": "Entrance to Vanier College in Montreal with its red sign.",
+          "photoCaption": "Archive photo (2020-04-07). Entrance to Vanier College in Montreal with its red sign."
+        },
+        "es": {
+          "title": "Estudiantes de Vanier y Dawson protestan en Montreal contra las restricciones a las prácticas religiosas",
+          "summary": "Una huelga estudiantil de un día cuestiona la ley quebequense de laicidad. La asociación de Vanier esperaba un centenar de participantes.",
+          "body": "Estudiantes de los centros Vanier y Dawson fueron a la huelga el jueves contra las restricciones a las prácticas religiosas en sus campus, según CityNews. La asociación organizadora de Vanier estimó la participación esperada antes de cualquier recuento final.\n\nEn un aviso de agosto, Vanier detalló las disposiciones vigentes desde el 1 de septiembre. El centro distingue la prohibición de prácticas religiosas en sus instalaciones, incluida la oración, del uso de símbolos religiosos, que sigue permitido.",
+          "photoAlt": "Entrada del centro Vanier en Montreal con su letrero rojo.",
+          "photoCaption": "Foto de archivo (2020-04-07). Entrada del centro Vanier en Montreal con su letrero rojo."
+        },
+        "ar": {
+          "title": "طلاب في كليتي فانييه ودوسن بمونتريال يحتجون على قيود الممارسات الدينية",
+          "summary": "يستهدف إضراب طلابي ليوم واحد قانون العلمانية في كيبيك. وتوقعت جمعية طلاب فانييه مشاركة نحو مئة شخص.",
+          "body": "أضرب طلاب من كليتي فانييه ودوسن الخميس احتجاجاً على القيود المفروضة على الممارسات الدينية في الحرم، وفق سيتي نيوز. وقدمت الجمعية المنظمة في فانييه تقديراً للمشاركة المتوقعة قبل أي إحصاء نهائي.\n\nوأوضحت فانييه في إشعار نشرته في أغسطس الأحكام السارية منذ 1 سبتمبر. وميّزت الكلية بين حظر الممارسات الدينية في مبانيها ومنها الصلاة، وبين ارتداء الرموز الدينية الذي يظل مسموحاً.",
+          "photoAlt": "مدخل كلية فانييه في مونتريال وعليه لافتتها الحمراء.",
+          "photoCaption": "صورة أرشيفية (2020-04-07). مدخل كلية فانييه في مونتريال وعليه لافتتها الحمراء."
+        },
+        "zh-CN": {
+          "title": "蒙特利尔瓦尼耶和道森学院学生抗议校园宗教活动限制",
+          "summary": "学生罢课一天，抗议魁北克世俗化法律。瓦尼耶学生会预计约百人参加。",
+          "body": "据CityNews报道，瓦尼耶和道森学院的学生周四举行罢课，抗议校园宗教活动受到限制。瓦尼耶的组织方提供的是预期参加人数，尚非最终统计。\n\n瓦尼耶学院在8月发布的通告中说明了9月1日起实施的规定。学院区分了两件事：校内禁止祈祷等宗教活动，但仍允许佩戴宗教标志。",
+          "photoAlt": "蒙特利尔瓦尼耶学院入口及其红色标牌。",
+          "photoCaption": "资料照片 (2020-04-07). 蒙特利尔瓦尼耶学院入口及其红色标牌。"
+        },
+        "ru": {
+          "title": "Студенты колледжей Ванье и Доусон в Монреале протестуют против ограничений на религиозные практики",
+          "summary": "Однодневная студенческая забастовка направлена против закона Квебека о светском характере учреждений. Ассоциация студентов Ванье ожидала около ста участников.",
+          "body": "По данным CityNews, в четверг студенты колледжей Ванье и Доусон провели забастовку против ограничений на религиозные практики в кампусах. Ассоциация, организовавшая акцию в Ванье, привела ожидаемую численность до окончательного подсчёта.\n\nВ августовском уведомлении Ванье разъяснил положения, действующие с 1 сентября. Колледж разграничивает запрет на религиозные практики на своей территории, в том числе на молитву, и ношение религиозных символов, которое по-прежнему разрешено.",
+          "photoAlt": "Вход в колледж Ванье в Монреале с красной вывеской.",
+          "photoCaption": "Архивное фото (2020-04-07). Вход в колледж Ванье в Монреале с красной вывеской."
+        },
+        "ko": {
+          "title": "몬트리올 바니에·도슨 칼리지 학생들, 교내 종교 활동 제한에 항의",
+          "summary": "퀘벡주 세속주의법에 항의하는 하루 동맹휴업이다. 바니에 학생회는 약 100명의 참여를 예상했다.",
+          "body": "시티뉴스에 따르면 바니에와 도슨 칼리지 학생들은 목요일 교내 종교 활동 제한에 항의해 수업을 거부했다. 바니에에서 행사를 주최한 학생회가 제시한 수치는 최종 집계 전 예상 인원이다.\n\n바니에는 8월 공지에서 9월 1일부터 적용되는 조항을 설명했다. 교내 기도 등 종교 활동은 금지되지만 종교적 상징물 착용은 계속 허용된다고 구분했다.",
+          "photoAlt": "붉은 간판이 보이는 몬트리올 바니에 칼리지 입구.",
+          "photoCaption": "자료 사진 (2020-04-07). 붉은 간판이 보이는 몬트리올 바니에 칼리지 입구."
+        }
+      },
+      "verified": true,
+      "title": "À Montréal, des étudiants de Vanier et de Dawson contestent les restrictions aux pratiques religieuses",
+      "summary": "Une grève étudiante d’une journée vise la loi québécoise sur la laïcité. À Vanier, l’association étudiante attendait une centaine de participants.",
+      "body": "Des étudiants des collèges Vanier et Dawson ont fait grève jeudi pour protester contre les restrictions aux pratiques religieuses sur leur campus, rapporte CityNews. À Vanier, l’association organisatrice a donné une estimation de la participation attendue, avant tout décompte final.\n\nDans un avis publié en août, Vanier précisait les dispositions applicables depuis le 1er septembre. Le collège distingue l’interdiction des pratiques religieuses sur les lieux, dont la prière, du port de signes religieux, qui y demeure permis.",
+      "photo": {
+        "download": "media/vanier.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A9gep_Vanier_College.jpg",
+        "credit": "Pierre5018",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Entrée du collège Vanier à Montréal avec son enseigne rouge.",
+        "caption": "Photo d’archives (2020-04-07). Entrée du collège Vanier à Montréal avec son enseigne rouge."
+      }
+    },
+    {
+      "eventKey": "royaume-uni-solde-migratoire-juin-2026-estimation",
+      "category": "International",
+      "sources": [
+        {
+          "name": "Office for National Statistics",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingjune2026",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Sky News",
+          "url": "https://news.sky.com/story/uk-net-migration-falls-to-77000-latest-data-shows-13616677",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "UK net migration falls to 77,000 over twelve months",
+          "summary": "The Office for National Statistics estimates that long-term arrivals fell faster than departures in the year to June 2026.",
+          "body": "In provisional figures released Thursday, the statistics office counted 738,000 arrivals and 661,000 departures for moves of at least twelve months. The difference was 77,000, compared with a revised estimate of 204,000 the previous year.\n\nSky News notes that, excluding the pandemic, this is the lowest balance recorded since 1997. The office says the fall was driven mainly by fewer arrivals of nationals from outside the group it classifies as EU+.",
+          "photoAlt": "Arrivals board at London Heathrow Terminal 5.",
+          "photoCaption": "Archive photo (2009-02-22). Arrivals board at London Heathrow Terminal 5."
+        },
+        "es": {
+          "title": "El saldo migratorio británico cae a 77.000 personas en un año",
+          "summary": "La Oficina Nacional de Estadística estima que las llegadas de larga duración cayeron más que las salidas en los doce meses hasta junio de 2026.",
+          "body": "En su balance provisional del jueves, la oficina contabiliza 738.000 llegadas y 661.000 salidas por traslados de al menos doce meses. La diferencia fue de 77.000 personas, frente a una cifra revisada de 204.000 el año anterior.\n\nSky News señala que, excluida la pandemia, es el saldo más bajo registrado desde 1997. La oficina explica que el descenso se debe principalmente a la menor llegada de nacionales de países ajenos al grupo que clasifica como UE+.",
+          "photoAlt": "Panel de llegadas en la terminal 5 de Londres-Heathrow.",
+          "photoCaption": "Foto de archivo (2009-02-22). Panel de llegadas en la terminal 5 de Londres-Heathrow."
+        },
+        "ar": {
+          "title": "صافي الهجرة إلى المملكة المتحدة يتراجع إلى 77 ألفاً خلال سنة",
+          "summary": "يقدّر مكتب الإحصاءات الوطنية أن الوافدين للإقامة الطويلة انخفض عددهم بأكثر من المغادرين خلال السنة المنتهية في يونيو 2026.",
+          "body": "في بياناته الأولية المنشورة الخميس أحصى المكتب 738 ألف وافد و661 ألف مغادر لانتقالات مدتها اثنا عشر شهراً على الأقل. وبلغ الفرق 77 ألف شخص مقابل تقدير منقح قدره 204 آلاف للسنة السابقة.\n\nوتشير سكاي نيوز إلى أنه أدنى صافي هجرة مسجّل منذ 1997 باستثناء الجائحة. ويعزو المكتب التراجع أساساً إلى انخفاض عدد الوافدين من مواطني الدول الواقعة خارج المجموعة التي يصنّفها باسم الاتحاد الأوروبي بلس.",
+          "photoAlt": "لوحة الوصول في المبنى الخامس بمطار هيثرو في لندن.",
+          "photoCaption": "صورة أرشيفية (2009-02-22). لوحة الوصول في المبنى الخامس بمطار هيثرو في لندن."
+        },
+        "zh-CN": {
+          "title": "英国过去一年净移民降至7.7万人",
+          "summary": "英国国家统计局估计，在截至2026年6月的一年里，长期移入人数的降幅超过移出人数。",
+          "body": "统计局周四公布的初步数据显示，以迁移至少12个月为标准，移入73.8万人，移出66.1万人。两者相差7.7万人，而前一年的修订估计为20.4万人。\n\n天空新闻指出，若不计疫情期间，这是1997年以来的最低净值。统计局表示，下滑主要源于其统计分类中“欧盟+”以外国家公民的移入人数减少。",
+          "photoAlt": "伦敦希思罗机场五号航站楼的到达信息板。",
+          "photoCaption": "资料照片 (2009-02-22). 伦敦希思罗机场五号航站楼的到达信息板。"
+        },
+        "ru": {
+          "title": "Миграционный прирост Великобритании за год снизился до 77 тысяч человек",
+          "summary": "По оценке Управления национальной статистики, за год по июнь 2026-го число долгосрочных прибытий сократилось сильнее, чем число отъездов.",
+          "body": "В предварительной сводке, опубликованной в четверг, ведомство насчитало 738 тысяч прибывших и 661 тысячу выбывших при переездах как минимум на двенадцать месяцев. Разница составила 77 тысяч против пересмотренной оценки в 204 тысячи годом ранее.\n\nПо данным Sky News, если исключить пандемию, это самый низкий показатель с 1997 года. Ведомство связывает снижение прежде всего с уменьшением числа прибытий граждан стран, не входящих в используемую им группу «ЕС+».",
+          "photoAlt": "Табло прибытия в пятом терминале лондонского аэропорта Хитроу.",
+          "photoCaption": "Архивное фото (2009-02-22). Табло прибытия в пятом терминале лондонского аэропорта Хитроу."
+        },
+        "ko": {
+          "title": "영국 연간 순이민 7만7천 명으로 감소",
+          "summary": "영국 통계청은 2026년 6월까지 1년간 장기 유입 인원이 유출 인원보다 더 많이 줄었다고 추산했다.",
+          "body": "통계청이 목요일 발표한 잠정치에 따르면 12개월 이상 이주한 사람을 기준으로 유입은 73만8천 명, 유출은 66만1천 명이었다. 차이는 7만7천 명으로 전년 수정치 20만4천 명보다 줄었다.\n\n스카이뉴스는 팬데믹 기간을 제외하면 1997년 이래 가장 낮은 순이민 규모라고 전했다. 통계청은 통계상 ‘EU+’로 분류하는 국가군 밖의 국적을 가진 사람들의 유입 감소가 주된 원인이라고 설명했다.",
+          "photoAlt": "런던 히스로공항 제5터미널의 도착 안내판.",
+          "photoCaption": "자료 사진 (2009-02-22). 런던 히스로공항 제5터미널의 도착 안내판."
+        }
+      },
+      "verified": true,
+      "title": "Au Royaume-Uni, le solde migratoire tombe à 77 000 personnes sur un an",
+      "summary": "L’Office for National Statistics estime que les arrivées de longue durée ont diminué plus vite que les départs au cours de l’année terminée en juin 2026.",
+      "body": "Dans son bilan provisoire publié jeudi, l’institut britannique dénombre 738 000 arrivées et 661 000 départs pour des séjours d’au moins douze mois. La différence est de 77 000 personnes, contre 204 000 l’année précédente selon l’estimation révisée.\n\nSky News relève qu’en dehors de la pandémie, il s’agit du solde le plus faible enregistré depuis 1997. L’institut précise que le recul tient principalement à une baisse des arrivées de ressortissants de pays extérieurs au groupe que ses statistiques désignent comme UE+.",
+      "photo": {
+        "download": "media/mig.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arrivals_sign_at_Heathrow_Terminal_5_-_2009-02-22.jpg",
+        "credit": "fsse8info",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+        "alt": "Tableau des arrivées au terminal 5 de Londres-Heathrow.",
+        "caption": "Photo d’archives (2009-02-22). Tableau des arrivées au terminal 5 de Londres-Heathrow."
+      }
+    },
+    {
+      "eventKey": "alberta-npd-confirme-recours-carte-electorale-apres-vote",
+      "category": "Canada",
+      "sources": [
+        {
+          "name": "CityNews Edmonton — déclaration de Naheed Nenshi",
+          "url": "https://edmonton.citynews.ca/2026/11/26/alberta-ndp-legal-challenge-boundary-map/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "La Presse Canadienne / Global News",
+          "url": "https://globalnews.ca/news/12166561/alberta-legislature-riding-maps-debate/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Assemblée législative de l’Alberta — procès-verbal",
+          "url": "https://docs.assembly.ab.ca/LADDAR_files/docs/houserecords/vp/legislature_31/session_2/20261125_1200_01_vp.pdf",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Alberta NDP says it will challenge the new electoral map in court",
+          "summary": "Opposition Leader Naheed Nenshi announced his intention to go to court a day after the legislature voted.",
+          "body": "Alberta’s NDP said Thursday it would bring a legal challenge against the redrawing of electoral boundaries. Naheed Nenshi explained the decision in a statement reported by CityNews. It follows Wednesday’s third-reading vote in Edmonton, which BYRVOX previously covered.\n\nThe legislation increases the number of seats in the assembly from 87 to 91. The NDP says the boundaries dilute the influence of urban voters. Danielle Smith’s government argues that the map improves representation. Thursday’s announcement concerns the party’s intention to take legal action.",
+          "photoAlt": "Front of the Alberta legislature in Edmonton under a cloudy sky.",
+          "photoCaption": "Archive photo (2026-09-27). Front of the Alberta legislature in Edmonton under a cloudy sky."
+        },
+        "es": {
+          "title": "El NPD de Alberta anuncia que impugnará el nuevo mapa electoral ante la justicia",
+          "summary": "El líder de la oposición Naheed Nenshi anunció su intención de acudir a los tribunales un día después de la votación en la Asamblea.",
+          "body": "El NPD de Alberta anunció el jueves que emprenderá acciones judiciales contra la redistribución de las circunscripciones. Naheed Nenshi explicó la decisión en un comunicado recogido por CityNews. El miércoles la Asamblea aprobó el texto en tercera lectura en Edmonton, votación de la que ya informó BYRVOX.\n\nEl proyecto eleva de 87 a 91 los escaños de la Asamblea. El NPD sostiene que el trazado diluye el peso de los votantes urbanos. El gobierno de Danielle Smith defiende que el mapa mejora la representación. El anuncio del jueves se refiere a la intención del partido de recurrir a la justicia.",
+          "photoAlt": "Fachada de la Asamblea Legislativa de Alberta en Edmonton bajo un cielo nublado.",
+          "photoCaption": "Foto de archivo (2026-09-27). Fachada de la Asamblea Legislativa de Alberta en Edmonton bajo un cielo nublado."
+        },
+        "ar": {
+          "title": "الحزب الديمقراطي الجديد في ألبرتا يعلن عزمه الطعن قضائياً في خريطة الدوائر الانتخابية",
+          "summary": "أعلن زعيم المعارضة ناهيد نينشي عزمه اللجوء إلى القضاء بعد يوم من تصويت المجلس التشريعي.",
+          "body": "قال الحزب الديمقراطي الجديد في ألبرتا الخميس إنه سيطعن أمام القضاء في إعادة رسم الدوائر الانتخابية. وشرح ناهيد نينشي القرار في بيان نقلته سيتي نيوز. وجاء ذلك بعد إقرار النص في القراءة الثالثة الأربعاء في إدمونتون، في تصويت سبق أن غطته BYRVOX.\n\nيرفع المشروع عدد مقاعد المجلس من 87 إلى 91. ويقول الحزب إن الحدود الجديدة تضعف وزن ناخبي المدن. وتدافع حكومة دانييل سميث عن الخريطة باعتبار أنها تحسّن التمثيل. ويتعلق إعلان الخميس باعتزام الحزب اللجوء إلى القضاء.",
+          "photoAlt": "واجهة المجلس التشريعي لألبرتا في إدمونتون تحت سماء غائمة.",
+          "photoCaption": "صورة أرشيفية (2026-09-27). واجهة المجلس التشريعي لألبرتا في إدمونتون تحت سماء غائمة."
+        },
+        "zh-CN": {
+          "title": "阿尔伯塔省新民主党宣布将对新选区图提起司法挑战",
+          "summary": "省议会投票翌日，反对党领袖纳希德·嫩希宣布打算诉诸法院。",
+          "body": "阿尔伯塔省新民主党周四表示，将就重新划分选区采取法律行动。CityNews报道了纳希德·嫩希解释这一决定的声明。此前，省议会周三在埃德蒙顿三读通过了相关法案，BYRVOX已报道这次表决。\n\n法案将议席从87个增至91个。新民主党认为，新边界削弱城市选民的影响力。丹妮尔·史密斯政府则称这有助于改善选民代表性。该党周四宣布的是提起法律行动的意向。",
+          "photoAlt": "阴云下埃德蒙顿的阿尔伯塔省议会大厦正面。",
+          "photoCaption": "资料照片 (2026-09-27). 阴云下埃德蒙顿的阿尔伯塔省议会大厦正面。"
+        },
+        "ru": {
+          "title": "Новые демократы Альберты объявили, что оспорят новую карту округов в суде",
+          "summary": "Лидер оппозиции Нахид Ненши объявил о намерении обратиться в суд на следующий день после голосования в парламенте провинции.",
+          "body": "Новая демократическая партия Альберты сообщила в четверг, что оспорит изменение границ округов в суде. Нахид Ненши объяснил решение в заявлении, о котором сообщило CityNews. В среду в Эдмонтоне законопроект прошёл третье чтение. BYRVOX уже освещал это голосование.\n\nПроект увеличивает число мест в парламенте с 87 до 91. По мнению новых демократов, границы снижают влияние городских избирателей. Правительство Даниэль Смит утверждает, что карта улучшит представительство. В четверг партия заявила о намерении начать судебное разбирательство.",
+          "photoAlt": "Фасад парламента Альберты в Эдмонтоне под облачным небом.",
+          "photoCaption": "Архивное фото (2026-09-27). Фасад парламента Альберты в Эдмонтоне под облачным небом."
+        },
+        "ko": {
+          "title": "앨버타 신민주당, 새 선거구 지도에 소송 제기 방침",
+          "summary": "나히드 넨시 야당 대표가 주의회 표결 이튿날 법원에 가겠다는 뜻을 밝혔다.",
+          "body": "앨버타 신민주당은 목요일 선거구 재획정에 대해 법적 대응에 나서겠다고 밝혔다. 나히드 넨시는 시티뉴스가 보도한 성명에서 배경을 설명했다. 앞서 수요일 에드먼턴에서 법안이 주의회 3독회를 통과했고 BYRVOX는 이 표결을 보도했다.\n\n법안은 의석수를 87석에서 91석으로 늘린다. 신민주당은 새 경계가 도시 유권자의 영향력을 약화한다고 주장한다. 대니엘 스미스 주정부는 대표성을 높이는 조치라고 밝혔다. 목요일 발표는 소송을 내겠다는 당의 방침에 관한 것이다.",
+          "photoAlt": "구름 낀 하늘 아래 에드먼턴에 있는 앨버타 주의회 건물 정면.",
+          "photoCaption": "자료 사진 (2026-09-27). 구름 낀 하늘 아래 에드먼턴에 있는 앨버타 주의회 건물 정면."
+        }
+      },
+      "verified": true,
+      "title": "Alberta : le NPD annonce qu’il contestera la nouvelle carte électorale devant les tribunaux",
+      "summary": "Au lendemain du vote à l’Assemblée, le chef de l’opposition Naheed Nenshi a annoncé son intention de saisir la justice.",
+      "body": "Le NPD albertain a annoncé jeudi qu’il engagerait un recours contre le redécoupage électoral. Naheed Nenshi a expliqué sa décision dans une déclaration rapportée par CityNews. Cette annonce vient après l’adoption du texte en troisième lecture mercredi à Edmonton, un vote dont BYRVOX avait rendu compte.\n\nLe projet porte de 87 à 91 le nombre de sièges à l’Assemblée. Selon le NPD, le tracé dilue le poids des électeurs urbains. Le gouvernement de Danielle Smith défend la carte au nom d’une représentation plus efficace. L’annonce de jeudi porte sur l’intention du parti de saisir la justice.",
+      "photo": {
+        "download": "media/alb.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alberta_Legislature_Building,_Edmonton,_Alberta,_2026-09-27_09.jpg",
+        "credit": "Chris Woodrich",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Façade de l’Assemblée législative de l’Alberta à Edmonton sous un ciel nuageux.",
+        "caption": "Photo d’archives (2026-09-27). Façade de l’Assemblée législative de l’Alberta à Edmonton sous un ciel nuageux."
+      }
+    },
+    {
+      "eventKey": "nouveau-brunswick-tracey-deware-juge-en-chef",
+      "category": "Justice",
+      "sources": [
+        {
+          "name": "Cabinet du premier ministre du Canada",
+          "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/26/prime-minister-carney-announces-appointment-new-chief-justice-new",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "La Presse Canadienne / Global News",
+          "url": "https://globalnews.ca/news/12167347/tracey-deware-chief-justice-new-brunswick/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Tracey DeWare named chief justice of New Brunswick",
+          "summary": "Mark Carney announced the appointment of the judge who had headed the province’s Court of King’s Bench since 2019.",
+          "body": "Tracey K. DeWare succeeds J.C. Marc Richard as chief justice of New Brunswick, the prime minister’s office announced Thursday. Her predecessor elected to become a supernumerary judge effective August 1, 2026.\n\nThe Canadian Press notes that the new chief justice joined the province’s superior trial court in 2012 in its Family Division. Before becoming a judge, she practised law in areas including insurance and medical malpractice.",
+          "photoAlt": "Portrait of Mark Carney, who announced the appointment.",
+          "photoCaption": "Archive photo (2025-06-15). Portrait of Mark Carney, who announced the appointment."
+        },
+        "es": {
+          "title": "Tracey DeWare es nombrada presidenta de la judicatura de Nuevo Brunswick",
+          "summary": "Mark Carney anunció el nombramiento de la jueza que presidía desde 2019 el Tribunal del Banco del Rey de la provincia.",
+          "body": "Tracey K. DeWare sucede a J. C. Marc Richard al frente de la judicatura de Nuevo Brunswick, anunció el jueves la oficina del primer ministro. Su predecesor optó por pasar al régimen de juez supernumerario a partir del 1 de agosto de 2026.\n\nThe Canadian Press recuerda que la nueva presidenta ingresó en 2012 en la división de familia del tribunal superior de primera instancia provincial. Antes de ser jueza ejercía la abogacía en ámbitos como los seguros y la responsabilidad médica.",
+          "photoAlt": "Retrato de Mark Carney, quien anunció el nombramiento.",
+          "photoCaption": "Foto de archivo (2025-06-15). Retrato de Mark Carney, quien anunció el nombramiento."
+        },
+        "ar": {
+          "title": "تعيين تريسي ديوير رئيسة للقضاء في نيو برونزويك",
+          "summary": "أعلن مارك كارني تعيين القاضية التي ترأست محكمة مقعد الملك في المقاطعة منذ 2019.",
+          "body": "أعلن مكتب رئيس الوزراء الخميس أن تريسي كاي ديوير تخلف جاي سي مارك ريتشارد في رئاسة القضاء بنيو برونزويك. وكان سلفها قد اختار الانتقال إلى وضع القاضي الإضافي ابتداء من 1 أغسطس 2026.\n\nوذكرت وكالة الصحافة الكندية أنها انضمت عام 2012 إلى دائرة الأسرة في محكمة الدرجة الأولى العليا بالمقاطعة. وقبل تعيينها قاضية كانت محامية تعمل في مجالات منها التأمين والمسؤولية الطبية.",
+          "photoAlt": "صورة لمارك كارني الذي أعلن التعيين.",
+          "photoCaption": "صورة أرشيفية (2025-06-15). صورة لمارك كارني الذي أعلن التعيين."
+        },
+        "zh-CN": {
+          "title": "特蕾西·德韦尔获任新不伦瑞克省首席大法官",
+          "summary": "马克·卡尼宣布这项任命。德韦尔自2019年起一直担任该省王座法院首席法官。",
+          "body": "加拿大总理办公室周四宣布，特蕾西·K·德韦尔接替J.C.马克·理查德，出任新不伦瑞克省首席大法官。理查德选择自2026年8月1日起转为编外法官。\n\n加拿大通讯社指出，德韦尔于2012年加入该省高等审判法院的家事庭。在担任法官之前，她是执业律师，处理保险和医疗过失等领域的案件。",
+          "photoAlt": "宣布任命的马克·卡尼的肖像。",
+          "photoCaption": "资料照片 (2025-06-15). 宣布任命的马克·卡尼的肖像。"
+        },
+        "ru": {
+          "title": "Трейси Деуэр назначена главным судьёй Нью-Брансуика",
+          "summary": "Марк Карни объявил о назначении судьи, которая с 2019 года возглавляла Суд королевской скамьи провинции.",
+          "body": "Трейси К. Деуэр сменяет Дж. С. Марка Ришара на посту главного судьи Нью-Брансуика, сообщила в четверг канцелярия премьер-министра. Её предшественник с 1 августа 2026 года перешёл на статус сверхштатного судьи.\n\nКак напоминает The Canadian Press, в 2012 году Деуэр стала судьёй семейного отделения высшего суда первой инстанции провинции. До назначения она занималась адвокатской практикой, в том числе делами о страховании и врачебных ошибках.",
+          "photoAlt": "Портрет Марка Карни, объявившего о назначении.",
+          "photoCaption": "Архивное фото (2025-06-15). Портрет Марка Карни, объявившего о назначении."
+        },
+        "ko": {
+          "title": "트레이시 드웨어, 뉴브런즈윅주 수석대법관에 임명",
+          "summary": "마크 카니 총리는 2019년부터 주 왕좌법원을 이끌어 온 드웨어 판사의 임명을 발표했다.",
+          "body": "캐나다 총리실은 목요일 트레이시 K. 드웨어가 J.C. 마크 리샤르의 뒤를 이어 뉴브런즈윅주 수석대법관을 맡는다고 밝혔다. 전임자는 2026년 8월 1일부터 업무량을 줄이는 정원 외 판사 신분으로 전환했다.\n\n캐나디안프레스에 따르면 드웨어는 2012년 주 상급 1심 법원 가사부 판사로 임명됐다. 판사가 되기 전에는 변호사로서 보험과 의료과실 등의 사건을 다뤘다.",
+          "photoAlt": "임명을 발표한 마크 카니의 초상.",
+          "photoCaption": "자료 사진 (2025-06-15). 임명을 발표한 마크 카니의 초상."
+        }
+      },
+      "verified": true,
+      "title": "Tracey DeWare devient juge en chef du Nouveau-Brunswick",
+      "summary": "Mark Carney a annoncé la nomination de la magistrate qui dirigeait la Cour du Banc du Roi de la province depuis 2019.",
+      "body": "Tracey K. DeWare succède à J. C. Marc Richard à titre de juge en chef du Nouveau-Brunswick, a annoncé jeudi le cabinet du premier ministre. Son prédécesseur avait choisi de passer au statut de juge surnuméraire à compter du 1er août 2026.\n\nLa Presse Canadienne rappelle que la nouvelle juge en chef a été nommée en 2012 à la Division de la famille de la cour supérieure de première instance du Nouveau-Brunswick. Avant sa nomination comme juge, elle exerçait comme avocate, notamment dans les dossiers d’assurance et de responsabilité médicale.",
+      "photo": {
+        "download": "media/judge.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Mark_Carney_-_2025_(54591686189)_(cropped).jpg",
+        "credit": "Simon Dawson / Number 10",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.en",
+        "alt": "Portrait de Mark Carney, qui a annoncé la nomination.",
+        "caption": "Photo d’archives (2025-06-15). Portrait de Mark Carney, qui a annoncé la nomination."
+      }
+    },
+    {
+      "eventKey": "nackawic-millville-avis-expropriation-terrains-papetiere",
+      "category": "Canada",
+      "sources": [
+        {
+          "name": "La Presse Canadienne / Global News",
+          "url": "https://globalnews.ca/news/12167386/nackawic-expropriate-land-closed-mill/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "River Valley Sun",
+          "url": "https://rivervalleysun.ca/nackawic-millville-investigating-whether-it-can-expropriate-land-owned-by-av-nackawic/",
+          "publishedAt": "2026-11-20"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Nackawic-Millville prepares expropriation notice for land around pulp mill",
+          "summary": "The New Brunswick municipality wants to secure about 77 acres for industrial use after the mill closure.",
+          "body": "Mayor Tim Fox told The Canadian Press that talks with AV Group NB on the price of the land had lasted about two years without agreement. The company’s decision to offer its local properties for sale together prompted concern that the parcels might change hands.\n\nThe River Valley Sun reported that council authorised preparation and filing of a notice of intent. On Thursday the mayor expected to serve it in the coming days. The company can object and seek a hearing. Ownership has therefore yet to transfer.",
+          "photoAlt": "Aerial view of the Nackawic pulp mill.",
+          "photoCaption": "Archive photo (2026-04-28). Aerial view of the Nackawic pulp mill."
+        },
+        "es": {
+          "title": "Nackawic-Millville prepara un aviso de expropiación de terrenos junto a la fábrica de celulosa",
+          "summary": "El municipio de Nuevo Brunswick quiere reservar unas 77 acres para usos industriales tras el cierre de la planta.",
+          "body": "El alcalde Tim Fox dijo a The Canadian Press que las conversaciones con AV Group NB sobre el precio duraron unos dos años sin acuerdo. La decisión de la empresa de poner a la venta sus propiedades locales en conjunto suscitó el temor de que los terrenos cambiaran de manos.\n\nEl River Valley Sun informó que el concejo autorizó preparar y registrar un aviso de intención. El jueves el alcalde esperaba notificarlo en los próximos días. La empresa podrá oponerse y solicitar una audiencia. La propiedad aún no se ha transferido.",
+          "photoAlt": "Vista aérea de la fábrica de celulosa de Nackawic.",
+          "photoCaption": "Foto de archivo (2026-04-28). Vista aérea de la fábrica de celulosa de Nackawic."
+        },
+        "ar": {
+          "title": "ناكويك-ميلفيل تعدّ إخطاراً بنزع ملكية أراض حول مصنع لب الورق",
+          "summary": "تريد بلدية نيو برونزويك تخصيص نحو 77 أكراً لاستخدامات صناعية بعد إغلاق المصنع.",
+          "body": "قال رئيس البلدية تيم فوكس لوكالة الصحافة الكندية إن المفاوضات مع شركة AV Group NB حول ثمن الأراضي استمرت نحو عامين دون اتفاق. وأثار عرض الشركة ممتلكاتها المحلية للبيع دفعة واحدة مخاوف البلدية من انتقال القطع إلى طرف آخر.\n\nوأفادت ريفر فالي صن بأن المجلس أجاز إعداد وإيداع إخطار بالنية. وكان فوكس يتوقع الخميس تبليغه خلال الأيام المقبلة. وللشركة حق الاعتراض وطلب جلسة استماع، لذا لم تنتقل الملكية بعد.",
+          "photoAlt": "منظر جوي لمصنع لب الورق في ناكويك.",
+          "photoCaption": "صورة أرشيفية (2026-04-28). منظر جوي لمصنع لب الورق في ناكويك."
+        },
+        "zh-CN": {
+          "title": "纳卡威克-米尔维尔筹备征收纸浆厂周边土地的通知",
+          "summary": "新不伦瑞克省这个市镇想在工厂关闭后保留约77英亩土地作工业用途。",
+          "body": "市长蒂姆·福克斯告诉加拿大通讯社，当地与AV Group NB就地价谈判了约两年，未能达成协议。公司将当地物业打包出售，市镇担心这些地块会转手。\n\n据《河谷太阳报》报道，议会已授权编制并提交征收意向通知。市长周四预计将在未来几天送达通知。公司可以提出异议并要求听证，土地所有权尚未转移。",
+          "photoAlt": "纳卡威克纸浆厂的鸟瞰图。",
+          "photoCaption": "资料照片 (2026-04-28). 纳卡威克纸浆厂的鸟瞰图。"
+        },
+        "ru": {
+          "title": "Нэкавик-Миллвилл готовит уведомление об изъятии земли вокруг целлюлозного завода",
+          "summary": "Муниципалитет Нью-Брансуика хочет сохранить около 77 акров для промышленного использования после закрытия предприятия.",
+          "body": "Мэр Тим Фокс рассказал The Canadian Press, что переговоры с AV Group NB о цене земли шли около двух лет без результата. Решение компании выставить всю местную недвижимость на продажу одним пакетом вызвало опасения, что участки перейдут в другие руки.\n\nПо данным River Valley Sun, совет разрешил подготовить и подать уведомление о намерении изъять землю. В четверг мэр рассчитывал вручить его в ближайшие дни. Компания может возразить и потребовать слушаний. Право собственности пока не перешло.",
+          "photoAlt": "Вид с воздуха на целлюлозный завод Нэкавика.",
+          "photoCaption": "Архивное фото (2026-04-28). Вид с воздуха на целлюлозный завод Нэкавика."
+        },
+        "ko": {
+          "title": "내커윅밀빌, 펄프 공장 주변 토지 수용 통지 준비",
+          "summary": "뉴브런즈윅주의 이 지방자치단체는 공장 폐쇄 이후 약 77에이커를 산업용으로 확보하려 한다.",
+          "body": "팀 폭스 시장은 캐나디안프레스에 AV 그룹 NB와 약 2년간 땅값을 협상했으나 합의하지 못했다고 말했다. 회사가 현지 부동산을 한꺼번에 매물로 내놓자 시는 부지가 제삼자에게 넘어갈 수 있다고 우려했다.\n\n리버밸리선에 따르면 의회는 수용 의향 통지서의 작성과 제출을 승인했다. 시장은 목요일 앞으로 며칠 안에 통지서를 송달할 예정이라고 밝혔다. 회사는 이의를 제기하고 청문회를 요청할 수 있다. 소유권은 아직 이전되지 않았다.",
+          "photoAlt": "내커윅 펄프 공장의 항공 사진.",
+          "photoCaption": "자료 사진 (2026-04-28). 내커윅 펄프 공장의 항공 사진."
+        }
+      },
+      "verified": true,
+      "title": "Nackawic-Millville prépare un avis d’expropriation pour des terrains autour de la papetière",
+      "summary": "La municipalité du Nouveau-Brunswick veut réserver environ 77 acres à des usages industriels après la fermeture de l’usine.",
+      "body": "Le maire Tim Fox a expliqué à La Presse Canadienne que les pourparlers avec AV Group NB sur le prix des terrains avaient duré environ deux ans sans aboutir. La mise en vente groupée des propriétés locales de l’entreprise a fait craindre à la municipalité que ces parcelles changent de mains.\n\nLe River Valley Sun a rapporté que le conseil avait autorisé la préparation et le dépôt d’un avis d’intention. Jeudi, le maire prévoyait de le signifier dans les prochains jours. L’entreprise pourra s’y opposer et demander une audience. La propriété des terrains n’a donc pas encore été transférée.",
+      "photo": {
+        "download": "media/mill.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AV_Nackawic_Inc_(pulp_mill).jpg",
+        "credit": "Quintin Soloviev",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.en",
+        "alt": "Vue aérienne de l’usine de pâte à papier de Nackawic.",
+        "caption": "Photo d’archives (2026-04-28). Vue aérienne de l’usine de pâte à papier de Nackawic."
+      }
+    },
+    {
+      "eventKey": "port-coquitlam-suspend-demandes-logements-loi-quarante-quatre",
+      "category": "Logement",
+      "sources": [
+        {
+          "name": "CityNews Vancouver — entretien avec le maire",
+          "url": "https://vancouver.citynews.ca/2026/11/26/poco-pauses-bill-44/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Tri-Cities Dispatch",
+          "url": "https://tricitiesdispatch.com/poco-looks-to-scrap-small-scale-housing-legislation/",
+          "publishedAt": "2026-11-25T02:26:34Z"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Port Coquitlam pauses review of new applications for small multi-unit housing",
+          "summary": "The measure covers projects relying on provincial Bill 44. The city will continue processing existing applications.",
+          "body": "Port Coquitlam Mayor Brad West confirmed to CityNews Thursday that council had instructed staff to pause review of new applications relying on Bill 44. The British Columbia law allowed multiple homes to be built on lots previously set aside for single-family houses.\n\nAccording to the Tri-Cities Dispatch, council voted unanimously on Tuesday and applications already under review will keep their place. The mayor says he wants to focus higher-density development where parks, utilities and public transit can support growth.",
+          "photoAlt": "View of Port Coquitlam, its rail yard and hills on the horizon.",
+          "photoCaption": "Archive photo (2011-06-25). View of Port Coquitlam, its rail yard and hills on the horizon."
+        },
+        "es": {
+          "title": "Port Coquitlam suspende la revisión de nuevas solicitudes para pequeños edificios de varias viviendas",
+          "summary": "La medida abarca los proyectos amparados en la ley provincial 44. El municipio seguirá tramitando las solicitudes en curso.",
+          "body": "El alcalde de Port Coquitlam, Brad West, confirmó el jueves a CityNews que el concejo ordenó suspender el examen de nuevas solicitudes amparadas en la ley 44. La norma de Columbia Británica permitió construir varias viviendas en terrenos antes reservados a casas unifamiliares.\n\nSegún el Tri-Cities Dispatch, la moción se aprobó por unanimidad el martes y se respetará el turno de las solicitudes ya en trámite. El alcalde quiere concentrar la densificación donde los parques, los servicios y el transporte público puedan sostener el crecimiento.",
+          "photoAlt": "Vista de Port Coquitlam, su playa de vías y las colinas en el horizonte.",
+          "photoCaption": "Foto de archivo (2011-06-25). Vista de Port Coquitlam, su playa de vías y las colinas en el horizonte."
+        },
+        "ar": {
+          "title": "بورت كوكيتلام تعلّق النظر في طلبات جديدة لمبانٍ سكنية صغيرة متعددة الوحدات",
+          "summary": "يشمل الإجراء المشاريع المستندة إلى قانون المقاطعة رقم 44. وستواصل المدينة معالجة الطلبات القائمة.",
+          "body": "أكد رئيس بلدية بورت كوكيتلام براد ويست لسيتي نيوز الخميس أن المجلس طلب تعليق دراسة الطلبات الجديدة القائمة على القانون 44. وكان هذا القانون في كولومبيا البريطانية قد سمح ببناء عدة وحدات على أراضٍ مخصصة سابقاً لمنازل الأسرة الواحدة.\n\nوأفادت صحيفة تراي سيتيز ديسباتش بأن المجلس أقر الاقتراح بالإجماع الثلاثاء، وستحتفظ الطلبات قيد الدرس بدورها. ويقول رئيس البلدية إنه يريد تركيز الزيادة في الكثافة السكانية حيث تستطيع الحدائق والمرافق والنقل العام تلبية احتياجات النمو.",
+          "photoAlt": "منظر لمدينة بورت كوكيتلام وساحة فرز القطارات والتلال عند الأفق.",
+          "photoCaption": "صورة أرشيفية (2011-06-25). منظر لمدينة بورت كوكيتلام وساحة فرز القطارات والتلال عند الأفق."
+        },
+        "zh-CN": {
+          "title": "高贵林港暂停审理部分新提交的小型多户住宅申请",
+          "summary": "暂停措施适用于依据省第44号法案的项目，市府将继续处理已受理的申请。",
+          "body": "高贵林港市长布拉德·韦斯特周四向CityNews证实，市议会已要求工作人员暂停审理依据第44号法案提出的新申请。这项不列颠哥伦比亚省法律允许在过去仅能建独立住宅的地块上建设多套住房。\n\n据《Tri-Cities Dispatch》报道，市议会周二一致通过动议，已经开始审理的申请将保留原有顺序。市长表示，希望将增加住房密度的项目集中在公园、市政设施和公共交通能承载增长的地区。",
+          "photoAlt": "远眺高贵林港市、铁路编组场和天边的山丘。",
+          "photoCaption": "资料照片 (2011-06-25). 远眺高贵林港市、铁路编组场和天边的山丘。"
+        },
+        "ru": {
+          "title": "Порт-Кокитлам приостановил рассмотрение новых заявок на небольшие многоквартирные дома",
+          "summary": "Мера касается проектов, основанных на законе провинции № 44. Город продолжит рассматривать уже принятые заявки.",
+          "body": "Мэр Порт-Кокитлама Брэд Уэст подтвердил CityNews в четверг, что совет поручил приостановить рассмотрение новых заявок, основанных на законе № 44. Этот закон Британской Колумбии разрешил строить несколько квартир на участках, прежде отведённых под односемейные дома.\n\nПо данным Tri-Cities Dispatch, совет единогласно принял решение во вторник, а заявки, уже находящиеся на рассмотрении, сохранят свою очередь. Мэр хочет сосредоточить более плотную застройку там, где парки, коммунальные службы и общественный транспорт могут обеспечить потребности растущего населения.",
+          "photoAlt": "Вид на Порт-Кокитлам, сортировочную станцию и холмы на горизонте.",
+          "photoCaption": "Архивное фото (2011-06-25). Вид на Порт-Кокитлам, сортировочную станцию и холмы на горизонте."
+        },
+        "ko": {
+          "title": "포트코퀴틀럼, 소규모 다세대주택 신규 신청 일부 심사 중단",
+          "summary": "주 법률 제44호에 근거한 사업이 대상이다. 시는 기존 신청은 계속 처리한다.",
+          "body": "브래드 웨스트 포트코퀴틀럼 시장은 목요일 시티뉴스에 시의회가 주 법률 제44호에 근거한 신규 신청의 심사를 중단하도록 했다고 밝혔다. 브리티시컬럼비아주의 이 법은 단독주택만 허용되던 부지에 여러 가구의 주택을 지을 수 있게 했다.\n\n트라이시티스 디스패치에 따르면 시의회는 화요일 동의안을 만장일치로 통과시켰고 이미 심사 중인 신청은 기존 순서를 유지한다. 시장은 공원과 기반시설, 대중교통이 인구 증가를 감당할 수 있는 곳에 고밀도 개발을 집중하고 싶다고 밝혔다.",
+          "photoAlt": "포트코퀴틀럼 시가지와 철도 조차장, 지평선의 언덕이 보인다.",
+          "photoCaption": "자료 사진 (2011-06-25). 포트코퀴틀럼 시가지와 철도 조차장, 지평선의 언덕이 보인다."
+        }
+      },
+      "verified": true,
+      "title": "Port Coquitlam suspend l’examen de nouvelles demandes de petits immeubles à logements multiples",
+      "summary": "La mesure vise les projets qui se fondent sur la loi provinciale 44. La Ville continuera de traiter les dossiers déjà ouverts.",
+      "body": "Le maire de Port Coquitlam, Brad West, a confirmé jeudi à CityNews que le conseil avait demandé de suspendre l’examen des nouvelles demandes qui s’appuient sur la loi 44. Cette loi de la Colombie-Britannique a permis de construire plusieurs logements sur des terrains auparavant réservés aux maisons individuelles.\n\nSelon le Tri-Cities Dispatch, la motion a été adoptée à l’unanimité mardi et les projets dont la demande est déjà à l’étude gardent leur place. Le maire dit vouloir concentrer la densification là où les parcs, les services et le transport collectif peuvent soutenir la croissance.",
+      "photo": {
+        "download": "media/poco.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canadian_Pacific_Railway_yard,_Port_Coquitlam_BC_(5945915219).jpg",
+        "credit": "Roy Luck",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.en",
+        "alt": "Vue de Port Coquitlam, de sa gare de triage et des collines à l’horizon.",
+        "caption": "Photo d’archives (2011-06-25). Vue de Port Coquitlam, de sa gare de triage et des collines à l’horizon."
+      }
+    },
+    {
+      "eventKey": "colombie-britannique-lettres-mandat-critique-climat",
+      "category": "Environnement",
+      "sources": [
+        {
+          "name": "Gouvernement de la Colombie-Britannique",
+          "url": "https://archive.news.gov.bc.ca/releases/news_releases_2026-2030/2026PREM0072-001146.htm",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "CityNews Vancouver",
+          "url": "https://vancouver.citynews.ca/2026/11/26/cons-first-cabinet-meeting/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Wilderness Committee questions the place of climate in B.C. ministers’ mandates",
+          "summary": "Lorne Doerkson’s government wants each minister to set a measurable goal and a deadline.",
+          "body": "The Wilderness Committee is concerned about how the new British Columbia government’s mandate letters address climate. In a CityNews report published Thursday, the group’s Torrance Coste said even the mandates for environment, energy and mines, and emergency management leave out the climate crisis.\n\nIn his November 24 instructions, Premier Lorne Doerkson asked each minister to specify an expected result and a delivery date. Requests for new funding must go through the Treasury Board, which must assess the cost to taxpayers among other factors.",
+          "photoAlt": "Boats in Victoria harbour in front of the B.C. legislature, in black and white.",
+          "photoCaption": "Archive photo (2014-08-01). Boats in Victoria harbour in front of the B.C. legislature, in black and white."
+        },
+        "es": {
+          "title": "El Wilderness Committee cuestiona el lugar del clima en los mandatos ministeriales de Columbia Británica",
+          "summary": "El gobierno de Lorne Doerkson pide a cada ministro un objetivo medible y un plazo.",
+          "body": "Al Wilderness Committee le preocupa el trato que recibe el clima en las cartas de mandato del nuevo gobierno de Columbia Británica. En un reportaje publicado por CityNews el jueves, Torrance Coste, de la organización, señaló que hasta los mandatos de Medio Ambiente, Energía y Minas y Gestión de Emergencias omiten la crisis climática.\n\nEn sus instrucciones del 24 de noviembre, el primer ministro provincial Lorne Doerkson pidió a cada ministro un resultado concreto y una fecha de entrega. Las solicitudes de nuevos fondos deben pasar por el Consejo del Tesoro, que debe evaluar, entre otros aspectos, el coste para los contribuyentes.",
+          "photoAlt": "Barcos en el puerto de Victoria frente al Parlamento de Columbia Británica, en blanco y negro.",
+          "photoCaption": "Foto de archivo (2014-08-01). Barcos en el puerto de Victoria frente al Parlamento de Columbia Británica, en blanco y negro."
+        },
+        "ar": {
+          "title": "منظمة بيئية تنتقد موقع المناخ في تكليفات وزراء كولومبيا البريطانية",
+          "summary": "تطلب حكومة لورن دوركسون من كل وزير تحديد نتيجة قابلة للقياس وموعد لتحقيقها.",
+          "body": "أعربت منظمة وايلدرنس كوميتي عن قلقها من موقع المناخ في خطابات التكليف الصادرة عن الحكومة الجديدة في كولومبيا البريطانية. وفي تقرير نشرته سيتي نيوز الخميس، قال تورانس كوست من المنظمة إن أزمة المناخ غائبة حتى عن تكليفات البيئة والطاقة والمناجم وإدارة الطوارئ.\n\nطلب رئيس حكومة المقاطعة لورن دوركسون في توجيهاته في 24 نوفمبر من كل وزير تحديد النتيجة المتوقعة وموعد تحقيقها. ويجب أن تمر طلبات التمويل الجديد بمجلس الخزانة الذي يقيّم، ضمن أمور أخرى، التكلفة على دافعي الضرائب.",
+          "photoAlt": "صورة بالأبيض والأسود لقوارب في ميناء فيكتوريا أمام برلمان كولومبيا البريطانية.",
+          "photoCaption": "صورة أرشيفية (2014-08-01). صورة بالأبيض والأسود لقوارب في ميناء فيكتوريا أمام برلمان كولومبيا البريطانية."
+        },
+        "zh-CN": {
+          "title": "环保团体质疑不列颠哥伦比亚省部长任务书忽略气候问题",
+          "summary": "洛恩·德尔克森政府要求每位部长提出可衡量的目标和完成期限。",
+          "body": "环保组织荒野委员会对不列颠哥伦比亚省新政府在部长任务书中如何处理气候问题表示担忧。CityNews周四刊发的报道中，该组织的托兰斯·科斯特说，甚至环境、能源与矿业、应急管理部门的任务书都没有提到气候危机。\n\n省长洛恩·德尔克森在11月24日的指示中要求各部长列明预期成果和完成日期。新增拨款申请须提交财政委员会审核，纳税人承担的费用是评估因素之一。",
+          "photoAlt": "黑白照片中，维多利亚港内的船只后方是不列颠哥伦比亚省议会大厦。",
+          "photoCaption": "资料照片 (2014-08-01). 黑白照片中，维多利亚港内的船只后方是不列颠哥伦比亚省议会大厦。"
+        },
+        "ru": {
+          "title": "Экологи критикуют подход к климату в поручениях министрам Британской Колумбии",
+          "summary": "Правительство Лорна Дёрксона требует от каждого министра измеримого результата и срока его достижения.",
+          "body": "Организацию Wilderness Committee беспокоит, как новое правительство Британской Колумбии отразило вопросы климата в поручениях министрам. В опубликованном в четверг репортаже CityNews Торранс Косте из этой организации отметил, что климатический кризис не упоминается даже в поручениях по вопросам окружающей среды, энергетики и горного дела, а также чрезвычайных ситуаций.\n\nВ указаниях от 24 ноября премьер провинции Лорн Дёрксон потребовал от каждого министра назвать ожидаемый результат и дату его достижения. Заявки на новое финансирование рассматривает Совет казначейства, который, в частности, оценивает затраты для налогоплательщиков.",
+          "photoAlt": "Чёрно-белый снимок лодок в гавани Виктории на фоне парламента Британской Колумбии.",
+          "photoCaption": "Архивное фото (2014-08-01). Чёрно-белый снимок лодок в гавани Виктории на фоне парламента Британской Колумбии."
+        },
+        "ko": {
+          "title": "브리티시컬럼비아주 장관 업무지침에서 빠진 기후위기, 환경단체가 비판",
+          "summary": "론 도어크슨 주정부는 장관들에게 측정 가능한 목표와 달성 기한을 정하도록 했다.",
+          "body": "환경단체 와일더니스 커미티는 브리티시컬럼비아주 새 정부의 장관 업무지침에서 기후 문제가 어떻게 다뤄졌는지 우려를 표했다. 목요일 시티뉴스 보도에서 이 단체의 토런스 코스트는 환경, 에너지·광업, 비상관리 부문의 지침에조차 기후위기가 빠졌다고 지적했다.\n\n론 도어크슨 주총리는 11월 24일 지침에서 장관마다 기대 성과와 달성 날짜를 명시하도록 했다. 신규 예산 요청은 재정위원회를 거치며, 위원회는 납세자가 부담할 비용 등을 평가해야 한다.",
+          "photoAlt": "브리티시컬럼비아 주의회 건물 앞 빅토리아항에 배들이 떠 있는 흑백 사진.",
+          "photoCaption": "자료 사진 (2014-08-01). 브리티시컬럼비아 주의회 건물 앞 빅토리아항에 배들이 떠 있는 흑백 사진."
+        }
+      },
+      "verified": true,
+      "title": "En Colombie-Britannique, le Wilderness Committee critique la place du climat dans les mandats des ministres",
+      "summary": "Le gouvernement de Lorne Doerkson demande à chaque ministre de fixer un résultat mesurable et une échéance.",
+      "body": "Le Wilderness Committee s’inquiète de la place réservée au climat dans les lettres de mandat du nouveau gouvernement britanno-colombien. Dans un reportage publié jeudi par CityNews, Torrance Coste, de l’organisme, relève que même les mandats de l’Environnement, de l’Énergie et des Mines ainsi que de la Gestion des urgences omettent la crise climatique.\n\nDans ses directives du 24 novembre, le premier ministre Lorne Doerkson demande à chaque ministre de préciser le résultat attendu et la date à laquelle il sera livré. Toute demande de nouveaux fonds doit passer par le Conseil du Trésor, qui doit notamment en évaluer le coût pour les contribuables.",
+      "photo": {
+        "download": "media/bc.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BC_Parliament_Buildings_in_Victoria.jpg",
+        "credit": "Alison Altena",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Des bateaux dans le port de Victoria devant le Parlement de la Colombie-Britannique, en noir et blanc.",
+        "caption": "Photo d’archives (2014-08-01). Des bateaux dans le port de Victoria devant le Parlement de la Colombie-Britannique, en noir et blanc."
+      }
+    },
+    {
+      "eventKey": "alberta-sondage-dirigeants-previsions-economiques-hiver-2026",
+      "category": "Économie",
+      "sources": [
+        {
+          "name": "CityNews Calgary",
+          "url": "https://calgary.citynews.ca/2026/11/26/rise-in-business-leaders-feeling-optimistic-about-the-economy-business-council-of-alberta/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Business Council of Alberta",
+          "url": "https://businesscouncilab.com/advocacy-category/statements-advocacy/snapshot-media-release-winter-2026/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "In Alberta, 77% of CEOs surveyed expect the economy to improve",
+          "summary": "The Business Council of Alberta forecasts 2.5% growth in 2027 but says hiring plans have changed little.",
+          "body": "Of the executives polled by the Business Council of Alberta, 77% expect the province’s economy to improve, CityNews reported Thursday. In Calgary, Platform Calgary CEO Jennifer Lussier told the outlet that technology businesses are finding markets in sectors including energy and agriculture.\n\nIn its winter outlook released Wednesday, the council forecast growth of about 2.4% in 2026 and 2.5% in 2027. It found that, despite their optimism, businesses are largely sticking with existing hiring and investment plans.",
+          "photoAlt": "Elevated view of the towers in downtown Calgary.",
+          "photoCaption": "Archive photo (2026-08-23). Elevated view of the towers in downtown Calgary."
+        },
+        "es": {
+          "title": "En Alberta, el 77 % de los directivos encuestados prevé una mejora económica",
+          "summary": "El Business Council of Alberta pronostica un crecimiento del 2,5 % en 2027, pero observa pocos cambios en los planes de contratación.",
+          "body": "El 77 % de los directivos encuestados por el Business Council of Alberta espera que mejore la economía provincial, informó CityNews el jueves. Jennifer Lussier, directora de Platform Calgary, explicó al medio que las empresas tecnológicas encuentran mercados en sectores como la energía y la agricultura.\n\nEn sus perspectivas de invierno publicadas el miércoles, el consejo pronosticó un crecimiento aproximado del 2,4 % en 2026 y del 2,5 % en 2027. Observa que, pese a su optimismo, las empresas mantienen en gran medida sus planes previos de contratación e inversión.",
+          "photoAlt": "Vista elevada de las torres del centro de Calgary.",
+          "photoCaption": "Foto de archivo (2026-08-23). Vista elevada de las torres del centro de Calgary."
+        },
+        "ar": {
+          "title": "في ألبرتا، 77% من الرؤساء التنفيذيين المستطلعين يتوقعون تحسناً اقتصادياً",
+          "summary": "يتوقع مجلس أعمال ألبرتا نمواً بنسبة 2.5% في 2027، لكنه يرصد تغيراً محدوداً في خطط التوظيف.",
+          "body": "يتوقع 77% من المديرين الذين استطلع مجلس أعمال ألبرتا آراءهم تحسن اقتصاد المقاطعة، وفق ما أفادت به سيتي نيوز الخميس. وقالت جنيفر لوسييه، المديرة التنفيذية لمنظمة بلاتفورم كالغاري، للوسيلة الإعلامية إن شركات التكنولوجيا تجد أسواقاً في قطاعات منها الطاقة والزراعة.\n\nوفي تقريره الشتوي المنشور الأربعاء، توقّع المجلس نمواً بنحو 2.4% في 2026 و2.5% في 2027. وأشار إلى أن الشركات تلتزم إلى حد بعيد بخططها القائمة للتوظيف والاستثمار رغم تفاؤلها.",
+          "photoAlt": "منظر من الأعلى لأبراج وسط مدينة كالغاري.",
+          "photoCaption": "صورة أرشيفية (2026-08-23). منظر من الأعلى لأبراج وسط مدينة كالغاري."
+        },
+        "zh-CN": {
+          "title": "阿尔伯塔省77%的受访企业高管看好经济前景",
+          "summary": "阿尔伯塔省商业委员会预计2027年经济将增长2.5%，但认为企业招聘计划变化不大。",
+          "body": "CityNews周四报道，在阿尔伯塔省商业委员会调查的企业高管中，77%预计该省经济将好转。卡尔加里科技机构Platform Calgary的首席执行官珍妮弗·卢西耶告诉该媒体，科技企业正在能源、农业等领域找到市场。\n\n该委员会周三发布冬季展望，预计经济在2026年增长约2.4%，2027年增长约2.5%。委员会指出，尽管企业持乐观态度，大多仍按原定计划招聘和投资。",
+          "photoAlt": "从高处俯瞰卡尔加里市中心的高楼。",
+          "photoCaption": "资料照片 (2026-08-23). 从高处俯瞰卡尔加里市中心的高楼。"
+        },
+        "ru": {
+          "title": "В Альберте 77% опрошенных руководителей компаний ждут улучшения экономики",
+          "summary": "Деловой совет Альберты прогнозирует рост на 2,5% в 2027 году, но отмечает, что планы найма мало изменились.",
+          "body": "Среди руководителей, опрошенных Деловым советом Альберты, 77% ожидают улучшения экономики провинции, сообщило в четверг CityNews. Руководитель Platform Calgary Дженнифер Люссье рассказала изданию, что технологические компании находят рынки сбыта в том числе в энергетике и сельском хозяйстве.\n\nВ зимнем обзоре, опубликованном в среду, совет прогнозирует рост примерно на 2,4% в 2026 году и на 2,5% в 2027-м. Несмотря на оптимизм, компании в основном придерживаются прежних планов по найму и инвестициям, отмечает совет.",
+          "photoAlt": "Высотные здания в центре Калгари, вид сверху.",
+          "photoCaption": "Архивное фото (2026-08-23). Высотные здания в центре Калгари, вид сверху."
+        },
+        "ko": {
+          "title": "앨버타 기업 경영진 설문서 77%가 경제 개선 전망",
+          "summary": "앨버타기업협의회는 2027년 성장률을 2.5%로 전망했지만 채용 계획에는 큰 변화가 없다고 밝혔다.",
+          "body": "앨버타기업협의회가 조사한 경영진의 77%가 주 경제 상황이 나아질 것으로 내다봤다고 시티뉴스가 목요일 보도했다. 캘거리의 기술기업 지원 단체 플랫폼 캘거리 대표 제니퍼 루시에는 기술기업들이 에너지와 농업 등에서도 시장을 찾고 있다고 이 매체에 설명했다.\n\n협의회는 수요일 발표한 겨울 경제전망에서 성장률을 2026년 약 2.4%, 2027년 약 2.5%로 예상했다. 기업들의 낙관에도 채용과 투자는 대체로 기존 계획대로라고 분석했다.",
+          "photoAlt": "높은 곳에서 내려다본 캘거리 도심의 고층 건물들.",
+          "photoCaption": "자료 사진 (2026-08-23). 높은 곳에서 내려다본 캘거리 도심의 고층 건물들."
+        }
+      },
+      "verified": true,
+      "title": "En Alberta, 77 % des chefs d’entreprise sondés s’attendent à une amélioration de l’économie",
+      "summary": "Le Business Council of Alberta prévoit une croissance de 2,5 % en 2027, mais relève que les projets d’embauche ont peu changé.",
+      "body": "Parmi les dirigeants interrogés par le Business Council of Alberta, 77 % s’attendent à une amélioration de la situation économique de la province, rapporte CityNews jeudi. À Calgary, Jennifer Lussier, qui dirige Platform Calgary, a expliqué au média que les entreprises technologiques trouvent des débouchés jusque dans l’énergie et l’agriculture.\n\nDans son bilan d’hiver publié mercredi, le conseil prévoit une croissance d’environ 2,4 % en 2026 et de 2,5 % en 2027. Il observe que les entreprises s’en tiennent largement aux embauches et aux investissements déjà prévus, malgré leur optimisme.",
+      "photo": {
+        "download": "media/albbiz.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Calgary_skyline.jpg",
+        "credit": "Quintin Soloviev",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.en",
+        "alt": "Vue en hauteur des tours du centre-ville de Calgary.",
+        "caption": "Photo d’archives (2026-08-23). Vue en hauteur des tours du centre-ville de Calgary."
+      }
+    },
+    {
+      "eventKey": "royaume-uni-bbc-met-office-lancement-previsions-dix-jours",
+      "category": "International",
+      "sources": [
+        {
+          "name": "Met Office",
+          "url": "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/corporate-news/2026/the-new-met-office-and-bbc-weather-partnership-goes-live-to-audiences-",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "PA / The Independent",
+          "url": "https://www.independent.co.uk/news/uk/home-news/met-office-bbc-matt-brittin-press-association-b3091994.html",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "BBC launches ten-day hourly forecasts with the Met Office",
+          "summary": "BBC radio, television and digital audiences can see and hear forecasts based on data from the UK weather service starting Thursday.",
+          "body": "Since November 26 the Met Office has supplied the data behind forecasts on BBC News and Weather platforms. The partnership, announced in July, brings hourly forecasts extending ten days ahead, according to the UK weather service.\n\nBBC Weather app users can also opt in to receive the Met Office’s severe weather alerts. The PA news agency reports that the BBC will have a weather centre at the Met Office’s premises in Exeter.",
+          "photoAlt": "Entrance to the Met Office headquarters in Exeter, England.",
+          "photoCaption": "Archive photo (2013-11-08). Entrance to the Met Office headquarters in Exeter, England."
+        },
+        "es": {
+          "title": "La BBC estrena pronósticos meteorológicos por horas a diez días con el Met Office",
+          "summary": "Desde el jueves, las audiencias de radio, televisión y plataformas digitales de la BBC reciben previsiones basadas en datos del servicio meteorológico británico.",
+          "body": "Desde el 26 de noviembre, el Met Office facilita los datos de los pronósticos de las plataformas de noticias y meteorología de la BBC. La colaboración, anunciada en julio, incluye previsiones hora a hora para los diez días siguientes, según el servicio meteorológico británico.\n\nLos usuarios de la aplicación BBC Weather también pueden activar las alertas de fenómenos meteorológicos adversos que emite el Met Office. La agencia PA informa de que la BBC dispondrá de un centro meteorológico en la sede del Met Office en Exeter.",
+          "photoAlt": "Entrada de la sede del Met Office en Exeter, Inglaterra.",
+          "photoCaption": "Foto de archivo (2013-11-08). Entrada de la sede del Met Office en Exeter, Inglaterra."
+        },
+        "ar": {
+          "title": "بي بي سي تطلق توقعات جوية لكل ساعة على مدى عشرة أيام بالتعاون مع هيئة الأرصاد البريطانية",
+          "summary": "يبدأ جمهور الإذاعة والتلفزيون والمنصات الرقمية لبي بي سي الخميس بتلقي توقعات تستند إلى بيانات هيئة الأرصاد البريطانية.",
+          "body": "بدأت هيئة الأرصاد البريطانية في 26 نوفمبر توفير البيانات التي تعتمد عليها نشرات منصات الأخبار والطقس لدى بي بي سي. وتشمل الشراكة، التي أُعلن عنها في يوليو، توقعات لكل ساعة تمتد عشرة أيام، بحسب الهيئة.\n\nوبوسع مستخدمي تطبيق بي بي سي للطقس تفعيل تنبيهات الهيئة للظواهر الجوية الخطرة. وأفادت وكالة بي إيه بأن بي بي سي سيكون لديها أيضاً مركز للطقس في مقر هيئة الأرصاد في إكستر.",
+          "photoAlt": "مدخل مقر هيئة الأرصاد البريطانية في إكستر بإنجلترا.",
+          "photoCaption": "صورة أرشيفية (2013-11-08). مدخل مقر هيئة الأرصاد البريطانية في إكستر بإنجلترا."
+        },
+        "zh-CN": {
+          "title": "英国广播公司与英国气象局推出未来十天逐小时预报",
+          "summary": "从周四起，英国广播公司的广播、电视及数字平台受众可以收听或收看基于英国气象局数据的预报。",
+          "body": "自11月26日起，英国气象局开始为英国广播公司新闻和天气平台的预报提供数据。据英国气象局介绍，这项于7月公布的合作带来了覆盖未来十天的逐小时预报。\n\nBBC天气应用程序用户还可自行开启英国气象局发布的恶劣天气警报。据英国报联社报道，英国广播公司还将在埃克塞特的英国气象局总部设立气象中心。",
+          "photoAlt": "英格兰埃克塞特英国气象局总部入口。",
+          "photoCaption": "资料照片 (2013-11-08). 英格兰埃克塞特英国气象局总部入口。"
+        },
+        "ru": {
+          "title": "Би-би-си запускает почасовой прогноз на десять дней вместе с британской метеослужбой",
+          "summary": "С четверга аудитория радио, телевидения и цифровых платформ Би-би-си получает прогнозы на основе данных британской метеослужбы.",
+          "body": "С 26 ноября метеослужба Великобритании Met Office поставляет данные для прогнозов на новостных и погодных платформах Би-би-си. По данным службы, партнёрство, о котором объявили в июле, включает почасовые прогнозы на десять дней вперёд.\n\nПользователи приложения BBC Weather могут также включить предупреждения метеослужбы об опасных погодных явлениях. По данным агентства PA, у Би-би-си появится метеоцентр в здании Met Office в Эксетере.",
+          "photoAlt": "Вход в штаб-квартиру британской метеослужбы в Эксетере, Англия.",
+          "photoCaption": "Архивное фото (2013-11-08). Вход в штаб-квартиру британской метеослужбы в Эксетере, Англия."
+        },
+        "ko": {
+          "title": "BBC, 영국 기상청과 열흘간 시간대별 일기예보 시작",
+          "summary": "목요일부터 BBC 라디오와 TV, 디지털 플랫폼의 이용자들은 영국 기상청 자료에 기반한 예보를 접할 수 있다.",
+          "body": "영국 기상청은 11월 26일부터 BBC 뉴스와 날씨 플랫폼의 예보에 쓰이는 자료를 제공한다. 영국 기상청에 따르면 지난 7월 발표된 협력으로 앞으로 열흘 동안의 날씨를 시간대별로 예보한다.\n\nBBC 웨더 앱 이용자는 영국 기상청이 발령하는 악천후 경보 알림도 신청할 수 있다. PA통신은 BBC가 엑서터에 있는 기상청 청사 안에 기상센터를 둘 예정이라고 전했다.",
+          "photoAlt": "잉글랜드 엑서터에 있는 영국 기상청 본부 입구.",
+          "photoCaption": "자료 사진 (2013-11-08). 잉글랜드 엑서터에 있는 영국 기상청 본부 입구."
+        }
+      },
+      "verified": true,
+      "title": "La BBC lance des prévisions météo heure par heure sur dix jours avec le Met Office",
+      "summary": "Les auditeurs, téléspectateurs et utilisateurs des services numériques de la BBC retrouvent les données du service météo britannique à compter de jeudi.",
+      "body": "Le Met Office fournit depuis le 26 novembre les données qui alimentent les bulletins des services d’information et de météo de la BBC. Annoncé en juillet, le partenariat se traduit notamment par des prévisions heure par heure sur dix jours, selon le service météorologique britannique.\n\nLes utilisateurs de l’application BBC Weather peuvent aussi choisir de recevoir les alertes de phénomènes météorologiques dangereux émises par le Met Office. L’agence PA rapporte que la BBC disposera également d’un centre météo dans les locaux du Met Office à Exeter.",
+      "photo": {
+        "download": "media/weather.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Met_Office_-_geograph.org.uk_-_3748966.jpg",
+        "credit": "Richard Dorrell",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+        "alt": "Entrée du siège du Met Office à Exeter, en Angleterre.",
+        "caption": "Photo d’archives (2013-11-08). Entrée du siège du Met Office à Exeter, en Angleterre."
+      }
+    },
+    {
+      "eventKey": "hockey-montreal-boston-preparatoire-quatre-points-ljungblom",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "Ligue professionnelle de hockey féminin",
+          "url": "https://www.thepwhl.com/fr/nouvelles/2026/novembre/25/montreal-defait-boston-en-cloture-du-calendrier-preparatoire",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "La Presse Canadienne / Sportsnet",
+          "url": "https://www.sportsnet.ca/pwhl/article/ljungblom-has-four-points-as-victoire-down-fleet-in-pre-season-action/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Lina Ljungblom records four points as Montreal wins preseason game against Boston",
+          "summary": "The Victoire won 5–3 in Wellesley. Ann-Renée Desbiens made 35 saves in Montreal’s net.",
+          "body": "Lina Ljungblom scored twice and added two assists Wednesday in Wellesley, Massachusetts, as the Montreal Victoire beat the Boston Fleet 5–3 to close out their preseason schedule. The forward contributed to four of her team’s five goals, according to the PWHL’s game report.\n\nWith the score tied 3–3 in the second period, Petra Nieminen scored to put Montreal ahead for good. The Canadian Press also highlighted the performance of Ann-Renée Desbiens, who played all 60 minutes in the Victoire net, stopping 35 shots.",
+          "photoAlt": "Goaltender Ann-Renée Desbiens in a white and red uniform bearing number 35.",
+          "photoCaption": "Archive photo (2025-01-05). Goaltender Ann-Renée Desbiens in a white and red uniform bearing number 35."
+        },
+        "es": {
+          "title": "Cuatro puntos de Lina Ljungblom en la victoria de pretemporada de Montreal sobre Boston",
+          "summary": "La Victoire ganó 5-3 en Wellesley. Ann-Renée Desbiens hizo 35 paradas en la portería de Montreal.",
+          "body": "Lina Ljungblom anotó dos goles y dio dos asistencias el miércoles en Wellesley, Massachusetts, donde la Victoire de Montreal derrotó 5-3 al Fleet de Boston para cerrar su pretemporada. La delantera intervino en cuatro de los cinco goles de su equipo, según la crónica de la liga profesional femenina PWHL.\n\nCon empate a tres en el segundo periodo, Petra Nieminen marcó el gol que puso definitivamente por delante a Montreal. The Canadian Press también destacó la actuación de Ann-Renée Desbiens, que jugó los 60 minutos en la portería de la Victoire y detuvo 35 disparos.",
+          "photoAlt": "La portera Ann-Renée Desbiens lleva uniforme blanco y rojo con el número 35.",
+          "photoCaption": "Foto de archivo (2025-01-05). La portera Ann-Renée Desbiens lleva uniforme blanco y rojo con el número 35."
+        },
+        "ar": {
+          "title": "أربع نقاط للينا ليونغبلوم في فوز مونتريال على بوسطن في مباراة تحضيرية",
+          "summary": "فاز فريق فيكتوار 5–3 في ويليسلي، وتصدت حارسة مونتريال آن رينيه ديبيان لـ35 تسديدة.",
+          "body": "سجلت لينا ليونغبلوم هدفين وصنعت اثنين الأربعاء في ويليسلي بولاية ماساتشوستس، حيث اختتم مونتريال فيكتوار مبارياته التحضيرية بالفوز على بوسطن فليت 5–3. وساهمت المهاجمة بذلك في أربعة من أهداف فريقها الخمسة، وفق تقرير دوري هوكي الجليد الاحترافي للسيدات.\n\nوعندما كانت النتيجة 3–3 في الفترة الثانية، سجلت بيترا نيمينن الهدف الذي منح مونتريال تقدماً حافظ عليه حتى النهاية، وفق تقرير الدوري. وأبرزت وكالة الصحافة الكندية أداء آن رينيه ديبيان التي خاضت الدقائق الستين كاملة في مرمى فيكتوار وتصدت لـ35 تسديدة.",
+          "photoAlt": "حارسة المرمى آن رينيه ديبيان بزي أبيض وأحمر يحمل الرقم 35.",
+          "photoCaption": "صورة أرشيفية (2025-01-05). حارسة المرمى آن رينيه ديبيان بزي أبيض وأحمر يحمل الرقم 35."
+        },
+        "zh-CN": {
+          "title": "永布卢姆贡献四分，蒙特利尔季前赛击败波士顿",
+          "summary": "蒙特利尔胜利队在韦尔斯利以5比3获胜，门将安娜-勒内·德比安完成35次扑救。",
+          "body": "周三在马萨诸塞州韦尔斯利，莉娜·永布卢姆攻入两球并送出两次助攻，帮助蒙特利尔胜利队在最后一场季前赛中以5比3击败波士顿舰队。根据女子职业冰球联盟的赛报，这名前锋参与了全队五个进球中的四个。\n\n双方在第二节战成3比3时，佩特拉·涅米宁破门，蒙特利尔此后一直保持领先。加拿大通讯社也关注了胜利队门将安娜-勒内·德比安的表现。她打满60分钟，扑出35次射门。",
+          "photoAlt": "门将安娜-勒内·德比安身穿印有35号的红白色球衣。",
+          "photoCaption": "资料照片 (2025-01-05). 门将安娜-勒内·德比安身穿印有35号的红白色球衣。"
+        },
+        "ru": {
+          "title": "Четыре очка Лины Юнгблум помогли «Монреалю» обыграть «Бостон» в предсезонном матче",
+          "summary": "«Виктуар» победил в Уэлсли со счётом 5:3. Вратарь «Монреаля» Анн-Рене Дебьен сделала 35 сейвов.",
+          "body": "Лина Юнгблум забросила две шайбы и отдала две голевые передачи в среду в Уэлсли, штат Массачусетс. «Монреаль Виктуар» завершил предсезонные игры победой над «Бостон Флит» со счётом 5:3. По данным женской профессиональной хоккейной лиги, нападающая поучаствовала в четырёх из пяти голов команды.\n\nПри счёте 3:3 во втором периоде Петра Ниеминен забросила шайбу, после которой «Монреаль» больше не упускал лидерство. The Canadian Press также отметило игру Анн-Рене Дебьен. Она провела в воротах «Виктуар» все 60 минут и отразила 35 бросков.",
+          "photoAlt": "Вратарь Анн-Рене Дебьен в бело-красной форме под номером 35.",
+          "photoCaption": "Архивное фото (2025-01-05). Вратарь Анн-Рене Дебьен в бело-красной форме под номером 35."
+        },
+        "ko": {
+          "title": "리나 융블롬 4포인트, 몬트리올이 프리시즌 경기에서 보스턴 제압",
+          "summary": "빅투아르는 웰즐리에서 5대 3으로 이겼다. 몬트리올 골리 안레네 데비앵은 35개의 슛을 막았다.",
+          "body": "리나 융블롬이 수요일 매사추세츠주 웰즐리에서 2골 2도움을 올렸다. 몬트리올 빅투아르는 보스턴 플리트를 5대 3으로 꺾으며 프리시즌 일정을 마쳤다. 여자프로아이스하키리그 경기 기록에 따르면 융블롬은 팀의 다섯 골 가운데 네 골에 관여했다.\n\n2피리어드 3대 3 상황에서 페트라 니에미넨이 골을 넣었고 몬트리올은 끝까지 리드를 지켰다. 캐나디안 프레스도 빅투아르의 골리 안레네 데비앵의 활약을 전했다. 데비앵은 60분을 모두 뛰며 35개의 슛을 막았다.",
+          "photoAlt": "흰색과 빨간색 유니폼에 등번호 35번을 단 골리 안레네 데비앵.",
+          "photoCaption": "자료 사진 (2025-01-05). 흰색과 빨간색 유니폼에 등번호 35번을 단 골리 안레네 데비앵."
+        }
+      },
+      "verified": true,
+      "title": "Quatre points de Lina Ljungblom dans la victoire préparatoire de Montréal contre Boston",
+      "summary": "La Victoire a gagné 5 à 3 à Wellesley. Ann-Renée Desbiens a réalisé 35 arrêts devant le filet montréalais.",
+      "body": "Lina Ljungblom a inscrit deux buts et ajouté deux passes mercredi à Wellesley, au Massachusetts, où la Victoire de Montréal a défait le Fleet de Boston 5 à 3 pour boucler son calendrier préparatoire. L’attaquante a ainsi participé à quatre des cinq buts de son équipe, selon le compte rendu de la LPHF.\n\nAlors que le pointage était de 3 à 3 en deuxième période, Petra Nieminen a marqué le but qui a donné l’avance pour de bon à Montréal. La Presse Canadienne relève elle aussi la performance d’Ann-Renée Desbiens. La gardienne a joué les 60 minutes dans le but de la Victoire et a repoussé 35 tirs.",
+      "photo": {
+        "download": "media/vic.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ann-Ren%C3%A9e_Desbiens_(54249612898).jpg",
+        "credit": "Jenn G",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+        "alt": "La gardienne Ann-Renée Desbiens en tenue blanche et rouge, avec le numéro 35.",
+        "caption": "Photo d’archives (2025-01-05). La gardienne Ann-Renée Desbiens en tenue blanche et rouge, avec le numéro 35."
+      }
+    },
+    {
+      "eventKey": "marathon-boston-prix-fair-play-beggs-de-oliveira",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "World Athletics",
+          "url": "https://worldathletics.org/awards/news/beggs-de-oliveira-2026-international-fair-play-award",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.com/sport/athletics/articles/cm36gj08xn94o",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Two marathoners honoured for helping a runner cross the finish line in Boston",
+          "summary": "Aaron Beggs and Robson De Oliveira receive the International Fair Play Award for their actions at the April marathon.",
+          "body": "With only a short distance to go at the Boston Marathon in April, Ajay Haridasse fell and could not get back up. Aaron Beggs stopped first. Robson De Oliveira joined them and, with an arm on either side of the runner, the two men helped him across the line, World Athletics recounted.\n\nThe federation announced Thursday that Beggs and De Oliveira had won the International Fair Play Award. Public votes were combined with those of a jury. In remarks reported by the BBC, Beggs also praised Haridasse’s determination to finish the race.",
+          "photoAlt": "The Boston Marathon finish line painted on Boylston Street.",
+          "photoCaption": "Archive photo (2015-07-19). The Boston Marathon finish line painted on Boylston Street."
+        },
+        "es": {
+          "title": "Premian a dos maratonistas que ayudaron a otro corredor a cruzar la meta en Boston",
+          "summary": "Aaron Beggs y Robson De Oliveira reciben el Premio Internacional al Juego Limpio por su gesto en el maratón de abril.",
+          "body": "A poca distancia de la meta del maratón de Boston en abril, Ajay Haridasse cayó y no pudo levantarse. Aaron Beggs fue el primero en detenerse. Robson De Oliveira se acercó y, con un brazo a cada lado del corredor, los dos lo sostuvieron hasta la meta, según relató World Athletics.\n\nLa federación anunció el jueves que Beggs y De Oliveira habían ganado el Premio Internacional al Juego Limpio. Se combinaron los votos del público y de un jurado. En declaraciones recogidas por la BBC, Beggs también destacó la determinación de Haridasse de terminar la carrera.",
+          "photoAlt": "Línea de meta del maratón de Boston pintada en la calzada de Boylston Street.",
+          "photoCaption": "Foto de archivo (2015-07-19). Línea de meta del maratón de Boston pintada en la calzada de Boylston Street."
+        },
+        "ar": {
+          "title": "تكريم عدّاءين ساعدا متسابقاً على عبور خط النهاية في ماراثون بوسطن",
+          "summary": "حصل آرون بيغز وروبسون دي أوليفيرا على الجائزة الدولية للعب النظيف لموقفهما في ماراثون أبريل.",
+          "body": "على مقربة من خط نهاية ماراثون بوسطن في أبريل سقط أجاي هاريداس وعجز عن النهوض. وكان آرون بيغز أول من توقف. ثم انضم روبسون دي أوليفيرا إليه، وأسند الرجلان العدّاء بذراع من كل جانب حتى اجتاز الخط، وفق رواية الاتحاد الدولي لألعاب القوى.\n\nأعلن الاتحاد الخميس فوز بيغز ودي أوليفيرا بالجائزة الدولية للعب النظيف. وجُمعت أصوات الجمهور مع أصوات لجنة التحكيم. وأشاد بيغز أيضاً، في تصريحات نقلتها بي بي سي، بإصرار هاريداس على إنهاء السباق.",
+          "photoAlt": "خط نهاية ماراثون بوسطن مرسوم على سطح شارع بويلستون.",
+          "photoCaption": "صورة أرشيفية (2015-07-19). خط نهاية ماراثون بوسطن مرسوم على سطح شارع بويلستون."
+        },
+        "zh-CN": {
+          "title": "两名马拉松选手因在波士顿扶同场跑者冲线获奖",
+          "summary": "阿伦·贝格斯和罗布森·德奥利韦拉因在4月马拉松赛中的举动获国际公平竞赛奖。",
+          "body": "4月的波士顿马拉松上，阿杰·哈里达斯在离终点不远处摔倒，无法起身。阿伦·贝格斯最先停下，罗布森·德奥利韦拉也赶来帮忙。据世界田联回顾，两人分站左右，用手臂搀着他越过终点。\n\n世界田联周四宣布贝格斯和德奥利韦拉获得国际公平竞赛奖，结果结合了公众与评委的投票。贝格斯在英国广播公司报道的言论中也赞扬了哈里达斯坚持完赛的决心。",
+          "photoAlt": "波士顿博伊尔斯顿街路面上画着马拉松终点线。",
+          "photoCaption": "资料照片 (2015-07-19). 波士顿博伊尔斯顿街路面上画着马拉松终点线。"
+        },
+        "ru": {
+          "title": "Двое марафонцев получили награду за помощь бегуну на финише в Бостоне",
+          "summary": "Аарон Беггс и Робсон де Оливейра удостоены международной награды за честную игру за поступок на апрельском марафоне.",
+          "body": "Незадолго до финиша Бостонского марафона в апреле Аджай Харидасс упал и не мог подняться. Первым остановился Аарон Беггс. К нему присоединился Робсон де Оливейра, и вдвоём они поддерживали бегуна с двух сторон, пока он не пересёк черту, рассказала World Athletics.\n\nВ четверг федерация объявила Беггса и де Оливейру обладателями международной награды за честную игру. При определении победителей учли голоса публики и жюри. Беггс также отметил в комментарии, который приводит Би-би-си, решимость Харидасса закончить дистанцию.",
+          "photoAlt": "Финишная черта Бостонского марафона на проезжей части Бойлстон-стрит.",
+          "photoCaption": "Архивное фото (2015-07-19). Финишная черта Бостонского марафона на проезжей части Бойлстон-стрит."
+        },
+        "ko": {
+          "title": "보스턴에서 동료 주자의 결승선 통과 도운 마라토너 두 명 수상",
+          "summary": "애런 베그스와 호브송 지 올리베이라가 4월 마라톤에서 보여 준 행동으로 국제 페어플레이상을 받는다.",
+          "body": "4월 보스턴 마라톤에서 아제이 하리다세는 결승선을 얼마 남겨두지 않고 넘어져 일어나지 못했다. 애런 베그스가 먼저 멈췄고 호브송 지 올리베이라가 합류했다. 세계육상연맹에 따르면 두 사람은 양쪽에서 팔로 그를 부축해 결승선을 넘었다.\n\n연맹은 목요일 베그스와 지 올리베이라가 국제 페어플레이상 수상자로 선정됐다고 발표했다. 대중 투표와 심사위원 투표를 합산한 결과다. 베그스는 BBC가 전한 발언에서 끝까지 달리려 한 하리다세의 의지도 높이 평가했다.",
+          "photoAlt": "보스턴 보일스턴 스트리트 노면에 그려진 마라톤 결승선.",
+          "photoCaption": "자료 사진 (2015-07-19). 보스턴 보일스턴 스트리트 노면에 그려진 마라톤 결승선."
+        }
+      },
+      "verified": true,
+      "title": "Deux marathoniens récompensés pour avoir aidé un coureur à franchir la ligne à Boston",
+      "summary": "Aaron Beggs et Robson De Oliveira reçoivent le prix international du fair-play pour leur geste au marathon d’avril.",
+      "body": "À quelques pas de l’arrivée du marathon de Boston en avril, Ajay Haridasse était tombé et n’arrivait plus à se relever. Aaron Beggs s’était arrêté le premier. Robson De Oliveira les avait rejoints et, un bras de chaque côté du coureur, les deux hommes l’avaient soutenu jusqu’à la ligne, raconte World Athletics.\n\nLa fédération a annoncé jeudi que Beggs et De Oliveira recevaient le prix international du fair-play. Les votes du public ont été combinés à ceux d’un jury. Dans des propos repris par la BBC, Beggs a aussi salué la détermination de Haridasse à terminer la course.",
+      "photo": {
+        "download": "media/beggs.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BOSTON_MARATHON_FINISH_LINE_(19640796408).jpg",
+        "credit": "Bill Morrow",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.en",
+        "alt": "La ligne d’arrivée du marathon de Boston peinte sur la chaussée de Boylston Street.",
+        "caption": "Photo d’archives (2015-07-19). La ligne d’arrivée du marathon de Boston peinte sur la chaussée de Boylston Street."
+      }
+    }
+  ]
+}
