@@ -1,0 +1,243 @@
+{
+  "hour": "2026-11-26T23",
+  "articles": [
+    {
+      "eventKey": "alberta-mise-a-jour-excedent-huit-milliards-et-demi",
+      "category": "Alberta",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Gouvernement de l’Alberta — rapport du deuxième trimestre",
+          "url": "https://open.alberta.ca/dataset/9c81a5a7-cdf1-49ad-a923-d1ecb42944e4/resource/a00e9d93-a5d0-4c03-9a62-d7c74d397e91/download/tbf-2026-27-second-quarter-fiscal-update-economic-statement.pdf",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "La Presse Canadienne / CityNews Calgary",
+          "url": "https://calgary.citynews.ca/2026/11/26/alberta-budget-turnaround-oil-royalties/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "subject": "sables bitumineux",
+        "context": "Alberta",
+        "capturedOn": "2022-08-03",
+        "download": "media/ab.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Syncrude_oil_sands_mine_works,_Mildred_Lake,_Alberta.jpg",
+        "credit": "Dicklyon / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Vue aérienne d’une exploitation de sables bitumineux en Alberta, entre bassins et rivière.",
+        "caption": "Photo d’archives du 3 août 2022. L’exploitation de sables bitumineux de Syncrude à Mildred Lake, en Alberta, vue du ciel."
+      },
+      "translations": {
+        "en": {
+          "title": "Alberta forecasts an $8.5 billion surplus after budgeting for a deficit",
+          "summary": "Oil royalties have changed the province’s outlook for 2026–27. In February it projected a C$9.4 billion deficit.",
+          "body": "Alberta now expects to finish 2026–27 with a C$8.5 billion surplus. Its second-quarter update, presented on November 26, attributes much of the turnaround to non-renewable resource revenues. The province expects C$22.4 billion in royalties on bitumen extracted from the oil sands.\n\nOil prices help explain the difference from February’s budget. According to the provincial document and The Canadian Press, Alberta now assumes West Texas Intermediate will average US$83.50 a barrel, up from US$60.50 in the budget. The final balance will depend in part on actual prices through the end of the fiscal year.",
+          "photoAlt": "Aerial view of an Alberta oil sands operation between ponds and a river.",
+          "photoCaption": "Archive photo, August 3, 2022. Syncrude’s Mildred Lake oil sands operation in Alberta, seen from the air."
+        },
+        "es": {
+          "title": "Alberta prevé un superávit de 8.500 millones de dólares tras presupuestar un déficit",
+          "summary": "Las regalías petroleras cambian las perspectivas de la provincia para 2026-2027. En febrero preveía un déficit de 9.400 millones de dólares canadienses.",
+          "body": "Alberta prevé cerrar el ejercicio 2026-2027 con un superávit de 8.500 millones de dólares canadienses. La actualización del segundo trimestre, presentada el 26 de noviembre, atribuye buena parte del giro a los ingresos por recursos no renovables. La provincia espera 22.400 millones en regalías por el betún extraído de las arenas bituminosas.\n\nEl precio del crudo explica parte de la diferencia respecto al presupuesto de febrero. Según el documento provincial y The Canadian Press, Alberta calcula ahora un precio medio de 83,50 dólares estadounidenses por barril de West Texas Intermediate, frente a los 60,50 presupuestados. El saldo final dependerá en parte de los precios efectivos hasta el cierre del ejercicio.",
+          "photoAlt": "Vista aérea de una explotación de arenas bituminosas en Alberta, entre estanques y un río.",
+          "photoCaption": "Foto de archivo del 3 de agosto de 2022. Explotación de arenas bituminosas de Syncrude en Mildred Lake, Alberta, vista desde el aire."
+        },
+        "ar": {
+          "title": "ألبرتا تتوقع فائضاً قدره 8.5 مليارات دولار بعد أن قدرت عجزاً في الموازنة",
+          "summary": "غيّرت إتاوات النفط آفاق المقاطعة للسنة المالية 2026-2027. وكانت تتوقع في فبراير عجزاً قدره 9.4 مليارات دولار كندي.",
+          "body": "تتوقع ألبرتا الآن أن تنهي السنة المالية 2026-2027 بفائض قدره 8.5 مليارات دولار كندي. ويعزو تحديث الربع الثاني المقدم في 26 نوفمبر جانباً كبيراً من التحول إلى إيرادات الموارد غير المتجددة. وتتوقع المقاطعة إتاوات قدرها 22.4 مليار دولار كندي من القار المستخرج من الرمال النفطية.\n\nيفسر سعر النفط جزءاً من الفارق عن موازنة فبراير. وبحسب وثيقة المقاطعة ووكالة الصحافة الكندية، تفترض ألبرتا الآن متوسط سعر قدره 83.50 دولاراً أميركياً لبرميل خام غرب تكساس الوسيط مقابل 60.50 دولاراً في الموازنة. وستعتمد الحصيلة النهائية جزئياً على الأسعار الفعلية حتى نهاية السنة المالية.",
+          "photoAlt": "منظر جوي لموقع لاستخراج الرمال النفطية في ألبرتا بين أحواض ونهر.",
+          "photoCaption": "صورة أرشيفية بتاريخ 3 أغسطس 2022. منظر جوي لموقع سينكرود للرمال النفطية في ميلدرد ليك بألبرتا."
+        },
+        "zh-CN": {
+          "title": "艾伯塔省由赤字预算转为预计盈余85亿加元",
+          "summary": "石油特许权使用费改变了该省2026至2027财政年度的前景。2月预算原预计赤字为94亿加元。",
+          "body": "艾伯塔省现预计，2026至2027财政年度将录得85亿加元盈余。11月26日公布的第二季度财政报告将这一转变主要归因于不可再生资源收入。仅从油砂提取的沥青，省政府就预计可获得224亿加元的特许权使用费。\n\n油价解释了实际预期与2月预算之间的部分差距。据省政府文件和加拿大通讯社报道，艾伯塔省现预计西得克萨斯中质原油均价为每桶83.50美元，高于预算采用的60.50美元。最终财政收支还将取决于财年结束前的实际油价等因素。",
+          "photoAlt": "从空中俯瞰艾伯塔省一处油砂开采场，可见池塘和河流。",
+          "photoCaption": "资料照片，摄于2022年8月3日。图为从空中俯瞰艾伯塔省辛克鲁德公司位于米尔德里德湖的油砂开采场。"
+        },
+        "ru": {
+          "title": "Альберта прогнозирует профицит в 8,5 млрд долларов вместо заложенного в бюджет дефицита",
+          "summary": "Нефтяные отчисления изменили прогноз провинции на 2026–2027 финансовый год. В феврале она ожидала дефицита в 9,4 млрд канадских долларов.",
+          "body": "Теперь Альберта рассчитывает завершить 2026–2027 финансовый год с профицитом в 8,5 млрд канадских долларов. В отчёте за второй квартал, представленном 26 ноября, пересмотр во многом объясняется доходами от невозобновляемых ресурсов. Провинция ожидает получить 22,4 млрд канадских долларов отчислений за битум из нефтеносных песков.\n\nЦены на нефть отчасти объясняют расхождение с февральским бюджетом. По данным провинции и The Canadian Press, Альберта теперь ожидает, что средняя цена барреля West Texas Intermediate составит 83,50 доллара США вместо бюджетных 60,50. Итоговый баланс будет зависеть в том числе от фактических цен до конца финансового года.",
+          "photoAlt": "Вид с воздуха на разработку нефтеносных песков в Альберте среди водоёмов у реки.",
+          "photoCaption": "Архивный снимок от 3 августа 2022 года. Вид с воздуха на разработку нефтеносных песков компании Syncrude в Майлдред-Лейк, Альберта."
+        },
+        "ko": {
+          "title": "앨버타주, 적자 예산에서 85억 캐나다달러 흑자 전망으로 전환",
+          "summary": "석유 로열티 수입이 2026~2027 회계연도 전망을 바꿨다. 2월에는 94억 캐나다달러 적자를 예상했다.",
+          "body": "앨버타주는 이제 2026~2027 회계연도를 85억 캐나다달러 흑자로 마감할 것으로 내다봤다. 11월 26일 발표한 2분기 재정 보고서는 전망이 바뀐 주된 요인으로 비재생 자원 수입을 꼽았다. 주정부는 오일샌드에서 추출하는 역청 로열티로 224억 캐나다달러를 예상한다.\n\n유가가 2월 예산과의 차이를 일부 설명한다. 주정부 자료와 캐나디안 프레스에 따르면 앨버타주의 서부텍사스산원유 평균 가격 전망은 배럴당 60.50미국달러에서 83.50미국달러로 높아졌다. 최종 재정 수지는 회계연도 말까지의 실제 가격 등에 달려 있다.",
+          "photoAlt": "강과 저수지 사이에 자리한 앨버타주 오일샌드 개발 현장의 항공 사진.",
+          "photoCaption": "2022년 8월 3일 자료 사진. 앨버타주 밀드레드 레이크에 있는 싱크루드 오일샌드 개발 현장을 상공에서 촬영했다."
+        }
+      },
+      "title": "L’Alberta prévoit un excédent de 8,5 milliards de dollars après avoir budgété un déficit",
+      "summary": "Les redevances pétrolières changent les perspectives de la province pour 2026-2027. En février, elle prévoyait un déficit de 9,4 milliards.",
+      "body": "L’Alberta prévoit désormais terminer l’exercice 2026-2027 avec un excédent de 8,5 milliards de dollars. La mise à jour du deuxième trimestre, présentée le 26 novembre, attribue une grande partie du revirement aux revenus des ressources non renouvelables. La province attend notamment 22,4 milliards de dollars en redevances sur le bitume extrait des sables bitumineux.\n\nLe prix du pétrole explique une partie de l’écart avec le budget de février. Selon le document provincial et La Presse Canadienne, l’Alberta table maintenant sur un prix moyen de 83,50 $ US le baril de West Texas Intermediate, contre 60,50 $ US au budget. Le solde définitif dépendra notamment des prix réalisés d’ici la fin de l’exercice."
+    },
+    {
+      "eventKey": "guinee-bissau-decret-elections-generales-novembre-2028",
+      "category": "Afrique",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Agência de Notícias da Guiné — décret présidentiel nº 35/2026",
+          "url": "https://ang.gw/presidente-da-republica-marca-eleicoes-gerais-para-2028/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Associated Press / ABC News",
+          "url": "https://abcnews.com/International/wireStory/guinea-bissaus-military-junta-postpones-elections-2028-extending-138470757",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/africa/guinea-bissau-delays-elections-extending-military-led-transition-year-after-coup-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "subject": "élections générales",
+        "context": "Bissau",
+        "capturedOn": "2014",
+        "download": "media/gu.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cidade_de_Bissau,_por_altura_das_Elei%C3%A7%C3%B5es_Gerais_de_13_de_Abril_de_2014.jpg",
+        "credit": "VOA Português",
+        "license": "Domaine public — Voice of America",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cidade_de_Bissau,_por_altura_das_Elei%C3%A7%C3%B5es_Gerais_de_13_de_Abril_de_2014.jpg#Licensing",
+        "alt": "Des affiches électorales couvrent un mur à Bissau, lors des élections générales de 2014.",
+        "caption": "Archives de 2014. Affiches de campagne dans une rue de Bissau à l’occasion des élections générales du 13 avril, douze ans avant l’annonce du report."
+      },
+      "translations": {
+        "en": {
+          "title": "Guinea-Bissau postpones presidential and legislative elections until November 2028",
+          "summary": "A decree from the transitional presidency sets both votes for November 26, 2028. They had been scheduled for December 2026.",
+          "body": "Voters in Guinea-Bissau will have to wait nearly two more years to choose their president and lawmakers. In a decree made public in Bissau on November 26, transitional President General Horta Inta-a set the general elections for November 26, 2028. Both the national news agency ANG and The Associated Press reviewed the text.\n\nThe presidency cited a lack of technical, material and financial resources for a credible vote in December. The prime minister had already questioned whether elections could be held then. The decree gives voters a new date for the first time since that warning.",
+          "photoAlt": "Election posters cover a wall in Bissau during the 2014 general elections.",
+          "photoCaption": "Archive, 2014. Campaign posters on a street in Bissau during the April 13 general elections, twelve years before the postponement was announced."
+        },
+        "es": {
+          "title": "Guinea-Bisáu aplaza las elecciones presidenciales y legislativas hasta noviembre de 2028",
+          "summary": "Un decreto de la presidencia de transición fija ambas votaciones para el 26 de noviembre de 2028. Estaban previstas para diciembre de 2026.",
+          "body": "Los votantes de Guinea-Bisáu tendrán que esperar casi dos años más para elegir presidente y diputados. En un decreto divulgado en Bisáu el 26 de noviembre, el presidente de transición, general Horta Inta-a, fijó las elecciones generales para el 26 de noviembre de 2028. Tanto la agencia nacional ANG como Associated Press consultaron el texto.\n\nLa presidencia alega que faltan medios técnicos, materiales y financieros para celebrar en diciembre unos comicios creíbles. El primer ministro ya había puesto en duda esa fecha. El decreto ofrece a los votantes una nueva fecha por primera vez desde aquella advertencia.",
+          "photoAlt": "Carteles electorales cubren un muro de Bisáu durante las elecciones generales de 2014.",
+          "photoCaption": "Archivo de 2014. Carteles de campaña en una calle de Bisáu con motivo de las elecciones generales del 13 de abril, doce años antes del anuncio del aplazamiento."
+        },
+        "ar": {
+          "title": "غينيا بيساو تؤجل الانتخابات الرئاسية والتشريعية إلى نوفمبر 2028",
+          "summary": "حددت الرئاسة الانتقالية بمرسوم يوم 26 نوفمبر 2028 موعداً للاقتراعين اللذين كانا مقررين في ديسمبر 2026.",
+          "body": "سينتظر الناخبون في غينيا بيساو نحو سنتين إضافيتين لاختيار رئيسهم ونوابهم. وحدد الرئيس الانتقالي الجنرال هورتا إنتا آ في مرسوم أُعلن في بيساو يوم 26 نوفمبر موعد الانتخابات العامة في 26 نوفمبر 2028. واطلعت وكالة الأنباء الوطنية ووكالة أسوشيتد برس على النص.\n\nوعزت الرئاسة التأجيل إلى نقص الإمكانات التقنية والمادية والمالية اللازمة لإجراء اقتراع موثوق في ديسمبر. وكان رئيس الوزراء قد شكك في إمكان إجراء الانتخابات في ذلك الموعد. ويحدد المرسوم للناخبين موعداً جديداً للمرة الأولى منذ ذلك التنبيه.",
+          "photoAlt": "ملصقات انتخابية تغطي جداراً في بيساو خلال الانتخابات العامة عام 2014.",
+          "photoCaption": "صورة أرشيفية من عام 2014. ملصقات دعائية في شارع ببيساو بمناسبة الانتخابات العامة في 13 أبريل، قبل اثني عشر عاماً من إعلان التأجيل."
+        },
+        "zh-CN": {
+          "title": "几内亚比绍将总统和议会选举推迟至2028年11月",
+          "summary": "过渡总统府的法令将两项选举定于2028年11月26日，原定时间为2026年12月。",
+          "body": "几内亚比绍选民还要多等近两年才能选出总统和议员。过渡总统奥尔塔·因塔阿将军在11月26日于比绍公布的法令中，将大选日期定为2028年11月26日。几内亚比绍国家通讯社和美联社均查阅了该法令。\n\n总统府表示，缺少在12月举行可信选举所需的技术、物资和资金。总理此前已对选举能否如期举行表示怀疑。自那次表态以来，这是当局首次向选民明确新的投票日期。",
+          "photoAlt": "2014年大选期间，比绍街头一面墙上贴有竞选海报。",
+          "photoCaption": "2014年资料照片。比绍街头为4月13日大选张贴的竞选海报，距此次宣布推迟选举已有十二年。"
+        },
+        "ru": {
+          "title": "Гвинея-Бисау перенесла президентские и парламентские выборы на ноябрь 2028 года",
+          "summary": "Указ переходного президента назначает оба голосования на 26 ноября 2028 года. Ранее они планировались на декабрь 2026-го.",
+          "body": "Жителям Гвинеи-Бисау придётся подождать ещё почти два года, прежде чем они смогут выбрать президента и депутатов. Переходный президент генерал Орта Инта-а указом, обнародованным в Бисау 26 ноября, назначил всеобщие выборы на 26 ноября 2028 года. С текстом ознакомились национальное агентство ANG и Associated Press.\n\nАдминистрация президента сослалась на нехватку технических, материальных и финансовых средств для проведения в декабре выборов, заслуживающих доверия. Премьер-министр уже высказывал сомнения в соблюдении прежних сроков. Указ впервые после того предупреждения сообщает избирателям новую дату.",
+          "photoAlt": "Предвыборные плакаты на стене в Бисау во время всеобщих выборов 2014 года.",
+          "photoCaption": "Архивный снимок 2014 года. Агитационные плакаты на улице Бисау в период всеобщих выборов 13 апреля, за двенадцать лет до объявления о переносе."
+        },
+        "ko": {
+          "title": "기니비사우, 대선·총선 2028년 11월로 연기",
+          "summary": "과도정부 대통령령에 따라 두 선거는 2028년 11월 26일 치러진다. 당초 예정일은 2026년 12월이었다.",
+          "body": "기니비사우 유권자들은 대통령과 국회의원을 뽑기까지 2년 가까이 더 기다리게 됐다. 과도정부 대통령 호르타 인타아 장군은 11월 26일 비사우에서 공개한 대통령령으로 총선과 대선을 2028년 11월 26일로 정했다. 국영 통신사 ANG와 AP통신이 모두 해당 문서를 확인했다.\n\n대통령실은 12월에 신뢰할 만한 선거를 치르는 데 필요한 기술과 물자, 재원이 부족하다고 설명했다. 총리도 앞서 12월 선거 가능성에 의문을 제기했다. 당시 발언 이후 유권자들에게 새로운 날짜가 제시된 것은 이번 대통령령이 처음이다.",
+          "photoAlt": "2014년 선거 당시 비사우 거리의 담벼락을 덮은 선거 포스터.",
+          "photoCaption": "2014년 자료 사진. 비사우의 한 거리에 4월 13일 선거를 맞아 걸린 선거 포스터로, 이번 연기 발표보다 12년 앞선 모습이다."
+        }
+      },
+      "title": "La Guinée-Bissau reporte ses élections présidentielle et législatives à novembre 2028",
+      "summary": "Le décret de la présidence de transition fixe les deux scrutins au 26 novembre 2028. Ils étaient auparavant prévus pour décembre 2026.",
+      "body": "En Guinée-Bissau, les électeurs devront attendre près de deux années de plus pour choisir leur président et leurs députés. Dans un décret rendu public le 26 novembre à Bissau, le général Horta Inta-a, président de transition, a fixé les élections générales au 26 novembre 2028. L’agence nationale ANG et l’Associated Press ont toutes deux consulté le texte.\n\nLa présidence invoque un manque de moyens techniques, matériels et financiers pour organiser un scrutin crédible en décembre. Le premier ministre avait déjà mis en doute la tenue des élections à cette échéance. Le décret donne pour la première fois une nouvelle date aux électeurs depuis cette mise en garde."
+    },
+    {
+      "eventKey": "detroit-chicago-odunze-touche-trois-secondes-thanksgiving",
+      "category": "Sports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Chicago Bears — images du touché décisif",
+          "url": "https://www.chicagobears.com/video/can-t-miss-highlight-rome-odunze-makes-incredible-toe-tap-catch-in-corner-of-end-zone-for-game-winning-td",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Associated Press / MPR News",
+          "url": "https://www.mprnews.org/story/2026/11/26/chicago-bears-win-39-35-over-detroit-lions",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Field Level Media / Reuters",
+          "url": "https://www.reuters.com/sports/nfl/bears-rally-take-down-lions-control-nfc-north--flm-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "subject": "Rome Odunze",
+        "context": "Bears de Chicago",
+        "capturedOn": "2025-10-13",
+        "download": "media/od.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Commanders_vs._Bears_(54857809497).jpg",
+        "credit": "Joe Glorioso / All-Pro Reels (recadrage BYRVOX)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Rome Odunze porte le numéro 15 des Bears de Chicago, en blanc, face à Washington.",
+        "caption": "Archives du 13 octobre 2025 à Landover, au Maryland. Rome Odunze, en tenue des Bears de Chicago, face aux Commanders de Washington."
+      },
+      "translations": {
+        "en": {
+          "title": "With three seconds left, Rome Odunze lifts the Chicago Bears to victory in Detroit",
+          "summary": "Down eleven in the fourth quarter, the Bears won 39–35 to take sole possession of the division lead.",
+          "body": "In Detroit, the Thanksgiving matchup for first place in the NFC North came down to a six-yard pass. Caleb Williams found Rome Odunze in the corner of the end zone with three seconds remaining. Chicago Bears footage shows the receiver keeping his feet in bounds.\n\nChicago trailed 35–24 with 8:20 left. Odunze’s touchdown gave the visitors their first lead of the game. According to The Associated Press and Field Level Media, the Bears improved to nine wins in eleven games and ended Detroit’s six-game winning streak.",
+          "photoAlt": "Rome Odunze wears the Chicago Bears’ white number 15 against Washington.",
+          "photoCaption": "Archive, October 13, 2025, in Landover, Maryland. Rome Odunze in Chicago Bears uniform against the Washington Commanders."
+        },
+        "es": {
+          "title": "A tres segundos del final, Rome Odunze da a los Chicago Bears la victoria en Detroit",
+          "summary": "Los Bears, que perdían por once puntos en el último cuarto, ganaron 39-35 y quedaron líderes en solitario de su división.",
+          "body": "El duelo de Acción de Gracias por el primer puesto de la NFC Norte en Detroit se decidió con un pase de seis yardas. Caleb Williams encontró a Rome Odunze en la esquina de la zona de anotación a tres segundos del final. Las imágenes de los Chicago Bears muestran al receptor manteniendo los pies dentro del campo.\n\nChicago perdía 35-24 cuando faltaban 8:20. El touchdown de Odunze dio al visitante su primera ventaja del partido. Según Associated Press y Field Level Media, los Bears suman nueve victorias en once partidos y pusieron fin a la racha de seis triunfos de los Lions.",
+          "photoAlt": "Rome Odunze, con el dorsal blanco número 15 de los Chicago Bears, frente a Washington.",
+          "photoCaption": "Archivo del 13 de octubre de 2025 en Landover, Maryland. Rome Odunze con el uniforme de los Chicago Bears ante los Washington Commanders."
+        },
+        "ar": {
+          "title": "روم أودونزي يحسم الفوز لشيكاغو بيرز في ديترويت قبل النهاية بثلاث ثوان",
+          "summary": "قلب بيرز تأخره بفارق 11 نقطة في الربع الأخير وفاز 39-35 لينفرد بصدارة قسمه.",
+          "body": "حُسمت مباراة عيد الشكر في ديترويت على صدارة القسم الشمالي للمؤتمر الوطني بتمريرة من ست ياردات. ووجد كاليب وليامز زميله روم أودونزي في زاوية منطقة النهاية قبل ثلاث ثوان من الختام. وتُظهر لقطات شيكاغو بيرز أن المستقبل أبقى قدميه داخل حدود الملعب.\n\nكان شيكاغو متأخراً 35-24 قبل النهاية بثماني دقائق و20 ثانية. ومنح هدف أودونزي الضيوف التقدم لأول مرة في المباراة. ووفق أسوشيتد برس وفيلد ليفل ميديا، رفع بيرز رصيده إلى تسعة انتصارات في 11 مباراة وأنهى سلسلة انتصارات لايونز الستة.",
+          "photoAlt": "روم أودونزي بقميص شيكاغو بيرز الأبيض رقم 15 أمام واشنطن.",
+          "photoCaption": "صورة أرشيفية بتاريخ 13 أكتوبر 2025 في لاندوفر بولاية ماريلاند. روم أودونزي بزي شيكاغو بيرز أمام واشنطن كوماندرز."
+        },
+        "zh-CN": {
+          "title": "终场前三秒，奥敦泽助芝加哥熊队在底特律取胜",
+          "summary": "熊队末节一度落后11分，最终以39比35逆转，独占国联北区榜首。",
+          "body": "在底特律举行的感恩节国联北区榜首之战由一记六码传球定局。比赛还剩三秒时，凯莱布·威廉姆斯在端区一角找到罗姆·奥敦泽。芝加哥熊队的录像显示，这名接球手的双脚都留在界内。\n\n终场前8分20秒，芝加哥仍以24比35落后。奥敦泽的达阵让客队全场首次领先。据美联社和Field Level Media报道，熊队在11场比赛中取得9胜，同时终结了雄狮队的六连胜。",
+          "photoAlt": "罗姆·奥敦泽身穿芝加哥熊队白色15号球衣对阵华盛顿。",
+          "photoCaption": "资料照片，摄于2025年10月13日，美国马里兰州兰多弗。罗姆·奥敦泽身穿芝加哥熊队球衣对阵华盛顿指挥官队。"
+        },
+        "ru": {
+          "title": "За три секунды до конца Ром Одунзе принёс «Чикаго Беарс» победу в Детройте",
+          "summary": "Уступая одиннадцать очков в последней четверти, «Беарс» победили 39:35 и стали единоличными лидерами дивизиона.",
+          "body": "Исход матча в День благодарения в Детройте за первое место в Северном дивизионе НФК решил пас на шесть ярдов. За три секунды до конца Калеб Уильямс нашёл Рома Одунзе в углу зачётной зоны. На кадрах «Чикаго Беарс» видно, что принимающий удержал обе ноги в пределах поля.\n\nЗа 8 минут 20 секунд до конца «Чикаго» уступал 24:35. Тачдаун Одунзе впервые в матче вывел гостей вперёд. По данным Associated Press и Field Level Media, «Беарс» одержали девятую победу в одиннадцати играх и прервали шестиматчевую победную серию «Лайонс».",
+          "photoAlt": "Ром Одунзе в белой форме «Чикаго Беарс» под номером 15 в матче против «Вашингтона».",
+          "photoCaption": "Архивный снимок от 13 октября 2025 года, Ландовер, Мэриленд. Ром Одунзе в форме «Чикаго Беарс» играет против «Вашингтон Коммандерс»."
+        },
+        "ko": {
+          "title": "종료 3초 전 로움 오둔제 결승 터치다운…시카고 베어스, 디트로이트 원정 승리",
+          "summary": "베어스는 4쿼터 11점 차 열세를 뒤집고 39-35로 이겨 지구 단독 선두에 올랐다.",
+          "body": "디트로이트에서 열린 추수감사절 NFC 북부지구 선두 대결은 6야드 패스 한 번으로 결정됐다. 경기 종료 3초 전 케일럽 윌리엄스가 엔드존 구석에서 로움 오둔제에게 패스를 연결했다. 시카고 베어스 영상에는 오둔제가 두 발을 경기장 안에 둔 모습이 담겼다.\n\n시카고는 종료 8분 20초 전까지 24-35로 뒤졌다. 오둔제의 터치다운으로 원정팀이 이날 처음 앞서갔다. AP통신과 필드레벨미디어에 따르면 베어스는 11경기에서 9승을 거뒀고 라이언스의 6연승을 끝냈다.",
+          "photoAlt": "시카고 베어스의 흰색 15번 유니폼을 입고 워싱턴을 상대하는 로움 오둔제.",
+          "photoCaption": "2025년 10월 13일 미국 메릴랜드주 랜도버에서 촬영한 자료 사진. 로움 오둔제가 시카고 베어스 유니폼을 입고 워싱턴 커맨더스를 상대하고 있다."
+        }
+      },
+      "title": "À trois secondes de la fin, Rome Odunze donne aux Bears de Chicago la victoire à Détroit",
+      "summary": "Menés de onze points au dernier quart, les Bears l’emportent 39-35 et prennent seuls la tête de leur division.",
+      "body": "À Détroit, le duel de Thanksgiving pour le premier rang de la division Nord de la NFC s’est décidé sur une passe de six verges. Caleb Williams a trouvé Rome Odunze dans le coin de la zone des buts alors qu’il restait trois secondes à jouer. Les images des Bears de Chicago montrent le receveur garder les pieds à l’intérieur du terrain.\n\nChicago tirait de l’arrière 35-24 à 8 min 20 s de la fin. Le touché d’Odunze a donné aux visiteurs leur première avance du match. Selon les comptes rendus d’Associated Press et de Field Level Media, les Bears portent leur fiche à neuf victoires en onze matchs et mettent fin à la série de six victoires des Lions."
+    }
+  ]
+}
