@@ -4,21 +4,22 @@ import { editionHref, type Section } from '@/lib/edition';
 import { desc, eq } from 'drizzle-orm';
 import { getDb } from '@/db';
 import { articles } from '@/db/schema';
-import { articleUrl, SITE_ORIGIN } from '@/lib/site-url';
+import { articleUrl, publicSiteOrigin } from '@/lib/site-url';
 import { xml, xmlResponse } from '@/lib/xml';
 
-export async function GET() {
+export async function GET(request: Request) {
+  const origin = publicSiteOrigin(new URL(request.url).host);
   const urls = new Map<string, string | null>();
-  urls.set(SITE_ORIGIN + '/', null);
+  urls.set(origin + '/', null);
   const sections: Section[] = ['actualites', 'radio', 'tv', 'podcasts', 'emissions', 'dossiers', 'direct', 'presentations'];
   for (const section of sections) {
-    urls.set(new URL(editionHref(section), SITE_ORIGIN).href, null);
+    urls.set(new URL(editionHref(section), origin).href, null);
   }
   const publishedCategories = await getDb().selectDistinct({category:articles.category}).from(articles).where(eq(articles.status,'published'));
   for (const category of orderedCategories(publishedCategories.map(row=>row.category))) {
-    urls.set(new URL(categoryHref(category),SITE_ORIGIN).href,null);
+    urls.set(new URL(categoryHref(category),origin).href,null);
   }
-  for (const feature of features) urls.set(articleUrl(feature.slug), null);
+  for (const feature of features) urls.set(articleUrl(feature.slug, origin), null);
   const publications = await getDb()
     .select({ slug: articles.slug, updatedAt: articles.updatedAt, publishedAt: articles.publishedAt })
     .from(articles)
@@ -26,7 +27,7 @@ export async function GET() {
     .orderBy(desc(articles.publishedAt), desc(articles.slug))
     .limit(50000 - urls.size);
   for (const story of publications) {
-    urls.set(articleUrl(story.slug), story.updatedAt || story.publishedAt);
+    urls.set(articleUrl(story.slug, origin), story.updatedAt || story.publishedAt);
   }
 
   const entries = Array.from(urls, ([url, date]) => {

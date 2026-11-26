@@ -6,7 +6,7 @@ import { usePublicLocale } from '../language-select';
 import { sectionText } from './section-copy';
 import './ad-slot.css';
 
-type Placement = 'masthead' | 'home' | 'home-lower' | 'news' | 'news-lower' | 'article' | 'article-lower' | 'radio';
+type Placement = 'masthead' | 'home' | 'home-lower' | 'news' | 'news-lower' | 'article' | 'article-photo' | 'article-lower' | 'radio';
 type Campaign = { name: string; url: string; image: string; alt: string };
 // Booked campaigns use local creatives and disclose the advertiser. Unbooked
 // placements remain identified without advertising an unlaunched service.

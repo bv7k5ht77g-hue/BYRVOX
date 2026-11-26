@@ -79,6 +79,31 @@ async function createNewsroom(t, editionBindings, outboundService) {
   return { mf, db, request, json };
 }
 
+test('les adresses publiques suivent le domaine et le portail conserve ses sessions sur Noventra', async (t) => {
+  const { mf } = await createNewsroom(t);
+  const legacy = 'https://byrvox.noventra.ca';
+  const today = 'https://byrvox.today';
+  for (const [base, canonical] of [[today,today], [legacy,legacy], [origin,legacy]]) {
+    const read = async path => {
+      const response = await mf.dispatchFetch(base + path);
+      assert.equal(response.status, 200, path);
+      return response.text();
+    };
+    const href = (await read('/')).match(/<link rel="canonical" href="([^"]+)"/)?.[1];
+    assert.equal(new URL(href).href, canonical + '/');
+    const path = '/article/notre-methode';
+    const article = await read(path);
+    assert.ok(article.includes('rel="canonical" href="' + canonical + path + '"'));
+    assert.ok(article.includes('property="og:url" content="' + canonical + path + '"'));
+    assert.ok((await read('/rss.xml')).includes('<link>' + canonical + '/</link>'));
+    assert.ok((await read('/sitemap.xml')).includes('<loc>' + canonical + path + '</loc>'));
+    assert.ok((await read('/robots.txt')).includes('Sitemap: ' + canonical + '/sitemap.xml'));
+  }
+  const newsroom = await mf.dispatchFetch(today + '/admin', {redirect:'manual'});
+  assert.equal(newsroom.status, 307);
+  assert.equal(newsroom.headers.get('location'), legacy + '/admin');
+});
+
 test('le Worker distingue les versions publiques et les révisions de la rédaction', async (t) => {
   const { mf, request, json } = await createNewsroom(t, {
     ...(originalKey ? { BYRVOX_REVIEW_KEY_20261125: originalKey } : {}),

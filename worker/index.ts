@@ -1,3 +1,4 @@
+import { NEW_SITE_ORIGIN, NEWSROOM_URL } from "../lib/site-url";
 import { preferredLocale } from "../lib/i18n";
 import handler from "vinext/server/fetch-handler";
 import { runWithConnectorBinding } from "../lib/connector-context";
@@ -6,9 +7,11 @@ import type { ConnectorBinding } from "../lib/connector-contract.mjs";
 const worker = {
   fetch(request: Request, env: Cloudflare.Env, ctx: ExecutionContext<{ CONNECTORS?: ConnectorBinding }>) {
     // Server components see headers, whereas the Worker also knows the effective URL.
-    // Supply the canonical host for editor pages and their API on both custom and provider domains.
     const url = new URL(request.url);
-    if ((url.pathname === "/admin" || url.pathname.startsWith("/api/")) && request.headers.get("host") !== url.host) {
+    if (url.origin === NEW_SITE_ORIGIN && (url.pathname === "/admin" || url.pathname === "/admin/")) {
+      return Response.redirect(NEWSROOM_URL + url.search, 307);
+    }
+    if (request.headers.get("host") !== url.host) {
       const headers = new Headers(request.headers);
       headers.set("host", url.host);
       request = new Request(request, { headers });

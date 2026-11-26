@@ -1,19 +1,21 @@
 import { headers } from "next/headers";
 import { preferredLocale } from "../lib/i18n";
 import type { Metadata } from "next";
-import { SITE_ORIGIN } from "../lib/site-url";
+import { publicSiteOrigin } from "../lib/site-url";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  metadataBase: new URL(SITE_ORIGIN),
-  title: {
-    default: "BYRVOX — Beyond the Headlines",
-    template: "%s | BYRVOX",
-  },
-  description: "Actualités, radio, télévision et podcasts de BYRVOX.",
-  alternates: { types: { "application/rss+xml": "/rss.xml" } },
-  icons: { icon: "/favicon.svg" },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    metadataBase: new URL(publicSiteOrigin((await headers()).get("host"))),
+    title: {
+      default: "BYRVOX — Beyond the Headlines",
+      template: "%s | BYRVOX",
+    },
+    description: "Actualités, radio, télévision et podcasts de BYRVOX.",
+    alternates: { types: { "application/rss+xml": "/rss.xml" } },
+    icons: { icon: "/favicon.svg" },
+  };
+}
 
 const initialTheme = `(function () {
   var dark = window.matchMedia('(prefers-color-scheme: dark)').matches;

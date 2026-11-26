@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { features } from '../lib/content';
-import { SITE_ORIGIN } from '../lib/site-url';
+import { headers } from 'next/headers';
+import { publicSiteOrigin } from '../lib/site-url';
 import { editionHref, sections, type Section, type Summary } from '../lib/edition';
 import { listHomepageStories, listCategoryHeadlines, readEditionArticles } from '../lib/public-articles';
 import { PublicLocaleProvider } from '../components/language-select';
@@ -32,8 +33,9 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const locale = await resolvePublicLocale(params);
   const { section, query, category, page } = routeFrom(params);
   const href = editionHref(section, '', category, page);
+  const origin = publicSiteOrigin((await headers()).get('host'));
   const languages = Object.fromEntries(publicLocales.map(language => [language,
-    new URL(localizedHref(href,language), SITE_ORIGIN).href]));
+    new URL(localizedHref(href,language), origin).href]));
   return {
     ...(section !== 'accueil' ? { title: category && section === 'actualites' ? categoryLabel(category,locale) : sectionLabel(section, locale) } : {}),
     alternates: { canonical: languages[locale], languages,

@@ -94,7 +94,7 @@ function Footer({ open }: { open: (name: DialogName) => void }) {
       <a className="edition-icon-link" href="/admin"><Settings2 size={16} aria-hidden="true" /> {navText(lang,'editor')}</a></div>
     <div><b>{navText(lang,'transparency')}</b>{policies.map((policy,i) => <button key={policy} onClick={() => open(policy)}>{navText(lang,policyLabels[i])}</button>)}</div>
   </div>
-  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.7.0</span></div></footer>;
+  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.7.1</span></div></footer>;
 }
 
 type EditionProps = {

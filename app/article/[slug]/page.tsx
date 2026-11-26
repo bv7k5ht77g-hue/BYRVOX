@@ -10,7 +10,8 @@ import { AdSlot } from '../../../components/edition/ad-slot';
 import { PublicLocaleProvider } from '../../../components/language-select';
 import type { ArticlePhoto } from '../../../lib/article-photo';
 import { resolveCover, type CoverPhoto } from '../../../lib/cover-photo';
-import { SITE_ORIGIN } from '../../../lib/site-url';
+import { headers } from 'next/headers';
+import { publicSiteOrigin } from '../../../lib/site-url';
 import { features, type Story } from '../../../lib/content';
 import { getDb } from '../../../db';
 import { articles } from '../../../db/schema';
@@ -51,8 +52,8 @@ const localizedArticle = cache(async (slug:string, locale:PublicLocale) => {
   return { ...article, original:article.story, story, photo:cover.photo, photoLanguage:cover.translated ? locale : 'fr', language:translated ? locale : 'fr' as const };
 });
 const openGraphLocales = {fr:'fr_CA', en:'en_CA', es:'es_ES', ar:'ar_SA', 'zh-CN':'zh_CN', ru:'ru_RU', ko:'ko_KR'} as const;
-function absoluteArticleUrl(slug:string, locale:PublicLocale) {
-  return new URL(localizedHref('/article/' + encodeURIComponent(slug),locale),SITE_ORIGIN).href;
+function absoluteArticleUrl(slug:string, locale:PublicLocale, origin:string) {
+  return new URL(localizedHref('/article/' + encodeURIComponent(slug),locale),origin).href;
 }
 export async function generateMetadata({params,searchParams}:ArticleProps):Promise<Metadata> {
   const {slug} = await params;
@@ -60,8 +61,9 @@ export async function generateMetadata({params,searchParams}:ArticleProps):Promi
   const record = await localizedArticle(slug,locale);
   if (!record) return {title:readerLabels(locale).missing, robots:{index:false,follow:false}};
   const {story, photo, isFeature, language} = record;
-  const path = absoluteArticleUrl(slug,language);
-  const image = photo ? {url:photo.url, alt:photo.alt} : isFeature && story.image ? {url:'/media/' + story.image + '.webp'} : null;
+  const origin = publicSiteOrigin((await headers()).get('host'));
+  const path = absoluteArticleUrl(slug,language,origin);
+  const image = photo ? {url:new URL(photo.url,origin).href, alt:photo.alt} : isFeature && story.image ? {url:new URL('/media/' + story.image + '.webp',origin).href} : null;
   return {
     title:story.title, description:story.summary, alternates:{canonical:path, types:{'application/rss+xml':'/rss.xml'}},
     openGraph:{ title:story.title, description:story.summary, type:'article', url:path, locale:openGraphLocales[language],
@@ -77,6 +79,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
   const record = await localizedArticle(slug,locale);
   if (!record) notFound();
   const {story, original, isFeature, isWire, photo, language} = record;
+  const illustration = isFeature && story.image !== 'city' ? story.image : undefined;
   const copy = readerLabels(locale);
   const sources = sourcesForReader(story.sources);
   const published = isoDate(story.publishedAt), updated = isoDate(story.updatedAt);
@@ -86,9 +89,10 @@ export default async function Article({params,searchParams}:ArticleProps) {
   const candidates = await readerCandidates(original).catch(() => []);
   const suggestions = recommend(original,candidates);
   const cards = await translateSummaries(suggestions.stories,locale);
+  const origin = publicSiteOrigin((await headers()).get('host'));
   const linkedData = {
-    '@context':'https://schema.org', '@type':isFeature?'Article':'NewsArticle', mainEntityOfPage:absoluteArticleUrl(slug,language),
-    image:photo ? new URL(photo.url,SITE_ORIGIN).href : undefined, headline:story.title, description:story.summary,
+    '@context':'https://schema.org', '@type':isFeature?'Article':'NewsArticle', mainEntityOfPage:absoluteArticleUrl(slug,language,origin),
+    image:photo ? new URL(photo.url,origin).href : undefined, headline:story.title, description:story.summary,
     articleSection:categoryLabel(story.category,locale), inLanguage:language, author:{'@type':'Organization',name:'BYRVOX'},
     publisher:{'@type':'Organization',name:'BYRVOX'}, datePublished:published || undefined, dateModified:updated || undefined,
     citation:sources.length ? sources.map(s=>s.url) : undefined,
@@ -100,7 +104,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
       <div className="reader-main">
         <article>
           <div className="reader-heading">
-            {locale !== language && <p className="reader-translation-note">{localeLabels[locale].sourceFallback}{' '}<a href={translationFallbackHref(absoluteArticleUrl(slug,'fr'),locale)} rel="external">{localeLabels[locale].translate}</a></p>}
+            {locale !== language && <p className="reader-translation-note">{localeLabels[locale].sourceFallback}{' '}<a href={translationFallbackHref(absoluteArticleUrl(slug,'fr',origin),locale)} rel="external">{localeLabels[locale].translate}</a></p>}
             {locale !== 'fr' && language === locale && <p className="reader-translation-note"><a href={'/article/'+encodeURIComponent(slug)+'?lang=fr'} hrefLang="fr">{copy.frenchOriginal}</a></p>}
             <p className="reader-category"><a href={localizedHref(categoryHref(story.category),locale)}>{categoryLabel(story.category,locale)}</a></p>
             <h1 lang={language} dir="auto">{story.title}</h1>
@@ -114,10 +118,11 @@ export default async function Article({params,searchParams}:ArticleProps) {
             </div>
           </div>
           {photo && <div lang={record.photoLanguage} dir="auto"><CoverFigure photo={photo} priority /></div>}
-          {isFeature && story.image && story.image !== 'city' && <figure className="reader-photo">
-            <Image src={'/media/'+story.image+'.webp'} width={900} height={400} alt="" loading="eager" unoptimized/>
+          {illustration && <figure className="reader-photo">
+            <Image src={'/media/'+illustration+'.webp'} width={900} height={400} alt="" loading="eager" unoptimized/>
             <figcaption>{copy.illustration}</figcaption>
           </figure>}
+          {(photo || illustration) && <AdSlot placement="article-photo" locale={locale}/>}
           <div lang={language} dir="auto" className="reader-copy">
             {story.body.split(/\r?\n/).filter(p=>p.trim()).map((p,i)=><p key={i}>{p}</p>)}
           </div>

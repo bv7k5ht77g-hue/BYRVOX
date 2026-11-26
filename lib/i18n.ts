@@ -1,3 +1,4 @@
+import { publicSiteOrigin, SITE_ORIGIN } from './site-url';
 import type { Section } from './edition';
 
 export const publicLocales = ['fr','en','es','ar','zh-CN','ru','ko'] as const;
@@ -71,9 +72,9 @@ export const localeLabels: Record<PublicLocale, {language:string;sourceFallback:
  ko:{language:'읽기 언어',sourceFallback:'번역을 준비 중입니다. 프랑스어 원문을 표시합니다.',translate:'Google로 이 페이지 번역'}
 };
 export function translationFallbackHref(publicUrl:string,locale:PublicLocale) {
-  const page = new URL(publicUrl,'https://byrvox.noventra.ca');
+  const page = new URL(publicUrl,SITE_ORIGIN);
   // A translator sees only the public article path, never reader search or identity parameters.
   const link = new URL('https://translate.google.com/translate');
-  link.search = new URLSearchParams({sl:'fr',tl:locale,hl:locale,u:'https://byrvox.noventra.ca'+page.pathname}).toString();
+  link.search = new URLSearchParams({sl:'fr',tl:locale,hl:locale,u:publicSiteOrigin(page.host)+page.pathname}).toString();
   return link.href;
 }
