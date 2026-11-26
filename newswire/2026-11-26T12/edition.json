@@ -1,0 +1,1115 @@
+{
+  "hour": "2026-11-26T12",
+  "articles": [
+    {
+      "eventKey": "canada-six-partielles-vote-anticipation-27-novembre",
+      "category": "Canada",
+      "title": "Le vote par anticipation ouvre vendredi dans six circonscriptions fédérales",
+      "summary": "Du 27 au 30 novembre, les électeurs de trois circonscriptions québécoises, de deux ontariennes et d’une en Saskatchewan pourront voter à l’avance.",
+      "body": "Les électeurs de Laurier–Sainte-Marie, de Rosemont–La Petite-Patrie et de Saint-Hyacinthe–Bagot–Acton pourront se rendre à leur bureau de vote par anticipation du vendredi 27 au lundi 30 novembre. Élections Canada précise que le scrutin fédéral partiel concerne aussi Brantford–Brant South, Scarborough North et Yorkton–Melville.\n\nComme le rappelle CityNews, il faut se présenter au bureau assigné et prouver son identité et son adresse. Pour ceux qui choisissent de voter au bureau local d’Élections Canada, l’échéance est le 1er décembre à 18 h. Le jour du scrutin est le 7 décembre.",
+      "sources": [
+        {
+          "name": "Élections Canada",
+          "url": "https://elections.ca/content.aspx?dir=pre&document=nov2526&lang=e&section=med",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "CityNews Montréal",
+          "url": "https://montreal.citynews.ca/2026/11/26/advance-voting-federal-byelections-friday/",
+          "publishedAt": "2026-11-26T07:00:00-05:00"
+        }
+      ],
+      "photo": {
+        "download": "media/elect.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Hyacinthe_-_H%C3%B4tel_de_ville_(2).jpg",
+        "credit": "SamuelFreli",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "La façade et les tours de l’hôtel de ville de Saint-Hyacinthe.",
+        "caption": "La façade et les tours de l’hôtel de ville de Saint-Hyacinthe. Photo d’archives · 2014-04-20."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Advance voting opens Friday in six federal ridings",
+          "summary": "Voters in three Quebec ridings, two in Ontario and one in Saskatchewan can vote early from November 27 to 30.",
+          "body": "Voters in Laurier–Sainte-Marie, Rosemont–La Petite-Patrie and Saint-Hyacinthe–Bagot–Acton can go to their advance polls from Friday, November 27 through Monday, November 30. Elections Canada says the federal by-elections also cover Brantford–Brant South, Scarborough North and Yorkton–Melville.\n\nAs CityNews reports, voters must use their assigned poll and prove their identity and address. Those voting at a local Elections Canada office have until 6 p.m. on December 1. Election day is December 7.",
+          "photoAlt": "The facade and towers of Saint-Hyacinthe City Hall.",
+          "photoCaption": "The facade and towers of Saint-Hyacinthe City Hall. Archive photograph · 2014-04-20."
+        },
+        "es": {
+          "title": "El voto anticipado abre el viernes en seis distritos federales",
+          "summary": "Del 27 al 30 de noviembre podrán votar por adelantado tres distritos de Quebec, dos de Ontario y uno de Saskatchewan.",
+          "body": "Los electores de Laurier–Sainte-Marie, Rosemont–La Petite-Patrie y Saint-Hyacinthe–Bagot–Acton podrán acudir a votar del viernes 27 al lunes 30 de noviembre. Según Elections Canada, las elecciones parciales también se celebran en Brantford–Brant South, Scarborough North y Yorkton–Melville.\n\nCityNews recuerda que hay que acudir al centro asignado y acreditar identidad y domicilio. Para votar en la oficina local de Elections Canada el plazo acaba el 1 de diciembre a las 18 horas. La jornada electoral es el 7 de diciembre.",
+          "photoAlt": "Fachada y torres del ayuntamiento de Saint-Hyacinthe.",
+          "photoCaption": "Fachada y torres del ayuntamiento de Saint-Hyacinthe. Foto de archivo · 2014-04-20."
+        },
+        "ar": {
+          "title": "التصويت المبكر يبدأ الجمعة في ست دوائر اتحادية كندية",
+          "summary": "يمكن التصويت مبكرا من 27 إلى 30 نوفمبر في ثلاث دوائر بكيبيك واثنتين بأونتاريو وواحدة بساسكاتشوان.",
+          "body": "يمكن لناخبي Laurier–Sainte-Marie وRosemont–La Petite-Patrie وSaint-Hyacinthe–Bagot–Acton التوجه إلى مراكز الاقتراع المبكر من الجمعة 27 حتى الاثنين 30 نوفمبر. وتشمل الانتخابات التكميلية أيضا Brantford–Brant South وScarborough North وYorkton–Melville وفق هيئة الانتخابات الكندية.\n\nوتوضح سيتي نيوز أن على الناخب التوجه إلى مركزه المحدد وإثبات هويته وعنوانه. وتنتهي مهلة التصويت في مكتب هيئة الانتخابات المحلي في السادسة مساء الأول من ديسمبر. وموعد الاقتراع العام في هذه الدوائر هو 7 ديسمبر.",
+          "photoAlt": "واجهة مبنى بلدية سانت هياسنت وأبراجه.",
+          "photoCaption": "واجهة مبنى بلدية سانت هياسنت وأبراجه. صورة أرشيفية · 2014-04-20."
+        },
+        "zh-CN": {
+          "title": "加拿大六个联邦选区周五开始提前投票",
+          "summary": "11月27日至30日，魁北克省三个选区、安大略省两个选区和萨斯喀彻温省一个选区的选民可提前投票。",
+          "body": "劳里埃–圣玛丽、罗斯蒙–小祖国和圣亚森特–巴戈–阿克顿选民可从11月27日星期五至30日星期一前往提前投票站。加拿大选举局表示，此次联邦补选还包括布兰特福德–南布兰特、士嘉堡北和约克顿–梅尔维尔。\n\n据CityNews报道，选民须到指定投票站并出示身份和住址证明。选择在选举局当地办公室投票者须在12月1日18时前完成投票。正式投票日为12月7日。",
+          "photoAlt": "圣亚森特市政厅的外墙与塔楼。",
+          "photoCaption": "圣亚森特市政厅的外墙与塔楼。 档案照片 · 2014-04-20."
+        },
+        "ru": {
+          "title": "Досрочное голосование начинается в пятницу в шести федеральных округах Канады",
+          "summary": "С 27 по 30 ноября заранее смогут проголосовать жители трёх округов Квебека, двух округов Онтарио и одного в Саскачеване.",
+          "body": "Избиратели округов Laurier–Sainte-Marie, Rosemont–La Petite-Patrie и Saint-Hyacinthe–Bagot–Acton могут прийти на участки досрочного голосования с пятницы, 27 ноября, по понедельник, 30 ноября. По данным Elections Canada, довыборы также пройдут в Brantford–Brant South, Scarborough North и Yorkton–Melville.\n\nКак напоминает CityNews, нужно явиться на свой участок и подтвердить личность и адрес. В местном офисе Elections Canada можно проголосовать до 18 часов 1 декабря. Основной день голосования — 7 декабря.",
+          "photoAlt": "Фасад и башни ратуши Сент-Иасента.",
+          "photoCaption": "Фасад и башни ратуши Сент-Иасента. Архивное фото · 2014-04-20."
+        },
+        "ko": {
+          "title": "캐나다 연방 보궐선거 6개 선거구, 금요일 사전투표 시작",
+          "summary": "11월 27일부터 30일까지 퀘벡 3곳, 온타리오 2곳, 서스캐처원 1곳에서 미리 투표할 수 있다.",
+          "body": "로리에–생트마리, 로즈몽–라프티트파트리, 생티아생트–바고–액턴 유권자는 11월 27일 금요일부터 30일 월요일까지 사전투표소를 이용할 수 있다. 캐나다 선거관리청에 따르면 브랜트퍼드–브랜트사우스, 스카버러노스, 요크턴–멜빌도 이번 연방 보궐선거 대상이다.\n\n시티뉴스에 따르면 지정된 투표소에서 신분과 주소를 증명해야 한다. 선거관리청 지역 사무소에서 투표하려면 12월 1일 오후 6시까지 마쳐야 한다. 본투표는 12월 7일이다.",
+          "photoAlt": "생티아생트 시청 정면과 탑.",
+          "photoCaption": "생티아생트 시청 정면과 탑. 자료 사진 · 2014-04-20."
+        }
+      }
+    },
+    {
+      "eventKey": "ibiza-med-emre-naufrage-gazole-equipage",
+      "category": "Monde",
+      "title": "Un marin meurt après le naufrage d’un pétrolier au large d’Ibiza",
+      "summary": "Les secours ont évacué les 17 membres d’équipage du Med Emre. Les Baléares évaluent les conséquences de l’accident.",
+      "body": "Les autorités des Baléares ont activé le 26 novembre le niveau initial de leur plan de protection civile après le naufrage du Med Emre, qui transportait du gazole d’Algésiras vers Barcelone. Elles estiment que la cargaison pouvait atteindre 7 000 tonnes.\n\nLes 17 marins ont été secourus, mais le décès de l’un d’eux a été confirmé à l’hôpital Can Misses. Six autres ont transité par l’aéroport d’Ibiza avant leur hospitalisation. Selon Reuters, le gouvernement espagnol n’avait signalé aucun indice de pollution au moment de son premier bilan.",
+      "sources": [
+        {
+          "name": "Gouvernement des îles Baléares",
+          "url": "https://www.caib.es/pidip2front/ficha_convocatoria.xhtml?lang=es&urlSemantica=emergencias-activa-el-platerbal-en-nivel-0-por-el-hundimiento-de-un-buque-cargado-de-gasoleo-a-25-millas-de-ibiza",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/",
+          "publishedAt": "2026-11-26T07:41:00Z"
+        }
+      ],
+      "photo": {
+        "download": "media/ibiza.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ibiza_Airport_asv2023-04_img4.jpg",
+        "credit": "A.Savin",
+        "license": "FAL",
+        "licenseUrl": "https://artlibre.org/licence/lal/en",
+        "alt": "Le terminal de l’aéroport d’Ibiza où six marins ont transité.",
+        "caption": "Le terminal de l’aéroport d’Ibiza où six marins ont transité. Photo d’archives · 2023-04-22."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Sailor dies after tanker sinks off Ibiza",
+          "summary": "Rescuers evacuated all 17 members of the Med Emre’s crew. The Balearic authorities are assessing the consequences.",
+          "body": "On November 26 the Balearic authorities activated the initial level of their civil protection plan after the Med Emre sank while carrying diesel from Algeciras to Barcelona. They estimated that the cargo may have reached 7,000 tonnes.\n\nAll 17 sailors were rescued, but one was confirmed dead at Can Misses hospital. Six others passed through Ibiza airport before being taken to hospital. Reuters reports that the Spanish government had found no signs of pollution in its initial assessment.",
+          "photoAlt": "The terminal at Ibiza airport, where six sailors were taken.",
+          "photoCaption": "The terminal at Ibiza airport, where six sailors were taken. Archive photograph · 2023-04-22."
+        },
+        "es": {
+          "title": "Muere un marinero tras el hundimiento de un buque cisterna frente a Ibiza",
+          "summary": "Los servicios de rescate evacuaron a los 17 tripulantes del Med Emre. Baleares evalúa las consecuencias.",
+          "body": "Las autoridades baleares activaron el 26 de noviembre el nivel inicial de su plan de protección civil tras el hundimiento del Med Emre, que transportaba gasóleo de Algeciras a Barcelona. Estiman que podía llevar hasta 7.000 toneladas.\n\nLos 17 marineros fueron rescatados, pero en el hospital Can Misses se confirmó el fallecimiento de uno. Otros seis pasaron por el aeropuerto de Ibiza antes de ser hospitalizados. Según Reuters, el Gobierno español no había observado indicios de contaminación en su primera evaluación.",
+          "photoAlt": "Terminal del aeropuerto de Ibiza por el que pasaron seis marineros.",
+          "photoCaption": "Terminal del aeropuerto de Ibiza por el que pasaron seis marineros. Foto de archivo · 2023-04-22."
+        },
+        "ar": {
+          "title": "وفاة بحار بعد غرق ناقلة وقود قبالة إيبيزا",
+          "summary": "أجلت فرق الإنقاذ أفراد طاقم ميد إمري السبعة عشر وتقيّم سلطات البليار آثار الحادث.",
+          "body": "فعّلت سلطات البليار في 26 نوفمبر المستوى الأولي من خطة الحماية المدنية بعد غرق ميد إمري أثناء نقلها وقود الديزل من الجزيرة الخضراء إلى برشلونة. وقدرت أن الحمولة ربما بلغت سبعة آلاف طن.\n\nأُنقذ البحارة السبعة عشر لكن مستشفى كان ميسيس أكد وفاة أحدهم. ونُقل ستة آخرون عبر مطار إيبيزا إلى المستشفى. وبحسب رويترز لم ترصد الحكومة الإسبانية مؤشرات تلوث في تقييمها الأولي.",
+          "photoAlt": "مبنى مطار إيبيزا الذي نقل إليه ستة بحارة.",
+          "photoCaption": "مبنى مطار إيبيزا الذي نقل إليه ستة بحارة. صورة أرشيفية · 2023-04-22."
+        },
+        "zh-CN": {
+          "title": "油轮在伊维萨岛近海沉没，一名船员死亡",
+          "summary": "救援人员撤离了“梅德埃姆雷”号全部17名船员，巴利阿里当局正在评估事故影响。",
+          "body": "11月26日，巴利阿里当局启动民防预案的初始响应。“梅德埃姆雷”号在从阿尔赫西拉斯向巴塞罗那运送柴油途中沉没，当局估计船上可能载有多达7000吨柴油。\n\n17名船员全部获救，但其中一人在坎米塞斯医院被确认死亡。另有六人经伊维萨机场转送医院。据路透社报道，西班牙政府在初步评估时尚未发现污染迹象。",
+          "photoAlt": "六名船员转运所经的伊维萨机场航站楼。",
+          "photoCaption": "六名船员转运所经的伊维萨机场航站楼。 档案照片 · 2023-04-22."
+        },
+        "ru": {
+          "title": "Моряк погиб после крушения танкера у Ибицы",
+          "summary": "Спасатели эвакуировали всех 17 членов экипажа Med Emre. Власти Балеарских островов оценивают последствия.",
+          "body": "26 ноября власти Балеарских островов ввели начальный уровень плана гражданской защиты после крушения Med Emre, перевозившего дизель из Альхесираса в Барселону. По их оценке, на борту могло быть до 7 тысяч тонн топлива.\n\nВсех 17 моряков спасли, но в больнице Кан-Миссес подтвердили смерть одного из них. Ещё шестерых доставили в больницы через аэропорт Ибицы. По данным Reuters, при первоначальной оценке правительство Испании не обнаружило признаков загрязнения.",
+          "photoAlt": "Терминал аэропорта Ибицы, через который перевезли шестерых моряков.",
+          "photoCaption": "Терминал аэропорта Ибицы, через который перевезли шестерых моряков. Архивное фото · 2023-04-22."
+        },
+        "ko": {
+          "title": "이비사섬 앞바다서 유조선 침몰, 선원 1명 사망",
+          "summary": "구조대가 메드 엠레호 선원 17명 전원을 대피시켰으며 발레아레스 당국은 사고 영향을 조사하고 있다.",
+          "body": "발레아레스 당국은 알헤시라스에서 바르셀로나로 경유를 운반하던 메드 엠레호가 침몰하자 11월 26일 민방위 계획의 초기 단계를 가동했다. 당국은 적재량이 최대 7,000톤에 이르렀을 것으로 추산했다.\n\n선원 17명 모두 구조됐지만 한 명은 칸 미세스 병원에서 사망이 확인됐다. 다른 6명은 이비사 공항을 거쳐 병원으로 이송됐다. 로이터에 따르면 스페인 정부는 초기 평가에서 오염 징후가 없었다고 밝혔다.",
+          "photoAlt": "선원 6명이 거쳐 간 이비사 공항의 터미널.",
+          "photoCaption": "선원 6명이 거쳐 간 이비사 공항의 터미널. 자료 사진 · 2023-04-22."
+        }
+      }
+    },
+    {
+      "eventKey": "zambie-livraison-lenacapavir-generique-prevention",
+      "category": "Santé",
+      "title": "La Zambie reçoit les premières livraisons de lénacapavir générique pour prévenir le VIH",
+      "summary": "Le Fonds mondial attend aussi des livraisons en Ouganda dans les prochains jours et au Zimbabwe au début de 2027.",
+      "body": "Le Fonds mondial a annoncé le 25 novembre l’arrivée en Zambie des premières livraisons de lénacapavir générique destiné à la prévention du VIH. Selon son directeur Peter Sands, l’arrivée de fournisseurs génériques doit permettre d’élargir l’accès au médicament alors que la demande dépasse l’offre.\n\nReuters rapporte que des accords de licence avec le fabricant d’origine ont rendu ces livraisons possibles. Selon le Fonds, plus de 189 000 personnes avaient reçu une première dose de lénacapavir dans dix pays en novembre. Ce total inclut le déploiement antérieur à l’arrivée du générique.",
+      "sources": [
+        {
+          "name": "Fonds mondial",
+          "url": "https://www.theglobalfund.org/en/news/2026/2026-11-25-first-deliveries-generic-lenacapavir-hiv-prevention-arrive/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/first-generic-hiv-drug-shipments-arrive-africa-global-fund-says-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/hiv.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:UN_AI_for_Good_Summit_2025_-_Peter_Sands_06.jpg",
+        "credit": "Xuthoria",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Peter Sands, directeur du Fonds mondial, assis avec un microphone.",
+        "caption": "Peter Sands, directeur du Fonds mondial, assis avec un microphone. Photo d’archives · 2025-07-11."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Zambia receives first shipments of generic lenacapavir for HIV prevention",
+          "summary": "The Global Fund also expects deliveries to Uganda in the coming days and Zimbabwe in early 2027.",
+          "body": "The Global Fund announced on November 25 that the first shipments of generic lenacapavir for HIV prevention had reached Zambia. Executive director Peter Sands said generic suppliers should broaden access as demand exceeds supply.\n\nReuters reports that licensing agreements with the original manufacturer made the shipments possible. The fund said more than 189,000 people across ten countries had received a first dose of lenacapavir by November. That count includes the rollout before generics arrived.",
+          "photoAlt": "Global Fund executive director Peter Sands seated with a microphone.",
+          "photoCaption": "Global Fund executive director Peter Sands seated with a microphone. Archive photograph · 2025-07-11."
+        },
+        "es": {
+          "title": "Zambia recibe los primeros envíos de lenacapavir genérico para prevenir el VIH",
+          "summary": "El Fondo Mundial también prevé entregas a Uganda en los próximos días y a Zimbabue a principios de 2027.",
+          "body": "El Fondo Mundial anunció el 25 de noviembre que llegaron a Zambia los primeros envíos de lenacapavir genérico para la prevención del VIH. Su director, Peter Sands, explicó que los proveedores de genéricos deberían ampliar el acceso ante una demanda superior a la oferta.\n\nReuters informa de que los acuerdos de licencia con el fabricante original hicieron posibles los envíos. Según el Fondo, más de 189.000 personas de diez países habían recibido una primera dosis en noviembre. La cifra incluye la distribución anterior a la llegada del genérico.",
+          "photoAlt": "Peter Sands, director del Fondo Mundial, sentado con un micrófono.",
+          "photoCaption": "Peter Sands, director del Fondo Mundial, sentado con un micrófono. Foto de archivo · 2025-07-11."
+        },
+        "ar": {
+          "title": "زامبيا تتلقى أولى شحنات ليناكابافير الجنيس للوقاية من فيروس نقص المناعة",
+          "summary": "يتوقع الصندوق العالمي وصول شحنات إلى أوغندا خلال أيام وإلى زيمبابوي في مطلع 2027.",
+          "body": "أعلن الصندوق العالمي في 25 نوفمبر وصول أولى شحنات ليناكابافير الجنيس للوقاية من فيروس نقص المناعة البشرية إلى زامبيا. وقال مديره بيتر ساندز إن الموردين الجدد سيساعدون على توسيع إتاحة الدواء مع تجاوز الطلب حجم المعروض.\n\nوأفادت رويترز بأن اتفاقات ترخيص مع المصنّع الأصلي أتاحت هذه الشحنات. وبحسب الصندوق تلقى أكثر من 189 ألف شخص جرعة أولى في عشر دول بحلول نوفمبر. ويشمل العدد التوزيع السابق لوصول المنتج الجنيس.",
+          "photoAlt": "بيتر ساندز مدير الصندوق العالمي جالسا ممسكا بميكروفون.",
+          "photoCaption": "بيتر ساندز مدير الصندوق العالمي جالسا ممسكا بميكروفون. صورة أرشيفية · 2025-07-11."
+        },
+        "zh-CN": {
+          "title": "赞比亚收到首批用于预防艾滋病病毒感染的来那卡帕韦仿制药",
+          "summary": "全球基金预计乌干达将在未来几天收到药品，津巴布韦预计在2027年初收到。",
+          "body": "全球基金11月25日宣布，首批预防艾滋病病毒感染的来那卡帕韦仿制药已抵达赞比亚。执行主任彼得·桑兹表示，目前需求超过供应，仿制药供应商有望让更多人用上这种药物。\n\n据路透社报道，与原研厂商达成的许可协议促成了这批交付。全球基金表示，截至11月，十个国家已有逾18.9万人接受了首剂来那卡帕韦，其中包括仿制药到货前使用该药的人群。",
+          "photoAlt": "全球基金执行主任彼得·桑兹手持话筒坐在台上。",
+          "photoCaption": "全球基金执行主任彼得·桑兹手持话筒坐在台上。 档案照片 · 2025-07-11."
+        },
+        "ru": {
+          "title": "Замбия получила первые партии дженерика ленакапавира для профилактики ВИЧ",
+          "summary": "Глобальный фонд ожидает поставок в Уганду в ближайшие дни и в Зимбабве в начале 2027 года.",
+          "body": "25 ноября Глобальный фонд сообщил о прибытии в Замбию первых партий дженерика ленакапавира для профилактики ВИЧ. По словам исполнительного директора Питера Сэндса, новые поставщики помогут расширить доступ к препарату в условиях превышения спроса над предложением.\n\nReuters сообщает, что поставки стали возможны благодаря лицензионным соглашениям с разработчиком препарата. По данным фонда, к ноябрю первую дозу получили более 189 тысяч человек в десяти странах. В число входят и те, кто получил препарат до появления дженерика.",
+          "photoAlt": "Исполнительный директор Глобального фонда Питер Сэндс сидит с микрофоном.",
+          "photoCaption": "Исполнительный директор Глобального фонда Питер Сэндс сидит с микрофоном. Архивное фото · 2025-07-11."
+        },
+        "ko": {
+          "title": "잠비아에 HIV 예방용 레나카파비르 복제약 첫 물량 도착",
+          "summary": "글로벌펀드는 우간다에는 며칠 안에, 짐바브웨에는 2027년 초에 물량이 도착할 것으로 내다봤다.",
+          "body": "글로벌펀드는 11월 25일 HIV 예방용 레나카파비르 복제약의 첫 물량이 잠비아에 도착했다고 밝혔다. 피터 샌즈 사무총장은 수요가 공급을 웃도는 상황에서 복제약 공급업체의 참여가 접근성을 높일 것이라고 말했다.\n\n로이터에 따르면 오리지널 제조사와 맺은 라이선스 계약으로 공급이 가능해졌다. 글로벌펀드는 11월까지 10개국에서 18만9천 명 이상이 레나카파비르 첫 투여를 받았다고 밝혔다. 이는 복제약 도착 전 보급분을 포함한 수치다.",
+          "photoAlt": "마이크를 들고 앉아 있는 피터 샌즈 글로벌펀드 사무총장.",
+          "photoCaption": "마이크를 들고 앉아 있는 피터 샌즈 글로벌펀드 사무총장. 자료 사진 · 2025-07-11."
+        }
+      }
+    },
+    {
+      "eventKey": "pongkor-crue-mine-or-enquete-mediateur",
+      "category": "Monde",
+      "title": "Treize morts dans une mine d’or inondée à Java, le médiateur réclame une enquête",
+      "summary": "À Pongkor, en Indonésie, des familles attendent encore des nouvelles de mineurs disparus après la crue.",
+      "body": "De fortes pluies ont fait déborder un cours d’eau et inondé une mine d’or clandestine dans le district de Nanggung, à Java occidental. Le 26 novembre, la BBC rapporte que les autorités ont confirmé la récupération de treize corps et qu’au moins treize personnes sont encore portées disparues.\n\nLe médiateur de la République d’Indonésie demande aux autorités de rechercher aussi qui a financé l’exploitation et commercialisé l’or. Dans un communiqué du même jour, il estime que la fermeture des accès ne suffit pas à empêcher la reprise de ces activités.",
+      "sources": [
+        {
+          "name": "Médiateur de la République d’Indonésie",
+          "url": "https://ombudsman.go.id/news/r/tragedi-tambang-emas-ilegal-pongkor-ombudsman-ri-dorong-penanganan-menyeluruh-dan-pencegahan-dari-hulu",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/indonesian-rescuers-resume-search-13-people-trapped-inside-illegal-mine-after-13-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/gold.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citalahab%2C_Nanggung%2C_Bogor.jpg",
+        "credit": "RXerself, Creutzen",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Hameau de Citalahab et versants boisés dans le district de Nanggung.",
+        "caption": "Hameau de Citalahab et versants boisés dans le district de Nanggung. Photo d’archives · 2024-01-29."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Thirteen dead in flooded Java gold mine as ombudsman calls for investigation",
+          "summary": "Families in Indonesia’s Pongkor area are still awaiting news of miners missing after the flooding.",
+          "body": "Heavy rain caused a river to overflow and flood an illegal gold mine in West Java’s Nanggung district. On November 26 the BBC reported that authorities had confirmed the recovery of thirteen bodies and that at least thirteen people were still missing.\n\nIndonesia’s ombudsman urged authorities to investigate who financed the operation and marketed the gold. In a statement the same day, it said closing access points alone would not stop the activity from resuming.",
+          "photoAlt": "Citalahab hamlet and wooded slopes in Nanggung district.",
+          "photoCaption": "Citalahab hamlet and wooded slopes in Nanggung district. Archive photograph · 2024-01-29."
+        },
+        "es": {
+          "title": "Trece muertos en una mina inundada en Java; el defensor del pueblo pide investigar",
+          "summary": "En la zona indonesia de Pongkor, las familias aún esperan noticias de los desaparecidos tras la crecida.",
+          "body": "Las lluvias hicieron desbordar un río que inundó una mina de oro ilegal en el distrito de Nanggung, en Java Occidental. El 26 de noviembre la BBC informó de que las autoridades confirmaron la recuperación de trece cuerpos y que al menos trece personas seguían desaparecidas.\n\nEl defensor del pueblo de Indonesia pidió investigar quién financió la explotación y comercializó el oro. En un comunicado de ese día señaló que cerrar los accesos no impediría por sí solo que se reanude la actividad.",
+          "photoAlt": "Aldea de Citalahab y laderas boscosas en el distrito de Nanggung.",
+          "photoCaption": "Aldea de Citalahab y laderas boscosas en el distrito de Nanggung. Foto de archivo · 2024-01-29."
+        },
+        "ar": {
+          "title": "وفاة 13 في منجم ذهب غمرته المياه في جاوة ودعوة للتحقيق",
+          "summary": "لا تزال أسر في منطقة بونغكور الإندونيسية تنتظر أنباء عن مفقودين بعد الفيضان.",
+          "body": "أدت أمطار غزيرة إلى فيضان نهر وغمر منجم ذهب غير مرخص في منطقة نانغونغ بجاوة الغربية. وفي 26 نوفمبر أفادت بي بي سي بأن السلطات أكدت انتشال 13 جثة وأن 13 شخصا على الأقل ما زالوا مفقودين.\n\nودعت هيئة المظالم الإندونيسية إلى التحقيق في هوية من موّلوا الاستغلال وسوّقوا الذهب. وقالت في بيان في اليوم نفسه إن إغلاق المداخل وحده لا يحول دون استئناف هذه الأنشطة.",
+          "photoAlt": "قرية سيتالهاب وسفوح حرجية في منطقة نانغونغ.",
+          "photoCaption": "قرية سيتالهاب وسفوح حرجية في منطقة نانغونغ. صورة أرشيفية · 2024-01-29."
+        },
+        "zh-CN": {
+          "title": "爪哇金矿进水致13人死亡，印尼监察机构要求调查",
+          "summary": "洪水过后，印尼蓬科尔地区的家属仍在等待失踪矿工的消息。",
+          "body": "暴雨导致河流漫溢，淹没了西爪哇南贡区的一座非法金矿。英国广播公司11月26日报道，当局确认已找到13具遗体，至少还有13人失踪。\n\n印尼监察机构呼吁当局调查开采资金来源和黄金销售方。该机构在当天的声明中指出，仅封闭入口无法阻止此类活动恢复。",
+          "photoAlt": "南贡区奇塔拉哈布村及林木覆盖的山坡。",
+          "photoCaption": "南贡区奇塔拉哈布村及林木覆盖的山坡。 档案照片 · 2024-01-29."
+        },
+        "ru": {
+          "title": "В затопленной шахте на Яве погибли 13 человек, омбудсмен требует расследования",
+          "summary": "В индонезийском районе Понгкор семьи ждут известий о пропавших шахтёрах.",
+          "body": "Ливни вызвали разлив реки и затопили нелегальную золотую шахту в районе Нанггунг на Западной Яве. 26 ноября Би-би-си сообщила, что власти подтвердили обнаружение 13 тел. Как минимум 13 человек ещё числятся пропавшими.\n\nИндонезийский омбудсмен призвал выяснить, кто финансировал добычу и сбывал золото. В заявлении от того же дня он отметил, что перекрытия входов недостаточно, чтобы добыча не возобновилась.",
+          "photoAlt": "Посёлок Читалахаб и лесистые склоны в районе Нанггунг.",
+          "photoCaption": "Посёлок Читалахаб и лесистые склоны в районе Нанггунг. Архивное фото · 2024-01-29."
+        },
+        "ko": {
+          "title": "자바섬 침수 금광서 13명 사망, 인도네시아 옴부즈만 조사 촉구",
+          "summary": "인도네시아 퐁코르 지역에서는 가족들이 홍수 뒤 실종된 광부들의 소식을 기다리고 있다.",
+          "body": "폭우로 강물이 넘치면서 서자바 낭궁 지역의 불법 금광이 침수됐다. BBC는 11월 26일 당국이 시신 13구 수습을 확인했으며 적어도 13명이 여전히 실종 상태라고 보도했다.\n\n인도네시아 옴부즈만은 채굴 자금을 댄 사람과 금을 유통한 사람까지 조사하라고 촉구했다. 같은 날 성명에서 출입구를 막는 것만으로는 채굴 재개를 막을 수 없다고 밝혔다.",
+          "photoAlt": "낭궁 지역 치탈라합 마을과 숲으로 덮인 산비탈.",
+          "photoCaption": "낭궁 지역 치탈라합 마을과 숲으로 덮인 산비탈. 자료 사진 · 2024-01-29."
+        }
+      }
+    },
+    {
+      "eventKey": "somalie-baidoa-projection-ipc-deplaces-novembre",
+      "category": "Monde",
+      "title": "À Baidoa, le risque de famine recule mais les déplacés restent en situation d’urgence",
+      "summary": "La nouvelle projection pour la Somalie ramène à 5,3 millions le nombre de personnes en crise alimentaire ou dans une situation plus grave.",
+      "body": "L’analyse IPC publiée le 25 novembre écarte, pour les déplacés de Baidoa, le scénario de famine envisagé jusqu’en décembre. Les fortes inondations et les déplacements associés au scénario le plus défavorable ne se sont pas matérialisés. Les déplacés demeurent toutefois classés en phase 4, celle de l’urgence.\n\nSelon ONU Info, la révision pour Baidoa fait passer de 5,4 à 5,3 millions la projection nationale des personnes en phase 3 ou plus entre octobre et décembre. Les estimations pour les autres régions du pays restent les mêmes.",
+      "sources": [
+        {
+          "name": "IPC — analyse de l’insécurité alimentaire",
+          "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1165492/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "ONU Info",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168874",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/som.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baydhabo345678.jpg",
+        "credit": "Hassanholac",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Toits et rues de Baidoa vus d’en haut.",
+        "caption": "Toits et rues de Baidoa vus d’en haut. Photo d’archives · 2016-05-15."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Famine risk recedes in Baidoa but displaced people remain at emergency level",
+          "summary": "Somalia’s revised projection puts 5.3 million people in a food crisis or worse.",
+          "body": "An IPC analysis published on November 25 rules out the previously projected famine scenario through December for displaced people in Baidoa. The severe flooding and displacement in the worst-case scenario did not materialize. The displaced population remains in Phase 4, Emergency.\n\nUN News reports that the Baidoa revision lowers the national projection for people in Phase 3 or worse between October and December from 5.4 million to 5.3 million. Estimates elsewhere in Somalia are unchanged.",
+          "photoAlt": "Rooftops and streets of Baidoa seen from above.",
+          "photoCaption": "Rooftops and streets of Baidoa seen from above. Archive photograph · 2016-05-15."
+        },
+        "es": {
+          "title": "Cede el riesgo de hambruna en Baidoa, pero los desplazados siguen en emergencia",
+          "summary": "La proyección revisada cifra en 5,3 millones las personas en crisis alimentaria o peor en Somalia.",
+          "body": "El análisis IPC publicado el 25 de noviembre descarta hasta diciembre el escenario de hambruna previsto para los desplazados de Baidoa. No se produjeron las graves inundaciones y desplazamientos del peor escenario. La población desplazada sigue en fase 4, emergencia.\n\nSegún Noticias ONU, la revisión para Baidoa reduce de 5,4 a 5,3 millones la proyección nacional de personas en fase 3 o peor entre octubre y diciembre. Las estimaciones para otras regiones se mantienen.",
+          "photoAlt": "Tejados y calles de Baidoa vistos desde arriba.",
+          "photoCaption": "Tejados y calles de Baidoa vistos desde arriba. Foto de archivo · 2016-05-15."
+        },
+        "ar": {
+          "title": "انحسار خطر المجاعة في بيدوا والنازحون ما زالوا في حالة طوارئ",
+          "summary": "تضع التوقعات المعدلة للصومال 5.3 ملايين شخص في أزمة غذائية أو أشد.",
+          "body": "استبعد تحليل التصنيف المرحلي المتكامل المنشور في 25 نوفمبر سيناريو المجاعة المتوقع سابقا حتى ديسمبر لنازحي بيدوا. ولم تقع الفيضانات الشديدة وموجات النزوح التي افترضها أسوأ السيناريوهات. لكن النازحين ما زالوا في المرحلة الرابعة، أي الطوارئ.\n\nووفق أخبار الأمم المتحدة يخفض تعديل بيدوا العدد الوطني المتوقع في المرحلة الثالثة أو أشد بين أكتوبر وديسمبر من 5.4 إلى 5.3 ملايين. ولم تتغير تقديرات المناطق الأخرى.",
+          "photoAlt": "أسطح مبان وشوارع في بيدوا من أعلى.",
+          "photoCaption": "أسطح مبان وشوارع في بيدوا من أعلى. صورة أرشيفية · 2016-05-15."
+        },
+        "zh-CN": {
+          "title": "拜多阿饥荒风险回落，流离失所者仍处于紧急状态",
+          "summary": "索马里修订后的预测显示，530万人面临粮食危机或更严重状况。",
+          "body": "综合粮食安全阶段分类组织11月25日发布的分析排除了此前预计截至12月拜多阿流离失所者可能遭遇饥荒的情景。最坏情况下的严重洪水和人口流离失所没有发生，但这些人仍处于第四阶段，即紧急状态。\n\n据联合国新闻报道，拜多阿数据修订后，全国10月至12月处于第三阶段或更糟状况的人数预测从540万降至530万，其他地区预测不变。",
+          "photoAlt": "俯瞰拜多阿的屋顶和街道。",
+          "photoCaption": "俯瞰拜多阿的屋顶和街道。 档案照片 · 2016-05-15."
+        },
+        "ru": {
+          "title": "Риск голода в Байдабо снизился, но переселенцы остаются в чрезвычайном положении",
+          "summary": "По новому прогнозу, в Сомали 5,3 млн человек столкнутся с продовольственным кризисом или худшей ситуацией.",
+          "body": "Опубликованный 25 ноября анализ IPC исключает ранее рассматривавшийся до декабря сценарий голода среди переселенцев в Байдабо. Сильные наводнения и перемещения людей из наихудшего сценария не произошли. Положение переселенцев по-прежнему соответствует фазе 4 — чрезвычайной ситуации.\n\nПо данным Службы новостей ООН, пересмотр оценки по Байдабо сокращает прогноз числа людей в фазе 3 или выше по стране с 5,4 до 5,3 млн в октябре–декабре. Оценки для других регионов не изменились.",
+          "photoAlt": "Вид сверху на крыши и улицы Байдабо.",
+          "photoCaption": "Вид сверху на крыши и улицы Байдабо. Архивное фото · 2016-05-15."
+        },
+        "ko": {
+          "title": "바이도아 기근 위험 낮아졌지만 실향민은 여전히 비상 단계",
+          "summary": "소말리아에서 식량 위기 이상을 겪을 인구 전망치가 530만 명으로 조정됐다.",
+          "body": "11월 25일 발표된 IPC 분석은 12월까지 바이도아 실향민이 기근에 처할 수 있다는 기존 시나리오를 제외했다. 최악의 경우로 예상했던 심각한 홍수와 대규모 피란이 현실화하지 않았다. 실향민은 여전히 4단계인 비상 상태다.\n\n유엔뉴스에 따르면 바이도아 전망 수정으로 10~12월 소말리아 전체의 3단계 이상 예상 인구가 540만 명에서 530만 명으로 줄었다. 다른 지역 전망은 그대로다.",
+          "photoAlt": "위에서 본 바이도아의 지붕과 거리.",
+          "photoCaption": "위에서 본 바이도아의 지붕과 거리. 자료 사진 · 2016-05-15."
+        }
+      }
+    },
+    {
+      "eventKey": "arc-afpc-sei-fin-deuxieme-mediation",
+      "category": "Canada",
+      "title": "La médiation prend fin sans entente à l’Agence du revenu du Canada",
+      "summary": "Les discussions entre l’ARC et le syndicat représentant plus de 32 000 employés ont achoppé sur plusieurs questions, dont les salaires.",
+      "body": "La deuxième séance de médiation entre l’Agence du revenu du Canada et l’Alliance de la fonction publique du Canada, avec son Syndicat des employé·e·s de l’Impôt, s’est terminée sans convention collective. Dans son bilan du 25 novembre, l’ARC dit que le syndicat a choisi de mettre fin aux échanges.\n\nBNN Bloomberg rapporte que la rémunération et la sécurité d’emploi figurent parmi les points en litige. Le syndicat explique que ses demandes salariales visent notamment à suivre l’inflation et à retenir le personnel. Sa direction doit déterminer la suite des démarches.",
+      "sources": [
+        {
+          "name": "Agence du revenu du Canada",
+          "url": "https://www.canada.ca/en/revenue-agency/news/2026/12-1.html",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "BNN Bloomberg",
+          "url": "https://www.bnnbloomberg.ca/business/politics/2026/11/26/psac-ends-mediation-talks-with-canada-revenue-agency-agency-says/",
+          "publishedAt": "2026-11-26T04:00:00-05:00"
+        }
+      ],
+      "photo": {
+        "download": "media/cra.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Connaught_2022.jpg",
+        "credit": "Itooksomepics",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "L’édifice Connaught de l’Agence du revenu du Canada à Ottawa.",
+        "caption": "L’édifice Connaught de l’Agence du revenu du Canada à Ottawa. Photo d’archives · 2022-08-13."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Mediation ends without a deal at Canada Revenue Agency",
+          "summary": "Talks between the CRA and the union representing more than 32,000 employees stalled on issues including pay.",
+          "body": "A second round of mediation between the Canada Revenue Agency and the Public Service Alliance of Canada’s Union of Taxation Employees ended without a collective agreement. In its November 25 update, the CRA said the union chose to end the talks.\n\nBNN Bloomberg reports that pay and job security are among the outstanding issues. The union says its pay demands are aimed in part at keeping pace with inflation and retaining staff. Its leadership will decide the next steps.",
+          "photoAlt": "The Canada Revenue Agency’s Connaught Building in Ottawa.",
+          "photoCaption": "The Canada Revenue Agency’s Connaught Building in Ottawa. Archive photograph · 2022-08-13."
+        },
+        "es": {
+          "title": "Termina sin acuerdo la mediación en la Agencia Tributaria de Canadá",
+          "summary": "Las conversaciones entre la agencia y el sindicato que representa a más de 32.000 empleados se atascaron en cuestiones como el salario.",
+          "body": "La segunda ronda de mediación entre la agencia y el sindicato de empleados tributarios de la Alianza de la Función Pública de Canadá terminó sin convenio colectivo. En su balance del 25 de noviembre la agencia dijo que el sindicato decidió poner fin al diálogo.\n\nBNN Bloomberg señala que los salarios y la seguridad laboral figuran entre los asuntos pendientes. El sindicato explica que sus demandas salariales buscan mantener el poder adquisitivo y retener personal. Su dirección decidirá los próximos pasos.",
+          "photoAlt": "Edificio Connaught de la Agencia Tributaria de Canadá en Ottawa.",
+          "photoCaption": "Edificio Connaught de la Agencia Tributaria de Canadá en Ottawa. Foto de archivo · 2022-08-13."
+        },
+        "ar": {
+          "title": "انتهاء الوساطة في وكالة الإيرادات الكندية دون اتفاق",
+          "summary": "تعثرت المحادثات بين الوكالة ونقابة تمثل أكثر من 32 ألف موظف بشأن مسائل منها الأجور.",
+          "body": "انتهت الجولة الثانية من الوساطة بين وكالة الإيرادات الكندية ونقابة موظفي الضرائب التابعة لتحالف الخدمة العامة دون اتفاق جماعي. وقالت الوكالة في بيان في 25 نوفمبر إن النقابة اختارت إنهاء المحادثات.\n\nوذكرت بي إن إن بلومبرغ أن الأجور والأمان الوظيفي من المسائل العالقة. وتقول النقابة إن مطالب الأجور تهدف خصوصا إلى مواكبة التضخم والاحتفاظ بالموظفين. وستحدد قيادتها الخطوات المقبلة.",
+          "photoAlt": "مبنى كونوت التابع لوكالة الإيرادات الكندية في أوتاوا.",
+          "photoCaption": "مبنى كونوت التابع لوكالة الإيرادات الكندية في أوتاوا. صورة أرشيفية · 2022-08-13."
+        },
+        "zh-CN": {
+          "title": "加拿大税务局劳资调解未能达成协议",
+          "summary": "税务局与代表逾3.2万名员工的工会在薪酬等问题上的谈判陷入僵局。",
+          "body": "加拿大税务局与加拿大公共服务联盟旗下税务员工工会结束了第二轮调解，双方未能达成集体协议。税务局在11月25日的通报中表示，工会选择结束谈判。\n\n据BNN彭博报道，薪酬和就业保障仍是争议焦点。工会表示，加薪诉求是为了跟上通胀并留住员工。工会领导层将决定下一步行动。",
+          "photoAlt": "加拿大税务局位于渥太华的康诺特大楼。",
+          "photoCaption": "加拿大税务局位于渥太华的康诺特大楼。 档案照片 · 2022-08-13."
+        },
+        "ru": {
+          "title": "Посредничество в налоговом ведомстве Канады завершилось без соглашения",
+          "summary": "Переговоры ведомства с профсоюзом, представляющим более 32 тысяч сотрудников, зашли в тупик в том числе по вопросу оплаты.",
+          "body": "Второй раунд посредничества между налоговым ведомством Канады и профсоюзом налоговых работников Альянса госслужащих завершился без коллективного договора. В сообщении от 25 ноября ведомство заявило, что профсоюз решил прекратить переговоры.\n\nПо данным BNN Bloomberg, спорными остаются оплата и гарантии занятости. Профсоюз объясняет, что требования по оплате призваны, в частности, компенсировать инфляцию и удержать сотрудников. Его руководство определит дальнейшие шаги.",
+          "photoAlt": "Здание Коннот налогового ведомства Канады в Оттаве.",
+          "photoCaption": "Здание Коннот налогового ведомства Канады в Оттаве. Архивное фото · 2022-08-13."
+        },
+        "ko": {
+          "title": "캐나다 국세청 노사 조정, 합의 없이 종료",
+          "summary": "3만2천 명 넘는 직원을 대표하는 노조와 국세청은 임금 등을 두고 견해차를 좁히지 못했다.",
+          "body": "캐나다 국세청과 공공서비스연맹 산하 세무직원노조 간 두 번째 조정이 단체협약 체결 없이 끝났다. 국세청은 11월 25일 발표에서 노조가 대화 종료를 선택했다고 밝혔다.\n\nBNN 블룸버그에 따르면 임금과 고용안정 등이 쟁점이다. 노조는 물가 상승을 따라잡고 직원을 유지하기 위해 임금 인상을 요구한다고 설명했다. 다음 단계는 노조 지도부가 결정한다.",
+          "photoAlt": "오타와에 있는 캐나다 국세청 코넛 빌딩.",
+          "photoCaption": "오타와에 있는 캐나다 국세청 코넛 빌딩. 자료 사진 · 2022-08-13."
+        }
+      }
+    },
+    {
+      "eventKey": "tremblant-annulation-geants-neige-decembre",
+      "category": "Québec",
+      "title": "Faute de neige, Tremblant annule ses deux géants de Coupe du monde",
+      "summary": "Les épreuves féminines des 5 et 6 décembre sont annulées. Les billets seront remboursés automatiquement.",
+      "body": "Le comité organisateur a annoncé le 25 novembre que les périodes de froid avaient été trop brèves pour enneiger suffisamment la piste de compétition à Tremblant. La station concentre désormais ses efforts sur les pistes La Crête et P’tit Bonheur, destinées au public.\n\nSelon La Presse Canadienne, les deux slaloms géants féminins devaient avoir lieu les 5 et 6 décembre. Les organisateurs précisent que les détenteurs de billets recevront leur remboursement dans les prochains jours sans avoir à en faire la demande.",
+      "sources": [
+        {
+          "name": "Coupe du monde Tremblant",
+          "url": "https://coupedumonde.tremblant.ca/annulation-coupe-du-monde-tremblant-pwc-2026/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "La Presse Canadienne / CityNews",
+          "url": "https://montreal.citynews.ca/2026/11/25/world-cup-skiing-races-mont-tremblant-cancelled/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/ski.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fall_Colors_of_Mont_Tremblant.jpg",
+        "credit": "Kuiyan Xu",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Les pentes du mont Tremblant et le village en automne.",
+        "caption": "Les pentes du mont Tremblant et le village en automne. Photo d’archives · 2016-10-09."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Tremblant cancels both World Cup giant slaloms for lack of snow",
+          "summary": "The women’s races scheduled for December 5 and 6 are off. Tickets will be refunded automatically.",
+          "body": "Organizers said on November 25 that spells of cold weather had been too brief to make enough snow for the competition course at Tremblant. The resort is focusing its efforts on the public runs La Crête and P’tit Bonheur.\n\nThe Canadian Press reports that the two women’s giant slaloms had been scheduled for December 5 and 6. Organizers say ticket holders will receive refunds in the coming days without having to apply.",
+          "photoAlt": "Mont Tremblant’s slopes and village in autumn.",
+          "photoCaption": "Mont Tremblant’s slopes and village in autumn. Archive photograph · 2016-10-09."
+        },
+        "es": {
+          "title": "Tremblant cancela los dos gigantes de la Copa del Mundo por falta de nieve",
+          "summary": "Las pruebas femeninas del 5 y 6 de diciembre quedan anuladas. El reembolso será automático.",
+          "body": "El comité organizador anunció el 25 de noviembre que los periodos de frío fueron demasiado breves para producir suficiente nieve en la pista de competición de Tremblant. La estación concentra sus esfuerzos en las pistas públicas La Crête y P’tit Bonheur.\n\nSegún La Presse Canadienne, los dos eslálones gigantes femeninos estaban previstos para el 5 y 6 de diciembre. Los compradores recibirán el reembolso en los próximos días sin tener que solicitarlo, indicaron los organizadores.",
+          "photoAlt": "Las laderas y el pueblo de Mont Tremblant en otoño.",
+          "photoCaption": "Las laderas y el pueblo de Mont Tremblant en otoño. Foto de archivo · 2016-10-09."
+        },
+        "ar": {
+          "title": "ترمبلان تلغي سباقي التعرج العملاق لكأس العالم لنقص الثلوج",
+          "summary": "أُلغيت منافستا السيدات المقررتان في 5 و6 ديسمبر وستُرد أثمان التذاكر تلقائيا.",
+          "body": "أعلن المنظمون في 25 نوفمبر أن فترات البرد كانت أقصر من أن تسمح بإنتاج ثلوج كافية لمسار المنافسة في ترمبلان. ويركز المنتجع جهوده على مساري لا كريت وبيتي بونور المخصصين للجمهور.\n\nوبحسب وكالة الصحافة الكندية كان من المقرر إقامة سباقي التعرج العملاق للسيدات يومي 5 و6 ديسمبر. وأوضح المنظمون أن حاملي التذاكر سيتلقون المبالغ في الأيام المقبلة دون تقديم طلب.",
+          "photoAlt": "منحدرات مون ترمبلان والقرية في الخريف.",
+          "photoCaption": "منحدرات مون ترمبلان والقرية في الخريف. صورة أرشيفية · 2016-10-09."
+        },
+        "zh-CN": {
+          "title": "因积雪不足，特朗布朗取消两场世界杯大回转比赛",
+          "summary": "原定12月5日和6日举行的女子比赛取消，门票将自动退款。",
+          "body": "组委会11月25日表示，低温天气持续时间太短，无法为特朗布朗赛道制造足够的雪。度假区目前集中力量为向公众开放的La Crête和P’tit Bonheur雪道造雪。\n\n据加拿大通讯社报道，两场女子大回转原计划于12月5日和6日举行。组委会表示，持票人将在未来几天自动收到退款，无须提出申请。",
+          "photoAlt": "秋季的特朗布朗山坡和山村。",
+          "photoCaption": "秋季的特朗布朗山坡和山村。 档案照片 · 2016-10-09."
+        },
+        "ru": {
+          "title": "Тремблан отменил два гигантских слалома Кубка мира из-за нехватки снега",
+          "summary": "Женские гонки 5 и 6 декабря отменены. Деньги за билеты вернут автоматически.",
+          "body": "Организаторы объявили 25 ноября, что холодные периоды оказались слишком короткими для подготовки достаточного снежного покрова на гоночной трассе. Курорт сосредоточился на общедоступных трассах La Crête и P’tit Bonheur.\n\nПо данным The Canadian Press, два женских гигантских слалома были назначены на 5 и 6 декабря. Организаторы уточнили, что в ближайшие дни владельцам билетов вернут деньги без подачи заявки.",
+          "photoAlt": "Склоны Мон-Тремблана и посёлок осенью.",
+          "photoCaption": "Склоны Мон-Тремблана и посёлок осенью. Архивное фото · 2016-10-09."
+        },
+        "ko": {
+          "title": "트랑블랑, 눈 부족으로 월드컵 대회전 두 경기 취소",
+          "summary": "12월 5일과 6일 예정됐던 여자 경기가 취소됐으며 입장권은 자동 환불된다.",
+          "body": "조직위원회는 11월 25일 추위가 충분히 오래 이어지지 않아 트랑블랑 경기 코스에 필요한 눈을 만들 수 없었다고 밝혔다. 리조트는 일반인이 이용하는 라 크레트와 프티 보뇌르 슬로프에 제설을 집중하고 있다.\n\n캐나디안 프레스에 따르면 여자 대회전 두 경기는 12월 5일과 6일 열릴 예정이었다. 조직위는 관람객이 별도로 신청할 필요 없이 며칠 안에 환불된다고 밝혔다.",
+          "photoAlt": "가을의 몽트랑블랑 산비탈과 마을.",
+          "photoCaption": "가을의 몽트랑블랑 산비탈과 마을. 자료 사진 · 2016-10-09."
+        }
+      }
+    },
+    {
+      "eventKey": "banque-angleterre-exigences-fonds-propres-revue",
+      "category": "Économie",
+      "title": "La Banque d’Angleterre prévoit d’alléger les exigences de fonds propres des banques",
+      "summary": "Les plus grandes banques tournées vers le marché britannique seraient les principales bénéficiaires de la révision.",
+      "body": "La Banque d’Angleterre a présenté le 26 novembre les conclusions de son examen des règles de fonds propres. Selon Reuters, les nouvelles mesures réduiraient les exigences de 0,6 point de pourcentage pour les plus grands établissements principalement actifs au Royaume-Uni.\n\nLa banque centrale conserve un repère d’environ 13 % des actifs pondérés selon le risque pour les fonds propres de catégorie 1 à l’échelle du système. Elle estime que l’effet variera selon le modèle d’affaires de chaque établissement et que les changements pourraient accroître sa capacité de prêt.",
+      "sources": [
+        {
+          "name": "Banque d’Angleterre",
+          "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-outcomes-of-the-fpcs-review-of-the-bank-capital-framework",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/finance/bank-england-cut-capital-requirements-uk-focused-lenders-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/fpc.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bank_of_England_Threadneedle_St._(12565194585).jpg",
+        "credit": "Images George Rex from London, England",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "alt": "Les colonnes de la Banque d’Angleterre sur Threadneedle Street.",
+        "caption": "Les colonnes de la Banque d’Angleterre sur Threadneedle Street. Photo d’archives · 2014-02-01."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Bank of England plans to ease bank capital requirements",
+          "summary": "Large lenders focused on the UK market stand to gain most from the review.",
+          "body": "The Bank of England published the conclusions of its bank capital review on November 26. Reuters reports that the new measures would cut requirements by 0.6 percentage points for the largest lenders operating primarily in the UK.\n\nThe central bank retains a system-wide Tier 1 capital benchmark of around 13% of risk-weighted assets. It says the impact will depend on each bank’s business model and the changes could increase lending capacity.",
+          "photoAlt": "Columns of the Bank of England on Threadneedle Street.",
+          "photoCaption": "Columns of the Bank of England on Threadneedle Street. Archive photograph · 2014-02-01."
+        },
+        "es": {
+          "title": "El Banco de Inglaterra prevé rebajar los requisitos de capital bancario",
+          "summary": "Los grandes bancos centrados en el mercado británico serían los principales beneficiarios de la revisión.",
+          "body": "El Banco de Inglaterra presentó el 26 de noviembre las conclusiones de su revisión del capital bancario. Según Reuters, las nuevas medidas reducirían en 0,6 puntos porcentuales los requisitos para los mayores bancos orientados al mercado británico.\n\nEl banco central mantiene una referencia sistémica de capital de nivel 1 de alrededor del 13 % de los activos ponderados por riesgo. Sostiene que el impacto dependerá del modelo de cada entidad y que los cambios podrían ampliar la capacidad de préstamo.",
+          "photoAlt": "Columnas del Banco de Inglaterra en Threadneedle Street.",
+          "photoCaption": "Columnas del Banco de Inglaterra en Threadneedle Street. Foto de archivo · 2014-02-01."
+        },
+        "ar": {
+          "title": "بنك إنجلترا يعتزم تخفيف متطلبات رأس المال المصرفي",
+          "summary": "ستستفيد بصورة أكبر المصارف الكبرى التي تركز نشاطها على السوق البريطانية.",
+          "body": "عرض بنك إنجلترا في 26 نوفمبر نتائج مراجعة قواعد رأس المال. وبحسب رويترز ستخفض التدابير الجديدة المتطلبات بمقدار 0.6 نقطة مئوية لأكبر المقرضين الذين يعملون أساسا في المملكة المتحدة.\n\nويبقي البنك المركزي معيار رأس المال من الشريحة الأولى للنظام ككل عند نحو 13% من الأصول المرجحة بالمخاطر. وقال إن الأثر سيعتمد على نموذج عمل كل بنك وإن التغييرات قد تزيد القدرة على الإقراض.",
+          "photoAlt": "أعمدة بنك إنجلترا في شارع ثريدنيدل.",
+          "photoCaption": "أعمدة بنك إنجلترا في شارع ثريدنيدل. صورة أرشيفية · 2014-02-01."
+        },
+        "zh-CN": {
+          "title": "英格兰银行拟下调银行资本要求",
+          "summary": "主要面向英国国内市场的大型银行预计将从此次审查中受益最多。",
+          "body": "英格兰银行11月26日公布银行资本框架审查结果。据路透社报道，新措施将使主要经营英国国内业务的大型银行资本要求降低0.6个百分点。\n\n央行对整个银行体系的一级资本基准维持在风险加权资产的约13%。央行表示，影响取决于各银行的业务模式，调整有望提升放贷能力。",
+          "photoAlt": "针线街英格兰银行大楼的立柱。",
+          "photoCaption": "针线街英格兰银行大楼的立柱。 档案照片 · 2014-02-01."
+        },
+        "ru": {
+          "title": "Банк Англии планирует смягчить требования к капиталу банков",
+          "summary": "Больше всего от пересмотра выиграют крупные банки, ориентированные на внутренний рынок.",
+          "body": "26 ноября Банк Англии представил результаты пересмотра требований к капиталу. По данным Reuters, новые меры снизят требования на 0,6 процентного пункта для крупнейших банков, работающих преимущественно в Великобритании.\n\nЦентробанк сохраняет общесистемный ориентир для капитала первого уровня около 13% активов, взвешенных по риску. По его оценке, эффект будет зависеть от бизнес-модели каждого банка и изменения могут расширить возможности кредитования.",
+          "photoAlt": "Колонны Банка Англии на Треднидл-стрит.",
+          "photoCaption": "Колонны Банка Англии на Треднидл-стрит. Архивное фото · 2014-02-01."
+        },
+        "ko": {
+          "title": "영란은행, 은행 자본 요건 완화 추진",
+          "summary": "영국 내수시장에 집중하는 대형 은행들이 가장 큰 혜택을 받을 전망이다.",
+          "body": "영란은행은 11월 26일 은행 자본규제 검토 결과를 발표했다. 로이터에 따르면 새 조치는 영국 내 영업 비중이 높은 대형 은행의 자본 요건을 0.6%포인트 낮출 전망이다.\n\n중앙은행은 은행권 전체의 기본자본 기준을 위험가중자산의 약 13%로 유지했다. 개별 은행의 사업 구조에 따라 효과가 달라지며 대출 여력이 늘어날 수 있다고 설명했다.",
+          "photoAlt": "스레드니들가 영란은행 건물의 기둥.",
+          "photoCaption": "스레드니들가 영란은행 건물의 기둥. 자료 사진 · 2014-02-01."
+        }
+      }
+    },
+    {
+      "eventKey": "bresil-ipca15-novembre-ralentissement",
+      "category": "Économie",
+      "title": "Au Brésil, l’indicateur avancé des prix ralentit à 0,22 % en novembre",
+      "summary": "Les prix continuent de monter, mais moins vite qu’en octobre selon l’indice IPCA-15 de l’institut brésilien de statistique.",
+      "body": "L’IPCA-15, mesure avancée de l’évolution des prix à la consommation au Brésil, a progressé de 0,22 % en novembre selon les données publiées le 26 par l’IBGE. En octobre, la hausse mensuelle avait atteint 0,32 %, rappelle le média brésilien UOL.\n\nL’alimentation et les boissons ont contribué à la progression de novembre. Sur douze mois, l’indicateur affiche une hausse de 4,64 %. La variation mensuelle mesure donc un ralentissement de la hausse des prix, alors que le cumul annuel reste supérieur à 4 %.",
+      "sources": [
+        {
+          "name": "IBGE — série IPCA-15, novembre 2026",
+          "url": "https://api.sidra.ibge.gov.br/values/t/7062/n1/all/v/355,356,1120/p/202611/c315/7169",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "UOL Economia",
+          "url": "https://economia.uol.com.br/noticias/redacao/2026/11/26/ipca-15-novembro-2026.ghtm",
+          "publishedAt": "2026-11-26T09:02:00-03:00"
+        }
+      ],
+      "photo": {
+        "download": "media/br.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_-_Audi%C3%AAncia_com_Marcio_Pochmann%2C_Presidente_do_IBGE.jpg",
+        "credit": "Rodrigo Cabral / ASCOM-MCTI",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Márcio Pochmann, alors président de l’IBGE, assis à une table à Brasília.",
+        "caption": "Márcio Pochmann, alors président de l’IBGE, assis à une table à Brasília. Photo d’archives · 2024-02-21."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Brazil’s early inflation reading slows to 0.22% in November",
+          "summary": "Prices continued to rise but more slowly than in October, according to the statistics agency’s IPCA-15 index.",
+          "body": "Brazil’s advance consumer price index, the IPCA-15, rose 0.22% in November, according to data released by the IBGE on November 26. The monthly increase in October had reached 0.32%, Brazilian outlet UOL reports.\n\nFood and beverages contributed to November’s rise. Over twelve months the index was up 4.64%. The monthly change thus shows prices rising more slowly, while the annual increase remains above 4%.",
+          "photoAlt": "Márcio Pochmann, then president of the IBGE, seated at a table in Brasília.",
+          "photoCaption": "Márcio Pochmann, then president of the IBGE, seated at a table in Brasília. Archive photograph · 2024-02-21."
+        },
+        "es": {
+          "title": "El indicador adelantado de precios de Brasil se modera al 0,22 % en noviembre",
+          "summary": "Los precios siguieron subiendo, pero a menor ritmo que en octubre, según el IPCA-15 del instituto de estadística.",
+          "body": "El índice adelantado de precios al consumo de Brasil, el IPCA-15, subió un 0,22 % en noviembre, según datos publicados el día 26 por el IBGE. En octubre la subida mensual había alcanzado el 0,32 %, recuerda el medio brasileño UOL.\n\nLos alimentos y bebidas contribuyeron al alza de noviembre. En doce meses el índice avanzó un 4,64 %. La tasa mensual muestra una desaceleración del encarecimiento, mientras la subida anual sigue por encima del 4 %.",
+          "photoAlt": "Márcio Pochmann, entonces presidente del IBGE, sentado a una mesa en Brasilia.",
+          "photoCaption": "Márcio Pochmann, entonces presidente del IBGE, sentado a una mesa en Brasilia. Foto de archivo · 2024-02-21."
+        },
+        "ar": {
+          "title": "تباطؤ ارتفاع مؤشر الأسعار الأولي في البرازيل إلى 0.22% في نوفمبر",
+          "summary": "تواصل ارتفاع الأسعار بوتيرة أبطأ من أكتوبر بحسب مؤشر معهد الإحصاء البرازيلي.",
+          "body": "ارتفع مؤشر أسعار المستهلكين الأولي IPCA-15 في البرازيل 0.22% في نوفمبر حسب بيانات نشرها معهد الإحصاء في 26 نوفمبر. وذكّر موقع UOL البرازيلي بأن الزيادة الشهرية في أكتوبر بلغت 0.32%.\n\nوساهمت الأغذية والمشروبات في ارتفاع نوفمبر. وعلى مدى 12 شهرا صعد المؤشر 4.64%. ويظهر التغير الشهري تباطؤ الزيادة في الأسعار بينما يبقى الارتفاع السنوي فوق 4%.",
+          "photoAlt": "مارسيو بوخمان، رئيس معهد الإحصاء آنذاك، جالسا إلى طاولة في برازيليا.",
+          "photoCaption": "مارسيو بوخمان، رئيس معهد الإحصاء آنذاك، جالسا إلى طاولة في برازيليا. صورة أرشيفية · 2024-02-21."
+        },
+        "zh-CN": {
+          "title": "巴西11月先行物价指数涨幅放缓至0.22%",
+          "summary": "巴西统计机构的IPCA-15指数显示，价格仍在上涨，但速度低于10月。",
+          "body": "巴西地理统计局11月26日公布的数据显示，11月先行消费价格指数IPCA-15上涨0.22%。据巴西媒体UOL报道，10月的环比涨幅为0.32%。\n\n食品和饮料推动了11月的上涨。该指数过去12个月累计上涨4.64%。月度涨幅显示物价上涨速度放缓，而年度涨幅仍高于4%。",
+          "photoAlt": "时任巴西地理统计局局长马尔西奥·波赫曼坐在巴西利亚的桌前。",
+          "photoCaption": "时任巴西地理统计局局长马尔西奥·波赫曼坐在巴西利亚的桌前。 档案照片 · 2024-02-21."
+        },
+        "ru": {
+          "title": "Предварительный рост потребительских цен в Бразилии замедлился до 0,22%",
+          "summary": "Индекс IPCA-15 статистического института показывает, что цены в ноябре продолжили расти, но медленнее, чем в октябре.",
+          "body": "По данным IBGE, опубликованным 26 ноября, предварительный индекс потребительских цен IPCA-15 вырос за ноябрь на 0,22%. В октябре месячный рост составлял 0,32%, напоминает бразильское издание UOL.\n\nВ ноябрьский рост внесли вклад продукты питания и напитки. За двенадцать месяцев индекс увеличился на 4,64%. Месячная динамика указывает на замедление роста цен, в то время как годовой прирост остаётся выше 4%.",
+          "photoAlt": "Тогдашний глава IBGE Марсиу Пошманн за столом в Бразилиа.",
+          "photoCaption": "Тогдашний глава IBGE Марсиу Пошманн за столом в Бразилиа. Архивное фото · 2024-02-21."
+        },
+        "ko": {
+          "title": "브라질 11월 선행 물가지수 상승률 0.22%로 둔화",
+          "summary": "브라질 통계기관의 IPCA-15 지수에 따르면 물가는 계속 올랐지만 10월보다 상승 속도가 느려졌다.",
+          "body": "브라질 지리통계원이 11월 26일 공개한 자료에 따르면 11월 선행 소비자물가지수 IPCA-15는 0.22% 올랐다. 브라질 매체 UOL에 따르면 10월 전월 대비 상승률은 0.32%였다.\n\n11월에는 식음료가 물가 상승에 기여했다. 최근 12개월간 지수 상승률은 4.64%다. 월별로는 물가 상승세가 둔화했으나 연간 상승률은 여전히 4%를 웃돌았다.",
+          "photoAlt": "브라질리아의 탁자에 앉은 당시 지리통계원장 마르시우 포슈만.",
+          "photoCaption": "브라질리아의 탁자에 앉은 당시 지리통계원장 마르시우 포슈만. 자료 사진 · 2024-02-21."
+        }
+      }
+    },
+    {
+      "eventKey": "rideau-hall-arts-visuels-ceremonie-deux-promotions",
+      "category": "Culture",
+      "title": "Seize artistes des promotions 2025 et 2026 attendus à Rideau Hall",
+      "summary": "La cérémonie des Prix du Gouverneur général en arts visuels et en arts médiatiques est prévue à 10 h à Ottawa.",
+      "body": "La gouverneure générale Louise Arbour doit recevoir les lauréats de deux années le 26 novembre dans la salle de bal de Rideau Hall. Selon le programme annoncé la veille, douze artistes seront distingués pour leur parcours artistique, deux pour leur contribution au milieu et deux pour leur excellence en métiers d’art.\n\nLe Conseil des arts du Canada avait dévoilé les huit lauréats de 2026 en septembre. Parmi eux figurent la photographe Marie-Jeanne Musiol, de Gatineau, et le cinéaste Zacharias Kunuk, d’Igloolik. La cérémonie réunit ces artistes et ceux de la promotion précédente.",
+      "sources": [
+        {
+          "name": "Bureau de la gouverneure générale",
+          "url": "https://www.gg.ca/en/media/news/2026/gg-arts",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Conseil des arts du Canada — annonce des lauréats de 2026",
+          "url": "https://canadacouncil.ca/press/2026/09/2026-ggarts-winners-revealed",
+          "publishedAt": "2026-09-16"
+        }
+      ],
+      "photo": {
+        "download": "media/art.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ottawa_-_Rideau_Hall.JPG",
+        "credit": "Concierge.2C",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Le portique et la façade de Rideau Hall, lieu de la cérémonie à Ottawa.",
+        "caption": "Le portique et la façade de Rideau Hall, lieu de la cérémonie à Ottawa. Photo d’archives · 2011-08-08."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Sixteen artists from two award years expected at Rideau Hall",
+          "summary": "The Governor General’s Awards in Visual and Media Arts ceremony is scheduled for 10 a.m. in Ottawa.",
+          "body": "Governor General Louise Arbour is due to receive winners from two years on November 26 in the Rideau Hall ballroom. According to the program announced the previous day, twelve artists will be recognized for artistic achievement, two for contributions to the field and two for excellence in fine crafts.\n\nThe Canada Council for the Arts announced the eight 2026 winners in September. They include Gatineau photographic artist Marie-Jeanne Musiol and Igloolik filmmaker Zacharias Kunuk. The ceremony brings them together with the previous year’s recipients.",
+          "photoAlt": "The portico and facade of Rideau Hall, the ceremony venue in Ottawa.",
+          "photoCaption": "The portico and facade of Rideau Hall, the ceremony venue in Ottawa. Archive photograph · 2011-08-08."
+        },
+        "es": {
+          "title": "Rideau Hall espera a dieciséis artistas de las promociones de 2025 y 2026",
+          "summary": "La ceremonia de los Premios del Gobernador General en Artes Visuales y Mediáticas está prevista a las 10 en Ottawa.",
+          "body": "La gobernadora general Louise Arbour recibirá el 26 de noviembre en el salón de baile de Rideau Hall a los premiados de dos años. Según el programa anunciado la víspera, doce serán reconocidos por su trayectoria, dos por su contribución al sector y dos por su excelencia en artesanía artística.\n\nEl Consejo de las Artes de Canadá anunció a los ocho ganadores de 2026 en septiembre. Entre ellos figuran la artista fotográfica de Gatineau Marie-Jeanne Musiol y el cineasta de Igloolik Zacharias Kunuk. La ceremonia los reunirá con la generación anterior.",
+          "photoAlt": "Pórtico y fachada de Rideau Hall, sede de la ceremonia en Ottawa.",
+          "photoCaption": "Pórtico y fachada de Rideau Hall, sede de la ceremonia en Ottawa. Foto de archivo · 2011-08-08."
+        },
+        "ar": {
+          "title": "ريدو هول يستعد لاستقبال 16 فنانا من دفعتي 2025 و2026",
+          "summary": "من المقرر إقامة حفل جوائز الحاكم العام للفنون البصرية والإعلامية الساعة العاشرة في أوتاوا.",
+          "body": "تستقبل الحاكمة العامة لويز أربور في 26 نوفمبر الفائزين عن عامين في قاعة الاحتفالات بريدو هول. ووفق البرنامج المعلن في اليوم السابق سيُكرّم 12 فنانا عن إنجازاتهم الفنية واثنان لإسهامهما في المجال واثنان للتميز في الحرف الفنية.\n\nوأعلن مجلس الفنون الكندي في سبتمبر أسماء الفائزين الثمانية لعام 2026. ومنهم الفنانة الفوتوغرافية ماري جان موزيول من غاتينو والمخرج زكريا كونوك من إغلوليك. وسيجمع الحفل هؤلاء بفائزي العام السابق.",
+          "photoAlt": "رواق وواجهة ريدو هول مقر الحفل في أوتاوا.",
+          "photoCaption": "رواق وواجهة ريدو هول مقر الحفل في أوتاوا. صورة أرشيفية · 2011-08-08."
+        },
+        "zh-CN": {
+          "title": "里多厅将迎来2025和2026两届共16名获奖艺术家",
+          "summary": "加拿大总督视觉与媒体艺术奖颁奖仪式定于上午10时在渥太华举行。",
+          "body": "总督路易丝·阿尔布尔将于11月26日在里多厅舞厅接待两届得主。根据前一天公布的安排，12人因艺术成就获奖，两人因对行业的贡献获奖，另有两人因卓越工艺获奖。\n\n加拿大艺术委员会9月公布了2026年八名得主，其中包括加蒂诺摄影艺术家玛丽-让娜·米西奥尔和伊格卢利克电影导演扎卡赖亚斯·库努克。典礼将邀请他们和上一届得主一同出席。",
+          "photoAlt": "典礼举办地、渥太华里多厅的门廊与正面。",
+          "photoCaption": "典礼举办地、渥太华里多厅的门廊与正面。 档案照片 · 2011-08-08."
+        },
+        "ru": {
+          "title": "В Ридо-холле ожидают 16 лауреатов художественных премий за 2025 и 2026 годы",
+          "summary": "Церемония вручения премий генерал-губернатора в области визуального и медиаискусства назначена на 10 часов в Оттаве.",
+          "body": "26 ноября генерал-губернатор Луиза Арбур примет лауреатов двух лет в бальном зале Ридо-холла. По объявленной накануне программе двенадцать художников отметят за творческие достижения, двоих за вклад в отрасль и двоих за мастерство в художественных ремёслах.\n\nКанадский совет по искусству назвал восемь лауреатов 2026 года в сентябре. Среди них фотохудожница Мари-Жанна Мюзиоль из Гатино и режиссёр Захариас Кунук из Иглулика. Церемония объединит их с прошлогодними лауреатами.",
+          "photoAlt": "Портик и фасад Ридо-холла, места церемонии в Оттаве.",
+          "photoCaption": "Портик и фасад Ридо-холла, места церемонии в Оттаве. Архивное фото · 2011-08-08."
+        },
+        "ko": {
+          "title": "리도홀, 2025·2026년 수상 예술가 16명 맞을 예정",
+          "summary": "캐나다 총독 시각·미디어 예술상 시상식이 오타와에서 오전 10시에 열릴 예정이다.",
+          "body": "루이즈 아버 총독이 11월 26일 리도홀 연회장에서 두 해의 수상자들을 맞는다. 전날 발표된 일정에 따르면 12명은 예술적 성취, 2명은 분야 발전에 대한 기여, 2명은 공예 분야의 탁월한 성과로 상을 받는다.\n\n캐나다예술위원회는 9월 올해 수상자 8명을 발표했다. 가티노의 사진예술가 마리잔 뮈지올과 이글룰릭의 영화감독 자카리아스 쿠눅 등이 포함됐다. 이들은 지난해 수상자들과 함께 시상식에 참석할 예정이다.",
+          "photoAlt": "오타와 시상식장인 리도홀의 현관과 정면.",
+          "photoCaption": "오타와 시상식장인 리도홀의 현관과 정면. 자료 사진 · 2011-08-08."
+        }
+      }
+    },
+    {
+      "eventKey": "ontario-lcbo-operation-police-magasins",
+      "category": "Canada",
+      "title": "La LCBO prévoit une présence policière dans plus de 40 magasins ontariens",
+      "summary": "L’opération annoncée le 25 novembre associe le détaillant public aux services de police de Toronto, Durham, Peel et York.",
+      "body": "La Régie des alcools de l’Ontario (LCBO) veut affecter des policiers rémunérés pour ces quarts de travail à plus de 40 succursales. CityNews rapporte que le dispositif concerne les établissements que la société d’État estime les plus exposés aux vols.\n\nSelon les explications de la LCBO relayées par Global News, l’opération vise aussi la sécurité des clients et du personnel. Elle comprend du renfort pour les équipes de sécurité et une formation de mise à niveau pour les agents des entreprises sous-traitantes.",
+      "sources": [
+        {
+          "name": "Global News — déclaration du président de la LCBO",
+          "url": "https://globalnews.ca/news/12165470/lcbo-operation-secure-stores-retail-theft/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "CityNews / 680 NewsRadio — reportage de Richard Southern",
+          "url": "https://toronto.citynews.ca/2026/11/25/lcbo-to-launch-anti-theft-blitz-to-add-uniformed-police-officers-to-significantly-more-stores/",
+          "publishedAt": "2026-11-25T11:55:00-05:00"
+        }
+      ],
+      "photo": {
+        "download": "media/lcbo.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_Toronto_station%2C_July_7_2025_%2801%29.jpg",
+        "credit": "Dillan Payne",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "L’ancienne gare de North Toronto, qui abrite un magasin de la LCBO.",
+        "caption": "L’ancienne gare de North Toronto, qui abrite un magasin de la LCBO. Photo d’archives · 2025-07-07."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Ontario’s LCBO plans police presence at more than 40 stores",
+          "summary": "The operation announced on November 25 involves the public retailer and police in Toronto, Durham, Peel and York.",
+          "body": "The Liquor Control Board of Ontario plans to assign police officers on paid duty to more than 40 stores. CityNews reports that the initiative focuses on locations the Crown corporation considers most exposed to theft.\n\nAccording to the LCBO’s account reported by Global News, the operation also aims to protect customers and staff. It includes additional security personnel and refresher training for guards employed by contractors.",
+          "photoAlt": "The former North Toronto station, home to an LCBO store.",
+          "photoCaption": "The former North Toronto station, home to an LCBO store. Archive photograph · 2025-07-07."
+        },
+        "es": {
+          "title": "La LCBO prevé presencia policial en más de 40 tiendas de Ontario",
+          "summary": "El operativo anunciado el 25 de noviembre reúne al minorista público y a policías de Toronto, Durham, Peel y York.",
+          "body": "La corporación pública de bebidas alcohólicas de Ontario prevé asignar policías en turnos remunerados a más de 40 sucursales. Según CityNews, la iniciativa se centra en los establecimientos que la empresa considera más expuestos a los robos.\n\nLa LCBO explicó, según Global News, que también busca proteger a clientes y personal. Habrá refuerzos de seguridad y cursos de actualización para los vigilantes de las empresas contratistas.",
+          "photoAlt": "La antigua estación de North Toronto, sede de una tienda de la LCBO.",
+          "photoCaption": "La antigua estación de North Toronto, sede de una tienda de la LCBO. Foto de archivo · 2025-07-07."
+        },
+        "ar": {
+          "title": "هيئة الكحول في أونتاريو تعتزم نشر شرطة في أكثر من 40 متجرا",
+          "summary": "تشارك في العملية المعلنة في 25 نوفمبر الشركة العامة وشرطة تورونتو ودورهام وبيل ويورك.",
+          "body": "تعتزم هيئة مراقبة المشروبات الكحولية في أونتاريو تخصيص مناوبات شرطة مدفوعة لأكثر من 40 فرعا. وذكرت سيتي نيوز أن الخطة تركز على المتاجر التي تعتبرها الشركة الحكومية الأكثر تعرضا للسرقة.\n\nووفق ما نقلته غلوبال نيوز عن الهيئة تهدف العملية أيضا إلى حماية العملاء والعاملين. وتشمل تعزيز فرق الأمن وتدريبا تنشيطيا لحراس الشركات المتعاقدة.",
+          "photoAlt": "محطة نورث تورونتو السابقة التي تضم متجرا لهيئة الكحول.",
+          "photoCaption": "محطة نورث تورونتو السابقة التي تضم متجرا لهيئة الكحول. صورة أرشيفية · 2025-07-07."
+        },
+        "zh-CN": {
+          "title": "安大略省酒类管理局拟在逾40家门店安排警员值勤",
+          "summary": "11月25日公布的行动由这家公营零售商与多伦多、杜兰、皮尔和约克的警方合作实施。",
+          "body": "安大略省酒类管理局计划向40多家门店安排有偿值勤的警员。据CityNews报道，该计划针对管理局认为失窃风险最高的门店。\n\n据环球新闻转述，该局表示这项行动也旨在保护顾客和员工。措施包括增派安保人员，并为承包公司的保安提供复训。",
+          "photoAlt": "现设有安大略省酒类管理局门店的北多伦多旧火车站。",
+          "photoCaption": "现设有安大略省酒类管理局门店的北多伦多旧火车站。 档案照片 · 2025-07-07."
+        },
+        "ru": {
+          "title": "LCBO планирует разместить полицейских более чем в 40 магазинах Онтарио",
+          "summary": "В операции, объявленной 25 ноября, участвуют государственная сеть и полиция Торонто, Дарема, Пила и Йорка.",
+          "body": "Управление по контролю за продажей алкоголя в Онтарио намерено привлечь полицейских на оплачиваемые смены более чем в 40 магазинах. По данным CityNews, речь идёт о точках, которые в государственной компании считают наиболее подверженными кражам.\n\nКак сообщает Global News со ссылкой на LCBO, операция также направлена на защиту покупателей и сотрудников. Предусмотрены усиление охраны и дополнительное обучение сотрудников подрядных охранных компаний.",
+          "photoAlt": "Бывший вокзал Норт-Торонто, где работает магазин LCBO.",
+          "photoCaption": "Бывший вокзал Норт-Торонто, где работает магазин LCBO. Архивное фото · 2025-07-07."
+        },
+        "ko": {
+          "title": "온타리오 주류공사, 매장 40여 곳에 경찰 배치 추진",
+          "summary": "11월 25일 발표한 이 계획에는 공사와 토론토·더럼·필·요크 경찰이 참여한다.",
+          "body": "온타리오 주류공사 LCBO는 40곳이 넘는 매장에 별도 수당을 받는 경찰을 배치할 계획이다. 시티뉴스에 따르면 공사가 도난 위험이 가장 높다고 판단한 매장들이 대상이다.\n\n글로벌 뉴스가 전한 공사 설명에 따르면 고객과 직원 보호도 목표다. 보안 인력 증원과 협력업체 경비원 대상 보수교육도 포함된다.",
+          "photoAlt": "LCBO 매장이 입점한 옛 노스 토론토역.",
+          "photoCaption": "LCBO 매장이 입점한 옛 노스 토론토역. 자료 사진 · 2025-07-07."
+        }
+      }
+    },
+    {
+      "eventKey": "halfords-prevision-benefice-plancher-semestre",
+      "category": "Économie",
+      "title": "Halfords relève le plancher de sa prévision de bénéfice annuel",
+      "summary": "Le groupe britannique de produits automobiles et de vélos vise désormais un bénéfice sous-jacent avant impôt de 60 à 65 millions de livres.",
+      "body": "Halfords a annoncé le 26 novembre un bénéfice sous-jacent avant impôt de 39 millions de livres pour les 26 semaines closes le 2 octobre, contre 23,5 millions un an plus tôt. Le chiffre d’affaires du groupe a progressé de 6,7 %, à 953,3 millions de livres.\n\nReuters rapporte que le groupe a relevé de 55 à 60 millions de livres le bas de sa fourchette de prévision annuelle. Le plafond reste à 65 millions. L’entreprise signale un retour à un rythme de croissance des ventes plus habituel en octobre et en novembre.",
+      "sources": [
+        {
+          "name": "Halfords Group — résultats semestriels",
+          "url": "https://www.halfordscompany.com/media/55whlxu3/fy27-interim-results-announcement-vf.pdf",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/uk/uks-halfords-raises-lower-end-annual-profit-forecast-warm-weather-turnaround-2026-11-26/",
+          "publishedAt": "2026-11-26T07:46:00Z"
+        }
+      ],
+      "photo": {
+        "download": "media/half.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halfords_Ocean_Park.JPG",
+        "credit": "Editor5807",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Halfords_Ocean_Park.JPG#Licensing",
+        "alt": "L’enseigne orange du magasin Halfords à Ocean Park, Portsmouth.",
+        "caption": "L’enseigne orange du magasin Halfords à Ocean Park, Portsmouth. Photo d’archives · 2009-12-04."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Halfords raises lower end of annual profit forecast",
+          "summary": "The British motoring and cycling group now expects underlying pre-tax profit of £60 million to £65 million.",
+          "body": "Halfords reported underlying pre-tax profit of £39 million on November 26 for the 26 weeks to October 2, up from £23.5 million a year earlier. Group revenue rose 6.7% to £953.3 million.\n\nReuters reports that the group raised the bottom of its annual forecast from £55 million to £60 million. The upper end remains £65 million. Halfords said sales growth returned to a more typical pace in October and November.",
+          "photoAlt": "Orange sign at the Halfords store in Ocean Park, Portsmouth.",
+          "photoCaption": "Orange sign at the Halfords store in Ocean Park, Portsmouth. Archive photograph · 2009-12-04."
+        },
+        "es": {
+          "title": "Halfords eleva el mínimo de su previsión de beneficio anual",
+          "summary": "El grupo británico de productos de automoción y bicicletas espera entre 60 y 65 millones de libras de beneficio subyacente antes de impuestos.",
+          "body": "Halfords anunció el 26 de noviembre un beneficio subyacente antes de impuestos de 39 millones de libras en las 26 semanas hasta el 2 de octubre, frente a 23,5 millones un año antes. Los ingresos subieron un 6,7 %, hasta 953,3 millones.\n\nSegún Reuters, el mínimo de su previsión anual pasó de 55 a 60 millones de libras. El máximo sigue en 65 millones. La empresa señaló que el crecimiento de las ventas volvió en octubre y noviembre a un ritmo más habitual.",
+          "photoAlt": "Letrero naranja de Halfords en Ocean Park, Portsmouth.",
+          "photoCaption": "Letrero naranja de Halfords en Ocean Park, Portsmouth. Foto de archivo · 2009-12-04."
+        },
+        "ar": {
+          "title": "هالفوردز ترفع الحد الأدنى لتوقعاتها للأرباح السنوية",
+          "summary": "تتوقع المجموعة البريطانية المتخصصة في السيارات والدراجات أرباحا أساسية قبل الضريبة بين 60 و65 مليون جنيه إسترليني.",
+          "body": "أعلنت هالفوردز في 26 نوفمبر أن أرباحها الأساسية قبل الضريبة بلغت 39 مليون جنيه في الأسابيع الستة والعشرين المنتهية في 2 أكتوبر مقابل 23.5 مليونا قبل عام. وارتفعت إيرادات المجموعة 6.7% إلى 953.3 مليون جنيه.\n\nوذكرت رويترز أن المجموعة رفعت الحد الأدنى لتوقعاتها السنوية من 55 إلى 60 مليون جنيه مع إبقاء الحد الأعلى عند 65 مليونا. وقالت الشركة إن نمو المبيعات عاد في أكتوبر ونوفمبر إلى وتيرة أقرب إلى المعتاد.",
+          "photoAlt": "لافتة متجر هالفوردز البرتقالية في أوشن بارك ببورتسموث.",
+          "photoCaption": "لافتة متجر هالفوردز البرتقالية في أوشن بارك ببورتسموث. صورة أرشيفية · 2009-12-04."
+        },
+        "zh-CN": {
+          "title": "英国Halfords上调全年利润预测下限",
+          "summary": "这家汽车和自行车用品集团现预计全年基础税前利润为6000万至6500万英镑。",
+          "body": "Halfords于11月26日宣布，截至10月2日的26周内，基础税前利润为3900万英镑，上年同期为2350万英镑。集团收入增长6.7%，达到9.533亿英镑。\n\n据路透社报道，集团将全年利润预测下限从5500万英镑调高至6000万，上限仍为6500万。公司表示，10月和11月的销售增长已回归较为常见的速度。",
+          "photoAlt": "朴次茅斯海洋公园Halfords门店的橙色招牌。",
+          "photoCaption": "朴次茅斯海洋公园Halfords门店的橙色招牌。 档案照片 · 2009-12-04."
+        },
+        "ru": {
+          "title": "Halfords повысила нижнюю границу прогноза годовой прибыли",
+          "summary": "Британская сеть автотоваров и велосипедов ожидает базовую прибыль до налогов в размере 60–65 млн фунтов.",
+          "body": "26 ноября Halfords сообщила, что за 26 недель по 2 октября базовая прибыль до налогов выросла до 39 млн фунтов с 23,5 млн годом ранее. Выручка группы увеличилась на 6,7%, до 953,3 млн фунтов.\n\nПо данным Reuters, нижняя граница годового прогноза повышена с 55 до 60 млн фунтов. Верхняя осталась на уровне 65 млн. Компания отметила возвращение роста продаж в октябре и ноябре к более привычному темпу.",
+          "photoAlt": "Оранжевая вывеска Halfords в Оушен-Парке, Портсмут.",
+          "photoCaption": "Оранжевая вывеска Halfords в Оушен-Парке, Портсмут. Архивное фото · 2009-12-04."
+        },
+        "ko": {
+          "title": "영국 핼퍼즈, 연간 이익 전망 하단 상향",
+          "summary": "자동차·자전거용품 그룹은 연간 기초 세전이익을 6천만~6천500만 파운드로 예상했다.",
+          "body": "핼퍼즈는 11월 26일 발표에서 10월 2일까지 26주간 기초 세전이익이 3천900만 파운드로 전년 동기 2천350만 파운드에서 증가했다고 밝혔다. 그룹 매출은 6.7% 늘어난 9억5천330만 파운드였다.\n\n로이터에 따르면 연간 전망 하단은 5천500만 파운드에서 6천만 파운드로 높아졌다. 상단은 6천500만 파운드로 유지됐다. 회사는 10월과 11월 매출 증가 속도가 평소 수준에 가까워졌다고 밝혔다.",
+          "photoAlt": "포츠머스 오션파크 핼퍼즈 매장의 주황색 간판.",
+          "photoCaption": "포츠머스 오션파크 핼퍼즈 매장의 주황색 간판. 자료 사진 · 2009-12-04."
+        }
+      }
+    },
+    {
+      "eventKey": "steelers-liberation-aaron-rodgers-novembre",
+      "category": "Sports",
+      "title": "Pittsburgh libère Aaron Rodgers après dix départs cette saison",
+      "summary": "Le quart-arrière des Steelers est soumis au ballottage après sa libération annoncée le 25 novembre.",
+      "body": "Les Steelers ont annoncé mercredi la libération d’Aaron Rodgers. Le quart-arrière avait commencé dix matchs cette saison pour Pittsburgh et complété 220 de ses 361 passes, pour 2 241 verges et seize touchés selon le bilan de l’équipe.\n\nRodgers avait rejoint les Steelers en 2025 et obtenu seize départs dès sa première saison avec le club avant de signer de nouveau. D’après Field Level Media, une autre équipe peut désormais le réclamer au ballottage. Si aucune ne le fait, il deviendra joueur autonome sans restriction.",
+      "sources": [
+        {
+          "name": "Pittsburgh Steelers",
+          "url": "https://www.steelers.com/news/steelers-release-rodgers",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Field Level Media / Reuters",
+          "url": "https://www.reuters.com/sports/report-aaron-rodgers-steps-away-process-benching--flm-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/nfl.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AaronRodgersSteelers.jpg",
+        "credit": "Cramerwiki",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Aaron Rodgers en tenue d’entraînement de Pittsburgh.",
+        "caption": "Aaron Rodgers en tenue d’entraînement de Pittsburgh. Photo d’archives · 2025-07-25."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Pittsburgh releases Aaron Rodgers after ten starts this season",
+          "summary": "The Steelers quarterback goes on waivers following his release on November 25.",
+          "body": "The Steelers announced Aaron Rodgers’ release on Wednesday. He started ten games for Pittsburgh this season, completing 220 of 361 passes for 2,241 yards and sixteen touchdowns, according to the team.\n\nRodgers joined the Steelers in 2025 and made sixteen starts in his first season with the club before re-signing. Field Level Media reports that another team can now claim him on waivers. If no team does, he will become an unrestricted free agent.",
+          "photoAlt": "Aaron Rodgers in Pittsburgh training gear.",
+          "photoCaption": "Aaron Rodgers in Pittsburgh training gear. Archive photograph · 2025-07-25."
+        },
+        "es": {
+          "title": "Pittsburgh deja libre a Aaron Rodgers tras diez titularidades esta temporada",
+          "summary": "El mariscal de los Steelers pasa al proceso de reclamación tras su salida el 25 de noviembre.",
+          "body": "Los Steelers anunciaron el miércoles la salida de Aaron Rodgers. Fue titular en diez partidos esta temporada y completó 220 de 361 pases para 2.241 yardas y dieciséis anotaciones, según el balance del equipo.\n\nRodgers llegó a Pittsburgh en 2025, fue titular dieciséis veces en su primera temporada con el club y renovó. Según Field Level Media, otro equipo puede reclamarlo ahora. Si ninguno lo hace, será agente libre sin restricciones.",
+          "photoAlt": "Aaron Rodgers con ropa de entrenamiento de Pittsburgh.",
+          "photoCaption": "Aaron Rodgers con ropa de entrenamiento de Pittsburgh. Foto de archivo · 2025-07-25."
+        },
+        "ar": {
+          "title": "بيتسبرغ يستغني عن آرون رودجرز بعد عشر مشاركات أساسيا هذا الموسم",
+          "summary": "أصبح لاعب الوسط متاحا لطلبات الأندية المنافسة بعد إعلان ستيلرز التخلي عنه في 25 نوفمبر.",
+          "body": "أعلن ستيلرز الأربعاء الاستغناء عن آرون رودجرز. وبدأ عشر مباريات أساسيا مع بيتسبرغ هذا الموسم وأكمل 220 تمريرة من 361 لمسافة 2241 ياردة و16 تمريرة هبوط وفق أرقام الفريق.\n\nانضم رودجرز إلى ستيلرز في 2025 وبدأ 16 مباراة في موسمه الأول قبل تجديد عقده. وبحسب فيلد ليفل ميديا يمكن لأي فريق آخر طلب ضمه عبر نظام التنازل. وإذا لم يتقدم أحد فسيصبح لاعبا حرا بلا قيود.",
+          "photoAlt": "آرون رودجرز بملابس تدريبات بيتسبرغ.",
+          "photoCaption": "آرون رودجرز بملابس تدريبات بيتسبرغ. صورة أرشيفية · 2025-07-25."
+        },
+        "zh-CN": {
+          "title": "匹兹堡裁掉本赛季首发十场的阿隆·罗杰斯",
+          "summary": "钢人队11月25日宣布裁员，这名四分卫将进入认领程序。",
+          "body": "钢人队周三宣布裁掉阿隆·罗杰斯。据球队统计，他本赛季为匹兹堡首发十场，361次传球完成220次，取得2241码和16次传球达阵。\n\n罗杰斯2025年加盟，首个赛季首发16次，随后续约。据Field Level Media报道，其他球队现在可以认领他。如果无人认领，他将成为完全自由球员。",
+          "photoAlt": "身着匹兹堡训练服的阿隆·罗杰斯。",
+          "photoCaption": "身着匹兹堡训练服的阿隆·罗杰斯。 档案照片 · 2025-07-25."
+        },
+        "ru": {
+          "title": "«Питтсбург» отчислил Аарона Роджерса после десяти выходов в старте",
+          "summary": "После решения «Стилерс» от 25 ноября квотербека выставили на драфт отказов.",
+          "body": "В среду «Стилерс» объявили об отчислении Аарона Роджерса. В этом сезоне он провёл десять матчей в старте и, по статистике команды, выполнил 220 точных передач из 361 на 2241 ярд и шестнадцать тачдаунов.\n\nРоджерс пришёл в «Питтсбург» в 2025 году, провёл шестнадцать игр в старте в первый сезон и продлил контракт. По данным Field Level Media, теперь его может забрать другой клуб. Если заявок не поступит, он станет неограниченно свободным агентом.",
+          "photoAlt": "Аарон Роджерс в тренировочной форме «Питтсбурга».",
+          "photoCaption": "Аарон Роджерс в тренировочной форме «Питтсбурга». Архивное фото · 2025-07-25."
+        },
+        "ko": {
+          "title": "피츠버그, 올 시즌 10경기 선발 출장한 에런 로저스 방출",
+          "summary": "스틸러스는 11월 25일 쿼터백 방출을 발표했고 로저스는 웨이버 절차에 들어간다.",
+          "body": "스틸러스는 수요일 에런 로저스를 방출했다고 밝혔다. 구단에 따르면 그는 올 시즌 피츠버그에서 10경기에 선발로 나서 패스 361회 중 220회를 성공시켰고 2,241야드와 터치다운 패스 16개를 기록했다.\n\n로저스는 2025년 스틸러스에 합류해 첫 시즌 16경기에 선발 출전한 뒤 재계약했다. 필드 레벨 미디어에 따르면 이제 다른 팀이 웨이버를 통해 그를 영입할 수 있다. 신청하는 팀이 없으면 완전 자유계약선수가 된다.",
+          "photoAlt": "피츠버그 훈련복을 입은 에런 로저스.",
+          "photoCaption": "피츠버그 훈련복을 입은 에런 로저스. 자료 사진 · 2025-07-25."
+        }
+      }
+    },
+    {
+      "eventKey": "arizona-quatrieme-titre-maui-ole-miss",
+      "category": "Sports",
+      "title": "L’Arizona renverse Ole Miss et remporte son quatrième tournoi de Maui",
+      "summary": "Les Wildcats, menés de sept points à la pause, se sont imposés 84 à 73 en finale à Lahaina.",
+      "body": "L’équipe masculine de l’Université de l’Arizona a remporté le Maui Invitational le 25 novembre à Hawaï. Ole Miss menait 40 à 33 à la mi-temps, mais l’Arizona a marqué 51 points en seconde période, contre 33 pour son adversaire, selon la feuille de match des Wildcats.\n\nLe compte rendu d’Ole Miss situe un tournant lorsque l’Arizona a égalisé à 46 partout. Budd Clark a terminé meilleur marqueur des Rebels avec 17 points. C’est le quatrième titre de l’Arizona dans ce tournoi.",
+      "sources": [
+        {
+          "name": "Université de l’Arizona",
+          "url": "https://arizonawildcats.com/news/2026/11/25/mens-basketball-wildcats-claim-fourth-maui-invitational-title-with-comeback-win-over-ole-miss",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Université du Mississippi",
+          "url": "https://olemisssports.com/news/2026/11/25/mens-basketball-comes-up-short-against-arizona-in-maui-championship",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Arizona Sports",
+          "url": "https://arizonasports.com/ncaa/arizona-wildcats/uofa-basketball/no-8-arizona-tops-ole-miss-for-maui-invitational-title",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/maui.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tommy_Lloyd_2_%28cropped%29.jpg",
+        "credit": "MGoBlog",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "alt": "Tommy Lloyd, entraîneur de l’Arizona, debout les mains sur les hanches.",
+        "caption": "Tommy Lloyd, entraîneur de l’Arizona, debout les mains sur les hanches. Photo d’archives · 2021-11-24."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Arizona rallies past Ole Miss for its fourth Maui title",
+          "summary": "The Wildcats overturned a seven-point half-time deficit to win the final 84–73 in Lahaina.",
+          "body": "The University of Arizona men won the Maui Invitational in Hawaii on November 25. Ole Miss led 40–33 at the break, but Arizona outscored its opponent 51–33 in the second half, according to the Wildcats’ score sheet.\n\nOle Miss’ account traces a turning point to Arizona tying the score at 46. Budd Clark led the Rebels with 17 points. It was Arizona’s fourth title at the tournament.",
+          "photoAlt": "Arizona coach Tommy Lloyd standing with his hands on his hips.",
+          "photoCaption": "Arizona coach Tommy Lloyd standing with his hands on his hips. Archive photograph · 2021-11-24."
+        },
+        "es": {
+          "title": "Arizona remonta ante Ole Miss y gana su cuarto torneo de Maui",
+          "summary": "Los Wildcats perdían por siete al descanso y ganaron la final 84-73 en Lahaina.",
+          "body": "El equipo masculino de la Universidad de Arizona ganó el Maui Invitational el 25 de noviembre en Hawái. Ole Miss ganaba 40-33 al descanso, pero Arizona se impuso 51-33 en la segunda mitad, según la ficha de los Wildcats.\n\nLa crónica de Ole Miss sitúa un punto de inflexión cuando Arizona empató a 46. Budd Clark fue el máximo anotador de los Rebels con 17 puntos. Es el cuarto título de Arizona en este torneo.",
+          "photoAlt": "Tommy Lloyd, entrenador de Arizona, de pie con las manos en la cintura.",
+          "photoCaption": "Tommy Lloyd, entrenador de Arizona, de pie con las manos en la cintura. Foto de archivo · 2021-11-24."
+        },
+        "ar": {
+          "title": "أريزونا يقلب النتيجة أمام أول ميس ويحرز لقبه الرابع في ماوي",
+          "summary": "عوض وايلدكاتس تأخره بسبع نقاط عند الاستراحة ليفوز بالنهائي 84-73 في لاهاينا.",
+          "body": "فاز فريق الرجال بجامعة أريزونا ببطولة ماوي في هاواي يوم 25 نوفمبر. وتقدم أول ميس 40-33 عند الاستراحة، لكن أريزونا سجل 51 نقطة مقابل 33 في الشوط الثاني بحسب سجل وايلدكاتس.\n\nوأشار تقرير أول ميس إلى نقطة تحول عندما تعادل أريزونا 46-46. وتصدر باد كلارك مسجلي ريبلز برصيد 17 نقطة. وهذا اللقب الرابع لأريزونا في البطولة.",
+          "photoAlt": "مدرب أريزونا تومي لويد واقفا ويداه على خاصرتيه.",
+          "photoCaption": "مدرب أريزونا تومي لويد واقفا ويداه على خاصرتيه. صورة أرشيفية · 2021-11-24."
+        },
+        "zh-CN": {
+          "title": "亚利桑那逆转密西西比大学，第四次夺得毛伊邀请赛冠军",
+          "summary": "野猫队半场落后7分，在拉海纳举行的决赛中以84比73取胜。",
+          "body": "亚利桑那大学男篮11月25日在夏威夷赢得毛伊邀请赛。根据野猫队的技术统计，密西西比大学半场以40比33领先，但亚利桑那下半场以51比33压过对手。\n\n密西西比大学的赛后报道指出，亚利桑那追成46平是一个转折点。巴德·克拉克以17分领跑落败一方。这是亚利桑那第四次赢得该项赛事。",
+          "photoAlt": "亚利桑那队教练汤米·劳埃德双手叉腰站在场边。",
+          "photoCaption": "亚利桑那队教练汤米·劳埃德双手叉腰站在场边。 档案照片 · 2021-11-24."
+        },
+        "ru": {
+          "title": "Аризона отыгралась у «Оле Мисс» и в четвёртый раз выиграла турнир на Мауи",
+          "summary": "«Уайлдкэтс» уступали семь очков к перерыву, но победили в финале в Лахайне 84:73.",
+          "body": "Мужская команда Университета Аризоны 25 ноября выиграла Maui Invitational на Гавайях. «Оле Мисс» вели к перерыву 40:33, однако, по протоколу «Уайлдкэтс», Аризона выиграла вторую половину 51:33.\n\nВ отчёте «Оле Мисс» переломным моментом названо то, как Аризона сравняла счёт — 46:46. Самым результативным у «Ребелс» стал Бадд Кларк с 17 очками. Для Аризоны это четвёртый титул на турнире.",
+          "photoAlt": "Тренер Аризоны Томми Ллойд стоит, уперев руки в бока.",
+          "photoCaption": "Тренер Аризоны Томми Ллойд стоит, уперев руки в бока. Архивное фото · 2021-11-24."
+        },
+        "ko": {
+          "title": "애리조나, 올 미스에 역전승하며 마우이 대회 네 번째 우승",
+          "summary": "와일드캣츠는 전반 7점 차 열세를 뒤집고 라하이나 결승에서 84-73으로 이겼다.",
+          "body": "애리조나대 남자 농구팀은 11월 25일 하와이 마우이 인비테이셔널에서 우승했다. 와일드캣츠 경기 기록에 따르면 올 미스가 전반에 40-33으로 앞섰지만 애리조나가 후반 득점에서 51-33으로 우세했다.\n\n올 미스의 경기 보고서는 애리조나가 46-46 동점을 만든 순간을 전환점으로 꼽았다. 버드 클라크는 17점으로 레블스에서 가장 많이 득점했다. 애리조나는 이 대회 네 번째 우승을 기록했다.",
+          "photoAlt": "양손을 허리에 얹고 서 있는 애리조나 감독 토미 로이드.",
+          "photoCaption": "양손을 허리에 얹고 서 있는 애리조나 감독 토미 로이드. 자료 사진 · 2021-11-24."
+        }
+      }
+    },
+    {
+      "eventKey": "duke-uconn-las-vegas-neuf-points",
+      "category": "Sports",
+      "title": "Duke reprend le dessus après l’égalisation d’UConn et gagne à Las Vegas",
+      "summary": "Les Blue Devils ont battu les Huskies 77 à 63 malgré les 25 points de Silas Demary Jr.",
+      "body": "Duke a défait l’Université du Connecticut le 25 novembre au T-Mobile Arena de Las Vegas. Les Blue Devils ont inscrit les sept derniers points de la première période pour rentrer au vestiaire devant, 38 à 32, selon le compte rendu des Huskies.\n\nSilas Demary Jr. a ensuite marqué les huit premiers points d’UConn après la pause et égalisé à 40 partout. La feuille de match de Duke confirme la victoire de 77 à 63 : les Blue Devils avaient repris la main en enchaînant neuf points sans réponse après l’égalisation.",
+      "sources": [
+        {
+          "name": "Université Duke — feuille de match",
+          "url": "https://goduke.com/sports/mens-basketball/stats/2026/uconn/boxscore/24892",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Université du Connecticut — compte rendu",
+          "url": "https://d26erm6jy2o8yz.cloudfront.net/news/2026/11/25/mens-basketball-demary-jr-scores-25-in-setback-to-16-duke-in-vegas",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/duke.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:T_Mobile_Arena_The_Strip_Las_Vegas_%2829798246202%29.jpg",
+        "credit": "Tomás Del Coro from Las Vegas, Nevada, USA",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "alt": "La façade éclairée du T-Mobile Arena à Las Vegas.",
+        "caption": "La façade éclairée du T-Mobile Arena à Las Vegas. Photo d’archives · 2016-09-24."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Duke pulls away after UConn draws level in Las Vegas",
+          "summary": "The Blue Devils beat the Huskies 77–63 despite 25 points from Silas Demary Jr.",
+          "body": "Duke defeated the University of Connecticut at T-Mobile Arena in Las Vegas on November 25. The Blue Devils scored the final seven points of the first half to lead 38–32 at the break, according to the Huskies’ report.\n\nSilas Demary Jr. then scored UConn’s first eight points after the interval and tied it at 40. Duke’s score sheet confirms the 77–63 win. The Blue Devils regained control with nine unanswered points after the equaliser.",
+          "photoAlt": "Illuminated facade of T-Mobile Arena in Las Vegas.",
+          "photoCaption": "Illuminated facade of T-Mobile Arena in Las Vegas. Archive photograph · 2016-09-24."
+        },
+        "es": {
+          "title": "Duke se despega tras el empate de UConn y gana en Las Vegas",
+          "summary": "Los Blue Devils derrotaron 77-63 a los Huskies pese a los 25 puntos de Silas Demary Jr.",
+          "body": "Duke venció a la Universidad de Connecticut el 25 de noviembre en el T-Mobile Arena de Las Vegas. Los Blue Devils anotaron los últimos siete puntos del primer tiempo y llegaron al descanso con ventaja de 38-32, según la crónica de los Huskies.\n\nSilas Demary Jr. anotó los primeros ocho puntos de UConn tras la pausa y empató a 40. La ficha de Duke confirma la victoria por 77-63. Los Blue Devils recuperaron el control con nueve puntos sin respuesta tras el empate.",
+          "photoAlt": "Fachada iluminada del T-Mobile Arena de Las Vegas.",
+          "photoCaption": "Fachada iluminada del T-Mobile Arena de Las Vegas. Foto de archivo · 2016-09-24."
+        },
+        "ar": {
+          "title": "ديوك يستعيد المبادرة بعد تعادل كونيتيكت ويفوز في لاس فيغاس",
+          "summary": "فاز بلو ديفلز 77-63 على هاسكيز رغم تسجيل سايلاس ديماري جونيور 25 نقطة.",
+          "body": "تغلب ديوك على جامعة كونيتيكت في 25 نوفمبر في تي موبايل أرينا بلاس فيغاس. وسجل بلو ديفلز النقاط السبع الأخيرة في الشوط الأول ليتقدم 38-32 عند الاستراحة بحسب تقرير هاسكيز.\n\nثم سجل ديماري أول ثماني نقاط لكونيتيكت بعد الاستراحة وعادل النتيجة 40-40. ويؤكد سجل ديوك الفوز 77-63. واستعاد بلو ديفلز زمام المباراة بتسع نقاط متتالية بعد التعادل.",
+          "photoAlt": "الواجهة المضاءة لتي موبايل أرينا في لاس فيغاس.",
+          "photoCaption": "الواجهة المضاءة لتي موبايل أرينا في لاس فيغاس. صورة أرشيفية · 2016-09-24."
+        },
+        "zh-CN": {
+          "title": "康涅狄格追平后，杜克重新拉开比分在拉斯维加斯取胜",
+          "summary": "蓝魔队以77比63击败哈士奇队，对手西拉斯·德马里二世拿下25分。",
+          "body": "杜克大学11月25日在拉斯维加斯T-Mobile球馆击败康涅狄格大学。据哈士奇队赛后报道，蓝魔队包办上半场最后7分，以38比32领先进入中场休息。\n\n德马里随后独得康涅狄格下半场前8分，将比分追成40平。杜克的官方记录确认最终比分为77比63。蓝魔队在对手追平后连得9分，重新控制比赛。",
+          "photoAlt": "拉斯维加斯T-Mobile球馆亮灯的外墙。",
+          "photoCaption": "拉斯维加斯T-Mobile球馆亮灯的外墙。 档案照片 · 2016-09-24."
+        },
+        "ru": {
+          "title": "«Дьюк» вернул себе преимущество после рывка «Коннектикута» и победил в Лас-Вегасе",
+          "summary": "«Блю Девилз» обыграли «Хаскис» 77:63, несмотря на 25 очков Сайласа Демари-младшего.",
+          "body": "25 ноября «Дьюк» победил Университет Коннектикута на T-Mobile Arena в Лас-Вегасе. Как отмечают «Хаскис», «Блю Девилз» набрали последние семь очков первой половины и ушли на перерыв при счёте 38:32.\n\nПосле перерыва Демари набрал первые восемь очков своей команды и сравнял счёт — 40:40. Протокол «Дьюка» подтверждает итог 77:63. Сразу после ничейного счёта «Блю Девилз» вернули инициативу, набрав девять очков подряд.",
+          "photoAlt": "Освещённый фасад T-Mobile Arena в Лас-Вегасе.",
+          "photoCaption": "Освещённый фасад T-Mobile Arena в Лас-Вегасе. Архивное фото · 2016-09-24."
+        },
+        "ko": {
+          "title": "듀크, 코네티컷에 동점 허용 뒤 연속 득점으로 라스베이거스 승리",
+          "summary": "블루 데블스가 사일러스 디마리 주니어의 25점을 앞세운 허스키스를 77-63으로 꺾었다.",
+          "body": "듀크대는 11월 25일 라스베이거스 T모바일 아레나에서 코네티컷대를 이겼다. 허스키스의 경기 보고서에 따르면 블루 데블스는 전반 마지막 7점을 연속으로 넣어 38-32로 앞선 채 전반을 끝냈다.\n\n디마리는 후반 코네티컷의 첫 8점을 혼자 올려 40-40 동점을 만들었다. 듀크의 경기 기록에 따르면 최종 점수는 77-63이었다. 블루 데블스는 동점 직후 9점을 내리 넣으며 주도권을 되찾았다.",
+          "photoAlt": "조명이 켜진 라스베이거스 T모바일 아레나 정면.",
+          "photoCaption": "조명이 켜진 라스베이거스 T모바일 아레나 정면. 자료 사진 · 2016-09-24."
+        }
+      }
+    }
+  ]
+}
