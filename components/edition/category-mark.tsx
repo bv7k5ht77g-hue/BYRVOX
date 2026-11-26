@@ -68,15 +68,11 @@ function categoryAppearance(category: string) {
   return byName.get(categoryKey(category)) || fallback;
 }
 
-export function categoryStyle(category: string): CSSProperties {
-  return { '--desk-color': categoryAppearance(category).color } as CSSProperties;
-}
-
 function appearance({ category, label }: CategoryProps) {
-  const { icon: Icon } = categoryAppearance(category);
+  const { icon: Icon, color } = categoryAppearance(category);
   return {
     className: 'by-mark',
-    style: categoryStyle(category),
+    style: { '--desk-color': color } as CSSProperties,
     children: <><Icon size={16} aria-hidden="true"/>{label}</>,
   };
 }

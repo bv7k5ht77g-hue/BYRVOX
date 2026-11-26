@@ -189,6 +189,11 @@ body .edition-site.edition-header .header-topics-list a.by-mark {
   text-decoration: none;
 }
 body .by-mark svg { flex: none; color: inherit; }
+body .by-rail-title h2 a.by-mark {
+  background-color: transparent;
+  color: var(--ink);
+  padding-inline: 0;
+}
 body :is(.by-topic-directory,.edition-filters,.by-spotlight-categories,.by-rail-title,.reader-category) :is(a,button).by-mark,
 body .edition-site.edition-header .header-topics-list a.by-mark {
   min-block-size: 38px;
