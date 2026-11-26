@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import { validSourceUrl } from '../editorial.mjs';
+import policy from './edition-policy.json' with {type:'json'};
 
 const webUrl = z.string().max(1800).refine(validSourceUrl);
 const line = (min: number, max: number) => z.string().trim().min(min).max(max);
@@ -19,12 +20,17 @@ const storySchema = z.object({
   photo: z.object({
     download: line(4, 1800), sourceUrl: webUrl, credit: line(2, 200), license: line(2, 100),
     licenseUrl: webUrl, alt: line(8, 300), caption: line(12, 1000),
+    subject: z.string().optional(),
+    replacesPublishedHash: z.string().regex(/^[a-f0-9]{64}$/).optional(),
   }),
   translations: z.object({en:translated, es:translated, ar:translated, 'zh-CN':translated, ru:translated, ko:translated}).partial().optional(),
 });
 export type WireStory = z.infer<typeof storySchema>;
-export const editionLimit = (edition: string) => edition.endsWith('-thematique') ? 16 : 15;
-export const editionSchema = z.object({hour:z.string(), articles:z.array(storySchema).min(1).max(16)})
+export function editionLimit(edition: string) {
+  if (edition.endsWith('-thematique')) return policy.thematicLimit;
+  return edition < policy.fromHour ? policy.legacyHourlyLimit : policy.hourlyLimit;
+}
+export const editionSchema = z.object({hour:z.string(), articles:z.array(storySchema).min(1).max(policy.thematicLimit)})
   .refine(edition => edition.articles.length <= editionLimit(edition.hour));
 export type WireEdition = z.infer<typeof editionSchema>;
 export const repoBase = 'https://raw.githubusercontent.com/bv7k5ht77g-hue/BYRVOX/main/newswire/';
@@ -54,7 +60,22 @@ export function articleError(story: WireStory, hour: string, now = Date.now()) {
     return 'La date des sources ne correspond pas à cette édition.';
   }
   if (!imageAddress(story.photo.download,hour)) return 'Source de la photographie non prise en charge.';
+  if (hour.slice(0,13) >= policy.fromHour) {
+    const subject = story.photo.subject?.trim() ?? '';
+    const words = photoWords(subject);
+    if (subject.length > 160 || words.length < 2) return 'Indique le sujet précis visible sur la photographie dans photo.subject.';
+    const mentionsSubject = (value: string) => (' ' + photoWords(value) + ' ').includes(' ' + words + ' ');
+    if (![story.title, story.summary, story.body].some(mentionsSubject) ||
+        ![story.photo.alt, story.photo.caption].some(mentionsSubject)) {
+      return 'Le sujet choisi pour la photo doit figurer dans le texte de l’article et dans le texte alternatif ou la légende.';
+    }
+  }
   return null;
+}
+
+function photoWords(value: string) {
+  return value.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase().replace(/œ/g, 'oe')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 }
 
 export function canonicalSource(address: string) {

@@ -38,7 +38,7 @@ Pour une autre régie, choisir le mode iframe ou script externe de l’emplaceme
 
 ## Édition horaire
 
-La tâche « Publier l’édition horaire BYRVOX » est planifiée à chaque heure selon le fuseau de Toronto. Elle recherche quinze événements distincts, vérifie leurs sources et les droits sur les photos, puis livre les articles prêts à publier. Une édition peut compter moins de quinze articles lorsque les éléments requis ne sont pas réunis. Les éditions sont conservées dans `newswire/`. [Procédure de rédaction et de publication](docs/EDITION_HORAIRE.md) · [Registre des publications](https://byrvox.noventra.ca/api/newswire).
+La tâche « Publier l’édition horaire BYRVOX » est planifiée à chaque heure selon le fuseau de Toronto. Elle livre jusqu’à sept événements distincts après vérification des sources et des droits. La photographie de chaque article doit permettre de reconnaître son sujet. La rédaction peut retenir moins de sept articles lorsque les faits ou le visuel demandent des vérifications supplémentaires. Les éditions sont conservées dans `newswire/`. [Procédure de rédaction et de publication](docs/EDITION_HORAIRE.md) · [Registre des publications](https://byrvox.noventra.ca/api/newswire).
 
 La navigation affiche les observations d’Environnement et Changement climatique Canada pour la ville choisie. La barre de lecture suit le défilement. Sous chaque article, le carrousel commence par des sujets apparentés puis propose d’autres lectures. Un emplacement publicitaire suit la navigation. Sur l’accueil, un second suit la manchette. Dans les articles illustrés, un emplacement suit la photo de couverture et son crédit, avant le premier paragraphe. Les emplacements disponibles sont signalés jusqu’à la réservation d’une campagne.
 

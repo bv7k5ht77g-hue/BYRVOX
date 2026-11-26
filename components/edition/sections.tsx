@@ -2,7 +2,7 @@ import { ArrowLeft, ArrowRight, ArrowUpRight, AudioLines, Bookmark, Radio, Refre
 import Image from 'next/image';
 import type { ReactNode } from 'react';
 import { articleHref, editionHref, fold, type EditionRoute, type Summary } from '../../lib/edition';
-import { DeskCollections, DeskDirectory, MostRated } from './desk-collections';
+import { DeskCollections, DeskDirectory, DeskRail, MostRated, sectionStoryLimit } from './desk-collections';
 import { NewsLeaders } from './news-leaders';
 import type { NewsSlide } from '../../lib/news-leaders';
 import {CategoryLink, Mark} from './category-mark';
@@ -14,14 +14,12 @@ import { FeaturedContents } from './featured-contents';
 import { AdSlot } from './ad-slot';
 import { CoverFigure } from './cover-figure';
 import { canonicalCategory, type CategoryHeadlines, type RatedArticle } from '../../lib/editorial-sections';
-import { TopicRail } from './topic-rail';
 import { RadioYO } from './radioyo';
 import { readerAccountUrl } from '../../lib/reader-links';
 import { sectionText } from './section-copy';
 import './front-page.css';
 import './hub-pages.css';
 
-const homeSectionLimit = 5;
 
 const hubPages = {
   actualites: { image: 'news', description: 'newsChannel' },
@@ -141,11 +139,11 @@ export function EditionFront({ mostRated, stories, headlines, presentations, sav
     {feed.length>0 && <LatestFeed stories={feed} lang={lang} />}
     
     <FeaturedContents stories={more} presentations={[]} savedCount={savedCount} saveButton={saveButton} />
-    {mostRated && <MostRated rows={mostRated.slice(0,homeSectionLimit)} lang={lang}/>}
+    {mostRated && <MostRated rows={mostRated} lang={lang}/>}
     {headlines.length>0 && <section className="by-section" aria-labelledby="topics-heading">
       <div className="by-section-title"><h2 id="topics-heading">{sectionText(lang,'topics')}</h2></div>
       <AllTopicLinks categories={headlines.map(group=>group.category)} lang={lang}/>
-      <DeskCollections groups={headlines} lang={lang} limit={homeSectionLimit}/>
+      <DeskCollections groups={headlines} lang={lang}/>
     </section>}
     <BrandShowcase lang={lang}/><RadioYO lang={lang} compact/>
     <MobileReading lang={lang} />
@@ -184,7 +182,7 @@ export function SectionContent({ mostRated, leaders, route, stories, headlines, 
   const list = pool.filter(story => (serverFiltered && !story.presentation) || ((!category || fold(story.category) === fold(category)) &&
     terms.every(term => fold([story.title, story.category, categoryLabel(story.category,lang), story.summary, story.slug].join(' ')).includes(term))));
   const empty = category || query ? 'noMatch' : page>1 ? 'noPage' : section==='favoris' ? 'emptySaved' : section==='actualites' ? 'emptyNews' : 'empty';
-  const featured = topicPage && !query && page===1 ? list.slice(0,6) : [];
+  const featured = topicPage && !query && page===1 ? list.slice(0,sectionStoryLimit) : [];
   const archive = list.slice(featured.length);
   function card(story: Summary) { return <StoryCard key={story.slug} story={story} save={saveButton(story)} lang={lang} showSummary/>; }
   return <div className="wrap section-page by-index">
@@ -195,7 +193,7 @@ export function SectionContent({ mostRated, leaders, route, stories, headlines, 
     </section>}
     {topicPage && <>
       <DeskDirectory categories={categories} current={category} lang={lang}/>
-      {featured.length>0 && <TopicRail category={category} lang={lang} current>{featured.map(card)}</TopicRail>}
+      {featured.length>0 && <DeskRail name={category} stories={featured} lang={lang} current renderStory={card}/>}
       {featured.length>0 && <AdSlot placement="news"/>}
     </>}
     {section === 'radio' && <><RadioYO lang={lang}/><AdSlot placement="radio"/></>}

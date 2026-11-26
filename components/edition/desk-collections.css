@@ -7,8 +7,8 @@
 .by-desk-collection .by-rail-items > * {scroll-snap-align:start}
 .by-desk-collection .by-rail-items > .by-card, .by-desk-lead {background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:clamp(10px,1.1vw,15px)}
 .by-desk-collection .by-card h3 {font-size:clamp(1rem,1.45vw,1.3rem);line-height:1.22}
-.by-desk-collection .by-desk-lead {border-block-start:3px solid var(--edition-accent,var(--red));display:flex;flex-direction:column}
-.by-desk-lead .by-card {flex:1}
+.by-desk-slide {flex:1}
+.by-desk-slide[hidden] {display:none}
 .by-desk-lead-top {display:flex;align-items:center;justify-content:space-between;gap:.7rem;margin-block-end:.55rem;font-size:.8rem}
 .by-desk-lead-top strong {font-weight:750;color:var(--edition-accent,var(--red))}
 .by-desk-lead-top span,.by-most-rated>p {color:var(--muted)}
@@ -16,18 +16,20 @@
 .by-desk-dots button {min-width:30px;height:30px;padding:0;display:grid;place-items:center;border:0;background:none;color:var(--ink)}
 .by-desk-dots button::after {content:'';border-radius:99px;width:8px;height:8px;background:var(--muted)}
 .by-desk-dots button[aria-pressed=true]::after {width:20px;background:var(--ink)}
-.by-home .by-desk-lead {
-  --ink: var(--lead-ink);
-  --muted: #f6dedb;
-  --line: #d7909a;
-  --edition-accent: var(--lead-ink);
-  background: var(--lead-paper);
-  border: 1px solid var(--lead-paper);
-  color: var(--lead-ink);
+.by-desk-collection .by-desk-lead {
+  --ink: #fff;
+  --muted: #f4f4f4;
+  --line: #ffffff75;
+  --edition-accent: #fff;
+  display:flex;
+  flex-direction:column;
+  background: var(--desk-color);
+  border-color: var(--desk-color);
+  color: var(--ink);
 }
-.by-home .by-desk-lead-top strong {letter-spacing:.045em;text-transform:uppercase}
-.by-home .by-desk-lead .by-mark {box-shadow:inset 0 0 0 1px #ffffff45}
-.by-home .by-desk-lead :is(a,button):focus-visible {outline-color:var(--lead-ink)}
+.by-desk-lead-top strong {letter-spacing:.045em;text-transform:uppercase}
+.by-desk-lead .by-mark {box-shadow:inset 0 0 0 1px #ffffff45}
+.by-desk-lead :is(a,button):focus-visible {outline-color:var(--ink)}
 .by-desk-filters {display:flex;gap:.45rem;align-items:center;flex-wrap:wrap;margin-block-end:.85rem}
 .by-desk-filters button {border:1px solid var(--line);border-radius:20px;color:var(--ink);background:var(--bg);padding:.35rem .85rem;min-height:35px;font-size:.85rem}
 .by-desk-filters button[aria-pressed=true] {background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:650}

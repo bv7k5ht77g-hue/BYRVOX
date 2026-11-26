@@ -19,6 +19,7 @@ import { getDb } from '../../../db';
 import { articles } from '../../../db/schema';
 import { isoDate } from '../../../lib/publication-date';
 import { categoryHref } from '../../../lib/editorial-sections';
+import { articleRegion, publicStoryCategory } from '../../../lib/story-topics';
 import { editionHref } from '../../../lib/edition';
 import { categoryLabel, localeLabels, localizedHref, sectionLabel, translationFallbackHref, type PublicLocale } from '../../../lib/i18n';
 import { resolvePublicLocale } from '../../../lib/public-locale';
@@ -48,7 +49,7 @@ const getArticle = cache(async (slug: string): Promise<ReaderArticle | null> => 
   const state = articleAdState(adReview);
   return {
     adsEnabled:state === 'allowed',
-    reserveArticleSpaces:state === 'pending', story, isFeature:false,
+    reserveArticleSpaces:state === 'pending', story:{...story, category:publicStoryCategory(story)}, isFeature:false,
     isWire:authorId === 'byrvox-agent-horaire' || authorId === 'byrvox-agent-thematique',
     photo:resolveCover(slug,photo,photoHidden), gallery:gallery || [],
   };
@@ -99,6 +100,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
   if (!record) notFound();
   const {story, original, isFeature, isWire, photo, art, language} = record;
   const copy = readerLabels(locale);
+  const region = articleRegion(original);
   const sources = sourcesForReader(story.sources);
   const paragraphs = story.body.split(/\r?\n/).filter(paragraph => paragraph.trim());
   const midpoint = Math.ceil(paragraphs.length / 2);
@@ -130,7 +132,9 @@ export default async function Article({params,searchParams}:ArticleProps) {
             {isFeature ? <p className="reader-category reader-feature-kicker">
               <a href={localizedHref(editionHref('presentations'),locale)}>{sectionLabel('presentations',locale)}</a>
               <Mark category={story.category} label={categoryLabel(story.category,locale)}/>
-            </p> : <p className="reader-category"><CategoryLink href={localizedHref(categoryHref(story.category),locale)} category={story.category} label={categoryLabel(story.category,locale)}/></p>}
+            </p> : <p className="reader-category"><CategoryLink href={localizedHref(categoryHref(story.category),locale)} category={story.category} label={categoryLabel(story.category,locale)}/>
+              {region && region !== story.category && <> <CategoryLink href={localizedHref(categoryHref(region),locale)} category={region} label={categoryLabel(region,locale)}/></>}
+            </p>}
             <h1 lang={language} dir="auto" id="article-heading" tabIndex={-1}>{story.title}</h1>
             <p lang={language} dir="auto" className="reader-deck">{story.summary}</p>
             <div className="reader-byline">

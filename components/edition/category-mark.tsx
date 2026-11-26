@@ -70,6 +70,10 @@ function categoryAppearance(category: string) {
   return byName.get(categoryKey(name)) || byName.get(categoryKey(parentDesk(name))) || fallback;
 }
 
+export function categoryColor(category: string) {
+  return categoryAppearance(category).color;
+}
+
 function appearance({ category, label }: CategoryProps) {
   const { icon: Icon, color } = categoryAppearance(category);
   return {

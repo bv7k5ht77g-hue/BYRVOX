@@ -10,8 +10,8 @@ import { features } from "./content";
 import { resolveCover } from "./cover-photo";
 import { getHomepageLeadSlug } from "./homepage-lead";
 import { canonicalCategory, categoryAliases, deskFamilies, orderedCategories, type CategoryHeadlines } from "./editorial-sections";
-import { sportKeywords } from "./story-topics";
-import { containsSearchTerms, hasSearchPhrase, normalizedSearchSql } from "./search-text";
+import { albertaNationalTerms, albertaRegionalTerms, publicStoryCategory, sportKeywords } from "./story-topics";
+import { containsSearchTerms, hasSearchPhrase } from "./search-text";
 
 const summaryFields = {
   slug: articles.slug,
@@ -38,6 +38,7 @@ function summary({ photo, photoHidden, ...article }: Row) {
   const cover = resolveCover(article.slug, photo, photoHidden);
   return {
     ...article,
+    category: publicStoryCategory(article),
     ...(cover ? { photo: cover } : {}),
     publishedAt: isoDate(article.publishedAt),
     updatedAt: isoDate(article.updatedAt),
@@ -89,6 +90,15 @@ function categoryPredicate(name: string) {
   const exact = (names: string[]) => or(...names.map(n => sql`${articles.category} = ${n} COLLATE NOCASE`));
   const names = Object.hasOwn(categoryAliases,category) ? categoryAliases[category] : [category];
   const children = Object.hasOwn(deskFamilies,category) ? deskFamilies[category] : [];
+  if (category === 'Canada' || category === 'Alberta') {
+    const copy = sql`(${articles.title} || ' ' || ${articles.summary})`;
+    const dateline = sql`lower(trim(substr(${articles.title}, 1, instr(${articles.title}, ':') - 1), ' ' || char(160) || char(8239)))`;
+    const regional = or(sql`${dateline} = 'alberta'`,
+      and(sql`instr(lower(${copy}), 'alberta') > 0`,hasSearchPhrase(copy,albertaRegionalTerms)));
+    if (category === 'Alberta') return or(exact(names), regional,
+      and(exact(['Canada']),hasSearchPhrase(copy,albertaNationalTerms)));
+    return or(exact([...names,...children]),regional);
+  }
   if (children.length) return exact([...names, ...children.flatMap(child => categoryAliases[child] || [child])]);
   if (category === 'Soccer' || category === 'LNH') {
     const sports = exact(['Sport','Sports','Hockey','Hockey sur glace']);

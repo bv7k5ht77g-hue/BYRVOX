@@ -15,6 +15,13 @@ HEADERS = {
     'Accept': 'application/json',
     'User-Agent': 'BYRVOX-Publisher/1.0 (+https://byrvox.noventra.ca)',
 }
+POLICY = json.loads((Path(__file__).resolve().parents[1] / 'lib/newswire/edition-policy.json').read_text())
+
+
+def edition_limit(hour):
+    if hour.endswith('-thematique'):
+        return POLICY['thematicLimit']
+    return POLICY['legacyHourlyLimit'] if hour < POLICY['fromHour'] else POLICY['hourlyLimit']
 
 
 def call(endpoint, payload=None):
@@ -38,18 +45,26 @@ def receipts(hour):
     return set()
 
 
-def publish(hour, rank):
+def publish(hour, rank, photo_correction=False):
     payload = {'hour': hour, 'rank': rank}
+    if photo_correction:
+        payload['photoCorrection'] = True
     for attempt in range(3):
         for endpoint in ENDPOINTS:
             try:
                 data = call(endpoint, payload)
-                if data.get('status') not in ('published', 'recorded', 'duplicate'):
+                if data.get('status') not in ('published', 'recorded', 'duplicate', 'photo_corrected'):
                     raise RuntimeError('Unexpected delivery status: ' + str(data))
                 print(hour, rank, data['status'], data['slug'], flush=True)
                 return
             except HTTPError as err:
                 if err.code in (400, 422):
+                    try:
+                        message = json.loads(err.read(4096)).get('error')
+                    except (ValueError, AttributeError):
+                        message = None
+                    if isinstance(message, str) and message:
+                        raise ValueError(f'HTTP {err.code}: {message}') from err
                     raise
                 last_error = err
             except (URLError, TimeoutError, ValueError) as err:
@@ -70,17 +85,19 @@ def main():
         if not re.fullmatch(r'[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}(?:-thematique)?', hour):
             raise ValueError('Invalid UTC hour')
         document = json.loads((Path('newswire') / hour / 'edition.json').read_text())
-        limit = 16 if hour.endswith('-thematique') else 15
+        limit = edition_limit(hour)
         if document['hour'] != hour or not 1 <= len(document['articles']) <= limit:
-            raise ValueError('Invalid edition')
+            raise ValueError(f'{hour}: attendu 1 à {limit} articles et une heure concordante.')
         recorded = set() if args.redeliver else receipts(hour)
         for rank in range(len(document['articles']), 0, -1):
-            slug = document['articles'][rank - 1]['eventKey']
-            if ('wire:' + hour + ':' + str(rank), slug) in recorded:
+            story = document['articles'][rank - 1]
+            slug = story['eventKey']
+            correct_photo = bool(story['photo'].get('replacesPublishedHash'))
+            if not correct_photo and ('wire:' + hour + ':' + str(rank), slug) in recorded:
                 print(hour, rank, 'already recorded', slug, flush=True)
                 continue
             try:
-                publish(hour, rank)
+                publish(hour, rank, correct_photo)
             except Exception as err:
                 errors.append(f'{hour} rank {rank}: {err}')
     if errors:

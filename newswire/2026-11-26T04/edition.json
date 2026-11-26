@@ -166,13 +166,15 @@
         }
       ],
       "photo": {
-        "download": "media/etats-unis-rougeole-neuf-deces-novembre.webp",
-        "sourceUrl": "https://phil.cdc.gov/Details.aspx?pid=7971",
-        "credit": "James Gathany / CDC, Public Health Image Library · version WebP",
-        "license": "Domaine public des États-Unis",
-        "licenseUrl": "https://phil.cdc.gov/Details.aspx?pid=7971",
-        "alt": "La façade vitrée du bâtiment 21 des CDC éclairée à l’aube.",
-        "caption": "Archives de 2005. Bâtiment 21 du campus Roybal des CDC dans la région d’Atlanta."
+        "download": "media/rougeole-microscopie.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Measles_Virus_Particle.jpg",
+        "credit": "CDC (microscopie) / NIAID (colorisation)",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Une particule ovale du virus de la rougeole apparaît en rouge sur fond jaune.",
+        "caption": "Image d’archives publiée en 2024. Une particule du virus de la rougeole apparaît en rouge sur cette micrographie électronique colorisée par le NIAID.",
+        "subject": "rougeole",
+        "replacesPublishedHash": "9934a3c81630ea19176d37177d6ee4c7336e38eb37e57b241cabc1795cd54e02"
       },
       "verified": true,
       "translations": {
@@ -180,43 +182,43 @@
           "title": "US federal measles tally reaches nine deaths in 2026",
           "summary": "US health officials recorded 6,039 confirmed cases this year through November 24.",
           "body": "The US tally now includes nine measles-related deaths in 2026. According to Reuters, federal officials updated the total after receiving additional reports from states and verifying the role of measles in those deaths.\n\nThe CDC lists 6,021 cases reported by 47 health jurisdictions and 18 among international visitors. Together they account for 6,039 confirmed cases. The agency recorded 2,289 in all of 2025.",
-          "photoAlt": "Glass façade of CDC Building 21 lit at dawn.",
-          "photoCaption": "Archive photo, 2005. Building 21 on the CDC’s Roybal campus in the Atlanta area."
+          "photoAlt": "An oval measles virus particle appears red against a yellow background.",
+          "photoCaption": "Archive image published in 2024. A measles virus particle appears in red in this electron micrograph colorized by NIAID."
         },
         "es": {
           "title": "El balance federal de sarampión en EE. UU. alcanza nueve muertes en 2026",
           "summary": "Las autoridades sanitarias estadounidenses registraron 6.039 casos confirmados en lo que va de año hasta el 24 de noviembre.",
           "body": "El balance estadounidense incluye ya nueve muertes relacionadas con el sarampión en 2026. Según Reuters, las autoridades federales actualizaron la cifra tras recibir informes adicionales de los estados y verificar el papel de la enfermedad en esas muertes.\n\nLos CDC distinguen 6.021 casos notificados por 47 jurisdicciones sanitarias y 18 entre visitantes internacionales. En conjunto suman 6.039 casos confirmados. La agencia registró 2.289 en todo 2025.",
-          "photoAlt": "Fachada acristalada del edificio 21 de los CDC al amanecer.",
-          "photoCaption": "Archivo de 2005. Edificio 21 del campus Roybal de los CDC, en la zona de Atlanta."
+          "photoAlt": "Una partícula ovalada del virus del sarampión aparece en rojo sobre un fondo amarillo.",
+          "photoCaption": "Imagen de archivo publicada en 2024. Una partícula del virus del sarampión aparece en rojo en esta micrografía electrónica coloreada por el NIAID."
         },
         "ar": {
           "title": "الحصيلة الفدرالية الأميركية لوفيات الحصبة ترتفع إلى تسع في 2026",
           "summary": "سجلت السلطات الصحية الأميركية 6039 إصابة مؤكدة منذ بداية العام وحتى 24 نوفمبر.",
           "body": "تشمل الحصيلة الأميركية الآن تسع وفيات مرتبطة بالحصبة في 2026. وبحسب رويترز، حدّثت السلطات الفدرالية العدد بعد تلقي تقارير إضافية من الولايات والتحقق من دور المرض في تلك الوفيات.\n\nتفصّل مراكز مكافحة الأمراض والوقاية منها الحصيلة إلى 6021 إصابة أبلغت بها 47 جهة صحية و18 إصابة بين زوار دوليين، ليبلغ المجموع 6039 إصابة مؤكدة. وسجلت المراكز 2289 إصابة طوال عام 2025.",
-          "photoAlt": "واجهة المبنى 21 الزجاجية مضاءة عند الفجر.",
-          "photoCaption": "صورة أرشيفية من عام 2005 للمبنى 21 في مجمع رويبال التابع لمراكز مكافحة الأمراض بمنطقة أتلانتا."
+          "photoAlt": "جسيم بيضاوي لفيروس الحصبة يظهر باللون الأحمر على خلفية صفراء.",
+          "photoCaption": "صورة أرشيفية نُشرت عام 2024. يظهر جسيم لفيروس الحصبة باللون الأحمر في هذه الصورة المجهرية الإلكترونية التي لوّنها المعهد الوطني الأمريكي للحساسية والأمراض المعدية."
         },
         "zh-CN": {
           "title": "美国联邦统计显示2026年麻疹相关死亡达九例",
           "summary": "截至11月24日，美国卫生部门今年共记录6039例确诊病例。",
           "body": "美国2026年的统计现包括九例与麻疹相关的死亡。据路透社报道，联邦卫生部门在收到各州补充报告并核实麻疹在这些死亡中所起的作用后更新了总数。\n\n美国疾控中心列出的病例中，6021例由47个卫生辖区报告，另有18例为国际访客，合计6039例确诊病例。2025年全年共记录2289例。",
-          "photoAlt": "晨光中美国疾控中心21号楼的玻璃外墙。",
-          "photoCaption": "2005年资料照片。美国疾控中心位于亚特兰大地区的罗伊巴尔园区21号楼。"
+          "photoAlt": "一个椭圆形麻疹病毒颗粒在黄色背景上呈现红色。",
+          "photoCaption": "这张资料图发表于2024年。美国国家过敏和传染病研究所为这张电子显微照片着色，图中的麻疹病毒颗粒呈红色。"
         },
         "ru": {
           "title": "Федеральная статистика США зарегистрировала девять смертей, связанных с корью, в 2026 году",
           "summary": "К 24 ноября органы здравоохранения США зарегистрировали с начала года 6039 подтверждённых случаев.",
           "body": "В годовую сводку США вошли девять смертей, связанных с корью. По данным Reuters, федеральные органы обновили показатель после получения дополнительных отчётов от штатов и проверки роли кори в этих смертях.\n\nПо данным CDC, 6021 случай зарегистрирован в 47 юрисдикциях здравоохранения, ещё 18 — среди иностранных посетителей. В сумме это 6039 подтверждённых случаев. За весь 2025 год ведомство зарегистрировало 2289 случаев.",
-          "photoAlt": "Стеклянный фасад корпуса 21 CDC на рассвете.",
-          "photoCaption": "Архивное фото 2005 года. Корпус 21 в комплексе CDC «Ройбал» в районе Атланты."
+          "photoAlt": "Овальная частица вируса кори показана красным цветом на жёлтом фоне.",
+          "photoCaption": "Архивное изображение опубликовано в 2024 году. На этой электронной микрофотографии, раскрашенной специалистами NIAID, частица вируса кори показана красным цветом."
         },
         "ko": {
           "title": "미국 연방 집계에서 2026년 홍역 관련 사망 9명",
           "summary": "미국 보건 당국은 올해 들어 11월 24일까지 확진자 6,039명을 기록했다.",
           "body": "미국의 2026년 홍역 관련 사망자 집계가 9명으로 늘었다. 로이터에 따르면 연방 당국은 각 주에서 추가 보고를 받고 사망에 홍역이 미친 영향을 확인한 뒤 집계를 갱신했다.\n\n미국 질병통제예방센터는 47개 보건 관할 지역이 보고한 6,021명과 외국에서 온 방문객 18명을 구분했다. 두 집단을 합치면 확진자는 6,039명이다. 2025년 한 해 동안 집계된 확진자는 2,289명이었다.",
-          "photoAlt": "새벽에 불이 켜진 CDC 21동의 유리 외벽.",
-          "photoCaption": "2005년 자료 사진. 애틀랜타 일대 CDC 로이벌 캠퍼스 21동."
+          "photoAlt": "노란색 바탕에 타원형 홍역 바이러스 입자가 빨간색으로 보인다.",
+          "photoCaption": "2024년에 공개된 자료 사진. 미국 국립알레르기·감염병연구소가 채색한 이 전자현미경 사진에서는 홍역 바이러스 입자가 빨간색으로 보인다."
         }
       }
     },

@@ -16,12 +16,13 @@ export async function GET() {
 export async function POST(req: Request) {
   let input;
   try { input = await boundedJson(req,384) as Record<string,unknown>; } catch { return json({error:'JSON invalide.'},400); }
-  if (!input || Object.keys(input).some(k=>k!=='hour'&&k!=='rank') || !recentHour(input.hour) ||
+  if (!input || Object.keys(input).some(k=>k!=='hour'&&k!=='rank'&&k!=='photoCorrection') || !recentHour(input.hour) ||
+    (input.photoCorrection !== undefined && input.photoCorrection !== true) ||
     typeof input.rank !== 'number' || !Number.isInteger(input.rank) || input.rank<1 || input.rank>editionLimit(input.hour)) {
     return json({error:'Une édition UTC récente et un rang valide sont requis.'},400);
   }
   try {
-    const outcome = await deliverRank(input.hour,input.rank);
+    const outcome = await deliverRank(input.hour,input.rank,input.photoCorrection === true);
     return json(outcome,outcome.status==='published'?201:200);
   } catch (e) {
     if (e instanceof DeliveryProblem) return json({error:e.message},e.status);

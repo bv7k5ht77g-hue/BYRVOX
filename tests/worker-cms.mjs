@@ -6,6 +6,7 @@ import { createRequire } from 'node:module';
 import { resolve } from 'node:path';
 import { test } from 'node:test';
 import { fileURLToPath } from 'node:url';
+import { articleError, editionLimit, editionSchema } from '../lib/newswire/edition.ts';
 
 const require = createRequire(import.meta.url);
 const { Miniflare } = createRequire(require.resolve('wrangler/package.json'))('miniflare');
@@ -1034,6 +1035,35 @@ test('les préférences des lecteurs historiques restent liées au compte de leu
   assert.equal(detail.reader.userId,userId);
 });
 
+test('sept sujets illustrés par édition horaire, avec reprise des manifestes historiques', () => {
+  const firstHour = '2026-11-26T21';
+  const previousHour = '2026-11-26T20';
+  const date = previousHour + ':00:00Z';
+  const now = Date.parse(firstHour + ':45:00Z');
+  const story = {
+    eventKey:'but-mbappe-madrid', category:'Sports', verified:true,
+    title:'Le Real Madrid s’impose grâce au but de Mbappé',
+    summary:'Kylian Mbappé donne la victoire au Real Madrid dans les dernières minutes.',
+    body:'Le Real Madrid a pris l’avantage sur un but de son attaquant. '.repeat(7),
+    sources:['https://a.example/jeu','https://b.example/sport'].map(url => ({url, name:'Source', publishedAt:date})),
+    photo:{subject:'Kylian Mbappe', download:'media/action.webp', alt:'Kylian MBAPPÉ sous les couleurs du Real Madrid.',
+      caption:'Photographie du joueur prise lors d’un match précédent.', credit:'La rédaction',
+      sourceUrl:'https://photo.example/action', license:'CC BY 4.0', licenseUrl:'https://creativecommons.org/licenses/by/4.0/'},
+  };
+  const batch = count => Array.from({length:count}, (_, i) => ({...story,eventKey:'evenement-' + i}));
+  assert.equal(editionLimit(firstHour), 7);
+  assert.ok(editionSchema.safeParse({hour:firstHour,articles:batch(7)}).success);
+  assert.ok(!editionSchema.safeParse({hour:firstHour,articles:batch(8)}).success);
+  assert.ok(editionSchema.safeParse({hour:previousHour,articles:batch(15)}).success);
+  assert.equal(articleError(story, firstHour, now), null);
+  const photoError = (patch, hour = firstHour) => articleError({...story,photo:{...story.photo,...patch}}, hour, now);
+  assert.match(photoError({subject:undefined}), /sujet précis/);
+  assert.match(photoError({subject:'Rayan Cherki', alt:'Rayan Cherki lors d’une autre rencontre.'}), /dans le texte de l’article/);
+  assert.match(photoError({alt:'Tribunes du stade de Madrid.'}), /texte alternatif ou la légende/);
+  assert.equal(photoError({subject:'Real Madrid',alt:'Joueurs du Real-Madrid à l’échauffement.'}), null);
+  assert.equal(photoError({subject:undefined}, previousHour), null);
+});
+
 test('une édition approuvée est livrée avec sa photo et peut être reprise sans modifier un article existant', async t => {
   const hour = new Date(Date.now()-3600000).toISOString().slice(0,13);
   const date = hour + ':00:00Z';
@@ -1047,9 +1077,9 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
       photoCaption:'The square where the meeting took place.'}},
     verified:true,sources:[{name:'Organisme régional',url:'https://alpha.example/evenement',publishedAt:date},
       {name:'Journal local indépendant',url:'https://beta.example/enquete',publishedAt:date}],
-    photo:{download:'media/scene.webp',sourceUrl:'https://photo.example/scene',credit:'Photographe',
+    photo:{subject:'place du quartier',download:'media/scene.webp',sourceUrl:'https://photo.example/scene',credit:'Photographe',
       license:'CC BY 4.0',licenseUrl:'https://creativecommons.org/licenses/by/4.0/',alt:'Une vue du quartier concerné.',
-      caption:'Cette photographie montre le quartier où se tient la rencontre.'}
+      caption:'Cette photographie montre la place du quartier où se tient la rencontre.'}
   };
   const all = [story,{...story,eventKey:'autre-evenement-regional',sources:[{...story.sources[0],url:'https://alpha.example/visite'},story.sources[1]]},
     {...story,eventKey:'autre-angle-edition',sources:[{...story.sources[0],url:story.sources[0].url+'?utm_medium=site'},story.sources[1]]},
@@ -1115,12 +1145,36 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
   assert.ok(concurrent.every(r=>r.status===200||r.status===201));
   await post(4,404);
   await post(5,422);
-  assert.equal((await post(15)).status,'no_entry');
+  assert.equal((await post(7)).status,'no_entry');
   assert.equal((await post(6,201)).status,'published');
   const registry = await json('/api/newswire');
   assert.equal(registry.recent.length,3);
   assert.equal((await db.prepare('SELECT COUNT(*) AS n FROM articles').first()).n,3);
   assert.equal((await db.prepare("SELECT COUNT(*) AS n FROM revisions WHERE action='publication-horaire'").first()).n,3);
+
+  const correctPhoto = (expected=200) => json('/api/newswire',{data:{hour,rank:1,photoCorrection:true},expected});
+  await correctPhoto(422);
+  const before = await db.prepare('SELECT title,body,version,published_at,ad_review FROM articles WHERE id=?').bind(row.id).first();
+  const keys = ['url','alt','caption','credit','sourceUrl','license','licenseUrl'];
+  const publishedHash = createHash('sha256').update(JSON.stringify(keys.map(key=>photo[key]))).digest('hex');
+  const translated = {...story.translations.en, title:'Titre de manifeste à ignorer',photoAlt:'A closer view of the square.',
+    photoCaption:'Archive photo of the town square.'};
+  all[0] = {...story,photo:{...story.photo,alt:'Vue rapprochée de la place du quartier.',caption:'Photographie d’archives de la place du quartier.',
+    replacesPublishedHash:'0'.repeat(64)},translations:{en:translated}};
+  await correctPhoto(409);
+  all[0].photo.replacesPublishedHash = publishedHash;
+  assert.equal((await correctPhoto()).status,'photo_corrected');
+  assert.equal((await correctPhoto()).status,'recorded');
+  assert.equal((await post(1)).status,'recorded');
+  const after = await db.prepare('SELECT title,body,version,published_at,ad_review FROM articles WHERE id=?').bind(row.id).first();
+  assert.deepEqual(after,{...before,version:before.version+1});
+  const saved = await db.prepare("SELECT title,photo FROM article_translations WHERE slug=? AND locale='en'").bind(row.slug).first();
+  assert.equal(saved.title,story.translations.en.title);
+  assert.equal(JSON.parse(saved.photo).caption,translated.photoCaption);
+  const audit = (await db.prepare("SELECT snapshot FROM revisions WHERE article_id=? AND action='correction-photo-edition'").bind(row.id).all()).results;
+  assert.equal(audit.length,1);
+  assert.equal(JSON.parse(audit[0].snapshot).photo.alt,photo.alt);
+  assert.ok((await articlePage('fr')).includes(all[0].photo.caption));
   assert.ok(seen.every(url=>url.startsWith(base)));
 });
 
@@ -1133,15 +1187,15 @@ test('les éditions thématique et horaire de la même heure ont leurs propres l
   function article(eventKey, publishedAt) {
     return {
       eventKey, verified: true, category: 'Sciences', title: 'Une étude documentée dans plusieurs régions',
-      summary: 'Les auteurs de deux enquêtes indépendantes ont rendu leurs observations publiques.',
+      summary: 'Les auteurs de deux enquêtes dans le Massif central ont rendu leurs observations publiques.',
       body: 'Les équipes ont comparé leurs observations et publié les résultats de leur étude. '.repeat(6),
       sources: ['observatoire', 'journal'].map(name => ({
         name, url: 'https://' + name + '.example/' + eventKey, publishedAt,
       })),
       photo: {
-        download: 'media/etude.webp', sourceUrl: 'https://photo.example/etude',
+        subject: 'Massif central', download: 'media/etude.webp', sourceUrl: 'https://photo.example/etude',
         credit: 'Service photographique', license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
-        alt: 'Le bâtiment où se déroule l’étude.', caption: 'Le bâtiment de recherche au moment de l’étude.',
+        alt: 'Le bâtiment où se déroule l’étude.', caption: 'Le bâtiment de recherche dans le Massif central.',
       },
     };
   }
@@ -1656,16 +1710,19 @@ test('les rubriques regroupent les sous-rubriques et le classement compte les vo
   const updatedNews=await html('/?rubrique=actualites');
   const ratingItems=page=>page.match(/aria-labelledby="most-rated-heading"[^>]*>([\s\S]*?)<\/section>/)[1].match(/<li>/g).length;
   assert.equal(ratingItems(updatedHome),5);
-  assert.equal(ratingItems(updatedNews),6);
+  assert.equal(ratingItems(updatedNews),5);
   const economySelection=page=>[...page.matchAll(/<section class="by-topic-rail"[^>]*>([\s\S]*?)<\/section>/g)]
     .map(item=>item[1]).find(rail=>rail.includes('>Commerce international</button>'));
-  const countStories=rail=>{
-    const cards=rail.match(/<article class="by-card">/g).length;
-    const dots=rail.match(/class="by-desk-dots">([\s\S]*?)<\/div>/)?.[1].match(/<button/g).length || 0;
-    return cards + Math.max(0,dots-1);
-  };
-  assert.equal(countStories(economySelection(updatedHome)),5);
-  assert.ok(countStories(economySelection(updatedNews))>5);
+  const categoryPage = await html('/?rubrique=actualites&categorie=%C3%89conomie');
+  const categoryRail = categoryPage.match(/<section class="by-topic-rail"[^>]*>([\s\S]*?)<\/section>/)[1];
+  for (const rail of [economySelection(updatedHome), economySelection(updatedNews), categoryRail]) {
+    assert.equal(rail.match(/<article class="by-card">/g).length,5);
+    assert.equal(rail.match(/class="by-desk-slide"/g).length,2);
+    const lead = rail.match(/class="by-desk-lead" style="--desk-color:(#[a-f0-9]+)"/);
+    assert.ok(lead, 'La vedette porte la couleur de la catégorie');
+    const firstBadge = rail.slice(lead.index).match(/class="by-mark" style="--desk-color:(#[a-f0-9]+)"/);
+    assert.equal(lead[1],firstBadge[1]);
+  }
   const spotlight=updatedHome.match(/aria-labelledby="featured-contents-title"[^>]*>([\s\S]*?)<\/section>/)[1];
   assert.equal(spotlight.match(/<article class="by-spotlight-card">/g).length,4);
   assert.match(spotlight,/<a class="by-spotlight-more" href="\/\?rubrique=actualites"/);
@@ -1675,6 +1732,32 @@ test('les rubriques regroupent les sous-rubriques et le classement compte les vo
   assert.match(emptyRatings || '', /Most rated stories/);
   assert.match(emptyRatings || '', /No ratings yet/);
   assert.doesNotMatch(emptyRatings || '', /href="\/article/);
+});
+
+test('la sous-rubrique Alberta retrouve les articles du Canada et les sujets provinciaux des autres rubriques',async t=>{
+  const {mf,db}=await createNewsroom(t);
+  const now=new Date().toISOString();
+  const insert=db.prepare(`INSERT INTO articles(id,slug,title,category,summary,body,status,created_at,updated_at,published_at,author_id)
+    VALUES(?,?,?,?,?,'Article publié.','published',?,?,?,'test')`);
+  const fixtures=[
+    ['wainwright','Incendie de Wainwright','Canada','Dix-neuf militaires restent hospitalisés.'],
+    ['vaccination','La vaccination reprend','Santé','La campagne se déroule en Alberta.'],
+    ['ecole','Alberta : un nouveau programme scolaire','Éducation','La rentrée scolaire approche.'],
+    ['mode','La collection Alberta Ferretti à Milan','Culture','La maison de couture présente une collection.'],
+    ['ailleurs','Actualité canadienne','Canada','Albert a présenté un nouveau projet.'],
+  ];
+  await db.batch(fixtures.map(([slug,title,category,summary])=>insert.bind(slug,slug,title,category,summary,now,now,now)));
+  const html=async path=>(await (await mf.dispatchFetch(publicOrigin+path)).text()).split('<script type="module"')[0];
+  const archive=await html('/?rubrique=actualites&categorie=Alberta');
+  for(const slug of ['wainwright','vaccination','ecole']) assert.ok(archive.includes('href="/article/'+slug+'"'),slug);
+  for(const slug of ['mode','ailleurs']) assert.ok(!archive.includes('href="/article/'+slug+'"'),slug);
+  const landing=await html('/');
+  assert.match(landing,/<button[^>]*>Alberta<\/button>/);
+  const reader=await html('/article/wainwright');
+  assert.match(reader,/<p class="reader-category">[\s\S]*?categorie=Alberta[^>]*>[\s\S]*?>Alberta<\/a>/);
+  const themed=await html('/article/vaccination?lang=ar');
+  const links=themed.match(/<p class="reader-category">([\s\S]*?)<\/p>/)?.[1] || '';
+  assert.ok(links.includes('الصحة') && links.includes('ألبرتا') && links.includes('categorie=Alberta'));
 });
 
 test('les moteurs trouvent les photos publiques, les traductions à jour et les dépêches récentes',async t=>{

@@ -50,7 +50,7 @@ export function categoryHref(category: string) {
   return editionHref('actualites', '', canonicalCategory(category));
 }
 export function orderedCategories(published: readonly string[]) {
-  return [...new Set([...featuredCategories, ...published.map(canonicalCategory).filter(Boolean), 'Espace'])];
+  return [...new Set([...featuredCategories, ...published.map(canonicalCategory).filter(Boolean), 'Espace', 'Alberta'])];
 }
 
 export function groupDesks(categories: readonly string[]) {
