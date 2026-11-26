@@ -1,6 +1,7 @@
 'use client';
 import {useEffect,useState} from 'react';
-export type Metric={slug:string;category:string;title:string;titles?:Record<string,string>;kind:string;week:number;month:number;year:number};
+import type { AudienceScore } from '../../lib/audience-rankings';
+export type Metric=AudienceScore & {category:string;title:string;titles?:Record<string,string>};
 let cached:Promise<Metric[]>|undefined;
 export function useAudience(){
  const [data,set]=useState<Metric[]>([]);

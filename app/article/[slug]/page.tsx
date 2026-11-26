@@ -107,7 +107,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
   };
   return <PublicEditionProvider locale={locale} adsEnabled={record.adsEnabled}>
     <a className="skip" href="#lecture">{copy.skip}</a>
-    <ArticleNavigation currentUrl={localizedHref('/article/'+encodeURIComponent(slug),locale)}><ArticleMeter slug={slug}/><Awards slug={slug} lang={locale}/>
+    <ArticleNavigation currentUrl={localizedHref('/article/'+encodeURIComponent(slug),locale)}><ArticleMeter slug={slug}/>
     <main id="lecture" tabIndex={-1}>
       <div className={isFeature ? "reader-main reader-feature" : "reader-main"}>
         <article>
@@ -125,6 +125,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
               {published && <span>{copy.published} <time dateTime={published}>{dateFormat.format(Date.parse(published))}</time></span>}
               {updated && published && updated > published && <span>{copy.updated} <time dateTime={updated}>{dateFormat.format(Date.parse(updated))}</time></span>}
               <span className="reader-duration"><Clock3 size={14} aria-hidden="true"/>{new Intl.NumberFormat(locale).format(minutes)} {copy.minutes}</span>
+              <Awards slug={slug} lang={locale}/>
             </div>
           </div>
           {photo && <div lang={record.photoLanguage} dir="auto"><CoverFigure photo={photo} priority /></div>}

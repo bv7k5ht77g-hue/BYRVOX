@@ -37,6 +37,7 @@ html[data-theme="dark"] .reader-category { color: #ff8d9c }
   color: var(--muted);
 }
 .reader-byline strong { color: var(--ink) }
+.reader-byline .by-awards { margin: 0; }
 .reader-duration { gap: 5px }
 /* A magazine opener for the four presentations. */
 .reader-feature {
