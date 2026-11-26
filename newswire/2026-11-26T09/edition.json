@@ -1,0 +1,1120 @@
+{
+  "hour": "2026-11-26T09",
+  "articles": [
+    {
+      "eventKey": "bangkok-depot-bangchak-explosion-evacuation",
+      "title": "À Bangkok, une explosion au dépôt pétrolier de Bangchak entraîne un appel à évacuer",
+      "category": "Monde",
+      "summary": "Les autorités ont demandé aux riverains du dépôt de Bangchak de quitter les environs après une explosion le 26 novembre.",
+      "body": "Des journalistes de l’AFP à Bangkok ont vu une boule de feu puis une colonne de fumée noire au-dessus de la capitale thaïlandaise. Selon The Nation, les services de secours ont reçu l’alerte à 14 h 51, heure locale.\n\nLe bureau du district de Bang Na a relayé l’appel à évacuer. Selon l’Associated Press, le district a aussi indiqué que l’exploitant disait avoir maîtrisé la situation. La cause de l’explosion restait à établir.",
+      "sources": [
+        {
+          "name": "The Nation (déclaration de Bangchak)",
+          "url": "https://www.nationthailand.com/news/general/40073961",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "AFP / Malay Mail",
+          "url": "https://www.malaymail.com/news/world/2026/11/26/huge-explosion-at-bangkok-oil-depot-triggers-fireball-and-evacuation-order/244891",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Associated Press / The Financial Express",
+          "url": "https://www.financialexpress.com/world-news/bangkok-oil-depot-blast-residents-evacuated-breaking-updates/4394411/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/bangkok-depot-bangchak-explosion-evacuation.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bang_Chak_Refinery%2C_Bangkok_%28I%29.jpg",
+        "credit": "Supanut Arunoprayote / Wikimedia Commons (CC BY 4.0, conversion WebP)",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "Tours et réservoirs de la raffinerie de Bangchak à Bangkok.",
+        "caption": "Tours et réservoirs de la raffinerie de Bangchak à Bangkok. Photo d’archives du 14 avril 2023."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Bangkok district urges evacuation after explosion at Bangchak oil depot",
+          "summary": "Authorities asked people living near the Bangchak depot to leave the area after an explosion on November 26.",
+          "body": "AFP reporters in Bangkok saw a fireball followed by a column of black smoke over the Thai capital. The Nation reported that emergency services received the alert at 2:51 p.m. local time.\n\nThe Bang Na district office issued the evacuation appeal. According to the Associated Press, the district also said the operator had reported the situation under control. The cause of the explosion had yet to be established.",
+          "photoAlt": "Towers and tanks at the Bangchak refinery in Bangkok.",
+          "photoCaption": "Towers and tanks at the Bangchak refinery in Bangkok. Archive photograph dated April 14, 2023."
+        },
+        "es": {
+          "title": "Piden evacuar los alrededores del depósito de Bangchak tras una explosión en Bangkok",
+          "summary": "Las autoridades pidieron a los vecinos del depósito de Bangchak que abandonaran la zona tras una explosión el 26 de noviembre.",
+          "body": "Periodistas de AFP en Bangkok vieron una bola de fuego y luego una columna de humo negro sobre la capital tailandesa. Según The Nation, los servicios de emergencia recibieron el aviso a las 14:51, hora local.\n\nLa oficina del distrito de Bang Na difundió el aviso de evacuación. Según Associated Press, el distrito también indicó que la empresa operadora decía haber controlado la situación. Aún se desconocía la causa de la explosión.",
+          "photoAlt": "Torres y depósitos de la refinería de Bangchak en Bangkok.",
+          "photoCaption": "Torres y depósitos de la refinería de Bangchak en Bangkok. Fotografía de archivo del 14 de abril de 2023."
+        },
+        "ar": {
+          "title": "دعوة إلى إخلاء محيط مستودع بانغتشاك النفطي بعد انفجار في بانكوك",
+          "summary": "طلبت السلطات من سكان محيط مستودع بانغتشاك مغادرة المنطقة عقب انفجار في 26 نوفمبر.",
+          "body": "وشاهد صحافيون من وكالة فرانس برس في بانكوك كرة نارية ثم عموداً من الدخان الأسود فوق العاصمة التايلندية. وبحسب صحيفة ذا نيشن، تلقت أجهزة الطوارئ البلاغ الساعة 2:51 بعد الظهر بالتوقيت المحلي.\n\nونشر مكتب منطقة بانغ نا دعوة الإخلاء. وبحسب أسوشيتد برس، أفاد المكتب أيضاً بأن الشركة المشغلة أعلنت أنها سيطرت على الوضع. وظل سبب الانفجار غير معلوم.",
+          "photoAlt": "أبراج وخزانات في مصفاة بانغتشاك في بانكوك.",
+          "photoCaption": "أبراج وخزانات في مصفاة بانغتشاك في بانكوك. صورة أرشيفية بتاريخ 14 أبريل 2023."
+        },
+        "zh-CN": {
+          "title": "曼谷邦乍油库爆炸，当局呼吁附近居民撤离",
+          "summary": "11月26日，邦乍油库发生爆炸，当局要求附近居民离开现场。",
+          "body": "法新社驻曼谷记者在这座泰国首都上空看到一个火球，随后升起一股黑烟。据《民族报》报道，应急部门于当地时间下午2时51分接到警报。\n\n邦纳区办事处发布了撤离呼吁。据美联社报道，区办事处还表示，运营商称局势已得到控制。爆炸原因仍待查明。",
+          "photoAlt": "曼谷邦乍炼油厂的塔楼和储油罐。",
+          "photoCaption": "曼谷邦乍炼油厂的塔楼和储油罐。 资料照片，摄于2023年4月14日。"
+        },
+        "ru": {
+          "title": "После взрыва на нефтебазе в Бангкоке власти призвали жителей к эвакуации",
+          "summary": "После взрыва на нефтебазе Бангчак 26 ноября власти попросили жителей окрестных домов покинуть район.",
+          "body": "Журналисты AFP в Бангкоке видели огненный шар, а затем столб чёрного дыма над столицей Таиланда. По данным The Nation, экстренные службы получили сигнал в 14:51 по местному времени.\n\nПризыв к эвакуации распространила администрация района Бангна. По данным Associated Press, администрация также сообщила, что, по словам оператора, ситуацию удалось взять под контроль. Причину взрыва ещё предстояло установить.",
+          "photoAlt": "Башни и резервуары нефтеперерабатывающего завода Бангчак в Бангкоке.",
+          "photoCaption": "Башни и резервуары нефтеперерабатывающего завода Бангчак в Бангкоке. Архивное фото от 14 апреля 2023 г.."
+        },
+        "ko": {
+          "title": "방콕 방짝 유류 저장시설 폭발로 인근 주민에 대피 요청",
+          "summary": "11월 26일 방짝 유류 저장시설에서 폭발이 일어나 당국이 인근 주민에게 대피를 요청했다.",
+          "body": "방콕에 있던 AFP 기자들은 태국 수도 상공으로 불덩이가 치솟고 뒤이어 검은 연기 기둥이 솟는 모습을 목격했다. 더네이션에 따르면 응급 당국은 현지 시간 오후 2시 51분에 신고를 접수했다.\n\n방나 구청이 대피 요청을 알렸다. AP통신에 따르면 구청은 운영사가 상황을 통제했다고 보고했다는 소식도 전했다. 폭발 원인은 아직 밝혀지지 않았다.",
+          "photoAlt": "방콕 방짝 정유시설의 탑과 저장 탱크.",
+          "photoCaption": "방콕 방짝 정유시설의 탑과 저장 탱크. 자료 사진 촬영일 2023년 4월 14일."
+        }
+      }
+    },
+    {
+      "eventKey": "myanmar-reaction-president-arret-cij-rohingyas",
+      "title": "Rohingyas : le président du Myanmar annonce qu’il n’appliquera pas toutes les mesures de la Cour",
+      "category": "Justice internationale",
+      "summary": "Min Aung Hlaing entend écarter certaines des mesures ordonnées par la Cour internationale de Justice après son jugement sur le génocide des Rohingyas.",
+      "body": "Lors d’une réunion du gouvernement le 25 novembre, le président du Myanmar a contesté l’arrêt sans désigner les mesures qu’il refuserait, rapporte Reuters.\n\nDans son arrêt du 19 novembre, la Cour demande notamment au Myanmar de faciliter le retour des Rohingyas déplacés et de réparer les préjudices. L’État doit rendre compte dans les deux ans des mesures prises.",
+      "sources": [
+        {
+          "name": "The Global New Light of Myanmar (compte rendu officiel)",
+          "url": "https://www.moi.gov.mm/nlm/file-download/download/public/5644",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/myanmar-says-it-will-not-fully-comply-with-icj-genocide-orders-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Cour internationale de Justice (via Refworld)",
+          "url": "https://www.refworld.org/sites/default/files/2026-11/178-20261119-pre-01-00-en.pdf",
+          "publishedAt": "2026-11-19"
+        }
+      ],
+      "photo": {
+        "download": "media/myanmar-reaction-president-arret-cij-rohingyas.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peace_Palace_in_The_Hague_%2819-07-2025%29.jpg",
+        "credit": "Stck w / Wikimedia Commons (CC BY-SA 4.0, conversion WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Le Palais de la Paix, siège de la Cour internationale de Justice à La Haye.",
+        "caption": "Le Palais de la Paix, siège de la Cour internationale de Justice à La Haye. Photo d’archives du 19 juillet 2025."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Myanmar president says he will reject some measures ordered in Rohingya genocide ruling",
+          "summary": "Min Aung Hlaing intends to set aside some measures ordered by the International Court of Justice following its judgment on the Rohingya genocide.",
+          "body": "At a government meeting on November 25, Myanmar’s president challenged the ruling without identifying which measures he would reject, Reuters reported.\n\nIn its November 19 judgment, the court ordered Myanmar, among other things, to facilitate the return of displaced Rohingya and provide reparations. The state must report within two years on the steps it has taken.",
+          "photoAlt": "The Peace Palace, seat of the International Court of Justice in The Hague.",
+          "photoCaption": "The Peace Palace, seat of the International Court of Justice in The Hague. Archive photograph dated July 19, 2025."
+        },
+        "es": {
+          "title": "El presidente de Myanmar anuncia que rechazará parte de las medidas ordenadas por el genocidio rohinyá",
+          "summary": "Min Aung Hlaing pretende descartar algunas medidas ordenadas por la Corte Internacional de Justicia tras su fallo sobre el genocidio rohinyá.",
+          "body": "En una reunión de gobierno el 25 de noviembre, el presidente de Myanmar cuestionó el fallo sin precisar qué medidas rechazaría, según Reuters.\n\nEn su sentencia del 19 de noviembre, la Corte ordenó a Myanmar, entre otras cosas, facilitar el retorno de los rohinyás desplazados y reparar los daños. El Estado debe informar en un plazo de dos años sobre las medidas adoptadas.",
+          "photoAlt": "Palacio de la Paz, sede de la Corte Internacional de Justicia en La Haya.",
+          "photoCaption": "Palacio de la Paz, sede de la Corte Internacional de Justicia en La Haya. Fotografía de archivo del 19 de julio de 2025."
+        },
+        "ar": {
+          "title": "رئيس ميانمار يعلن أنه سيرفض بعض تدابير الحكم بشأن إبادة الروهينغا",
+          "summary": "يعتزم مين أونغ هلاينغ استبعاد بعض التدابير التي أمرت بها محكمة العدل الدولية في حكمها بشأن إبادة الروهينغا.",
+          "body": "وبحسب رويترز، اعترض رئيس ميانمار على الحكم خلال اجتماع للحكومة في 25 نوفمبر من دون تحديد التدابير التي سيرفضها.\n\nوأمرت المحكمة في حكمها الصادر في 19 نوفمبر ميانمار، ضمن أمور أخرى، بتيسير عودة النازحين الروهينغا وجبر الأضرار. وعلى الدولة تقديم تقرير في غضون عامين عما اتخذته من إجراءات.",
+          "photoAlt": "قصر السلام مقر محكمة العدل الدولية في لاهاي.",
+          "photoCaption": "قصر السلام مقر محكمة العدل الدولية في لاهاي. صورة أرشيفية بتاريخ 19 يوليو 2025."
+        },
+        "zh-CN": {
+          "title": "缅甸总统称将拒绝执行罗兴亚人种族灭绝案判决的部分措施",
+          "summary": "敏昂莱表示，他打算拒绝执行国际法院就罗兴亚人遭受种族灭绝一案下令采取的部分措施。",
+          "body": "据路透社报道，缅甸总统在11月25日的政府会议上对判决提出异议，但未说明将拒绝哪些措施。\n\n国际法院在11月19日的判决中要求缅甸协助流离失所的罗兴亚人返回家园，并对损害作出赔偿。缅甸须在两年内报告已采取的措施。",
+          "photoAlt": "位于海牙的和平宫是国际法院所在地。",
+          "photoCaption": "位于海牙的和平宫是国际法院所在地。 资料照片，摄于2025年7月19日。"
+        },
+        "ru": {
+          "title": "Президент Мьянмы объявил об отказе выполнить часть мер по делу о геноциде рохинджа",
+          "summary": "Мин Аун Хлайн намерен отказаться от части мер, предписанных Международным судом ООН по итогам разбирательства о геноциде рохинджа.",
+          "body": "На заседании правительства 25 ноября президент Мьянмы оспорил решение, не уточнив, какие именно меры он отвергает, сообщает Reuters.\n\nВ решении от 19 ноября суд, в частности, обязал Мьянму содействовать возвращению перемещённых рохинджа и возместить причинённый ущерб. Государство должно в течение двух лет отчитаться о принятых мерах.",
+          "photoAlt": "Дворец мира в Гааге, где заседает Международный суд ООН.",
+          "photoCaption": "Дворец мира в Гааге, где заседает Международный суд ООН. Архивное фото от 19 июля 2025 г.."
+        },
+        "ko": {
+          "title": "미얀마 대통령, 로힝야족 집단학살 판결에 따른 일부 조치 거부 방침",
+          "summary": "민 아웅 흘라잉은 국제사법재판소가 로힝야족 집단학살 사건을 판결하며 명령한 조치 가운데 일부를 이행하지 않을 방침이다.",
+          "body": "로이터에 따르면 미얀마 대통령은 11월 25일 정부 회의에서 판결에 이의를 제기했지만 어떤 조치를 거부할지는 밝히지 않았다.\n\n재판소는 11월 19일 판결에서 미얀마에 피란한 로힝야족의 귀환을 돕고 피해를 배상할 것 등을 명령했다. 미얀마는 2년 안에 이행 조치를 보고해야 한다.",
+          "photoAlt": "헤이그에 있는 국제사법재판소 청사인 평화궁.",
+          "photoCaption": "헤이그에 있는 국제사법재판소 청사인 평화궁. 자료 사진 촬영일 2025년 7월 19일."
+        }
+      }
+    },
+    {
+      "eventKey": "egypte-incendie-warraq-dix-neuf-hospitalisations",
+      "title": "Égypte : 19 blessés toujours hospitalisés après l’incendie meurtrier du périphérique",
+      "category": "Monde",
+      "summary": "Dix-neuf personnes restaient hospitalisées le 26 novembre après l’incendie qui a fait 31 morts sur le périphérique du Caire, à Gizeh.",
+      "body": "Le porte-parole du ministère égyptien de la Santé a indiqué à la télévision que deux des 21 blessés avaient pu quitter l’hôpital, rapporte le quotidien Al-Watan.\n\nLe feu s’était déclaré la veille dans le quartier d’Al-Warraq après le renversement d’un véhicule transportant des produits pétroliers. Selon Reuters, le ministère a mobilisé 39 ambulances pour les secours.",
+      "sources": [
+        {
+          "name": "Al-Watan (entretien du porte-parole de la Santé)",
+          "url": "https://www.elwatannews.com/news/details/8404301",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/africa/least-21-killed-blaze-after-vehicle-overturns-egypt-health-ministry-says-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Al-Ahram",
+          "url": "https://gate.ahram.org.eg/News/5991836.aspx",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/egypte-incendie-warraq-dix-neuf-hospitalisations.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cairo_Ring_Road_in_Giza%2C_Egypt.jpg",
+        "credit": "Quintin Soloviev / Wikimedia Commons (CC BY 4.0, conversion WebP)",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "Circulation sur le périphérique du Caire dans le gouvernorat de Gizeh.",
+        "caption": "Circulation sur le périphérique du Caire dans le gouvernorat de Gizeh. Photo d’archives du 1er mai 2026."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Egypt says 19 remain in hospital after deadly Cairo ring road fire",
+          "summary": "Nineteen people remained in hospital on November 26 after a fire killed 31 on the Cairo ring road in Giza.",
+          "body": "Egypt’s Health Ministry spokesman told television viewers that two of the 21 people injured had been discharged, the newspaper Al-Watan reported.\n\nThe fire broke out the previous day in the Al-Warraq district after a vehicle carrying petroleum products overturned. According to Reuters, the ministry deployed 39 ambulances for the rescue operation.",
+          "photoAlt": "Traffic on the Cairo ring road in Giza governorate.",
+          "photoCaption": "Traffic on the Cairo ring road in Giza governorate. Archive photograph dated May 1, 2026."
+        },
+        "es": {
+          "title": "Egipto informa de que 19 heridos siguen hospitalizados tras el incendio de la circunvalación de El Cairo",
+          "summary": "Diecinueve personas seguían hospitalizadas el 26 de noviembre tras el incendio que dejó 31 muertos en la circunvalación de El Cairo, en Guiza.",
+          "body": "El portavoz del Ministerio de Salud egipcio dijo en televisión que dos de los 21 heridos habían recibido el alta, según el diario Al-Watan.\n\nEl fuego se declaró la víspera en el distrito de Al-Warraq al volcar un vehículo que transportaba productos petrolíferos. Según Reuters, el ministerio movilizó 39 ambulancias para el rescate.",
+          "photoAlt": "Tráfico en la circunvalación de El Cairo, en la gobernación de Guiza.",
+          "photoCaption": "Tráfico en la circunvalación de El Cairo, en la gobernación de Guiza. Fotografía de archivo del 1 de mayo de 2026."
+        },
+        "ar": {
+          "title": "مصر: استمرار علاج 19 مصاباً بعد الحريق الدامي على الطريق الدائري",
+          "summary": "بقي 19 شخصاً في المستشفيات في 26 نوفمبر بعد الحريق الذي أودى بحياة 31 شخصاً على الطريق الدائري للقاهرة في الجيزة.",
+          "body": "ونقلت صحيفة الوطن عن المتحدث باسم وزارة الصحة المصرية قوله في مداخلة تلفزيونية إن اثنين من أصل 21 مصاباً غادرا المستشفى.\n\nواندلع الحريق في اليوم السابق بمنطقة الوراق بعد انقلاب مركبة تحمل مواد بترولية. وبحسب رويترز، دفعت الوزارة بتسع وثلاثين سيارة إسعاف للمشاركة في الإنقاذ.",
+          "photoAlt": "حركة المرور على الطريق الدائري للقاهرة في محافظة الجيزة.",
+          "photoCaption": "حركة المرور على الطريق الدائري للقاهرة في محافظة الجيزة. صورة أرشيفية بتاريخ 1 مايو 2026."
+        },
+        "zh-CN": {
+          "title": "开罗环城公路大火造成31人死亡，埃及称仍有19人住院",
+          "summary": "截至11月26日，开罗环城公路吉萨段火灾仍有19人住院，此次火灾造成31人死亡。",
+          "body": "据埃及《祖国报》报道，卫生部发言人在电视上表示，21名伤者中已有两人出院。\n\n前一天，一辆运送石油产品的车辆在瓦拉克区侧翻后起火。据路透社报道，卫生部出动了39辆救护车参与救援。",
+          "photoAlt": "埃及吉萨省境内开罗环城公路上的车流。",
+          "photoCaption": "埃及吉萨省境内开罗环城公路上的车流。 资料照片，摄于2026年5月1日。"
+        },
+        "ru": {
+          "title": "После пожара на кольцевой дороге Каира в больницах остаются 19 человек",
+          "summary": "На 26 ноября в больницах оставались 19 человек после пожара на кольцевой дороге Каира в Гизе, унёсшего 31 жизнь.",
+          "body": "Представитель Минздрава Египта сообщил в телеэфире, что двоих из 21 пострадавшего выписали, пишет газета «Аль-Ватан».\n\nПожар произошёл накануне в районе Аль-Варрак после того, как перевернулся автомобиль с нефтепродуктами. Как сообщает Reuters, министерство направило на помощь 39 машин скорой помощи.",
+          "photoAlt": "Движение на кольцевой дороге Каира в провинции Гиза.",
+          "photoCaption": "Движение на кольцевой дороге Каира в провинции Гиза. Архивное фото от 1 мая 2026 г.."
+        },
+        "ko": {
+          "title": "이집트 카이로 순환도로 화재로 31명 사망, 부상자 19명 입원 중",
+          "summary": "기자 지역 카이로 순환도로에서 31명의 목숨을 앗아간 화재로 11월 26일 현재 19명이 입원 치료를 받고 있다.",
+          "body": "이집트 보건부 대변인은 TV 방송에서 부상자 21명 가운데 2명이 퇴원했다고 밝혔다고 일간지 알와탄이 보도했다.\n\n화재는 전날 석유제품을 싣고 가던 차량이 알와라크 구역에서 전복되면서 발생했다. 로이터에 따르면 보건부는 구조를 위해 구급차 39대를 투입했다.",
+          "photoAlt": "기자주를 지나는 카이로 순환도로의 차량들.",
+          "photoCaption": "기자주를 지나는 카이로 순환도로의 차량들. 자료 사진 촬영일 2026년 5월 1일."
+        }
+      }
+    },
+    {
+      "eventKey": "port-hardy-deces-urgences-rurales-doerkson",
+      "title": "Après un décès à Port Hardy, le premier ministre s’engage sur les urgences rurales",
+      "category": "Santé",
+      "summary": "Le premier ministre de la Colombie-Britannique, Lorne Doerkson, promet de renforcer les équipes de première ligne après le décès d’une femme à Port Hardy.",
+      "body": "Courtney McCowan, 48 ans, est arrivée devant l’urgence de l’hôpital le 19 novembre, peu après sa fermeture quotidienne de 17 h, selon sa fille, interrogée par Global News.\n\nLe Times Colonist rapporte que des ambulanciers l’ont soignée à l’extérieur avant son transfert à l’intérieur. Pour maintenir les services ruraux ouverts, le premier ministre évoque des horaires plus souples et un fonds de 50 millions de dollars.",
+      "sources": [
+        {
+          "name": "Global News (reportage et déclarations du premier ministre)",
+          "url": "https://globalnews.ca/news/12166390/bc-health-care-staffing-woman-death-closed-er/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Times Colonist / Castanet",
+          "url": "https://www.castanetkamloops.net/edition/news-story-638971-3-.htm",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/port-hardy-deces-urgences-rurales-doerkson.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Port_Hardy.jpg",
+        "credit": "Dan Huntington / Wikimedia Commons (CC BY-SA 2.0, conversion WebP)",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "Bateaux amarrés dans le port de Port Hardy, sur l’île de Vancouver.",
+        "caption": "Bateaux amarrés dans le port de Port Hardy, sur l’île de Vancouver. Photo d’archives du 27 mai 2001."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "B.C. premier pledges to bolster rural emergency staffing after Port Hardy death",
+          "summary": "British Columbia Premier Lorne Doerkson has pledged to strengthen front-line staffing after a woman died in Port Hardy.",
+          "body": "Courtney McCowan, 48, arrived at the hospital emergency department on November 19 shortly after its daily 5 p.m. closure, her daughter told Global News.\n\nThe Times Colonist reported that paramedics treated her outside before she was taken inside. The premier cited more flexible staffing and a $50 million fund to keep rural services open.",
+          "photoAlt": "Boats moored in the harbour at Port Hardy on Vancouver Island.",
+          "photoCaption": "Boats moored in the harbour at Port Hardy on Vancouver Island. Archive photograph dated May 27, 2001."
+        },
+        "es": {
+          "title": "El primer ministro de Columbia Británica promete reforzar las urgencias rurales tras una muerte en Port Hardy",
+          "summary": "El primer ministro de Columbia Británica, Lorne Doerkson, prometió reforzar el personal de primera línea tras la muerte de una mujer en Port Hardy.",
+          "body": "Courtney McCowan, de 48 años, llegó a urgencias del hospital el 19 de noviembre poco después de su cierre diario a las cinco de la tarde, según contó su hija a Global News.\n\nEl Times Colonist informó de que los paramédicos la atendieron en el exterior antes de que fuera trasladada adentro. Para mantener abiertos los servicios rurales, Doerkson planteó turnos más flexibles y un fondo de 50 millones de dólares canadienses.",
+          "photoAlt": "Embarcaciones amarradas en el puerto de Port Hardy, en la isla de Vancouver.",
+          "photoCaption": "Embarcaciones amarradas en el puerto de Port Hardy, en la isla de Vancouver. Fotografía de archivo del 27 de mayo de 2001."
+        },
+        "ar": {
+          "title": "رئيس حكومة كولومبيا البريطانية يتعهد بتعزيز طواقم الطوارئ الريفية بعد وفاة امرأة في بورت هاردي",
+          "summary": "تعهد رئيس حكومة كولومبيا البريطانية لورن دوركسن بتعزيز الطواقم الطبية في الخطوط الأمامية بعد وفاة امرأة في بورت هاردي.",
+          "body": "وقالت ابنة كورتني ماكوان، البالغة من العمر 48 عاماً، لشبكة غلوبال نيوز إن والدتها وصلت إلى قسم طوارئ المستشفى في 19 نوفمبر بعد وقت قصير من إغلاقه اليومي عند الخامسة مساءً.\n\nوأفادت صحيفة تايمز كولونيست بأن المسعفين عالجوها خارج القسم قبل نقلها إلى الداخل. وطرح رئيس الحكومة مرونة أكبر في تنظيم المناوبات وصندوقاً بقيمة 50 مليون دولار كندي لإبقاء الخدمات الريفية مفتوحة.",
+          "photoAlt": "قوارب راسية في ميناء بورت هاردي بجزيرة فانكوفر.",
+          "photoCaption": "قوارب راسية في ميناء بورت هاردي بجزيرة فانكوفر. صورة أرشيفية بتاريخ 27 مايو 2001."
+        },
+        "zh-CN": {
+          "title": "哈迪港一名女子去世后，不列颠哥伦比亚省长承诺加强乡村急诊人手",
+          "summary": "哈迪港一名女子去世后，不列颠哥伦比亚省省长洛恩·德尔克森承诺加强一线医疗人员配置。",
+          "body": "48岁的考特妮·麦科万的女儿告诉环球新闻，母亲于11月19日抵达医院急诊科时，刚过每天下午5时的关门时间。\n\n据《殖民者时报》报道，急救人员先在门外为她施救，随后她被转入室内。省长表示，将通过更灵活的排班和一项5000万加元基金，维持乡村医疗服务开放。",
+          "photoAlt": "停泊在温哥华岛哈迪港的船只。",
+          "photoCaption": "停泊在温哥华岛哈迪港的船只。 资料照片，摄于2001年5月27日。"
+        },
+        "ru": {
+          "title": "После смерти женщины в Порт-Харди премьер Британской Колумбии обещает усилить сельские службы неотложной помощи",
+          "summary": "Премьер Британской Колумбии Лорн Дёрксон пообещал укрепить кадры первичной помощи после смерти женщины в Порт-Харди.",
+          "body": "По словам дочери 48-летней Кортни Маккован, рассказавшей об этом Global News, 19 ноября мать прибыла в отделение неотложной помощи вскоре после его ежедневного закрытия в 17 часов.\n\nКак пишет Times Colonist, парамедики оказывали помощь снаружи, прежде чем женщину перенесли внутрь. Для поддержания работы сельских служб премьер предложил гибкий график и фонд объёмом 50 млн канадских долларов.",
+          "photoAlt": "Лодки у причала в Порт-Харди на острове Ванкувер.",
+          "photoCaption": "Лодки у причала в Порт-Харди на острове Ванкувер. Архивное фото от 27 мая 2001 г.."
+        },
+        "ko": {
+          "title": "포트하디 사망 사건에 브리티시컬럼비아 주총리, 농촌 응급실 인력 확충 약속",
+          "summary": "론 더크슨 브리티시컬럼비아 주총리가 포트하디에서 한 여성이 숨진 뒤 일선 의료 인력을 확충하겠다고 밝혔다.",
+          "body": "48세 코트니 매코완의 딸은 글로벌뉴스에 어머니가 11월 19일 병원 응급실에 도착했을 때는 매일 오후 5시인 운영 종료 시각을 조금 넘겼다고 말했다.\n\n타임스콜로니스트에 따르면 구급대원들은 매코완이 안으로 옮겨지기 전 밖에서 응급 처치를 했다. 주총리는 농촌 의료 서비스를 계속 운영하기 위해 유연한 근무 편성과 5천만 캐나다달러 규모의 기금을 제시했다.",
+          "photoAlt": "밴쿠버섬 포트하디 항구에 정박한 배들.",
+          "photoCaption": "밴쿠버섬 포트하디 항구에 정박한 배들. 자료 사진 촬영일 2001년 5월 27일."
+        }
+      }
+    },
+    {
+      "eventKey": "montreal-nord-troisieme-arrestation-poste-39",
+      "title": "Montréal-Nord : un troisième ex-policier du poste de quartier 39 arrêté",
+      "category": "Justice",
+      "summary": "Le Service de police de la Ville de Montréal a confirmé le 25 novembre l’arrestation d’un troisième ex-policier dans le dossier du poste de quartier 39.",
+      "body": "Récemment congédié, l’homme a été libéré sous promesse de comparaître. Il fait face à une accusation de voies de fait simples qui, selon le Journal de Montréal, concerne un événement d’août 2024.\n\nLe service de police indique que la décision de la poursuite fait suite à un rapport d’enquête remis en septembre. Sa division des normes professionnelles poursuit l’examen de dossiers connexes sous surveillance indépendante.",
+      "sources": [
+        {
+          "name": "Service de police de la Ville de Montréal",
+          "url": "https://spvm.qc.ca/fr/Communiques/Details/16270",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Le Journal de Montréal",
+          "url": "https://www.journaldemontreal.com/2026/11/25/un-troisieme-policier-du-spvm-arrete",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/montreal-nord-troisieme-arrestation-poste-39.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quartier_general_du_Service_de_police_de_la_Ville_de_Montreal.jpg",
+        "credit": "Jeangagnon / Wikimedia Commons (CC BY-SA 3.0, conversion WebP)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Entrée du quartier général du Service de police de la Ville de Montréal.",
+        "caption": "Entrée du quartier général du Service de police de la Ville de Montréal. Photo d’archives du 7 septembre 2012."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Third former officer arrested in Montreal North police station investigation",
+          "summary": "Montreal police confirmed on November 25 that a third former officer had been arrested in the investigation involving neighbourhood station 39.",
+          "body": "The recently dismissed officer was released on a promise to appear. He faces a charge of simple assault that the Journal de Montréal says relates to an incident in August 2024.\n\nPolice said prosecutors acted after receiving an investigation report in September. The force’s professional standards division continues to examine related cases under independent oversight.",
+          "photoAlt": "Entrance to Montreal police headquarters.",
+          "photoCaption": "Entrance to Montreal police headquarters. Archive photograph dated September 7, 2012."
+        },
+        "es": {
+          "title": "Arrestan a un tercer expolicía en la investigación de la comisaría 39 de Montreal Norte",
+          "summary": "La policía de Montreal confirmó el 25 de noviembre la detención de un tercer exagente en la investigación sobre la comisaría de barrio 39.",
+          "body": "El agente, despedido recientemente, quedó en libertad con la obligación de comparecer. Afronta un cargo de agresión simple que, según el Journal de Montréal, corresponde a un incidente de agosto de 2024.\n\nLa policía precisó que la fiscalía actuó tras recibir un informe de investigación en septiembre. Su división de normas profesionales sigue examinando casos relacionados bajo supervisión independiente.",
+          "photoAlt": "Entrada de la jefatura de policía de Montreal.",
+          "photoCaption": "Entrada de la jefatura de policía de Montreal. Fotografía de archivo del 7 de septiembre de 2012."
+        },
+        "ar": {
+          "title": "توقيف شرطي سابق ثالث في قضية مركز الشرطة 39 في مونتريال الشمالية",
+          "summary": "أكدت شرطة مونتريال في 25 نوفمبر توقيف شرطي سابق ثالث في التحقيق المتعلق بمركز شرطة الحي رقم 39.",
+          "body": "وأُطلق سراح الشرطي المفصول حديثاً بتعهد بالمثول أمام المحكمة. ويواجه تهمة اعتداء بسيط تتعلق، بحسب جورنال دو مونتريال، بحادثة وقعت في أغسطس 2024.\n\nوقالت الشرطة إن قرار النيابة جاء بعد تسلم تقرير التحقيق في سبتمبر. ويواصل قسم المعايير المهنية لديها فحص ملفات ذات صلة تحت إشراف مستقل.",
+          "photoAlt": "مدخل المقر الرئيسي لشرطة مونتريال.",
+          "photoCaption": "مدخل المقر الرئيسي لشرطة مونتريال. صورة أرشيفية بتاريخ 7 سبتمبر 2012."
+        },
+        "zh-CN": {
+          "title": "蒙特利尔北区第39警署调查中第三名前警员被捕",
+          "summary": "蒙特利尔警方11月25日证实，在涉及第39社区警署的调查中，第三名前警员被捕。",
+          "body": "这名近期被解雇的警员在承诺出庭后获释。他面临一项普通袭击指控，据《蒙特利尔日报》报道，指控涉及2024年8月的一起事件。\n\n警方表示，检方是在9月收到调查报告后作出决定的。警方职业标准部门仍在独立监督下调查相关案件。",
+          "photoAlt": "蒙特利尔市警察总部的入口。",
+          "photoCaption": "蒙特利尔市警察总部的入口。 资料照片，摄于2012年9月7日。"
+        },
+        "ru": {
+          "title": "В Монреаль-Нор арестован третий бывший сотрудник участка № 39",
+          "summary": "Полиция Монреаля подтвердила 25 ноября арест третьего бывшего сотрудника в рамках расследования по делу районного участка № 39.",
+          "body": "Недавно уволенного полицейского отпустили под обязательство явиться в суд. Его обвиняют в нападении, которое, по данным Journal de Montréal, относится к событиям августа 2024 года.\n\nПолиция сообщила, что прокуроры приняли решение после получения в сентябре отчёта о расследовании. Отдел профессиональных стандартов продолжает изучать связанные дела под независимым надзором.",
+          "photoAlt": "Вход в штаб-квартиру полиции Монреаля.",
+          "photoCaption": "Вход в штаб-квартиру полиции Монреаля. Архивное фото от 7 сентября 2012 г.."
+        },
+        "ko": {
+          "title": "몬트리올노르 39지구대 수사에서 세 번째 전직 경찰관 체포",
+          "summary": "몬트리올 경찰은 11월 25일 39지구대 관련 수사에서 세 번째 전직 경찰관을 체포했다고 확인했다.",
+          "body": "최근 해고된 이 경찰관은 법정 출석을 약속하고 풀려났다. 그는 단순 폭행 혐의를 받고 있으며, 몬트리올 저널에 따르면 이는 2024년 8월에 일어난 사건과 관련된다.\n\n경찰은 검찰이 9월 수사 보고서를 받은 뒤 결정을 내렸다고 밝혔다. 경찰 직무감찰 부서는 독립적인 감독 아래 관련 사건들을 계속 조사하고 있다.",
+          "photoAlt": "몬트리올 시경 본부의 출입구.",
+          "photoCaption": "몬트리올 시경 본부의 출입구. 자료 사진 촬영일 2012년 9월 7일."
+        }
+      }
+    },
+    {
+      "eventKey": "spacex-starmind-autorisation-satellites-calcul-orbite",
+      "title": "SpaceX obtient le feu vert américain pour un réseau de calcul pouvant atteindre un million de satellites",
+      "category": "Sciences et technologies",
+      "summary": "Le régulateur américain des télécommunications a autorisé le 25 novembre le déploiement sous conditions de Starmind, le réseau de calcul en orbite de SpaceX.",
+      "body": "La décision de la Federal Communications Commission fixe un plafond d’un million de satellites. SpaceX veut traiter en orbite des données destinées notamment aux applications d’intelligence artificielle sur Terre.\n\nLa licence impose plusieurs échéances. Selon la décision détaillée par Reuters, le déploiement doit commencer au plus tard en novembre 2033 et atteindre 100 000 satellites en novembre 2035, puis la moitié du plafond en novembre 2038.",
+      "sources": [
+        {
+          "name": "Federal Communications Commission — DA 26-1273",
+          "url": "https://eu-assets.contentstack.com/v3/assets/blt23eb5bbc4124baa6/bltf4cdf2af47159e12/6b071c5f5506bb38bca5b0ec/FCC_report_and_order_on_SpaceX_Starmind_AI_constellation_11-25-2026.pdf",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/spacex-starmind-autorisation-satellites-calcul-orbite.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:FCC_HQ.jpg",
+        "credit": "Ser Amantio di Nicolao / Wikimedia Commons (CC BY 3.0, conversion WebP)",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "alt": "Ancien siège de la Federal Communications Commission à Washington.",
+        "caption": "Ancien siège de la Federal Communications Commission à Washington. Photo d’archives du 15 février 2009."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "SpaceX wins US approval for orbital computing network of up to a million satellites",
+          "summary": "The US communications regulator conditionally approved deployment of Starmind, SpaceX’s orbital computing network, on November 25.",
+          "body": "The Federal Communications Commission set a ceiling of one million satellites. SpaceX wants to process data in orbit for uses including artificial intelligence applications on Earth.\n\nThe licence sets several deadlines. Under the decision detailed by Reuters, deployment must begin by November 2033 and reach 100,000 satellites by November 2035, then half the ceiling by November 2038.",
+          "photoAlt": "Former Federal Communications Commission headquarters in Washington.",
+          "photoCaption": "Former Federal Communications Commission headquarters in Washington. Archive photograph dated February 15, 2009."
+        },
+        "es": {
+          "title": "EE. UU. autoriza a SpaceX una red de cómputo orbital de hasta un millón de satélites",
+          "summary": "El regulador estadounidense de comunicaciones autorizó el 25 de noviembre el despliegue condicionado de Starmind, la red de cómputo orbital de SpaceX.",
+          "body": "La Comisión Federal de Comunicaciones fijó un límite de un millón de satélites. SpaceX quiere procesar datos en órbita para usos que incluyen aplicaciones de inteligencia artificial en la Tierra.\n\nLa licencia establece varios plazos. Según la decisión detallada por Reuters, el despliegue debe comenzar a más tardar en noviembre de 2033 y alcanzar los 100 000 satélites en noviembre de 2035 y la mitad del límite en noviembre de 2038.",
+          "photoAlt": "Antigua sede de la Comisión Federal de Comunicaciones en Washington.",
+          "photoCaption": "Antigua sede de la Comisión Federal de Comunicaciones en Washington. Fotografía de archivo del 15 de febrero de 2009."
+        },
+        "ar": {
+          "title": "الولايات المتحدة تجيز لسبيس إكس شبكة حوسبة مدارية تصل إلى مليون قمر صناعي",
+          "summary": "أجازت هيئة تنظيم الاتصالات الأميركية في 25 نوفمبر بشروط نشر شبكة ستارمايند للحوسبة المدارية التابعة لسبيس إكس.",
+          "body": "وحددت لجنة الاتصالات الفدرالية سقفاً يبلغ مليون قمر صناعي. وتريد سبيس إكس معالجة البيانات في المدار لاستخدامات منها تطبيقات الذكاء الاصطناعي على الأرض.\n\nوحدد الترخيص آجالاً عدة. وبموجب القرار الذي أوردت رويترز تفاصيله، يجب أن يبدأ النشر بحلول نوفمبر 2033 وأن يصل العدد إلى مئة ألف قمر بحلول نوفمبر 2035، ثم إلى نصف السقف بحلول نوفمبر 2038.",
+          "photoAlt": "المقر السابق للجنة الاتصالات الفدرالية في واشنطن.",
+          "photoCaption": "المقر السابق للجنة الاتصالات الفدرالية في واشنطن. صورة أرشيفية بتاريخ 15 فبراير 2009."
+        },
+        "zh-CN": {
+          "title": "美国批准SpaceX部署最多由100万颗卫星组成的轨道计算网络",
+          "summary": "11月25日，美国通信监管机构有条件批准SpaceX部署其轨道计算网络Starmind。",
+          "body": "美国联邦通信委员会将卫星数量上限定为100万颗。SpaceX计划在轨道上处理数据，用途包括支持地球上的人工智能应用。\n\n许可证设定了多项期限。据路透社对决定的报道，部署须在2033年11月前启动，到2035年11月达到10万颗，到2038年11月达到数量上限的一半。",
+          "photoAlt": "位于华盛顿的美国联邦通信委员会旧总部。",
+          "photoCaption": "位于华盛顿的美国联邦通信委员会旧总部。 资料照片，摄于2009年2月15日。"
+        },
+        "ru": {
+          "title": "США разрешили SpaceX развернуть орбитальную вычислительную сеть численностью до миллиона спутников",
+          "summary": "25 ноября американский регулятор связи на определённых условиях одобрил развёртывание орбитальной вычислительной сети SpaceX под названием Starmind.",
+          "body": "Федеральная комиссия по связи установила предел в один миллион спутников. SpaceX планирует обрабатывать на орбите данные, в том числе для систем искусственного интеллекта на Земле.\n\nЛицензия предусматривает несколько сроков. Согласно решению, о котором подробно сообщает Reuters, развёртывание должно начаться к ноябрю 2033 года, число спутников должно достичь 100 тысяч к ноябрю 2035 года и половины предельного количества к ноябрю 2038 года.",
+          "photoAlt": "Бывшая штаб-квартира Федеральной комиссии по связи в Вашингтоне.",
+          "photoCaption": "Бывшая штаб-квартира Федеральной комиссии по связи в Вашингтоне. Архивное фото от 15 февраля 2009 г.."
+        },
+        "ko": {
+          "title": "미국, 스페이스X에 위성 최대 100만 기 규모의 궤도 연산망 허가",
+          "summary": "미국 통신 규제 당국은 11월 25일 스페이스X의 궤도 연산망 스타마인드 배치를 조건부로 승인했다.",
+          "body": "연방통신위원회는 위성 수의 상한을 100만 기로 정했다. 스페이스X는 지상의 인공지능 응용 분야 등에 쓰일 데이터를 궤도에서 처리하려 한다.\n\n면허에는 단계별 기한이 있다. 로이터가 보도한 결정에 따르면 2033년 11월까지 배치를 시작해 2035년 11월까지 10만 기, 2038년 11월까지 상한의 절반에 도달해야 한다.",
+          "photoAlt": "워싱턴에 있는 미국 연방통신위원회 옛 본부.",
+          "photoCaption": "워싱턴에 있는 미국 연방통신위원회 옛 본부. 자료 사진 촬영일 2009년 2월 15일."
+        }
+      }
+    },
+    {
+      "eventKey": "el-hierro-arrivees-record-rencontre-commission",
+      "title": "Canaries : plus de 2 100 arrivées en une journée, le président régional sollicite Bruxelles",
+      "category": "Monde",
+      "summary": "Le président des Canaries, Fernando Clavijo, a demandé une rencontre urgente à la présidente de la Commission européenne après une journée record d’arrivées par mer.",
+      "body": "Selon les données des secours rapportées le 25 novembre par Reuters, plus de 2 100 personnes ont atteint l’archipel espagnol en 24 heures. La plupart sont arrivées à El Hierro.\n\nAu port de La Restinga, l’agence EFE a recoupé les chiffres des secours maritimes et des équipes d’urgence. Parmi les passagers se trouvaient une mère qui avait accouché en mer et son bébé. Un homme est arrivé sans vie.",
+      "sources": [
+        {
+          "name": "Gouvernement des Canaries",
+          "url": "https://www3.gobiernodecanarias.org/noticias/clavijo-solicita-una-reunion-urgente-con-ursula-von-der-leyen-ante-una-crisis-migratoria-sin-precedentes/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/migrant-arrivals-spains-canary-islands-break-single-day-record-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "EFE",
+          "url": "https://efe.com/canarias/2026-11-25/el-record-de-el-hierro-en-cifras/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/el-hierro-arrivees-record-rencontre-commission.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Restinga_Harbour-El_Hierro.jpg",
+        "credit": "Pepelopex / Wikimedia Commons (CC BY-SA 3.0, conversion WebP)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Le port de La Restinga sur l’île espagnole d’El Hierro.",
+        "caption": "Le port de La Restinga sur l’île espagnole d’El Hierro. Photo d’archives du 5 mars 2005."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Canary Islands leader seeks EU meeting after more than 2,100 arrivals in one day",
+          "summary": "Canary Islands President Fernando Clavijo requested an urgent meeting with the European Commission president after a record day of sea arrivals.",
+          "body": "Rescue service figures reported by Reuters on November 25 showed more than 2,100 people reached the Spanish archipelago in 24 hours. Most arrived on El Hierro.\n\nAt the port of La Restinga, EFE cross-checked figures from maritime rescuers and emergency teams. The passengers included a woman who had given birth at sea and her baby. One man was dead on arrival.",
+          "photoAlt": "La Restinga harbour on the Spanish island of El Hierro.",
+          "photoCaption": "La Restinga harbour on the Spanish island of El Hierro. Archive photograph dated March 5, 2005."
+        },
+        "es": {
+          "title": "Canarias pide una reunión con Bruselas tras más de 2.100 llegadas por mar en un día",
+          "summary": "El presidente de Canarias, Fernando Clavijo, solicitó una reunión urgente con la presidenta de la Comisión Europea tras una jornada récord de llegadas por mar.",
+          "body": "Según datos de los servicios de rescate recogidos por Reuters el 25 de noviembre, más de 2.100 personas llegaron al archipiélago español en 24 horas. La mayoría arribó a El Hierro.\n\nEn el puerto de La Restinga, EFE contrastó las cifras de Salvamento Marítimo y los servicios de emergencia. Entre los pasajeros estaban una madre que había dado a luz en el mar y su bebé. Un hombre llegó sin vida.",
+          "photoAlt": "Puerto de La Restinga, en la isla española de El Hierro.",
+          "photoCaption": "Puerto de La Restinga, en la isla española de El Hierro. Fotografía de archivo del 5 de marzo de 2005."
+        },
+        "ar": {
+          "title": "رئيس جزر الكناري يطلب لقاء أوروبياً بعد وصول أكثر من 2100 شخص بحراً في يوم واحد",
+          "summary": "طلب رئيس جزر الكناري فرناندو كلافيخو اجتماعاً عاجلاً مع رئيسة المفوضية الأوروبية بعد تسجيل عدد قياسي من الوافدين بحراً في يوم واحد.",
+          "body": "وبحسب أرقام أجهزة الإنقاذ التي نقلتها رويترز في 25 نوفمبر، وصل أكثر من 2100 شخص إلى الأرخبيل الإسباني خلال 24 ساعة، معظمهم إلى جزيرة إل هييرو.\n\nوفي ميناء لا ريستينغا، قارنت وكالة إفي بيانات الإنقاذ البحري وفرق الطوارئ. وكان بين الركاب أم وضعت مولودتها في البحر وطفلتها، فيما وصل رجل وقد فارق الحياة.",
+          "photoAlt": "ميناء لا ريستينغا في جزيرة إل هييرو الإسبانية.",
+          "photoCaption": "ميناء لا ريستينغا في جزيرة إل هييرو الإسبانية. صورة أرشيفية بتاريخ 5 مارس 2005."
+        },
+        "zh-CN": {
+          "title": "加那利群岛单日逾2100人乘船抵达，自治区主席要求与欧委会会面",
+          "summary": "在一天内经海路抵达的人数创纪录后，加那利群岛自治区主席费尔南多·克拉维霍要求与欧盟委员会主席紧急会面。",
+          "body": "路透社11月25日援引救援部门数据称，24小时内有逾2100人抵达这个西班牙群岛，多数抵达耶罗岛。\n\n在拉雷斯廷加港，埃菲社核对了海上救援和应急部门的数据。乘客中有一位在海上分娩的母亲和她的婴儿。一名男子抵达时已经死亡。",
+          "photoAlt": "西班牙耶罗岛上的拉雷斯廷加港。",
+          "photoCaption": "西班牙耶罗岛上的拉雷斯廷加港。 资料照片，摄于2005年3月5日。"
+        },
+        "ru": {
+          "title": "Глава Канарских островов запросил встречу с Еврокомиссией после прибытия более 2100 человек за сутки",
+          "summary": "Глава Канарских островов Фернандо Клавихо попросил о срочной встрече с председателем Еврокомиссии после рекордного числа прибытий по морю за день.",
+          "body": "По данным спасателей, которые Reuters привело 25 ноября, за 24 часа на испанский архипелаг прибыли более 2100 человек. Большинство добрались до Эль-Йерро.\n\nВ порту Ла-Рестинга агентство EFE сверило сведения морских спасателей и экстренных служб. Среди пассажиров были женщина, родившая в море, и её ребёнок. Один мужчина умер до прибытия.",
+          "photoAlt": "Порт Ла-Рестинга на испанском острове Эль-Йерро.",
+          "photoCaption": "Порт Ла-Рестинга на испанском острове Эль-Йерро. Архивное фото от 5 марта 2005 г.."
+        },
+        "ko": {
+          "title": "카나리아제도 하루 2,100명 넘게 도착하자 자치정부 수반, EU에 긴급 회동 요청",
+          "summary": "페르난도 클라비호 카나리아제도 자치정부 수반은 해상 입도 인원이 하루 최고치를 기록한 뒤 유럽연합 집행위원장에게 긴급 회동을 요청했다.",
+          "body": "로이터가 11월 25일 보도한 구조 당국 자료에 따르면 24시간 동안 2,100명 넘는 사람이 스페인령 카나리아제도에 도착했다. 대부분은 엘이에로섬에 내렸다.\n\nEFE통신은 라레스팅가 항구에서 해상 구조대와 응급 서비스의 집계를 대조했다. 승선자 중에는 항해 중 아이를 낳은 어머니와 신생아가 있었다. 남성 한 명은 도착 당시 숨진 상태였다.",
+          "photoAlt": "스페인 엘이에로섬의 라레스팅가 항구.",
+          "photoCaption": "스페인 엘이에로섬의 라레스팅가 항구. 자료 사진 촬영일 2005년 3월 5일."
+        }
+      }
+    },
+    {
+      "eventKey": "montreal-mairesse-kraft-dinner-declaration-budget",
+      "title": "Budget de Montréal : la mairesse revient sur sa comparaison avec le Kraft Dinner",
+      "category": "Politique municipale",
+      "summary": "Soraya Martinez Ferrada a reconnu le 25 novembre avoir mal choisi ses mots en comparant les restrictions budgétaires de Montréal au choix d’un repas moins cher.",
+      "body": "La mairesse avait évoqué le Kraft Dinner et le filet mignon dans une entrevue avec Quatre95. Sa comparaison a suscité des critiques dans le débat sur la hausse des taxes résidentielles, rapportent Global News et CityNews.\n\nDans une vidéo sur Instagram, elle a donné un autre exemple des arbitrages municipaux. Si elle devait choisir entre créer des parcs et réparer les nids-de-poule, a-t-elle expliqué, elle privilégierait les réparations.",
+      "sources": [
+        {
+          "name": "Global News (reportage et déclaration de la mairesse)",
+          "url": "https://globalnews.ca/news/12166634/montreal-mayor-apologizes-kraft-dinner-tax-hike-backlash/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "CityNews / La Presse Canadienne",
+          "url": "https://montreal.citynews.ca/2026/11/25/montreal-mayor-kraft-dinner-budget/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/montreal-mairesse-kraft-dinner-declaration-budget.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montreal_City_Hall_-_Montreal%2C_Canada_-_DSC07004.jpg",
+        "credit": "Daderot / Wikimedia Commons (CC0 1.0, conversion WebP)",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "alt": "Façade de l’hôtel de ville de Montréal.",
+        "caption": "Façade de l’hôtel de ville de Montréal. Photo d’archives du 25 septembre 2016."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Montreal mayor walks back Kraft Dinner comparison in budget debate",
+          "summary": "Soraya Martinez Ferrada acknowledged on November 25 that she had chosen her words poorly in comparing Montreal’s budget constraints to choosing a cheaper meal.",
+          "body": "The mayor had mentioned Kraft Dinner and filet mignon in an interview with Quatre95. The comparison drew criticism amid debate over the residential tax increase, Global News and CityNews reported.\n\nIn an Instagram video, she offered another example of municipal spending choices. If she had to choose between creating parks and fixing potholes, she said, she would give priority to repairs.",
+          "photoAlt": "Facade of Montreal City Hall.",
+          "photoCaption": "Facade of Montreal City Hall. Archive photograph dated September 25, 2016."
+        },
+        "es": {
+          "title": "La alcaldesa de Montreal rectifica su comparación con el Kraft Dinner en el debate presupuestario",
+          "summary": "Soraya Martinez Ferrada reconoció el 25 de noviembre que se expresó mal al comparar las restricciones presupuestarias de Montreal con la elección de una comida más barata.",
+          "body": "La alcaldesa había mencionado los macarrones Kraft Dinner y el filet mignon en una entrevista con Quatre95. La comparación suscitó críticas en pleno debate sobre el alza de los impuestos residenciales, según Global News y CityNews.\n\nEn un video en Instagram, dio otro ejemplo de las decisiones municipales de gasto. Si tuviera que elegir entre crear parques y reparar baches, explicó, daría prioridad a las reparaciones.",
+          "photoAlt": "Fachada del ayuntamiento de Montreal.",
+          "photoCaption": "Fachada del ayuntamiento de Montreal. Fotografía de archivo del 25 de septiembre de 2016."
+        },
+        "ar": {
+          "title": "رئيسة بلدية مونتريال تراجع تشبيهها خيارات الميزانية بوجبة «كرافت دينر»",
+          "summary": "أقرت سورايا مارتينيز فيرادا في 25 نوفمبر بأنها لم توفق في التعبير عندما شبهت قيود ميزانية مونتريال باختيار وجبة أرخص.",
+          "body": "وكانت رئيسة البلدية قد ذكرت معكرونة «كرافت دينر» وشريحة اللحم الفاخرة في مقابلة مع منصة Quatre95. وأثار التشبيه انتقادات وسط الجدل حول زيادة الضرائب السكنية، وفق غلوبال نيوز وسيتي نيوز.\n\nوفي مقطع على إنستغرام قدمت مثالاً آخر للخيارات الإنفاقية للبلدية. وقالت إنها إذا اضطرت للاختيار بين إنشاء الحدائق وإصلاح حفر الطرق فستعطي الأولوية للإصلاحات.",
+          "photoAlt": "واجهة مبنى بلدية مونتريال.",
+          "photoCaption": "واجهة مبنى بلدية مونتريال. صورة أرشيفية بتاريخ 25 سبتمبر 2016."
+        },
+        "zh-CN": {
+          "title": "蒙特利尔市长回应以卡夫通心粉比喻预算取舍引发的争议",
+          "summary": "索拉娅·马丁内斯·费拉达11月25日承认，把蒙特利尔的预算限制比作选择更便宜的饭菜，措辞欠妥。",
+          "body": "市长曾在接受Quatre95采访时提到卡夫通心粉和菲力牛排。环球新闻和CityNews报道，在住宅税上调引发辩论之际，这一比喻招致批评。\n\n她在Instagram视频中另举了一个市政开支的例子。她说，如果要在新建公园和填补路面坑洞之间选择，她会优先修路。",
+          "photoAlt": "蒙特利尔市政厅的正面外观。",
+          "photoCaption": "蒙特利尔市政厅的正面外观。 资料照片，摄于2016年9月25日。"
+        },
+        "ru": {
+          "title": "Мэр Монреаля пересмотрела сравнение бюджетного выбора с дешёвыми макаронами",
+          "summary": "25 ноября Сорая Мартинес Феррада признала, что неудачно выразилась, сравнив бюджетные ограничения Монреаля с выбором более дешёвого блюда.",
+          "body": "В интервью Quatre95 мэр упомянула макароны Kraft Dinner и филе-миньон. Как сообщают Global News и CityNews, сравнение вызвало критику на фоне споров о повышении налогов на жильё.\n\nВ видео в Instagram мэр привела другой пример выбора городских расходов. Если придётся выбирать между созданием парков и ремонтом выбоин на дорогах, она, по её словам, отдаст предпочтение ремонту.",
+          "photoAlt": "Фасад здания мэрии Монреаля.",
+          "photoCaption": "Фасад здания мэрии Монреаля. Архивное фото от 25 сентября 2016 г.."
+        },
+        "ko": {
+          "title": "몬트리올 시장, 예산 제약을 크래프트 디너에 빗댄 발언 정정",
+          "summary": "소라야 마르티네스 페라다 시장은 11월 25일 몬트리올의 예산 제약을 값싼 식사 선택에 빗댄 표현이 부적절했다고 인정했다.",
+          "body": "시장은 Quatre95와의 인터뷰에서 크래프트 디너 마카로니와 안심 스테이크를 언급했다. 글로벌뉴스와 시티뉴스에 따르면 주택 관련 세금 인상을 둘러싼 논쟁 속에서 이 비유는 비판을 받았다.\n\n시장은 인스타그램 영상에서 시의 지출 선택을 다른 사례로 설명했다. 공원을 새로 조성하는 일과 도로의 포트홀을 보수하는 일 중에서 고른다면 보수를 우선하겠다고 말했다.",
+          "photoAlt": "몬트리올 시청 건물 정면.",
+          "photoCaption": "몬트리올 시청 건물 정면. 자료 사진 촬영일 2016년 9월 25일."
+        }
+      }
+    },
+    {
+      "eventKey": "la-pocatiere-alstom-usine-reamenagement-contrats",
+      "title": "Alstom prépare un réaménagement de plus de 14 millions à La Pocatière",
+      "category": "Économie",
+      "summary": "Alstom prévoit investir plus de 14 millions de dollars pour réorganiser son usine de La Pocatière en vue des contrats du tramway de Québec et de VIA Rail.",
+      "body": "Lors d’une visite rapportée le 25 novembre par le Journal, le directeur du site, Frédéric Platteeuw, a expliqué que les équipes définissent encore avec le client les caractéristiques techniques du tramway.\n\nPour les trains de VIA Rail, la répartition du travail est déjà établie. Alstom a précisé en septembre que les caisses des voitures seront fabriquées à La Pocatière et que l’assemblage final aura lieu à Thunder Bay, en Ontario.",
+      "sources": [
+        {
+          "name": "Le Journal / TVA Nouvelles (visite de l’usine)",
+          "url": "https://www.tvanouvelles.ca/2026/11/25/alstom-mise-sur-la-pocatiere-pour-ses-futurs-contrats-du-tramway-de-quebec-et-des-trains-de-via-rail",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Alstom",
+          "url": "https://www.alstom.com/fr/press-releases-news/2026/9/alstom-remporte-un-contrat-majeur-pour-le-renouvellement-de-la-flotte-de-trains-longue-distance-de-rail-canada",
+          "publishedAt": "2026-09-03"
+        }
+      ],
+      "photo": {
+        "download": "media/la-pocatiere-alstom-usine-reamenagement-contrats.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Pocati%C3%A8re%2C_Quebec.jpg",
+        "credit": "Hayden Soloviev / Wikimedia Commons (CC BY 4.0, conversion WebP)",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "Vue aérienne de La Pocatière, au Québec.",
+        "caption": "Vue aérienne de La Pocatière, au Québec. Photo d’archives du 16 août 2026."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Alstom plans overhaul worth more than $14 million in La Pocatière",
+          "summary": "Alstom plans to spend more than C$14 million reorganizing its La Pocatière plant for the Québec City tramway and VIA Rail contracts.",
+          "body": "During a site visit reported by Le Journal on November 25, plant director Frédéric Platteeuw said the teams were still defining the tram’s technical specifications with the customer.\n\nFor the VIA Rail trains, the division of work is already set. Alstom said in September that the car bodies would be built in La Pocatière and final assembly would take place in Thunder Bay, Ontario.",
+          "photoAlt": "Aerial view of La Pocatière, Quebec.",
+          "photoCaption": "Aerial view of La Pocatière, Quebec. Archive photograph dated August 16, 2026."
+        },
+        "es": {
+          "title": "Alstom prepara una reorganización de más de 14 millones en La Pocatière",
+          "summary": "Alstom prevé invertir más de 14 millones de dólares canadienses para reorganizar su planta de La Pocatière de cara a los contratos del tranvía de la ciudad de Quebec y de VIA Rail.",
+          "body": "Durante una visita que Le Journal reseñó el 25 de noviembre, el director de la planta, Frédéric Platteeuw, explicó que los equipos aún están definiendo con el cliente las especificaciones técnicas del tranvía.\n\nEn el caso de los trenes de VIA Rail ya se ha repartido el trabajo. En septiembre Alstom precisó que las cajas de los coches se fabricarán en La Pocatière y que el montaje final se realizará en Thunder Bay, Ontario.",
+          "photoAlt": "Vista aérea de La Pocatière, en Quebec.",
+          "photoCaption": "Vista aérea de La Pocatière, en Quebec. Fotografía de archivo del 16 de agosto de 2026."
+        },
+        "ar": {
+          "title": "ألستوم تعتزم إنفاق أكثر من 14 مليون دولار كندي لإعادة تنظيم مصنع لا بوكاتيير",
+          "summary": "تعتزم ألستوم استثمار أكثر من 14 مليون دولار كندي لإعادة تنظيم مصنعها في لا بوكاتيير استعداداً لعقدي ترام مدينة كيبيك وقطارات فيا ريل.",
+          "body": "وخلال زيارة ميدانية نقلت تفاصيلها صحيفة لو جورنال في 25 نوفمبر، قال مدير المصنع فريديريك بلاتيو إن الفرق ما زالت تحدد المواصفات التقنية للترام مع العميل.\n\nأما قطارات فيا ريل فقد حُدد توزيع العمل عليها. وأوضحت ألستوم في سبتمبر أن هياكل العربات ستُصنع في لا بوكاتيير، بينما سيتم التجميع النهائي في ثاندر باي بمقاطعة أونتاريو.",
+          "photoAlt": "منظر جوي لبلدة لا بوكاتيير في كيبيك.",
+          "photoCaption": "منظر جوي لبلدة لا بوكاتيير في كيبيك. صورة أرشيفية بتاريخ 16 أغسطس 2026."
+        },
+        "zh-CN": {
+          "title": "阿尔斯通拟斥资逾1400万加元改造拉波卡蒂耶尔工厂",
+          "summary": "阿尔斯通计划投资逾1400万加元，重整拉波卡蒂耶尔工厂，为魁北克市有轨电车和加拿大维亚铁路的合同做准备。",
+          "body": "据《日报》11月25日的工厂探访报道，厂长弗雷德里克·普拉特乌表示，团队仍在与客户一起确定有轨电车的技术规格。\n\n维亚铁路列车的生产已有明确分工。阿尔斯通9月表示，车体将在拉波卡蒂耶尔制造，最终组装则在安大略省桑德贝完成。",
+          "photoAlt": "魁北克省拉波卡蒂耶尔的航拍景观。",
+          "photoCaption": "魁北克省拉波卡蒂耶尔的航拍景观。 资料照片，摄于2026年8月16日。"
+        },
+        "ru": {
+          "title": "Alstom вложит более 14 млн канадских долларов в переустройство завода в Ла-Покатьере",
+          "summary": "Alstom планирует вложить более 14 млн канадских долларов в переустройство завода в Ла-Покатьере для выполнения контрактов на трамваи для города Квебека и поезда VIA Rail.",
+          "body": "Во время визита на предприятие, о котором Le Journal сообщила 25 ноября, директор завода Фредерик Платтё рассказал, что специалисты ещё согласуют с заказчиком технические характеристики трамвая.\n\nДля поездов VIA Rail работы уже распределены. В сентябре Alstom уточнила, что кузова вагонов будут выпускать в Ла-Покатьере, а окончательную сборку проведут в Тандер-Бее в провинции Онтарио.",
+          "photoAlt": "Вид с воздуха на Ла-Покатьер в провинции Квебек.",
+          "photoCaption": "Вид с воздуха на Ла-Покатьер в провинции Квебек. Архивное фото от 16 августа 2026 г.."
+        },
+        "ko": {
+          "title": "알스톰, 라포카티에르 공장 재편에 1,400만 캐나다달러 이상 투자 계획",
+          "summary": "알스톰은 퀘벡시 트램과 비아레일 계약에 대비해 라포카티에르 공장 재편에 1,400만 캐나다달러 이상을 투자할 계획이다.",
+          "body": "르 주르날이 11월 25일 보도한 현장 방문에서 프레데리크 플라퇴 공장장은 기술진이 트램의 기술 사양을 고객과 함께 정하고 있다고 설명했다.\n\n비아레일 열차는 이미 역할 분담이 정해졌다. 알스톰은 9월에 객차 차체를 라포카티에르에서 생산하고 최종 조립은 온타리오주 선더베이에서 진행한다고 밝혔다.",
+          "photoAlt": "퀘벡주 라포카티에르의 항공 사진.",
+          "photoCaption": "퀘벡주 라포카티에르의 항공 사진. 자료 사진 촬영일 2026년 8월 16일."
+        }
+      }
+    },
+    {
+      "eventKey": "poundland-administration-magasins-ouverts",
+      "title": "Poundland entre sous administration, ses magasins restent ouverts",
+      "category": "Économie",
+      "summary": "La chaîne britannique de magasins à bas prix Poundland est passée sous administration le 25 novembre après l’échec d’une tentative de vente de l’ensemble de ses activités.",
+      "body": "Le cabinet AlixPartners, dont trois membres ont été nommés administrateurs, indique que les magasins et les centres de distribution continuent de fonctionner.\n\nLes administrateurs cherchent désormais des offres pour l’ensemble de l’entreprise ou pour certains de ses actifs. Selon Reuters, l’issue de la procédure concerne environ 10 000 emplois et plus de 600 magasins au Royaume-Uni et en Irlande.",
+      "sources": [
+        {
+          "name": "AlixPartners, administrateurs de Poundland",
+          "url": "https://www.alixpartners.com/newsroom/alixpartners-appointed-as-administrators-to-poundland/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/uk-retailer-poundland-preparing-administration-sky-news-says-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/poundland-administration-magasins-ouverts.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poundland_%28in_the_former_Woolworths_store%29%2C_37_High_Street_-_geograph.org.uk_-_1926097.jpg",
+        "credit": "P L Chadwick / Wikimedia Commons (CC BY-SA 2.0, conversion WebP)",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "Devanture d’un magasin Poundland sur High Street.",
+        "caption": "Devanture d’un magasin Poundland sur High Street. Photo d’archives du 20 juin 2010."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Poundland enters administration and keeps its stores open",
+          "summary": "British discount chain Poundland entered administration on November 25 after a bid to sell the business as a whole fell through.",
+          "body": "AlixPartners, three of whose staff were appointed as administrators, said stores and distribution centres were continuing to operate.\n\nThe administrators are now looking for offers for the whole company or individual assets. According to Reuters, the outcome affects about 10,000 jobs and more than 600 stores in the UK and Ireland.",
+          "photoAlt": "A Poundland storefront on High Street.",
+          "photoCaption": "A Poundland storefront on High Street. Archive photograph dated June 20, 2010."
+        },
+        "es": {
+          "title": "Poundland entra en administración concursal y mantiene abiertas sus tiendas",
+          "summary": "La cadena británica de descuento Poundland entró en administración concursal el 25 de noviembre tras fracasar el intento de vender el negocio en su conjunto.",
+          "body": "La consultora AlixPartners, de la que se nombró a tres miembros como administradores, indicó que las tiendas y los centros de distribución siguen operativos.\n\nLos administradores buscan ahora ofertas por toda la empresa o por parte de sus activos. Según Reuters, del desenlace dependen unos 10.000 empleos y más de 600 tiendas en el Reino Unido e Irlanda.",
+          "photoAlt": "Fachada de una tienda Poundland en High Street.",
+          "photoCaption": "Fachada de una tienda Poundland en High Street. Fotografía de archivo del 20 de junio de 2010."
+        },
+        "ar": {
+          "title": "متاجر باوندلاند تبقى مفتوحة بعد وضع السلسلة تحت الإدارة بسبب التعثر",
+          "summary": "وُضعت سلسلة متاجر الخصم البريطانية باوندلاند تحت إدارة مختصين بالتعثر في 25 نوفمبر بعد إخفاق محاولة لبيع النشاط كاملاً.",
+          "body": "وقالت شركة أليكس بارتنرز، التي عُين ثلاثة من موظفيها لإدارة العملية، إن المتاجر ومراكز التوزيع تواصل العمل.\n\nويبحث المديرون الآن عن عروض لشراء الشركة بأكملها أو بعض أصولها. وبحسب رويترز، تمس نتيجة العملية نحو عشرة آلاف وظيفة وأكثر من 600 متجر في المملكة المتحدة وأيرلندا.",
+          "photoAlt": "واجهة متجر باوندلاند في شارع هاي ستريت.",
+          "photoCaption": "واجهة متجر باوندلاند في شارع هاي ستريت. صورة أرشيفية بتاريخ 20 يونيو 2010."
+        },
+        "zh-CN": {
+          "title": "英国折扣连锁店Poundland进入破产管理程序，门店继续营业",
+          "summary": "英国折扣零售商Poundland未能整体出售业务，于11月25日进入破产管理程序。",
+          "body": "咨询公司艾睿铂的三名成员获任管理人。该公司表示，门店和配送中心照常运作。\n\n管理人现正为整个企业或部分资产征集收购报价。据路透社报道，程序结果关系到约1万个工作岗位及英国和爱尔兰的600多家门店。",
+          "photoAlt": "位于高街的一家Poundland门店外观。",
+          "photoCaption": "位于高街的一家Poundland门店外观。 资料照片，摄于2010年6月20日。"
+        },
+        "ru": {
+          "title": "Британская сеть Poundland перешла под внешнее управление, магазины остаются открытыми",
+          "summary": "Британская сеть дискаунтеров Poundland перешла под внешнее управление 25 ноября после того, как попытка продать весь бизнес не увенчалась успехом.",
+          "body": "Компания AlixPartners, трое сотрудников которой назначены управляющими, сообщила, что магазины и распределительные центры продолжают работать.\n\nУправляющие ищут предложения о покупке компании целиком или отдельных активов. По данным Reuters, исход процедуры затрагивает около 10 тысяч рабочих мест и более 600 магазинов в Великобритании и Ирландии.",
+          "photoAlt": "Витрина магазина Poundland на Хай-стрит.",
+          "photoCaption": "Витрина магазина Poundland на Хай-стрит. Архивное фото от 20 июня 2010 г.."
+        },
+        "ko": {
+          "title": "영국 할인점 파운드랜드, 법정관리 들어가도 매장 영업 계속",
+          "summary": "영국 할인점 체인 파운드랜드가 사업 전체 매각 시도에 실패한 뒤 11월 25일 법정관리에 들어갔다.",
+          "body": "관리인 세 명이 소속된 컨설팅사 알릭스파트너스는 매장과 물류센터가 계속 운영된다고 밝혔다.\n\n관리인들은 이제 회사 전체 또는 일부 자산을 인수하려는 매수자를 찾고 있다. 로이터에 따르면 절차의 결과는 영국과 아일랜드 내 일자리 약 1만 개와 600개가 넘는 매장에 영향을 미친다.",
+          "photoAlt": "하이스트리트에 있는 파운드랜드 매장 외관.",
+          "photoCaption": "하이스트리트에 있는 파운드랜드 매장 외관. 자료 사진 촬영일 2010년 6월 20일."
+        }
+      }
+    },
+    {
+      "eventKey": "allemagne-croissance-revisee-troisieme-trimestre",
+      "title": "L’Allemagne ramène la croissance du troisième trimestre à 0,1 %",
+      "category": "Économie",
+      "summary": "L’économie allemande a progressé de 0,1 % entre le deuxième et le troisième trimestre de 2026, selon les résultats détaillés publiés le 25 novembre par Destatis.",
+      "body": "L’office fédéral de la statistique estimait encore la hausse à 0,2 % fin octobre. Les exportations et les ventes au détail de septembre ont été plus faibles que ne le suggéraient les premières données.\n\nLa consommation des ménages a augmenté de 0,1 % sur le trimestre, tandis que l’investissement a reculé de 1,2 %. Comme le relève Reuters, la croissance avait atteint 0,3 % au trimestre précédent.",
+      "sources": [
+        {
+          "name": "Destatis",
+          "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_409_811.html",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/europe/german-economy-grows-by-01-q3-stats-office-says-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/allemagne-croissance-revisee-troisieme-trimestre.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-10-06_Statistisches_Bundesamt_1070762.jpg",
+        "credit": "Bärbel Miemietz / Wikimedia Commons (CC BY-SA 4.0, conversion WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Bâtiment de l’office fédéral de la statistique à Wiesbaden.",
+        "caption": "Bâtiment de l’office fédéral de la statistique à Wiesbaden. Photo d’archives du 6 octobre 2024."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Germany revises third-quarter growth down to 0.1%",
+          "summary": "Germany’s economy grew 0.1% from the second to the third quarter of 2026, according to detailed figures released by Destatis on November 25.",
+          "body": "The federal statistics office had estimated growth at 0.2% in late October. September exports and retail sales were weaker than the initial data suggested.\n\nHousehold consumption rose 0.1% on the quarter, while investment fell 1.2%. As Reuters noted, the economy had grown 0.3% in the previous quarter.",
+          "photoAlt": "Federal statistics office building in Wiesbaden.",
+          "photoCaption": "Federal statistics office building in Wiesbaden. Archive photograph dated October 6, 2024."
+        },
+        "es": {
+          "title": "Alemania rebaja al 0,1 % el crecimiento del tercer trimestre",
+          "summary": "La economía alemana creció un 0,1 % entre el segundo y el tercer trimestre de 2026, según los datos detallados publicados por Destatis el 25 de noviembre.",
+          "body": "A finales de octubre, la oficina federal de estadística había estimado un aumento del 0,2 %. Las exportaciones y las ventas minoristas de septiembre fueron más débiles de lo que indicaban los datos iniciales.\n\nEl consumo de los hogares avanzó un 0,1 % respecto del trimestre anterior, mientras que la inversión bajó un 1,2 %. Como señala Reuters, en el trimestre precedente la economía había crecido un 0,3 %.",
+          "photoAlt": "Edificio de la oficina federal de estadística en Wiesbaden.",
+          "photoCaption": "Edificio de la oficina federal de estadística en Wiesbaden. Fotografía de archivo del 6 de octubre de 2024."
+        },
+        "ar": {
+          "title": "ألمانيا تخفض تقدير نمو اقتصادها في الربع الثالث إلى 0.1%",
+          "summary": "نما الاقتصاد الألماني بنسبة 0.1% بين الربعين الثاني والثالث من عام 2026، وفق الأرقام التفصيلية التي نشرها مكتب الإحصاء الاتحادي في 25 نوفمبر.",
+          "body": "وكان المكتب قد قدر النمو في أواخر أكتوبر بنحو 0.2%. وجاءت صادرات سبتمبر ومبيعات التجزئة فيه أضعف مما أشارت إليه البيانات الأولية.\n\nوارتفع استهلاك الأسر 0.1% على أساس فصلي، بينما انخفض الاستثمار 1.2%. وكما أشارت رويترز، كان الاقتصاد قد نما 0.3% في الربع السابق.",
+          "photoAlt": "مبنى مكتب الإحصاء الاتحادي في فيسبادن.",
+          "photoCaption": "مبنى مكتب الإحصاء الاتحادي في فيسبادن. صورة أرشيفية بتاريخ 6 أكتوبر 2024."
+        },
+        "zh-CN": {
+          "title": "德国将第三季度经济环比增幅下调至0.1%",
+          "summary": "德国联邦统计局11月25日公布的详细数据显示，2026年第三季度德国经济环比增长0.1%。",
+          "body": "该局在10月底估计增幅为0.2%。9月的出口和零售销售均弱于初期数据所显示的水平。\n\n第三季度家庭消费环比增长0.1%，投资则下降1.2%。路透社指出，前一季度德国经济环比增长了0.3%。",
+          "photoAlt": "位于威斯巴登的德国联邦统计局大楼。",
+          "photoCaption": "位于威斯巴登的德国联邦统计局大楼。 资料照片，摄于2024年10月6日。"
+        },
+        "ru": {
+          "title": "Германия снизила оценку роста экономики в третьем квартале до 0,1%",
+          "summary": "Экономика Германии в третьем квартале 2026 года выросла на 0,1% по сравнению со вторым, следует из уточнённых данных Destatis от 25 ноября.",
+          "body": "В конце октября федеральное статистическое ведомство оценивало рост в 0,2%. Сентябрьские экспорт и розничные продажи оказались слабее, чем следовало из первых данных.\n\nПотребление домохозяйств за квартал выросло на 0,1%, а инвестиции упали на 1,2%. Как отмечает Reuters, кварталом ранее экономика выросла на 0,3%.",
+          "photoAlt": "Здание Федерального статистического ведомства в Висбадене.",
+          "photoCaption": "Здание Федерального статистического ведомства в Висбадене. Архивное фото от 6 октября 2024 г.."
+        },
+        "ko": {
+          "title": "독일, 3분기 경제성장률을 전 분기 대비 0.1%로 하향 조정",
+          "summary": "독일 연방통계청이 11월 25일 발표한 상세 집계에 따르면 2026년 3분기 독일 경제는 전 분기보다 0.1% 성장했다.",
+          "body": "통계청은 10월 말 성장률을 0.2%로 추정했다. 9월 수출과 소매 판매가 초기 자료에서 나타난 것보다 약했다.\n\n가계 소비는 전 분기 대비 0.1% 늘었으나 투자는 1.2% 감소했다. 로이터가 전한 바와 같이 직전 분기의 경제성장률은 0.3%였다.",
+          "photoAlt": "비스바덴에 있는 독일 연방통계청 건물.",
+          "photoCaption": "비스바덴에 있는 독일 연방통계청 건물. 자료 사진 촬영일 2024년 10월 6일."
+        }
+      }
+    },
+    {
+      "eventKey": "mort-andy-taylor-guitare-duran-duran",
+      "title": "Mort d’Andy Taylor, le guitariste qui a accompagné la percée de Duran Duran",
+      "category": "Culture",
+      "summary": "La famille d’Andy Taylor et ses anciens collègues de Duran Duran ont annoncé le 25 novembre la mort du guitariste britannique à l’âge de 65 ans.",
+      "body": "Dans leur communiqué, ils précisent qu’il est mort chez lui le 23 novembre, entouré de ses proches, après avoir vécu plusieurs années avec un cancer de la prostate.\n\nLa guitare de Taylor a marqué les premiers disques du groupe. L’Associated Press rappelle que le premier album contenait le succès Planet Earth et que le suivant, Rio, a permis à Duran Duran de s’imposer des deux côtés de l’Atlantique.",
+      "sources": [
+        {
+          "name": "Famille Taylor et Duran Duran",
+          "url": "https://duranduran.com/2026/andy-taylor-1961-2026/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/andy-taylor-dies-duran-duran-2334d13b2b0b0196488721611036d977",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/mort-andy-taylor-guitare-duran-duran.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duran_Duran_NYC_2005.JPG",
+        "credit": "Tendai / Wikimedia Commons (CC BY-SA 2.0, conversion WebP)",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "Les membres de Duran Duran sur une scène éclairée à New York.",
+        "caption": "Les membres de Duran Duran sur une scène éclairée à New York. Photo d’archives du 13 avril 2005."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Andy Taylor, guitarist behind Duran Duran’s breakthrough, dies at 65",
+          "summary": "Andy Taylor’s family and his former Duran Duran bandmates announced the British guitarist’s death at 65 on November 25.",
+          "body": "In their statement, they said he died at home on November 23, surrounded by his family, after living with prostate cancer for several years.\n\nTaylor’s guitar helped shape the band’s early records. The Associated Press noted that its debut album featured the hit Planet Earth and that the follow-up, Rio, established Duran Duran on both sides of the Atlantic.",
+          "photoAlt": "Members of Duran Duran on a brightly lit stage in New York.",
+          "photoCaption": "Members of Duran Duran on a brightly lit stage in New York. Archive photograph dated April 13, 2005."
+        },
+        "es": {
+          "title": "Muere Andy Taylor, guitarrista del despegue internacional de Duran Duran",
+          "summary": "La familia de Andy Taylor y sus antiguos compañeros de Duran Duran anunciaron el 25 de noviembre la muerte del guitarrista británico a los 65 años.",
+          "body": "En su comunicado explicaron que murió en casa el 23 de noviembre rodeado de sus seres queridos, tras varios años con cáncer de próstata.\n\nLa guitarra de Taylor dejó huella en los primeros discos del grupo. Associated Press recuerda que el álbum de debut contenía el éxito Planet Earth y que el siguiente, Rio, consagró a Duran Duran a ambos lados del Atlántico.",
+          "photoAlt": "Integrantes de Duran Duran en un escenario iluminado en Nueva York.",
+          "photoCaption": "Integrantes de Duran Duran en un escenario iluminado en Nueva York. Fotografía de archivo del 13 de abril de 2005."
+        },
+        "ar": {
+          "title": "وفاة آندي تايلور عازف الغيتار الذي ساهم في انطلاقة دوران دوران",
+          "summary": "أعلنت عائلة آندي تايلور وزملاؤه السابقون في فرقة دوران دوران في 25 نوفمبر وفاة عازف الغيتار البريطاني عن 65 عاماً.",
+          "body": "وأوضحوا في بيانهم أنه توفي في منزله في 23 نوفمبر محاطاً بأسرته بعدما عاش سنوات مع سرطان البروستاتا.\n\nوترك عزفه بصمة في تسجيلات الفرقة الأولى. وتذكر أسوشيتد برس أن الألبوم الأول ضم أغنية Planet Earth الناجحة وأن الألبوم التالي Rio رسخ شهرة دوران دوران على جانبي الأطلسي.",
+          "photoAlt": "أعضاء فرقة دوران دوران على مسرح مضاء في نيويورك.",
+          "photoCaption": "أعضاء فرقة دوران دوران على مسرح مضاء في نيويورك. صورة أرشيفية بتاريخ 13 أبريل 2005."
+        },
+        "zh-CN": {
+          "title": "助力杜兰杜兰乐队成名的吉他手安迪·泰勒去世",
+          "summary": "安迪·泰勒的家人和他在杜兰杜兰乐队的昔日队友于11月25日宣布，这位英国吉他手去世，享年65岁。",
+          "body": "他们在声明中说，泰勒患前列腺癌多年，于11月23日在家人的陪伴下在家中去世。\n\n泰勒的吉他塑造了乐队早期唱片的风格。美联社回顾说，乐队首张专辑收录了热门歌曲《Planet Earth》，随后的专辑《Rio》让杜兰杜兰在大西洋两岸成名。",
+          "photoAlt": "杜兰杜兰乐队成员在纽约灯光明亮的舞台上。",
+          "photoCaption": "杜兰杜兰乐队成员在纽约灯光明亮的舞台上。 资料照片，摄于2005年4月13日。"
+        },
+        "ru": {
+          "title": "Умер Энди Тейлор, гитарист, с которым Duran Duran добились международного успеха",
+          "summary": "25 ноября семья Энди Тейлора и его бывшие коллеги по Duran Duran сообщили о смерти британского гитариста в возрасте 65 лет.",
+          "body": "В заявлении говорится, что он умер дома 23 ноября в окружении близких, прожив несколько лет с раком простаты.\n\nГитара Тейлора во многом определила звучание ранних записей группы. Associated Press напоминает, что в дебютный альбом вошёл хит Planet Earth, а следующий альбом, Rio, принёс Duran Duran известность по обе стороны Атлантики.",
+          "photoAlt": "Участники Duran Duran на освещённой сцене в Нью-Йорке.",
+          "photoCaption": "Участники Duran Duran на освещённой сцене в Нью-Йорке. Архивное фото от 13 апреля 2005 г.."
+        },
+        "ko": {
+          "title": "듀란듀란의 세계적 성공을 함께한 기타리스트 앤디 테일러 별세",
+          "summary": "앤디 테일러의 가족과 듀란듀란의 옛 동료들은 11월 25일 이 영국 기타리스트가 65세로 세상을 떠났다고 밝혔다.",
+          "body": "성명에 따르면 그는 전립선암을 수년간 앓았으며 11월 23일 가족들이 지켜보는 가운데 자택에서 숨졌다.\n\n테일러의 기타는 밴드 초기 음반의 소리를 빚어냈다. AP통신은 데뷔 앨범에 히트곡 ‘Planet Earth’가 실렸고 후속 앨범 ‘Rio’로 듀란듀란이 대서양 양쪽에서 명성을 얻었다고 전했다.",
+          "photoAlt": "뉴욕의 밝은 무대 위에 선 듀란듀란 멤버들.",
+          "photoCaption": "뉴욕의 밝은 무대 위에 선 듀란듀란 멤버들. 자료 사진 촬영일 2005년 4월 13일."
+        }
+      }
+    },
+    {
+      "eventKey": "sinner-forfait-open-australie-2027-genou",
+      "title": "Opéré du genou, Jannik Sinner manquera l’Open d’Australie",
+      "category": "Sports",
+      "summary": "Jannik Sinner ne disputera pas l’Open d’Australie en janvier 2027, a confirmé le 26 novembre Andrew Abdo, directeur général de Tennis Australia.",
+      "body": "L’entourage du joueur italien a prévenu les organisateurs après son opération du genou droit. Abdo a fait état de ces échanges auprès de Reuters et de l’AFP.\n\nChampion à Melbourne en 2024 et en 2025, Sinner avait atteint les demi-finales de l’édition 2026. Il n’a plus joué en compétition depuis son titre à Wimbledon en juillet. Le prochain tournoi australien commence le 17 janvier.",
+      "sources": [
+        {
+          "name": "Reuters (déclaration de Tennis Australia)",
+          "url": "https://www.reuters.com/sports/tennis/sinner-miss-australian-open-after-undergoing-surgery-knee-injury-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "AFP / The Daily Star",
+          "url": "https://www.thedailystar.net/sports/more-sports/tennis/news/jannik-sinner-ruled-out-australian-open-4333596",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/sinner-forfait-open-australie-2027-genou.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jannik_Sinner_%282024_US_Open%29_01.jpg",
+        "credit": "Hameltion / Wikimedia Commons (CC BY-SA 4.0, conversion WebP)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Jannik Sinner au service lors d’un entraînement à l’US Open.",
+        "caption": "Jannik Sinner au service lors d’un entraînement à l’US Open. Photo d’archives du 25 août 2024."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Jannik Sinner to miss Australian Open after knee surgery",
+          "summary": "Jannik Sinner will miss the Australian Open in January 2027, Tennis Australia chief executive Andrew Abdo confirmed on November 26.",
+          "body": "The Italian player’s team informed organisers after surgery on his right knee. Abdo described the discussions to Reuters and AFP.\n\nChampion in Melbourne in 2024 and 2025, Sinner reached the semifinals in 2026. He has not competed since winning Wimbledon in July. The next Australian Open starts on January 17.",
+          "photoAlt": "Jannik Sinner serving during a US Open practice session.",
+          "photoCaption": "Jannik Sinner serving during a US Open practice session. Archive photograph dated August 25, 2024."
+        },
+        "es": {
+          "title": "Jannik Sinner se perderá el Abierto de Australia tras operarse de la rodilla",
+          "summary": "Jannik Sinner no disputará el Abierto de Australia en enero de 2027, confirmó el 26 de noviembre Andrew Abdo, director ejecutivo de Tennis Australia.",
+          "body": "El equipo del italiano avisó a los organizadores tras la operación en su rodilla derecha. Abdo explicó esos contactos a Reuters y AFP.\n\nCampeón en Melbourne en 2024 y 2025, Sinner alcanzó las semifinales de la edición de 2026. No compite desde que ganó Wimbledon en julio. El próximo Abierto de Australia empieza el 17 de enero.",
+          "photoAlt": "Jannik Sinner saca durante un entrenamiento en el Abierto de Estados Unidos.",
+          "photoCaption": "Jannik Sinner saca durante un entrenamiento en el Abierto de Estados Unidos. Fotografía de archivo del 25 de agosto de 2024."
+        },
+        "ar": {
+          "title": "يانيك سينر يغيب عن أستراليا المفتوحة بعد جراحة في الركبة",
+          "summary": "أكد أندرو أبدو الرئيس التنفيذي للاتحاد الأسترالي للتنس في 26 نوفمبر أن يانيك سينر لن يشارك في بطولة أستراليا المفتوحة في يناير 2027.",
+          "body": "وأبلغ فريق اللاعب الإيطالي المنظمين بعد خضوعه لجراحة في الركبة اليمنى. وتحدث أبدو عن هذه الاتصالات لرويترز ووكالة فرانس برس.\n\nوتُوج سينر في ملبورن عامي 2024 و2025 وبلغ نصف النهائي عام 2026. ولم يخض أي منافسة منذ فوزه ببطولة ويمبلدون في يوليو. وتنطلق النسخة المقبلة من أستراليا المفتوحة في 17 يناير.",
+          "photoAlt": "يانيك سينر يرسل الكرة في تدريب ببطولة الولايات المتحدة المفتوحة.",
+          "photoCaption": "يانيك سينر يرسل الكرة في تدريب ببطولة الولايات المتحدة المفتوحة. صورة أرشيفية بتاريخ 25 أغسطس 2024."
+        },
+        "zh-CN": {
+          "title": "辛纳膝部手术后将缺席澳大利亚网球公开赛",
+          "summary": "澳大利亚网球协会首席执行官安德鲁·阿布多11月26日证实，扬尼克·辛纳将缺席2027年1月的澳网。",
+          "body": "这名意大利选手接受右膝手术后，他的团队通知了赛事组织方。阿布多向路透社和法新社介绍了双方的沟通情况。\n\n辛纳在2024年和2025年夺得澳网冠军，2026年打进半决赛。自7月赢得温网冠军后，他就没有再参加比赛。下届澳网将于1月17日开赛。",
+          "photoAlt": "辛纳在美国网球公开赛训练中发球。",
+          "photoCaption": "辛纳在美国网球公开赛训练中发球。 资料照片，摄于2024年8月25日。"
+        },
+        "ru": {
+          "title": "Янник Синнер пропустит Australian Open после операции на колене",
+          "summary": "Янник Синнер не выступит на Открытом чемпионате Австралии в январе 2027 года, подтвердил 26 ноября глава Tennis Australia Эндрю Абдо.",
+          "body": "Команда итальянского теннисиста уведомила организаторов после операции на правом колене игрока. Абдо рассказал об этих контактах агентствам Reuters и AFP.\n\nПобедитель турнира в Мельбурне в 2024 и 2025 годах, Синнер дошёл до полуфинала в 2026-м. Он не выступал после победы на Уимблдоне в июле. Следующий Australian Open начнётся 17 января.",
+          "photoAlt": "Янник Синнер выполняет подачу на тренировке на US Open.",
+          "photoCaption": "Янник Синнер выполняет подачу на тренировке на US Open. Архивное фото от 25 августа 2024 г.."
+        },
+        "ko": {
+          "title": "얀니크 신네르, 무릎 수술로 호주오픈 불참",
+          "summary": "얀니크 신네르가 2027년 1월 호주오픈에 출전하지 않는다고 호주테니스협회 최고경영자 앤드루 애브도가 11월 26일 확인했다.",
+          "body": "이탈리아 선수 신네르가 오른쪽 무릎 수술을 받은 뒤 그의 팀이 대회 조직위에 소식을 전했다. 애브도는 로이터와 AFP에 이 같은 연락 내용을 설명했다.\n\n신네르는 2024년과 2025년 멜버른에서 우승했고 2026년 대회에서는 준결승에 올랐다. 7월 윔블던 우승 이후 대회에 출전하지 않았다. 다음 호주오픈은 1월 17일 개막한다.",
+          "photoAlt": "US오픈 훈련 중 서브를 넣는 얀니크 신네르.",
+          "photoCaption": "US오픈 훈련 중 서브를 넣는 얀니크 신네르. 자료 사진 촬영일 2024년 8월 25일."
+        }
+      }
+    },
+    {
+      "eventKey": "remy-cointreau-resultats-semestriels-marge",
+      "title": "Rémy Cointreau relève son objectif de marge après un semestre plus rentable",
+      "category": "Économie",
+      "summary": "Rémy Cointreau a annoncé le 25 novembre un résultat opérationnel courant de 126,7 millions d’euros au premier semestre de son exercice 2026-2027.",
+      "body": "Selon le groupe français de spiritueux, ce résultat progresse de 7,8 % à périmètre et taux de change constants. La marge opérationnelle courante atteint 24,8 % des ventes.\n\nLe groupe vise désormais une amélioration plus marquée de cette marge sur l’exercice en cours. Reuters rapporte que la direction entend réduire les coûts et relancer les ventes, alors que la faiblesse de la demande de cognac a pesé sur ses activités.",
+      "sources": [
+        {
+          "name": "Rémy Cointreau",
+          "url": "https://www.remy-cointreau.com/app/uploads/2026/11/CP-FR-S1_26-27.pdf",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/remy-cointreau-unveils-medium-term-targets-under-turnaround-plan-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/remy-cointreau-resultats-semestriels-marge.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Remy_Martin_wiki.jpg",
+        "credit": "The Ace Rimmer / Wikimedia Commons (CC BY-SA 3.0, conversion WebP)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Bâtiments de la maison Rémy Martin derrière un bassin.",
+        "caption": "Bâtiments de la maison Rémy Martin derrière un bassin. Photo d’archives publiée le 15 août 2007."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Rémy Cointreau raises margin outlook after a more profitable first half",
+          "summary": "Rémy Cointreau reported current operating profit of €126.7 million on November 25 for the first half of its 2026–27 financial year.",
+          "body": "The French spirits group said profit on this measure rose 7.8% at constant exchange rates and scope of consolidation. The current operating margin reached 24.8% of sales.\n\nThe group now expects a stronger improvement in that margin for the full year. Reuters reported that management intends to cut costs and revive sales after weak demand for cognac weighed on its business.",
+          "photoAlt": "Rémy Martin buildings behind a pool of water.",
+          "photoCaption": "Rémy Martin buildings behind a pool of water. Archive photograph uploaded on August 15, 2007."
+        },
+        "es": {
+          "title": "Rémy Cointreau eleva su previsión de margen tras un semestre más rentable",
+          "summary": "Rémy Cointreau anunció el 25 de noviembre un beneficio operativo corriente de 126,7 millones de euros en el primer semestre de su ejercicio 2026-2027.",
+          "body": "Según el grupo francés de bebidas espirituosas, el resultado aumentó un 7,8 % a perímetro y tipos de cambio constantes. El margen operativo corriente alcanzó el 24,8 % de las ventas.\n\nEl grupo espera ahora una mejora más pronunciada de ese margen en el conjunto del ejercicio. Reuters señala que la dirección pretende recortar costes y reactivar las ventas después de que la débil demanda de coñac lastrara el negocio.",
+          "photoAlt": "Edificios de la casa Rémy Martin detrás de un estanque.",
+          "photoCaption": "Edificios de la casa Rémy Martin detrás de un estanque. Fotografía de archivo publicada el 15 de agosto de 2007."
+        },
+        "ar": {
+          "title": "ريمي كوانترو ترفع توقعاتها للهامش بعد تحسن أرباح النصف الأول",
+          "summary": "أعلنت ريمي كوانترو في 25 نوفمبر أن ربحها التشغيلي الجاري بلغ 126.7 مليون يورو في النصف الأول من سنتها المالية 2026-2027.",
+          "body": "وقالت مجموعة المشروبات الروحية الفرنسية إن هذا الربح زاد 7.8% عند ثبات أسعار الصرف ونطاق الأعمال. وبلغ هامش الربح التشغيلي الجاري 24.8% من المبيعات.\n\nوتتوقع المجموعة الآن تحسناً أكبر في هذا الهامش على مدار السنة المالية. وذكرت رويترز أن الإدارة تعتزم خفض التكاليف وتنشيط المبيعات بعدما أثر ضعف الطلب على الكونياك في أعمالها.",
+          "photoAlt": "مباني دار ريمي مارتان خلف بركة مياه.",
+          "photoCaption": "مباني دار ريمي مارتان خلف بركة مياه. صورة أرشيفية نُشرت في 15 أغسطس 2007."
+        },
+        "zh-CN": {
+          "title": "人头马君度上半财年盈利改善，上调利润率预期",
+          "summary": "人头马君度11月25日公布，2026至2027财年上半年经常性营业利润为1.267亿欧元。",
+          "body": "这家法国烈酒集团表示，按固定汇率和相同合并范围计算，这项利润增长7.8%。经常性营业利润占销售额的24.8%。\n\n集团预计本财年该利润率的改善幅度将大于先前预期。路透社报道，在干邑需求疲弱拖累业务后，管理层计划削减成本并提振销售。",
+          "photoAlt": "水池后方的人头马酒庄建筑。",
+          "photoCaption": "水池后方的人头马酒庄建筑。 资料照片，上传于2007年8月15日。"
+        },
+        "ru": {
+          "title": "Rémy Cointreau повысила прогноз рентабельности после роста прибыли за полугодие",
+          "summary": "25 ноября Rémy Cointreau сообщила, что текущая операционная прибыль за первое полугодие 2026–2027 финансового года составила 126,7 млн евро.",
+          "body": "По данным французской группы по производству крепких напитков, показатель вырос на 7,8% при неизменных курсах валют и периметре консолидации. Текущая операционная рентабельность достигла 24,8% выручки.\n\nТеперь группа ожидает более заметного улучшения этого показателя за весь год. По данным Reuters, руководство намерено снизить затраты и оживить продажи после того, как слабый спрос на коньяк отразился на бизнесе.",
+          "photoAlt": "Здания дома Rémy Martin за водоёмом.",
+          "photoCaption": "Здания дома Rémy Martin за водоёмом. Архивное фото опубликовано 15 августа 2007 г.."
+        },
+        "ko": {
+          "title": "레미 쿠앵트로, 상반기 이익 개선으로 영업이익률 전망 상향",
+          "summary": "레미 쿠앵트로는 11월 25일 2026~2027 회계연도 상반기 경상영업이익이 1억 2,670만 유로였다고 발표했다.",
+          "body": "이 프랑스 주류 그룹에 따르면 환율과 연결 범위를 동일하게 적용할 경우 해당 이익은 7.8% 늘었다. 경상영업이익률은 매출의 24.8%였다.\n\n그룹은 이번 회계연도 전체의 이익률 개선 폭이 이전 예상보다 클 것으로 전망한다. 로이터는 코냑 수요 약세가 사업에 부담이 된 가운데 경영진이 비용을 줄이고 매출을 회복시키려 한다고 전했다.",
+          "photoAlt": "연못 너머로 보이는 레미 마르탱 건물들.",
+          "photoCaption": "연못 너머로 보이는 레미 마르탱 건물들. 자료 사진 게시일 2007년 8월 15일."
+        }
+      }
+    },
+    {
+      "eventKey": "winnipeg-blue-bombers-quatre-prolongations",
+      "title": "À Winnipeg, les Blue Bombers prolongent les contrats de quatre joueurs",
+      "category": "Sports",
+      "summary": "Les Blue Bombers de Winnipeg ont annoncé le 25 novembre des prolongations de contrat pour quatre joueurs qui pouvaient devenir autonomes.",
+      "body": "Le demi défensif Jake Kelly, le centre-arrière Michael Chris-Ike et le joueur de ligne offensive Micah Vanterpool ont signé pour deux saisons supplémentaires. Le secondeur Michael Ayers s’est engagé pour une saison.\n\nSelon Global News, Kelly a réussi sa première interception et a totalisé 34 plaqués défensifs en 2026. Chris-Ike, qui contribue aussi aux unités spéciales, n’a manqué aucun match des deux dernières saisons.",
+      "sources": [
+        {
+          "name": "Blue Bombers de Winnipeg",
+          "url": "https://www.bluebombers.prod.s.cfl.ca/article/blue-bombers-sign-four-to-contract-extensions",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Global News",
+          "url": "https://globalnews.ca/news/12166331/winnipeg-blue-bombers-re-sign-4-pending-free-agents/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/winnipeg-blue-bombers-quatre-prolongations.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winnipeg_Nov_2_2013_stadium.JPG",
+        "credit": "Michael Dorosh / Wikimedia Commons (CC BY-SA 3.0, conversion WebP)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Match des Blue Bombers dans leur stade de Winnipeg.",
+        "caption": "Match des Blue Bombers dans leur stade de Winnipeg. Photo d’archives du 2 novembre 2013."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Winnipeg Blue Bombers extend contracts for four players",
+          "summary": "The Winnipeg Blue Bombers announced contract extensions on November 25 for four players who were eligible to become free agents.",
+          "body": "Defensive back Jake Kelly, fullback Michael Chris-Ike and offensive lineman Micah Vanterpool signed for two more seasons. Linebacker Michael Ayers agreed to one more season.\n\nAccording to Global News, Kelly recorded his first interception and made 34 defensive tackles in 2026. Chris-Ike, who also contributes on special teams, has not missed a game over the past two seasons.",
+          "photoAlt": "A Blue Bombers game at their stadium in Winnipeg.",
+          "photoCaption": "A Blue Bombers game at their stadium in Winnipeg. Archive photograph dated November 2, 2013."
+        },
+        "es": {
+          "title": "Los Blue Bombers de Winnipeg renuevan a cuatro jugadores",
+          "summary": "Los Blue Bombers de Winnipeg anunciaron el 25 de noviembre la renovación de cuatro jugadores que podían convertirse en agentes libres.",
+          "body": "El defensivo Jake Kelly, el corredor de poder Michael Chris-Ike y el liniero ofensivo Micah Vanterpool firmaron por dos temporadas más. El apoyador Michael Ayers acordó una temporada adicional.\n\nSegún Global News, Kelly consiguió su primera intercepción y sumó 34 tacleadas defensivas en 2026. Chris-Ike, que también participa en los equipos especiales, no se ha perdido ningún partido en las dos últimas temporadas.",
+          "photoAlt": "Partido de los Blue Bombers en su estadio de Winnipeg.",
+          "photoCaption": "Partido de los Blue Bombers en su estadio de Winnipeg. Fotografía de archivo del 2 de noviembre de 2013."
+        },
+        "ar": {
+          "title": "وينيبيغ بلو بومبرز يجدد عقود أربعة لاعبين",
+          "summary": "أعلن فريق وينيبيغ بلو بومبرز في 25 نوفمبر تمديد عقود أربعة لاعبين كان من الممكن أن يصبحوا أحراراً.",
+          "body": "ووقّع الظهير الدفاعي جيك كيلي والظهير الهجومي مايكل كريس آيك ولاعب خط الهجوم مايكاه فانتربول لموسمين إضافيين، بينما اتفق لاعب خط الدفاع الخلفي مايكل آيرز على البقاء موسماً واحداً.\n\nووفق غلوبال نيوز، سجل كيلي أول اعتراض له للكرة ونفذ 34 إيقافاً دفاعياً في 2026. ولم يغب كريس آيك، الذي يشارك أيضاً مع الوحدات الخاصة، عن أي مباراة في الموسمين الماضيين.",
+          "photoAlt": "مباراة لفريق بلو بومبرز على ملعبه في وينيبيغ.",
+          "photoCaption": "مباراة لفريق بلو بومبرز على ملعبه في وينيبيغ. صورة أرشيفية بتاريخ 2 نوفمبر 2013."
+        },
+        "zh-CN": {
+          "title": "温尼伯蓝色轰炸机队与四名球员续约",
+          "summary": "温尼伯蓝色轰炸机队11月25日宣布，与四名原本可能成为自由球员的队员续约。",
+          "body": "防守后卫杰克·凯利、全卫迈克尔·克里斯-艾克和进攻锋线球员迈卡·范特普尔均续约两个赛季。线卫迈克尔·艾尔斯续约一个赛季。\n\n据环球新闻报道，凯利在2026年完成了个人首次抄截，另有34次防守擒抱。克里斯-艾克也为特勤组效力，过去两个赛季没有缺席过一场比赛。",
+          "photoAlt": "蓝色轰炸机队在温尼伯主场进行比赛。",
+          "photoCaption": "蓝色轰炸机队在温尼伯主场进行比赛。 资料照片，摄于2013年11月2日。"
+        },
+        "ru": {
+          "title": "«Виннипег Блу Бомберс» продлили контракты с четырьмя игроками",
+          "summary": "25 ноября «Виннипег Блу Бомберс» объявили о продлении контрактов с четырьмя игроками, которые могли стать свободными агентами.",
+          "body": "Защитник задней линии Джейк Келли, фулбек Майкл Крис-Айк и линейный нападения Майка Вантерпул подписали соглашения ещё на два сезона. Лайнбекер Майкл Айерс останется ещё на один сезон.\n\nПо данным Global News, в 2026 году Келли впервые перехватил пас и сделал 34 захвата в защите. Крис-Айк, выступающий также в специальных командах, за последние два сезона не пропустил ни одного матча.",
+          "photoAlt": "Матч «Блу Бомберс» на домашнем стадионе в Виннипеге.",
+          "photoCaption": "Матч «Блу Бомберс» на домашнем стадионе в Виннипеге. Архивное фото от 2 ноября 2013 г.."
+        },
+        "ko": {
+          "title": "위니펙 블루바머스, 선수 4명과 계약 연장",
+          "summary": "위니펙 블루바머스는 11월 25일 자유계약선수가 될 수 있었던 선수 네 명과 계약을 연장했다고 발표했다.",
+          "body": "디펜시브 백 제이크 켈리, 풀백 마이클 크리스아이크, 공격 라인맨 마이카 밴터풀은 두 시즌 더 뛰기로 했다. 라인배커 마이클 에이어스는 한 시즌 연장에 합의했다.\n\n글로벌뉴스에 따르면 켈리는 2026년에 첫 인터셉션을 기록하고 수비 태클 34개를 올렸다. 스페셜팀에서도 활약하는 크리스아이크는 지난 두 시즌 동안 한 경기도 빠지지 않았다.",
+          "photoAlt": "위니펙 홈구장에서 경기를 치르는 블루바머스.",
+          "photoCaption": "위니펙 홈구장에서 경기를 치르는 블루바머스. 자료 사진 촬영일 2013년 11월 2일."
+        }
+      }
+    }
+  ]
+}
