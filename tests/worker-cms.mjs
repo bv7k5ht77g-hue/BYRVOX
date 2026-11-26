@@ -1176,7 +1176,10 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
   const audit = (await db.prepare("SELECT snapshot FROM revisions WHERE article_id=? AND action='correction-photo-edition'").bind(row.id).all()).results;
   assert.equal(audit.length,1);
   assert.equal(JSON.parse(audit[0].snapshot).photo.alt,photo.alt);
-  assert.ok((await articlePage('fr')).includes(all[0].photo.caption));
+  const correctedPage = await articlePage('fr');
+  assert.ok(correctedPage.includes(all[0].photo.caption));
+  assert.match(correctedPage, /<iframe\b[^>]*\bsrc="https:\/\/embed\.bsky\.app\/embed\//);
+  assert.ok(correctedPage.includes(postCaption.fr));
   const storedPhoto = JSON.parse((await db.prepare('SELECT photo FROM articles WHERE id=?').bind(row.id).first()).photo);
   assert.equal(storedPhoto.blueskyPost,officialPost);
   const review = await edit({id:row.id,action:'review',version:after.version,title:corrected.title,summary:story.summary,

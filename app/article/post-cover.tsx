@@ -23,7 +23,7 @@ export function ArticlePostCover({ postUrl, caption, locale, children }: {
   children: ReactNode;
 }) {
   const frame = useRef<HTMLIFrameElement>(null);
-  const [theme, setTheme] = useState<string>();
+  const [theme, setTheme] = useState('system');
   const [height, setHeight] = useState(0);
   const parts = blueskyPostParts(postUrl);
   const linkLabel = originalPost[locale];
@@ -52,20 +52,22 @@ export function ArticlePostCover({ postUrl, caption, locale, children }: {
   if (!parts) return children;
   const src = embedOrigin + '/embed/' + parts.did + '/app.bsky.feed.post/' + parts.rkey + '?id=article-cover&colorMode=' + theme;
   return <div className="reader-post-cover">
-    {!height && children}
     <figure className="reader-embedded-post" lang={locale}>
-      {theme && <iframe ref={frame} src={src} title={caption ?? linkLabel} height={height || 150}
-        aria-hidden={height ? undefined : true} tabIndex={height ? undefined : -1}
-        className={height ? undefined : 'reader-embed-pending'} referrerPolicy="no-referrer"
-        sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" />}
+      <iframe ref={frame} src={src} title={caption ?? linkLabel} height={height || undefined}
+        className={height ? undefined : 'reader-embed-initial'}
+        sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" />
       <figcaption>
-        {height > 0 && caption && <span>{caption} </span>}
+        {caption && <span>{caption} </span>}
         <a href={postUrl}>{linkLabel}</a>
       </figcaption>
     </figure>
-    {height > 0 && children && <details className="reader-archive-photo">
+    {children && <details className="reader-archive-photo">
       <summary>{archiveLabel[locale]}</summary>
       {children}
     </details>}
+    <noscript>
+      <style>{'.reader-embedded-post iframe, .reader-archive-photo { display: none; }'}</style>
+      {children}
+    </noscript>
   </div>;
 }

@@ -120,9 +120,9 @@ html[data-theme="dark"] .reader-category { color: #ff8d9c }
 .reader-back:hover { text-decoration: underline; }
 .reader-main .cover-figure { margin: 28px 0 0; }
 .reader-post-cover { position: relative; margin-block-start: 28px; }
-.reader-embedded-post { max-inline-size: 600px; margin: 0 auto; }
+.reader-embedded-post { container-type: inline-size; max-inline-size: 600px; margin: 0 auto; }
 .reader-embedded-post iframe { display: block; border: 0; width: 100%; }
-.reader-embedded-post .reader-embed-pending { position: absolute; max-width: 600px; visibility: hidden; }
+.reader-embedded-post .reader-embed-initial { height: calc(125cqi + 10rem); }
 .reader-embedded-post figcaption { margin-block-start: .55rem; color: var(--muted); font-size: .8rem; line-height: 1.5; }
 .reader-embedded-post figcaption a { text-decoration: underline; text-underline-offset: .16em; }
 .reader-archive-photo { max-inline-size: 600px; margin: .8rem auto 0; }
