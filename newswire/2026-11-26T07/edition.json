@@ -1,0 +1,1120 @@
+{
+  "hour": "2026-11-26T07",
+  "articles": [
+    {
+      "eventKey": "asean-plus-trois-kyoto-paiements-numeriques",
+      "title": "À Kyoto, les pays de l’ASEAN+3 ouvrent un chantier sur les paiements numériques",
+      "category": "Monde",
+      "summary": "Un groupe de travail étudiera comment relier des réseaux de paiement conçus pour fonctionner à l’intérieur de chaque pays.",
+      "body": "Les pays de l’Asie du Sud-Est, la Chine, le Japon et la Corée du Sud ont convenu le 26 novembre à Kyoto de former un groupe de travail sur les paiements numériques transfrontaliers, selon Reuters.\n\nLe ministère japonais des Finances précise que la Banque du Japon a coprésidé la réunion pour le Japon. Les responsables veulent examiner comment relier des systèmes conçus pour les marchés nationaux et coordonner les règles applicables aux actifs numériques.",
+      "photo": {
+        "download": "media/asean-plus-trois-kyoto-paiements-numeriques.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bank_of_Japan_headquarters_in_Tokyo%2C_Japan.jpg",
+        "credit": "Fg2 / Wikimedia Commons · version WebP",
+        "license": "Domaine public — déclaration de l’auteur",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bank_of_Japan_headquarters_in_Tokyo%2C_Japan.jpg",
+        "alt": "Façade du siège de la Banque du Japon à Tokyo.",
+        "caption": "Archives, première publication · 2005-02-01 · Façade du siège de la Banque du Japon à Tokyo."
+      },
+      "sources": [
+        {
+          "name": "Ministère japonais des Finances",
+          "url": "https://www.mof.go.jp/english/policy/international_policy/convention/others/20261126.html",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/china-japan-south-korea-asean-launch-talks-digital-payments-across-borders-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "ASEAN+3 countries launch work on digital payments in Kyoto",
+          "body": "Southeast Asian countries, China, Japan and South Korea agreed in Kyoto on November 26 to form a working group on cross-border digital payments, Reuters reports.\n\nJapan’s finance ministry says the Bank of Japan co-chaired the meeting for Japan. Officials want to explore how to link systems built for domestic markets and coordinate rules for digital assets.",
+          "summary": "A working group will examine how to link payment networks designed for domestic use.",
+          "photoAlt": "Facade of the Bank of Japan headquarters in Tokyo.",
+          "photoCaption": "Archive, first published · 2005-02-01 · Facade of the Bank of Japan headquarters in Tokyo."
+        },
+        "es": {
+          "title": "Los países de ASEAN+3 inician en Kioto trabajos sobre pagos digitales",
+          "body": "Los países del sudeste asiático, China, Japón y Corea del Sur acordaron el 26 de noviembre en Kioto formar un grupo de trabajo sobre pagos digitales transfronterizos, según Reuters.\n\nEl Ministerio de Finanzas japonés indica que el Banco de Japón copresidió la reunión por Japón. Los responsables quieren estudiar cómo conectar sistemas diseñados para mercados nacionales y coordinar las reglas sobre activos digitales.",
+          "summary": "Un grupo de trabajo estudiará cómo conectar redes de pago diseñadas para uso nacional.",
+          "photoAlt": "Fachada del Banco de Japón en Tokio.",
+          "photoCaption": "Archivo, primera publicación · 2005-02-01 · Fachada del Banco de Japón en Tokio."
+        },
+        "ar": {
+          "title": "دول آسيان زائد ثلاثة تبدأ في كيوتو بحث ربط أنظمة الدفع الرقمي",
+          "body": "اتفقت دول جنوب شرق آسيا والصين واليابان وكوريا الجنوبية في كيوتو يوم 26 نوفمبر على تشكيل فريق عمل للمدفوعات الرقمية عبر الحدود، وفق رويترز.\n\nوقالت وزارة المالية اليابانية إن بنك اليابان شارك في رئاسة الاجتماع عن الجانب الياباني. ويريد المسؤولون دراسة ربط الأنظمة المصممة للأسواق المحلية وتنسيق القواعد الخاصة بالأصول الرقمية.",
+          "summary": "سيدرس فريق عمل سبل ربط شبكات الدفع المصممة للاستخدام المحلي.",
+          "photoAlt": "واجهة مقر بنك اليابان في طوكيو.",
+          "photoCaption": "أرشيف، أول نشر · 2005-02-01 · واجهة مقر بنك اليابان في طوكيو."
+        },
+        "zh-CN": {
+          "title": "东盟与中日韩在京都启动跨境数字支付合作",
+          "body": "据路透社报道，东南亚各国与中国、日本、韩国11月26日在京都同意成立跨境数字支付工作组。\n\n日本财务省表示，日本银行代表日方共同主持了会议。与会官员希望研究如何连接原本为国内市场设计的支付系统，以及如何协调数字资产监管规则。",
+          "summary": "工作组将研究如何连接各国原本供境内使用的支付网络。",
+          "photoAlt": "位于东京的日本银行总部外墙。",
+          "photoCaption": "档案照片，首次公布 · 2005-02-01 · 位于东京的日本银行总部外墙。"
+        },
+        "ru": {
+          "title": "Страны АСЕАН+3 в Киото начали работу над трансграничными цифровыми платежами",
+          "body": "26 ноября в Киото страны Юго-Восточной Азии, Китай, Япония и Южная Корея договорились создать рабочую группу по трансграничным цифровым платежам, сообщает Reuters.\n\nМинфин Японии сообщил, что Банк Японии сопредседательствовал на встрече от японской стороны. Участники изучат возможности соединения систем внутренних платежей и согласования правил для цифровых активов.",
+          "summary": "Рабочая группа изучит, как связать платёжные сети, созданные для внутреннего рынка.",
+          "photoAlt": "Фасад штаб-квартиры Банка Японии в Токио.",
+          "photoCaption": "Архив, первая публикация · 2005-02-01 · Фасад штаб-квартиры Банка Японии в Токио."
+        },
+        "ko": {
+          "title": "아세안+3, 교토에서 국경 간 디지털 결제 논의 착수",
+          "body": "로이터에 따르면 동남아시아 국가들과 한국·중국·일본이 11월 26일 교토에서 국경 간 디지털 결제 실무그룹을 구성하기로 했다.\n\n일본 재무성은 일본은행이 일본 측 공동 의장으로 회의에 참여했다고 밝혔다. 당국은 국내 시장용 결제망을 서로 연결하고 디지털 자산 규제를 조율하는 방안을 살펴볼 예정이다.",
+          "summary": "실무그룹이 국내용으로 설계된 결제망을 국가 간에 연결하는 방법을 검토한다.",
+          "photoAlt": "도쿄에 있는 일본은행 본점 정면.",
+          "photoCaption": "자료 사진, 최초 공개 · 2005-02-01 · 도쿄에 있는 일본은행 본점 정면."
+        }
+      }
+    },
+    {
+      "eventKey": "colombie-britannique-recomptages-kelowna-ladysmith-2026",
+      "title": "Deux recomptages confirment des victoires par moins de 50 voix en Colombie-Britannique",
+      "category": "Canada",
+      "summary": "À Kelowna Centre et dans Ladysmith-Oceanside, les juges confirment l’élection des deux candidates déjà en tête.",
+      "body": "En Colombie-Britannique, le dépouillement judiciaire laisse les deux sièges contestés aux candidates qui menaient au soir du scrutin provincial du 24 octobre, rapporte La Presse canadienne.\n\nSelon Elections BC, la conservatrice Kristina Loewen conserve Kelowna Centre avec 46 voix d’avance sur Loyal Wooldridge. Dans Ladysmith-Oceanside, c’est la néo-démocrate Stephanie Higginson qui l’emporte, par 47 voix sur le conservateur Kris McNichol.",
+      "photo": {
+        "download": "media/colombie-britannique-recomptages-kelowna-ladysmith-2026.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BC_Parliament_Buildings_in_Victoria.jpg",
+        "credit": "Alison Altena / Wikimedia Commons · version WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Port de Victoria devant les édifices du Parlement provincial.",
+        "caption": "Archives · 2014-08-01 · Port de Victoria devant les édifices du Parlement provincial."
+      },
+      "sources": [
+        {
+          "name": "Elections BC",
+          "url": "https://elections.bc.ca/news/ladysmith-oceanside-and-kelowna-centre-judicial-recounts-complete/",
+          "publishedAt": "2026-11-24T20:52:30Z"
+        },
+        {
+          "name": "La Presse canadienne / iNFOnews",
+          "url": "https://infonews.ca/news/7993874/judicial-recount-confirms-winner-of-two-ridings-in-bc-provincial-election/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Two British Columbia recounts confirm wins by fewer than 50 votes",
+          "body": "In British Columbia, judicial recounts have left both contested seats with the candidates who led on election night on October 24, The Canadian Press reports.\n\nAccording to Elections BC, Conservative Kristina Loewen retains Kelowna Centre by 46 votes over Loyal Wooldridge. In Ladysmith-Oceanside, New Democrat Stephanie Higginson wins by 47 votes over Conservative Kris McNichol.",
+          "summary": "Judges confirmed the two leading candidates in Kelowna Centre and Ladysmith-Oceanside.",
+          "photoAlt": "Victoria harbour in front of the provincial parliament buildings.",
+          "photoCaption": "Archive · 2014-08-01 · Victoria harbour in front of the provincial parliament buildings."
+        },
+        "es": {
+          "title": "Dos recuentos confirman victorias por menos de 50 votos en Columbia Británica",
+          "body": "En Columbia Británica, los recuentos judiciales dejan los dos escaños en disputa en manos de las candidatas que iban en cabeza la noche electoral del 24 de octubre, según The Canadian Press.\n\nSegún Elections BC, la conservadora Kristina Loewen conserva Kelowna Centre por 46 votos sobre Loyal Wooldridge. En Ladysmith-Oceanside, la neodemócrata Stephanie Higginson gana por 47 votos al conservador Kris McNichol.",
+          "summary": "Los jueces confirmaron a las dos candidatas que ya lideraban en Kelowna Centre y Ladysmith-Oceanside.",
+          "photoAlt": "Puerto de Victoria frente al Parlamento provincial.",
+          "photoCaption": "Archivo · 2014-08-01 · Puerto de Victoria frente al Parlamento provincial."
+        },
+        "ar": {
+          "title": "إعادة الفرز في دائرتين بكولومبيا البريطانية تؤكد الفوز بفارق أقل من 50 صوتا",
+          "body": "أبقت إعادة الفرز القضائية في كولومبيا البريطانية المقعدين المتنازع عليهما للمرشحتين اللتين تصدرتا النتائج ليلة انتخابات 24 أكتوبر، وفق وكالة الصحافة الكندية.\n\nوبحسب هيئة الانتخابات، احتفظت المحافظة كريستينا لوين بمقعد كيلونا سنتر بفارق 46 صوتا عن لويال وولدريدج. وفي ليديسميث أوشنسايد فازت ستيفاني هيغنسون من الحزب الديمقراطي الجديد بفارق 47 صوتا عن المحافظ كريس مكنيكول.",
+          "summary": "أكد القضاة فوز المرشحتين المتصدرتين في كيلونا سنتر وليديسميث أوشنسايد.",
+          "photoAlt": "ميناء فيكتوريا أمام مباني برلمان المقاطعة.",
+          "photoCaption": "أرشيف · 2014-08-01 · ميناء فيكتوريا أمام مباني برلمان المقاطعة."
+        },
+        "zh-CN": {
+          "title": "卑诗省两选区司法复点确认，两位胜者领先均不足50票",
+          "body": "据加拿大通讯社报道，卑诗省两个竞争激烈的议席在司法复点后仍由10月24日选举当晚领先的候选人获得。\n\n卑诗省选举局表示，保守党的克里斯蒂娜·洛温在基洛纳中心选区领先洛亚尔·伍尔德里奇46票，成功保住席位。在莱迪史密斯—大洋岸选区，新民主党的斯蒂芬妮·希金森以47票优势击败保守党的克里斯·麦克尼科尔。",
+          "summary": "法官确认基洛纳中心和莱迪史密斯—大洋岸两选区领先的候选人当选。",
+          "photoAlt": "省议会建筑群前的维多利亚港。",
+          "photoCaption": "档案照片 · 2014-08-01 · 省议会建筑群前的维多利亚港。"
+        },
+        "ru": {
+          "title": "Два пересчёта в Британской Колумбии подтвердили победы с отрывом менее 50 голосов",
+          "body": "Судебный пересчёт в Британской Колумбии оставил оба спорных мандата за кандидатками, лидировавшими в ночь выборов 24 октября, сообщает Canadian Press.\n\nПо данным Elections BC, консерватор Кристина Лоуэн сохранила округ Келоуна-Сентр, опередив Лояла Вулдриджа на 46 голосов. В округе Ледисмит-Оушенсайд Стефани Хиггинсон из Новой демократической партии опередила консерватора Криса Макникола на 47 голосов.",
+          "summary": "Судьи подтвердили победы лидировавших кандидаток в округах Келоуна-Сентр и Ледисмит-Оушенсайд.",
+          "photoAlt": "Гавань Виктории перед зданиями парламента провинции.",
+          "photoCaption": "Архив · 2014-08-01 · Гавань Виктории перед зданиями парламента провинции."
+        },
+        "ko": {
+          "title": "브리티시컬럼비아 두 선거구, 50표 미만 차이로 재검표 결과 확정",
+          "body": "캐나디안프레스에 따르면 브리티시컬럼비아 두 선거구에서 법원 재검표 결과 10월 24일 선거 당일 앞섰던 후보들이 의석을 지켰다.\n\n주 선거관리기관에 따르면 보수당 크리스티나 로언은 로열 울드리지를 46표 차로 앞서 킬로나 센터 의석을 유지했다. 레이디스미스오션사이드에서는 신민주당 스테퍼니 히긴슨이 보수당 크리스 맥니콜을 47표 차로 이겼다.",
+          "summary": "법원이 킬로나 센터와 레이디스미스오션사이드에서 선두였던 두 후보의 당선을 확정했다.",
+          "photoAlt": "주의회 건물 앞 빅토리아 항구.",
+          "photoCaption": "자료 사진 · 2014-08-01 · 주의회 건물 앞 빅토리아 항구."
+        }
+      }
+    },
+    {
+      "eventKey": "commission-europeenne-entente-parfums-amendes-novembre-2026",
+      "title": "Entente sur les parfums : Bruxelles inflige 471,9 millions d’euros d’amendes",
+      "category": "Économie",
+      "summary": "L’enquête européenne a porté notamment sur les échanges d’informations entre trois fournisseurs d’Unilever.",
+      "body": "La Commission européenne a sanctionné Firmenich, Givaudan et IFF le 25 novembre pour une entente qui a duré plus de quatre ans dans l’Espace économique européen. Les amendes totalisent 471,9 millions d’euros.\n\nBruxelles reproche aux trois fournisseurs d’avoir échangé des informations commerciales sensibles, notamment sur les prix pratiqués avec Unilever. Selon Reuters, Givaudan écope de la plus forte amende. Les parfums concernés entrent entre autres dans la composition de produits de lessive et de soins.",
+      "photo": {
+        "download": "media/commission-europeenne-entente-parfums-amendes-novembre-2026.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berlaymont_EU_Building-Brussels.jpg",
+        "credit": "acediscovery / Wikimedia Commons · version WebP",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.en",
+        "alt": "Façade du Berlaymont, siège de la Commission européenne à Bruxelles.",
+        "caption": "Archives · 2018-03-16 · Façade du Berlaymont, siège de la Commission européenne à Bruxelles."
+      },
+      "sources": [
+        {
+          "name": "Commission européenne",
+          "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2574/IP_26_2574_EN.pdf",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/eu-antitrust-regulators-fine-3-global-fragrance-makers-5165-million-taking-part-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Brussels imposes €471.9 million in fragrance cartel fines",
+          "body": "On November 25 the European Commission penalised Firmenich, Givaudan and IFF for a cartel that lasted more than four years in the European Economic Area. The fines total €471.9 million.\n\nBrussels says the three suppliers exchanged sensitive business information, including on pricing in dealings with Unilever. Reuters reports that Givaudan received the largest fine. The fragrances are used in products including detergents and personal care items.",
+          "summary": "The European investigation examined information exchanged by three of Unilever’s suppliers.",
+          "photoAlt": "Facade of the Berlaymont, the European Commission headquarters in Brussels.",
+          "photoCaption": "Archive · 2018-03-16 · Facade of the Berlaymont, the European Commission headquarters in Brussels."
+        },
+        "es": {
+          "title": "Bruselas multa con 471,9 millones de euros a un cártel de fragancias",
+          "body": "La Comisión Europea sancionó el 25 de noviembre a Firmenich, Givaudan e IFF por un cártel que duró más de cuatro años en el Espacio Económico Europeo. Las multas suman 471,9 millones de euros.\n\nBruselas afirma que los tres proveedores intercambiaron información comercial sensible, incluidos precios en sus tratos con Unilever. Según Reuters, Givaudan recibió la multa más alta. Las fragancias se usan, entre otros productos, en detergentes y artículos de cuidado personal.",
+          "summary": "La investigación europea examinó el intercambio de información entre tres proveedores de Unilever.",
+          "photoAlt": "Fachada del Berlaymont, sede de la Comisión Europea en Bruselas.",
+          "photoCaption": "Archivo · 2018-03-16 · Fachada del Berlaymont, sede de la Comisión Europea en Bruselas."
+        },
+        "ar": {
+          "title": "بروكسل تفرض غرامات بـ471.9 مليون يورو على تكتل للعطور",
+          "body": "عاقبت المفوضية الأوروبية في 25 نوفمبر شركات فيرمينيش وجيفودان وآي إف إف على تواطؤ استمر أكثر من أربع سنوات في المنطقة الاقتصادية الأوروبية. وبلغ مجموع الغرامات 471.9 مليون يورو.\n\nوقالت المفوضية إن الموردين الثلاثة تبادلوا معلومات تجارية حساسة شملت الأسعار في تعاملاتهم مع يونيليفر. وبحسب رويترز تحملت جيفودان أكبر غرامة. وتدخل العطور المعنية في صنع المنظفات ومنتجات العناية الشخصية وغيرها.",
+          "summary": "تناول التحقيق الأوروبي تبادل المعلومات بين ثلاثة موردين ليونيليفر.",
+          "photoAlt": "واجهة مبنى بيرليمون مقر المفوضية الأوروبية في بروكسل.",
+          "photoCaption": "أرشيف · 2018-03-16 · واجهة مبنى بيرليمون مقر المفوضية الأوروبية في بروكسل."
+        },
+        "zh-CN": {
+          "title": "欧盟就香料卡特尔开出4.719亿欧元罚单",
+          "body": "欧盟委员会11月25日处罚芬美意、奇华顿和国际香精香料公司，认定三家公司在欧洲经济区串通超过四年，罚款共计4.719亿欧元。\n\n欧委会称，三家供应商交换了敏感商业信息，包括与联合利华交易的价格。据路透社报道，奇华顿所受罚款最高。相关香料用于洗涤剂和个人护理用品等产品。",
+          "summary": "欧盟调查涉及联合利华三家供应商之间的信息交换。",
+          "photoAlt": "布鲁塞尔欧盟委员会总部贝尔莱蒙大厦外墙。",
+          "photoCaption": "档案照片 · 2018-03-16 · 布鲁塞尔欧盟委员会总部贝尔莱蒙大厦外墙。"
+        },
+        "ru": {
+          "title": "Брюссель оштрафовал участников картеля производителей отдушек на 471,9 млн евро",
+          "body": "25 ноября Еврокомиссия оштрафовала Firmenich, Givaudan и IFF за сговор, продолжавшийся более четырёх лет в Европейской экономической зоне. Штрафы составили 471,9 млн евро.\n\nПо данным Комиссии, три поставщика обменивались чувствительной коммерческой информацией, в том числе о ценах для Unilever. По сообщению Reuters, самый крупный штраф получила Givaudan. Эти отдушки используют, в частности, в моющих средствах и продуктах личной гигиены.",
+          "summary": "Расследование ЕС касалось обмена информацией между тремя поставщиками Unilever.",
+          "photoAlt": "Фасад здания Берлемон, штаб-квартиры Еврокомиссии в Брюсселе.",
+          "photoCaption": "Архив · 2018-03-16 · Фасад здания Берлемон, штаб-квартиры Еврокомиссии в Брюсселе."
+        },
+        "ko": {
+          "title": "EU, 향료 담합에 4억 7,190만 유로 과징금",
+          "body": "유럽연합 집행위원회는 11월 25일 유럽경제지역에서 4년 넘게 담합한 피르메니히, 지보단, IFF에 총 4억 7,190만 유로의 과징금을 부과했다.\n\n집행위는 세 공급업체가 유니레버와의 거래 가격 등 민감한 영업 정보를 교환했다고 밝혔다. 로이터에 따르면 지보단이 가장 큰 과징금을 받았다. 해당 향료는 세제와 개인 관리용품 등에 쓰인다.",
+          "summary": "EU 조사는 유니레버 공급업체 세 곳의 정보 교환을 다뤘다.",
+          "photoAlt": "브뤼셀 EU 집행위원회 본부 베를레몽 건물 정면.",
+          "photoCaption": "자료 사진 · 2018-03-16 · 브뤼셀 EU 집행위원회 본부 베를레몽 건물 정면."
+        }
+      }
+    },
+    {
+      "eventKey": "quebec-accompagnement-logement-supplement-loyer-novembre-2026",
+      "title": "Québec ajoute 10,2 millions de dollars pour aider des personnes vulnérables à rester logées",
+      "category": "Québec",
+      "summary": "Un volet de 3,3 millions de dollars jumellera accompagnement et supplément au loyer pour environ 700 personnes de plus.",
+      "body": "Le gouvernement du Québec consacre 6,9 millions de dollars au soutien de plus de 1 700 personnes vulnérables dans des projets de logements abordables. Paul St-Pierre Plamondon a présenté la mesure le 24 novembre dans la Basse-Ville de Québec, rapporte TVA Nouvelles.\n\nUne seconde enveloppe de 3,3 millions doit permettre d’accompagner environ 700 personnes supplémentaires d’ici le 31 mars 2027. Selon le gouvernement, cet accompagnement sera jumelé à un supplément au loyer. Les jeunes qui sortent d’un hébergement en protection de la jeunesse figurent parmi les personnes visées.",
+      "photo": {
+        "download": "media/quebec-accompagnement-logement-supplement-loyer-novembre-2026.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paul_St-Pierre_Plamondon.jpg",
+        "credit": "Alexis G. / Wikimedia Commons · version WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Paul St-Pierre Plamondon tient un micro lors d’une rencontre militante.",
+        "caption": "Archives · 2020-09-07 · Paul St-Pierre Plamondon tient un micro lors d’une rencontre militante."
+      },
+      "sources": [
+        {
+          "name": "Cabinet du premier ministre du Québec",
+          "url": "https://www.newswire.ca/fr/news-releases/prevention-de-l-itinerance-un-financement-de-10-millions-pour-renforcer-l-accompagnement-en-logement-816054383.html",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Bureau parlementaire / TVA Nouvelles",
+          "url": "https://www.tvanouvelles.ca/2026/11/24/une-deuxieme-annonce-pour-litinerance-avec-10-millions--pour-laccompagnement-des-plus-vulnerables",
+          "publishedAt": "2026-11-24T16:12:00-05:00"
+        },
+        {
+          "name": "Ma Beauce / La Presse canadienne",
+          "url": "https://mabeauce.com/2026/11/25/quebec-annonce-une-aide-supplementaire-de-10-millions/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Quebec adds $10.2 million to help vulnerable people stay housed",
+          "body": "Quebec is allocating $6.9 million to support more than 1,700 vulnerable people in affordable housing projects. Paul St-Pierre Plamondon presented the measure on November 24 in Quebec City’s Lower Town, TVA Nouvelles reports.\n\nA further $3.3 million is intended to support about 700 additional people by March 31, 2027. The government says the support will be paired with a rent supplement. Young people leaving youth protection placements are among those eligible.",
+          "summary": "A $3.3 million component will pair support with rent supplements for about 700 additional people.",
+          "photoAlt": "Paul St-Pierre Plamondon holds a microphone at a party gathering.",
+          "photoCaption": "Archive · 2020-09-07 · Paul St-Pierre Plamondon holds a microphone at a party gathering."
+        },
+        "es": {
+          "title": "Quebec suma 10,2 millones de dólares para que personas vulnerables conserven su vivienda",
+          "body": "Quebec asigna 6,9 millones de dólares para apoyar a más de 1.700 personas vulnerables en proyectos de vivienda asequible. Paul St-Pierre Plamondon presentó la medida el 24 de noviembre en la parte baja de la ciudad de Quebec, según TVA Nouvelles.\n\nOtros 3,3 millones permitirán acompañar a unas 700 personas más hasta el 31 de marzo de 2027. El Gobierno combinará ese apoyo con un suplemento para el alquiler. Entre los destinatarios hay jóvenes que salen del alojamiento del sistema de protección de menores.",
+          "summary": "Una partida de 3,3 millones combinará acompañamiento y ayudas al alquiler para unas 700 personas más.",
+          "photoAlt": "Paul St-Pierre Plamondon con un micrófono en una reunión de militantes.",
+          "photoCaption": "Archivo · 2020-09-07 · Paul St-Pierre Plamondon con un micrófono en una reunión de militantes."
+        },
+        "ar": {
+          "title": "كيبيك تضيف 10.2 ملايين دولار لمساعدة الفئات الهشة على الاحتفاظ بمساكنها",
+          "body": "تخصص كيبيك 6.9 ملايين دولار لدعم أكثر من 1700 شخص في أوضاع هشة في مشاريع الإسكان الميسّر. وعرض بول سان بيير بلاموندون التدبير في 24 نوفمبر بالمدينة السفلى في كيبيك، وفق TVA Nouvelles.\n\nويستهدف مبلغ إضافي قدره 3.3 ملايين دولار مساعدة نحو 700 شخص آخرين بحلول 31 مارس 2027. وقالت الحكومة إن الدعم سيقترن بإعانة للإيجار، ويشمل الشباب الذين يغادرون مساكن نظام حماية القاصرين.",
+          "summary": "سيجمع بند بقيمة 3.3 ملايين دولار بين الدعم وبدل الإيجار لنحو 700 شخص إضافي.",
+          "photoAlt": "بول سان بيير بلاموندون يحمل ميكروفونا في تجمع حزبي.",
+          "photoCaption": "أرشيف · 2020-09-07 · بول سان بيير بلاموندون يحمل ميكروفونا في تجمع حزبي."
+        },
+        "zh-CN": {
+          "title": "魁北克省增加1020万加元，帮助弱势居民稳定居住",
+          "body": "魁北克省拨款690万加元，支持可负担住房项目中超过1700名弱势居民。据TVA Nouvelles报道，保罗·圣皮埃尔·普拉蒙东11月24日在魁北克市下城区介绍了这项措施。\n\n另外330万加元预计将在2027年3月31日前帮助约700名新增受益者。省政府表示，这项支持将与租金补贴相结合。离开青少年保护系统安置住所的年轻人也属于支持对象。",
+          "summary": "其中330万加元将为约700名新增受益者提供服务和租金补贴。",
+          "photoAlt": "保罗·圣皮埃尔·普拉蒙东在党内集会上手持话筒。",
+          "photoCaption": "档案照片 · 2020-09-07 · 保罗·圣皮埃尔·普拉蒙东在党内集会上手持话筒。"
+        },
+        "ru": {
+          "title": "Квебек добавляет 10,2 млн долларов на помощь уязвимым жителям в сохранении жилья",
+          "body": "Квебек выделяет 6,9 млн долларов на поддержку более 1700 уязвимых жителей в проектах доступного жилья. По данным TVA Nouvelles, 24 ноября Поль Сен-Пьер Пламондон представил меру в Нижнем городе Квебека.\n\nЕщё 3,3 млн долларов позволят помочь примерно 700 дополнительным получателям до 31 марта 2027 года. По данным правительства, поддержка будет сочетаться с доплатой на аренду. В число получателей входят молодые люди, покидающие учреждения системы защиты детей.",
+          "summary": "Часть средств в 3,3 млн долларов пойдёт на сопровождение и доплаты на аренду ещё примерно для 700 человек.",
+          "photoAlt": "Поль Сен-Пьер Пламондон с микрофоном на партийной встрече.",
+          "photoCaption": "Архив · 2020-09-07 · Поль Сен-Пьер Пламондон с микрофоном на партийной встрече."
+        },
+        "ko": {
+          "title": "퀘벡주, 취약계층 주거 안정에 1,020만 달러 추가 지원",
+          "body": "퀘벡주는 부담 가능한 주택 사업에 거주하는 취약계층 1,700여 명을 지원하기 위해 690만 캐나다달러를 배정한다. TVA Nouvelles에 따르면 폴 생피에르 플라몽동은 11월 24일 퀘벡시 로어타운에서 이 조치를 발표했다.\n\n추가로 330만 달러를 투입해 2027년 3월 31일까지 약 700명을 더 지원한다. 주정부는 이들에게 임대료 보조도 함께 제공한다고 밝혔다. 아동 보호시설을 떠나는 청년들도 지원 대상이다.",
+          "summary": "330만 달러를 들여 약 700명에게 추가로 지원 서비스와 임대료 보조를 제공한다.",
+          "photoAlt": "당원 모임에서 마이크를 든 폴 생피에르 플라몽동.",
+          "photoCaption": "자료 사진 · 2020-09-07 · 당원 모임에서 마이크를 든 폴 생피에르 플라몽동."
+        }
+      }
+    },
+    {
+      "eventKey": "accords-bilateraux-suisse-consentement-parlement-europeen",
+      "title": "À Strasbourg, les eurodéputés approuvent les accords avec la Suisse",
+      "category": "Monde",
+      "summary": "Le scrutin sur les relations avec Berne se solde par 584 voix pour et 13 contre.",
+      "body": "Le Parlement européen a donné son feu vert le 25 novembre au paquet d’accords négocié entre l’Union européenne et la Suisse. Le Temps rapporte que le vote à Strasbourg s’est soldé par 584 voix pour et 13 contre.\n\nLe dossier parlementaire prévoit la modernisation de cinq accords qui donnent à la Suisse accès à des pans du marché intérieur, notamment dans les transports et les échanges agricoles. Le consentement des députés est une étape requise pour que le Conseil puisse conclure les accords.",
+      "photo": {
+        "download": "media/accords-bilateraux-suisse-consentement-parlement-europeen.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hemicycle_of_European_Parliament%2C_Strasbourg%2C_with_chamber_orchestra_performing.jpg",
+        "credit": "inyucho / Wikimedia Commons · version WebP",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.en",
+        "alt": "Rangées de sièges de l’hémicycle du Parlement européen à Strasbourg.",
+        "caption": "Archives · 2008-03-12 · Rangées de sièges de l’hémicycle du Parlement européen à Strasbourg."
+      },
+      "sources": [
+        {
+          "name": "Le Temps",
+          "url": "https://www.letemps.ch/en/switzerland/bilaterals-iii-glide-through-the-european-parliament-like-a-knife-through-butter-with-a-resounding-yes",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Parlement européen — dossier législatif",
+          "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-document-summary/pdf?id=1821314",
+          "publishedAt": "2025-06-13"
+        },
+        {
+          "name": "EP Votes — scrutin nominal",
+          "url": "https://epvotes.com/votes/200559",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "European Parliament approves agreements with Switzerland in Strasbourg",
+          "body": "On November 25 the European Parliament backed the package of agreements negotiated between the EU and Switzerland. Le Temps reports that the Strasbourg vote was 584 in favour and 13 against.\n\nParliament’s file provides for modernising five agreements that give Switzerland access to parts of the single market, including transport and agricultural trade. Lawmakers’ consent is required before the Council can conclude the agreements.",
+          "summary": "The vote on relations with Bern ended with 584 in favour and 13 against.",
+          "photoAlt": "Rows of seats in the European Parliament chamber in Strasbourg.",
+          "photoCaption": "Archive · 2008-03-12 · Rows of seats in the European Parliament chamber in Strasbourg."
+        },
+        "es": {
+          "title": "La Eurocámara aprueba en Estrasburgo los acuerdos con Suiza",
+          "body": "El Parlamento Europeo respaldó el 25 de noviembre el paquete de acuerdos negociado entre la UE y Suiza. Según Le Temps, la votación en Estrasburgo se saldó con 584 votos a favor y 13 en contra.\n\nEl expediente prevé modernizar cinco acuerdos que dan a Suiza acceso a partes del mercado interior, como los transportes y el comercio agrícola. El consentimiento de los diputados es necesario para que el Consejo pueda concluir los acuerdos.",
+          "summary": "La votación sobre las relaciones con Berna se saldó con 584 votos a favor y 13 en contra.",
+          "photoAlt": "Filas de escaños en el hemiciclo europeo en Estrasburgo.",
+          "photoCaption": "Archivo · 2008-03-12 · Filas de escaños en el hemiciclo europeo en Estrasburgo."
+        },
+        "ar": {
+          "title": "البرلمان الأوروبي يوافق في ستراسبورغ على اتفاقات مع سويسرا",
+          "body": "أيد البرلمان الأوروبي في 25 نوفمبر حزمة الاتفاقات التي تفاوض عليها الاتحاد مع سويسرا. وبحسب صحيفة لو تان، أيد الحزمة في ستراسبورغ 584 نائبا وعارضها 13.\n\nوينص الملف البرلماني على تحديث خمسة اتفاقات تتيح لسويسرا الوصول إلى قطاعات من السوق الموحدة، منها النقل والتجارة الزراعية. وموافقة النواب خطوة لازمة كي يتمكن المجلس من إبرام الاتفاقات.",
+          "summary": "انتهى التصويت على العلاقات مع برن بتأييد 584 نائبا ومعارضة 13.",
+          "photoAlt": "صفوف مقاعد البرلمان الأوروبي في ستراسبورغ.",
+          "photoCaption": "أرشيف · 2008-03-12 · صفوف مقاعد البرلمان الأوروبي في ستراسبورغ."
+        },
+        "zh-CN": {
+          "title": "欧洲议会在斯特拉斯堡批准与瑞士的一揽子协议",
+          "body": "欧洲议会11月25日通过欧盟与瑞士谈判达成的一揽子协议。据《时报》报道，在斯特拉斯堡举行的表决中，584票赞成，13票反对。\n\n议会文件显示，五项现有协议将更新。这些协议使瑞士得以进入欧盟单一市场的若干领域，包括运输和农产品贸易。议会同意是理事会正式缔结协议的必要步骤。",
+          "summary": "关于对瑞关系的表决获584票赞成、13票反对。",
+          "photoAlt": "斯特拉斯堡欧洲议会议事厅内的座席。",
+          "photoCaption": "档案照片 · 2008-03-12 · 斯特拉斯堡欧洲议会议事厅内的座席。"
+        },
+        "ru": {
+          "title": "Европарламент в Страсбурге одобрил соглашения со Швейцарией",
+          "body": "25 ноября Европарламент поддержал пакет соглашений, согласованных ЕС и Швейцарией. По данным Le Temps, в Страсбурге 584 депутата проголосовали за и 13 против.\n\nСогласно материалам парламента, будут обновлены пять соглашений, дающих Швейцарии доступ к отдельным секторам единого рынка, включая транспорт и торговлю сельхозпродукцией. Согласие депутатов необходимо Совету для заключения соглашений.",
+          "summary": "За соглашения с Берном проголосовали 584 депутата, против — 13.",
+          "photoAlt": "Ряды мест в зале Европарламента в Страсбурге.",
+          "photoCaption": "Архив · 2008-03-12 · Ряды мест в зале Европарламента в Страсбурге."
+        },
+        "ko": {
+          "title": "유럽의회, 스트라스부르에서 스위스와의 협정 패키지 승인",
+          "body": "유럽의회가 11월 25일 EU와 스위스가 협상한 일련의 협정을 승인했다. 르탕에 따르면 스트라스부르 표결에서 찬성 584표, 반대 13표가 나왔다.\n\n의회 자료에 따르면 운송 및 농산물 교역 등 스위스에 EU 단일시장 일부를 개방하는 기존 협정 다섯 건을 개정한다. 이사회가 협정을 체결하려면 의회의 동의가 필요하다.",
+          "summary": "스위스와의 관계를 다룬 표결에서 찬성 584표, 반대 13표가 나왔다.",
+          "photoAlt": "스트라스부르 유럽의회 본회의장에 늘어선 의석.",
+          "photoCaption": "자료 사진 · 2008-03-12 · 스트라스부르 유럽의회 본회의장에 늘어선 의석."
+        }
+      }
+    },
+    {
+      "eventKey": "saskatchewan-deficit-mi-exercice-novembre-2026",
+      "title": "La Saskatchewan prévoit un déficit de 784 millions de dollars à mi-exercice",
+      "category": "Canada",
+      "summary": "La hausse des recettes liées aux ressources atténue le déficit prévu malgré des dépenses de santé plus élevées.",
+      "body": "La Saskatchewan prévoit terminer l’exercice 2026-2027 avec un déficit de 784 millions de dollars. Dans sa mise à jour du 25 novembre, le gouvernement attribue une partie de l’amélioration des revenus aux prix du pétrole, de la potasse et de l’uranium.\n\nLes dépenses augmentent aussi par rapport au budget. La province prévoit 633 millions de dollars de dépenses additionnelles, dont 350 millions en santé. Les recettes supplémentaires ne suffisent donc pas à équilibrer les comptes, comme le souligne La Presse canadienne.",
+      "photo": {
+        "download": "media/saskatchewan-deficit-mi-exercice-novembre-2026.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saskatchewan_Legislative_Building_-_Regina.jpg",
+        "credit": "Quintin Soloviev / Wikimedia Commons · version WebP",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.en",
+        "alt": "Dôme et façade de l’Assemblée législative de la Saskatchewan à Regina.",
+        "caption": "Archives · 2025-10-03 · Dôme et façade de l’Assemblée législative de la Saskatchewan à Regina."
+      },
+      "sources": [
+        {
+          "name": "Gouvernement de la Saskatchewan",
+          "url": "https://www.saskatchewan.ca/government/news-and-media/2026/november/25/government-of-saskatchewan-releases-mid-year-financial-report",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "La Presse canadienne / Global News",
+          "url": "https://globalnews.ca/news/12165718/saskatchewan-deficit-forecast-shrink/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Saskatchewan forecasts $784 million deficit at mid-year",
+          "body": "Saskatchewan expects to end fiscal 2026–27 with a $784 million deficit. In its November 25 update the government attributed some of the improvement in revenue to oil, potash and uranium prices.\n\nSpending is also rising relative to budget. The province forecasts $633 million in additional expenses, including $350 million in health. As The Canadian Press notes, the additional revenue is insufficient to balance the books.",
+          "summary": "Higher resource revenue eases the projected deficit despite increased health spending.",
+          "photoAlt": "Dome and facade of Saskatchewan’s legislature in Regina.",
+          "photoCaption": "Archive · 2025-10-03 · Dome and facade of Saskatchewan’s legislature in Regina."
+        },
+        "es": {
+          "title": "Saskatchewan prevé un déficit de 784 millones de dólares a mitad de ejercicio",
+          "body": "Saskatchewan prevé cerrar el ejercicio 2026-2027 con un déficit de 784 millones de dólares. En su actualización del 25 de noviembre, el Gobierno atribuyó parte de la mejora de los ingresos a los precios del petróleo, la potasa y el uranio.\n\nEl gasto también supera lo presupuestado. La provincia prevé 633 millones adicionales, incluidos 350 millones en salud. Como señala The Canadian Press, los ingresos adicionales son insuficientes para equilibrar las cuentas.",
+          "summary": "Los mayores ingresos por recursos reducen el déficit previsto pese al aumento del gasto sanitario.",
+          "photoAlt": "Cúpula y fachada de la legislatura de Saskatchewan en Regina.",
+          "photoCaption": "Archivo · 2025-10-03 · Cúpula y fachada de la legislatura de Saskatchewan en Regina."
+        },
+        "ar": {
+          "title": "ساسكاتشوان تتوقع عجزا قدره 784 مليون دولار في مراجعة منتصف السنة",
+          "body": "تتوقع ساسكاتشوان إنهاء السنة المالية 2026-2027 بعجز 784 مليون دولار. وعزت الحكومة في تحديثها يوم 25 نوفمبر جزءا من تحسن الإيرادات إلى أسعار النفط والبوتاس واليورانيوم.\n\nوترتفع النفقات أيضا عن الموازنة، إذ تتوقع المقاطعة نفقات إضافية قدرها 633 مليون دولار، منها 350 مليونا للصحة. وكما تشير وكالة الصحافة الكندية، لا تكفي الإيرادات الإضافية لموازنة الحسابات.",
+          "summary": "تخفف إيرادات الموارد المرتفعة العجز المتوقع رغم زيادة الإنفاق الصحي.",
+          "photoAlt": "قبة وواجهة المجلس التشريعي لساسكاتشوان في ريجاينا.",
+          "photoCaption": "أرشيف · 2025-10-03 · قبة وواجهة المجلس التشريعي لساسكاتشوان في ريجاينا."
+        },
+        "zh-CN": {
+          "title": "萨斯喀彻温省年中预计财政赤字为7.84亿加元",
+          "body": "萨斯喀彻温省预计2026至2027财年赤字为7.84亿加元。省政府在11月25日的更新中表示，石油、钾肥和铀的价格是收入改善的部分原因。\n\n支出也高于预算。该省预计增加6.33亿加元支出，其中3.5亿用于医疗。据加拿大通讯社报道，新增收入仍不足以实现收支平衡。",
+          "summary": "资源收入增加缓解了预计赤字，尽管医疗支出也在上升。",
+          "photoAlt": "里贾纳的萨斯喀彻温省议会大楼圆顶及正面。",
+          "photoCaption": "档案照片 · 2025-10-03 · 里贾纳的萨斯喀彻温省议会大楼圆顶及正面。"
+        },
+        "ru": {
+          "title": "Саскачеван прогнозирует дефицит в 784 млн долларов по итогам полугодового обзора",
+          "body": "Саскачеван ожидает дефицит в 784 млн долларов по итогам 2026/27 финансового года. В обновлённом прогнозе от 25 ноября правительство отчасти объяснило рост поступлений ценами на нефть, калийные соли и уран.\n\nРасходы также превышают бюджет. Провинция прогнозирует дополнительные затраты в 633 млн долларов, включая 350 млн на здравоохранение. Как отмечает Canadian Press, дополнительных поступлений недостаточно для сбалансирования бюджета.",
+          "summary": "Рост доходов от ресурсов уменьшил прогноз дефицита, несмотря на рост расходов на здравоохранение.",
+          "photoAlt": "Купол и фасад законодательного собрания Саскачевана в Реджайне.",
+          "photoCaption": "Архив · 2025-10-03 · Купол и фасад законодательного собрания Саскачевана в Реджайне."
+        },
+        "ko": {
+          "title": "서스캐처원주, 중간 재정 전망에서 7억 8,400만 달러 적자 예상",
+          "body": "서스캐처원주는 2026~2027 회계연도를 7억 8,400만 캐나다달러 적자로 마감할 것으로 예상한다. 주정부는 11월 25일 발표에서 석유·칼륨염·우라늄 가격을 세입 개선의 일부 요인으로 들었다.\n\n지출도 예산보다 늘어난다. 추가 지출 예상액은 6억 3,300만 달러이며 이 중 3억 5,000만 달러가 보건 분야다. 캐나디안프레스가 전했듯이 늘어난 수입으로도 재정 균형에는 미치지 못한다.",
+          "summary": "자원 수입 증가로 보건 지출이 늘어도 예상 적자는 줄었다.",
+          "photoAlt": "리자이나에 있는 서스캐처원주의회 건물의 돔과 정면.",
+          "photoCaption": "자료 사진 · 2025-10-03 · 리자이나에 있는 서스캐처원주의회 건물의 돔과 정면."
+        }
+      }
+    },
+    {
+      "eventKey": "chaudiere-appalaches-fiq-onze-postes-soins",
+      "title": "La FIQ conteste la suppression de onze postes en Chaudière-Appalaches",
+      "category": "Québec",
+      "summary": "Trois centres d’hébergement et l’unité de soins palliatifs de l’Hôtel-Dieu de Lévis figurent parmi les services touchés.",
+      "body": "La Fédération interprofessionnelle de la santé du Québec a demandé le 25 novembre à Santé Québec de revenir sur la suppression de onze postes en Chaudière-Appalaches. Selon le syndicat, une infirmière et dix infirmières auxiliaires ont appris le 26 octobre que leurs postes disparaîtraient au plus tard le 28 novembre.\n\nInfo-web rapporte que la décision touche notamment trois CHSLD et l’unité de soins palliatifs de l’Hôtel-Dieu de Lévis. La FIQ craint une hausse de la charge de travail et des interruptions de services pour les résidents.",
+      "photo": {
+        "download": "media/chaudiere-appalaches-fiq-onze-postes-soins.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hotel_Dieu_De_Levis.jpg",
+        "credit": "Gabriel Soucy / Wikimedia Commons · version WebP",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.en",
+        "alt": "Vue en hauteur de l’Hôtel-Dieu de Lévis.",
+        "caption": "Archives · 2023-09-07 · Vue en hauteur de l’Hôtel-Dieu de Lévis."
+      },
+      "sources": [
+        {
+          "name": "Fédération interprofessionnelle de la santé du Québec",
+          "url": "https://www.fiqsante.qc.ca/abolitions-de-postes-en-chaudiere-appalaches-la-fiq-denonce-une-decision-indigne-qui-met-en-peril-les-soins-aux-personnes-agees-et-vulnerables/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Info-web",
+          "url": "https://info-web.ca/la-fiq-denonce-labolition-de-11-postes-en-chaudiere-appalaches/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Quebec nurses’ union contests eleven job cuts in Chaudière-Appalaches",
+          "body": "On November 25 the FIQ health workers’ union asked Santé Québec to reverse eleven job cuts in Chaudière-Appalaches. The union says one registered nurse and ten licensed practical nurses were informed on October 26 that their positions would end by November 28.\n\nInfo-web reports that the decision affects three long-term care homes and the palliative care unit at Hôtel-Dieu de Lévis, among other sites. The union fears heavier workloads and service interruptions for residents.",
+          "summary": "Three care homes and the palliative care unit at Hôtel-Dieu de Lévis are among the services affected.",
+          "photoAlt": "Elevated view of Hôtel-Dieu de Lévis.",
+          "photoCaption": "Archive · 2023-09-07 · Elevated view of Hôtel-Dieu de Lévis."
+        },
+        "es": {
+          "title": "La FIQ cuestiona la supresión de once puestos en Chaudière-Appalaches",
+          "body": "El sindicato sanitario FIQ pidió el 25 de noviembre a Santé Québec que revoque la supresión de once puestos en Chaudière-Appalaches. Según el sindicato, una enfermera y diez auxiliares de enfermería supieron el 26 de octubre que sus puestos desaparecerían a más tardar el 28 de noviembre.\n\nInfo-web informa de que la decisión afecta, entre otros centros, a tres residencias de cuidados prolongados y a la unidad de cuidados paliativos del Hôtel-Dieu de Lévis. La FIQ teme sobrecarga laboral e interrupciones del servicio para los residentes.",
+          "summary": "Entre los servicios afectados hay tres residencias y la unidad de cuidados paliativos del Hôtel-Dieu de Lévis.",
+          "photoAlt": "Vista elevada del Hôtel-Dieu de Lévis.",
+          "photoCaption": "Archivo · 2023-09-07 · Vista elevada del Hôtel-Dieu de Lévis."
+        },
+        "ar": {
+          "title": "نقابة صحية تعترض على إلغاء 11 وظيفة في شوديير أبالاش",
+          "body": "طلبت نقابة العاملين في الصحة FIQ يوم 25 نوفمبر من هيئة سانتي كيبيك التراجع عن إلغاء 11 وظيفة في شوديير أبالاش. وبحسب النقابة أُبلغت ممرضة وعشر ممرضات مساعدات يوم 26 أكتوبر بإلغاء وظائفهن بحلول 28 نوفمبر.\n\nوأفاد موقع Info-web بأن القرار يشمل ثلاثة مراكز للرعاية الطويلة الأمد ووحدة الرعاية التلطيفية في مستشفى أوتيل ديو في ليفي، بين مواقع أخرى. وتخشى النقابة زيادة أعباء العمل وانقطاع الخدمات عن المقيمين.",
+          "summary": "تشمل الخدمات المتأثرة ثلاثة مراكز للرعاية ووحدة الرعاية التلطيفية في أوتيل ديو في ليفي.",
+          "photoAlt": "منظر من أعلى لمستشفى أوتيل ديو في ليفي.",
+          "photoCaption": "أرشيف · 2023-09-07 · منظر من أعلى لمستشفى أوتيل ديو في ليفي."
+        },
+        "zh-CN": {
+          "title": "魁北克护理工会反对肖迪耶尔—阿巴拉什地区裁撤11个岗位",
+          "body": "护理工会FIQ于11月25日要求魁北克卫生机构撤回在肖迪耶尔—阿巴拉什地区裁撤11个岗位的决定。工会表示，一名注册护士和十名助理护士10月26日获悉，其岗位最迟将于11月28日取消。\n\n据Info-web报道，受影响的机构包括三家长期护理中心和莱维主宫医院的姑息治疗病区。工会担心工作负担加重，住户所获服务可能中断。",
+          "summary": "受影响的服务包括三家护理中心及莱维主宫医院的姑息治疗病区。",
+          "photoAlt": "从高处俯瞰莱维主宫医院。",
+          "photoCaption": "档案照片 · 2023-09-07 · 从高处俯瞰莱维主宫医院。"
+        },
+        "ru": {
+          "title": "Профсоюз оспаривает сокращение одиннадцати должностей в Шодьер-Аппалаш",
+          "body": "25 ноября профсоюз медработников FIQ призвал Santé Québec отменить сокращение одиннадцати должностей в Шодьер-Аппалаш. По данным профсоюза, 26 октября одна медсестра и десять младших медсестёр узнали, что их должности упразднят не позднее 28 ноября.\n\nКак сообщает Info-web, решение затронуло, в частности, три учреждения длительного ухода и отделение паллиативной помощи больницы Отель-Дьё в Леви. FIQ опасается роста нагрузки и перебоев в обслуживании проживающих.",
+          "summary": "Среди затронутых служб — три учреждения ухода и паллиативное отделение больницы в Леви.",
+          "photoAlt": "Вид сверху на больницу Отель-Дьё в Леви.",
+          "photoCaption": "Архив · 2023-09-07 · Вид сверху на больницу Отель-Дьё в Леви."
+        },
+        "ko": {
+          "title": "퀘벡 보건노조, 쇼디에르아팔라슈 간호직 11개 감축에 반발",
+          "body": "보건노조 FIQ는 11월 25일 퀘벡 보건당국에 쇼디에르아팔라슈 지역 일자리 11개 감축을 철회하라고 요구했다. 노조에 따르면 간호사 한 명과 실무간호사 열 명이 10월 26일 자신의 직책이 11월 28일까지 폐지된다는 통보를 받았다.\n\n인포웹에 따르면 장기요양시설 세 곳과 레비 오텔디외 병원 완화의료 병동 등이 영향을 받는다. 노조는 업무량 증가와 입소자 서비스 차질을 우려한다.",
+          "summary": "장기요양시설 세 곳과 레비 오텔디외 병원 완화의료 병동 등이 영향을 받는다.",
+          "photoAlt": "높은 곳에서 본 레비 오텔디외 병원.",
+          "photoCaption": "자료 사진 · 2023-09-07 · 높은 곳에서 본 레비 오텔디외 병원."
+        }
+      }
+    },
+    {
+      "eventKey": "france-procedure-deficit-avis-budget-europe-2027",
+      "title": "Déficit français : la Commission européenne maintient la procédure en suspens",
+      "category": "Économie",
+      "summary": "L’avis de Bruxelles laisse à Paris une limite recommandée de 1,2 % pour la progression des dépenses nettes en 2027.",
+      "body": "Dans son avis du 24 novembre sur le projet de budget français pour 2027, la Commission européenne laisse en suspens la procédure pour déficit excessif. La France reste soumise aux limites de progression des dépenses nettes recommandées par le Conseil.\n\nPour 2027, cette recommandation fixe un plafond de croissance des dépenses nettes de 1,2 %. L’avis européen intervient alors que le budget doit encore être adopté par le Parlement français. Le Monde souligne la difficulté de réunir une majorité pour le faire voter.",
+      "photo": {
+        "download": "media/france-procedure-deficit-avis-budget-europe-2027.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berlaymont_EU_Building-Brussels.jpg",
+        "credit": "acediscovery / Wikimedia Commons · version WebP",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.en",
+        "alt": "Façade courbe du siège de la Commission européenne à Bruxelles.",
+        "caption": "Archives · 2018-03-16 · Façade courbe du siège de la Commission européenne à Bruxelles."
+      },
+      "sources": [
+        {
+          "name": "Commission européenne — avis sur la France",
+          "url": "https://economy-finance.ec.europa.eu/document/download/d9859437-3474-40c0-a9a9-3c4924ee7601_en?filename=C_2026_9506_1_EN_France_v2.pdf",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Le Monde",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/11/25/the-european-commission-shows-leniency-regarding-france-s-budget-situation_6787882_19.html",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "European Commission keeps French deficit proceedings on hold",
+          "body": "In its November 24 opinion on France’s draft 2027 budget, the European Commission kept the excessive deficit procedure on hold. France remains subject to the limits on net expenditure growth recommended by the Council.\n\nFor 2027 the recommendation caps net expenditure growth at 1.2%. The European opinion comes while France’s parliament still has to pass the budget. Le Monde notes the difficulty of assembling a majority for the vote.",
+          "summary": "Brussels’ opinion leaves Paris with a recommended 1.2% ceiling on net spending growth in 2027.",
+          "photoAlt": "Curved facade of the European Commission headquarters in Brussels.",
+          "photoCaption": "Archive · 2018-03-16 · Curved facade of the European Commission headquarters in Brussels."
+        },
+        "es": {
+          "title": "La Comisión Europea mantiene en suspenso el procedimiento por déficit francés",
+          "body": "En su dictamen del 24 de noviembre sobre el proyecto presupuestario francés de 2027, la Comisión Europea mantiene en suspenso el procedimiento por déficit excesivo. Francia sigue sujeta a los límites al crecimiento del gasto neto recomendados por el Consejo.\n\nPara 2027 la recomendación limita ese crecimiento al 1,2 %. El dictamen llega cuando el Parlamento francés aún debe aprobar el presupuesto. Le Monde destaca la dificultad de reunir una mayoría para votarlo.",
+          "summary": "Bruselas mantiene para París un límite recomendado del 1,2 % al crecimiento del gasto neto en 2027.",
+          "photoAlt": "Fachada curva de la sede de la Comisión Europea en Bruselas.",
+          "photoCaption": "Archivo · 2018-03-16 · Fachada curva de la sede de la Comisión Europea en Bruselas."
+        },
+        "ar": {
+          "title": "المفوضية الأوروبية تبقي إجراءات العجز الفرنسي معلقة",
+          "body": "أبقت المفوضية الأوروبية في رأيها الصادر في 24 نوفمبر بشأن مشروع موازنة فرنسا لعام 2027 إجراءات العجز المفرط معلقة. وتظل فرنسا خاضعة للحدود التي أوصى بها المجلس لنمو صافي الإنفاق.\n\nوتحدد التوصية سقفا لنمو صافي الإنفاق عند 1.2% لعام 2027. ويأتي الرأي الأوروبي فيما لا يزال على البرلمان الفرنسي إقرار الموازنة. وتشير لوموند إلى صعوبة حشد أغلبية للتصويت عليها.",
+          "summary": "يبقي رأي بروكسل على سقف موصى به لفرنسا قدره 1.2% لنمو صافي الإنفاق في 2027.",
+          "photoAlt": "الواجهة المنحنية لمقر المفوضية الأوروبية في بروكسل.",
+          "photoCaption": "أرشيف · 2018-03-16 · الواجهة المنحنية لمقر المفوضية الأوروبية في بروكسل."
+        },
+        "zh-CN": {
+          "title": "欧委会继续暂缓对法国推进过度赤字程序",
+          "body": "欧盟委员会11月24日就法国2027年预算草案发表意见，继续暂缓推进过度赤字程序。法国仍须遵守理事会建议的净支出增长上限。\n\n根据建议，2027年净支出增幅上限为1.2%。欧委会发表意见之际，法国议会尚未通过预算。《世界报》指出，争取多数议员支持仍有难度。",
+          "summary": "布鲁塞尔维持法国2027年净支出增长1.2%的建议上限。",
+          "photoAlt": "布鲁塞尔欧盟委员会总部的弧形外墙。",
+          "photoCaption": "档案照片 · 2018-03-16 · 布鲁塞尔欧盟委员会总部的弧形外墙。"
+        },
+        "ru": {
+          "title": "Еврокомиссия оставила приостановленной процедуру по дефициту Франции",
+          "body": "В заключении от 24 ноября о проекте французского бюджета на 2027 год Еврокомиссия оставила процедуру по чрезмерному дефициту приостановленной. Для Франции сохраняются рекомендованные Советом пределы роста чистых расходов.\n\nНа 2027 год рекомендация предусматривает предел роста в 1,2%. Французскому парламенту ещё предстоит принять бюджет. Le Monde отмечает трудности с формированием большинства для голосования.",
+          "summary": "Брюссель сохранил для Франции рекомендованный потолок роста чистых расходов в 1,2% на 2027 год.",
+          "photoAlt": "Изогнутый фасад штаб-квартиры Еврокомиссии в Брюсселе.",
+          "photoCaption": "Архив · 2018-03-16 · Изогнутый фасад штаб-квартиры Еврокомиссии в Брюсселе."
+        },
+        "ko": {
+          "title": "EU 집행위, 프랑스 과도한 재정적자 절차 보류 유지",
+          "body": "EU 집행위원회는 11월 24일 프랑스의 2027년 예산안에 대한 의견에서 과도한 재정적자 절차를 계속 보류했다. 프랑스에는 이사회가 권고한 순지출 증가 한도가 계속 적용된다.\n\n권고안의 2027년 순지출 증가율 상한은 1.2%다. 집행위가 의견을 낸 시점에 프랑스 의회는 아직 예산안을 통과시키지 않았다. 르몽드는 가결에 필요한 과반을 모으기 어렵다고 전했다.",
+          "summary": "집행위는 프랑스의 2027년 순지출 증가율 권고 상한을 1.2%로 유지했다.",
+          "photoAlt": "브뤼셀 EU 집행위원회 본부의 굽은 외벽.",
+          "photoCaption": "자료 사진 · 2018-03-16 · 브뤼셀 EU 집행위원회 본부의 굽은 외벽."
+        }
+      }
+    },
+    {
+      "eventKey": "quebec-solidaire-projet-treve-hivernale-evictions",
+      "title": "Québec solidaire prépare un projet de loi pour prolonger le moratoire sur les évictions",
+      "category": "Québec",
+      "summary": "Le parti veut aussi interdire les évictions pendant l’hiver et compte déposer son texte à l’ouverture de la session.",
+      "body": "Les porte-parole de Québec solidaire ont annoncé le 25 novembre que leur première initiative législative de la session porterait sur la protection des locataires. Le parti veut prolonger le moratoire sur les évictions et instaurer une trêve hivernale.\n\nRuba Ghazal et Sol Zanetti ont présenté ces priorités à la suite de leur caucus. Le parti prévoit aussi de faire entendre chaque jour, d’ici la fin de l’année, le témoignage d’une personne touchée par la crise du logement. Le dépôt du texte reste à venir. La veille, le député solidaire Étienne Grandmont avait déjà réclamé le renouvellement du moratoire, selon le Bureau parlementaire de Québecor.",
+      "photo": {
+        "download": "media/quebec-solidaire-projet-treve-hivernale-evictions.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_nationale_du_Qu%C3%A9bec_-_facade-2.jpg",
+        "credit": "Bouchecl / Wikimedia Commons · version WebP",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "Tour et façade de l’hôtel du Parlement à Québec.",
+        "caption": "Archives · 2007-07-17 · Tour et façade de l’hôtel du Parlement à Québec."
+      },
+      "sources": [
+        {
+          "name": "Aile parlementaire de Québec solidaire",
+          "url": "https://www.newswire.ca/fr/news-releases/caucus-presessionnel-quebec-solidaire-va-prioriser-les-solutions-a-la-crise-du-logement-d-ici-la-fin-de-l-annee-800942011.html",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Bureau parlementaire / TVA Nouvelles",
+          "url": "https://www.tvanouvelles.ca/2026/11/24/une-deuxieme-annonce-pour-litinerance-avec-10-millions--pour-laccompagnement-des-plus-vulnerables",
+          "publishedAt": "2026-11-24T16:12:00-05:00"
+        },
+        {
+          "name": "La Pola Pola Politique",
+          "url": "https://lapolapolapolitique.com/actualites/2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Québec solidaire plans bill to extend eviction moratorium",
+          "body": "Québec solidaire’s spokespeople announced on November 25 that their first legislative initiative of the session would address tenant protection. The party wants to extend the eviction moratorium and introduce a winter truce.\n\nRuba Ghazal and Sol Zanetti presented the priorities after their caucus meeting. The party also plans to share an account from someone affected by the housing crisis every day until year-end. The bill has yet to be introduced. A day earlier, Québec solidaire legislator Étienne Grandmont had already called for renewal of the moratorium, according to Québecor’s parliamentary bureau.",
+          "summary": "The party also wants to ban winter evictions and plans to introduce its bill when the session opens.",
+          "photoAlt": "Tower and facade of the Parliament Building in Quebec City.",
+          "photoCaption": "Archive · 2007-07-17 · Tower and facade of the Parliament Building in Quebec City."
+        },
+        "es": {
+          "title": "Québec solidaire prepara una ley para prolongar la moratoria de desahucios",
+          "body": "Los portavoces de Québec solidaire anunciaron el 25 de noviembre que la primera iniciativa legislativa de la sesión tratará sobre la protección de los inquilinos. El partido quiere prolongar la moratoria de desahucios e instaurar una tregua invernal.\n\nRuba Ghazal y Sol Zanetti presentaron estas prioridades tras reunirse con su grupo parlamentario. El partido también planea difundir a diario, hasta fin de año, el testimonio de una persona afectada por la crisis de vivienda. El texto está pendiente de presentación. El día anterior, el diputado Étienne Grandmont ya había pedido renovar la moratoria, según la oficina parlamentaria de Québecor.",
+          "summary": "El partido también quiere prohibir los desahucios en invierno y prevé presentar el texto al abrirse la sesión.",
+          "photoAlt": "Torre y fachada del Parlamento en la ciudad de Quebec.",
+          "photoCaption": "Archivo · 2007-07-17 · Torre y fachada del Parlamento en la ciudad de Quebec."
+        },
+        "ar": {
+          "title": "كيبيك سوليدير يعدّ مشروع قانون لتمديد تعليق الإخلاء",
+          "body": "أعلن المتحدثان باسم كيبيك سوليدير في 25 نوفمبر أن أول مبادرة تشريعية للحزب في الدورة ستعنى بحماية المستأجرين. ويريد الحزب تمديد تعليق عمليات الإخلاء وإقرار هدنة شتوية.\n\nوعرضت روبا غزال وسول زانيتي الأولويات بعد اجتماع كتلتهما. ويعتزم الحزب أيضا نقل شهادة شخص تضرر من أزمة السكن يوميا حتى نهاية السنة. ولم يُقدّم النص بعد. ووفق المكتب البرلماني لكيبيكور كان نائب الحزب إتيان غرانمون قد دعا في اليوم السابق إلى تجديد التعليق.",
+          "summary": "يريد الحزب أيضا حظر الإخلاء شتاء ويعتزم تقديم النص عند افتتاح الدورة.",
+          "photoAlt": "برج وواجهة مبنى البرلمان في مدينة كيبيك.",
+          "photoCaption": "أرشيف · 2007-07-17 · برج وواجهة مبنى البرلمان في مدينة كيبيك."
+        },
+        "zh-CN": {
+          "title": "魁北克团结党拟立法延长暂停驱逐租户措施",
+          "body": "魁北克团结党发言人11月25日宣布，本会期首项立法行动将聚焦租户保护。该党希望延长暂缓驱逐措施，并设立冬季暂停期。\n\n鲁巴·加扎勒和索尔·扎内蒂在党团会议后介绍了这些优先事项。该党还计划从现在起到年底，每天分享一名受住房危机影响者的经历。法案尚待提交。 据魁北克传媒集团议会记者报道，该党议员埃蒂安·格朗蒙前一天已呼吁延长暂停措施。",
+          "summary": "该党还希望禁止冬季驱逐，计划于会期开幕时提交法案。",
+          "photoAlt": "魁北克市议会大厦的塔楼和正面。",
+          "photoCaption": "档案照片 · 2007-07-17 · 魁北克市议会大厦的塔楼和正面。"
+        },
+        "ru": {
+          "title": "Québec solidaire готовит законопроект о продлении моратория на выселения",
+          "body": "25 ноября представители Québec solidaire объявили, что первая законодательная инициатива партии на сессии будет касаться защиты арендаторов. Партия хочет продлить мораторий на выселения и ввести зимнюю паузу.\n\nРуба Газаль и Соль Занетти представили приоритеты после заседания фракции. До конца года партия также намерена ежедневно публиковать рассказ человека, затронутого жилищным кризисом. Законопроект ещё предстоит внести. По данным парламентского бюро Québecor, накануне депутат партии Этьен Гранмон уже призывал продлить мораторий.",
+          "summary": "Партия также хочет запретить зимние выселения и намерена внести проект в начале сессии.",
+          "photoAlt": "Башня и фасад здания парламента в городе Квебек.",
+          "photoCaption": "Архив · 2007-07-17 · Башня и фасад здания парламента в городе Квебек."
+        },
+        "ko": {
+          "title": "퀘벡솔리데르, 세입자 퇴거 유예 연장 법안 준비",
+          "body": "퀘벡솔리데르 대변인들은 11월 25일 이번 회기 첫 입법 과제로 세입자 보호를 추진한다고 밝혔다. 당은 퇴거 유예 연장과 겨울철 퇴거 중단을 원한다.\n\n루바 가잘과 솔 자네티가 의원단 회의 후 우선 과제를 공개했다. 당은 연말까지 주거 위기를 겪는 주민의 이야기도 매일 한 건씩 소개할 계획이다. 법안은 아직 제출되지 않았다. 퀘베코르 의회 취재진에 따르면 전날 같은 당 에티엔 그랑몽 의원도 유예 연장을 요구했다.",
+          "summary": "당은 겨울철 퇴거 금지도 추진하며 회기 시작 때 법안을 낼 계획이다.",
+          "photoAlt": "퀘벡시에 있는 퀘벡주의회 건물의 탑과 정면.",
+          "photoCaption": "자료 사진 · 2007-07-17 · 퀘벡시에 있는 퀘벡주의회 건물의 탑과 정면."
+        }
+      }
+    },
+    {
+      "eventKey": "allemagne-consommateurs-indice-decembre-2026",
+      "title": "En Allemagne, le moral des consommateurs gagne 0,7 point avant les Fêtes",
+      "category": "Économie",
+      "summary": "La confiance s’améliore légèrement pour décembre, mais les ménages allemands sont moins optimistes sur l’économie.",
+      "body": "L’indice de confiance publié le 26 novembre par l’institut de Nuremberg NIM avec GfK passe de −30,9 points en novembre, après révision, à −30,2 pour décembre. L’amélioration reste modeste à l’approche de la période des achats de Noël.\n\nLes ménages interrogés se montrent un peu plus optimistes sur leurs revenus. En revanche, leurs attentes concernant l’économie se dégradent après six hausses mensuelles consécutives, rapporte Reuters. L’enquête mesure des intentions et des anticipations de consommateurs.",
+      "photo": {
+        "download": "media/allemagne-consommateurs-indice-decembre-2026.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nuremberg_Hauptmarkt.jpg",
+        "credit": "Vitold Muratov / Wikimedia Commons · version WebP",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "Place du marché de Nuremberg et étals.",
+        "caption": "Archives · 2010 · Place du marché de Nuremberg et étals."
+      },
+      "sources": [
+        {
+          "name": "Nuremberg Institute for Market Decisions / GfK",
+          "url": "https://www.nim.org/fileadmin/PUBLIC/3_1_Konsumklima/2026/2026_11/2026_11_PM_NIM_Konsumklima_powered_by_GfK_dt_fin.pdf",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/markets/europe/german-consumer-sentiment-edges-up-into-december-survey-finds-2026-11-26/",
+          "publishedAt": "2026-11-26T07:50:00Z"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "German consumer sentiment edges up 0.7 points ahead of holiday shopping",
+          "body": "The confidence index released November 26 by the Nuremberg institute NIM with GfK rose from a revised −30.9 points in November to −30.2 for December. The improvement is modest going into the Christmas shopping season.\n\nHouseholds surveyed were slightly more optimistic about their incomes. However, their expectations for the economy worsened after six straight monthly increases, Reuters reports. The survey measures consumers’ intentions and expectations.",
+          "summary": "Confidence improves slightly for December, but German households are less optimistic about the economy.",
+          "photoAlt": "Nuremberg market square and stalls.",
+          "photoCaption": "Archive · 2010 · Nuremberg market square and stalls."
+        },
+        "es": {
+          "title": "La confianza de los consumidores alemanes sube 0,7 puntos antes de Navidad",
+          "body": "El índice de confianza publicado el 26 de noviembre por el instituto de Núremberg NIM con GfK pasa de −30,9 puntos en noviembre, tras la revisión, a −30,2 para diciembre. La mejora es modesta de cara a las compras navideñas.\n\nLos hogares encuestados son algo más optimistas sobre sus ingresos. En cambio, sus expectativas económicas empeoraron tras seis subidas mensuales seguidas, según Reuters. La encuesta mide intenciones y expectativas de consumo.",
+          "summary": "La confianza mejora levemente para diciembre, pero los hogares alemanes son menos optimistas sobre la economía.",
+          "photoAlt": "Plaza del mercado de Núremberg con puestos.",
+          "photoCaption": "Archivo · 2010 · Plaza del mercado de Núremberg con puestos."
+        },
+        "ar": {
+          "title": "ثقة المستهلكين في ألمانيا ترتفع 0.7 نقطة قبل موسم الأعياد",
+          "body": "ارتفع مؤشر الثقة الصادر في 26 نوفمبر عن معهد نورمبرغ NIM بالتعاون مع GfK من قراءة معدلة بلغت سالب 30.9 نقطة في نوفمبر إلى سالب 30.2 لديسمبر. والتحسن محدود قبيل موسم التسوق لعيد الميلاد.\n\nوأبدت الأسر المستطلعة تفاؤلا أكبر بقليل بشأن دخلها. لكن توقعاتها للاقتصاد تراجعت بعد ست زيادات شهرية متتالية، بحسب رويترز. ويقيس الاستطلاع نوايا المستهلكين وتوقعاتهم.",
+          "summary": "تتحسن الثقة قليلا لديسمبر لكن الأسر الألمانية أقل تفاؤلا بشأن الاقتصاد.",
+          "photoAlt": "ساحة السوق في نورمبرغ وأكشاكها.",
+          "photoCaption": "أرشيف · 2010 · ساحة السوق في نورمبرغ وأكشاكها."
+        },
+        "zh-CN": {
+          "title": "德国消费者信心在节前微升0.7点",
+          "body": "纽伦堡研究机构NIM与捷孚凯11月26日发布的信心指数显示，12月指数为负30.2点，高于经修正的11月负30.9点。圣诞购物季前的改善幅度有限。\n\n受访家庭对收入稍趋乐观。不过，据路透社报道，他们对经济的预期在连续六个月上升后转差。这项调查衡量的是消费者意向与预期。",
+          "summary": "12月信心略有改善，但德国家庭对经济的乐观程度下降。",
+          "photoAlt": "纽伦堡集市广场和摊位。",
+          "photoCaption": "档案照片 · 2010 · 纽伦堡集市广场和摊位。"
+        },
+        "ru": {
+          "title": "Настроения потребителей в Германии улучшились на 0,7 пункта перед праздниками",
+          "body": "Индекс доверия, опубликованный 26 ноября нюрнбергским институтом NIM совместно с GfK, вырос с пересмотренных −30,9 пункта в ноябре до −30,2 на декабрь. Улучшение перед сезоном рождественских покупок оказалось небольшим.\n\nОпрошенные семьи немного оптимистичнее оценивают будущие доходы. Однако их ожидания по экономике ухудшились после шести месяцев роста подряд, сообщает Reuters. Опрос отражает намерения и ожидания потребителей.",
+          "summary": "Доверие на декабрь слегка выросло, но немецкие семьи менее оптимистичны в оценке экономики.",
+          "photoAlt": "Рыночная площадь Нюрнберга с торговыми рядами.",
+          "photoCaption": "Архив · 2010 · Рыночная площадь Нюрнберга с торговыми рядами."
+        },
+        "ko": {
+          "title": "독일 소비심리, 연말 쇼핑철 앞두고 0.7포인트 상승",
+          "body": "뉘른베르크의 NIM과 GfK가 11월 26일 발표한 소비심리지수는 수정된 11월 수치인 마이너스 30.9에서 12월 전망치 마이너스 30.2로 올랐다. 크리스마스 쇼핑철을 앞둔 개선 폭은 작았다.\n\n조사에 응한 가계는 소득 전망을 소폭 높였다. 반면 경제 전망은 여섯 달 연속 상승한 뒤 하락했다고 로이터가 전했다. 이 조사는 소비자의 의향과 기대를 측정한다.",
+          "summary": "12월 소비심리는 소폭 개선됐지만 독일 가계의 경제 전망은 어두워졌다.",
+          "photoAlt": "뉘른베르크 시장 광장과 판매대.",
+          "photoCaption": "자료 사진 · 2010 · 뉘른베르크 시장 광장과 판매대."
+        }
+      }
+    },
+    {
+      "eventKey": "montreal-salon-table-ronde-ia-orelien",
+      "title": "Au Salon du livre de Montréal, une discussion sur l’IA remplace la rencontre avec Thélyson Orélien",
+      "category": "Culture",
+      "summary": "Le rendez-vous du dimanche 29 novembre au Palais des congrès portera sur l’écriture et la confiance des lecteurs.",
+      "body": "La rencontre avec Thélyson Orélien annoncée pour le dimanche 29 novembre au Salon du livre de Montréal cède sa place à une discussion sur l’intelligence artificielle et la confiance des lecteurs, rapporte le Journal de Montréal dans son reportage du 25 novembre au Palais des congrès.\n\nLe changement survient après la rupture annoncée le 21 octobre par les Éditions du Boréal. L’éditeur avait alors indiqué qu’il ne réimprimerait pas « C’était ça ou mourir » et ne publierait pas d’autres ouvrages de l’auteur. Au kiosque, une représentante du Boréal a confirmé au Journal que les exemplaires restants se trouvent en librairie.",
+      "photo": {
+        "download": "media/montreal-salon-table-ronde-ia-orelien.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palais_des_congr%C3%A8s_de_Montr%C3%A9al_et_sa_fa%C3%A7ade_color%C3%A9e_sign%C3%A9e_Mario_Saia.jpg",
+        "credit": "congresmtl.com / Wikimedia Commons · version WebP",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+        "alt": "Façade vitrée de plusieurs couleurs du Palais des congrès de Montréal.",
+        "caption": "Archives · 2021-06-07 · Façade vitrée de plusieurs couleurs du Palais des congrès de Montréal."
+      },
+      "sources": [
+        {
+          "name": "Le Journal de Montréal / TVA Nouvelles",
+          "url": "https://www.tvanouvelles.ca/2026/11/25/la-rencontre-avec-thelyson-orelien-prevue-au-salon-du-livre-de-montreal-remplacee-par-une-discussion-sur-la-place-de-lia-dans-lecriture",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Les Éditions du Boréal",
+          "url": "https://www.editionsboreal.qc.ca/actualites/18-les-editions-du-boreal-mettent-fin-a-leur-collaboration-avec-thelyson-orelien.html?CATID=0&categorieId=1catId%3D1&page=1",
+          "publishedAt": "2026-10-21"
+        },
+        {
+          "name": "Salon du livre de Montréal",
+          "url": "https://www.salondulivredemontreal.com/actualites/la-programmation-du-salon-du-livre-de-montreal-est-devoilee",
+          "publishedAt": "2026-10-27"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Montreal Book Fair replaces Thélyson Orélien event with a discussion on AI",
+          "body": "The meeting with Thélyson Orélien announced for Sunday, November 29 at the Montreal Book Fair is being replaced by a discussion on artificial intelligence and readers’ trust, Le Journal de Montréal reported on November 25 from the Palais des congrès.\n\nThe change follows the end of the relationship announced on October 21 by Éditions du Boréal. The publisher said then that it would not reprint C’était ça ou mourir or publish further works by the author. At the booth, a Boréal representative confirmed to the newspaper that the remaining copies are in bookshops.",
+          "summary": "The November 29 event at the Palais des congrès will focus on writing and readers’ trust.",
+          "photoAlt": "Multicoloured glass facade of Montreal’s Palais des congrès.",
+          "photoCaption": "Archive · 2021-06-07 · Multicoloured glass facade of Montreal’s Palais des congrès."
+        },
+        "es": {
+          "title": "El Salón del Libro de Montreal sustituye el encuentro con Thélyson Orélien por un debate sobre IA",
+          "body": "El encuentro con Thélyson Orélien previsto para el domingo 29 de noviembre en el Salón del Libro de Montreal se sustituye por un debate sobre la inteligencia artificial y la confianza de los lectores, informó Le Journal de Montréal el 25 de noviembre desde el Palacio de Congresos.\n\nEl cambio sigue a la ruptura anunciada el 21 de octubre por Éditions du Boréal. La editorial dijo entonces que no reimprimiría C’était ça ou mourir ni publicaría otras obras del autor. En el puesto, una representante de Boréal confirmó al diario que los ejemplares restantes están en librerías.",
+          "summary": "La cita del 29 de noviembre en el Palacio de Congresos abordará la escritura y la confianza de los lectores.",
+          "photoAlt": "Fachada de vidrio multicolor del Palacio de Congresos de Montreal.",
+          "photoCaption": "Archivo · 2021-06-07 · Fachada de vidrio multicolor del Palacio de Congresos de Montreal."
+        },
+        "ar": {
+          "title": "معرض مونتريال للكتاب يستبدل لقاء تيليسون أوريليان بنقاش عن الذكاء الاصطناعي",
+          "body": "يحل نقاش عن الذكاء الاصطناعي وثقة القراء محل لقاء تيليسون أوريليان المقرر الأحد 29 نوفمبر في معرض مونتريال للكتاب، بحسب تقرير نشرته لو جورنال دو مونتريال في 25 نوفمبر من قصر المؤتمرات.\n\nويأتي التغيير بعد إنهاء دار بوريال علاقتها بالكاتب في 21 أكتوبر. وقالت الدار حينها إنها لن تعيد طباعة كتابه C’était ça ou mourir ولن تنشر له أعمالا أخرى. وأكدت ممثلة لبوريال في الجناح للصحيفة أن النسخ المتبقية موجودة في المكتبات التجارية.",
+          "summary": "يتناول لقاء 29 نوفمبر بقصر المؤتمرات الكتابة وثقة القراء.",
+          "photoAlt": "واجهة قصر المؤتمرات في مونتريال المصنوعة من زجاج متعدد الألوان.",
+          "photoCaption": "أرشيف · 2021-06-07 · واجهة قصر المؤتمرات في مونتريال المصنوعة من زجاج متعدد الألوان."
+        },
+        "zh-CN": {
+          "title": "蒙特利尔书展以人工智能讨论取代泰利松·奥雷利安见面会",
+          "body": "据《蒙特利尔日报》11月25日从会展中心发回的报道，蒙特利尔书展原定11月29日星期日举行的泰利松·奥雷利安见面会，将改为讨论人工智能与读者信任。\n\n此前，博雷亚尔出版社于10月21日宣布结束与作者的合作。当时出版社表示不会重印《C’était ça ou mourir》，也不会再出版他的其他作品。 出版社代表在展位向该报证实，剩余书籍均在书店。",
+          "summary": "11月29日会展中心的活动将讨论写作与读者信任。",
+          "photoAlt": "蒙特利尔会展中心的彩色玻璃外墙。",
+          "photoCaption": "档案照片 · 2021-06-07 · 蒙特利尔会展中心的彩色玻璃外墙。"
+        },
+        "ru": {
+          "title": "Монреальская книжная ярмарка заменит встречу с Телисоном Орельеном дискуссией об ИИ",
+          "body": "Вместо встречи с Телисоном Орельеном, намеченной на воскресенье, 29 ноября, на Монреальской книжной ярмарке пройдёт дискуссия об искусственном интеллекте и доверии читателей, сообщает Le Journal de Montréal в репортаже из Дворца конгрессов от 25 ноября.\n\nЗамена последовала за объявлением издательства Éditions du Boréal от 21 октября о разрыве сотрудничества. Тогда издательство заявило, что не будет допечатывать C’était ça ou mourir и выпускать другие книги автора. У стенда представительница Boréal подтвердила газете, что оставшиеся экземпляры находятся в книжных магазинах.",
+          "summary": "Встреча 29 ноября во Дворце конгрессов будет посвящена писательскому труду и доверию читателей.",
+          "photoAlt": "Разноцветный стеклянный фасад Дворца конгрессов в Монреале.",
+          "photoCaption": "Архив · 2021-06-07 · Разноцветный стеклянный фасад Дворца конгрессов в Монреале."
+        },
+        "ko": {
+          "title": "몬트리올 도서전, 텔리송 오렐리앵 만남 대신 AI 토론 개최",
+          "body": "르 주르날 드 몬트리올이 11월 25일 컨벤션센터에서 보도한 바에 따르면 몬트리올 도서전에서 11월 29일 일요일로 예정됐던 텔리송 오렐리앵과의 만남이 인공지능과 독자의 신뢰에 관한 토론으로 바뀐다.\n\n앞서 보레알 출판사는 10월 21일 작가와의 협업 종료를 발표했다. 출판사는 당시 《C’était ça ou mourir》를 재쇄하지 않고 작가의 다른 작품도 출간하지 않겠다고 밝혔다. 보레알 관계자는 현장 부스에서 남은 책이 서점에 있다고 신문에 확인했다.",
+          "summary": "11월 29일 컨벤션센터 행사에서는 글쓰기와 독자의 신뢰를 논의한다.",
+          "photoAlt": "여러 색 유리로 된 몬트리올 컨벤션센터 정면.",
+          "photoCaption": "자료 사진 · 2021-06-07 · 여러 색 유리로 된 몬트리올 컨벤션센터 정면."
+        }
+      }
+    },
+    {
+      "eventKey": "analog-devices-resultats-trimestre-octobre-2026",
+      "title": "Les revenus trimestriels d’Analog Devices bondissent de 42 %",
+      "category": "Technologie",
+      "summary": "Les centres de données et l’industrie ont soutenu les ventes du fabricant de puces au dernier trimestre de son exercice.",
+      "body": "Le fabricant de semi-conducteurs Analog Devices a réalisé un chiffre d’affaires de 4,37 milliards de dollars américains au quatrième trimestre clos le 31 octobre. Selon le Wall Street Journal, il s’agit d’une progression de 42 % sur un an.\n\nDans ses résultats publiés le 24 novembre, la société attribue la croissance notamment aux centres de données et au secteur industriel. Sur l’ensemble de son exercice 2026, ses revenus atteignent 15,2 milliards de dollars, en hausse de 38 % par rapport à l’exercice précédent.",
+      "photo": {
+        "download": "media/analog-devices-resultats-trimestre-octobre-2026.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Analog_Devices_headquarters_20110504.jpg",
+        "credit": "Analog Devices / Wikimedia Commons · version WebP",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "Entrée vitrée d’un bâtiment d’Analog Devices derrière des tulipes.",
+        "caption": "Archives, première publication · 2011-05-04 · Entrée vitrée d’un bâtiment d’Analog Devices derrière des tulipes."
+      },
+      "sources": [
+        {
+          "name": "Analog Devices / PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/analog-devices-reports-record-fourth-quarter-and-fiscal-2026-financial-results-302948778.html",
+          "publishedAt": "2026-11-24T07:01:00-05:00"
+        },
+        {
+          "name": "The Wall Street Journal",
+          "url": "https://www.wsj.com/business/earnings/analog-devices-profit-revenue-rise-as-industrial-data-center-demand-surges-3dfef138",
+          "publishedAt": "2026-11-24"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Analog Devices quarterly revenue jumps 42%",
+          "body": "Chipmaker Analog Devices recorded US$4.37 billion in revenue in the fourth quarter ended October 31. The Wall Street Journal reports that this represents a 42% year-on-year increase.\n\nIn results released November 24, the company identified data centres and industry as drivers of growth. Revenue for its full fiscal 2026 reached $15.2 billion, up 38% from the previous fiscal year.",
+          "summary": "Data centres and industry supported the chipmaker’s sales in its fiscal fourth quarter.",
+          "photoAlt": "Glass entrance of an Analog Devices building behind tulips.",
+          "photoCaption": "Archive, first published · 2011-05-04 · Glass entrance of an Analog Devices building behind tulips."
+        },
+        "es": {
+          "title": "Los ingresos trimestrales de Analog Devices suben un 42 %",
+          "body": "El fabricante de semiconductores Analog Devices facturó 4.370 millones de dólares estadounidenses en el cuarto trimestre cerrado el 31 de octubre. Según The Wall Street Journal, es un aumento interanual del 42 %.\n\nEn los resultados publicados el 24 de noviembre, la empresa destacó el impulso de los centros de datos y el sector industrial. En todo el ejercicio 2026 ingresó 15.200 millones de dólares, un 38 % más que en el anterior.",
+          "summary": "Los centros de datos y la industria impulsaron las ventas del fabricante de chips al cierre del ejercicio.",
+          "photoAlt": "Entrada acristalada de un edificio de Analog Devices tras unos tulipanes.",
+          "photoCaption": "Archivo, primera publicación · 2011-05-04 · Entrada acristalada de un edificio de Analog Devices tras unos tulipanes."
+        },
+        "ar": {
+          "title": "إيرادات أنالوغ ديفايسز الفصلية ترتفع 42%",
+          "body": "سجلت شركة أشباه الموصلات أنالوغ ديفايسز إيرادات قدرها 4.37 مليارات دولار أمريكي في الربع الرابع المنتهي في 31 أكتوبر. وأوردت وول ستريت جورنال أن الزيادة السنوية بلغت 42%.\n\nوفي نتائج نشرتها يوم 24 نوفمبر عزت الشركة النمو خصوصا إلى مراكز البيانات والقطاع الصناعي. وبلغت إيرادات السنة المالية 2026 بأكملها 15.2 مليار دولار بزيادة 38% عن السنة السابقة.",
+          "summary": "دعمت مراكز البيانات والصناعة مبيعات شركة الرقائق في الربع الأخير من سنتها المالية.",
+          "photoAlt": "مدخل زجاجي لمبنى أنالوغ ديفايسز خلف أزهار التوليب.",
+          "photoCaption": "أرشيف، أول نشر · 2011-05-04 · مدخل زجاجي لمبنى أنالوغ ديفايسز خلف أزهار التوليب."
+        },
+        "zh-CN": {
+          "title": "亚德诺半导体季度营收增长42%",
+          "body": "半导体制造商亚德诺截至10月31日的第四财季营收为43.7亿美元。据《华尔街日报》报道，这一数字同比增长42%。\n\n公司在11月24日发布的业绩中指出，数据中心和工业领域推动了增长。2026财年全年营收达到152亿美元，比上一财年增长38%。",
+          "summary": "数据中心和工业需求支撑了这家芯片公司第四财季的销售。",
+          "photoAlt": "郁金香花丛后方的亚德诺办公楼玻璃入口。",
+          "photoCaption": "档案照片，首次公布 · 2011-05-04 · 郁金香花丛后方的亚德诺办公楼玻璃入口。"
+        },
+        "ru": {
+          "title": "Квартальная выручка Analog Devices выросла на 42%",
+          "body": "Производитель полупроводников Analog Devices получил 4,37 млрд долларов США выручки за четвёртый квартал, завершившийся 31 октября. По данным The Wall Street Journal, это на 42% больше, чем год назад.\n\nВ отчёте от 24 ноября компания назвала центры обработки данных и промышленность в числе основных источников роста. Выручка за весь 2026 финансовый год составила 15,2 млрд долларов, на 38% больше, чем годом ранее.",
+          "summary": "Центры обработки данных и промышленность поддержали продажи чипов в последнем квартале финансового года.",
+          "photoAlt": "Стеклянный вход в здание Analog Devices за клумбой с тюльпанами.",
+          "photoCaption": "Архив, первая публикация · 2011-05-04 · Стеклянный вход в здание Analog Devices за клумбой с тюльпанами."
+        },
+        "ko": {
+          "title": "아날로그디바이시스 분기 매출 42% 증가",
+          "body": "반도체 제조사 아날로그디바이시스의 10월 31일 마감 4분기 매출은 43억 7,000만 미국달러였다. 월스트리트저널에 따르면 전년 동기보다 42% 늘었다.\n\n회사는 11월 24일 발표한 실적에서 데이터센터와 산업 부문을 성장 요인으로 꼽았다. 2026 회계연도 전체 매출은 152억 달러로 전년보다 38% 증가했다.",
+          "summary": "데이터센터와 산업 부문이 반도체 업체의 회계연도 4분기 매출을 뒷받침했다.",
+          "photoAlt": "튤립 뒤로 보이는 아날로그디바이시스 건물의 유리 출입구.",
+          "photoCaption": "자료 사진, 최초 공개 · 2011-05-04 · 튤립 뒤로 보이는 아날로그디바이시스 건물의 유리 출입구."
+        }
+      }
+    },
+    {
+      "eventKey": "best-buy-ventes-comparables-troisieme-trimestre-2026",
+      "title": "Best Buy relève ses prévisions après une hausse de 6,1 % des ventes comparables",
+      "category": "Économie",
+      "summary": "Aux États-Unis, les ventes comparables en ligne du détaillant ont augmenté de 10,8 % pendant le trimestre.",
+      "body": "Les ventes comparables de Best Buy ont progressé de 6,1 % au trimestre clos le 31 octobre. Le détaillant en électronique a annoncé le 24 novembre que ses revenus avaient atteint 10,24 milliards de dollars américains. Aux États-Unis, les ventes comparables en ligne ont crû de 10,8 %.\n\nDans un entretien avec Reuters, le directeur général Jason Bonfig attribue environ un point de croissance comparable à des catégories émergentes comme les lunettes intelligentes et les objets de collection. L’entreprise relève sa prévision annuelle de bénéfice ajusté à une fourchette de 6,90 à 7,05 dollars par action.",
+      "photo": {
+        "download": "media/best-buy-ventes-comparables-troisieme-trimestre-2026.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Best_Buy_Headquarters_in_Richfield_Minnesota_%2853833202473%29.jpg",
+        "credit": "Tony Webster / Wikimedia Commons · version WebP",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.en",
+        "alt": "Siège de Best Buy à Richfield éclairé par le soleil.",
+        "caption": "Archives · 2024-01-16 · Siège de Best Buy à Richfield éclairé par le soleil."
+      },
+      "sources": [
+        {
+          "name": "Best Buy",
+          "url": "https://investors.bestbuy.com/News--Events/news/news-details/2026/Best-Buy-Reports-Third-Quarter-Results/default.aspx",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Reuters / Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/best-buy-leans-on-aidriven-gadget-update-cycle-to-lift-annual-targets-5047828",
+          "publishedAt": "2026-11-24T12:03:48Z"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Best Buy raises forecast after comparable sales rise 6.1%",
+          "body": "Best Buy’s comparable sales rose 6.1% in the quarter ended October 31. The electronics retailer said on November 24 that revenue reached US$10.24 billion. US comparable online sales grew 10.8%.\n\nCEO Jason Bonfig told Reuters that emerging categories such as smart glasses and collectibles contributed roughly one point of comparable growth. The company raised its annual adjusted earnings forecast to $6.90–$7.05 a share.",
+          "summary": "The retailer’s US comparable online sales grew 10.8% in the quarter.",
+          "photoAlt": "Sunlight on Best Buy headquarters in Richfield.",
+          "photoCaption": "Archive · 2024-01-16 · Sunlight on Best Buy headquarters in Richfield."
+        },
+        "es": {
+          "title": "Best Buy eleva sus previsiones tras crecer un 6,1 % en ventas comparables",
+          "body": "Las ventas comparables de Best Buy crecieron un 6,1 % en el trimestre cerrado el 31 de octubre. El minorista de electrónica anunció el 24 de noviembre ingresos de 10.240 millones de dólares estadounidenses. En EE. UU., las ventas comparables en línea crecieron un 10,8 %.\n\nEl consejero delegado Jason Bonfig dijo a Reuters que categorías emergentes como gafas inteligentes y artículos coleccionables aportaron cerca de un punto al crecimiento comparable. La empresa elevó su previsión anual de beneficio ajustado a entre 6,90 y 7,05 dólares por acción.",
+          "summary": "Las ventas comparables en línea del minorista en EE. UU. crecieron un 10,8 % en el trimestre.",
+          "photoAlt": "Sede de Best Buy en Richfield iluminada por el sol.",
+          "photoCaption": "Archivo · 2024-01-16 · Sede de Best Buy en Richfield iluminada por el sol."
+        },
+        "ar": {
+          "title": "بست باي ترفع توقعاتها بعد نمو المبيعات المقارنة 6.1%",
+          "body": "ارتفعت مبيعات بست باي المقارنة 6.1% في الربع المنتهي في 31 أكتوبر. وأعلنت شركة تجزئة الإلكترونيات في 24 نوفمبر أن إيراداتها بلغت 10.24 مليارات دولار أمريكي. وزادت المبيعات المقارنة عبر الإنترنت في الولايات المتحدة 10.8%.\n\nوقال الرئيس التنفيذي جيسون بونفيغ لرويترز إن فئات ناشئة مثل النظارات الذكية والمقتنيات أسهمت بنحو نقطة من نمو المبيعات المقارنة. ورفعت الشركة توقع ربحها السنوي المعدل إلى نطاق بين 6.90 و7.05 دولارات للسهم.",
+          "summary": "زادت مبيعات الشركة المقارنة عبر الإنترنت في الولايات المتحدة 10.8% خلال الربع.",
+          "photoAlt": "ضوء الشمس على مقر بست باي في ريتشفيلد.",
+          "photoCaption": "أرشيف · 2024-01-16 · ضوء الشمس على مقر بست باي في ريتشفيلد."
+        },
+        "zh-CN": {
+          "title": "百思买可比销售额增长6.1%，上调全年预期",
+          "body": "截至10月31日的季度，百思买可比销售额增长6.1%。这家电子产品零售商11月24日公布营收为102.4亿美元。美国线上可比销售额增长10.8%。\n\n首席执行官杰森·邦菲格向路透社表示，智能眼镜和收藏品等新兴品类贡献了约一个百分点的可比销售增长。公司将全年调整后每股收益预测上调至6.90至7.05美元。",
+          "summary": "本季度该零售商的美国线上可比销售额增长10.8%。",
+          "photoAlt": "阳光照在里奇菲尔德的百思买总部大楼上。",
+          "photoCaption": "档案照片 · 2024-01-16 · 阳光照在里奇菲尔德的百思买总部大楼上。"
+        },
+        "ru": {
+          "title": "Best Buy повысила прогноз после роста сопоставимых продаж на 6,1%",
+          "body": "Сопоставимые продажи Best Buy за квартал, завершившийся 31 октября, выросли на 6,1%. 24 ноября продавец электроники сообщил о выручке в 10,24 млрд долларов США. Сопоставимые онлайн-продажи в США увеличились на 10,8%.\n\nГлава компании Джейсон Бонфиг сказал Reuters, что новые категории, включая умные очки и предметы коллекционирования, обеспечили около одного пункта роста сопоставимых продаж. Компания подняла годовой прогноз скорректированной прибыли до 6,90–7,05 доллара на акцию.",
+          "summary": "Сопоставимые онлайн-продажи компании в США выросли за квартал на 10,8%.",
+          "photoAlt": "Освещённая солнцем штаб-квартира Best Buy в Ричфилде.",
+          "photoCaption": "Архив · 2024-01-16 · Освещённая солнцем штаб-квартира Best Buy в Ричфилде."
+        },
+        "ko": {
+          "title": "베스트바이, 비교매출 6.1% 증가에 연간 전망 상향",
+          "body": "베스트바이의 10월 31일 마감 분기 비교매출이 6.1% 증가했다. 이 전자제품 소매업체는 11월 24일 매출이 102억 4,000만 미국달러였다고 밝혔다. 미국 온라인 비교매출은 10.8% 늘었다.\n\n제이슨 본피그 CEO는 로이터에 스마트 안경과 수집품 등 신흥 품목이 비교매출 증가율에 약 1%포인트 기여했다고 말했다. 회사는 연간 조정 주당순이익 전망치를 6.90~7.05달러로 높였다.",
+          "summary": "미국 온라인 비교매출은 이번 분기에 10.8% 늘었다.",
+          "photoAlt": "햇빛이 비치는 리치필드 베스트바이 본사.",
+          "photoCaption": "자료 사진 · 2024-01-16 · 햇빛이 비치는 리치필드 베스트바이 본사."
+        }
+      }
+    },
+    {
+      "eventKey": "autodesk-resultats-trimestre-octobre-2026",
+      "title": "Autodesk franchit les deux milliards de dollars de revenus au troisième trimestre",
+      "category": "Technologie",
+      "summary": "L’éditeur de logiciels de conception enregistre une hausse annuelle de 17 % de ses revenus, portée notamment par la construction.",
+      "body": "Les revenus trimestriels d’Autodesk ont atteint 2,16 milliards de dollars américains au 31 octobre. L’éditeur de logiciels de conception a annoncé le 24 novembre une hausse de 17 % sur un an, ou de 14 % une fois neutralisées les variations des devises.\n\nLa direction fait état d’une demande soutenue dans la construction et d’un taux élevé de renouvellement des contrats. Elle a relevé le point médian de ses prévisions annuelles de facturation et de revenus. Selon Barron’s, le titre a néanmoins reculé après la clôture des marchés.",
+      "photo": {
+        "download": "media/autodesk-resultats-trimestre-octobre-2026.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autodesk_headquarters.jpg",
+        "credit": "Coolcaesar at en.wikipedia / Wikimedia Commons · version WebP",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "Immeuble de bureaux d’Autodesk à San Rafael.",
+        "caption": "Archives · 2009-04-12 · Immeuble de bureaux d’Autodesk à San Rafael."
+      },
+      "sources": [
+        {
+          "name": "Autodesk / PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/autodesk-inc-announces-fiscal-2027-third-quarter-results-302949762.html",
+          "publishedAt": "2026-11-24T16:00:00-05:00"
+        },
+        {
+          "name": "Barron’s",
+          "url": "https://www.barrons.com/articles/autodesk-earnings-stock-price-5387dd28",
+          "publishedAt": "2026-11-24"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Autodesk tops $2 billion in third-quarter revenue",
+          "body": "Autodesk’s revenue reached US$2.16 billion for the quarter ended October 31. On November 24 the design software company reported year-on-year growth of 17%, or 14% excluding currency movements.\n\nManagement cited sustained demand in construction and strong contract renewals. It raised the midpoints of its annual billings and revenue forecasts. Barron’s reports that the shares nevertheless fell in after-hours trading.",
+          "summary": "The design software company recorded 17% annual revenue growth, supported in part by construction.",
+          "photoAlt": "Autodesk office building in San Rafael.",
+          "photoCaption": "Archive · 2009-04-12 · Autodesk office building in San Rafael."
+        },
+        "es": {
+          "title": "Autodesk supera los 2.000 millones de dólares de ingresos en el tercer trimestre",
+          "body": "Autodesk ingresó 2.160 millones de dólares estadounidenses en el trimestre cerrado el 31 de octubre. El fabricante de software de diseño anunció el 24 de noviembre un crecimiento interanual del 17 %, o del 14 % a tipos de cambio constantes.\n\nLa dirección destacó la demanda sostenida en construcción y la elevada renovación de contratos. Elevó el punto medio de sus previsiones anuales de facturación e ingresos. Según Barron’s, las acciones bajaron pese a ello tras el cierre del mercado.",
+          "summary": "Los ingresos del fabricante de software de diseño subieron un 17 % interanual, impulsados en parte por la construcción.",
+          "photoAlt": "Edificio de oficinas de Autodesk en San Rafael.",
+          "photoCaption": "Archivo · 2009-04-12 · Edificio de oficinas de Autodesk en San Rafael."
+        },
+        "ar": {
+          "title": "إيرادات أوتوديسك تتجاوز ملياري دولار في الربع الثالث",
+          "body": "بلغت إيرادات أوتوديسك 2.16 مليار دولار أمريكي في الربع المنتهي في 31 أكتوبر. وأعلنت شركة برمجيات التصميم يوم 24 نوفمبر نموا سنويا بنسبة 17%، أو 14% بعد استبعاد تقلبات أسعار الصرف.\n\nوأشارت الإدارة إلى استمرار الطلب في البناء وارتفاع تجديد العقود. ورفعت منتصف نطاق توقعاتها السنوية للفوترة والإيرادات. وبحسب بارونز تراجع السهم رغم ذلك في التداول بعد الإغلاق.",
+          "summary": "سجلت شركة برمجيات التصميم نموا سنويا في الإيرادات بلغ 17% بدعم من قطاع البناء خصوصا.",
+          "photoAlt": "مبنى مكاتب أوتوديسك في سان رافاييل.",
+          "photoCaption": "أرشيف · 2009-04-12 · مبنى مكاتب أوتوديسك في سان رافاييل."
+        },
+        "zh-CN": {
+          "title": "欧特克第三季度营收超过20亿美元",
+          "body": "欧特克截至10月31日的季度营收达21.6亿美元。这家设计软件公司11月24日公布，营收同比增长17%，按固定汇率计算增长14%。\n\n管理层表示，建筑领域需求持续强劲，合同续约率较高。公司上调了全年开票额和营收预期区间的中值。据《巴伦周刊》报道，公司股价盘后仍然下跌。",
+          "summary": "受建筑等领域需求支撑，这家设计软件公司营收同比增长17%。",
+          "photoAlt": "圣拉斐尔的欧特克办公大楼。",
+          "photoCaption": "档案照片 · 2009-04-12 · 圣拉斐尔的欧特克办公大楼。"
+        },
+        "ru": {
+          "title": "Квартальная выручка Autodesk превысила 2 млрд долларов",
+          "body": "Выручка Autodesk за третий квартал, завершившийся 31 октября, составила 2,16 млрд долларов США. 24 ноября разработчик программ для проектирования сообщил о росте на 17% за год, или на 14% без учёта изменений валютных курсов.\n\nРуководство отметило устойчивый спрос в строительстве и высокий уровень продления контрактов. Компания повысила средние значения годовых прогнозов по выставленным счетам и выручке. По данным Barron’s, акции всё же подешевели после закрытия торгов.",
+          "summary": "Выручка разработчика программ для проектирования выросла на 17% за год, в частности благодаря строительству.",
+          "photoAlt": "Офисное здание Autodesk в Сан-Рафаэле.",
+          "photoCaption": "Архив · 2009-04-12 · Офисное здание Autodesk в Сан-Рафаэле."
+        },
+        "ko": {
+          "title": "오토데스크, 3분기 매출 20억 달러 넘어",
+          "body": "오토데스크는 10월 31일 마감한 분기에 매출 21억 6,000만 미국달러를 기록했다. 설계 소프트웨어 회사인 오토데스크는 11월 24일 매출이 전년 대비 17%, 환율 영향을 제외하면 14% 증가했다고 밝혔다.\n\n경영진은 건설 부문의 견조한 수요와 높은 계약 갱신율을 언급했다. 회사는 연간 청구액과 매출 전망 범위의 중간값을 상향했다. 배런스에 따르면 주가는 그럼에도 시간외 거래에서 하락했다.",
+          "summary": "설계 소프트웨어 회사의 매출은 건설 부문 등에 힘입어 전년 대비 17% 늘었다.",
+          "photoAlt": "샌러펠에 있는 오토데스크 사무실 건물.",
+          "photoCaption": "자료 사진 · 2009-04-12 · 샌러펠에 있는 오토데스크 사무실 건물."
+        }
+      }
+    },
+    {
+      "eventKey": "abercrombie-hollister-ventes-previsions-novembre-2026",
+      "title": "Abercrombie & Fitch relève ses prévisions de ventes avant les Fêtes",
+      "category": "Économie",
+      "summary": "Hollister et les marques Abercrombie ont enregistré des hausses de ventes à deux chiffres au troisième trimestre.",
+      "body": "Abercrombie & Fitch a annoncé le 24 novembre des ventes nettes de 1,4 milliard de dollars américains au troisième trimestre, en hausse de 11 % sur un an. Selon les résultats déposés auprès du régulateur américain, les ventes comparables ont augmenté de 6 %.\n\nLes deux enseignes du groupe ont contribué à la progression. Les ventes des marques Abercrombie ont gagné 12 % et celles de Hollister, 11 %. Reuters rapporte que le détaillant a relevé ses prévisions annuelles de ventes et de bénéfice. Il vise désormais environ 6 % de croissance des ventes sur l’exercice.",
+      "photo": {
+        "download": "media/abercrombie-hollister-ventes-previsions-novembre-2026.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abercrombie_%26_Fitch_store_in_New_York_City.jpg",
+        "credit": "Urizzato / Wikimedia Commons · version WebP",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "Passants devant un magasin Abercrombie & Fitch à New York.",
+        "caption": "Archives · 2011-10-11 · Passants devant un magasin Abercrombie & Fitch à New York."
+      },
+      "sources": [
+        {
+          "name": "Abercrombie & Fitch / SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000052/q32026pressrelease.htm",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/abercrombie-raises-annual-sales-profit-forecast-strong-apparel-demand-2026-11-24/",
+          "publishedAt": "2026-11-24T16:23:00Z"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Abercrombie & Fitch raises sales outlook ahead of holidays",
+          "body": "Abercrombie & Fitch announced on November 24 that third-quarter net sales reached US$1.4 billion, up 11% year on year. According to results filed with the US regulator, comparable sales rose 6%.\n\nBoth brand families contributed. Sales at the Abercrombie brands rose 12% and Hollister sales rose 11%. Reuters reports that the retailer raised its annual sales and earnings forecasts. It now expects sales growth of about 6% for the fiscal year.",
+          "summary": "Hollister and the Abercrombie brands posted double-digit sales growth in the third quarter.",
+          "photoAlt": "Pedestrians outside an Abercrombie & Fitch store in New York.",
+          "photoCaption": "Archive · 2011-10-11 · Pedestrians outside an Abercrombie & Fitch store in New York."
+        },
+        "es": {
+          "title": "Abercrombie & Fitch eleva su previsión de ventas antes de las fiestas",
+          "body": "Abercrombie & Fitch anunció el 24 de noviembre ventas netas trimestrales de 1.400 millones de dólares estadounidenses, un 11 % más interanual en el tercer trimestre. Según las cuentas presentadas al regulador estadounidense, las ventas comparables aumentaron un 6 %.\n\nContribuyeron las dos familias de marcas: las ventas de Abercrombie crecieron un 12 % y las de Hollister un 11 %. Reuters informa de que el minorista elevó sus previsiones anuales de ventas y beneficios. Ahora espera crecer alrededor del 6 % en ventas este ejercicio.",
+          "summary": "Hollister y las marcas Abercrombie crecieron a doble dígito en ventas durante el tercer trimestre.",
+          "photoAlt": "Peatones ante una tienda Abercrombie & Fitch en Nueva York.",
+          "photoCaption": "Archivo · 2011-10-11 · Peatones ante una tienda Abercrombie & Fitch en Nueva York."
+        },
+        "ar": {
+          "title": "أبركرومبي آند فيتش ترفع توقعات المبيعات قبل الأعياد",
+          "body": "أعلنت أبركرومبي آند فيتش في 24 نوفمبر أن صافي مبيعات الربع الثالث بلغ 1.4 مليار دولار أمريكي بزيادة 11% سنويا. ووفقا للنتائج المودعة لدى الجهة الرقابية الأمريكية ارتفعت المبيعات المقارنة 6%.\n\nوساهمت مجموعتا العلامات في النمو. فقد زادت مبيعات علامات أبركرومبي 12% وهوليستر 11%. وأفادت رويترز بأن الشركة رفعت توقعات المبيعات والأرباح السنوية، وباتت تتوقع نمو المبيعات بنحو 6% في السنة المالية.",
+          "summary": "حققت هوليستر وعلامات أبركرومبي نموا من رقمين في مبيعات الربع الثالث.",
+          "photoAlt": "مارة أمام متجر أبركرومبي آند فيتش في نيويورك.",
+          "photoCaption": "أرشيف · 2011-10-11 · مارة أمام متجر أبركرومبي آند فيتش في نيويورك."
+        },
+        "zh-CN": {
+          "title": "Abercrombie & Fitch在节前上调销售预期",
+          "body": "Abercrombie & Fitch于11月24日公布，第三季度净销售额为14亿美元，同比增长11%。根据提交给美国监管机构的业绩报告，可比销售额增长6%。\n\n旗下两大品牌系列均有贡献。Abercrombie系列销售额增长12%，Hollister增长11%。路透社报道，公司上调了全年销售和盈利预期，目前预计本财年销售额增长约6%。",
+          "summary": "Hollister和Abercrombie系列第三季度销售额均实现两位数增长。",
+          "photoAlt": "纽约一家Abercrombie & Fitch商店前的行人。",
+          "photoCaption": "档案照片 · 2011-10-11 · 纽约一家Abercrombie & Fitch商店前的行人。"
+        },
+        "ru": {
+          "title": "Abercrombie & Fitch повысила прогноз продаж перед праздниками",
+          "body": "24 ноября Abercrombie & Fitch объявила, что чистые продажи в третьем квартале достигли 1,4 млрд долларов США, увеличившись на 11% за год. По отчёту, поданному американскому регулятору, сопоставимые продажи выросли на 6%.\n\nРост обеспечили обе группы брендов. Продажи марок Abercrombie прибавили 12%, Hollister — 11%. По данным Reuters, компания повысила годовые прогнозы продаж и прибыли. Теперь она ожидает роста продаж примерно на 6% за финансовый год.",
+          "summary": "Продажи Hollister и брендов Abercrombie в третьем квартале выросли двузначными темпами.",
+          "photoAlt": "Прохожие у магазина Abercrombie & Fitch в Нью-Йорке.",
+          "photoCaption": "Архив · 2011-10-11 · Прохожие у магазина Abercrombie & Fitch в Нью-Йорке."
+        },
+        "ko": {
+          "title": "애버크롬비 앤드 피치, 연말 앞두고 매출 전망 상향",
+          "body": "애버크롬비 앤드 피치는 11월 24일 3분기 순매출이 전년 동기 대비 11% 증가한 14억 미국달러라고 발표했다. 미국 감독기관에 제출한 실적에 따르면 비교매출은 6% 늘었다.\n\n두 브랜드군 모두 성장에 기여했다. 애버크롬비 브랜드 매출은 12%, 홀리스터 매출은 11% 증가했다. 로이터에 따르면 회사는 연간 매출과 이익 전망을 높였다. 올해 매출 증가율은 약 6%로 예상한다.",
+          "summary": "홀리스터와 애버크롬비 브랜드군 모두 3분기 매출이 두 자릿수 증가했다.",
+          "photoAlt": "뉴욕 애버크롬비 앤드 피치 매장 앞을 지나는 사람들.",
+          "photoCaption": "자료 사진 · 2011-10-11 · 뉴욕 애버크롬비 앤드 피치 매장 앞을 지나는 사람들."
+        }
+      }
+    }
+  ]
+}
