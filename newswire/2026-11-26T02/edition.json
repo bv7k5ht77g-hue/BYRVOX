@@ -1,0 +1,1110 @@
+{
+  "hour": "2026-11-26T02",
+  "articles": [
+    {
+      "eventKey": "seoul-taux-directeur-novembre-325",
+      "category": "Économie",
+      "title": "La Banque de Corée relève son taux directeur à 3,25 %",
+      "summary": "À Séoul, le conseil de politique monétaire reprend ses hausses de taux après la pause d’octobre.",
+      "body": "La Banque de Corée a porté son taux directeur de 3 % à 3,25 % le 26 novembre à Séoul, selon Yonhap et Reuters. En octobre, le conseil avait maintenu le taux à 3 %. La décision de novembre renchérit le taux de référence des opérations de pension à sept jours.\n\nCette hausse était largement anticipée. Parmi les 34 analystes interrogés par Reuters avant la réunion, 32 prévoyaient un relèvement d’un quart de point. L’agence relève que le dynamisme des exportations de puces soutient la croissance, tandis que l’inflation reste supérieure à la cible de la banque.",
+      "photo": {
+        "download": "media/kr.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bank_of_Korea_Museum_20240219.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "credit": "Sean Young (@assanges)",
+        "alt": "Façade en pierre du musée de la Banque de Corée à Séoul.",
+        "caption": "Archives du 19 février 2024. Le musée de la Banque de Corée à Séoul."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/bok-raises-base-rate-by-25-bps-325-expected-2026-11-26/",
+          "publishedAt": "2026-11-26T00:58:04Z"
+        },
+        {
+          "name": "Yonhap",
+          "url": "https://www.yna.co.kr/view/AKR20261126055800002?section=economy%2Fall&site=topnews01",
+          "publishedAt": "2026-11-26T09:52:00+09:00"
+        },
+        {
+          "name": "Banque de Corée",
+          "url": "https://www.bok.or.kr/eng/bbs/E0000627/view.do?depth=400022&menuNo=400022&nttId=11065824",
+          "publishedAt": "2026-10-22"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Bank of Korea raises policy rate to 3.25%",
+          "summary": "In Seoul, the monetary policy council resumes its rate hikes after the October break.",
+          "body": "The Bank of Korea raised its key rate from 3% to 3.25% on November 26 in Seoul, according to Yonhap and Reuters. In October, the council kept the rate at 3%. The November decision increases the reference rate for seven-day repo operations.\n\nThis increase was widely anticipated. Among the 34 analysts polled by Reuters before the meeting, 32 forecast a quarter-point hike. The agency notes that the dynamism of chip exports supports growth, while inflation remains above the bank's target.",
+          "photoAlt": "Stone facade of the Bank of Korea Museum in Seoul.",
+          "photoCaption": "File photo, February 19, 2024. The Bank of Korea Museum in Seoul."
+        },
+        "es": {
+          "title": "El Banco de Corea eleva la tasa de política monetaria al 3,25%",
+          "summary": "En Seúl, el consejo de política monetaria reanuda sus subidas de tipos tras la pausa de octubre.",
+          "body": "El Banco de Corea elevó su tipo de interés clave del 3% al 3,25% el 26 de noviembre en Seúl, según Yonhap y Reuters. En octubre, el consejo mantuvo la tasa en el 3%. La decisión de noviembre aumenta la tasa de referencia para las operaciones repo a siete días.\n\nEste aumento fue ampliamente anticipado. Entre los 34 analistas encuestados por Reuters antes de la reunión, 32 pronosticaron un aumento de un cuarto de punto. La agencia señala que el dinamismo de las exportaciones de chips respalda el crecimiento, mientras que la inflación se mantiene por encima del objetivo del banco.",
+          "photoAlt": "Fachada de piedra del Museo del Banco de Corea en Seúl.",
+          "photoCaption": "Foto de archivo, 19 de febrero de 2024. Museo del Banco de Corea en Seúl."
+        },
+        "ar": {
+          "title": "بنك كوريا يرفع سعر الفائدة إلى 3.25%",
+          "summary": "وفي سيول، يستأنف مجلس السياسة النقدية رفع أسعار الفائدة بعد عطلة أكتوبر.",
+          "body": "ورفع بنك كوريا سعر الفائدة الرئيسي من 3% إلى 3.25% في 26 نوفمبر في سيول، وفقا لوكالة يونهاب ورويترز. وفي أكتوبر/تشرين الأول، أبقى المجلس سعر الفائدة عند 3%. ويؤدي قرار نوفمبر إلى زيادة السعر المرجعي لعمليات إعادة الشراء لمدة سبعة أيام.\n\nوكانت هذه الزيادة متوقعة على نطاق واسع. ومن بين 34 محللا استطلعت رويترز آراءهم قبل الاجتماع، توقع 32 محللا زيادة بمقدار ربع نقطة مئوية. وتشير الوكالة إلى أن ديناميكية صادرات الرقائق تدعم النمو، بينما يظل التضخم أعلى من هدف البنك.",
+          "photoAlt": "الواجهة الحجرية لمتحف بنك كوريا في سيول.",
+          "photoCaption": "صورة أرشيفية، 19 فبراير 2024. متحف بنك كوريا في سيول."
+        },
+        "zh-CN": {
+          "title": "韩国央行将政策利率上调至3.25%",
+          "summary": "在首尔，货币政策委员会在十月份休息后恢复加息。",
+          "body": "据韩联社和路透社报道，韩国央行 11 月 26 日在首尔将关键利率从 3% 上调至 3.25%。 10月份，该委员会将利率维持在3%。 11 月份的决定提高了 7 天回购操作的参考利率。\n\n这一增长是广泛预期的。路透在会前调查的 34 名分析师中，有 32 人预测加息 25 个基点。该机构指出，芯片出口的活力支持了经济增长，而通胀仍高于该银行的目标。",
+          "photoAlt": "首尔韩国银行博物馆的石头外墙。",
+          "photoCaption": "资料照片，2024 年 2 月 19 日。首尔韩国银行博物馆。"
+        },
+        "ru": {
+          "title": "Банк Кореи повышает учетную ставку до 3,25%",
+          "summary": "В Сеуле совет по денежно-кредитной политике возобновляет повышение ставок после октябрьских каникул.",
+          "body": "По данным Yonhap и Reuters, Банк Кореи повысил ключевую ставку с 3% до 3,25% 26 ноября в Сеуле. В октябре совет сохранил ставку на уровне 3%. Ноябрьское решение увеличивает базовую ставку для семидневных операций репо.\n\nЭто увеличение было широко ожидаемо. Среди 34 аналитиков, опрошенных агентством Reuters перед встречей, 32 прогнозируют повышение ставки на четверть пункта. Агентство отмечает, что динамизм экспорта чипов поддерживает рост, в то время как инфляция остается выше целевого показателя банка.",
+          "photoAlt": "Каменный фасад музея Банка Кореи в Сеуле.",
+          "photoCaption": "Архивное фото, 19 февраля 2024 года. Музей Банка Кореи в Сеуле."
+        },
+        "ko": {
+          "title": "한국은행, 기준금리 3.25%로 인상",
+          "summary": "서울 통화정책위원회는 10월 휴식 이후 금리 인상을 재개한다.",
+          "body": "연합뉴스와 로이터통신에 따르면 한국은행은 11월 26일 서울에서 기준금리를 3%에서 3.25%로 인상했다. 지난 10월 시의회는 이율을 3%로 유지했다. 11월 결정은 7일 repo 운영에 대한 기준금리를 인상합니다.\n\n이러한 증가는 널리 예상되었습니다. 회의 전 로이터가 여론조사를 실시한 애널리스트 34명 중 32명이 4분의 1포인트 인상을 전망했다. 기관은 칩 수출의 역동성이 성장을 뒷받침하는 반면 인플레이션은 여전히 ​​은행 목표보다 높다고 지적합니다.",
+          "photoAlt": "서울에 있는 한국은행박물관의 석조 정면.",
+          "photoCaption": "자료사진, 2024년 2월 19일. 서울 한국은행박물관."
+        }
+      }
+    },
+    {
+      "eventKey": "canada-contingent-legumes-conserve-decembre",
+      "category": "Canada",
+      "title": "Ottawa fixe un contingent sur certaines importations de légumes en conserve",
+      "summary": "Un droit de 50 % s’appliquera au-delà du seuil de 13 millions de kilogrammes la première année, avec des exemptions selon le pays d’origine.",
+      "body": "À compter du 1er décembre, certaines conserves de légumes pourront entrer au Canada sans droit supplémentaire jusqu’à concurrence de 13 millions de kilogrammes la première année. Au-delà de ce volume, le droit annoncé le 25 novembre par le ministre des Finances François-Philippe Champagne sera de 50 %.\n\nLa mesure fait suite à une enquête du Tribunal canadien du commerce extérieur sur le préjudice subi par les producteurs. Selon le ministère et La Presse Canadienne, le contingent augmentera progressivement et le taux applicable au dépassement descendra à 40 %. La mesure doit prendre fin le 17 juin 2029.",
+      "photo": {
+        "download": "media/can.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois-Philippe_Champagne%2C_2017_%28cropped%29.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "credit": "Reinis Inkēns, Saeimas Administrācija",
+        "alt": "Portrait de François-Philippe Champagne en costume et cravate.",
+        "caption": "Archives du 23 février 2017. François-Philippe Champagne, qui a annoncé la mesure commerciale."
+      },
+      "sources": [
+        {
+          "name": "Ministère des Finances Canada",
+          "url": "https://www.canada.ca/en/department-finance/news/2026/11/canada-moves-forward-with-final-safeguard-measure-on-canned-vegetables-imports-to-protect-canadian-producers.html",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "La Presse Canadienne / iNFOnews",
+          "url": "https://infonews.ca/news/7994083/ottawa-imposing-import-limits-tariffs-on-some-canned-vegetables/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Ottawa sets a quota on certain imports of canned vegetables",
+          "summary": "A 50% duty will apply above the threshold of 13 million kilograms in the first year, with exemptions depending on the country of origin.",
+          "body": "Starting December 1, certain canned vegetables will be able to enter Canada without additional duty up to 13 million kilograms in the first year. Beyond this volume, the duty announced on November 25 by the Minister of Finance François-Philippe Champagne will be 50%.\n\nThe measure follows an investigation by the Canadian International Trade Tribunal into the harm suffered by producers. According to the ministry and The Canadian Press, the quota will gradually increase and the rate applicable to the excess will drop to 40%. The measure is due to end on June 17, 2029.",
+          "photoAlt": "Portrait of François-Philippe Champagne in suit and tie.",
+          "photoCaption": "File photo, February 23, 2017. François-Philippe Champagne, who announced the commercial measure."
+        },
+        "es": {
+          "title": "Ottawa fija una cuota a determinadas importaciones de conservas vegetales",
+          "summary": "Se aplicará un arancel del 50% por encima del umbral de 13 millones de kilogramos durante el primer año, con exenciones según el país de origen.",
+          "body": "A partir del 1 de diciembre, determinadas verduras enlatadas podrán ingresar a Canadá sin derechos adicionales hasta 13 millones de kilogramos durante el primer año. Más allá de este volumen, el impuesto anunciado el 25 de noviembre por el Ministro de Finanzas, François-Philippe Champagne, será del 50%.\n\nLa medida surge tras una investigación del Tribunal Canadiense de Comercio Internacional sobre el daño sufrido por los productores. Según el ministerio y The Canadian Press, la cuota irá aumentando progresivamente y el tipo aplicable al excedente bajará hasta el 40%. La medida finalizará el 17 de junio de 2029.",
+          "photoAlt": "Retrato de François-Philippe Champagne con traje y corbata.",
+          "photoCaption": "Foto de archivo, 23 de febrero de 2017. François-Philippe Champagne, quien anunció la medida comercial."
+        },
+        "ar": {
+          "title": "تحدد أوتاوا حصة معينة على واردات معينة من الخضروات المعلبة",
+          "summary": "وسيتم تطبيق رسوم بنسبة 50% على ما يتجاوز عتبة 13 مليون كيلوغرام في السنة الأولى، مع إعفاءات تعتمد على بلد المنشأ.",
+          "body": "اعتبارًا من 1 ديسمبر، ستتمكن بعض الخضروات المعلبة من دخول كندا دون رسوم إضافية تصل إلى 13 مليون كيلوغرام في السنة الأولى. وبخلاف هذا الحجم، فإن الرسوم التي أعلنها وزير المالية فرانسوا فيليب شامباني في 25 نوفمبر ستكون 50٪.\n\nويأتي هذا الإجراء في أعقاب تحقيق أجرته محكمة التجارة الدولية الكندية في الضرر الذي لحق بالمنتجين. وبحسب الوزارة والصحافة الكندية، فإن الحصة ستزيد تدريجياً وسينخفض ​​المعدل المطبق على الفائض إلى 40%. ومن المقرر أن ينتهي الإجراء في 17 يونيو 2029.",
+          "photoAlt": "صورة لفرانسوا فيليب شامبانيا يرتدي بدلة وربطة عنق.",
+          "photoCaption": "صورة أرشيفية، 23 فبراير/شباط 2017. فرانسوا فيليب شامباني، الذي أعلن عن الإجراء التجاري."
+        },
+        "zh-CN": {
+          "title": "渥太华对某些罐装蔬菜进口实行配额",
+          "summary": "第一年超过 1300 万公斤的货物将征收 50% 的关税，但根据原产国的不同，有豁免。",
+          "body": "从12月1日开始，某些罐装蔬菜将可以在第一年免征额外关税进入加拿大，最多可达1300万公斤。除此之外，财政部长 François-Philippe Champagne 于 11 月 25 日宣布，关税将为 50%。\n\n该措施是在加拿大国际贸易法庭对生产者遭受的伤害进行调查之后采取的。据该部和加通社报道，配额将逐步增加，超额部分的税率将降至40%。该措施将于 2029 年 6 月 17 日结束。",
+          "photoAlt": "弗朗索瓦-菲利普·香槟穿着西装打领带的肖像。",
+          "photoCaption": "资料照片，2017 年 2 月 23 日。弗朗索瓦-菲利普·香槟 (François-Philippe Champagne) 宣布了这项商业措施。"
+        },
+        "ru": {
+          "title": "Оттава устанавливает квоту на импорт некоторых консервированных овощей",
+          "summary": "Пошлина в размере 50% будет применяться при превышении порога в 13 миллионов килограммов в первый год, с исключениями в зависимости от страны происхождения.",
+          "body": "С 1 декабря некоторые консервированные овощи смогут ввозиться в Канаду без дополнительной пошлины до 13 миллионов килограммов в первый год. Помимо этого объема, пошлина, объявленная 25 ноября министром финансов Франсуа-Филиппом Шампани, составит 50%.\n\nЭта мера последовала за расследованием Канадского международного торгового трибунала по поводу ущерба, нанесенного производителям. По данным министерства и The Canadian Press, квота будет постепенно увеличиваться, а ставка, применимая к превышению, снизится до 40%. Срок действия этой меры истекает 17 июня 2029 года.",
+          "photoAlt": "Портрет Франсуа-Филиппа Шампанского в костюме и галстуке.",
+          "photoCaption": "Архивное фото, 23 февраля 2017 года. Франсуа-Филипп Шампань, объявивший о коммерческой мере."
+        },
+        "ko": {
+          "title": "오타와는 특정 야채 통조림 수입에 대한 할당량을 설정합니다.",
+          "summary": "첫해에는 1,300만kg을 초과하는 경우 50% 관세가 적용되며, 원산지 국가에 따라 면제가 적용됩니다.",
+          "body": "12월 1일부터 특정 야채 통조림은 첫 해에 최대 1,300만kg까지 추가 관세 없이 캐나다에 반입될 수 있습니다. 이 금액을 넘어서면 François-Philippe Champagne 재무부 장관이 11월 25일에 발표한 관세는 50%가 됩니다.\n\n이 조치는 생산자가 입은 피해에 대한 캐나다 국제 무역 재판소의 조사에 따른 것입니다. 보건부와 캐나다 언론에 따르면 할당량은 점차 증가하고 초과분에 적용되는 비율은 40%로 낮아질 예정이다. 이 법안은 2029년 6월 17일에 종료될 예정입니다.",
+          "photoAlt": "양복과 넥타이를 매고 있는 프랑수아-필립 샴페인의 초상화.",
+          "photoCaption": "자료사진, 2017년 2월 23일. 상업적 조치를 발표한 프랑수아-필립 샴페인."
+        }
+      }
+    },
+    {
+      "eventKey": "quebec-dufour-consigne-verre-cartons-2026",
+      "category": "Québec",
+      "title": "Consigne au Québec : Virginie Dufour demande deux ans de plus pour les bouteilles de vin",
+      "summary": "La députée libérale propose aussi de laisser les cartons de lait, de crème et de jus dans la collecte sélective.",
+      "body": "L’opposition officielle demande au gouvernement du Québec de revoir l’élargissement de la consigne prévu le 1er mars 2027. Dans sa proposition du 25 novembre, la députée de Mille-Îles Virginie Dufour distingue deux familles de contenants auxquelles les consommateurs ont affaire au quotidien.\n\nPour les bouteilles de vin et de spiritueux, elle réclame un report de deux ans afin de donner au réseau de retour le temps de s’adapter. Pour les cartons multicouches, elle demande de renoncer à la consigne. Le Journal de Québec rapporte les préoccupations de la députée sur la capacité du réseau. La date prévue reste en vigueur à ce stade.",
+      "photo": {
+        "download": "media/qc.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVirginie_point_de_press_hot_room_DSC3681.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "MK2107",
+        "alt": "Virginie Dufour parle à un pupitre devant des drapeaux du Québec.",
+        "caption": "Archives du 9 novembre 2026. Virginie Dufour à l’Assemblée nationale du Québec."
+      },
+      "sources": [
+        {
+          "name": "Parti libéral du Québec / CNW",
+          "url": "https://www.newswire.ca/fr/news-releases/agir-pour-eviter-que-la-reforme-de-la-consigne-n-echoue-pour-de-bon-882755185.html",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Le Journal de Québec",
+          "url": "https://www.journaldequebec.com/2026/11/25/il-faut-reporter-la-consigne-sur-le-vin-et-le-lait-selon-les-liberaux",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Quebec Liberals seek two-year delay for deposits on wine bottles",
+          "summary": "The opposition also wants milk, cream and juice cartons to stay in curbside recycling.",
+          "body": "Quebec’s official opposition wants the government to reconsider the expansion of the container deposit system scheduled for March 1, 2027. On November 25, Virginie Dufour, the provincial legislator for Mille-Îles, proposed different rules for two types of everyday beverage containers.\n\nShe called for a two-year delay for wine and spirits bottles to give collection sites time to adapt. She wants multilayer cartons to stay outside the deposit system permanently. Le Journal de Québec reported her concerns about collection capacity. The scheduled date still stands.",
+          "photoAlt": "Virginie Dufour speaks at a lectern in front of Quebec flags.",
+          "photoCaption": "File photo, November 9, 2026. Virginie Dufour at the National Assembly of Quebec."
+        },
+        "es": {
+          "title": "Los liberales de Quebec piden un aplazamiento de dos años para los depósitos en las botellas de vino",
+          "summary": "La oposición también quiere que los cartones de leche, nata y zumo sigan reciclando en las aceras.",
+          "body": "La oposición oficial de Quebec quiere que el gobierno reconsidere la ampliación del sistema de depósito de contenedores prevista para el 1 de marzo de 2027. El 25 de noviembre, Virginie Dufour, legisladora provincial de Mille-Îles, propuso normas diferentes para dos tipos de envases de bebidas de uso cotidiano.\n\nPidió un retraso de dos años para las botellas de vino y licores para que los sitios de recolección tuvieran tiempo de adaptarse. Quiere que los envases multicapa queden fuera del sistema de depósito de forma permanente. Le Journal de Québec expresó su preocupación por la capacidad de recaudación. La fecha prevista sigue en pie.",
+          "photoAlt": "Virginie Dufour habla en un atril frente a las banderas de Quebec.",
+          "photoCaption": "Foto de archivo, 9 de noviembre de 2026. Virginie Dufour en la Asamblea Nacional de Quebec."
+        },
+        "ar": {
+          "title": "يسعى الليبراليون في كيبيك إلى تأخير الودائع على زجاجات النبيذ لمدة عامين",
+          "summary": "وتريد المعارضة أيضًا أن تبقى علب الحليب والقشدة والعصير في عملية إعادة التدوير.",
+          "body": "وتريد المعارضة الرسمية في كيبيك أن تعيد الحكومة النظر في توسيع نظام إيداع الحاويات المقرر في الأول من مارس/آذار 2027. وفي 25 نوفمبر/تشرين الثاني، اقترحت فيرجيني دوفور، المشرعة الإقليمية لمدينة ميل إيل، قواعد مختلفة لنوعين من حاويات المشروبات اليومية.\n\nودعت إلى تأخير زجاجات النبيذ والمشروبات الروحية لمدة عامين لمنح مواقع التجميع الوقت للتكيف. إنها تريد أن تظل الصناديق الكرتونية متعددة الطبقات خارج نظام الإيداع بشكل دائم. أبلغت صحيفة Le Journal de Québec عن مخاوفها بشأن القدرة على التحصيل. الموعد المقرر لا يزال قائما.",
+          "photoAlt": "فيرجيني دوفور تتحدث على منبر أمام أعلام كيبيك.",
+          "photoCaption": "صورة أرشيفية، 9 نوفمبر 2026. فيرجيني دوفور في الجمعية الوطنية في كيبيك."
+        },
+        "zh-CN": {
+          "title": "魁北克自由党寻求推迟两年征收酒瓶押金",
+          "summary": "反对派还希望牛奶、奶油和果汁纸盒留在路边回收。",
+          "body": "魁北克省官方反对派希望政府重新考虑计划于 2027 年 3 月 1 日扩大容器押金制度。11 月 25 日，米勒岛省立法者维吉妮·杜福尔 (Virginie Dufour) 对两种日常饮料容器提出了不同的规则。\n\n她呼吁推迟两年收集葡萄酒和烈酒瓶，以便让收集站有时间适应。她希望多层纸箱永远处于押金系统之外。 《魁北克日报》报道了她对收集能力的担忧。预定日期仍然有效。",
+          "photoAlt": "维吉妮·杜福尔在魁北克国旗前的讲台上发表讲话。",
+          "photoCaption": "资料照片，2026 年 11 月 9 日。维吉妮·杜福尔 (Virginie Dufour) 在魁北克国民议会。"
+        },
+        "ru": {
+          "title": "Либералы Квебека требуют двухлетней отсрочки выплаты залога за бутылки вина",
+          "summary": "Оппозиция также хочет, чтобы картонные коробки из-под молока, сливок и сока оставались на вторичной переработке.",
+          "body": "Официальная оппозиция Квебека хочет, чтобы правительство пересмотрело вопрос о расширении системы хранения контейнеров, запланированном на 1 марта 2027 года. 25 ноября Виржини Дюфур, законодатель провинции Миль-Иль, предложила разные правила для двух типов контейнеров для повседневных напитков.\n\nОна призвала отложить поставку бутылок для вина и спиртных напитков на два года, чтобы дать местам сбора время адаптироваться. Она хочет, чтобы многослойные картонные коробки навсегда оставались за пределами депозитной системы. Le Journal de Québec сообщила о своей обеспокоенности по поводу возможностей сбора налогов. Запланированная дата остается в силе.",
+          "photoAlt": "Виржини Дюфур выступает за кафедрой перед флагами Квебека.",
+          "photoCaption": "Архивное фото, 9 ноября 2026 года. Виржини Дюфур в Национальной ассамблее Квебека."
+        },
+        "ko": {
+          "title": "퀘벡 자유당은 와인병 보증금에 대해 2년 유예를 요구합니다.",
+          "summary": "야당은 또한 우유, 크림, 주스 상자가 도로변 재활용에 머물기를 원합니다.",
+          "body": "퀘벡의 공식 야당은 정부가 2027년 3월 1일로 예정된 용기 보증금 시스템의 확장을 재검토하기를 원합니다. 11월 25일 Mille-Îles의 지방 의원인 Virginie Dufour는 두 가지 유형의 일상 음료 용기에 대해 서로 다른 규칙을 제안했습니다.\n\n그녀는 수거 장소에 적응할 시간을 주기 위해 와인과 증류주 병의 출시를 2년 연기할 것을 요청했습니다. 그녀는 다층 상자가 보증금 시스템 외부에 영구적으로 머물기를 원합니다. Le Journal de Québec은 수집 용량에 대한 우려를 보고했습니다. 예정된 날짜는 아직 유효합니다.",
+          "photoAlt": "Virginie Dufour가 퀘벡 국기 앞 강연대에서 연설하고 있습니다.",
+          "photoCaption": "자료사진, 2026년 11월 9일. 퀘벡 국회의 버지니 뒤푸르."
+        }
+      }
+    },
+    {
+      "eventKey": "onu-feminicides-rapport-2025-proches",
+      "category": "Société",
+      "title": "En 2025, environ 47 000 femmes et filles ont été tuées par un partenaire ou un proche, estime l’ONU",
+      "summary": "L’estimation mondiale équivaut à 129 victimes par jour. Elle porte sur les homicides intentionnels commis par un partenaire intime ou un membre de la famille.",
+      "body": "Dans un bilan publié le 24 novembre à la veille de la Journée internationale pour l’élimination de la violence à l’égard des femmes, ONU Femmes et l’Office des Nations unies contre la drogue et le crime estiment à 47 000 le nombre de femmes et de filles tuées par un partenaire intime ou un membre de leur famille en 2025.\n\nCela représente environ cinq victimes par heure à l’échelle mondiale. Comme le rapporte l’AFP, cette moyenne ramène à une échelle quotidienne des violences souvent commises dans la sphère familiale. L’ONU précise que le bilan dépend des cas recensés et que le nombre réel pourrait être plus élevé.",
+      "photo": {
+        "download": "media/un.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vereinte_Nationen_in_Wien.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "credit": "Konstantinknoll",
+        "alt": "Vue en hauteur des tours du Centre international de Vienne.",
+        "caption": "Archives publiées en 2004. Le Centre international de Vienne accueille l’Office des Nations unies contre la drogue et le crime."
+      },
+      "sources": [
+        {
+          "name": "ONU Femmes",
+          "url": "https://unwomen.org.au/five-women-killed-every-hour-by-a-partner-or-close-relative-in-2025/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Le Parisien / AFP",
+          "url": "https://www.leparisien.fr/societe/cinq-femmes-et-filles-succombent-sous-les-coups-dun-proche-chaque-heure-dans-le-monde-denonce-lonu-24-11-2026-IIC5XFNTFZD67BHLAMSNYLFUMQ.php",
+          "publishedAt": "2026-11-24T09:59:00+01:00"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "UN estimates that partners or relatives killed 47,000 women and girls in 2025",
+          "summary": "The global estimate equates to 129 victims per day. It covers intentional homicides committed by an intimate partner or family member.",
+          "body": "UN Women and the UN Office on Drugs and Crime issued their report on November 24, ahead of the International Day for the Elimination of Violence against Women. They estimate that intimate partners or family members killed 47,000 women and girls worldwide in 2025.\n\nThat amounts to about five victims every hour. AFP reported the figure as a measure of how often violence within families turns deadly. The UN cautioned that its estimate relies on recorded cases and that the actual number could be higher.",
+          "photoAlt": "Elevated view of the towers of the Vienna International Center.",
+          "photoCaption": "File photo published in 2004. The Vienna International Center hosts the United Nations Office on Drugs and Crime."
+        },
+        "es": {
+          "title": "ONU estima que parejas o familiares mataron a 47.000 mujeres y niñas en 2025",
+          "summary": "La estimación global equivale a 129 víctimas por día. Cubre los homicidios dolosos cometidos por una pareja íntima o un familiar.",
+          "body": "ONU Mujeres y la Oficina de las Naciones Unidas contra la Droga y el Delito publicaron su informe el 24 de noviembre, antes del Día Internacional para la Eliminación de la Violencia contra la Mujer. Estiman que las parejas íntimas o familiares mataron a 47.000 mujeres y niñas en todo el mundo en 2025.\n\nEsto equivale a unas cinco víctimas cada hora. La AFP informó que la cifra es una medida de la frecuencia con la que la violencia dentro de las familias se vuelve mortal. La ONU advirtió que su estimación se basa en casos registrados y que el número real podría ser mayor.",
+          "photoAlt": "Vista elevada de las torres del Centro Internacional de Viena.",
+          "photoCaption": "Fotografía de archivo publicada en 2004. El Centro Internacional de Viena alberga la Oficina de las Naciones Unidas contra la Droga y el Delito."
+        },
+        "ar": {
+          "title": "وتشير تقديرات الأمم المتحدة إلى أن الشركاء أو الأقارب قتلوا 47 ألف امرأة وفتاة في عام 2025",
+          "summary": "ويعادل التقدير العالمي 129 ضحية يوميا. ويغطي جرائم القتل العمد التي يرتكبها الشريك الحميم أو أحد أفراد الأسرة.",
+          "body": "أصدرت هيئة الأمم المتحدة للمرأة ومكتب الأمم المتحدة المعني بالمخدرات والجريمة تقريرهما في 24 نوفمبر، قبل اليوم الدولي للقضاء على العنف ضد المرأة. ويقدرون أن الشركاء الحميمين أو أفراد الأسرة قتلوا 47000 امرأة وفتاة في جميع أنحاء العالم في عام 2025.\n\nوهذا يصل إلى حوالي خمسة ضحايا كل ساعة. وذكرت وكالة فرانس برس أن هذا الرقم هو مقياس لعدد المرات التي يتحول فيها العنف داخل الأسرة إلى حالة مميتة. وحذرت الأمم المتحدة من أن تقديراتها تعتمد على الحالات المسجلة وأن العدد الفعلي قد يكون أعلى.",
+          "photoAlt": "منظر مرتفع لأبراج مركز فيينا الدولي.",
+          "photoCaption": "صورة أرشيفية نشرت عام 2004. مركز فيينا الدولي يستضيف مكتب الأمم المتحدة المعني بالمخدرات والجريمة."
+        },
+        "zh-CN": {
+          "title": "联合国估计 2025 年伴侣或亲属杀害了 47,000 名妇女和女孩",
+          "summary": "全球估计每天有 129 名受害者。它涵盖亲密伴侣或家庭成员犯下的故意杀人罪。",
+          "body": "联合国妇女署和联合国毒品和犯罪问题办公室于 11 月 24 日，即消除对妇女的暴力行为国际日之前发布了报告。他们估计，2025 年全球有 47,000 名妇女和女孩被亲密伴侣或家庭成员杀害。\n\n这相当于每小时大约有五名受害者。法新社报道称，这一数字是衡量家庭内部暴力演变为致命事件的频率的指标。联合国警告称，其估计依赖于记录的病例，实际数字可能更高。",
+          "photoAlt": "维也纳国际中心塔楼的俯视图。",
+          "photoCaption": "2004 年发布的资料照片。维也纳国际中心是联合国毒品和犯罪问题办公室的所在地。"
+        },
+        "ru": {
+          "title": "По оценкам ООН, в 2025 году партнеры или родственники убили 47 000 женщин и девочек.",
+          "summary": "Глобальная оценка соответствует 129 жертвам в день. Он охватывает умышленные убийства, совершенные интимным партнером или членом семьи.",
+          "body": "Структура «ООН-женщины» и Управление ООН по наркотикам и преступности опубликовали свой доклад 24 ноября, накануне Международного дня борьбы за ликвидацию насилия в отношении женщин. По их оценкам, в 2025 году интимные партнеры или члены семьи убили 47 000 женщин и девочек во всем мире.\n\nЭто составляет около пяти жертв каждый час. Агентство Франс Пресс сообщило, что эта цифра является показателем того, насколько часто насилие в семьях становится смертельным. ООН предупредила, что ее оценка основана на зарегистрированных случаях и что фактическое число может быть выше.",
+          "photoAlt": "Повышенный вид на башни Венского международного центра.",
+          "photoCaption": "Фотография из архива опубликована в 2004 году. В Венском международном центре находится Управление ООН по наркотикам и преступности."
+        },
+        "ko": {
+          "title": "UN은 2025년에 파트너나 친척이 47,000명의 여성과 소녀를 살해했다고 추정합니다.",
+          "summary": "전 세계 추정치는 하루 129명의 피해자에 해당합니다. 친밀한 파트너나 가족이 저지른 고의적인 살인에도 적용됩니다.",
+          "body": "유엔여성기구와 유엔마약범죄사무소는 세계 여성폭력 추방의 날을 앞두고 11월 24일 보고서를 발표했다. 그들은 친밀한 파트너나 가족이 2025년에 전 세계적으로 47,000명의 여성과 소녀를 살해한 것으로 추정합니다.\n\n매 시간마다 약 5명의 희생자가 발생합니다. AFP는 이 수치를 가족 내 폭력이 얼마나 자주 치명적으로 변하는지를 측정한 것이라고 보도했습니다. 유엔은 추정치가 기록된 사례에 의존하고 있으며 실제 숫자는 더 높을 수 있다고 경고했습니다.",
+          "photoAlt": "비엔나 국제 센터 타워의 높은 전망.",
+          "photoCaption": "파일 사진은 2004년에 출판되었습니다. 비엔나 국제 센터에는 유엔 마약 범죄 사무국이 있습니다."
+        }
+      }
+    },
+    {
+      "eventKey": "etats-unis-pib-troisieme-trimestre-revision-43",
+      "category": "Économie",
+      "title": "La croissance américaine du troisième trimestre est révisée à 4,3 % en rythme annualisé",
+      "summary": "Les nouvelles estimations de consommation et d’investissement relèvent de 0,9 point le rythme de croissance annoncé initialement.",
+      "body": "La deuxième estimation du Bureau of Economic Analysis, publiée le 25 novembre, situe la croissance du PIB réel américain à 4,3 % en rythme annualisé de juillet à septembre. La première estimation était de 3,4 %. Le taux annualisé indique ce que donnerait la variation trimestrielle si elle se répétait pendant un an.\n\nLes dépenses des ménages expliquent une partie de la révision. Selon Reuters, leur progression atteint désormais 4,2 % en rythme annualisé, contre 3,8 % dans la première estimation. L’investissement des entreprises a lui aussi été revu à la hausse.",
+      "photo": {
+        "download": "media/us.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Commerce_Building_aerial_view_from_14th_Street.jpg",
+        "license": "Domaine public",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Help:Public_domain",
+        "credit": "U.S. Department of Commerce",
+        "alt": "Vue aérienne des cours intérieures du département du Commerce à Washington.",
+        "caption": "Archives mises en ligne en décembre 2007. Le département américain du Commerce, dont relève le Bureau of Economic Analysis."
+      },
+      "sources": [
+        {
+          "name": "Bureau of Economic Analysis",
+          "url": "https://www.bea.gov/sites/default/files/2026-11/gdp3q26-2nd.pdf",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/finance/us-third-quarter-gdp-growth-revised-sharply-higher-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Third-quarter US growth revised to 4.3% annualized",
+          "summary": "The new consumption and investment estimates increase the growth rate initially announced by 0.9 points.",
+          "body": "The second estimate from the Bureau of Economic Analysis, published on November 25, places US real GDP growth at an annualized rate of 4.3% from July to September. The first estimate was 3.4%. The annualized rate indicates what the quarterly variation would be if it were repeated for a year.\n\nHousehold spending explains part of the revision. According to Reuters, their growth now reaches 4.2% at an annualized rate, compared to 3.8% in the first estimate. Business investment has also been revised upwards.",
+          "photoAlt": "Aerial view of the interior courtyards of the Commerce Department in Washington.",
+          "photoCaption": "File photo published online in December 2007. The US Department of Commerce, which includes the Bureau of Economic Analysis."
+        },
+        "es": {
+          "title": "El crecimiento de EE.UU. en el tercer trimestre se revisa al 4,3% anualizado",
+          "summary": "Las nuevas estimaciones de consumo e inversión incrementan en 0,9 puntos el ritmo de crecimiento anunciado inicialmente.",
+          "body": "La segunda estimación de la Oficina de Análisis Económico, publicada el 25 de noviembre, sitúa el crecimiento del PIB real de Estados Unidos en una tasa anualizada del 4,3% de julio a septiembre. La primera estimación fue del 3,4%. La tasa anualizada indica cuál sería la variación trimestral si se repitiera durante un año.\n\nEl gasto de los hogares explica parte de la revisión. Según Reuters, su crecimiento alcanza ahora el 4,2% a tasa anualizada, frente al 3,8% de la primera estimación. La inversión empresarial también se ha revisado al alza.",
+          "photoAlt": "Vista aérea de los patios interiores del Departamento de Comercio en Washington.",
+          "photoCaption": "Fotografía de archivo publicada en línea en diciembre de 2007. Departamento de Comercio de Estados Unidos, que incluye la Oficina de Análisis Económico."
+        },
+        "ar": {
+          "title": "تم تعديل النمو الأمريكي في الربع الثالث إلى 4.3% على أساس سنوي",
+          "summary": "وترفع تقديرات الاستهلاك والاستثمار الجديدة معدل النمو المعلن عنه مبدئيا بمقدار 0.9 نقطة.",
+          "body": "والتقدير الثاني الصادر عن مكتب التحليل الاقتصادي، والذي نُشر في الخامس والعشرين من نوفمبر/تشرين الثاني، يضع نمو الناتج المحلي الإجمالي الحقيقي في الولايات المتحدة عند معدل سنوي يبلغ 4.3% في الفترة من يوليو/تموز إلى سبتمبر/أيلول. وكان التقدير الأول 3.4%. يشير المعدل السنوي إلى مقدار التباين ربع السنوي إذا تكرر لمدة عام.\n\nويفسر إنفاق الأسر جزءاً من المراجعة. وبحسب رويترز، يصل نموها الآن إلى 4.2% بمعدل سنوي، مقارنة بـ 3.8% في التقدير الأول. كما تم تعديل الاستثمار التجاري صعودا.",
+          "photoAlt": "منظر جوي للساحات الداخلية لوزارة التجارة في واشنطن.",
+          "photoCaption": "صورة أرشيفية منشورة على الإنترنت في ديسمبر 2007. وزارة التجارة الأمريكية، والتي تضم مكتب التحليل الاقتصادي."
+        },
+        "zh-CN": {
+          "title": "美国第三季度年化增长率修正为 4.3%",
+          "summary": "新的消费和投资预测将最初公布的增长率提高了0.9个百分点。",
+          "body": "美国经济分析局11月25日发布的第二次预测显示，7月至9月美国实际GDP年化增长率为4.3%。初步估计为3.4%。年化率表明如果重复一年，季度变化会是多少。\n\n家庭支出解释了此次修订的部分原因。据路透社报道，按年率计算，它们的增长率目前达到 4.2%，而最初估计的增长率为 3.8%。商业投资也被上调。",
+          "photoAlt": "华盛顿商务部内部庭院的鸟瞰图。",
+          "photoCaption": "2007 年 12 月在线发布的档案照片。美国商务部，其中包括经济分析局。"
+        },
+        "ru": {
+          "title": "Рост экономики США в третьем квартале пересмотрен до 4,3% в годовом исчислении",
+          "summary": "Новые оценки потребления и инвестиций увеличивают первоначально объявленный темп роста на 0,9 пункта.",
+          "body": "Вторая оценка Бюро экономического анализа, опубликованная 25 ноября, предполагает рост реального ВВП США в годовом исчислении на уровне 4,3% с июля по сентябрь. Первая оценка составляла 3,4%. Годовая ставка показывает, какими были бы квартальные колебания, если бы они повторялись в течение года.\n\nРасходы домохозяйств частично объясняют пересмотр. По данным Reuters, их рост сейчас достигает 4,2% в годовом исчислении по сравнению с 3,8% по первой оценке. Инвестиции в бизнес также были пересмотрены в сторону повышения.",
+          "photoAlt": "Вид с воздуха на внутренние дворы Министерства торговли в Вашингтоне.",
+          "photoCaption": "Архивное фото опубликовано в сети в декабре 2007 года. Министерство торговли США, в состав которого входит Бюро экономического анализа."
+        },
+        "ko": {
+          "title": "3분기 미국 성장률, 연간 4.3%로 수정",
+          "summary": "새로운 소비 및 투자 전망은 당초 발표된 성장률을 0.9포인트 높인다.",
+          "body": "11월 25일 발표된 경제분석국(Bureau of Economic Analysis)의 두 번째 추정에서는 미국의 실질 GDP 성장률이 7월부터 9월까지 연율 4.3%로 나타났습니다. 첫 번째 추정치는 3.4%였다. 연간 비율은 분기별 변동이 1년 동안 반복되는 경우를 나타냅니다.\n\n가계 지출은 개정 내용의 일부를 설명합니다. 로이터 통신에 따르면 이들의 성장률은 첫 번째 추정치의 3.8%에 비해 현재 연간 비율로 4.2%에 도달합니다. 기업투자도 상향 조정됐다.",
+          "photoAlt": "워싱턴 상무부 내부 안뜰의 공중 전망.",
+          "photoCaption": "2007년 12월 온라인에 공개된 파일사진. 미국 상무부, 경제분석국(Bureau of Economic Analysis)이 포함됨."
+        }
+      }
+    },
+    {
+      "eventKey": "australie-inflation-octobre-logement-49",
+      "category": "Économie",
+      "title": "En Australie, l’inflation annuelle atteint 4,9 % en octobre, portée par le logement",
+      "summary": "Les prix du logement ont progressé de 6,4 % sur un an, la contribution la plus importante à la hausse de l’indice national.",
+      "body": "En Australie, le panier de consommation coûtait en octobre 4,9 % de plus qu’un an auparavant, d’après les données publiées le 25 novembre par le bureau national de la statistique. En septembre, la hausse sur douze mois était de 4,3 %.\n\nLe logement explique la plus grande part de la hausse annuelle. Dans cette catégorie, les prix ont augmenté de 6,4 % sur un an en octobre, après 5,2 % en septembre. Reuters souligne que l’inflation globale dépasse ainsi la fourchette de 2 % à 3 % visée par la banque centrale.",
+      "photo": {
+        "download": "media/aus.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ABS_House.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Bidgee",
+        "alt": "Façade vitrée de la maison de la statistique australienne à Belconnen.",
+        "caption": "Archives du 23 février 2009. Le siège du bureau australien de la statistique à Belconnen."
+      },
+      "sources": [
+        {
+          "name": "Australian Bureau of Statistics",
+          "url": "https://www.abs.gov.au/media-centre/media-releases/cpi-rose-49-year-october-2026",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/australian-inflation-heats-up-october-core-hits-two-year-high-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "In Australia, annual inflation reached 4.9% in October, driven by housing",
+          "summary": "Housing prices increased by 6.4% year-on-year, the largest contribution to the rise in the national index.",
+          "body": "In Australia, the consumer basket cost 4.9% more in October than a year earlier, according to data published on November 25 by the Australian Bureau of Statistics. In September, the year-over-year increase was 4.3%.\n\nHousing explains the largest share of the annual increase. In this category, prices increased by 6.4% year-on-year in October, after 5.2% in September. Reuters points out that overall inflation thus exceeds the range of 2% to 3% targeted by the central bank.",
+          "photoAlt": "Glass facade of the Australian Statistics House in Belconnen.",
+          "photoCaption": "File photo, February 23, 2009. The headquarters of the Australian Bureau of Statistics in Belconnen."
+        },
+        "es": {
+          "title": "En Australia, la inflación anual alcanzó el 4,9% en octubre, impulsada por la vivienda",
+          "summary": "Los precios de la vivienda aumentaron un 6,4% interanual, la mayor contribución al aumento del índice nacional.",
+          "body": "En Australia, la cesta de la compra costó un 4,9% más en octubre que un año antes, según datos publicados el 25 de noviembre por la Oficina de Estadísticas de Australia. En septiembre, el aumento interanual fue del 4,3%.\n\nLa vivienda explica la mayor parte del aumento anual. En esta categoría, los precios aumentaron un 6,4% interanual en octubre, tras un 5,2% en septiembre. Reuters señala que la inflación general supera así el rango del 2% al 3% objetivo del banco central.",
+          "photoAlt": "Fachada de cristal de la Casa de Estadísticas de Australia en Belconnen.",
+          "photoCaption": "Foto de archivo, 23 de febrero de 2009. La sede de la Oficina Australiana de Estadísticas en Belconnen."
+        },
+        "ar": {
+          "title": "وفي أستراليا، وصل التضخم السنوي إلى 4.9% في أكتوبر، مدفوعًا بقطاع الإسكان",
+          "summary": "وارتفعت أسعار المساكن بنسبة 6.4% على أساس سنوي، وهي أكبر مساهمة في ارتفاع المؤشر الوطني.",
+          "body": "وفي أستراليا، ارتفعت تكلفة سلة المستهلكين بنسبة 4.9% في أكتوبر مقارنة بالعام السابق، وفقًا للبيانات التي نشرها مكتب الإحصاءات الأسترالي في 25 نوفمبر. وفي سبتمبر، بلغت الزيادة على أساس سنوي 4.3%.\n\nويفسر الإسكان النصيب الأكبر من الزيادة السنوية. وفي هذه الفئة، ارتفعت الأسعار بنسبة 6.4% على أساس سنوي في أكتوبر، بعد 5.2% في سبتمبر. وتشير رويترز إلى أن التضخم الإجمالي يتجاوز بالتالي نطاق 2% إلى 3% الذي يستهدفه البنك المركزي.",
+          "photoAlt": "الواجهة الزجاجية لدار الإحصاء الأسترالية في بيلكونين.",
+          "photoCaption": "صورة أرشيفية، 23 فبراير، 2009. المقر الرئيسي لمكتب الإحصاءات الأسترالي في بيلكونين."
+        },
+        "zh-CN": {
+          "title": "在房地产推动下，澳大利亚 10 月份年通胀率达到 4.9%",
+          "summary": "居住价格同比上涨6.4%，对全国指数上涨贡献最大。",
+          "body": "澳大利亚统计局11月25日公布的数据显示，在澳大利亚，10月份消费篮子成本比去年同期上涨4.9%。 9月份，同比增长4.3%。\n\n住房在年度增长中所占比例最大。在该类别中，10 月份价格同比上涨 6.4%，而 9 月份则上涨 5.2%。路透社指出，总体通胀率因此超出了央行2%至3%的目标范围。",
+          "photoAlt": "贝尔科嫩澳大利亚统计局的玻璃幕墙。",
+          "photoCaption": "资料照片，2009 年 2 月 23 日。位于贝尔康宁的澳大利亚统计局总部。"
+        },
+        "ru": {
+          "title": "В Австралии годовая инфляция достигла 4,9% в октябре, чему способствовал рост цен на жилье.",
+          "summary": "Цены на жилье выросли на 6,4% в годовом исчислении, что является наибольшим вкладом в рост национального индекса.",
+          "body": "В Австралии потребительская корзина в октябре стоила на 4,9% дороже, чем годом ранее, согласно данным, опубликованным 25 ноября Австралийским бюро статистики. В сентябре рост по сравнению с аналогичным периодом прошлого года составил 4,3%.\n\nЖилье объясняет наибольшую долю годового прироста. В этой категории цены выросли на 6,4% в годовом исчислении в октябре после 5,2% в сентябре. Reuters отмечает, что общая инфляция, таким образом, превышает целевой диапазон центрального банка от 2% до 3%.",
+          "photoAlt": "Стеклянный фасад Дома статистики Австралии в Белконнене.",
+          "photoCaption": "Архивное фото, 23 февраля 2009 года. Штаб-квартира Австралийского статистического бюро в Белконнене."
+        },
+        "ko": {
+          "title": "호주에서는 주택 공급으로 인해 10월 연간 인플레이션이 4.9%에 달했습니다.",
+          "summary": "주택가격은 전년 동기 대비 6.4% 상승해 전국 지수 상승에 가장 큰 기여를 했다.",
+          "body": "호주 통계청이 11월 25일 발표한 데이터에 따르면 호주에서는 10월 소비자 바구니 가격이 전년 동기보다 4.9% 더 높았습니다. 9월에는 전년 동기 대비 4.3% 증가했다.\n\n주택은 연간 증가의 가장 큰 부분을 설명합니다. 이 카테고리의 가격은 9월 5.2%에 이어 10월에는 전년 동기 대비 6.4% 상승했습니다. 따라서 전체 인플레이션은 중앙은행이 목표로 하는 2~3% 범위를 초과한다고 로이터는 지적합니다.",
+          "photoAlt": "벨코넨(Belconnen)에 있는 호주 통계청(Australian Statistics House)의 유리 외관.",
+          "photoCaption": "파일 사진, 2009년 2월 23일. 벨코넨에 있는 호주 통계청 본부."
+        }
+      }
+    },
+    {
+      "eventKey": "canada-sidhu-hanoi-commission-partenariat-transpacifique",
+      "category": "Canada",
+      "title": "Maninder Sidhu se rendra à Hanoï pour la commission du partenariat transpacifique",
+      "summary": "Le ministre canadien du Commerce international est attendu au Vietnam les 26 et 27 novembre, à l’occasion de la onzième réunion de la commission.",
+      "body": "Affaires mondiales Canada a annoncé le 25 novembre que Maninder Sidhu se rendrait à Hanoï pour la réunion de la commission de l’Accord de partenariat transpacifique global et progressiste. Le Vietnam préside cette année les travaux des pays membres.\n\nLe programme publié par VietnamPlus distingue deux étapes. Le 26 novembre est consacré notamment à des échanges avec l’Union européenne et l’Association des nations de l’Asie du Sud-Est. La réunion de la commission elle-même figure au programme du 27 novembre. Ottawa annonce sa participation avant la tenue des discussions.",
+      "photo": {
+        "download": "media/vn.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManinder_Sidhu_in_2026_%28cropped%29.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "credit": "Sophie Bouquillon / © European Union, 2026 (recadrage)",
+        "alt": "Portrait de Maninder Sidhu en costume sombre et cravate rouge.",
+        "caption": "Archives du 5 mars 2026. Le ministre du Commerce international à Toronto lors d’une rencontre avec la Commission européenne."
+      },
+      "sources": [
+        {
+          "name": "Affaires mondiales Canada",
+          "url": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-to-strengthen-canadas-trade-partnerships-at-cptpp-commission-meeting-in-vietnam.html",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "VietnamPlus",
+          "url": "https://en.vietnamplus.vn/vietnam-stages-november-23-27-run-of-cptpp-gatherings-post355975.vnp",
+          "publishedAt": "2026-11-23"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Maninder Sidhu to visit Hanoi for Trans-Pacific Partnership commission",
+          "summary": "The Canadian Minister of International Trade is expected in Vietnam on November 26 and 27, for the eleventh meeting of the commission.",
+          "body": "Global Affairs Canada announced on November 25 that Maninder Sidhu would travel to Hanoi for the Comprehensive and Progressive Agreement for Trans-Pacific Partnership commission meeting. Vietnam is chairing the work of member countries this year.\n\nThe program published by VietnamPlus distinguishes two stages. November 26 is devoted in particular to exchanges with the European Union and the Association of Southeast Asian Nations. The commission meeting itself is on the program for November 27. Ottawa announces its participation before the discussions take place.",
+          "photoAlt": "Portrait of Maninder Sidhu in a dark suit and red tie.",
+          "photoCaption": "File photo, March 5, 2026. The Minister of International Trade in Toronto during a meeting with the European Commission."
+        },
+        "es": {
+          "title": "Maninder Sidhu visitará Hanoi para la comisión de Asociación Transpacífico",
+          "summary": "Se espera que el ministro canadiense de Comercio Internacional visite Vietnam los días 26 y 27 de noviembre, para la undécima reunión de la comisión.",
+          "body": "Global Affairs Canada anunció el 25 de noviembre que Maninder Sidhu viajaría a Hanoi para la reunión de la comisión del Acuerdo Integral y Progresista de Asociación Transpacífico. Vietnam preside el trabajo de los países miembros este año.\n\nEl programa publicado por VietnamPlus distingue dos etapas. El 26 de noviembre está dedicado en particular a los intercambios con la Unión Europea y la Asociación de Naciones del Sudeste Asiático. La reunión de la comisión está prevista para el 27 de noviembre. Ottawa anuncia su participación antes de que se desarrollen las discusiones.",
+          "photoAlt": "Retrato de Maninder Sidhu con traje oscuro y corbata roja.",
+          "photoCaption": "Foto de archivo, 5 de marzo de 2026. El Ministro de Comercio Internacional en Toronto durante una reunión con la Comisión Europea."
+        },
+        "ar": {
+          "title": "مانيندر سيدو يزور هانوي لحضور لجنة الشراكة عبر المحيط الهادئ",
+          "summary": "ومن المتوقع أن يزور وزير التجارة الدولية الكندي فيتنام يومي 26 و27 نوفمبر لحضور الاجتماع الحادي عشر للجنة.",
+          "body": "أعلنت الشؤون العالمية الكندية في 25 نوفمبر أن مانيندر سيدو سيسافر إلى هانوي لحضور اجتماع لجنة الاتفاقية الشاملة والتقدمية للشراكة عبر المحيط الهادئ. وتترأس فيتنام أعمال الدول الأعضاء هذا العام.\n\nالبرنامج الذي نشرته VietnamPlus يميز مرحلتين. ويخصص يوم 26 تشرين الثاني/نوفمبر بشكل خاص للتبادلات مع الاتحاد الأوروبي ورابطة دول جنوب شرق آسيا. ومن المقرر عقد اجتماع اللجنة في 27 نوفمبر. وتعلن أوتاوا عن مشاركتها قبل إجراء المناقشات.",
+          "photoAlt": "صورة لمانيندر سيدو ببدلة داكنة وربطة عنق حمراء.",
+          "photoCaption": "صورة أرشيفية، 5 مارس/آذار 2026. وزير التجارة الدولية في تورونتو خلال اجتماع مع المفوضية الأوروبية."
+        },
+        "zh-CN": {
+          "title": "Maninder Sidhu将访问河内参加跨太平洋伙伴关系委员会",
+          "summary": "加拿大国际贸易部长预计将于 11 月 26 日至 27 日在越南召开委员会第十一次会议。",
+          "body": "加拿大全球事务部11月25日宣布，Maninder Sidhu将前往河内参加跨太平洋伙伴关系全面进步协议委员会会议。越南今年主持成员国工作。\n\nVietnamPlus发布的节目分为两个阶段。 11月26日特别是与欧盟和东南亚国家联盟的交流。委员会会议本身已定于 11 月 27 日举行。渥太华在讨论开始前宣布参加。",
+          "photoAlt": "Maninder Sidhu 的肖像，身穿深色西装，系着红色领带。",
+          "photoCaption": "资料照片，2026 年 3 月 5 日。国际贸易部长在多伦多与欧盟委员会举行会议。"
+        },
+        "ru": {
+          "title": "Маниндер Сидху посетит Ханой для участия в комиссии по Транстихоокеанскому партнерству",
+          "summary": "Министр международной торговли Канады ожидается во Вьетнаме 26 и 27 ноября на одиннадцатом заседании комиссии.",
+          "body": "25 ноября Канада по международным делам объявила, что Маниндер Сидху отправится в Ханой для участия в заседании комиссии по Всеобъемлющему и прогрессивному соглашению о Транстихоокеанском партнерстве. В этом году Вьетнам председательствует в работе стран-членов.\n\nПрограмма, опубликованная VietnamPlus, состоит из двух этапов. 26 ноября посвящено, в частности, обменам с Европейским Союзом и Ассоциацией государств Юго-Восточной Азии. Само заседание комиссии запланировано на 27 ноября. Оттава объявляет о своем участии до начала обсуждений.",
+          "photoAlt": "Портрет Маниндера Сидху в темном костюме и красном галстуке.",
+          "photoCaption": "Архивное фото, 5 марта 2026 года. Министр международной торговли в Торонто во время встречи с Европейской комиссией."
+        },
+        "ko": {
+          "title": "Maninder Sidhu, 환태평양 파트너십 위원회를 위해 하노이 방문",
+          "summary": "캐나다 국제통상부 장관은 11차 위원회 회의를 위해 11월 26일과 27일에 베트남을 방문할 예정입니다.",
+          "body": "캐나다 외교부(Global Affairs Canada)는 11월 25일 Maninder Sidhu가 포괄적이고 진보적인 환태평양 파트너십 위원회 회의를 위해 하노이로 여행할 것이라고 발표했습니다. 베트남은 올해 회원국의 업무를 주도하고 있습니다.\n\nVietnamPlus가 게시한 프로그램은 두 단계로 구분됩니다. 11월 26일은 특히 유럽연합(EU) 및 동남아시아국가연합(ASEAN)과의 교류를 기념하는 날입니다. 위원회 회의 자체는 11월 27일 프로그램에 포함되어 있습니다. 오타와는 토론이 시작되기 전에 참여를 발표했습니다.",
+          "photoAlt": "검은 양복과 빨간 넥타이를 매고 있는 Maninder Sidhu의 초상화.",
+          "photoCaption": "파일 사진, 2026년 3월 5일. 유럽연합 집행위원회와의 회의 중 토론토 국제 무역부 장관."
+        }
+      }
+    },
+    {
+      "eventKey": "etats-unis-octobre-inflation-pce-38",
+      "category": "Économie",
+      "title": "Aux États-Unis, l’inflation mesurée par l’indice PCE atteint 3,8 % sur un an",
+      "summary": "L’indice des prix des dépenses de consommation a progressé de 0,3 % en octobre. Sa hausse annuelle s’accélère par rapport à septembre.",
+      "body": "Le Bureau of Economic Analysis a publié le 25 novembre son relevé des prix associés aux dépenses de consommation des Américains. Sur douze mois, l’indice PCE augmente de 3,8 % en octobre, après 3,6 % en septembre, selon les chiffres également rapportés par Reuters.\n\nLes évolutions mensuelles et annuelles donnent deux éclairages différents. D’un mois à l’autre, la hausse ralentit à 0,3 %, après 0,5 % en septembre. Hors alimentation et énergie, deux postes dont les prix fluctuent fortement, l’augmentation atteint 3,3 % sur un an.",
+      "photo": {
+        "download": "media/us.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Commerce_Building_aerial_view_from_14th_Street.jpg",
+        "license": "Domaine public",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Help:Public_domain",
+        "credit": "U.S. Department of Commerce",
+        "alt": "Vue aérienne du siège du département américain du Commerce à Washington.",
+        "caption": "Archives mises en ligne en décembre 2007. Le Bureau of Economic Analysis, producteur de l’indice PCE, relève du département du Commerce."
+      },
+      "sources": [
+        {
+          "name": "Bureau of Economic Analysis",
+          "url": "https://bea.gov/sites/default/files/2026-11/pi1026.pdf",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters / Investing.com",
+          "url": "https://www.investing.com/news/economy-news/us-inflation-rises-further-in-october-5050840",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "In the United States, inflation measured by the PCE index reached 3.8% over one year",
+          "summary": "The consumer spending price index rose 0.3% in October. Its annual increase is accelerating compared to September.",
+          "body": "The Bureau of Economic Analysis published on November 25 its survey of prices associated with American consumer spending. Over twelve months, the PCE index increased by 3.8% in October, after 3.6% in September, according to figures also reported by Reuters.\n\nThe monthly and annual developments provide two different insights. From one month to the next, the increase slowed to 0.3%, after 0.5% in September. Excluding food and energy, two items whose prices fluctuate widely, the increase reaches 3.3% over one year.",
+          "photoAlt": "Aerial view of the US Department of Commerce headquarters in Washington.",
+          "photoCaption": "Archives posted online in December 2007. The Bureau of Economic Analysis, producer of the PCE index, reports to the Department of Commerce."
+        },
+        "es": {
+          "title": "En Estados Unidos, la inflación medida por el índice PCE alcanzó el 3,8% en un año",
+          "summary": "El índice de precios del gasto del consumidor subió un 0,3% en octubre. Su incremento anual se está acelerando respecto a septiembre.",
+          "body": "La Oficina de Análisis Económico publicó el 25 de noviembre su encuesta de precios asociados al gasto de los consumidores estadounidenses. En doce meses, el índice PCE aumentó un 3,8% en octubre, tras el 3,6% de septiembre, según cifras también publicadas por Reuters.\n\nLa evolución mensual y anual proporciona dos perspectivas diferentes. De un mes a otro, el aumento se desaceleró hasta el 0,3%, tras el 0,5% en septiembre. Excluyendo los alimentos y la energía, dos artículos cuyos precios fluctúan mucho, el aumento alcanza el 3,3% en un año.",
+          "photoAlt": "Vista aérea de la sede del Departamento de Comercio de Estados Unidos en Washington.",
+          "photoCaption": "Archivos publicados en línea en diciembre de 2007. La Oficina de Análisis Económico, productora del índice PCE, depende del Departamento de Comercio."
+        },
+        "ar": {
+          "title": "وفي الولايات المتحدة، بلغ التضخم المقاس بمؤشر نفقات الاستهلاك الشخصي 3.8% على مدى عام واحد",
+          "summary": "وارتفع مؤشر أسعار الإنفاق الاستهلاكي بنسبة 0.3% في أكتوبر. وتتسارع زيادتها السنوية مقارنة بشهر سبتمبر.",
+          "body": "ونشر مكتب التحليل الاقتصادي في 25 تشرين الثاني/نوفمبر مسحه للأسعار المرتبطة بإنفاق المستهلكين الأميركيين. وعلى مدى اثني عشر شهرا، ارتفع مؤشر نفقات الاستهلاك الشخصي بنسبة 3.8% في أكتوبر، بعد 3.6% في سبتمبر، وفقا للأرقام التي نشرتها رويترز أيضا.\n\nتوفر التطورات الشهرية والسنوية رؤيتين مختلفتين. ومن شهر إلى آخر، تباطأت الزيادة إلى 0.3%، بعد 0.5% في سبتمبر. وباستثناء المواد الغذائية والطاقة، وهما سلعتان تتقلب أسعارهما بشكل كبير، تصل الزيادة إلى 3.3% على مدار عام واحد.",
+          "photoAlt": "منظر جوي لمقر وزارة التجارة الأمريكية في واشنطن.",
+          "photoCaption": "تم نشر الأرشيف على الإنترنت في ديسمبر 2007. مكتب التحليل الاقتصادي، منتج مؤشر نفقات الاستهلاك الشخصي، يتبع وزارة التجارة."
+        },
+        "zh-CN": {
+          "title": "在美国，以PCE指数衡量的通胀一年来达到3.8%",
+          "summary": "10月份消费者支出价格指数上涨0.3%。与9月份相比，其年度增幅正在加速。",
+          "body": "经济分析局 11 月 25 日公布了与美国消费者支出相关的价格调查。据路透社报道的数据显示，过去 12 个月中，PCE 指数继 9 月份增长 3.6%之后，10 月份增长了 3.8%。\n\n每月和每年的发展提供了两种不同的见解。从一个月到一个月，增幅放缓至0.3%，而9月份为0.5%。剔除食品和能源这两个价格波动较大的项目，一年内涨幅达到3.3%。",
+          "photoAlt": "位于华盛顿的美国商务部总部鸟瞰图。",
+          "photoCaption": "档案于 2007 年 12 月在线发布。PCE 指数的制定者经济分析局向商务部报告。"
+        },
+        "ru": {
+          "title": "В США инфляция, измеряемая индексом PCE, за год достигла 3,8%.",
+          "summary": "Индекс потребительских расходов в октябре вырос на 0,3%. Его годовой прирост ускоряется по сравнению с сентябрем.",
+          "body": "Бюро экономического анализа опубликовало 25 ноября свой обзор цен, связанных с потребительскими расходами в США. По данным Reuters, за двенадцать месяцев индекс PCE вырос на 3,8% в октябре после 3,6% в сентябре.\n\nЕжемесячные и годовые изменения дают два разных представления. Из месяца в месяц рост замедлялся до 0,3% после 0,5% в сентябре. За исключением продуктов питания и энергоносителей, двух товаров, цены на которые сильно колеблются, рост достигает 3,3% за год.",
+          "photoAlt": "Вид с воздуха на штаб-квартиру Министерства торговли США в Вашингтоне.",
+          "photoCaption": "Архивы размещены в Интернете в декабре 2007 года. Бюро экономического анализа, производитель индекса PCE, подчиняется Министерству торговли."
+        },
+        "ko": {
+          "title": "미국에서는 PCE 지수로 측정한 인플레이션이 1년 동안 3.8%에 달했습니다.",
+          "summary": "10월 소비자지출물가지수는 전월 대비 0.3% 상승했다. 9월에 비해 연간 증가세가 가속화되고 있다.",
+          "body": "경제분석국(Bureau of Economic Analysis)은 11월 25일 미국 소비자 지출과 관련된 가격 조사를 발표했습니다. 로이터가 보고한 수치에 따르면 12개월 동안 PCE 지수는 9월 3.6%에 이어 10월에도 3.8% 증가했습니다.\n\n월간 및 연간 개발은 두 가지 다른 통찰력을 제공합니다. 한 달에서 다음 달까지 증가율은 9월 0.5% 이후 0.3%로 둔화되었습니다. 가격 변동폭이 큰 식품과 에너지를 제외하면 1년간 증가율은 3.3%에 이른다.",
+          "photoAlt": "워싱턴에 있는 미국 상무부 본부 조감도.",
+          "photoCaption": "기록 보관소는 2007년 12월 온라인에 게시되었습니다. PCE 지수를 생산하는 경제 분석국이 상무부에 보고합니다."
+        }
+      }
+    },
+    {
+      "eventKey": "etats-unis-commandes-biens-durables-octobre",
+      "category": "Économie",
+      "title": "Aux États-Unis, les commandes de biens durables augmentent de 0,2 % en octobre",
+      "summary": "Les nouvelles commandes atteignent 346,7 milliards de dollars américains. Hors matériel de transport, leur progression est plus forte.",
+      "body": "Le Bureau du recensement américain estime à 346,7 milliards de dollars les nouvelles commandes reçues en octobre par les fabricants de biens durables. Le rapport préliminaire du 25 novembre fait état d’une progression mensuelle de 0,2 %, après une hausse de 2 % en septembre.\n\nLe matériel de transport a freiné le total. Sans cette catégorie, les commandes progressent de 0,5 %. Reuters relève aussi que les commandes de biens d’équipement civils hors aéronautique, un indicateur suivi pour évaluer les intentions d’investissement des entreprises, ont été plus dynamiques.",
+      "photo": {
+        "download": "media/dur.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACensus_Bureau_headquarters%2C_Suitland%2C_Maryland%2C_2007.jpg",
+        "license": "Domaine public",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File%3ACensus_Bureau_headquarters%2C_Suitland%2C_Maryland%2C_2007.jpg",
+        "credit": "U.S. Census Bureau",
+        "alt": "Bâtiments vitrés du Bureau du recensement à Suitland, dans le Maryland.",
+        "caption": "Archives de mars 2007. Le Bureau du recensement américain, qui produit l’enquête sur les commandes industrielles."
+      },
+      "sources": [
+        {
+          "name": "U.S. Census Bureau",
+          "url": "https://www.census.gov/manufacturing/m3/adv/pdf/durgd.pdf?ts=20261027",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/us-core-capital-goods-orders-beat-expectations-october-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "U.S. durable goods orders rise 0.2% in October",
+          "summary": "New orders reach 346.7 billion US dollars. Excluding transport equipment, their growth is stronger.",
+          "body": "The U.S. Census Bureau estimates that durable goods manufacturers received $346.7 billion in new orders in October. The preliminary report from November 25 shows a monthly increase of 0.2%, after an increase of 2% in September.\n\nTransport equipment held back the total. Without this category, orders increased by 0.5%. Reuters also notes that orders for non-defence capital goods excluding aircraft, an indicator followed to assess companies' investment intentions, were more dynamic.",
+          "photoAlt": "Glass-fronted Census Bureau buildings in Suitland, Maryland.",
+          "photoCaption": "File photo, March 2007. The U.S. Census Bureau, which produces the Industrial Orders Survey."
+        },
+        "es": {
+          "title": "Los pedidos de bienes duraderos de EE.UU. aumentan un 0,2% en octubre",
+          "summary": "Los nuevos pedidos ascienden a 346,7 mil millones de dólares estadounidenses. Excluyendo el material de transporte, su crecimiento es más fuerte.",
+          "body": "La Oficina del Censo de Estados Unidos estima que los fabricantes de bienes duraderos recibieron 346.700 millones de dólares en nuevos pedidos en octubre. El informe preliminar del 25 de noviembre muestra un aumento mensual del 0,2%, tras un aumento del 2% en septiembre.\n\nEl equipo de transporte frenó el total. Sin esta categoría, los pedidos aumentaron un 0,5%. Reuters también señala que los pedidos de bienes de capital no relacionados con la defensa y excluidos los aviones, un indicador seguido para evaluar las intenciones de inversión de las empresas, fueron más dinámicos.",
+          "photoAlt": "Edificios de la Oficina del Censo con fachada de vidrio en Suitland, Maryland.",
+          "photoCaption": "Foto de archivo, marzo de 2007. Oficina del Censo de Estados Unidos, que produce la Encuesta de Órdenes Industriales."
+        },
+        "ar": {
+          "title": "ارتفاع طلبيات السلع المعمرة الأمريكية بنسبة 0.2% في أكتوبر",
+          "summary": "تصل الطلبيات الجديدة إلى 346.7 مليار دولار أمريكي. وباستثناء معدات النقل، فإن نموها أقوى.",
+          "body": "ويقدر مكتب الإحصاء الأمريكي أن مصنعي السلع المعمرة تلقوا طلبات جديدة بقيمة 346.7 مليار دولار في أكتوبر. ويظهر التقرير الأولي من 25 نوفمبر زيادة شهرية بنسبة 0.2%، بعد زيادة قدرها 2% في سبتمبر.\n\nمعدات النقل أعاقت المجموع. وبدون هذه الفئة ارتفعت الطلبيات بنسبة 0.5%. وتشير رويترز أيضًا إلى أن طلبات السلع الرأسمالية غير الدفاعية باستثناء الطائرات، وهو مؤشر يتم اتباعه لتقييم نوايا الشركات الاستثمارية، كانت أكثر ديناميكية.",
+          "photoAlt": "مباني مكتب الإحصاء ذات الواجهة الزجاجية في سوتلاند، ميريلاند.",
+          "photoCaption": "صورة أرشيفية، مارس 2007. مكتب الإحصاء الأمريكي، الذي يصدر مسح الطلبيات الصناعية."
+        },
+        "zh-CN": {
+          "title": "美国10月耐用品订单增长0.2%",
+          "summary": "新订单达到3467亿美元。不包括运输设备，其增长更为强劲。",
+          "body": "美国人口普查局估计，耐用品制造商 10 月份收到了 3467 亿美元的新订单。 11月25日的初步报告显示，继9月份增长2%之后，月度增长0.2%。\n\n运输设备阻碍了总量。如果没有这个类别，订单增加了 0.5%。路透社还指出，不包括飞机在内的非国防资本货物订单更具活力，这是评估公司投资意向的一项指标。",
+          "photoAlt": "马里兰州苏特兰的玻璃幕墙人口普查局大楼。",
+          "photoCaption": "资料照片，2007 年 3 月。美国人口普查局，负责进行工业订单调查。"
+        },
+        "ru": {
+          "title": "Заказы на товары длительного пользования в США выросли в октябре на 0,2%",
+          "summary": "Новые заказы достигают 346,7 млрд долларов США. Без учета транспортного оборудования их рост более сильный.",
+          "body": "По оценкам Бюро переписи населения США, производители товаров длительного пользования получили в октябре новых заказов на сумму $346,7 млрд. Предварительный отчет от 25 ноября показывает ежемесячный рост на 0,2% после роста на 2% в сентябре.\n\nТранспортное оборудование сдерживало общее количество. Без этой категории заказы увеличились на 0,5%. Reuters также отмечает, что заказы на капитальные товары невоенного назначения, за исключением самолетов (показатель, по которому оцениваются инвестиционные намерения компаний), были более динамичными.",
+          "photoAlt": "Здания Бюро переписи населения со стеклянным фасадом в Суитленде, штат Мэриленд.",
+          "photoCaption": "Фотография из архива, март 2007 г. Бюро переписи населения США, которое проводит исследование промышленных заказов."
+        },
+        "ko": {
+          "title": "미국 10월 내구재 주문 0.2% 증가",
+          "summary": "신규 수주는 3,467억 달러에 달합니다. 운송 장비를 제외하면 성장세는 더 강하다.",
+          "body": "미국 인구조사국은 내구재 제조업체가 10월에 3,467억 달러의 신규 주문을 받은 것으로 추정합니다. 11월 25일자 잠정보고서에서는 9월 2% 증가에 이어 월간 0.2% 증가를 나타냈다.\n\n운송 장비가 전체를 방해했습니다. 이 카테고리가 없으면 주문이 0.5% 증가했습니다. 로이터는 또 기업의 투자 의향을 평가하는 지표인 항공기를 제외한 비방위 자본재 주문이 더욱 역동적이었다고 지적했다.",
+          "photoAlt": "메릴랜드주 수트랜드에 있는 전면 유리로 된 인구 조사국 건물.",
+          "photoCaption": "자료 사진, 2007년 3월. 산업 주문 조사를 작성하는 미국 인구 조사국."
+        }
+      }
+    },
+    {
+      "eventKey": "sault-sainte-marie-bilan-appels-16-22-novembre",
+      "category": "Ontario",
+      "title": "Sault-Sainte-Marie : 670 appels à la police en une semaine",
+      "summary": "La police locale recense 41 arrestations et 141 accusations criminelles entre le 16 et le 22 novembre.",
+      "body": "Le service de police de Sault-Sainte-Marie a publié le 25 novembre son bilan pour la semaine du 16 au 22 novembre. Il a reçu 670 appels de service. Les agents ont procédé à 41 arrestations et 141 accusations criminelles ont été portées pendant cette période.\n\nSix des arrestations concernaient des situations de violence entre partenaires intimes. Le média local SooToday précise que les chiffres proviennent des dossiers disponibles au moment du bilan et peuvent être révisés. Une arrestation peut donner lieu à plusieurs accusations.",
+      "photo": {
+        "download": "media/sault.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sault_Ste._Marie_International_Bridges_2025d.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Antony-22",
+        "alt": "Travées métalliques du pont international vues depuis la rive.",
+        "caption": "Archives du 22 juillet 2025. Vue du pont international de Sault-Sainte-Marie, dans la région couverte par le bilan."
+      },
+      "sources": [
+        {
+          "name": "Sault Ste. Marie Police Service",
+          "url": "https://saultpolice.ca/weekly-wrap-up-nov-16-22-2026/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "SooToday",
+          "url": "https://www.sootoday.com/city-police-beat/sault-police-responded-to-nearly-700-calls-last-week-13058196",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Sault Ste. Marie: 670 calls to the police in one week",
+          "summary": "Local police recorded 41 arrests and 141 criminal charges between November 16 and 22.",
+          "body": "The Sault Ste. Marie police service released its report on November 25 for the week of November 16 to 22. Police received 670 calls for service. Officers made 41 arrests and 141 criminal charges were laid during this time.\n\nSix of the arrests involved intimate partner violence situations. Local media SooToday specifies that the figures come from files available at the time of the assessment and may be revised. An arrest can result in multiple charges.",
+          "photoAlt": "Metal spans of the international bridge seen from the shore.",
+          "photoCaption": "File photo, July 22, 2025. View of the Sault Ste. Marie international bridge, in the region covered by the report."
+        },
+        "es": {
+          "title": "Sault Ste. Marie: 670 llamadas a la policía en una semana",
+          "summary": "La policía local registró 41 detenciones y 141 acusaciones penales entre el 16 y el 22 de noviembre.",
+          "body": "El Sault Ste. El servicio de policía de Marie publicó su informe el 25 de noviembre para la semana del 16 al 22 de noviembre. La policía recibió 670 llamadas de servicio. Durante este tiempo, los agentes realizaron 41 arrestos y se presentaron 141 cargos penales.\n\nSeis de los arrestos involucraron situaciones de violencia de pareja. El medio local SooToday precisa que las cifras provienen de archivos disponibles en el momento de la evaluación y pueden ser revisadas. Un arresto puede resultar en múltiples cargos.",
+          "photoAlt": "Tramos metálicos del puente internacional vistos desde la orilla.",
+          "photoCaption": "Foto de archivo, 22 de julio de 2025. Vista de Sault Ste. Marie. Puente internacional Marie, en la región cubierta por el informe."
+        },
+        "ar": {
+          "title": "سولت سانت. ماري: 670 مكالمة للشرطة في أسبوع واحد",
+          "summary": "سجلت الشرطة المحلية 41 حالة اعتقال و141 تهمة جنائية بين 16 و22 نوفمبر/تشرين الثاني.",
+          "body": "سولت سانت. أصدرت خدمة شرطة ماري تقريرها في 25 نوفمبر للأسبوع من 16 إلى 22 نوفمبر. وتلقت الشرطة 670 مكالمة للخدمة. قام الضباط باعتقال 41 شخصًا ووجهت 141 تهمة جنائية خلال هذا الوقت.\n\nستة من الاعتقالات تتعلق بحالات عنف الشريك الحميم. تحدد وسائل الإعلام المحلية SooToday أن الأرقام تأتي من الملفات المتاحة في وقت التقييم ويمكن مراجعتها. يمكن أن يؤدي الاعتقال إلى تهم متعددة.",
+          "photoAlt": "الامتدادات المعدنية للجسر الدولي كما تبدو من الشاطئ.",
+          "photoCaption": "صورة أرشيفية، 22 يوليو 2025. منظر لـ Sault Ste. جسر ماري الدولي في المنطقة التي يغطيها التقرير."
+        },
+        "zh-CN": {
+          "title": "苏圣玛丽：一周内接到 670 个报警电话",
+          "summary": "11月16日至22日期间，当地警方共逮捕了41人，并提出了141项刑事指控。",
+          "body": "苏圣玛丽警察局于11月25日发布了11月16日至22日这一周的报告。警方接到670个求助电话。在此期间，警方逮捕了 41 人，并提出了 141 项刑事指控。\n\n其中六起逮捕涉及亲密伴侣暴力事件。当地媒体 SooToday 指出，这些数据来自评估时可用的文件，可能会进行修改。逮捕可能会导致多项指控。",
+          "photoAlt": "从岸边看国际大桥的金属跨度。",
+          "photoCaption": "资料照片，2025 年 7 月 22 日。苏圣玛丽大教堂景观玛丽国际大桥，位于报告所涵盖的区域。"
+        },
+        "ru": {
+          "title": "Су-Сент. Мари: 670 звонков в полицию за неделю",
+          "summary": "С 16 по 22 ноября местная полиция зафиксировала 41 арест и 141 уголовное обвинение.",
+          "body": "Су-Сент. Служба полиции Мари опубликовала 25 ноября свой отчет за неделю с 16 по 22 ноября. В полицию поступило 670 вызовов. За это время офицеры произвели 41 арест и предъявили 141 уголовное обвинение.\n\nШесть арестов были связаны с насилием со стороны интимного партнера. Местные СМИ SooToday уточняют, что цифры взяты из файлов, доступных на момент оценки, и могут быть пересмотрены. За арестом может быть предъявлено несколько обвинений.",
+          "photoAlt": "Металлические пролеты международного моста, вид с берега.",
+          "photoCaption": "Архивное фото, 22 июля 2025 года. Вид на Sault Ste. Международный мост Мари в регионе, охваченном отчетом."
+        },
+        "ko": {
+          "title": "솔트 스테. 마리: 일주일 동안 670통의 경찰 신고 전화",
+          "summary": "현지 경찰은 11월 16일부터 22일까지 41건의 체포와 141건의 범죄 혐의를 기록했다.",
+          "body": "Sault Ste. 마리 경찰청은 11월 16일부터 22일까지의 주에 대해 11월 25일에 보고서를 발표했습니다. 경찰은 670건의 서비스 요청 전화를 받았습니다. 이 기간 동안 경찰관들은 41명을 체포했고 141명을 형사 고발했습니다.\n\n체포된 사례 중 6건은 친밀한 파트너의 폭력 상황과 관련이 있었습니다. 현지 언론인 SooToday는 수치가 평가 당시 사용 가능한 파일에서 나온 것이며 수정될 수 있다고 명시합니다. 체포로 인해 여러 차례 기소될 수 있습니다.",
+          "photoAlt": "해안에서 본 국제 다리의 금속 경간.",
+          "photoCaption": "파일 사진, 2025년 7월 22일. Sault Ste. 보고서에서 다루는 지역의 마리 국제 다리."
+        }
+      }
+    },
+    {
+      "eventKey": "allemagne-ifo-novembre-climat-affaires-906",
+      "category": "Économie",
+      "title": "En Allemagne, le climat des affaires s’améliore pour un septième mois",
+      "summary": "L’indice de l’institut ifo passe de 90,1 à 90,6 points en novembre. Les entreprises jugent leur situation et leurs perspectives plus favorablement.",
+      "body": "Le baromètre publié le 24 novembre par l’institut ifo à Munich atteint 90,6 points pour novembre, après 90,1 en octobre. Reuters relève que c’est le septième mois consécutif de progression et que les économistes interrogés par l’agence attendaient en moyenne 90,5 points.\n\nL’enquête porte à la fois sur la situation présente des entreprises allemandes et sur leurs attentes. Les deux composantes s’améliorent. Dans les services, l’institut relève en particulier la poursuite du redressement dans la logistique. Il souligne toutefois que la reprise reste inégale selon les secteurs.",
+      "photo": {
+        "download": "media/de.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:IFO_institute.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "credit": "Carl Steinbeißer",
+        "alt": "Façade de l’institut ifo donnant sur une rue de Munich.",
+        "caption": "Archives du 5 mars 2010. L’institut ifo à Munich, où est établi le baromètre du climat des affaires."
+      },
+      "sources": [
+        {
+          "name": "Institut ifo",
+          "url": "https://www.ifo.de/en/press-release/2026-11-24/ifo-business-climate-rises-november-2026",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/europe/german-ifo-business-sentiment-rises-november-2026-11-24/",
+          "publishedAt": "2026-11-24T09:19:00Z"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "In Germany, the business climate improves for a seventh month",
+          "summary": "The ifo institute index rose from 90.1 to 90.6 points in November. Companies judge their situation and prospects more favorably.",
+          "body": "The barometer published on November 24 by the ifo institute in Munich reached 90.6 points for November, after 90.1 in October. Reuters notes that this is the seventh consecutive month of progression and that economists surveyed by the agency expected an average of 90.5 points.\n\nThe survey covers both the current situation of German companies and their expectations. Both components are improving. In services, the institute notes in particular the continued recovery in logistics. However, the institute emphasizes that the recovery remains uneven depending on the sector.",
+          "photoAlt": "Facade of the ifo institute overlooking a street in Munich.",
+          "photoCaption": "File photo, March 5, 2010. The ifo institute in Munich, where the business climate barometer is established."
+        },
+        "es": {
+          "title": "En Alemania, el clima empresarial mejora por séptimo mes",
+          "summary": "El índice del instituto ifo subió de 90,1 a 90,6 puntos en noviembre. Las empresas juzgan más favorablemente su situación y sus perspectivas.",
+          "body": "El barómetro publicado el 24 de noviembre por el instituto ifo de Múnich alcanzó en noviembre los 90,6 puntos, tras los 90,1 de octubre. Reuters señala que este es el séptimo mes consecutivo de progresión y que los economistas encuestados por la agencia esperaban una media de 90,5 puntos.\n\nLa encuesta cubre tanto la situación actual de las empresas alemanas como sus expectativas. Ambos componentes están mejorando. En el ámbito de los servicios, el instituto destaca en particular la continua recuperación de la logística. Sin embargo, el instituto destaca que la recuperación sigue siendo desigual según el sector.",
+          "photoAlt": "Fachada del instituto ifo con vistas a una calle de Munich.",
+          "photoCaption": "Foto de archivo del 5 de marzo de 2010. El instituto ifo de Múnich, donde se elabora el barómetro del clima empresarial."
+        },
+        "ar": {
+          "title": "في ألمانيا، يتحسن مناخ الأعمال للشهر السابع",
+          "summary": "وارتفع مؤشر معهد إيفو من 90.1 إلى 90.6 نقطة في نوفمبر. تحكم الشركات على وضعها وآفاقها بشكل أكثر إيجابية.",
+          "body": "ووصل البارومتر الذي نشره معهد إيفو في ميونيخ في 24 تشرين الثاني/نوفمبر إلى 90.6 نقطة لشهر تشرين الثاني/نوفمبر، بعد 90.1 في تشرين الأول/أكتوبر. تشير رويترز إلى أن هذا هو الشهر السابع على التوالي من التقدم وأن الاقتصاديين الذين شملهم الاستطلاع من قبل الوكالة توقعوا متوسطًا يبلغ 90.5 نقطة.\n\nيغطي الاستطلاع الوضع الحالي للشركات الألمانية وتوقعاتها. كلا المكونين يتحسنان. وفي مجال الخدمات، يشير المعهد بشكل خاص إلى استمرار الانتعاش في مجال الخدمات اللوجستية. ومع ذلك، يؤكد المعهد أن الانتعاش لا يزال متفاوتا اعتمادا على القطاع.",
+          "photoAlt": "واجهة معهد ifo المطلة على أحد شوارع ميونيخ.",
+          "photoCaption": "صورة أرشيفية، 5 مارس/آذار 2010. معهد ifo في ميونيخ، حيث تم إنشاء مقياس مناخ الأعمال."
+        },
+        "zh-CN": {
+          "title": "德国商业环境连续第七个月改善",
+          "summary": "ifo研究所指数11月从90.1点升至90.6点。公司对自己的处境和前景有更有利的判断。",
+          "body": "慕尼黑ifo研究所11月24日发布的晴雨表11月达到90.6点，而10月为90.1点。路透社指出，这是连续第七个月上升，该机构调查的经济学家平均预期为 90.5 点。\n\n该调查涵盖了德国企业的现状及其期望。这两个组件都在改进。在服务业方面，该研究所特别注意到物流业的持续复苏。然而，该研究所强调，不同行业的复苏仍然不平衡。",
+          "photoAlt": "ifo 研究所的正面，俯瞰慕尼黑的一条街道。",
+          "photoCaption": "资料照片，2010 年 3 月 5 日。慕尼黑 ifo 研究所，商业景气晴雨表的所在地。"
+        },
+        "ru": {
+          "title": "В Германии деловой климат улучшается седьмой месяц",
+          "summary": "Индекс института ifo в ноябре вырос с 90,1 до 90,6 пункта. Компании более благосклонно оценивают свое положение и перспективы.",
+          "body": "Барометр, опубликованный 24 ноября институтом ifo в Мюнхене, достиг за ноябрь 90,6 пункта после 90,1 в октябре. Reuters отмечает, что это седьмой месяц подряд прогресса и что опрошенные агентством экономисты ожидали в среднем 90,5 пунктов.\n\nИсследование охватывает как текущую ситуацию немецких компаний, так и их ожидания. Оба компонента улучшаются. В сфере услуг институт отмечает, в частности, продолжающееся восстановление логистики. Однако в институте подчеркивают, что восстановление остается неравномерным в зависимости от отрасли.",
+          "photoAlt": "Фасад института ifo с видом на улицу Мюнхена.",
+          "photoCaption": "Архивное фото, 5 марта 2010 г. Институт ifo в Мюнхене, где создан барометр делового климата."
+        },
+        "ko": {
+          "title": "독일에서는 비즈니스 환경이 7개월 동안 개선되었습니다.",
+          "summary": "ifo 연구소 지수는 11월 90.1에서 90.6포인트로 상승했다. 기업은 자신의 상황과 전망을 더 호의적으로 판단합니다.",
+          "body": "뮌헨 ifo연구소가 11월 24일 발표한 기압계는 10월 90.1에 이어 11월 90.6을 기록했다. 로이터 통신은 이번이 7개월 연속 상승세를 보이고 있으며 이 기관이 조사한 경제학자들은 평균 90.5포인트를 예상했다고 밝혔습니다.\n\n이 설문조사는 독일 기업의 현재 상황과 기대치를 모두 다루고 있습니다. 두 구성 요소 모두 개선되고 있습니다. 서비스 분야에서 연구소는 특히 물류 부문의 지속적인 회복에 주목하고 있습니다. 다만 업종에 따라 회복세가 고르지 못한 상황이라는 점을 연구소는 강조한다.",
+          "photoAlt": "뮌헨의 거리가 내려다보이는 ifo 연구소의 외관.",
+          "photoCaption": "자료사진, 2010년 3월 5일. 비즈니스 기후 지표가 설립된 뮌헨의 ifo 연구소."
+        }
+      }
+    },
+    {
+      "eventKey": "workday-abonnements-prevision-exercice-2027",
+      "category": "Entreprises",
+      "title": "Workday relève à 9,96 milliards de dollars sa prévision de revenus d’abonnement",
+      "summary": "Les ventes d’abonnements ont atteint 2,532 milliards de dollars américains au troisième trimestre de l’exercice 2027 de l’éditeur de logiciels.",
+      "body": "Workday a relevé sa prévision annuelle de revenus d’abonnement à 9,96 milliards de dollars, contre une fourchette précédente de 9,94 à 9,95 milliards, selon le Wall Street Journal. Le groupe a présenté ses résultats le 24 novembre pour le trimestre clos le 31 octobre.\n\nDans ses comptes, l’entreprise chiffre ses revenus d’abonnement du trimestre à 2,532 milliards de dollars, en hausse de 12,8 % sur un an. Cette activité représente l’essentiel de son chiffre d’affaires trimestriel, qui atteint environ 2,71 milliards de dollars.",
+      "photo": {
+        "download": "media/work.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Workday_Headquarters.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Coolcaesar",
+        "alt": "Façade vitrée portant le nom Workday à Pleasanton.",
+        "caption": "Archives du 24 août 2019. Le siège de Workday à Pleasanton, en Californie."
+      },
+      "sources": [
+        {
+          "name": "Workday",
+          "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Announces-Fiscal-2027-Third-Quarter-Financial-Results/default.aspx",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "The Wall Street Journal",
+          "url": "https://www.wsj.com/business/earnings/workday-raises-full-year-subscription-outlook-after-sales-rise-625a54e3",
+          "publishedAt": "2026-11-24T21:32:00Z"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Workday raises subscription revenue forecast to $9.96 billion",
+          "summary": "Subscription sales reached US$2.532 billion in the third quarter of the software company's fiscal 2027.",
+          "body": "Workday raised its annual subscription revenue forecast to $9.96 billion, up from a previous range of $9.94 billion to $9.95 billion, according to the Wall Street Journal. The group presented its results on November 24 for the quarter ended October 31.\n\nIn its accounts, the company figures its subscription revenue for the quarter at $2.532 billion, up 12.8% year-on-year. This activity represents the bulk of its quarterly turnover, which reaches approximately $2.71 billion.",
+          "photoAlt": "Glass facade bearing the Workday name in Pleasanton.",
+          "photoCaption": "Archived from August 24, 2019. Workday headquarters in Pleasanton, California."
+        },
+        "es": {
+          "title": "Workday eleva la previsión de ingresos por suscripciones a 9.960 millones de dólares",
+          "summary": "Las ventas de suscripciones alcanzaron los 2.532 millones de dólares en el tercer trimestre del año fiscal 2027 de la empresa de software.",
+          "body": "Workday elevó su previsión de ingresos anuales por suscripción a 9.960 millones de dólares, frente a un rango anterior de 9.940 millones a 9.950 millones de dólares, según el Wall Street Journal. El grupo presentó sus resultados el 24 de noviembre correspondientes al trimestre finalizado el 31 de octubre.\n\nEn sus cuentas, la compañía cifra sus ingresos por suscripciones para el trimestre en 2.532 millones de dólares, un aumento interanual del 12,8%. Esta actividad representa la mayor parte de su facturación trimestral, que alcanza aproximadamente 2.710 millones de dólares.",
+          "photoAlt": "Fachada de cristal que lleva el nombre de Workday en Pleasanton.",
+          "photoCaption": "Archivado desde el 24 de agosto de 2019. Sede de Workday en Pleasanton, California."
+        },
+        "ar": {
+          "title": "يرفع Workday توقعات إيرادات الاشتراك إلى 9.96 مليار دولار",
+          "summary": "وصلت مبيعات الاشتراكات إلى 2.532 مليار دولار أمريكي في الربع الثالث من السنة المالية 2027 لشركة البرمجيات.",
+          "body": "ورفعت Workday توقعاتها لإيرادات الاشتراك السنوية إلى 9.96 مليار دولار، ارتفاعًا من النطاق السابق البالغ 9.94 مليار دولار إلى 9.95 مليار دولار، وفقًا لصحيفة وول ستريت جورنال. قدمت المجموعة نتائجها في 24 نوفمبر للربع المنتهي في 31 أكتوبر.\n\nفي حساباتها، تقدر الشركة إيرادات الاشتراكات لهذا الربع بمبلغ 2.532 مليار دولار، بزيادة 12.8٪ على أساس سنوي. ويمثل هذا النشاط الجزء الأكبر من إيراداتها الفصلية والتي تصل إلى حوالي 2.71 مليار دولار أمريكي.",
+          "photoAlt": "واجهة زجاجية تحمل اسم Workday في بليزانتون.",
+          "photoCaption": "أرشفة من 24 أغسطس 2019. المقر الرئيسي ليوم العمل في بليزانتون، كاليفورنيا."
+        },
+        "zh-CN": {
+          "title": "Workday 将订阅收入预测上调至 99.6 亿美元",
+          "summary": "该软件公司2027财年第三季度的订阅销售额达到25.32亿美元。",
+          "body": "据《华尔街日报》报道，Workday 将其年度订阅收入预测从之前的 99.4 亿美元至 99.5 亿美元上调至 99.6 亿美元。该集团于11月24日公布了截至10月31日的季度业绩。\n\n在其账目中，该公司预计本季度订阅收入为 25.32 亿美元，同比增长 12.8%。这项业务占其季度营业额的大部分，达到约 27.1 亿美元。",
+          "photoAlt": "位于普莱森顿的玻璃幕墙带有 Workday 名称。",
+          "photoCaption": "存档日期：2019 年 8 月 24 日。位于加利福尼亚州普莱森顿的 Workday 总部。"
+        },
+        "ru": {
+          "title": "Workday повышает прогноз доходов от подписки до $9,96 млрд",
+          "summary": "Продажи по подписке достигли 2,532 миллиарда долларов США в третьем квартале 2027 финансового года компании-разработчика программного обеспечения.",
+          "body": "По данным Wall Street Journal, Workday повысил прогноз годового дохода от подписки до $9,96 млрд с предыдущего диапазона в $9,94–9,95 млрд долларов. 24 ноября группа представила результаты за квартал, завершившийся 31 октября.\n\nВ своих отчетах компания оценивает доход от подписки за квартал в $2,532 млрд, что на 12,8% больше, чем в прошлом году. Эта деятельность составляет большую часть квартального оборота, который достигает примерно 2,71 миллиарда долларов.",
+          "photoAlt": "Стеклянный фасад с названием Workday в Плезантоне.",
+          "photoCaption": "Архивировано 24 августа 2019 года. Штаб-квартира Workday в Плезантоне, Калифорния."
+        },
+        "ko": {
+          "title": "Workday, 구독 수익 예측을 99억 6천만 달러로 상향 조정",
+          "summary": "소프트웨어 회사의 2027 회계연도 3분기 구독 매출은 25억 3,200만 달러에 달했습니다.",
+          "body": "월스트리트저널(WSJ)에 따르면 워크데이는 연간 구독 수익 전망을 기존 99억4000만~99억5000만 달러에서 99억6000만 달러로 상향 조정했다. 그룹은 10월 31일에 종료된 분기에 대한 결과를 11월 24일에 발표했습니다.\n\n회사의 계정에 따르면 해당 분기 구독 수익은 전년 대비 12.8% 증가한 25억 3,200만 달러로 나타났습니다. 이 활동은 분기별 매출의 대부분을 차지하며 약 27억 1천만 달러에 이릅니다.",
+          "photoAlt": "Pleasanton의 Workday 이름이 새겨진 유리 외관.",
+          "photoCaption": "2019년 8월 24일에 보존된 문서. 캘리포니아 주 플레젠튼에 있는 Workday 본사."
+        }
+      }
+    },
+    {
+      "eventKey": "madrid-viking-sorloth-alvarez-cinq-minutes",
+      "category": "Sports",
+      "title": "À Madrid, Sørloth et Álvarez font la différence en cinq minutes face au Viking",
+      "summary": "L’Atlético de Madrid s’impose 2-0 en Ligue des champions après avoir inscrit ses deux buts avant la demi-heure de jeu.",
+      "body": "Alexander Sørloth a ouvert le score à la 19e minute pour l’Atlético de Madrid contre le Viking le 25 novembre. Le quotidien norvégien VG rapporte qu’Alejandro Grimaldo lui a servi le ballon après avoir pris le dos de la défense. Cinq minutes plus tard, Julián Álvarez a doublé l’avantage madrilène.\n\nLe score de 2-0 était déjà acquis à la pause et a tenu jusqu’au coup de sifflet final. La feuille de match de LaLiga signale également l’expulsion du défenseur du Viking Henrik Falchener en fin de rencontre. Les deux buts avaient alors été marqués depuis la première période.",
+      "photo": {
+        "download": "media/atl.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Sorloth_France_v_Norway_26_June_26-048.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "credit": "Bryan Berlin / WikiPortraits",
+        "alt": "Alexander Sørloth porte une veste de la sélection norvégienne.",
+        "caption": "Archives du 26 juin 2026. Alexander Sørloth lors du match entre la France et la Norvège à la Coupe du monde."
+      },
+      "sources": [
+        {
+          "name": "LaLiga",
+          "url": "https://www.laliga.com/en-ID/match/temporada-2026-2027-champions-league-atletico-de-madrid-viking-fk-5",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Verdens Gang",
+          "url": "https://www.vg.no/sport/i/nLadxa/viking-atletico-madrid-0-2-alexander-soerloth-scoret-saa-haltet-han-av",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Sørloth and Álvarez score five minutes apart as Atlético beat Viking",
+          "summary": "Atlético de Madrid won 2-0 in the Champions League after scoring their two goals before the half-hour mark.",
+          "body": "Alexander Sørloth opened the scoring for Atlético Madrid against Viking FK in the 19th minute on November 25. Norwegian newspaper VG reported that Alejandro Grimaldo ran behind the defence and set up Sørloth. Five minutes later Julián Álvarez scored Atlético’s second goal.\n\nAtlético led 2-0 at halftime and held that lead until the final whistle. LaLiga’s match report also records a late red card for Viking defender Henrik Falchener. Atlético had already scored both goals in the first half.",
+          "photoAlt": "Alexander Sørloth wears a Norwegian national team jacket.",
+          "photoCaption": "File photo, June 26, 2026. Alexander Sørloth during the match between France and Norway at the World Cup."
+        },
+        "es": {
+          "title": "Sørloth y Álvarez marcan con cinco minutos de diferencia en el triunfo del Atlético sobre el Viking",
+          "summary": "El Atlético de Madrid se impuso por 2-0 en la Liga de Campeones tras marcar sus dos goles antes de la media hora.",
+          "body": "Alexander Sørloth abrió el marcador para el Atlético de Madrid contra el Viking FK en el minuto 19 el 25 de noviembre. El periódico noruego VG informó que Alejandro Grimaldo corrió detrás de la defensa y preparó a Sørloth. Cinco minutos después Julián Álvarez marcó el segundo gol del Atlético.\n\nEl Atlético iba ganando 2-0 al descanso y mantuvo esa ventaja hasta el pitido final. El informe del partido de LaLiga también registra una tarjeta roja tardía para el defensa del Viking Henrik Falchener. El Atlético ya había marcado los dos goles en la primera parte.",
+          "photoAlt": "Alexander Sørloth viste una chaqueta de la selección noruega.",
+          "photoCaption": "Foto de archivo, 26 de junio de 2026. Alexander Sørloth durante el partido entre Francia y Noruega en el Mundial."
+        },
+        "ar": {
+          "title": "أحرز سورلوث وألفاريز هدفين بفارق خمس دقائق ليقود أتلتيكو للفوز على فايكنغ",
+          "summary": "وفاز أتلتيكو مدريد بنتيجة 2-0 في دوري أبطال أوروبا بعد أن سجل هدفين له قبل مرور نصف ساعة.",
+          "body": "افتتح ألكسندر سورلوث التسجيل لأتلتيكو مدريد ضد فايكنغ إف كيه في الدقيقة 19 يوم 25 نوفمبر. وذكرت صحيفة VG النرويجية أن أليخاندرو جريمالدو ركض خلف الدفاع وصنع سورلوث. وبعد خمس دقائق سجل جوليان ألفاريز الهدف الثاني لأتلتيكو.\n\nوتقدم أتلتيكو 2-0 في الشوط الأول وحافظ على تقدمه حتى صافرة النهاية. كما سجل تقرير مباراة الدوري الإسباني بطاقة حمراء متأخرة لمدافع الفايكنج هنريك فالشينر. وكان أتلتيكو قد سجل بالفعل الهدفين في الشوط الأول.",
+          "photoAlt": "ألكسندر سورلوث يرتدي سترة المنتخب النرويجي.",
+          "photoCaption": "صورة أرشيفية، 26 يونيو 2026. ألكسندر سورلوث خلال مباراة فرنسا والنرويج في كأس العالم."
+        },
+        "zh-CN": {
+          "title": "索洛斯和阿尔瓦雷斯相距五分钟进球，马竞击败维京人",
+          "summary": "马德里竞技队在半小时前连进两球，以 2-0 赢得冠军联赛。",
+          "body": "11 月 25 日，亚历山大·索洛斯 (Alexander Sørloth) 为马德里竞技队对阵维京 FK 的比赛第 19 分钟首开纪录。挪威报纸 VG 报道称，亚历杭德罗·格里马尔多 (Alejandro Grimaldo) 跑到后防线后面，助攻索洛斯 (Sørloth)。五分钟后，胡利安·阿尔瓦雷斯攻入了马竞队的第二个进球。\n\n半场结束时，马竞2-0领先，并将领先优势保持到终场哨响。西甲的比赛报告还记录了维京人后卫亨里克·法尔切纳的红牌。马竞在上半场就已经取得了两个进球。",
+          "photoAlt": "亚历山大·索洛斯 (Alexander Sørloth) 身穿挪威国家队夹克。",
+          "photoCaption": "资料照片，2026 年 6 月 26 日。亚历山大·索罗斯在世界杯法国队与挪威队的比赛中。"
+        },
+        "ru": {
+          "title": "Сёрлот и Альварес забили с разницей в пять минут, когда «Атлетико» обыграл «Викинг»",
+          "summary": "Мадридский «Атлетико» выиграл со счетом 2:0 в Лиге чемпионов, забив два гола до получасовой отметки.",
+          "body": "25 ноября Александр Сёрлот открыл счет мадридскому «Атлетико» против «Викинга» на 19-й минуте. Норвежская газета VG сообщила, что Алехандро Гримальдо пробежал позади защиты и подставил Сёрлота. Пять минут спустя Хулиан Альварес забил второй гол «Атлетико».\n\nК перерыву «Атлетико» вел 2:0 и удерживал это преимущество до финального свистка. В протоколе матча Ла Лиги также зафиксирована поздняя красная карточка защитнику «Викинга» Хенрику Фальченеру. Оба гола «Атлетико» уже забил в первом тайме.",
+          "photoAlt": "Александр Сёрлот носит куртку сборной Норвегии.",
+          "photoCaption": "Архивное фото, 26 июня 2026 года. Александр Сёрлот во время матча чемпионата мира между сборными Франции и Норвегии."
+        },
+        "ko": {
+          "title": "Sørloth와 Álvarez는 5분 간격으로 득점하고 Atlético는 Viking을 이겼습니다.",
+          "summary": "아틀레티코 마드리드는 챔피언스리그에서 전반 30분 전에 두 골을 터뜨리며 2-0으로 승리했습니다.",
+          "body": "알렉산더 쇠를로스(Alexander Sørloth)는 11월 25일 바이킹 FK를 상대로 아틀레티코 마드리드의 선제골을 터뜨렸다. 노르웨이 신문 VG는 알레한드로 그리말도가 수비진 뒤로 달려가 쇠를로스를 세워줬다고 보도했다. 5분 후 Julián Álvarez가 Atlético의 두 번째 골을 넣었습니다.\n\nAtlético는 전반전에 2-0으로 앞섰고 종료 휘슬이 울릴 때까지 선두를 유지했습니다. LaLiga의 경기 보고서에는 바이킹 수비수 Henrik Falchener에 대한 늦은 퇴장도 기록되어 있습니다. 아틀레티코는 이미 전반전에 두 골을 모두 넣었습니다.",
+          "photoAlt": "Alexander Sørloth는 노르웨이 국가대표팀 재킷을 입고 있습니다.",
+          "photoCaption": "자료사진, 2026년 6월 26일. 월드컵 프랑스 대 노르웨이 경기 중 알렉산더 쇠를로스."
+        }
+      }
+    },
+    {
+      "eventKey": "fenerbahce-shakhtar-muriqi-cinquieme-journee",
+      "category": "Sports",
+      "title": "Un but de Vedat Muriqi suffit à Fenerbahçe contre le Shakhtar Donetsk",
+      "summary": "Le club turc décroche une victoire 1-0 lors de la cinquième journée de la phase de ligue de la Ligue des champions.",
+      "body": "Le Shakhtar Donetsk et Fenerbahçe ont terminé la première période à égalité le 25 novembre. Le match a basculé à la 56e minute, quand Vedat Muriqi a inscrit le seul but de la rencontre. Le résultat de 1-0 en faveur du club turc figure au relevé officiel de l’UEFA.\n\nLe Shakhtar avait encore plus d’une demi-heure pour revenir au score, mais Fenerbahçe a conservé son avance. Eurosport relève qu’il s’agit d’une deuxième victoire consécutive pour le club turc dans cette compétition. Ce succès lui rapporte trois points pour la cinquième journée.",
+      "photo": {
+        "download": "media/fen.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vedat_Muriqi_Fenerbah%C3%A7e_20260717_%286%29.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "credit": "Zafer",
+        "alt": "Vedat Muriqi porte le maillot rayé jaune et bleu de Fenerbahçe.",
+        "caption": "Archives du 17 juillet 2026. Vedat Muriqi sous les couleurs de Fenerbahçe."
+      },
+      "sources": [
+        {
+          "name": "UEFA – feuille de match",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049640--shakhtar-vs-fenerbahce/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "UEFA – résultats",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--champions-league-league-phase-fixtures-by-team/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Eurosport",
+          "url": "https://www.eurosport.it/calcio/champions-league/2026-2027/i-risultati-di-mercoledi-25-novembre-lille-bayern-2-1-bruges-liverpool-0-3-atletico-madrid-viking-2-0-shakhtar-fenerbahce-0-1-sporting-united-2-2_sto23358552/story.shtml",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Muriqi scores the only goal as Fenerbahçe beat Shakhtar Donetsk",
+          "summary": "The Turkish club secures a 1-0 victory on the fifth day of the Champions League league stage.",
+          "body": "Shakhtar Donetsk and Fenerbahçe were level at halftime on November 25. Vedat Muriqi broke the deadlock in the 56th minute with the only goal of the match. UEFA recorded a 1-0 victory for the Turkish club.\n\nShakhtar had more than half an hour left to equalize, but Fenerbahçe held on. Eurosport reported that it was the Turkish club’s second successive win in the competition. The victory earned Fenerbahçe three points on matchday five.",
+          "photoAlt": "Vedat Muriqi wears the yellow and blue striped jersey of Fenerbahçe.",
+          "photoCaption": "File photo, July 17, 2026. Vedat Muriqi in the colors of Fenerbahçe."
+        },
+        "es": {
+          "title": "Muriqi marca el único gol del Fenerbahçe ante el Shakhtar Donetsk",
+          "summary": "El club turco logra una victoria por 1-0 en la quinta jornada de la Liga de Campeones.",
+          "body": "Shakhtar Donetsk y Fenerbahçe empataron en el descanso del 25 de noviembre. Vedat Muriqi abrió el marcador en el minuto 56 con el único gol del partido. La UEFA registró una victoria por 1-0 para el club turco.\n\nAl Shakhtar le quedaba más de media hora para igualar, pero el Fenerbahçe aguantó. Eurosport informó que era la segunda victoria consecutiva del club turco en la competición. La victoria le dio al Fenerbahçe tres puntos en la quinta jornada.",
+          "photoAlt": "Vedat Muriqi viste la camiseta de rayas amarillas y azules del Fenerbahçe.",
+          "photoCaption": "Foto de archivo, 17 de julio de 2026. Vedat Muriqi con los colores del Fenerbahçe."
+        },
+        "ar": {
+          "title": "موريكي يسجل الهدف الوحيد في فوز فنربخشة على شاختار دونيتسك",
+          "summary": "حقق النادي التركي الفوز بنتيجة 1-0 في اليوم الخامس من مرحلة دوري أبطال أوروبا.",
+          "body": "تعادل شاختار دونيتسك وفنربخشه في الشوط الأول يوم 25 نوفمبر. كسر فيدات موريكي حالة الجمود في الدقيقة 56 بهدف وحيد في المباراة. وسجل الاتحاد الأوروبي لكرة القدم فوزا للنادي التركي 1-0.\n\nوكان أمام شاختار أكثر من نصف ساعة لإدراك التعادل، لكن فنربخشه صمد. وذكرت يوروسبورت أن هذا هو الفوز الثاني على التوالي للنادي التركي في المسابقة. الفوز منح فنربخشة ثلاث نقاط في الجولة الخامسة.",
+          "photoAlt": "فيدات موريكي يرتدي قميص فنربخشة المخطط باللونين الأصفر والأزرق.",
+          "photoCaption": "صورة أرشيفية، 17 يوليو 2026. فيدات موريكي بألوان فنربخشة."
+        },
+        "zh-CN": {
+          "title": "穆里奇打进唯一进球，费内巴切击败顿涅茨克矿工",
+          "summary": "土耳其俱乐部在欧冠联赛第五轮比赛中以1-0获胜。",
+          "body": "11月25日，顿涅茨克矿工队和费内巴切队在半场战平。第56分钟，穆里奇凭借全场唯一进球打破僵局。欧足联以 1-0 战胜土耳其俱乐部。\n\n矿工队距离扳平比分还有半个多小时，但费内巴切坚持了下来。据《欧洲体育报》报道，这是土耳其俱乐部在比赛中连续第二次获胜。这场胜利为费内巴切在第五轮比赛中赢得了三分。",
+          "photoAlt": "维达特·穆里奇身穿费内巴切队的黄蓝条纹球衣。",
+          "photoCaption": "资料照片，2026 年 7 月 17 日。维达特·穆里奇身着费内巴切队的球衣。"
+        },
+        "ru": {
+          "title": "Мурики забил единственный гол в матче «Фенербахче» над донецким «Шахтером»",
+          "summary": "Турецкий клуб одерживает победу со счетом 1:0 в пятый день этапа Лиги чемпионов.",
+          "body": "25 ноября донецкий «Шахтер» и «Фенербахче» в перерыве сравняли счет. Ведат Мурики вывел счет из тупика на 56-й минуте, забив единственный гол в матче. УЕФА зафиксировал победу турецкого клуба со счетом 1:0.\n\n«Шахтеру» оставалось больше получаса, чтобы сравнять счет, но «Фенербахче» держался. Eurosport сообщил, что это вторая подряд победа турецкого клуба на турнире. Победа принесла «Фенербахче» три очка в пятом туре.",
+          "photoAlt": "Ведат Мурики носит футболку «Фенербахче» в желто-синюю полоску.",
+          "photoCaption": "Архивное фото, 17 июля 2026 года. Ведат Мурики в цветах «Фенербахче»."
+        },
+        "ko": {
+          "title": "무리키가 페네르바체가 샤흐타르 도네츠크를 이기면서 유일한 골을 넣었다.",
+          "summary": "터키 클럽이 챔피언스리그 무대 5일째 1-0 승리를 거뒀다.",
+          "body": "샤흐타르 도네츠크와 페네르바체는 11월 25일 전반전 동점골을 기록했다. 베다 무리키(Vedat Muriqi)가 56분 만에 유일한 골로 교착상태를 깨뜨렸다. UEFA는 터키 클럽의 1-0 승리를 기록했습니다.\n\n샤흐타르는 동점골을 넣기까지 30분 이상 남았으나 페네르바체는 버텼다. 유로스포츠는 이번 대회에서 터키 클럽이 두 번째 연속 우승을 차지했다고 보도했습니다. 이 승리로 페네르바체는 5차전에서 승점 3점을 얻었습니다.",
+          "photoAlt": "Vedat Muriqi는 페네르바체의 노란색과 파란색 줄무늬 저지를 입고 있습니다.",
+          "photoCaption": "자료 사진, 2026년 7월 17일. 페네르바체 색상의 Vedat Muriqi."
+        }
+      }
+    },
+    {
+      "eventKey": "montreal-larkin-premier-point-kings-centre-bell",
+      "category": "Sports",
+      "title": "Dylan Larkin obtient son premier point avec Montréal dans un revers face aux Kings",
+      "summary": "À ses débuts avec le Canadien le 23 novembre, le centre acquis de Detroit participe au but égalisateur d’Alex Newhook au Centre Bell.",
+      "body": "Dylan Larkin a obtenu une aide à son premier match dans l’uniforme du Canadien. Selon le compte rendu de la LNH publié le 24 novembre, sa mise en échec derrière le filet a permis à Alexandre Texier de récupérer la rondelle et de servir Alex Newhook. Son but a créé l’égalité 1-1 en deuxième période.\n\nLos Angeles a finalement gagné 2-1 au Centre Bell le 23 novembre. L’Associated Press crédite le gardien des Kings Darcy Kuemper de 29 arrêts. Larkin retrouvait la compétition au lendemain de l’échange qui l’a fait passer de Detroit à Montréal.",
+      "photo": {
+        "download": "media/mtl.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Larkin_USA1.png",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "credit": "OSPORT.TV",
+        "alt": "Dylan Larkin en casquette américaine devant des microphones.",
+        "caption": "Archives du 8 mai 2016. Dylan Larkin avec l’équipe des États-Unis, dix ans avant ses débuts à Montréal."
+      },
+      "sources": [
+        {
+          "name": "Ligue nationale de hockey",
+          "url": "https://www.nhl.com/news/los-angeles-kings-montreal-canadiens-game-recap-november-23-2026",
+          "publishedAt": "2026-11-24T05:01:00Z"
+        },
+        {
+          "name": "Associated Press / CBS Sports",
+          "url": "https://www.cbssports.com/nhl/gametracker/recap/NHL_20261123_LA%40MON/",
+          "publishedAt": "2026-11-23"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Dylan Larkin records first point for Montreal in loss to Kings",
+          "summary": "In his debut with the Canadian on November 23, the center acquired from Detroit participated in Alex Newhook's equalizing goal at the Bell Center.",
+          "body": "Dylan Larkin recorded an assist on his debut for the Montreal Canadiens. According to the NHL’s November 24 recap, Larkin knocked the puck loose behind the net. Alexandre Texier recovered it and passed to Alex Newhook, who scored to tie the game 1-1 in the second period.\n\nLos Angeles won 2-1 at the Bell Centre on November 23. The Associated Press reported that Kings goalie Darcy Kuemper made 29 saves. Larkin played the day after Detroit traded him to Montreal.",
+          "photoAlt": "Dylan Larkin in an American cap in front of microphones.",
+          "photoCaption": "File photo, May 8, 2016. Dylan Larkin with the United States team, ten years before his debut in Montreal."
+        },
+        "es": {
+          "title": "Dylan Larkin logra el primer punto para Montreal en la derrota ante los Kings",
+          "summary": "En su debut con el canadiense el pasado 23 de noviembre, el pívot adquirido procedente de Detroit participó en el gol del empate de Alex Newhook en el Bell Center.",
+          "body": "Dylan Larkin registró una asistencia en su debut con los Montreal Canadiens. Según el resumen de la NHL del 24 de noviembre, Larkin soltó el disco detrás de la red. Alexandre Texier lo recuperó y pasó el balón a Alex Newhook, quien anotó para empatar el partido 1-1 en el segundo tiempo.\n\nLos Ángeles ganó 2-1 en el Bell Center el 23 de noviembre. Associated Press informó que el portero de los Kings, Darcy Kuemper, hizo 29 salvamentos. Larkin jugó el día después de que Detroit lo transfiriera a Montreal.",
+          "photoAlt": "Dylan Larkin con gorra americana frente a los micrófonos.",
+          "photoCaption": "Foto de archivo, 8 de mayo de 2016. Dylan Larkin con la selección de Estados Unidos, diez años antes de su debut en Montreal."
+        },
+        "ar": {
+          "title": "ديلان لاركن يسجل النقطة الأولى لمونتريال في الخسارة أمام كينجز",
+          "summary": "في أول ظهور له مع الكندي في 23 نوفمبر، شارك المركز المكتسب من ديترويت في هدف التعادل الذي سجله أليكس نيوهوك في مركز بيل.",
+          "body": "سجل ديلان لاركين تمريرة حاسمة في أول ظهور له مع فريق مونتريال كنديانز. وفقًا لملخص NHL في 24 نوفمبر، فقد أسقط لاركن الكرة خلف الشباك. استعادها ألكسندر تيكسييه ومررها إلى أليكس نيوهوك الذي سجل هدف التعادل 1-1 في الشوط الثاني.\n\nفازت لوس أنجلوس بنتيجة 2-1 في ملعب بيل سنتر في 23 نوفمبر. وذكرت وكالة أسوشيتد برس أن حارس مرمى كينغز دارسي كومبر أنقذ 29 كرة. لعب لاركن في اليوم التالي لتبادله مع ديترويت مع مونتريال.",
+          "photoAlt": "ديلان لاركن يرتدي قبعة أمريكية أمام الميكروفونات.",
+          "photoCaption": "صورة أرشيفية، 8 مايو/أيار 2016. ديلان لاركن مع منتخب الولايات المتحدة، قبل عشر سنوات من ظهوره الأول في مونتريال."
+        },
+        "zh-CN": {
+          "title": "迪伦·拉金 (Dylan Larkin) 在输给国王队的比赛中为蒙特利尔队取得第一分",
+          "summary": "11月23日，这位从底特律引进的中锋在代表加拿大队首秀中参与了亚历克斯·纽胡克在贝尔中心扳平比分的进球。",
+          "body": "迪伦·拉金 (Dylan Larkin) 在蒙特利尔加拿大人队的首秀中送出助攻。根据 NHL 11 月 24 日的回顾，拉金将冰球打入网后。亚历山大·特克西尔 (Alexandre Texier) 接球后传球给亚历克斯·纽胡克 (Alex Newhook)，后者在第二节进球将比分扳成 1-1 平。\n\n11 月 23 日，洛杉矶在贝尔中心以 2-1 获胜。美联社报道称，国王队守门员达西·库佩尔 (Darcy Kuemper) 做出了 29 次扑救。拉金在底特律将他交易到蒙特利尔后的第二天就参加了比赛。",
+          "photoAlt": "迪伦·拉金 (Dylan Larkin) 在麦克风前戴着美国帽。",
+          "photoCaption": "资料照片，2016 年 5 月 8 日。迪伦·拉金 (Dylan Larkin) 与美国队在一起，十年前他在蒙特利尔首次亮相。"
+        },
+        "ru": {
+          "title": "Дилан Ларкин набрал первое очко для «Монреаля» после поражения от «Кингз»",
+          "summary": "В своем дебютном матче с канадцем 23 ноября центровой, приобретенный у Детройта, участвовал в сравняющем голе Алекса Ньюхука на Белл-центре.",
+          "body": "Дилан Ларкин записал результативную передачу в своем дебютном матче за «Монреаль Канадиенс». Согласно отчету НХЛ от 24 ноября, Ларкин выбил шайбу за сетку. Александр Тексье отыгрался и отдал пас Алексу Ньюхуку, который забил гол и сравнял счет 1–1 во втором периоде.\n\n23 ноября «Лос-Анджелес» выиграл со счетом 2:1 на «Белл-центре». Агентство Associated Press сообщило, что вратарь «Кингз» Дарси Кумпер сделал 29 сейвов. Ларкин сыграл на следующий день после того, как «Детройт» обменял его в «Монреаль».",
+          "photoAlt": "Дилан Ларкин в американской кепке перед микрофонами.",
+          "photoCaption": "Архивное фото, 8 мая 2016 года. Дилан Ларкин со сборной США за десять лет до своего дебюта в Монреале."
+        },
+        "ko": {
+          "title": "Dylan Larkin은 킹스에게 패한 몬트리올의 첫 득점을 기록했습니다.",
+          "summary": "11월 23일 캐나다 데뷔전에서 디트로이트에서 인수한 센터는 벨 센터에서 알렉스 뉴훅의 동점골에 참여했다.",
+          "body": "Dylan Larkin은 Montreal Canadiens 데뷔에서 어시스트를 기록했습니다. NHL의 11월 24일 요약에 따르면 Larkin은 퍽을 네트 뒤에서 느슨하게 두드렸습니다. Alexandre Texier는 그것을 회복하고 Alex Newhook에게 패스했고, 그는 두 번째 피리어드에서 득점하여 1-1 동점을 기록했습니다.\n\n로스앤젤레스는 11월 23일 벨센터에서 2-1로 승리했다. AP통신은 킹스 골키퍼 다아시 켐퍼가 29세이브를 기록했다고 보도했다. 라킨은 디트로이트가 그를 몬트리올로 트레이드한 다음 날 경기에 나섰습니다.",
+          "photoAlt": "마이크 앞에서 미국식 모자를 쓴 Dylan Larkin.",
+          "photoCaption": "자료사진, 2016년 5월 8일. 몬트리올 데뷔 10년 전, 미국 대표팀의 딜런 라킨."
+        }
+      }
+    }
+  ]
+}
