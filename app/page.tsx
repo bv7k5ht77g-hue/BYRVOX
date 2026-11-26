@@ -62,7 +62,7 @@ export default async function Home({ searchParams }: Props) {
   } catch {
     unavailable = true;
   }
-  const presentations = (route.section === 'presentations' ? features : []).map(({ slug, title, category, summary, image }) => ({
+  const presentations = (route.section === 'presentations' || route.section === 'accueil' ? features : []).map(({ slug, title, category, summary, image }) => ({
     slug, title, category, summary, image, presentation: true
   }));
   const unique = new Map([...stories,...presentations,...headlines.flatMap(group=>group.stories)].map(story=>[story.slug,story]));

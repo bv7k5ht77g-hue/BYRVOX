@@ -6,6 +6,7 @@ import type { PublicLocale } from "./i18n";
 import { isoDate } from "./publication-date";
 import { archiveSearchTerms } from "./reader-recommendations";
 import type { Summary } from "./edition";
+import { features } from "./content";
 import { resolveCover } from "./cover-photo";
 import { getHomepageLeadSlug } from "./homepage-lead";
 import { canonicalCategory, categoryAliases, orderedCategories, type CategoryHeadlines } from "./editorial-sections";
@@ -126,10 +127,13 @@ export async function readEditionArticles({ page = 1, query = "", category = "",
 
 export async function listSavedArticles(slugs: string[]) {
   const unique = Array.from(new Set(slugs));
-  const matches = new Map<string, ReturnType<typeof summary>>();
+  const matches = new Map<string, Summary>();
   for (let i = 0; i < unique.length; i += 50) {
     const rows = await publishedQuery(inArray(articles.slug, unique.slice(i, i + 50)));
     for (const row of rows) matches.set(row.slug, summary(row));
+  }
+  for (const { slug, title, category, summary, image } of features) {
+    if (unique.includes(slug)) matches.set(slug, { slug, title, category, summary, image, presentation: true });
   }
   return unique.flatMap((slug) => {
     const match = matches.get(slug);

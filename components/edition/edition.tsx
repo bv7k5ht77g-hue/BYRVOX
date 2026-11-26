@@ -3,11 +3,12 @@
 import { Bookmark, BookmarkCheck, CircleUserRound, Menu, Moon, Rss, Search, Settings2, Sun, X } from 'lucide-react';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { editionHref, type EditionRoute, type Section, type Summary } from '../../lib/edition';
-import { categoryHref, featuredCategories, type CategoryHeadlines } from '../../lib/editorial-sections';
-import { sectionText } from './section-copy';
+import type { CategoryHeadlines } from '../../lib/editorial-sections';
+import { AdSlot } from './ad-slot';
+import { HeaderTopics } from './header-topics';
 import { WeatherNav } from '../weather-nav';
 import { LanguageSelect, usePublicLocale } from '../language-select';
-import { categoryLabel, localizedHref, sectionLabel } from '../../lib/i18n';
+import { localizedHref, sectionLabel } from '../../lib/i18n';
 import { navText } from './navigation-copy';
 import { ReadingProgress } from './reading-progress';
 import './navigation.css';
@@ -25,10 +26,15 @@ export function Brand() {
   </a>;
 }
 
-function NavLinks({ current }: { current: Section }) {
+function NavLinks({ current, category }: { current: Section; category?: string }) {
   const lang = usePublicLocale();
-  return navigation.map(section => <a key={section} href={localizedHref(editionHref(section),lang)}
-    aria-current={current === section ? 'page' : undefined}>{sectionLabel(section,lang)}</a>);
+  return navigation.map(section => {
+    const link = <a key={section} href={localizedHref(editionHref(section), lang)}
+      aria-current={current === section ? 'page' : undefined}>{sectionLabel(section, lang)}</a>;
+    return section === 'actualites'
+      ? <div className="news-nav-item" key={section}>{link}<HeaderTopics category={category} /></div>
+      : link;
+  });
 }
 
 function Header({ current, category, profile, open }: {
@@ -46,9 +52,9 @@ function Header({ current, category, profile, open }: {
     root.dataset.theme = next;
     try { localStorage.setItem('byrvox-theme', next); } catch { /* Applies for this page. */ }
   }
-  return <header className="edition-site edition-header"><div className="topbar">
+  return <><header className="edition-site edition-header"><div className="topbar">
     <Brand />
-    <nav className="desktop-nav" aria-label={navText(lang,'main')}><NavLinks current={current} /></nav>
+    <nav className="desktop-nav" aria-label={navText(lang,'main')}><NavLinks current={current} category={category} /></nav>
     <div className="tools"><WeatherNav locale={lang} /><LanguageSelect />
       <button className="tool-icon" aria-label={navText(lang,'search')} onClick={() => show('recherche')}>
         <Search size={20} aria-hidden="true" />
@@ -65,16 +71,15 @@ function Header({ current, category, profile, open }: {
         }
       }}>
         <summary><Menu className="menu-show" size={19} aria-hidden="true" /><X className="menu-hide" size={19} aria-hidden="true" /> <span className="menu-caption">{navText(lang,'menu')}</span></summary>
-        <nav aria-label={navText(lang,'main')}><NavLinks current={current} />
-          <a className="edition-icon-link" href={localizedHref(editionHref('favoris'),lang)}><Bookmark size={16} aria-hidden="true" /> {sectionLabel('favoris',lang)}</a>
+        <nav aria-label={navText(lang,'main')}><NavLinks current={current} category={category} />
+          <a className="edition-icon-link" aria-current={current === 'favoris' ? 'page' : undefined} href={localizedHref(editionHref('favoris'),lang)}><Bookmark size={16} aria-hidden="true" /> {sectionLabel('favoris',lang)}</a>
           <button onClick={() => show(profile ? 'profil' : 'connexion')}><CircleUserRound size={16} aria-hidden="true" /> {navText(lang,profile ? 'account' : 'login')}</button>
         </nav>
       </details>
     </div>
   </div>
-    <nav className="by-header-topics" aria-label={sectionText(lang,'topics')}><div>
-      {featuredCategories.map(topic=><a href={localizedHref(categoryHref(topic),lang)} key={topic} aria-current={category===topic?'page':undefined}>{categoryLabel(topic,lang)}</a>)}
-    </div></nav><ReadingProgress /></header>;
+    <ReadingProgress /></header>
+    <div className="wrap by-masthead-placement"><AdSlot placement={current === 'accueil' ? 'home' : 'masthead'} /></div></>;
 }
 
 function Footer({ open }: { open: (name: DialogName) => void }) {
@@ -89,7 +94,7 @@ function Footer({ open }: { open: (name: DialogName) => void }) {
       <a className="edition-icon-link" href="/admin"><Settings2 size={16} aria-hidden="true" /> {navText(lang,'editor')}</a></div>
     <div><b>{navText(lang,'transparency')}</b>{policies.map((policy,i) => <button key={policy} onClick={() => open(policy)}>{navText(lang,policyLabels[i])}</button>)}</div>
   </div>
-  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.6.1</span></div></footer>;
+  <div className="wrap footer-bottom">© {new Date().getUTCFullYear()} BYRVOX Media Group <span>v0.7.0</span></div></footer>;
 }
 
 type EditionProps = {
@@ -168,7 +173,7 @@ export function Edition({ route, stories, headlines, presentations, unavailable,
     <Header current={route.section} category={route.category} open={setDialog} profile={profile} />
     <main id="main" tabIndex={-1}>
       {route.section === 'accueil'
-        ? <EditionFront stories={stories} headlines={headlines} unavailable={unavailable} />
+        ? <EditionFront stories={stories} headlines={headlines} presentations={presentations} savedCount={saved.length} saveButton={saveButton} unavailable={unavailable} />
         : <SectionContent headlines={headlines} route={route} hasNext={hasNext} publishedCategories={categories} stories={route.section === 'favoris' ? savedStories : stories} presentations={presentations} unavailable={unavailable}
             saved={saved} accountStatus={accountStatus} signedIn={Boolean(profile)} saveButton={saveButton} />}
     </main>

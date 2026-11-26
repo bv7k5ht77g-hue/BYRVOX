@@ -4,6 +4,9 @@ import { useState, type ReactNode } from 'react';
 import { articleHref, editionHref, fold, type EditionRoute, type Section, type Summary } from '../../lib/edition';
 import { categoryLabel, localizedHref, sectionLabel, type PublicLocale } from '../../lib/i18n';
 import { usePublicLocale } from '../language-select';
+import { StoryCard, StoryDate } from './story-card';
+import { BrandShowcase, MobileReading } from './brand-showcase';
+import { FeaturedContents } from './featured-contents';
 import { AdSlot } from './ad-slot';
 import { CoverFigure } from './cover-figure';
 import { canonicalCategory, categoryHref, type CategoryHeadlines } from '../../lib/editorial-sections';
@@ -24,14 +27,6 @@ const formats = {
   emissions: { description: 'showsInfo', image: 'tv' },
   dossiers: { description: 'dossiersInfo', image: 'news' }
 } as const;
-const dateFormat = (lang: PublicLocale, time: boolean): Intl.DateTimeFormat =>
-  new Intl.DateTimeFormat(lang, { day: 'numeric', month: 'short', ...(time ? { hour: '2-digit', minute: '2-digit' } : {year:'numeric'}), timeZone: 'America/Toronto' });
-
-function StoryDate({ story, lang, withTime = false }: { story: Summary; lang: PublicLocale; withTime?: boolean }) {
-  if (!story.publishedAt || !Number.isFinite(Date.parse(story.publishedAt))) return <>{sectionText(lang, story.presentation ? 'feature' : 'reporting')}</>;
-  return <time dateTime={story.publishedAt}>{dateFormat(lang, withTime).format(new Date(story.publishedAt))}</time>;
-}
-
 function ChannelCards({ direct = false, lang }: { direct?: boolean; lang: PublicLocale }) {
   const cards = direct ? channels.slice(1) : channels;
   return <nav className="by-channels" id="chaines" aria-label={sectionText(lang, 'coverage')}>
@@ -44,25 +39,17 @@ function ChannelCards({ direct = false, lang }: { direct?: boolean; lang: Public
 
 function FrontLead({ story, lang }: { story: Summary; lang: PublicLocale }) {
   const href = localizedHref(articleHref(story), lang);
-  return <article className={'by-lead' + (!story.photo ? ' by-lead-type' : '')}>
+  return <article aria-labelledby="lead-title" className={'by-lead' + (story.photo || story.image ? '' : ' by-lead-type')}>
+    <div className="by-lead-copy">
     <div className="by-lead-meta"><span>{sectionText(lang, story.presentation ? 'feature' : 'lead')}</span><b>{categoryLabel(story.category, lang)}</b></div>
     <h1 id="lead-title" lang={story.contentLocale} dir="auto"><a href={href}>{story.title}</a></h1>
     <p className="by-deck" lang={story.contentLocale} dir="auto">{story.summary}</p>
-    {story.photo ? <CoverFigure photo={story.photo} href={href} priority /> :
-      story.image && <a className="by-feature-photo" href={href} aria-label={story.title}><Image unoptimized width={900} height={400} src={'/media/' + story.image + '.webp'} alt="" priority /></a>}
     <div className="by-lead-bottom"><small><StoryDate story={story} lang={lang} /></small>
       <a href={href}><BookOpen size={16} aria-hidden="true" />{sectionText(lang,'read')}</a></div>
+    </div>
+    {story.photo ? <CoverFigure photo={story.photo} href={href} priority /> :
+      story.image && <a className="by-feature-photo" href={href} aria-label={story.title}><Image unoptimized width={900} height={400} src={'/media/' + story.image + '.webp'} alt="" priority /></a>}
   </article>;
-}
-
-function StoryCard({ story, save, lang, showSummary = false }: { story: Summary; save?: ReactNode; lang: PublicLocale; showSummary?: boolean }) {
-  const src = story.photo?.thumbnailUrl || story.photo?.url || (story.image ? '/media/' + story.image + '.webp' : undefined);
-  return <article className="by-card"><a href={localizedHref(articleHref(story),lang)}>
-    {src && <div className="by-card-photo"><Image unoptimized src={src} width={450} height={250} loading="lazy" decoding="async" alt="" /></div>}
-    <p className="by-category">{categoryLabel(story.category,lang)}</p><h3 lang={story.contentLocale} dir="auto">{story.title}</h3>
-    {showSummary && <p className="by-card-summary" lang={story.contentLocale} dir="auto">{story.summary}</p>}
-    <small><StoryDate story={story} lang={lang} /></small>
-  </a>{save}</article>;
 }
 
 function LatestFeed({ stories, lang }: { stories: Summary[]; lang: PublicLocale }) {
@@ -118,31 +105,35 @@ function AllTopicLinks({ categories, lang }: { categories:string[]; lang:PublicL
 }
 
 type FrontProps = { stories: Summary[]; headlines: CategoryHeadlines[]; unavailable: boolean };
-export function EditionFront({ stories, headlines, unavailable }: FrontProps) {
+type HomeProps = FrontProps & {
+  presentations: Summary[];
+  savedCount: number;
+  saveButton: (story: Summary) => ReactNode;
+};
+
+export function EditionFront({ stories, headlines, presentations, savedCount, saveButton, unavailable }: HomeProps) {
   const lang = usePublicLocale();
   const [lead,...remaining] = stories;
   const feed = remaining.slice(0,4);
-  const extras = remaining.slice(4,8);
+  const above = new Set(stories.slice(0,5).map(story => story.slug));
+  const more = [...remaining.slice(4), ...headlines.flatMap(group => group.stories)].filter(story => !above.has(story.slug));
   return <div className="wrap by-home">
     {unavailable && <p role="status" className="by-feed-status">{sectionText(lang,'unavailable')}</p>}
     {!lead && !unavailable && <p className="by-feed-status">{sectionText(lang,'emptyNews')}</p>}
-    {lead && <div className={'by-front-grid' + (feed.length ? '' : ' by-single')}>
+    {lead && <>
       <FrontLead story={lead} lang={lang} />
-      {feed.length>0 && <LatestFeed stories={feed} lang={lang} />}
-    </div>}
-    <AdSlot placement="home" />
-    {extras.length>0 && <section className="by-section" aria-labelledby="also-title">
-      <div className="by-section-title"><h2 id="also-title">{sectionText(lang,'also')}</h2>
-        <a className="by-section-link" href={localizedHref(editionHref('actualites'),lang)}>{sectionText(lang,'allNews')}</a></div>
-      <div className="by-story-grid">{extras.map(story=><StoryCard key={story.slug} story={story} lang={lang}/>)}</div>
-    </section>}
+      <AdSlot placement="home-lower" />
+    </>}
+    {feed.length>0 && <LatestFeed stories={feed} lang={lang} />}
+    <BrandShowcase lang={lang} />
+    <FeaturedContents stories={more} presentations={presentations} savedCount={savedCount} saveButton={saveButton} />
     {headlines.length>0 && <section className="by-section" aria-labelledby="topics-heading">
       <div className="by-section-title"><h2 id="topics-heading">{sectionText(lang,'topics')}</h2></div>
       <AllTopicLinks categories={headlines.map(group=>group.category)} lang={lang}/>
       <TopicGrid groups={headlines} lang={lang}/>
-      <AdSlot placement="home-lower"/>
     </section>}
     <RadioYO lang={lang} compact/>
+    <MobileReading lang={lang} />
   </div>;
 }
 

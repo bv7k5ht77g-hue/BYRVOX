@@ -1,6 +1,6 @@
 # BYRVOX — Beyond the Headlines
 
-Version 0.6.1 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.noventra.ca)
+Version 0.7.0 · novembre 2026. [Ouvrir BYRVOX](https://byrvox.noventra.ca)
 
 Média numérique publié en français, anglais, espagnol, arabe, chinois simplifié, russe et coréen. Le site utilise Next/React sur Vinext, Cloudflare Workers, D1 et R2.
 
@@ -22,7 +22,7 @@ Depuis [le portail](https://byrvox.noventra.ca/admin), choisir **Se connecter à
 
 La tâche « Publier l’édition horaire BYRVOX » est planifiée à chaque heure selon le fuseau de Toronto. Elle recherche quinze événements distincts, vérifie leurs sources et les droits sur les photos, puis livre les articles prêts à publier. Une édition peut compter moins de quinze articles lorsque les éléments requis ne sont pas réunis. Les éditions sont conservées dans `newswire/`. [Procédure de rédaction et de publication](docs/EDITION_HORAIRE.md) · [Registre des publications](https://byrvox.noventra.ca/api/newswire).
 
-La navigation affiche les observations d’Environnement et Changement climatique Canada pour la ville choisie. La barre de lecture suit le défilement. Sous chaque article, le carrousel commence par des sujets apparentés puis propose d’autres lectures. Les espaces publicitaires accueillent des annonces maison identifiées.
+La navigation affiche les observations d’Environnement et Changement climatique Canada pour la ville choisie. La barre de lecture suit le défilement. Sous chaque article, le carrousel commence par des sujets apparentés puis propose d’autres lectures. Un emplacement publicitaire suit la navigation. Sur l’accueil, un second suit la manchette. Les emplacements disponibles sont signalés jusqu’à la réservation d’une campagne.
 
 ## Fonctionnel
 
