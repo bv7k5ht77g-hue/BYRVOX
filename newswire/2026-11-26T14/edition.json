@@ -1,0 +1,1120 @@
+{
+  "hour": "2026-11-26T14",
+  "articles": [
+    {
+      "eventKey": "canada-emploi-salarie-postes-vacants-septembre-2026",
+      "category": "Canada",
+      "title": "Canada : l’emploi salarié varie peu en septembre, les postes vacants remontent",
+      "summary": "Les employeurs comptaient 528 100 postes vacants en septembre. C’est la première hausse mensuelle depuis décembre 2025.",
+      "body": "Les employeurs canadiens avaient 9 700 salariés de plus sur leurs listes de paie en septembre qu’en août, soit une variation de 0,1 %, selon Statistique Canada. Cette progression ne compense qu’une partie des 31 400 emplois salariés perdus au total en juillet et en août.\n\nL’enquête publiée le 26 novembre fait aussi ressortir un changement du côté du recrutement. Le nombre de postes vacants a augmenté de 17 300 en un mois. Ces postes correspondent à des emplois que les employeurs cherchent à pourvoir, tandis que les listes de paie recensent les salariés déjà rémunérés.",
+      "sources": [
+        {
+          "name": "Statistique Canada — enquête sur l’emploi salarié et les postes vacants",
+          "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261126/dq261126a-fra.htm",
+          "publishedAt": "2026-11-26T08:30:00-05:00"
+        },
+        {
+          "name": "The Wall Street Journal — Paul Vieira",
+          "url": "https://www.wsj.com/economy/canada-nonfarm-payrolls-climb-in-september-after-two-months-of-declines-84a1a7b5",
+          "publishedAt": "2026-11-26T14:06:00Z"
+        }
+      ],
+      "photo": {
+        "download": "media/pay4.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATunneysPasture2022.jpg",
+        "credit": "Harleyd613",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Vue aérienne du complexe de bureaux du pré Tunney à Ottawa, où se trouve Statistique Canada.",
+        "caption": "Vue aérienne du complexe de bureaux du pré Tunney à Ottawa, où se trouve Statistique Canada. Photo d’archives · 2022-09-12."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Canadian payroll employment changes little in September as vacancies rise",
+          "summary": "Employers had 528,100 vacancies in September, the first monthly increase since December 2025.",
+          "body": "Canadian employers had 9,700 more people on payroll in September than in August, a change of 0.1%, according to Statistics Canada. The gain recovered only part of the combined loss of 31,400 payroll jobs in July and August.\n\nThe survey released on November 26 also showed a shift in recruiting. Vacancies rose by 17,300 in a month. They count jobs employers are seeking to fill, while payroll figures count employees already receiving pay.",
+          "photoAlt": "Aerial view of the Tunney’s Pasture office complex in Ottawa, home to Statistics Canada.",
+          "photoCaption": "Aerial view of the Tunney’s Pasture office complex in Ottawa, home to Statistics Canada. Archive photograph · 2022-09-12."
+        },
+        "es": {
+          "title": "Canadá registra pocos cambios en el empleo asalariado y un repunte de las vacantes",
+          "summary": "En septiembre había 528.100 puestos vacantes. Es el primer aumento mensual desde diciembre de 2025.",
+          "body": "Los empleadores canadienses tenían 9.700 personas más en nómina en septiembre que en agosto, una variación del 0,1 %, según Statistics Canada. El avance solo recupera parte de los 31.400 empleos asalariados perdidos entre julio y agosto.\n\nLa encuesta publicada el 26 de noviembre también muestra un cambio en la contratación. Las vacantes aumentaron en 17.300 en un mes. Se trata de puestos que los empleadores buscan cubrir, mientras que las nóminas cuentan a quienes ya reciben una remuneración.",
+          "photoAlt": "Vista aérea del complejo de oficinas de Tunney’s Pasture en Ottawa, sede de Statistics Canada.",
+          "photoCaption": "Vista aérea del complejo de oficinas de Tunney’s Pasture en Ottawa, sede de Statistics Canada. Foto de archivo · 2022-09-12."
+        },
+        "ar": {
+          "title": "تغير طفيف في عدد العاملين بأجر في كندا وارتفاع الشواغر في سبتمبر",
+          "summary": "بلغ عدد الوظائف الشاغرة 528,100 في سبتمبر، في أول زيادة شهرية منذ ديسمبر 2025.",
+          "body": "زاد عدد العاملين على كشوف أجور أصحاب العمل في كندا بمقدار 9700 في سبتمبر مقارنة بأغسطس، أي بنسبة 0.1%، وفق هيئة الإحصاء الكندية. وعوّضت الزيادة جزءاً فقط من خسارة 31,400 وظيفة بأجر في يوليو وأغسطس معاً.\n\nوكشف المسح المنشور في 26 نوفمبر عن تغير في التوظيف أيضاً. فقد زاد عدد الشواغر بمقدار 17,300 خلال شهر. وهي وظائف يسعى أصحاب العمل إلى شغلها، بينما تحصي كشوف الأجور العاملين الذين يتقاضون أجوراً بالفعل.",
+          "photoAlt": "منظر جوي لمجمّع مكاتب تانيز باستشر في أوتاوا حيث مقر هيئة الإحصاء الكندية.",
+          "photoCaption": "منظر جوي لمجمّع مكاتب تانيز باستشر في أوتاوا حيث مقر هيئة الإحصاء الكندية. صورة أرشيفية · 2022-09-12."
+        },
+        "zh-CN": {
+          "title": "加拿大9月受薪就业人数变化不大，职位空缺回升",
+          "summary": "9月雇主共有528,100个空缺职位，为2025年12月以来首次环比增加。",
+          "body": "加拿大统计局表示，与8月相比，9月雇主工资册上的雇员增加9,700人，增幅为0.1%。这一增幅只弥补了7月和8月合计减少的31,400个受薪岗位的一部分。\n\n11月26日公布的调查还显示，招聘情况有所变化，职位空缺一个月内增加17,300个。职位空缺指雇主正在招聘的岗位，工资册数据则统计已领取薪酬的雇员。",
+          "photoAlt": "俯瞰渥太华塔尼斯帕斯彻办公区，加拿大统计局位于此地。",
+          "photoCaption": "俯瞰渥太华塔尼斯帕斯彻办公区，加拿大统计局位于此地。 档案照片 · 2022-09-12."
+        },
+        "ru": {
+          "title": "В Канаде в сентябре число наёмных работников почти не изменилось, а вакансий стало больше",
+          "summary": "В сентябре у работодателей было 528 100 вакансий. Это первый месячный рост с декабря 2025 года.",
+          "body": "В сентябре в платёжных ведомостях канадских работодателей числилось на 9 700 работников больше, чем в августе. По данным Статистического управления Канады, прирост составил 0,1%. Он лишь отчасти компенсировал сокращение на 31 400 рабочих мест за июль и август вместе.\n\nОпубликованное 26 ноября обследование также выявило изменения в найме. За месяц вакансий стало на 17 300 больше. Это места, на которые работодатели ищут людей, тогда как данные платёжных ведомостей учитывают уже получающих зарплату работников.",
+          "photoAlt": "Вид с воздуха на комплекс Таннис-Пасчер в Оттаве, где находится Статистическое управление Канады.",
+          "photoCaption": "Вид с воздуха на комплекс Таннис-Пасчер в Оттаве, где находится Статистическое управление Канады. Архивное фото · 2022-09-12."
+        },
+        "ko": {
+          "title": "캐나다 9월 급여 근로자 수 소폭 변동…빈 일자리 증가",
+          "summary": "9월 빈 일자리는 52만 8,100개로 2025년 12월 이후 처음으로 전월보다 늘었다.",
+          "body": "캐나다 통계청에 따르면 9월 고용주 급여 명부에 오른 근로자는 8월보다 9,700명, 0.1% 늘었다. 7월과 8월 두 달간 줄어든 급여 일자리 3만 1,400개의 일부만 회복한 셈이다.\n\n11월 26일 발표된 조사에서는 채용 수요에도 변화가 나타났다. 빈 일자리가 한 달 새 1만 7,300개 늘었다. 빈 일자리는 고용주가 채우려는 자리이고, 급여 명부는 이미 임금을 받는 근로자를 집계한다.",
+          "photoAlt": "캐나다 통계청이 있는 오타와 터니스 패스처 정부 청사의 항공 사진.",
+          "photoCaption": "캐나다 통계청이 있는 오타와 터니스 패스처 정부 청사의 항공 사진. 자료 사진 · 2022-09-12."
+        }
+      }
+    },
+    {
+      "eventKey": "bulgarie-ukraine-pret-europeen-volet-civil",
+      "category": "Monde",
+      "title": "Prêt à l’Ukraine : la Bulgarie se dit prête à participer au volet civil",
+      "summary": "Au sommet de Bruxelles, Roumen Radev a précisé quelle partie du financement européen proposé son gouvernement soutiendrait.",
+      "body": "La Bulgarie est prête à participer au volet civil du nouveau prêt que l’Union européenne envisage pour l’Ukraine, a déclaré jeudi son premier ministre à son arrivée au sommet de Bruxelles. Roumen Radev souhaite que cette aide bénéficie notamment aux régions ukrainiennes où vit une minorité bulgare.\n\nSelon Reuters, la proposition de 45 milliards d’euros réserve jusqu’à 25 milliards à l’aide militaire et jusqu’à 20 milliards aux autres besoins. Devant les journalistes, Radev a exclu une contribution bulgare au financement des armes. Les montants décrivent le projet européen dans son ensemble.",
+      "sources": [
+        {
+          "name": "NOVA — intervention filmée du premier ministre à Bruxelles",
+          "url": "https://nova.bg/news/view/2026/11/26/560648/%D0%BF%D1%80%D0%B5%D0%BC%D0%B8%D0%B5%D1%80%D1%8A%D1%82-%D0%BE%D1%82-%D0%B1%D1%80%D1%8E%D0%BA%D1%81%D0%B5%D0%BB-%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F-%D0%B8%D0%BC%D0%B0-%D1%82%D1%80%D0%B8-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8-%D0%B8%D1%81%D0%BA%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B7%D0%B0-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82%D0%B0-%D0%BD%D0%B0-%D0%B5%D1%81-%D0%B3%D0%BB%D0%BE%D0%B1%D0%B0-%D0%B7%D0%B0-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0-%D0%B1%D0%B8-%D0%B1%D0%B8%D0%BB%D0%B0-%D0%BD%D0%B5%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B5%D0%B4%D0%BB%D0%B8%D0%B2%D0%B0/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Babel — déclarations de Roumen Radev à Bruxelles",
+          "url": "https://babel.ua/en/news/132054-bulgaria-is-ready-to-join-a-new-loan-to-ukraine-but-wants-to-direct-money-to-regions-where-ethnic-bulgarians-live",
+          "publishedAt": "2026-11-26T11:37:06+02:00"
+        },
+        {
+          "name": "Reuters / MarketScreener — reportage au sommet",
+          "url": "https://uk.marketscreener.com/news/bulgaria-ready-to-back-eu-loan-for-ukraine-for-civilian-aid-radev-says-ce7851d8de8af52c",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/eu.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Rumen_Radev_%282026%29_%28cropped%29.jpg",
+        "credit": "Government of Bulgaria",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "alt": "Portrait officiel de Roumen Radev, premier ministre de Bulgarie au moment du sommet de Bruxelles.",
+        "caption": "Portrait officiel de Roumen Radev, premier ministre de Bulgarie au moment du sommet de Bruxelles. Photo d’archives · 2026-03-12."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Bulgaria ready to join civilian part of proposed EU loan to Ukraine",
+          "summary": "At the Brussels summit, Rumen Radev set out which part of the proposed European financing his government would support.",
+          "body": "Bulgaria is ready to participate in the civilian part of a new EU loan under consideration for Ukraine, its prime minister said on arrival at the Brussels summit Thursday. Rumen Radev wants the aid to benefit Ukrainian regions that are home to a Bulgarian minority in particular.\n\nAccording to Reuters, the €45 billion proposal sets aside up to €25 billion for military aid and up to €20 billion for other needs. Radev told reporters Bulgaria would not contribute to weapons financing. The figures refer to the EU proposal as a whole.",
+          "photoAlt": "Official portrait of Rumen Radev, Bulgaria’s prime minister at the time of the Brussels summit.",
+          "photoCaption": "Official portrait of Rumen Radev, Bulgaria’s prime minister at the time of the Brussels summit. Archive photograph · 2026-03-12."
+        },
+        "es": {
+          "title": "Bulgaria se ofrece a participar en el tramo civil del préstamo europeo a Ucrania",
+          "summary": "En la cumbre de Bruselas, Rumen Radev precisó qué parte de la financiación propuesta respaldaría su Gobierno.",
+          "body": "Bulgaria está dispuesta a participar en el tramo civil del nuevo préstamo que la UE estudia para Ucrania, declaró su primer ministro al llegar el jueves a la cumbre de Bruselas. Rumen Radev quiere que la ayuda beneficie especialmente a regiones ucranianas donde vive una minoría búlgara.\n\nSegún Reuters, la propuesta de 45.000 millones de euros reserva hasta 25.000 millones para ayuda militar y hasta 20.000 millones para otras necesidades. Radev descartó ante la prensa aportar dinero para armas. Los importes corresponden al proyecto europeo en su conjunto.",
+          "photoAlt": "Retrato oficial de Rumen Radev, primer ministro de Bulgaria durante la cumbre de Bruselas.",
+          "photoCaption": "Retrato oficial de Rumen Radev, primer ministro de Bulgaria durante la cumbre de Bruselas. Foto de archivo · 2026-03-12."
+        },
+        "ar": {
+          "title": "بلغاريا مستعدة للمشاركة في الشق المدني من القرض الأوروبي المقترح لأوكرانيا",
+          "summary": "حدّد رومن راديف في قمة بروكسل الجزء الذي ستدعمه حكومته من التمويل الأوروبي المقترح.",
+          "body": "قال رئيس الوزراء البلغاري لدى وصوله إلى قمة بروكسل الخميس إن بلاده مستعدة للمشاركة في الشق المدني من قرض جديد يدرسه الاتحاد الأوروبي لأوكرانيا. ويريد رومن راديف أن تستفيد منه خصوصاً المناطق الأوكرانية التي تعيش فيها أقلية بلغارية.\n\nووفق رويترز، يخصص المقترح البالغ 45 مليار يورو ما يصل إلى 25 ملياراً للمساعدات العسكرية و20 ملياراً للاحتياجات الأخرى. واستبعد راديف أمام الصحفيين مساهمة بلغاريا في تمويل الأسلحة. وتخص هذه المبالغ المشروع الأوروبي بأكمله.",
+          "photoAlt": "صورة رسمية لرومن راديف رئيس وزراء بلغاريا وقت قمة بروكسل.",
+          "photoCaption": "صورة رسمية لرومن راديف رئيس وزراء بلغاريا وقت قمة بروكسل. صورة أرشيفية · 2026-03-12."
+        },
+        "zh-CN": {
+          "title": "保加利亚表示愿参与欧盟拟议对乌贷款的民用部分",
+          "summary": "拉德夫在布鲁塞尔峰会上说明了保加利亚政府愿意支持这项融资计划的哪些内容。",
+          "body": "保加利亚总理鲁门·拉德夫周四抵达布鲁塞尔峰会时表示，该国愿意参与欧盟正在研究的对乌克兰新贷款的民用部分。他希望援助尤其能惠及有保加利亚少数族群居住的乌克兰地区。\n\n据路透社报道，在450亿欧元提案中，最多250亿欧元用于军事援助，最多200亿欧元用于其他需求。拉德夫向记者表示，保加利亚不会出资购买武器。这些金额指整个欧盟提案的规模。",
+          "photoAlt": "布鲁塞尔峰会举行时的保加利亚总理鲁门·拉德夫的官方肖像。",
+          "photoCaption": "布鲁塞尔峰会举行时的保加利亚总理鲁门·拉德夫的官方肖像。 档案照片 · 2026-03-12."
+        },
+        "ru": {
+          "title": "Болгария готова участвовать в гражданской части предложенного ЕС кредита Украине",
+          "summary": "На саммите в Брюсселе Румен Радев уточнил, какую часть европейского финансирования поддержит его правительство.",
+          "body": "Болгария готова участвовать в гражданской части нового кредита, который ЕС рассматривает для Украины, заявил премьер-министр страны в четверг по прибытии на саммит в Брюсселе. Румен Радев хотел бы направить помощь в том числе в украинские регионы с болгарским меньшинством.\n\nПо данным Reuters, предложение на 45 млрд евро предусматривает до 25 млрд на военную помощь и до 20 млрд на другие нужды. Радев заявил журналистам, что Болгария не будет финансировать закупку оружия. Указанные суммы относятся ко всему проекту ЕС.",
+          "photoAlt": "Официальный портрет Румена Радева, занимавшего пост премьера Болгарии во время брюссельского саммита.",
+          "photoCaption": "Официальный портрет Румена Радева, занимавшего пост премьера Болгарии во время брюссельского саммита. Архивное фото · 2026-03-12."
+        },
+        "ko": {
+          "title": "불가리아, EU의 대우크라이나 차관 중 민간 지원 참여 의사",
+          "summary": "루멘 라데프 총리가 브뤼셀 정상회의에서 자국 정부가 지지할 유럽 자금 지원안의 범위를 밝혔다.",
+          "body": "불가리아는 유럽연합이 검토 중인 우크라이나 신규 차관의 민간 부문에 참여할 준비가 돼 있다고 총리가 목요일 브뤼셀 정상회의장에 도착해 밝혔다. 라데프 총리는 특히 불가리아계 소수민족이 거주하는 우크라이나 지역에 도움이 되기를 바란다고 말했다.\n\n로이터에 따르면 450억 유로 규모 제안은 군사 지원에 최대 250억 유로, 그 밖의 수요에 최대 200억 유로를 배정한다. 라데프는 불가리아가 무기 구입 비용을 부담하지 않겠다고 기자들에게 밝혔다. 이 금액은 EU 전체의 지원안 규모다.",
+          "photoAlt": "브뤼셀 정상회의 당시 불가리아 총리 루멘 라데프의 공식 사진.",
+          "photoCaption": "브뤼셀 정상회의 당시 불가리아 총리 루멘 라데프의 공식 사진. 자료 사진 · 2026-03-12."
+        }
+      }
+    },
+    {
+      "eventKey": "serbie-election-presidentielle-convoquee-27-decembre",
+      "category": "Monde",
+      "title": "La Serbie élira son président le 27 décembre",
+      "summary": "Le président du Parlement a convoqué un scrutin anticipé après la démission d’Aleksandar Vučić et la victoire du mouvement étudiant aux législatives.",
+      "body": "À Belgrade, Aleksandar Čupić a signé jeudi la décision qui fixe au 27 décembre l’élection présidentielle serbe. Président de l’Assemblée nationale, il exerce aussi la présidence du pays par intérim. Il a annoncé la date au Parlement, indique le gouvernement serbe.\n\nSelon l’Associated Press, Aleksandar Vučić avait démissionné en septembre pour tenter de devenir premier ministre. Le 25 octobre, le mouvement étudiant a devancé le Parti progressiste serbe de Vučić aux élections législatives. Les électeurs retourneront donc aux urnes deux mois plus tard pour choisir le chef de l’État.",
+      "sources": [
+        {
+          "name": "Gouvernement de la République de Serbie — annonce à l’Assemblée nationale",
+          "url": "https://www.srbija.gov.rs/vest/en/291453/presidential-election-called-for-27-december.php",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/b069d30d098006f9d4ed21e6b82731c4",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/serb2.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%BE%D0%BC_%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B5_%D0%A1%D0%BA%D1%83%D0%BF%D1%88%D1%82%D0%B8%D0%BD%D0%B5_%D0%A1%D1%80%D0%B1%D0%B8%D1%98%D0%B5.jpg",
+        "credit": "Boris Dimitrov",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Façade et coupole de l’Assemblée nationale serbe à Belgrade, où l’élection a été annoncée.",
+        "caption": "Façade et coupole de l’Assemblée nationale serbe à Belgrade, où l’élection a été annoncée. Photo d’archives · 2011-09-10."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Serbia to elect a president on December 27",
+          "summary": "The parliamentary speaker called an early vote after Aleksandar Vučić resigned and the student movement won the parliamentary election.",
+          "body": "In Belgrade on Thursday, Aleksandar Čupić signed the decision setting Serbia’s presidential election for December 27. The National Assembly speaker is also acting president. He announced the date in parliament, the Serbian government said.\n\nAccording to the Associated Press, Aleksandar Vučić resigned in September to try to become prime minister. On October 25, the student movement defeated Vučić’s Serbian Progressive Party in the parliamentary election. Voters will return to the polls two months later to choose a head of state.",
+          "photoAlt": "Façade and dome of Serbia’s National Assembly in Belgrade, where the election was announced.",
+          "photoCaption": "Façade and dome of Serbia’s National Assembly in Belgrade, where the election was announced. Archive photograph · 2011-09-10."
+        },
+        "es": {
+          "title": "Serbia elegirá a su presidente el 27 de diciembre",
+          "summary": "El presidente del Parlamento convocó elecciones anticipadas tras la dimisión de Aleksandar Vučić y la victoria del movimiento estudiantil en las legislativas.",
+          "body": "Aleksandar Čupić firmó el jueves en Belgrado la decisión que fija las presidenciales serbias para el 27 de diciembre. El presidente de la Asamblea Nacional ejerce también la presidencia interina del país. Anunció la fecha en el Parlamento, según el Gobierno serbio.\n\nSegún Associated Press, Aleksandar Vučić dimitió en septiembre para intentar convertirse en primer ministro. El 25 de octubre, el movimiento estudiantil se impuso al Partido Progresista Serbio de Vučić en las legislativas. Dos meses después, el electorado volverá a las urnas para elegir al jefe del Estado.",
+          "photoAlt": "Fachada y cúpula de la Asamblea Nacional serbia en Belgrado, donde se anunció la elección.",
+          "photoCaption": "Fachada y cúpula de la Asamblea Nacional serbia en Belgrado, donde se anunció la elección. Foto de archivo · 2011-09-10."
+        },
+        "ar": {
+          "title": "صربيا تنتخب رئيسها في 27 ديسمبر",
+          "summary": "دعا رئيس البرلمان إلى انتخابات مبكرة بعد استقالة ألكسندر فوتشيتش وفوز الحركة الطلابية في الانتخابات التشريعية.",
+          "body": "وقّع ألكسندر تشوبيتش في بلغراد الخميس قرار تحديد الانتخابات الرئاسية الصربية في 27 ديسمبر. ويتولى رئيس الجمعية الوطنية أيضاً رئاسة الدولة بالإنابة. وقالت الحكومة الصربية إنه أعلن الموعد من البرلمان.\n\nووفق أسوشيتد برس، استقال ألكسندر فوتشيتش في سبتمبر سعياً إلى تولي رئاسة الوزراء. وفي 25 أكتوبر تفوقت الحركة الطلابية على الحزب التقدمي الصربي بزعامة فوتشيتش في الانتخابات التشريعية. وسيعود الناخبون إلى صناديق الاقتراع بعد شهرين لاختيار رئيس الدولة.",
+          "photoAlt": "واجهة وقبة الجمعية الوطنية الصربية في بلغراد حيث أُعلن موعد الانتخابات.",
+          "photoCaption": "واجهة وقبة الجمعية الوطنية الصربية في بلغراد حيث أُعلن موعد الانتخابات. صورة أرشيفية · 2011-09-10."
+        },
+        "zh-CN": {
+          "title": "塞尔维亚定于12月27日举行总统选举",
+          "summary": "武契奇辞职、学生运动赢得议会选举后，议长宣布提前举行总统选举。",
+          "body": "周四，亚历山大·丘皮奇在贝尔格莱德签署决定，将塞尔维亚总统选举定于12月27日。丘皮奇担任国民议会议长，同时代理总统职务。塞尔维亚政府表示，他在议会宣布了日期。\n\n据美联社报道，亚历山大·武契奇于9月辞职，希望转任总理。10月25日，学生运动在议会选举中击败武契奇的塞尔维亚前进党。两个月后，选民将再赴投票站选举国家元首。",
+          "photoAlt": "贝尔格莱德塞尔维亚国民议会大楼的正面与圆顶，选举日期在此宣布。",
+          "photoCaption": "贝尔格莱德塞尔维亚国民议会大楼的正面与圆顶，选举日期在此宣布。 档案照片 · 2011-09-10."
+        },
+        "ru": {
+          "title": "Сербия изберёт президента 27 декабря",
+          "summary": "Спикер парламента назначил досрочные выборы после отставки Александра Вучича и победы студенческого движения на парламентских выборах.",
+          "body": "В четверг в Белграде Александар Чупич подписал решение о проведении президентских выборов 27 декабря. Председатель Народной скупщины также исполняет обязанности президента. Как сообщило правительство Сербии, он объявил дату в парламенте.\n\nПо данным Associated Press, в сентябре Александр Вучич ушёл в отставку, рассчитывая стать премьер-министром. На парламентских выборах 25 октября студенческое движение опередило его Сербскую прогрессивную партию. Через два месяца избиратели снова придут на участки, чтобы выбрать главу государства.",
+          "photoAlt": "Фасад и купол Народной скупщины Сербии в Белграде, где объявили выборы.",
+          "photoCaption": "Фасад и купол Народной скупщины Сербии в Белграде, где объявили выборы. Архивное фото · 2011-09-10."
+        },
+        "ko": {
+          "title": "세르비아, 12월 27일 대통령 선거 실시",
+          "summary": "알렉산다르 부치치의 사임과 학생운동 진영의 총선 승리 이후 국회의장이 조기 대선을 소집했다.",
+          "body": "알렉산다르 추피치는 목요일 베오그라드에서 세르비아 대선을 12월 27일로 정하는 결정에 서명했다. 그는 국회의장이자 대통령 권한대행이다. 세르비아 정부에 따르면 그는 의회에서 선거일을 발표했다.\n\nAP통신에 따르면 부치치는 총리가 되기 위해 9월 대통령직을 사임했다. 10월 25일 총선에서는 학생운동 진영이 부치치의 세르비아진보당을 이겼다. 두 달 뒤 유권자들은 국가원수를 뽑기 위해 다시 투표소로 향한다.",
+          "photoAlt": "대선 일정이 발표된 베오그라드 세르비아 국회의사당의 정면과 돔.",
+          "photoCaption": "대선 일정이 발표된 베오그라드 세르비아 국회의사당의 정면과 돔. 자료 사진 · 2011-09-10."
+        }
+      }
+    },
+    {
+      "eventKey": "sherbrooke-keel-centre-donnees-portes-ouvertes-decembre",
+      "category": "Québec",
+      "title": "À Sherbrooke, Keel vise décembre pour le dépôt de son projet de centre de données",
+      "summary": "L’entreprise veut regrouper trois sites de minage et réutiliser leur puissance électrique de 96 mégawatts. Les études se poursuivent.",
+      "body": "À ses portes ouvertes du 25 novembre au Centre de foires, Keel Infrastructure a exposé aux Sherbrookois son projet de centre de données dans le secteur industriel. Sa porte-parole Bianca Lamothe-Verreault a indiqué au Sherbrooke que l’entreprise compte déposer le projet à la Ville en décembre.\n\nKeel propose de regrouper trois installations de minage de cryptomonnaies et d’utiliser la puissance électrique qui leur est déjà attribuée. Les résidents ont notamment soulevé la question des nuisances. Selon la porte-parole, les études sur le bruit, l’eau et la qualité de l’air font encore partie du travail nécessaire aux autorisations.",
+      "sources": [
+        {
+          "name": "Keel Infrastructure — présentation du projet à Sherbrooke",
+          "url": "https://keelsherbrooke.com/journee-portes-ouvertes-25-novembre-2026/",
+          "publishedAt": "2026-11-09"
+        },
+        {
+          "name": "Le Sherbrooke — reportage aux portes ouvertes",
+          "url": "https://www.sherbrooke.info/actualites/keel-infrastructure-tente-de-rassurer-les-sherbrookois/",
+          "publishedAt": "2026-11-25T20:00:00-05:00"
+        }
+      ],
+      "photo": {
+        "download": "media/keel.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AH%C3%B4tel_de_ville_de_Sherbrooke-2018.jpg",
+        "credit": "Lëa-Kim Châteauneuf",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Façade de l’hôtel de ville de Sherbrooke. Keel compte soumettre son projet à la municipalité.",
+        "caption": "Façade de l’hôtel de ville de Sherbrooke. Keel compte soumettre son projet à la municipalité. Photo d’archives · 2018-06-09."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Keel targets December to submit its Sherbrooke data centre proposal",
+          "summary": "The company wants to consolidate three mining sites and reuse their 96 megawatts of electricity capacity. Studies are continuing.",
+          "body": "At its November 25 open house at the exhibition centre, Keel Infrastructure showed Sherbrooke residents its data centre plan for the industrial area. Spokesperson Bianca Lamothe-Verreault told Le Sherbrooke the company intends to submit the proposal to the city in December.\n\nKeel proposes to combine three cryptocurrency mining facilities and use the power already allocated to them. Residents raised concerns about nuisances. The spokesperson said studies of noise, water and air quality are still part of the work needed for approvals.",
+          "photoAlt": "Façade of Sherbrooke City Hall. Keel plans to submit its proposal to the municipality.",
+          "photoCaption": "Façade of Sherbrooke City Hall. Keel plans to submit its proposal to the municipality. Archive photograph · 2018-06-09."
+        },
+        "es": {
+          "title": "Keel prevé presentar en diciembre su proyecto de centro de datos en Sherbrooke",
+          "summary": "La empresa quiere agrupar tres instalaciones de minería y aprovechar sus 96 megavatios de capacidad eléctrica. Los estudios continúan.",
+          "body": "En la jornada de puertas abiertas del 25 de noviembre en el recinto ferial, Keel Infrastructure presentó a los vecinos de Sherbrooke su proyecto para la zona industrial. Su portavoz, Bianca Lamothe-Verreault, dijo a Le Sherbrooke que la empresa prevé presentarlo al municipio en diciembre.\n\nKeel propone agrupar tres instalaciones de minería de criptomonedas y utilizar la potencia eléctrica que ya tienen asignada. Los vecinos preguntaron por las molestias. Según la portavoz, los estudios sobre ruido, agua y calidad del aire siguen siendo necesarios para obtener los permisos.",
+          "photoAlt": "Fachada del ayuntamiento de Sherbrooke. Keel prevé presentar su proyecto al municipio.",
+          "photoCaption": "Fachada del ayuntamiento de Sherbrooke. Keel prevé presentar su proyecto al municipio. Foto de archivo · 2018-06-09."
+        },
+        "ar": {
+          "title": "كيل تعتزم تقديم مشروع مركز البيانات في شيربروك في ديسمبر",
+          "summary": "تريد الشركة دمج ثلاثة مواقع لتعدين العملات الرقمية وإعادة استخدام قدرتها الكهربائية البالغة 96 ميغاواط. والدراسات مستمرة.",
+          "body": "عرضت كيل إنفراستراكتشر على سكان شيربروك مشروع مركز البيانات في المنطقة الصناعية خلال لقاء مفتوح في مركز المعارض يوم 25 نوفمبر. وقالت المتحدثة بيانكا لاموت فيرو لصحيفة لو شيربروك إن الشركة تعتزم تقديم المشروع إلى البلدية في ديسمبر.\n\nوتقترح كيل دمج ثلاث منشآت لتعدين العملات الرقمية واستخدام القدرة الكهربائية المخصصة لها أصلاً. وأثار السكان مسألة الإزعاج المحتمل. وأوضحت المتحدثة أن دراسات الضوضاء والمياه وجودة الهواء ما زالت ضمن الأعمال اللازمة للحصول على التراخيص.",
+          "photoAlt": "واجهة بلدية شيربروك التي تعتزم كيل تقديم مشروعها إليها.",
+          "photoCaption": "واجهة بلدية شيربروك التي تعتزم كيل تقديم مشروعها إليها. صورة أرشيفية · 2018-06-09."
+        },
+        "zh-CN": {
+          "title": "基尔计划12月向舍布鲁克市提交数据中心方案",
+          "summary": "公司希望整合三处加密货币挖矿设施，利用已分配的96兆瓦电力容量。相关研究仍在进行。",
+          "body": "11月25日，基尔基础设施公司在展览中心举办开放日，向舍布鲁克居民介绍在工业区建设数据中心的计划。发言人比安卡·拉莫特-韦罗告诉当地媒体《Le Sherbrooke》，公司计划12月向市政府提交方案。\n\n基尔提议合并三处加密货币挖矿设施，使用已分配给这些设施的电力容量。居民关心项目可能带来的滋扰。发言人说，为取得许可，仍需继续评估噪声、用水和空气质量。",
+          "photoAlt": "舍布鲁克市政厅正面。基尔计划向市政府提交方案。",
+          "photoCaption": "舍布鲁克市政厅正面。基尔计划向市政府提交方案。 档案照片 · 2018-06-09."
+        },
+        "ru": {
+          "title": "Keel планирует в декабре представить городу проект центра обработки данных в Шербруке",
+          "summary": "Компания хочет объединить три майнинговые площадки и использовать уже выделенные им 96 мегаватт мощности. Исследования продолжаются.",
+          "body": "На открытой встрече 25 ноября в выставочном центре Keel Infrastructure представила жителям Шербрука проект центра обработки данных в промышленном районе. Представитель компании Бьянка Ламот-Верро сообщила изданию Le Sherbrooke, что в декабре проект планируют подать в мэрию.\n\nKeel предлагает объединить три объекта для добычи криптовалют и использовать уже выделенные им энергомощности. Жители подняли вопрос о возможных неудобствах. По словам представителя, для получения разрешений продолжаются исследования шума, водопотребления и качества воздуха.",
+          "photoAlt": "Фасад мэрии Шербрука. Keel планирует подать проект в муниципалитет.",
+          "photoCaption": "Фасад мэрии Шербрука. Keel планирует подать проект в муниципалитет. Архивное фото · 2018-06-09."
+        },
+        "ko": {
+          "title": "킬, 셔브룩 데이터센터 건립안 12월 시 제출 목표",
+          "summary": "회사는 가상자산 채굴 시설 세 곳을 통합해 이미 배정된 전력 용량 96메가와트를 활용하려 한다. 관련 조사는 진행 중이다.",
+          "body": "킬 인프라스트럭처는 11월 25일 전시센터에서 열린 주민 설명회에서 산업지구 데이터센터 계획을 공개했다. 비앙카 라모트베로 대변인은 지역 매체 르 셔브룩에 12월에 시에 계획을 제출할 예정이라고 말했다.\n\n킬은 가상자산 채굴 시설 세 곳을 합쳐 기존에 배정받은 전력을 사용하겠다는 구상이다. 주민들은 예상되는 생활 불편을 물었다. 대변인은 허가를 얻기 위해 소음과 물 사용, 대기질에 관한 조사가 여전히 필요하다고 설명했다.",
+          "photoAlt": "셔브룩 시청 정면. 킬은 시에 계획안을 제출할 예정이다.",
+          "photoCaption": "셔브룩 시청 정면. 킬은 시에 계획안을 제출할 예정이다. 자료 사진 · 2018-06-09."
+        }
+      }
+    },
+    {
+      "eventKey": "huawei-brooklyn-verdict-appel-secrets-commerciaux",
+      "category": "Économie",
+      "title": "À New York, Huawei annonce un appel après un verdict partagé",
+      "summary": "Un jury fédéral a reconnu le groupe coupable de complot en vue de voler des secrets commerciaux et l’a acquitté d’un chef de criminalité organisée.",
+      "body": "À Brooklyn, un jury fédéral a déclaré Huawei coupable le 24 novembre de plusieurs infractions, dont un complot pour voler des secrets commerciaux et des fraudes envers des banques. Le ministère américain de la Justice a annoncé le verdict au terme de trois mois de procès.\n\nL’Associated Press, qui a suivi l’audience, rapporte que Huawei a été condamné pour dix des douze chefs le visant. Le jury l’a acquitté du complot de criminalité organisée et du complot d’entrave à la justice. L’avocat Brian Heberlig a indiqué que l’entreprise ferait appel des déclarations de culpabilité.",
+      "sources": [
+        {
+          "name": "Département de la Justice des États-Unis",
+          "url": "https://www.justice.gov/opa/pr/chinese-tech-giant-huawei-and-subsidiaries-convicted-sanctions-violations-fraud-conspiracy",
+          "publishedAt": "2026-11-24T17:21:35-05:00"
+        },
+        {
+          "name": "Associated Press — compte rendu au tribunal de Brooklyn",
+          "url": "https://apnews.com/article/b39ac780e2e31140015a1be02f0329ab",
+          "publishedAt": "2026-11-24"
+        }
+      ],
+      "photo": {
+        "download": "media/huawei.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHuawei_Headquarter%2C_Bantian%2C_Shenzhen_-_panoramio.jpg",
+        "credit": "fading",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Immeubles du siège de Huawei à Bantian, dans la ville chinoise de Shenzhen.",
+        "caption": "Immeubles du siège de Huawei à Bantian, dans la ville chinoise de Shenzhen. Photo d’archives · 2012-06-27."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Huawei plans to appeal after split verdict in New York",
+          "summary": "A federal jury found the group guilty of conspiracy to steal trade secrets and acquitted it on a racketeering conspiracy charge.",
+          "body": "In Brooklyn on November 24, a federal jury found Huawei guilty of several offences, including conspiracy to steal trade secrets and defrauding banks. The US Justice Department announced the verdict after a three-month trial.\n\nThe Associated Press, which covered the hearing, reported that Huawei was convicted on ten of the twelve counts it faced. The jury acquitted it of racketeering conspiracy and conspiracy to obstruct justice. Lawyer Brian Heberlig said the company would appeal the convictions.",
+          "photoAlt": "Buildings at Huawei’s headquarters in Bantian, Shenzhen, China.",
+          "photoCaption": "Buildings at Huawei’s headquarters in Bantian, Shenzhen, China. Archive photograph · 2012-06-27."
+        },
+        "es": {
+          "title": "Huawei anuncia que apelará el veredicto parcial en su contra en Nueva York",
+          "summary": "Un jurado federal declaró al grupo culpable de conspirar para robar secretos comerciales y lo absolvió de conspiración para el crimen organizado.",
+          "body": "En Brooklyn, un jurado federal declaró culpable a Huawei el 24 de noviembre de varios delitos, entre ellos conspiración para robar secretos comerciales y fraude bancario. El Departamento de Justicia de EE. UU. anunció el veredicto tras tres meses de juicio.\n\nAssociated Press, que cubrió la audiencia, informó de condenas por diez de los doce cargos contra Huawei. El jurado la absolvió de conspiración para el crimen organizado y para obstruir la justicia. El abogado Brian Heberlig dijo que la empresa apelará las condenas.",
+          "photoAlt": "Edificios de la sede de Huawei en Bantian, en la ciudad china de Shenzhen.",
+          "photoCaption": "Edificios de la sede de Huawei en Bantian, en la ciudad china de Shenzhen. Foto de archivo · 2012-06-27."
+        },
+        "ar": {
+          "title": "هواوي تعتزم الاستئناف بعد إدانتها ببعض التهم وتبرئتها من أخرى في نيويورك",
+          "summary": "أدانت هيئة محلفين اتحادية المجموعة بالتآمر لسرقة أسرار تجارية وبرّأتها من تهمة التآمر لممارسة الجريمة المنظمة.",
+          "body": "في بروكلين يوم 24 نوفمبر، أدانت هيئة محلفين اتحادية هواوي بجرائم منها التآمر لسرقة أسرار تجارية والاحتيال على بنوك. وأعلنت وزارة العدل الأميركية الحكم بعد محاكمة استمرت ثلاثة أشهر.\n\nوأفادت أسوشيتد برس، التي تابعت الجلسة، بأن هواوي أُدينت بعشر من اثنتي عشرة تهمة وُجهت إليها. وبرّأتها الهيئة من التآمر لممارسة الجريمة المنظمة والتآمر لعرقلة العدالة. وقال المحامي براين هيبرليغ إن الشركة ستستأنف أحكام الإدانة.",
+          "photoAlt": "مبانٍ في مقر هواوي في بانتيان بمدينة شنتشن الصينية.",
+          "photoCaption": "مبانٍ في مقر هواوي في بانتيان بمدينة شنتشن الصينية. صورة أرشيفية · 2012-06-27."
+        },
+        "zh-CN": {
+          "title": "纽约陪审团作出部分有罪裁决，华为表示将上诉",
+          "summary": "联邦陪审团裁定华为串谋窃取商业秘密罪成立，但裁定其串谋从事有组织犯罪的指控不成立。",
+          "body": "11月24日，布鲁克林联邦陪审团裁定华为多项罪名成立，包括串谋窃取商业秘密和欺诈银行。美国司法部在为期三个月的审判结束后公布了裁决。\n\n据到庭采访的美联社报道，华为受到的十二项指控中有十项成立。陪审团裁定其串谋从事有组织犯罪和串谋妨碍司法两项罪名不成立。辩护律师布赖恩·希伯利格表示，公司将对有罪裁决提出上诉。",
+          "photoAlt": "位于中国深圳坂田的华为总部建筑。",
+          "photoCaption": "位于中国深圳坂田的华为总部建筑。 档案照片 · 2012-06-27."
+        },
+        "ru": {
+          "title": "Huawei намерена обжаловать обвинительные вердикты суда присяжных в Нью-Йорке",
+          "summary": "Федеральные присяжные признали группу виновной в сговоре с целью кражи коммерческих тайн и оправдали по обвинению в сговоре для организованной преступной деятельности.",
+          "body": "24 ноября в Бруклине федеральные присяжные признали Huawei виновной в нескольких преступлениях, включая сговор с целью кражи коммерческих тайн и обман банков. Минюст США объявил о вердикте по итогам трёхмесячного процесса.\n\nAssociated Press, освещавшее заседание, сообщает, что Huawei признана виновной по десяти из двенадцати пунктов. Присяжные оправдали её по обвинениям в сговоре для организованной преступной деятельности и в сговоре для воспрепятствования правосудию. Адвокат Брайан Хеберлиг заявил, что компания обжалует обвинительные вердикты.",
+          "photoAlt": "Здания штаб-квартиры Huawei в Баньтяне в китайском городе Шэньчжэнь.",
+          "photoCaption": "Здания штаб-квартиры Huawei в Баньтяне в китайском городе Шэньчжэнь. Архивное фото · 2012-06-27."
+        },
+        "ko": {
+          "title": "화웨이, 뉴욕 배심원단의 일부 유죄 평결에 항소 예고",
+          "summary": "연방 배심원단은 영업비밀 탈취 공모에 유죄를, 조직범죄 공모에는 무죄를 평결했다.",
+          "body": "11월 24일 브루클린에서 연방 배심원단은 영업비밀 탈취 공모와 은행 사기 등 여러 혐의에 대해 화웨이에 유죄를 평결했다. 미 법무부는 석 달간의 재판 끝에 나온 평결을 발표했다.\n\n법정을 취재한 AP통신에 따르면 화웨이가 받은 12개 혐의 중 10개가 유죄로 인정됐다. 배심원단은 조직범죄 공모와 사법방해 공모에 대해서는 무죄로 판단했다. 브라이언 헤벌리그 변호사는 회사가 유죄 평결에 항소할 것이라고 밝혔다.",
+          "photoAlt": "중국 선전 반톈에 있는 화웨이 본사 건물.",
+          "photoCaption": "중국 선전 반톈에 있는 화웨이 본사 건물. 자료 사진 · 2012-06-27."
+        }
+      }
+    },
+    {
+      "eventKey": "toronto-michael-eckert-hommage-blue-rodeo",
+      "category": "Canada",
+      "title": "Blue Rodeo rend hommage au musicien torontois Michael Eckert",
+      "summary": "Le guitariste de 39 ans avait joué avec le groupe avant la Coupe Grey. La police enquête sur sa mort après une intrusion à son domicile.",
+      "body": "Les membres de Blue Rodeo ont salué le talent de Michael Eckert à la guitare pedal steel. Global News rapporte que le musicien avait accompagné le groupe à Calgary, au spectacle d’avant-match de la Coupe Grey, dix jours avant sa mort.\n\nLa police de Toronto identifie Eckert comme la victime d’une fusillade survenue tôt le 25 novembre près de St. Clair Avenue West et de Poplar Plains Road. Selon les enquêteurs, une personne a pénétré de force dans la résidence. Eckert est mort à l’hôpital. Les trois autres occupants n’ont pas été blessés.",
+      "sources": [
+        {
+          "name": "Service de police de Toronto — identification de la victime",
+          "url": "https://www.tps.ca/media-centre/news-releases/67459/",
+          "publishedAt": "2026-11-25T16:52:00-05:00"
+        },
+        {
+          "name": "Global News — hommage du groupe et témoignages",
+          "url": "https://globalnews.ca/news/12167198/blue-rodeo-michael-eckert-tribute/",
+          "publishedAt": "2026-11-26T09:01:00-05:00"
+        }
+      ],
+      "photo": {
+        "download": "media/blue.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Rodeo_%2853972453492%29.jpg",
+        "credit": "Levi Manchak",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Blue Rodeo sur scène à Edmonton sous des projecteurs violets lors d’un concert en 2024.",
+        "caption": "Blue Rodeo sur scène à Edmonton sous des projecteurs violets lors d’un concert en 2024. Photo d’archives · 2024-09-05."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Blue Rodeo pays tribute to Toronto musician Michael Eckert",
+          "summary": "The 39-year-old guitarist had played with the band before the Grey Cup. Police are investigating his death after a break-in at his home.",
+          "body": "Blue Rodeo praised Michael Eckert’s skill on the pedal steel guitar. Global News reported that the musician had joined the band in Calgary for the Grey Cup pregame show ten days before his death.\n\nToronto police identified Eckert as the victim of a shooting early on November 25 near St. Clair Avenue West and Poplar Plains Road. Investigators said someone had forced entry into the home. Eckert died in hospital. The three other occupants were unhurt.",
+          "photoAlt": "Blue Rodeo on stage under purple lights at a concert in Edmonton in 2024.",
+          "photoCaption": "Blue Rodeo on stage under purple lights at a concert in Edmonton in 2024. Archive photograph · 2024-09-05."
+        },
+        "es": {
+          "title": "Blue Rodeo rinde homenaje al músico de Toronto Michael Eckert",
+          "summary": "El guitarrista de 39 años había tocado con el grupo antes de la Copa Grey. La policía investiga su muerte tras una entrada por la fuerza en su casa.",
+          "body": "Blue Rodeo recordó la destreza de Michael Eckert con la guitarra de acero con pedales. Según Global News, el músico acompañó al grupo en Calgary en el espectáculo previo a la Copa Grey diez días antes de su muerte.\n\nLa policía de Toronto identificó a Eckert como la víctima de un tiroteo en la madrugada del 25 de noviembre cerca de St. Clair Avenue West y Poplar Plains Road. Según los investigadores, alguien entró por la fuerza en la vivienda. Eckert murió en el hospital. Los otros tres ocupantes resultaron ilesos.",
+          "photoAlt": "Blue Rodeo en el escenario bajo luces violetas durante un concierto en Edmonton en 2024.",
+          "photoCaption": "Blue Rodeo en el escenario bajo luces violetas durante un concierto en Edmonton en 2024. Foto de archivo · 2024-09-05."
+        },
+        "ar": {
+          "title": "فرقة بلو روديو تنعى عازف الغيتار من تورونتو مايكل إيكرت",
+          "summary": "عزف الموسيقي البالغ 39 عاماً مع الفرقة قبل نهائي كأس غراي. وتحقق الشرطة في مقتله بعد اقتحام منزله.",
+          "body": "أشادت بلو روديو بمهارة مايكل إيكرت في العزف على الغيتار الفولاذي ذي الدواسات. ووفق غلوبال نيوز، رافق الموسيقي الفرقة في كالغاري في العرض الذي سبق مباراة كأس غراي، قبل عشرة أيام من وفاته.\n\nوحددت شرطة تورونتو هوية إيكرت بوصفه ضحية إطلاق نار فجر 25 نوفمبر قرب شارع سانت كلير أفنيو ويست وطريق بوبلار بلينز. وقال المحققون إن شخصاً دخل المسكن عنوة. وتوفي إيكرت في المستشفى ولم يصب الأشخاص الثلاثة الآخرون في المنزل بأذى.",
+          "photoAlt": "بلو روديو على المسرح تحت أضواء بنفسجية في حفل بإدمونتون عام 2024.",
+          "photoCaption": "بلو روديو على المسرح تحت أضواء بنفسجية في حفل بإدمونتون عام 2024. صورة أرشيفية · 2024-09-05."
+        },
+        "zh-CN": {
+          "title": "蓝色牛仔乐队悼念多伦多乐手迈克尔·埃克特",
+          "summary": "这名39岁吉他手曾随乐队参加格雷杯赛前演出。警方正调查他在住宅遭强行闯入后的死亡事件。",
+          "body": "蓝色牛仔乐队赞扬迈克尔·埃克特演奏踏板钢弦吉他的才华。据环球新闻报道，在他去世十天前，他曾随乐队在卡尔加里参加格雷杯赛前演出。\n\n多伦多警方证实，埃克特是11月25日清晨圣克莱尔西大道和波普勒普莱恩斯路一带枪击案的受害者。调查人员称，有人强行闯入住宅。埃克特送院后死亡，屋内另外三人未受伤。",
+          "photoAlt": "蓝色牛仔乐队在2024年埃德蒙顿演唱会上登台，舞台照着紫色灯光。",
+          "photoCaption": "蓝色牛仔乐队在2024年埃德蒙顿演唱会上登台，舞台照着紫色灯光。 档案照片 · 2024-09-05."
+        },
+        "ru": {
+          "title": "Blue Rodeo почтила память музыканта из Торонто Майкла Эккерта",
+          "summary": "39-летний гитарист выступал с группой перед матчем за Кубок Грея. Полиция расследует его гибель после вторжения в дом.",
+          "body": "Участники Blue Rodeo отметили мастерство Майкла Эккерта в игре на педальной слайд-гитаре. По данным Global News, за десять дней до смерти музыкант выступал с группой в Калгари на шоу перед матчем за Кубок Грея.\n\nПолиция Торонто подтвердила, что Эккерт стал жертвой стрельбы рано утром 25 ноября в районе Сент-Клэр-авеню-Уэст и Поплар-Плейнс-роуд. По данным следствия, в дом проникли силой. Эккерт скончался в больнице. Трое других находившихся в доме людей не пострадали.",
+          "photoAlt": "Blue Rodeo на сцене в фиолетовом свете прожекторов во время концерта в Эдмонтоне в 2024 году.",
+          "photoCaption": "Blue Rodeo на сцене в фиолетовом свете прожекторов во время концерта в Эдмонтоне в 2024 году. Архивное фото · 2024-09-05."
+        },
+        "ko": {
+          "title": "블루 로데오, 토론토 음악가 마이클 에커트 추모",
+          "summary": "39세 기타리스트는 그레이컵 경기 전 밴드와 함께 공연했다. 경찰은 자택에 침입자가 들어온 뒤 그가 숨진 사건을 수사 중이다.",
+          "body": "블루 로데오는 마이클 에커트의 페달 스틸 기타 연주 실력을 기렸다. 글로벌 뉴스에 따르면 에커트는 숨지기 열흘 전 캘거리 그레이컵 식전 공연에서 밴드와 함께 연주했다.\n\n토론토 경찰은 에커트가 11월 25일 이른 아침 세인트클레어 애비뉴 웨스트와 포플러 플레인스 로드 인근에서 발생한 총격의 피해자라고 밝혔다. 수사관들에 따르면 누군가 집에 강제로 침입했다. 에커트는 병원에서 숨졌고 집에 있던 다른 세 명은 다치지 않았다.",
+          "photoAlt": "2024년 에드먼턴 공연 무대에서 보라색 조명을 받는 블루 로데오.",
+          "photoCaption": "2024년 에드먼턴 공연 무대에서 보라색 조명을 받는 블루 로데오. 자료 사진 · 2024-09-05."
+        }
+      }
+    },
+    {
+      "eventKey": "espagne-debat-quatre-candidats-legislatives-novembre",
+      "category": "Monde",
+      "title": "Espagne : quatre candidats débattent jeudi soir avant les élections de dimanche",
+      "summary": "Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal et Ada Colau sont attendus à 22 h, heure de Madrid, pour un débat télévisé.",
+      "body": "À trois jours des élections législatives du 29 novembre, les candidats du PSOE, du Parti populaire, de Vox et du Frente Amplio doivent se retrouver sur un même plateau. L’Académie espagnole de la télévision, organisatrice du débat, en a présenté les modalités mercredi à Madrid Content City.\n\nLa journaliste María Casado animera la rencontre, structurée autour de cinq blocs thématiques. Selon le diffuseur RTVE, le public pourra la suivre jeudi en direct sur La 1, Canal 24 Horas et RTVE Play à partir de 22 h, heure de Madrid.",
+      "sources": [
+        {
+          "name": "Académie espagnole de la télévision — présentation du débat",
+          "url": "https://www.academiatv.es/la-academia-de-television-presenta-los-ultimos-detalles-de-eldebate26/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "RTVE — diffusion du débat",
+          "url": "https://www.rtve.es/noticias/20261125/debate-cuatro-elecciones-generales-2026-horario-donde-ver/17327346.shtml",
+          "publishedAt": "2026-11-25T09:23:35+01:00"
+        },
+        {
+          "name": "El País",
+          "url": "https://elpais.com/television/2026-11-26/a-que-hora-y-donde-ver-el-debate-a-cuatro-organizado-por-la-academia-de-television.html",
+          "publishedAt": "2026-11-26T05:30:01+01:00"
+        }
+      ],
+      "photo": {
+        "download": "media/spain2.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ada_Colau_2024_%28cropped%29.jpg",
+        "credit": "Robo71, derivative work by Impru20",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Ada Colau, candidate du Frente Amplio au débat, photographiée en juin 2024.",
+        "caption": "Ada Colau, candidate du Frente Amplio au débat, photographiée en juin 2024. Photo d’archives · 2024-06-01."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Four Spanish candidates to debate Thursday night before Sunday’s election",
+          "summary": "Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal and Ada Colau are expected at a televised debate at 10 p.m. Madrid time.",
+          "body": "Three days before the November 29 parliamentary election, the candidates for the PSOE, the People’s Party, Vox and the Frente Amplio are due to share a stage. The Spanish Television Academy, which is organising the debate, presented its format Wednesday at Madrid Content City.\n\nJournalist María Casado will moderate the discussion, divided into five thematic blocks. Broadcaster RTVE says viewers can watch live on Thursday on La 1, Canal 24 Horas and RTVE Play from 10 p.m. Madrid time.",
+          "photoAlt": "Ada Colau, the Frente Amplio candidate in the debate, photographed in June 2024.",
+          "photoCaption": "Ada Colau, the Frente Amplio candidate in the debate, photographed in June 2024. Archive photograph · 2024-06-01."
+        },
+        "es": {
+          "title": "Cuatro candidatos debaten el jueves por la noche antes de las elecciones del domingo",
+          "summary": "Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal y Ada Colau están convocados a un debate televisado a las 22.00, hora de Madrid.",
+          "body": "A tres días de las elecciones generales del 29 de noviembre, los candidatos del PSOE, el Partido Popular, Vox y el Frente Amplio compartirán plató. La Academia de Televisión, organizadora del debate, presentó el formato el miércoles en Madrid Content City.\n\nLa periodista María Casado moderará el encuentro, dividido en cinco bloques temáticos. Según RTVE, podrá seguirse en directo el jueves en La 1, el Canal 24 Horas y RTVE Play a partir de las 22.00, hora de Madrid.",
+          "photoAlt": "Ada Colau, candidata del Frente Amplio en el debate, fotografiada en junio de 2024.",
+          "photoCaption": "Ada Colau, candidata del Frente Amplio en el debate, fotografiada en junio de 2024. Foto de archivo · 2024-06-01."
+        },
+        "ar": {
+          "title": "أربعة مرشحين إسبان يتناظرون مساء الخميس قبل انتخابات الأحد",
+          "summary": "من المقرر أن يشارك بيدرو سانشيز وألبرتو نونييث فيخو وسانتياغو أباسكال وآدا كولاو في مناظرة متلفزة الساعة العاشرة بتوقيت مدريد.",
+          "body": "قبل ثلاثة أيام من انتخابات 29 نوفمبر التشريعية، سيجتمع على منصة واحدة مرشحو الحزب الاشتراكي العمالي والحزب الشعبي وفوكس والجبهة العريضة. وعرضت أكاديمية التلفزيون الإسبانية، التي تنظم المناظرة، تفاصيلها الأربعاء في مجمع مدريد كونتنت سيتي.\n\nوستدير الصحفية ماريا كاسادو اللقاء الذي يتوزع على خمسة محاور. ووفق هيئة البث RTVE، يستطيع الجمهور متابعته مباشرة الخميس على لا أونو وقناة 24 أوراس وخدمة RTVE Play بدءاً من الساعة العاشرة مساء بتوقيت مدريد.",
+          "photoAlt": "آدا كولاو مرشحة الجبهة العريضة المشاركة في المناظرة في صورة من يونيو 2024.",
+          "photoCaption": "آدا كولاو مرشحة الجبهة العريضة المشاركة في المناظرة في صورة من يونيو 2024. صورة أرشيفية · 2024-06-01."
+        },
+        "zh-CN": {
+          "title": "西班牙四名候选人将于周四晚在周日大选前展开辩论",
+          "summary": "佩德罗·桑切斯、阿尔韦托·努涅斯·费霍、圣地亚哥·阿瓦斯卡尔和阿达·科劳预计将参加马德里时间22时的电视辩论。",
+          "body": "距离11月29日议会选举还有三天，西班牙工人社会党、人民党、呼声党和广泛阵线的候选人将同台辩论。主办方西班牙电视学院周三在马德里影视城介绍了安排。\n\n记者玛丽亚·卡萨多将主持辩论，议程设五个专题。据西班牙广播电视台RTVE介绍，观众可从马德里时间周四22时起通过一台、24小时新闻频道和RTVE Play观看直播。",
+          "photoAlt": "参加辩论的广泛阵线候选人阿达·科劳，摄于2024年6月。",
+          "photoCaption": "参加辩论的广泛阵线候选人阿达·科劳，摄于2024年6月。 档案照片 · 2024-06-01."
+        },
+        "ru": {
+          "title": "Четыре кандидата в Испании проведут дебаты в четверг перед воскресными выборами",
+          "summary": "Педро Санчес, Альберто Нуньес Фейхоо, Сантьяго Абаскаль и Ада Колау встретятся на теледебатах в 22:00 по мадридскому времени.",
+          "body": "За три дня до парламентских выборов 29 ноября кандидаты от социалистов, Народной партии, Vox и «Широкого фронта» должны встретиться в одной студии. Испанская телевизионная академия, организатор дебатов, представила формат в среду на площадке Madrid Content City.\n\nВстречу, разделённую на пять тематических блоков, проведёт журналистка Мария Касадо. По данным вещателя RTVE, в четверг с 22:00 по Мадриду трансляцию можно смотреть на La 1, Canal 24 Horas и RTVE Play.",
+          "photoAlt": "Ада Колау, участница дебатов от «Широкого фронта», на фото в июне 2024 года.",
+          "photoCaption": "Ада Колау, участница дебатов от «Широкого фронта», на фото в июне 2024 года. Архивное фото · 2024-06-01."
+        },
+        "ko": {
+          "title": "스페인 후보 네 명, 일요일 총선 앞두고 목요일 밤 TV 토론",
+          "summary": "페드로 산체스, 알베르토 누녜스 페이호, 산티아고 아바스칼, 아다 콜라우가 마드리드 시각 밤 10시 TV 토론에 나설 예정이다.",
+          "body": "11월 29일 총선을 사흘 앞두고 사회노동당, 국민당, 복스, 광역전선 후보들이 한 무대에 선다. 주최 측인 스페인 텔레비전 아카데미는 수요일 마드리드 콘텐츠 시티에서 토론 형식을 공개했다.\n\n언론인 마리아 카사도가 다섯 가지 주제별 토론을 진행한다. 방송사 RTVE에 따르면 목요일 마드리드 시각 밤 10시부터 라우노, 카날 24오라스, RTVE 플레이로 생중계된다.",
+          "photoAlt": "토론에 참여하는 광역전선 후보 아다 콜라우의 2024년 6월 모습.",
+          "photoCaption": "토론에 참여하는 광역전선 후보 아다 콜라우의 2024년 6월 모습. 자료 사진 · 2024-06-01."
+        }
+      }
+    },
+    {
+      "eventKey": "winnipeg-manitoba-possible-locaux-mandat-greve",
+      "category": "Canada",
+      "title": "Manitoba Possible inaugure ses locaux sur fond de négociations salariales",
+      "summary": "À Winnipeg, les employés ont donné un mandat de grève à leur syndicat. La direction dit vouloir en arriver à une entente.",
+      "body": "L’organisme Manitoba Possible a présenté mercredi ses nouveaux locaux de Winnipeg alors que les négociations salariales piétinent. Le syndicat MGEU, qui représente 132 employés de l’organisme, indique que ses membres lui ont accordé le 6 novembre un mandat pour déclencher une grève si nécessaire.\n\nSelon Global News et le Winnipeg Free Press, les pourparlers ont commencé en mai. La directrice générale Lindsey Cooke dit rechercher une entente qui assure la continuité des services aux personnes handicapées. Le premier ministre Wab Kinew avait reconnu la semaine dernière que les travailleurs du secteur avaient besoin d’une hausse salariale.",
+      "sources": [
+        {
+          "name": "Manitoba Government and General Employees’ Union",
+          "url": "https://www.mgeu.ca/news-and-resources/the-latest/news/2474/workers-at-manitoba-possible-vote-for-strike-mandate",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Global News — entrevues avec le syndicat et la direction",
+          "url": "https://globalnews.ca/news/12165899/manitoba-possible-strike-mandate/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Winnipeg Free Press",
+          "url": "https://www.winnipegfreepress.com/breakingnews/2026/11/25/disability-services-organization-workers-move-into-new-facility-give-union-strike-mandate",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/man.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wab_Kinew_in_Sept_2024_%28cropped%29.jpg",
+        "credit": "Office of Governor Tim Walz & Lt. Governor Peggy Flanagan",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wab_Kinew_in_Sept_2024_%28cropped%29.jpg#Licensing",
+        "alt": "Le premier ministre manitobain Wab Kinew lors d’une visite à Saint Paul, au Minnesota.",
+        "caption": "Le premier ministre manitobain Wab Kinew lors d’une visite à Saint Paul, au Minnesota. Photo d’archives · 2024-09-16."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Manitoba Possible opens new premises amid wage negotiations",
+          "summary": "Employees in Winnipeg have given their union a strike mandate. Management says it wants to reach an agreement.",
+          "body": "Manitoba Possible showed its new Winnipeg premises on Wednesday as wage negotiations stalled. The MGEU, which represents 132 employees at the organisation, said its members gave it a mandate on November 6 to call a strike if necessary.\n\nAccording to Global News and the Winnipeg Free Press, talks began in May. Chief executive Lindsey Cooke said she was seeking a deal that would keep services for people with disabilities running. Premier Wab Kinew acknowledged last week that workers in the sector needed a raise.",
+          "photoAlt": "Manitoba Premier Wab Kinew on a visit to Saint Paul, Minnesota.",
+          "photoCaption": "Manitoba Premier Wab Kinew on a visit to Saint Paul, Minnesota. Archive photograph · 2024-09-16."
+        },
+        "es": {
+          "title": "Manitoba Possible inaugura sus instalaciones en medio de negociaciones salariales",
+          "summary": "Los empleados de Winnipeg dieron a su sindicato un mandato de huelga. La dirección dice que busca un acuerdo.",
+          "body": "Manitoba Possible presentó el miércoles sus nuevas instalaciones en Winnipeg mientras las negociaciones salariales seguían estancadas. El sindicato MGEU, que representa a 132 empleados de la organización, informó de que sus afiliados lo autorizaron el 6 de noviembre a convocar una huelga si fuera necesario.\n\nSegún Global News y el Winnipeg Free Press, las conversaciones comenzaron en mayo. La directora general Lindsey Cooke dijo que busca un acuerdo que garantice la continuidad de los servicios a personas con discapacidad. El primer ministro provincial Wab Kinew reconoció la semana pasada que los trabajadores del sector necesitaban un aumento salarial.",
+          "photoAlt": "El primer ministro de Manitoba, Wab Kinew, durante una visita a Saint Paul, Minnesota.",
+          "photoCaption": "El primer ministro de Manitoba, Wab Kinew, durante una visita a Saint Paul, Minnesota. Foto de archivo · 2024-09-16."
+        },
+        "ar": {
+          "title": "منظمة مانيتوبا بوسيبل تفتتح مقراً جديداً وسط مفاوضات الأجور",
+          "summary": "فوّض الموظفون في وينيبيغ نقابتهم بالدعوة إلى إضراب. وتقول الإدارة إنها تريد التوصل إلى اتفاق.",
+          "body": "عرضت منظمة مانيتوبا بوسيبل مقرها الجديد في وينيبيغ الأربعاء وسط تعثر مفاوضات الأجور. وقالت نقابة MGEU التي تمثل 132 موظفاً في المنظمة إن أعضاءها فوضوها في 6 نوفمبر بالدعوة إلى إضراب إذا لزم الأمر.\n\nووفق غلوبال نيوز ووينيبيغ فري برس، بدأت المحادثات في مايو. وقالت المديرة التنفيذية ليندسي كوك إنها تسعى إلى اتفاق يضمن استمرار الخدمات للأشخاص ذوي الإعاقة. وكان رئيس وزراء المقاطعة واب كينيو قد أقرّ الأسبوع الماضي بحاجة العاملين في القطاع إلى زيادة أجورهم.",
+          "photoAlt": "رئيس وزراء مانيتوبا واب كينيو خلال زيارة لمدينة سانت بول في مينيسوتا.",
+          "photoCaption": "رئيس وزراء مانيتوبا واب كينيو خلال زيارة لمدينة سانت بول في مينيسوتا. صورة أرشيفية · 2024-09-16."
+        },
+        "zh-CN": {
+          "title": "曼尼托巴残障服务机构在薪资谈判僵持之际启用新址",
+          "summary": "温尼伯员工已授权工会在必要时发动罢工。管理层表示希望达成协议。",
+          "body": "曼尼托巴可能性组织周三在温尼伯展示了新址，当时薪资谈判仍陷入僵局。代表该机构132名员工的MGEU工会表示，会员11月6日授权工会在必要时发动罢工。\n\n据环球新闻和《温尼伯自由报》报道，谈判始于5月。首席执行官琳赛·库克表示，希望达成能保障残障人士持续获得服务的协议。省长瓦布·基纽上周承认，这一行业的工作人员需要加薪。",
+          "photoAlt": "曼尼托巴省长瓦布·基纽访问美国明尼苏达州圣保罗市。",
+          "photoCaption": "曼尼托巴省长瓦布·基纽访问美国明尼苏达州圣保罗市。 档案照片 · 2024-09-16."
+        },
+        "ru": {
+          "title": "Manitoba Possible открыла новое здание на фоне переговоров о зарплате",
+          "summary": "Работники в Виннипеге разрешили профсоюзу при необходимости объявить забастовку. Руководство рассчитывает на договорённость.",
+          "body": "В среду Manitoba Possible представила новые помещения в Виннипеге на фоне пробуксовки переговоров о зарплате. Профсоюз MGEU, представляющий 132 сотрудника организации, сообщил, что 6 ноября его члены разрешили объявить забастовку в случае необходимости.\n\nПо данным Global News и Winnipeg Free Press, переговоры идут с мая. Генеральный директор Линдси Кук заявила, что стремится к соглашению, которое обеспечит бесперебойную помощь людям с инвалидностью. Премьер провинции Уоб Кинью на прошлой неделе признал, что работникам отрасли нужна прибавка.",
+          "photoAlt": "Премьер Манитобы Уоб Кинью во время визита в Сент-Пол, штат Миннесота.",
+          "photoCaption": "Премьер Манитобы Уоб Кинью во время визита в Сент-Пол, штат Миннесота. Архивное фото · 2024-09-16."
+        },
+        "ko": {
+          "title": "매니토바 포서블, 임금 협상 속 위니펙 새 시설 개관",
+          "summary": "위니펙 직원들은 노조에 파업 권한을 위임했다. 경영진은 합의에 이르고 싶다고 밝혔다.",
+          "body": "매니토바 포서블은 임금 협상이 교착된 가운데 수요일 위니펙 신사옥을 공개했다. 직원 132명을 대표하는 MGEU 노조는 조합원들이 11월 6일 필요시 파업에 나설 권한을 위임했다고 밝혔다.\n\n글로벌 뉴스와 위니펙 프리 프레스에 따르면 협상은 5월에 시작됐다. 린지 쿡 대표는 장애인 서비스가 끊기지 않도록 합의를 추구한다고 말했다. 와브 키뉴 주총리는 지난주 이 분야 종사자들의 임금 인상이 필요하다고 인정했다.",
+          "photoAlt": "미국 미네소타주 세인트폴을 방문한 와브 키뉴 매니토바 주총리.",
+          "photoCaption": "미국 미네소타주 세인트폴을 방문한 와브 키뉴 매니토바 주총리. 자료 사진 · 2024-09-16."
+        }
+      }
+    },
+    {
+      "eventKey": "mont-cameroun-deces-randonneur-suisse-communique",
+      "category": "Monde",
+      "title": "Mont Cameroun : le ministère confirme la mort d’un randonneur suisse",
+      "summary": "Un communiqué camerounais situe la rencontre avec des éléphants le 19 novembre dans le secteur du lac de cratère, à l’intérieur du parc national.",
+      "body": "Le ministère camerounais des Forêts et de la Faune a confirmé le 26 novembre qu’un ressortissant suisse était mort lors d’une randonnée au mont Cameroun. D’après son communiqué, six touristes, un guide et quatre porteurs formaient le groupe qui a rencontré les éléphants une semaine auparavant.\n\nLe Guardian rapporte que l’employeur du randonneur a confirmé son décès. Le ministère britannique des Affaires étrangères a également indiqué au journal avoir porté assistance à des ressortissants britanniques blessés au Cameroun.",
+      "sources": [
+        {
+          "name": "Ministère camerounais des Forêts et de la Faune",
+          "url": "https://www.minfof.gov.cm/en/single.php?id=379",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "The Guardian — témoignages et confirmations",
+          "url": "https://www.theguardian.com/environment/2026/nov/25/swiss-tourist-killed-british-americans-injured-elephants-cameroon",
+          "publishedAt": "2026-11-25T22:16:53Z"
+        }
+      ],
+      "photo": {
+        "download": "media/cam.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMount_Cameroon_view_from_Buea_%28Soppo%29.jpg",
+        "credit": "Yona Tientcheu",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Le mont Cameroun, vu depuis le quartier de Soppo à Buéa.",
+        "caption": "Le mont Cameroun, vu depuis le quartier de Soppo à Buéa. Photo d’archives · 2019-06-08."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Cameroon ministry confirms death of Swiss hiker on Mount Cameroon",
+          "summary": "A Cameroonian statement places the encounter with elephants on November 19 in the Crater Lake area inside the national park.",
+          "body": "Cameroon’s Ministry of Forestry and Wildlife confirmed on November 26 that a Swiss national had died on a hike on Mount Cameroon. According to its statement, six tourists, a guide and four porters made up the group that encountered the elephants a week earlier.\n\nThe Guardian reported that the hiker’s employer confirmed his death. The UK Foreign Office also told the newspaper it had offered assistance to British nationals injured in Cameroon.",
+          "photoAlt": "Mount Cameroon seen from the Soppo area of Buea.",
+          "photoCaption": "Mount Cameroon seen from the Soppo area of Buea. Archive photograph · 2019-06-08."
+        },
+        "es": {
+          "title": "Camerún confirma la muerte de un excursionista suizo en el monte Camerún",
+          "summary": "Un comunicado camerunés sitúa el encuentro con elefantes el 19 de noviembre en la zona del lago del cráter, dentro del parque nacional.",
+          "body": "El Ministerio de Bosques y Fauna de Camerún confirmó el 26 de noviembre la muerte de un ciudadano suizo durante una excursión en el monte Camerún. Según el comunicado, seis turistas, un guía y cuatro porteadores formaban el grupo que se encontró con los elefantes una semana antes.\n\nThe Guardian informó de que el empleador del excursionista confirmó su muerte. El Ministerio británico de Exteriores también declaró al diario que había ofrecido asistencia a ciudadanos británicos heridos en Camerún.",
+          "photoAlt": "El monte Camerún visto desde el barrio de Soppo en Buea.",
+          "photoCaption": "El monte Camerún visto desde el barrio de Soppo en Buea. Foto de archivo · 2019-06-08."
+        },
+        "ar": {
+          "title": "وزارة الغابات تؤكد وفاة متنزه سويسري في جبل الكاميرون",
+          "summary": "قال بيان كاميروني إن المجموعة واجهت أفيالاً في 19 نوفمبر في منطقة بحيرة الفوّهة داخل الحديقة الوطنية.",
+          "body": "أكدت وزارة الغابات والحياة البرية في الكاميرون يوم 26 نوفمبر وفاة مواطن سويسري خلال رحلة مشي في جبل الكاميرون. ووفق بيانها، كانت المجموعة التي واجهت الأفيال قبل أسبوع تضم ستة سياح ومرشداً وأربعة حمّالين.\n\nوذكرت الغارديان أن جهة عمل المتنزه أكدت وفاته. كما أفادت وزارة الخارجية البريطانية للصحيفة بأنها عرضت المساعدة على مواطنين بريطانيين أصيبوا في الكاميرون.",
+          "photoAlt": "جبل الكاميرون كما يبدو من حي سوبو في بويا.",
+          "photoCaption": "جبل الكاميرون كما يبدو من حي سوبو في بويا. صورة أرشيفية · 2019-06-08."
+        },
+        "zh-CN": {
+          "title": "喀麦隆林业部门证实一名瑞士徒步者在喀麦隆山遇难",
+          "summary": "喀麦隆方面的通报说，徒步队于11月19日在国家公园内的火山口湖一带遇到象群。",
+          "body": "喀麦隆林业和野生动物部11月26日证实，一名瑞士公民在喀麦隆山徒步时身亡。该部通报称，一周前遇到象群的队伍由六名游客、一名向导和四名挑夫组成。\n\n据《卫报》报道，遇难者的雇主已证实其死讯。英国外交部门也告诉该报，已向在喀麦隆受伤的英国公民提供协助。",
+          "photoAlt": "从布埃亚市索波一带远望喀麦隆山。",
+          "photoCaption": "从布埃亚市索波一带远望喀麦隆山。 档案照片 · 2019-06-08."
+        },
+        "ru": {
+          "title": "Власти Камеруна подтвердили гибель швейцарского туриста на горе Камерун",
+          "summary": "Согласно сообщению ведомства, группа столкнулась со слонами 19 ноября возле кратерного озера в национальном парке.",
+          "body": "26 ноября Министерство лесного хозяйства и дикой природы Камеруна подтвердило гибель гражданина Швейцарии во время похода на гору Камерун. По данным ведомства, в состав группы, встретившей слонов неделей ранее, входили шесть туристов, проводник и четыре носильщика.\n\nКак пишет Guardian, работодатель туриста подтвердил его гибель. МИД Великобритании также сообщил газете, что предложил помощь британским гражданам, пострадавшим в Камеруне.",
+          "photoAlt": "Гора Камерун, вид из района Соппо города Буэа.",
+          "photoCaption": "Гора Камерун, вид из района Соппо города Буэа. Архивное фото · 2019-06-08."
+        },
+        "ko": {
+          "title": "카메룬 당국, 카메룬산에서 스위스 등산객 사망 확인",
+          "summary": "카메룬 당국은 일행이 11월 19일 국립공원 안 분화구 호수 일대에서 코끼리와 마주쳤다고 밝혔다.",
+          "body": "카메룬 산림야생동물부는 11월 26일 스위스 국적자 한 명이 카메룬산 등산 중 숨졌다고 확인했다. 성명에 따르면 일주일 전 코끼리를 마주친 일행은 관광객 여섯 명과 안내인 한 명, 짐꾼 네 명으로 구성됐다.\n\n가디언은 등산객의 고용주가 그의 사망을 확인했다고 보도했다. 영국 외무부도 카메룬에서 다친 영국인들에게 도움을 제공했다고 신문에 밝혔다.",
+          "photoAlt": "부에아 소포 지역에서 바라본 카메룬산.",
+          "photoCaption": "부에아 소포 지역에서 바라본 카메룬산. 자료 사진 · 2019-06-08."
+        }
+      }
+    },
+    {
+      "eventKey": "trois-rivieres-cirque-du-soleil-hommage-leonard-cohen",
+      "category": "Culture",
+      "title": "Le Cirque du Soleil consacrera son prochain hommage à Leonard Cohen à Trois-Rivières",
+      "summary": "Vingt représentations sont annoncées à l’Amphithéâtre Cogeco du 14 juillet au 14 août 2027, soixante ans après le premier album du Montréalais.",
+      "body": "L’Amphithéâtre Cogeco et le Cirque du Soleil ont dévoilé jeudi le nom de l’artiste au cœur de leur onzième spectacle hommage. Après Jean Leloup, dont le 98,5 rappelle le passage dans cette série, ce sera au tour de l’œuvre de Leonard Cohen de prendre la scène trifluvienne.\n\nLes partenaires annoncent vingt représentations exclusivement à Trois-Rivières. Le calendrier coïncide avec le soixantième anniversaire de la sortie de Songs of Leonard Cohen. La production entend puiser autant dans la poésie du Montréalais que dans sa musique pour construire ses numéros de cirque.",
+      "sources": [
+        {
+          "name": "Amphithéâtre Cogeco et Cirque du Soleil",
+          "url": "https://www.amphitheatrecogeco.com/nouvelles/le-cirque-du-soleil-celebrera-l-immense-heritage-de-leonard-cohen-a-a-l-amphitheatre-cogeco-de-trois-rivieres",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "98,5 Montréal — chronique culturelle",
+          "url": "https://www.985fm.ca/audio/818270/leonard-cohen-a-l-honneur-du-prochain-spectacle-du-cirque-du-soleil",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "L’Hebdo Journal",
+          "url": "https://www.lhebdojournal.com/culture/le-cirque-du-soleil-rendra-hommage-a-leonard-cohen-a-lamphitheatre-cogeco/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/cohen.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALeonard_Cohen%2C_1988_01.jpg",
+        "credit": "Gorupdebesanez",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Portrait du poète et musicien montréalais Leonard Cohen à Venise en 1988.",
+        "caption": "Portrait du poète et musicien montréalais Leonard Cohen à Venise en 1988. Photo d’archives · 1988."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Cirque du Soleil to dedicate its next Trois-Rivières tribute to Leonard Cohen",
+          "summary": "Twenty shows are scheduled at Amphithéâtre Cogeco from July 14 to August 14, 2027, sixty years after the Montreal artist’s debut album.",
+          "body": "Amphithéâtre Cogeco and Cirque du Soleil revealed Thursday the artist at the centre of their eleventh tribute show. After Jean Leloup, whose place in the series was noted by radio station 98.5, Leonard Cohen’s work will take the stage in Trois-Rivières.\n\nThe partners announced twenty performances exclusively in Trois-Rivières. The dates coincide with the sixtieth anniversary of the release of Songs of Leonard Cohen. The production plans to draw on both his poetry and his music to build its circus acts.",
+          "photoAlt": "Portrait of Montreal poet and musician Leonard Cohen in Venice in 1988.",
+          "photoCaption": "Portrait of Montreal poet and musician Leonard Cohen in Venice in 1988. Archive photograph · 1988."
+        },
+        "es": {
+          "title": "El Cirque du Soleil dedicará su próximo homenaje en Trois-Rivières a Leonard Cohen",
+          "summary": "El anfiteatro Cogeco acogerá veinte funciones del 14 de julio al 14 de agosto de 2027, sesenta años después del primer disco del artista de Montreal.",
+          "body": "El anfiteatro Cogeco y el Cirque du Soleil revelaron el jueves el nombre del artista que inspira su undécimo espectáculo de homenaje. Tras Jean Leloup, cuyo paso por la serie recordó la emisora 98,5, será la obra de Leonard Cohen la que llegue al escenario de Trois-Rivières.\n\nLos socios anunciaron veinte representaciones exclusivas en Trois-Rivières. Las fechas coinciden con el sexagésimo aniversario de la publicación de Songs of Leonard Cohen. La producción prevé inspirarse tanto en la poesía como en la música del artista para crear sus números circenses.",
+          "photoAlt": "Retrato del poeta y músico de Montreal Leonard Cohen en Venecia en 1988.",
+          "photoCaption": "Retrato del poeta y músico de Montreal Leonard Cohen en Venecia en 1988. Foto de archivo · 1988."
+        },
+        "ar": {
+          "title": "سيرك دو سوليه يكرّم ليونارد كوهين في عرضه المقبل في تروا ريفيير",
+          "summary": "أُعلن عن عشرين حفلة في مدرج كوجيكو من 14 يوليو إلى 14 أغسطس 2027، بعد ستين عاماً على صدور أول ألبوم لفنان مونتريال.",
+          "body": "كشف مدرج كوجيكو وسيرك دو سوليه الخميس اسم الفنان الذي يحتفي به العرض الحادي عشر من سلسلة التكريم. وبعد جان لولو، الذي ذكّرت إذاعة 98.5 بتكريمه ضمن السلسلة، يحين دور أعمال ليونارد كوهين على مسرح تروا ريفيير.\n\nوأعلن الشريكان عن عشرين عرضاً حصرياً في المدينة. وتتزامن المواعيد مع الذكرى الستين لصدور ألبوم Songs of Leonard Cohen. ويعتزم فريق الإنتاج استلهام شعر الفنان وموسيقاه معاً لبناء فقرات السيرك.",
+          "photoAlt": "صورة لشاعر وموسيقي مونتريال ليونارد كوهين في البندقية عام 1988.",
+          "photoCaption": "صورة لشاعر وموسيقي مونتريال ليونارد كوهين في البندقية عام 1988. صورة أرشيفية · 1988."
+        },
+        "zh-CN": {
+          "title": "太阳马戏团将在三河市新作中致敬莱昂纳德·科恩",
+          "summary": "科杰科露天剧场将于2027年7月14日至8月14日举办二十场演出，适逢这位蒙特利尔艺术家首张专辑问世六十周年。",
+          "body": "科杰科露天剧场和太阳马戏团周四公布了第十一部致敬系列作品的主角。98.5电台回顾了此前向让·勒卢致敬的一部作品；接下来，莱昂纳德·科恩的作品将登上三河市舞台。\n\n双方宣布二十场演出均在三河市举行。档期适逢《莱昂纳德·科恩之歌》发行六十周年，制作团队打算从这位艺术家的诗歌和音乐中汲取灵感，创作马戏节目。",
+          "photoAlt": "蒙特利尔诗人兼音乐家莱昂纳德·科恩1988年在威尼斯的肖像。",
+          "photoCaption": "蒙特利尔诗人兼音乐家莱昂纳德·科恩1988年在威尼斯的肖像。 档案照片 · 1988."
+        },
+        "ru": {
+          "title": "Cirque du Soleil посвятит новое шоу в Труа-Ривьере Леонарду Коэну",
+          "summary": "В амфитеатре Cogeco с 14 июля по 14 августа 2027 года запланировано двадцать представлений, через шестьдесят лет после дебютного альбома монреальского автора.",
+          "body": "Амфитеатр Cogeco и Cirque du Soleil в четверг назвали героя одиннадцатого шоу своей серии посвящений. После Жана Лелу, о котором напомнила радиостанция 98,5, на сцену в Труа-Ривьере выйдут произведения Леонарда Коэна.\n\nПартнёры объявили о двадцати представлениях исключительно в Труа-Ривьере. Даты совпадают с шестидесятилетием выхода Songs of Leonard Cohen. Создатели намерены опираться и на поэзию, и на музыку автора при постановке цирковых номеров.",
+          "photoAlt": "Портрет монреальского поэта и музыканта Леонарда Коэна в Венеции в 1988 году.",
+          "photoCaption": "Портрет монреальского поэта и музыканта Леонарда Коэна в Венеции в 1988 году. Архивное фото · 1988."
+        },
+        "ko": {
+          "title": "태양의서커스, 트루아리비에르 차기 헌정 공연의 주인공은 레너드 코언",
+          "summary": "코제코 원형극장에서 2027년 7월 14일부터 8월 14일까지 20회 공연한다. 몬트리올 출신 코언의 데뷔 앨범 발매 60주년이다.",
+          "body": "코제코 원형극장과 태양의서커스는 목요일 열한 번째 헌정 공연의 주인공을 공개했다. 라디오 98.5가 앞선 공연의 장 를루를 되짚은 데 이어, 이번에는 레너드 코언의 작품 세계가 트루아리비에르 무대에 오른다.\n\n주최 측은 20회 모두 트루아리비에르에서만 공연한다고 밝혔다. 일정은 데뷔 앨범 《송스 오브 레너드 코언》 발매 60주년과 맞물린다. 제작진은 코언의 시와 음악 모두에서 영감을 얻어 서커스 장면을 구성할 계획이다.",
+          "photoAlt": "1988년 베네치아에서 찍은 몬트리올 출신 시인 겸 음악가 레너드 코언의 사진.",
+          "photoCaption": "1988년 베네치아에서 찍은 몬트리올 출신 시인 겸 음악가 레너드 코언의 사진. 자료 사진 · 1988."
+        }
+      }
+    },
+    {
+      "eventKey": "fifa-acces-donnees-personnelles-professionnelles",
+      "category": "Monde",
+      "title": "La FIFA confirme un accès illicite à des données personnelles et professionnelles",
+      "summary": "La fédération dit coopérer avec les forces de l’ordre. Elle n’a précisé ni la date de l’incident ni le nombre de personnes concernées.",
+      "body": "La FIFA a confirmé jeudi 26 novembre que des tiers avaient accédé sans autorisation à certaines de ses informations personnelles et professionnelles. Dans une déclaration transmise à l’Associated Press, l’instance mondiale du football qualifie de limité l’ensemble des données touchées.\n\nLes informations rendues publiques ne permettent pas de déterminer quelles personnes ont été concernées. La FIFA indique travailler avec les autorités compétentes. La fédération n’a pas précisé à l’AP la date de l’intrusion ni la nature exacte des renseignements consultés.",
+      "sources": [
+        {
+          "name": "Associated Press — déclaration de la FIFA",
+          "url": "https://www.washingtonpost.com/sports/soccer/2026/11/26/fifa-cyberattack-hack/f3c40c24-e98f-11f1-8db0-6f1e3c389e7c_story.html",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/fifa-victim-cyber-attack-files-related-world-cup-stake-selloff-unaffected-2026-11-26/",
+          "publishedAt": "2026-11-26T11:56:53Z"
+        }
+      ],
+      "photo": {
+        "download": "media/fifa.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:FIFA-Headquarter.jpg",
+        "credit": "MCaviglia digimen.ch",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "L’entrée vitrée du siège de la FIFA à Zurich, en Suisse.",
+        "caption": "L’entrée vitrée du siège de la FIFA à Zurich, en Suisse. Photo d’archives · 2009-10-27."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "FIFA confirms unauthorised access to personal and business data",
+          "summary": "The federation says it is working with law enforcement. It did not specify when the incident occurred or how many people were affected.",
+          "body": "FIFA confirmed on Thursday, November 26, that outsiders had gained unauthorised access to some of its personal and business information. In a statement to the Associated Press, football’s world governing body described the set of affected data as limited.\n\nThe information made public does not identify the people affected. FIFA says it is working with the relevant authorities. It did not tell AP the date of the intrusion or the precise nature of the information accessed.",
+          "photoAlt": "The glass entrance of FIFA’s headquarters in Zurich, Switzerland.",
+          "photoCaption": "The glass entrance of FIFA’s headquarters in Zurich, Switzerland. Archive photograph · 2009-10-27."
+        },
+        "es": {
+          "title": "La FIFA confirma un acceso ilícito a datos personales y empresariales",
+          "summary": "La federación dice que colabora con la policía. No precisó cuándo ocurrió el incidente ni cuántas personas se vieron afectadas.",
+          "body": "La FIFA confirmó el jueves 26 de noviembre que terceros habían accedido sin autorización a parte de su información personal y empresarial. En una declaración remitida a Associated Press, el organismo rector del fútbol mundial calificó de limitado el conjunto de los datos afectados.\n\nLa información publicada no permite identificar a las personas afectadas. La FIFA dice estar trabajando con las autoridades competentes. La federación no especificó a AP la fecha de la intrusión ni la naturaleza exacta de los datos consultados.",
+          "photoAlt": "Entrada acristalada de la sede de la FIFA en Zúrich, Suiza.",
+          "photoCaption": "Entrada acristalada de la sede de la FIFA en Zúrich, Suiza. Foto de archivo · 2009-10-27."
+        },
+        "ar": {
+          "title": "فيفا يؤكد وصولاً غير مشروع إلى بيانات شخصية وتجارية",
+          "summary": "يقول الاتحاد إنه يتعاون مع جهات إنفاذ القانون. ولم يحدد موعد الحادث أو عدد المتأثرين به.",
+          "body": "أكد الاتحاد الدولي لكرة القدم الخميس 26 نوفمبر أن جهات خارجية وصلت من دون تصريح إلى بعض معلوماته الشخصية والتجارية. ووصف في بيان أرسله إلى أسوشيتد برس مجموعة البيانات المتأثرة بأنها محدودة.\n\nولا تتيح المعلومات المعلنة تحديد الأشخاص المتأثرين. وأفاد فيفا بأنه يعمل مع السلطات المختصة. ولم يوضح للوكالة تاريخ الاختراق أو الطبيعة الدقيقة للمعلومات التي تم الوصول إليها.",
+          "photoAlt": "المدخل الزجاجي لمقر فيفا في زيورخ بسويسرا.",
+          "photoCaption": "المدخل الزجاجي لمقر فيفا في زيورخ بسويسرا. صورة أرشيفية · 2009-10-27."
+        },
+        "zh-CN": {
+          "title": "国际足联证实部分个人及业务资料遭未经授权访问",
+          "summary": "国际足联表示正配合执法部门，未说明事件发生时间或受影响人数。",
+          "body": "国际足联11月26日星期四证实，外部人士未经授权访问了部分个人及业务资料。这个世界足球管理机构在发给美联社的声明中称，涉及的数据范围有限。\n\n已公布的信息不足以确定哪些人受到影响。国际足联表示正与有关当局合作，但未向美联社说明入侵日期或遭访问资料的具体性质。",
+          "photoAlt": "位于瑞士苏黎世的国际足联总部玻璃入口。",
+          "photoCaption": "位于瑞士苏黎世的国际足联总部玻璃入口。 档案照片 · 2009-10-27."
+        },
+        "ru": {
+          "title": "ФИФА подтвердила неправомерный доступ к персональным и деловым данным",
+          "summary": "Федерация сотрудничает с правоохранительными органами. Она не уточнила дату инцидента и число затронутых людей.",
+          "body": "В четверг, 26 ноября, ФИФА подтвердила, что посторонние получили несанкционированный доступ к части её персональной и деловой информации. В заявлении для Associated Press руководящий орган мирового футбола назвал объём затронутых данных ограниченным.\n\nОбнародованная информация не позволяет установить, кого коснулся инцидент. ФИФА сообщила, что работает с компетентными органами. Федерация не уточнила для AP ни дату вторжения, ни точный характер полученных сведений.",
+          "photoAlt": "Стеклянный вход в штаб-квартиру ФИФА в Цюрихе, Швейцария.",
+          "photoCaption": "Стеклянный вход в штаб-квартиру ФИФА в Цюрихе, Швейцария. Архивное фото · 2009-10-27."
+        },
+        "ko": {
+          "title": "FIFA, 개인정보·업무 데이터 무단 접근 확인",
+          "summary": "FIFA는 수사기관과 협력하고 있다고 밝혔다. 사고 시점과 피해 인원은 공개하지 않았다.",
+          "body": "국제축구연맹(FIFA)은 11월 26일 목요일 외부인이 일부 개인정보와 업무 정보에 무단으로 접근했다고 확인했다. FIFA는 AP통신에 보낸 성명에서 관련 데이터의 범위가 제한적이라고 밝혔다.\n\n공개된 정보만으로는 누가 영향을 받았는지 확인할 수 없다. FIFA는 관계 당국과 협력하고 있다고 설명했다. 침입이 일어난 날짜와 열람된 정보의 구체적인 성격은 AP에 밝히지 않았다.",
+          "photoAlt": "스위스 취리히에 있는 FIFA 본부의 유리 출입구.",
+          "photoCaption": "스위스 취리히에 있는 FIFA 본부의 유리 출입구. 자료 사진 · 2009-10-27."
+        }
+      }
+    },
+    {
+      "eventKey": "grande-bretagne-projet-examen-vue-permis-soixante-dix-ans",
+      "category": "Monde",
+      "title": "Grande-Bretagne : un examen de la vue envisagé au renouvellement du permis dès 70 ans",
+      "summary": "Les ministres comptent recommander un contrôle tous les trois ans, selon la BBC. Aujourd’hui, les conducteurs déclarent eux-mêmes que leur vue satisfait aux normes.",
+      "body": "Le gouvernement britannique prépare une stratégie de sécurité routière qui devrait inclure un examen obligatoire de la vue pour les conducteurs âgés de 70 ans et plus, selon des sources gouvernementales citées jeudi par la BBC. La proposition rattacherait le contrôle au renouvellement du permis.\n\nEn Grande-Bretagne, le permis doit déjà être renouvelé à 70 ans, puis au moins tous les trois ans. La consultation du ministère des Transports, close en mai, rappelle que le conducteur atteste lui-même satisfaire aux exigences visuelles. L’examen annoncé relève encore du projet.",
+      "sources": [
+        {
+          "name": "Department for Transport — consultation sur les normes visuelles",
+          "url": "https://www.gov.uk/government/consultations/introducing-mandatory-eyesight-testing-for-older-drivers/introducing-mandatory-eyesight-testing-for-older-drivers",
+          "publishedAt": "2026-02-16"
+        },
+        {
+          "name": "BBC News — projet de stratégie de sécurité routière",
+          "url": "https://www.bbc.co.uk/news/articles/cjqlqerzv1eyo",
+          "publishedAt": "2026-11-26T11:21:45Z"
+        }
+      ],
+      "photo": {
+        "download": "media/eyes.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADVLA_Swansea.jpg",
+        "credit": "Zweifel",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "alt": "Entrée et tour de l’agence britannique des permis de conduire, la DVLA, à Swansea.",
+        "caption": "Entrée et tour de l’agence britannique des permis de conduire, la DVLA, à Swansea. Photo d’archives · 2011-08-20."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Britain considers eyesight test at licence renewal from age 70",
+          "summary": "Ministers plan to recommend a check every three years, the BBC reports. Drivers currently declare that their eyesight meets the standards.",
+          "body": "The UK government is preparing a road safety strategy expected to include a mandatory eyesight test for drivers aged 70 and over, according to government sources cited by the BBC on Thursday. The proposal would link the check to licence renewal.\n\nIn Great Britain a licence must already be renewed at 70 and at least every three years thereafter. The Transport Department’s consultation, which closed in May, notes that drivers declare for themselves that they meet the eyesight requirements. The test remains a proposal.",
+          "photoAlt": "Entrance and tower at Britain’s driver licensing agency, the DVLA, in Swansea.",
+          "photoCaption": "Entrance and tower at Britain’s driver licensing agency, the DVLA, in Swansea. Archive photograph · 2011-08-20."
+        },
+        "es": {
+          "title": "Gran Bretaña estudia exigir un examen visual al renovar el permiso desde los 70 años",
+          "summary": "Los ministros prevén recomendar un control cada tres años, según la BBC. Hoy los conductores declaran por sí mismos que su visión cumple las normas.",
+          "body": "El Gobierno británico prepara una estrategia de seguridad vial que incluiría un examen visual obligatorio para conductores de 70 años o más, según fuentes gubernamentales citadas el jueves por la BBC. La propuesta vincularía el control a la renovación del permiso.\n\nEn Gran Bretaña ya se debe renovar el permiso a los 70 años y al menos cada tres años después. La consulta del Ministerio de Transportes, cerrada en mayo, recuerda que los conductores certifican por sí mismos que cumplen los requisitos visuales. El examen sigue siendo una propuesta.",
+          "photoAlt": "Entrada y torre de la agencia británica de permisos de conducir, la DVLA, en Swansea.",
+          "photoCaption": "Entrada y torre de la agencia británica de permisos de conducir, la DVLA, en Swansea. Foto de archivo · 2011-08-20."
+        },
+        "ar": {
+          "title": "بريطانيا تدرس فحص النظر عند تجديد رخصة القيادة من سن السبعين",
+          "summary": "يعتزم الوزراء التوصية بفحص كل ثلاث سنوات وفق بي بي سي. ويقرّ السائقون حالياً بأنفسهم بأن نظرهم يستوفي المعايير.",
+          "body": "تعدّ الحكومة البريطانية استراتيجية للسلامة المرورية يُتوقع أن تتضمن فحص نظر إلزامياً للسائقين من سن السبعين، بحسب مصادر حكومية نقلت عنها بي بي سي الخميس. ويربط المقترح الفحص بتجديد الرخصة.\n\nفي بريطانيا العظمى يجب بالفعل تجديد الرخصة عند السبعين ثم مرة واحدة على الأقل كل ثلاث سنوات. وتشير مشاورات وزارة النقل التي اختتمت في مايو إلى أن السائق يقرّ بنفسه باستيفاء شروط الإبصار. ولا يزال الفحص المقترح قيد الدراسة.",
+          "photoAlt": "مدخل وبرج وكالة تراخيص القيادة البريطانية في سوانزي.",
+          "photoCaption": "مدخل وبرج وكالة تراخيص القيادة البريطانية في سوانزي. صورة أرشيفية · 2011-08-20."
+        },
+        "zh-CN": {
+          "title": "英国拟要求70岁起换领驾照时接受视力检查",
+          "summary": "据英国广播公司报道，大臣们计划建议每三年检查一次。目前驾驶人自行申报视力符合标准。",
+          "body": "英国广播公司周四援引政府消息人士报道，英国政府正在起草道路安全战略，预计将包括针对70岁及以上驾驶人的强制视力检查。该提案将把检查与驾照续期挂钩。\n\n在大不列颠，驾驶人目前须在70岁时续领驾照，此后至少每三年续领一次。交通部于5月结束的咨询文件指出，驾驶人现时自行声明视力符合要求。强制检查仍处于提案阶段。",
+          "photoAlt": "英国斯旺西的驾驶员和车辆牌照局大楼入口和塔楼。",
+          "photoCaption": "英国斯旺西的驾驶员和车辆牌照局大楼入口和塔楼。 档案照片 · 2011-08-20."
+        },
+        "ru": {
+          "title": "В Великобритании предлагают проверять зрение при продлении прав с 70 лет",
+          "summary": "По данным Би-би-си, министры хотят рекомендовать проверку раз в три года. Сейчас водители сами подтверждают соответствие требованиям.",
+          "body": "Правительство Великобритании готовит стратегию безопасности дорожного движения, в которую, как ожидается, войдёт обязательная проверка зрения водителей от 70 лет, сообщила в четверг Би-би-си со ссылкой на правительственные источники. Проверку предлагается привязать к продлению прав.\n\nВ Великобритании права уже необходимо продлевать в 70 лет и затем не реже раза в три года. В материалах консультаций Минтранса, завершившихся в мае, отмечено, что водитель сам подтверждает соответствие требованиям к зрению. Обязательный осмотр пока остаётся предложением.",
+          "photoAlt": "Вход и башня британского Агентства по выдаче водительских удостоверений DVLA в Суонси.",
+          "photoCaption": "Вход и башня британского Агентства по выдаче водительских удостоверений DVLA в Суонси. Архивное фото · 2011-08-20."
+        },
+        "ko": {
+          "title": "영국, 70세부터 면허 갱신 시 시력검사 의무화 검토",
+          "summary": "BBC에 따르면 정부는 3년마다 검사를 권고할 계획이다. 현재는 운전자가 시력 기준 충족 여부를 스스로 신고한다.",
+          "body": "영국 정부가 준비 중인 도로안전 전략에 70세 이상 운전자의 시력검사를 의무화하는 방안이 담길 것으로 예상된다고 BBC가 목요일 정부 소식통을 인용해 보도했다. 면허 갱신 시점에 검사를 받도록 하는 방안이다.\n\n그레이트브리튼에서는 이미 70세에 면허를 갱신하고 그 뒤로는 적어도 3년에 한 번씩 갱신해야 한다. 5월에 끝난 교통부 의견수렴 자료에 따르면 운전자는 시력 요건을 충족한다고 직접 신고한다. 의무 검사는 아직 제안 단계다.",
+          "photoAlt": "스완지의 영국 운전면허 발급기관 DVLA 청사 입구와 건물.",
+          "photoCaption": "스완지의 영국 운전면허 발급기관 DVLA 청사 입구와 건물. 자료 사진 · 2011-08-20."
+        }
+      }
+    },
+    {
+      "eventKey": "ottawa-rouge-et-noir-congedie-ryan-dinwiddie",
+      "category": "Sports",
+      "title": "Le Rouge et Noir congédie Ryan Dinwiddie après une saison d’une victoire",
+      "summary": "Ottawa se sépare de son entraîneur-chef et directeur général au terme d’une campagne de 1-17 dans la Ligue canadienne de football.",
+      "body": "Le Rouge et Noir d’Ottawa a annoncé jeudi la fin du mandat de Ryan Dinwiddie. Recruté pour diriger à la fois l’équipe sur le terrain et ses opérations de directeur général, il quitte après une seule saison dans la capitale. Le président du club, Mike Morreale, l’a remercié pour son travail.\n\nSelon le média spécialisé 3DownNation, Ottawa a terminé au quatrième rang de la division Est avec une victoire en dix-huit matchs. À Toronto, avant son arrivée à Ottawa, Dinwiddie avait remporté deux fois la Coupe Grey comme entraîneur-chef des Argonauts.",
+      "sources": [
+        {
+          "name": "Rouge et Noir d’Ottawa — annonce du club",
+          "url": "https://www.ottawaredblacks.com/article/ottawa-redblacks-announce-change-at-head-coach-and-general-manager",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "3DownNation",
+          "url": "https://3downnation.com/2026/11/26/ottawa-redblacks-fire-head-coach-and-general-manager-ryan-dinwiddie/",
+          "publishedAt": "2026-11-26T13:07:49Z"
+        }
+      ],
+      "photo": {
+        "download": "media/red.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024%2C_Coach_Ryan_Dinwiddie.jpg",
+        "credit": "Cmm3",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Ryan Dinwiddie au bord du terrain, à l’époque où il entraînait les Argonauts de Toronto.",
+        "caption": "Ryan Dinwiddie au bord du terrain, à l’époque où il entraînait les Argonauts de Toronto. Photo d’archives · 2024-06-09."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Redblacks dismiss Ryan Dinwiddie after one-win season",
+          "summary": "Ottawa has parted ways with its head coach and general manager following a 1–17 Canadian Football League campaign.",
+          "body": "The Ottawa Redblacks announced the end of Ryan Dinwiddie’s tenure on Thursday. Hired as both head coach and general manager, he leaves after one season in the capital. Club president Mike Morreale thanked him for his work.\n\nAccording to football outlet 3DownNation, Ottawa finished fourth in the East Division with one win in eighteen games. Before moving to Ottawa, Dinwiddie won the Grey Cup twice as head coach of the Toronto Argonauts.",
+          "photoAlt": "Ryan Dinwiddie on the sideline when he coached the Toronto Argonauts.",
+          "photoCaption": "Ryan Dinwiddie on the sideline when he coached the Toronto Argonauts. Archive photograph · 2024-06-09."
+        },
+        "es": {
+          "title": "Ottawa destituye a Ryan Dinwiddie tras una temporada de una sola victoria",
+          "summary": "Los Redblacks prescinden de su entrenador y gerente general después de un balance de 1-17 en la Liga Canadiense de Fútbol.",
+          "body": "Los Ottawa Redblacks anunciaron el jueves el final de la etapa de Ryan Dinwiddie. Contratado como entrenador principal y gerente general, se marcha tras una sola temporada en la capital. El presidente del club, Mike Morreale, le agradeció su trabajo.\n\nSegún el medio especializado 3DownNation, Ottawa terminó cuarto en la División Este con una victoria en dieciocho partidos. Antes de llegar a Ottawa, Dinwiddie ganó dos veces la Copa Grey como entrenador de los Toronto Argonauts.",
+          "photoAlt": "Ryan Dinwiddie junto al campo cuando entrenaba a los Toronto Argonauts.",
+          "photoCaption": "Ryan Dinwiddie junto al campo cuando entrenaba a los Toronto Argonauts. Foto de archivo · 2024-06-09."
+        },
+        "ar": {
+          "title": "أوتاوا يستغني عن رايان دينويدي بعد موسم بفوز واحد",
+          "summary": "أنهى ريدبلاكس ارتباطه بمدربه الأول ومديره العام عقب موسم شهد فوزاً واحداً و17 خسارة في الدوري الكندي لكرة القدم.",
+          "body": "أعلن فريق أوتاوا ريدبلاكس الخميس انتهاء مهمة رايان دينويدي. وكان قد عُيّن مدرباً أول ومديراً عاماً، ويغادر بعد موسم واحد في العاصمة. وشكره رئيس النادي مايك موريالي على عمله.\n\nووفق موقع 3DownNation المتخصص، حلّ أوتاوا رابعاً في القسم الشرقي بفوز واحد في 18 مباراة. وقبل قدومه إلى أوتاوا، أحرز دينويدي كأس غراي مرتين مدرباً لفريق تورونتو أرغونوتس.",
+          "photoAlt": "رايان دينويدي على جانب الملعب عندما كان يدرّب تورونتو أرغونوتس.",
+          "photoCaption": "رايان دينويدي على جانب الملعب عندما كان يدرّب تورونتو أرغونوتس. صورة أرشيفية · 2024-06-09."
+        },
+        "zh-CN": {
+          "title": "渥太华红黑队在仅胜一场的赛季后解雇瑞安·丁威迪",
+          "summary": "球队在加拿大橄榄球联赛取得1胜17负后，与兼任主教练和总经理的丁威迪分道扬镳。",
+          "body": "渥太华红黑队周四宣布瑞安·丁威迪离任。他受聘同时出任主教练和总经理，在首都执教仅一个赛季便离队。俱乐部主席迈克·莫雷亚莱对他的工作表示感谢。\n\n据专业媒体3DownNation报道，渥太华在十八场比赛中仅胜一场，排在东区第四。来到渥太华之前，丁威迪曾以多伦多阿尔戈英雄队主教练身份两夺格雷杯。",
+          "photoAlt": "瑞安·丁威迪执教多伦多阿尔戈英雄队期间在场边。",
+          "photoCaption": "瑞安·丁威迪执教多伦多阿尔戈英雄队期间在场边。 档案照片 · 2024-06-09."
+        },
+        "ru": {
+          "title": "«Оттава Редблэкс» уволила Райана Динвидди после сезона с одной победой",
+          "summary": "Оттава рассталась с главным тренером и генеральным менеджером после сезона Канадской футбольной лиги с результатом 1–17.",
+          "body": "«Оттава Редблэкс» в четверг объявила об уходе Райана Динвидди. Он занимал должности главного тренера и генерального менеджера и покидает столицу после одного сезона. Президент клуба Майк Морреале поблагодарил его за работу.\n\nПо данным издания 3DownNation, Оттава заняла четвёртое место в Восточном дивизионе с одной победой в восемнадцати матчах. До перехода в Оттаву Динвидди дважды выигрывал Кубок Грея в качестве главного тренера «Торонто Аргонавтс».",
+          "photoAlt": "Райан Динвидди у кромки поля, когда он тренировал «Торонто Аргонавтс».",
+          "photoCaption": "Райан Динвидди у кромки поля, когда он тренировал «Торонто Аргонавтс». Архивное фото · 2024-06-09."
+        },
+        "ko": {
+          "title": "오타와 레드블랙스, 시즌 1승에 그친 라이언 딘위디 경질",
+          "summary": "캐나다 풋볼리그에서 1승 17패를 기록한 오타와가 감독 겸 단장과 결별했다.",
+          "body": "오타와 레드블랙스는 목요일 라이언 딘위디가 지휘봉을 내려놓는다고 발표했다. 감독과 단장을 겸하도록 영입됐던 그는 수도에서 한 시즌 만에 떠난다. 마이크 모레알레 구단 사장은 그의 노고에 감사를 표했다.\n\n전문 매체 3DownNation에 따르면 오타와는 18경기에서 단 1승을 거두며 동부지구 4위로 시즌을 마쳤다. 딘위디는 오타와 부임 전 토론토 아르고너츠 감독으로 그레이컵에서 두 차례 우승했다.",
+          "photoAlt": "토론토 아르고너츠 감독 시절 사이드라인에 선 라이언 딘위디.",
+          "photoCaption": "토론토 아르고너츠 감독 시절 사이드라인에 선 라이언 딘위디. 자료 사진 · 2024-06-09."
+        }
+      }
+    },
+    {
+      "eventKey": "coupe-davis-bologne-zverev-fery-simples",
+      "category": "Sports",
+      "title": "Coupe Davis : Zverev bat Fery et remet l’Allemagne à égalité après les simples",
+      "summary": "À Bologne, la victoire du numéro un mondial a effacé l’avance que Cameron Norrie avait donnée à la Grande-Bretagne en quart de finale.",
+      "body": "Alexander Zverev a battu Arthur Fery 6-3, 6-2 jeudi lors du deuxième simple du quart de finale de Coupe Davis entre l’Allemagne et la Grande-Bretagne. D’après la fédération britannique de tennis, ce résultat a ramené les deux nations à une victoire chacune après les simples.\n\nCameron Norrie avait pris le premier point en dominant Jan-Lennard Struff 6-3, 3-6, 6-2. La BBC relève que le succès en deux manches de Zverev, numéro un mondial, a ainsi renvoyé la décision au double. Dans cette formule, il faut deux victoires pour se qualifier.",
+      "sources": [
+        {
+          "name": "Lawn Tennis Association — résultats des deux simples",
+          "url": "https://www.lta.org.uk/fan-zone/davis-cup/news/final-8-great-britain-vs-germany-results-updates",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/tennis/videos/c8p3vez6zzz4o",
+          "publishedAt": "2026-11-26T13:28:11Z"
+        }
+      ],
+      "photo": {
+        "download": "media/german.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fery_WMQ22_%2813%29_%2852191184348%29.jpg",
+        "credit": "si.robi",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "alt": "Arthur Fery, raquette en main, à Wimbledon lors des qualifications de 2022.",
+        "caption": "Arthur Fery, raquette en main, à Wimbledon lors des qualifications de 2022. Photo d’archives · 2022-06-20."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Davis Cup: Zverev beats Fery to bring Germany level after singles",
+          "summary": "In Bologna, the world number one erased the lead Cameron Norrie had given Great Britain in their quarter-final.",
+          "body": "Alexander Zverev beat Arthur Fery 6–3, 6–2 on Thursday in the second singles match of the Davis Cup quarter-final between Germany and Great Britain. According to Britain’s tennis federation, the result left the countries with one win each after singles.\n\nCameron Norrie had taken the opening point by defeating Jan-Lennard Struff 6–3, 3–6, 6–2. The BBC noted that world number one Zverev’s straight-sets win sent the tie to a deciding doubles match. Two wins are required to advance in this format.",
+          "photoAlt": "Arthur Fery holding his racket at Wimbledon qualifying in 2022.",
+          "photoCaption": "Arthur Fery holding his racket at Wimbledon qualifying in 2022. Archive photograph · 2022-06-20."
+        },
+        "es": {
+          "title": "Copa Davis: Zverev vence a Fery e iguala la eliminatoria tras los individuales",
+          "summary": "En Bolonia, el número uno del mundo neutralizó la ventaja que Cameron Norrie había dado a Gran Bretaña en cuartos de final.",
+          "body": "Alexander Zverev derrotó el jueves a Arthur Fery por 6-3 y 6-2 en el segundo individual de los cuartos de final de la Copa Davis entre Alemania y Gran Bretaña. Según la federación británica de tenis, el resultado dejó a ambos países con una victoria tras los individuales.\n\nCameron Norrie había conseguido el primer punto al vencer a Jan-Lennard Struff por 6-3, 3-6 y 6-2. La BBC señala que el triunfo en dos sets de Zverev, número uno mundial, llevó la eliminatoria al doble decisivo. El formato exige dos victorias para pasar de ronda.",
+          "photoAlt": "Arthur Fery, raqueta en mano, durante la fase previa de Wimbledon en 2022.",
+          "photoCaption": "Arthur Fery, raqueta en mano, durante la fase previa de Wimbledon en 2022. Foto de archivo · 2022-06-20."
+        },
+        "ar": {
+          "title": "كأس ديفيس: زفيريف يهزم فيري ويعيد ألمانيا إلى التعادل بعد مباراتي الفردي",
+          "summary": "في بولونيا، ألغى المصنف الأول عالمياً التقدم الذي منحه كاميرون نوري لبريطانيا في ربع النهائي.",
+          "body": "فاز ألكسندر زفيريف على آرثر فيري 6-3 و6-2 الخميس في ثاني مباراتي الفردي بربع نهائي كأس ديفيس بين ألمانيا وبريطانيا. ووفق الاتحاد البريطاني للتنس، تركت النتيجة المنتخبين برصيد انتصار لكل منهما بعد الفردي.\n\nوكان كاميرون نوري قد أحرز النقطة الأولى بفوزه على يان لينارد شتروف 6-3 و3-6 و6-2. وأشارت بي بي سي إلى أن فوز زفيريف، المصنف الأول عالمياً، بمجموعتين أحال الحسم إلى مباراة الزوجي. ويتطلب التأهل في هذه الصيغة انتصارين.",
+          "photoAlt": "آرثر فيري ممسكاً مضربه في تصفيات ويمبلدون عام 2022.",
+          "photoCaption": "آرثر فيري ممسكاً مضربه في تصفيات ويمبلدون عام 2022. صورة أرشيفية · 2022-06-20."
+        },
+        "zh-CN": {
+          "title": "戴维斯杯：兹维列夫击败费里，德国在单打结束后扳平",
+          "summary": "在博洛尼亚，世界排名第一的兹维列夫抹平了诺里为英国队在四分之一决赛中取得的领先优势。",
+          "body": "周四，在德国与英国的戴维斯杯四分之一决赛第二场单打中，亚历山大·兹维列夫以6比3、6比2击败阿瑟·费里。据英国草地网球协会介绍，两场单打结束后两队各胜一场。\n\n卡梅伦·诺里此前以6比3、3比6、6比2战胜扬-伦纳德·施特鲁夫，为英国队拿下第一分。据英国广播公司报道，世界第一兹维列夫直落两盘获胜，将胜负悬念留给双打。按赛制，先取得两胜的队伍晋级。",
+          "photoAlt": "阿瑟·费里在2022年温布尔登资格赛中手持球拍。",
+          "photoCaption": "阿瑟·费里在2022年温布尔登资格赛中手持球拍。 档案照片 · 2022-06-20."
+        },
+        "ru": {
+          "title": "Кубок Дэвиса: Зверев победил Фери и сравнял счёт по итогам одиночных матчей",
+          "summary": "В Болонье лидер мирового рейтинга отыграл очко, которое Кэмерон Норри принёс Великобритании в четвертьфинале.",
+          "body": "В четверг Александр Зверев обыграл Артура Фери со счётом 6:3, 6:2 во втором одиночном матче четвертьфинала Кубка Дэвиса между Германией и Великобританией. Как сообщает британская теннисная федерация, после одиночных встреч у каждой сборной было по победе.\n\nПервое очко Великобритании принёс Кэмерон Норри, обыгравший Ян-Леннарда Штруффа 6:3, 3:6, 6:2. По сообщению Би-би-си, победа первой ракетки мира Зверева в двух сетах перевела противостояние в решающий парный матч. Для выхода в следующий круг нужны две победы.",
+          "photoAlt": "Артур Фери с ракеткой в квалификации Уимблдона в 2022 году.",
+          "photoCaption": "Артур Фери с ракеткой в квалификации Уимблдона в 2022 году. Архивное фото · 2022-06-20."
+        },
+        "ko": {
+          "title": "데이비스컵, 츠베레프가 페리 꺾어 단식 종료 후 독일과 영국 동률",
+          "summary": "볼로냐 8강전에서 세계 1위 츠베레프가 캐머런 노리가 영국에 안긴 리드를 지웠다.",
+          "body": "알렉산더 츠베레프가 목요일 데이비스컵 독일과 영국의 8강전 두 번째 단식에서 아서 페리를 6-3, 6-2로 꺾었다. 영국테니스협회에 따르면 양국은 단식을 모두 마친 시점에 1승씩을 기록했다.\n\n앞서 캐머런 노리는 얀레나르트 슈트루프를 6-3, 3-6, 6-2로 꺾고 첫 승을 올렸다. BBC는 세계 1위 츠베레프가 두 세트 만에 이기면서 승부가 최종 복식으로 넘어갔다고 전했다. 두 경기를 먼저 이겨야 다음 라운드에 오른다.",
+          "photoAlt": "2022년 윔블던 예선에서 라켓을 든 아서 페리.",
+          "photoCaption": "2022년 윔블던 예선에서 라켓을 든 아서 페리. 자료 사진 · 2022-06-20."
+        }
+      }
+    },
+    {
+      "eventKey": "rams-packers-blake-corum-cent-quatre-vingt-quatre-verges",
+      "category": "Sports",
+      "title": "Blake Corum court pour 184 verges et les Rams battent Green Bay 26-13",
+      "summary": "Le porteur de ballon a signé un sommet personnel à Inglewood. Les Packers et les Rams étaient à égalité à la mi-temps.",
+      "body": "Les Rams de Los Angeles ont défait les Packers de Green Bay mercredi soir au SoFi Stadium. Selon le compte rendu du club, Blake Corum a porté le ballon 32 fois pour 184 verges et un touché. Son total de verges au sol est le meilleur de sa carrière dans la NFL.\n\nÀ 13-13 après deux quarts, Los Angeles a consacré plus de huit minutes à sa première série offensive de la deuxième demie. Corum l’a conclue par une course d’une verge. Green Bay n’a plus marqué et les Rams ont signé une cinquième victoire consécutive.",
+      "sources": [
+        {
+          "name": "Los Angeles Rams — compte rendu du match",
+          "url": "https://www.therams.com/news/game-recap-blake-corum-s-184-rushing-yards-defense-s-timely-playmaking-lift-rams-to-26-13-win-over-packers-on-thanksgiving-eve",
+          "publishedAt": "2026-11-26T04:30:00Z"
+        },
+        {
+          "name": "Associated Press / CBS Sports",
+          "url": "https://www.cbssports.com/nfl/gametracker/recap/NFL_20261125_GB%40LAR/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/ram.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blake_Corum_Spring_Game.jpeg",
+        "credit": "Maize & Blue Nation",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "alt": "Blake Corum sourit au bord du terrain lors du match de printemps du Michigan en 2024.",
+        "caption": "Blake Corum sourit au bord du terrain lors du match de printemps du Michigan en 2024. Photo d’archives · 2024-04-20."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Blake Corum rushes for 184 yards as Rams beat Green Bay 26–13",
+          "summary": "The running back set a career high in Inglewood. The Packers and Rams were level at halftime.",
+          "body": "The Los Angeles Rams defeated the Green Bay Packers Wednesday night at SoFi Stadium. According to the team’s game report, Blake Corum carried the ball 32 times for 184 yards and a touchdown. It was his highest single-game rushing total in the NFL.\n\nWith the score 13–13 after two quarters, Los Angeles used more than eight minutes on its opening drive of the second half. Corum finished it with a one-yard run. Green Bay never scored again as the Rams won their fifth straight game.",
+          "photoAlt": "Blake Corum smiles on the sideline at Michigan’s 2024 spring game.",
+          "photoCaption": "Blake Corum smiles on the sideline at Michigan’s 2024 spring game. Archive photograph · 2024-04-20."
+        },
+        "es": {
+          "title": "Blake Corum corre 184 yardas y los Rams vencen a Green Bay por 26-13",
+          "summary": "El corredor logró su mejor marca en Inglewood. Packers y Rams llegaron empatados al descanso.",
+          "body": "Los Rams de Los Ángeles derrotaron el miércoles por la noche a los Packers de Green Bay en el SoFi Stadium. Según la crónica del club, Blake Corum corrió 32 veces para 184 yardas y un touchdown. Fue su mejor registro de yardas terrestres en un partido de la NFL.\n\nCon 13-13 al acabar el segundo cuarto, Los Ángeles consumió más de ocho minutos en su primera posesión tras el descanso. Corum la culminó con una carrera de una yarda. Green Bay no volvió a anotar y los Rams sumaron su quinta victoria seguida.",
+          "photoAlt": "Blake Corum sonríe junto al campo en el partido de primavera de Michigan de 2024.",
+          "photoCaption": "Blake Corum sonríe junto al campo en el partido de primavera de Michigan de 2024. Foto de archivo · 2024-04-20."
+        },
+        "ar": {
+          "title": "بليك كورم يركض 184 ياردة ورامز يهزم غرين باي 26-13",
+          "summary": "سجّل الراكض أفضل حصيلة شخصية له في إنغلوود بعد أن أنهى الفريقان الشوط الأول متعادلين.",
+          "body": "فاز لوس أنجليس رامز على غرين باي باكرز مساء الأربعاء في ملعب سوفي. ووفق تقرير النادي، حمل بليك كورم الكرة 32 مرة محققاً 184 ياردة وتاتشداون واحداً. وهذه أفضل حصيلة ركض له في مباراة واحدة في دوري NFL.\n\nوبعد التعادل 13-13 في نهاية الربع الثاني، استغرق أول هجوم لرامز بعد الاستراحة أكثر من ثماني دقائق. واختتمه كورم بركضة من ياردة واحدة. ولم يسجل غرين باي بعدها ليحقق رامز انتصاره الخامس على التوالي.",
+          "photoAlt": "بليك كورم مبتسماً على جانب الملعب في مباراة ميشيغان الربيعية عام 2024.",
+          "photoCaption": "بليك كورم مبتسماً على جانب الملعب في مباراة ميشيغان الربيعية عام 2024. صورة أرشيفية · 2024-04-20."
+        },
+        "zh-CN": {
+          "title": "科鲁姆冲球184码，公羊26比13击败绿湾",
+          "summary": "这名跑卫在英格尔伍德创下个人最佳成绩。公羊与包装工半场战平。",
+          "body": "洛杉矶公羊周三晚在SoFi体育场击败绿湾包装工。据球队战报，布莱克·科鲁姆持球冲跑32次，推进184码并取得一次达阵。这是他在NFL单场冲球码数的个人纪录。\n\n两节结束时双方13比13战平。洛杉矶下半场的首轮进攻耗时超过八分钟，科鲁姆以一次一码冲球完成达阵。绿湾此后未再得分，公羊取得五连胜。",
+          "photoAlt": "布莱克·科鲁姆在密歇根大学2024年春季赛场边微笑。",
+          "photoCaption": "布莱克·科鲁姆在密歇根大学2024年春季赛场边微笑。 档案照片 · 2024-04-20."
+        },
+        "ru": {
+          "title": "Блейк Корум набрал 184 ярда на выносе, «Рэмс» обыграли «Грин-Бей» 26:13",
+          "summary": "Раннинбек установил личный рекорд в Инглвуде. После первой половины счёт был равным.",
+          "body": "В среду вечером «Лос-Анджелес Рэмс» победили «Грин-Бей Пэкерс» на стадионе SoFi. По отчёту клуба, Блейк Корум сделал 32 выноса на 184 ярда и занёс тачдаун. Это его лучший результат по ярдам на выносе за матч в НФЛ.\n\nПосле двух четвертей счёт был 13:13. На первую серию атак во второй половине «Лос-Анджелес» потратил более восьми минут. Корум завершил её выносом на один ярд. «Грин-Бей» больше не набрал очков, а «Рэмс» одержали пятую победу подряд.",
+          "photoAlt": "Блейк Корум у кромки поля на весенней игре Мичиганского университета в 2024 году.",
+          "photoCaption": "Блейк Корум у кромки поля на весенней игре Мичиганского университета в 2024 году. Архивное фото · 2024-04-20."
+        },
+        "ko": {
+          "title": "블레이크 코럼 184야드 질주…램스, 그린베이에 26-13 승리",
+          "summary": "러닝백 코럼이 잉글우드에서 개인 최고 기록을 세웠다. 양 팀은 동점으로 전반을 마쳤다.",
+          "body": "로스앤젤레스 램스는 수요일 밤 소파이 스타디움에서 그린베이 패커스를 꺾었다. 구단 경기 보고서에 따르면 블레이크 코럼은 공을 들고 32차례 달려 184야드와 터치다운 한 개를 기록했다. NFL 입성 후 한 경기 개인 최다 러싱 야드다.\n\n2쿼터가 끝났을 때 점수는 13-13이었다. 램스는 후반 첫 공격에 8분 넘게 썼고 코럼이 1야드 돌파로 마무리했다. 그린베이는 추가 득점을 하지 못했고 램스는 5연승을 거뒀다.",
+          "photoAlt": "2024년 미시간대 봄 경기에서 사이드라인에 서서 웃는 블레이크 코럼.",
+          "photoCaption": "2024년 미시간대 봄 경기에서 사이드라인에 서서 웃는 블레이크 코럼. 자료 사진 · 2024-04-20."
+        }
+      }
+    }
+  ]
+}
