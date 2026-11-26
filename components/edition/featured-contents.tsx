@@ -1,6 +1,6 @@
 'use client';
 
-import { Bookmark, ChevronDown, Plus, Search } from 'lucide-react';
+import { ArrowRight, Bookmark, ChevronDown, Search } from 'lucide-react';
 import { useState, type ReactNode } from 'react';
 import { canonicalCategory } from '../../lib/editorial-sections';
 import { articleHref, editionHref, fold, type Summary } from '../../lib/edition';
@@ -11,14 +11,9 @@ import { sectionText } from './section-copy';
 import { StoryCardImage, StoryDate } from './story-card';
 import './featured-contents.css';
 
-const labels: Record<PublicLocale, {title: string; more: string}> = {
-  fr: {title: 'À découvrir dans nos rubriques', more: 'Afficher plus de contenus'},
-  en: {title: 'Featured stories', more: 'Show more stories'},
-  es: {title: 'Contenidos destacados', more: 'Mostrar más contenidos'},
-  ar: {title: 'مختارات التحرير', more: 'عرض المزيد'},
-  'zh-CN': {title: '编辑精选', more: '显示更多内容'},
-  ru: {title: 'Избранные материалы', more: 'Показать больше материалов'},
-  ko: {title: '편집부 추천', more: '콘텐츠 더 보기'},
+const titles: Record<PublicLocale, string> = {
+  fr: 'À découvrir dans nos rubriques', en: 'Featured stories', es: 'Contenidos destacados',
+  ar: 'مختارات التحرير', 'zh-CN': '编辑精选', ru: 'Избранные материалы', ko: '편집부 추천',
 };
 
 const pageSize = 4;
@@ -50,7 +45,6 @@ export function FeaturedContents({ stories, presentations, savedCount, saveButto
   const lang = usePublicLocale();
   const [activeCategory, setActiveCategory] = useState('');
   const [query, setQuery] = useState('');
-  const [visibleCount, setVisibleCount] = useState(pageSize);
   const unique = Array.from(new Map([...presentations, ...stories].map(story => [story.slug, story])).values());
   const desks=new Map<string,Summary[]>();
   for(const item of unique){const group=desks.get(item.category)||[];group.push(item);desks.set(item.category,group)}
@@ -65,24 +59,20 @@ export function FeaturedContents({ stories, presentations, savedCount, saveButto
     return terms.every(term => text.includes(term));
   });
   if (!pool.length) return null;
-  const copy = labels[lang];
   function categoryName(category: string) {
     if (category === presentationsFilter) return sectionText(lang,'presentations');
     return category ? categoryLabel(category,lang) : sectionText(lang,'all');
   }
-  function selectCategory(category: string) {
-    setActiveCategory(category);
-    setVisibleCount(pageSize);
-  }
-  const visibleStories = filtered.slice(0, visibleCount);
-  const firstSpread = visibleStories.slice(0, pageSize);
-  const moreStories = visibleStories.slice(pageSize);
+  const firstSpread = filtered.slice(0, pageSize);
+  const archive = activeCategory === presentationsFilter
+    ? editionHref('presentations', query)
+    : editionHref('actualites', query, activeCategory);
   function card(story: Summary) {
     return <SpotlightCard key={story.slug} story={story} lang={lang} save={saveButton(story)} />;
   }
   return <section className="by-section by-spotlight" aria-labelledby="featured-contents-title">
     <div className="by-spotlight-heading">
-      <h2 id="featured-contents-title">{copy.title}</h2>
+      <h2 id="featured-contents-title">{titles[lang]}</h2>
       <a className="by-spotlight-saved" href={localizedHref(editionHref('favoris'),lang)}>
         <Bookmark size={16} aria-hidden="true"/>{sectionLabel('favoris',lang)} <span>{new Intl.NumberFormat(lang).format(savedCount)}</span>
       </a>
@@ -92,11 +82,11 @@ export function FeaturedContents({ stories, presentations, savedCount, saveButto
         <div className="by-spotlight-categories">
           {['', ...categories.slice(0, 3)].map(category =>
             <CategoryButton key={category} category={category} label={categoryName(category)} aria-pressed={activeCategory === category}
-              onClick={() => selectCategory(category)}/>)}
+              onClick={() => setActiveCategory(category)}/>)}
         </div>
         {categories.length > 0 && <label className="by-spotlight-picker">
           <select aria-label={sectionText(lang,'filter')} value={activeCategory}
-            onChange={event => selectCategory(event.target.value)}>
+            onChange={event => setActiveCategory(event.target.value)}>
             <option value="">{sectionText(lang,'topics')} · {sectionText(lang,'all')}</option>
             {categories.map(category => <option key={category} value={category}>{categoryName(category)}</option>)}
           </select>
@@ -105,21 +95,20 @@ export function FeaturedContents({ stories, presentations, savedCount, saveButto
       </div>
       <label className="by-spotlight-search"><Search size={16} aria-hidden="true" />
         <input type="search" value={query} maxLength={160} aria-label={sectionText(lang,'searchField')}
-          placeholder={sectionText(lang,'placeholder')} onChange={event => { setQuery(event.target.value); setVisibleCount(pageSize); }}/>
+          placeholder={sectionText(lang,'placeholder')} onChange={event => setQuery(event.target.value)}/>
       </label>
     </div>
     {filtered.length ? <>
       <div className={'by-spotlight-grid' + (firstSpread.length === pageSize ? ' by-spotlight-spread' : '')}>
         {firstSpread.map(card)}
       </div>
-      {moreStories.length > 0 && <div className="by-spotlight-grid by-spotlight-continuation">{moreStories.map(card)}</div>}
-      {filtered.length > visibleCount &&
-        <button className="by-spotlight-more" type="button" onClick={() => setVisibleCount(count => count + pageSize)}>
-          <Plus size={16} aria-hidden="true"/>{copy.more}
-        </button>}
+      {filtered.length > pageSize && <a className="by-spotlight-more" href={localizedHref(archive,lang)}>
+        {sectionText(lang,query ? 'results' : 'archive')}{activeCategory && ' · ' + categoryName(activeCategory)}
+        <ArrowRight className="by-direction-arrow" size={16} aria-hidden="true"/>
+      </a>}
     </> : <div className="by-spotlight-empty">
       <p role="status">{sectionText(lang,'noMatch')}</p>
-      <button type="button" onClick={() => { setActiveCategory(''); setQuery(''); setVisibleCount(pageSize); }}>
+      <button type="button" onClick={() => { setActiveCategory(''); setQuery(''); }}>
         {sectionText(lang,'reset')}
       </button>
     </div>}

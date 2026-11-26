@@ -1639,6 +1639,26 @@ test('les rubriques regroupent les sous-rubriques et le classement compte les vo
   for(const slug of ['tech-a','tech-b']) assert.ok(science.includes('href="/article/'+slug+'"'),slug);
   assert.match(home,/<button[^>]*aria-pressed="false"[^>]*>Commerce international<\/button>/);
   assert.match(home,/<button[^>]*aria-pressed="false"[^>]*>Entreprises<\/button>/);
+  const extra = Array.from({length:7}, (_,i) => 'commerce-'+i);
+  await db.batch(extra.map(slug=>insert.bind(slug,slug,'Article '+slug,'Commerce international','Résumé','Corps','published',now,now,now)));
+  await db.batch(extra.map(slug=>rating.bind(slug,'r1',5,now)));
+  const updatedHome=await html('/');
+  const updatedNews=await html('/?rubrique=actualites');
+  const ratingItems=page=>page.match(/aria-labelledby="most-rated-heading"[^>]*>([\s\S]*?)<\/section>/)[1].match(/<li>/g).length;
+  assert.equal(ratingItems(updatedHome),5);
+  assert.equal(ratingItems(updatedNews),6);
+  const economySelection=page=>[...page.matchAll(/<section class="by-topic-rail"[^>]*>([\s\S]*?)<\/section>/g)]
+    .map(item=>item[1]).find(rail=>rail.includes('>Commerce international</button>'));
+  const countStories=rail=>{
+    const cards=rail.match(/<article class="by-card">/g).length;
+    const dots=rail.match(/class="by-desk-dots">([\s\S]*?)<\/div>/)?.[1].match(/<button/g).length || 0;
+    return cards + Math.max(0,dots-1);
+  };
+  assert.equal(countStories(economySelection(updatedHome)),5);
+  assert.ok(countStories(economySelection(updatedNews))>5);
+  const spotlight=updatedHome.match(/aria-labelledby="featured-contents-title"[^>]*>([\s\S]*?)<\/section>/)[1];
+  assert.equal(spotlight.match(/<article class="by-spotlight-card">/g).length,4);
+  assert.match(spotlight,/<a class="by-spotlight-more" href="\/\?rubrique=actualites"/);
   await db.prepare('DELETE FROM article_ratings').run();
   const empty = await html('/?lang=en');
   const emptyRatings = empty.match(/<section[^>]*aria-labelledby="most-rated-heading"[^>]*>([\s\S]*?)<\/section>/)?.[1];

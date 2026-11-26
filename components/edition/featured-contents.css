@@ -179,7 +179,6 @@ html[data-theme=dark] .by-spotlight { --spot-paper: #29292c; }
     padding-block-start: 12px;
   }
 }
-.by-spotlight-continuation { margin-block-start: 24px; }
 .by-spotlight-more, .by-spotlight-empty button {
   justify-content: center;
   gap: 7px;
@@ -192,7 +191,7 @@ html[data-theme=dark] .by-spotlight { --spot-paper: #29292c; }
   font-size: .82rem;
   font-weight: 650;
 }
-.by-spotlight-more { margin: 26px auto 0; }
+.by-spotlight-more { width: fit-content; margin: 26px auto 0; }
 .by-spotlight-more:hover, .by-spotlight-empty button:hover { border-color: var(--ink); background: var(--spot-paper); }
 .by-spotlight-empty { padding: clamp(20px, 2.5vw, 32px); background: var(--spot-paper); }
 .by-spotlight-empty p { margin: 0 0 12px; }

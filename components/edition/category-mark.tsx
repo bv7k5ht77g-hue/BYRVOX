@@ -1,4 +1,5 @@
 import type { CSSProperties, ComponentPropsWithoutRef } from 'react';
+import { canonicalCategory, parentDesk } from '../../lib/editorial-sections';
 import {
   BriefcaseBusiness, Building2, ChartColumn, Cpu, Earth, Flag, FlaskConical, Globe, GraduationCap,
   HeartPulse, Landmark, LayoutGrid, Leaf, Map as MapIcon, MapPin, Megaphone, Newspaper, Orbit, Palette,
@@ -65,7 +66,8 @@ const categoryKey = (name: string) => name.trim().normalize('NFC').toLocaleLower
 const byName = new Map(desks.flatMap(desk => desk.names.map(name => [categoryKey(name), desk] as const)));
 
 function categoryAppearance(category: string) {
-  return byName.get(categoryKey(category)) || fallback;
+  const name = canonicalCategory(category);
+  return byName.get(categoryKey(name)) || byName.get(categoryKey(parentDesk(name))) || fallback;
 }
 
 function appearance({ category, label }: CategoryProps) {

@@ -1,10 +1,13 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { type CSSProperties, useEffect, useRef, useState } from 'react';
 import type { PublicLocale } from '../../lib/i18n';
 
 export function ArticleHeaderTitle({ title, language }: { title: string; language: PublicLocale }) {
   const [passed, setPassed] = useState(false);
+  const viewport = useRef<HTMLSpanElement>(null);
+  const text = useRef<HTMLSpanElement>(null);
+  const [overflow, setOverflow] = useState(0);
 
   useEffect(() => {
     const heading = document.getElementById('article-heading');
@@ -37,6 +40,34 @@ export function ArticleHeaderTitle({ title, language }: { title: string; languag
     };
   }, [title]);
 
+  useEffect(() => {
+    const frame = viewport.current;
+    const label = text.current;
+    if (!passed || !frame || !label) return;
+
+    function measure() {
+      if (!frame || !label) return;
+      const extra = label.getBoundingClientRect().width - frame.getBoundingClientRect().width;
+      setOverflow(extra > 1 ? Math.ceil(extra) : 0);
+    }
+    measure();
+    if (typeof ResizeObserver === 'undefined') {
+      window.addEventListener('resize', measure);
+      return () => window.removeEventListener('resize', measure);
+    }
+    const observer = new ResizeObserver(measure);
+    observer.observe(frame);
+    observer.observe(label);
+    return () => observer.disconnect();
+  }, [passed, title, language]);
+
+  const motion = overflow > 0 ? {
+    '--title-overflow': `${overflow}px`,
+    '--title-duration': `${Math.max(4, overflow / 38 + 2)}s`,
+  } as CSSProperties : undefined;
   return <a href="#article-heading" className="article-header-title" hidden={!passed} lang={language} dir="auto"
-    title={title}>{title}</a>;
+    title={title}><span ref={viewport} className="article-title-viewport">
+      <span ref={text} className="article-title-text" data-overflow={overflow > 0 || undefined}
+        style={motion}>{title}</span>
+    </span></a>;
 }

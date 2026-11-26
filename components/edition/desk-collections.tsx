@@ -36,10 +36,10 @@ function DeskLead({stories,lang}: {stories:Summary[];lang:PublicLocale}) {
   </div>;
 }
 
-function DeskRail({name, stories, segments, lang}: {name:string; stories:Summary[]; segments:CategoryHeadlines[];lang:PublicLocale}) {
+function DeskRail({name, stories, segments, lang, limit}: {name:string; stories:Summary[]; segments:CategoryHeadlines[];lang:PublicLocale;limit:number}) {
   const [choice,setChoice] = useState('');
   const active = segments.find(segment=>segment.category===choice);
-  const visible = active?.stories || stories;
+  const visible = (active?.stories || stories).slice(0,limit);
   const leadSize = visible.length > 2 ? 2 : 1;
   const filters = segments.length > 0 && <div className="by-desk-filters" role="group" aria-label={sectionText(lang,'filter')+' · '+categoryLabel(name,lang)}>
     <button type="button" aria-pressed={!active} onClick={()=>setChoice('')}>{sectionText(lang,'all')}</button>
@@ -56,7 +56,7 @@ function DeskRail({name, stories, segments, lang}: {name:string; stories:Summary
   </div>;
 }
 
-export function DeskCollections({groups,lang}: {groups:CategoryHeadlines[];lang:PublicLocale}) {
+export function DeskCollections({groups,lang,limit=8}: {groups:CategoryHeadlines[];lang:PublicLocale;limit?:number}) {
   const available = new Map(groups.filter(group=>group.stories.length).map(group=>[group.category,group]));
   return <div className="by-desk-collections">
     {groupDesks([...available.keys()]).map(desk=>{
@@ -65,8 +65,8 @@ export function DeskCollections({groups,lang}: {groups:CategoryHeadlines[];lang:
       for(const group of [available.get(desk.name), ...segments]){
         for(const story of group?.stories || []) merged.set(story.slug,story);
       }
-      const stories = [...merged.values()].sort((a,b)=>(b.publishedAt || '').localeCompare(a.publishedAt || '') || a.slug.localeCompare(b.slug)).slice(0,8);
-      return <DeskRail key={desk.name} name={desk.name} stories={stories} segments={segments} lang={lang}/>;
+      const stories = [...merged.values()].sort((a,b)=>(b.publishedAt || '').localeCompare(a.publishedAt || '') || a.slug.localeCompare(b.slug));
+      return <DeskRail key={desk.name} name={desk.name} stories={stories} segments={segments} lang={lang} limit={limit}/>;
     })}
   </div>;
 }

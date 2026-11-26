@@ -1,6 +1,6 @@
 .by-home, .by-index { --edition-accent: #bc1737; }
 html[data-theme=dark] :is(.by-home,.by-index) { --edition-accent: #ff8aa0; }
-.by-home { padding-block:0 clamp(38px,5vw,72px); }
+.by-home { --lead-paper: #82162c; --lead-ink: #fff9f2; padding-block:0 clamp(38px,5vw,72px); }
 .by-lead, .by-feed, .by-card { min-width:0; }
 .by-lead {
   display: grid;
@@ -8,8 +8,8 @@ html[data-theme=dark] :is(.by-home,.by-index) { --edition-accent: #ff8aa0; }
   align-items: stretch;
   min-block-size: clamp(29rem,43vw,39rem);
   overflow: hidden;
-  background: #82162c;
-  color: #fff9f2;
+  background: var(--lead-paper);
+  color: var(--lead-ink);
   border-radius: 7px;
 }
 .by-lead-type { grid-template-columns: minmax(0,1fr); }

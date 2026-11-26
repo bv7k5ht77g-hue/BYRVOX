@@ -43,6 +43,9 @@ const parents = new Map(Object.entries(deskFamilies).flatMap(([parent, children]
 export function canonicalCategory(category: string) {
   return normalized.get(fold(category)) || category.trim();
 }
+export function parentDesk(category: string) {
+  return parents.get(category) || category;
+}
 export function categoryHref(category: string) {
   return editionHref('actualites', '', canonicalCategory(category));
 }
@@ -52,7 +55,7 @@ export function orderedCategories(published: readonly string[]) {
 
 export function groupDesks(categories: readonly string[]) {
   const present = new Set(categories.map(canonicalCategory).filter(Boolean));
-  const ordered = [...new Set([...featuredCategories, ...Array.from(present, name => parents.get(name) || name)])];
+  const ordered = [...new Set([...featuredCategories, ...Array.from(present, parentDesk)])];
   return ordered.map(name => ({
     name,
     children: (Object.hasOwn(deskFamilies, name) ? deskFamilies[name] : []).filter(child => present.has(child)),

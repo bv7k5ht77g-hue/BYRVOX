@@ -21,6 +21,8 @@ import { sectionText } from './section-copy';
 import './front-page.css';
 import './hub-pages.css';
 
+const homeSectionLimit = 5;
+
 const hubPages = {
   actualites: { image: 'news', description: 'newsChannel' },
   presentations: { image: 'editorial' },
@@ -139,11 +141,11 @@ export function EditionFront({ mostRated, stories, headlines, presentations, sav
     {feed.length>0 && <LatestFeed stories={feed} lang={lang} />}
     
     <FeaturedContents stories={more} presentations={[]} savedCount={savedCount} saveButton={saveButton} />
-    {mostRated && <MostRated rows={mostRated} lang={lang}/>}
+    {mostRated && <MostRated rows={mostRated.slice(0,homeSectionLimit)} lang={lang}/>}
     {headlines.length>0 && <section className="by-section" aria-labelledby="topics-heading">
       <div className="by-section-title"><h2 id="topics-heading">{sectionText(lang,'topics')}</h2></div>
       <AllTopicLinks categories={headlines.map(group=>group.category)} lang={lang}/>
-      <DeskCollections groups={headlines} lang={lang}/>
+      <DeskCollections groups={headlines} lang={lang} limit={homeSectionLimit}/>
     </section>}
     <BrandShowcase lang={lang}/><RadioYO lang={lang} compact/>
     <MobileReading lang={lang} />
