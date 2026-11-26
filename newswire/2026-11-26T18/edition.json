@@ -1,0 +1,1145 @@
+{
+  "hour": "2026-11-26T18",
+  "articles": [
+    {
+      "eventKey": "courtenay-maple-pool-ordre-evacuation-neuf-adresses",
+      "category": "Canada",
+      "sources": [
+        {
+          "name": "EmergencyInfoBC",
+          "url": "https://www.emergencyinfobc.gov.bc.ca/event/flood-order-courtenay-26nov26/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "La Presse Canadienne / larongeNOW",
+          "url": "https://larongenow.com/2026/11/26/weather-station-records-469-millimetres-of-rain-in-latest-b-c-soaking/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "BC River Forecast Centre",
+          "url": "https://bcrfc.env.gov.bc.ca/warnings/advisories/FWT_2026_11_26_0630_VI_UPG.pdf",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Flooding triggers evacuation order in Courtenay’s Maple Pool area",
+          "summary": "Nine addresses on Headquarters Road on Vancouver Island are affected. A reception centre is open at 360 Cliffe Avenue.",
+          "body": "Courtenay and the Comox Valley Regional District upgraded an evacuation alert to an order Thursday morning for nine properties on Headquarters Road, including the Maple Pool campground area. In its 8 a.m. notice, EmergencyInfoBC said floodwaters threatened residents’ safety.\n\nThe Canadian Press reports that other properties near the Puntledge River remain on alert. According to the provincial River Forecast Centre, rain and rapid mountain snowmelt are both feeding rivers.",
+          "photoAlt": "Fifth Street in Courtenay, with the bridge in the distance.",
+          "photoCaption": "Archive photo (2012-09-29). Fifth Street in Courtenay, with the bridge in the distance."
+        },
+        "es": {
+          "title": "La crecida obliga a evacuar el sector de Maple Pool en Courtenay",
+          "summary": "La orden afecta a nueve direcciones de Headquarters Road, en la isla de Vancouver. Hay un centro de acogida en el 360 de Cliffe Avenue.",
+          "body": "Courtenay y el distrito regional del valle de Comox elevaron el jueves por la mañana la alerta a orden de evacuación para nueve propiedades de Headquarters Road, incluida la zona del camping Maple Pool. En su aviso de las ocho, EmergencyInfoBC indicó que el agua amenazaba la seguridad de los residentes.\n\nSegún The Canadian Press, otras propiedades cercanas al río Puntledge siguen en alerta. El centro provincial de previsión de crecidas atribuye el aumento del caudal tanto a la lluvia como al rápido deshielo en las montañas.",
+          "photoAlt": "Quinta Calle de Courtenay, con el puente al fondo.",
+          "photoCaption": "Foto de archivo (2012-09-29). Quinta Calle de Courtenay, con el puente al fondo."
+        },
+        "ar": {
+          "title": "الفيضانات تفرض إخلاء منطقة ميبل بول في كورتني",
+          "summary": "يشمل الأمر تسعة عناوين على طريق هيدكوارترز في جزيرة فانكوفر. وفُتح مركز استقبال في 360 شارع كليف.",
+          "body": "رفعت مدينة كورتني ومنطقة وادي كوموكس الإقليمية صباح الخميس تنبيه الإخلاء إلى أمر ملزم لتسعة عقارات على طريق هيدكوارترز تشمل منطقة مخيم ميبل بول. وقالت هيئة الطوارئ في إشعار الثامنة صباحاً إن المياه تهدد سلامة السكان المعنيين.\n\nوأفادت وكالة الصحافة الكندية بأن عقارات أخرى قرب نهر بانتليدج لا تزال تحت التنبيه. ووفق مركز توقعات الفيضانات في المقاطعة تغذي الأمطار وذوبان ثلوج الجبال السريع الأنهار في آن واحد.",
+          "photoAlt": "الشارع الخامس في كورتني والجسر في الخلفية.",
+          "photoCaption": "صورة أرشيفية (2012-09-29). الشارع الخامس في كورتني والجسر في الخلفية."
+        },
+        "zh-CN": {
+          "title": "洪水迫使考特尼市梅普尔普尔地区疏散",
+          "summary": "温哥华岛总部路上有九处地址受影响，接待中心设于克利夫大道360号。",
+          "body": "考特尼市和科莫克斯谷地区政府周四上午将总部路九处房产的疏散警戒升级为疏散令，涉及梅普尔普尔营地一带。不列颠哥伦比亚省应急信息部门在早上8时的通告中表示，洪水威胁当地居民安全。\n\n加拿大通讯社报道，蓬特利奇河附近其他房产仍处于警戒状态。省河流预报中心指出，降雨与山区积雪迅速融化正同时推高河流水量。",
+          "photoAlt": "考特尼市第五街，远处可见大桥。",
+          "photoCaption": "资料照片 (2012-09-29). 考特尼市第五街，远处可见大桥。"
+        },
+        "ru": {
+          "title": "В Кортни из-за паводка распорядились эвакуировать район Мейпл-Пул",
+          "summary": "Приказ касается девяти адресов на Хедквотерс-роуд на острове Ванкувер. Центр приёма открыт по адресу Клифф-авеню, 360.",
+          "body": "В четверг утром город Кортни и региональный округ долины Комокс заменили предупреждение приказом об эвакуации для девяти участков на Хедквотерс-роуд, включая район кемпинга Мейпл-Пул. В сообщении на 8 утра EmergencyInfoBC указала, что вода угрожает безопасности жителей.\n\nПо данным The Canadian Press, для других домов у реки Пантледж сохраняется предупреждение. Провинциальный центр прогнозирования паводков сообщил, что реки пополняют одновременно дожди и быстро тающие горные снега.",
+          "photoAlt": "Пятая улица в Кортни, вдали виден мост.",
+          "photoCaption": "Архивное фото (2012-09-29). Пятая улица в Кортни, вдали виден мост."
+        },
+        "ko": {
+          "title": "코트니 메이플풀 일대에 홍수 대피 명령",
+          "summary": "밴쿠버섬 헤드쿼터스 로드의 아홉 곳이 대상이다. 클리프 애비뉴 360번지에 접수센터가 열렸다.",
+          "body": "코트니시와 코목스밸리 광역당국이 목요일 오전 메이플풀 야영장 일대를 포함해 헤드쿼터스 로드의 아홉 곳에 내려진 대피 경보를 명령으로 격상했다. 주 비상정보 당국은 오전 8시 공지에서 홍수가 해당 주민들의 안전을 위협한다고 밝혔다.\n\n캐나디안 프레스에 따르면 펀틀리지강 인근의 다른 주택에는 대피 경보가 유지됐다. 주 하천예보센터는 비와 산간 적설의 급속한 해빙이 함께 강물을 불리고 있다고 설명했다.",
+          "photoAlt": "코트니의 5번가와 멀리 보이는 다리.",
+          "photoCaption": "자료 사진 (2012-09-29). 코트니의 5번가와 멀리 보이는 다리."
+        }
+      },
+      "verified": true,
+      "title": "À Courtenay, la crue entraîne un ordre d’évacuation dans le secteur de Maple Pool",
+      "summary": "Neuf adresses du chemin Headquarters sont visées sur l’île de Vancouver. Un centre d’accueil est ouvert au 360, avenue Cliffe.",
+      "body": "La Ville de Courtenay et le district régional de la vallée de Comox ont relevé jeudi matin l’alerte d’évacuation au rang d’ordre pour neuf propriétés du chemin Headquarters, dont le secteur du camping Maple Pool. Dans son avis de 8 h, EmergencyInfoBC indique que l’eau menace la sécurité des résidents visés.\n\nLa Presse Canadienne rapporte que d’autres propriétés près de la rivière Puntledge demeurent en alerte. Selon le centre provincial de prévision des crues, la pluie et la fonte rapide de la neige en altitude alimentent simultanément les cours d’eau.",
+      "photo": {
+        "download": "media/flood.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fifth_Street_Courtenay.jpg",
+        "credit": "Jo Hund",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "La Cinquième Rue à Courtenay, avec le pont au fond.",
+        "caption": "Photo d’archives (2012-09-29). La Cinquième Rue à Courtenay, avec le pont au fond."
+      }
+    },
+    {
+      "eventKey": "nav-canada-controleurs-ecart-cible-avant-fetes",
+      "category": "Transports",
+      "sources": [
+        {
+          "name": "La Presse Canadienne / CityNews",
+          "url": "https://toronto.citynews.ca/2026/11/26/air-traffic-controller-shortage-persists-but-delays-caused-by-labour-gap-way-down/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "NAV CANADA",
+          "url": "https://www.navcanada.ca/en/news/news-releases/nav-canada-reports-summer-long-drop-in-flight-delays-at-canadas-busiest-airports.aspx",
+          "publishedAt": "2026-09-28"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Canada still needs about 170 air traffic controllers",
+          "summary": "NAV CANADA quantified the gap ahead of the holidays after a summer when fewer flights were affected by staffing or equipment issues.",
+          "body": "NAV CANADA CEO Mark Cooper told The Canadian Press Thursday that the organization employs more than 2,100 controllers and needs about 170 more to meet its target. About 400 controllers have been licensed since 2023, he said.\n\nSummer figures offer another measure. From May to August the share of scheduled flights affected by NAV CANADA staffing or equipment issues at four major airports fell from 1.54% in 2025 to 0.24% in 2026, the organization says.",
+          "photoAlt": "Aerial view of runways and terminals at Toronto Pearson.",
+          "photoCaption": "Archive photo (2007-08). Aerial view of runways and terminals at Toronto Pearson."
+        },
+        "es": {
+          "title": "Canadá aún necesita unos 170 controladores aéreos",
+          "summary": "NAV CANADA cifró el déficit antes de las fiestas, tras un verano con menos vuelos afectados por problemas de personal o equipos.",
+          "body": "El presidente de NAV CANADA, Mark Cooper, dijo el jueves a The Canadian Press que la entidad emplea a más de 2.100 controladores y necesita unos 170 más para alcanzar su meta. Desde 2023 se han otorgado unas 400 licencias, señaló.\n\nLas cifras estivales ofrecen otra medida. Entre mayo y agosto, la proporción de vuelos programados afectados por problemas de personal o equipos de NAV CANADA en cuatro grandes aeropuertos pasó del 1,54 % en 2025 al 0,24 % en 2026, según la entidad.",
+          "photoAlt": "Vista aérea de pistas y terminales de Toronto Pearson.",
+          "photoCaption": "Foto de archivo (2007-08). Vista aérea de pistas y terminales de Toronto Pearson."
+        },
+        "ar": {
+          "title": "كندا ما زالت بحاجة إلى نحو 170 مراقباً جوياً",
+          "summary": "حددت ناف كندا النقص قبيل موسم الأعياد بعد تراجع عدد الرحلات المتأثرة بمشكلات الموظفين أو المعدات صيفاً.",
+          "body": "قال رئيس ناف كندا مارك كوبر لوكالة الصحافة الكندية الخميس إن المؤسسة توظف أكثر من 2100 مراقب وتحتاج إلى نحو 170 آخرين لتحقيق هدفها. وذكر أن نحو 400 مراقب حصلوا على ترخيص منذ 2023.\n\nوتقدم أرقام الصيف مقياساً آخر. فمن مايو إلى أغسطس هبطت نسبة الرحلات المجدولة المتأثرة بمشكلات موظفي المؤسسة أو معداتها في أربعة مطارات كبرى من 1.54% في 2025 إلى 0.24% في 2026، بحسب المؤسسة.",
+          "photoAlt": "منظر جوي لمدارج ومباني مطار تورونتو بيرسون.",
+          "photoCaption": "صورة أرشيفية (2007-08). منظر جوي لمدارج ومباني مطار تورونتو بيرسون."
+        },
+        "zh-CN": {
+          "title": "加拿大空管人员仍缺约170人",
+          "summary": "加拿大空中导航服务公司在假日前公布人手缺口，今年夏季因人员或设备问题受影响的航班已减少。",
+          "body": "该公司总裁马克·库珀周四告诉加拿大通讯社，公司现有逾2100名空管员，距离目标还差约170人。他说，自2023年以来约有400人取得执照。\n\n夏季数据提供了另一个衡量角度。公司称，在四大机场，5月至8月因其人员或设备问题受影响的计划航班占比，从2025年的1.54%降至2026年的0.24%。",
+          "photoAlt": "鸟瞰多伦多皮尔逊机场的跑道和航站楼。",
+          "photoCaption": "资料照片 (2007-08). 鸟瞰多伦多皮尔逊机场的跑道和航站楼。"
+        },
+        "ru": {
+          "title": "Канаде по-прежнему не хватает около 170 авиадиспетчеров",
+          "summary": "NAV CANADA оценила дефицит перед праздниками. Летом кадровые и технические проблемы затронули меньше рейсов.",
+          "body": "Глава NAV CANADA Марк Купер сообщил The Canadian Press в четверг, что в организации работают более 2100 диспетчеров, а для достижения целевого показателя нужны ещё около 170. По его словам, с 2023 года лицензии получили около 400 диспетчеров.\n\nЕсть и другой показатель. По данным организации, в четырёх крупных аэропортах с мая по август доля плановых рейсов, затронутых её кадровыми или техническими проблемами, сократилась с 1,54% в 2025 году до 0,24% в 2026-м.",
+          "photoAlt": "Вид сверху на полосы и терминалы аэропорта Торонто-Пирсон.",
+          "photoCaption": "Архивное фото (2007-08). Вид сверху на полосы и терминалы аэропорта Торонто-Пирсон."
+        },
+        "ko": {
+          "title": "캐나다 항공관제사 여전히 약 170명 부족",
+          "summary": "여름철 인력·장비 문제로 영향을 받은 항공편이 줄어든 가운데 내브캐나다가 연말을 앞두고 인력 부족 규모를 밝혔다.",
+          "body": "마크 쿠퍼 내브캐나다 대표는 목요일 캐나디안 프레스에 관제사가 2,100명 이상이지만 목표 인원까지는 약 170명이 부족하다고 밝혔다. 그는 2023년 이후 약 400명이 면허를 받았다고 말했다.\n\n여름 통계는 다른 측면을 보여준다. 내브캐나다에 따르면 4대 공항에서 5~8월 자사 인력·장비 문제의 영향을 받은 정기편 비중은 2025년 1.54%에서 2026년 0.24%로 줄었다.",
+          "photoAlt": "토론토 피어슨 공항 활주로와 터미널의 항공 사진.",
+          "photoCaption": "자료 사진 (2007-08). 토론토 피어슨 공항 활주로와 터미널의 항공 사진."
+        }
+      },
+      "verified": true,
+      "title": "Contrôle aérien au Canada : il manque encore environ 170 contrôleurs",
+      "summary": "NAV CANADA chiffre l’écart à l’approche des Fêtes, après un été où moins de vols ont subi les effets du manque de personnel ou de matériel.",
+      "body": "Mark Cooper, président de NAV CANADA, a indiqué jeudi à La Presse Canadienne que l’organisme emploie plus de 2 100 contrôleurs aériens. Il lui en faudrait encore environ 170 pour atteindre sa cible. Selon lui, quelque 400 contrôleurs ont obtenu leur licence depuis 2023.\n\nLes chiffres de l’été donnent une autre mesure de la situation. De mai à août, la proportion de vols programmés touchés par un problème de personnel ou de matériel de NAV CANADA dans quatre grands aéroports est passée de 1,54 % en 2025 à 0,24 % en 2026, selon l’organisme.",
+      "photo": {
+        "download": "media/nav.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:YYZ_Aerial_2.jpg",
+        "credit": "Buffyjossdollhouse",
+        "license": "Domaine public — mise à disposition par le titulaire des droits",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:YYZ_Aerial_2.jpg#Licensing",
+        "alt": "Vue aérienne des pistes et des terminaux de Toronto-Pearson.",
+        "caption": "Photo d’archives (2007-08). Vue aérienne des pistes et des terminaux de Toronto-Pearson."
+      }
+    },
+    {
+      "eventKey": "temu-engagements-europe-rabais-avis-consommateurs",
+      "category": "Économie",
+      "sources": [
+        {
+          "name": "Competition and Consumer Protection Commission (Irlande)",
+          "url": "https://www.ccpc.ie/news-and-media/news/article/2026/11/26/ccpc-and-eu-consumer-authorities-secure-consumer-protection-commitments-from-temu",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/temu-agrees-to-change-commercial-practices-in-eu-says-commission",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Temu agrees to change its sales practices in Europe",
+          "summary": "National authorities will monitor the platform’s commitments on discounts, reviews and refunds.",
+          "body": "Ireland’s consumer authority said Thursday it had secured changes to Temu’s website and app. Ireland, Belgium and Germany led the action, coordinated by the European Commission.\n\nTemu confirmed the agreement, Euronews reported. For shoppers in the European Economic Area, the commitments include transparent prices and reliable reviews. National authorities will monitor compliance.",
+          "photoAlt": "The Berlaymont, headquarters of the European Commission in Brussels.",
+          "photoCaption": "Archive photo (2019-09-14). The Berlaymont, headquarters of the European Commission in Brussels."
+        },
+        "es": {
+          "title": "Temu se compromete a cambiar sus prácticas de venta en Europa",
+          "summary": "Las autoridades nacionales supervisarán los compromisos sobre descuentos, reseñas y reembolsos.",
+          "body": "La autoridad irlandesa de consumo anunció el jueves que había logrado cambios en la web y la aplicación de Temu. Irlanda, Bélgica y Alemania encabezaron la actuación, coordinada por la Comisión Europea.\n\nSegún Euronews, Temu confirmó el acuerdo. Para los compradores del Espacio Económico Europeo, los compromisos incluyen precios transparentes y reseñas fiables. Las autoridades nacionales supervisarán su cumplimiento.",
+          "photoAlt": "El Berlaymont, sede de la Comisión Europea en Bruselas.",
+          "photoCaption": "Foto de archivo (2019-09-14). El Berlaymont, sede de la Comisión Europea en Bruselas."
+        },
+        "ar": {
+          "title": "تيمو تتعهد بتغيير ممارسات البيع في أوروبا",
+          "summary": "ستراقب السلطات الوطنية تنفيذ تعهدات المنصة بشأن التخفيضات والتقييمات ورد الأموال.",
+          "body": "أعلنت هيئة حماية المستهلك الأيرلندية الخميس أنها توصلت إلى تغييرات في موقع تيمو وتطبيقه. وقادت أيرلندا وبلجيكا وألمانيا التحرك بتنسيق من المفوضية الأوروبية.\n\nوأكدت تيمو الاتفاق وفق يورونيوز. وتشمل الالتزامات للمشترين في المنطقة الاقتصادية الأوروبية شفافية الأسعار وموثوقية التقييمات. وستراقب السلطات الوطنية تنفيذها.",
+          "photoAlt": "مبنى برلايمون مقر المفوضية الأوروبية في بروكسل.",
+          "photoCaption": "صورة أرشيفية (2019-09-14). مبنى برلايمون مقر المفوضية الأوروبية في بروكسل."
+        },
+        "zh-CN": {
+          "title": "Temu承诺调整在欧洲的销售方式",
+          "summary": "各国主管部门将监督平台落实有关折扣、评价和退款的承诺。",
+          "body": "爱尔兰消费者保护机构周四表示，已促使Temu修改网站和应用程序。爱尔兰、比利时和德国牵头，欧盟委员会负责协调。\n\n据欧洲新闻台报道，Temu确认达成协议。对于欧洲经济区的消费者，承诺包括确保价格透明和评价可靠。各国主管部门将监督落实情况。",
+          "photoAlt": "位于布鲁塞尔的欧盟委员会总部贝尔莱蒙大厦。",
+          "photoCaption": "资料照片 (2019-09-14). 位于布鲁塞尔的欧盟委员会总部贝尔莱蒙大厦。"
+        },
+        "ru": {
+          "title": "Temu согласилась изменить методы продаж в Европе",
+          "summary": "Национальные органы проследят за выполнением обязательств по скидкам, отзывам и возврату денег.",
+          "body": "Ирландское ведомство по защите потребителей сообщило в четверг, что добилось изменений на сайте и в приложении Temu. Ирландия, Бельгия и Германия возглавили работу при координации Еврокомиссии.\n\nПо данным Euronews, Temu подтвердила договорённость. Для покупателей Европейской экономической зоны обязательства касаются, в частности, прозрачных цен и достоверных отзывов. Исполнение проверят национальные ведомства.",
+          "photoAlt": "Берлемон, штаб-квартира Еврокомиссии в Брюсселе.",
+          "photoCaption": "Архивное фото (2019-09-14). Берлемон, штаб-квартира Еврокомиссии в Брюсселе."
+        },
+        "ko": {
+          "title": "테무, 유럽 내 판매 관행 변경 약속",
+          "summary": "각국 당국이 할인과 후기, 환불에 대한 플랫폼의 약속 이행을 점검한다.",
+          "body": "아일랜드 소비자 당국은 목요일 테무의 웹사이트와 앱 운영 방식 변경을 이끌어 냈다고 밝혔다. 아일랜드와 벨기에, 독일이 주도하고 유럽연합 집행위원회가 조율했다.\n\n유로뉴스에 따르면 테무도 합의를 확인했다. 유럽경제지역 소비자에게 적용되는 약속에는 투명한 가격과 신뢰할 수 있는 후기가 포함된다. 각국 당국이 이행을 감독한다.",
+          "photoAlt": "브뤼셀의 유럽연합 집행위원회 본부 베를레몽.",
+          "photoCaption": "자료 사진 (2019-09-14). 브뤼셀의 유럽연합 집행위원회 본부 베를레몽."
+        }
+      },
+      "verified": true,
+      "title": "Temu s’engage à modifier ses pratiques de vente en Europe",
+      "summary": "Les autorités nationales suivront les engagements de la plateforme sur les rabais, les avis et les remboursements.",
+      "body": "L’autorité irlandaise de protection des consommateurs a annoncé jeudi avoir obtenu des changements sur le site et dans l’application de Temu. L’Irlande, la Belgique et l’Allemagne ont mené cette démarche sous la coordination de la Commission européenne.\n\nSelon Euronews, Temu a confirmé l’accord. Pour les acheteurs de l’Espace économique européen, les engagements portent notamment sur la transparence des prix et la fiabilité des avis. Il reviendra aux autorités nationales de contrôler leur application.",
+      "photo": {
+        "download": "media/temu.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg",
+        "credit": "EmDee",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Le Berlaymont, siège de la Commission européenne à Bruxelles.",
+        "caption": "Photo d’archives (2019-09-14). Le Berlaymont, siège de la Commission européenne à Bruxelles."
+      }
+    },
+    {
+      "eventKey": "quebec-marceau-negociations-finances-infrastructures-municipales",
+      "category": "Québec",
+      "sources": [
+        {
+          "name": "La Presse Canadienne / Ma Beauce",
+          "url": "https://mabeauce.com/2026/11/26/marceau-assure-quil-aidera-les-municipalites-a-entretenir-leurs-infrastructures/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Le Journal de Québec",
+          "url": "https://www.journaldequebec.com/2026/11/26/marceau-promet--un-grand-partenariat--pour-aider-les-villes",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "La Presse Canadienne / Granby Express",
+          "url": "https://www.granbyexpress.com/nouvelles-nationales/infrastructures-paul-st-pierre-plamondon-laisse-entrevoir-un-repit-pour-les-villes/",
+          "publishedAt": "2026-11-23"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Quebec finance minister seeks talks with municipalities on infrastructure funding",
+          "summary": "In Quebec City, Nicolas Marceau clarified that the talks would cover all municipalities.",
+          "body": "Asked Thursday in Quebec City about municipal tax increases, Nicolas Marceau said he wanted to review financial relations between the province and cities. Ma Beauce reports that he returned to reporters to clarify that the discussions would involve all municipalities.\n\nInfrastructure maintenance is central to the proposed negotiations. Premier Paul St-Pierre Plamondon had already spoken in Montreal on Monday of a provincial contribution to that effort, The Canadian Press reported.",
+          "photoAlt": "Nicolas Marceau at the Montreal book fair.",
+          "photoCaption": "Archive photo (2022-11-24). Nicolas Marceau at the Montreal book fair."
+        },
+        "es": {
+          "title": "Nicolas Marceau quiere negociar con los municipios sobre financiación de infraestructuras",
+          "summary": "El ministro de Finanzas aclaró en la ciudad de Quebec que el diálogo abarcaría a todos los municipios.",
+          "body": "Preguntado el jueves en Quebec por las subidas de impuestos municipales, Marceau dijo que quiere revisar las relaciones financieras entre la provincia y las ciudades. Según Ma Beauce, volvió ante la prensa para aclarar que el diálogo incluiría a todos los municipios.\n\nEl mantenimiento de las infraestructuras centra la negociación propuesta. El lunes, el primer ministro provincial Paul St-Pierre Plamondon ya habló en Montreal de una contribución provincial a ese esfuerzo, informó The Canadian Press.",
+          "photoAlt": "Nicolas Marceau en la feria del libro de Montreal.",
+          "photoCaption": "Foto de archivo (2022-11-24). Nicolas Marceau en la feria del libro de Montreal."
+        },
+        "ar": {
+          "title": "وزير مالية كيبيك يريد التفاوض مع البلديات على تمويل البنية التحتية",
+          "summary": "أوضح نيكولا مارسو في مدينة كيبيك أن المحادثات ستشمل جميع البلديات.",
+          "body": "رداً على سؤال الخميس في مدينة كيبيك عن زيادات الضرائب البلدية، قال مارسو إنه يريد مراجعة العلاقات المالية بين المقاطعة والمدن. وبحسب ما بوس، عاد إلى الصحفيين ليوضح أن المحادثات ستشمل كل البلديات.\n\nوتتمحور المفاوضات المرتقبة حول صيانة البنية التحتية. وأفادت وكالة الصحافة الكندية بأن رئيس حكومة المقاطعة بول سان بيير بلاموندون سبق أن تحدث الاثنين في مونتريال عن مساهمة كيبيك في هذا الجهد.",
+          "photoAlt": "نيكولا مارسو في معرض مونتريال للكتاب.",
+          "photoCaption": "صورة أرشيفية (2022-11-24). نيكولا مارسو في معرض مونتريال للكتاب."
+        },
+        "zh-CN": {
+          "title": "魁北克财长拟就基础设施经费与各市镇谈判",
+          "summary": "尼古拉·马尔索在魁北克市澄清，讨论将涵盖全省所有市镇。",
+          "body": "周四在魁北克市被问及市政税上涨时，马尔索表示希望重新审视省与市镇之间的财政关系。据Ma Beauce报道，他随后再次面对记者，明确讨论将涉及所有市镇。\n\n基础设施维护是拟议谈判的核心。据加拿大通讯社报道，省长保罗·圣皮埃尔·普拉蒙东周一已在蒙特利尔谈到省政府将为此出力。",
+          "photoAlt": "尼古拉·马尔索在蒙特利尔书展上。",
+          "photoCaption": "资料照片 (2022-11-24). 尼古拉·马尔索在蒙特利尔书展上。"
+        },
+        "ru": {
+          "title": "Глава Минфина Квебека хочет обсудить с городами финансирование инфраструктуры",
+          "summary": "В городе Квебеке Николя Марсо уточнил, что переговоры охватят все муниципалитеты.",
+          "body": "В четверг в городе Квебеке Марсо в ответ на вопрос о росте местных налогов заявил, что хочет пересмотреть финансовые отношения провинции с городами. По данным Ma Beauce, министр вернулся к журналистам, чтобы уточнить, что обсуждение затронет все муниципалитеты.\n\nВ центре предполагаемых переговоров — содержание инфраструктуры. По данным The Canadian Press, ещё в понедельник премьер провинции Поль Сен-Пьер Пламондон говорил в Монреале об участии Квебека в этой работе.",
+          "photoAlt": "Николя Марсо на книжной ярмарке в Монреале.",
+          "photoCaption": "Архивное фото (2022-11-24). Николя Марсо на книжной ярмарке в Монреале."
+        },
+        "ko": {
+          "title": "퀘벡 재무장관, 기반시설 재원 놓고 지방자치단체와 협상 추진",
+          "summary": "니콜라 마르소는 퀘벡시에서 모든 지자체가 논의 대상이라고 밝혔다.",
+          "body": "마르소 장관은 목요일 퀘벡시에서 지방세 인상에 관한 질문을 받고 주정부와 도시 간 재정 관계를 재검토하고 싶다고 말했다. 마 보스에 따르면 장관은 기자들에게 돌아와 모든 지자체를 대상으로 논의하겠다고 설명했다.\n\n예정된 협상의 핵심은 기반시설 유지 보수다. 캐나디안 프레스에 따르면 폴 생피에르 플라몽동 주총리도 월요일 몬트리올에서 이 과제에 주정부가 기여할 것이라고 말했다.",
+          "photoAlt": "몬트리올 도서전에 참석한 니콜라 마르소.",
+          "photoCaption": "자료 사진 (2022-11-24). 몬트리올 도서전에 참석한 니콜라 마르소."
+        }
+      },
+      "verified": true,
+      "title": "Nicolas Marceau veut négocier avec les villes sur le financement de leurs infrastructures",
+      "summary": "À Québec, le ministre des Finances a précisé que la discussion viserait l’ensemble des municipalités.",
+      "body": "Interrogé jeudi à Québec sur les hausses de taxes municipales, Nicolas Marceau a dit vouloir revoir les relations financières entre la province et les villes. Selon Ma Beauce, le ministre est revenu devant les journalistes pour préciser que les discussions concerneraient toutes les municipalités.\n\nL’entretien des infrastructures est au cœur de cette négociation annoncée. Lundi, le premier ministre Paul St-Pierre Plamondon avait déjà évoqué à Montréal la participation de Québec à cet effort, rapportait La Presse Canadienne.",
+      "photo": {
+        "download": "media/marceau.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nicolas_Marceau_au_SLM_2022.jpg",
+        "credit": "Bull-Doser",
+        "license": "Domaine public — mise à disposition par le titulaire des droits",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nicolas_Marceau_au_SLM_2022.jpg#Licensing",
+        "alt": "Nicolas Marceau au Salon du livre de Montréal.",
+        "caption": "Photo d’archives (2022-11-24). Nicolas Marceau au Salon du livre de Montréal."
+      }
+    },
+    {
+      "eventKey": "union-europeenne-medicaments-critiques-achats-groupes-volontaires",
+      "category": "Santé",
+      "sources": [
+        {
+          "name": "Parlement européen",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20261119IPR48970/new-rules-for-the-eu-s-pharmaceutical-sector",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/european-parliament-approves-new-eu-medicines-rules-what-happens-next",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "European Parliament backs voluntary joint purchasing of critical medicines",
+          "summary": "Five or more countries will be able to pool purchases of certain treatments under legislation aimed at preventing shortages.",
+          "body": "In Strasbourg on Wednesday, lawmakers approved the Critical Medicines Act by 592 votes to 35, with 30 abstentions. Parliament says five or more countries will be able to organize voluntary joint purchases, including for critical medicines and drugs for rare diseases.\n\nThe vote accompanies a wider reform of pharmaceutical legislation. Euronews reports that supply monitoring is to be strengthened to identify shortages and improve access to treatment.",
+          "photoAlt": "The European Parliament chamber in session in Strasbourg.",
+          "photoCaption": "Archive photo (2014-02-05). The European Parliament chamber in session in Strasbourg."
+        },
+        "es": {
+          "title": "La Eurocámara avala la compra conjunta voluntaria de medicamentos críticos",
+          "summary": "Cinco países o más podrán agruparse para comprar ciertos tratamientos según una norma que busca evitar el desabastecimiento.",
+          "body": "En Estrasburgo, los diputados aprobaron el miércoles la norma sobre medicamentos críticos por 592 votos contra 35 y 30 abstenciones. Según el Parlamento, al menos cinco países podrán organizar compras conjuntas voluntarias, por ejemplo de medicamentos críticos o para enfermedades raras.\n\nEl voto acompaña una reforma más amplia de la legislación farmacéutica. Euronews señala que se reforzará el seguimiento del suministro para detectar carencias y mejorar el acceso a los tratamientos.",
+          "photoAlt": "El hemiciclo del Parlamento Europeo en sesión en Estrasburgo.",
+          "photoCaption": "Foto de archivo (2014-02-05). El hemiciclo del Parlamento Europeo en sesión en Estrasburgo."
+        },
+        "ar": {
+          "title": "البرلمان الأوروبي يقر الشراء الجماعي الطوعي للأدوية الحرجة",
+          "summary": "سيتمكن خمسة بلدان أو أكثر من شراء علاجات معينة معاً في إطار تشريع يهدف إلى تفادي النقص.",
+          "body": "أقر النواب في ستراسبورغ الأربعاء قانون الأدوية الحرجة بـ592 صوتاً مقابل 35 وامتناع 30. وقال البرلمان إن خمسة بلدان أو أكثر ستتمكن من تنظيم مشتريات مشتركة طوعية تشمل الأدوية الحرجة وعلاجات الأمراض النادرة.\n\nويرافق التصويت إصلاحاً أوسع للتشريع الدوائي. وذكرت يورونيوز أن مراقبة الإمدادات ستتعزز لرصد النقص وتحسين الوصول إلى العلاج.",
+          "photoAlt": "قاعة البرلمان الأوروبي أثناء جلسة في ستراسبورغ.",
+          "photoCaption": "صورة أرشيفية (2014-02-05). قاعة البرلمان الأوروبي أثناء جلسة في ستراسبورغ."
+        },
+        "zh-CN": {
+          "title": "欧洲议会批准自愿联合采购关键药品",
+          "summary": "根据旨在预防短缺的新法规，至少五个国家可共同采购某些治疗药物。",
+          "body": "欧洲议会周三在斯特拉斯堡以592票赞成、35票反对、30票弃权通过《关键药品法》。议会表示，五个或更多国家可自愿联合采购，包括关键药品或罕见病用药。\n\n此次投票是更广泛药品法规改革的一部分。欧洲新闻台报道，供应监测将得到加强，以发现短缺并改善治疗的可及性。",
+          "photoAlt": "在斯特拉斯堡开会的欧洲议会全体会议厅。",
+          "photoCaption": "资料照片 (2014-02-05). 在斯特拉斯堡开会的欧洲议会全体会议厅。"
+        },
+        "ru": {
+          "title": "Европарламент одобрил добровольные совместные закупки критически важных лекарств",
+          "summary": "Пять или более стран смогут объединяться для закупки отдельных препаратов по закону о предотвращении дефицита.",
+          "body": "В среду в Страсбурге закон о критически важных лекарствах получил 592 голоса за и 35 против при 30 воздержавшихся. По данным парламента, пять или более стран смогут добровольно закупать вместе в том числе критически важные препараты и лекарства от редких заболеваний.\n\nГолосование сопровождает более широкую реформу фармацевтического законодательства. По данным Euronews, мониторинг поставок усилят для выявления дефицита и улучшения доступа к лечению.",
+          "photoAlt": "Заседание в зале Европарламента в Страсбурге.",
+          "photoCaption": "Архивное фото (2014-02-05). Заседание в зале Европарламента в Страсбурге."
+        },
+        "ko": {
+          "title": "유럽의회, 핵심 의약품 자발적 공동 구매 승인",
+          "summary": "공급 부족 예방을 위한 법안에 따라 5개국 이상이 일부 치료제를 함께 살 수 있게 된다.",
+          "body": "유럽의회는 수요일 스트라스부르에서 찬성 592표, 반대 35표, 기권 30표로 핵심 의약품 법안을 가결했다. 의회에 따르면 5개국 이상이 핵심 의약품과 희귀질환 치료제 등의 구매를 자발적으로 공동 추진할 수 있다.\n\n이번 표결은 광범위한 의약품 법제 개편과 함께 이뤄졌다. 유로뉴스는 부족을 감지하고 치료 접근성을 높이기 위해 공급 모니터링을 강화한다고 보도했다.",
+          "photoAlt": "스트라스부르 유럽의회 본회의장에서 열린 회의.",
+          "photoCaption": "자료 사진 (2014-02-05). 스트라스부르 유럽의회 본회의장에서 열린 회의."
+        }
+      },
+      "verified": true,
+      "title": "Médicaments critiques : le Parlement européen approuve des achats groupés volontaires",
+      "summary": "Au moins cinq pays pourront se regrouper pour acheter certains traitements, dans le cadre d’un texte destiné à prévenir les pénuries.",
+      "body": "À Strasbourg, les eurodéputés ont adopté mercredi le texte sur les médicaments critiques par 592 voix contre 35, avec 30 abstentions. Le Parlement explique que cinq pays ou plus pourront organiser des achats communs sur une base volontaire, notamment pour les médicaments critiques ou destinés aux maladies rares.\n\nCe vote accompagne une réforme plus vaste de la législation pharmaceutique. Euronews relève que le suivi des approvisionnements doit être renforcé pour repérer les pénuries et améliorer l’accès aux traitements.",
+      "photo": {
+        "download": "media/drug.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
+        "credit": "DAVID ILIFF",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "L’hémicycle du Parlement européen en séance à Strasbourg.",
+        "caption": "Photo d’archives (2014-02-05). L’hémicycle du Parlement européen en séance à Strasbourg."
+      }
+    },
+    {
+      "eventKey": "sommet-investissement-toronto-couts-prevus-huit-millions",
+      "category": "Finances publiques",
+      "sources": [
+        {
+          "name": "Chambre des communes du Canada — réponse Q-1536",
+          "url": "https://www.ourcommons.ca/written-questions/45-1/q-1536/14358732",
+          "publishedAt": "2026-11-23"
+        },
+        {
+          "name": "La Presse Canadienne / CityNews",
+          "url": "https://vancouver.citynews.ca/2026/11/26/costs-to-host-canadas-first-investment-summit-topped-8-1-million/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Rebel News",
+          "url": "https://www.rebelnews.com/carneys_investment_summit_has_cost_1_4m_so_far_with_an_estimated_6_5m_still_to_come",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Canada investment summit accounts for over $8.1 million in paid or expected costs",
+          "summary": "The figures submitted to Parliament distinguish payments already made from bills still expected for the Toronto meeting.",
+          "body": "The September summit in Toronto accounts for more than $8.1 million, according to the government’s reply to a written question from MP Andrew Scheer. The Canadian Press reported Thursday that about $1.4 million had been paid and nearly $6.7 million was outstanding.\n\nAbout $6.5 million of the latter sum is for event production. Invest in Canada says this includes staff, audiovisual equipment and transportation.",
+          "photoAlt": "Downtown Toronto skyline seen from the lake.",
+          "photoCaption": "Archive photo (2026-09-11). Downtown Toronto skyline seen from the lake."
+        },
+        "es": {
+          "title": "El coste pagado o previsto de la cumbre canadiense de inversión supera los 8,1 millones de dólares",
+          "summary": "Las cifras entregadas al Parlamento distinguen los pagos realizados de las facturas pendientes de la cita de Toronto.",
+          "body": "La cumbre de septiembre en Toronto supera los 8,1 millones, según la respuesta del gobierno a una pregunta escrita del diputado Andrew Scheer. The Canadian Press informó el jueves de que se habían pagado unos 1,4 millones y quedaban casi 6,7 millones por abonar.\n\nDe esa última suma, unos 6,5 millones corresponden a producción. Invest in Canada explica que incluye personal, equipos audiovisuales y transporte.",
+          "photoAlt": "Perfil del centro de Toronto visto desde el lago.",
+          "photoCaption": "Foto de archivo (2026-09-11). Perfil del centro de Toronto visto desde el lago."
+        },
+        "ar": {
+          "title": "تكاليف قمة الاستثمار الكندية المدفوعة أو المتوقعة تتجاوز 8.1 ملايين دولار",
+          "summary": "تفصل الأرقام المقدمة إلى البرلمان بين ما دُفع وما ينتظر سداده للقاء تورونتو.",
+          "body": "تجاوزت كلفة قمة سبتمبر في تورونتو 8.1 ملايين دولار وفق رد الحكومة على سؤال مكتوب للنائب أندرو شير. وأفادت وكالة الصحافة الكندية الخميس بسداد نحو 1.4 مليون وبقاء قرابة 6.7 ملايين مستحقة.\n\nومن المبلغ الأخير خصص نحو 6.5 ملايين لإنتاج الفعالية. وتوضح وكالة الاستثمار الكندية أن ذلك يشمل الموظفين والمعدات السمعية البصرية والنقل.",
+          "photoAlt": "أفق وسط تورونتو كما يبدو من البحيرة.",
+          "photoCaption": "صورة أرشيفية (2026-09-11). أفق وسط تورونتو كما يبدو من البحيرة."
+        },
+        "zh-CN": {
+          "title": "加拿大投资峰会已付及预计费用逾810万加元",
+          "summary": "提交议会的数字区分了多伦多会议已付款项和仍待支付的账单。",
+          "body": "政府答复议员安德鲁·希尔的书面质询时披露，9月多伦多峰会费用超过810万加元。加拿大通讯社周四报道，约140万已支付，近670万尚待支付。\n\n待付款中约650万用于活动制作。加拿大投资促进局表示，该项涵盖工作人员、视听设备和交通运输等费用。",
+          "photoAlt": "从湖上望向多伦多市中心天际线。",
+          "photoCaption": "资料照片 (2026-09-11). 从湖上望向多伦多市中心天际线。"
+        },
+        "ru": {
+          "title": "Оплаченные и ожидаемые расходы на инвестиционный саммит Канады превысили 8,1 млн долларов",
+          "summary": "В отчёте парламенту разделены проведённые и предстоящие платежи за встречу в Торонто.",
+          "body": "На сентябрьский саммит в Торонто приходится более 8,1 млн долларов, следует из ответа правительства на письменный запрос депутата Эндрю Шира. В четверг The Canadian Press сообщило, что около 1,4 млн уже выплачено, а почти 6,7 млн предстоит выплатить.\n\nИз последней суммы около 6,5 млн приходится на организацию мероприятия. По данным Invest in Canada, сюда входят персонал, аудиовизуальное оборудование и транспорт.",
+          "photoAlt": "Центр Торонто со стороны озера.",
+          "photoCaption": "Архивное фото (2026-09-11). Центр Торонто со стороны озера."
+        },
+        "ko": {
+          "title": "캐나다 투자 정상회의 기지급·예상 비용 810만 달러 넘어",
+          "summary": "의회 제출 자료는 토론토 행사 비용을 이미 낸 금액과 아직 지급할 금액으로 나눴다.",
+          "body": "정부가 앤드루 시어 의원의 서면질의에 답한 자료에 따르면 9월 토론토 정상회의 비용은 810만 캐나다달러 이상이다. 캐나디안 프레스는 목요일 약 140만 달러가 지급됐고 약 670만 달러가 남았다고 보도했다.\n\n남은 금액 중 약 650만 달러가 행사 제작비다. 캐나다 투자유치기관은 여기에 인력과 시청각 장비, 운송비 등이 포함된다고 밝혔다.",
+          "photoAlt": "호수에서 바라본 토론토 도심의 건물들.",
+          "photoCaption": "자료 사진 (2026-09-11). 호수에서 바라본 토론토 도심의 건물들."
+        }
+      },
+      "verified": true,
+      "title": "Le sommet canadien sur l’investissement représente plus de 8,1 millions de dollars en frais payés ou prévus",
+      "summary": "Le bilan remis aux Communes distingue les dépenses déjà réglées des factures encore attendues pour la rencontre de Toronto.",
+      "body": "Le sommet organisé à Toronto en septembre représente plus de 8,1 millions de dollars selon la réponse du gouvernement à une question écrite du député Andrew Scheer. La Presse Canadienne rapporte jeudi qu’environ 1,4 million avait été réglé et que près de 6,7 millions restaient à payer.\n\nDans ce dernier montant, quelque 6,5 millions correspondent à la production de l’événement. Investir au Canada explique que ce poste comprend entre autres le personnel, les équipements audiovisuels et le transport.",
+      "photo": {
+        "download": "media/invest.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toronto_Skyline_from_Snake_Island,_September_11_2026_(01).jpg",
+        "credit": "Dillan Payne",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Silhouette du centre-ville de Toronto vue depuis le lac.",
+        "caption": "Photo d’archives (2026-09-11). Silhouette du centre-ville de Toronto vue depuis le lac."
+      }
+    },
+    {
+      "eventKey": "toronto-rexdale-inauguration-logements-soutien-wardlaw",
+      "category": "Logement",
+      "sources": [
+        {
+          "name": "Ville de Toronto",
+          "url": "https://www.toronto.ca/news/city-of-toronto-and-government-of-canada-open-51-new-supportive-homes-in-etobicoke/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "CityNews Toronto",
+          "url": "https://toronto.citynews.ca/2026/11/26/51-new-affordable-supportive-housing-units-opened-in-etobicoke/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Toronto opens 51 permanent supportive homes in Rexdale",
+          "summary": "The apartments at 9 Wardlaw Crescent are for people experiencing or at risk of homelessness.",
+          "body": "Toronto, the federal government and Youth Without Shelter opened a 51-home building Thursday in Rexdale, Etobicoke. Each apartment has a private bathroom and kitchenette. Tenants will have access to support services on site.\n\nCityNews covered the opening. The city provided the land and more than $10 million in funding and incentives. The federal contribution totals $22 million, according to the city.",
+          "photoAlt": "Houses in Toronto’s Rexdale neighbourhood.",
+          "photoCaption": "Archive photo (2010-04-24). Houses in Toronto’s Rexdale neighbourhood."
+        },
+        "es": {
+          "title": "Toronto inaugura 51 viviendas permanentes con apoyo en Rexdale",
+          "summary": "Los apartamentos del 9 de Wardlaw Crescent se destinan a personas sin hogar o en riesgo de quedarse sin él.",
+          "body": "Toronto, el gobierno federal y Youth Without Shelter inauguraron el jueves un edificio de 51 viviendas en Rexdale, Etobicoke. Cada apartamento tiene baño privado y cocina pequeña. Los inquilinos podrán recibir apoyo en el edificio.\n\nCityNews cubrió la inauguración. El municipio aportó el terreno y más de 10 millones de dólares en financiación e incentivos. La contribución federal asciende a 22 millones, según la ciudad.",
+          "photoAlt": "Casas en el barrio de Rexdale de Toronto.",
+          "photoCaption": "Foto de archivo (2010-04-24). Casas en el barrio de Rexdale de Toronto."
+        },
+        "ar": {
+          "title": "تورونتو تفتتح 51 مسكناً دائماً مع خدمات دعم في ريكسديل",
+          "summary": "تستهدف الشقق في 9 ووردلو كريسنت أشخاصاً بلا مأوى أو مهددين بفقدان المسكن.",
+          "body": "افتتحت بلدية تورونتو والحكومة الفدرالية ومنظمة يوث ويذاوت شيلتر الخميس مبنى يضم 51 مسكناً في ريكسديل بإيتوبيكوك. ولكل شقة حمام خاص ومطبخ صغير. وسيحصل المستأجرون على خدمات دعم في الموقع.\n\nغطت سيتي نيوز الافتتاح. وقدمت المدينة الأرض وأكثر من عشرة ملايين دولار في شكل تمويل وحوافز. وبلغت المساهمة الفدرالية 22 مليون دولار بحسب البلدية.",
+          "photoAlt": "منازل في حي ريكسديل بمدينة تورونتو.",
+          "photoCaption": "صورة أرشيفية (2010-04-24). منازل في حي ريكسديل بمدينة تورونتو."
+        },
+        "zh-CN": {
+          "title": "多伦多在雷克斯代尔启用51套带支援服务的永久住房",
+          "summary": "沃德洛新月街9号的公寓面向无家可归或面临失去住房风险的人。",
+          "body": "多伦多市、联邦政府及青年援助组织Youth Without Shelter周四在怡陶碧谷雷克斯代尔启用一栋设有51套住房的楼宇。每户有独立浴室和小厨房，住户可在楼内获得支援服务。\n\nCityNews报道了启用仪式。市政府提供土地和逾1000万加元的资金及激励措施。据市方统计，联邦出资2200万加元。",
+          "photoAlt": "多伦多雷克斯代尔社区内的房屋。",
+          "photoCaption": "资料照片 (2010-04-24). 多伦多雷克斯代尔社区内的房屋。"
+        },
+        "ru": {
+          "title": "В Торонто открыли 51 квартиру постоянного проживания с услугами поддержки",
+          "summary": "Жильё по адресу Уордлоу-Кресент, 9 предназначено для людей без дома или под угрозой его потери.",
+          "body": "В четверг город Торонто, федеральное правительство и организация Youth Without Shelter открыли в районе Рексдейл округа Этобико здание на 51 квартиру. В каждой есть отдельная ванная и мини-кухня. Помощь жильцам будет доступна на месте.\n\nОткрытие освещало CityNews. Город предоставил землю и свыше 10 млн долларов в виде финансирования и льгот. По данным муниципалитета, федеральный вклад составил 22 млн долларов.",
+          "photoAlt": "Дома в районе Рексдейл в Торонто.",
+          "photoCaption": "Архивное фото (2010-04-24). Дома в районе Рексдейл в Торонто."
+        },
+        "ko": {
+          "title": "토론토 렉스데일에 지원 서비스 갖춘 영구주택 51가구 개소",
+          "summary": "워들로 크레센트 9번지 아파트는 노숙 중이거나 집을 잃을 위험에 놓인 사람들을 위한 주택이다.",
+          "body": "토론토시와 연방정부, 청년지원단체 유스 위드아웃 셸터가 목요일 이토비코 렉스데일에 51가구 규모의 주택을 열었다. 각 가구에는 독립 욕실과 간이 주방이 있고 현장에서 지원 서비스도 받을 수 있다.\n\n시티뉴스가 개소식을 취재했다. 시는 부지와 1천만 달러가 넘는 자금·인센티브를 제공했다. 시에 따르면 연방정부의 지원액은 2,200만 달러다.",
+          "photoAlt": "토론토 렉스데일 지역의 주택들.",
+          "photoCaption": "자료 사진 (2010-04-24). 토론토 렉스데일 지역의 주택들."
+        }
+      },
+      "verified": true,
+      "title": "Toronto ouvre 51 logements permanents avec services de soutien à Rexdale",
+      "summary": "Les appartements du 9, croissant Wardlaw, sont destinés aux personnes sans logement ou qui risquent de le perdre.",
+      "body": "La Ville de Toronto, Ottawa et l’organisme Youth Without Shelter ont inauguré jeudi un immeuble de 51 logements dans le quartier de Rexdale, à Etobicoke. Chaque appartement comprend une salle de bain privée et une cuisinette. Les locataires auront accès à des services de soutien sur place.\n\nCityNews a assisté à l’ouverture. La Ville a fourni le terrain et plus de 10 millions de dollars en financement et en incitatifs. La contribution fédérale atteint 22 millions de dollars, selon le bilan municipal.",
+      "photo": {
+        "download": "media/rexdale.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rexdale_houses.JPG",
+        "credit": "SimonP",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "Maisons du quartier de Rexdale, à Toronto.",
+        "caption": "Photo d’archives (2010-04-24). Maisons du quartier de Rexdale, à Toronto."
+      }
+    },
+    {
+      "eventKey": "methane-importations-vote-eurodeputes-report-deux-ans",
+      "category": "Environnement",
+      "sources": [
+        {
+          "name": "Parlement européen",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20261123IPR49035/methane-deal-to-delay-reporting-and-monitoring-obligations-for-energy-importers",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "S&P Global Energy",
+          "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/111926-eu-council-parliament-strike-preliminary-two-year-methane-delay-deal",
+          "publishedAt": "2026-11-19"
+        },
+        {
+          "name": "EP Votes",
+          "url": "https://epvotes.com/votes/201321",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "MEPs back two-year methane reporting delay for energy importers",
+          "summary": "The European Parliament endorsed the oil, gas and coal agreement by 341 votes to 224, with 31 abstentions.",
+          "body": "Lawmakers in Strasbourg voted Thursday to postpone methane monitoring and reporting requirements for energy importers. The Council of Ministers must still formally approve the text before publication, Parliament said.\n\nNegotiators reached a compromise on November 19, S&P Global reported. For contracts signed or renewed since August 4, 2024, importers would have until May 2030 to show the fuel is subject to controls equivalent to the EU’s.",
+          "photoAlt": "Rows of seats in the European Parliament chamber in Strasbourg.",
+          "photoCaption": "Archive photo (2023-06-14). Rows of seats in the European Parliament chamber in Strasbourg."
+        },
+        "es": {
+          "title": "La Eurocámara aprueba una prórroga de dos años para los importadores en materia de metano",
+          "summary": "El acuerdo sobre petróleo, gas y carbón recibió 341 votos a favor, 224 en contra y 31 abstenciones.",
+          "body": "Los diputados aprobaron el jueves en Estrasburgo aplazar las obligaciones de vigilancia y declaración de metano para los importadores de energía. Según el Parlamento, falta la aprobación formal del Consejo de Ministros antes de la publicación.\n\nLos negociadores lograron un acuerdo el 19 de noviembre, informó S&P Global. Para los contratos firmados o renovados desde el 4 de agosto de 2024, los importadores tendrían hasta mayo de 2030 para demostrar que el combustible se somete a controles equivalentes a los europeos.",
+          "photoAlt": "Filas de escaños en el hemiciclo europeo de Estrasburgo.",
+          "photoCaption": "Foto de archivo (2023-06-14). Filas de escaños en el hemiciclo europeo de Estrasburgo."
+        },
+        "ar": {
+          "title": "نواب أوروبا يوافقون على إمهال مستوردي الطاقة عامين بشأن الميثان",
+          "summary": "أقر البرلمان اتفاق النفط والغاز والفحم بأغلبية 341 صوتاً مقابل 224 وامتناع 31.",
+          "body": "وافق النواب الخميس في ستراسبورغ على إرجاء التزامات مراقبة الميثان والإبلاغ عنه لمستوردي الطاقة. وأوضح البرلمان أن النص يحتاج إلى موافقة مجلس الوزراء الرسمية قبل نشره.\n\nوذكرت إس آند بي غلوبال أن المفاوضين توصلوا إلى تسوية في 19 نوفمبر. وبالنسبة للعقود المبرمة أو المجددة منذ 4 أغسطس 2024، ستتاح للمستوردين مهلة حتى مايو 2030 لإثبات خضوع الوقود لضوابط تعادل ضوابط الاتحاد.",
+          "photoAlt": "صفوف مقاعد البرلمان الأوروبي في ستراسبورغ.",
+          "photoCaption": "صورة أرشيفية (2023-06-14). صفوف مقاعد البرلمان الأوروبي في ستراسبورغ."
+        },
+        "zh-CN": {
+          "title": "欧洲议会同意能源进口商的甲烷合规期限延后两年",
+          "summary": "有关石油、天然气及煤炭的协议以341票赞成、224票反对、31票弃权获通过。",
+          "body": "欧洲议会议员周四在斯特拉斯堡表决同意推迟能源进口商监测和报告甲烷的义务。议会表示，文本公布前仍须部长理事会正式批准。\n\n据标普全球报道，谈判代表于11月19日达成妥协。对于2024年8月4日以来签订或续签的合同，进口商可在2030年5月前证明相关燃料受到与欧盟等效的监管。",
+          "photoAlt": "斯特拉斯堡欧洲议会议事厅内成排的座位。",
+          "photoCaption": "资料照片 (2023-06-14). 斯特拉斯堡欧洲议会议事厅内成排的座位。"
+        },
+        "ru": {
+          "title": "Европарламент одобрил двухлетнюю отсрочку требований по метану для импортёров",
+          "summary": "Соглашение по нефти, газу и углю поддержал 341 депутат, 224 выступили против, 31 воздержался.",
+          "body": "В четверг в Страсбурге депутаты одобрили перенос сроков мониторинга метана и отчётности для импортёров энергоносителей. Как пояснил парламент, до публикации документа требуется формальное одобрение Совета министров.\n\nПо данным S&P Global, переговорщики нашли компромисс 19 ноября. По контрактам, заключённым или продлённым с 4 августа 2024 года, импортёрам дадут до мая 2030 года, чтобы подтвердить эквивалентность контроля топлива требованиям ЕС.",
+          "photoAlt": "Ряды мест в зале Европарламента в Страсбурге.",
+          "photoCaption": "Архивное фото (2023-06-14). Ряды мест в зале Европарламента в Страсбурге."
+        },
+        "ko": {
+          "title": "유럽의회, 에너지 수입업체 메탄 규정 2년 유예에 찬성",
+          "summary": "석유·가스·석탄 관련 합의는 찬성 341표, 반대 224표, 기권 31표로 통과됐다.",
+          "body": "유럽의회는 목요일 스트라스부르에서 에너지 수입업체의 메탄 감시·보고 의무를 늦추는 안을 의결했다. 의회에 따르면 문서 공표 전 EU 각료이사회의 공식 승인이 남았다.\n\nS&P글로벌은 협상단이 11월 19일 타협했다고 보도했다. 2024년 8월 4일부터 체결하거나 갱신한 계약에 대해 수입업체는 2030년 5월까지 해당 연료에 EU와 동등한 통제가 적용됨을 입증하게 된다.",
+          "photoAlt": "스트라스부르 유럽의회 본회의장의 좌석들.",
+          "photoCaption": "자료 사진 (2023-06-14). 스트라스부르 유럽의회 본회의장의 좌석들."
+        }
+      },
+      "verified": true,
+      "title": "Méthane : les eurodéputés approuvent un délai de deux ans pour les importateurs",
+      "summary": "Le Parlement européen a entériné l’accord sur le pétrole, le gaz et le charbon par 341 voix contre 224, avec 31 abstentions.",
+      "body": "Les députés ont approuvé jeudi à Strasbourg un report des obligations de surveillance et de déclaration du méthane pour les importateurs d’énergie. Selon le Parlement européen, le Conseil des ministres doit encore donner son accord formel avant la publication du texte.\n\nLes négociateurs étaient parvenus à un compromis le 19 novembre, rapportait S&P Global. Pour les contrats conclus ou renouvelés depuis le 4 août 2024, les importateurs auraient jusqu’en mai 2030 pour démontrer que le combustible fait l’objet de contrôles équivalents à ceux de l’Union.",
+      "photo": {
+        "download": "media/meth.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:European_Parliament_hemicycle.jpg",
+        "credit": "CC-BY-4.0: © European Union 2023– Source: EP",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "Les rangées de sièges de l’hémicycle européen de Strasbourg.",
+        "caption": "Photo d’archives (2023-06-14). Les rangées de sièges de l’hémicycle européen de Strasbourg."
+      }
+    },
+    {
+      "eventKey": "montreal-macaroni-hotel-de-ville-appels-rassemblement-budget",
+      "category": "Montréal",
+      "sources": [
+        {
+          "name": "CityNews Montréal",
+          "url": "https://montreal.citynews.ca/2026/11/26/kraft-dinner-protest-montreal-mayor/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "SEPB-571, unité des architectes de la Ville / CNW",
+          "url": "https://www.advfn.com/stock-market/stock-news/99790444/invitation-aux-medias-diner-kraft-et-budget-le",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Macaroni and cheese becomes a rallying cry outside Montreal City Hall",
+          "summary": "Two separate calls to gather Thursday followed the mayor’s remarks about living costs and the city budget.",
+          "body": "After Mayor Soraya Martinez Ferrada’s apology, the protest took a new form. The city architects’ union had announced an 8 a.m. distribution of boxed macaroni and cheese outside city hall in solidarity with taxpayers.\n\nCityNews reported a separate call asking Montrealers to bring pots and ingredients to the same spot at 1 p.m. Both initiatives echo the mayor’s comparison between city budget decisions and household food choices.",
+          "photoAlt": "Facade of Montreal City Hall on Notre-Dame Street East.",
+          "photoCaption": "Archive photo (2026-06-23). Facade of Montreal City Hall on Notre-Dame Street East."
+        },
+        "es": {
+          "title": "Los macarrones con queso se convierten en consigna ante la alcaldía de Montreal",
+          "summary": "Dos convocatorias distintas para el jueves siguieron a los comentarios de la alcaldesa sobre el coste de vida y el presupuesto.",
+          "body": "Tras las disculpas de la alcaldesa Soraya Martinez Ferrada, la protesta tomó otra forma. El sindicato de arquitectos municipales había anunciado para las ocho un reparto de cajas de macarrones con queso ante la alcaldía en solidaridad con los contribuyentes.\n\nCityNews informó de otra convocatoria que invitaba a llevar ollas e ingredientes al mismo lugar a las 13 horas. Ambas iniciativas evocan la comparación de la alcaldesa entre las decisiones presupuestarias municipales y las elecciones alimentarias de los hogares.",
+          "photoAlt": "Fachada del ayuntamiento de Montreal en Notre-Dame Est.",
+          "photoCaption": "Foto de archivo (2026-06-23). Fachada del ayuntamiento de Montreal en Notre-Dame Est."
+        },
+        "ar": {
+          "title": "المعكرونة بالجبن تتحول إلى شعار احتجاج أمام بلدية مونتريال",
+          "summary": "جاءت دعوتان منفصلتان للتجمع الخميس عقب تصريحات رئيسة البلدية حول المعيشة والميزانية.",
+          "body": "بعد اعتذار رئيسة البلدية سورايا مارتينيز فيرادا أخذ الاحتجاج شكلاً جديداً. وكانت نقابة معماريي البلدية قد أعلنت توزيع علب معكرونة بالجبن أمام مبنى البلدية عند الثامنة صباحاً تضامناً مع دافعي الضرائب.\n\nوأفادت سيتي نيوز بدعوة منفصلة للسكان إلى إحضار أوانٍ ومكونات طعام إلى المكان نفسه عند الواحدة ظهراً. وتستعيد المبادرتان مقارنة رئيسة البلدية بين خيارات الإنفاق البلدي وخيارات الأسر الغذائية.",
+          "photoAlt": "واجهة بلدية مونتريال في شارع نوتردام الشرقي.",
+          "photoCaption": "صورة أرشيفية (2026-06-23). واجهة بلدية مونتريال في شارع نوتردام الشرقي."
+        },
+        "zh-CN": {
+          "title": "芝士通心粉成蒙特利尔市政厅外的抗议口号",
+          "summary": "市长就生活成本和市政预算发表言论后，两个团体分别号召民众周四集会。",
+          "body": "市长索拉娅·马丁内斯·费拉达道歉后，抗议有了新形式。市建筑师工会此前宣布，计划早上8点在市政厅外派送盒装芝士通心粉，声援纳税人。\n\nCityNews报道，另一项号召邀请市民下午1点带上锅具及食材到同一地点。两项行动均回应市长将市政预算取舍与家庭饮食选择相比较的言论。",
+          "photoAlt": "蒙特利尔圣母东街市政厅正面。",
+          "photoCaption": "资料照片 (2026-06-23). 蒙特利尔圣母东街市政厅正面。"
+        },
+        "ru": {
+          "title": "Макароны с сыром стали символом протеста у мэрии Монреаля",
+          "summary": "После слов мэра о стоимости жизни и бюджете города появились два отдельных призыва собраться в четверг.",
+          "body": "После извинений мэра Сорайи Мартинес Феррады протест принял новую форму. Профсоюз городских архитекторов объявил, что в восемь утра планирует раздавать у мэрии коробки макарон с сыром в знак солидарности с налогоплательщиками.\n\nПо данным CityNews, другой призыв предлагал жителям принести туда же в час дня кастрюли и ингредиенты. Обе инициативы отсылают к сравнению, которое мэр провела между бюджетными решениями города и выбором еды в семьях.",
+          "photoAlt": "Фасад мэрии Монреаля на улице Нотр-Дам-Эст.",
+          "photoCaption": "Архивное фото (2026-06-23). Фасад мэрии Монреаля на улице Нотр-Дам-Эст."
+        },
+        "ko": {
+          "title": "몬트리올 시청 앞 집회 구호가 된 마카로니 앤드 치즈",
+          "summary": "생활비와 시 예산에 대한 시장의 발언 이후 목요일 서로 다른 집회 두 건이 예고됐다.",
+          "body": "소라야 마르티네스 페라다 시장의 사과 뒤 항의는 새로운 형태를 띠었다. 시청 건축사 노조는 납세자들과 연대해 오전 8시 시청 앞에서 상자에 든 마카로니 앤드 치즈를 나눠 줄 계획이라고 밝혔다.\n\n시티뉴스에 따르면 별도의 집회 주최 측은 오후 1시 같은 장소에 냄비와 식재료를 가져오라고 시민들에게 요청했다. 두 행동 모두 시 예산의 선택을 가정의 식품 선택에 빗댄 시장 발언에 대한 반응이다.",
+          "photoAlt": "노트르담 동쪽 거리에 있는 몬트리올 시청 정면.",
+          "photoCaption": "자료 사진 (2026-06-23). 노트르담 동쪽 거리에 있는 몬트리올 시청 정면."
+        }
+      },
+      "verified": true,
+      "title": "À Montréal, le macaroni au fromage devient un mot d’ordre devant l’hôtel de ville",
+      "summary": "Deux appels distincts à se rassembler jeudi font suite aux propos de la mairesse sur le coût de la vie et le budget municipal.",
+      "body": "Après les excuses de la mairesse Soraya Martinez Ferrada, la contestation a pris une nouvelle forme. Le syndicat des architectes de la Ville avait annoncé pour 8 h une distribution de boîtes de macaroni au fromage devant l’hôtel de ville en solidarité avec les contribuables.\n\nCityNews rapporte qu’un autre appel invitait les Montréalais à apporter casseroles et ingrédients au même endroit à 13 h. Les deux initiatives reprennent la comparaison faite par la mairesse entre les arbitrages budgétaires de la Ville et les choix alimentaires des ménages.",
+      "photo": {
+        "download": "media/protest.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montreal_City_Hall_2026.JPG",
+        "credit": "Canmenwalker",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.en",
+        "alt": "Façade de l’hôtel de ville de Montréal, rue Notre-Dame Est.",
+        "caption": "Photo d’archives (2026-06-23). Façade de l’hôtel de ville de Montréal, rue Notre-Dame Est."
+      }
+    },
+    {
+      "eventKey": "build-canada-lettre-centres-donnees-trente-cinq-signataires",
+      "category": "Technologie",
+      "sources": [
+        {
+          "name": "Build Canada — lettre ouverte",
+          "url": "https://www.buildcanada.com/memos/build-compute",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "La Presse Canadienne / CityNews",
+          "url": "https://vancouver.citynews.ca/2026/11/26/tech-leaders-urge-canada-to-build-data-centres-here-or-risk-renting-abroad/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "DataCentre.ca",
+          "url": "https://datacentre.ca/2026/11/25/trump-tax-threat-underscores-canadas-need-to-build-compute/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Thirty-five leaders urge Canada to build more data centres",
+          "summary": "In an open letter, signatories warn against relying on computing capacity rented abroad.",
+          "body": "Build Canada gathered 35 signatories calling for more domestic data centres. They include Shopify’s Harley Finkelstein and Koho’s Daniel Eberhard, The Canadian Press reports. They cite the risk of disruption if Canada depends on foreign suppliers.\n\nThe authors compare two figures to illustrate the gap: an estimated 337 megawatts of Canadian AI capacity and a need for 5.5 gigawatts in 2030 according to the federal strategy.",
+          "photoAlt": "Shopify’s Harley Finkelstein holding a microphone during an interview.",
+          "photoCaption": "Archive photo (2012-03-16). Shopify’s Harley Finkelstein holding a microphone during an interview."
+        },
+        "es": {
+          "title": "Treinta y cinco dirigentes piden más centros de datos en Canadá",
+          "summary": "En una carta abierta, advierten del riesgo de depender de capacidad informática alquilada en el extranjero.",
+          "body": "Build Canada reunió a 35 firmantes que piden más centros de datos nacionales. Entre ellos están Harley Finkelstein, de Shopify, y Daniel Eberhard, de Koho, informa The Canadian Press. Alertan de posibles interrupciones si Canadá depende de proveedores extranjeros.\n\nLos autores comparan una capacidad canadiense estimada en 337 megavatios para inteligencia artificial con una necesidad de 5,5 gigavatios en 2030 según la estrategia federal.",
+          "photoAlt": "Harley Finkelstein, de Shopify, con un micrófono durante una entrevista.",
+          "photoCaption": "Foto de archivo (2012-03-16). Harley Finkelstein, de Shopify, con un micrófono durante una entrevista."
+        },
+        "ar": {
+          "title": "35 من قادة الأعمال يدعون كندا إلى بناء مزيد من مراكز البيانات",
+          "summary": "حذر الموقعون في رسالة مفتوحة من الاعتماد على قدرات حوسبة مستأجرة في الخارج.",
+          "body": "جمعت مجموعة بيلد كندا 35 توقيعاً لدعوة إلى بناء مراكز بيانات محلية إضافية. ومنهم هارلي فينكلستين من شوبيفاي ودانييل إيبرهارد من كوهو، بحسب وكالة الصحافة الكندية. وحذروا من خطر الانقطاع عند الاعتماد على موردين أجانب.\n\nولتوضيح الفجوة قارنوا بين قدرة كندية مقدرة بنحو 337 ميغاواط للذكاء الاصطناعي وحاجة تبلغ 5.5 غيغاواط في 2030 وفق الاستراتيجية الفدرالية.",
+          "photoAlt": "هارلي فينكلستين من شوبيفاي يحمل ميكروفوناً خلال مقابلة.",
+          "photoCaption": "صورة أرشيفية (2012-03-16). هارلي فينكلستين من شوبيفاي يحمل ميكروفوناً خلال مقابلة."
+        },
+        "zh-CN": {
+          "title": "35名业界人士呼吁加拿大增建数据中心",
+          "summary": "签署人在公开信中警告，依赖从国外租用的算力可能带来风险。",
+          "body": "Build Canada组织了35人联署，呼吁增建国内数据中心。加拿大通讯社报道，签署人包括Shopify的哈利·芬克尔斯坦和Koho的丹尼尔·埃伯哈德。他们指出，依赖外国供应商会带来服务中断风险。\n\n为说明差距，作者对比了两个数字：加拿大人工智能算力设施容量估计为337兆瓦，而联邦战略估计2030年将需要5.5吉瓦。",
+          "photoAlt": "Shopify的哈利·芬克尔斯坦在采访中手持麦克风。",
+          "photoCaption": "资料照片 (2012-03-16). Shopify的哈利·芬克尔斯坦在采访中手持麦克风。"
+        },
+        "ru": {
+          "title": "В Канаде 35 руководителей призвали строить больше дата-центров",
+          "summary": "В открытом письме авторы предупредили о риске зависимости от зарубежных вычислительных мощностей.",
+          "body": "Build Canada собрала 35 подписей под призывом строить больше отечественных дата-центров. Среди подписантов Харли Финкельстайн из Shopify и Дэниел Эберхард из Koho, сообщает The Canadian Press. Авторы указали на риск перебоев при зависимости от иностранных поставщиков.\n\nДля сравнения авторы привели оценку канадских мощностей для ИИ в 337 мегаватт и прогноз потребности в 5,5 гигаватта к 2030 году из федеральной стратегии.",
+          "photoAlt": "Харли Финкельстайн из Shopify с микрофоном во время интервью.",
+          "photoCaption": "Архивное фото (2012-03-16). Харли Финкельстайн из Shopify с микрофоном во время интервью."
+        },
+        "ko": {
+          "title": "캐나다 업계 인사 35명, 국내 데이터센터 확충 촉구",
+          "summary": "서명자들은 공개서한에서 해외에서 빌린 연산 능력에 의존할 위험을 지적했다.",
+          "body": "빌드 캐나다가 국내 데이터센터 확충을 요구하는 서명 35명을 모았다. 캐나디안 프레스에 따르면 쇼피파이의 할리 핀켈스타인과 코호의 대니얼 에버하드도 참여했다. 이들은 해외 공급자에 의존할 때 공급이 끊길 위험을 들었다.\n\n서명자들은 격차를 설명하기 위해 캐나다 AI 시설 용량 추정치 337메가와트와 연방 전략이 제시한 2030년 필요량 5.5기가와트를 비교했다.",
+          "photoAlt": "인터뷰에서 마이크를 든 쇼피파이의 할리 핀켈스타인.",
+          "photoCaption": "자료 사진 (2012-03-16). 인터뷰에서 마이크를 든 쇼피파이의 할리 핀켈스타인."
+        }
+      },
+      "verified": true,
+      "title": "Trente-cinq dirigeants demandent au Canada de construire davantage de centres de données",
+      "summary": "Dans une lettre ouverte, les signataires disent craindre que le pays dépende de capacités informatiques louées à l’étranger.",
+      "body": "Le groupe Build Canada a réuni 35 signataires autour d’un appel à construire davantage de centres de données au pays. Parmi eux figurent Harley Finkelstein de Shopify et Daniel Eberhard de Koho, rapporte La Presse Canadienne. Ils invoquent le risque de perturbations si le Canada dépend de fournisseurs étrangers.\n\nPour illustrer l’écart, les auteurs rapprochent deux chiffres : une capacité canadienne estimée à 337 mégawatts pour l’intelligence artificielle et un besoin de 5,5 gigawatts en 2030 selon la stratégie fédérale.",
+      "photo": {
+        "download": "media/tech.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harley_Finkelstein_on_RealTVfilms.jpg",
+        "credit": "RealTVfilms",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "Harley Finkelstein de Shopify tient un micro pendant une entrevue.",
+        "caption": "Photo d’archives (2012-03-16). Harley Finkelstein de Shopify tient un micro pendant une entrevue."
+      }
+    },
+    {
+      "eventKey": "grande-bretagne-projet-examen-vue-conducteurs-renouvellement",
+      "category": "Transports",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cjqlqerzv1eyo",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Department for Transport",
+          "url": "https://www.gov.uk/government/consultations/introducing-mandatory-eyesight-testing-for-older-drivers",
+          "publishedAt": "2026-01-07"
+        },
+        {
+          "name": "Association of Optometrists",
+          "url": "https://www.aop.org.uk/campaigns-and-policy/news-and-media/media-centre/press-releases/2026/11/26/the-college-of-optometrists-and-aop-welcome-the-government-to-introduce-mandatory-sight-tests",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "UK considers eyesight tests every three years for drivers over 70",
+          "summary": "The government is preparing a recommendation on proof of eyesight at licence renewal, the BBC reports.",
+          "body": "Drivers over 70 already renew their licences every three years in Great Britain. They currently declare that they meet the eyesight requirements themselves. Government sources told the BBC Thursday that ministers intend to recommend regular eyesight checks.\n\nThe proposal follows a Department for Transport consultation opened in January and closed in May. The Association of Optometrists welcomed the prospect of mandatory tests.",
+          "photoAlt": "Entrance to the British driver licensing agency’s offices in Swansea.",
+          "photoCaption": "Archive photo (2011-08-20). Entrance to the British driver licensing agency’s offices in Swansea."
+        },
+        "es": {
+          "title": "Londres estudia un examen de la vista cada tres años para conductores mayores de 70",
+          "summary": "El gobierno prepara una recomendación sobre cómo acreditar la visión al renovar el permiso, según la BBC.",
+          "body": "Los mayores de 70 años ya renuevan el permiso cada tres años en Gran Bretaña. Actualmente declaran ellos mismos cumplir los requisitos visuales. Fuentes gubernamentales dijeron el jueves a la BBC que los ministros prevén recomendar controles periódicos.\n\nLa propuesta sigue a una consulta del Ministerio de Transportes que abrió en enero y cerró en mayo. La Asociación de Optometristas acogió favorablemente la perspectiva de pruebas obligatorias.",
+          "photoAlt": "Entrada a las oficinas de la agencia británica de permisos de conducir en Swansea.",
+          "photoCaption": "Foto de archivo (2011-08-20). Entrada a las oficinas de la agencia británica de permisos de conducir en Swansea."
+        },
+        "ar": {
+          "title": "بريطانيا تدرس فحص النظر كل ثلاث سنوات للسائقين فوق السبعين",
+          "summary": "تعد الحكومة توصية بشأن إثبات القدرة البصرية عند تجديد الرخصة، بحسب بي بي سي.",
+          "body": "يجدد السائقون فوق السبعين رخصهم كل ثلاث سنوات في بريطانيا العظمى، ويقرون بأنفسهم حالياً باستيفاء متطلبات النظر. وقالت مصادر حكومية لبي بي سي الخميس إن الوزراء يعتزمون التوصية بفحوص بصرية منتظمة.\n\nويأتي المقترح عقب مشاورة لوزارة النقل بدأت في يناير وانتهت في مايو. ورحبت جمعية اختصاصيي قياس البصر بإمكانية إلزام السائقين بالفحوص.",
+          "photoAlt": "مدخل مكاتب وكالة تراخيص القيادة البريطانية في سوانزي.",
+          "photoCaption": "صورة أرشيفية (2011-08-20). مدخل مكاتب وكالة تراخيص القيادة البريطانية في سوانزي."
+        },
+        "zh-CN": {
+          "title": "英国拟要求70岁以上驾驶者每三年检查视力",
+          "summary": "据英国广播公司报道，政府正准备就续领驾照时如何证明视力达标提出建议。",
+          "body": "在大不列颠，70岁以上驾驶者已须每三年续领驾照，目前由本人申报视力符合要求。政府消息人士周四向英国广播公司表示，大臣们打算建议定期检查视力。\n\n此前交通部曾于1月至5月开展公众咨询。英国验光师协会对可能引入强制检查表示欢迎。",
+          "photoAlt": "斯旺西英国驾驶执照管理机构办公楼入口。",
+          "photoCaption": "资料照片 (2011-08-20). 斯旺西英国驾驶执照管理机构办公楼入口。"
+        },
+        "ru": {
+          "title": "Британия рассматривает проверку зрения каждые три года для водителей старше 70 лет",
+          "summary": "Правительство готовит рекомендацию о подтверждении зрения при продлении прав, сообщает Би-би-си.",
+          "body": "В Великобритании водители старше 70 лет уже продлевают права каждые три года и сами подтверждают соответствие требованиям к зрению. В четверг источники в правительстве сообщили Би-би-си, что министры намерены рекомендовать регулярные проверки.\n\nПредложению предшествовали консультации Минтранса, открытые в январе и завершившиеся в мае. Ассоциация оптометристов приветствовала перспективу обязательных проверок.",
+          "photoAlt": "Вход в здание британского ведомства по выдаче водительских прав в Суонси.",
+          "photoCaption": "Архивное фото (2011-08-20). Вход в здание британского ведомства по выдаче водительских прав в Суонси."
+        },
+        "ko": {
+          "title": "영국, 70세 초과 운전자 3년마다 시력 검사 검토",
+          "summary": "BBC에 따르면 정부가 면허 갱신 시 시력 증명에 관한 권고를 준비하고 있다.",
+          "body": "그레이트브리튼의 70세 초과 운전자는 이미 3년마다 면허를 갱신하며 현재는 시력 기준 충족 여부를 직접 신고한다. 정부 소식통은 목요일 BBC에 장관들이 정기 시력 검사를 권고할 계획이라고 전했다.\n\n교통부가 1월부터 5월까지 진행한 공청 절차에 이은 제안이다. 영국 검안사협회는 의무 검사 도입 가능성을 환영했다.",
+          "photoAlt": "스완지에 있는 영국 운전면허청 청사 입구.",
+          "photoCaption": "자료 사진 (2011-08-20). 스완지에 있는 영국 운전면허청 청사 입구."
+        }
+      },
+      "verified": true,
+      "title": "Londres envisage un examen de la vue tous les trois ans pour les conducteurs de plus de 70 ans",
+      "summary": "Le gouvernement britannique prépare une recommandation sur la preuve à fournir au renouvellement du permis, selon la BBC.",
+      "body": "Les conducteurs de plus de 70 ans doivent déjà renouveler leur permis tous les trois ans en Grande-Bretagne. Aujourd’hui, ils déclarent eux-mêmes satisfaire aux exigences de vision. Selon des sources gouvernementales citées jeudi par la BBC, les ministres comptent recommander une vérification régulière de la vue.\n\nCette proposition fait suite à une consultation publique ouverte en janvier et close en mai par le ministère des Transports. L’Association of Optometrists a accueilli favorablement la perspective d’examens obligatoires.",
+      "photo": {
+        "download": "media/eye.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:DVLA_Swansea.jpg",
+        "credit": "Zweifel",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "Entrée des bureaux de l’agence britannique des permis de conduire à Swansea.",
+        "caption": "Photo d’archives (2011-08-20). Entrée des bureaux de l’agence britannique des permis de conduire à Swansea."
+      }
+    },
+    {
+      "eventKey": "parlement-europeen-resolution-financement-medias-publics-tcheques",
+      "category": "International",
+      "sources": [
+        {
+          "name": "Parlement européen",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20261119IPR48971/czechia-must-safeguard-public-media-independence-and-democratic-norms",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Česká televize / ČT24",
+          "url": "https://ct24.ceskatelevize.cz/clanek/svet/europarlament-bude-hlasovat-o-rezoluci-ohledne-zmeny-financovani-ct-a-cro-379933",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "EP Votes",
+          "url": "https://epvotes.com/votes/201258",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "MEPs raise concerns over funding for Czech public broadcasters",
+          "summary": "A resolution adopted in Strasbourg urges Prague to safeguard the independence of public radio and television.",
+          "body": "The European Parliament adopted a resolution on media freedom in Czechia Wednesday. The roll call recorded 442 votes in favour, 158 against and 47 abstentions. Members voiced concern over plans to replace licence fees with direct state funding.\n\nAccording to Parliament, the Czech bill passed its first reading on October 24. The proposed amounts would cut the broadcasters’ combined resources by about 15%. Strasbourg voted on a European resolution. The legislative decision remains with Prague.",
+          "photoAlt": "Entrance to the Czech public television offices in Prague.",
+          "photoCaption": "Archive photo (2021-03-31). Entrance to the Czech public television offices in Prague."
+        },
+        "es": {
+          "title": "Los eurodiputados expresan inquietud por la financiación de los medios públicos checos",
+          "summary": "Una resolución aprobada en Estrasburgo pide a Praga que preserve la independencia de la radio y la televisión públicas.",
+          "body": "El Parlamento Europeo aprobó el miércoles una resolución sobre la libertad de los medios en Chequia. El escrutinio registró 442 votos a favor, 158 en contra y 47 abstenciones. Los diputados expresaron preocupación por el plan de sustituir el canon por financiación estatal directa.\n\nSegún el Parlamento, el proyecto checo superó la primera lectura el 24 de octubre. Los importes previstos reducirían en torno al 15 % los recursos conjuntos de las dos emisoras. Estrasburgo votó una resolución europea. La decisión legislativa corresponde a Praga.",
+          "photoAlt": "Entrada de la televisión pública checa en Praga.",
+          "photoCaption": "Foto de archivo (2021-03-31). Entrada de la televisión pública checa en Praga."
+        },
+        "ar": {
+          "title": "النواب الأوروبيون يبدون قلقهم إزاء تمويل الإعلام العام التشيكي",
+          "summary": "يدعو قرار أُقر في ستراسبورغ براغ إلى الحفاظ على استقلال الإذاعة والتلفزيون العامين.",
+          "body": "اعتمد البرلمان الأوروبي الأربعاء قراراً بشأن حرية الإعلام في تشيكيا. وسجل الاقتراع 442 صوتاً مؤيداً و158 معارضاً و47 ممتنعاً. وأبدى النواب قلقهم من مشروع يستبدل رسوم الاشتراك بتمويل مباشر من الدولة.\n\nوبحسب البرلمان اجتاز المشروع التشيكي القراءة الأولى في 24 أكتوبر. ومن شأن المبالغ المقترحة خفض الموارد المجمعة للمؤسستين بنحو 15%. وصوت نواب ستراسبورغ على قرار أوروبي فيما يبقى البت بالتشريع في براغ.",
+          "photoAlt": "مدخل مبنى التلفزيون العام التشيكي في براغ.",
+          "photoCaption": "صورة أرشيفية (2021-03-31). مدخل مبنى التلفزيون العام التشيكي في براغ."
+        },
+        "zh-CN": {
+          "title": "欧洲议员对捷克公共媒体经费改革表示担忧",
+          "summary": "斯特拉斯堡通过的一项决议要求布拉格维护公共广播电视的独立性。",
+          "body": "欧洲议会周三通过有关捷克媒体自由的决议。表决记录为442票赞成、158票反对、47票弃权。议员对以国家直接拨款取代收视听费的计划表示担忧。\n\n据欧洲议会介绍，捷克法案于10月24日通过一读。按拟议金额，两家公共广播机构的合计资源将减少约15%。斯特拉斯堡表决的是欧洲议会决议，立法决定权仍在布拉格。",
+          "photoAlt": "布拉格捷克公共电视台办公楼入口。",
+          "photoCaption": "资料照片 (2021-03-31). 布拉格捷克公共电视台办公楼入口。"
+        },
+        "ru": {
+          "title": "Европарламент выразил тревогу за финансирование чешских общественных вещателей",
+          "summary": "Резолюция, принятая в Страсбурге, призывает Прагу сохранить независимость общественного радио и телевидения.",
+          "body": "В среду Европарламент принял резолюцию о свободе СМИ в Чехии. Поимённое голосование дало 442 голоса за и 158 против при 47 воздержавшихся. Депутаты обеспокоены планом заменить лицензионные сборы прямым государственным финансированием.\n\nПо данным парламента, чешский проект прошёл первое чтение 24 октября. Предложенные суммы сократят совокупные ресурсы двух вещателей примерно на 15%. В Страсбурге голосовали по европейской резолюции, решение по закону остаётся за Прагой.",
+          "photoAlt": "Вход в здание Чешского телевидения в Праге.",
+          "photoCaption": "Архивное фото (2021-03-31). Вход в здание Чешского телевидения в Праге."
+        },
+        "ko": {
+          "title": "유럽의회, 체코 공영방송 재원 개편 우려 표명",
+          "summary": "스트라스부르에서 채택한 결의는 체코에 공영 라디오·TV의 독립성을 지키라고 촉구했다.",
+          "body": "유럽의회는 수요일 체코 언론 자유에 대한 결의를 채택했다. 표결 기록은 찬성 442표, 반대 158표, 기권 47표였다. 의원들은 수신료를 국가 직접 지원으로 바꾸려는 계획에 우려를 표했다.\n\n유럽의회에 따르면 체코 법안은 10월 24일 1독회를 통과했다. 제시된 금액대로라면 두 방송사의 합산 재원이 약 15% 줄어든다. 스트라스부르가 표결한 것은 유럽의회 결의로, 입법 결정은 체코에 달렸다.",
+          "photoAlt": "프라하의 체코 공영방송사 건물 입구.",
+          "photoCaption": "자료 사진 (2021-03-31). 프라하의 체코 공영방송사 건물 입구."
+        }
+      },
+      "verified": true,
+      "title": "Les eurodéputés s’inquiètent du financement des médias publics tchèques",
+      "summary": "Une résolution adoptée à Strasbourg demande à Prague de préserver l’indépendance de la radio et de la télévision publiques.",
+      "body": "Le Parlement européen a adopté mercredi une résolution sur la liberté des médias en Tchéquie. Le relevé du scrutin compte 442 voix pour, 158 contre et 47 abstentions. Les députés expriment leur inquiétude devant le projet de remplacer la redevance par un financement direct de l’État.\n\nSelon le Parlement, le projet tchèque a franchi la première lecture le 24 octobre. Les montants envisagés réduiraient d’environ 15 % les ressources combinées des deux diffuseurs. Le vote de Strasbourg porte sur une résolution européenne et laisse la décision législative à Prague.",
+      "photo": {
+        "download": "media/czech.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kav%C4%8D%C3%AD_hory_%C4%8CT_vstup_2.jpg",
+        "credit": "VitVit",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Entrée des locaux de la télévision publique tchèque à Prague.",
+        "caption": "Photo d’archives (2021-03-31). Entrée des locaux de la télévision publique tchèque à Prague."
+      }
+    },
+    {
+      "eventKey": "vancouver-bc-place-coupe-grey-novembre-2029",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "BC Lions et Ligue canadienne de football",
+          "url": "https://www.bclions.com/article/116th-grey-cup-in-2029-awarded-to-british-columbia",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "La Presse Canadienne / Global News",
+          "url": "https://globalnews.ca/news/12167403/cfl-announces-vancouver-as-host-of-2029-grey-cup/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "CityNews Vancouver",
+          "url": "https://vancouver.citynews.ca/2026/11/26/grey-cup-awarded-vancouver-bc-lions/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Vancouver to host the 116th Grey Cup at BC Place in 2029",
+          "summary": "The Canadian Football League final will be played on Sunday, November 4, during the Lions’ 75th season.",
+          "body": "The CFL and the BC Lions announced Thursday that the Grey Cup will return to Vancouver. The Lions will host the November 4, 2029 final at BC Place. It will be the organization’s 18th time hosting the championship, owner Amar Doman said.\n\nVancouver last staged the final in 2024, CityNews notes. The Toronto Argonauts beat the Winnipeg Blue Bombers that year. The 2029 edition will close the Lions’ 75th-season celebrations.",
+          "photoAlt": "The field and stands at BC Place in Vancouver.",
+          "photoCaption": "Archive photo (2026-06-18). The field and stands at BC Place in Vancouver."
+        },
+        "es": {
+          "title": "Vancouver acogerá la 116.ª Copa Grey en el BC Place en 2029",
+          "summary": "La final de la Liga Canadiense de Fútbol se disputará el domingo 4 de noviembre durante la 75.ª temporada de los Lions.",
+          "body": "La liga y los BC Lions anunciaron el jueves el regreso de la Copa Grey a Vancouver. Los Lions organizarán la final del 4 de noviembre de 2029 en el BC Place. Será su decimoctava vez como anfitriones del campeonato, según su propietario Amar Doman.\n\nVancouver acogió la final en 2024, recuerda CityNews. Los Toronto Argonauts vencieron a los Winnipeg Blue Bombers. La edición de 2029 cerrará las celebraciones de la 75.ª temporada de los Lions.",
+          "photoAlt": "El campo y las gradas del BC Place en Vancouver.",
+          "photoCaption": "Foto de archivo (2026-06-18). El campo y las gradas del BC Place en Vancouver."
+        },
+        "ar": {
+          "title": "فانكوفر تستضيف النسخة 116 من كأس غراي في ملعب بي سي بليس عام 2029",
+          "summary": "يُقام نهائي دوري كرة القدم الكندية الأحد 4 نوفمبر خلال الموسم الخامس والسبعين لفريق لايونز.",
+          "body": "أعلن الدوري وفريق بي سي لايونز الخميس عودة كأس غراي إلى فانكوفر. وسيستضيف الفريق نهائي 4 نوفمبر 2029 في بي سي بليس للمرة الثامنة عشرة في تاريخه، وفق مالكه أمار دومان.\n\nوذكرت سيتي نيوز بأن فانكوفر استضافت نهائي 2024 حين فاز تورونتو أرغونوتس على وينيبيغ بلو بومبرز. وتختتم نسخة 2029 احتفالات الموسم الخامس والسبعين للايونز.",
+          "photoAlt": "الملعب والمدرجات داخل بي سي بليس في فانكوفر.",
+          "photoCaption": "صورة أرشيفية (2026-06-18). الملعب والمدرجات داخل بي سي بليس في فانكوفر."
+        },
+        "zh-CN": {
+          "title": "温哥华将在2029年于卑诗体育馆举办第116届格雷杯",
+          "summary": "加拿大橄榄球联赛决赛定于11月4日星期日举行，适逢雄狮队第75个赛季。",
+          "body": "联赛和卑诗雄狮队周四宣布，格雷杯将回到温哥华。雄狮队将于2029年11月4日在卑诗体育馆承办决赛。老板阿马尔·多曼表示，这是球队第18次承办冠军赛。\n\nCityNews指出，温哥华上一次承办决赛是在2024年，多伦多阿尔戈英雄队击败温尼伯蓝色轰炸机队。2029年决赛将为雄狮队第75个赛季庆典收官。",
+          "photoAlt": "温哥华卑诗体育馆内的场地和看台。",
+          "photoCaption": "资料照片 (2026-06-18). 温哥华卑诗体育馆内的场地和看台。"
+        },
+        "ru": {
+          "title": "Ванкувер примет 116-й Кубок Грея на стадионе BC Place в 2029 году",
+          "summary": "Финал Канадской футбольной лиги состоится в воскресенье, 4 ноября, в 75-м сезоне «Лайонс».",
+          "body": "Лига и «Би-Си Лайонс» объявили в четверг о возвращении Кубка Грея в Ванкувер. Клуб проведёт финал 4 ноября 2029 года на BC Place. По словам владельца Амара Домана, для организации это будет 18-й чемпионский матч в роли хозяина.\n\nКак напоминает CityNews, Ванкувер принимал финал в 2024 году. Тогда «Торонто Аргонавтс» победили «Виннипег Блю Бомберс». Финал 2029 года завершит празднование 75-го сезона «Лайонс».",
+          "photoAlt": "Поле и трибуны стадиона BC Place в Ванкувере.",
+          "photoCaption": "Архивное фото (2026-06-18). Поле и трибуны стадиона BC Place в Ванкувере."
+        },
+        "ko": {
+          "title": "밴쿠버, 2029년 BC 플레이스에서 제116회 그레이컵 개최",
+          "summary": "캐나다풋볼리그 결승은 라이온스의 75번째 시즌인 11월 4일 일요일에 열린다.",
+          "body": "리그와 BC 라이온스는 목요일 그레이컵이 밴쿠버로 돌아온다고 발표했다. 라이온스는 2029년 11월 4일 BC 플레이스에서 결승을 개최한다. 구단주 아마르 도먼에 따르면 구단의 18번째 대회 유치다.\n\n시티뉴스에 따르면 밴쿠버가 직전 결승을 개최한 해는 2024년으로, 토론토 아고노츠가 위니펙 블루 보머스를 꺾었다. 2029년 대회는 라이온스 75번째 시즌 기념행사의 대미를 장식한다.",
+          "photoAlt": "밴쿠버 BC 플레이스의 경기장과 관중석.",
+          "photoCaption": "자료 사진 (2026-06-18). 밴쿠버 BC 플레이스의 경기장과 관중석."
+        }
+      },
+      "verified": true,
+      "title": "Vancouver accueillera la 116e Coupe Grey au stade BC Place en 2029",
+      "summary": "La finale de la Ligue canadienne de football sera disputée le dimanche 4 novembre, pendant la 75e saison des Lions.",
+      "body": "La Ligue canadienne de football et les Lions de la Colombie-Britannique ont annoncé jeudi le retour de la Coupe Grey à Vancouver. Les Lions organiseront la finale du 4 novembre 2029 au stade BC Place. Ce sera la dix-huitième fois que l’organisation accueillera le championnat, selon son propriétaire Amar Doman.\n\nCityNews rappelle que Vancouver avait reçu la finale en 2024. Les Argonauts de Toronto l’avaient alors emporté contre les Blue Bombers de Winnipeg. L’édition de 2029 clôturera les célébrations de la 75e saison des Lions.",
+      "photo": {
+        "download": "media/grey.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BC_Place_-_Canada_vs_Qatar.jpg",
+        "credit": "Aeacad",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Le terrain et les tribunes du stade BC Place, à Vancouver.",
+        "caption": "Photo d’archives (2026-06-18). Le terrain et les tribunes du stade BC Place, à Vancouver."
+      }
+    },
+    {
+      "eventKey": "prix-lux-public-vingtieme-edition-cinq-finalistes",
+      "category": "Culture",
+      "sources": [
+        {
+          "name": "Parlement européen",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20261123IPR49032/2027-lux-audience-award-european-parliament-unveils-five-finalists",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "The Brussels Times",
+          "url": "https://www.brusselstimes.com/eu-affairs/2424891/five-gripping-films-battle-for-eu-parliaments-cinema-prize-in-2027/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Five films shortlisted in Strasbourg for the 20th LUX Audience Award",
+          "summary": "Viewers and MEPs will choose the winner. The public can rate the films until April 2027.",
+          "body": "The European Parliament unveiled five finalists in Strasbourg Wednesday: All of a Sudden, A Year of School, Calle Málaga, Fatherland and How to Divorce During the War. The cinema prize combines the votes of viewers and members of Parliament.\n\nParliament and The Brussels Times say free screenings and debates will accompany the selection in Brussels, Strasbourg and EU countries. The winner will be announced in Strasbourg after the voting platform closes in April.",
+          "photoAlt": "An orchestra performs in the European Parliament chamber in Strasbourg.",
+          "photoCaption": "Archive photo (2008-03-12). An orchestra performs in the European Parliament chamber in Strasbourg."
+        },
+        "es": {
+          "title": "Cinco películas finalistas en Estrasburgo para la vigésima edición del Premio del Público LUX",
+          "summary": "Espectadores y eurodiputados elegirán a la ganadora. El público puede valorar las películas hasta abril de 2027.",
+          "body": "El Parlamento Europeo anunció el miércoles en Estrasburgo las cinco finalistas: All of a Sudden, A Year of School, Calle Málaga, Fatherland y How to Divorce During the War. El premio de cine combina los votos del público y de los eurodiputados.\n\nSegún el Parlamento y The Brussels Times, habrá proyecciones gratuitas y debates en Bruselas, Estrasburgo y países de la Unión. La ganadora se anunciará en Estrasburgo tras el cierre de la plataforma de votación en abril.",
+          "photoAlt": "Una orquesta actúa en el hemiciclo europeo de Estrasburgo.",
+          "photoCaption": "Foto de archivo (2008-03-12). Una orquesta actúa en el hemiciclo europeo de Estrasburgo."
+        },
+        "ar": {
+          "title": "خمسة أفلام تتأهل للدورة العشرين من جائزة لوكس للجمهور في ستراسبورغ",
+          "summary": "يختار المشاهدون والنواب الأوروبيون الفائز. ويمكن للجمهور تقييم الأفلام حتى أبريل 2027.",
+          "body": "كشف البرلمان الأوروبي الأربعاء في ستراسبورغ عن خمسة أفلام نهائية هي All of a Sudden وA Year of School وCalle Málaga وFatherland وHow to Divorce During the War. وتجمع الجائزة السينمائية أصوات الجمهور وأعضاء البرلمان.\n\nوبحسب البرلمان وبروكسل تايمز ستُقام عروض مجانية ونقاشات في بروكسل وستراسبورغ ودول الاتحاد. وسيعلَن الفائز في ستراسبورغ بعد إغلاق منصة التصويت في أبريل.",
+          "photoAlt": "أوركسترا تعزف في قاعة البرلمان الأوروبي في ستراسبورغ.",
+          "photoCaption": "صورة أرشيفية (2008-03-12). أوركسترا تعزف في قاعة البرلمان الأوروبي في ستراسبورغ."
+        },
+        "zh-CN": {
+          "title": "第二十届卢克斯观众电影奖在斯特拉斯堡公布五部入围影片",
+          "summary": "观众与欧洲议会议员将共同选出赢家。公众可在2027年4月前参与评分。",
+          "body": "欧洲议会周三在斯特拉斯堡公布五部入围影片：《All of a Sudden》《A Year of School》《Calle Málaga》《Fatherland》和《How to Divorce During the War》。该电影奖综合观众和议员的投票。\n\n据议会及《布鲁塞尔时报》介绍，布鲁塞尔、斯特拉斯堡及欧盟各国将为入围影片举办免费放映和讨论。投票平台4月关闭后，获奖影片将在斯特拉斯堡揭晓。",
+          "photoAlt": "一支管弦乐队在斯特拉斯堡欧洲议会大厅演奏。",
+          "photoCaption": "资料照片 (2008-03-12). 一支管弦乐队在斯特拉斯堡欧洲议会大厅演奏。"
+        },
+        "ru": {
+          "title": "В Страсбурге назвали пять финалистов 20-й зрительской кинопремии LUX",
+          "summary": "Победителя выберут зрители и евродепутаты. Оценивать фильмы можно до апреля 2027 года.",
+          "body": "Европарламент в среду представил в Страсбурге пять финалистов: All of a Sudden, A Year of School, Calle Málaga, Fatherland и How to Divorce During the War. Кинопремия объединяет голоса зрителей и депутатов.\n\nПо данным парламента и The Brussels Times, в Брюсселе, Страсбурге и странах ЕС пройдут бесплатные показы и обсуждения. Победителя объявят в Страсбурге после закрытия площадки голосования в апреле.",
+          "photoAlt": "Оркестр выступает в зале Европарламента в Страсбурге.",
+          "photoCaption": "Архивное фото (2008-03-12). Оркестр выступает в зале Европарламента в Страсбурге."
+        },
+        "ko": {
+          "title": "제20회 룩스 관객상 최종 후보 다섯 편 스트라스부르에서 공개",
+          "summary": "관객과 유럽의회 의원들이 수상작을 고른다. 관객 평가는 2027년 4월까지 가능하다.",
+          "body": "유럽의회는 수요일 스트라스부르에서 All of a Sudden, A Year of School, Calle Málaga, Fatherland, How to Divorce During the War를 최종 후보로 발표했다. 이 영화상은 관객과 유럽의원 투표를 종합한다.\n\n유럽의회와 브뤼셀타임스에 따르면 브뤼셀, 스트라스부르, EU 회원국에서 무료 상영과 토론이 열린다. 수상작은 4월 투표 플랫폼이 닫힌 뒤 스트라스부르에서 발표된다.",
+          "photoAlt": "스트라스부르 유럽의회 본회의장에서 연주하는 오케스트라.",
+          "photoCaption": "자료 사진 (2008-03-12). 스트라스부르 유럽의회 본회의장에서 연주하는 오케스트라."
+        }
+      },
+      "verified": true,
+      "title": "À Strasbourg, cinq films retenus pour la vingtième édition du prix LUX du public",
+      "summary": "Les spectateurs et les eurodéputés départageront les finalistes. Le public peut évaluer les films jusqu’en avril 2027.",
+      "body": "Le Parlement européen a dévoilé mercredi à Strasbourg les cinq finalistes du prix LUX : All of a Sudden, A Year of School, Calle Málaga, Fatherland et How to Divorce During the War. Ce prix de cinéma associe le vote des spectateurs à celui des eurodéputés.\n\nSelon le Parlement et le Brussels Times, des projections gratuites et des débats accompagneront la sélection à Bruxelles, à Strasbourg et dans les pays de l’Union. Le lauréat sera annoncé à Strasbourg après la fermeture de la plateforme de vote en avril.",
+      "photo": {
+        "download": "media/lux.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hemicycle_of_European_Parliament,_Strasbourg,_with_chamber_orchestra_performing.jpg",
+        "credit": "inyucho",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/deed.en",
+        "alt": "Un orchestre se produit dans l’hémicycle européen à Strasbourg.",
+        "caption": "Photo d’archives (2008-03-12). Un orchestre se produit dans l’hémicycle européen à Strasbourg."
+      }
+    },
+    {
+      "eventKey": "zdeno-chara-comite-selection-temple-renommee-hockey",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "Sportsnet",
+          "url": "https://www.sportsnet.ca/nhl/article/hockey-hall-of-fame-appoints-zdeno-chara-to-selection-committee/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Hockey.com",
+          "url": "https://www.hockey.com/news/zdeno-chara-joins-hockey-hall-of-fame-selection-committee-qvx56e",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Temple de la renommée du hockey — communiqué",
+          "url": "https://www.hhof.com/pdf/Media-Release_Selection-Committee_2026Nov26.pdf",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Zdeno Chara joins Hockey Hall of Fame selection committee",
+          "summary": "The former Bruins captain succeeds Igor Larionov, whose 15-year term has ended.",
+          "body": "A year after his own induction, Zdeno Chara will help choose future Hockey Hall of Fame members. The Hall announced Thursday that he was joining its 18-member selection committee. Sportsnet reports that the Slovak defenceman takes Igor Larionov’s seat.\n\nChara played 24 NHL seasons. He captained Boston for 14 seasons, winning the Norris Trophy in 2009 and the Stanley Cup in 2011, the Hall notes.",
+          "photoAlt": "Zdeno Chara on the ice wearing a Boston Bruins jersey.",
+          "photoCaption": "Archive photo (2012-01-19). Zdeno Chara on the ice wearing a Boston Bruins jersey."
+        },
+        "es": {
+          "title": "Zdeno Chara entra en el comité de selección del Salón de la Fama del Hockey",
+          "summary": "El excapitán de los Bruins sucede a Igor Larionov al terminar su mandato de quince años.",
+          "body": "Un año después de su ingreso, Zdeno Chara ayudará a elegir a futuros miembros del Salón de la Fama del Hockey. La institución anunció el jueves su incorporación al comité de 18 integrantes. Según Sportsnet, el defensa eslovaco ocupa el puesto de Igor Larionov.\n\nChara jugó 24 temporadas en la NHL. Fue capitán de Boston durante 14, ganó el trofeo Norris en 2009 y la Copa Stanley en 2011, recuerda el Salón.",
+          "photoAlt": "Zdeno Chara en el hielo con la camiseta de los Boston Bruins.",
+          "photoCaption": "Foto de archivo (2012-01-19). Zdeno Chara en el hielo con la camiseta de los Boston Bruins."
+        },
+        "ar": {
+          "title": "زدينو تشارا ينضم إلى لجنة الاختيار في قاعة مشاهير الهوكي",
+          "summary": "يخلف قائد بروينز السابق إيغور لاريونوف بعد انتهاء ولايته البالغة 15 عاماً.",
+          "body": "بعد عام من تكريمه في القاعة، سيساهم تشارا في اختيار أعضائها المقبلين. وأعلنت المؤسسة الخميس انضمامه إلى لجنة الاختيار المكونة من 18 عضواً. وبحسب سبورتسنت يشغل المدافع السلوفاكي مقعد إيغور لاريونوف.\n\nلعب تشارا 24 موسماً في دوري الهوكي الوطني، وقاد بوسطن 14 موسماً. وتذكر القاعة بفوزه بجائزة نوريس عام 2009 وكأس ستانلي عام 2011.",
+          "photoAlt": "زدينو تشارا على الجليد بقميص بوسطن بروينز.",
+          "photoCaption": "صورة أرشيفية (2012-01-19). زدينو تشارا على الجليد بقميص بوسطن بروينز."
+        },
+        "zh-CN": {
+          "title": "兹德诺·哈拉加入冰球名人堂遴选委员会",
+          "summary": "这位前波士顿棕熊队队长接替任期届满15年的伊戈尔·拉里奥诺夫。",
+          "body": "入选名人堂一年后，哈拉将参与遴选未来成员。冰球名人堂周四宣布，他将加入由18人组成的委员会。Sportsnet报道，这位斯洛伐克后卫接替拉里奥诺夫。\n\n据名人堂介绍，哈拉曾在北美冰球联赛征战24个赛季，担任波士顿队长14个赛季，2009年获诺里斯奖，2011年捧得斯坦利杯。",
+          "photoAlt": "兹德诺·哈拉身穿波士顿棕熊队球衣站在冰上。",
+          "photoCaption": "资料照片 (2012-01-19). 兹德诺·哈拉身穿波士顿棕熊队球衣站在冰上。"
+        },
+        "ru": {
+          "title": "Здено Хара вошёл в отборочный комитет Зала хоккейной славы",
+          "summary": "Экс-капитан «Брюинз» сменил Игоря Ларионова, чей 15-летний срок полномочий завершился.",
+          "body": "Через год после собственного включения в Зал хоккейной славы Хара поможет выбирать его новых членов. В четверг учреждение объявило о его назначении в комитет из 18 человек. По данным Sportsnet, словацкий защитник занял место Ларионова.\n\nХара провёл в НХЛ 24 сезона, из них 14 был капитаном «Бостона». В 2009 году он выиграл «Норрис Трофи», а в 2011-м — Кубок Стэнли, напоминает Зал славы.",
+          "photoAlt": "Здено Хара на льду в форме «Бостон Брюинз».",
+          "photoCaption": "Архивное фото (2012-01-19). Здено Хара на льду в форме «Бостон Брюинз»."
+        },
+        "ko": {
+          "title": "즈데노 하라, 하키 명예의 전당 선정위원 합류",
+          "summary": "전 보스턴 브루인스 주장이 15년 임기를 마친 이고리 라리오노프의 뒤를 잇는다.",
+          "body": "명예의 전당에 헌액된 지 1년 만에 하라가 차기 헌액자 선정에 참여한다. 명예의 전당은 목요일 18명으로 구성된 선정위원회에 하라를 임명했다고 발표했다. 스포츠넷에 따르면 슬로바키아 출신 수비수 하라는 라리오노프의 자리를 이어받는다.\n\n하라는 NHL에서 24시즌을 뛰었다. 명예의 전당에 따르면 보스턴 주장을 14시즌 맡았고 2009년 노리스 트로피, 2011년 스탠리컵을 차지했다.",
+          "photoAlt": "보스턴 브루인스 유니폼을 입고 빙판에 선 즈데노 하라.",
+          "photoCaption": "자료 사진 (2012-01-19). 보스턴 브루인스 유니폼을 입고 빙판에 선 즈데노 하라."
+        }
+      },
+      "verified": true,
+      "title": "Zdeno Chara entre au comité de sélection du Temple de la renommée du hockey",
+      "summary": "L’ancien capitaine des Bruins succède à Igor Larionov, dont le mandat de quinze ans vient de prendre fin.",
+      "body": "Un an après sa propre intronisation, Zdeno Chara participera au choix des prochains membres du Temple de la renommée du hockey. L’institution a annoncé jeudi son entrée au comité de sélection, qui compte 18 membres. Sportsnet précise que le défenseur slovaque prend le siège d’Igor Larionov.\n\nChara a disputé 24 saisons dans la Ligue nationale de hockey. Capitaine des Bruins de Boston pendant 14 saisons, il a remporté le trophée Norris en 2009 et la coupe Stanley en 2011, rappelle le Temple.",
+      "photo": {
+        "download": "media/chara.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zdeno_Chara_-_Boston_Bruins_2012.jpg",
+        "credit": "Lisa Gansky",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+        "alt": "Zdeno Chara sur la glace en maillot des Bruins de Boston.",
+        "caption": "Photo d’archives (2012-01-19). Zdeno Chara sur la glace en maillot des Bruins de Boston."
+      }
+    }
+  ]
+}
