@@ -5,7 +5,7 @@ import { preferences, readerAccounts, readerSessions } from '../db/schema';
 import { cookieHeader, getCookie, hashSecret, randomSecret, validSecret } from './editor-session';
 import { recordReaderActivity, recordReaderSignIn, type ReaderStatus } from './reader-accounts';
 import { preferredLocale } from './i18n';
-import { legacySignOutUrl, readerAccountUrl, readerText } from './reader-links';
+import { readerSignOutUrl, readerText } from './reader-links';
 import { NEW_SITE_ORIGIN, SIGN_IN_ORIGIN } from './site-url';
 
 export const readerCookie = '__Host-byrvox-reader';
@@ -92,7 +92,7 @@ function blockedReaderResponse(request: Request, status: Exclude<ReaderStatus,'a
   const message = readerText(locale,status);
   const headers = {'Cache-Control':'private, no-store','X-Robots-Tag':'noindex'};
   if (url.pathname.startsWith('/api/')) return Response.json({error:message,status}, {status:403,headers});
-  const logout = (url.origin === SIGN_IN_ORIGIN ? legacySignOutUrl(locale) : readerAccountUrl('sortie','/',locale)).replaceAll('&','&amp;');
+  const logout = readerSignOutUrl(url.origin === SIGN_IN_ORIGIN,'/',locale).replaceAll('&','&amp;');
   const html = '<!doctype html><html lang="' + locale + '" dir="' + (locale === 'ar' ? 'rtl' : 'ltr') +
     '"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BYRVOX</title>' +
     '<main><p>BYRVOX</p><h1>' + message + '</h1><p><a href="' + logout + '">' + readerText(locale,'sortie') + '</a></p></main></html>';

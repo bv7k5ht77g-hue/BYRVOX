@@ -1,4 +1,4 @@
-import { NEW_SITE_ORIGIN, SIGN_IN_ORIGIN } from './site-url';
+import { NEW_SITE_ORIGIN } from './site-url';
 import { publicLocales, type PublicLocale } from './i18n';
 
 export type ReaderMode = 'connexion' | 'inscription' | 'sortie';
@@ -20,21 +20,12 @@ export function readerAccountUrl(mode: ReaderMode, returnTo: string, lang: Publi
   return url.href;
 }
 
-export function legacyBookmarksUrl(lang:PublicLocale) {
-  const url = new URL('/signin-with-chatgpt',SIGN_IN_ORIGIN);
-  const bookmarks = new URLSearchParams({rubrique:'favoris',lang});
-  url.searchParams.set('return_to','/?' + bookmarks);
-  return url.href;
-}
-
-export function legacySignOutUrl(lang:PublicLocale) {
-  const url = new URL('/signout-with-chatgpt',SIGN_IN_ORIGIN);
-  url.searchParams.set('return_to','/?lang=' + lang);
-  return url.href;
+export function readerSignOutUrl(legacy: boolean, returnTo: string, lang: PublicLocale) {
+  if (legacy) return '/compte?' + new URLSearchParams({mode:'sortie', lang});
+  return readerAccountUrl('sortie', returnTo, lang);
 }
 
 const copy = {
-  legacy: ['Retrouver mes anciens favoris avec ChatGPT','Access my previous bookmarks with ChatGPT','Recuperar mis favoritos anteriores con ChatGPT','الوصول إلى مفضلتي السابقة باستخدام ChatGPT','使用 ChatGPT 访问以前的收藏','Открыть прежние закладки через ChatGPT','ChatGPT로 기존 즐겨찾기 열기'],
   connexion: ['Se connecter','Sign in','Iniciar sesión','تسجيل الدخول','登录','Войти','로그인'],
   inscription: ['Créer un compte','Create an account','Crear una cuenta','إنشاء حساب','创建账户','Создать аккаунт','계정 만들기'],
   sortie: ['Se déconnecter','Sign out','Cerrar sesión','تسجيل الخروج','退出登录','Выйти','로그아웃'],

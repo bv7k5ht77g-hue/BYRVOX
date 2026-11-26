@@ -24,8 +24,6 @@ La connexion et l’inscription des lecteurs passent par la [page de compte BYRV
 
 La page compte monte les formulaires officiels de connexion et d’inscription de Clerk dans la langue du lecteur. Les options proposées suivent les méthodes activées dans l’instance de production. Après vérification de la session, BYRVOX ramène le lecteur à l’article ouvert.
 
-Le lien de récupération des anciens favoris permet aux lecteurs qui avaient déjà sauvegardé leurs préférences avec ChatGPT de retrouver ces données avec leur compte d’origine.
-
 Dans **Portail éditeur → Lecteurs**, les propriétaires et approbateurs peuvent retrouver un compte par nom ou courriel, consulter sa fiche, le suspendre, le bannir ou rétablir son accès. La fiche affiche les coordonnées fournies par le compte et, lorsqu’elles sont disponibles, la dernière adresse IP et la localisation approximative communiquées par l’hébergeur. L’historique conserve les 100 événements les plus récents par lecteur, y compris les changements de statut. Les mesures de modération s’appliquent au compte, et la presse publique reste accessible en lecture anonyme.
 
 ## Espaces publicitaires

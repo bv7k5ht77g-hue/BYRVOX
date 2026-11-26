@@ -30,7 +30,6 @@ html[data-theme=dark] .reader-account { --reader-form-link: #ff9db0; }
 .reader-clerk { text-align: start; }
 .reader-account .reader-clerk-root, .reader-account .reader-clerk-card { width: 100%; min-width: 0; max-width: 100%; }
 .reader-account-form > [role=status] { margin-block: .8rem; }
-.reader-account-legacy { margin-top: 1rem; font-size: .83rem; text-decoration: underline; text-underline-offset: .18em; color: var(--muted); }
 .reader-account-back {
   display: inline-flex; align-items: center; justify-content: center; gap: .55rem;
   min-height: 2.75rem; margin-top: 1.4rem; padding: .55rem 1.2rem; border: 1px solid var(--line);

@@ -2,7 +2,7 @@ import { Bookmark, CircleUserRound, Download, Search, Trash2, X } from 'lucide-r
 import { useEffect, useRef, useState } from 'react';
 import { usePublicLocale } from '../language-select';
 import { localizedHref } from '../../lib/i18n';
-import { legacySignOutUrl, readerAccountUrl, readerText } from '../../lib/reader-links';
+import { readerSignOutUrl, readerAccountUrl, readerText } from '../../lib/reader-links';
 import dialogCopy from '../../lib/translations/dialog.json';
 import { editionHref } from '../../lib/edition';
 
@@ -66,7 +66,7 @@ export function ReaderDialog({ name, close, open, profile, currentUrl, query, pe
         <button className="outline" onClick={() => setConfirm(false)}>{label("Annuler")}</button>
         <button className="red" disabled={pending} onClick={clear}>{label("Confirmer l’effacement")}</button></div> :
         <button className="outline" onClick={() => setConfirm(true)}><Trash2 size={16} aria-hidden="true" /> {label("Effacer mes préférences BYRVOX")}</button>}
-      <a href={profile?.legacy ? legacySignOutUrl(locale) : readerAccountUrl('sortie',localizedHref(currentUrl,locale),locale)} target="_top">{label("Se déconnecter")}</a>
+      <a href={readerSignOutUrl(Boolean(profile?.legacy),localizedHref(currentUrl,locale),locale)} target="_top">{label("Se déconnecter")}</a>
     </> : name === 'newsletters' ? <>
       <h2 id="reader-dialog-title">{label("Les newsletters en préparation")}</h2>
       <dl>{[['Breaking', 'Les événements majeurs'], ['Morning Brief', 'Commencer la journée'], ['Evening Brief', 'Prendre du recul'], ['Weekly', 'La semaine en perspective']].map(([title, text]) =>

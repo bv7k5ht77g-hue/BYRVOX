@@ -1,10 +1,11 @@
 import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { clerkConfiguration } from '../../lib/reader-clerk';
-import { legacyBookmarksUrl, readerAccountUrl, readerReturnPath, readerText, type ReaderMode } from '../../lib/reader-links';
+import { readerAccountUrl, readerReturnPath, readerText, type ReaderMode } from '../../lib/reader-links';
 import { resolvePublicLocale } from '../../lib/public-locale';
 import { localizedHref } from '../../lib/i18n';
-import { NEW_SITE_ORIGIN } from '../../lib/site-url';
+import { chatGPTSignOutPath } from '../chatgpt-auth';
+import { NEW_SITE_ORIGIN, SIGN_IN_ORIGIN } from '../../lib/site-url';
 import { ArrowLeft } from 'lucide-react';
 import { AccountControls, ClerkReader } from './reader';
 import './reader.css';
@@ -24,6 +25,9 @@ export default async function ReaderAccount({searchParams}:Params) {
   const mode = accountMode(params.mode);
   const returnTo = localizedHref(readerReturnPath(params.return_to),lang);
   const host = (await headers()).get('host');
+  if (mode === 'sortie' && host === new URL(SIGN_IN_ORIGIN).host) {
+    redirect(chatGPTSignOutPath(localizedHref('/',lang)));
+  }
   if (host !== new URL(NEW_SITE_ORIGIN).host) redirect(readerAccountUrl(mode,returnTo,lang));
   const config = clerkConfiguration();
   return <main className="reader-account" lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
@@ -33,7 +37,6 @@ export default async function ReaderAccount({searchParams}:Params) {
       <section className="reader-account-form" aria-label={readerText(lang,mode)}>
         <ClerkReader publishableKey={config?.publishableKey || ''} issuer={config?.issuer || ''} mode={mode} returnTo={returnTo} lang={lang}/>
       </section>
-      {mode === 'connexion' && <a className="reader-account-legacy" href={legacyBookmarksUrl(lang)}>{readerText(lang,'legacy')}</a>}
       <a className="reader-account-back" href={returnTo}><ArrowLeft size={16} aria-hidden="true"/>{readerText(lang,'back')}</a>
     </div>
   </main>;

@@ -897,6 +897,7 @@ test('la page Clerk conserve la langue et le retour à l’article dans les deux
     const page = await account.text();
     assert.ok(page.includes('<html lang="' + lang + '" dir="' + dir + '"'));
     assert.ok(page.includes('<title>' + title));
+    assert.doesNotMatch(page, /ChatGPT|signin-with-chatgpt/i);
     assert.ok(page.includes('href="' + target + '"'));
   }
 });
@@ -993,6 +994,16 @@ test('les préférences des lecteurs historiques restent liées au compte de leu
   assert.equal(response.status,200);
   const account = await response.json();
   assert.equal(account.legacy,true);
+  const logoutUrl = '/compte?mode=sortie&lang=en';
+  const oldLogout = await mf.dispatchFetch(providerOrigin + logoutUrl,{redirect:'manual'});
+  assert.ok([302,303,307,308].includes(oldLogout.status));
+  const destination = new URL(oldLogout.headers.get('location'),providerOrigin);
+  assert.equal(destination.origin,providerOrigin);
+  assert.equal(destination.pathname,'/signout-with-chatgpt');
+  assert.equal(destination.searchParams.get('return_to'),'/?lang=en');
+  const clerkLogout = await mf.dispatchFetch(publicOrigin + logoutUrl,{redirect:'manual'});
+  assert.equal(clerkLogout.status,200);
+  assert.doesNotMatch(await clerkLogout.text(),/signout-with-chatgpt/i);
   assert.deepEqual(account.preferences,prefs);
   const detail = await json('/api/newsroom/readers?id=' + userId,{email:editor});
   assert.equal(detail.reader.email,email);
