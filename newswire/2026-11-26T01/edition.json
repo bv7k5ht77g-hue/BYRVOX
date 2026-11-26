@@ -1,0 +1,1140 @@
+{
+  "hour": "2026-11-26T01",
+  "articles": [
+    {
+      "eventKey": "quebec-serment-roi-audience-appel-27-novembre",
+      "category": "Québec",
+      "verified": true,
+      "sources": [
+        {
+          "name": "La Presse Canadienne / CityNews",
+          "url": "https://montreal.citynews.ca/2026/11/25/pq-government-appeal-oath-law-friday/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Cour supérieure du Québec",
+          "url": "https://coursuperieureduquebec.ca/fileadmin/cour-superieure/Jugements_diffuses_sur_X/2026-11-23_Public_Interest_Litigation_Institute_et_al._c._PGQ_et_al.pdf",
+          "publishedAt": "2026-11-23"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Quebec Court of Appeal to hear oath-to-King case on Friday",
+          "summary": "The government wants legislators to be able to sit while the legal challenge over the oath to the King continues.",
+          "body": "The Court of Appeal will hear the case on Friday afternoon, November 27, government house leader Catherine Gentilcore confirmed Wednesday, according to The Canadian Press. Quebec is asking for immediate relief from the lower court’s decision.\n\nIn its November 23 ruling, the Superior Court suspended the 2022 law that made the oath to the National Assembly the only oath required to take a seat. The decision affects all 127 members of the legislature, who did not swear allegiance to the King.",
+          "photoAlt": "Tower and façade of the Parliament Building in Quebec City.",
+          "photoCaption": "Archive photo — July 17, 2007. Tower and façade of the Parliament Building in Quebec City."
+        },
+        "es": {
+          "title": "La Corte de Apelación de Quebec examinará el viernes el caso del juramento al rey",
+          "summary": "El gobierno busca que los diputados puedan ocupar sus escaños mientras se resuelve el litigio sobre el juramento al rey.",
+          "body": "La Corte de Apelación examinará el caso el viernes 27 de noviembre por la tarde, confirmó el miércoles la líder parlamentaria del gobierno, Catherine Gentilcore, según The Canadian Press. Quebec pide que se suspendan de inmediato los efectos del fallo de primera instancia.\n\nEn su decisión del 23 de noviembre, la Corte Superior suspendió la ley de 2022 que establecía el juramento ante la Asamblea Nacional como único requisito de juramento para ocupar un escaño. El fallo afecta a los 127 diputados de la legislatura, que no juraron lealtad al rey.",
+          "photoAlt": "Torre y fachada del Parlamento en la ciudad de Quebec.",
+          "photoCaption": "Foto de archivo — 17 de julio de 2007. Torre y fachada del Parlamento en la ciudad de Quebec."
+        },
+        "ar": {
+          "title": "محكمة الاستئناف تنظر الجمعة في طلب كيبيك بشأن أداء اليمين للملك",
+          "summary": "تريد الحكومة تمكين النواب من شغل مقاعدهم بينما يستمر النزاع القضائي بشأن اليمين للملك.",
+          "body": "أكدت زعيمة الحكومة في البرلمان كاثرين جنتيلكور الأربعاء أن محكمة الاستئناف ستنظر القضية بعد ظهر الجمعة 27 نوفمبر، بحسب وكالة الصحافة الكندية. وتطلب كيبيك وقف الأثر الفوري لقرار محكمة الدرجة الأولى.\n\nوفي حكم صدر في 23 نوفمبر، أوقفت المحكمة العليا في كيبيك العمل بقانون عام 2022 الذي جعل اليمين أمام الجمعية الوطنية القسم الوحيد المطلوب لشغل المقعد. ويشمل الحكم نواب المجلس البالغ عددهم 127، الذين لم يقسموا الولاء للملك.",
+          "photoAlt": "برج مبنى البرلمان وواجهته في مدينة كيبيك.",
+          "photoCaption": "صورة أرشيفية — 17 يوليو 2007. برج مبنى البرلمان وواجهته في مدينة كيبيك."
+        },
+        "zh-CN": {
+          "title": "魁北克上诉法院将于周五审理向国王宣誓案",
+          "summary": "魁北克政府希望议员在有关宣誓义务的诉讼期间能够就座履职。",
+          "body": "据加通社报道，政府议会领袖凯瑟琳·真蒂尔科尔周三证实，上诉法院将于11月27日星期五下午审理此案。魁北克政府请求立即暂停执行一审裁定。\n\n魁北克高等法院在11月23日的裁定中暂停实施2022年的一项法律。该法规定，议员就座时只须向国民议会宣誓。裁定涉及本届全部127名议员，他们均未向国王宣誓效忠。",
+          "photoAlt": "魁北克市议会大厦的塔楼和外立面。",
+          "photoCaption": "档案照片 — 2007年7月17日. 魁北克市议会大厦的塔楼和外立面。"
+        },
+        "ru": {
+          "title": "Апелляционный суд Квебека в пятницу рассмотрит дело о присяге королю",
+          "summary": "Правительство хочет, чтобы депутаты могли занять места в парламенте до разрешения спора о присяге королю.",
+          "body": "Как передаёт The Canadian Press, лидер правительства в парламенте Катрин Жантилькор подтвердила в среду, что суд рассмотрит дело во второй половине дня в пятницу, 27 ноября. Квебек просит немедленно приостановить действие решения первой инстанции.\n\n23 ноября Высший суд Квебека приостановил действие закона 2022 года, по которому для занятия места требовалась только присяга Национальному собранию. Решение касается всех 127 депутатов созыва, не приносивших присягу королю.",
+          "photoAlt": "Башня и фасад здания парламента в городе Квебек.",
+          "photoCaption": "Архивный снимок — 17 июля 2007 г.. Башня и фасад здания парламента в городе Квебек."
+        },
+        "ko": {
+          "title": "퀘벡 항소법원, 금요일 국왕 선서 관련 주정부 신청 심리",
+          "summary": "주정부는 국왕에 대한 선서 의무를 둘러싼 소송 동안 의원들이 의석에 앉을 수 있게 해 달라고 요청했다.",
+          "body": "캐나다통신에 따르면 카트린 장틸코르 정부 원내대표는 수요일 항소법원이 11월 27일 금요일 오후 사건을 심리한다고 확인했다. 퀘벡 정부는 1심 결정의 효력을 즉각 정지해 달라고 요청했다.\n\n퀘벡 고등법원은 11월 23일 결정에서 주의회에 대한 선서만으로 의정 활동이 가능하도록 한 2022년 법의 효력을 정지했다. 이 결정은 국왕에게 선서하지 않은 현 의회 의원 127명 전원에게 영향을 미친다.",
+          "photoAlt": "퀘벡시 주의회 건물의 탑과 정면.",
+          "photoCaption": "자료 사진 — 2007년 7월 17일. 퀘벡시 주의회 건물의 탑과 정면."
+        }
+      },
+      "title": "Serment au roi : la Cour d’appel entendra vendredi la demande de Québec",
+      "summary": "Le gouvernement veut que les députés puissent siéger pendant que se poursuit la contestation de l’obligation de prêter serment au roi.",
+      "body": "La Cour d’appel entendra le dossier vendredi 27 novembre en après-midi, a confirmé mercredi la leader parlementaire du gouvernement, Catherine Gentilcore, selon La Presse Canadienne. Québec demande que la décision de première instance cesse de s’appliquer dans l’immédiat.\n\nDans son jugement du 23 novembre, la Cour supérieure a suspendu la loi de 2022 qui faisait du serment à l’Assemblée nationale le seul serment obligatoire pour siéger. Le jugement concerne les 127 députés de la législature, qui n’ont pas prêté serment au roi.",
+      "photo": {
+        "download": "media/quebec-serment-roi-audience-appel-27-novembre.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_nationale_du_Qu%C3%A9bec_-_facade-2.jpg",
+        "credit": "Bouchecl",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Tour et façade de l’hôtel du Parlement à Québec.",
+        "caption": "Archives — 17 juillet 2007. Tour et façade de l’hôtel du Parlement à Québec."
+      }
+    },
+    {
+      "eventKey": "montreal-etude-publique-budget-2027",
+      "category": "Québec",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Ville de Montréal – avis public",
+          "url": "https://applicatif.ville.montreal.qc.ca/som-en/pdf_avis/pdfav42973.pdf",
+          "publishedAt": "2026-11-18"
+        },
+        {
+          "name": "CityNews",
+          "url": "https://montreal.citynews.ca/2026/11/24/montreal-mayor-budget-2026/",
+          "publishedAt": "2026-11-24T11:28:00-05:00"
+        },
+        {
+          "name": "Ville de Montréal – budget",
+          "url": "https://montreal.ca/articles/budget-2027-et-pdi-2027-2036-de-montreal-122187",
+          "publishedAt": "2026-11-24"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Montreal opens its budget review as residential property taxes are set to rise",
+          "summary": "Montrealers can question city departments about the 2027 budget and investments planned through 2036.",
+          "body": "Montreal’s public budget review runs from November 25 to December 4. The city says residents can ask questions at city hall or submit them online to the department concerned. The sessions are also streamed live.\n\nFor homeowners, property taxes are at stake. CityNews reports that the budget tabled on November 24 calls for an average residential property tax increase of 9.8%. The city’s ten-year plan allocates $7.1 billion to water infrastructure and $6 billion to roads.",
+          "photoAlt": "View of Montreal City Hall.",
+          "photoCaption": "Archive photo, September 25, 2016. Montreal City Hall hosts the public budget sessions."
+        },
+        "es": {
+          "title": "Montreal abre el examen público del presupuesto ante la subida del impuesto inmobiliario",
+          "summary": "Los residentes pueden preguntar a los servicios municipales por el presupuesto de 2027 y las inversiones previstas hasta 2036.",
+          "body": "El examen público del presupuesto de Montreal se extiende del 25 de noviembre al 4 de diciembre. Según la ciudad, los vecinos pueden hacer preguntas en el ayuntamiento o enviarlas en línea al servicio correspondiente. Las sesiones también se transmiten en directo.\n\nUno de los asuntos afecta directamente a los propietarios. Según CityNews, el presupuesto presentado el 24 de noviembre prevé un aumento medio del 9,8 % del impuesto sobre inmuebles residenciales. El plan decenal municipal destina 7.100 millones de dólares a infraestructuras de agua y 6.000 millones a la red vial.",
+          "photoAlt": "Vista del Ayuntamiento de Montreal.",
+          "photoCaption": "Archivo del 25 de septiembre de 2016. El ayuntamiento acoge las sesiones públicas sobre el presupuesto."
+        },
+        "ar": {
+          "title": "مونتريال تفتح النقاش العام حول الميزانية وسط زيادة مرتقبة في ضرائب العقارات السكنية",
+          "summary": "بإمكان سكان مونتريال سؤال الإدارات البلدية عن ميزانية 2027 والاستثمارات المقررة حتى 2036.",
+          "body": "تمتد المراجعة العامة للميزانية في مونتريال من 25 نوفمبر إلى 4 ديسمبر. وتقول البلدية إن بإمكان السكان طرح أسئلتهم في مبنى البلدية أو إرسالها عبر الإنترنت إلى الإدارة المعنية. وتُبث الجلسات مباشرة أيضاً.\n\nومن المسائل التي تمس المالكين الضرائب العقارية. وأفادت سيتي نيوز بأن الميزانية المقدمة في 24 نوفمبر تتضمن زيادة متوسطة قدرها 9.8% في ضرائب العقارات السكنية. وتخصص خطة البلدية العشرية 7.1 مليارات دولار للبنية التحتية للمياه وستة مليارات لشبكة الطرق.",
+          "photoAlt": "منظر لمبنى بلدية مونتريال.",
+          "photoCaption": "صورة أرشيفية من 25 سبتمبر 2016. يستضيف مبنى البلدية جلسات الميزانية العامة."
+        },
+        "zh-CN": {
+          "title": "蒙特利尔启动预算公开审议，住宅房产税拟上调",
+          "summary": "市民可就2027年预算和截至2036年的投资计划向市政府各部门提问。",
+          "body": "蒙特利尔预算公开审议从11月25日持续至12月4日。市政府表示，居民可到市政厅提问，也可在线向相关部门提交问题。会议同时进行直播。\n\n房产税直接关系到业主的开支。据CityNews报道，11月24日提交的预算提议将住宅房产税平均上调9.8%。市政府十年投资计划为水务基础设施安排71亿加元，为道路网络安排60亿加元。",
+          "photoAlt": "蒙特利尔市政厅外观。",
+          "photoCaption": "档案照片摄于2016年9月25日。蒙特利尔市政厅是预算公开审议的会场。"
+        },
+        "ru": {
+          "title": "Монреаль открыл обсуждение бюджета на фоне предстоящего роста налога на жильё",
+          "summary": "Жители могут задать городским службам вопросы о бюджете на 2027 год и инвестициях до 2036 года.",
+          "body": "Публичное обсуждение бюджета Монреаля продлится с 25 ноября по 4 декабря. По данным мэрии, вопросы можно задать в ратуше или направить нужной службе онлайн. Заседания также транслируются в прямом эфире.\n\nДля собственников один из главных вопросов — налог на недвижимость. По данным CityNews, бюджет, представленный 24 ноября, предусматривает повышение налога на жилую недвижимость в среднем на 9,8%. В десятилетнем плане город выделяет 7,1 млрд долларов на водную инфраструктуру и 6 млрд на дороги.",
+          "photoAlt": "Вид на ратушу Монреаля.",
+          "photoCaption": "Архивный снимок от 25 сентября 2016 года. В ратуше Монреаля проходят публичные заседания по бюджету."
+        },
+        "ko": {
+          "title": "몬트리올, 주택 보유세 인상안 담은 예산 공개 심의 시작",
+          "summary": "시민들은 2027년 예산과 2036년까지의 투자 계획에 대해 시 담당 부서에 질문할 수 있다.",
+          "body": "몬트리올의 예산 공개 심의는 11월 25일부터 12월 4일까지 진행된다. 시에 따르면 시민은 시청에서 직접 질문하거나 해당 부서에 온라인으로 질문을 보낼 수 있다. 회의는 생중계된다.\n\n주택 소유자에게 직접 영향을 미치는 사안은 재산세다. 시티뉴스에 따르면 11월 24일 제출된 예산안은 주택 재산세를 평균 9.8% 올리는 내용을 담고 있다. 시는 10개년 계획에서 물 관련 기반 시설에 71억 캐나다달러, 도로망에 60억 캐나다달러를 배정했다.",
+          "photoAlt": "몬트리올 시청 외관.",
+          "photoCaption": "2016년 9월 25일 촬영한 자료 사진. 몬트리올 시청에서 공개 예산 심의가 열린다."
+        }
+      },
+      "title": "Montréal ouvre l’examen public de son budget sur fond de hausse des taxes résidentielles",
+      "summary": "Les Montréalais peuvent interroger les services municipaux sur le budget de 2027 et les investissements prévus jusqu’en 2036.",
+      "body": "À Montréal, l’examen public du budget s’étend du 25 novembre au 4 décembre. Selon la Ville, les citoyens peuvent poser leurs questions à l’hôtel de ville ou les transmettre en ligne au service concerné. Les séances sont aussi diffusées en direct.\n\nL’un des enjeux touche directement les propriétaires. CityNews rapporte que le budget déposé le 24 novembre prévoit une hausse moyenne de 9,8 % des taxes foncières résidentielles. Dans son plan décennal, la Ville réserve 7,1 milliards de dollars aux infrastructures de l’eau et 6 milliards au réseau routier.",
+      "photo": {
+        "download": "media/montreal-etude-publique-budget-2027.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montreal_City_Hall_-_Montreal%2C_Canada_-_DSC07004.jpg",
+        "credit": "Daderot",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "alt": "Vue de l’hôtel de ville de Montréal.",
+        "caption": "Archives du 25 septembre 2016. L’hôtel de ville de Montréal accueille les séances publiques sur le budget."
+      }
+    },
+    {
+      "eventKey": "canada-qatar-protection-consulaire-afghanistan",
+      "category": "Canada",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Affaires mondiales Canada",
+          "url": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-deepens-cooperation-with-qatar-through-investment-and-consular-agreements.html",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "La Presse Canadienne / iNFOnews",
+          "url": "https://infonews.ca/news/7993897/ottawa-taps-qatar-to-offer-consular-help-to-canadians-in-afghanistan/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Qatar to help Canada with complex consular cases in Afghanistan",
+          "summary": "An arrangement signed in Ottawa gives Qatar a protecting-power role for Canadian nationals in Afghanistan.",
+          "body": "Canada and Qatar signed an arrangement in Ottawa on November 24 covering complex consular cases involving Canadians in Afghanistan. Global Affairs Canada says Foreign Minister Anita Anand signed it with Qatari Minister of State Mohammed Al Khulaifi.\n\nAccording to The Canadian Press, Ottawa has no embassy in Kabul and does not recognise the Taliban as Afghanistan’s government. Using a protecting power gives Canada an intermediary for these cases.",
+          "photoAlt": "Portrait of Canadian Foreign Minister Anita Anand.",
+          "photoCaption": "Archive photo — August 21, 2025. Portrait of Canadian Foreign Minister Anita Anand."
+        },
+        "es": {
+          "title": "Catar ayudará a Canadá en casos consulares complejos en Afganistán",
+          "summary": "Un acuerdo firmado en Ottawa otorga a Catar un papel de potencia protectora para los ciudadanos canadienses en Afganistán.",
+          "body": "Canadá y Catar firmaron en Ottawa el 24 de noviembre un acuerdo sobre casos consulares complejos de canadienses en Afganistán. Según el Ministerio de Asuntos Globales de Canadá, lo firmaron la ministra Anita Anand y el ministro de Estado catarí Mohammed Al Khulaifi.\n\nSegún The Canadian Press, Ottawa carece de embajada en Kabul y no reconoce a los talibanes como gobierno de Afganistán. Recurrir a una potencia protectora proporciona a Canadá un intermediario para estos casos.",
+          "photoAlt": "Retrato de la ministra canadiense de Exteriores, Anita Anand.",
+          "photoCaption": "Foto de archivo — 21 de agosto de 2025. Retrato de la ministra canadiense de Exteriores, Anita Anand."
+        },
+        "ar": {
+          "title": "قطر تساعد كندا في القضايا القنصلية المعقدة في أفغانستان",
+          "summary": "يمنح ترتيب وُقّع في أوتاوا قطر دور الدولة الحامية للرعايا الكنديين في أفغانستان.",
+          "body": "وقعت كندا وقطر في أوتاوا يوم 24 نوفمبر ترتيباً بشأن القضايا القنصلية المعقدة التي تخص الكنديين في أفغانستان. وقالت وزارة الخارجية الكندية إن الوزيرة أنيتا أناند وقعته مع وزير الدولة القطري محمد الخليفي.\n\nوبحسب وكالة الصحافة الكندية، لا توجد لأوتاوا سفارة في كابول ولا تعترف بطالبان حكومةً لأفغانستان. ويوفر اللجوء إلى دولة حامية وسيطاً لكندا في هذه القضايا.",
+          "photoAlt": "صورة لوزيرة الخارجية الكندية أنيتا أناند.",
+          "photoCaption": "صورة أرشيفية — 21 أغسطس 2025. صورة لوزيرة الخارجية الكندية أنيتا أناند."
+        },
+        "zh-CN": {
+          "title": "卡塔尔将协助加拿大处理在阿富汗的复杂领事事务",
+          "summary": "两国在渥太华签署安排，由卡塔尔为在阿富汗的加拿大公民发挥保护国作用。",
+          "body": "加拿大与卡塔尔11月24日在渥太华签署安排，涉及加拿大公民在阿富汗面临的复杂领事事务。加拿大全球事务部表示，外长阿妮塔·阿南德与卡塔尔国务大臣穆罕默德·胡莱菲签署了这项安排。\n\n据加通社报道，加拿大在喀布尔没有大使馆，也不承认塔利班为阿富汗政府。通过保护国，加拿大在处理这些事务时有了中间渠道。",
+          "photoAlt": "加拿大外交部长阿妮塔·阿南德的肖像。",
+          "photoCaption": "档案照片 — 2025年8月21日. 加拿大外交部长阿妮塔·阿南德的肖像。"
+        },
+        "ru": {
+          "title": "Катар поможет Канаде в сложных консульских делах в Афганистане",
+          "summary": "Договорённость, подписанная в Оттаве, отводит Катару роль державы-покровительницы для канадцев в Афганистане.",
+          "body": "24 ноября Канада и Катар подписали в Оттаве договорённость по сложным консульским делам граждан Канады в Афганистане. Канадское внешнеполитическое ведомство сообщило, что документ подписали министр Анита Ананд и государственный министр Катара Мохаммед аль-Хулайфи.\n\nПо данным The Canadian Press, у Канады нет посольства в Кабуле и она не признаёт талибов правительством Афганистана. Держава-покровительница будет служить посредником при решении этих вопросов.",
+          "photoAlt": "Портрет министра иностранных дел Канады Аниты Ананд.",
+          "photoCaption": "Архивный снимок — 21 августа 2025 г.. Портрет министра иностранных дел Канады Аниты Ананд."
+        },
+        "ko": {
+          "title": "카타르, 아프가니스탄 내 캐나다인 관련 복잡한 영사 업무 지원",
+          "summary": "오타와에서 체결된 약정에 따라 카타르가 아프가니스탄 내 캐나다 국민을 위한 이익보호국 역할을 맡는다.",
+          "body": "캐나다와 카타르는 11월 24일 오타와에서 아프가니스탄 내 캐나다인 관련 복잡한 영사 사안을 다루는 약정을 체결했다. 캐나다 외교부에 따르면 아니타 아난드 장관과 카타르의 모하메드 알쿨라이피 국무장관이 서명했다.\n\n캐나다통신에 따르면 캐나다는 카불에 대사관이 없고 탈레반을 아프가니스탄 정부로 인정하지 않는다. 이익보호국을 통해 캐나다는 이런 사안에 활용할 중개 채널을 확보하게 된다.",
+          "photoAlt": "아니타 아난드 캐나다 외교장관의 인물 사진.",
+          "photoCaption": "자료 사진 — 2025년 8월 21일. 아니타 아난드 캐나다 외교장관의 인물 사진."
+        }
+      },
+      "title": "Le Qatar aidera le Canada dans les dossiers consulaires complexes en Afghanistan",
+      "summary": "Un arrangement signé à Ottawa donne au Qatar un rôle de puissance protectrice pour les ressortissants canadiens en Afghanistan.",
+      "body": "Le Canada et le Qatar ont signé le 24 novembre à Ottawa un arrangement portant sur les dossiers consulaires complexes de citoyens canadiens en Afghanistan. Affaires mondiales Canada précise que la ministre Anita Anand l’a conclu avec le ministre d’État qatari Mohammed Al Khulaifi.\n\nSelon La Presse Canadienne, Ottawa ne dispose pas d’ambassade à Kaboul et ne reconnaît pas les talibans comme gouvernement de l’Afghanistan. Le recours à une puissance protectrice donne au Canada un intermédiaire pour ces dossiers.",
+      "photo": {
+        "download": "media/canada-qatar-protection-consulaire-afghanistan.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anita_Anand_in_2025_%28cropped%29.jpg",
+        "credit": "Freddie Everett / U.S. Department of State",
+        "license": "Domaine public",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Anita_Anand_in_2025_%28cropped%29.jpg",
+        "alt": "Portrait de la ministre canadienne des Affaires étrangères Anita Anand.",
+        "caption": "Archives — 21 août 2025. Portrait de la ministre canadienne des Affaires étrangères Anita Anand."
+      }
+    },
+    {
+      "eventKey": "cop31-reponse-opep-al-ghais-25-novembre",
+      "category": "Environnement",
+      "verified": true,
+      "sources": [
+        {
+          "name": "OPEP",
+          "url": "https://www.opec.org/sgcorner-detail/205325-25-november-2026.html",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/sustainability/cop/opec-blames-eu-cop31-collapse-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "OPEC chief defends oil producers after COP31",
+          "summary": "Three days after the Antalya summit ended, Haitham Al Ghais challenged the claim that producers were responsible for the pact’s failure.",
+          "body": "Writing on November 25, OPEC’s secretary general said producing countries had accepted the draft Antalya pact despite their reservations. He criticised the European Union for rejecting the compromise.\n\nReuters reported that European negotiators found the text inadequate because it made no explicit mention of moving away from fossil fuels. Speaking to the agency, COP31 president Murat Kurum also cited disagreements over climate finance.",
+          "photoAlt": "Glass façades of OPEC’s Vienna headquarters.",
+          "photoCaption": "Archive photo, October 1, 2021. OPEC headquarters in Vienna."
+        },
+        "es": {
+          "title": "El jefe de la OPEP defiende a los productores de petróleo tras la COP31",
+          "summary": "Tres días después de la cumbre de Antalya, Haitham Al Ghais cuestionó que los productores fueran responsables del fracaso del pacto.",
+          "body": "En un texto publicado el 25 de noviembre, el secretario general de la OPEP afirmó que los países productores aceptaban el borrador del pacto pese a sus reservas. Reprochó a la Unión Europea haber rechazado el compromiso.\n\nSegún Reuters, los negociadores europeos consideraban insuficiente el texto porque no mencionaba expresamente la transición para dejar atrás los combustibles fósiles. El presidente de la COP31, Murat Kurum, también señaló a la agencia las discrepancias sobre la financiación climática.",
+          "photoAlt": "Fachadas acristaladas de la sede de la OPEP en Viena.",
+          "photoCaption": "Archivo del 1 de octubre de 2021. Sede de la OPEP en Viena."
+        },
+        "ar": {
+          "title": "أمين عام أوبك يدافع عن منتجي النفط بعد مؤتمر أنطاليا",
+          "summary": "بعد ثلاثة أيام من اختتام القمة، اعترض هيثم الغيص على تحميل المنتجين مسؤولية تعثر اتفاق أنطاليا.",
+          "body": "قال الأمين العام لأوبك في مقال نشره في 25 نوفمبر إن الدول المنتجة قبلت مشروع اتفاق أنطاليا رغم تحفظاتها. وانتقد الاتحاد الأوروبي لرفضه التسوية.\n\nوأفادت رويترز بأن المفاوضين الأوروبيين اعتبروا النص قاصراً لأنه لم يذكر صراحة التحول عن الوقود الأحفوري. وقال رئيس المؤتمر مراد كوروم للوكالة إن الخلافات شملت أيضاً تمويل العمل المناخي.",
+          "photoAlt": "واجهات زجاجية لمقر أوبك في فيينا.",
+          "photoCaption": "صورة أرشيفية من 1 أكتوبر 2021 لمقر أوبك في فيينا."
+        },
+        "zh-CN": {
+          "title": "欧佩克秘书长在安塔利亚气候大会后为产油国辩护",
+          "summary": "峰会落幕三天后，海赛姆·盖斯对将协议流产归咎于产油国的说法提出异议。",
+          "body": "欧佩克秘书长在11月25日发表的文章中说，产油国虽有保留，仍接受了安塔利亚协议草案。他批评欧盟拒绝妥协方案。\n\n据路透社报道，欧洲谈判代表认为文本未明确提及转型摆脱化石燃料，因此力度不足。大会主席穆拉特·库鲁姆向路透社表示，各方在气候融资上也存在分歧。",
+          "photoAlt": "欧佩克维也纳总部的玻璃外墙。",
+          "photoCaption": "档案照片摄于2021年10月1日，图为欧佩克维也纳总部。"
+        },
+        "ru": {
+          "title": "Глава ОПЕК выступил в защиту нефтедобывающих стран после COP31",
+          "summary": "Через три дня после саммита в Анталье Хайсам аль-Гайс оспорил утверждение, что за срыв соглашения отвечают производители нефти.",
+          "body": "В статье от 25 ноября генеральный секретарь ОПЕК заявил, что добывающие страны согласились на проект пакта в Анталье, хотя у них были оговорки. Он упрекнул Евросоюз в отказе от компромисса.\n\nПо данным Reuters, европейские участники сочли текст недостаточным, поскольку в нём прямо не упоминался отход от ископаемого топлива. Председатель COP31 Мурат Курум в беседе с агентством указал также на разногласия о финансировании климатических мер.",
+          "photoAlt": "Стеклянные фасады штаб-квартиры ОПЕК в Вене.",
+          "photoCaption": "Архивный снимок от 1 октября 2021 года. Штаб-квартира ОПЕК в Вене."
+        },
+        "ko": {
+          "title": "안탈리아 기후총회 뒤 산유국 입장 옹호한 OPEC 사무총장",
+          "summary": "안탈리아 정상회의 폐막 사흘 뒤 하이삼 알가이스는 합의 무산의 책임이 산유국에 있다는 주장에 반박했다.",
+          "body": "OPEC 사무총장은 11월 25일 발표한 글에서 산유국들이 유보적인 입장에도 안탈리아 합의문 초안을 수용했다고 밝혔다. 그는 유럽연합이 타협안을 거부했다고 비판했다.\n\n로이터에 따르면 유럽 협상단은 화석연료에서 벗어나기 위한 전환이 명시되지 않아 합의문이 미흡하다고 봤다. 무라트 쿠룸 COP31 의장은 로이터에 기후 재원을 둘러싼 이견도 있었다고 말했다.",
+          "photoAlt": "빈에 있는 OPEC 본부의 유리 외벽.",
+          "photoCaption": "2021년 10월 1일 촬영한 자료 사진. 오스트리아 빈의 OPEC 본부."
+        }
+      },
+      "title": "Après la COP31, le chef de l’OPEP défend les pays producteurs de pétrole",
+      "summary": "Trois jours après la clôture du sommet d’Antalya, Haitham Al Ghais conteste la responsabilité attribuée aux producteurs dans l’échec du pacte.",
+      "body": "Dans un texte publié le 25 novembre, le secrétaire général de l’OPEP affirme que les pays producteurs acceptaient le projet de pacte d’Antalya malgré leurs réserves. Il reproche à l’Union européenne d’avoir rejeté le compromis.\n\nReuters rapporte que les Européens jugeaient le texte insuffisant en raison de l’absence de mention explicite d’une transition hors des énergies fossiles. Interrogé par l’agence, le président de la COP31, Murat Kurum, cite aussi les désaccords sur le financement climatique.",
+      "photo": {
+        "download": "media/cop31-reponse-opep-al-ghais-25-novembre.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_OPEC-Zentrale_%28b%29.JPG",
+        "credit": "C.Stadler/Bwag",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Façades vitrées du siège de l’OPEP à Vienne.",
+        "caption": "Archives du 1er octobre 2021. Siège de l’OPEP à Vienne."
+      }
+    },
+    {
+      "eventKey": "union-europeenne-budget-2027-adoption-strasbourg",
+      "category": "International",
+      "verified": true,
+      "sources": [
+        {
+          "name": "The Brussels Times",
+          "url": "https://www.brusselstimes.com/eu-affairs/2423125/eu-boosts-2027-budget-to-e211-5b-with-key-research-energy-focus/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Conseil de l’Union européenne",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/23/eu-budget-for-2027-council-gives-final-green-light/pdf/",
+          "publishedAt": "2026-11-23"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "European Parliament approves €211.5 billion in payments for 2027",
+          "summary": "The Strasbourg vote completes the annual budget process following a deal with member states.",
+          "body": "MEPs approved the 2027 budget in Strasbourg on November 25, The Brussels Times reports. The Council had approved it two days earlier. The vote covers the last year of the EU’s 2021–2027 financial framework.\n\nThe Council distinguishes two amounts. The €199.7 billion in commitments allows funding to be pledged, sometimes across several years. The €211.5 billion in payments is what the Union expects to disburse during the year.",
+          "photoAlt": "Rows of seats in the European Parliament chamber in Strasbourg.",
+          "photoCaption": "Archive photo — March 12, 2008. Rows of seats in the European Parliament chamber in Strasbourg."
+        },
+        "es": {
+          "title": "El Parlamento Europeo aprueba 211.500 millones de euros en pagos para 2027",
+          "summary": "La votación de Estrasburgo cierra el proceso presupuestario anual tras el acuerdo con los Estados miembros.",
+          "body": "Los eurodiputados aprobaron el presupuesto de 2027 en Estrasburgo el 25 de noviembre, según The Brussels Times. El Consejo había dado su visto bueno dos días antes. La votación abarca el último año del marco financiero 2021-2027.\n\nEl Consejo distingue dos cifras. Los 199.700 millones de euros en compromisos permiten prometer financiación, a veces para varios años. Los 211.500 millones en pagos corresponden a los desembolsos previstos durante el ejercicio.",
+          "photoAlt": "Filas de escaños en el hemiciclo europeo de Estrasburgo.",
+          "photoCaption": "Foto de archivo — 12 de marzo de 2008. Filas de escaños en el hemiciclo europeo de Estrasburgo."
+        },
+        "ar": {
+          "title": "البرلمان الأوروبي يقر مدفوعات قدرها 211.5 مليار يورو لعام 2027",
+          "summary": "أنهى تصويت ستراسبورغ إجراءات الميزانية السنوية بعد الاتفاق مع الدول الأعضاء.",
+          "body": "أقر النواب الأوروبيون ميزانية 2027 في ستراسبورغ يوم 25 نوفمبر بحسب بروكسل تايمز. وكان المجلس قد وافق عليها قبل يومين. ويخص التصويت السنة الأخيرة من الإطار المالي للاتحاد للفترة 2021–2027.\n\nويميز المجلس بين مبلغين. فالالتزامات البالغة 199.7 مليار يورو تتيح التعهد بتمويل قد يمتد سنوات، بينما تمثل المدفوعات البالغة 211.5 مليار ما يتوقع الاتحاد صرفه خلال السنة المالية.",
+          "photoAlt": "صفوف المقاعد في قاعة البرلمان الأوروبي في ستراسبورغ.",
+          "photoCaption": "صورة أرشيفية — 12 مارس 2008. صفوف المقاعد في قاعة البرلمان الأوروبي في ستراسبورغ."
+        },
+        "zh-CN": {
+          "title": "欧洲议会批准2027年2115亿欧元支付预算",
+          "summary": "在与成员国达成协议后，斯特拉斯堡的投票为年度预算程序画上句号。",
+          "body": "据《布鲁塞尔时报》报道，欧洲议会11月25日在斯特拉斯堡批准2027年预算。欧盟理事会已于两天前批准该预算。这次投票涉及欧盟2021年至2027年财政框架的最后一年。\n\n理事会区分两项金额。1997亿欧元承诺额度可用于作出资助承诺，期限有时跨越数年；2115亿欧元支付额度则是欧盟预计在该年度实际拨付的款项。",
+          "photoAlt": "斯特拉斯堡欧洲议会会议厅内的成排座位。",
+          "photoCaption": "档案照片 — 2008年3月12日. 斯特拉斯堡欧洲议会会议厅内的成排座位。"
+        },
+        "ru": {
+          "title": "Европарламент утвердил выплаты на 211,5 млрд евро в 2027 году",
+          "summary": "Голосование в Страсбурге завершило годовую бюджетную процедуру после договорённости с государствами ЕС.",
+          "body": "25 ноября Европарламент утвердил в Страсбурге бюджет на 2027 год, сообщает The Brussels Times. Совет ЕС одобрил его двумя днями ранее. Речь идёт о последнем годе финансового плана ЕС на 2021–2027 годы.\n\nСовет различает две суммы. Обязательства на 199,7 млрд евро позволяют обещать финансирование, иногда на несколько лет. Выплаты на 211,5 млрд евро — это сумма, которую ЕС планирует перечислить в течение года.",
+          "photoAlt": "Ряды кресел в зале Европарламента в Страсбурге.",
+          "photoCaption": "Архивный снимок — 12 марта 2008 г.. Ряды кресел в зале Европарламента в Страсбурге."
+        },
+        "ko": {
+          "title": "유럽의회, 2027년 지급 예산 2,115억 유로 승인",
+          "summary": "회원국들과 합의한 뒤 스트라스부르에서 진행된 표결로 연간 예산 절차가 마무리됐다.",
+          "body": "브뤼셀타임스에 따르면 유럽의회는 11월 25일 스트라스부르에서 2027년 예산을 승인했다. 이사회는 이틀 전에 승인했다. 이번 표결은 EU의 2021~2027년 재정계획 가운데 마지막 해를 대상으로 한다.\n\n이사회는 두 금액을 구분한다. 약정액 1,997억 유로는 여러 해에 걸칠 수 있는 지원을 약속하는 금액이다. 지급액 2,115억 유로는 EU가 해당 회계연도에 실제 지급할 예정인 금액이다.",
+          "photoAlt": "스트라스부르 유럽의회 본회의장에 줄지어 놓인 의석.",
+          "photoCaption": "자료 사진 — 2008년 3월 12일. 스트라스부르 유럽의회 본회의장에 줄지어 놓인 의석."
+        }
+      },
+      "title": "Le Parlement européen approuve 211,5 milliards d’euros de paiements pour 2027",
+      "summary": "Le vote de Strasbourg clôt la procédure budgétaire annuelle après l’accord négocié avec les États membres.",
+      "body": "Les députés européens ont approuvé le budget 2027 le 25 novembre à Strasbourg, rapporte The Brussels Times. Le Conseil avait donné son accord deux jours auparavant. Ce vote porte sur la dernière année du cadre financier européen 2021-2027.\n\nLe Conseil distingue deux montants. Les 199,7 milliards d’euros d’engagements permettent de promettre un financement, parfois sur plusieurs années. Les 211,5 milliards de paiements correspondent aux sommes que l’Union prévoit de verser pendant l’exercice.",
+      "photo": {
+        "download": "media/union-europeenne-budget-2027-adoption-strasbourg.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hemicycle_of_European_Parliament%2C_Strasbourg%2C_with_chamber_orchestra_performing.jpg",
+        "credit": "inyucho",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Rangées de sièges dans l’hémicycle européen à Strasbourg.",
+        "caption": "Archives — 12 mars 2008. Rangées de sièges dans l’hémicycle européen à Strasbourg."
+      }
+    },
+    {
+      "eventKey": "new-york-macys-defile-reporte-28-novembre",
+      "category": "États-Unis",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/environment/macys-thanksgiving-day-parade-postponed-due-storm-projections-us-media-reports-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "CBS New York",
+          "url": "https://www.cbsnews.com/newyork/news/macys-thanksgiving-day-parade-postponed/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Macy’s – programme initial",
+          "url": "https://www.macysinc.com/newsroom/news/news-details/2026/The-100th-Macys-Thanksgiving-Day-Parade-Brings-Holiday-Magic-to-Life-Through-a-Celebration-of-Culture-and-Creativity/",
+          "publishedAt": "2026-11-13"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "New York’s Macy’s Thanksgiving parade postponed until Saturday",
+          "summary": "Strong winds forecast in Manhattan prompted organisers to delay the 100th parade by two days.",
+          "body": "The Macy’s parade is now set to start at 8:30 a.m. New York time on Saturday, November 28. The retailer’s original programme called for a Thursday morning celebration. Macy’s cited the weather forecast and the safety of participants and spectators.\n\nAccording to Reuters, Mayor Zohran Mamdani said the decision was made with Macy’s, the police and other city agencies. The announced route starts at Central Park West and 77th Street and ends at Herald Square.",
+          "photoAlt": "A team in yellow prepares a large balloon for the Macy’s parade.",
+          "photoCaption": "Archive photo — November 21, 2018. A team in yellow prepares a large balloon for the Macy’s parade."
+        },
+        "es": {
+          "title": "Nueva York aplaza hasta el sábado el desfile de Acción de Gracias de Macy’s",
+          "summary": "La previsión de fuertes vientos en Manhattan llevó a los organizadores a retrasar dos días la centésima edición.",
+          "body": "El desfile de Macy’s comenzará el sábado 28 de noviembre a las 8:30, hora de Nueva York. El programa inicial anunciaba la celebración para el jueves por la mañana. Macy’s atribuyó el cambio al pronóstico del tiempo y a la seguridad de participantes y espectadores.\n\nSegún Reuters, el alcalde Zohran Mamdani explicó que la decisión se tomó con Macy’s, la policía y otros servicios municipales. La ruta anunciada parte de Central Park West con la calle 77 y termina en Herald Square.",
+          "photoAlt": "Un equipo vestido de amarillo prepara un globo gigante para el desfile de Macy’s.",
+          "photoCaption": "Foto de archivo — 21 de noviembre de 2018. Un equipo vestido de amarillo prepara un globo gigante para el desfile de Macy’s."
+        },
+        "ar": {
+          "title": "تأجيل موكب ميسيز لعيد الشكر في نيويورك إلى السبت",
+          "summary": "دفع توقع رياح قوية في مانهاتن المنظمين إلى تأخير النسخة المئة من الموكب يومين.",
+          "body": "بات انطلاق موكب ميسيز مقرراً السبت 28 نوفمبر في الثامنة والنصف صباحاً بتوقيت نيويورك. وكان برنامج المتجر الأول يحدد صباح الخميس موعداً للاحتفال. وعزت ميسيز التغيير إلى توقعات الطقس وسلامة المشاركين والجمهور.\n\nوبحسب رويترز، قال رئيس البلدية زهران ممداني إن القرار اتخذ بالتنسيق مع ميسيز والشرطة وأجهزة بلدية أخرى. ويبدأ المسار المعلن عند تقاطع سنترال بارك ويست والشارع 77 وينتهي في هيرالد سكوير.",
+          "photoAlt": "فريق بملابس صفراء يجهز بالوناً عملاقاً لموكب ميسيز.",
+          "photoCaption": "صورة أرشيفية — 21 نوفمبر 2018. فريق بملابس صفراء يجهز بالوناً عملاقاً لموكب ميسيز."
+        },
+        "zh-CN": {
+          "title": "纽约梅西感恩节游行推迟至星期六",
+          "summary": "预计曼哈顿将出现强风，主办方决定将第100届游行推迟两天。",
+          "body": "梅西游行现定于纽约时间11月28日星期六上午8时30分开始。此前公布的安排是周四上午举行。梅西百货表示，更改时间是出于天气预报以及参与者和观众的安全考虑。\n\n据路透社报道，市长佐赫兰·马姆达尼表示，此决定由梅西百货、警方及其他市政部门共同作出。公布的路线从中央公园西侧大道与第77街交会处出发，终点是先驱广场。",
+          "photoAlt": "身穿黄色服装的工作人员为梅西游行准备巨型气球。",
+          "photoCaption": "档案照片 — 2018年11月21日. 身穿黄色服装的工作人员为梅西游行准备巨型气球。"
+        },
+        "ru": {
+          "title": "В Нью-Йорке парад Macy’s в честь Дня благодарения перенесли на субботу",
+          "summary": "Прогноз сильного ветра на Манхэттене побудил организаторов отложить сотый парад на два дня.",
+          "body": "Теперь парад Macy’s должен начаться в субботу, 28 ноября, в 8:30 по нью-йоркскому времени. Изначально компания назначила праздник на утро четверга. Причинами переноса она назвала прогноз погоды и безопасность участников и зрителей.\n\nПо данным Reuters, мэр Зохран Мамдани сообщил, что решение согласовали с Macy’s, полицией и другими городскими службами. Заявленный маршрут начинается у пересечения Сентрал-Парк-Уэст и 77-й улицы и завершается на Геральд-сквер.",
+          "photoAlt": "Команда в жёлтой одежде готовит большой воздушный шар к параду Macy’s.",
+          "photoCaption": "Архивный снимок — 21 ноября 2018 г.. Команда в жёлтой одежде готовит большой воздушный шар к параду Macy’s."
+        },
+        "ko": {
+          "title": "뉴욕 메이시스 추수감사절 퍼레이드, 토요일로 연기",
+          "summary": "맨해튼에 강풍이 예상돼 주최 측이 100회 퍼레이드를 이틀 뒤로 미뤘다.",
+          "body": "메이시스 퍼레이드는 뉴욕 시간으로 11월 28일 토요일 오전 8시 30분에 출발할 예정이다. 당초 일정은 목요일 오전이었다. 메이시스는 일기예보와 참가자 및 관객의 안전을 일정 변경 이유로 들었다.\n\n로이터에 따르면 조란 맘다니 시장은 메이시스, 경찰, 시 관계 기관이 함께 결정했다고 밝혔다. 발표된 경로는 센트럴파크 웨스트와 77번가 교차점에서 시작해 헤럴드 스퀘어에서 끝난다.",
+          "photoAlt": "노란 옷을 입은 작업자들이 메이시스 퍼레이드용 대형 풍선을 준비하고 있다.",
+          "photoCaption": "자료 사진 — 2018년 11월 21일. 노란 옷을 입은 작업자들이 메이시스 퍼레이드용 대형 풍선을 준비하고 있다."
+        }
+      },
+      "title": "À New York, le défilé de Thanksgiving de Macy’s est reporté à samedi",
+      "summary": "Les vents forts annoncés à Manhattan ont conduit les organisateurs à décaler de deux jours la centième édition du défilé.",
+      "body": "Le départ du défilé de Macy’s est désormais prévu samedi 28 novembre à 8 h 30, heure de New York. Le programme initial de l’enseigne annonçait la fête pour jeudi matin. Macy’s a attribué le changement aux prévisions météorologiques et à la sécurité des participants et du public.\n\nSelon Reuters, le maire Zohran Mamdani a expliqué que la décision avait été prise avec Macy’s, la police et les autres services municipaux. Le parcours annoncé part de Central Park West, à la hauteur de la 77e Rue, et se termine à Herald Square.",
+      "photo": {
+        "download": "media/new-york-macys-defile-reporte-28-novembre.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macy%27s_parade_balloon_inflation_%2811667%29.jpg",
+        "credit": "Rhododendrites",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Une équipe en jaune prépare un ballon géant pour le défilé de Macy’s.",
+        "caption": "Archives — 21 novembre 2018. Une équipe en jaune prépare un ballon géant pour le défilé de Macy’s."
+      }
+    },
+    {
+      "eventKey": "banque-canada-macklem-chocs-offre-toronto",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Banque du Canada",
+          "url": "https://www.bankofcanada.ca/wp-content/uploads/2026/11/remarks-241126.pdf",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/markets/us/bank-canada-says-it-may-need-respond-forcefully-tackle-supply-shocks-2026-11-24/",
+          "publishedAt": "2026-11-24T17:36:00Z"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "In Toronto, Macklem spells out when the Bank of Canada would act on a supply shock",
+          "summary": "The governor outlined the circumstances in which the central bank might intervene earlier to contain inflation.",
+          "body": "Speaking to the Economic Club of Canada on November 24, Tiff Macklem distinguished a temporary price spike from an increase that spreads across the economy. The governor said the Bank can look through the direct effects of a temporary supply disruption.\n\nAccording to Reuters, a large and lasting disruption, strong demand or the prospect of persistent inflation could warrant a quicker or stronger response. The speech set out the criteria that will guide the Bank’s decisions.",
+          "photoAlt": "Tiff Macklem speaking into a microphone.",
+          "photoCaption": "Archive photo, July 13, 2022. Tiff Macklem at a press conference."
+        },
+        "es": {
+          "title": "Macklem explica en Toronto cuándo actuaría el Banco de Canadá ante un choque de oferta",
+          "summary": "El gobernador detalló en qué circunstancias el banco central podría intervenir antes para contener la inflación.",
+          "body": "Ante el Club Económico de Canadá el 24 de noviembre, Tiff Macklem distinguió un repunte pasajero de precios de una subida que se extiende por la economía. Según el gobernador, el Banco puede dejar pasar los efectos directos de una perturbación temporal de la oferta.\n\nSegún Reuters, un choque intenso y duradero, una demanda fuerte o la perspectiva de una inflación persistente pueden justificar una respuesta más rápida o contundente. El discurso expuso los criterios que guiarán las decisiones del Banco.",
+          "photoAlt": "Tiff Macklem habla ante un micrófono.",
+          "photoCaption": "Archivo del 13 de julio de 2022. Tiff Macklem en rueda de prensa."
+        },
+        "ar": {
+          "title": "ماكلم يوضح في تورونتو متى يتدخل بنك كندا لمواجهة صدمة في العرض",
+          "summary": "شرح المحافظ الظروف التي قد تدفع البنك المركزي إلى التدخل مبكراً لاحتواء التضخم.",
+          "body": "أمام النادي الاقتصادي الكندي في 24 نوفمبر، ميّز تيف ماكلم بين قفزة عابرة في الأسعار وزيادة تنتشر في الاقتصاد. وقال إن البنك يستطيع تجاوز الآثار المباشرة لاضطراب مؤقت في العرض.\n\nوبحسب رويترز، قد يستدعي اضطراب كبير وممتد، أو طلب قوي، أو توقع استمرار التضخم، استجابة أسرع أو أشد. وعرض الخطاب المعايير التي ستوجه قرارات البنك.",
+          "photoAlt": "تيف ماكلم يتحدث أمام ميكروفون.",
+          "photoCaption": "صورة أرشيفية من 13 يوليو 2022 لماكلم في مؤتمر صحفي."
+        },
+        "zh-CN": {
+          "title": "麦克勒姆在多伦多阐释加拿大央行何时会应对供给冲击",
+          "summary": "行长说明了央行可能在何种情况下提前干预以遏制通胀。",
+          "body": "11月24日，加拿大央行行长蒂夫·麦克勒姆在加拿大经济俱乐部发表演讲，区分了短暂的价格飙升与波及整个经济的涨价。他表示，央行可以容忍暂时性供给扰动带来的直接影响。\n\n据路透社报道，如果供给扰动严重且持久、需求强劲或通胀预期持续偏高，央行可能需要更快或更有力地应对。这次演讲阐明了央行今后决策的依据。",
+          "photoAlt": "蒂夫·麦克勒姆对着麦克风讲话。",
+          "photoCaption": "档案照片摄于2022年7月13日，麦克勒姆出席新闻发布会。"
+        },
+        "ru": {
+          "title": "Маклем объяснил в Торонто, когда Банк Канады может ответить на шок предложения",
+          "summary": "Глава центробанка рассказал, при каких условиях регулятор может раньше вмешаться для сдерживания инфляции.",
+          "body": "Выступая 24 ноября в Экономическом клубе Канады, Тифф Маклем провёл различие между кратким скачком цен и ростом, который охватывает всю экономику. По его словам, банк может переждать прямые последствия временного перебоя поставок.\n\nКак сообщает Reuters, масштабный и длительный сбой, высокий спрос или перспектива устойчивой инфляции могут потребовать более быстрых или решительных действий. В выступлении изложены критерии будущих решений банка.",
+          "photoAlt": "Тифф Маклем говорит в микрофон.",
+          "photoCaption": "Архивный снимок от 13 июля 2022 года. Тифф Маклем на пресс-конференции."
+        },
+        "ko": {
+          "title": "매클럼 캐나다은행 총재, 공급 충격에 대응할 조건 설명",
+          "summary": "총재는 물가를 잡기 위해 중앙은행이 더 일찍 개입할 수 있는 상황을 설명했다.",
+          "body": "티프 매클럼 총재는 11월 24일 토론토에서 열린 캐나다 경제클럽 연설에서 일시적 가격 급등과 경제 전반으로 번지는 물가 상승을 구분했다. 그는 일시적인 공급 차질이 일으키는 직접적인 영향은 중앙은행이 지켜볼 수 있다고 말했다.\n\n로이터에 따르면 충격이 크고 오래가거나 수요가 강하거나 인플레이션이 지속될 것으로 예상되면 더 빠르거나 강한 대응이 필요할 수 있다. 이번 연설은 향후 정책 결정의 기준을 제시했다.",
+          "photoAlt": "티프 매클럼이 마이크 앞에서 발언하고 있다.",
+          "photoCaption": "2022년 7월 13일 자료 사진. 기자회견에 참석한 티프 매클럼."
+        }
+      },
+      "title": "À Toronto, Tiff Macklem précise quand la Banque du Canada réagirait à un choc d’offre",
+      "summary": "Le gouverneur a expliqué dans quelles circonstances la banque centrale pourrait intervenir plus tôt pour contenir l’inflation.",
+      "body": "Devant le Club économique du Canada le 24 novembre, Tiff Macklem a distingué une flambée passagère des prix d’une hausse qui se propage dans l’économie. Selon le gouverneur, la Banque peut laisser passer les effets directs d’une perturbation temporaire de l’offre.\n\nD’après Reuters, une perturbation importante et durable, une forte demande ou la perspective d’une inflation persistante peuvent justifier une réponse plus rapide ou plus énergique. Le discours expose les critères qui guideront les décisions de la Banque.",
+      "photo": {
+        "download": "media/banque-canada-macklem-chocs-offre-toronto.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiff_Macklem_-_Governor_Gouverneur_%2852214234314%29.jpg",
+        "credit": "Bank of Canada – Banque du Canada",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Tiff Macklem s’exprime devant un microphone.",
+        "caption": "Archives du 13 juillet 2022. Tiff Macklem en conférence de presse."
+      }
+    },
+    {
+      "eventKey": "etats-unis-demandes-chomage-semaine-21-novembre",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "U.S. Department of Labor",
+          "url": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/ui-claims/20261732.pdf",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/us/us-weekly-jobless-claims-fall-more-than-expected-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "US initial jobless claims fall to 189,000",
+          "summary": "The Labor Department’s weekly tally shows 13,000 fewer new claims than in the previous week.",
+          "body": "The US Labor Department recorded 189,000 seasonally adjusted initial claims for unemployment benefits in the week ending November 21. The measure tracks new claims filed with states.\n\nThe drop surprised economists polled by Reuters, who expected 200,000 claims. The department released its figures on Wednesday, November 25, a day early because of Thanksgiving.",
+          "photoAlt": "Façade of the Frances Perkins Building in Washington.",
+          "photoCaption": "Archive photo — May 30, 2010. Façade of the Frances Perkins Building in Washington."
+        },
+        "es": {
+          "title": "Las solicitudes iniciales de subsidio por desempleo en EE. UU. bajan a 189.000",
+          "summary": "El balance semanal del Departamento de Trabajo registra 13.000 solicitudes nuevas menos que la semana anterior.",
+          "body": "El Departamento de Trabajo estadounidense registró 189.000 solicitudes iniciales de subsidio por desempleo, ajustadas por estacionalidad, en la semana que terminó el 21 de noviembre. El indicador mide las nuevas solicitudes presentadas ante los estados.\n\nLa caída sorprendió a los economistas consultados por Reuters, que esperaban 200.000 solicitudes. El departamento publicó los datos el miércoles 25 de noviembre, un día antes de lo habitual por Acción de Gracias.",
+          "photoAlt": "Fachada del edificio Frances Perkins en Washington.",
+          "photoCaption": "Foto de archivo — 30 de mayo de 2010. Fachada del edificio Frances Perkins en Washington."
+        },
+        "ar": {
+          "title": "طلبات إعانة البطالة الجديدة في الولايات المتحدة تنخفض إلى 189 ألفاً",
+          "summary": "سجلت وزارة العمل 13 ألف طلب جديد أقل من الأسبوع السابق.",
+          "body": "أحصت وزارة العمل الأميركية 189 ألف طلب أولي لإعانة البطالة بعد التعديل الموسمي في الأسبوع المنتهي في 21 نوفمبر. ويقيس المؤشر الطلبات الجديدة المقدمة إلى سلطات الولايات.\n\nوفاجأ التراجع اقتصاديين استطلعت رويترز آراءهم وتوقعوا 200 ألف طلب. ونشرت الوزارة الأرقام الأربعاء 25 نوفمبر قبل موعدها المعتاد بيوم بسبب عطلة عيد الشكر.",
+          "photoAlt": "واجهة مبنى فرانسيس بيركنز في واشنطن.",
+          "photoCaption": "صورة أرشيفية — 30 مايو 2010. واجهة مبنى فرانسيس بيركنز في واشنطن."
+        },
+        "zh-CN": {
+          "title": "美国首次申领失业救济人数降至18.9万",
+          "summary": "劳工部周报显示，新增申请比前一周减少1.3万份。",
+          "body": "美国劳工部表示，截至11月21日的一周，经季节调整的首次失业救济申请为18.9万份。该指标追踪向各州提交的新申请。\n\n降幅出乎路透社调查的经济学家预料，他们原先预计为20万份。因感恩节假期，劳工部于11月25日星期三提前一天公布数据。",
+          "photoAlt": "华盛顿弗朗西丝·珀金斯大楼正面。",
+          "photoCaption": "档案照片 — 2010年5月30日. 华盛顿弗朗西丝·珀金斯大楼正面。"
+        },
+        "ru": {
+          "title": "Число первичных заявок на пособие по безработице в США снизилось до 189 тысяч",
+          "summary": "За неделю Минтруд зарегистрировал на 13 тысяч новых заявок меньше, чем неделей ранее.",
+          "body": "По данным Минтруда США, за неделю, завершившуюся 21 ноября, поступило 189 тысяч первичных заявок с учётом сезонности. Показатель отражает новые обращения за пособием, поданные властям штатов.\n\nОпрошенные Reuters экономисты ожидали 200 тысяч заявок. Министерство опубликовало данные в среду, 25 ноября, на день раньше обычного из-за Дня благодарения.",
+          "photoAlt": "Фасад здания имени Фрэнсис Перкинс в Вашингтоне.",
+          "photoCaption": "Архивный снимок — 30 мая 2010 г.. Фасад здания имени Фрэнсис Перкинс в Вашингтоне."
+        },
+        "ko": {
+          "title": "미국 신규 실업수당 청구 18만9천 건으로 감소",
+          "summary": "노동부 주간 집계에서 신규 청구는 전주보다 1만3천 건 줄었다.",
+          "body": "미국 노동부에 따르면 11월 21일로 끝난 주의 계절조정 신규 실업수당 청구는 18만9천 건이었다. 이 지표는 각 주에 새로 접수된 신청을 집계한다.\n\n로이터가 조사한 경제학자들은 20만 건을 예상해 감소 폭이 예상을 웃돌았다. 노동부는 추수감사절을 앞두고 통상보다 하루 이른 11월 25일 수요일에 통계를 발표했다.",
+          "photoAlt": "워싱턴 프랜시스 퍼킨스 빌딩 정면.",
+          "photoCaption": "자료 사진 — 2010년 5월 30일. 워싱턴 프랜시스 퍼킨스 빌딩 정면."
+        }
+      },
+      "title": "États-Unis : les premières demandes d’allocation chômage baissent à 189 000",
+      "summary": "Le bilan hebdomadaire du département du Travail fait état de 13 000 nouvelles demandes de moins que la semaine précédente.",
+      "body": "Aux États-Unis, 189 000 premières demandes d’indemnisation ont été enregistrées en données corrigées des variations saisonnières pendant la semaine close le 21 novembre, selon le département du Travail. L’indicateur compte les nouvelles demandes déposées auprès des États.\n\nLe recul a surpris les économistes interrogés par Reuters, qui attendaient 200 000 demandes. Le département a publié ses chiffres mercredi 25 novembre, un jour plus tôt que d’habitude en raison de Thanksgiving.",
+      "photo": {
+        "download": "media/etats-unis-demandes-chomage-semaine-21-novembre.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frances_Perkins_Building.JPG",
+        "credit": "AgnosticPreachersKid",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Façade du bâtiment Frances Perkins à Washington.",
+        "caption": "Archives — 30 mai 2010. Façade du bâtiment Frances Perkins à Washington."
+      }
+    },
+    {
+      "eventKey": "etats-unis-ventes-maisons-neuves-octobre-2026",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/us-new-home-sales-surge-10-month-high-october-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "U.S. Census Bureau / HUD",
+          "url": "https://www.census.gov/construction/nrs/current/index.html",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "US new home sales estimated at a 701,000 annual pace",
+          "summary": "October’s estimate exceeds the revised September figure, but the margin of error means an increase is uncertain.",
+          "body": "The Census Bureau and the US housing department estimate that new single-family homes sold at a seasonally adjusted annual rate of 701,000 in October. This is the pace implied by extending the month’s sales over a full year.\n\nReuters reports that September’s estimate was cut from 676,000 to 614,000. October was an estimated 14.2% above the revised figure. In their November 25 release, statisticians give a margin of error of 22.6 percentage points for that change.",
+          "photoAlt": "Glass-fronted Census Bureau building in Suitland, Maryland.",
+          "photoCaption": "Archive photo — March 2007. Glass-fronted Census Bureau building in Suitland, Maryland."
+        },
+        "es": {
+          "title": "Las ventas de viviendas nuevas en EE. UU. se estiman en 701.000 a ritmo anual",
+          "summary": "La estimación de octubre supera el dato revisado de septiembre, aunque el margen de error impide asegurar que hubo un aumento.",
+          "body": "La Oficina del Censo y el Departamento de Vivienda estiman que las ventas de casas unifamiliares nuevas alcanzaron en octubre un ritmo anual desestacionalizado de 701.000 unidades. Ese ritmo proyecta las ventas del mes a un año entero.\n\nSegún Reuters, la estimación de septiembre bajó de 676.000 a 614.000. Octubre supera en un 14,2 % esa cifra revisada. En el informe del 25 de noviembre, los estadísticos dan un margen de error de 22,6 puntos porcentuales para esa variación.",
+          "photoAlt": "Edificio acristalado de la Oficina del Censo en Suitland, Maryland.",
+          "photoCaption": "Foto de archivo — marzo de 2007. Edificio acristalado de la Oficina del Censo en Suitland, Maryland."
+        },
+        "ar": {
+          "title": "مبيعات المنازل الأميركية الجديدة تقدر بوتيرة سنوية تبلغ 701 ألف منزل",
+          "summary": "يفوق تقدير أكتوبر رقم سبتمبر المعدل، لكن هامش الخطأ لا يسمح بالجزم بحدوث ارتفاع.",
+          "body": "قدّر مكتب الإحصاء ووزارة الإسكان الأميركية مبيعات المنازل الجديدة المخصصة لأسرة واحدة في أكتوبر بمعدل سنوي معدل موسمياً يبلغ 701 ألف منزل. وتعكس هذه الوتيرة ما تعنيه مبيعات الشهر لو استمرت عاماً كاملاً.\n\nوأفادت رويترز بخفض تقدير سبتمبر من 676 ألفاً إلى 614 ألفاً. ويزيد تقدير أكتوبر على الرقم المعدل بنسبة 14.2%. وحدد الإحصائيون في تقرير 25 نوفمبر هامش خطأ لهذا التغير يبلغ 22.6 نقطة مئوية.",
+          "photoAlt": "مبنى مكتب الإحصاء بواجهته الزجاجية في سوتلاند بولاية ماريلاند.",
+          "photoCaption": "صورة أرشيفية — مارس 2007. مبنى مكتب الإحصاء بواجهته الزجاجية في سوتلاند بولاية ماريلاند."
+        },
+        "zh-CN": {
+          "title": "美国10月新房销量折合年率估计为70.1万套",
+          "summary": "10月估值高于9月修订值，但误差范围意味着尚无法确定销量确实上升。",
+          "body": "美国人口普查局和住房部门估计，10月新建独栋住宅经季节调整后的销售年率为70.1万套。这是按当月销售速度推算一整年所得的数字。\n\n据路透社报道，9月估值从67.6万套下修至61.4万套。10月估值比修订后的数字高14.2%。统计人员在11月25日的报告中给出的环比变化误差幅度为22.6个百分点。",
+          "photoAlt": "马里兰州苏特兰人口普查局大楼的玻璃外墙。",
+          "photoCaption": "档案照片 — 2007年3月. 马里兰州苏特兰人口普查局大楼的玻璃外墙。"
+        },
+        "ru": {
+          "title": "Темп продаж новых домов в США оценили в 701 тысячу в год",
+          "summary": "Оценка за октябрь выше пересмотренного показателя сентября, но погрешность не позволяет уверенно говорить о росте.",
+          "body": "Бюро переписи и Министерство жилищного строительства США оценили продажи новых односемейных домов в октябре в 701 тысячу в год с поправкой на сезонность. Это результат пересчёта месячного темпа продаж на целый год.\n\nПо данным Reuters, оценку сентября снизили с 676 до 614 тысяч. Октябрьская оценка выше пересмотренной на 14,2%. В публикации от 25 ноября статистики указали погрешность изменения в 22,6 процентного пункта.",
+          "photoAlt": "Застеклённое здание Бюро переписи в Сьютленде, штат Мэриленд.",
+          "photoCaption": "Архивный снимок — март 2007 г.. Застеклённое здание Бюро переписи в Сьютленде, штат Мэриленд."
+        },
+        "ko": {
+          "title": "미국 10월 신규 주택 판매, 연율 70만1천 채로 추산",
+          "summary": "10월 추정치는 수정된 9월 수치보다 높지만 오차 범위가 커 증가했다고 단정하기 어렵다.",
+          "body": "미국 인구조사국과 주택 당국은 10월 신규 단독주택 판매가 계절조정 연율로 70만1천 채라고 추산했다. 한 달 판매 속도가 일 년간 이어진다고 가정한 수치다.\n\n로이터에 따르면 9월 추정치는 67만6천 채에서 61만4천 채로 하향 수정됐다. 10월 추정치는 수정치보다 14.2% 높다. 통계 당국은 11월 25일 발표에서 이 변화율의 오차 범위를 22.6%포인트로 제시했다.",
+          "photoAlt": "메릴랜드주 수틀랜드에 있는 인구조사국 건물의 유리 외벽.",
+          "photoCaption": "자료 사진 — 2007년 3월. 메릴랜드주 수틀랜드에 있는 인구조사국 건물의 유리 외벽."
+        }
+      },
+      "title": "Aux États-Unis, les ventes de maisons neuves sont estimées à un rythme annuel de 701 000",
+      "summary": "L’estimation d’octobre dépasse le chiffre révisé de septembre, mais la marge d’erreur empêche de conclure à une hausse certaine.",
+      "body": "Le Bureau du recensement et le ministère américain du Logement estiment les ventes de maisons individuelles neuves à 701 000 en rythme annuel corrigé des variations saisonnières en octobre. Il s’agit du rythme qu’impliquent les ventes du mois sur une année entière.\n\nSelon Reuters, l’estimation de septembre a été ramenée de 676 000 à 614 000. L’écart entre octobre et ce chiffre révisé atteint 14,2 %. Dans leur publication du 25 novembre, les statisticiens donnent une marge d’erreur de 22,6 points pour cette variation.",
+      "photo": {
+        "download": "media/etats-unis-ventes-maisons-neuves-octobre-2026.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Census_Bureau_headquarters%2C_Suitland%2C_Maryland%2C_2007.jpg",
+        "credit": "United States Census Bureau",
+        "license": "Domaine public",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Census_Bureau_headquarters%2C_Suitland%2C_Maryland%2C_2007.jpg",
+        "alt": "Bâtiment vitré du Bureau du recensement à Suitland, au Maryland.",
+        "caption": "Archives — mars 2007. Bâtiment vitré du Bureau du recensement à Suitland, au Maryland."
+      }
+    },
+    {
+      "eventKey": "toronto-blue-jays-kaima-taira-accord-seibu",
+      "category": "Sports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Saitama Seibu Lions",
+          "url": "https://www.seibulions.jp/news/detail/202602111089.html",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "MLB.com",
+          "url": "https://www.mlb.com/news/blue-jays-kaima-taira-free-agent-contract",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "Field Level Media / Reuters",
+          "url": "https://www.reuters.com/sports/reports-jays-rhp-kaima-taira-agree-5-year-80m-deal--flm-2026-11-24/",
+          "publishedAt": "2026-11-24"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Seibu Lions confirm Kaima Taira has reached a deal with the Blue Jays",
+          "summary": "The Japanese right-hander reached terms with Toronto after securing the right to negotiate with major league clubs.",
+          "body": "The Seibu Lions announced on November 25, Japan time, that Kaima Taira had reached an agreement with the Toronto Blue Jays. The Japanese club had made its pitcher available to major league teams through the posting system.\n\nThe Lions confirmed the deal without disclosing financial terms. Citing a source, MLB.com reports a five-year, US$80 million agreement that allows the player to opt out after the third season.",
+          "photoAlt": "Kaima Taira in the blue uniform of the Seibu Lions.",
+          "photoCaption": "Archive photo — September 10, 2022. Kaima Taira in the blue uniform of the Seibu Lions."
+        },
+        "es": {
+          "title": "Los Lions de Seibu confirman un acuerdo entre Kaima Taira y los Blue Jays",
+          "summary": "El diestro japonés llegó a un acuerdo con Toronto tras recibir autorización para negociar con clubes de las Grandes Ligas.",
+          "body": "Los Lions de Seibu anunciaron el 25 de noviembre, hora de Japón, que Kaima Taira había alcanzado un acuerdo con los Blue Jays de Toronto. El club japonés había puesto al lanzador a disposición de los equipos de las Grandes Ligas mediante el sistema de traspasos correspondiente.\n\nLos Lions confirmaron el acuerdo sin revelar las condiciones económicas. Según una fuente de MLB.com, el contrato abarca cinco temporadas y 80 millones de dólares estadounidenses, con opción de salida para el jugador después de la tercera.",
+          "photoAlt": "Kaima Taira con el uniforme azul de los Lions de Seibu.",
+          "photoCaption": "Foto de archivo — 10 de septiembre de 2022. Kaima Taira con el uniforme azul de los Lions de Seibu."
+        },
+        "ar": {
+          "title": "سيبو لايونز يؤكد اتفاق كايما تايرا مع تورونتو بلو جايز",
+          "summary": "توصل الرامي الياباني الأيمن إلى اتفاق مع تورونتو بعدما سُمح له بالتفاوض مع أندية الدوري الأميركي للبيسبول.",
+          "body": "أعلن سيبو لايونز في 25 نوفمبر بتوقيت اليابان أن كايما تايرا توصل إلى اتفاق مع تورونتو بلو جايز. وكان النادي الياباني أتاح للرامي التفاوض مع فرق الدوري الرئيسي عبر نظام عرض اللاعبين.\n\nوأكد النادي الاتفاق دون إعلان قيمته. ونقل موقع MLB.com عن مصدر أن العقد يمتد خمسة مواسم بقيمة 80 مليون دولار أميركي، مع خيار للاعب بإنهائه بعد الموسم الثالث.",
+          "photoAlt": "كايما تايرا بالزي الأزرق لفريق سيبو لايونز.",
+          "photoCaption": "صورة أرشيفية — 10 سبتمبر 2022. كايما تايرا بالزي الأزرق لفريق سيبو لايونز."
+        },
+        "zh-CN": {
+          "title": "西武狮确认平良海马与多伦多蓝鸟达成协议",
+          "summary": "这位日本右投手获得与美职棒大联盟球队谈判的资格后，与多伦多达成协议。",
+          "body": "西武狮于日本时间11月25日宣布，投手平良海马已与多伦多蓝鸟达成协议。西武狮此前通过入札制度，允许他与大联盟球队谈判。\n\n西武狮确认了协议，但没有公布金额。据MLB.com援引消息人士报道，合同为期五年，总额8000万美元，球员可选择在第三个赛季后跳出合同。",
+          "photoAlt": "身穿西武狮蓝色球衣的平良海马。",
+          "photoCaption": "档案照片 — 2022年9月10日. 身穿西武狮蓝色球衣的平良海马。"
+        },
+        "ru": {
+          "title": "«Сэйбу Лайонс» подтвердили соглашение Каймы Тайры с «Торонто Блю Джейс»",
+          "summary": "Японский питчер-правша договорился с клубом из Торонто, получив право вести переговоры с командами Главной лиги бейсбола.",
+          "body": "25 ноября по японскому времени «Сэйбу Лайонс» сообщили, что Кайма Тайра достиг соглашения с «Торонто Блю Джейс». Японский клуб разрешил своему питчеру вести переговоры с командами MLB через систему постинга.\n\n«Лайонс» подтвердили соглашение без финансовых подробностей. По данным источника MLB.com, контракт рассчитан на пять сезонов и 80 млн долларов США, а игрок вправе выйти из него после третьего сезона.",
+          "photoAlt": "Кайма Тайра в синей форме «Сэйбу Лайонс».",
+          "photoCaption": "Архивный снимок — 10 сентября 2022 г.. Кайма Тайра в синей форме «Сэйбу Лайонс»."
+        },
+        "ko": {
+          "title": "세이부, 다이라 가이마와 토론토 블루제이스의 계약 합의 확인",
+          "summary": "일본인 우완 투수 다이라는 메이저리그 구단과 협상할 자격을 얻은 뒤 토론토와 합의했다.",
+          "body": "세이부 라이온스는 일본 시간 11월 25일 다이라 가이마가 토론토 블루제이스와 계약에 합의했다고 발표했다. 세이부는 앞서 포스팅 시스템을 통해 다이라가 메이저리그 구단과 협상할 수 있도록 했다.\n\n세이부는 합의를 확인했지만 금액은 공개하지 않았다. MLB닷컴은 소식통을 인용해 계약이 5년 총액 8천만 미국달러이며 선수가 세 번째 시즌 뒤 계약에서 나갈 수 있다고 보도했다.",
+          "photoAlt": "세이부 라이온스의 파란 유니폼을 입은 다이라 가이마.",
+          "photoCaption": "자료 사진 — 2022년 9월 10일. 세이부 라이온스의 파란 유니폼을 입은 다이라 가이마."
+        }
+      },
+      "title": "Les Lions de Seibu confirment une entente entre Kaima Taira et les Blue Jays",
+      "summary": "Le lanceur droitier japonais a conclu une entente avec Toronto après avoir obtenu le droit de négocier avec les clubs des majeures.",
+      "body": "Les Lions de Seibu ont annoncé le 25 novembre, heure du Japon, que Kaima Taira s’était entendu avec les Blue Jays de Toronto. Le club japonais avait rendu son lanceur admissible aux négociations avec les équipes du baseball majeur par le système de mise à disposition.\n\nLe communiqué des Lions confirme l’entente sans en chiffrer les modalités. MLB.com, citant une source, fait état de cinq saisons et de 80 millions de dollars américains, avec la possibilité pour le joueur de sortir du contrat après la troisième saison.",
+      "photo": {
+        "download": "media/toronto-blue-jays-kaima-taira-accord-seibu.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SL-Kaima_Taira20220910.jpg",
+        "credit": "TSUBAME98",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Kaima Taira en uniforme bleu des Lions de Seibu.",
+        "caption": "Archives — 10 septembre 2022. Kaima Taira en uniforme bleu des Lions de Seibu."
+      }
+    },
+    {
+      "eventKey": "hp-resultats-exercice-2026-memoires",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "HP Inc.",
+          "url": "https://www.hp.com/us-en/newsroom/press-releases/2026/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results.html",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "The Wall Street Journal",
+          "url": "https://www.wsj.com/business/earnings/hp-offers-prudent-guidance-amid-rising-memory-costs-37c67b9d",
+          "publishedAt": "2026-11-24T21:23:00Z"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "HP’s annual sales top $60 billion as memory costs rise",
+          "summary": "The company finished its fiscal year with $16 billion in quarterly revenue.",
+          "body": "On November 24, HP reported fiscal 2026 net revenue of US$60.5 billion, up 9.5% year over year. In the fourth quarter alone, revenue rose 9.3% to $16 billion.\n\nSales growth did not carry over to annual diluted earnings per share. HP put those earnings at $2.62, down 1.1%. The Wall Street Journal reports that memory and storage costs are prompting caution in the company’s outlook.",
+          "photoAlt": "HP sign by the former Hewlett-Packard headquarters in Palo Alto.",
+          "photoCaption": "Archive photo — October 26, 2013. HP sign by the former Hewlett-Packard headquarters in Palo Alto."
+        },
+        "es": {
+          "title": "Las ventas anuales de HP superan los 60.000 millones de dólares mientras sube el coste de las memorias",
+          "summary": "La compañía cerró el ejercicio con ingresos trimestrales de 16.000 millones de dólares.",
+          "body": "El 24 de noviembre HP informó de ingresos netos de 60.500 millones de dólares estadounidenses en su ejercicio 2026, un 9,5 % más interanual. En el cuarto trimestre los ingresos crecieron un 9,3 %, hasta 16.000 millones.\n\nEl crecimiento de las ventas no se trasladó al beneficio diluido anual por acción. Según HP, este bajó un 1,1 %, a 2,62 dólares. The Wall Street Journal señala que los costes de memoria y almacenamiento llevan a la empresa a ser cautelosa en sus previsiones.",
+          "photoAlt": "Cartel de HP junto a la antigua sede de Hewlett-Packard en Palo Alto.",
+          "photoCaption": "Foto de archivo — 26 de octubre de 2013. Cartel de HP junto a la antigua sede de Hewlett-Packard en Palo Alto."
+        },
+        "ar": {
+          "title": "مبيعات HP السنوية تتجاوز 60 مليار دولار وسط ارتفاع تكاليف الذاكرة",
+          "summary": "أنهت الشركة سنتها المالية بإيرادات فصلية قدرها 16 مليار دولار.",
+          "body": "أعلنت HP في 24 نوفمبر أن صافي إيراداتها للسنة المالية 2026 بلغ 60.5 مليار دولار أميركي بزيادة سنوية 9.5%. وفي الربع الرابع وحده ارتفعت الإيرادات 9.3% إلى 16 مليار دولار.\n\nولم ينعكس نمو المبيعات على الربح السنوي المخفف للسهم الذي انخفض، بحسب الشركة، بنسبة 1.1% إلى 2.62 دولار. وأفادت وول ستريت جورنال بأن تكاليف الذاكرة والتخزين تدفع الشركة إلى توخي الحذر في توقعاتها.",
+          "photoAlt": "لافتة HP بجوار المقر السابق لهيوليت باكارد في بالو ألتو.",
+          "photoCaption": "صورة أرشيفية — 26 أكتوبر 2013. لافتة HP بجوار المقر السابق لهيوليت باكارد في بالو ألتو."
+        },
+        "zh-CN": {
+          "title": "惠普年营收突破600亿美元，存储成本上升",
+          "summary": "惠普以160亿美元的季度收入结束本财年。",
+          "body": "惠普11月24日公布，2026财年净营收为605亿美元，同比增长9.5%。仅第四季度，营收就增长9.3%，达到160亿美元。\n\n营收增长没有带动全年摊薄每股收益上升。惠普称，该指标下降1.1%，至2.62美元。据《华尔街日报》报道，内存和存储成本促使惠普对未来业绩持谨慎态度。",
+          "photoAlt": "帕洛阿尔托原惠普公司总部旁的惠普标牌。",
+          "photoCaption": "档案照片 — 2013年10月26日. 帕洛阿尔托原惠普公司总部旁的惠普标牌。"
+        },
+        "ru": {
+          "title": "Годовая выручка HP превысила 60 млрд долларов на фоне удорожания памяти",
+          "summary": "Компания завершила финансовый год с квартальной выручкой в 16 млрд долларов.",
+          "body": "24 ноября HP сообщила, что чистая выручка за 2026 финансовый год выросла на 9,5% до 60,5 млрд долларов США. Только в четвёртом квартале выручка увеличилась на 9,3% до 16 млрд долларов.\n\nРост продаж не привёл к повышению годовой разводнённой прибыли на акцию. По данным HP, она снизилась на 1,1% до 2,62 доллара. Как пишет The Wall Street Journal, затраты на память и накопители заставляют компанию осторожно подходить к прогнозам.",
+          "photoAlt": "Вывеска HP у бывшей штаб-квартиры Hewlett-Packard в Пало-Альто.",
+          "photoCaption": "Архивный снимок — 26 октября 2013 г.. Вывеска HP у бывшей штаб-квартиры Hewlett-Packard в Пало-Альто."
+        },
+        "ko": {
+          "title": "HP 연매출 600억 달러 돌파…메모리 비용은 상승",
+          "summary": "회사는 분기 매출 160억 달러로 회계연도를 마쳤다.",
+          "body": "HP는 11월 24일 2026회계연도 순매출이 전년 대비 9.5% 증가한 605억 미국달러라고 발표했다. 4분기 매출은 9.3% 증가한 160억 달러였다.\n\n매출 증가가 연간 희석 주당순이익 증가로 이어지지는 않았다. HP에 따르면 이 수치는 1.1% 줄어든 2.62달러였다. 월스트리트저널은 메모리와 저장장치 비용 때문에 회사가 전망에 신중하다고 보도했다.",
+          "photoAlt": "팰로앨토의 옛 휴렛팩커드 본사 근처 HP 표지판.",
+          "photoCaption": "자료 사진 — 2013년 10월 26일. 팰로앨토의 옛 휴렛팩커드 본사 근처 HP 표지판."
+        }
+      },
+      "title": "HP dépasse les 60 milliards de dollars de ventes annuelles, sur fond de hausse du coût des mémoires",
+      "summary": "Le fabricant a terminé son exercice avec 16 milliards de dollars de chiffre d’affaires trimestriel.",
+      "body": "HP a publié le 24 novembre des ventes nettes de 60,5 milliards de dollars américains pour son exercice 2026, en hausse de 9,5 % sur un an. Au seul quatrième trimestre, le chiffre d’affaires a progressé de 9,3 %, à 16 milliards de dollars.\n\nLa progression des ventes ne se retrouve pas dans le bénéfice annuel dilué par action. Celui-ci ressort à 2,62 dollars, en baisse de 1,1 % selon HP. Le Wall Street Journal rapporte que le coût des mémoires et du stockage incite l’entreprise à la prudence dans ses prévisions.",
+      "photo": {
+        "download": "media/hp-resultats-exercice-2026-memoires.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:HP_Headquarters_Palo_Alto.jpg",
+        "credit": "LPS.1",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "alt": "Enseigne HP près de l’ancien siège de Hewlett-Packard à Palo Alto.",
+        "caption": "Archives — 26 octobre 2013. Enseigne HP près de l’ancien siège de Hewlett-Packard à Palo Alto."
+      }
+    },
+    {
+      "eventKey": "sporting-manchester-united-fernandes-suarez",
+      "category": "Sports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "UEFA – fiche du match",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049637--sporting-cp-vs-man-utd/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/fernandes-shines-sporting-return-man-united-held-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "UEFA – résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--champions-league-league-phase-fixtures-by-team/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Fernandes double falls short for Manchester United in Lisbon",
+          "summary": "Luis Suárez equalised for Sporting in the 80th minute of a Champions League match that ended 2–2.",
+          "body": "Bruno Fernandes scored twice in three minutes after the break against his former club on November 25. According to Reuters, the Manchester United captain converted a penalty and then beat the keeper from distance to put the visitors ahead.\n\nColombian forward Luis Suárez, who had opened the scoring for Sporting, seized on a spill by United’s keeper to salvage the draw. An own goal that would have cost the Lisbon side its point was later ruled out after video review.",
+          "photoAlt": "Stands and pitch at Lisbon’s José Alvalade stadium.",
+          "photoCaption": "Archive photo uploaded — December 13, 2006. Stands and pitch at Lisbon’s José Alvalade stadium."
+        },
+        "es": {
+          "title": "El doblete de Bruno Fernandes no basta al Manchester United en Lisboa",
+          "summary": "Luis Suárez igualó para el Sporting en el minuto 80 de un partido de Champions que terminó 2-2.",
+          "body": "Bruno Fernandes marcó dos veces en tres minutos tras el descanso ante su antiguo club el 25 de noviembre. Según Reuters, el capitán del Manchester United convirtió un penalti y después batió al portero desde lejos para adelantar a los visitantes.\n\nEl colombiano Luis Suárez, que había adelantado al Sporting, aprovechó un balón que se le escapó al portero del United para rescatar el empate. Un autogol que habría dejado sin ese punto a los lisboetas fue anulado tras la revisión de vídeo.",
+          "photoAlt": "Gradas y césped del estadio José Alvalade en Lisboa.",
+          "photoCaption": "Foto de archivo publicada el — 13 de diciembre de 2006. Gradas y césped del estadio José Alvalade en Lisboa."
+        },
+        "ar": {
+          "title": "ثنائية برونو فرنانديز لا تكفي مانشستر يونايتد في لشبونة",
+          "summary": "عادل لويس سواريز لسبورتينغ في الدقيقة 80 لتنتهي مباراة دوري الأبطال 2-2.",
+          "body": "سجل برونو فرنانديز هدفين في ثلاث دقائق بعد الاستراحة أمام ناديه السابق في 25 نوفمبر. وبحسب رويترز، سجل قائد مانشستر يونايتد من ركلة جزاء ثم بتسديدة بعيدة وضع بها الضيوف في المقدمة.\n\nواستغل الكولومبي لويس سواريز، صاحب هدف سبورتينغ الأول، كرة أفلتت من حارس يونايتد لينتزع التعادل. وألغي بعد مراجعة الفيديو هدف عكسي كان سيحرم فريق لشبونة من النقطة.",
+          "photoAlt": "مدرجات وأرضية ملعب جوزيه ألفالادي في لشبونة.",
+          "photoCaption": "صورة أرشيفية رُفعت في — 13 ديسمبر 2006. مدرجات وأرضية ملعب جوزيه ألفالادي في لشبونة."
+        },
+        "zh-CN": {
+          "title": "费尔南德斯独中两元，曼联仍在里斯本被逼平",
+          "summary": "路易斯·苏亚雷斯第80分钟为葡萄牙体育扳平比分，这场欧冠比赛以2比2收场。",
+          "body": "11月25日，布鲁诺·费尔南德斯面对老东家，在下半场三分钟内连入两球。据路透社报道，这位曼联队长先罚入点球，再以一记远射帮助客队反超。\n\n为葡萄牙体育首开纪录的哥伦比亚前锋路易斯·苏亚雷斯抓住曼联门将脱手机会扳平。此后一个原本会让里斯本球队丢掉这一分的乌龙球经视频回看被判无效。",
+          "photoAlt": "里斯本若泽·阿尔瓦拉德球场的看台和草坪。",
+          "photoCaption": "档案照片上传于 — 2006年12月13日. 里斯本若泽·阿尔瓦拉德球场的看台和草坪。"
+        },
+        "ru": {
+          "title": "Дубля Бруну Фернандеша не хватило «Манчестер Юнайтед» для победы в Лиссабоне",
+          "summary": "Луис Суарес сравнял счёт на 80-й минуте, и матч Лиги чемпионов закончился вничью 2:2.",
+          "body": "25 ноября Бруну Фернандеш забил бывшему клубу дважды за три минуты после перерыва. По данным Reuters, капитан «Манчестер Юнайтед» реализовал пенальти, а затем вывел гостей вперёд дальним ударом.\n\nКолумбиец Луис Суарес, открывший счёт за «Спортинг», воспользовался ошибкой вратаря гостей, выпустившего мяч, и спас ничью. Автогол, который лишил бы лиссабонцев очка, позднее отменили после видеопросмотра.",
+          "photoAlt": "Трибуны и поле стадиона «Жозе Алваладе» в Лиссабоне.",
+          "photoCaption": "Архивный снимок опубликован — 13 декабря 2006 г.. Трибуны и поле стадиона «Жозе Алваладе» в Лиссабоне."
+        },
+        "ko": {
+          "title": "페르난데스 두 골에도 맨유, 리스본에서 무승부",
+          "summary": "루이스 수아레스가 80분에 스포르팅의 동점골을 넣어 챔피언스리그 경기는 2-2로 끝났다.",
+          "body": "11월 25일 브루누 페르난데스가 친정팀을 상대로 후반 3분 사이 두 골을 넣었다. 로이터에 따르면 맨체스터 유나이티드 주장은 페널티킥을 성공시킨 뒤 중거리 슛으로 원정팀에 리드를 안겼다.\n\n스포르팅의 선제골을 넣은 콜롬비아 공격수 루이스 수아레스가 맨유 골키퍼가 놓친 공을 잡아 동점을 만들었다. 이후 리스본 팀이 승점 1점을 잃을 뻔한 자책골은 비디오 판독으로 취소됐다.",
+          "photoAlt": "리스본 조제 알발라드 경기장의 관중석과 잔디.",
+          "photoCaption": "자료 사진 게시일 — 2006년 12월 13일. 리스본 조제 알발라드 경기장의 관중석과 잔디."
+        }
+      },
+      "title": "À Lisbonne, le doublé de Bruno Fernandes ne suffit pas à Manchester United",
+      "summary": "Luis Suárez a égalisé pour le Sporting à la 80e minute d’un match de Ligue des champions terminé 2 à 2.",
+      "body": "Bruno Fernandes a marqué deux fois en trois minutes après la pause, le 25 novembre, contre son ancien club. Selon Reuters, le capitaine de Manchester United a d’abord transformé un penalty, puis battu le gardien d’un tir lointain pour donner l’avantage aux visiteurs.\n\nLe Colombien Luis Suárez, qui avait ouvert le score pour le Sporting, a profité d’un ballon relâché par le gardien de United pour arracher le nul. Le but contre son camp qui aurait coûté le point aux Lisboètes a ensuite été annulé après vérification vidéo.",
+      "photo": {
+        "download": "media/sporting-manchester-united-fernandes-suarez.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Sporting_interior.jpg",
+        "credit": "Sacavem (attribution présumée)",
+        "license": "Domaine public",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Sporting_interior.jpg",
+        "alt": "Tribunes et terrain du stade José-Alvalade à Lisbonne.",
+        "caption": "Archive mise en ligne le — 13 décembre 2006. Tribunes et terrain du stade José-Alvalade à Lisbonne."
+      }
+    },
+    {
+      "eventKey": "bakou-sabah-barcelone-double-gordon",
+      "category": "Sports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "UEFA – fiche du match",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049642--sabah-vs-barcelona/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/gordon-double-helps-barcelona-cruise-past-sabah-4-1-champions-league-2026-11-25/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "UEFA – résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--champions-league-league-phase-fixtures-by-team/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Gordon scores twice in Baku to set up Barcelona’s fourth European win",
+          "summary": "Barça beat hosts Sabah 4–1 on matchday five of the Champions League league phase.",
+          "body": "Anthony Gordon scored either side of half-time at Baku Olympic Stadium on November 25. According to Reuters, the forward first turned in the rebound from a Karim Adeyemi cross and then pounced after the keeper saved a Gabriel Jesus shot.\n\nAdeyemi and Jesus went on to score themselves. Joy-Lance Mickels pulled one back for Sabah. UEFA confirms the 4–1 result and lists Manchester City as Barça’s next European opponent on December 8.",
+          "photoAlt": "Floodlit stands and pitch at Baku Olympic Stadium.",
+          "photoCaption": "Archive photo, October 10, 2015. Baku Olympic Stadium, where Sabah hosted Barcelona."
+        },
+        "es": {
+          "title": "Un doblete de Gordon en Bakú encarrila la cuarta victoria europea del Barcelona",
+          "summary": "El Barça ganó 4-1 en casa del Sabah en la quinta jornada de la fase de liga de la Champions.",
+          "body": "Anthony Gordon marcó antes y después del descanso en el Estadio Olímpico de Bakú el 25 de noviembre. Según Reuters, el delantero aprovechó primero un rechace tras un centro de Karim Adeyemi y luego otro tras un remate de Gabriel Jesus.\n\nAdeyemi y Jesus también marcaron. Joy-Lance Mickels recortó distancias para el Sabah. La UEFA confirma el 4-1 y sitúa el próximo compromiso europeo del Barça el 8 de diciembre ante el Manchester City.",
+          "photoAlt": "Gradas iluminadas y césped del Estadio Olímpico de Bakú.",
+          "photoCaption": "Archivo del 10 de octubre de 2015. Estadio Olímpico de Bakú, donde el Sabah recibió al Barcelona."
+        },
+        "ar": {
+          "title": "ثنائية غوردون في باكو تمهد لفوز برشلونة الأوروبي الرابع",
+          "summary": "فاز برشلونة على مضيفه صباح 4-1 في الجولة الخامسة من مرحلة الدوري بدوري أبطال أوروبا.",
+          "body": "سجل أنتوني غوردون قبل الاستراحة وبعدها في ملعب باكو الأولمبي يوم 25 نوفمبر. وبحسب رويترز، تابع المهاجم أولاً كرة مرتدة إثر عرضية كريم أديمي، ثم استغل تصدي الحارس لتسديدة غابرييل جيسوس.\n\nثم سجل أديمي وجيسوس بدورهما. وقلص جوي لانس ميكلز الفارق لصباح. وأكد الاتحاد الأوروبي النتيجة وحدد الثامن من ديسمبر موعداً لمباراة برشلونة الأوروبية المقبلة أمام مانشستر سيتي.",
+          "photoAlt": "المدرجات المضاءة وأرضية ملعب باكو الأولمبي.",
+          "photoCaption": "صورة أرشيفية في 10 أكتوبر 2015 لملعب باكو الأولمبي حيث استضاف صباح برشلونة."
+        },
+        "zh-CN": {
+          "title": "戈登在巴库梅开二度，巴萨收获本赛季欧冠第四胜",
+          "summary": "欧冠联赛阶段第五轮，巴塞罗那客场4比1击败萨巴赫。",
+          "body": "11月25日，安东尼·戈登在巴库奥林匹克体育场上下半场各进一球。据路透社报道，他先是在卡里姆·阿德耶米的传中被挡出后补射得手，随后又抓住门将扑出加布里埃尔·热苏斯射门的机会破门。\n\n阿德耶米和热苏斯此后也各进一球。乔伊-兰斯·米克尔斯为萨巴赫扳回一球。欧足联确认比分为4比1，巴萨将于12月8日在下一场欧冠比赛中迎战曼城。",
+          "photoAlt": "巴库奥林匹克体育场灯光下的看台和草坪。",
+          "photoCaption": "档案照片摄于2015年10月10日。萨巴赫在巴库奥林匹克体育场迎战巴塞罗那。"
+        },
+        "ru": {
+          "title": "Дубль Гордона в Баку принёс «Барселоне» четвёртую победу в Лиге чемпионов",
+          "summary": "«Барса» обыграла «Сабах» на выезде со счётом 4:1 в пятом туре общего этапа Лиги чемпионов.",
+          "body": "25 ноября на Олимпийском стадионе в Баку Энтони Гордон отличился до и после перерыва. По данным Reuters, сначала он сыграл на добивании после подачи Карима Адейеми, а затем отправил мяч в ворота после того, как вратарь отразил удар Габриэла Жезуса.\n\nВпоследствии Адейеми и Жезус забили сами. Джой-Лэнс Микельс отыграл один мяч за «Сабах». УЕФА подтверждает счёт 4:1. Следующий матч в турнире «Барселона» проведёт 8 декабря против «Манчестер Сити».",
+          "photoAlt": "Освещённые трибуны и поле Олимпийского стадиона в Баку.",
+          "photoCaption": "Архивный снимок от 10 октября 2015 года. На Олимпийском стадионе в Баку «Сабах» принимал «Барселону»."
+        },
+        "ko": {
+          "title": "바쿠에서 두 골 넣은 고든, 바르셀로나의 챔피언스리그 4승 이끌어",
+          "summary": "바르셀로나가 챔피언스리그 리그 페이즈 5차전에서 홈팀 사바흐를 4-1로 꺾었다.",
+          "body": "앤서니 고든은 11월 25일 바쿠 올림픽 스타디움에서 전반과 후반에 한 골씩 넣었다. 로이터에 따르면 고든은 먼저 카림 아데예미의 크로스가 막히자 공을 밀어 넣었고, 이어 골키퍼가 가브리에우 제주스의 슛을 막아낸 뒤 흘러나온 공을 차 넣었다.\n\n아데예미와 제주스도 이어서 골을 넣었다. 사바흐는 조이랜스 미켈스가 한 골을 만회했다. UEFA가 확인한 최종 점수는 4-1이다. 바르셀로나의 다음 유럽 대항전 상대는 맨체스터 시티로, 경기는 12월 8일이다.",
+          "photoAlt": "조명을 밝힌 바쿠 올림픽 스타디움의 관중석과 잔디.",
+          "photoCaption": "2015년 10월 10일 자료 사진. 사바흐가 바르셀로나를 맞은 바쿠 올림픽 스타디움."
+        }
+      },
+      "title": "À Bakou, un doublé de Gordon lance Barcelone vers une quatrième victoire européenne",
+      "summary": "Le Barça s’est imposé 4 à 1 chez Sabah lors de la cinquième journée de la phase de ligue de la Ligue des champions.",
+      "body": "Anthony Gordon a marqué de part et d’autre de la pause au stade olympique de Bakou le 25 novembre. Selon Reuters, l’attaquant a d’abord repris un ballon repoussé sur un centre de Karim Adeyemi, puis profité d’une parade sur un tir de Gabriel Jesus.\n\nAdeyemi et Jesus ont ensuite marqué à leur tour. Joy-Lance Mickels a réduit l’écart pour Sabah. L’UEFA confirme le score de 4 à 1 et fixe le prochain rendez-vous européen du Barça au 8 décembre contre Manchester City.",
+      "photo": {
+        "download": "media/bakou-sabah-barcelone-double-gordon.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baku_Olympic_Stadium.JPG",
+        "credit": "Eminn",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Tribunes éclairées et pelouse du stade olympique de Bakou.",
+        "caption": "Archives du 10 octobre 2015. Stade olympique de Bakou, où Sabah a reçu Barcelone."
+      }
+    },
+    {
+      "eventKey": "bruges-liverpool-isak-wirtz-novembre-2026",
+      "category": "Sports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "UEFA – fiche du match",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049638--club-brugge-vs-liverpool/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Sky Sports",
+          "url": "https://www.skysports.com/football/club-brugge-vs-liverpool/report/577679",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "UEFA – résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--champions-league-league-phase-fixtures-by-team/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Isak scores twice in Bruges as Liverpool win 3–0",
+          "summary": "The visitors took the lead in the 13th minute before securing the win in the final quarter-hour.",
+          "body": "Sky Sports reports that Alexander Isak put Liverpool ahead at the Jan Breydel Stadium on November 25. For more than an hour, that goal was all that separated the teams. Florian Wirtz doubled the lead in the 79th minute and Isak added a third three minutes later.\n\nUEFA’s league-phase schedule takes Brugge to Napoli on December 8. Liverpool host Porto the next day.",
+          "photoAlt": "Pitch and stands at the Jan Breydel Stadium in Bruges.",
+          "photoCaption": "Archive photo — October 16, 2011. Pitch and stands at the Jan Breydel Stadium in Bruges."
+        },
+        "es": {
+          "title": "Isak marca dos goles en Brujas y Liverpool gana 3-0",
+          "summary": "Los visitantes abrieron el marcador en el minuto 13 y sentenciaron el partido en el último cuarto de hora.",
+          "body": "Según Sky Sports, Alexander Isak adelantó al Liverpool en el estadio Jan Breydel el 25 de noviembre. Durante más de una hora, ese gol fue la única diferencia. Florian Wirtz amplió la ventaja en el minuto 79 e Isak anotó el tercero tres minutos después.\n\nSegún el calendario de la UEFA, el Brujas visitará al Nápoles el 8 de diciembre. El Liverpool recibirá al Oporto al día siguiente.",
+          "photoAlt": "Césped y gradas del estadio Jan Breydel en Brujas.",
+          "photoCaption": "Foto de archivo — 16 de octubre de 2011. Césped y gradas del estadio Jan Breydel en Brujas."
+        },
+        "ar": {
+          "title": "إيساك يسجل هدفين وليفربول يفوز في بروج بثلاثية",
+          "summary": "افتتح الضيوف التسجيل في الدقيقة 13 وحسموا الفوز في ربع الساعة الأخير.",
+          "body": "بحسب سكاي سبورتس، تقدم ألكسندر إيساك لليفربول في ملعب يان بريدل يوم 25 نوفمبر. وظل هذا الهدف الفارق الوحيد لأكثر من ساعة. وضاعف فلوريان فيرتز النتيجة في الدقيقة 79 قبل أن يسجل إيساك الهدف الثالث بعد ثلاث دقائق.\n\nوبحسب جدول الاتحاد الأوروبي، يحل بروج ضيفاً على نابولي في 8 ديسمبر ويستضيف ليفربول بورتو في اليوم التالي.",
+          "photoAlt": "أرضية ملعب يان بريدل ومدرجاته في بروج.",
+          "photoCaption": "صورة أرشيفية — 16 أكتوبر 2011. أرضية ملعب يان بريدل ومدرجاته في بروج."
+        },
+        "zh-CN": {
+          "title": "伊萨克在布鲁日梅开二度，利物浦3比0获胜",
+          "summary": "客队第13分钟取得领先，最后一刻钟再入两球锁定胜局。",
+          "body": "据天空体育报道，11月25日，亚历山大·伊萨克在扬·布雷德尔球场为利物浦首开纪录。此后一小时有余，两队仅差一球。弗洛里安·维尔茨第79分钟扩大比分，三分钟后伊萨克打入第三球。\n\n根据欧足联赛程，布鲁日将于12月8日客战那不勒斯。利物浦次日主场对阵波尔图。",
+          "photoAlt": "布鲁日扬·布雷德尔球场的草坪和看台。",
+          "photoCaption": "档案照片 — 2011年10月16日. 布鲁日扬·布雷德尔球场的草坪和看台。"
+        },
+        "ru": {
+          "title": "Дубль Исака помог «Ливерпулю» победить в Брюгге со счётом 3:0",
+          "summary": "Гости открыли счёт на 13-й минуте и закрепили победу в последней четверти часа.",
+          "body": "По данным Sky Sports, 25 ноября Александер Исак вывел «Ливерпуль» вперёд на стадионе «Ян Брейдел». Более часа команды разделял всего один мяч. Флориан Вирц удвоил преимущество на 79-й минуте, а ещё через три минуты Исак забил третий.\n\nПо календарю УЕФА «Брюгге» 8 декабря сыграет в гостях с «Наполи». На следующий день «Ливерпуль» примет «Порту».",
+          "photoAlt": "Поле и трибуны стадиона «Ян Брейдел» в Брюгге.",
+          "photoCaption": "Архивный снимок — 16 октября 2011 г.. Поле и трибуны стадиона «Ян Брейдел» в Брюгге."
+        },
+        "ko": {
+          "title": "이사크 멀티골, 리버풀 브뤼허 원정서 3-0 승리",
+          "summary": "원정팀은 13분에 앞서간 뒤 마지막 15분에 승부를 결정지었다.",
+          "body": "스카이스포츠에 따르면 알렉산데르 이사크가 11월 25일 얀 브레이델 스타디움에서 리버풀의 선제골을 넣었다. 이후 한 시간 넘게 한 골 차가 유지됐다. 79분 플로리안 비르츠가 추가골을 넣고 3분 뒤 이사크가 세 번째 골을 기록했다.\n\nUEFA 일정에 따르면 브뤼허는 12월 8일 나폴리 원정에 나서고 리버풀은 이튿날 포르투를 홈에서 맞는다.",
+          "photoAlt": "브뤼허 얀 브레이델 스타디움의 잔디와 관중석.",
+          "photoCaption": "자료 사진 — 2011년 10월 16일. 브뤼허 얀 브레이델 스타디움의 잔디와 관중석."
+        }
+      },
+      "title": "Isak marque deux fois à Bruges, Liverpool repart avec une victoire 3 à 0",
+      "summary": "Les visiteurs ont ouvert le score dès la 13e minute avant de se mettre à l’abri dans le dernier quart d’heure.",
+      "body": "Selon le compte rendu de Sky Sports, Alexander Isak a donné l’avantage à Liverpool au stade Jan-Breydel le 25 novembre. Pendant plus d’une heure, ce seul but a séparé les deux équipes. Florian Wirtz a doublé la mise à la 79e minute, puis Isak a inscrit le troisième but trois minutes plus tard.\n\nAu prochain tour de la phase de ligue, le calendrier de l’UEFA envoie Bruges à Naples le 8 décembre. Liverpool recevra Porto le lendemain.",
+      "photo": {
+        "download": "media/bruges-liverpool-isak-wirtz-novembre-2026.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jan_Breydelstadion.JPG",
+        "credit": "Chivista",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "La pelouse et les tribunes du stade Jan-Breydel à Bruges.",
+        "caption": "Archives — 16 octobre 2011. La pelouse et les tribunes du stade Jan-Breydel à Bruges."
+      }
+    },
+    {
+      "eventKey": "inter-stuttgart-sucic-martinez-milan",
+      "category": "Sports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "UEFA – fiche du match",
+          "url": "https://www.uefa.com/uefachampionsleague/match/2049635--inter-vs-stuttgart/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Bundesliga",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/fc-internazionale-mailand-vfb-stuttgart-match-report-highlights-matchday-5-40148",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "UEFA – résultats et calendrier",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--champions-league-league-phase-fixtures-by-team/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "FC Internazionale Milano",
+          "url": "https://www.inter.it/en/match_center/5412",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Inter break through after half-time to beat Stuttgart in Milan",
+          "summary": "A Petar Sučić penalty and a Lautaro Martínez goal gave the hosts victory at San Siro.",
+          "body": "Stuttgart held out for a half in Milan on November 25. According to Inter’s match record, the teams went into the break at 0–0. Sučić converted a penalty twelve minutes after the restart before Martínez made it 2–0 in the 74th minute.\n\nUEFA has scheduled both teams for December 9 on matchday six of the league phase. Inter visit Borussia Dortmund and Stuttgart host Lille.",
+          "photoAlt": "Roof structure and stands at Milan’s San Siro stadium.",
+          "photoCaption": "Archive photo — December 2021. Roof structure and stands at Milan’s San Siro stadium."
+        },
+        "es": {
+          "title": "El Inter rompe el empate tras el descanso y vence al Stuttgart en Milán",
+          "summary": "Un penalti de Petar Sučić y un gol de Lautaro Martínez dieron el triunfo local en San Siro.",
+          "body": "El Stuttgart resistió una mitad en Milán el 25 de noviembre. Según la ficha del Inter, los equipos se fueron al vestuario con 0-0. Sučić convirtió un penalti doce minutos después de la reanudación y Martínez puso el 2-0 en el minuto 74.\n\nLa UEFA ha programado a ambos equipos el 9 de diciembre para la sexta jornada. El Inter visitará al Borussia Dortmund y el Stuttgart recibirá al Lille.",
+          "photoAlt": "Estructura del techo y gradas de San Siro en Milán.",
+          "photoCaption": "Foto de archivo — diciembre de 2021. Estructura del techo y gradas de San Siro en Milán."
+        },
+        "ar": {
+          "title": "إنتر يحسم اللقاء بعد الاستراحة ويفوز على شتوتغارت في ميلانو",
+          "summary": "ركلة جزاء لبيتار سوتشيتش وهدف للاوتارو مارتينيز منحا أصحاب الأرض الفوز في سان سيرو.",
+          "body": "صمد شتوتغارت شوطاً في ميلانو يوم 25 نوفمبر. وبحسب سجل إنتر، دخل الفريقان الاستراحة بالتعادل السلبي. وسجل سوتشيتش من ركلة جزاء بعد 12 دقيقة من استئناف اللعب، ثم جعل مارتينيز النتيجة 2-0 في الدقيقة 74.\n\nوحدد الاتحاد الأوروبي يوم 9 ديسمبر لمباراتي الفريقين في الجولة السادسة. ويزور إنتر بوروسيا دورتموند بينما يستضيف شتوتغارت ليل.",
+          "photoAlt": "هيكل السقف ومدرجات سان سيرو في ميلانو.",
+          "photoCaption": "صورة أرشيفية — ديسمبر 2021. هيكل السقف ومدرجات سان سيرو في ميلانو."
+        },
+        "zh-CN": {
+          "title": "国米下半场打破僵局，在米兰击败斯图加特",
+          "summary": "佩塔尔·苏契奇的点球和劳塔罗·马丁内斯的进球帮助主队在圣西罗取胜。",
+          "body": "11月25日，斯图加特在米兰守住了上半场。根据国米的比赛记录，两队以0比0进入中场休息。下半场开场12分钟，苏契奇罚入点球，马丁内斯随后在第74分钟将比分改写为2比0。\n\n欧足联将两队的联赛阶段第六轮比赛安排在12月9日。国米客战多特蒙德，斯图加特主场迎战里尔。",
+          "photoAlt": "米兰圣西罗球场的顶棚结构和看台。",
+          "photoCaption": "档案照片 — 2021年12月. 米兰圣西罗球场的顶棚结构和看台。"
+        },
+        "ru": {
+          "title": "«Интер» вскрыл оборону «Штутгарта» после перерыва и победил в Милане",
+          "summary": "Пенальти Петара Сучича и гол Лаутаро Мартинеса принесли хозяевам победу на «Сан-Сиро».",
+          "body": "25 ноября «Штутгарт» продержался в Милане один тайм. Согласно протоколу «Интера», на перерыв команды ушли при счёте 0:0. Через 12 минут после возобновления игры Сучич реализовал пенальти, а на 74-й минуте Мартинес установил счёт 2:0.\n\nПо календарю УЕФА обе команды сыграют в шестом туре 9 декабря. «Интер» отправится в гости к дортмундской «Боруссии», а «Штутгарт» примет «Лилль».",
+          "photoAlt": "Конструкция крыши и трибуны миланского стадиона «Сан-Сиро».",
+          "photoCaption": "Архивный снимок — декабрь 2021 г.. Конструкция крыши и трибуны миланского стадиона «Сан-Сиро»."
+        },
+        "ko": {
+          "title": "인터 밀란, 후반 균형 깨고 슈투트가르트에 승리",
+          "summary": "페타르 수치치의 페널티킥과 라우타로 마르티네스의 골로 홈팀이 산시로에서 승리했다.",
+          "body": "11월 25일 밀라노에서 슈투트가르트는 한동안 버텼다. 인터의 경기 기록에 따르면 양 팀은 득점 없이 전반을 마쳤다. 후반 시작 12분 만에 수치치가 페널티킥을 성공시켰고 마르티네스가 74분에 2-0을 만들었다.\n\nUEFA는 두 팀의 리그 페이즈 6차전을 12월 9일로 편성했다. 인터는 도르트문트 원정에 나서고 슈투트가르트는 릴을 홈에서 맞는다.",
+          "photoAlt": "밀라노 산시로 경기장의 지붕 구조와 관중석.",
+          "photoCaption": "자료 사진 — 2021년 12월. 밀라노 산시로 경기장의 지붕 구조와 관중석."
+        }
+      },
+      "title": "L’Inter débloque le match après la pause et bat Stuttgart à Milan",
+      "summary": "Un penalty de Petar Sučić puis un but de Lautaro Martínez ont donné la victoire aux Milanais à San Siro.",
+      "body": "Stuttgart a tenu une mi-temps à Milan le 25 novembre. D’après la feuille de match de l’Inter, les deux équipes sont rentrées aux vestiaires à 0 à 0. Sučić a transformé un penalty douze minutes après la reprise, avant que Martínez ne porte la marque à 2 à 0 à la 74e minute.\n\nL’UEFA programme les deux équipes le 9 décembre pour la sixième journée de la phase de ligue. L’Inter jouera sur le terrain du Borussia Dortmund, tandis que Stuttgart accueillera Lille.",
+      "photo": {
+        "download": "media/inter-stuttgart-sucic-martinez-milan.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Siro_stadio_Milano.jpg",
+        "credit": "Vasil Evlogiev",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Structure du toit et tribunes du stade San Siro à Milan.",
+        "caption": "Archives — décembre 2021. Structure du toit et tribunes du stade San Siro à Milan."
+      }
+    }
+  ]
+}
