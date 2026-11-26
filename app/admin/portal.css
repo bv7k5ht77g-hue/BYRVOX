@@ -140,7 +140,8 @@ html[data-theme=dark] .admin-shell .reader-status-banned { color:#ff9fb5; }
 
 .admin-shell .portal-ads { display:grid; grid-template-columns:minmax(230px,.8fr) minmax(0,1.4fr); gap:20px; align-items:start; }
 .admin-shell .portal-ads > .admin-note { grid-column:1 / -1; }
-.ad-directory ul { list-style:none; padding:0; margin:12px 0 0; }
+.ad-position-group h3 { margin:18px 0 4px; }
+.ad-directory ul { list-style:none; padding:0; margin:0; }
 .ad-directory li + li { border-top:1px solid var(--line); }
 .ad-directory button { display:grid; gap:3px; width:100%; padding:10px 12px; text-align:start; color:var(--ink); border-inline-start:3px solid transparent; }
 .ad-directory button[aria-pressed=true] { border-color:var(--accent,#bb0032); background:var(--surface); font-weight:700; }

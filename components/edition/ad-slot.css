@@ -1,4 +1,4 @@
-.by-ad { margin:clamp(20px,3.2vw,42px) 0; min-width:0; text-align:center; }
+.by-ad { margin:clamp(20px,3.2vw,42px) 0; min-width:0; text-align:center; scroll-margin-block-start:8rem; }
 .by-ad-disclosure { display:block; color:var(--muted); margin-block-end:5px; font-size:.64rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
 .by-ad-open,.by-ad-campaign { display:flex; align-items:center; justify-content:center; gap:12px; min-height:clamp(46px,5.5vw,76px); background:var(--surface); border-block:1px solid var(--line); color:var(--muted); font-size:.8rem; }
 .by-ad-open { background-image:repeating-linear-gradient(135deg,transparent 0 12px,color-mix(in srgb,var(--ink) 2%,transparent) 12px 13px); }

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { cache } from 'react';
+import { cache, Fragment } from 'react';
 import { and, eq } from 'drizzle-orm';
 import { Clock3, House, Link2 } from 'lucide-react';
 import {CategoryLink, Mark} from '../../../components/edition/category-mark';
@@ -11,6 +11,7 @@ import { CoverFigure } from '../../../components/edition/cover-figure';
 import { AdSlot } from '../../../components/edition/ad-slot';
 import { PublicEditionProvider } from '../../../components/edition/public-edition-provider';
 import type { ArticlePhoto } from '../../../lib/article-photo';
+import { isPendingWireAdReview } from '../../../lib/article-ad-policy';
 import { resolveCover, type CoverPhoto } from '../../../lib/cover-photo';
 import { headers } from 'next/headers';
 import { publicSiteOrigin } from '../../../lib/site-url';
@@ -32,11 +33,11 @@ import '../reader.css';
 
 export const dynamic = 'force-dynamic';
 type ArticleProps = { params: Promise<{ slug: string }>; searchParams: Promise<Record<string,string | string[] | undefined>> };
-type ReaderArticle = { adsEnabled: boolean; story: Story; isFeature: boolean; isWire: boolean; photo: CoverPhoto | null; gallery: ArticlePhoto[] };
+type ReaderArticle = { adsEnabled: boolean; reserveArticleSpaces: boolean; story: Story; isFeature: boolean; isWire: boolean; photo: CoverPhoto | null; gallery: ArticlePhoto[] };
 
 const getArticle = cache(async (slug: string): Promise<ReaderArticle | null> => {
   const feature = features.find(article => article.slug === slug);
-  if (feature) return { adsEnabled:true, story: feature, isFeature: true, isWire:false, photo:null, gallery:[] };
+  if (feature) return { adsEnabled:true, reserveArticleSpaces:false, story: feature, isFeature: true, isWire:false, photo:null, gallery:[] };
   const [row] = await getDb().select({
     adReview:articles.adReview, slug:articles.slug, title:articles.title, category:articles.category, summary:articles.summary, authorId:articles.authorId,
     photo:articles.photo, photoHidden:articles.photoHidden, gallery:articles.gallery,
@@ -44,7 +45,12 @@ const getArticle = cache(async (slug: string): Promise<ReaderArticle | null> => 
   }).from(articles).where(and(eq(articles.slug,slug),eq(articles.status,'published'))).limit(1);
   if (!row) return null;
   const {photo, photoHidden, gallery, authorId, adReview, ...story} = row;
-  return {adsEnabled:adReview === null || adReview.decision === 'allow', story, isFeature:false, isWire:authorId === 'byrvox-agent-horaire' || authorId === 'byrvox-agent-thematique', photo:resolveCover(slug,photo,photoHidden), gallery:gallery || []};
+  return {
+    adsEnabled:adReview === null || adReview.decision === 'allow',
+    reserveArticleSpaces:isPendingWireAdReview(adReview), story, isFeature:false,
+    isWire:authorId === 'byrvox-agent-horaire' || authorId === 'byrvox-agent-thematique',
+    photo:resolveCover(slug,photo,photoHidden), gallery:gallery || [],
+  };
 });
 const localizedArticle = cache(async (slug:string, locale:PublicLocale) => {
   const article = await getArticle(slug);
@@ -90,6 +96,8 @@ export default async function Article({params,searchParams}:ArticleProps) {
   const {story, original, isFeature, isWire, photo, art, language} = record;
   const copy = readerLabels(locale);
   const sources = sourcesForReader(story.sources);
+  const paragraphs = story.body.split(/\r?\n/).filter(paragraph => paragraph.trim());
+  const midpoint = Math.ceil(paragraphs.length / 2);
   const published = isoDate(story.publishedAt), updated = isoDate(story.updatedAt);
   const dateFormat = new Intl.DateTimeFormat(locale, {day:'numeric', month:'long', year:'numeric', hour:'2-digit', minute:'2-digit', timeZone:'America/Toronto', timeZoneName:'short'});
   // The French word count gives a consistent estimate even for languages without spaces.
@@ -105,7 +113,7 @@ export default async function Article({params,searchParams}:ArticleProps) {
     publisher:{'@type':'Organization',name:'BYRVOX'}, datePublished:published || undefined, dateModified:updated || undefined,
     citation:sources.length ? sources.map(s=>s.url) : undefined,
   };
-  return <PublicEditionProvider locale={locale} adsEnabled={record.adsEnabled}>
+  return <PublicEditionProvider locale={locale} adsEnabled={record.adsEnabled} reserveArticleSpaces={record.reserveArticleSpaces}>
     <a className="skip" href="#lecture">{copy.skip}</a>
     <ArticleNavigation currentUrl={localizedHref('/article/'+encodeURIComponent(slug),locale)}><ArticleMeter slug={slug}/>
     <main id="lecture" tabIndex={-1}>
@@ -137,8 +145,11 @@ export default async function Article({params,searchParams}:ArticleProps) {
             <figcaption>{copy.illustration}</figcaption>
           </figure>}
           {(photo || art) && <AdSlot placement="article-photo" locale={locale}/>}
-          <div lang={language} dir="auto" className="reader-copy">
-            {story.body.split(/\r?\n/).filter(p=>p.trim()).map((p,i)=><p key={i}>{p}</p>)}
+          <div className="reader-copy">
+            {paragraphs.map((paragraph, index) => <Fragment key={index}>
+              <p lang={language} dir="auto">{paragraph}</p>
+              {index + 1 === midpoint && index + 1 < paragraphs.length && <AdSlot placement="article-mid" locale={locale}/>}
+            </Fragment>)}
           </div>
           <Recommendations stories={cards} relatedCount={suggestions.relatedCount} locale={locale}/>
           {record.gallery.length>0 && <section className="reader-gallery" aria-labelledby="gallery-title">

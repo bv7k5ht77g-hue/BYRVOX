@@ -6,18 +6,26 @@ import { AdFrame } from '../../components/edition/ad-frame';
 import { parseAdFrame, parseAdScript } from '../../lib/ad-frame.mjs';
 import { adSlotPattern, parseAdSenseSnippet, recognizeAdSenseVerification } from '../../lib/adsense.mjs';
 import { validAdImageUrl, type AdPlacement, type AdSenseSettings, type Placement } from '../../lib/ad-placements';
+import { articleUrl, NEW_SITE_ORIGIN } from '../../lib/site-url';
 
-const slotNames: Record<Placement,string> = {
-  footer:'Pied de page · site public',
-  home: 'Accueil · sous la navigation',
-  'home-lower': 'Accueil · sous la manchette',
-  masthead: 'Pages intérieures · sous la navigation',
-  news: 'Actualités · fil de nouvelles',
-  'news-lower': 'Actualités · rubriques et archives',
-  radio: 'Radio · sous le lecteur',
-  'article-photo': 'Articles · sous la photo de couverture',
-  article: 'Articles · avant les sources',
+const positions: Record<Placement, {section: string; name: string}> = {
+  home: {section:'Accueil', name:'Sous la navigation'},
+  'home-lower': {section:'Accueil', name:'Sous la manchette'},
+  masthead: {section:'Articles', name:'Sous la navigation'},
+  'article-photo': {section:'Articles', name:'Après la photo de couverture'},
+  'article-mid': {section:'Articles', name:'Au milieu du texte'},
+  article: {section:'Articles', name:'Avant les sources'},
+  news: {section:'Actualités', name:'Fil de nouvelles'},
+  'news-lower': {section:'Actualités', name:'Rubriques et archives'},
+  radio: {section:'Radio', name:'Sous le lecteur'},
+  footer: {section:'Toutes les pages', name:'Pied de page'},
 };
+const kyotoArticle = articleUrl('asean-plus-trois-kyoto-paiements-numeriques', NEW_SITE_ORIGIN);
+const methodArticle = articleUrl('notre-methode', NEW_SITE_ORIGIN);
+function slotTitle(placement: Placement) {
+  const {section, name} = positions[placement];
+  return section + ' · ' + name.toLocaleLowerCase('fr');
+}
 const modes = {available:'Disponible', hidden:'Masqué', campaign:'Campagne active', adsense:'Bloc AdSense', embed:'Code iframe', script:'Script externe'};
 
 function PlacementStatus({slot, settings}: {slot:AdPlacement; settings:AdSenseSettings|null}) {
@@ -54,6 +62,8 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
   const [preview, setPreview] = useState('');
   const busy = saving || uploading;
   const current = slots.find(slot => slot.placement === edit?.placement);
+  const exampleArticle = edit?.placement === 'article' ? methodArticle : kyotoArticle;
+  const sections = [...new Set(slots.map(slot => positions[slot.placement].section))];
   const editingScript = !siteSetup && edit?.mode === 'script';
   const editingFrame = !siteSetup && (edit?.mode === 'embed' || editingScript);
   const parseExternal = editingScript ? parseAdScript : parseAdFrame;
@@ -183,7 +193,7 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
         const {placement} = await response.json() as {placement:AdPlacement};
         setSlots(previous => previous.map(slot => slot.placement === placement.placement ? placement : slot));
         setEdit(placement);
-        setNotice(placement.mode === 'adsense' ? 'Bloc AdSense '+placement.adSlot+' attribué à « '+slotNames[placement.placement]+' ».' : 'Emplacement enregistré.');
+        setNotice(placement.mode === 'adsense' ? 'Bloc AdSense '+placement.adSlot+' attribué à « '+slotTitle(placement.placement)+' ».' : 'Emplacement enregistré.');
       }
       setSnippet('');
     } catch { setError('L’enregistrement a échoué. Vérifie ta connexion et réessaie.'); }
@@ -244,13 +254,16 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
       </button></>}
       <h2 id="ads-list-title">Emplacements</h2>
       {slots.length === 0 && !error && <p role="status">Chargement des emplacements…</p>}
-      <ul>{slots.map(slot => <li key={slot.placement}>
-        <button type="button" disabled={busy} aria-pressed={!siteSetup && slot.placement === edit?.placement} onClick={() => {
-          if (siteSetup || edit?.placement !== slot.placement) select(slot);
-        }}>
-          <span>{slotNames[slot.placement]}</span><PlacementStatus slot={slot} settings={settings}/>
-        </button>
-      </li>)}</ul>
+      {sections.map(section => <section key={section} className="ad-position-group" aria-label={section}>
+        <h3>{section}</h3>
+        <ul>{slots.filter(slot => positions[slot.placement].section === section).map(slot => <li key={slot.placement}>
+          <button type="button" disabled={busy} aria-pressed={!siteSetup && slot.placement === edit?.placement} onClick={() => {
+            if (siteSetup || edit?.placement !== slot.placement) select(slot);
+          }}>
+            <span>{positions[slot.placement].name}</span><PlacementStatus slot={slot} settings={settings}/>
+          </button>
+        </li>)}</ul>
+      </section>)}
     </section>
     {settings && siteSetup && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-google-title">
       <h2 id="ad-google-title">Google AdSense sur le site public</h2>
@@ -269,10 +282,18 @@ export function AdsPanel({onDirty, onSaving}: {onDirty:(dirty:boolean)=>void; on
       </fieldset>
       <button className="red" type="submit" disabled={busy || !changed || conflict || Boolean(snippetError)}>{saving ? 'Enregistrement…' : 'Enregistrer la configuration'}</button>
       {notice && <p role="status" className="admin-note">{notice}</p>}
-      {current && <button type="button" className="outline" disabled={busy} onClick={() => select(current)}>Configurer l’emplacement « {slotNames[current.placement]} »</button>}
+      {current && <button type="button" className="outline" disabled={busy} onClick={() => select(current)}>Configurer l’emplacement « {slotTitle(current.placement)} »</button>}
     </form>}
     {!siteSetup && edit && current && <form className="panel ad-editor" onSubmit={save} aria-labelledby="ad-editor-title">
-      <h2 id="ad-editor-title">{slotNames[edit.placement]}</h2>
+      <h2 id="ad-editor-title">{slotTitle(edit.placement)}</h2>
+      {edit.placement === 'masthead' && <p className="portal-help">Ce réglage s’applique aussi aux autres pages intérieures sous la navigation.</p>}
+      {edit.placement === 'article-photo' && <p className="portal-help">Cet emplacement suit la photo de couverture ou l’illustration des articles qui en ont une.</p>}
+      {edit.placement === 'article-mid' && <p className="portal-help">Cet emplacement apparaît entre deux paragraphes, à mi-lecture des articles qui en comptent au moins deux.</p>}
+      {positions[edit.placement].section === 'Articles' && <>
+        <p className="portal-help">Les articles des éditions automatiques affichent des cadres réservés en attendant la validation publicitaire. Si la rédaction désactive la publicité sur un article, tous ses emplacements sont masqués.</p>
+        <a href={current.mode === 'hidden' ? exampleArticle : exampleArticle + '#publicite-' + edit.placement} target="_blank" rel="noreferrer">
+          {current.mode === 'hidden' ? 'Ouvrir l’article de référence' : 'Voir cet emplacement dans un article'} ↗</a>
+      </>}
       {current.mode==='available' && settings?.enabled && <p className="portal-help">AdSense est activé pour le site. Cet emplacement attend l’attribution d’un bloc ou d’une campagne.</p>}
       {edit.placement==='home' && <a href="https://byrvox.today/#publicite-sous-navigation" target="_blank" rel="noreferrer">Voir la position sur l’accueil ↗</a>}
       <div>Attribution actuellement enregistrée <PlacementStatus slot={current} settings={settings}/></div>

@@ -1,7 +1,7 @@
 import { and, eq } from 'drizzle-orm';
 import { getDb } from '../db';
 import { adPlacements, adSenseSettings } from '../db/schema';
-import { PLACEMENTS, type AdPlacement, type AdSenseSettings, type PublicAdPlacements } from './ad-placements';
+import { PLACEMENTS, type AdPlacement, type AdSenseSettings, type Placement, type PublicAdPlacements } from './ad-placements';
 
 export async function getAdPlacements(): Promise<AdPlacement[]> {
   const rows = await getDb().select().from(adPlacements).all();
@@ -31,6 +31,19 @@ export async function getPublicAdConfiguration(allowThirdParty = true): Promise<
     }
   }
   return {placements, client};
+}
+
+const reservedArticleSlots: ReadonlySet<Placement> = new Set(['masthead', 'article-photo', 'article-mid']);
+
+export async function getReservedArticlePlacements(): Promise<PublicAdPlacements> {
+  const hidden = await getDb().select({ placement: adPlacements.placement }).from(adPlacements)
+    .where(eq(adPlacements.mode, 'hidden')).all();
+  const hiddenSlots = new Set(hidden.map(row => row.placement));
+  const placements: PublicAdPlacements = {};
+  for (const placement of PLACEMENTS) {
+    placements[placement] = { mode: reservedArticleSlots.has(placement) && !hiddenSlots.has(placement) ? 'reserved' : 'hidden' };
+  }
+  return placements;
 }
 
 export async function saveAdSenseSettings(input: AdSenseSettings): Promise<AdSenseSettings | null> {

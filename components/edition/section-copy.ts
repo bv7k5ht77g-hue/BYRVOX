@@ -9,6 +9,7 @@ const text = {
   headlines: ['Manchettes','Headlines','Titulares','أبرز العناوين','头条','Главные новости','주요 기사'],
   archive: ['Tous les articles','All stories','Todos los artículos','جميع المقالات','全部文章','Все материалы','전체 기사'],
   adAvailable: ['Espace publicitaire disponible','Advertising space available','Espacio publicitario disponible','مساحة إعلانية متاحة','可投放广告','Место для рекламы','광고 게재 공간'],
+  adReserved: ['Espace publicitaire réservé','Reserved advertising space','Espacio publicitario reservado','مساحة إعلانية محجوزة','预留广告位','Зарезервированное рекламное место','광고 예약 공간'],
   radioBrands: ['RadioYO dans la rubrique Radio','RadioYO in the Radio section','RadioYO en la sección Radio','RadioYO في قسم الإذاعة','广播栏目中的 RadioYO','RadioYO в разделе «Радио»','라디오 섹션의 RadioYO'],
   radioBrandInfo: ['RadioYO est une marque du groupe NOVENTRA, distincte de BYRVOX Radio.','RadioYO is a NOVENTRA Group brand with a separate identity from BYRVOX Radio.','RadioYO es una marca del grupo NOVENTRA independiente de BYRVOX Radio.','RadioYO علامة تابعة لمجموعة NOVENTRA ولها هوية مستقلة عن إذاعة BYRVOX.','RadioYO 是 NOVENTRA 集团旗下的品牌，与 BYRVOX 广播各自独立。','RadioYO — отдельный бренд группы NOVENTRA со своей идентичностью, отличной от BYRVOX Radio.','RadioYO는 NOVENTRA 그룹 소속으로 BYRVOX 라디오와 별개의 브랜드입니다.'],
 

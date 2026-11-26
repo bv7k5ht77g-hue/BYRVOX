@@ -650,8 +650,8 @@ test('les responsables configurent les espaces publicitaires sans écraser une c
   });
 
   const { placements } = await json(endpoint, {email: editor});
-  assert.deepEqual(placements.map(p => p.placement).sort(), [
-    'article', 'article-photo', 'footer', 'home', 'home-lower', 'masthead', 'news', 'news-lower', 'radio',
+  assert.deepEqual(placements.map(p => p.placement), [
+    'home', 'home-lower', 'masthead', 'article-photo', 'article-mid', 'article', 'news', 'news-lower', 'radio', 'footer',
   ]);
   assert.ok(placements.every(p => p.mode === 'available' && p.version === 0));
   const initialHome = placements.find(p => p.placement === 'home');
@@ -1000,7 +1000,8 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
   const story = {
     eventKey:'actualite-locale-verifiee',title:'L’actualité de la ville confirmée par deux rédactions',
     summary:'La rédaction présente les faits relevés dans les sources consultées pour cette édition.',
-    category:'Canada',body:'Des informations vérifiées ont été réunies dans l’édition horaire. '.repeat(7),
+    category:'Canada',body:'Des informations vérifiées ont été réunies dans l’édition horaire. '.repeat(7)
+      + '\n\nLa rencontre se poursuit sur la place du quartier.',
     translations:{en:{title:'A meeting in the city',summary:'The local newsroom reports from the meeting.',
       body:'Residents attended the meeting in the town square.',photoAlt:'View of the town square.',
       photoCaption:'The square where the meeting took place.'}},
@@ -1019,7 +1020,7 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
   const base = 'https://raw.githubusercontent.com/bv7k5ht77g-hue/BYRVOX/main/newswire/'+hour+'/';
   const picture = await readFile(resolve(root,'public/media/editorial/thumbs/canada-recettes-fermes-canola-neuf-mois.webp'));
   const seen = [];
-  const {db,json,request} = await createNewsroom(t,{}, async req => {
+  const {db,json,request,mf} = await createNewsroom(t,{}, async req => {
     seen.push(req.url);
     if (req.url === base+'edition.json') return Response.json({hour,articles:all});
     if (req.url === base+'media/scene.webp') return new Response(picture, {headers:{'content-type':'image/webp'}});
@@ -1034,10 +1035,26 @@ test('une édition approuvée est livrée avec sa photo et peut être reprise sa
   const photo = JSON.parse(row.photo);
   assert.equal(photo.licenseUrl,story.photo.licenseUrl);
   assert.deepEqual(new Uint8Array(await (await request(photo.url)).arrayBuffer()),new Uint8Array(picture));
-  assert.ok((await (await request('/article/'+row.slug)).text()).includes(story.photo.credit));
-  const translatedPage = await (await request('/article/'+row.slug+'?lang=en')).text();
+  await db.batch([
+    db.prepare("INSERT INTO adsense_settings (id,enabled,client,version) VALUES (1,1,'ca-pub-1234567890123456',1)"),
+    db.prepare("INSERT INTO ad_placements (placement,mode,name,url,image,alt,version) VALUES ('article-photo','campaign','Campagne de test','https://example.org/campagne-horaire','','',1)"),
+  ]);
+  const articlePage = async lang => (await mf.dispatchFetch(publicOrigin + '/article/' + row.slug + '?lang=' + lang)).text();
+  const publicSlots = html => [...html.matchAll(/<aside\b[^>]*\bdata-ad-slot="([^"]+)"/g)].map(match => match[1]);
+  const page = await articlePage('fr');
+  assert.deepEqual(publicSlots(page), ['masthead','article-photo','article-mid']);
+  assert.equal((page.match(/>Espace publicitaire réservé</g) ?? []).length, 3);
+  assert.ok(page.includes(story.photo.credit));
+  const captionEnd = page.indexOf('</figcaption>');
+  assert.ok(captionEnd >= 0 && captionEnd < page.indexOf('data-ad-slot="article-photo"'));
+  assert.match(page, /<p[^>]*>Des informations vérifiées[^<]*<\/p><aside[^>]*data-ad-slot="article-mid"[^>]*>[\s\S]*?<\/aside><p[^>]*>La rencontre se poursuit/);
+  assert.doesNotMatch(page, /campagne-horaire|ca-pub-1234567890123456|<ins\b[^>]*adsbygoogle|<script\b[^>]*googlesyndication/);
+  const translatedPage = await articlePage('en');
+  assert.deepEqual(publicSlots(translatedPage), ['masthead','article-photo']);
   assert.ok(translatedPage.includes(story.translations.en.title));
   assert.ok(translatedPage.includes(story.translations.en.photoCaption));
+  await db.prepare("UPDATE ad_placements SET mode='hidden' WHERE placement='article-photo'").run();
+  assert.deepEqual(publicSlots(await articlePage('fr')), ['masthead','article-mid']);
   const edit = data => json('/api/newsroom',{email:editor,data});
   const reviewed = await edit({id:row.id,action:'review',version:0,title:'Correction de la rédaction',
     summary:story.summary,category:story.category,body:story.body,sources:story.sources,photo});

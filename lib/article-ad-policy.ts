@@ -8,6 +8,7 @@ const decisionSchema = z.object({
 
 export type ArticleAdDecision = z.infer<typeof decisionSchema>;
 export type ArticleAdReview = ArticleAdDecision & { actor: string; at: string };
+const pendingWireReason = 'Édition automatique en attente d’une évaluation publicitaire par la rédaction.';
 
 export function reviewArticleAds(value: unknown, actor: string, at: string): ArticleAdReview | null {
   const parsed = decisionSchema.safeParse(value);
@@ -19,5 +20,10 @@ export function reviewArticleAds(value: unknown, actor: string, at: string): Art
 
 export function unreviewedWireAds(actor: string, at: string): ArticleAdReview {
   return { decision: 'off', checks: { rights: false, safety: false, accuracy: false },
-    reason: 'Édition automatique en attente d’une évaluation publicitaire par la rédaction.', actor, at };
+    reason: pendingWireReason, actor, at };
+}
+
+export function isPendingWireAdReview(review: ArticleAdReview | null): boolean {
+  return review?.decision === 'off' && review.reason === pendingWireReason
+    && (review.actor === 'byrvox-agent-horaire' || review.actor === 'byrvox-agent-thematique');
 }

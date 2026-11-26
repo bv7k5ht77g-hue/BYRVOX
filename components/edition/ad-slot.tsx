@@ -53,7 +53,7 @@ export function AdSlot({ placement, locale }: { placement: Placement; locale?: P
   const campaign = placements[placement];
   if (campaign?.mode === 'hidden') return null;
   const label = sectionText(lang,'advert');
-  return <aside className="by-ad" aria-label={label} data-ad-slot={placement}>
+  return <aside id={'publicite-' + placement} className="by-ad" aria-label={label} data-ad-slot={placement}>
     <span className="by-ad-disclosure">{label}</span>
     {campaign?.mode === 'adsense' && <AdSenseUnit key={campaign.adClient + '-' + campaign.adSlot}
       client={campaign.adClient} slot={campaign.adSlot} />}
@@ -64,5 +64,6 @@ export function AdSlot({ placement, locale }: { placement: Placement; locale?: P
       <span dir="auto">{campaign.name}</span>
     </a>}
     {!campaign && <div className="by-ad-open">{sectionText(lang,'adAvailable')}</div>}
+    {campaign?.mode === 'reserved' && <div className="by-ad-open">{sectionText(lang,'adReserved')}</div>}
   </aside>;
 }

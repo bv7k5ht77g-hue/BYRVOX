@@ -1,7 +1,9 @@
 import { validSourceUrl } from './editorial.mjs';
 
 export const PLACEMENTS = [
-  'home', 'masthead', 'home-lower', 'news', 'radio', 'article-photo', 'news-lower', 'article', 'footer',
+  'home', 'home-lower',
+  'masthead', 'article-photo', 'article-mid', 'article',
+  'news', 'news-lower', 'radio', 'footer',
 ] as const;
 
 export type Placement = typeof PLACEMENTS[number];
@@ -22,7 +24,7 @@ export type AdPlacement = {
 export type AdSenseSettings = {enabled: boolean; client: string; version: number};
 
 export type PublicAdPlacements = Partial<Record<Placement,
-  | {mode: 'hidden'}
+  | {mode: 'hidden' | 'reserved'}
   | {mode: 'adsense'; adClient: string; adSlot: string}
   | {mode: 'embed'; name: string; url: string}
   | {mode: 'script'; name: string; url: string}
