@@ -1,0 +1,1105 @@
+{
+  "hour": "2026-11-26T15",
+  "articles": [
+    {
+      "eventKey": "ontario-velos-electriques-regles-premier-mai-2027",
+      "title": "L’Ontario fixe les critères des vélos électriques admis dans les bandes cyclables",
+      "summary": "Les nouvelles règles entreront en vigueur le 1er mai 2027. Elles distinguent les vélos à assistance électrique des véhicules qui relèvent des règles sur les motocyclettes ou les cyclomoteurs.",
+      "body": "Le ministre des Transports de l’Ontario, Prabmeet Sarkaria, a présenté jeudi les règles qui encadreront deux catégories de vélos électriques. Toutes deux devront avoir un cadre apparent de bicyclette. Le moteur pourra fournir au plus 500 watts et l’assistance devra cesser à 32 km/h.\n\nSelon CityNews, il faudra avoir au moins 16 ans pour conduire ces vélos et porter un casque homologué. Les véhicules de type moto qui sortent de ces catégories devront satisfaire aux exigences de permis et d’assurance pour circuler sur la route. Les bandes cyclables leur seront interdites.",
+      "category": "Transports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Gouvernement de l’Ontario",
+          "url": "https://news.ontario.ca/en/release/1008325/ontario-strengthening-e-bike-regulations-to-protect-road-users",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "CityNews Toronto",
+          "url": "https://toronto.citynews.ca/2026/11/26/ebikes-restrictions-ontario-roads/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/ont.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ontario_legislative_building_front.JPG",
+        "credit": "Joshuapaquin / Wikimedia Commons · WebP",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/deed.en",
+        "alt": "Entrée sud du parlement ontarien à Toronto.",
+        "caption": "Photo d’archives (2007-05-23). Entrée sud du parlement ontarien à Toronto."
+      },
+      "translations": {
+        "en": {
+          "title": "Ontario sets rules for electric bikes in bike lanes",
+          "summary": "The rules take effect on May 1, 2027. They distinguish electric-assist bicycles from vehicles governed by motorcycle or moped rules.",
+          "body": "Ontario Transportation Minister Prabmeet Sarkaria presented rules Thursday for two classes of e-bikes. Both must have an exposed bicycle frame. Motor output will be capped at 500 watts and assistance must cut out at 32 km/h.\n\nCityNews reports that riders must be at least 16 and wear an approved helmet. Motorcycle-style vehicles outside those classes must meet licensing and insurance requirements to use the road. They will be barred from bike lanes.",
+          "photoAlt": "South entrance to Ontario’s legislative building in Toronto.",
+          "photoCaption": "Archive photo (2007-05-23). South entrance to Ontario’s legislative building in Toronto."
+        },
+        "es": {
+          "title": "Ontario fija las condiciones para circular en bicicleta eléctrica por los carriles bici",
+          "summary": "Las normas entrarán en vigor el 1 de mayo de 2027. Distinguen las bicicletas de pedaleo asistido de los vehículos sujetos a la normativa de motocicletas o ciclomotores.",
+          "body": "El ministro de Transporte de Ontario, Prabmeet Sarkaria, presentó el jueves las normas para dos categorías de bicicletas eléctricas. Ambas deberán tener un cuadro de bicicleta visible. La potencia máxima será de 500 vatios y la asistencia deberá cesar a los 32 km/h.\n\nSegún CityNews, se exigirá una edad mínima de 16 años y un casco homologado. Los vehículos tipo motocicleta que queden fuera de estas categorías requerirán licencia y seguro para circular por la carretera. No podrán usar los carriles bici.",
+          "photoAlt": "Entrada sur del parlamento de Ontario en Toronto.",
+          "photoCaption": "Foto de archivo (2007-05-23). Entrada sur del parlamento de Ontario en Toronto."
+        },
+        "ar": {
+          "title": "أونتاريو تحدد شروط استخدام الدراجات الكهربائية لمسارات الدراجات",
+          "summary": "تسري القواعد في 1 مايو 2027 وتميز بين الدراجات ذات المساعدة الكهربائية والمركبات الخاضعة لقواعد الدراجات النارية أو الدراجات الآلية الصغيرة.",
+          "body": "عرض وزير النقل في أونتاريو برابميت ساركاريا الخميس قواعد لفئتين من الدراجات الكهربائية. ويجب أن يكون لكل منهما هيكل دراجة ظاهر، وألا تتجاوز قدرة المحرك 500 واط، وأن تتوقف المساعدة عند سرعة 32 كيلومتراً في الساعة.\n\nوبحسب سيتي نيوز، يجب ألا يقل عمر الراكب عن 16 عاماً وأن يرتدي خوذة معتمدة. أما المركبات الشبيهة بالدراجات النارية التي لا تدخل في الفئتين فيلزمها ترخيص وتأمين للسير على الطرق، ويحظر عليها استخدام مسارات الدراجات.",
+          "photoAlt": "المدخل الجنوبي لبرلمان أونتاريو في تورونتو.",
+          "photoCaption": "صورة أرشيفية (2007-05-23). المدخل الجنوبي لبرلمان أونتاريو في تورونتو."
+        },
+        "zh-CN": {
+          "title": "安大略省明确电动自行车使用自行车道的条件",
+          "summary": "新规将于2027年5月1日生效，区分电助力自行车与适用摩托车或轻便摩托车规定的车辆。",
+          "body": "安大略省交通厅长普拉布米特·萨卡里亚周四介绍了两类电动自行车的规定。两类车都必须有外露的自行车车架，电机功率上限为500瓦，时速达到32公里时必须停止助力。\n\n据CityNews报道，骑车人须年满16岁并佩戴经认可的头盔。不属于这两类的摩托车型车辆上路须符合驾照和保险要求，不得进入自行车道。",
+          "photoAlt": "位于多伦多的安大略省议会大楼南入口。",
+          "photoCaption": "资料照片 (2007-05-23). 位于多伦多的安大略省议会大楼南入口。"
+        },
+        "ru": {
+          "title": "Онтарио установит требования к электровелосипедам на велодорожках",
+          "summary": "Правила вступят в силу 1 мая 2027 года. Они разграничивают велосипеды с электроприводом и транспорт, на который распространяются нормы для мотоциклов или мопедов.",
+          "body": "Министр транспорта Онтарио Прабмит Саркария в четверг представил правила для двух классов электровелосипедов. В обоих случаях требуется открытая велосипедная рама. Мощность мотора ограничат 500 ваттами, а помощь двигателя должна отключаться при скорости 32 км/ч.\n\nПо данным CityNews, ездить на них разрешат с 16 лет и в сертифицированном шлеме. Для движения по дорогам на машинах мотоциклетного типа, не вошедших в эти классы, потребуются права и страховка. На велодорожки их не допустят.",
+          "photoAlt": "Южный вход в здание парламента Онтарио в Торонто.",
+          "photoCaption": "Архивное фото (2007-05-23). Южный вход в здание парламента Онтарио в Торонто."
+        },
+        "ko": {
+          "title": "온타리오주, 자전거도로를 이용할 수 있는 전기자전거 기준 발표",
+          "summary": "새 규정은 2027년 5월 1일부터 적용된다. 전기 보조 자전거와 오토바이 또는 모페드 규정을 적용받는 차량을 구분한다.",
+          "body": "프라브미트 사카리아 온타리오주 교통장관은 목요일 전기자전거 두 등급에 적용할 기준을 발표했다. 모두 자전거 프레임이 노출돼야 한다. 모터 출력은 최대 500와트이며 시속 32㎞에 이르면 동력 보조가 멈춰야 한다.\n\n시티뉴스에 따르면 운전자는 만 16세 이상이어야 하며 인증된 헬멧을 써야 한다. 두 등급에 속하지 않는 오토바이형 차량은 도로에서 운행하려면 면허와 보험 요건을 충족해야 하며 자전거도로를 이용할 수 없다.",
+          "photoAlt": "토론토에 있는 온타리오주 의회 건물 남쪽 입구.",
+          "photoCaption": "자료 사진 (2007-05-23). 토론토에 있는 온타리오주 의회 건물 남쪽 입구."
+        }
+      }
+    },
+    {
+      "eventKey": "quebec-remuneration-globale-comparaison-administration-2026",
+      "title": "Au Québec, la rémunération globale de l’administration accuse un retard de 4 %",
+      "summary": "L’écart avec les autres salariés occupant des emplois comparables était de 3,2 % en 2025. Le résultat change selon le secteur de comparaison.",
+      "body": "Dans son rapport publié jeudi, l’Institut de la statistique du Québec tient compte du salaire et des avantages sociaux. Pour les emplois étudiés, l’administration québécoise devance le privé de 3,1 % en rémunération globale, mais se situe 17,7 % derrière les autres employeurs publics.\n\nDans une déclaration commune, la CSN, la CSQ, la FTQ et l’APTS insistent sur le coût de la vie. Elles soulignent que, si l’on compare uniquement les salaires, le retard de l’administration sur l’ensemble du groupe de référence atteint 12,9 %.",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Institut de la statistique du Québec",
+          "url": "https://statistique.quebec.ca/fr/communique/remuneration-globale-des-salaries-administration-quebecoise-2026",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "CSN, CSQ, FTQ et APTS (déclaration commune)",
+          "url": "https://www.newswire.ca/fr/news-releases/les-travailleuses-et-les-travailleurs-des-services-publics-doivent-pouvoir-faire-face-au-cout-de-la-vie-848927437.html",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/pay.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_nationale_du_Qu%C3%A9bec_-_facade-2.jpg",
+        "credit": "Bouchecl / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "Façade du parlement québécois à Québec.",
+        "caption": "Photo d’archives (2007-07-17). Façade du parlement québécois à Québec."
+      },
+      "translations": {
+        "en": {
+          "title": "Total compensation in Quebec’s public administration trails comparable jobs by 4%",
+          "summary": "The gap with other employees in comparable jobs was 3.2% in 2025. The result varies by comparison sector.",
+          "body": "Quebec’s statistics institute included both wages and benefits in its report released Thursday. For the jobs studied, total compensation in the provincial administration was 3.1% above the private sector but 17.7% below other public employers.\n\nIn a joint statement, the CSN, CSQ, FTQ and APTS unions highlighted the cost of living. They noted that wages alone in the provincial administration trailed the overall comparison group by 12.9%.",
+          "photoAlt": "Facade of Quebec’s parliament building in Quebec City.",
+          "photoCaption": "Archive photo (2007-07-17). Facade of Quebec’s parliament building in Quebec City."
+        },
+        "es": {
+          "title": "La remuneración total de la administración quebequense queda un 4 % por debajo de empleos comparables",
+          "summary": "La brecha con otros asalariados en puestos equivalentes era del 3,2 % en 2025. El resultado varía según el sector de referencia.",
+          "body": "El instituto de estadística de Quebec incluyó sueldos y prestaciones en su informe del jueves. En los puestos estudiados, la remuneración total de la administración provincial superó a la privada en un 3,1 %, pero quedó un 17,7 % por debajo de otros empleadores públicos.\n\nEn un comunicado conjunto, las centrales CSN, CSQ, FTQ y APTS destacaron el coste de la vida. Señalaron que, contando solo los salarios, la administración queda un 12,9 % por debajo del conjunto del grupo de referencia.",
+          "photoAlt": "Fachada del parlamento de Quebec en la ciudad de Quebec.",
+          "photoCaption": "Foto de archivo (2007-07-17). Fachada del parlamento de Quebec en la ciudad de Quebec."
+        },
+        "ar": {
+          "title": "إجمالي أجور ومزايا موظفي إدارة كيبيك يقل 4% عن الوظائف المماثلة",
+          "summary": "بلغت الفجوة مع بقية العاملين في وظائف مماثلة 3.2% في 2025. وتختلف النتيجة باختلاف القطاع المرجعي.",
+          "body": "جمع معهد إحصاء كيبيك بين الرواتب والمزايا في تقريره الصادر الخميس. وفي الوظائف المدروسة تجاوز مجموع التعويضات في إدارة المقاطعة نظيره في القطاع الخاص بـ3.1%، لكنه قل عن بقية جهات العمل العامة بـ17.7%.\n\nوركزت نقابات CSN وCSQ وFTQ وAPTS في بيان مشترك على تكاليف المعيشة. وأشارت إلى أن الفجوة مع المجموعة المرجعية كاملة تصل إلى 12.9% عند مقارنة الرواتب وحدها.",
+          "photoAlt": "واجهة برلمان كيبيك في مدينة كيبيك.",
+          "photoCaption": "صورة أرشيفية (2007-07-17). واجهة برلمان كيبيك في مدينة كيبيك."
+        },
+        "zh-CN": {
+          "title": "魁北克省行政部门总薪酬比同类岗位低4%",
+          "summary": "与其他同类岗位雇员相比，2025年的差距为3.2%。结果因比较对象而异。",
+          "body": "魁北克统计研究所周四发布的报告将工资和福利一并计算。在调查涉及的岗位中，省行政部门总薪酬比私营部门高3.1%，比其他公共部门雇主低17.7%。\n\nCSN、CSQ、FTQ和APTS四家工会组织在联合声明中强调生活成本问题。它们指出，如果只比较工资，省行政部门比整个参照组低12.9%。",
+          "photoAlt": "魁北克市的省议会大楼正面。",
+          "photoCaption": "资料照片 (2007-07-17). 魁北克市的省议会大楼正面。"
+        },
+        "ru": {
+          "title": "Совокупное вознаграждение в администрации Квебека на 4% ниже, чем на сопоставимых должностях",
+          "summary": "В 2025 году разрыв с другими работниками на аналогичных должностях составлял 3,2%. Результат зависит от сектора сравнения.",
+          "body": "Институт статистики Квебека учёл в опубликованном в четверг докладе зарплаты и льготы. На изученных должностях совокупное вознаграждение в администрации провинции на 3,1% выше, чем в частном секторе, но на 17,7% ниже, чем у других государственных работодателей.\n\nВ совместном заявлении профсоюзы CSN, CSQ, FTQ и APTS обратили внимание на стоимость жизни. Они отметили, что по одним только зарплатам администрация уступает всей группе сравнения на 12,9%.",
+          "photoAlt": "Фасад парламента Квебека в городе Квебек.",
+          "photoCaption": "Архивное фото (2007-07-17). Фасад парламента Квебека в городе Квебек."
+        },
+        "ko": {
+          "title": "퀘벡주 행정부 총보상, 비교 대상 직종보다 4% 낮아",
+          "summary": "비슷한 직무의 다른 근로자들과의 격차는 2025년 3.2%였다. 비교 부문에 따라 결과가 달라진다.",
+          "body": "퀘벡 통계연구소가 목요일 발표한 보고서는 임금과 복리후생을 합산했다. 조사 대상 직무에서 주 행정부의 총보상은 민간보다 3.1% 높았지만 다른 공공 부문 사용자보다 17.7% 낮았다.\n\nCSN, CSQ, FTQ, APTS 등 노조 단체들은 공동성명에서 생활비 부담을 강조했다. 임금만 보면 주 행정부가 전체 비교 집단보다 12.9% 낮다고 지적했다.",
+          "photoAlt": "퀘벡시에 있는 퀘벡주 의회 건물 정면.",
+          "photoCaption": "자료 사진 (2007-07-17). 퀘벡시에 있는 퀘벡주 의회 건물 정면."
+        }
+      }
+    },
+    {
+      "eventKey": "sante-canada-semaglutide-avis-risque-nerf-optique",
+      "title": "Santé Canada signale un risque oculaire très rare avec le sémaglutide",
+      "summary": "Un avis vise les médicaments sur ordonnance contenant cette substance, dont Ozempic et Wegovy, ainsi que leurs versions génériques.",
+      "body": "Un examen de Santé Canada a mis en évidence un lien possible entre le sémaglutide et une atteinte du nerf optique. Une diminution de l’apport sanguin au nerf peut provoquer une perte de vision soudaine, généralement sans douleur. Le ministère qualifie ce risque de très rare.\n\nSelon La Presse Canadienne, le ministère travaille avec les fabricants pour ajouter un avertissement aux monographies. Il invite les personnes sous traitement dont la vue baisse soudainement ou se détériore rapidement à consulter immédiatement un professionnel de la santé.",
+      "category": "Santé",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Santé Canada",
+          "url": "https://recalls-rappels.canada.ca/fr/avis-rappel/sante-canada-met-en-garde-contre-risque-tres-rare-mais-grave-perte-vision-associe",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "La Presse Canadienne via CityNews",
+          "url": "https://toronto.citynews.ca/2026/11/25/health-canada-warns-of-rare-vision-loss-risk-with-ozempic-and-other-semaglutide-drugs/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/sem.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brooke_Claxton_Building.JPG",
+        "credit": "Legage / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "L’édifice Brooke-Claxton de Santé Canada à Ottawa.",
+        "caption": "Photo d’archives (2012-09-01). L’édifice Brooke-Claxton de Santé Canada à Ottawa."
+      },
+      "translations": {
+        "en": {
+          "title": "Health Canada flags very rare eye risk with semaglutide",
+          "summary": "The advisory covers prescription medicines containing the substance, including Ozempic and Wegovy and their generic versions.",
+          "body": "A Health Canada review found a possible link between semaglutide and an optic nerve condition. Reduced blood flow to the nerve can cause sudden, usually painless vision loss. The department describes the risk as very rare.\n\nThe Canadian Press reports that the department is working with manufacturers to add a warning to product monographs. It urges anyone taking the drug who experiences sudden vision loss or rapidly worsening sight to seek immediate medical attention.",
+          "photoAlt": "Health Canada’s Brooke Claxton Building in Ottawa.",
+          "photoCaption": "Archive photo (2012-09-01). Health Canada’s Brooke Claxton Building in Ottawa."
+        },
+        "es": {
+          "title": "Canadá advierte de un riesgo ocular muy poco frecuente con la semaglutida",
+          "summary": "El aviso abarca los medicamentos con receta que contienen esta sustancia, entre ellos Ozempic y Wegovy, y sus versiones genéricas.",
+          "body": "Una revisión de Salud Canadá identificó una posible relación entre la semaglutida y una afección del nervio óptico. La reducción del flujo sanguíneo al nervio puede causar una pérdida de visión repentina y generalmente indolora. El ministerio califica el riesgo de muy raro.\n\nSegún The Canadian Press, el ministerio trabaja con los fabricantes para añadir una advertencia a las fichas de los productos. Insta a quienes estén en tratamiento y sufran pérdida repentina de visión o un deterioro rápido de la vista a buscar atención médica inmediata.",
+          "photoAlt": "Edificio Brooke Claxton de Salud Canadá en Ottawa.",
+          "photoCaption": "Foto de archivo (2012-09-01). Edificio Brooke Claxton de Salud Canadá en Ottawa."
+        },
+        "ar": {
+          "title": "وزارة الصحة الكندية تنبّه إلى خطر نادر جداً على البصر مرتبط بالسيماغلوتيد",
+          "summary": "يشمل التنبيه الأدوية الموصوفة التي تحتوي على هذه المادة، ومنها أوزمبيك وويغوفي ونسخها الجنيسة.",
+          "body": "وجدت مراجعة كندية ارتباطاً محتملاً بين السيماغلوتيد واعتلال العصب البصري. وقد يؤدي انخفاض تدفق الدم إلى العصب إلى فقدان مفاجئ للبصر لا يصاحبه ألم عادة. وتصف الوزارة الخطر بأنه نادر جداً.\n\nوبحسب وكالة الصحافة الكندية، تعمل الوزارة مع المصنّعين لإضافة تحذير إلى نشرات المستحضرات. وتدعو من يتناولون الدواء ويعانون فقداناً مفاجئاً للبصر أو تدهوراً سريعاً فيه إلى مراجعة مختص صحي فوراً.",
+          "photoAlt": "مبنى بروك كلاكستون التابع لوزارة الصحة الكندية في أوتاوا.",
+          "photoCaption": "صورة أرشيفية (2012-09-01). مبنى بروك كلاكستون التابع لوزارة الصحة الكندية في أوتاوا."
+        },
+        "zh-CN": {
+          "title": "加拿大卫生部提示司美格鲁肽可能带来极罕见的眼部风险",
+          "summary": "提示涉及含有这种成分的处方药，包括诺和泰、诺和盈及其仿制药。",
+          "body": "加拿大卫生部的一项审查发现，司美格鲁肽可能与一种视神经病变有关。视神经供血减少可能导致突发性视力丧失，通常不伴疼痛。卫生部称这一风险极为罕见。\n\n据加拿大通讯社报道，卫生部正与厂商合作，在药品说明书中加入警示。卫生部建议，服药期间若突然丧失视力或视力迅速恶化，应立即就医。",
+          "photoAlt": "渥太华的加拿大卫生部布鲁克·克拉克斯顿大楼。",
+          "photoCaption": "资料照片 (2012-09-01). 渥太华的加拿大卫生部布鲁克·克拉克斯顿大楼。"
+        },
+        "ru": {
+          "title": "Минздрав Канады предупредил об очень редком риске для зрения при приёме семаглутида",
+          "summary": "Предупреждение касается рецептурных лекарств с этим веществом, включая Ozempic и Wegovy, а также их дженерики.",
+          "body": "Канадское ведомство обнаружило возможную связь между семаглутидом и поражением зрительного нерва. Снижение притока крови к нерву может привести к внезапной, обычно безболезненной потере зрения. Министерство оценивает риск как очень редкий.\n\nПо данным The Canadian Press, ведомство работает с производителями над добавлением предупреждения в инструкции. Тем, у кого во время приёма препарата внезапно пропало или быстро ухудшается зрение, оно рекомендует немедленно обратиться за медицинской помощью.",
+          "photoAlt": "Здание Брук-Клакстон Министерства здравоохранения Канады в Оттаве.",
+          "photoCaption": "Архивное фото (2012-09-01). Здание Брук-Клакстон Министерства здравоохранения Канады в Оттаве."
+        },
+        "ko": {
+          "title": "캐나다 보건부, 세마글루타이드 복용 시 매우 드문 시력 손상 위험 안내",
+          "summary": "오젬픽과 위고비, 그 제네릭 제품을 비롯해 이 성분을 함유한 처방약이 대상이다.",
+          "body": "캐나다 보건부는 검토 결과 세마글루타이드와 시신경 질환 사이에 연관성이 있을 가능성을 확인했다. 시신경으로 가는 혈류가 줄면 대개 통증 없이 갑자기 시력을 잃을 수 있다. 보건부는 이 위험이 매우 드물다고 설명했다.\n\n캐나디안프레스에 따르면 보건부는 제조사들과 제품 설명서에 경고를 추가하는 작업을 진행하고 있다. 복용 중 갑자기 시력을 잃거나 시력이 빠르게 나빠지면 즉시 의료진을 찾으라고 권고했다.",
+          "photoAlt": "오타와에 있는 캐나다 보건부 브룩 클랙스턴 청사.",
+          "photoCaption": "자료 사진 (2012-09-01). 오타와에 있는 캐나다 보건부 브룩 클랙스턴 청사."
+        }
+      }
+    },
+    {
+      "eventKey": "egypte-warraq-conducteur-arrete-enquete-citerne",
+      "title": "Égypte : un automobiliste arrêté après l’incendie meurtrier du périphérique du Caire",
+      "summary": "Le parquet enquête sur une collision avec le camion-citerne qui s’est renversé mercredi dans le quartier de Warraq, à Gizeh.",
+      "body": "Après le bilan hospitalier communiqué plus tôt, le parquet égyptien a annoncé jeudi un développement dans l’enquête. Un automobiliste soupçonné d’avoir heurté le camion-citerne avant son renversement a été arrêté. L’incendie a fait au moins 31 morts sur cet axe de l’agglomération du Caire.\n\nSelon le récit du parquet rapporté par Ahram Online, le choc aurait touché l’arrière droit de la citerne. L’enquête se poursuit pour établir les responsabilités. Une équipe de l’Associated Press a constaté jeudi que la circulation reprenait après l’enlèvement de la plupart des véhicules brûlés.",
+      "category": "International",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Associated Press via ABC News",
+          "url": "https://abcnews.com/International/wireStory/egypt-detains-driver-suspected-causing-cairo-tanker-crash-138465415",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Ahram Online, déclaration du parquet",
+          "url": "https://english.ahram.org.eg/NewsContentP/1/583456/Egypt/Car-driver-arrested-over-fatal-Ring-Road-tanker-fi.aspx",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/cairo.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cairo_Ring_Road_in_Giza%2C_Egypt.jpg",
+        "credit": "Quintin Soloviev / Wikimedia Commons · WebP",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.en",
+        "alt": "Circulation sur le périphérique du Caire à Gizeh.",
+        "caption": "Photo d’archives (2026-05-01). Circulation sur le périphérique du Caire à Gizeh."
+      },
+      "translations": {
+        "en": {
+          "title": "Egypt detains motorist after deadly Cairo Ring Road fire",
+          "summary": "Prosecutors are investigating a collision with the tanker that overturned Wednesday in Warraq, Giza.",
+          "body": "Following the earlier hospital update, Egyptian prosecutors announced a development in the investigation Thursday. A motorist suspected of hitting the tanker before it overturned has been detained. The fire killed at least 31 people on the Greater Cairo route.\n\nAccording to the prosecutors’ account reported by Ahram Online, the impact was to the rear right of the tanker. The investigation into responsibility continues. An Associated Press team saw traffic returning Thursday after most burned vehicles had been removed.",
+          "photoAlt": "Traffic on Cairo’s Ring Road in Giza.",
+          "photoCaption": "Archive photo (2026-05-01). Traffic on Cairo’s Ring Road in Giza."
+        },
+        "es": {
+          "title": "Egipto detiene a un conductor tras el incendio mortal en la circunvalación de El Cairo",
+          "summary": "La fiscalía investiga una colisión con el camión cisterna que volcó el miércoles en Warraq, en Guiza.",
+          "body": "Tras el parte hospitalario anterior, la fiscalía egipcia anunció el jueves un avance en la investigación. Fue detenido un automovilista sospechoso de golpear el camión antes del vuelco. El incendio dejó al menos 31 muertos en esta vía del Gran Cairo.\n\nSegún la versión de la fiscalía recogida por Ahram Online, el impacto habría alcanzado la parte trasera derecha de la cisterna. Sigue la investigación sobre las responsabilidades. Un equipo de Associated Press vio cómo el jueves se reanudaba el tráfico tras retirarse la mayoría de los vehículos quemados.",
+          "photoAlt": "Tráfico en la circunvalación de El Cairo a la altura de Guiza.",
+          "photoCaption": "Foto de archivo (2026-05-01). Tráfico en la circunvalación de El Cairo a la altura de Guiza."
+        },
+        "ar": {
+          "title": "مصر توقف سائق سيارة بعد حريق الطريق الدائري المميت في القاهرة الكبرى",
+          "summary": "تحقق النيابة في اصطدام بشاحنة الوقود التي انقلبت الأربعاء بمنطقة الوراق في الجيزة.",
+          "body": "بعد الحصيلة الطبية المعلنة في وقت سابق، أعلنت النيابة المصرية الخميس تطوراً في التحقيق. أُوقف سائق سيارة يُشتبه في اصطدامه بالصهريج قبل انقلابه. وأسفر الحريق عن مقتل 31 شخصاً على الأقل على هذا الطريق في القاهرة الكبرى.\n\nوبحسب رواية النيابة التي نقلتها الأهرام أونلاين، يُعتقد أن الصدمة أصابت الجانب الخلفي الأيمن للصهريج. ويستمر التحقيق لتحديد المسؤوليات. وشاهد فريق لأسوشيتد برس عودة حركة السير الخميس بعد رفع معظم المركبات المحترقة.",
+          "photoAlt": "حركة السير على الطريق الدائري في الجيزة.",
+          "photoCaption": "صورة أرشيفية (2026-05-01). حركة السير على الطريق الدائري في الجيزة."
+        },
+        "zh-CN": {
+          "title": "埃及拘留一名涉嫌与开罗环路致命火灾有关的驾驶人",
+          "summary": "检方正调查周三吉萨沃拉克区油罐车翻覆前发生的碰撞。",
+          "body": "继早前公布伤者情况后，埃及检方周四通报调查进展。一名涉嫌在油罐车翻覆前撞上该车的驾驶人已被拘留。这场发生在大开罗地区主干道上的火灾造成至少31人死亡。\n\n据《金字塔在线》转述检方说法，碰撞部位疑为油罐车右后侧。相关责任仍在调查。美联社记者周四看到，大部分烧毁车辆被移走后，交通正在恢复。",
+          "photoAlt": "吉萨境内开罗环路上的车辆。",
+          "photoCaption": "资料照片 (2026-05-01). 吉萨境内开罗环路上的车辆。"
+        },
+        "ru": {
+          "title": "В Египте задержали водителя после смертельного пожара на кольцевой дороге Каира",
+          "summary": "Прокуратура расследует столкновение с автоцистерной, которая перевернулась в среду в районе Варрак в Гизе.",
+          "body": "После ранее обнародованной сводки о пострадавших прокуратура Египта в четверг сообщила о ходе расследования. Задержан автомобилист, подозреваемый в столкновении с цистерной перед её опрокидыванием. При пожаре на трассе в Большом Каире погибли не менее 31 человека.\n\nПо версии прокуратуры, которую приводит Ahram Online, удар пришёлся в правую заднюю часть цистерны. Ответственность за аварию ещё устанавливается. Корреспонденты Associated Press в четверг видели, как после вывоза большинства сгоревших машин возобновлялось движение.",
+          "photoAlt": "Движение на кольцевой дороге Каира в Гизе.",
+          "photoCaption": "Архивное фото (2026-05-01). Движение на кольцевой дороге Каира в Гизе."
+        },
+        "ko": {
+          "title": "이집트, 카이로 순환도로 대형 화재 관련 승용차 운전자 체포",
+          "summary": "검찰은 수요일 기자 와라크 지역에서 유조차가 전복되기 전 발생한 충돌을 조사 중이다.",
+          "body": "앞서 부상자들의 상태가 공개된 데 이어 이집트 검찰은 목요일 수사 진전을 발표했다. 유조차가 넘어지기 전 차를 들이받은 혐의를 받는 운전자가 체포됐다. 카이로 대도시권 간선도로에서 발생한 화재로 최소 31명이 숨졌다.\n\n아흐람 온라인이 전한 검찰 설명에 따르면 충격 부위는 유조차 오른쪽 뒷부분으로 추정된다. 책임 소재는 조사 중이다. AP 취재진은 목요일 불탄 차량 대부분이 치워진 뒤 통행이 재개되는 모습을 확인했다.",
+          "photoAlt": "기자를 지나는 카이로 순환도로의 차량들.",
+          "photoCaption": "자료 사진 (2026-05-01). 기자를 지나는 카이로 순환도로의 차량들."
+        }
+      }
+    },
+    {
+      "eventKey": "montreal-police-projection-heures-supplementaires-2026",
+      "title": "Les heures supplémentaires de la police de Montréal pourraient coûter 100,7 millions en 2026",
+      "summary": "La projection de fin d’année dépasse de 23,5 millions de dollars les dépenses enregistrées en 2025.",
+      "body": "L’étude du budget municipal fait ressortir un poste de dépense précis au Service de police de la Ville de Montréal. Selon le graphique des documents budgétaires reproduit jeudi par le Journal de Montréal, la facture annuelle des heures supplémentaires passerait de 77,2 à 100,7 millions de dollars. Le second montant reste une estimation.\n\nLe cabinet de la mairesse évoque notamment le chevauchement du Grand Prix de Formule 1 et des séries du Canadien. Sa porte-parole a indiqué au Journal que les demandes de présence policière sur les chantiers sont réexaminées et que les horaires font l’objet d’ajustements.",
+      "category": "Montréal",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Le Journal de Montréal via TVA Nouvelles",
+          "url": "https://www.tvanouvelles.ca/2026/11/26/vers-une-facture-de-100-millions--pour-le-temps-supplementaire-du-spvm-en-2026",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Ville de Montréal, budget 2027",
+          "url": "https://montreal.ca/articles/budget-2027-et-pdi-2027-2036-de-montreal-122187",
+          "publishedAt": "2026-11-24"
+        }
+      ],
+      "photo": {
+        "download": "media/spvm.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montreal_City_Hall_-_Montreal%2C_Canada_-_DSC07004.jpg",
+        "credit": "Daderot / Wikimedia Commons · WebP",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "L’hôtel de ville de Montréal, où se tient l’étude du budget.",
+        "caption": "Photo d’archives (2016-09-25). L’hôtel de ville de Montréal, où se tient l’étude du budget."
+      },
+      "translations": {
+        "en": {
+          "title": "Montreal police overtime projected to cost $100.7 million in 2026",
+          "summary": "The year-end projection exceeds 2025 spending by $23.5 million.",
+          "body": "The municipal budget review sheds light on a specific expense at Montreal’s police service. A chart from the budget documents reproduced Thursday by the Journal de Montréal puts annual overtime costs at $100.7 million, up from $77.2 million. The higher figure is an estimate.\n\nThe mayor’s office pointed in particular to the overlap between the Formula One Grand Prix and the Canadiens’ playoff run. Its spokesperson told the newspaper that requests for police at construction sites are being reviewed and schedules adjusted.",
+          "photoAlt": "Montreal city hall, where the budget review takes place.",
+          "photoCaption": "Archive photo (2016-09-25). Montreal city hall, where the budget review takes place."
+        },
+        "es": {
+          "title": "Las horas extra de la policía de Montreal podrían costar 100,7 millones de dólares en 2026",
+          "summary": "La proyección de cierre supera en 23,5 millones de dólares canadienses el gasto de 2025.",
+          "body": "El estudio del presupuesto municipal destaca un gasto concreto de la policía de Montreal. Según un gráfico presupuestario reproducido el jueves por el Journal de Montréal, la factura anual por horas extra pasaría de 77,2 a 100,7 millones de dólares canadienses. La segunda cifra sigue siendo una estimación.\n\nLa oficina de la alcaldesa citó la coincidencia del Gran Premio de Fórmula 1 con las eliminatorias de los Canadiens. Su portavoz dijo al diario que se revisan las solicitudes de presencia policial en obras y se ajustan los horarios.",
+          "photoAlt": "Ayuntamiento de Montreal, sede del examen presupuestario.",
+          "photoCaption": "Foto de archivo (2016-09-25). Ayuntamiento de Montreal, sede del examen presupuestario."
+        },
+        "ar": {
+          "title": "تكلفة الساعات الإضافية لشرطة مونتريال قد تبلغ 100.7 مليون دولار في 2026",
+          "summary": "تزيد توقعات نهاية السنة 23.5 مليون دولار كندي عن نفقات عام 2025.",
+          "body": "يسلط بحث ميزانية البلدية الضوء على بند محدد في نفقات شرطة مونتريال. وبحسب رسم بياني من وثائق الميزانية نشرته صحيفة جورنال دو مونريال الخميس، قد ترتفع التكلفة السنوية للساعات الإضافية من 77.2 إلى 100.7 مليون دولار كندي. والرقم الثاني تقديري.\n\nوأشار مكتب رئيسة البلدية خصوصاً إلى تزامن سباق الجائزة الكبرى للفورمولا واحد مع الأدوار الإقصائية لفريق كنديانز. وقالت المتحدثة باسم المكتب للصحيفة إن طلبات حضور الشرطة في مواقع البناء تخضع للمراجعة وإن جداول العمل يجري تعديلها.",
+          "photoAlt": "مبنى بلدية مونتريال حيث تناقش الميزانية.",
+          "photoCaption": "صورة أرشيفية (2016-09-25). مبنى بلدية مونتريال حيث تناقش الميزانية."
+        },
+        "zh-CN": {
+          "title": "蒙特利尔警方2026年加班费预计达1.007亿加元",
+          "summary": "这一年终预测值比2025年的实际支出高2350万加元。",
+          "body": "市政预算审议披露了蒙特利尔警察局的一项具体开支。据《蒙特利尔日报》周四刊出的预算文件图表，全年加班费可能由7720万加元升至1.007亿加元。后一个数字仍为估算。\n\n市长办公室特别提到一级方程式大奖赛与蒙特利尔加拿大人队季后赛时间重叠。发言人向该报表示，市府正重新审视建筑工地的警力需求，并调整排班。",
+          "photoAlt": "审议预算的蒙特利尔市政厅。",
+          "photoCaption": "资料照片 (2016-09-25). 审议预算的蒙特利尔市政厅。"
+        },
+        "ru": {
+          "title": "Сверхурочные полиции Монреаля могут обойтись в 100,7 млн долларов в 2026 году",
+          "summary": "Прогноз на конец года превышает расходы за 2025 год на 23,5 млн канадских долларов.",
+          "body": "При рассмотрении бюджета города стали известны подробности об одной из статей расходов полиции Монреаля. Согласно диаграмме из бюджетных документов, которую в четверг опубликовала Journal de Montréal, годовая стоимость сверхурочных может вырасти с 77,2 до 100,7 млн канадских долларов. Вторая цифра пока оценочная.\n\nКанцелярия мэра указала, в частности, на совпадение Гран-при «Формулы-1» с играми «Канадиенс» в плей-офф. Её представительница сообщила газете, что заявки на присутствие полиции на стройках пересматриваются, а графики работы корректируются.",
+          "photoAlt": "Ратуша Монреаля, где рассматривается бюджет.",
+          "photoCaption": "Архивное фото (2016-09-25). Ратуша Монреаля, где рассматривается бюджет."
+        },
+        "ko": {
+          "title": "몬트리올 경찰 2026년 초과근무 비용 1억70만 캐나다달러 전망",
+          "summary": "연말 추정액은 2025년 실제 지출보다 2,350만 캐나다달러 많다.",
+          "body": "시 예산 심의에서 몬트리올 경찰의 개별 지출 항목이 드러났다. 목요일 르주르날드몽레알이 실은 예산 문서 도표에 따르면 연간 초과근무 비용은 7,720만 캐나다달러에서 1억70만 캐나다달러로 늘어날 전망이다. 후자는 아직 추정치다.\n\n시장실은 포뮬러원 그랑프리와 몬트리올 캐네디언스의 플레이오프 일정이 겹친 점을 언급했다. 대변인은 건설 현장의 경찰 배치 요청을 재검토하고 근무 일정을 조정하고 있다고 신문에 밝혔다.",
+          "photoAlt": "예산 심의가 열리는 몬트리올 시청.",
+          "photoCaption": "자료 사진 (2016-09-25). 예산 심의가 열리는 몬트리올 시청."
+        }
+      }
+    },
+    {
+      "eventKey": "ontario-northlander-ouverture-vente-billets-novembre",
+      "title": "Les billets du Northlander sont en vente pour le retour du train entre Toronto et Cochrane",
+      "summary": "Ontario Northland ouvrira le service voyageurs le 10 décembre, après une interruption de plus de quatorze ans.",
+      "body": "Les voyageurs peuvent réserver dès le jeudi 26 novembre un trajet à bord du Northlander. Selon Ontario Northland, la première phase du service prévoit quatre allers-retours par semaine sur un parcours de plus de 800 kilomètres entre la gare Union de Toronto et Cochrane, dans le nord-est de la province.\n\nLa radio locale My North Bay Now a annoncé l’ouverture de la billetterie à 9 h. Les réservations se font en ligne, par téléphone ou aux points de vente participants, notamment à North Bay, Englehart, Timmins et Cochrane.",
+      "category": "Transports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Ontario Northland",
+          "url": "https://ontarionorthland.ca/en/news-media/northlander-passenger-rail-service",
+          "publishedAt": "2026-11-19"
+        },
+        {
+          "name": "My North Bay Now",
+          "url": "https://www.mynorthbaynow.com/120770/news/community/northlander-tickets-go-on-sale-9-am-thursday/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/rail.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_Bay_bus_station.jpg",
+        "credit": "P199 / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "La gare d’autocars et de trains de North Bay, en Ontario.",
+        "caption": "Photo d’archives (2026-09). La gare d’autocars et de trains de North Bay, en Ontario."
+      },
+      "translations": {
+        "en": {
+          "title": "Northlander tickets go on sale for the return of trains between Toronto and Cochrane",
+          "summary": "Ontario Northland will resume passenger service on December 10 after a break of more than fourteen years.",
+          "body": "Travellers can book Northlander journeys beginning Thursday, November 26. Ontario Northland says the initial service will offer four round trips a week along more than 800 kilometres between Toronto’s Union Station and Cochrane in northeastern Ontario.\n\nLocal radio outlet My North Bay Now reported a 9 a.m. ticket release. Reservations are available online, by phone or at participating outlets, including in North Bay, Englehart, Timmins and Cochrane.",
+          "photoAlt": "North Bay’s bus and train station in Ontario.",
+          "photoCaption": "Archive photo (2026-09). North Bay’s bus and train station in Ontario."
+        },
+        "es": {
+          "title": "Salen a la venta los billetes del Northlander para el regreso del tren entre Toronto y Cochrane",
+          "summary": "Ontario Northland reanudará el servicio de pasajeros el 10 de diciembre tras más de catorce años de interrupción.",
+          "body": "Desde el jueves 26 de noviembre se pueden reservar viajes en el Northlander. Según Ontario Northland, la primera fase ofrecerá cuatro viajes de ida y vuelta por semana en un recorrido de más de 800 kilómetros entre la estación Union de Toronto y Cochrane, en el noreste provincial.\n\nLa emisora local My North Bay Now anunció la apertura de la venta a las 9 de la mañana. Se puede reservar en línea, por teléfono o en los puntos de venta participantes, entre ellos North Bay, Englehart, Timmins y Cochrane.",
+          "photoAlt": "Estación de autobuses y trenes de North Bay, Ontario.",
+          "photoCaption": "Foto de archivo (2026-09). Estación de autobuses y trenes de North Bay, Ontario."
+        },
+        "ar": {
+          "title": "بدء بيع تذاكر قطار نورثلاندر العائد بين تورونتو وكوكرين",
+          "summary": "ستستأنف أونتاريو نورثلاند خدمة الركاب في 10 ديسمبر بعد انقطاع تجاوز أربعة عشر عاماً.",
+          "body": "يمكن للمسافرين حجز رحلات نورثلاندر اعتباراً من الخميس 26 نوفمبر. وبحسب الشركة تشمل المرحلة الأولى أربع رحلات ذهاب وإياب أسبوعياً على مسار يزيد على 800 كيلومتر بين محطة يونيون في تورونتو وكوكرين في شمال شرق المقاطعة.\n\nوأفادت إذاعة ماي نورث باي ناو المحلية بأن البيع يبدأ الساعة التاسعة صباحاً. والحجز متاح عبر الإنترنت والهاتف ونقاط البيع المشاركة، ومنها نورث باي وإنغلهارت وتيمينز وكوكرين.",
+          "photoAlt": "محطة الحافلات والقطارات في نورث باي بأونتاريو.",
+          "photoCaption": "صورة أرشيفية (2026-09). محطة الحافلات والقطارات في نورث باي بأونتاريو."
+        },
+        "zh-CN": {
+          "title": "多伦多至科克伦的北地人号列车恢复售票",
+          "summary": "安大略北地运输公司将在12月10日恢复这项中断逾14年的客运服务。",
+          "body": "旅客从11月26日星期四起可预订北地人号车票。运营方表示，初期每周开行四个往返班次，连接多伦多联合车站与该省东北部的科克伦，全程超过800公里。\n\n当地电台My North Bay Now报道，售票于上午9时启动。旅客可通过网络、电话或指定售票点订票，包括北湾、恩格尔哈特、蒂明斯和科克伦的网点。",
+          "photoAlt": "安大略省北湾的汽车和火车站。",
+          "photoCaption": "资料照片 (2026-09). 安大略省北湾的汽车和火车站。"
+        },
+        "ru": {
+          "title": "Открылась продажа билетов на возвращающийся поезд Northlander между Торонто и Кокраном",
+          "summary": "Ontario Northland возобновит пассажирское сообщение 10 декабря после перерыва более чем в четырнадцать лет.",
+          "body": "С четверга, 26 ноября, пассажиры могут бронировать поездки на Northlander. По данным Ontario Northland, на первом этапе поезд будет совершать четыре рейса туда и обратно в неделю по маршруту длиной более 800 километров от вокзала Юнион в Торонто до Кокрана на северо-востоке провинции.\n\nМестная радиостанция My North Bay Now сообщила, что продажи открываются в 9 утра. Билеты доступны онлайн, по телефону и в участвующих кассах, в том числе в Норт-Бее, Энглхарте, Тимминсе и Кокране.",
+          "photoAlt": "Автобусный и железнодорожный вокзал Норт-Бея в Онтарио.",
+          "photoCaption": "Архивное фото (2026-09). Автобусный и железнодорожный вокзал Норт-Бея в Онтарио."
+        },
+        "ko": {
+          "title": "토론토와 코크런 잇는 노슬랜더 열차 승차권 판매 시작",
+          "summary": "온타리오 노슬랜드는 14년 넘게 중단됐던 여객 운행을 12월 10일 재개한다.",
+          "body": "11월 26일 목요일부터 노슬랜더 열차를 예약할 수 있다. 온타리오 노슬랜드에 따르면 초기에는 토론토 유니언역과 주 북동부 코크런을 잇는 800㎞ 이상의 구간을 주 4회 왕복한다.\n\n지역 라디오 매체 마이 노스 베이 나우는 오전 9시에 표 판매가 시작된다고 전했다. 온라인과 전화, 노스베이·엥글하트·티민스·코크런 등 지정 창구에서 예약할 수 있다.",
+          "photoAlt": "온타리오주 노스베이의 버스·철도역.",
+          "photoCaption": "자료 사진 (2026-09). 온타리오주 노스베이의 버스·철도역."
+        }
+      }
+    },
+    {
+      "eventKey": "paris-depardieu-arnould-renvoi-proces-sept-aout",
+      "title": "Gérard Depardieu sera jugé pour une partie des faits dénoncés par Charlotte Arnould",
+      "summary": "La cour d’appel de Paris a retenu les accusations relatives au 7 août 2018 et prononcé un non-lieu pour celles du 13 août.",
+      "body": "La chambre de l’instruction a confirmé jeudi que Gérard Depardieu devra répondre devant une cour criminelle d’accusations de viol et d’agression sexuelle concernant la comédienne Charlotte Arnould. Une source judiciaire a précisé à l’AFP que le renvoi porte sur les faits allégués du 7 août 2018.\n\nL’acteur conteste les accusations. Selon Reuters, son avocat David-Olivier Kaminski a indiqué que la défense examinait la possibilité d’un pourvoi en cassation. Le jugement sur le fond reste à venir.",
+      "category": "Justice",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/french-actor-gerard-depardieu-face-trial-rape-his-lawyer-says-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Agence France-Presse via Boursorama",
+          "url": "https://www.boursorama.com/actualite-economique/actualites/la-justice-confirme-le-renvoi-de-depardieu-en-proces-pour-une-partie-des-viols-dont-l-accuse-charlotte-arnould-db1559c35d5711ffe19ea2183dfb8545",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/dep.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C3%A9rard_Depardieu_Cannes_2015.jpg",
+        "credit": "Georges Biard / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "alt": "Gérard Depardieu au Festival de Cannes.",
+        "caption": "Photo d’archives (2015-05). Gérard Depardieu au Festival de Cannes."
+      },
+      "translations": {
+        "en": {
+          "title": "Gérard Depardieu to stand trial over some of Charlotte Arnould’s allegations",
+          "summary": "The Paris appeals court upheld charges concerning August 7, 2018, and dismissed the allegations relating to August 13.",
+          "body": "The investigating chamber confirmed Thursday that Gérard Depardieu will face a criminal court on charges of rape and sexual assault involving actress Charlotte Arnould. A judicial source told AFP the trial concerns the alleged events of August 7, 2018.\n\nThe actor disputes the allegations. His lawyer David-Olivier Kaminski said the defence was considering an appeal to the Court of Cassation, Reuters reported. The merits of the case have yet to be decided.",
+          "photoAlt": "Gérard Depardieu at the Cannes Film Festival.",
+          "photoCaption": "Archive photo (2015-05). Gérard Depardieu at the Cannes Film Festival."
+        },
+        "es": {
+          "title": "Gérard Depardieu será juzgado por parte de las denuncias de Charlotte Arnould",
+          "summary": "La corte de apelación de París mantuvo las acusaciones relativas al 7 de agosto de 2018 y sobreseyó las del 13 de agosto.",
+          "body": "La sala de instrucción confirmó el jueves que Gérard Depardieu comparecerá ante un tribunal penal acusado de violación y agresión sexual contra la actriz Charlotte Arnould. Una fuente judicial precisó a AFP que el juicio se refiere a los presuntos hechos del 7 de agosto de 2018.\n\nEl actor niega las acusaciones. Según Reuters, su abogado David-Olivier Kaminski indicó que la defensa estudia recurrir en casación. El tribunal aún debe pronunciarse sobre el fondo.",
+          "photoAlt": "Gérard Depardieu en el Festival de Cannes.",
+          "photoCaption": "Foto de archivo (2015-05). Gérard Depardieu en el Festival de Cannes."
+        },
+        "ar": {
+          "title": "محاكمة جيرار ديبارديو بشأن جزء من اتهامات شارلوت أرنو",
+          "summary": "أبقت محكمة استئناف باريس على الاتهامات المتعلقة بيوم 7 أغسطس 2018 وأسقطت تلك المتعلقة بيوم 13 أغسطس.",
+          "body": "أكدت غرفة التحقيق الخميس أن جيرار ديبارديو سيحاكم جنائياً بتهمتي الاغتصاب والاعتداء الجنسي على الممثلة شارلوت أرنو. وأوضح مصدر قضائي لوكالة فرانس برس أن المحاكمة تتعلق بالوقائع المزعومة في 7 أغسطس 2018.\n\nوينفي الممثل الاتهامات. ونقلت رويترز عن محاميه دافيد أوليفييه كامينسكي أن الدفاع يدرس الطعن أمام محكمة النقض. ولم يصدر حكم في موضوع القضية بعد.",
+          "photoAlt": "جيرار ديبارديو في مهرجان كان السينمائي.",
+          "photoCaption": "صورة أرشيفية (2015-05). جيرار ديبارديو في مهرجان كان السينمائي."
+        },
+        "zh-CN": {
+          "title": "热拉尔·德帕迪约将就夏洛特·阿尔努的部分指控受审",
+          "summary": "巴黎上诉法院保留了涉及2018年8月7日的指控，并撤销了与8月13日有关的指控。",
+          "body": "预审庭周四确认，热拉尔·德帕迪约将因涉嫌强奸和性侵女演员夏洛特·阿尔努而接受刑事审判。一名司法消息人士向法新社表示，审判涉及2018年8月7日被指发生的事件。\n\n德帕迪约否认指控。据路透社报道，其律师达维德-奥利维耶·卡明斯基表示，辩方正考虑向法国最高司法法院提出上诉。案件尚待实体审理。",
+          "photoAlt": "热拉尔·德帕迪约出席戛纳电影节。",
+          "photoCaption": "资料照片 (2015-05). 热拉尔·德帕迪约出席戛纳电影节。"
+        },
+        "ru": {
+          "title": "Жерара Депардье будут судить по части обвинений Шарлотты Арну",
+          "summary": "Апелляционный суд Парижа оставил в силе обвинения по эпизоду 7 августа 2018 года и прекратил дело в части эпизода 13 августа.",
+          "body": "Следственная палата в четверг подтвердила, что Жерар Депардье предстанет перед уголовным судом по обвинениям в изнасиловании и сексуальном насилии в отношении актрисы Шарлотты Арну. Судебный источник уточнил AFP, что разбирательство касается предполагаемых событий 7 августа 2018 года.\n\nАктёр отрицает обвинения. По данным Reuters, его адвокат Давид-Оливье Камински заявил, что защита рассматривает подачу кассационной жалобы. Решение по существу дела ещё предстоит вынести.",
+          "photoAlt": "Жерар Депардье на Каннском кинофестивале.",
+          "photoCaption": "Архивное фото (2015-05). Жерар Депардье на Каннском кинофестивале."
+        },
+        "ko": {
+          "title": "제라르 드파르디외, 샤를로트 아르누가 제기한 혐의 일부로 재판받는다",
+          "summary": "파리 항소법원은 2018년 8월 7일 사건에 관한 혐의를 유지하고 8월 13일 관련 혐의는 기각했다.",
+          "body": "수사재판부는 목요일 제라르 드파르디외가 배우 샤를로트 아르누에 대한 강간 및 성폭력 혐의로 형사재판을 받게 된다고 확인했다. 사법 소식통은 AFP에 재판 대상이 2018년 8월 7일에 일어났다고 주장된 사건이라고 밝혔다.\n\n드파르디외는 혐의를 부인한다. 로이터에 따르면 변호인 다비드올리비에 카민스키는 파기원 상고를 검토 중이라고 밝혔다. 혐의에 대한 본안 판단은 아직 나오지 않았다.",
+          "photoAlt": "칸 영화제에 참석한 제라르 드파르디외.",
+          "photoCaption": "자료 사진 (2015-05). 칸 영화제에 참석한 제라르 드파르디외."
+        }
+      }
+    },
+    {
+      "eventKey": "bce-compte-rendu-octobre-debat-hausse-taux",
+      "title": "Les comptes rendus de la BCE éclairent le choix de reporter une hausse des taux en octobre",
+      "summary": "Le document publié jeudi montre pourquoi une partie du Conseil des gouverneurs souhaitait resserrer la politique monétaire dès l’automne.",
+      "body": "Les 28 et 29 octobre, le Conseil des gouverneurs de la Banque centrale européenne a examiné la possibilité de relever ses taux face aux risques pour la stabilité des prix. La discussion, rendue publique le 26 novembre, a finalement débouché sur le maintien des taux en vigueur.\n\nSelon Reuters, une hausse bénéficiait déjà d’un large soutien, mais le Conseil a préféré attendre de nouveaux éléments sur l’inflation. Le document relate les arguments de la réunion d’octobre et ne fixe aucune date pour une prochaine hausse.",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/markets/europe/ecb-already-had-large-support-rate-hike-oct-accounts-show-2026-11-26/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Banque centrale européenne",
+          "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/ecb.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Europ%C3%A4ische_Zentralbank_-_European_Central_Bank_%2819190136328%29.jpg",
+        "credit": "Kiefer. / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+        "alt": "Tours éclairées de la Banque centrale européenne à Francfort.",
+        "caption": "Photo d’archives (2015-07-02). Tours éclairées de la Banque centrale européenne à Francfort."
+      },
+      "translations": {
+        "en": {
+          "title": "ECB minutes shed light on October decision to defer a rate rise",
+          "summary": "The document released Thursday shows why some Governing Council members wanted tighter policy in the autumn.",
+          "body": "On October 28 and 29, the European Central Bank’s Governing Council considered raising rates in response to risks to price stability. The discussion, made public on November 26, ended with rates unchanged.\n\nReuters reports that an increase already had broad support, but the council preferred to await fresh evidence on inflation. The account sets out the arguments at the October meeting and gives no date for a future rise.",
+          "photoAlt": "Illuminated towers of the European Central Bank in Frankfurt.",
+          "photoCaption": "Archive photo (2015-07-02). Illuminated towers of the European Central Bank in Frankfurt."
+        },
+        "es": {
+          "title": "Las actas del BCE explican por qué se aplazó una subida de tipos en octubre",
+          "summary": "El documento publicado el jueves muestra por qué parte del Consejo de Gobierno quería endurecer la política monetaria en otoño.",
+          "body": "Los días 28 y 29 de octubre, el Consejo de Gobierno del Banco Central Europeo estudió subir los tipos ante los riesgos para la estabilidad de precios. El debate, divulgado el 26 de noviembre, terminó con la decisión de mantenerlos.\n\nSegún Reuters, una subida ya contaba con amplio respaldo, pero el Consejo prefirió esperar nuevos datos sobre inflación. Las actas recogen los argumentos de octubre y no fijan fecha para una futura subida.",
+          "photoAlt": "Torres iluminadas del Banco Central Europeo en Fráncfort.",
+          "photoCaption": "Foto de archivo (2015-07-02). Torres iluminadas del Banco Central Europeo en Fráncfort."
+        },
+        "ar": {
+          "title": "محضر المركزي الأوروبي يوضح أسباب إرجاء رفع الفائدة في أكتوبر",
+          "summary": "توضح الوثيقة الصادرة الخميس لماذا أراد بعض أعضاء مجلس المحافظين تشديد السياسة النقدية في الخريف.",
+          "body": "بحث مجلس محافظي البنك المركزي الأوروبي يومي 28 و29 أكتوبر رفع أسعار الفائدة في مواجهة المخاطر على استقرار الأسعار. وانتهى النقاش، الذي نُشرت تفاصيله في 26 نوفمبر، إلى إبقاء الفائدة دون تغيير.\n\nوبحسب رويترز كان الرفع يحظى بتأييد واسع، لكن المجلس فضّل انتظار معطيات جديدة عن التضخم. ويعرض المحضر حجج اجتماع أكتوبر ولا يحدد موعداً لرفع لاحق.",
+          "photoAlt": "أبراج البنك المركزي الأوروبي مضاءة في فرانكفورت.",
+          "photoCaption": "صورة أرشيفية (2015-07-02). أبراج البنك المركزي الأوروبي مضاءة في فرانكفورت."
+        },
+        "zh-CN": {
+          "title": "欧洲央行会议纪要解释10月为何暂缓加息",
+          "summary": "周四发布的文件披露了部分管委会成员主张在秋季收紧货币政策的理由。",
+          "body": "10月28日至29日，欧洲央行管委会讨论了是否加息以应对物价稳定面临的风险。11月26日公开的讨论记录显示，会议最终决定维持利率不变。\n\n据路透社报道，加息当时已获广泛支持，但管委会倾向于等待新的通胀数据。纪要呈现的是10月会议上的论据，没有确定下一次加息的日期。",
+          "photoAlt": "法兰克福灯光下的欧洲央行大楼。",
+          "photoCaption": "资料照片 (2015-07-02). 法兰克福灯光下的欧洲央行大楼。"
+        },
+        "ru": {
+          "title": "Протокол ЕЦБ объясняет, почему повышение ставки отложили в октябре",
+          "summary": "Опубликованный в четверг документ показывает, почему часть Совета управляющих хотела ужесточить политику ещё осенью.",
+          "body": "28 и 29 октября Совет управляющих Европейского центрального банка обсуждал повышение ставок из-за рисков для ценовой стабильности. Обсуждение, подробности которого обнародованы 26 ноября, завершилось сохранением ставок.\n\nПо данным Reuters, повышение уже пользовалось широкой поддержкой, но Совет предпочёл дождаться новых данных об инфляции. Протокол излагает аргументы октябрьской встречи и не назначает дату будущего повышения.",
+          "photoAlt": "Освещённые башни Европейского центрального банка во Франкфурте.",
+          "photoCaption": "Архивное фото (2015-07-02). Освещённые башни Европейского центрального банка во Франкфурте."
+        },
+        "ko": {
+          "title": "유럽중앙은행 회의록, 10월 금리 인상 보류 배경 공개",
+          "summary": "목요일 공개된 문서는 일부 정책위원들이 가을에 통화정책을 긴축하려 했던 이유를 보여준다.",
+          "body": "유럽중앙은행 정책위원회는 10월 28~29일 물가 안정에 대한 위험을 고려해 금리 인상을 검토했다. 11월 26일 공개된 논의 기록에 따르면 최종 결정은 금리 동결이었다.\n\n로이터에 따르면 인상안은 이미 폭넓은 지지를 받았지만 위원회는 물가에 관한 추가 자료를 기다리기로 했다. 회의록은 10월 회의의 논거를 담았으며 향후 인상 날짜를 정하지 않았다.",
+          "photoAlt": "프랑크푸르트의 불 켜진 유럽중앙은행 건물.",
+          "photoCaption": "자료 사진 (2015-07-02). 프랑크푸르트의 불 켜진 유럽중앙은행 건물."
+        }
+      }
+    },
+    {
+      "eventKey": "banque-angleterre-credit-hypothecaire-renouvellement-cent-livres",
+      "title": "La Banque d’Angleterre chiffre à 100 livres la hausse mensuelle médiane au renouvellement hypothécaire",
+      "summary": "D’ici décembre 2029, quelque 6,5 millions de prêts sur des logements occupés par leur propriétaire devraient voir leurs mensualités augmenter.",
+      "body": "Dans son rapport de stabilité financière de jeudi, la Banque d’Angleterre estime qu’environ sept millions de prêts seront refinancés entre juin 2026 et décembre 2029. Pour un emprunteur type quittant un taux fixe, la hausse projetée atteint environ 100 livres par mois, soit près du double de l’estimation de juillet.\n\nLa BBC relève que les ménages ayant obtenu les taux les plus bas sont particulièrement exposés. Un peu plus d’un million de ménages payant moins de 3 % doivent refinancer leur prêt d’ici la fin de 2027, selon la banque centrale.",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Banque d’Angleterre",
+          "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cwg5r02zel9qo",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/bank.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bank_of_England_Threadneedle_St._%2812565194585%29.jpg",
+        "credit": "George Rex / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+        "alt": "Colonnes de la Banque d’Angleterre sur Threadneedle Street à Londres.",
+        "caption": "Photo d’archives (2014-02-01). Colonnes de la Banque d’Angleterre sur Threadneedle Street à Londres."
+      },
+      "translations": {
+        "en": {
+          "title": "Bank of England puts median monthly mortgage increase at £100 on refinancing",
+          "summary": "Monthly payments on about 6.5 million owner-occupier mortgages are projected to rise by December 2029.",
+          "body": "In Thursday’s Financial Stability Report, the Bank of England estimates that about seven million mortgages will be refinanced between June 2026 and December 2029. The projected increase for a typical borrower coming off a fixed rate is about £100 a month, nearly twice the July estimate.\n\nThe BBC notes that households with the lowest rates are particularly exposed. Just over a million households paying less than 3% are due to refinance by the end of 2027, according to the central bank.",
+          "photoAlt": "Columns of the Bank of England on Threadneedle Street in London.",
+          "photoCaption": "Archive photo (2014-02-01). Columns of the Bank of England on Threadneedle Street in London."
+        },
+        "es": {
+          "title": "El Banco de Inglaterra cifra en 100 libras el aumento mensual mediano al renovar la hipoteca",
+          "summary": "Se prevé que hasta diciembre de 2029 suban las cuotas de unos 6,5 millones de hipotecas sobre viviendas ocupadas por sus propietarios.",
+          "body": "En su informe de estabilidad financiera del jueves, el Banco de Inglaterra estima que unos siete millones de préstamos se refinanciarán entre junio de 2026 y diciembre de 2029. Para un prestatario típico cuyo tipo fijo vence, el aumento previsto ronda las 100 libras mensuales, casi el doble de la estimación de julio.\n\nLa BBC señala que los hogares con los tipos más bajos son especialmente vulnerables. Según el banco central, algo más de un millón de hogares que pagan menos del 3 % deberán refinanciar antes de que termine 2027.",
+          "photoAlt": "Columnas del Banco de Inglaterra en Threadneedle Street, Londres.",
+          "photoCaption": "Foto de archivo (2014-02-01). Columnas del Banco de Inglaterra en Threadneedle Street, Londres."
+        },
+        "ar": {
+          "title": "بنك إنجلترا يقدّر الزيادة الشهرية الوسيطة عند تجديد الرهن العقاري بـ100 جنيه",
+          "summary": "من المتوقع أن ترتفع أقساط نحو 6.5 ملايين قرض لمساكن يشغلها مالكوها بحلول ديسمبر 2029.",
+          "body": "يقدّر بنك إنجلترا في تقرير الاستقرار المالي الصادر الخميس أن نحو سبعة ملايين قرض سيعاد تمويلها بين يونيو 2026 وديسمبر 2029. وتقترب الزيادة المتوقعة للمقترض النموذجي عند انتهاء الفائدة الثابتة من 100 جنيه شهرياً، أي نحو ضعفي تقدير يوليو.\n\nوتشير بي بي سي إلى أن الأسر التي حصلت على أدنى الفوائد هي الأكثر عرضة. ويقول البنك إن ما يزيد قليلاً على مليون أسرة تدفع فائدة دون 3% ستحتاج إلى إعادة التمويل بحلول نهاية 2027.",
+          "photoAlt": "أعمدة بنك إنجلترا في شارع ثريدنيدل بلندن.",
+          "photoCaption": "صورة أرشيفية (2014-02-01). أعمدة بنك إنجلترا في شارع ثريدنيدل بلندن."
+        },
+        "zh-CN": {
+          "title": "英格兰银行预计固定利率房贷续约后月供增幅中位数为100英镑",
+          "summary": "到2029年12月，预计约650万笔自住房贷款的月供将会上升。",
+          "body": "英格兰银行在周四发布的金融稳定报告中估计，从2026年6月至2029年12月，约700万笔房贷将再融资。对固定利率期限届满的典型借款人而言，预计每月多付约100英镑，接近7月估值的两倍。\n\n英国广播公司指出，原先获得最低利率的家庭尤其容易受到影响。据央行估计，略超100万户目前利率低于3%的家庭将在2027年底前再融资。",
+          "photoAlt": "伦敦针线街英格兰银行大楼的立柱。",
+          "photoCaption": "资料照片 (2014-02-01). 伦敦针线街英格兰银行大楼的立柱。"
+        },
+        "ru": {
+          "title": "Банк Англии оценил медианный рост ежемесячного платежа при рефинансировании ипотеки в 100 фунтов",
+          "summary": "К декабрю 2029 года ожидается рост платежей примерно по 6,5 млн кредитов на жильё, в котором живут сами владельцы.",
+          "body": "В опубликованном в четверг докладе о финансовой стабильности Банк Англии ожидает, что с июня 2026-го по декабрь 2029 года будет рефинансировано около семи миллионов ипотек. Для типичного заёмщика после окончания срока фиксированной ставки платёж вырастет примерно на 100 фунтов в месяц, почти вдвое больше июльской оценки.\n\nКак отмечает Би-би-си, особенно уязвимы семьи с самыми низкими ставками. По данным центробанка, чуть более миллиона домохозяйств со ставкой ниже 3% должны рефинансировать кредит к концу 2027 года.",
+          "photoAlt": "Колонны Банка Англии на Треднидл-стрит в Лондоне.",
+          "photoCaption": "Архивное фото (2014-02-01). Колонны Банка Англии на Треднидл-стрит в Лондоне."
+        },
+        "ko": {
+          "title": "영란은행, 고정금리 주택대출 갱신 시 월 상환액 증가 중간값 100파운드 전망",
+          "summary": "2029년 12월까지 실거주 주택 대출 약 650만 건의 월 상환액이 늘어날 전망이다.",
+          "body": "영란은행은 목요일 금융안정보고서에서 2026년 6월부터 2029년 12월까지 약 700만 건의 대출이 재융자될 것으로 추산했다. 고정금리 기간이 끝나는 일반적인 차주의 월 상환액 증가분은 약 100파운드로 7월 추정치의 거의 두 배다.\n\nBBC는 가장 낮은 금리를 적용받았던 가계의 부담이 특히 크다고 보도했다. 중앙은행에 따르면 금리가 3% 미만인 가계 중 100만 가구를 조금 넘는 수가 2027년 말까지 재융자를 앞두고 있다.",
+          "photoAlt": "런던 스레드니들가에 있는 영란은행 건물의 기둥.",
+          "photoCaption": "자료 사진 (2014-02-01). 런던 스레드니들가에 있는 영란은행 건물의 기둥."
+        }
+      }
+    },
+    {
+      "eventKey": "longueuil-saint-hubert-appel-enquete-moniteur-conduite",
+      "title": "À Longueuil, la police lance un appel après l’arrestation d’un moniteur de conduite",
+      "summary": "Le service de police de l’agglomération cherche à joindre d’éventuelles autres victimes dans une enquête à Saint-Hubert.",
+      "body": "La police de Longueuil a lancé son appel jeudi au sujet d’un moniteur de l’école de conduite Tecnic à Saint-Hubert. Sa porte-parole a expliqué au 98,5 que l’homme de 51 ans a été arrêté le 20 novembre et accusé d’agression sexuelle à la suite d’événements allégués pendant un cours.\n\nSelon CityNews, l’accusé a comparu puis a été remis en liberté sous conditions. Les accusations restent à juger. Les enquêteurs invitent les personnes qui détiendraient des renseignements pertinents à communiquer avec le service au 450 463-7211.",
+      "category": "Justice",
+      "verified": true,
+      "sources": [
+        {
+          "name": "98,5 Montréal, entretien avec le SPAL",
+          "url": "https://www.985fm.ca/audio/818317/moniteur-de-conduite-accuse-on-veut-eviter-d-avoir-d-autres-victimes",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "CityNews Montréal, appel du SPAL",
+          "url": "https://montreal.citynews.ca/2026/11/26/longueuil-police-seek-victims/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/lng.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Longueuil-Hotel-de-Ville-Entr%C3%A9e_principal-2022-05-04.jpg",
+        "credit": "Veillg1 / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Entrée de l’hôtel de ville de Longueuil, avec ses parois de couleur.",
+        "caption": "Photo d’archives (2022-05-04). Entrée de l’hôtel de ville de Longueuil, avec ses parois de couleur."
+      },
+      "translations": {
+        "en": {
+          "title": "Longueuil police appeal for information after driving instructor’s arrest",
+          "summary": "The municipal police service is seeking to reach other potential victims in a Saint-Hubert investigation.",
+          "body": "Longueuil police issued their appeal Thursday concerning an instructor at the Tecnic driving school in Saint-Hubert. A spokesperson told 98.5 FM that the 51-year-old was arrested on November 20 and charged with sexual assault over alleged events during a lesson.\n\nCityNews reports that the accused appeared in court and was released on conditions. The allegations have yet to be tried. Investigators ask anyone with relevant information to contact the service at 450 463-7211.",
+          "photoAlt": "Entrance to Longueuil city hall with its coloured panels.",
+          "photoCaption": "Archive photo (2022-05-04). Entrance to Longueuil city hall with its coloured panels."
+        },
+        "es": {
+          "title": "La policía de Longueuil pide información tras la detención de un profesor de conducción",
+          "summary": "El servicio policial busca contactar con otras posibles víctimas en una investigación en Saint-Hubert.",
+          "body": "La policía hizo el jueves un llamamiento sobre un instructor de la autoescuela Tecnic de Saint-Hubert. Su portavoz explicó a 98,5 FM que el hombre, de 51 años, fue detenido el 20 de noviembre y acusado de agresión sexual por presuntos hechos ocurridos durante una clase.\n\nSegún CityNews, el acusado compareció y quedó en libertad bajo condiciones. Las acusaciones están pendientes de juicio. Los investigadores piden a quienes tengan información pertinente que llamen al 450 463-7211.",
+          "photoAlt": "Entrada del ayuntamiento de Longueuil con sus paneles de colores.",
+          "photoCaption": "Foto de archivo (2022-05-04). Entrada del ayuntamiento de Longueuil con sus paneles de colores."
+        },
+        "ar": {
+          "title": "شرطة لونغوي تطلب معلومات بعد توقيف مدرّب قيادة",
+          "summary": "تسعى الشرطة للتواصل مع ضحايا محتملين آخرين في إطار تحقيق في سان أوبير.",
+          "body": "وجهت شرطة لونغوي الخميس نداء بشأن مدرب في مدرسة تكنيك للقيادة في سان أوبير. وقالت متحدثتها لإذاعة 98.5 إن الرجل البالغ 51 عاماً أوقف في 20 نوفمبر ووُجهت إليه تهمة الاعتداء الجنسي على خلفية وقائع يُزعم أنها حصلت أثناء درس.\n\nوبحسب سيتي نيوز مثل المتهم أمام القضاء ثم أُفرج عنه بشروط. ولم يُبتّ في الاتهامات بعد. ويدعو المحققون كل من لديه معلومات مفيدة إلى الاتصال بالشرطة على الرقم 450 463-7211.",
+          "photoAlt": "مدخل مبنى بلدية لونغوي بألواحه الملونة.",
+          "photoCaption": "صورة أرشيفية (2022-05-04). مدخل مبنى بلدية لونغوي بألواحه الملونة."
+        },
+        "zh-CN": {
+          "title": "隆格伊警方在一名驾校教练被捕后征集线索",
+          "summary": "警方希望联系圣于贝尔区一起案件中可能存在的其他受害者。",
+          "body": "隆格伊警方周四就圣于贝尔区Tecnic驾校的一名教练发布呼吁。警方发言人对98.5电台表示，这名51岁男子于11月20日被捕，因一堂驾驶课上被指发生的事件而被控性侵。\n\n据CityNews报道，被告出庭后获准附条件释放，指控仍待审理。警方请掌握相关信息的人致电450 463-7211联系调查人员。",
+          "photoAlt": "隆格伊市政厅入口及其彩色面板。",
+          "photoCaption": "资料照片 (2022-05-04). 隆格伊市政厅入口及其彩色面板。"
+        },
+        "ru": {
+          "title": "Полиция Лонгёя ищет свидетелей и возможных потерпевших после ареста инструктора",
+          "summary": "Полицейская служба агломерации хочет связаться с другими возможными потерпевшими в рамках дела в Сен-Юбере.",
+          "body": "В четверг полиция Лонгёя обратилась к общественности по поводу инструктора автошколы Tecnic в Сен-Юбере. Её представительница сообщила радио 98,5, что 51-летнего мужчину арестовали 20 ноября и обвинили в сексуальном насилии в связи с предполагаемым эпизодом во время занятия.\n\nПо данным CityNews, обвиняемый предстал перед судом и был отпущен с ограничениями. Обвинения ещё предстоит рассмотреть по существу. Следователи просят всех, у кого есть сведения по делу, связаться с полицией по номеру 450 463-7211.",
+          "photoAlt": "Вход в ратушу Лонгёя с цветными панелями.",
+          "photoCaption": "Архивное фото (2022-05-04). Вход в ратушу Лонгёя с цветными панелями."
+        },
+        "ko": {
+          "title": "롱괴유 경찰, 운전 강사 체포 뒤 추가 제보 요청",
+          "summary": "경찰은 생튀베르에서 진행 중인 수사와 관련해 다른 피해자가 있는지 확인하고 있다.",
+          "body": "롱괴유 경찰은 목요일 생튀베르 테크닉 운전학원 강사와 관련해 제보를 요청했다. 경찰 대변인은 98.5 라디오에 51세 남성이 수업 중 발생한 것으로 지목된 사건과 관련해 11월 20일 체포돼 성폭력 혐의로 기소됐다고 밝혔다.\n\n시티뉴스에 따르면 피고인은 법정에 출석한 뒤 조건부로 풀려났다. 혐의는 아직 법원의 판단을 받지 않았다. 관련 정보가 있는 사람은 450 463-7211로 경찰에 연락할 수 있다.",
+          "photoAlt": "색유리 패널이 있는 롱괴유 시청 입구.",
+          "photoCaption": "자료 사진 (2022-05-04). 색유리 패널이 있는 롱괴유 시청 입구."
+        }
+      }
+    },
+    {
+      "eventKey": "quebec-pib-aout-recul-commerce-de-gros",
+      "title": "Le commerce de gros pèse sur le PIB du Québec en août",
+      "summary": "La production québécoise a reculé de 0,1 % pour un deuxième mois de suite, malgré une progression des industries de biens.",
+      "body": "Le repli d’août vient surtout des services, selon les données que l’Institut de la statistique du Québec a publiées mercredi. Le commerce de gros a perdu 1,8 % en un mois. Dans le même temps, le commerce de détail a progressé de 0,7 %, et la production des industries de biens de 0,4 %.\n\nL’économiste Sonny Scarfone, chez Desjardins, souligne que le recul est concentré dans quelques secteurs. Sur les huit premiers mois de 2026, le Québec conserve une avance de 0,4 % sur la même période de 2025, contre 1,2 % pour le Canada.",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Institut de la statistique du Québec",
+          "url": "https://statistique.quebec.ca/fr/communique/pib-reel-quebec-baisse-0-vigule-1-pourcent-aout-2026",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Études économiques Desjardins",
+          "url": "https://www.desjardins.com/fr/epargne-placements/etudes-economiques/quebec-pib-reel-25-novembre-2026.html",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "download": "media/gdp.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Containers_at_the_Port_of_Montreal.jpg",
+        "credit": "Quintin Soloviev / Wikimedia Commons · WebP",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/deed.en",
+        "alt": "Conteneurs et grues dans le port de Montréal.",
+        "caption": "Photo d’archives (2025-05-23). Conteneurs et grues dans le port de Montréal."
+      },
+      "translations": {
+        "en": {
+          "title": "Wholesale trade weighs on Quebec GDP in August",
+          "summary": "Quebec output slipped 0.1% for the second straight month despite growth in goods-producing industries.",
+          "body": "Services accounted for most of the August decline, figures released Wednesday by Quebec’s statistics institute show. Wholesale trade fell 1.8% in a month. Meanwhile, retail trade grew 0.7% and goods-producing industries raised output by 0.4%.\n\nDesjardins economist Sonny Scarfone noted that the weakness was concentrated in a few sectors. Quebec output over the first eight months of 2026 was still 0.4% above the same period of 2025, compared with a 1.2% gain for Canada.",
+          "photoAlt": "Containers and cranes at the Port of Montreal.",
+          "photoCaption": "Archive photo (2025-05-23). Containers and cranes at the Port of Montreal."
+        },
+        "es": {
+          "title": "El comercio mayorista lastra el PIB de Quebec en agosto",
+          "summary": "La producción provincial bajó un 0,1 % por segundo mes seguido pese al avance de los sectores productores de bienes.",
+          "body": "El descenso de agosto se concentró en los servicios, según los datos publicados el miércoles por el instituto de estadística de Quebec. El comercio mayorista cayó un 1,8 % en un mes. El minorista creció un 0,7 % y la producción de bienes un 0,4 %.\n\nEl economista de Desjardins Sonny Scarfone señaló que la debilidad se concentra en pocos sectores. En los primeros ocho meses de 2026, la producción de Quebec aún superaba en un 0,4 % la del mismo periodo de 2025, frente al 1,2 % en Canadá.",
+          "photoAlt": "Contenedores y grúas en el puerto de Montreal.",
+          "photoCaption": "Foto de archivo (2025-05-23). Contenedores y grúas en el puerto de Montreal."
+        },
+        "ar": {
+          "title": "تجارة الجملة تضغط على الناتج المحلي لكيبيك في أغسطس",
+          "summary": "انخفض إنتاج المقاطعة 0.1% للشهر الثاني على التوالي رغم نمو القطاعات المنتجة للسلع.",
+          "body": "تشير بيانات معهد إحصاء كيبيك الصادرة الأربعاء إلى أن الخدمات كانت وراء معظم التراجع في أغسطس. وانخفضت تجارة الجملة 1.8% خلال شهر، بينما ارتفعت تجارة التجزئة 0.7% وإنتاج القطاعات السلعية 0.4%.\n\nوقال سوني سكارفوني، الاقتصادي لدى ديجاردان، إن الضعف تركز في قطاعات معدودة. وظل إنتاج كيبيك في الأشهر الثمانية الأولى من 2026 أعلى بنسبة 0.4% من الفترة نفسها من 2025، مقابل نمو قدره 1.2% في كندا.",
+          "photoAlt": "حاويات ورافعات في ميناء مونتريال.",
+          "photoCaption": "صورة أرشيفية (2025-05-23). حاويات ورافعات في ميناء مونتريال."
+        },
+        "zh-CN": {
+          "title": "批发业拖累魁北克省8月经济产出",
+          "summary": "尽管商品生产行业增长，全省产出仍连续第二个月下降0.1%。",
+          "body": "魁北克统计研究所周三公布的数据显示，8月的下滑主要来自服务业。批发业环比下降1.8%，同期零售业增长0.7%，商品生产行业产出增长0.4%。\n\n德雅尔丹经济学家桑尼·斯卡尔福内指出，疲弱表现集中在少数行业。2026年前八个月，魁北克省产出仍比2025年同期高0.4%，加拿大全国增幅为1.2%。",
+          "photoAlt": "蒙特利尔港的集装箱和起重机。",
+          "photoCaption": "资料照片 (2025-05-23). 蒙特利尔港的集装箱和起重机。"
+        },
+        "ru": {
+          "title": "Оптовая торговля потянула вниз ВВП Квебека в августе",
+          "summary": "Выпуск в провинции второй месяц подряд снизился на 0,1%, несмотря на рост в отраслях производства товаров.",
+          "body": "Согласно опубликованным в среду данным Института статистики Квебека, основная часть августовского снижения пришлась на услуги. Оптовая торговля за месяц сократилась на 1,8%. Розничная торговля выросла на 0,7%, а выпуск товаров — на 0,4%.\n\nЭкономист Desjardins Сонни Скарфоне отметил, что спад сосредоточен в нескольких секторах. За первые восемь месяцев 2026 года выпуск в Квебеке всё ещё превышал уровень того же периода 2025 года на 0,4%, а по Канаде — на 1,2%.",
+          "photoAlt": "Контейнеры и краны в порту Монреаля.",
+          "photoCaption": "Архивное фото (2025-05-23). Контейнеры и краны в порту Монреаля."
+        },
+        "ko": {
+          "title": "도매업 부진으로 퀘벡주 8월 GDP 하락",
+          "summary": "재화 생산 부문의 성장에도 주 전체 생산은 두 달 연속 0.1% 줄었다.",
+          "body": "퀘벡 통계연구소가 수요일 발표한 자료에 따르면 8월 감소분은 주로 서비스업에서 나왔다. 도매업은 전월보다 1.8% 줄었다. 같은 기간 소매업은 0.7%, 재화 생산 부문은 0.4% 성장했다.\n\n데자르댕의 소니 스카르포네 이코노미스트는 부진이 일부 업종에 집중됐다고 설명했다. 2026년 첫 8개월간 퀘벡주 생산은 2025년 같은 기간보다 0.4% 높았고 캐나다 전체 증가율은 1.2%였다.",
+          "photoAlt": "몬트리올항의 컨테이너와 크레인.",
+          "photoCaption": "자료 사진 (2025-05-23). 몬트리올항의 컨테이너와 크레인."
+        }
+      }
+    },
+    {
+      "eventKey": "hong-kong-exportations-octobre-hausse-electronique",
+      "title": "À Hong Kong, les exportations de biens bondissent de 65,6 % sur un an en octobre",
+      "summary": "La valeur des importations a également progressé. Le territoire a enregistré un déficit commercial de 19,3 milliards de dollars de Hong Kong.",
+      "body": "Hong Kong a exporté pour 764,5 milliards de dollars de Hong Kong de marchandises en octobre, selon les chiffres publiés jeudi par le service des statistiques. La hausse sur un an atteint 65,6 %, après 64,9 % en septembre. Ces taux portent sur la valeur des biens échangés.\n\nLes importations s’élèvent à 783,8 milliards de dollars de Hong Kong, en hausse de 56,2 % sur un an. Selon RTHK, le gouvernement associe la vigueur des exportations à la demande de produits électroniques liée, notamment, à l’intelligence artificielle.",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Census and Statistics Department de Hong Kong",
+          "url": "https://www.info.gov.hk/gia/general/202611/26/P2026112600263p.htm",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "RTHK",
+          "url": "https://news.rthk.hk/rthk/en/component/k2/1879381-20261126.htm",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/hk.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kwai_Tsing_Container_Terminals_28-04-2026.jpg",
+        "credit": "LN9267 / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Terminaux à conteneurs de Kwai Tsing à Hong Kong.",
+        "caption": "Photo d’archives (2026-04-28). Terminaux à conteneurs de Kwai Tsing à Hong Kong."
+      },
+      "translations": {
+        "en": {
+          "title": "Hong Kong goods exports jump 65.6% year on year in October",
+          "summary": "Import values also rose. The territory recorded a merchandise trade deficit of HK$19.3 billion.",
+          "body": "Hong Kong exported HK$764.5 billion worth of goods in October, figures released Thursday by its statistics department show. The year-on-year increase reached 65.6%, after 64.9% in September. These rates measure changes in the value of goods traded.\n\nImports totalled HK$783.8 billion, up 56.2% year on year. RTHK reports that the government links strong exports to demand for electronics driven in part by artificial intelligence.",
+          "photoAlt": "Kwai Tsing container terminals in Hong Kong.",
+          "photoCaption": "Archive photo (2026-04-28). Kwai Tsing container terminals in Hong Kong."
+        },
+        "es": {
+          "title": "El valor de las exportaciones de Hong Kong sube un 65,6 % interanual en octubre",
+          "summary": "También aumentó el valor de las importaciones. El territorio registró un déficit comercial de 19.300 millones de dólares de Hong Kong.",
+          "body": "Hong Kong exportó mercancías por valor de 764.500 millones de dólares hongkoneses en octubre, según los datos publicados el jueves por su departamento de estadística. El aumento interanual alcanzó el 65,6 %, tras el 64,9 % de septiembre. Estas tasas miden el valor de los bienes intercambiados.\n\nLas importaciones sumaron 783.800 millones de dólares hongkoneses, un 56,2 % más que un año antes. Según RTHK, el gobierno vincula el vigor exportador a la demanda de productos electrónicos impulsada, entre otros factores, por la inteligencia artificial.",
+          "photoAlt": "Terminales de contenedores de Kwai Tsing en Hong Kong.",
+          "photoCaption": "Foto de archivo (2026-04-28). Terminales de contenedores de Kwai Tsing en Hong Kong."
+        },
+        "ar": {
+          "title": "قيمة صادرات هونغ كونغ السلعية تقفز 65.6% في أكتوبر على أساس سنوي",
+          "summary": "ارتفعت قيمة الواردات أيضاً، وسجّل الإقليم عجزاً تجارياً قدره 19.3 مليار دولار هونغ كونغي.",
+          "body": "صدّرت هونغ كونغ سلعاً بقيمة 764.5 مليار دولار محلي في أكتوبر، بحسب بيانات دائرة الإحصاء الصادرة الخميس. وبلغت الزيادة السنوية 65.6% بعد 64.9% في سبتمبر. وتقيس هذه النسب التغير في قيمة السلع المتداولة.\n\nوبلغت الواردات 783.8 مليار دولار هونغ كونغي، بزيادة سنوية قدرها 56.2%. وبحسب إذاعة RTHK تعزو الحكومة قوة الصادرات إلى الطلب على الإلكترونيات المرتبط جزئياً بالذكاء الاصطناعي.",
+          "photoAlt": "محطات حاويات كواي تسينغ في هونغ كونغ.",
+          "photoCaption": "صورة أرشيفية (2026-04-28). محطات حاويات كواي تسينغ في هونغ كونغ."
+        },
+        "zh-CN": {
+          "title": "香港10月商品出口货值同比增长65.6%",
+          "summary": "进口货值也有上升，当月录得193亿港元的商品贸易逆差。",
+          "body": "香港政府统计处周四公布，10月商品出口货值为7645亿港元，同比增长65.6%，9月增幅为64.9%。这两个增长率反映的是商品交易金额的变化。\n\n10月进口货值为7838亿港元，同比增长56.2%。据香港电台报道，政府认为出口强劲与电子产品需求有关，人工智能是推动需求的因素之一。",
+          "photoAlt": "香港葵青货柜码头。",
+          "photoCaption": "资料照片 (2026-04-28). 香港葵青货柜码头。"
+        },
+        "ru": {
+          "title": "Стоимость товарного экспорта Гонконга в октябре выросла на 65,6% за год",
+          "summary": "Стоимость импорта также увеличилась. Дефицит торговли товарами составил 19,3 млрд гонконгских долларов.",
+          "body": "В октябре Гонконг экспортировал товары на 764,5 млрд гонконгских долларов, сообщило в четверг статистическое ведомство. Годовой прирост достиг 65,6% после 64,9% в сентябре. Показатели отражают изменение стоимости товаров.\n\nИмпорт составил 783,8 млрд гонконгских долларов, прибавив 56,2% за год. По данным RTHK, правительство связывает устойчивый экспорт со спросом на электронику, который отчасти обусловлен развитием искусственного интеллекта.",
+          "photoAlt": "Контейнерные терминалы Квайцинг в Гонконге.",
+          "photoCaption": "Архивное фото (2026-04-28). Контейнерные терминалы Квайцинг в Гонконге."
+        },
+        "ko": {
+          "title": "홍콩 10월 상품 수출액 전년 대비 65.6% 증가",
+          "summary": "수입액도 증가해 홍콩의 상품 무역수지는 193억 홍콩달러 적자였다.",
+          "body": "홍콩 통계처가 목요일 발표한 자료에 따르면 10월 상품 수출액은 7,645억 홍콩달러였다. 전년 동월 대비 증가율은 9월 64.9%에서 10월 65.6%로 높아졌다. 이 수치는 거래된 상품의 금액 변화를 나타낸다.\n\n수입액은 7,838억 홍콩달러로 전년보다 56.2% 늘었다. 홍콩 공영방송 RTHK에 따르면 정부는 인공지능 관련 수요 등을 배경으로 전자제품 수요가 강했던 점을 수출 호조의 요인으로 꼽았다.",
+          "photoAlt": "홍콩 콰이칭 컨테이너 터미널.",
+          "photoCaption": "자료 사진 (2026-04-28). 홍콩 콰이칭 컨테이너 터미널."
+        }
+      }
+    },
+    {
+      "eventKey": "tokyo-alerte-ambassade-britannique-fraudes-bars",
+      "title": "À Tokyo, l’ambassade britannique alerte les visiteurs sur les fraudes dans les bars",
+      "summary": "Une campagne attire l’attention sur les boissons droguées et les paiements par carte non autorisés dans plusieurs quartiers de la capitale japonaise.",
+      "body": "L’ambassade du Royaume-Uni à Tokyo s’est associée au rappeur britannique Shao Dow pour diffuser un avertissement sur les réseaux sociaux, rapporte le Guardian. Il s’adresse aux visiteurs qui fréquentent les quartiers de sortie, dont Kabukicho, où des clients ont signalé des débits considérables après avoir perdu le souvenir d’une soirée.\n\nDans ses conseils aux voyageurs, le gouvernement britannique indique que des victimes ont découvert des dépenses allant de centaines à des dizaines de milliers de livres. Il recommande de garder sa boisson à l’œil et de se méfier des inconnus qui proposent de conduire les passants dans un bar.",
+      "category": "International",
+      "verified": true,
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/25/british-embassy-tokyo-warning-tourists-drink-spiking-credit-card-fraud",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Gouvernement britannique, conseils aux voyageurs",
+          "url": "https://www.gov.uk/foreign-travel-advice/japan/safety-and-security",
+          "publishedAt": "2013-03-01"
+        }
+      ],
+      "photo": {
+        "download": "media/tok.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kabukicho_Ichibangai_entrance_2021-05-19.jpg",
+        "credit": "Asanagi / Wikimedia Commons · WebP",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Entrée de la rue Ichibangai à Kabukicho, à Tokyo.",
+        "caption": "Photo d’archives (2021-05-19). Entrée de la rue Ichibangai à Kabukicho, à Tokyo."
+      },
+      "translations": {
+        "en": {
+          "title": "British embassy in Tokyo alerts visitors to scams in bars",
+          "summary": "A campaign highlights drink spiking and unauthorised card charges in several nightlife districts of the Japanese capital.",
+          "body": "The British embassy in Tokyo teamed up with British rapper Shao Dow to share a warning on social media, the Guardian reports. It targets visitors to nightlife districts including Kabukicho, where customers have reported substantial charges after losing their memory of a night out.\n\nIn its travel advice, the British government says victims have discovered charges ranging from hundreds to tens of thousands of pounds. It advises keeping an eye on drinks and being wary of strangers offering to lead people into bars.",
+          "photoAlt": "Entrance to Ichibangai Street in Tokyo’s Kabukicho district.",
+          "photoCaption": "Archive photo (2021-05-19). Entrance to Ichibangai Street in Tokyo’s Kabukicho district."
+        },
+        "es": {
+          "title": "La embajada británica en Tokio alerta a los visitantes de estafas en bares",
+          "summary": "Una campaña advierte sobre bebidas adulteradas y cargos no autorizados en tarjetas en varias zonas de ocio nocturno de la capital japonesa.",
+          "body": "La embajada británica en Tokio colaboró con el rapero británico Shao Dow para difundir un aviso en redes sociales, según The Guardian. Se dirige a visitantes de zonas como Kabukicho, donde clientes han denunciado cargos elevados tras perder el recuerdo de una noche.\n\nEn sus consejos de viaje, el gobierno británico indica que algunas víctimas descubrieron cargos de cientos a decenas de miles de libras. Recomienda vigilar la bebida y desconfiar de desconocidos que se ofrecen a guiar a los transeúntes hasta un bar.",
+          "photoAlt": "Entrada de la calle Ichibangai en Kabukicho, Tokio.",
+          "photoCaption": "Foto de archivo (2021-05-19). Entrada de la calle Ichibangai en Kabukicho, Tokio."
+        },
+        "ar": {
+          "title": "السفارة البريطانية في طوكيو تنبّه الزوار إلى عمليات احتيال في الحانات",
+          "summary": "تلفت حملة الانتباه إلى دسّ مواد مخدرة في المشروبات وخصم مبالغ من البطاقات دون إذن في عدة أحياء للسهر بالعاصمة اليابانية.",
+          "body": "تعاونت السفارة البريطانية في طوكيو مع مغني الراب البريطاني شاو داو لنشر تحذير على وسائل التواصل، وفقاً للغارديان. وتخاطب الحملة زوار أحياء السهر ومنها كابوكيتشو، حيث أبلغ زبائن عن خصومات كبيرة بعد فقدان ذاكرة ما جرى خلال سهرة.\n\nوتفيد الحكومة البريطانية في إرشادات السفر بأن ضحايا اكتشفوا نفقات تراوحت بين مئات وعشرات الآلاف من الجنيهات. وتنصح بمراقبة المشروب والحذر من غرباء يعرضون اصطحاب المارة إلى الحانات.",
+          "photoAlt": "مدخل شارع إيتشيبانغاي في حي كابوكيتشو بطوكيو.",
+          "photoCaption": "صورة أرشيفية (2021-05-19). مدخل شارع إيتشيبانغاي في حي كابوكيتشو بطوكيو."
+        },
+        "zh-CN": {
+          "title": "英国驻东京大使馆提醒游客提防酒吧骗局",
+          "summary": "宣传活动提醒游客，日本首都多个夜生活区曾发生饮料被下药和银行卡遭盗刷的情况。",
+          "body": "据《卫报》报道，英国驻东京大使馆与英国说唱歌手邵道合作，在社交媒体发布警示。活动面向歌舞伎町等夜生活区的游客。当地有顾客表示，一晚的记忆消失后发现账户被扣大笔款项。\n\n英国政府在旅行建议中称，有受害者发现账单金额从数百英镑到数万英镑不等。政府提醒游客留意自己的饮料，并警惕主动给路人带路去酒吧的陌生人。",
+          "photoAlt": "东京歌舞伎町一番街入口。",
+          "photoCaption": "资料照片 (2021-05-19). 东京歌舞伎町一番街入口。"
+        },
+        "ru": {
+          "title": "Британское посольство в Токио предупредило туристов о мошенничестве в барах",
+          "summary": "Кампания обращает внимание на подмешивание веществ в напитки и несанкционированные списания с карт в нескольких районах ночной жизни японской столицы.",
+          "body": "Британское посольство в Токио вместе с британским рэпером Шао Доу распространило предупреждение в соцсетях, пишет The Guardian. Оно адресовано посетителям развлекательных районов, включая Кабуки-тё, где люди сообщали о крупных списаниях, не помня событий вечера.\n\nВ рекомендациях путешественникам британское правительство указывает, что пострадавшие обнаруживали расходы от сотен до десятков тысяч фунтов. Оно советует следить за напитками и с осторожностью относиться к незнакомцам, предлагающим проводить прохожих в бар.",
+          "photoAlt": "Вход на улицу Итибангай в токийском районе Кабуки-тё.",
+          "photoCaption": "Архивное фото (2021-05-19). Вход на улицу Итибангай в токийском районе Кабуки-тё."
+        },
+        "ko": {
+          "title": "주일 영국대사관, 도쿄 유흥가 주점 사기 주의 당부",
+          "summary": "도쿄 여러 유흥가에서 음료에 약물을 타거나 카드로 무단 결제하는 피해에 주의하라는 캠페인이다.",
+          "body": "가디언에 따르면 도쿄의 영국대사관은 영국 래퍼 샤오 다우와 함께 소셜미디어를 통해 경고를 전했다. 대상은 가부키초 등 유흥가 방문객이다. 이 지역에서는 저녁에 있었던 일을 기억하지 못한 채 거액의 결제 내역을 발견했다는 신고가 있었다.\n\n영국 정부는 여행 안내에서 피해자들이 수백 파운드에서 수만 파운드까지 청구된 사실을 뒤늦게 확인했다고 밝혔다. 음료를 잘 살피고 술집까지 안내하겠다는 낯선 사람을 경계하라고 권고했다.",
+          "photoAlt": "도쿄 가부키초 이치반가이 입구.",
+          "photoCaption": "자료 사진 (2021-05-19). 도쿄 가부키초 이치반가이 입구."
+        }
+      }
+    },
+    {
+      "eventKey": "coupe-davis-bologne-double-patten-skupski-demi-finale",
+      "title": "La Grande-Bretagne élimine l’Allemagne en double et rejoint les demi-finales de Coupe Davis",
+      "summary": "À Bologne, Henry Patten et Neal Skupski ont remporté le match décisif contre Kevin Krawietz et Tim Pütz.",
+      "body": "Le quart de finale était encore à égalité après les simples lorsqu’Henry Patten et Neal Skupski sont entrés sur le court jeudi. Selon la fédération britannique de tennis, ils ont battu la paire allemande 6-2, 7-6, remportant le jeu décisif de la deuxième manche par huit points à six.\n\nLa Grande-Bretagne gagne ainsi la rencontre deux victoires à une. La BBC rappelle que la sélection britannique attendait depuis 2019 de retrouver le dernier carré de la Coupe Davis.",
+      "category": "Sports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Lawn Tennis Association",
+          "url": "https://www.lta.org.uk/fan-zone/davis-cup/news/final-8-great-britain-vs-germany-results-updates/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.com/sport/tennis/articles/c5m2lvevrk1mo",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/dav.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neal_Skupski_%2850009624068%29.jpg",
+        "credit": "Carine06 / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+        "alt": "Neal Skupski, raquette en main, sur la terre battue de Roland-Garros.",
+        "caption": "Photo d’archives (2019-05-28). Neal Skupski, raquette en main, sur la terre battue de Roland-Garros."
+      },
+      "translations": {
+        "en": {
+          "title": "Britain beat Germany in doubles to reach Davis Cup semi-finals",
+          "summary": "Henry Patten and Neal Skupski won the deciding match against Kevin Krawietz and Tim Pütz in Bologna.",
+          "body": "The quarter-final was level after the singles when Henry Patten and Neal Skupski took the court Thursday. The British tennis federation says they beat the German pair 6-2, 7-6, taking the second-set tie-break eight points to six.\n\nBritain therefore won the tie by two matches to one. The BBC notes that the British team had not reached the last four of the Davis Cup since 2019.",
+          "photoAlt": "Neal Skupski holding a racket on the clay at Roland-Garros.",
+          "photoCaption": "Archive photo (2019-05-28). Neal Skupski holding a racket on the clay at Roland-Garros."
+        },
+        "es": {
+          "title": "Gran Bretaña elimina a Alemania en dobles y alcanza las semifinales de la Copa Davis",
+          "summary": "Henry Patten y Neal Skupski ganaron en Bolonia el partido decisivo ante Kevin Krawietz y Tim Pütz.",
+          "body": "Los cuartos de final estaban empatados tras los individuales cuando Henry Patten y Neal Skupski entraron en pista el jueves. Según la federación británica, vencieron a la pareja alemana por 6-2 y 7-6, con un desempate de ocho puntos a seis en el segundo set.\n\nGran Bretaña se impuso así por dos partidos a uno. La BBC recuerda que la selección británica no alcanzaba las semifinales de la Copa Davis desde 2019.",
+          "photoAlt": "Neal Skupski con la raqueta en la tierra batida de Roland Garros.",
+          "photoCaption": "Foto de archivo (2019-05-28). Neal Skupski con la raqueta en la tierra batida de Roland Garros."
+        },
+        "ar": {
+          "title": "بريطانيا تتخطى ألمانيا في الزوجي وتبلغ نصف نهائي كأس ديفيس",
+          "summary": "فاز هنري باتن ونيل سكوبسكي بالمباراة الحاسمة أمام كيفن كرافيتس وتيم بوتس في بولونيا.",
+          "body": "بقي ربع النهائي متعادلاً بعد مباراتي الفردي حين دخل باتن وسكوبسكي الملعب الخميس. وبحسب الاتحاد البريطاني للتنس فاز الثنائي على منافسيه الألمانيين 6-2 و7-6، وحسم الشوط الفاصل في المجموعة الثانية بثماني نقاط مقابل ست.\n\nوفازت بريطانيا بذلك بمباراتين مقابل واحدة. وتذكر بي بي سي أن المنتخب البريطاني لم يصل إلى المربع الأخير في كأس ديفيس منذ 2019.",
+          "photoAlt": "نيل سكوبسكي ممسكاً بمضربه على الملعب الترابي في رولان غاروس.",
+          "photoCaption": "صورة أرشيفية (2019-05-28). نيل سكوبسكي ممسكاً بمضربه على الملعب الترابي في رولان غاروس."
+        },
+        "zh-CN": {
+          "title": "英国队凭双打淘汰德国队，晋级戴维斯杯四强",
+          "summary": "亨利·帕滕和尼尔·斯库普斯基在博洛尼亚赢下与凯文·克拉维茨和蒂姆·普茨的决胜场。",
+          "body": "周四帕滕与斯库普斯基登场时，两队在四分之一决赛的单打过后战平。英国网球协会称，英国组合以6比2、7比6获胜，第二盘抢七比分为8比6。\n\n英国队由此以总比分2比1取胜。英国广播公司指出，这是英国队自2019年以来首次打入戴维斯杯四强。",
+          "photoAlt": "尼尔·斯库普斯基手持球拍站在罗兰加洛斯的红土场上。",
+          "photoCaption": "资料照片 (2019-05-28). 尼尔·斯库普斯基手持球拍站在罗兰加洛斯的红土场上。"
+        },
+        "ru": {
+          "title": "Британия победила Германию в парном матче и вышла в полуфинал Кубка Дэвиса",
+          "summary": "Генри Паттен и Нил Скупски выиграли решающий матч в Болонье у Кевина Кравица и Тима Пюца.",
+          "body": "Когда Паттен и Скупски в четверг вышли на корт, счёт в четвертьфинале после одиночных матчей был равным. По данным британской теннисной федерации, они обыграли немецкую пару 6:2, 7:6, взяв тай-брейк второго сета со счётом 8:6.\n\nБритания выиграла встречу со счётом 2:1. Как отмечает Би-би-си, британцы не выходили в полуфинал Кубка Дэвиса с 2019 года.",
+          "photoAlt": "Нил Скупски с ракеткой на грунте «Ролан Гаррос».",
+          "photoCaption": "Архивное фото (2019-05-28). Нил Скупски с ракеткой на грунте «Ролан Гаррос»."
+        },
+        "ko": {
+          "title": "영국, 복식에서 독일 꺾고 데이비스컵 4강 진출",
+          "summary": "헨리 패튼과 닐 스컵스키가 볼로냐에서 케빈 크라비츠와 팀 퓌츠를 상대로 승부를 결정지었다.",
+          "body": "목요일 패튼과 스컵스키가 코트에 나설 때까지 8강전은 단식을 마친 뒤 동점이었다. 영국테니스협회에 따르면 두 선수는 독일 조를 6-2, 7-6으로 꺾었다. 2세트 타이브레이크 점수는 8-6이었다.\n\n영국은 이로써 종합 전적 2승 1패로 승리했다. BBC에 따르면 영국이 데이비스컵 4강에 오른 것은 2019년 이후 처음이다.",
+          "photoAlt": "롤랑가로스 클레이 코트에서 라켓을 든 닐 스컵스키.",
+          "photoCaption": "자료 사진 (2019-05-28). 롤랑가로스 클레이 코트에서 라켓을 든 닐 스컵스키."
+        }
+      }
+    },
+    {
+      "eventKey": "york-snooker-tirage-selby-selt-premier-tour",
+      "title": "À York, Mark Selby commencera sa défense du titre face à Matt Selt",
+      "summary": "Le tirage du Championnat du Royaume-Uni de snooker oppose le tenant du titre à un joueur passé par les qualifications.",
+      "body": "Mark Selby affrontera Matt Selt samedi au Barbican de York lors de la séance d’ouverture du Championnat du Royaume-Uni. Selon la BBC, Selt a obtenu sa place en battant le Gallois Jak Jones, joueur le mieux classé parmi les participants aux qualifications.\n\nLe World Snooker Tour avait réservé seize places du tableau final aux qualifiés de Leicester, qui rejoignent les seize premiers du classement. La compétition à York se déroule du 28 novembre au 6 décembre.",
+      "category": "Sports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.com/sport/snooker/articles/cwkgmdryrv4ro",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "World Snooker Tour",
+          "url": "https://www.wst.tv/news/2026/september/24/tickets-on-sale-for-uk-championship-qualifiers-in-leicester/",
+          "publishedAt": "2026-09-24"
+        },
+        {
+          "name": "Snooker.org, tableau et résultats des qualifications",
+          "url": "https://www.snooker.org/res/index.asp?event=2561",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "download": "media/snook.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centre_Barbican_York_1.jpg",
+        "credit": "Chabe01 / Wikimedia Commons · WebP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "alt": "Façade du Barbican de York, salle du championnat.",
+        "caption": "Photo d’archives (2018-07-28). Façade du Barbican de York, salle du championnat."
+      },
+      "translations": {
+        "en": {
+          "title": "Mark Selby to open title defence against Matt Selt in York",
+          "summary": "The UK Championship snooker draw pairs the defending champion with a player who came through qualifying.",
+          "body": "Mark Selby will play Matt Selt on Saturday in the opening session of the UK Championship at York Barbican. The BBC reports that Selt earned his place by beating Welshman Jak Jones, the highest-ranked player in qualifying.\n\nThe World Snooker Tour set aside sixteen places in the main draw for the Leicester qualifiers, who join the top sixteen in the rankings. The York event runs from November 28 to December 6.",
+          "photoAlt": "Facade of York Barbican, the championship venue.",
+          "photoCaption": "Archive photo (2018-07-28). Facade of York Barbican, the championship venue."
+        },
+        "es": {
+          "title": "Mark Selby iniciará la defensa del título ante Matt Selt en York",
+          "summary": "El sorteo del Campeonato del Reino Unido de snooker empareja al defensor del título con un jugador procedente de la fase previa.",
+          "body": "Mark Selby se enfrentará a Matt Selt el sábado en la sesión inaugural del campeonato en el Barbican de York. Según la BBC, Selt consiguió el pase al batir al galés Jak Jones, el jugador mejor clasificado de la fase previa.\n\nEl World Snooker Tour reservó dieciséis plazas del cuadro principal a los clasificados en Leicester, que se unen a los dieciséis primeros del ranking. La competición en York tendrá lugar del 28 de noviembre al 6 de diciembre.",
+          "photoAlt": "Fachada del Barbican de York, sede del campeonato.",
+          "photoCaption": "Foto de archivo (2018-07-28). Fachada del Barbican de York, sede del campeonato."
+        },
+        "ar": {
+          "title": "مارك سيلبي يستهل الدفاع عن لقبه أمام مات سيلت في يورك",
+          "summary": "وضعت قرعة بطولة المملكة المتحدة للسنوكر حامل اللقب في مواجهة لاعب صعد من التصفيات.",
+          "body": "يواجه مارك سيلبي مات سيلت السبت في الجلسة الافتتاحية للبطولة في قاعة باربيكان بمدينة يورك. وبحسب بي بي سي تأهل سيلت بفوزه على الويلزي جاك جونز، صاحب أعلى ترتيب بين المشاركين في التصفيات.\n\nوخصصت جولة السنوكر العالمية ستة عشر مقعداً في الجدول الرئيسي للمتأهلين من ليستر لينضموا إلى أصحاب المراكز الستة عشر الأولى. وتقام منافسات يورك من 28 نوفمبر إلى 6 ديسمبر.",
+          "photoAlt": "واجهة قاعة باربيكان في يورك حيث تقام البطولة.",
+          "photoCaption": "صورة أرشيفية (2018-07-28). واجهة قاعة باربيكان في يورك حيث تقام البطولة."
+        },
+        "zh-CN": {
+          "title": "塞尔比将在约克迎战塞尔特，开启卫冕之路",
+          "summary": "斯诺克英国锦标赛抽签结果出炉，卫冕冠军首轮将对阵一名资格赛选手。",
+          "body": "马克·塞尔比将在周六约克巴比肯中心举行的揭幕场次对阵马修·塞尔特。据英国广播公司报道，塞尔特击败了资格赛中排名最高的选手、威尔士人杰克·琼斯，取得正赛席位。\n\n世界斯诺克巡回赛为莱斯特资格赛的晋级者预留了16个正赛席位，他们将与排名前16位的选手同场竞技。约克站比赛从11月28日持续至12月6日。",
+          "photoAlt": "举办赛事的约克巴比肯中心正面。",
+          "photoCaption": "资料照片 (2018-07-28). 举办赛事的约克巴比肯中心正面。"
+        },
+        "ru": {
+          "title": "Марк Селби начнёт защиту титула в Йорке матчем с Мэттом Селтом",
+          "summary": "Жеребьёвка чемпионата Великобритании по снукеру свела действующего чемпиона с участником, прошедшим отбор.",
+          "body": "В субботу Марк Селби сыграет с Мэттом Селтом в стартовой сессии чемпионата в йоркском «Барбикане». По данным Би-би-си, Селт завоевал путёвку, победив валлийца Джака Джонса — игрока с самым высоким рейтингом в квалификации.\n\nWorld Snooker Tour выделил шестнадцать мест в основной сетке участникам, прошедшим отбор в Лестере. Они присоединятся к первым шестнадцати игрокам рейтинга. Турнир в Йорке пройдёт с 28 ноября по 6 декабря.",
+          "photoAlt": "Фасад йоркского «Барбикана», где пройдёт чемпионат.",
+          "photoCaption": "Архивное фото (2018-07-28). Фасад йоркского «Барбикана», где пройдёт чемпионат."
+        },
+        "ko": {
+          "title": "마크 셀비, 요크에서 맷 셀트 상대로 타이틀 방어 시작",
+          "summary": "스누커 UK 챔피언십 대진 추첨 결과 디펜딩 챔피언이 예선을 통과한 선수와 맞붙는다.",
+          "body": "마크 셀비는 토요일 요크 바비칸에서 열리는 개막 세션에서 맷 셀트와 경기한다. BBC에 따르면 셀트는 예선 참가자 중 순위가 가장 높았던 웨일스의 잭 존스를 꺾고 본선에 올랐다.\n\n월드 스누커 투어는 레스터 예선 통과자들에게 본선 16자리를 배정했다. 이들이 랭킹 상위 16명과 합류한다. 요크 대회는 11월 28일부터 12월 6일까지 열린다.",
+          "photoAlt": "대회 장소인 요크 바비칸의 정면.",
+          "photoCaption": "자료 사진 (2018-07-28). 대회 장소인 요크 바비칸의 정면."
+        }
+      }
+    }
+  ]
+}
