@@ -1,0 +1,157 @@
+{
+  "hour": "2026-11-27T06",
+  "articles": [
+    {
+      "eventKey": "pont-quebec-trois-nuits-reouverture-avenue-hotels",
+      "category": "Québec",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Ministère des Transports et de la Mobilité durable du Québec",
+          "url": "https://www.newswire.ca/fr/news-releases/reamenagement-au-nord-des-ponts-pierre-laporte-et-de-quebec-ouverture-de-l-avenue-des-hotels-et-fermetures-de-nuit-du-pont-de-quebec-845664637.html",
+          "publishedAt": "2026-11-26T17:56:00-05:00"
+        },
+        {
+          "name": "TVA Nouvelles — réouverture de l’avenue des Hôtels",
+          "url": "https://www.tvanouvelles.ca/2026/11/26/travaux-routiers--ouverture-de-lavenue-des-hotels-apres-un-tres-long-reamenagement",
+          "publishedAt": "2026-11-26T18:34:00-05:00"
+        }
+      ],
+      "photo": {
+        "subject": "pont de Québec",
+        "context": "Saint-Laurent",
+        "capturedOn": "2026-08-16",
+        "download": "media/pont.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pont_de_Quebec_in_2026.jpg",
+        "credit": "Hayden Soloviev / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "Des voitures s’engagent sous les bâches de chantier à l’entrée du pont de Québec.",
+        "caption": "Archives, 16 août 2026. Des voitures circulent sur le pont de Québec, alors en réparation au-dessus du Saint-Laurent."
+      },
+      "translations": {
+        "en": {
+          "title": "Quebec Bridge to close for three nights as Avenue des Hôtels reopens",
+          "summary": "In Quebec City, the first sections of Avenue des Hôtels are due to reopen Friday morning. Road closures on the bridge start Sunday night.",
+          "body": "The Quebec Bridge, which crosses the St. Lawrence between Quebec City and Lévis, is scheduled to close to drivers in both directions on the nights of November 29 and December 2 and 3. Each closure will run from 9 p.m. to 5:30 the following morning, according to a notice issued Thursday by Quebec’s transport ministry.\n\nThe north shore is on a different timetable. As TVA Nouvelles reports, sections of Avenue des Hôtels and some sidewalks are due to reopen in two stages, on the morning of November 27 and then on December 4. The ministry still expects intermittent disruptions on the avenue and Route 175 in 2027.",
+          "photoAlt": "Cars approach the construction sheeting at the entrance to the Quebec Bridge.",
+          "photoCaption": "Archive, August 16, 2026. Cars cross the Quebec Bridge over the St. Lawrence while repairs are underway."
+        },
+        "es": {
+          "title": "El puente de Quebec cerrará tres noches mientras reabre la avenida des Hôtels",
+          "summary": "En la ciudad de Quebec, los primeros tramos de la avenida des Hôtels reabrirán el viernes por la mañana. Los cierres del puente comenzarán el domingo por la noche.",
+          "body": "El puente de Quebec, que cruza el río San Lorenzo entre Quebec y Lévis, cerrará al tráfico en ambos sentidos las noches del 29 de noviembre y del 2 y 3 de diciembre. En los tres casos, el cierre será de las 21:00 a las 5:30 de la mañana siguiente, según el aviso difundido el jueves por el Ministerio de Transportes de Quebec.\n\nEn la orilla norte, el calendario es distinto. Según TVA Nouvelles, varios tramos de la avenida des Hôtels y algunas aceras reabrirán en dos etapas, la mañana del 27 de noviembre y el 4 de diciembre. El ministerio aún prevé restricciones puntuales en la avenida y en la ruta 175 en 2027.",
+          "photoAlt": "Varios vehículos se acercan a las lonas de obra en la entrada del puente de Quebec.",
+          "photoCaption": "Archivo, 16 de agosto de 2026. Varios vehículos circulan por el puente de Quebec sobre el río San Lorenzo durante las reparaciones."
+        },
+        "ar": {
+          "title": "إغلاق جسر كيبيك ثلاث ليالٍ بالتزامن مع إعادة فتح شارع ديز أوتيل",
+          "summary": "من المقرر إعادة فتح أولى مقاطع شارع ديز أوتيل في مدينة كيبيك صباح الجمعة، فيما يبدأ إغلاق الجسر أمام السيارات مساء الأحد.",
+          "body": "من المقرر إغلاق جسر كيبيك، الذي يعبر نهر سان لوران بين مدينتي كيبيك وليفي، أمام السيارات في الاتجاهين ليالي 29 نوفمبر و2 و3 ديسمبر. ويبدأ كل إغلاق في التاسعة مساءً وينتهي في الخامسة والنصف من صباح اليوم التالي، وفق إشعار أصدرته وزارة النقل في كيبيك الخميس.\n\nأما على الضفة الشمالية، فيختلف الجدول الزمني. وأفادت قناة «تي في آ نوفيل» بأن مقاطع من شارع ديز أوتيل وبعض الأرصفة ستفتح على مرحلتين، صباح 27 نوفمبر ثم في 4 ديسمبر. وتتوقع الوزارة قيوداً مرورية متقطعة على الشارع والطريق 175 خلال 2027.",
+          "photoAlt": "سيارات تقترب من الأغطية الواقية عند مدخل جسر كيبيك.",
+          "photoCaption": "من الأرشيف، 16 أغسطس 2026. سيارات تعبر جسر كيبيك فوق نهر سان لوران خلال أعمال إصلاحه."
+        },
+        "zh-CN": {
+          "title": "魁北克大桥将封路三个夜间，酒店大道分段恢复通行",
+          "summary": "魁北克市酒店大道首批路段预计周五早上开放。大桥将于周日晚间开始实施夜间封路。",
+          "body": "魁北克大桥横跨圣劳伦斯河，连接魁北克市和莱维市。根据魁北克省交通部门周四发布的通知，11月29日、12月2日和3日晚间，大桥将禁止机动车双向通行，每次从晚上9时持续至次日早上5时30分。\n\n北岸道路另有安排。据TVA新闻报道，酒店大道部分路段和人行道将分两批开放，第一批定于11月27日上午，第二批定于12月4日。交通部门预计，2027年这条大道和175号公路仍会间歇实施交通限制。",
+          "photoAlt": "车辆驶向魁北克大桥入口处的施工围布。",
+          "photoCaption": "档案照片，2026年8月16日。圣劳伦斯河上的魁北克大桥正在维修，车辆从桥上驶过。"
+        },
+        "ru": {
+          "title": "Квебекский мост закроют на три ночи, а авеню-дез-Отель начнут открывать",
+          "summary": "В городе Квебеке первые участки авеню-дез-Отель планируют открыть в пятницу утром. Ночные ограничения на мосту начнутся в воскресенье вечером.",
+          "body": "Квебекский мост через реку Святого Лаврентия между Квебеком и Леви закроют для автомобилей в обоих направлениях на три ночи — 29 ноября, 2 и 3 декабря. По сообщению министерства транспорта Квебека, опубликованному в четверг, движение каждый раз будут перекрывать с 21:00 до 5:30 следующего утра.\n\nНа северном берегу действует другой график. Как сообщает TVA Nouvelles, участки авеню-дез-Отель и некоторые тротуары откроют в два этапа — утром 27 ноября и затем 4 декабря. В 2027 году министерство ожидает отдельных ограничений на этой улице и на трассе 175.",
+          "photoAlt": "Машины приближаются к строительному укрытию у въезда на Квебекский мост.",
+          "photoCaption": "Архив, 16 августа 2026 года. Машины едут по Квебекскому мосту через реку Святого Лаврентия во время ремонта."
+        },
+        "ko": {
+          "title": "퀘벡교 사흘간 야간 통제…데조텔 도로는 단계적 재개통",
+          "summary": "퀘벡시 데조텔 도로의 첫 구간은 금요일 아침 다시 열릴 예정이다. 다리의 차량 통제는 일요일 밤 시작된다.",
+          "body": "퀘벡시와 레비 사이에서 세인트로렌스강을 가로지르는 퀘벡교는 11월 29일과 12월 2일, 3일 밤 양방향 차량 통행이 금지된다. 퀘벡주 교통부가 목요일 발표한 안내에 따르면 세 차례 모두 오후 9시부터 다음 날 오전 5시 30분까지 통제한다.\n\n북쪽 강변 도로는 일정이 다르다. TVA 뉴스는 데조텔 도로 일부 구간과 인도 일부가 11월 27일 아침과 12월 4일 두 차례에 걸쳐 다시 열릴 예정이라고 보도했다. 교통부는 2027년에도 이 도로와 175번 도로에서 간헐적으로 통행을 제한할 것으로 보고 있다.",
+          "photoAlt": "차량들이 퀘벡교 입구의 공사용 가림막 쪽으로 다가간다.",
+          "photoCaption": "2026년 8월 16일 자료 사진. 보수 공사가 진행 중인 세인트로렌스강의 퀘벡교 위로 차들이 다니고 있다."
+        }
+      },
+      "title": "Le pont de Québec fermera trois nuits pendant la réouverture de l’avenue des Hôtels",
+      "summary": "À Québec, les premiers tronçons de l’avenue des Hôtels doivent rouvrir vendredi matin. Sur le pont, les fermetures routières commenceront dimanche soir.",
+      "body": "Le pont de Québec, qui enjambe le Saint-Laurent entre Québec et Lévis, doit fermer aux automobilistes dans les deux sens les soirs du 29 novembre et des 2 et 3 décembre. Les trois fermetures suivront le même horaire, de 21 h à 5 h 30 le lendemain, selon l’avis du ministère des Transports et de la Mobilité durable diffusé jeudi.\n\nSur la rive nord, le calendrier est différent. Comme le rapporte TVA Nouvelles, des sections de l’avenue des Hôtels et certains trottoirs doivent rouvrir en deux étapes, le matin du 27 novembre puis le 4 décembre. Le Ministère prévoit encore des entraves ponctuelles sur l’avenue et sur la route 175 en 2027."
+    },
+    {
+      "eventKey": "australie-gaz-obligation-approvisionnement-interieur-2028",
+      "category": "Australie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Gouvernement australien — communiqué conjoint des ministres",
+          "url": "https://minister.dcceew.gov.au/bowen/media-releases/joint-media-release-australian-gas-reserved-australians",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Tess Ikonomou, The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/26/coalition-to-team-up-with-labor-to-pass-20-gas-reservation-scheme-for-australias-largest-exporters",
+          "publishedAt": "2026-11-26T09:33:00Z"
+        }
+      ],
+      "photo": {
+        "subject": "Curtis Island",
+        "context": "Queensland",
+        "capturedOn": "2013-06-10",
+        "download": "media/gas.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curtis_Island.jpg",
+        "credit": "Lock the Gate Alliance / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Vue aérienne des chantiers gaziers de Curtis Island, avec deux réservoirs circulaires près du rivage.",
+        "caption": "Archives, 10 juin 2013. Construction des installations de gaz naturel liquéfié de Curtis Island, dans le Queensland."
+      },
+      "translations": {
+        "en": {
+          "title": "Australia passes law reserving gas for the domestic market from 2028",
+          "summary": "Liquefied natural gas exporters covered by the scheme will have to supply the Australian market with a volume equivalent to up to 20% of their exports.",
+          "body": "Australia’s parliament on Friday, November 27, passed a scheme requiring the exporters it covers to supply the domestic market. The government says export licensing will begin on January 1, 2027. The obligation to supply gas to Australian customers will start a year later, on January 1, 2028.\n\nIn Queensland, the liquefied natural gas facilities on Curtis Island illustrate the scale of the infrastructure built for exports. The reform aims to make supply more predictable for households and industry. Resources Minister Madeleine King expects downward pressure on prices but did not put a figure on the expected reduction, the Guardian reported.",
+          "photoAlt": "Aerial view of gas facilities under construction on Curtis Island, with two circular tanks near the shore.",
+          "photoCaption": "Archive, June 10, 2013. Liquefied natural gas facilities under construction on Curtis Island, Queensland."
+        },
+        "es": {
+          "title": "Australia aprueba una ley para reservar gas al mercado interno a partir de 2028",
+          "summary": "Los exportadores de gas natural licuado sujetos a la medida deberán suministrar al mercado australiano un volumen equivalente a hasta el 20 % de sus exportaciones.",
+          "body": "El Parlamento australiano aprobó el viernes 27 de noviembre el régimen que obligará a los exportadores afectados a abastecer el mercado interno. Según el Gobierno, el sistema de licencias de exportación comenzará el 1 de enero de 2027. La obligación de suministrar gas a los clientes australianos entrará en vigor un año después, el 1 de enero de 2028.\n\nEn Queensland, las instalaciones de gas natural licuado de la isla de Curtis ilustran la escala de la infraestructura destinada a la exportación. La reforma busca dar mayor previsibilidad al suministro para hogares e industrias. La ministra de Recursos, Madeleine King, espera que bajen los precios, aunque no cuantificó la reducción prevista, según The Guardian.",
+          "photoAlt": "Vista aérea de las obras de las instalaciones de gas en la isla de Curtis, con dos depósitos circulares cerca de la orilla.",
+          "photoCaption": "Archivo, 10 de junio de 2013. Construcción de instalaciones de gas natural licuado en la isla de Curtis, Queensland."
+        },
+        "ar": {
+          "title": "أستراليا تقر قانوناً يخصص الغاز للسوق المحلية اعتباراً من 2028",
+          "summary": "سيتعين على مصدري الغاز الطبيعي المسال المشمولين بالنظام توريد كمية تعادل ما يصل إلى 20% من صادراتهم إلى السوق الأسترالية.",
+          "body": "أقر البرلمان الأسترالي الجمعة 27 نوفمبر نظاماً يلزم المصدرين المشمولين به بتزويد السوق المحلية بالغاز. وبحسب الحكومة، يبدأ العمل بتراخيص التصدير في 1 يناير 2027. وبعد عام، أي في 1 يناير 2028، يبدأ الالتزام بتوريد الغاز للعملاء الأستراليين.\n\nفي كوينزلاند، تعكس منشآت الغاز الطبيعي المسال في جزيرة كورتيس حجم البنية التحتية المخصصة للتصدير. ويهدف الإصلاح إلى جعل الإمدادات أكثر قابلية للتوقع للأسر والقطاع الصناعي. ونقلت صحيفة الغارديان عن وزيرة الموارد مادلين كينغ أنها تتوقع أن يسهم النظام في خفض الأسعار من دون أن تحدد مقدار الانخفاض المتوقع.",
+          "photoAlt": "منظر جوي لمواقع إنشاء منشآت الغاز في جزيرة كورتيس، ويظهر خزانان دائريان قرب الشاطئ.",
+          "photoCaption": "من الأرشيف، 10 يونيو 2013. منشآت الغاز الطبيعي المسال قيد البناء في جزيرة كورتيس بولاية كوينزلاند."
+        },
+        "zh-CN": {
+          "title": "澳大利亚通过新法，2028年起为国内市场预留天然气",
+          "summary": "纳入计划的液化天然气出口商须向澳大利亚市场供应天然气，供应量最高相当于其出口量的20%。",
+          "body": "11月27日星期五，澳大利亚议会通过法案，要求相关出口商为国内市场供气。政府表示，出口许可制度将于2027年1月1日启动。面向澳大利亚客户的供气义务则从一年后的2028年1月1日起实施。\n\n昆士兰州柯蒂斯岛的液化天然气设施体现了澳大利亚为出口而建的基础设施规模。改革旨在让家庭和工业用户更有把握安排用气。据《卫报》报道，资源部长玛德琳·金预计新制度将对气价产生下行压力，但没有给出预期降幅。",
+          "photoAlt": "从空中俯瞰柯蒂斯岛的天然气设施工地，岸边可见两座圆形储罐。",
+          "photoCaption": "档案照片，2013年6月10日。昆士兰州柯蒂斯岛正在建设液化天然气设施。"
+        },
+        "ru": {
+          "title": "Австралия приняла закон о резервировании газа для внутреннего рынка с 2028 года",
+          "summary": "Экспортёры сжиженного природного газа, подпадающие под действие закона, должны будут поставлять на австралийский рынок объём до 20 % от своего экспорта.",
+          "body": "В пятницу, 27 ноября, парламент Австралии принял закон, обязывающий подпадающих под него экспортёров снабжать внутренний рынок газом. По данным правительства, лицензирование экспорта начнётся 1 января 2027 года. Обязанность поставлять газ австралийским потребителям вступит в силу год спустя, 1 января 2028 года.\n\nВ Квинсленде комплексы по сжижению природного газа на острове Кертис показывают масштаб инфраструктуры, созданной для экспорта. Реформа призвана сделать поставки более предсказуемыми для населения и промышленности. Как сообщает The Guardian, министр ресурсов Мадлен Кинг ожидает, что новая система будет способствовать снижению цен, но не назвала конкретную величину.",
+          "photoAlt": "Вид с воздуха на строительство газовых объектов на острове Кертис. У берега видны два круглых резервуара.",
+          "photoCaption": "Архив, 10 июня 2013 года. Строительство комплексов по сжижению природного газа на острове Кертис в Квинсленде."
+        },
+        "ko": {
+          "title": "호주, 2028년부터 내수용 가스 공급 의무화하는 법안 통과",
+          "summary": "제도 적용을 받는 액화천연가스 수출업체는 수출량의 최대 20%에 해당하는 물량을 호주 시장에 공급해야 한다.",
+          "body": "호주 의회는 11월 27일 금요일 해당 수출업체에 국내 가스 공급 의무를 부과하는 법안을 통과시켰다. 정부에 따르면 수출 허가제는 2027년 1월 1일 시작된다. 호주 고객에게 가스를 공급할 의무는 1년 뒤인 2028년 1월 1일부터 적용된다.\n\n퀸즐랜드주 커티스섬의 액화천연가스 시설은 수출을 위해 건설된 기반 시설의 규모를 보여준다. 이번 개혁은 가정과 산업체가 가스 수급을 더 안정적으로 내다볼 수 있도록 하는 데 목적이 있다. 가디언에 따르면 매들린 킹 자원부 장관은 가격 하락 압력을 기대한다면서도 예상 인하 폭은 제시하지 않았다.",
+          "photoAlt": "커티스섬 가스 시설 건설 현장을 공중에서 본 모습. 해안 가까이 원형 저장 탱크 두 개가 보인다.",
+          "photoCaption": "2013년 6월 10일 자료 사진. 퀸즐랜드주 커티스섬에서 액화천연가스 시설을 건설하는 모습."
+        }
+      },
+      "title": "L’Australie adopte une loi réservant du gaz au marché intérieur à partir de 2028",
+      "summary": "Les exportateurs de gaz naturel liquéfié visés devront fournir au marché australien un volume pouvant atteindre 20 % de leurs exportations.",
+      "body": "Le Parlement australien a adopté vendredi 27 novembre le dispositif qui obligera les exportateurs concernés à approvisionner le marché intérieur. Selon le gouvernement, le régime de licences d’exportation débutera le 1er janvier 2027. L’obligation de fournir du gaz aux clients australiens commencera un an plus tard, le 1er janvier 2028.\n\nDans le Queensland, les installations de gaz naturel liquéfié de Curtis Island illustrent l’ampleur des infrastructures tournées vers l’exportation. La réforme vise à rendre l’approvisionnement plus prévisible pour les ménages et les industriels. La ministre des Ressources, Madeleine King, s’attend à une pression à la baisse sur les prix, mais n’a pas chiffré la réduction attendue, rapporte le Guardian."
+    }
+  ]
+}
