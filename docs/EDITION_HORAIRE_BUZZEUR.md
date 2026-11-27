@@ -34,15 +34,37 @@ Les tables, médias, réglages et éditions de BUZZEUR sont indépendants de ceu
 
 Privilégier les faits des dernières heures puis des dernières 24 à 48 heures, selon les fuseaux et les sources locales. Consulter médias locaux reconnus, institutions, musées, universités, observatoires, autorités municipales et annonces originales. Une exposition, une découverte ancienne ou un dossier explicatif peut être intéressant, mais doit garder ses dates réelles et être présenté comme tel. Les archives ne constituent pas artificiellement quinze nouveautés quotidiennes.
 
-## People et musique : priorités permanentes
+## People, hits et événements : priorités permanentes
 
-La demande éditoriale du 27 novembre 2026 ajoute les sujets people (« gossip ») vérifiés, le kompa haïtien, les scènes d’Haïti et des diasporas, la Caraïbe et les collaborations latino. Suivre notamment Joé Dwèt Filé, Michaël Brun et BAYO, ainsi que les albums, singles, concerts et récompenses annoncés par les artistes et leurs représentants officiels. Ces thèmes complètent la veille insolite internationale.
+La ligne BUZZEUR réunit insolite, people (« gossip ») vérifié, culture pop et musique populaire internationale. Suivre les scènes dominicaine, haïtienne et de ses diasporas, américaine, française, brésilienne, allemande, arabes et coréenne, dont la K-pop. Conserver l’attention au kompa, à la Caraïbe, à Joé Dwèt Filé, à Michaël Brun/BAYO et aux collaborations latino. Ces thèmes complètent la veille insolite internationale.
 
-Dans une édition de quinze articles, viser jusqu’à cinq sujets people lorsque des faits nouveaux documentés le permettent, et réserver une place aux nouveautés musicales. Ce sont des priorités, pas des quotas qui autorisent les doublons ou les rumeurs. Une annonce familiale rendue publique, une anecdote racontée par l’artiste, une apparition ou une collaboration confirmée peuvent alimenter la rubrique Stars. Une rumeur privée ne devient pas un fait par multiplication des reprises.
+### Répartition éditoriale
 
-Pour la musique, distinguer sortie annoncée, titre déjà disponible, réédition physique et album inédit. Vérifier de nouveau les dates chez l’artiste, le label ou la billetterie avant chaque livraison ; ne jamais prédire qu’un morceau sera un tube. Distinguer certification commerciale, classement et trophée remis par une cérémonie. Conserver tous les interprètes crédités. « Una Locura » appartient à ENOC (2020) et réunit Ozuna, J Balvin et Chencho Corleone. L’édition BAYO du 22 novembre 2026 s’est tenue à Little Haiti, dans la ville de Miami ; ne pas la déplacer dans la municipalité de North Miami.
+Faire tourner les artistes, pays, genres et angles d’une édition à l’autre. Dans la limite de quinze articles au maximum, viser jusqu’à cinq sujets people si des faits nouveaux documentés le permettent et réserver plusieurs places à la musique et aux événements. Aucune édition n’a à représenter toutes les scènes simultanément. Le nombre est un objectif : ne pas produire de doublon, de rumeur ou de remplissage. Un article peut croiser plusieurs thèmes. Rechercher aussi dans les langues locales pour ne pas limiter la sélection aux artistes déjà très couverts par les médias anglophones ou francophones.
 
-Les articles déjà publiés conservent leur date et leur identifiant. Corriger un fait existant à partir de nouvelles preuves par le portail et son historique ; l’agent ne remplace pas une correction manuelle et ne republie pas un ancien sujet comme s’il était nouveau.
+### People et gossip
+
+Partir de déclarations publiques, annonces des artistes ou représentants, apparitions, œuvres, collaborations, récompenses et anecdotes vérifiables. Attribuer chaque information et conserver la différence entre une annonce, une réaction et une information non confirmée. Écarter les accusations privées, insinuations et romances ou conflits inventés ; plusieurs reprises d’une rumeur ne la confirment pas. Un titre accrocheur ne doit pas dépasser les preuves disponibles.
+
+### Hits, mégahits et nostalgie
+
+Couvrir les titres qui progressent, les chansons qui cartonnent, les grands succès de catalogue, les seuils de vues et les rétrospectives originales. Pour qualifier un succès actuel, préciser le classement ou la mesure, le territoire, la période et la source. Distinguer les vues d’une vidéo précise, les vues agrégées, les écoutes, les ventes, les certifications et les trophées. Pour un milliard ou plusieurs milliards de vues, ouvrir le compteur ou l’annonce officielle de la plateforme et consigner la date de vérification ; ne jamais additionner arbitrairement versions, remixes et vidéos. Aucun compteur ne doit être inventé ou présenté comme actuel sur la base d’une vieille capture.
+
+Les dossiers nostalgie indiquent la période réelle et l’angle rétrospectif. Ne pas présenter une ancienne sortie comme une nouveauté. Vérifier titre, orthographe, tous les interprètes crédités, date de sortie initiale et date du clip : elles peuvent différer selon les pays. La sélection demandée le 27 novembre 2026 (Gangnam Style, Balada, Hangover, Party Rock Anthem, Replay, Down, Do You Remember, Whatcha Say, Kiss Me Thru the Phone, What You Got, Airplanes, Stereo Hearts et Mirrors) couvre 2008–2013, environ treize à dix-huit ans avant 2026, et non uniformément dix à quinze ans. Elle ne constitue pas une liste de titres tous milliardaires. Ne pas recopier les paroles.
+
+### Albums, singles, tournées et événements
+
+Suivre albums et singles à venir, tournées annoncées, grands concerts, festivals, événements musicaux et culturels, ainsi que les bilans de tournées passées. Vérifier date, ville, salle, artiste, organisateur et état de l’annonce auprès de l’artiste, du label, du promoteur, de la salle ou de la billetterie officielle. Distinguer nouvel album, réédition, sortie numérique, édition physique, simple teaser et date confirmée. Ne pas prédire qu’une chanson sera un tube. Rechercher les reports, annulations et changements de distribution avant livraison.
+
+Pour un bilan, distinguer dates annoncées et concerts effectivement tenus. Ne pas inventer fréquentation, recettes, bénéfices ou concerts complets ; attribuer les chiffres documentés et préciser leur périmètre. Une recette brute ne représente pas le revenu personnel de l’artiste. Les réactions du public doivent être attribuées sans transformer quelques publications en opinion générale.
+
+Couvrir le Super Bowl sous ses angles événement, spectacle de la mi-temps, artistes, musique et culture pop. Vérifier l’édition, la date, le stade, le programme et les artistes auprès de la NFL, de l’organisateur ou des partenaires officiels. Séparer annonces confirmées, rumeurs et rétrospectives ; ne pas réutiliser la programmation d’une ancienne édition comme celle de la prochaine.
+
+### Continuité et corrections
+
+Conserver les faits vérifiés précédemment : « Una Locura » appartient à ENOC (2020) et réunit Ozuna, J Balvin et Chencho Corleone. L’édition BAYO du 22 novembre 2026 s’est tenue à Little Haiti, dans la ville de Miami ; ne pas la déplacer dans la municipalité de North Miami.
+
+Les articles déjà publiés gardent leur identifiant et leur date. Corriger un fait existant à partir de nouvelles preuves par le portail et son historique ; l’agent ne remplace pas une correction manuelle et ne republie pas un ancien sujet comme s’il était nouveau. Les neuf traductions intégrales, les sources, les photos réelles réutilisables et leurs légendes restent obligatoires pour tous ces formats.
 
 ## Vérifier et écrire
 
