@@ -1,0 +1,81 @@
+{
+  "hour": "2026-11-27T12-thematique",
+  "articles": [
+    {
+      "eventKey": "cloud-one-us-air-force-intrusion-reuters-novembre-2026",
+      "category": "États-Unis",
+      "title": "Cloud One : une intrusion dans le cloud militaire américain rapportée par Reuters",
+      "summary": "Une enquête publiée le 27 novembre fait état d’un piratage de la plateforme de l’US Air Force. La nature et l’ampleur d’un éventuel vol de données restent inconnues.",
+      "body": "Reuters rapporte vendredi 27 novembre 2026 une intrusion dans Cloud One, découverte lors d’une modernisation récente. Trois personnes proches du dossier évoquent une compromission. Des migrations et des mises à jour auraient été suspendues ; selon une source, l’US Cyber Command a été sollicité. L’US Air Force refuse de commenter la sécurité de systèmes précis. Les auteurs et l’existence d’une exfiltration demeurent inconnus.\n\nLe programme Cloud One occupe une place importante dans la modernisation informatique militaire. Dans ses résultats financiers du 17 février 2026, Leidos indiquait avoir obtenu un contrat potentiel de six ans, évalué à 455 millions de dollars américains, pour Cloud One Next. L’entreprise y décrit une infrastructure regroupant plusieurs fournisseurs et des services communs destinés aux applications militaires.\n\nLa distinction entre accès illicite et fuite de données est essentielle. À ce stade, les informations disponibles ne permettent pas d’établir qu’un dossier de personnel, des informations logistiques ou des données de défense ont été effectivement dérobés. La documentation de Leidos confirme le contexte du programme, pas l’incident rapporté par Reuters. Aucun bilan officiel de la compromission n’a été trouvé lors de cette vérification.\n\nLa photographie d’archives montre un technicien de l’US Air Force à Morón, en Espagne, en avril 2024. Elle illustre les infrastructures informatiques militaires et ne représente pas le piratage.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Reuters — enquête du 27 novembre",
+          "url": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/",
+          "publishedAt": "2026-11-27T11:01:00Z"
+        },
+        {
+          "name": "Leidos — résultats et contrats",
+          "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-posts-strong-fourth-quarter-and-fiscal-year-2025-results",
+          "publishedAt": "2026-02-17"
+        }
+      ],
+      "photo": {
+        "download": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Keeping_Mor%C3%B3n_AB_connected_%288343835%29.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keeping_Mor%C3%B3n_AB_connected_(8343835).jpg",
+        "credit": "U.S. Air Force / Eve Daugherty",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force",
+        "alt": "Un technicien de l’US Air Force dans une salle de serveurs à Morón.",
+        "caption": "Archives : un technicien de l’US Air Force à Morón, en Espagne, le 12 avril 2024. Illustration sans lien établi avec l’intrusion rapportée.",
+        "subject": "technicien de l’US Air Force",
+        "context": "US Air Force",
+        "capturedOn": "2024-04-12"
+      },
+      "translations": {
+        "en": {
+          "title": "Cloud One: Reuters reports breach of US military cloud platform",
+          "summary": "A November 27 investigation reports an intrusion into the US Air Force platform. Whether any data was stolen, and the extent of any theft, remain unknown.",
+          "body": "Reuters reported on Friday, November 27, 2026, that an intrusion into Cloud One was detected during a recent upgrade. Three people familiar with the matter described a compromise. Migrations and updates were reportedly suspended; one source said US Cyber Command had been called in. The US Air Force declined to discuss the security of specific systems. The perpetrators and any data exfiltration remain unknown.\n\nCloud One plays an important role in military IT modernization. In its February 17, 2026 financial results, Leidos disclosed a potential six-year, US$455 million contract for Cloud One Next. The company described a multi-provider infrastructure and shared services for military applications.\n\nUnauthorized access and a data leak are not the same thing. Available information does not establish that personnel records, logistics information or defense data were actually stolen. Leidos's documentation confirms the program context, not the incident reported by Reuters. No official assessment of the compromise was found during this verification.\n\nThe archive photograph shows a US Air Force technician at Morón, Spain, in April 2024. It illustrates military IT infrastructure and does not depict the breach.",
+          "photoAlt": "A US Air Force technician in a server room at Morón.",
+          "photoCaption": "Archive: a US Air Force technician at Morón, Spain, April 12, 2024. No established connection to the reported intrusion."
+        },
+        "es": {
+          "title": "Cloud One: Reuters informa de una intrusión en la nube militar estadounidense",
+          "summary": "Una investigación del 27 de noviembre informa de un acceso ilícito a la plataforma de la Fuerza Aérea. Se desconoce si hubo robo de datos y su posible alcance.",
+          "body": "Reuters informó el viernes 27 de noviembre de 2026 de una intrusión en Cloud One detectada durante una modernización reciente. Tres personas familiarizadas con el asunto describieron un acceso ilícito. Según las fuentes, se suspendieron migraciones y actualizaciones, y una de ellas afirmó que se recurrió al Mando Cibernético de Estados Unidos. La Fuerza Aérea declinó comentar la seguridad de sistemas específicos. Se desconoce quiénes fueron los responsables y si hubo extracción de datos.\n\nCloud One desempeña un papel importante en la modernización informática militar. En sus resultados financieros del 17 de febrero de 2026, Leidos anunció un contrato potencial de seis años por 455 millones de dólares estadounidenses para Cloud One Next. La compañía describió una infraestructura de varios proveedores y servicios comunes para aplicaciones militares.\n\nEl acceso ilícito no equivale a una filtración. La información disponible no permite establecer que se hayan sustraído expedientes de personal, información logística o datos de defensa. La documentación de Leidos confirma el contexto del programa, no el incidente del que informa Reuters. No se encontró un balance oficial de la intrusión durante esta verificación.\n\nLa fotografía de archivo muestra a un técnico de la Fuerza Aérea estadounidense en Morón, España, en abril de 2024. Ilustra la infraestructura informática militar, no el ataque.",
+          "photoAlt": "Un técnico de la Fuerza Aérea estadounidense en una sala de servidores de Morón.",
+          "photoCaption": "Archivo: técnico de la Fuerza Aérea estadounidense en Morón, España, el 12 de abril de 2024. Sin relación establecida con la intrusión descrita."
+        },
+        "ar": {
+          "title": "كلاود وان: رويترز تفيد بحدوث اختراق لمنصة سحابية عسكرية أمريكية",
+          "summary": "كشف تحقيق نشر في 27 نوفمبر عن اختراق لمنصة القوات الجوية الأمريكية. ولم يتضح ما إذا كانت بيانات قد سرقت أو مدى أي تسريب محتمل.",
+          "body": "أفادت رويترز يوم الجمعة 27 نوفمبر 2026 بأن اختراقاً لمنصة كلاود وان اكتُشف خلال عملية تحديث حديثة. ونقلت الوكالة عن ثلاثة أشخاص مطلعين على القضية معلومات عن الاختراق. وبحسب المصادر، عُلقت عمليات نقل التطبيقات وتحديثها، وأشار أحدها إلى الاستعانة بالقيادة السيبرانية الأمريكية. وامتنعت القوات الجوية الأمريكية عن التعليق على أمن أنظمة محددة. ولا تزال هوية المسؤولين عن الاختراق وما إذا كانت بيانات قد سُرقت مجهولتين.\n\nتؤدي كلاود وان دوراً مهماً في تحديث البنية المعلوماتية العسكرية. وفي نتائجها المالية المنشورة في 17 فبراير 2026، أعلنت شركة ليدوس عن عقد محتمل لمدة ست سنوات بقيمة 455 مليون دولار أمريكي لمشروع كلاود وان نكست. ووصفت الشركة بنية تحتية تعتمد على عدة مزودين وخدمات مشتركة للتطبيقات العسكرية.\n\nيختلف الوصول غير المصرح به عن تسريب البيانات. ولا تثبت المعلومات المتاحة حالياً سرقة ملفات الموظفين أو معلومات الإمداد أو بيانات الدفاع. وتؤكد وثائق ليدوس سياق البرنامج، لا الاختراق الذي أوردته رويترز. ولم يُعثر خلال هذا التحقق على تقييم رسمي لحجم الاختراق.\n\nتظهر الصورة الأرشيفية فنياً في القوات الجوية الأمريكية في مورون بإسبانيا في أبريل 2024. وهي صورة توضيحية للبنية المعلوماتية العسكرية ولا تظهر الهجوم.",
+          "photoAlt": "فني في القوات الجوية الأمريكية داخل غرفة خوادم في مورون.",
+          "photoCaption": "صورة أرشيفية لفني في القوات الجوية الأمريكية في مورون بإسبانيا، 12 أبريل 2024. لا علاقة مثبتة لها بالاختراق المذكور."
+        },
+        "zh-CN": {
+          "title": "路透社报道美国空军 Cloud One 云平台遭入侵",
+          "summary": "11月27日公布的一项调查称，美国空军的云平台遭到入侵。目前尚不清楚是否有数据被窃取及可能的泄露范围。",
+          "body": "路透社于2026年11月27日星期五报道，Cloud One 平台在近期升级过程中被发现遭到入侵。三名知情人士描述了这一事件。据消息人士称，部分迁移和更新工作已暂停，其中一人称美国网络司令部已被请求介入。美国空军拒绝评论具体系统的安全情况。入侵者身份及是否有数据被窃取仍不清楚。\n\nCloud One 在军事信息技术现代化中发挥重要作用。Leidos 公司在2026年2月17日公布的财务业绩中披露，该公司获得了一项为期六年、潜在价值4.55亿美元的 Cloud One Next 合同。公司介绍，该项目涉及多个供应商的基础设施及面向军事应用的共享服务。\n\n未经授权的访问并不等于数据泄露。现有信息无法证明人员档案、后勤信息或国防数据确实被窃取。Leidos 的文件证实的是该项目的背景，而非路透社报道的入侵事件。本次核查未找到关于入侵影响的官方评估。\n\n档案照片拍摄于2024年4月，显示一名美国空军技术人员在西班牙莫龙基地工作。该照片仅用于说明军事信息技术基础设施，并非此次入侵的现场照片。",
+          "photoAlt": "美国空军技术人员在莫龙基地的服务器机房工作。",
+          "photoCaption": "档案照片：2024年4月12日，一名美国空军技术人员在西班牙莫龙基地。与所报道的入侵没有已证实的关联。"
+        },
+        "ru": {
+          "title": "Cloud One: Reuters сообщает о взломе облачной платформы ВВС США",
+          "summary": "Расследование от 27 ноября сообщает о проникновении в платформу ВВС США. Неизвестно, были ли похищены данные и каков возможный масштаб утечки.",
+          "body": "В пятницу, 27 ноября 2026 года, Reuters сообщило о проникновении в Cloud One, обнаруженном во время недавней модернизации. Три осведомлённых источника рассказали о компрометации. По их сведениям, миграция и обновления были приостановлены; один источник заявил о привлечении Киберкомандования США. ВВС США отказались комментировать безопасность конкретных систем. Личность злоумышленников и наличие утечки данных остаются неизвестными.\n\nCloud One играет важную роль в модернизации военной ИТ-инфраструктуры. В финансовом отчёте от 17 февраля 2026 года Leidos сообщила о потенциальном шестилетнем контракте на 455 миллионов долларов США по Cloud One Next. Компания описала инфраструктуру нескольких поставщиков и общие сервисы для военных приложений.\n\nНесанкционированный доступ не равнозначен утечке данных. Имеющаяся информация не доказывает, что кадровые документы, логистические сведения или оборонные данные действительно были похищены. Документы Leidos подтверждают контекст программы, а не инцидент, о котором сообщает Reuters. При проверке не обнаружено официальной оценки последствий компрометации.\n\nАрхивный снимок показывает специалиста ВВС США в Мороне, Испания, в апреле 2024 года. Он иллюстрирует военную ИТ-инфраструктуру, а не сам взлом.",
+          "photoAlt": "Специалист ВВС США в серверной комнате на базе Морон.",
+          "photoCaption": "Архив: специалист ВВС США в Мороне, Испания, 12 апреля 2024 года. Связь с описанным взломом не установлена."
+        },
+        "ko": {
+          "title": "클라우드 원: 로이터, 미 공군 클라우드 플랫폼 침입 보도",
+          "summary": "11월 27일 공개된 취재 보도에 따르면 미 공군 클라우드 플랫폼이 침해됐다. 실제 데이터 유출 여부와 피해 범위는 확인되지 않았다.",
+          "body": "로이터는 2026년 11월 27일 금요일 최근 시스템 개편 과정에서 클라우드 원 침입이 발견됐다고 보도했다. 사안에 정통한 세 명이 침해 사실을 전했다. 소식통에 따르면 이전 및 업데이트 작업이 중단됐으며, 한 소식통은 미국 사이버사령부에 지원을 요청했다고 밝혔다. 미 공군은 특정 시스템의 보안 상태에 관한 논평을 거부했다. 공격자의 신원과 데이터 유출 여부는 알려지지 않았다.\n\n클라우드 원은 군 정보기술 현대화에서 중요한 역할을 한다. 레이도스는 2026년 2월 17일 공개한 실적 자료에서 클라우드 원 넥스트 관련 최대 6년, 4억 5,500만 달러 규모의 계약을 확보했다고 밝혔다. 회사는 여러 공급업체의 인프라와 군용 애플리케이션을 위한 공통 서비스를 설명했다.\n\n무단 접근과 데이터 유출은 동일하지 않다. 현재 확보된 정보로는 인사 기록, 군수 정보 또는 국방 데이터가 실제로 탈취됐다고 단정할 수 없다. 레이도스 자료는 사업의 배경을 확인해 줄 뿐 로이터가 보도한 침입 사건을 확인하지 않는다. 이번 검증에서 피해에 관한 공식 평가 자료는 발견되지 않았다.\n\n자료 사진은 2024년 4월 스페인 모론 기지의 미 공군 기술자를 보여준다. 군 정보기술 인프라를 설명하기 위한 사진이며 이번 침입 장면은 아니다.",
+          "photoAlt": "모론 기지 서버실에서 근무하는 미 공군 기술자.",
+          "photoCaption": "자료 사진: 2024년 4월 12일 스페인 모론 기지의 미 공군 기술자. 보도된 침입과의 관련성은 확인되지 않았다."
+        }
+      }
+    }
+  ]
+}
