@@ -1,0 +1,856 @@
+{
+  "hour": "2026-11-27T17",
+  "startedAt": "2026-11-27T18:04:06.571248+00:00",
+  "results": [
+    {
+      "rank": 6,
+      "status": "published",
+      "id": "banane-baie-fraise-botanique",
+      "url": "https://buzzeur.byrvox.today/article/?id=banane-baie-fraise-botanique&lang=fr",
+      "verified": true,
+      "title": "La banane est une baie, mais la fraise n’en est pas une",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/7fa8d71948c4d68f3572c29e6202d234e03ab422d97e119055e57e1881b23a26.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=banane-baie-fraise-botanique&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=banane-baie-fraise-botanique&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=banane-baie-fraise-botanique&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=banane-baie-fraise-botanique&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=banane-baie-fraise-botanique&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=banane-baie-fraise-botanique&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=banane-baie-fraise-botanique&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=banane-baie-fraise-botanique&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=banane-baie-fraise-botanique&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 5,
+      "status": "published",
+      "id": "poulpe-trois-coeurs-sang-bleu",
+      "url": "https://buzzeur.byrvox.today/article/?id=poulpe-trois-coeurs-sang-bleu&lang=fr",
+      "verified": true,
+      "title": "Trois cœurs et du sang bleu : le poulpe a vraiment une anatomie hors norme",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/9979a9f1a252eac3c5b511d63f3fedf045762a2f78e1c6ba96e2ab86ef938972.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=poulpe-trois-coeurs-sang-bleu&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=poulpe-trois-coeurs-sang-bleu&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=poulpe-trois-coeurs-sang-bleu&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=poulpe-trois-coeurs-sang-bleu&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=poulpe-trois-coeurs-sang-bleu&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=poulpe-trois-coeurs-sang-bleu&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=poulpe-trois-coeurs-sang-bleu&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=poulpe-trois-coeurs-sang-bleu&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=poulpe-trois-coeurs-sang-bleu&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 4,
+      "status": "published",
+      "id": "venus-rotation-plus-longue-annee",
+      "url": "https://buzzeur.byrvox.today/article/?id=venus-rotation-plus-longue-annee&lang=fr",
+      "verified": true,
+      "title": "Sur Vénus, une rotation dure plus longtemps qu’une année",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/b3c8e46388ec694a398b7735b7147de05b4de5f5a4e4745bc9e7e061c90ccac2.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=venus-rotation-plus-longue-annee&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=venus-rotation-plus-longue-annee&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=venus-rotation-plus-longue-annee&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=venus-rotation-plus-longue-annee&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=venus-rotation-plus-longue-annee&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=venus-rotation-plus-longue-annee&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=venus-rotation-plus-longue-annee&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=venus-rotation-plus-longue-annee&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=venus-rotation-plus-longue-annee&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 3,
+      "status": "published",
+      "id": "rings-of-power-final-saison-3-saison-4-confirmee",
+      "url": "https://buzzeur.byrvox.today/article/?id=rings-of-power-final-saison-3-saison-4-confirmee&lang=fr",
+      "verified": true,
+      "title": "The Rings of Power : le final de la saison 3 n’est pas la fin, une saison 4 est confirmée",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/180445c5259e28995eac043e12907e85b643d05f735ea980a69dba72ea854baa.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rings-of-power-final-saison-3-saison-4-confirmee&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rings-of-power-final-saison-3-saison-4-confirmee&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rings-of-power-final-saison-3-saison-4-confirmee&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rings-of-power-final-saison-3-saison-4-confirmee&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rings-of-power-final-saison-3-saison-4-confirmee&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rings-of-power-final-saison-3-saison-4-confirmee&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rings-of-power-final-saison-3-saison-4-confirmee&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rings-of-power-final-saison-3-saison-4-confirmee&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rings-of-power-final-saison-3-saison-4-confirmee&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 2,
+      "status": "published",
+      "id": "ultron-visionquest-james-spader-retour-marvel",
+      "url": "https://buzzeur.byrvox.today/article/?id=ultron-visionquest-james-spader-retour-marvel&lang=fr",
+      "verified": true,
+      "title": "Ultron revient dans VisionQuest : James Spader s’invite dans la tête de Vision",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/374ba5d7c1e60dfa0d81d27260352658d1b120828102f18e54ddf3cc27bf9eb1.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ultron-visionquest-james-spader-retour-marvel&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ultron-visionquest-james-spader-retour-marvel&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ultron-visionquest-james-spader-retour-marvel&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ultron-visionquest-james-spader-retour-marvel&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ultron-visionquest-james-spader-retour-marvel&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ultron-visionquest-james-spader-retour-marvel&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ultron-visionquest-james-spader-retour-marvel&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ultron-visionquest-james-spader-retour-marvel&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ultron-visionquest-james-spader-retour-marvel&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 1,
+      "status": "published",
+      "id": "the-hunting-wives-saison-2-netflix-novembre-2026",
+      "url": "https://buzzeur.byrvox.today/article/?id=the-hunting-wives-saison-2-netflix-novembre-2026&lang=fr",
+      "verified": true,
+      "title": "The Hunting Wives : la saison 2 est là, et la saison 3 est déjà confirmée",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/602898ae1622812d4a7412c0c90d4de61e451f18ef8a8e84a3094fc1af82a573.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=the-hunting-wives-saison-2-netflix-novembre-2026&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=the-hunting-wives-saison-2-netflix-novembre-2026&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=the-hunting-wives-saison-2-netflix-novembre-2026&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=the-hunting-wives-saison-2-netflix-novembre-2026&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=the-hunting-wives-saison-2-netflix-novembre-2026&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=the-hunting-wives-saison-2-netflix-novembre-2026&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=the-hunting-wives-saison-2-netflix-novembre-2026&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=the-hunting-wives-saison-2-netflix-novembre-2026&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=the-hunting-wives-saison-2-netflix-novembre-2026&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    }
+  ],
+  "errors": [],
+  "completedAt": "2026-11-27T18:04:57.524847+00:00",
+  "newlyPublished": 6,
+  "recorded": 0,
+  "duplicates": 0,
+  "verifiedPublic": 6,
+  "request": "Rédiger et publier sur BUZZEUR trois articles sur The Hunting Wives, Ultron/VisionQuest et le final de The Rings of Power, puis des articles de faits insolites.",
+  "regionsConsulted": [
+    "International et francophonie : actualité officielle des plateformes et sources scientifiques internationales"
+  ],
+  "publishedSubjects": [
+    {
+      "id": "the-hunting-wives-saison-2-netflix-novembre-2026",
+      "title": "The Hunting Wives : la saison 2 est là, et la saison 3 est déjà confirmée",
+      "category": "cine-series",
+      "sources": [
+        {
+          "title": "The Hunting Wives Season 2: Every Juicy Detail You Need to Know",
+          "publisher": "Netflix Tudum",
+          "url": "https://www.netflix.com/tudum/articles/the-hunting-wives-season-2-cast-release-date-news",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "title": "The Hunting Wives Season 2 Trailer",
+          "publisher": "Netflix Tudum",
+          "url": "https://www.netflix.com/tudum/articles/the-hunting-wives-season-2-trailer",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "title": "The Hunting Wives Is Saddling Up for Season 3",
+          "publisher": "Netflix Tudum",
+          "url": "https://www.netflix.com/tudum/articles/the-hunting-wives-season-3",
+          "publishedAt": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "ultron-visionquest-james-spader-retour-marvel",
+      "title": "Ultron revient dans VisionQuest : James Spader s’invite dans la tête de Vision",
+      "category": "cine-series",
+      "sources": [
+        {
+          "title": "Ultron Gets Inside Vision’s Head in Marvel Television’s VisionQuest",
+          "publisher": "Disney+",
+          "url": "https://www.disneyplus.com/explore/articles/marvel-visionquest",
+          "publishedAt": "2026-11-23"
+        },
+        {
+          "title": "Paul Bettany and James Spader on Vision’s Journey of Self-Discovery",
+          "publisher": "The Walt Disney Company",
+          "url": "https://thewaltdisneycompany.com/news/marvel-television-visionquest-disney-plus/",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "title": "Marvel Television’s VisionQuest Ends on a Series High",
+          "publisher": "The Walt Disney Company",
+          "url": "https://thewaltdisneycompany.com/news/visionquest-finale-series-high/",
+          "publishedAt": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "rings-of-power-final-saison-3-saison-4-confirmee",
+      "title": "The Rings of Power : le final de la saison 3 n’est pas la fin, une saison 4 est confirmée",
+      "category": "cine-series",
+      "sources": [
+        {
+          "title": "The Lord of the Rings: The Rings of Power Season 4 is confirmed. Here’s what we know.",
+          "publisher": "Amazon",
+          "url": "https://www.aboutamazon.com/news/entertainment/lord-of-the-rings-rings-of-power-season-4-prime-video",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "title": "How to watch The Lord of the Rings: The Rings of Power Season 3, streaming now on Prime Video",
+          "publisher": "Amazon",
+          "url": "https://www.aboutamazon.com/news/entertainment/lord-of-the-rings-rings-of-power-season-3-prime-video",
+          "publishedAt": "2025-02-13"
+        },
+        {
+          "title": "Bientôt la fin des Anneaux de Pouvoir ? Les créateurs nous répondent",
+          "publisher": "Le Journal du Geek",
+          "url": "https://www.journaldugeek.com/2026/11/20/bientot-la-fin-des-anneaux-de-pouvoir-les-createurs-nous-repondent/",
+          "publishedAt": "2026-11-20"
+        },
+        {
+          "title": "Amazon MGM Studios takes The Rings of Power to a fourth season",
+          "publisher": "C21Media",
+          "url": "https://c21media.net/news/amazon-mgm-studios-takes-the-rings-of-power-to-a-fourth-season/",
+          "publishedAt": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "venus-rotation-plus-longue-annee",
+      "title": "Sur Vénus, une rotation dure plus longtemps qu’une année",
+      "category": "insolite",
+      "sources": [
+        {
+          "title": "Venus Facts",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/venus/venus-facts/"
+        },
+        {
+          "title": "Planet Venus",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/planet-venus.html"
+        },
+        {
+          "title": "NASA climate modeling suggests Venus may have been habitable",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/earth/climate-change/nasa-climate-modeling-suggests-venus-may-have-been-habitable/"
+        },
+        {
+          "title": "Newly-Processed Views of Venus from Mariner 10",
+          "publisher": "NASA/JPL-Caltech",
+          "url": "https://science.nasa.gov/resource/newly-processed-views-of-venus-from-mariner-10/",
+          "publishedAt": "2020-06-08"
+        }
+      ]
+    },
+    {
+      "id": "poulpe-trois-coeurs-sang-bleu",
+      "title": "Trois cœurs et du sang bleu : le poulpe a vraiment une anatomie hors norme",
+      "category": "animaux",
+      "sources": [
+        {
+          "title": "Octopuses, Squids, and Relatives",
+          "publisher": "Smithsonian Ocean",
+          "url": "https://ocean.si.edu/ocean-life/invertebrates/octopuses-squids-and-relatives"
+        },
+        {
+          "title": "Octopuses keep surprising us — here are eight examples how",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/octopuses-keep-surprising-us-here-are-eight-examples-how.html"
+        },
+        {
+          "title": "Octopuses",
+          "publisher": "National Wildlife Federation",
+          "url": "https://www.nwf.org/Home/Educational-Resources/Wildlife-Guide/Invertebrates/Octopuses"
+        }
+      ]
+    },
+    {
+      "id": "banane-baie-fraise-botanique",
+      "title": "La banane est une baie, mais la fraise n’en est pas une",
+      "category": "insolite",
+      "sources": [
+        {
+          "title": "Cavendish banana",
+          "publisher": "Royal Botanic Gardens, Kew",
+          "url": "https://www.kew.org/plants/cavendish-banana"
+        },
+        {
+          "title": "Fragaria vesca — General information",
+          "publisher": "Kew Science, Plants of the World Online",
+          "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30074127-2/general-information"
+        },
+        {
+          "title": "Musa spp. (Musaceae)",
+          "publisher": "Japan International Research Center for Agricultural Sciences",
+          "url": "https://www.jircas.go.jp/en/database/thaivege/076"
+        }
+      ]
+    }
+  ],
+  "discardedSubjects": [
+    {
+      "subject": "Les excréments cubiques du wombat",
+      "reason": "Sujet déjà publié le 26 novembre 2026 ; remplacé par la classification botanique de la banane."
+    }
+  ],
+  "validation": {
+    "hour": "2026-11-27T17",
+    "checkedAt": "2026-11-27T18:00:34.729913+00:00",
+    "articles": [
+      {
+        "eventKey": "the-hunting-wives-saison-2-netflix-novembre-2026",
+        "sourceFile": "hunting_wives_publish.json",
+        "languages": {
+          "fr": {
+            "paragraphs": 6,
+            "characters": 2051
+          },
+          "en": {
+            "paragraphs": 6,
+            "characters": 1921
+          },
+          "es": {
+            "paragraphs": 6,
+            "characters": 2055
+          },
+          "it": {
+            "paragraphs": 6,
+            "characters": 2004
+          },
+          "zh": {
+            "paragraphs": 6,
+            "characters": 642
+          },
+          "ko": {
+            "paragraphs": 6,
+            "characters": 927
+          },
+          "ru": {
+            "paragraphs": 6,
+            "characters": 1867
+          },
+          "ar": {
+            "paragraphs": 6,
+            "characters": 1569
+          },
+          "sw": {
+            "paragraphs": 6,
+            "characters": 2078
+          }
+        },
+        "photoBytes": 106267,
+        "photoSHA256": "602898ae1622812d4a7412c0c90d4de61e451f18ef8a8e84a3094fc1af82a573",
+        "existingIdDuplicate": false,
+        "existingPrimarySourceDuplicate": false
+      },
+      {
+        "eventKey": "ultron-visionquest-james-spader-retour-marvel",
+        "sourceFile": "visionquest_publish.json",
+        "languages": {
+          "fr": {
+            "paragraphs": 5,
+            "characters": 2141
+          },
+          "en": {
+            "paragraphs": 5,
+            "characters": 1881
+          },
+          "es": {
+            "paragraphs": 5,
+            "characters": 2004
+          },
+          "it": {
+            "paragraphs": 5,
+            "characters": 2022
+          },
+          "zh": {
+            "paragraphs": 5,
+            "characters": 669
+          },
+          "ko": {
+            "paragraphs": 5,
+            "characters": 979
+          },
+          "ru": {
+            "paragraphs": 5,
+            "characters": 1910
+          },
+          "ar": {
+            "paragraphs": 5,
+            "characters": 1562
+          },
+          "sw": {
+            "paragraphs": 5,
+            "characters": 1965
+          }
+        },
+        "photoBytes": 107143,
+        "photoSHA256": "374ba5d7c1e60dfa0d81d27260352658d1b120828102f18e54ddf3cc27bf9eb1",
+        "existingIdDuplicate": false,
+        "existingPrimarySourceDuplicate": false
+      },
+      {
+        "eventKey": "rings-of-power-final-saison-3-saison-4-confirmee",
+        "sourceFile": "rings_power_publish.json",
+        "languages": {
+          "fr": {
+            "paragraphs": 6,
+            "characters": 2091
+          },
+          "en": {
+            "paragraphs": 6,
+            "characters": 1966
+          },
+          "es": {
+            "paragraphs": 6,
+            "characters": 2059
+          },
+          "it": {
+            "paragraphs": 6,
+            "characters": 2034
+          },
+          "zh": {
+            "paragraphs": 6,
+            "characters": 624
+          },
+          "ko": {
+            "paragraphs": 6,
+            "characters": 994
+          },
+          "ru": {
+            "paragraphs": 6,
+            "characters": 1943
+          },
+          "ar": {
+            "paragraphs": 6,
+            "characters": 1681
+          },
+          "sw": {
+            "paragraphs": 6,
+            "characters": 2126
+          }
+        },
+        "photoBytes": 210191,
+        "photoSHA256": "180445c5259e28995eac043e12907e85b643d05f735ea980a69dba72ea854baa",
+        "existingIdDuplicate": false,
+        "existingPrimarySourceDuplicate": false
+      },
+      {
+        "eventKey": "venus-rotation-plus-longue-annee",
+        "sourceFile": "insolite_3_publish.json",
+        "languages": {
+          "fr": {
+            "paragraphs": 5,
+            "characters": 1874
+          },
+          "en": {
+            "paragraphs": 5,
+            "characters": 1714
+          },
+          "es": {
+            "paragraphs": 5,
+            "characters": 1785
+          },
+          "it": {
+            "paragraphs": 5,
+            "characters": 1793
+          },
+          "zh": {
+            "paragraphs": 5,
+            "characters": 600
+          },
+          "ko": {
+            "paragraphs": 5,
+            "characters": 905
+          },
+          "ru": {
+            "paragraphs": 5,
+            "characters": 1790
+          },
+          "ar": {
+            "paragraphs": 5,
+            "characters": 1549
+          },
+          "sw": {
+            "paragraphs": 5,
+            "characters": 1829
+          }
+        },
+        "photoBytes": 82382,
+        "photoSHA256": "b3c8e46388ec694a398b7735b7147de05b4de5f5a4e4745bc9e7e061c90ccac2",
+        "existingIdDuplicate": false,
+        "existingPrimarySourceDuplicate": false
+      },
+      {
+        "eventKey": "poulpe-trois-coeurs-sang-bleu",
+        "sourceFile": "insolite_2_publish.json",
+        "languages": {
+          "fr": {
+            "paragraphs": 5,
+            "characters": 2008
+          },
+          "en": {
+            "paragraphs": 5,
+            "characters": 1842
+          },
+          "es": {
+            "paragraphs": 5,
+            "characters": 1900
+          },
+          "it": {
+            "paragraphs": 5,
+            "characters": 1889
+          },
+          "zh": {
+            "paragraphs": 5,
+            "characters": 577
+          },
+          "ko": {
+            "paragraphs": 5,
+            "characters": 864
+          },
+          "ru": {
+            "paragraphs": 5,
+            "characters": 1777
+          },
+          "ar": {
+            "paragraphs": 5,
+            "characters": 1609
+          },
+          "sw": {
+            "paragraphs": 5,
+            "characters": 1841
+          }
+        },
+        "photoBytes": 411971,
+        "photoSHA256": "9979a9f1a252eac3c5b511d63f3fedf045762a2f78e1c6ba96e2ab86ef938972",
+        "existingIdDuplicate": false,
+        "existingPrimarySourceDuplicate": false
+      },
+      {
+        "eventKey": "banane-baie-fraise-botanique",
+        "sourceFile": "insolite_1_publish.json",
+        "languages": {
+          "fr": {
+            "paragraphs": 5,
+            "characters": 1991
+          },
+          "en": {
+            "paragraphs": 5,
+            "characters": 1859
+          },
+          "es": {
+            "paragraphs": 5,
+            "characters": 1985
+          },
+          "it": {
+            "paragraphs": 5,
+            "characters": 1961
+          },
+          "zh": {
+            "paragraphs": 5,
+            "characters": 572
+          },
+          "ko": {
+            "paragraphs": 5,
+            "characters": 890
+          },
+          "ru": {
+            "paragraphs": 5,
+            "characters": 1874
+          },
+          "ar": {
+            "paragraphs": 5,
+            "characters": 1565
+          },
+          "sw": {
+            "paragraphs": 5,
+            "characters": 1973
+          }
+        },
+        "photoBytes": 115162,
+        "photoSHA256": "7fa8d71948c4d68f3572c29e6202d234e03ab422d97e119055e57e1881b23a26",
+        "existingIdDuplicate": false,
+        "existingPrimarySourceDuplicate": false
+      }
+    ],
+    "articleCount": 6,
+    "languageVersions": 54,
+    "existingFeedArticlesReviewed": 53,
+    "existingFeedHasMore": false,
+    "requestedPublication": "Explicit user request: series and unusual facts, publish on BUZZEUR",
+    "dataOnly": true,
+    "siteCodeChanged": false,
+    "editorialNotes": [
+      "Ultron is covered in the officially titled VisionQuest.",
+      "Rings of Power season 3 finale is distinguished from a final season; season 4 confirmed.",
+      "Wombat article rejected as an existing topic and replaced by banana botany.",
+      "Octopus circulation is distinct from the existing camouflage article.",
+      "Astronomy and animal/botanical explainers are not presented as new discoveries.",
+      "Photographs are documented with author, real context, date when available, source and reuse license.",
+      "French, English, Spanish, Italian, simplified Chinese, Korean, Russian, Arabic and Swahili are complete."
+    ]
+  },
+  "provenance": {
+    "repository": "bv7k5ht77g-hue/BYRVOX",
+    "branch": "main",
+    "manifestPath": "buzzeur-newswire/2026-11-27T17/edition.json",
+    "initialCommit": "a294f22422bc186669b8fe99ce7b88744a160d22",
+    "correctedManifestCommit": "b7c0303b6a86312d764a6a7652514fba464cc631",
+    "correctedManifestBlob": "15649f0eba3e52d24a2ac226c5c5cf40148a86d7",
+    "siteCodeChanged": false
+  },
+  "resolvedDeliveryIssues": [
+    {
+      "issue": "Manifest rejected with HTTP 422 because arbitrary topical tags were not members of the CMS category enum.",
+      "resolution": "Replaced tags with permitted categories in the approved manifest; no validator or CMS code changed."
+    },
+    {
+      "issue": "GitHub raw CDN temporarily served the initial manifest.",
+      "resolution": "Waited for the normal cache expiry, verified raw content equalled the corrected manifest, then retried the same edition hour and ranks."
+    }
+  ],
+  "publicVerification": {
+    "articles": 6,
+    "languageVersions": 54,
+    "images": 6,
+    "languageReadback": "Nine public CMS feeds",
+    "browserChecks": "Opened all six French article URLs; confirmed titles, article text, sources and image credits. Inspected Hunting Wives layout and banana photograph loading.",
+    "checkedAt": "2026-11-27T18:07:50.839236+00:00"
+  }
+}
