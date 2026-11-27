@@ -1,0 +1,238 @@
+{
+  "hour": "2026-11-27T00",
+  "articles": [
+    {
+      "eventKey": "quebec-loi-21-questions-cour-supreme-avant-jugement",
+      "category": "Québec",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Cour suprême du Canada — La cause en bref au préalable",
+          "url": "https://scc-csc.ca/fr/judgments-jugements/cb/2026/41231-p/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Erika Morris, La Presse Canadienne / CityNews Montréal",
+          "url": "https://montreal.citynews.ca/2026/11/26/supreme-court-canada-rule-quebec-bill-21/",
+          "publishedAt": "2026-11-26T17:45:00-05:00"
+        },
+        {
+          "name": "Cour suprême du Canada — avis à la Tribune de la presse parlementaire",
+          "url": "https://www.press-presse.ca/en/media-advisories-2/142809-2026-11-20-617",
+          "publishedAt": "2026-11-20"
+        }
+      ],
+      "photo": {
+        "subject": "Cour suprême du Canada",
+        "context": "Ottawa",
+        "capturedOn": "2026-10-05",
+        "download": "media/court.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Supreme_Court_of_Canada_Signage_on_West_Memorial_Building_01.jpg",
+        "credit": "HighlandFacts / Wikimedia Commons (recadrage BYRVOX)",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "Le nom de la Cour suprême du Canada figure en anglais et en français sur un muret à Ottawa.",
+        "caption": "Archives, 5 octobre 2026. L’inscription bilingue de la Cour suprême du Canada sur l’édifice commémoratif de l’Ouest, à Ottawa."
+      },
+      "translations": {
+        "en": {
+          "title": "Quebec’s Bill 21 heads for a Friday ruling as Supreme Court outlines the issues",
+          "summary": "The justices must decide, among other issues, how far Quebec could use the notwithstanding clause to shield its secularism law. The decision is due November 27 at 9:45 a.m. Montreal time.",
+          "body": "In Ottawa on Thursday, November 26, the Supreme Court of Canada published a guide to the questions raised by Quebec’s Bill 21. Court staff explain that the law, adopted in 2019, bars certain public school teachers and police officers, among others, from wearing religious symbols on duty.\n\nAs The Canadian Press reports, teachers, civil liberties groups and the English Montreal School Board challenged the law. The justices must rule on the use of the notwithstanding clause and the education rights of Quebec’s English-speaking minority. The guide sets out the arguments ahead of Friday morning’s ruling.",
+          "photoAlt": "The Supreme Court of Canada’s name appears in English and French on a low wall in Ottawa.",
+          "photoCaption": "Archive, October 5, 2026. The Supreme Court of Canada’s bilingual sign on the West Memorial Building in Ottawa."
+        },
+        "es": {
+          "title": "Ley 21 de Quebec: la Corte Suprema explica qué está en juego antes del fallo del viernes",
+          "summary": "Los jueces deben determinar, entre otras cuestiones, hasta dónde podía Quebec recurrir a la cláusula de excepción para proteger su ley sobre la laicidad. El fallo se espera el 27 de noviembre a las 9:45, hora de Montreal.",
+          "body": "La Corte Suprema de Canadá publicó en Ottawa el jueves 26 de noviembre una guía sobre las cuestiones que plantea la Ley 21 de Quebec. El personal del tribunal recuerda que la ley, aprobada en 2019, prohíbe, entre otros, a determinados docentes de escuelas públicas y agentes de policía llevar símbolos religiosos mientras ejercen sus funciones.\n\nSegún informa The Canadian Press, docentes, organizaciones de defensa de las libertades civiles y el consejo escolar anglófono de Montreal impugnaron la ley. Los jueces deben pronunciarse sobre el uso de la cláusula de excepción y los derechos educativos de la minoría anglófona. La guía expone los argumentos antes del fallo previsto para el viernes por la mañana.",
+          "photoAlt": "El nombre de la Corte Suprema de Canadá figura en inglés y francés en un muro bajo de Ottawa.",
+          "photoCaption": "Archivo, 5 de octubre de 2026. Inscripción bilingüe de la Corte Suprema de Canadá en el edificio conmemorativo del Oeste, en Ottawa."
+        },
+        "ar": {
+          "title": "المحكمة العليا تعرض المسائل التي يثيرها قانون كيبيك رقم 21 قبيل حكم الجمعة",
+          "summary": "على القضاة أن يحددوا، ضمن مسائل أخرى، إلى أي مدى كان يحق لكيبيك استخدام بند الاستثناء لحماية قانون العلمانية. ويُنتظر صدور الحكم في 27 نوفمبر عند الساعة 9:45 صباحاً بتوقيت مونتريال.",
+          "body": "نشرت المحكمة العليا الكندية في أوتاوا يوم الخميس 26 نوفمبر دليلاً يشرح المسائل التي يثيرها قانون كيبيك رقم 21. ويوضح موظفو المحكمة أن القانون، الذي أُقر عام 2019، يحظر على فئات منها معلمون في المدارس الحكومية وأفراد من الشرطة ارتداء رموز دينية أثناء أداء مهامهم.\n\nوأفادت وكالة الصحافة الكندية بأن معلمين وجماعات تدافع عن الحريات المدنية ومجلس مدارس مونتريال الناطقة بالإنجليزية طعنوا في القانون. وعلى القضاة البت في استخدام بند الاستثناء وفي الحقوق التعليمية للأقلية الناطقة بالإنجليزية. ويعرض الدليل الحجج المطروحة قبل الحكم المرتقب صباح الجمعة.",
+          "photoAlt": "اسم المحكمة العليا الكندية مكتوب بالإنجليزية والفرنسية على جدار منخفض في أوتاوا.",
+          "photoCaption": "صورة أرشيفية من 5 أكتوبر 2026. لافتة المحكمة العليا الكندية باللغتين على المبنى التذكاري الغربي في أوتاوا."
+        },
+        "zh-CN": {
+          "title": "魁北克第21号法案周五将迎裁决，加拿大最高法院梳理争议焦点",
+          "summary": "法官需要裁定的问题之一，是魁北克可以在多大程度上援引例外条款来保护其世俗化法律。裁决预计于蒙特利尔时间11月27日上午9时45分公布。",
+          "body": "11月26日星期四，加拿大最高法院在渥太华发布说明，介绍魁北克第21号法案引发的法律争议。法院工作人员指出，这部2019年通过的法律禁止部分公立学校教师、警察等人员在履职时佩戴宗教标志。\n\n据加拿大通讯社报道，教师、公民自由团体以及蒙特利尔英语教育局对该法提出质疑。法官须就例外条款的适用以及英语少数群体的教育权利作出裁决。这份说明在预计周五上午公布判决前，列出了各方的论点。",
+          "photoAlt": "渥太华的一堵矮墙上用英语和法语标明加拿大最高法院的名称。",
+          "photoCaption": "资料照片，摄于2026年10月5日。渥太华西部纪念大楼上的加拿大最高法院双语标识。"
+        },
+        "ru": {
+          "title": "Верховный суд изложил вопросы по закону Квебека № 21 накануне решения в пятницу",
+          "summary": "Судьям предстоит определить, в частности, в какой мере Квебек мог применять оговорку об отступлении от Хартии для защиты закона о светском характере государства. Решение ожидается 27 ноября в 9:45 по времени Монреаля.",
+          "body": "В четверг, 26 ноября, Верховный суд Канады в Оттаве опубликовал справку о спорных положениях квебекского закона № 21. Сотрудники суда напомнили, что закон, принятый в 2019 году, запрещает, в частности, некоторым учителям государственных школ и полицейским носить религиозную символику при исполнении обязанностей.\n\nПо данным агентства The Canadian Press, закон оспорили учителя, правозащитные организации и англоязычный школьный совет Монреаля. Судьи должны высказаться о применении оговорки и об образовательных правах англоязычного меньшинства. В справке изложены доводы сторон перед оглашением решения, намеченным на утро пятницы.",
+          "photoAlt": "Название Верховного суда Канады на английском и французском языках на невысокой стене в Оттаве.",
+          "photoCaption": "Архив, 5 октября 2026 года. Двуязычная надпись Верховного суда Канады на Западном мемориальном здании в Оттаве."
+        },
+        "ko": {
+          "title": "캐나다 대법원, 금요일 퀘벡 제21호법 판결 앞두고 쟁점 공개",
+          "summary": "재판부가 판단할 사안 중 하나는 퀘벡이 정교분리법을 보호하기 위해 헌장 적용 예외 조항을 어느 범위까지 원용할 수 있는지다. 판결은 몬트리올 시간 11월 27일 오전 9시 45분에 나올 예정이다.",
+          "body": "캐나다 대법원은 11월 26일 목요일 오타와에서 퀘벡 제21호법을 둘러싼 쟁점을 정리한 자료를 공개했다. 법원 직원들이 작성한 이 자료에 따르면 2019년 제정된 이 법은 일부 공립학교 교사와 경찰관 등이 직무를 수행할 때 종교적 상징물을 착용하는 것을 금지한다.\n\n캐나디언프레스는 교사들과 시민자유 단체, 몬트리올 영어교육청 등이 이 법에 이의를 제기했다고 보도했다. 재판부는 헌장 적용 예외 조항의 사용과 영어권 소수집단의 교육권에 관해 판단해야 한다. 법원 자료는 금요일 오전으로 예정된 판결에 앞서 양측의 주장을 정리했다.",
+          "photoAlt": "오타와의 낮은 벽에 캐나다 대법원 명칭이 영어와 프랑스어로 적혀 있다.",
+          "photoCaption": "자료 사진, 2026년 10월 5일. 오타와 웨스트 메모리얼 빌딩에 부착된 캐나다 대법원의 이중 언어 표지."
+        }
+      },
+      "title": "Loi 21 au Québec : la Cour suprême expose les enjeux avant son jugement de vendredi",
+      "summary": "Les juges doivent notamment déterminer jusqu’où le Québec pouvait recourir à la disposition de dérogation pour protéger sa loi sur la laïcité. La décision est attendue le 27 novembre à 9 h 45, heure de Montréal.",
+      "body": "À Ottawa, la Cour suprême du Canada a publié jeudi 26 novembre une fiche qui présente les questions soulevées par la loi 21 du Québec. Le personnel de la Cour y rappelle que la loi adoptée en 2019 interdit notamment à des enseignants des écoles publiques et à des policiers de porter des signes religieux dans l’exercice de leurs fonctions.\n\nComme le rapporte La Presse Canadienne, des enseignants, des groupes de défense des libertés et la Commission scolaire English-Montréal ont contesté la loi. Les juges doivent se prononcer sur l’usage de la disposition de dérogation et sur les droits scolaires de la minorité anglophone. La fiche présente les arguments avant le jugement prévu vendredi matin."
+    },
+    {
+      "eventKey": "tokyo-prix-hors-produits-frais-novembre-hausse",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Bureau des statistiques du Japon — IPC de novembre dans les arrondissements de Tokyo",
+          "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=2&statInfId=000040525998",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/markets/asia/core-inflation-japans-capital-accelerates-november-2026-11-26/",
+          "publishedAt": "2026-11-26T23:42:50Z"
+        }
+      ],
+      "photo": {
+        "subject": "station-service",
+        "context": "Tokyo",
+        "capturedOn": "2026-08-11",
+        "download": "media/tokyo.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wakuwaku_station_Saginomiya_SS_in_Kami-Saginomiya_3-ch%C5%8Dme_in_Nakano-ku,_-11_augustus_2026_15%EF%BC%9A45.jpg",
+        "credit": "トトト / Wikimedia Commons",
+        "license": "CC BY-SA 2.1 JP",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+        "alt": "Une station-service ENEOS à Tokyo, avec un panneau de prix près du trottoir.",
+        "caption": "Archives, 11 août 2026. Une station-service de Nakano, à Tokyo, affiche ses prix de l’essence le jour de la prise de vue."
+      },
+      "translations": {
+        "en": {
+          "title": "Tokyo inflation excluding fresh food picks up to 2.9%",
+          "summary": "Tokyo’s two main price measures that exclude fresh food moved in opposite directions in November. The one that includes energy accelerated, while the one that also excludes it eased slightly.",
+          "body": "Consumer prices excluding fresh food in Tokyo’s 23 wards rose 2.9% in November from a year earlier, up from 2.6% in October. The preliminary figures released on Friday, November 27, by Japan’s Statistics Bureau include spending on energy, such as gasoline bought at a gas station.\n\nWhen energy is also taken out of the basket, annual inflation eased to 2.5% from 2.6% in October. The figures cover prices collected in the capital in mid-November. They come ahead of the national data and, as Reuters reports, are among the indicators the Bank of Japan will consider before its December meeting.",
+          "photoAlt": "An ENEOS gas station in Tokyo with a price board near the curb.",
+          "photoCaption": "Archive, August 11, 2026. A gas station in Tokyo’s Nakano ward displays the gasoline prices in effect when the photo was taken."
+        },
+        "es": {
+          "title": "La inflación de Tokio sin alimentos frescos se acelera al 2,9 % interanual",
+          "summary": "Los dos principales indicadores de Tokio que excluyen los alimentos frescos siguieron trayectorias distintas en noviembre. El que incluye la energía se aceleró y el que la excluye se moderó ligeramente.",
+          "body": "Los precios al consumidor sin alimentos frescos subieron un 2,9 % interanual en noviembre en los 23 distritos de Tokio, tras el 2,6 % de octubre. El dato preliminar, publicado el viernes 27 de noviembre por la Oficina de Estadística de Japón, incluye gastos en energía, como la gasolina que se compra en las estaciones de servicio.\n\nAl retirar también la energía de la cesta, el aumento interanual se moderó al 2,5 %, frente al 2,6 % de octubre. Las cifras recogen los precios observados en la capital a mediados de noviembre. Se publican antes que los datos nacionales y, según Reuters, figuran entre los indicadores que estudiará el Banco de Japón antes de su reunión de diciembre.",
+          "photoAlt": "Una gasolinera ENEOS en Tokio, con un cartel de precios junto a la acera.",
+          "photoCaption": "Archivo, 11 de agosto de 2026. Una gasolinera de Nakano, en Tokio, muestra los precios de la gasolina vigentes cuando se tomó la fotografía."
+        },
+        "ar": {
+          "title": "تضخم طوكيو باستثناء الأغذية الطازجة يتسارع إلى 2.9% على أساس سنوي",
+          "summary": "تباين مسار المؤشرين الرئيسيين اللذين يستثنيان الأغذية الطازجة في طوكيو خلال نوفمبر. فتسارع المؤشر الذي يشمل الطاقة، بينما تباطأ قليلاً المؤشر الذي يستثنيها أيضاً.",
+          "body": "ارتفعت أسعار المستهلك باستثناء الأغذية الطازجة في أحياء طوكيو الـ23 بنسبة 2.9% في نوفمبر مقارنة بالشهر نفسه من العام الماضي، بعد ارتفاعها 2.6% في أكتوبر. وتشمل الأرقام الأولية التي نشرها مكتب الإحصاء الياباني الجمعة 27 نوفمبر نفقات الطاقة ومنها البنزين الذي يُشترى من محطات الوقود.\n\nوعند استبعاد الطاقة أيضاً من السلة، تباطأت الزيادة السنوية إلى 2.5% من 2.6% في أكتوبر. وتغطي البيانات أسعاراً رُصدت في العاصمة في منتصف نوفمبر. وهي تصدر قبل الأرقام الوطنية، وتندرج، وفقاً لرويترز، ضمن المؤشرات التي سيدرسها بنك اليابان قبل اجتماعه في ديسمبر.",
+          "photoAlt": "محطة وقود إينيوس في طوكيو ولوحة أسعار قرب الرصيف.",
+          "photoCaption": "صورة أرشيفية من 11 أغسطس 2026. محطة وقود في حي ناكانو بطوكيو تعرض أسعار البنزين السارية يوم التقاط الصورة."
+        },
+        "zh-CN": {
+          "title": "东京11月剔除生鲜食品的物价同比涨幅升至2.9%",
+          "summary": "东京两项均剔除生鲜食品的主要物价指标在11月走势分化。包含能源的指标涨幅扩大，同时剔除能源的指标涨幅略有收窄。",
+          "body": "东京23区11月剔除生鲜食品的消费价格同比上涨2.9%，涨幅高于10月的2.6%。日本总务省统计局于11月27日星期五公布的这项初值包含在加油站购买汽油等能源支出。\n\n若进一步剔除能源，11月的同比涨幅则从10月的2.6%降至2.5%。这些数据反映11月中旬在首都采集的价格，公布时间早于全国数据。据路透社报道，日本银行将在12月会议前把这组数据与其他指标一并考量。",
+          "photoAlt": "东京一家ENEOS加油站，路边立着价格牌。",
+          "photoCaption": "资料照片，摄于2026年8月11日。东京中野区一家加油站展示拍摄当天的汽油价格。"
+        },
+        "ru": {
+          "title": "В Токио годовой рост цен без учёта свежих продуктов ускорился до 2,9%",
+          "summary": "В ноябре два основных токийских индекса, исключающих свежие продукты, разошлись. Рост показателя, учитывающего энергию, ускорился, а без учёта энергии немного замедлился.",
+          "body": "В 23 специальных районах Токио потребительские цены без учёта свежих продуктов в ноябре выросли на 2,9% в годовом выражении после 2,6% в октябре. Предварительные данные, которые Статистическое бюро Японии опубликовало в пятницу, 27 ноября, учитывают расходы на энергию, в том числе на покупку бензина на заправках.\n\nЕсли исключить из корзины и энергию, годовой рост цен замедлился с октябрьских 2,6% до 2,5%. Данные отражают цены, зафиксированные в столице в середине ноября. Они выходят раньше общенациональных показателей и, по данным Reuters, войдут в число ориентиров, которые Банк Японии рассмотрит перед декабрьским заседанием.",
+          "photoAlt": "Заправка ENEOS в Токио с табличкой цен у тротуара.",
+          "photoCaption": "Архив, 11 августа 2026 года. Автозаправка в токийском районе Накано показывает цены на бензин на день съёмки."
+        },
+        "ko": {
+          "title": "도쿄 11월 신선식품 제외 물가 상승률 2.9%로 확대",
+          "summary": "도쿄에서 신선식품을 제외하는 두 주요 물가 지표가 11월 서로 다른 방향으로 움직였다. 에너지를 포함한 지표는 상승률이 높아졌고, 에너지까지 제외한 지표는 소폭 낮아졌다.",
+          "body": "도쿄 23구의 11월 신선식품 제외 소비자물가는 1년 전보다 2.9% 올라 10월의 2.6%보다 상승 폭이 커졌다. 일본 총무성 통계국이 11월 27일 금요일 공개한 이 잠정치에는 주유소에서 사는 휘발유 등 에너지 지출이 포함된다.\n\n에너지까지 제외하면 연간 상승률은 10월 2.6%에서 11월 2.5%로 낮아졌다. 이 수치는 11월 중순 수도에서 조사한 가격을 반영한다. 전국 통계보다 먼저 나오며, 로이터에 따르면 일본은행이 12월 회의에 앞서 살펴볼 지표 가운데 하나다.",
+          "photoAlt": "도쿄의 에네오스 주유소 앞 보도 근처에 가격 안내판이 서 있다.",
+          "photoCaption": "자료 사진, 2026년 8월 11일. 도쿄 나카노구의 주유소에 촬영 당시 휘발유 가격이 표시돼 있다."
+        }
+      },
+      "title": "À Tokyo, les prix hors produits frais accélèrent à 2,9 % sur un an",
+      "summary": "En novembre, les deux principaux indicateurs qui écartent les produits frais divergent. Celui qui comprend l’énergie accélère, tandis que celui qui l’exclut ralentit légèrement.",
+      "body": "Dans les 23 arrondissements de Tokyo, les prix à la consommation hors produits frais ont augmenté de 2,9 % en novembre par rapport à un an plus tôt, après 2,6 % en octobre. Ce premier relevé publié vendredi 27 novembre par le Bureau japonais des statistiques tient compte des dépenses d’énergie, dont l’essence achetée en station-service.\n\nUne fois l’énergie également retirée du panier, la hausse annuelle revient à 2,5 %, contre 2,6 % en octobre. Ces résultats portent sur les prix relevés à la mi-novembre dans la capitale. Ils précèdent les données nationales et, comme le relève Reuters, feront partie des indicateurs examinés par la Banque du Japon avant sa réunion de décembre."
+    },
+    {
+      "eventKey": "lilia-hassaine-je-prix-goncourt-lyceens-rennes",
+      "category": "Culture",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Ministère français de l’Éducation nationale — communiqué du jury",
+          "url": "https://www.education.gouv.fr/le-prix-goncourt-des-lyceens-2026-est-decerne-lilia-hassaine-pour-son-roman-je-506985",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Charles Knappek, Livres Hebdo",
+          "url": "https://www.livreshebdo.fr/article/lilia-hassaine-remporte-le-prix-goncourt-des-lyceens-2026",
+          "publishedAt": "2026-11-26T18:36:00+01:00"
+        }
+      ],
+      "photo": {
+        "subject": "Lilia Hassaine",
+        "context": "librairie Mollat",
+        "capturedOn": "2021",
+        "download": "media/lilia.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lilia_Hassaine_(2)_-_Librairie_Mollat.jpg",
+        "credit": "Librairie Mollat / Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "alt": "Lilia Hassaine, en veste sombre et chemise claire, face à la caméra.",
+        "caption": "Archives, 2021. Lilia Hassaine présente son roman « Soleil amer » dans un entretien filmé par la librairie Mollat."
+      },
+      "translations": {
+        "en": {
+          "title": "French high school students award their Goncourt to Lilia Hassaine for ‘Je’",
+          "summary": "Meeting in Rennes, twelve student delegates chose a novel that gives a voice to Rochester’s first wife, a character in ‘Jane Eyre’.",
+          "body": "Lilia Hassaine won the Prix Goncourt des lycéens on Thursday, November 26, for her novel ‘Je’, published by Gallimard. According to France’s Education Ministry, the twelve delegates reached their decision behind closed doors in Rennes after more than two months of reading. The original selection comprised fifteen books.\n\nThe novel opens in Jamaica in 1831. Hassaine takes a character familiar to Charlotte Brontë’s readers through her marriage to Rochester and lets her tell her own story. Livres Hebdo, which covered the award, notes that the winner of this 39th edition succeeds Nathacha Appanah. In 2021, she discussed an earlier novel, ‘Soleil amer’, in an interview with the Mollat bookshop.",
+          "photoAlt": "Lilia Hassaine in a dark jacket and light shirt, facing the camera.",
+          "photoCaption": "Archive, 2021. Lilia Hassaine discusses her novel ‘Soleil amer’ in an interview filmed by the Mollat bookshop."
+        },
+        "es": {
+          "title": "Los estudiantes franceses conceden su Goncourt a Lilia Hassaine por «Je»",
+          "summary": "Reunidos en Rennes, los doce delegados estudiantiles eligieron una novela que da voz a la primera esposa de Rochester, personaje de «Jane Eyre».",
+          "body": "Lilia Hassaine ganó el jueves 26 de noviembre el Premio Goncourt de los Estudiantes por su novela «Je», publicada por Gallimard. Según el Ministerio de Educación francés, los doce delegados tomaron la decisión a puerta cerrada en Rennes después de más de dos meses de lecturas. La selección inicial reunía quince libros.\n\nLa novela comienza en Jamaica en 1831. Hassaine retoma un personaje que los lectores de Charlotte Brontë conocen por su matrimonio con Rochester y le permite contar su propia historia. Livres Hebdo, que cubrió el premio, recuerda que la ganadora de esta 39.ª edición sucede a Nathacha Appanah. En 2021 presentó una novela anterior, «Soleil amer», en una entrevista con la librería Mollat.",
+          "photoAlt": "Lilia Hassaine, con chaqueta oscura y camisa clara, frente a la cámara.",
+          "photoCaption": "Archivo, 2021. Lilia Hassaine presenta su novela «Soleil amer» en una entrevista filmada por la librería Mollat."
+        },
+        "ar": {
+          "title": "طلاب الثانويات الفرنسية يمنحون ليليا حسّين جائزة غونكور عن روايتها «Je»",
+          "summary": "اختار مندوبو الطلاب الاثنا عشر في مدينة رين رواية تمنح الكلمة لزوجة روتشستر الأولى، إحدى شخصيات «جين إير».",
+          "body": "فازت ليليا حسّين الخميس 26 نوفمبر بجائزة غونكور لطلاب الثانويات عن روايتها «Je» الصادرة عن دار غاليمار. ووفقاً لوزارة التربية الفرنسية، اتخذ المندوبون الاثنا عشر قرارهم في جلسة مغلقة في رين بعد أكثر من شهرين من القراءة. وضمت القائمة الأولى خمسة عشر كتاباً.\n\nتبدأ الرواية في جامايكا عام 1831. وتعود الكاتبة إلى شخصية يعرفها قراء شارلوت برونتي من خلال زواجها من روتشستر، وتترك لها أن تروي قصتها بنفسها. وتذكر مجلة «ليفر إيبدو»، التي غطت الجائزة، أن الفائزة بدورتها التاسعة والثلاثين تخلف ناتاشا أباناه. وفي عام 2021 قدّمت رواية سابقة لها بعنوان «Soleil amer» في مقابلة مع مكتبة مولا.",
+          "photoAlt": "ليليا حسّين ترتدي سترة داكنة وقميصاً فاتحاً أمام الكاميرا.",
+          "photoCaption": "صورة أرشيفية من عام 2021. ليليا حسّين تقدّم روايتها «Soleil amer» في مقابلة صوّرتها مكتبة مولا."
+        },
+        "zh-CN": {
+          "title": "法国高中生将龚古尔文学奖颁给《Je》作者莉莉娅·阿萨因",
+          "summary": "十二名学生代表在雷恩选出了这部小说。书中，《简·爱》里罗切斯特的第一任妻子得以亲口讲述自己的故事。",
+          "body": "11月26日星期四，莉莉娅·阿萨因凭借由伽利玛出版社出版的小说《Je》获得法国高中生龚古尔文学奖。据法国国民教育部介绍，在经历两个多月的阅读后，十二名学生代表在雷恩闭门商议，作出最终选择。最初的书单共有十五部作品。\n\n小说开篇的时间是1831年，地点在牙买加。夏洛蒂·勃朗特的读者熟悉这位人物，是因为她与罗切斯特的婚姻；阿萨因让她亲口讲述自己的人生。据跟踪报道该奖的法国出版业刊物《图书周刊》介绍，本届是第39届，上届得主为娜塔莎·阿帕纳。2021年，她曾在莫拉书店的访谈中介绍此前的作品《Soleil amer》。",
+          "photoAlt": "莉莉娅·阿萨因身穿深色外套和浅色衬衣，面向镜头。",
+          "photoCaption": "资料画面，摄于2021年。莉莉娅·阿萨因在莫拉书店拍摄的访谈中介绍小说《Soleil amer》。"
+        },
+        "ru": {
+          "title": "Французские лицеисты присудили свою Гонкуровскую премию Лилии Ассен за роман «Je»",
+          "summary": "Двенадцать делегатов, собравшихся в Ренне, выбрали роман, в котором право голоса получает первая жена Рочестера, героиня «Джейн Эйр».",
+          "body": "В четверг, 26 ноября, Лилия Ассен получила Гонкуровскую премию лицеистов за роман «Je», вышедший в издательстве Gallimard. По данным Министерства образования Франции, после более чем двух месяцев чтения двенадцать делегатов приняли решение на закрытом заседании в Ренне. Первоначальный список включал пятнадцать книг.\n\nРоман начинается на Ямайке в 1831 году. Ассен возвращается к героине, знакомой читателям Шарлотты Бронте по её браку с Рочестером, и позволяет ей самой рассказать свою историю. Как напоминает освещавший вручение награды журнал Livres Hebdo, победительница 39-го конкурса приняла эстафету у Наташи Аппана. В 2021 году в интервью книжному магазину Mollat писательница представила свой более ранний роман «Soleil amer».",
+          "photoAlt": "Лилия Ассен перед камерой в тёмном пиджаке и светлой рубашке.",
+          "photoCaption": "Архив, 2021 год. Лилия Ассен представляет свой роман «Soleil amer» в интервью, снятом книжным магазином Mollat."
+        },
+        "ko": {
+          "title": "프랑스 고교생들이 뽑은 공쿠르상, 소설 《Je》의 릴리아 아센에게",
+          "summary": "렌에 모인 학생 대표 12명은 《제인 에어》 속 로체스터의 첫 번째 아내가 직접 자신의 이야기를 들려주는 소설을 선택했다.",
+          "body": "릴리아 아센은 11월 26일 목요일 갈리마르에서 출간한 소설 《Je》로 고교생 공쿠르상을 받았다. 프랑스 교육부에 따르면 학생 대표 12명은 두 달 넘게 작품을 읽은 뒤 렌에서 비공개 심사를 거쳐 수상작을 결정했다. 처음 후보에 오른 책은 15권이었다.\n\n소설은 1831년 자메이카에서 시작한다. 아센은 샬럿 브론테의 독자들이 로체스터와의 결혼을 통해 알고 있던 인물에게 자신의 삶을 직접 이야기할 기회를 준다. 시상 소식을 전한 출판 전문지 리브르 에브도에 따르면 제39회 수상자인 아센의 전년도 수상자는 나타샤 아파나였다. 아센은 2021년 몰라 서점과의 인터뷰에서 앞선 소설 《Soleil amer》를 소개했다.",
+          "photoAlt": "짙은 재킷과 밝은 셔츠를 입은 릴리아 아센이 카메라를 향하고 있다.",
+          "photoCaption": "자료 화면, 2021년. 몰라 서점이 촬영한 인터뷰에서 릴리아 아센이 자신의 소설 《Soleil amer》를 소개한다."
+        }
+      },
+      "title": "Les lycéens décernent leur Goncourt à Lilia Hassaine pour « Je »",
+      "summary": "Réunis à Rennes, les douze délégués du jury ont choisi un roman qui donne la parole à la première épouse de Rochester, personnage de « Jane Eyre ».",
+      "body": "Lilia Hassaine a remporté jeudi 26 novembre le Goncourt des lycéens pour son roman « Je », publié par Gallimard. Selon le ministère français de l’Éducation nationale, les douze délégués ont arrêté leur choix à huis clos à Rennes, au terme de plus de deux mois de lecture. Quinze ouvrages figuraient dans la sélection de départ.\n\nLe livre s’ouvre en Jamaïque en 1831. Hassaine reprend un personnage que les lecteurs de Charlotte Brontë connaissent par son mariage avec Rochester et lui confie le récit de sa propre histoire. Livres Hebdo, qui a suivi le prix, rappelle que la lauréate de cette 39e édition succède à Nathacha Appanah. En 2021, elle avait présenté un précédent roman, « Soleil amer », dans un entretien avec la librairie Mollat."
+    }
+  ]
+}
