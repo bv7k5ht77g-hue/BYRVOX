@@ -1,0 +1,167 @@
+{
+  "hour": "2026-11-27T07",
+  "articles": [
+    {
+      "eventKey": "bresil-manaus-reprise-eau-traitee-apres-panne-electrique",
+      "category": "Brésil",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Águas de Manaus — reprise de la distribution",
+          "url": "https://www.aguasdemanaus.com.br/abastecimento-de-agua-comeca-a-normalizar-apos-apagao-de-energia/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "UOL — conséquences de la panne à Manaus",
+          "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/11/26/apagao-em-manaus-e-roraima.ghtm",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Águas de Manaus — secteur de Mocó",
+          "url": "https://www.aguasdemanaus.com.br/falta-de-energia-impacta-funcionamento-do-sh-moco-2/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Bruno Almeida, CM7 Brasil",
+          "url": "https://www.cm7brasil.com/amazonas/manaus/aguas-de-manaus-informa-que-oscilacoes-de-energia-ja-afetam-o-abastecimento-de-agua-em-varias-areas-da-capital/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "subject": "réservoir de Mocó",
+        "context": "Manaus",
+        "capturedOn": "2015-09-29",
+        "download": "media/eau.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reservat%C3%B3rio_do_Moc%C3%B3_02.jpg",
+        "credit": "Derivaldo Mota da Silva / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Façade éclairée du réservoir de Mocó à Manaus, avec deux rangées d’arches en bord de rue.",
+        "caption": "Archives, 29 septembre 2015. Le réservoir de Mocó à Manaus, photographié de nuit."
+      },
+      "translations": {
+        "en": {
+          "title": "Water supply gradually returns to Manaus after power outage in Brazil",
+          "summary": "Power has been restored to water distribution facilities. The Manaus utility estimates that full service could take up to 24 hours to return.",
+          "body": "In Manaus, northern Brazil, the return of power to Águas de Manaus facilities has allowed treated water distribution to resume. The outage on Thursday afternoon, November 26, disrupted service across the city, according to the utility and Brazilian news outlet UOL. In its latest notice on Thursday, the company expected service in affected areas to return to normal within 24 hours.\n\nSome residents had experienced problems earlier. Power fluctuations in the morning disrupted water supply in the Mocó service area, Águas de Manaus said. Local outlet CM7 also reported the incident. The Mocó reservoir in the archive photograph is part of the history of Manaus’s water supply.",
+          "photoAlt": "The illuminated façade of the Mocó reservoir in Manaus has two rows of arches facing the street.",
+          "photoCaption": "Archive, September 29, 2015. The Mocó reservoir in Manaus, photographed at night."
+        },
+        "es": {
+          "title": "Brasil: el agua vuelve de forma gradual a Manaos tras el apagón",
+          "summary": "Las instalaciones de distribución de agua ya tienen electricidad. La concesionaria de Manaos calcula que el servicio podría tardar hasta 24 horas en restablecerse por completo.",
+          "body": "En Manaos, en el norte de Brasil, el regreso de la electricidad a las instalaciones de Águas de Manaus permitió reanudar la distribución de agua tratada. El apagón de la tarde del jueves 26 de noviembre afectó el servicio en todas las zonas de la ciudad, según la concesionaria y el medio brasileño UOL. En su último aviso del jueves, la empresa preveía normalizar el servicio en las zonas afectadas en un plazo de 24 horas.\n\nPara algunos vecinos, los problemas habían comenzado antes. Según Águas de Manaus, las fluctuaciones eléctricas de la mañana ya habían afectado el suministro en el sector hidráulico de Mocó. El medio local CM7 también informó del incidente. El depósito de Mocó, en la fotografía de archivo, forma parte del patrimonio hidráulico de Manaos.",
+          "photoAlt": "Fachada iluminada del depósito de Mocó en Manaos, con dos hileras de arcos frente a la calle.",
+          "photoCaption": "Archivo, 29 de septiembre de 2015. El depósito de Mocó en Manaos, fotografiado de noche."
+        },
+        "ar": {
+          "title": "البرازيل: إمدادات المياه تعود تدريجياً إلى ماناوس بعد انقطاع الكهرباء",
+          "summary": "عاد التيار إلى منشآت توزيع المياه. وتقدّر الشركة المشغلة في ماناوس أن استعادة الخدمة بالكامل قد تستغرق ما يصل إلى 24 ساعة.",
+          "body": "أتاحت عودة الكهرباء إلى منشآت شركة «أغواس دي ماناوس» في مدينة ماناوس شمال البرازيل استئناف توزيع المياه المعالجة. وأدى انقطاع التيار بعد ظهر الخميس 26 نوفمبر إلى اضطراب الخدمة في جميع أنحاء المدينة، وفق الشركة وموقع UOL البرازيلي. وفي آخر بيان لها الخميس، توقعت الشركة عودة الخدمة إلى طبيعتها في المناطق المتضررة في غضون 24 ساعة.\n\nوبدأت الصعوبات في وقت أبكر لدى بعض السكان. فقد أفادت الشركة بأن تذبذب التيار صباحاً عطّل إمدادات المياه في منطقة موكو، وهو ما أورده أيضاً موقع CM7 المحلي. ويشكّل خزان موكو الظاهر في صورة الأرشيف جزءاً من تاريخ إمدادات المياه في ماناوس.",
+          "photoAlt": "واجهة خزان موكو المضاءة في ماناوس، ويظهر صفّان من الأقواس بمحاذاة الشارع.",
+          "photoCaption": "من الأرشيف، 29 سبتمبر 2015. خزان موكو في ماناوس ليلاً."
+        },
+        "zh-CN": {
+          "title": "巴西马瑙斯停电后逐步恢复供水",
+          "summary": "供水设施已恢复供电。马瑙斯供水公司预计，全面恢复供水可能需要长达24小时。",
+          "body": "在巴西北部城市马瑙斯，供水公司Águas de Manaus的设施恢复供电后，开始重新输送处理过的水。据该公司和巴西媒体UOL报道，11月26日星期四下午的停电影响了全市各区的供水。公司在周四最后一次通报中预计，受影响地区将在24小时内恢复正常供水。\n\n一些居民更早就遇到了问题。供水公司表示，当天上午的电力波动已影响莫科供水区，当地媒体CM7也报道了这起事件。档案照片中的莫科蓄水池见证了马瑙斯的供水历史。",
+          "photoAlt": "马瑙斯莫科蓄水池临街的外墙在灯光下亮起，可见上下两排拱门。",
+          "photoCaption": "档案照片，2015年9月29日。夜间拍摄的马瑙斯莫科蓄水池。"
+        },
+        "ru": {
+          "title": "В бразильском Манаусе после отключения электричества постепенно восстанавливают подачу воды",
+          "summary": "Электроснабжение объектов водопровода восстановлено. По оценке оператора в Манаусе, для полного возобновления подачи воды может потребоваться до 24 часов.",
+          "body": "В Манаусе на севере Бразилии возвращение электричества на объекты компании Águas de Manaus позволило возобновить подачу очищенной воды. По данным компании и бразильского издания UOL, отключение электричества во второй половине дня в четверг, 26 ноября, нарушило водоснабжение во всех районах города. В последнем сообщении за четверг компания прогнозировала восстановление подачи воды в затронутых районах в течение суток.\n\nНекоторые жители столкнулись с перебоями раньше. По данным Águas de Manaus, уже утром колебания напряжения нарушили подачу воды в зоне обслуживания узла Моко. Об этом сообщило и местное издание CM7. Резервуар Моко на архивной фотографии — часть истории водоснабжения Манауса.",
+          "photoAlt": "Освещённый фасад резервуара Моко в Манаусе с двумя рядами арок вдоль улицы.",
+          "photoCaption": "Архив, 29 сентября 2015 года. Ночной снимок резервуара Моко в Манаусе."
+        },
+        "ko": {
+          "title": "브라질 마나우스, 정전 이후 수돗물 공급 단계적으로 재개",
+          "summary": "급수 시설에 전력이 다시 공급됐다. 마나우스 수도사업자는 급수가 완전히 정상화되기까지 최대 24시간이 걸릴 수 있다고 전망했다.",
+          "body": "브라질 북부 마나우스에서는 수도사업자 아구아스 지 마나우스의 시설에 전기가 다시 들어오면서 정수된 물 공급이 재개됐다. 사업자와 브라질 매체 UOL에 따르면 11월 26일 목요일 오후의 정전으로 시내 전역에서 급수 차질이 빚어졌다. 사업자는 목요일 마지막 공지에서 피해 지역의 급수가 24시간 안에 정상화될 것으로 예상했다.\n\n일부 주민은 더 일찍부터 불편을 겪었다. 사업자는 오전에 발생한 전력 변동으로 모코 급수 구역의 물 공급이 차질을 빚었다고 밝혔다. 지역 매체 CM7도 이 사실을 보도했다. 자료 사진에 담긴 모코 저수 시설은 마나우스 상수도의 역사를 보여준다.",
+          "photoAlt": "마나우스의 모코 저수 시설 외벽에 조명이 켜져 있고 길을 따라 두 줄의 아치가 보인다.",
+          "photoCaption": "2015년 9월 29일 자료 사진. 밤에 촬영한 마나우스의 모코 저수 시설."
+        }
+      },
+      "title": "Brésil : à Manaus, l’eau revient progressivement après la panne électrique",
+      "summary": "Le courant est revenu dans les installations de distribution d’eau. L’exploitant de Manaus estime que le rétablissement complet du service pourrait prendre jusqu’à 24 heures.",
+      "body": "À Manaus, dans le nord du Brésil, le retour de l’électricité dans les installations d’Águas de Manaus a permis de relancer la distribution d’eau traitée. La panne du jeudi 26 novembre après-midi avait perturbé le service dans tous les secteurs de la ville, selon l’exploitant et le média brésilien UOL. Dans son dernier avis du jeudi, l’entreprise prévoyait un retour à la normale sous 24 heures dans les zones touchées.\n\nLes difficultés avaient commencé plus tôt pour certains habitants. Dès le matin, des fluctuations de courant avaient perturbé la desserte du secteur hydraulique de Mocó, a indiqué Águas de Manaus. Le média local CM7 a également rapporté cet incident. Le réservoir de Mocó, photographié en archives, fait partie du patrimoine de l’eau de Manaus."
+    },
+    {
+      "eventKey": "singapour-revenu-median-reel-progression-ralentit-2026",
+      "category": "Singapour",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Ministry of Manpower — Labour Force in Singapore, Advance Release 2026",
+          "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/1127-labour-force-in-singapore-advance-release-2026",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Davina Tham, CNA",
+          "url": "https://www.channelnewsasia.com/singapore/real-income-growth-slow-non-pmet-unemployment-labour-report-mom-6585161",
+          "publishedAt": "2026-11-27T11:00:00+08:00"
+        }
+      ],
+      "photo": {
+        "subject": "Raffles Place",
+        "context": "Singapour",
+        "capturedOn": "2002-08-29",
+        "download": "media/revenu.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raffles_Place_in_front_of_OUB_Centre,_Singapore_-_20020829.jpg",
+        "credit": "Timo Sippala / Wikimedia Commons",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+        "alt": "Des piétons circulent devant les bureaux et les commerces de Raffles Place à Singapour.",
+        "caption": "Archives, 29 août 2002. Des piétons à Raffles Place, dans le quartier d’affaires de Singapour."
+      },
+      "translations": {
+        "en": {
+          "title": "Singapore’s median income rises 2.2% after inflation, down from 4.1% a year earlier",
+          "summary": "Preliminary results for 2026 show an even sharper slowdown near the lower end of the earnings distribution.",
+          "body": "Earnings continued to outpace prices in Singapore, though by less than in 2025. Among residents working full time, inflation-adjusted median income growth fell from 4.1% to 2.2%. At the 20th percentile, the threshold below which one in five workers falls, real growth slowed from 3.6% to 1.3%, according to preliminary figures released on November 27 by the Ministry of Manpower.\n\nThe June survey covers citizens and permanent residents nationwide, well beyond the Raffles Place business district. Before adjustment for inflation, median gross monthly income rose from S$5,775 to S$6,021, CNA reported. The figure includes employer contributions to the Central Provident Fund.",
+          "photoAlt": "Pedestrians walk past offices and shops at Raffles Place in Singapore.",
+          "photoCaption": "Archive, August 29, 2002. Pedestrians at Raffles Place in Singapore’s business district."
+        },
+        "es": {
+          "title": "La renta laboral mediana de Singapur crece un 2,2 % tras la inflación, frente al 4,1 % de un año antes",
+          "summary": "Los resultados preliminares de 2026 muestran una desaceleración aún mayor en la parte baja de la distribución de ingresos laborales.",
+          "body": "Los ingresos laborales siguieron creciendo más que los precios en Singapur, aunque con menos margen que en 2025. Entre los residentes que trabajan a tiempo completo, el crecimiento de la mediana de ingresos, ajustado por inflación, pasó del 4,1 % al 2,2 %. En el percentil 20, el umbral por debajo del cual se sitúa uno de cada cinco trabajadores, el crecimiento real pasó del 3,6 % al 1,3 %, según las cifras preliminares publicadas el 27 de noviembre por el Ministerio de Trabajo.\n\nLa encuesta de junio abarca a ciudadanos y residentes permanentes de todo el país, mucho más allá del distrito financiero de Raffles Place. Antes del ajuste por inflación, la mediana del ingreso bruto mensual pasó de 5.775 a 6.021 dólares de Singapur, según CNA. La cifra incluye las aportaciones patronales al fondo de previsión.",
+          "photoAlt": "Peatones pasan frente a las oficinas y comercios de Raffles Place en Singapur.",
+          "photoCaption": "Archivo, 29 de agosto de 2002. Peatones en Raffles Place, en el distrito financiero de Singapur."
+        },
+        "ar": {
+          "title": "ارتفاع وسيط دخل العمل في سنغافورة 2.2% بعد احتساب التضخم مقابل 4.1% قبل عام",
+          "summary": "تُظهر النتائج الأولية لعام 2026 تباطؤاً أشد في نمو الدخل لدى الشريحة الأقل دخلاً من العاملين.",
+          "body": "واصل دخل العمل في سنغافورة الارتفاع بوتيرة تفوق الأسعار، لكن بفارق أقل مما كان عليه في 2025. وبين المقيمين العاملين بدوام كامل، تراجع نمو وسيط الدخل بعد احتساب التضخم من 4.1% إلى 2.2%. وعند المئين العشرين، وهو الحد الذي يقع تحته دخل عامل من كل خمسة، تباطأ النمو الحقيقي من 3.6% إلى 1.3%، وفق النتائج الأولية التي نشرتها وزارة القوى العاملة في 27 نوفمبر.\n\nيشمل مسح يونيو المواطنين والمقيمين الدائمين في أنحاء البلاد كافة، ويتجاوز نطاق حي الأعمال في رافلز بليس. وقبل احتساب التضخم، ارتفع وسيط الدخل الشهري الإجمالي من 5,775 إلى 6,021 دولاراً سنغافورياً، وفق شبكة CNA. ويشمل المبلغ مساهمات أصحاب العمل في صندوق الادخار المركزي.",
+          "photoAlt": "مشاة يمرون أمام مكاتب ومتاجر في رافلز بليس بسنغافورة.",
+          "photoCaption": "من الأرشيف، 29 أغسطس 2002. مشاة في رافلز بليس بحي الأعمال في سنغافورة."
+        },
+        "zh-CN": {
+          "title": "新加坡就业收入中位数扣除通胀后增长2.2%，低于一年前的4.1%",
+          "summary": "2026年初步数据显示，收入分布中较低一端的就业收入增速放缓得更为明显。",
+          "body": "新加坡就业收入涨幅仍高于物价涨幅，但两者差距较2025年缩小。全职就业居民的实际收入中位数增幅从4.1%降至2.2%。在第20百分位，即五分之一劳动者收入低于的水平，实际增幅从3.6%降至1.3%。这是新加坡人力部11月27日公布的初步调查结果。\n\n这项6月开展的调查涵盖全国公民和永久居民，范围远超莱佛士坊商业区。据亚洲新闻台报道，未经通胀调整的月总收入中位数从5775新元升至6021新元，其中包括雇主缴纳的中央公积金。",
+          "photoAlt": "行人走过新加坡莱佛士坊的办公楼和商店。",
+          "photoCaption": "档案照片，2002年8月29日。行人走在新加坡商业区的莱佛士坊。"
+        },
+        "ru": {
+          "title": "В Сингапуре медианный доход с поправкой на инфляцию вырос на 2,2 % против 4,1 % годом ранее",
+          "summary": "Предварительные итоги 2026 года показывают, что в группе с более низкими трудовыми доходами рост замедлился ещё сильнее.",
+          "body": "Трудовые доходы в Сингапуре по-прежнему росли быстрее цен, но разрыв сократился по сравнению с 2025 годом. У жителей, работающих полный день, рост реального медианного дохода замедлился с 4,1 % до 2,2 %. На уровне 20-го процентиля — порога, ниже которого находится доход каждого пятого работника, — реальный рост снизился с 3,6 % до 1,3 %. Эти предварительные данные министерство трудовых ресурсов опубликовало 27 ноября.\n\nИюньское обследование охватывает граждан и постоянных жителей всей страны, далеко за пределами делового района Раффлз-Плейс. По данным CNA, без поправки на инфляцию медианный месячный доход до вычетов вырос с 5775 до 6021 сингапурского доллара. В сумму входят взносы работодателей в Центральный накопительный фонд.",
+          "photoAlt": "Пешеходы проходят мимо офисов и магазинов на площади Раффлз-Плейс в Сингапуре.",
+          "photoCaption": "Архив, 29 августа 2002 года. Пешеходы на площади Раффлз-Плейс в деловом районе Сингапура."
+        },
+        "ko": {
+          "title": "싱가포르 실질 중위 근로소득 2.2% 증가…전년 4.1%보다 둔화",
+          "summary": "2026년 잠정 집계에 따르면 근로소득 분포의 하위권에서 실질 소득 증가세가 더 크게 꺾였다.",
+          "body": "싱가포르의 근로소득은 여전히 물가보다 빠르게 올랐지만 그 격차는 2025년보다 줄었다. 전일제로 일하는 거주자의 물가 조정 중위소득 증가율은 4.1%에서 2.2%로 낮아졌다. 근로자 다섯 명 중 한 명의 소득이 그 아래에 있는 하위 20% 경계선에서는 실질 증가율이 3.6%에서 1.3%로 떨어졌다. 싱가포르 인력부가 11월 27일 발표한 잠정 집계다.\n\n6월 조사는 래플스 플레이스 업무지구를 포함해 전국의 시민권자와 영주권자를 대상으로 한다. CNA에 따르면 물가를 반영하기 전 월 총소득 중위값은 5,775싱가포르달러에서 6,021싱가포르달러로 늘었다. 여기에는 고용주의 중앙적립기금 납입금이 포함된다.",
+          "photoAlt": "싱가포르 래플스 플레이스의 사무실과 상점 앞을 지나는 보행자들.",
+          "photoCaption": "2002년 8월 29일 자료 사진. 싱가포르 업무지구 래플스 플레이스의 보행자들."
+        }
+      },
+      "title": "À Singapour, le revenu médian progresse de 2,2 % après inflation, contre 4,1 % un an plus tôt",
+      "summary": "Les résultats préliminaires pour 2026 montrent un ralentissement encore plus marqué dans le bas de la distribution des revenus du travail.",
+      "body": "Le revenu du travail a continué de gagner du terrain sur les prix à Singapour, mais moins vite qu’en 2025. Pour les résidents travaillant à temps plein, la hausse du revenu médian corrigée de l’inflation est passée de 4,1 % à 2,2 %. Au 20e centile, le seuil sous lequel se situe un travailleur sur cinq, la progression réelle est passée de 3,6 % à 1,3 %, selon les résultats provisoires publiés le 27 novembre par le ministère de la Main-d’œuvre.\n\nL’enquête de juin couvre les citoyens et les résidents permanents dans l’ensemble du pays, bien au-delà du quartier d’affaires de Raffles Place. Avant correction pour l’inflation, le revenu mensuel brut médian est passé de 5 775 à 6 021 dollars de Singapour, rapporte CNA. Ce montant inclut les cotisations patronales au fonds de prévoyance."
+    }
+  ]
+}
