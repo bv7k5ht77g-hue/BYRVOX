@@ -1,0 +1,162 @@
+{
+  "hour": "2026-11-27T02",
+  "articles": [
+    {
+      "eventKey": "terre-neuve-labrador-entretien-hivernal-transcanadienne-jour-nuit",
+      "category": "Terre-Neuve-et-Labrador",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Gouvernement de Terre-Neuve-et-Labrador — Transports et Infrastructures",
+          "url": "https://www.gov.nl.ca/releases/2026/ti/1126n03/",
+          "publishedAt": "2026-11-26T10:20:00-03:30"
+        },
+        {
+          "name": "VOCM — rédaction de Terre-Neuve-et-Labrador",
+          "url": "https://vocm.com/2026/11/26/317909/",
+          "publishedAt": "2026-11-26T10:52:00-03:30"
+        },
+        {
+          "name": "BayFM, Corner Brook",
+          "url": "https://www.bayfm.ca/2026/11/26/government-expands-24-hour-snow-clearing-to-include-the-entire-trans-canada-highway/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "subject": "Transcanadienne",
+        "context": "Terre-Neuve-et-Labrador",
+        "capturedOn": "2023-06-13",
+        "download": "media/route.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trans-Canada_Highway_near_Clarenville.jpg",
+        "credit": "Ycleymans / Wikimedia Commons (recadrage BYRVOX)",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "La Transcanadienne près de Clarenville, avec un panneau de distances au bord de la chaussée.",
+        "caption": "Archives, 13 juin 2023. La Transcanadienne près de Clarenville, à Terre-Neuve-et-Labrador."
+      },
+      "translations": {
+        "en": {
+          "title": "Newfoundland and Labrador plans round-the-clock snow clearing along the entire Trans-Canada Highway",
+          "summary": "The province plans to extend 24-hour winter maintenance to more than 1,300 additional kilometres of roads. That total also includes routes in the St. John’s area.",
+          "body": "Newfoundland and Labrador announced on Thursday, November 26, that the entire Trans-Canada Highway across the island of Newfoundland would receive round-the-clock snow clearing and ice control. Until now, the program reinstated last year has covered only some of the busiest routes.\n\nThe transportation department says the expansion also covers the rest of Route 3, including the new section of Team Gushue Highway, as well as Robert E. Howlett Memorial Drive. Local radio station VOCM identified a staffing challenge: the province still needs to recruit operators to deliver the expanded service.",
+          "photoAlt": "The Trans-Canada Highway near Clarenville, with a distance sign beside the road.",
+          "photoCaption": "Archive, June 13, 2023. The Trans-Canada Highway near Clarenville in Newfoundland and Labrador."
+        },
+        "es": {
+          "title": "Terranova y Labrador prevé retirar la nieve día y noche en toda la Transcanadiense",
+          "summary": "La provincia quiere extender el mantenimiento invernal de 24 horas a más de 1.300 kilómetros adicionales de carreteras. La cifra incluye vías de la zona de St. John’s.",
+          "body": "Terranova y Labrador anunció el jueves 26 de noviembre que toda la carretera Transcanadiense que cruza la isla de Terranova dispondrá de servicios de retirada de nieve y control del hielo a cualquier hora. Hasta ahora, el programa restablecido el año pasado cubría solo algunas de las rutas más transitadas.\n\nEl Ministerio de Transportes incluye en la ampliación el resto de la ruta 3, con el nuevo tramo de la Team Gushue Highway, y la vía Robert E. Howlett Memorial Drive. La emisora local VOCM señala un desafío de personal: la provincia aún debe contratar operadores para prestar el servicio ampliado.",
+          "photoAlt": "La Transcanadiense cerca de Clarenville, con una señal de distancias al borde de la calzada.",
+          "photoCaption": "Archivo, 13 de junio de 2023. La Transcanadiense cerca de Clarenville, en Terranova y Labrador."
+        },
+        "ar": {
+          "title": "نيوفاوندلاند ولابرادور تخطط لإزالة الثلوج على مدار الساعة على كامل الطريق العابر لكندا في المقاطعة",
+          "summary": "تعتزم المقاطعة توسيع الصيانة الشتوية على مدار الساعة لتشمل أكثر من 1300 كيلومتر إضافي من الطرق. ويشمل الإجمالي طرقاً في منطقة سانت جونز أيضاً.",
+          "body": "أعلنت نيوفاوندلاند ولابرادور الخميس 26 نوفمبر أن خدمات إزالة الثلوج ومكافحة الجليد ستعمل ليلاً ونهاراً على امتداد الطريق العابر لكندا الذي يقطع جزيرة نيوفاوندلاند. وحتى الآن اقتصر البرنامج، الذي أعيد العمل به العام الماضي، على عدد من الطرق الأكثر ازدحاماً.\n\nوتقول وزارة النقل إن التوسعة تشمل بقية الطريق رقم 3، بما فيه المقطع الجديد من طريق تيم غوشو، إضافة إلى طريق روبرت إي هاوليت التذكاري. وأشارت إذاعة «VOCM» المحلية إلى تحدٍّ في التنفيذ، إذ لا يزال على المقاطعة توظيف مشغّلين لتقديم الخدمة الموسعة.",
+          "photoAlt": "الطريق العابر لكندا قرب كلارينفيل ولوحة مسافات على جانبه.",
+          "photoCaption": "صورة أرشيفية من 13 يونيو 2023. الطريق العابر لكندا قرب كلارينفيل في نيوفاوندلاند ولابرادور."
+        },
+        "zh-CN": {
+          "title": "纽芬兰与拉布拉多省计划全天候清理横贯加拿大公路省内全线积雪",
+          "summary": "该省计划将全天候冬季道路养护再延伸逾1300公里，其中也包括圣约翰斯地区的道路。",
+          "body": "纽芬兰与拉布拉多省于11月26日星期四宣布，横穿纽芬兰岛的横贯加拿大公路将全线实行全天候清雪和除冰。去年恢复的这项服务此前仅覆盖部分最繁忙的路段。\n\n省交通部门表示，此次扩围还包括3号公路其余路段，其中有蒂姆·古舒公路的新路段，以及罗伯特·E·豪利特纪念大道。据当地电台VOCM报道，人手是落实计划的一项挑战，该省仍需招聘设备操作人员来提供扩大的服务。",
+          "photoAlt": "克拉伦维尔附近的横贯加拿大公路，路旁可见里程指示牌。",
+          "photoCaption": "资料照片，摄于2023年6月13日。纽芬兰与拉布拉多省克拉伦维尔附近的横贯加拿大公路。"
+        },
+        "ru": {
+          "title": "Ньюфаундленд и Лабрадор планирует круглосуточную уборку снега на всей Трансканадской магистрали в провинции",
+          "summary": "Провинция хочет распространить круглосуточное зимнее обслуживание ещё более чем на 1300 километров дорог. В эту цифру входят и дороги в районе Сент-Джонса.",
+          "body": "В четверг, 26 ноября, власти Ньюфаундленда и Лабрадора объявили, что на всём протяжении Трансканадской магистрали через остров Ньюфаундленд планируют круглосуточно убирать снег и бороться с гололёдом. До сих пор программа, возобновлённая в прошлом году, охватывала лишь часть наиболее загруженных трасс.\n\nПо данным транспортного ведомства, в программу также войдут оставшаяся часть трассы № 3, включая новый участок шоссе Тим-Гушу, и дорога имени Роберта Э. Хаулетта. Как отмечает местная радиостанция VOCM, для расширения обслуживания провинции ещё предстоит нанять операторов дорожной техники.",
+          "photoAlt": "Трансканадская магистраль у Кларенвилла с указателем расстояний на обочине.",
+          "photoCaption": "Архив, 13 июня 2023 года. Трансканадская магистраль близ Кларенвилла в провинции Ньюфаундленд и Лабрадор."
+        },
+        "ko": {
+          "title": "뉴펀들랜드래브라도주, 섬을 가로지르는 캐나다 횡단도로 전 구간에 24시간 제설 추진",
+          "summary": "주는 겨울철 24시간 도로 관리 구간을 1,300km 넘게 늘릴 계획이다. 여기에는 세인트존스 일대 도로도 포함된다.",
+          "body": "뉴펀들랜드래브라도주는 11월 26일 목요일 뉴펀들랜드섬을 가로지르는 캐나다 횡단도로 전 구간에서 밤낮으로 제설과 결빙 방지 작업을 실시할 계획이라고 밝혔다. 지난해 재개된 이 사업은 지금까지 통행량이 많은 일부 구간에만 적용됐다.\n\n주 교통부는 팀 구슈 고속도로의 신설 구간을 포함한 3번 도로의 나머지 구간과 로버트 E. 하울렛 메모리얼 드라이브도 확대 대상에 넣었다. 현지 라디오 VOCM은 서비스 확대를 위해 주정부가 도로 장비 운전 인력을 추가로 채용해야 한다고 전했다.",
+          "photoAlt": "클래런빌 인근 캐나다 횡단도로 옆에 거리 안내 표지판이 서 있다.",
+          "photoCaption": "자료 사진, 2023년 6월 13일. 뉴펀들랜드래브라도주 클래런빌 인근에서 촬영한 캐나다 횡단도로."
+        }
+      },
+      "title": "Terre-Neuve-et-Labrador prévoit le déneigement jour et nuit sur toute la Transcanadienne",
+      "summary": "La province veut étendre l’entretien hivernal 24 heures sur 24 à plus de 1 300 kilomètres de routes supplémentaires. Ce total comprend aussi des axes de la région de St. John’s.",
+      "body": "Terre-Neuve-et-Labrador a annoncé jeudi 26 novembre que toute la Transcanadienne, qui traverse l’île de Terre-Neuve, serait couverte par le déneigement et la lutte contre le verglas à toute heure. Jusqu’ici, seuls certains axes parmi les plus fréquentés bénéficiaient du programme rétabli l’an dernier.\n\nLe ministère des Transports inclut dans l’extension le reste de la route 3, dont la nouvelle section de la Team Gushue Highway, ainsi que la promenade Robert E. Howlett. La radio locale VOCM relève un enjeu pour la mise en œuvre : la province doit encore recruter des opérateurs pour assurer le service élargi."
+    },
+    {
+      "eventKey": "texas-devonta-smith-eagles-remontee-cowboys-thanksgiving",
+      "category": "Sports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Philadelphia Eagles — compte rendu officiel",
+          "url": "https://www.philadelphiaeagles.com/news/game-recap-eagles-at-cowboys-thanksgiving-2026-nfl-week-12-saquon-barkley-devonta-smith-joe-milton-dak-prescott",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Brandon Lee Gowton, Bleeding Green Nation",
+          "url": "https://www.bleedinggreennation.com/philadelphia-eagles-scores-results/191542/eagles-cowboys-live-score-updates-highlights-injury-news",
+          "publishedAt": "2026-11-26T20:55:00-05:00"
+        }
+      ],
+      "photo": {
+        "subject": "DeVonta Smith",
+        "context": "Eagles de Philadelphie",
+        "capturedOn": "2022-11-14",
+        "download": "media/smith.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quez_Watkins_%26_DeVonta_Smith_Eagles_NOV2022.jpg",
+        "credit": "All-Pro Reels / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "DeVonta Smith, numéro 6 des Eagles de Philadelphie, court aux côtés de Quez Watkins, numéro 16.",
+        "caption": "Archives, 14 novembre 2022. DeVonta Smith, à droite, et Quez Watkins portent le maillot des Eagles de Philadelphie contre les Commanders de Washington à Philadelphie."
+      },
+      "translations": {
+        "en": {
+          "title": "DeVonta Smith gains 200 yards as Eagles erase 21-point deficit to beat Dallas",
+          "summary": "In Arlington, the Philadelphia Eagles rallied from 31-10 down to beat the Cowboys 39-38. Jake Elliott kicked the winning 59-yard field goal.",
+          "body": "DeVonta Smith caught eleven passes for 200 yards and two touchdowns on Thursday, November 26, in Texas. The Philadelphia Eagles still had to wait until the closing seconds to win. In its recap, the team described Joe Milton’s two long touchdown passes to Smith, the first for 50 yards and the second for 45.\n\nSmith’s second touchdown cut the deficit to 31-17 late in the third quarter. As Bleeding Green Nation reported, Ty Robinson then blocked a Dallas punt and later recorded a fourth-down sack near the end of the game. That gave the Eagles the ball back before Elliott’s winning kick.",
+          "photoAlt": "DeVonta Smith, number 6 for the Philadelphia Eagles, runs alongside number 16, Quez Watkins.",
+          "photoCaption": "Archive, November 14, 2022. DeVonta Smith, right, and Quez Watkins in Philadelphia Eagles uniforms against the Washington Commanders in Philadelphia."
+        },
+        "es": {
+          "title": "Con 200 yardas de DeVonta Smith, los Eagles remontan 21 puntos y vencen a Dallas",
+          "summary": "En Arlington, los Philadelphia Eagles remontaron un 31-10 en contra para vencer 39-38 a los Cowboys. Jake Elliott anotó el gol de campo decisivo de 59 yardas.",
+          "body": "DeVonta Smith atrapó once pases para 200 yardas y dos touchdowns el jueves 26 de noviembre en Texas. Aun así, los Philadelphia Eagles tuvieron que esperar hasta los últimos segundos para imponerse. En su crónica, el equipo describió los dos largos pases de touchdown de Joe Milton a Smith, el primero de 50 yardas y el segundo de 45.\n\nEl segundo touchdown de Smith acercó a Filadelfia a 31-17 al final del tercer cuarto. Según la crónica de Bleeding Green Nation, Ty Robinson bloqueó después una patada de despeje de Dallas y, ya en la recta final, capturó al mariscal en cuarta oportunidad. Los Eagles recuperaron así el balón antes de la patada ganadora de Elliott.",
+          "photoAlt": "DeVonta Smith, número 6 de los Philadelphia Eagles, corre junto a Quez Watkins, número 16.",
+          "photoCaption": "Archivo, 14 de noviembre de 2022. DeVonta Smith, a la derecha, y Quez Watkins con el uniforme de los Philadelphia Eagles ante los Washington Commanders en Filadelfia."
+        },
+        "ar": {
+          "title": "بفضل 200 ياردة لديفونتا سميث، إيغلز يعوّض تأخره بـ21 نقطة ويفوز على دالاس",
+          "summary": "قلب فيلادلفيا إيغلز تأخره 31-10 في أرلينغتون إلى فوز 39-38 على كاوبويز. وسجّل جيك إليوت هدف الحسم الميداني من مسافة 59 ياردة.",
+          "body": "استقبل ديفونتا سميث إحدى عشرة تمريرة بإجمالي 200 ياردة وسجّل هدفَي وصول الخميس 26 نوفمبر في تكساس. ومع ذلك انتظر فيلادلفيا إيغلز حتى الثواني الأخيرة ليحسم الفوز. ووصف الفريق في تقريره تمريرتَي جو ميلتون الطويلتين اللتين سجّل منهما سميث، الأولى من 50 ياردة والثانية من 45.\n\nقلّص هدف سميث الثاني الفارق إلى 31-17 في أواخر الربع الثالث. وبحسب موقع «بليدينغ غرين نيشن»، تصدّى تاي روبنسون بعد ذلك لركلة إبعاد من دالاس، ثم أسقط لاعب الوسط في المحاولة الرابعة قرب نهاية اللقاء. وبذلك استعاد إيغلز الكرة قبل ركلة إليوت الحاسمة.",
+          "photoAlt": "ديفونتا سميث، صاحب القميص رقم 6 في فيلادلفيا إيغلز، يجري بجوار كويز واتكينز صاحب القميص رقم 16.",
+          "photoCaption": "صورة أرشيفية من 14 نوفمبر 2022. ديفونتا سميث إلى اليمين وكويز واتكينز بقميص فيلادلفيا إيغلز أمام واشنطن كوماندرز في فيلادلفيا."
+        },
+        "zh-CN": {
+          "title": "德文塔·史密斯接球推进200码，老鹰逆转21分劣势险胜达拉斯",
+          "summary": "费城老鹰在阿灵顿一度以10比31落后，最终以39比38击败牛仔。杰克·埃利奥特踢进59码制胜射门。",
+          "body": "11月26日星期四，德文塔·史密斯在得克萨斯州接球11次，推进200码并完成两次达阵。费城老鹰直到最后几秒才锁定胜局。球队赛后报道记录了乔·米尔顿与史密斯的两次长传达阵，第一次为50码，第二次为45码。\n\n第三节临近结束时，史密斯第二次达阵，将比分追至17比31。据老鹰队报道网站Bleeding Green Nation报道，泰·罗宾逊随后封堵了达拉斯的一次弃踢，并在比赛尾声的第四档擒杀对方四分卫。老鹰由此重获球权，随后埃利奥特踢进制胜球。",
+          "photoAlt": "费城老鹰6号球员德文塔·史密斯与16号球员奎兹·沃特金斯并肩跑动。",
+          "photoCaption": "资料照片，摄于2022年11月14日。德文塔·史密斯（右）和奎兹·沃特金斯身穿费城老鹰队服，在费城迎战华盛顿指挥官。"
+        },
+        "ru": {
+          "title": "200 ярдов Девонты Смита помогли «Иглз» отыграть 21 очко и победить «Даллас»",
+          "summary": "В Арлингтоне «Филадельфия Иглз» уступала 10:31, но обыграла «Каубойз» со счётом 39:38. Джейк Эллиотт забил решающий филд-гол с 59 ярдов.",
+          "body": "В четверг, 26 ноября, в Техасе Девонта Смит поймал одиннадцать передач на 200 ярдов и занёс два тачдауна. Но «Филадельфия Иглз» добилась победы лишь на последних секундах. В отчёте клуба описаны две длинные передачи Джо Милтона на Смита, завершившиеся тачдаунами: первая на 50 ярдов, вторая на 45.\n\nВторой тачдаун Смита сократил отставание до 17:31 в конце третьей четверти. Как сообщает Bleeding Green Nation, затем Тай Робинсон заблокировал пант «Далласа», а ближе к концу встречи на четвёртой попытке сделал сэк. «Иглз» вернули себе мяч перед победным ударом Эллиотта.",
+          "photoAlt": "Девонта Смит под шестым номером «Филадельфия Иглз» бежит рядом с Квезом Уоткинсом под номером 16.",
+          "photoCaption": "Архив, 14 ноября 2022 года. Девонта Смит, справа, и Квез Уоткинс в форме «Филадельфия Иглз» в матче против «Вашингтон Коммандерс» в Филадельфии."
+        },
+        "ko": {
+          "title": "디본타 스미스 200야드 활약, 이글스 21점 차 뒤집고 댈러스에 승리",
+          "summary": "필라델피아 이글스가 알링턴에서 10-31로 뒤지던 경기를 뒤집어 카우보이스를 39-38로 꺾었다. 제이크 엘리엇이 59야드 결승 필드골을 넣었다.",
+          "body": "11월 26일 목요일 텍사스에서 디본타 스미스는 패스 11개를 받아 200야드와 터치다운 두 개를 기록했다. 필라델피아 이글스는 경기 종료 직전에야 승리를 거뒀다. 구단 경기 보고서에 따르면 조 밀턴이 스미스에게 연결한 두 차례의 장거리 터치다운 패스는 각각 50야드와 45야드였다.\n\n스미스의 두 번째 터치다운으로 필라델피아는 3쿼터 막판 17-31까지 따라붙었다. 블리딩 그린 네이션에 따르면 타이 로빈슨은 이후 댈러스의 펀트를 막았고, 경기 막판에는 포스 다운에서 쿼터백 색을 기록했다. 이글스는 그렇게 공격권을 되찾은 뒤 엘리엇의 결승 킥으로 승부를 갈랐다.",
+          "photoAlt": "필라델피아 이글스의 6번 디본타 스미스가 16번 퀘즈 왓킨스와 나란히 달리고 있다.",
+          "photoCaption": "자료 사진, 2022년 11월 14일. 필라델피아에서 워싱턴 커맨더스와 맞붙은 필라델피아 이글스의 디본타 스미스(오른쪽)와 퀘즈 왓킨스."
+        }
+      },
+      "title": "Avec 200 verges de DeVonta Smith, les Eagles effacent un déficit de 21 points et battent Dallas",
+      "summary": "À Arlington, les Eagles de Philadelphie ont effacé un retard de 31 à 10 pour battre les Cowboys 39 à 38. Jake Elliott a réussi le placement décisif de 59 verges.",
+      "body": "DeVonta Smith a capté onze passes pour 200 verges et deux touchés jeudi 26 novembre, au Texas. Les Eagles de Philadelphie ont pourtant dû attendre les dernières secondes pour l’emporter. Dans son compte rendu, l’équipe décrit les deux longues passes de touché que Joe Milton a lancées à Smith, la première de 50 verges et la seconde de 45.\n\nLe deuxième touché de Smith a ramené Philadelphie à 31-17 à la fin du troisième quart. Selon le récit de Bleeding Green Nation, Ty Robinson a ensuite bloqué un botté de dégagement de Dallas, puis réussi un sac sur un quatrième essai en fin de match. Les Eagles ont ainsi repris le ballon avant le placement victorieux d’Elliott."
+    }
+  ]
+}
