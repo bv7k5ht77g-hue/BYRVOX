@@ -1,0 +1,162 @@
+{
+  "hour": "2026-11-27T13",
+  "articles": [
+    {
+      "title": "Au Nouveau-Brunswick, la pluie verglaçante ferme toutes les écoles du district anglophone Ouest",
+      "summary": "Les élèves du district, notamment dans les régions de Fredericton et de Woodstock, restent à la maison ce vendredi 27 novembre en raison des conditions routières.",
+      "body": "Le district scolaire anglophone Ouest du Nouveau-Brunswick a annoncé à 5 h 32, heure de l’Atlantique, la fermeture de toutes ses écoles pour la journée. La décision s’applique aussi à Oromocto High School. Le district invoque la météo et l’état des routes dans son avis aux familles.\n\nÀ Fredericton, Environnement Canada prévoyait de 5 à 15 millimètres de pluie verglaçante. L’avertissement météo couvrait l’ouest, le nord-ouest et le centre de la province.",
+      "category": "Nouveau-Brunswick",
+      "eventKey": "nouveau-brunswick-verglas-fermeture-ecoles-district-anglophone-ouest",
+      "verified": true,
+      "photo": {
+        "subject": "Oromocto High School",
+        "context": "Nouveau-Brunswick",
+        "download": "media/oromocto.webp",
+        "capturedOn": "2026-09-26",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oromocto_High_School.jpg",
+        "credit": "Coolman6244 / Wikimedia Commons (WebP)",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "L’enseigne d’Oromocto High School sur la façade de brique, à côté de l’entrée de l’administration.",
+        "caption": "Archives. Entrée d’Oromocto High School, au Nouveau-Brunswick, le 26 septembre 2026."
+      },
+      "sources": [
+        {
+          "name": "Anglophone School District West",
+          "url": "https://asdw.nbed.ca/alerts/all-schools-in-anglophone-school-district-west-will-be-closed-today-due-to-weather-and-road-conditions-2/",
+          "publishedAt": "2026-11-27T05:32:00-04:00"
+        },
+        {
+          "name": "Fredericton Independent",
+          "url": "https://ftonindependent.substack.com/p/freezing-rain-closes-area-schools",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Environnement et Changement climatique Canada",
+          "url": "https://weather.gc.ca/warnings/report_e.html?nb12=undefined",
+          "publishedAt": "2026-11-27T04:45:00-04:00"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Freezing rain closes every school in New Brunswick’s Anglophone West district",
+          "summary": "Students in the district, including those in the Fredericton and Woodstock areas, are staying home on Friday, November 27, because of road conditions.",
+          "body": "New Brunswick’s Anglophone West school district announced at 5:32 a.m. Atlantic time that all its schools would close for the day. The decision includes Oromocto High School. In its notice to families, the district cited the weather and road conditions.\n\nEnvironment Canada forecast 5 to 15 millimetres of freezing rain in Fredericton. The weather warning covered western, northwestern and central New Brunswick.",
+          "photoAlt": "The Oromocto High School sign on a brick wall beside the administrative entrance.",
+          "photoCaption": "Archive photo. Entrance to Oromocto High School in New Brunswick on September 26, 2026."
+        },
+        "es": {
+          "title": "La lluvia helada obliga a cerrar todas las escuelas del distrito anglófono Oeste de Nuevo Brunswick",
+          "summary": "Los alumnos del distrito, incluidos los de las zonas de Fredericton y Woodstock, se quedan en casa este viernes 27 de noviembre por el estado de las carreteras.",
+          "body": "El distrito escolar anglófono Oeste de Nuevo Brunswick anunció a las 5:32 de la mañana, hora del Atlántico, el cierre de todas sus escuelas durante la jornada. La decisión incluye a Oromocto High School. En su aviso a las familias, el distrito citó el tiempo y el estado de las carreteras.\n\nEn Fredericton, el servicio meteorológico canadiense pronosticó entre 5 y 15 milímetros de lluvia helada. La alerta meteorológica abarcaba el oeste, el noroeste y el centro de la provincia.",
+          "photoAlt": "El letrero de Oromocto High School en la fachada de ladrillo, junto a la entrada administrativa.",
+          "photoCaption": "Archivo. Entrada de Oromocto High School, en Nuevo Brunswick, el 26 de septiembre de 2026."
+        },
+        "ar": {
+          "title": "الأمطار المتجمدة تغلق جميع مدارس المنطقة التعليمية الغربية الناطقة بالإنجليزية في نيو برونزويك",
+          "summary": "يلزم طلاب المنطقة، بمن فيهم طلاب منطقتي فريدريكتون ووودستوك، منازلهم الجمعة 27 نوفمبر بسبب أحوال الطرق.",
+          "body": "أعلنت المنطقة التعليمية الغربية الناطقة بالإنجليزية في نيو برونزويك عند الساعة 5:32 صباحاً بتوقيت الأطلسي إغلاق جميع مدارسها طوال اليوم. ويشمل القرار مدرسة أوروموكتو الثانوية. وعزت المنطقة قرارها في إشعار للأسر إلى الطقس وأحوال الطرق.\n\nوتوقعت هيئة البيئة الكندية هطول ما بين 5 و15 مليمتراً من الأمطار المتجمدة في فريدريكتون. وشمل التحذير الجوي غرب المقاطعة وشمالها الغربي ووسطها.",
+          "photoAlt": "اسم مدرسة أوروموكتو الثانوية على واجهة من الطوب إلى جانب مدخل الإدارة.",
+          "photoCaption": "صورة أرشيفية لمدخل مدرسة أوروموكتو الثانوية في نيو برونزويك في 26 سبتمبر 2026."
+        },
+        "zh-CN": {
+          "title": "冻雨导致加拿大新不伦瑞克省西部英语学区所有学校停课",
+          "summary": "因道路状况不佳，学区内包括弗雷德里克顿和伍德斯托克一带的学生于11月27日星期五居家。",
+          "body": "新不伦瑞克省西部英语学区于大西洋时间清晨5时32分宣布，辖区所有学校当天停课，其中包括奥罗莫克托高中。学区在给家长的通知中表示，作出决定的原因是天气和路况。\n\n加拿大环境部门预计，弗雷德里克顿的冻雨量为5至15毫米。气象警报覆盖全省西部、西北部和中部。",
+          "photoAlt": "奥罗莫克托高中的校名标在砖墙上，旁边是行政入口。",
+          "photoCaption": "资料照片。2026年9月26日，新不伦瑞克省奥罗莫克托高中的入口。"
+        },
+        "ru": {
+          "title": "Ледяной дождь привёл к закрытию всех школ западного англоязычного округа Нью-Брансуика",
+          "summary": "В пятницу, 27 ноября, учащиеся округа, в том числе в районах Фредериктона и Вудстока, остаются дома из-за состояния дорог.",
+          "body": "В 5:32 утра по атлантическому времени западный англоязычный школьный округ Нью-Брансуика объявил о закрытии всех своих школ на день. Решение касается и средней школы Оромокто. В уведомлении для семей округ сослался на погоду и дорожные условия.\n\nКанадская метеослужба прогнозировала во Фредериктоне от 5 до 15 миллиметров ледяного дождя. Предупреждение о непогоде действовало на западе, северо-западе и в центральной части провинции.",
+          "photoAlt": "Название средней школы Оромокто на кирпичной стене рядом со входом в административную часть здания.",
+          "photoCaption": "Архивное фото. Вход в среднюю школу Оромокто в Нью-Брансуике 26 сентября 2026 года."
+        },
+        "ko": {
+          "title": "어는 비로 캐나다 뉴브런즈윅주 서부 영어권 교육구 전 학교 휴교",
+          "summary": "도로 사정으로 프레더릭턴과 우드스톡 일대를 포함한 교육구 학생들은 11월 27일 금요일 집에 머문다.",
+          "body": "뉴브런즈윅주 서부 영어권 교육구는 대서양 시간 오전 5시 32분 관내 모든 학교가 하루 동안 휴교한다고 발표했다. 오로목토 고등학교도 대상이다. 교육구는 가정에 보낸 공지에서 날씨와 도로 상태를 이유로 들었다.\n\n캐나다 환경 당국은 프레더릭턴에 어는 비가 5~15밀리미터 내릴 것으로 예보했다. 기상 경보는 주 서부와 북서부, 중부에 발령됐다.",
+          "photoAlt": "오로목토 고등학교 행정실 출입구 옆 벽돌 외벽에 학교 이름이 적혀 있다.",
+          "photoCaption": "자료 사진. 2026년 9월 26일 뉴브런즈윅주 오로목토 고등학교 입구."
+        }
+      }
+    },
+    {
+      "title": "Le Brésil ouvre l’accès en ligne à 108 volumes manuscrits des Archives nationales d’Angola",
+      "summary": "Les lecteurs peuvent désormais consulter gratuitement ces archives sur le portail Projeto Resgate. Elles permettent notamment de retracer les liens entre l’administration coloniale portugaise et la traite atlantique.",
+      "body": "La Bibliothèque nationale du Brésil a présenté le 26 novembre à Rio de Janeiro deux collections numérisées. La première réunit 108 volumes manuscrits des Archives nationales d’Angola. On y trouve des lettres officielles et des actes de l’administration portugaise en Angola, à Benguela et à Cabinda.\n\nLa seconde collection rassemble plus de 1 600 documents de l’Institut historique et géographique brésilien sur l’Afrique, l’Asie et l’Océanie. Luciano Figueiredo, coordonnateur du Projeto Resgate, a expliqué à Agência Brasil que les chercheurs devaient auparavant se rendre à Luanda pour consulter les archives angolaises. Le portail leur permet désormais d’en lire une page manuscrite à distance.",
+      "category": "Brésil",
+      "eventKey": "bresil-angola-archives-manuscrits-projeto-resgate-acces-libre",
+      "verified": true,
+      "photo": {
+        "subject": "page manuscrite",
+        "context": "Projeto Resgate",
+        "download": "media/manuscrit.jpg",
+        "capturedOn": "2007-06-28",
+        "sourceUrl": "https://www.gov.br/bn/pt-br/central-de-conteudos/noticias/novembro-negro-biblioteca-nacional-disponibiliza-documentos-historicos-digitalizados-sobre-as-relacoes-africa-brasil",
+        "credit": "Fundação Biblioteca Nacional / Projeto Resgate",
+        "license": "CC BY-ND 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nd/3.0/",
+        "alt": "Détail d’une page manuscrite en portugais, à l’encre brune, reproduite par le Projeto Resgate.",
+        "caption": "Archives. Page manuscrite photographiée le 28 juin 2007, d’après les données du cliché, et présentée par la Bibliothèque nationale du Brésil pour illustrer le Projeto Resgate."
+      },
+      "sources": [
+        {
+          "name": "Fundação Biblioteca Nacional",
+          "url": "https://www.gov.br/bn/pt-br/central-de-conteudos/noticias/novembro-negro-biblioteca-nacional-disponibiliza-documentos-historicos-digitalizados-sobre-as-relacoes-africa-brasil",
+          "publishedAt": "2026-11-26T13:03:00-03:00"
+        },
+        {
+          "name": "Agência Brasil — Cristina Índio do Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-11/projeto-resgate-traz-de-angola-documentos-das-relacoes-africa-brasil",
+          "publishedAt": "2026-11-25T16:20:00-03:00"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Brazil opens online access to 108 manuscript volumes from Angola’s national archives",
+          "summary": "Readers can now consult the records free of charge on the Projeto Resgate portal. They shed light on links between Portuguese colonial administration and the Atlantic slave trade.",
+          "body": "On November 26 in Rio de Janeiro, Brazil’s National Library presented two digitised collections. The first brings together 108 manuscript volumes from the National Archives of Angola. They include official letters and records of the Portuguese administration in Angola, Benguela and Cabinda.\n\nThe second collection contains more than 1,600 documents on Africa, Asia and Oceania from the Brazilian Historical and Geographical Institute. Projeto Resgate coordinator Luciano Figueiredo told Agência Brasil that researchers previously had to travel to Luanda to consult the Angolan records. The portal now lets them read a manuscript page remotely.",
+          "photoAlt": "Detail of a manuscript page in Portuguese, in brown ink, reproduced by Projeto Resgate.",
+          "photoCaption": "Archive photo. Manuscript page photographed on June 28, 2007, according to the image metadata, and presented by Brazil’s National Library to illustrate Projeto Resgate."
+        },
+        "es": {
+          "title": "Brasil abre el acceso en línea a 108 volúmenes manuscritos de los Archivos Nacionales de Angola",
+          "summary": "Los lectores ya pueden consultar gratuitamente estos archivos en el portal Projeto Resgate. Los documentos ayudan a rastrear los vínculos entre la administración colonial portuguesa y la trata atlántica de personas esclavizadas.",
+          "body": "La Biblioteca Nacional de Brasil presentó el 26 de noviembre en Río de Janeiro dos colecciones digitalizadas. La primera reúne 108 volúmenes manuscritos de los Archivos Nacionales de Angola. Incluyen cartas oficiales y documentos de la administración portuguesa en Angola, Benguela y Cabinda.\n\nLa segunda colección reúne más de 1.600 documentos del Instituto Histórico y Geográfico Brasileño sobre África, Asia y Oceanía. Luciano Figueiredo, coordinador del Projeto Resgate, explicó a Agência Brasil que antes los investigadores tenían que viajar a Luanda para consultar los archivos angoleños. El portal les permite ahora leer a distancia una página manuscrita.",
+          "photoAlt": "Detalle de una página manuscrita en portugués, en tinta marrón, reproducida por el Projeto Resgate.",
+          "photoCaption": "Archivo. Página manuscrita fotografiada el 28 de junio de 2007, según los metadatos de la imagen, y presentada por la Biblioteca Nacional de Brasil para ilustrar el Projeto Resgate."
+        },
+        "ar": {
+          "title": "البرازيل تتيح عبر الإنترنت 108 مجلدات مخطوطة من الأرشيف الوطني الأنغولي",
+          "summary": "بات بإمكان القراء مطالعة الوثائق مجاناً عبر بوابة «بروجيتو ريسغاتي». وتساعد السجلات في تتبع الروابط بين الإدارة الاستعمارية البرتغالية وتجارة الرقيق عبر الأطلسي.",
+          "body": "عرضت المكتبة الوطنية البرازيلية في ريو دي جانيرو يوم 26 نوفمبر مجموعتين من الوثائق المرقمنة. وتضم الأولى 108 مجلدات مخطوطة من الأرشيف الوطني الأنغولي، فيها رسائل رسمية ووثائق للإدارة البرتغالية في أنغولا وبنغيلا وكابيندا.\n\nوتشمل المجموعة الثانية أكثر من 1600 وثيقة من المعهد التاريخي والجغرافي البرازيلي تتناول أفريقيا وآسيا وأوقيانوسيا. وقال لوسيانو فيغيريدو، منسق مشروع «بروجيتو ريسغاتي»، لوكالة أنباء البرازيل إن الباحثين كانوا يضطرون إلى السفر إلى لواندا للاطلاع على الأرشيف الأنغولي. وبات في وسعهم اليوم قراءة صفحة مخطوطة عن بُعد.",
+          "photoAlt": "تفصيل لصفحة مخطوطة بالبرتغالية بالحبر البني نشرها مشروع «بروجيتو ريسغاتي».",
+          "photoCaption": "صورة أرشيفية لصفحة مخطوطة التقطت في 28 يونيو 2007 بحسب بيانات الصورة، وعرضتها المكتبة الوطنية البرازيلية للتعريف بمشروع «بروجيتو ريسغاتي»."
+        },
+        "zh-CN": {
+          "title": "巴西开放安哥拉国家档案馆108册手稿供在线查阅",
+          "summary": "读者现可通过Projeto Resgate门户免费查阅这批档案，了解葡萄牙殖民行政与大西洋奴隶贸易之间的联系。",
+          "body": "11月26日，巴西国家图书馆在里约热内卢发布两批数字化馆藏。第一批收录了安哥拉国家档案馆的108册手稿，包括葡萄牙在安哥拉、本格拉和卡宾达的行政机构留下的公函和文书。\n\n第二批收录巴西历史地理研究所有关非洲、亚洲和大洋洲的1600多份文件。Projeto Resgate项目协调人卢西亚诺·菲格雷多向巴西通讯社表示，研究人员过去必须前往罗安达才能查阅这些安哥拉档案，如今可以通过门户远程阅读手稿。",
+          "photoAlt": "Projeto Resgate项目展示的葡萄牙语手稿局部，纸上写有棕色墨迹。",
+          "photoCaption": "资料照片。据图像元数据，这页手稿摄于2007年6月28日。巴西国家图书馆用它介绍Projeto Resgate项目。"
+        },
+        "ru": {
+          "title": "Бразилия открыла онлайн-доступ к 108 рукописным томам из Национального архива Анголы",
+          "summary": "Документы можно бесплатно изучать на портале Projeto Resgate. Они позволяют проследить связи между португальской колониальной администрацией и трансатлантической работорговлей.",
+          "body": "26 ноября в Рио-де-Жанейро Национальная библиотека Бразилии представила две оцифрованные коллекции. В первую вошли 108 рукописных томов из Национального архива Анголы. Среди них официальные письма и акты португальской администрации в Анголе, Бенгеле и Кабинде.\n\nВторая коллекция насчитывает более 1600 документов Бразильского историко-географического института об Африке, Азии и Океании. Координатор проекта Projeto Resgate Лусиану Фигейреду рассказал агентству Agência Brasil, что прежде для работы с ангольскими архивами исследователям приходилось ездить в Луанду. Теперь рукописную страницу можно прочесть на портале из любой точки мира.",
+          "photoAlt": "Фрагмент рукописной страницы на португальском языке, написанной коричневыми чернилами, в публикации Projeto Resgate.",
+          "photoCaption": "Архивное фото. По метаданным снимка, рукописная страница сфотографирована 28 июня 2007 года. Национальная библиотека Бразилии опубликовала изображение в материале о Projeto Resgate."
+        },
+        "ko": {
+          "title": "브라질, 앙골라 국립기록원 필사본 108권 온라인 공개",
+          "summary": "이제 독자들은 프로제투 헤스가치 포털에서 기록을 무료로 열람할 수 있다. 포르투갈 식민 행정과 대서양 노예무역의 관계를 추적할 수 있는 자료다.",
+          "body": "브라질 국립도서관은 11월 26일 리우데자네이루에서 디지털화한 두 자료 컬렉션을 공개했다. 첫 번째는 앙골라 국립기록원의 필사본 108권으로, 앙골라와 벵겔라, 카빈다의 포르투갈 행정기관이 남긴 공식 서한과 행정 문서가 포함돼 있다.\n\n두 번째는 브라질 역사·지리연구소가 소장한 아프리카와 아시아, 오세아니아 관련 문서 1,600여 건이다. 프로제투 헤스가치의 책임자 루시아누 피게이레두는 아젠시아 브라질과의 인터뷰에서 과거에는 연구자가 앙골라 기록을 열람하려면 루안다까지 가야 했다고 설명했다. 이제 포털에서 원격으로 필사본을 읽을 수 있다.",
+          "photoAlt": "프로제투 헤스가치가 소개한 포르투갈어 필사본의 일부로 갈색 잉크로 쓴 글씨가 보인다.",
+          "photoCaption": "자료 사진. 사진 메타데이터에 따르면 이 필사본은 2007년 6월 28일 촬영됐다. 브라질 국립도서관이 프로제투 헤스가치를 소개하며 공개한 사진이다."
+        }
+      }
+    }
+  ]
+}
