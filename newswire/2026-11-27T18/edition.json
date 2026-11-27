@@ -1,0 +1,81 @@
+{
+  "hour": "2026-11-27T18",
+  "articles": [
+    {
+      "eventKey": "ue-pret-ukraine-decision-decembre-budget-2028-2034",
+      "category": "Europe",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Conseil européen — conférence de presse d’António Costa",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/27/remarks-by-president-antonio-costa-at-the-press-conference-following-the-special-european-council-meeting-of-26-november-2026/",
+          "publishedAt": "2026-11-27T01:30:00+01:00"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/europe-budget-ukraine-2028-summit-costa-fd025046850b824b2e62def18408c6b6",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "photo": {
+        "subject": "António Costa",
+        "context": "Conseil européen",
+        "capturedOn": "2026-11-27",
+        "sourceUrl": "https://www.consilium.europa.eu/en/meetings/european-council/2026/11/26-27/",
+        "download": "media/costa.jpg",
+        "credit": "© European Union, 2026 · Conseil européen",
+        "license": "Réutilisation éditoriale autorisée avec crédit",
+        "licenseUrl": "https://newsroom.consilium.europa.eu/about",
+        "alt": "António Costa au pupitre, devant le panneau bleu du Conseil européen portant les dates du sommet de Bruxelles.",
+        "caption": "António Costa, président du Conseil européen, rend compte des négociations à Bruxelles le 27 novembre 2026. Image de la conférence de presse officielle."
+      },
+      "translations": {
+        "en": {
+          "title": "EU puts off decision on new loan to Ukraine until December",
+          "summary": "In Brussels, 24 of the 27 member states backed the loan proposal. Leaders also left without an agreement on the EU’s 2028–2034 budget.",
+          "body": "European leaders will return in December to the question of financing Ukraine in 2027. After the Brussels summit, European Council President António Costa said on November 27 that 24 countries supported the additional loan proposed by the Commission. One of them, Bulgaria, intends to take part only in its non-military component.\n\nThe summit was also meant to advance talks on the EU budget for the seven years beginning in 2028. The Associated Press reported that leaders had yet to settle even the total amount. Costa told reporters that some governments wanted further cuts while most opposed them.",
+          "photoAlt": "António Costa at the lectern in front of a blue European Council backdrop displaying the dates of the Brussels summit.",
+          "photoCaption": "European Council President António Costa reports on the negotiations in Brussels on November 27, 2026. Image from the official press conference."
+        },
+        "es": {
+          "title": "La UE aplaza hasta diciembre la decisión sobre un nuevo préstamo a Ucrania",
+          "summary": "En Bruselas, 24 de los 27 Estados miembros respaldaron la propuesta de préstamo. Los dirigentes tampoco alcanzaron un acuerdo sobre el presupuesto europeo para 2028-2034.",
+          "body": "Los dirigentes europeos volverán a abordar en diciembre la financiación de Ucrania para 2027. Al concluir la cumbre de Bruselas, el presidente del Consejo Europeo, António Costa, indicó el 27 de noviembre que 24 países apoyaban el préstamo adicional propuesto por la Comisión. Uno de ellos, Bulgaria, solo tiene intención de participar en su componente no militar.\n\nLa cumbre también debía impulsar la negociación del presupuesto de la Unión para los siete años que comienzan en 2028. Según Associated Press, los dirigentes ni siquiera acordaron el importe total. Costa explicó en rueda de prensa que algunos gobiernos pedían nuevos recortes, mientras que la mayoría se oponía.",
+          "photoAlt": "António Costa en el atril ante un panel azul del Consejo Europeo con las fechas de la cumbre de Bruselas.",
+          "photoCaption": "António Costa, presidente del Consejo Europeo, informa sobre las negociaciones en Bruselas el 27 de noviembre de 2026. Imagen de la rueda de prensa oficial."
+        },
+        "ar": {
+          "title": "الاتحاد الأوروبي يرجئ إلى ديسمبر القرار بشأن قرض جديد لأوكرانيا",
+          "summary": "أيّدت 24 دولة من أصل 27 مقترح القرض في بروكسل. واختتم القادة اجتماعهم أيضاً من دون اتفاق على ميزانية الاتحاد للفترة من 2028 إلى 2034.",
+          "body": "سيعود القادة الأوروبيون في ديسمبر إلى بحث تمويل أوكرانيا لعام 2027. وقال رئيس المجلس الأوروبي أنطونيو كوستا في 27 نوفمبر، عقب قمة بروكسل، إن 24 دولة تؤيد القرض الإضافي الذي اقترحته المفوضية. وتعتزم بلغاريا، وهي إحدى الدول المؤيدة، المشاركة في الشق غير العسكري وحده.\n\nوسعت القمة أيضاً إلى دفع مفاوضات ميزانية الاتحاد للسنوات السبع التي تبدأ في 2028. وأفادت وكالة أسوشيتد برس بأن القادة لم يتفقوا حتى على المبلغ الإجمالي. وأوضح كوستا في المؤتمر الصحفي أن بعض الحكومات طلبت تخفيضات إضافية، فيما عارضتها الأغلبية.",
+          "photoAlt": "أنطونيو كوستا عند المنصة أمام لوحة زرقاء للمجلس الأوروبي تحمل تاريخ قمة بروكسل.",
+          "photoCaption": "رئيس المجلس الأوروبي أنطونيو كوستا يعرض حصيلة المفاوضات في بروكسل في 27 نوفمبر 2026. صورة من المؤتمر الصحفي الرسمي."
+        },
+        "zh-CN": {
+          "title": "欧盟将对乌克兰新贷款的决定推迟到12月",
+          "summary": "在布鲁塞尔，欧盟27个成员国中有24国支持贷款提案。各国领导人也未能就2028年至2034年的欧盟预算达成协议。",
+          "body": "欧洲领导人将在12月再次讨论乌克兰2027年的资金需求。布鲁塞尔峰会结束后，欧洲理事会主席安东尼奥·科斯塔于11月27日表示，24国支持欧盟委员会提出的追加贷款方案。其中，保加利亚只打算参与非军事部分。\n\n峰会还希望推动欧盟从2028年开始的七年预算谈判。据美联社报道，各国领导人甚至尚未就预算总额达成一致。科斯塔在记者会上解释，一些国家的政府要求进一步削减预算，但大多数政府反对。",
+          "photoAlt": "安东尼奥·科斯塔站在讲台前，身后的欧洲理事会蓝色背景板上标有布鲁塞尔峰会的日期。",
+          "photoCaption": "欧洲理事会主席安东尼奥·科斯塔于2026年11月27日在布鲁塞尔介绍谈判结果。画面来自官方记者会。"
+        },
+        "ru": {
+          "title": "ЕС отложил до декабря решение о новом кредите Украине",
+          "summary": "В Брюсселе предложение о кредите поддержали 24 из 27 стран ЕС. Лидеры также завершили встречу без соглашения о бюджете Евросоюза на 2028–2034 годы.",
+          "body": "Европейские лидеры вернутся в декабре к вопросу финансирования Украины на 2027 год. По итогам саммита в Брюсселе председатель Европейского совета Антониу Кошта сообщил 27 ноября, что 24 страны поддерживают предложенный Еврокомиссией дополнительный кредит. Одна из них, Болгария, намерена участвовать только в его невоенной части.\n\nСаммит также должен был продвинуть переговоры о семилетнем бюджете ЕС на период с 2028 года. По данным Associated Press, лидеры не согласовали даже его общий объём. Кошта пояснил на пресс-конференции, что некоторые правительства настаивали на дальнейших сокращениях, а большинство выступило против.",
+          "photoAlt": "Антониу Кошта у трибуны на фоне синего стенда Европейского совета с датами брюссельского саммита.",
+          "photoCaption": "Председатель Европейского совета Антониу Кошта рассказывает об итогах переговоров в Брюсселе 27 ноября 2026 года. Кадр официальной пресс-конференции."
+        },
+        "ko": {
+          "title": "EU, 우크라이나 추가 대출 결정 12월로 연기",
+          "summary": "브뤼셀에서 EU 회원국 27개국 가운데 24개국이 대출안을 지지했다. 정상들은 2028~2034년 EU 예산에도 합의하지 못하고 회의를 마쳤다.",
+          "body": "유럽 정상들은 12월에 우크라이나의 2027년 자금 조달 문제를 다시 논의한다. 안토니우 코스타 유럽이사회 상임의장은 브뤼셀 정상회의가 끝난 뒤 11월 27일 유럽연합 집행위원회가 제안한 추가 대출안을 24개국이 지지한다고 밝혔다. 그중 불가리아는 비군사 부문에만 참여할 방침이다.\n\n이번 정상회의는 2028년부터 7년간 적용할 EU 예산안 협상도 진전시키려 했다. AP통신에 따르면 정상들은 예산 총액조차 합의하지 못했다. 코스타 의장은 기자회견에서 일부 정부가 추가 삭감을 요구했지만 대다수는 반대했다고 설명했다.",
+          "photoAlt": "브뤼셀 정상회의 날짜가 적힌 유럽이사회의 파란 배경판 앞에서 연단에 선 안토니우 코스타.",
+          "photoCaption": "안토니우 코스타 유럽이사회 상임의장이 2026년 11월 27일 브뤼셀에서 협상 결과를 설명하고 있다. 공식 기자회견 영상의 한 장면."
+        }
+      },
+      "title": "L’Union européenne reporte à décembre la décision sur un nouveau prêt à l’Ukraine",
+      "summary": "À Bruxelles, 24 des 27 États membres ont soutenu la proposition de prêt. Les dirigeants se sont aussi séparés sans accord sur le budget européen de 2028 à 2034.",
+      "body": "Le financement de l’Ukraine pour 2027 reviendra devant les dirigeants européens en décembre. À l’issue du sommet de Bruxelles, António Costa, président du Conseil européen, a indiqué le 27 novembre que 24 pays appuyaient le prêt supplémentaire proposé par la Commission. Parmi eux, la Bulgarie entend participer uniquement à son volet non militaire.\n\nLe sommet devait aussi faire avancer le budget de l’Union pour les sept années qui débuteront en 2028. Selon le compte rendu d’Associated Press, les dirigeants n’ont même pas arrêté le montant total. Costa a expliqué en conférence de presse que certains gouvernements demandaient de nouvelles coupes alors que la plupart s’y opposaient."
+    }
+  ]
+}
