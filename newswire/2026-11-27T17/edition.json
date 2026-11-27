@@ -1,0 +1,172 @@
+{
+  "hour": "2026-11-27T17",
+  "articles": [
+    {
+      "eventKey": "canada-compte-courant-excedent-troisieme-trimestre-2026",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Statistique Canada",
+          "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261127/dq261127a-fra.htm",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "The Wall Street Journal — Paul Vieira",
+          "url": "https://www.wsj.com/world/americas/canada-posts-current-account-surplus-of-c-4-48-billion-6d4451a7",
+          "publishedAt": "2026-11-27T14:48:00Z"
+        },
+        {
+          "name": "Trading Economics — Isabela Couto",
+          "url": "https://tradingeconomics.com/canada/current-account/news/605115",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Canada’s current account surplus falls from C$6.1 billion to C$4.5 billion",
+          "summary": "Trade in goods stayed in surplus. Services and investment income accounted for the decline in Canada’s balance between the second and third quarters.",
+          "body": "Canada recorded a current account surplus of C$4.5 billion between July and September, according to seasonally adjusted figures released by Statistics Canada on November 27. It was the first time since 2022 that the country had posted surpluses in two consecutive quarters.\n\nGoods exports exceeded imports by C$10.7 billion, a gap that barely changed. Among the quarter’s deliveries in Ontario was a shipment of raw sugar that the bulk carrier Whistler unloaded at the Port of Toronto. Nationally, the services deficit doubled to C$1 billion. Statistics Canada also found that interest paid on Canadian bonds held abroad widened the investment income deficit.",
+          "photoAlt": "The green bow of the bulk carrier Whistler at a Toronto wharf, with the ship’s name in white lettering above the anchor.",
+          "photoCaption": "Archive photo, August 19, 2026. The Whistler at the Port of Toronto, Ontario, during a delivery of raw sugar to the Redpath refinery."
+        },
+        "es": {
+          "title": "El superávit por cuenta corriente de Canadá baja de 6.100 a 4.500 millones de dólares canadienses",
+          "summary": "El comercio de bienes mantuvo su superávit. Los servicios y las rentas de inversión explican el descenso del saldo canadiense entre el segundo y el tercer trimestre.",
+          "body": "Canadá registró un superávit por cuenta corriente de 4.500 millones de dólares canadienses entre julio y septiembre, según los datos desestacionalizados que publicó Statistics Canada el 27 de noviembre. Es la primera vez desde 2022 que el país encadena dos trimestres con superávit.\n\nLas exportaciones de bienes superaron a las importaciones en 10.700 millones de dólares canadienses, una diferencia que apenas varió. Entre las entregas del trimestre en Ontario figuró un cargamento de azúcar crudo que el granelero Whistler descargó en el puerto de Toronto. En el conjunto del país, el déficit de servicios se duplicó hasta alcanzar los 1.000 millones. Según Statistics Canada, los intereses pagados por los bonos canadienses en manos de residentes en el extranjero también ampliaron el déficit de las rentas de inversión.",
+          "photoAlt": "Proa verde del granelero Whistler en un muelle del puerto de Toronto, con el nombre del buque en letras blancas sobre el ancla.",
+          "photoCaption": "Foto de archivo del 19 de agosto de 2026. El Whistler en el puerto de Toronto, Ontario, durante una entrega de azúcar crudo a la refinería Redpath."
+        },
+        "ar": {
+          "title": "فائض الحساب الجاري الكندي يتراجع من 6.1 إلى 4.5 مليارات دولار كندي",
+          "summary": "حافظت تجارة السلع على فائضها، فيما يفسّر ميزان الخدمات ودخل الاستثمار تراجع رصيد الحساب الجاري بين الربعين الثاني والثالث.",
+          "body": "سجّلت كندا فائضاً في الحساب الجاري بلغ 4.5 مليارات دولار كندي بين يوليو وسبتمبر، بحسب بيانات معدّلة موسمياً نشرتها هيئة الإحصاء الكندية في 27 نوفمبر. وهذه أول مرة منذ عام 2022 يسجّل فيها البلد فائضاً لربعين متتاليين.\n\nتجاوزت صادرات السلع وارداتها بمقدار 10.7 مليارات دولار كندي، وبقي هذا الفارق شبه ثابت. ومن الشحنات التي وصلت إلى أونتاريو خلال الربع شحنة سكر خام أفرغتها ناقلة البضائع السائبة «ويسلر» في ميناء تورونتو. وعلى مستوى البلاد، تضاعف عجز الخدمات ليبلغ مليار دولار كندي. وأشارت هيئة الإحصاء أيضاً إلى أن الفوائد المدفوعة على السندات الكندية التي يحوزها مقيمون في الخارج زادت عجز دخل الاستثمار.",
+          "photoAlt": "مقدمة ناقلة البضائع السائبة «ويسلر» الخضراء عند رصيف بميناء تورونتو، واسم السفينة مكتوب بالأبيض فوق المرساة.",
+          "photoCaption": "صورة أرشيفية من 19 أغسطس 2026. السفينة «ويسلر» في ميناء تورونتو بمقاطعة أونتاريو خلال تسليم شحنة سكر خام إلى مصفاة ريدباث."
+        },
+        "zh-CN": {
+          "title": "加拿大经常账户顺差从61亿加元降至45亿加元",
+          "summary": "货物贸易保持顺差。服务贸易和投资收益两项收支解释了加拿大经常账户顺差从第二季度到第三季度收窄的原因。",
+          "body": "加拿大统计局11月27日发布的季节调整数据显示，7月至9月加拿大经常账户顺差为45亿加元。这是自2022年以来，加拿大首次连续两个季度录得经常账户顺差。\n\n货物出口额比进口额高出107亿加元，差额基本持平。在当季运抵安大略省的货物中，有一批原糖由散货船“惠斯勒”号运抵多伦多港卸货。全国服务贸易逆差翻倍至10亿加元。加拿大统计局还指出，向持有加拿大债券的境外投资者支付的利息扩大了投资收益逆差。",
+          "photoAlt": "散货船“惠斯勒”号停靠多伦多港码头，绿色船首上用白色字母标出的船名位于船锚上方。",
+          "photoCaption": "资料照片，摄于2026年8月19日。“惠斯勒”号停靠安大略省多伦多港，为雷德帕斯炼糖厂运送原糖。"
+        },
+        "ru": {
+          "title": "Профицит счёта текущих операций Канады снизился с 6,1 до 4,5 млрд канадских долларов",
+          "summary": "Торговля товарами сохранила положительное сальдо. Сокращение профицита между вторым и третьим кварталами объясняется изменениями в балансе услуг и инвестиционных доходов.",
+          "body": "С июля по сентябрь профицит счёта текущих операций Канады составил 4,5 млрд канадских долларов. Такие данные с поправкой на сезонность опубликовало 27 ноября Статистическое управление Канады. Впервые с 2022 года страна зафиксировала профицит два квартала подряд.\n\nЭкспорт товаров превысил импорт на 10,7 млрд канадских долларов. Разница почти не изменилась. Среди грузов, доставленных в Онтарио за квартал, была партия сахара-сырца, которую балкер Whistler разгрузил в порту Торонто. В целом по стране дефицит торговли услугами удвоился и достиг миллиарда канадских долларов. По данным статистического управления, выплаты процентов по канадским облигациям, принадлежащим нерезидентам, также увеличили дефицит инвестиционных доходов.",
+          "photoAlt": "Зелёный нос балкера Whistler у причала в порту Торонто. Над якорем белыми буквами написано название судна.",
+          "photoCaption": "Архивное фото от 19 августа 2026 года. Балкер Whistler в порту Торонто в провинции Онтарио во время доставки сахара-сырца на завод Redpath."
+        },
+        "ko": {
+          "title": "캐나다 경상수지 흑자, 61억 캐나다달러에서 45억 달러로 감소",
+          "summary": "상품수지는 흑자를 유지했다. 2분기에서 3분기 사이 경상수지 흑자가 줄어든 것은 서비스수지와 투자소득수지의 적자가 커졌기 때문이다.",
+          "body": "캐나다 통계청이 11월 27일 발표한 계절조정 통계에 따르면 7월부터 9월까지 캐나다의 경상수지 흑자는 45억 캐나다달러였다. 두 분기 연속 흑자는 2022년 이후 처음이다.\n\n상품 수출이 수입을 107억 캐나다달러 웃돌아 격차는 거의 변하지 않았다. 이 기간 온타리오주에 도착한 화물 가운데는 벌크선 위슬러호가 토론토항에서 하역한 원당도 있었다. 전국 서비스수지 적자는 두 배로 늘어 10억 캐나다달러가 됐다. 통계청은 해외 거주자가 보유한 캐나다 채권에 지급한 이자도 투자소득수지 적자를 키웠다고 밝혔다.",
+          "photoAlt": "토론토항 부두에 정박한 벌크선 위슬러호의 초록색 선수. 닻 위로 선명이 흰색 글씨로 보인다.",
+          "photoCaption": "2026년 8월 19일 촬영한 자료 사진. 온타리오주 토론토항에서 레드패스 제당소에 원당을 운송한 위슬러호."
+        }
+      },
+      "photo": {
+        "subject": "Whistler",
+        "context": "port de Toronto",
+        "capturedOn": "2026-08-19",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Whistler_Bulk_Carrier_Ship_at_Toronto_Harbour,_August_19_2026_(02).jpg",
+        "credit": "Dillan Payne / Wikimedia Commons · CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "download": "media/whistler-toronto.jpg",
+        "alt": "La proue verte du vraquier Whistler à quai au port de Toronto, avec le nom du navire en lettres blanches au-dessus de l’ancre.",
+        "caption": "Archives du 19 août 2026. Le Whistler au port de Toronto, en Ontario, lors d’une livraison de sucre brut à la raffinerie Redpath."
+      },
+      "title": "Au Canada, l’excédent du compte courant passe de 6,1 à 4,5 milliards de dollars",
+      "summary": "Le commerce des biens reste excédentaire. Les services et les revenus de placement expliquent le recul du solde canadien entre le deuxième et le troisième trimestre.",
+      "body": "Le Canada a dégagé un excédent courant de 4,5 milliards de dollars canadiens entre juillet et septembre, selon les données désaisonnalisées publiées le 27 novembre par Statistique Canada. Le pays enregistre ainsi deux trimestres excédentaires de suite pour la première fois depuis 2022.\n\nDu côté des marchandises, les exportations ont dépassé les importations de 10,7 milliards de dollars, un écart presque inchangé. Parmi les livraisons du trimestre en Ontario figurait celle du vraquier Whistler, venu décharger du sucre brut au port de Toronto. À l’échelle canadienne, le déficit des services a doublé pour atteindre un milliard de dollars. Statistique Canada relève aussi que les intérêts versés sur les obligations canadiennes détenues à l’étranger ont alourdi le déficit des revenus de placement."
+    },
+    {
+      "eventKey": "bresil-trabuco-accepte-ministere-finances-lula-2027",
+      "category": "Brésil",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Banco Bradesco — avis aux actionnaires",
+          "url": "https://investidor10.com.br/acoes/link_comunicado/BBDC3/53623/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Reuters — Lisandra Paraguassu",
+          "url": "https://br.investing.com/news/stock-market-news/trabuco-aceita-convite-de-lula-para-ministerio-da-fazenda-diz-fonte-2138894",
+          "publishedAt": "2026-11-26T18:46:00-03:00"
+        },
+        {
+          "name": "UOL Economia",
+          "url": "https://economia.uol.com.br/noticias/redacao/2026/11/27/bradesco-confirma-que-luiz-carlos-trabuco-aceitou-fazenda.ghtm",
+          "publishedAt": "2026-11-27T06:49:00-03:00"
+        },
+        {
+          "name": "Agência Brasil — Wellton Máximo",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/trabuco-aceita-convite-de-lula-para-comandar-fazenda-diz-planalto",
+          "publishedAt": "2026-11-26T20:14:00-03:00"
+        }
+      ],
+      "translations": {
+        "en": {
+          "title": "Brazil’s Luiz Carlos Trabuco Cappi accepts finance minister post starting in 2027",
+          "summary": "The Bradesco board chair gave President Luiz Inácio Lula da Silva his answer at the Alvorada Palace in Brasília.",
+          "body": "Luiz Carlos Trabuco Cappi will lead Brazil’s Finance Ministry from 2027. Reuters learned from a source familiar with the talks that the banker had accepted Luiz Inácio Lula da Silva’s offer. The presidency later confirmed that the two reached agreement at their meeting late on Thursday afternoon, November 26.\n\nBradesco formally notified shareholders of the decision in a notice dated the same day in Osasco. The bank identified Trabuco as its board chair and pledged to keep investors informed about developments arising from his move to government.",
+          "photoAlt": "Luiz Carlos Trabuco Cappi, chair of Bradesco’s board, speaks into two microphones at the Brazilian Senate rostrum.",
+          "photoCaption": "Archive photo, November 17, 2026. Bradesco board chair Luiz Carlos Trabuco Cappi addresses the Federal Senate at a session marking the 75th anniversary of Brazil’s insurance confederation, CNseg."
+        },
+        "es": {
+          "title": "Luiz Carlos Trabuco Cappi acepta dirigir el Ministerio de Hacienda de Brasil en 2027",
+          "summary": "El presidente del consejo de administración de Bradesco comunicó su decisión a Luiz Inácio Lula da Silva en el Palacio de la Alvorada, en Brasilia.",
+          "body": "Luiz Carlos Trabuco Cappi estará al frente del Ministerio de Hacienda de Brasil a partir de 2027. Reuters supo por una fuente al tanto de las conversaciones que el banquero había aceptado la oferta de Luiz Inácio Lula da Silva. La Presidencia confirmó después que ambos habían llegado a un acuerdo en su reunión de la tarde del jueves 26 de noviembre.\n\nBradesco comunicó formalmente la decisión a sus accionistas mediante un aviso fechado ese mismo día en Osasco. En el documento, el banco identifica a Trabuco como presidente de su consejo de administración y se compromete a informar a los inversores de las novedades que se deriven de su paso al Gobierno.",
+          "photoAlt": "Luiz Carlos Trabuco Cappi, presidente del consejo de Bradesco, habla ante dos micrófonos en la tribuna del Senado brasileño.",
+          "photoCaption": "Foto de archivo del 17 de noviembre de 2026. Luiz Carlos Trabuco Cappi, presidente del consejo de Bradesco, interviene en el Senado Federal durante la sesión por los 75 años de la confederación brasileña de seguros, CNseg."
+        },
+        "ar": {
+          "title": "لويز كارلوس ترابوكو كابي يقبل تولّي وزارة المالية البرازيلية في 2027",
+          "summary": "أبلغ رئيس مجلس إدارة بنك براديسكو الرئيس لويز إيناسيو لولا دا سيلفا بقراره في قصر ألفورادا في برازيليا.",
+          "body": "يتولّى لويز كارلوس ترابوكو كابي وزارة المالية البرازيلية اعتباراً من عام 2027. وكانت رويترز قد علمت من مصدر مطّلع على المحادثات أن المصرفي قبِل عرض لويز إيناسيو لولا دا سيلفا. وأكدت الرئاسة لاحقاً أن الرجلين اتفقا خلال لقائهما في وقت متأخر من بعد ظهر الخميس 26 نوفمبر.\n\nوأبلغ بنك براديسكو مساهميه بالقرار رسمياً في بيان مؤرّخ في اليوم نفسه في أوساسكو. وعرّف البنك ترابوكو بصفته رئيس مجلس إدارته وتعهّد بإطلاع المستثمرين على ما يستجدّ إثر انتقاله إلى الحكومة.",
+          "photoAlt": "لويز كارلوس ترابوكو كابي، رئيس مجلس إدارة براديسكو، يتحدّث أمام ميكروفونين على منبر مجلس الشيوخ البرازيلي.",
+          "photoCaption": "صورة أرشيفية من 17 نوفمبر 2026. لويز كارلوس ترابوكو كابي، رئيس مجلس إدارة براديسكو، يلقي كلمة في مجلس الشيوخ الاتحادي خلال جلسة بمناسبة مرور 75 عاماً على تأسيس اتحاد التأمين البرازيلي (CNseg)."
+        },
+        "zh-CN": {
+          "title": "巴西银行家路易斯·卡洛斯·特拉布科·卡皮接受邀请，将于2027年出任财政部长",
+          "summary": "布拉德斯科银行董事长在巴西利亚的晨曦宫向总统路易斯·伊纳西奥·卢拉·达席尔瓦作出了答复。",
+          "body": "路易斯·卡洛斯·特拉布科·卡皮将从2027年起执掌巴西财政部。路透社此前从一名了解磋商情况的人士处获悉，这位银行家已接受卢拉的邀请。巴西总统府随后证实，两人在11月26日星期四傍晚的会面中达成一致。\n\n布拉德斯科银行在同日于奥萨斯库签发的公告中正式将这一决定告知股东。银行在公告中称特拉布科为该行董事长，并承诺向投资者通报他转任政府职务的后续进展。",
+          "photoAlt": "布拉德斯科银行董事长路易斯·卡洛斯·特拉布科·卡皮站在巴西参议院讲台上，对着两支麦克风讲话。",
+          "photoCaption": "资料照片，摄于2026年11月17日。布拉德斯科银行董事长路易斯·卡洛斯·特拉布科·卡皮在联邦参议院庆祝巴西保险业联合会（CNseg）成立75周年的会议上发言。"
+        },
+        "ru": {
+          "title": "Луис Карлус Трабуку Каппи согласился возглавить Минфин Бразилии в 2027 году",
+          "summary": "Председатель совета директоров банка Bradesco сообщил о своём решении президенту Луису Инасиу Луле да Силве во дворце Алворада в Бразилиа.",
+          "body": "Луис Карлус Трабуку Каппи возглавит бразильское министерство финансов с 2027 года. Ранее Reuters со ссылкой на источник, знакомый с ходом переговоров, сообщило, что банкир принял предложение Лулы да Силвы. Позднее администрация президента подтвердила, что они договорились во время встречи ближе к вечеру в четверг, 26 ноября.\n\nБанк Bradesco официально уведомил акционеров о решении в сообщении, датированном тем же днём в Осаску. В документе банк называет Трабуку председателем своего совета директоров и обещает информировать инвесторов о дальнейших событиях, связанных с его переходом в правительство.",
+          "photoAlt": "Луис Карлус Трабуку Каппи, председатель совета директоров Bradesco, выступает перед двумя микрофонами на трибуне бразильского Сената.",
+          "photoCaption": "Архивное фото от 17 ноября 2026 года. Председатель совета директоров Bradesco Луис Карлус Трабуку Каппи выступает в Федеральном сенате на заседании в честь 75-летия бразильской конфедерации страховщиков CNseg."
+        },
+        "ko": {
+          "title": "브라질 루이스 카를루스 트라부쿠 카피, 2027년 재무장관직 수락",
+          "summary": "브라데스쿠 은행 이사회 의장은 브라질리아의 알보라다궁에서 루이스 이나시우 룰라 다 시우바 대통령에게 수락 의사를 밝혔다.",
+          "body": "루이스 카를루스 트라부쿠 카피가 2027년부터 브라질 재무부를 이끈다. 앞서 로이터는 협의 내용을 아는 소식통을 통해 트라부쿠가 룰라 대통령의 제안을 받아들였다고 보도했다. 이후 대통령실은 두 사람이 11월 26일 목요일 늦은 오후 회동에서 합의했다고 확인했다.\n\n브라데스쿠는 같은 날 오사스쿠에서 작성한 공시를 통해 주주들에게 이 결정을 공식 통보했다. 은행은 공시에서 트라부쿠를 이사회 의장으로 소개하고 그의 정부 합류에 따른 후속 상황을 투자자에게 알리겠다고 밝혔다.",
+          "photoAlt": "브라데스쿠 이사회 의장 루이스 카를루스 트라부쿠 카피가 브라질 상원 연단에서 마이크 두 대를 앞에 두고 발언하고 있다.",
+          "photoCaption": "2026년 11월 17일 촬영한 자료 사진. 브라데스쿠 이사회 의장 루이스 카를루스 트라부쿠 카피가 브라질 보험연맹(CNseg) 창립 75주년을 기념하는 연방 상원 회의에서 발언하고 있다."
+        }
+      },
+      "photo": {
+        "subject": "Luiz Carlos Trabuco Cappi",
+        "context": "Bradesco",
+        "capturedOn": "2026-11-17",
+        "sourceUrl": "https://www.flickr.com/photos/agenciasenado/55658423199/",
+        "credit": "Edilson Rodrigues / Agência Senado · CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "download": "media/trabuco-senat.jpg",
+        "alt": "Luiz Carlos Trabuco Cappi, président du conseil de Bradesco, parle devant deux micros à la tribune du Sénat brésilien.",
+        "caption": "Archives du 17 novembre 2026. Luiz Carlos Trabuco Cappi, président du conseil de Bradesco, prend la parole au Sénat fédéral lors de la séance marquant les 75 ans de la confédération brésilienne des assurances, la CNseg."
+      },
+      "title": "Au Brésil, Luiz Carlos Trabuco Cappi accepte de prendre les Finances en 2027",
+      "summary": "Le président du conseil d’administration de Bradesco a donné sa réponse à Luiz Inácio Lula da Silva au palais de l’Alvorada, à Brasília.",
+      "body": "Luiz Carlos Trabuco Cappi dirigera le ministère brésilien des Finances à partir de 2027. Reuters avait appris d’une source au fait des discussions que le banquier avait accepté l’offre de Luiz Inácio Lula da Silva. La présidence a ensuite confirmé que les deux hommes s’étaient entendus lors de leur rencontre de jeudi en fin d’après-midi, le 26 novembre.\n\nBradesco a officialisé la décision auprès de ses actionnaires dans un avis daté du même jour à Osasco. La banque y présente Trabuco comme le président de son conseil d’administration et s’engage à tenir les investisseurs au courant des suites de son départ pour le gouvernement."
+    }
+  ]
+}
