@@ -1,0 +1,157 @@
+{
+  "hour": "2026-11-27T16",
+  "articles": [
+    {
+      "eventKey": "kingston-harbour-bilan-huit-mille-tonnes-dechets",
+      "category": "Jamaïque",
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Kingston’s floating barriers intercepted about 8,000 tonnes of waste in four years",
+          "summary": "Jamaican Prime Minister Andrew Holness heard the results during his November 26 visit. Nine drainage channels now have barriers at their mouths.",
+          "body": "About eight million kilograms of solid waste have been stopped before reaching Kingston Harbour since the project began in 2022. The Jamaica Observer reported the figure after Prime Minister Andrew Holness visited on November 26. It covers four years of collection in the channels that drain the city into the harbour.\n\nAt Sandy Gully, Holness saw the network’s largest installation, the Interceptor 015 floating barrier, in operation, according to project partner GraceKennedy. Across the nine channels, the barriers catch bottles and other waste floating on the surface. Crews collect it by boat and bring it ashore for sorting.",
+          "photoAlt": "A band of rubbish has collected along the Interceptor 015 floating barrier across Sandy Gully.",
+          "photoCaption": "Archive photo, 2024. The Interceptor 015 floating barrier traps waste in Sandy Gully in Kingston, Jamaica. Photo by The Ocean Cleanup."
+        },
+        "es": {
+          "title": "Las barreras de Kingston interceptaron unas 8.000 toneladas de residuos en cuatro años",
+          "summary": "El primer ministro jamaicano Andrew Holness conoció el balance durante su visita del 26 de noviembre. Ya hay barreras en la desembocadura de nueve canales de drenaje.",
+          "body": "Desde que comenzó el proyecto en 2022, se han interceptado unos ocho millones de kilogramos de residuos sólidos antes de que llegaran al puerto de Kingston. El Jamaica Observer dio a conocer la cifra tras la visita del primer ministro Andrew Holness el 26 de noviembre. El balance recoge cuatro años de trabajo en los canales que desaguan en el puerto.\n\nEn Sandy Gully, Holness vio en funcionamiento la mayor instalación de la red, la barrera flotante Interceptor 015, según GraceKennedy, entidad que participa en el proyecto. Las barreras de los nueve canales retienen botellas y otros residuos que flotan en la superficie. Los equipos los recogen en embarcaciones y los llevan a tierra para clasificarlos.",
+          "photoAlt": "Una franja de residuos se acumula junto a la barrera flotante Interceptor 015 que cruza Sandy Gully.",
+          "photoCaption": "Foto de archivo de 2024. La barrera flotante Interceptor 015 retiene residuos en Sandy Gully, en Kingston, Jamaica. Fotografía de The Ocean Cleanup."
+        },
+        "ar": {
+          "title": "حواجز كينغستون العائمة اعترضت نحو 8 آلاف طن من النفايات في أربع سنوات",
+          "summary": "اطّلع رئيس الوزراء الجامايكي أندرو هولنس على الحصيلة خلال زيارته في 26 نوفمبر. وباتت الحواجز تغطي مصبّات تسع قنوات تصريف.",
+          "body": "اعترض المشروع منذ انطلاقه عام 2022 نحو ثمانية ملايين كيلوغرام من النفايات الصلبة قبل وصولها إلى ميناء كينغستون. وأوردت صحيفة «جامايكا أوبزرفر» هذه الحصيلة عقب زيارة رئيس الوزراء أندرو هولنس في 26 نوفمبر. ويشمل الرقم أربع سنوات من جمع النفايات في القنوات التي تصرّف مياه المدينة باتجاه الميناء.\n\nوفي قناة ساندي غالي، شاهد هولنس الحاجز العائم «إنترسبتور 015»، أكبر منشآت الشبكة، أثناء عمله، بحسب شركة غريس كينيدي المشاركة في المشروع. وتحتجز الحواجز في القنوات التسع الزجاجات وغيرها من المخلفات الطافية. وتجمع فرق العمل النفايات بالقوارب وتنقلها إلى البر لفرزها.",
+          "photoAlt": "شريط من النفايات متراكم على امتداد الحاجز العائم «إنترسبتور 015» الذي يعترض قناة ساندي غالي.",
+          "photoCaption": "صورة أرشيفية من عام 2024. الحاجز العائم «إنترسبتور 015» يحتجز النفايات في قناة ساندي غالي في كينغستون بجامايكا. تصوير The Ocean Cleanup."
+        },
+        "zh-CN": {
+          "title": "金斯敦的漂浮屏障四年拦下约8000吨垃圾",
+          "summary": "牙买加总理安德鲁·霍尔尼斯在11月26日视察时听取了项目进展汇报。目前有九条排水渠在入海口设有屏障。",
+          "body": "据《牙买加观察家报》在霍尔尼斯总理11月26日视察后报道，自项目于2022年启动以来，约有800万公斤固体废物在进入金斯敦港之前被拦下。这一数字是四年来在从市区通向港口的排水渠中收集的垃圾总量。\n\n据项目合作方格雷斯肯尼迪公司介绍，霍尔尼斯在桑迪排水渠观看了这套网络中规模最大的设施——Interceptor 015漂浮屏障的运行情况。九条排水渠中的屏障可拦截浮在水面的瓶子和其他废弃物。工作人员驾船收集垃圾，运到岸上分类。",
+          "photoAlt": "Interceptor 015漂浮屏障横跨桑迪排水渠，垃圾沿屏障堆积成带状。",
+          "photoCaption": "2024年资料照片。Interceptor 015漂浮屏障在牙买加金斯敦的桑迪排水渠拦截垃圾。照片由The Ocean Cleanup提供。"
+        },
+        "ru": {
+          "title": "Плавучие заграждения в Кингстоне за четыре года задержали около 8 тысяч тонн мусора",
+          "summary": "Итоги представили премьер-министру Ямайки Эндрю Холнессу во время его визита 26 ноября. Заграждения установлены в устьях девяти водоотводных каналов.",
+          "body": "С начала проекта в 2022 году удалось перехватить около восьми миллионов килограммов твёрдых отходов до их попадания в гавань Кингстона. Такие данные приводит Jamaica Observer по итогам визита премьер-министра Эндрю Холнесса 26 ноября. Это результат четырёх лет сбора мусора в каналах, по которым вода из города стекает в гавань.\n\nПо данным компании GraceKennedy, партнёра проекта, на канале Сэнди-Галли Холнесс увидел в работе крупнейшее сооружение сети — плавучий барьер Interceptor 015. Заграждения в девяти каналах задерживают бутылки и другой плавучий мусор. Рабочие собирают его с лодок и доставляют на берег для сортировки.",
+          "photoAlt": "Вдоль плавучего барьера Interceptor 015, перегораживающего канал Сэнди-Галли, скопилась полоса мусора.",
+          "photoCaption": "Архивное фото 2024 года. Плавучий барьер Interceptor 015 задерживает мусор в канале Сэнди-Галли в Кингстоне, Ямайка. Фото The Ocean Cleanup."
+        },
+        "ko": {
+          "title": "자메이카 킹스턴의 부유식 차단막, 4년간 쓰레기 약 8천 톤 수거",
+          "summary": "앤드루 홀니스 자메이카 총리는 11월 26일 현장을 방문해 사업 성과를 보고받았다. 현재 배수로 아홉 곳의 하구에 차단막이 설치돼 있다.",
+          "body": "2022년 사업을 시작한 이후 약 800만㎏의 고형 폐기물이 킹스턴항으로 흘러들기 전에 수거됐다. 현지 일간지 자메이카 옵서버는 11월 26일 홀니스 총리의 현장 방문 뒤 이같이 보도했다. 시내에서 항구로 물이 빠져나가는 배수로에서 4년간 거둔 실적이다.\n\n사업에 참여하는 그레이스케네디에 따르면 홀니스 총리는 샌디 걸리 배수로에서 이 시설망 중 규모가 가장 큰 부유식 차단막 인터셉터 015의 작동 모습을 살펴봤다. 아홉 곳의 차단막이 수면에 뜬 병과 각종 쓰레기를 붙잡으면 작업팀이 배로 수거해 육지로 옮겨 분류한다.",
+          "photoAlt": "샌디 걸리 배수로를 가로지르는 부유식 차단막 인터셉터 015를 따라 쓰레기가 띠처럼 모여 있다.",
+          "photoCaption": "2024년 자료 사진. 자메이카 킹스턴의 샌디 걸리 배수로에서 인터셉터 015가 떠내려오는 쓰레기를 막고 있다. 사진 제공 The Ocean Cleanup."
+        }
+      },
+      "sources": [
+        {
+          "name": "GraceKennedy",
+          "url": "https://gracekennedy.com/media-center-press/eight-million-kilograms-and-counting-prime-minister-tours-kingston-harbour-cleanup-project/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Jamaica Observer — Jason Cross",
+          "url": "https://www.jamaicaobserver.com/2026/11/27/project-blue-kingston-harbour/",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "title": "À Kingston, des barrières ont intercepté environ 8 000 tonnes de déchets en quatre ans",
+      "summary": "Le bilan a été présenté au premier ministre jamaïcain Andrew Holness lors de sa visite du 26 novembre. Neuf canaux de drainage sont désormais équipés à leur embouchure.",
+      "body": "Environ huit millions de kilogrammes de déchets solides ont été arrêtés avant d’atteindre le port de Kingston depuis le lancement du projet en 2022. C’est le bilan que rapporte le Jamaica Observer après la visite du premier ministre Andrew Holness le 26 novembre. Le chiffre porte sur quatre années de collecte dans les canaux qui drainent la ville vers le port.\n\nÀ Sandy Gully, Andrew Holness a vu fonctionner la plus grande installation du réseau, la barrière flottante Interceptor 015, selon GraceKennedy, partenaire du projet. Dans les neuf canaux équipés, les barrières retiennent les bouteilles et autres déchets qui flottent à la surface. Des équipes les récupèrent par bateau et les ramènent à terre pour les trier.",
+      "photo": {
+        "subject": "Interceptor 015",
+        "context": "Sandy Gully",
+        "capturedOn": "2024",
+        "download": "media/sandy.jpg",
+        "sourceUrl": "https://theoceancleanup.com/media-gallery/jamaica-kingston-harbour/",
+        "license": "Usage éditorial autorisé avec crédit",
+        "licenseUrl": "https://theoceancleanup.com/media-gallery/",
+        "credit": "The Ocean Cleanup",
+        "alt": "Une traînée de déchets s’accumule le long de la barrière flottante Interceptor 015, en travers de Sandy Gully.",
+        "caption": "Archive de 2024. La barrière flottante Interceptor 015 retient des déchets à Sandy Gully, à Kingston, en Jamaïque. Photo de The Ocean Cleanup."
+      }
+    },
+    {
+      "eventKey": "qatar-lusail-antonelli-mercedes-premiers-essais-2026",
+      "category": "Sports",
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Kimi Antonelli leads George Russell by half a second in opening Qatar practice",
+          "summary": "Mercedes set the two fastest times in the first practice session at Lusail. Isack Hadjar took third for Red Bull.",
+          "body": "Kimi Antonelli set the fastest lap in the opening practice session for the Qatar Grand Prix on November 27. According to Formula 1’s results, the Italian Mercedes driver lapped Lusail in 1:23.217. Teammate George Russell clocked 1:23.724, a gap of 0.507 seconds.\n\nBehind the two Mercedes, Isack Hadjar lapped in 1:23.878 for Red Bull, motorsport outlet Crash reported. He finished ahead of the McLarens of Lando Norris and Oscar Piastri. The practice standings rank the drivers by their fastest laps in the session. Qualifying determines the Grand Prix starting grid.",
+          "photoAlt": "A side view of Kimi Antonelli’s black and silver Mercedes on track.",
+          "photoCaption": "Archive photo, September 6, 2026. Kimi Antonelli drives his Mercedes at the Italian Grand Prix in Monza."
+        },
+        "es": {
+          "title": "Kimi Antonelli supera por medio segundo a George Russell en los primeros libres de Catar",
+          "summary": "Los dos Mercedes marcaron los mejores tiempos de la primera sesión libre en Lusail. Isack Hadjar fue tercero con Red Bull.",
+          "body": "Kimi Antonelli firmó la vuelta más rápida en los primeros entrenamientos libres del Gran Premio de Catar el 27 de noviembre. Según los resultados de la Fórmula 1, el piloto italiano de Mercedes recorrió el circuito de Lusail en 1:23.217. Su compañero George Russell registró 1:23.724, a 507 milésimas de segundo.\n\nDetrás de los Mercedes, Isack Hadjar marcó 1:23.878 con Red Bull, según el medio especializado Crash. Superó a los McLaren de Lando Norris y Oscar Piastri. El orden de los libres refleja la mejor vuelta de cada piloto en la sesión. La parrilla de salida del Gran Premio se decide en la clasificación.",
+          "photoAlt": "Vista lateral del Mercedes negro y plateado de Kimi Antonelli en pista.",
+          "photoCaption": "Foto de archivo del 6 de septiembre de 2026. Kimi Antonelli pilota su Mercedes en el Gran Premio de Italia, en Monza."
+        },
+        "ar": {
+          "title": "كيمي أنتونيلي يتقدم على جورج راسل بنصف ثانية في التجارب الحرة الأولى في قطر",
+          "summary": "سجّل سائقا مرسيدس أسرع زمنين في حصة التجارب الحرة الأولى على حلبة لوسيل، وحلّ إسحاق حجار ثالثاً مع ريد بُل.",
+          "body": "سجّل كيمي أنتونيلي أسرع لفة في التجارب الحرة الأولى لجائزة قطر الكبرى يوم 27 نوفمبر. وبحسب نتائج الفورمولا 1، قطع سائق مرسيدس الإيطالي حلبة لوسيل في دقيقة و23.217 ثانية. وحقق زميله جورج راسل زمناً قدره دقيقة و23.724 ثانية، بفارق 0.507 ثانية.\n\nوخلف سيارتي مرسيدس، سجّل إسحاق حجار دقيقة و23.878 ثانية بسيارة ريد بُل، وفقاً لموقع كراش المتخصص. وتقدم على سائقي مكلارين لاندو نوريس وأوسكار بياستري. ويعكس ترتيب التجارب أسرع لفة لكل سائق في الحصة، فيما تحدد التصفيات ترتيب الانطلاق في الجائزة الكبرى.",
+          "photoAlt": "منظر جانبي لسيارة مرسيدس السوداء والفضية التي يقودها كيمي أنتونيلي على الحلبة.",
+          "photoCaption": "صورة أرشيفية من 6 سبتمبر 2026. كيمي أنتونيلي يقود سيارة مرسيدس في جائزة إيطاليا الكبرى في مونزا."
+        },
+        "zh-CN": {
+          "title": "卡塔尔大奖赛首练：安东内利领先拉塞尔半秒",
+          "summary": "梅赛德斯两位车手在卢赛尔首次自由练习中包揽前两名，红牛车手伊萨克·哈贾尔位居第三。",
+          "body": "11月27日，基米·安东内利在卡塔尔大奖赛首次自由练习中跑出最快圈。根据一级方程式公布的成绩，这位梅赛德斯车队的意大利车手在卢赛尔赛道的单圈用时为1分23秒217。队友乔治·拉塞尔以1分23秒724位居第二，落后0.507秒。\n\n据赛车媒体Crash报道，红牛车手哈贾尔以1分23秒878排在两辆梅赛德斯赛车之后，领先迈凯伦的兰多·诺里斯和奥斯卡·皮亚斯特里。练习赛排名依据每位车手在本节的最快单圈。大奖赛的发车顺序由排位赛决定。",
+          "photoAlt": "基米·安东内利驾驶黑银配色的梅赛德斯赛车驶过赛道，图为赛车侧面。",
+          "photoCaption": "资料照片，摄于2026年9月6日。基米·安东内利在蒙扎举行的意大利大奖赛上驾驶梅赛德斯赛车。"
+        },
+        "ru": {
+          "title": "Антонелли опередил Расселла на полсекунды в первой тренировке Гран-при Катара",
+          "summary": "Пилоты Mercedes показали два лучших результата в первой свободной практике в Лусаиле. Исак Хаджар на Red Bull занял третье место.",
+          "body": "Кими Антонелли проехал самый быстрый круг в первой тренировке Гран-при Катара 27 ноября. Согласно протоколу Формулы-1, итальянский пилот Mercedes преодолел круг в Лусаиле за 1 минуту 23,217 секунды. Его напарник Джордж Расселл показал 1 минуту 23,724 секунды и уступил 0,507 секунды.\n\nЗа двумя Mercedes расположился Исак Хаджар на Red Bull с результатом 1 минута 23,878 секунды, сообщает издание Crash. Он опередил пилотов McLaren Ландо Норриса и Оскара Пиастри. В протоколе тренировки учитывается лучший круг каждого гонщика за сессию. Стартовую решётку Гран-при определяет квалификация.",
+          "photoAlt": "Чёрно-серебристый болид Mercedes Кими Антонелли на трассе, вид сбоку.",
+          "photoCaption": "Архивное фото от 6 сентября 2026 года. Кими Антонелли за рулём Mercedes на Гран-при Италии в Монце."
+        },
+        "ko": {
+          "title": "카타르 그랑프리 첫 연습에서 키미 안토넬리, 조지 러셀에 0.5초 앞서",
+          "summary": "루사일에서 열린 첫 자유주행에서 메르세데스가 1·2위를 차지했다. 레드불의 이삭 하자르가 3위에 올랐다.",
+          "body": "키미 안토넬리는 11월 27일 카타르 그랑프리 첫 자유주행에서 가장 빠른 랩타임을 기록했다. 포뮬러 원 공식 기록에 따르면 메르세데스 소속 이탈리아 드라이버 안토넬리는 루사일 서킷 한 바퀴를 1분 23초217에 돌았다. 팀 동료 조지 러셀은 1분 23초724로 0.507초 뒤졌다.\n\n레이싱 전문 매체 크래시에 따르면 두 메르세데스에 이어 레드불의 이삭 하자르가 1분 23초878을 기록했다. 하자르는 맥라렌의 랜도 노리스와 오스카 피아스트리를 앞섰다. 자유주행 순위는 해당 세션에서 각 선수가 기록한 최고 랩타임을 기준으로 정한다. 그랑프리 결승의 출발 순서는 예선에서 결정된다.",
+          "photoAlt": "트랙을 달리는 키미 안토넬리의 검정·은색 메르세데스 경주차를 옆에서 본 모습.",
+          "photoCaption": "2026년 9월 6일 자료 사진. 키미 안토넬리가 몬차에서 열린 이탈리아 그랑프리에서 메르세데스 경주차를 몰고 있다."
+        }
+      },
+      "sources": [
+        {
+          "name": "Formula 1",
+          "url": "https://www.formula1.com/en/latest/article/fp1-antonelli-leads-russell-in-qatar-as-mercedes-control-opening-practice.3v7t8Oja9vAGkic9TxN7FR",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Crash",
+          "url": "https://www.crash.net/f1/results/1111050/1/2026-f1-qatar-grand-prix-friday-practice-results",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "title": "Au Qatar, Kimi Antonelli devance George Russell d’une demi-seconde aux premiers essais",
+      "summary": "Les deux Mercedes signent les meilleurs temps de la première séance libre à Lusail. Isack Hadjar place sa Red Bull au troisième rang.",
+      "body": "Kimi Antonelli a bouclé le tour le plus rapide de la première séance d’essais libres du Grand Prix du Qatar le 27 novembre. Selon le classement de la Formule 1, le pilote italien de Mercedes a parcouru le circuit de Lusail en 1 min 23 s 217. Son coéquipier George Russell a signé un temps de 1 min 23 s 724, à 507 millièmes de seconde.\n\nDerrière les deux Mercedes, Isack Hadjar a tourné en 1 min 23 s 878 sur Red Bull, relève le média spécialisé Crash. Il a devancé les McLaren de Lando Norris et d’Oscar Piastri. Ce classement mesure les meilleurs tours de la séance d’entraînement. La grille de départ du Grand Prix se joue en qualifications.",
+      "photo": {
+        "subject": "Kimi Antonelli",
+        "context": "Mercedes",
+        "capturedOn": "2026-09-06",
+        "download": "media/antonelli.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antonelli_Italian_Grand_Prix_2026.jpg",
+        "license": "CC BY-SA 4.0 (image redimensionnée)",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "credit": "Gzzz / Wikimedia Commons",
+        "alt": "La Mercedes noire et argent de Kimi Antonelli vue de profil en piste.",
+        "caption": "Archive du 6 septembre 2026. Kimi Antonelli au volant de sa Mercedes au Grand Prix d’Italie, à Monza."
+      }
+    }
+  ]
+}
