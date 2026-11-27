@@ -1,0 +1,162 @@
+{
+  "hour": "2026-11-27T22",
+  "articles": [
+    {
+      "eventKey": "nouvelle-ecosse-halifax-pont-macdonald-fermeture-vehicules-27-novembre",
+      "category": "Nouvelle-Écosse",
+      "sources": [
+        {
+          "name": "Halifax Harbour Bridges",
+          "url": "https://halifaxharbourbridges.ca/news/macdonald-bridge-weekend-closure-nov-27-30/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "name": "CityNews Halifax",
+          "url": "https://halifax.citynews.ca/2026/11/25/macdonald-bridge-closed-this-weekend-amid-holiday-events-in-hrm/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "The Coast",
+          "url": "https://newsletter.thecoast.ca/p/premature-campaignulation",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "title": "À Halifax, le pont Macdonald fermera aux véhicules vendredi à 21 h",
+      "summary": "En Nouvelle-Écosse, les automobilistes pourront emprunter le pont MacKay entre Halifax et Dartmouth pendant les travaux. Le passage à pied et à vélo sera maintenu sur le pont Macdonald.",
+      "body": "Le pont Angus L. Macdonald, qui franchit le port de Halifax, fermera aux véhicules du vendredi 27 novembre à 21 h au lundi 30 novembre à 5 h 30, heure locale. Halifax Harbour Bridges annonce que l’autre traversée routière du port, le pont A. Murray MacKay, restera ouverte.\n\nLe trottoir du pont Macdonald sera également fermé. Pendant les travaux, les piétons et les cyclistes se partageront la piste cyclable. L’exploitant conseille aux automobilistes de prévoir plus de temps pour leurs déplacements.\n\nLe chantier se situe du côté de Dartmouth. Il prépare notamment l’aménagement d’une voie réservée aux autobus qui tournent à gauche depuis le chemin Wyse pour s’engager sur le pont. Selon l’exploitant, ces améliorations devraient être achevées au printemps 2027.",
+      "verified": true,
+      "photo": {
+        "subject": "pont Angus L. Macdonald",
+        "context": "port de Halifax",
+        "capturedOn": "2026-01-25",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angus_L._Macdonald_Bridge.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Angus_L._Macdonald_Bridge.jpg/1280px-Angus_L._Macdonald_Bridge.jpg",
+        "credit": "Quintin Soloviev / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "Les deux tours vertes du pont Angus L. Macdonald se dressent au-dessus du port de Halifax.",
+        "caption": "Archive du 25 janvier 2026. Le pont Angus L. Macdonald au-dessus du port de Halifax, en Nouvelle-Écosse."
+      },
+      "translations": {
+        "en": {
+          "title": "Halifax’s Macdonald Bridge to close to vehicles at 9 p.m. Friday",
+          "summary": "In Nova Scotia, drivers can use the MacKay Bridge between Halifax and Dartmouth during construction. People walking or cycling will still be able to cross the Macdonald Bridge.",
+          "body": "The Angus L. Macdonald Bridge across Halifax Harbour will close to vehicles from 9 p.m. Friday, November 27, to 5:30 a.m. Monday, November 30, local time. Halifax Harbour Bridges says the other road crossing of the harbour, the A. Murray MacKay Bridge, will remain open.\n\nThe Macdonald Bridge sidewalk will also close. Pedestrians and cyclists will share the bike lane during construction. The operator advises drivers to allow extra travel time.\n\nThe work is on the Dartmouth side. It will help prepare a dedicated lane for buses turning left from Wyse Road onto the bridge. The operator expects the improvements to be complete in spring 2027.",
+          "photoAlt": "The two green towers of the Angus L. Macdonald Bridge rise above Halifax Harbour.",
+          "photoCaption": "Archive photograph, January 25, 2026. The Angus L. Macdonald Bridge spans Halifax Harbour in Nova Scotia."
+        },
+        "es": {
+          "title": "El puente Macdonald de Halifax cerrará al tráfico vehicular el viernes a las 21:00",
+          "summary": "En Nueva Escocia, los conductores podrán usar el puente MacKay entre Halifax y Dartmouth durante las obras. El puente Macdonald seguirá abierto a peatones y ciclistas.",
+          "body": "El puente Angus L. Macdonald, que cruza el puerto de Halifax, cerrará a los vehículos desde las 21:00 del viernes 27 de noviembre hasta las 5:30 del lunes 30, hora local. Según Halifax Harbour Bridges, el otro cruce vial del puerto, el puente A. Murray MacKay, permanecerá abierto.\n\nLa acera del puente Macdonald también cerrará. Durante las obras, peatones y ciclistas compartirán el carril para bicicletas. El operador aconseja a los conductores prever más tiempo para sus desplazamientos.\n\nLas obras se realizan en el lado de Dartmouth. Preparan, entre otras mejoras, un carril exclusivo para los autobuses que giran a la izquierda desde Wyse Road para entrar al puente. El operador prevé concluir las mejoras en la primavera de 2027.",
+          "photoAlt": "Las dos torres verdes del puente Angus L. Macdonald se alzan sobre el puerto de Halifax.",
+          "photoCaption": "Archivo del 25 de enero de 2026. El puente Angus L. Macdonald sobre el puerto de Halifax, en Nueva Escocia."
+        },
+        "ar": {
+          "title": "جسر ماكدونالد في هاليفاكس يغلق أمام المركبات الجمعة عند التاسعة مساءً",
+          "summary": "يمكن للسائقين في نوفا سكوشا استخدام جسر ماكاي بين هاليفاكس ودارتموث أثناء الأشغال. وسيظل عبور جسر ماكدونالد متاحاً للمشاة وراكبي الدراجات.",
+          "body": "سيغلق جسر أنغوس إل. ماكدونالد فوق ميناء هاليفاكس أمام المركبات من الساعة التاسعة مساء الجمعة 27 نوفمبر حتى الخامسة والنصف صباح الاثنين 30 نوفمبر بالتوقيت المحلي. وتقول هيئة جسور ميناء هاليفاكس إن المعبر البري الآخر فوق الميناء، جسر إيه. موراي ماكاي، سيبقى مفتوحاً.\n\nوسيغلق رصيف المشاة على جسر ماكدونالد أيضاً، على أن يتشارك المشاة وراكبو الدراجات مسار الدراجات أثناء الأشغال. وتنصح الهيئة السائقين بتخصيص وقت إضافي لتنقلاتهم.\n\nتجري الأشغال عند طرف الجسر في دارتموث، تمهيداً لإنشاء مسار مخصص للحافلات التي تنعطف يساراً من طريق وايز لدخول الجسر. وتتوقع الهيئة اكتمال التحسينات في ربيع 2027.",
+          "photoAlt": "يرتفع البرجان الأخضران لجسر أنغوس إل. ماكدونالد فوق ميناء هاليفاكس.",
+          "photoCaption": "صورة أرشيفية من 25 يناير 2026 لجسر أنغوس إل. ماكدونالد فوق ميناء هاليفاكس في نوفا سكوشا."
+        },
+        "zh-CN": {
+          "title": "哈利法克斯麦克唐纳桥将于周五晚9时起禁止机动车通行",
+          "summary": "施工期间，在新斯科舍省哈利法克斯与达特茅斯之间往返的司机可改走麦凯桥。行人和骑车者仍可通过麦克唐纳桥。",
+          "body": "横跨哈利法克斯港的安格斯·L·麦克唐纳桥将于当地时间11月27日星期五晚9时至11月30日星期一清晨5时30分禁止机动车通行。哈利法克斯港桥梁管理机构表示，港口的另一条公路通道，即A·默里·麦凯桥，将保持开放。\n\n麦克唐纳桥的人行道也将关闭。施工期间，行人和骑车者将共用自行车道。管理机构建议驾车者为出行预留更多时间。\n\n施工地点在达特茅斯一侧。这些前期工程将为后续改造做准备，其中包括为从怀斯路左转上桥的公交车设置专用车道。管理机构预计改造将在2027年春季完成。",
+          "photoAlt": "安格斯·L·麦克唐纳桥的两座绿色桥塔矗立在哈利法克斯港上方。",
+          "photoCaption": "资料照片，摄于2026年1月25日。安格斯·L·麦克唐纳桥横跨新斯科舍省哈利法克斯港。"
+        },
+        "ru": {
+          "title": "Мост Макдональда в Галифаксе закроют для автомобилей в пятницу в 21:00",
+          "summary": "В Новой Шотландии во время работ водители смогут проехать между Галифаксом и Дартмутом по мосту Маккея. Пеший и велосипедный проход по мосту Макдональда сохранится.",
+          "body": "Мост имени Ангуса Л. Макдональда через гавань Галифакса закроют для автомобилей с 21:00 пятницы, 27 ноября, до 5:30 понедельника, 30 ноября, по местному времени. По данным оператора Halifax Harbour Bridges, другой автомобильный мост через гавань, имени А. Мюррея Маккея, останется открытым.\n\nТротуар на мосту Макдональда также закроют. На время работ пешеходы и велосипедисты будут пользоваться общей велодорожкой. Оператор советует водителям закладывать больше времени на поездки.\n\nРаботы пройдут со стороны Дартмута. В частности, они подготовят обустройство выделенной полосы для автобусов, поворачивающих налево с Уайз-роуд на мост. Оператор рассчитывает завершить благоустройство весной 2027 года.",
+          "photoAlt": "Две зелёные башни моста Ангуса Л. Макдональда возвышаются над гаванью Галифакса.",
+          "photoCaption": "Архивное фото от 25 января 2026 года. Мост Ангуса Л. Макдональда через гавань Галифакса в Новой Шотландии."
+        },
+        "ko": {
+          "title": "핼리팩스 맥도널드교, 금요일 밤 9시부터 차량 통행 제한",
+          "summary": "노바스코샤주 핼리팩스와 다트머스 사이를 오가는 차량은 공사 기간 매케이교를 이용할 수 있다. 보행자와 자전거는 맥도널드교를 계속 건널 수 있다.",
+          "body": "핼리팩스항을 가로지르는 앵거스 L. 맥도널드교의 차량 통행이 현지 시각 11월 27일 금요일 밤 9시부터 30일 월요일 오전 5시 30분까지 제한된다. 교량 운영사 핼리팩스 하버 브리지는 항구를 건너는 또 다른 도로교인 A. 머리 매케이교는 계속 개방한다고 밝혔다.\n\n맥도널드교 보도도 폐쇄된다. 공사 기간 보행자와 자전거 이용자는 자전거도로를 함께 사용한다. 운영사는 운전자에게 이동 시간을 넉넉히 잡으라고 안내했다.\n\n공사는 다트머스 쪽에서 진행된다. 와이즈 로드에서 좌회전해 다리로 진입하는 버스를 위한 전용 차로 설치 등을 준비하는 작업이다. 운영사는 개선 공사가 2027년 봄에 마무리될 것으로 예상한다.",
+          "photoAlt": "앵거스 L. 맥도널드교의 초록색 주탑 두 개가 핼리팩스항 위로 솟아 있다.",
+          "photoCaption": "자료 사진. 2026년 1월 25일 노바스코샤주 핼리팩스항을 가로지르는 앵거스 L. 맥도널드교."
+        }
+      }
+    },
+    {
+      "category": "Québec",
+      "eventKey": "montreal-rem-evacuation-14-passagers-pont-samuel-de-champlain",
+      "sources": [
+        {
+          "name": "CityNews Montréal — déclaration de Pulsar",
+          "url": "https://montreal.citynews.ca/2026/11/27/two-rem-trains-stopped-champlain-bridge-overnight-service-slowdown-continue/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "TVA Nouvelles",
+          "url": "https://www.tvanouvelles.ca/2026/11/27/episode-de-verglas-une-panne-du-rem-force-levacuation-durgence-des-passagers-en-pleine-nuit",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "title": "À Montréal, 14 passagers évacués après l’arrêt de deux trains du REM sur le pont Samuel-De Champlain",
+      "summary": "Au Québec, la panne a immobilisé deux rames entre les stations Panama et Île-des-Sœurs dans la nuit du 27 novembre. Le service a repris sur l’ensemble du réseau vendredi matin.",
+      "body": "Deux trains du Réseau express métropolitain (REM) se sont immobilisés vers 1 h 30 vendredi sur le pont Samuel-De Champlain. Les secours sont intervenus pour évacuer les 14 passagers qui se trouvaient à bord. Les images de nuit diffusées par TVA Nouvelles montrent les pompiers s’approchant des rames arrêtées.\n\nPulsar, qui exploite le REM, a signalé un problème lié à la caténaire, la ligne aérienne qui alimente les trains en électricité. La panne s’est produite sur le tronçon reliant les stations Panama, à Brossard, et Île-des-Sœurs, à Montréal.\n\nLes répercussions se sont prolongées au début du service du matin sur la liaison entre Brossard et la Gare centrale. CityNews rapporte que le service avait repris sur l’ensemble du réseau à 8 h 24.",
+      "verified": true,
+      "photo": {
+        "subject": "caténaire",
+        "context": "pont Samuel-De Champlain",
+        "capturedOn": "2023-11-19",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/6/68/REM_Brossard_Champlain_Bridge.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:REM_Brossard_Champlain_Bridge.jpg",
+        "credit": "Andrepoiy / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Les voies du REM et leur caténaire au milieu du pont Samuel-De Champlain, entre les chaussées routières.",
+        "caption": "Archive du 19 novembre 2023. La caténaire du REM au-dessus des voies sur le pont Samuel-De Champlain."
+      },
+      "translations": {
+        "en": {
+          "title": "Fourteen passengers evacuated after two Montreal REM trains stop on Samuel-De Champlain Bridge",
+          "summary": "In Quebec, two trains were stranded between Panama and Île-des-Sœurs stations overnight on November 27. Service resumed across the network on Friday morning.",
+          "body": "Two Réseau express métropolitain (REM) trains came to a stop on Samuel-De Champlain Bridge at about 1:30 a.m. Friday. Emergency crews evacuated the 14 passengers on board. Nighttime footage aired by TVA Nouvelles shows firefighters approaching the stationary trains.\n\nPulsar, the REM operator, reported a problem with the overhead line that supplies power to the trains. The breakdown occurred between Panama station in Brossard and Île-des-Sœurs station in Montreal.\n\nDisruption continued as morning service began on the link between Brossard and Central Station. CityNews reported that service had resumed throughout the network by 8:24 a.m.",
+          "photoAlt": "REM tracks and overhead power lines run between the roadways on Samuel-De Champlain Bridge.",
+          "photoCaption": "Archive photograph, November 19, 2023. The REM’s overhead power line above the tracks on Samuel-De Champlain Bridge."
+        },
+        "es": {
+          "title": "Evacúan a 14 pasajeros tras detenerse dos trenes del REM de Montreal en el puente Samuel-De Champlain",
+          "summary": "En Quebec, dos trenes quedaron inmovilizados entre las estaciones Panama e Île-des-Sœurs en la madrugada del 27 de noviembre. El servicio se restableció en toda la red el viernes por la mañana.",
+          "body": "Dos trenes del Réseau express métropolitain (REM) quedaron detenidos hacia la 1:30 del viernes en el puente Samuel-De Champlain. Los servicios de emergencia evacuaron a los 14 pasajeros a bordo. Las imágenes nocturnas difundidas por TVA Nouvelles muestran a los bomberos acercándose a los trenes detenidos.\n\nPulsar, operador del REM, informó de un problema relacionado con la catenaria, la línea aérea que suministra electricidad a los trenes. La avería ocurrió en el tramo entre la estación Panama, en Brossard, y la estación Île-des-Sœurs, en Montreal.\n\nLas alteraciones continuaron al inicio del servicio de la mañana entre Brossard y la Estación Central. Según CityNews, a las 8:24 ya se había restablecido el servicio en toda la red.",
+          "photoAlt": "Las vías y la catenaria del REM discurren entre las calzadas del puente Samuel-De Champlain.",
+          "photoCaption": "Archivo del 19 de noviembre de 2023. La catenaria del REM sobre las vías del puente Samuel-De Champlain."
+        },
+        "ar": {
+          "title": "إجلاء 14 راكباً بعد توقف قطارين من شبكة مونتريال على جسر صامويل دو شامبلان",
+          "summary": "توقف القطاران بين محطتي باناما وإيل دي سور في كيبيك فجر 27 نوفمبر. وعادت الخدمة إلى كامل الشبكة صباح الجمعة.",
+          "body": "توقف قطاران من شبكة النقل السريع الحضرية (REM) على جسر صامويل دو شامبلان نحو الساعة الواحدة والنصف من فجر الجمعة. وأجلت فرق الطوارئ الركاب الأربعة عشر الذين كانوا على متنهما. وتُظهر لقطات ليلية بثتها قناة TVA Nouvelles عناصر الإطفاء وهم يقتربون من القطارين المتوقفين.\n\nوأفادت شركة بولسار المشغلة للشبكة بوجود مشكلة تتعلق بخط التغذية الكهربائية العلوي للقطارات. ووقع العطل بين محطة باناما في بروسار ومحطة إيل دي سور في مونتريال.\n\nواستمر الاضطراب عند بدء الخدمة الصباحية على الخط بين بروسار والمحطة المركزية. وأفادت سيتي نيوز بأن الخدمة كانت قد استؤنفت في كامل الشبكة بحلول الساعة 8:24 صباحاً.",
+          "photoAlt": "مسارا قطارات REM وخط التغذية الكهربائية العلوي بين مسارات السيارات على جسر صامويل دو شامبلان.",
+          "photoCaption": "صورة أرشيفية من 19 نوفمبر 2023. خط التغذية الكهربائية لشبكة REM فوق السكة على جسر صامويل دو شامبلان."
+        },
+        "zh-CN": {
+          "title": "蒙特利尔两列REM列车在塞缪尔·德尚普兰大桥停驶，14名乘客疏散",
+          "summary": "11月27日凌晨，魁北克省两列列车在巴拿马站与修女岛站之间停驶。周五早晨，全线恢复运行。",
+          "body": "周五凌晨约1时30分，蒙特利尔大都会快速铁路（REM）的两列列车在塞缪尔·德尚普兰大桥上停驶。救援人员疏散了车上的14名乘客。TVA Nouvelles播出的夜间画面显示，消防人员走向停在桥上的列车。\n\n运营方Pulsar表示，故障涉及向列车供电的架空接触网。事发路段连接布罗萨尔的巴拿马站和蒙特利尔的修女岛站。\n\n早班车开始运行时，布罗萨尔至中央车站之间的服务仍受到影响。据CityNews报道，到上午8时24分，全网已恢复运行。",
+          "photoAlt": "塞缪尔·德尚普兰大桥上，REM轨道与架空接触网位于两侧公路之间。",
+          "photoCaption": "资料照片，摄于2023年11月19日。塞缪尔·德尚普兰大桥上REM轨道上方的架空接触网。"
+        },
+        "ru": {
+          "title": "В Монреале эвакуировали 14 пассажиров после остановки двух поездов REM на мосту Самюэля де Шамплена",
+          "summary": "В Квебеке два поезда остановились между станциями Панама и Иль-де-Сёр в ночь на 27 ноября. Утром в пятницу движение возобновилось по всей сети.",
+          "body": "Около 1:30 ночи в пятницу два поезда монреальской сети Réseau express métropolitain (REM) остановились на мосту Самюэля де Шамплена. Спасатели эвакуировали всех 14 пассажиров. На ночных кадрах, показанных TVA Nouvelles, видно, как пожарные подходят к остановившимся составам.\n\nОператор сети Pulsar сообщил о проблеме с контактной сетью, от которой поезда получают электроэнергию. Неисправность возникла на участке между станцией Панама в Броссаре и станцией Иль-де-Сёр в Монреале.\n\nПеребои сохранялись к началу утреннего движения между Броссаром и Центральным вокзалом. По данным CityNews, к 8:24 движение возобновилось по всей сети.",
+          "photoAlt": "Пути REM и контактная сеть проходят между автомобильными полосами моста Самюэля де Шамплена.",
+          "photoCaption": "Архивное фото от 19 ноября 2023 года. Контактная сеть REM над путями на мосту Самюэля де Шамплена."
+        },
+        "ko": {
+          "title": "몬트리올 REM 열차 두 대, 사뮈엘 드 샹플랭교에서 멈춰 승객 14명 대피",
+          "summary": "11월 27일 새벽 퀘벡주 파나마역과 일데쇠르역 사이에서 열차 두 대가 멈췄다. 금요일 오전 전 구간 운행이 재개됐다.",
+          "body": "금요일 새벽 1시 30분께 몬트리올 광역급행철도(REM) 열차 두 대가 사뮈엘 드 샹플랭교에서 멈췄다. 긴급 구조대가 출동해 열차에 타고 있던 승객 14명을 대피시켰다. TVA 누벨이 보도한 야간 영상에는 소방대원들이 멈춰 선 열차로 다가가는 모습이 담겼다.\n\n운영사 펄사는 열차에 전기를 공급하는 가공전차선과 관련한 문제가 있었다고 밝혔다. 고장이 발생한 구간은 브로사르의 파나마역과 몬트리올의 일데쇠르역 사이다.\n\n아침 운행이 시작된 뒤에도 브로사르와 중앙역 사이에서 운행 차질이 이어졌다. 시티뉴스에 따르면 오전 8시 24분에는 전 구간에서 운행이 재개됐다.",
+          "photoAlt": "사뮈엘 드 샹플랭교의 양쪽 차도 사이로 REM 선로와 가공전차선이 이어진다.",
+          "photoCaption": "자료 사진. 2023년 11월 19일 사뮈엘 드 샹플랭교에서 촬영한 REM 선로 위 가공전차선."
+        }
+      }
+    }
+  ]
+}
