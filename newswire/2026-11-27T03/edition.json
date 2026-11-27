@@ -1,0 +1,243 @@
+{
+  "hour": "2026-11-27T03",
+  "articles": [
+    {
+      "eventKey": "chine-benefices-industriels-octobre-2026-electronique-meuble",
+      "category": "Économie",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Bureau national des statistiques de Chine",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
+          "publishedAt": "2026-11-27T09:30:00+08:00"
+        },
+        {
+          "name": "Qiaoyi Li et Liz Lee, Reuters",
+          "url": "https://www.reuters.com/markets/asia/chinese-industrial-profit-rises-16-january-october-2026-11-27/",
+          "publishedAt": "2026-11-27T01:36:44Z"
+        },
+        {
+          "name": "The Wall Street Journal",
+          "url": "https://www.wsj.com/economy/chinas-industrial-profit-surged-despite-headwinds-0296ec7c",
+          "publishedAt": "2026-11-27T02:28:00Z"
+        }
+      ],
+      "photo": {
+        "subject": "machine de production",
+        "context": "usine d’électronique à Shenzhen",
+        "capturedOn": "2026-01-06",
+        "download": "media/chine.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Electronic_Factory_in_Shenzhen.jpg",
+        "credit": "Lint1729 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Plaques et têtes de machine dans une usine d’électronique à Shenzhen.",
+        "caption": "Archive du 6 janvier 2026. Une machine de production dans une usine d’électronique à Shenzhen, en Chine."
+      },
+      "translations": {
+        "en": {
+          "title": "China’s industrial profits rise 20.1% in October",
+          "summary": "Profits at major industrial firms rose faster than in September. Over ten months, electronics and furniture manufacturers reported sharply different results.",
+          "body": "In October, the industrial firms tracked by China’s National Bureau of Statistics earned 20.1% more profit than a year earlier. September’s year-on-year increase was 14.4%, Reuters reported. The figures released on November 27 cover firms with at least 20 million yuan in annual revenue from their main business.\n\nFrom January to October, their profits rose 16% compared with the same ten months of 2025. Profits doubled for manufacturers of computers, communications equipment and other electronic equipment. Furniture makers’ profits fell 52.4%. The machine pictured in a Shenzhen electronics factory illustrates the former sector. The published figures cover all of China.",
+          "photoAlt": "Panels and machine heads in an electronics factory in Shenzhen.",
+          "photoCaption": "Archive photo, January 6, 2026. A machine inside an electronics factory in Shenzhen, China."
+        },
+        "es": {
+          "title": "Los beneficios industriales de China crecen un 20,1 % en octubre",
+          "summary": "Las ganancias de las grandes empresas industriales crecieron más rápido que en septiembre. En diez meses, los fabricantes de equipos electrónicos y los de muebles registraron resultados muy dispares.",
+          "body": "En octubre, las empresas industriales que sigue la Oficina Nacional de Estadística de China obtuvieron un 20,1 % más de beneficios que un año antes. En septiembre, el aumento interanual había sido del 14,4 %, según Reuters. Los datos publicados el 27 de noviembre abarcan a empresas que facturan al menos 20 millones de yuanes anuales por su actividad principal.\n\nDe enero a octubre, sus beneficios aumentaron un 16 % respecto a los mismos diez meses de 2025. Las ganancias se duplicaron entre los fabricantes de ordenadores, equipos de comunicación y otros equipos electrónicos. En la fabricación de muebles cayeron un 52,4 %. La máquina fotografiada en una fábrica de electrónica de Shenzhen ilustra el primer sector. Las cifras publicadas corresponden al conjunto de China.",
+          "photoAlt": "Placas y cabezales de una máquina en una fábrica de electrónica de Shenzhen.",
+          "photoCaption": "Foto de archivo del 6 de enero de 2026. Una máquina en una fábrica de electrónica de Shenzhen, China."
+        },
+        "ar": {
+          "title": "أرباح الشركات الصناعية في الصين ترتفع 20.1% في أكتوبر",
+          "summary": "نمت أرباح الشركات الصناعية الكبرى بوتيرة أسرع من سبتمبر. وخلال عشرة أشهر، سجل مصنعو المعدات الإلكترونية ومصنعو الأثاث نتائج متباينة.",
+          "body": "حققت الشركات الصناعية التي يتابعها المكتب الوطني للإحصاء في الصين في أكتوبر أرباحاً تزيد بنسبة 20.1% على مستواها قبل عام. وبلغت الزيادة السنوية في سبتمبر 14.4%، وفق رويترز. وتشمل البيانات المنشورة في 27 نوفمبر الشركات التي تحقق إيرادات سنوية لا تقل عن 20 مليون يوان من نشاطها الرئيسي.\n\nارتفعت أرباح هذه الشركات من يناير إلى أكتوبر بنسبة 16% مقارنة بالأشهر العشرة نفسها من عام 2025. وتضاعفت أرباح مصنعي الحواسيب ومعدات الاتصالات وغيرها من المعدات الإلكترونية، فيما هبطت أرباح مصنعي الأثاث بنسبة 52.4%. وتُظهر الصورة آلة داخل مصنع إلكترونيات في شنتشن مثالاً على القطاع الأول. وتغطي الأرقام المنشورة الصين بأكملها.",
+          "photoAlt": "ألواح ورؤوس آلة داخل مصنع إلكترونيات في شنتشن.",
+          "photoCaption": "صورة أرشيفية بتاريخ 6 يناير 2026 لآلة داخل مصنع إلكترونيات في شنتشن بالصين."
+        },
+        "zh-CN": {
+          "title": "中国10月规模以上工业企业利润同比增长20.1%",
+          "summary": "规模以上工业企业利润增速高于9月。前十个月，电子设备制造业和家具制造业的利润走势差异明显。",
+          "body": "中国国家统计局跟踪的工业企业10月利润同比增长20.1%。据路透社报道，9月同比增幅为14.4%。11月27日发布的数据统计的是年主营业务收入达到或超过2000万元的工业企业。\n\n今年1至10月，这些企业的利润比2025年同期增长16%。计算机、通信和其他电子设备制造业利润翻了一番，家具制造业利润则下降52.4%。配图摄于深圳一家电子工厂，画面中的机器展示了前一个行业的生产场景。公布的数据覆盖全国。",
+          "photoAlt": "深圳一家电子工厂内的板件和机器机头。",
+          "photoCaption": "资料照片，摄于2026年1月6日。中国深圳一家电子工厂内的机器。"
+        },
+        "ru": {
+          "title": "Прибыль крупных промышленных предприятий Китая выросла в октябре на 20,1 %",
+          "summary": "Рост прибыли ускорился по сравнению с сентябрём. За десять месяцев результаты производителей электроники и мебели заметно разошлись.",
+          "body": "В октябре прибыль промышленных предприятий, которые обследует Государственное статистическое управление КНР, выросла на 20,1 % в годовом выражении. В сентябре прирост составлял 14,4 %, сообщает Reuters. Опубликованные 27 ноября данные охватывают предприятия с годовой выручкой от основной деятельности не менее 20 млн юаней.\n\nС января по октябрь их прибыль выросла на 16 % по сравнению с теми же десятью месяцами 2025 года. У производителей компьютеров, средств связи и другого электронного оборудования прибыль удвоилась, а у производителей мебели упала на 52,4 %. На фотографии станок на заводе электроники в Шэньчжэне, иллюстрирующий первую из этих отраслей. Опубликованные данные относятся ко всему Китаю.",
+          "photoAlt": "Панели и рабочие головки станка на заводе электроники в Шэньчжэне.",
+          "photoCaption": "Архивный снимок от 6 января 2026 года. Станок на заводе электроники в Шэньчжэне, Китай."
+        },
+        "ko": {
+          "title": "중국 10월 규모 이상 공업기업 이익 20.1% 증가",
+          "summary": "규모 이상 공업기업의 이익 증가율이 9월보다 높아졌다. 올해 첫 열 달 동안 전자장비 제조업과 가구 제조업의 실적은 뚜렷하게 엇갈렸다.",
+          "body": "중국 국가통계국이 집계한 공업기업의 10월 이익은 1년 전보다 20.1% 늘었다. 로이터에 따르면 9월의 전년 동월 대비 증가율은 14.4%였다. 11월 27일 발표된 통계는 주된 사업의 연간 매출이 2천만 위안 이상인 기업을 대상으로 한다.\n\n1월부터 10월까지 이들 기업의 이익은 2025년 같은 기간보다 16% 증가했다. 컴퓨터·통신·기타 전자장비 제조업의 이익은 두 배가 된 반면 가구 제조업 이익은 52.4% 줄었다. 사진은 앞서 언급한 전자장비 제조업의 사례로 선전의 한 전자공장에서 기계를 촬영한 것이다. 발표된 수치는 중국 전체를 대상으로 한다.",
+          "photoAlt": "선전 전자공장 안에 있는 판과 기계 헤드.",
+          "photoCaption": "2026년 1월 6일 촬영한 자료 사진. 중국 선전의 한 전자공장 내부에 있는 기계."
+        }
+      },
+      "title": "En Chine, les bénéfices industriels progressent de 20,1 % en octobre",
+      "summary": "Les profits des grandes entreprises industrielles ont augmenté plus vite qu’en septembre. Sur dix mois, les fabricants d’équipements électroniques et ceux de meubles affichent des résultats très différents.",
+      "body": "En octobre, les entreprises industrielles que suit le Bureau national des statistiques chinois ont dégagé 20,1 % de bénéfices de plus qu’un an auparavant. En septembre, la hausse sur un an avait été de 14,4 %, rappelle Reuters. Le relevé publié le 27 novembre couvre les entreprises dont l’activité principale génère au moins 20 millions de yuans de chiffre d’affaires annuel.\n\nDe janvier à octobre, leurs profits ont augmenté de 16 % par rapport aux dix mêmes mois de 2025. Dans la fabrication d’ordinateurs, de matériel de communication et d’autres équipements électroniques, les bénéfices ont doublé. Dans le meuble, ils ont chuté de 52,4 %. La machine de production photographiée dans une usine d’électronique à Shenzhen illustre le premier secteur. Les chiffres publiés portent sur l’ensemble de la Chine."
+    },
+    {
+      "eventKey": "porto-rico-comite-succession-luma-reseau-electrique",
+      "category": "Caraïbes",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Cour suprême de Porto Rico",
+          "url": "https://poderjudicial.pr/tribunal-supremo-declara-nula-la-extension-de-la-relacion-contractual-con-luma-energy-y-dispone-una-transicion-ordenada/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "¡Ey! Boricua",
+          "url": "https://eyboricua.com/gonzalez-comite-transicion-nuevo-operador-luma/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "El Nuevo Día",
+          "url": "https://www.elnuevodia.com/noticias/gobierno/notas/no-va-a-haber-ningun-caos-jenniffer-gonzalez-promete-una-transicion-ordenada-para-la-salida-de-luma-energy/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "subject": "Jenniffer González Colón",
+        "context": "Porto Rico",
+        "capturedOn": "2026-02-20",
+        "download": "media/gonzalez.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Governor_Jennifer_Gonzalez-Col%C3%B3n_2026.jpg",
+        "credit": "Mikaela McGee / U.S. Department of Homeland Security, recadrage Wikimedia Commons",
+        "license": "Domaine public aux États-Unis — œuvre fédérale",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Governor_Jennifer_Gonzalez-Col%C3%B3n_2026.jpg#Licensing",
+        "alt": "La gouverneure de Porto Rico, Jenniffer González Colón, lors d’une visite officielle à Washington.",
+        "caption": "Archive du 20 février 2026. Jenniffer González Colón, gouverneure de Porto Rico, lors d’une visite au siège du département américain de la Sécurité intérieure à Washington."
+      },
+      "translations": {
+        "en": {
+          "title": "Puerto Rico prepares to replace LUMA as operator of its power grid",
+          "summary": "Governor Jenniffer González Colón wants a committee of specialists to help find a new private operator. LUMA will continue running the grid during the transition.",
+          "body": "Puerto Rico has yet to select a successor to LUMA Energy. Governor Jenniffer González Colón announced in San Juan on November 25 that she would appoint a committee of energy specialists. According to Puerto Rican outlets ¡Ey! Boricua and El Nuevo Día, the group will help select another private operator for the electricity transmission and distribution network.\n\nPuerto Rico’s Supreme Court ruled the extension of the contractual relationship with LUMA invalid that same day. The Court of First Instance will oversee the transition, which must be completed within one year. Customers will therefore continue to deal with LUMA in the meantime, the government’s energy chief, Josué Colón, explained at the press conference.",
+          "photoAlt": "Puerto Rico Governor Jenniffer González Colón during an official visit to Washington.",
+          "photoCaption": "Archive photo, February 20, 2026. Jenniffer González Colón, governor of Puerto Rico, during a visit to the US Department of Homeland Security headquarters in Washington."
+        },
+        "es": {
+          "title": "Puerto Rico prepara el relevo de LUMA como operador de la red eléctrica",
+          "summary": "La gobernadora Jenniffer González Colón quiere encargar a un comité de especialistas la búsqueda de un nuevo operador privado. LUMA seguirá gestionando la red durante la transición.",
+          "body": "Puerto Rico aún debe elegir quién sustituirá a LUMA Energy. La gobernadora Jenniffer González Colón anunció el 25 de noviembre en San Juan que nombrará un comité de especialistas en energía. Según los medios puertorriqueños ¡Ey! Boricua y El Nuevo Día, el grupo ayudará a seleccionar a otro operador privado para la red de transmisión y distribución de electricidad.\n\nEl Tribunal Supremo de Puerto Rico declaró nula ese mismo día la extensión de la relación contractual con LUMA. El Tribunal de Primera Instancia supervisará la transición, que deberá completarse en un año. Mientras tanto, los abonados seguirán tratando con LUMA, precisó en la rueda de prensa el zar de Energía del gobierno, Josué Colón.",
+          "photoAlt": "La gobernadora de Puerto Rico, Jenniffer González Colón, durante una visita oficial a Washington.",
+          "photoCaption": "Foto de archivo del 20 de febrero de 2026. Jenniffer González Colón, gobernadora de Puerto Rico, durante una visita a la sede del Departamento de Seguridad Nacional de Estados Unidos en Washington."
+        },
+        "ar": {
+          "title": "بورتوريكو تستعد لاختيار مشغّل لشبكة الكهرباء خلفاً لشركة لوما",
+          "summary": "تعتزم الحاكمة جينيفر غونزاليس كولون تكليف لجنة من المتخصصين بالبحث عن مشغّل جديد من القطاع الخاص. وستواصل لوما إدارة الشبكة خلال الفترة الانتقالية.",
+          "body": "لم تختر بورتوريكو بعد الجهة التي ستخلف شركة لوما إنرجي. وأعلنت الحاكمة جينيفر غونزاليس كولون في سان خوان يوم 25 نوفمبر أنها ستعيّن لجنة من خبراء الطاقة. وبحسب وسيلتي الإعلام المحليتين «إي بوريكوا» و«إل نويبو ديا»، ستساعد اللجنة في اختيار مشغّل آخر من القطاع الخاص لشبكة نقل الكهرباء وتوزيعها.\n\nوقضت المحكمة العليا في بورتوريكو في اليوم نفسه ببطلان تمديد العلاقة التعاقدية مع لوما. وستشرف محكمة الدرجة الأولى على الانتقال الذي يجب إنجازه خلال سنة. وأوضح مسؤول الطاقة في الحكومة خوسويه كولون خلال المؤتمر الصحفي أن المشتركين سيواصلون التعامل مع لوما في هذه الأثناء.",
+          "photoAlt": "حاكمة بورتوريكو جينيفر غونزاليس كولون خلال زيارة رسمية إلى واشنطن.",
+          "photoCaption": "صورة أرشيفية من 20 فبراير 2026 لحاكمة بورتوريكو جينيفر غونزاليس كولون خلال زيارة إلى مقر وزارة الأمن الداخلي الأمريكية في واشنطن."
+        },
+        "zh-CN": {
+          "title": "波多黎各准备遴选新运营商接替卢马管理电网",
+          "summary": "总督詹妮弗·冈萨雷斯·科隆计划委托专家委员会物色新的私营运营商。过渡期内，电网仍由卢马运营。",
+          "body": "波多黎各尚未选定卢马能源公司的继任者。总督詹妮弗·冈萨雷斯·科隆11月25日在圣胡安宣布，她将任命一个由能源专家组成的委员会。据当地媒体¡Ey! Boricua和《新日报》报道，委员会将协助为输配电网遴选另一家私营运营商。\n\n波多黎各最高法院同日裁定，延长与卢马合同关系的安排无效。过渡工作将由初审法院监督，须在一年内完成。政府能源事务负责人何苏埃·科隆在记者会上解释，在此期间，用户仍将继续与卢马打交道。",
+          "photoAlt": "波多黎各总督詹妮弗·冈萨雷斯·科隆正式访问华盛顿。",
+          "photoCaption": "资料照片，摄于2026年2月20日。波多黎各总督詹妮弗·冈萨雷斯·科隆访问位于华盛顿的美国国土安全部总部。"
+        },
+        "ru": {
+          "title": "Пуэрто-Рико готовится выбрать нового оператора электросети вместо LUMA",
+          "summary": "Губернатор Дженниффер Гонсалес Колон намерена поручить поиск нового частного оператора комитету специалистов. В переходный период сетью продолжит управлять LUMA.",
+          "body": "Преемник LUMA Energy в Пуэрто-Рико пока не выбран. Губернатор Дженниффер Гонсалес Колон объявила 25 ноября в Сан-Хуане, что назначит комитет специалистов по энергетике. Как сообщают пуэрто-риканские издания ¡Ey! Boricua и El Nuevo Día, комитет поможет выбрать другого частного оператора сети передачи и распределения электроэнергии.\n\nВерховный суд Пуэрто-Рико в тот же день признал недействительным продление договорных отношений с LUMA. Суд первой инстанции будет контролировать передачу управления, которую предстоит завершить в течение года. Пока абонентов продолжит обслуживать LUMA, пояснил на пресс-конференции руководитель правительства по вопросам энергетики Хосуэ Колон.",
+          "photoAlt": "Губернатор Пуэрто-Рико Дженниффер Гонсалес Колон во время официального визита в Вашингтон.",
+          "photoCaption": "Архивное фото от 20 февраля 2026 года. Губернатор Пуэрто-Рико Дженниффер Гонсалес Колон во время визита в штаб-квартиру Министерства внутренней безопасности США в Вашингтоне."
+        },
+        "ko": {
+          "title": "푸에르토리코, 루마를 이을 전력망 운영사 선정 준비",
+          "summary": "헤니퍼 곤살레스 콜론 주지사는 전문가 위원회에 새 민간 운영사를 찾는 일을 맡길 계획이다. 인수인계 기간에는 루마가 계속 전력망을 운영한다.",
+          "body": "푸에르토리코는 아직 루마 에너지를 이을 운영사를 정하지 않았다. 헤니퍼 곤살레스 콜론 주지사는 11월 25일 산후안에서 에너지 전문가로 구성된 위원회를 임명하겠다고 밝혔다. 현지 매체 ¡Ey! Boricua와 엘 누에보 디아에 따르면 위원회는 송배전망을 맡을 새 민간 운영사를 선정하는 일을 돕는다.\n\n푸에르토리코 대법원은 같은 날 루마와의 계약 관계 연장이 무효라고 판결했다. 1심 법원이 인수인계를 감독하며 이 절차는 1년 안에 마쳐야 한다. 정부 에너지 책임자 호수에 콜론은 기자회견에서 그동안 전력 고객은 계속 루마의 서비스를 받는다고 설명했다.",
+          "photoAlt": "워싱턴을 공식 방문한 헤니퍼 곤살레스 콜론 푸에르토리코 주지사.",
+          "photoCaption": "2026년 2월 20일 자료 사진. 헤니퍼 곤살레스 콜론 푸에르토리코 주지사가 워싱턴에 있는 미국 국토안보부 본부를 방문했을 때의 모습."
+        }
+      },
+      "title": "Porto Rico prépare la relève de LUMA à la tête de son réseau électrique",
+      "summary": "La gouverneure Jenniffer González Colón veut confier à un comité de spécialistes la recherche d’un nouvel exploitant privé. LUMA continuera de gérer le réseau pendant la transition.",
+      "body": "À Porto Rico, le choix d’un successeur à LUMA Energy reste ouvert. La gouverneure Jenniffer González Colón a annoncé le 25 novembre à San Juan qu’elle nommerait un comité de spécialistes de l’énergie. Selon les médias portoricains ¡Ey! Boricua et El Nuevo Día, ce groupe doit préparer le choix d’un autre exploitant privé pour le réseau de transport et de distribution d’électricité.\n\nLa Cour suprême de Porto Rico a annulé le même jour la prolongation de la relation contractuelle avec LUMA. Le tribunal de première instance supervisera la transition, qui doit s’achever dans un délai d’un an. Les abonnés continueront donc d’avoir affaire à LUMA dans l’intervalle, a précisé le responsable de l’énergie du gouvernement, Josué Colón, lors du point de presse."
+    },
+    {
+      "eventKey": "montreal-fermeture-bonaventure-wellington-pont-27-novembre",
+      "category": "Québec",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Québec 511 — avis de chantier 165635",
+          "url": "https://www.quebec-511.gouv.qc.ca/fr/Diffusion/EtatReseau/DetailsChantier.aspx?idChantier=165635",
+          "publishedAt": "2026-11-26T06:11:00-05:00"
+        },
+        {
+          "name": "Agence QMI, via TVA Nouvelles",
+          "url": "https://www.tvanouvelles.ca/2026/11/26/entraves-routieres-a-montreal-evitez-lautoroute-bonaventure-cette-fin-de-semaine",
+          "publishedAt": "2026-11-26T02:59:00-05:00"
+        }
+      ],
+      "photo": {
+        "subject": "autoroute Bonaventure",
+        "context": "Montréal",
+        "capturedOn": "2005-05-10",
+        "download": "media/bonaventure.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coming-off-bonaventure-exprwy-south.jpg",
+        "credit": "Somtl / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Chaussée de la sortie Pierre-Dupuy, à côté des voies surélevées de l’autoroute Bonaventure à Montréal.",
+        "caption": "Archive du 10 mai 2005. La sortie Pierre-Dupuy de l’autoroute Bonaventure à Montréal, avant le chantier actuel."
+      },
+      "translations": {
+        "en": {
+          "title": "Montreal’s Bonaventure Expressway to close toward the Samuel-De Champlain Bridge on Friday night",
+          "summary": "All bridge-bound lanes from Wellington Street are scheduled to close from 10 p.m. Friday, November 27, until 5 a.m. Monday, November 30. A detour is planned for drivers.",
+          "body": "Drivers leaving downtown Montreal on the Bonaventure Expressway will have to leave their usual route at Wellington Street over the weekend. Québec 511 says all lanes toward the Samuel-De Champlain Bridge will close while the lanes are reconfigured.\n\nFor light vehicles, the posted detour follows Wellington and Gilberte-Dubé streets, then Gaétan-Laberge Boulevard to Highway 15. According to Agence QMI, citing the bridge operator, the work will allow the new boulevard’s bridge-bound lanes to open to traffic.",
+          "photoAlt": "Roadway at the Pierre-Dupuy exit beside the elevated lanes of Montreal’s Bonaventure Expressway.",
+          "photoCaption": "Archive photo, May 10, 2005. The Pierre-Dupuy exit on Montreal’s Bonaventure Expressway before the current construction project."
+        },
+        "es": {
+          "title": "Cierre de la autopista Bonaventure en Montreal hacia el puente Samuel-De Champlain el viernes por la noche",
+          "summary": "Está previsto cerrar todos los carriles hacia el puente desde la calle Wellington, del viernes 27 de noviembre a las 22:00 al lunes 30 a las 5:00. Habrá un desvío para los conductores.",
+          "body": "Quienes salgan del centro de Montreal por la autopista Bonaventure deberán desviarse a la altura de la calle Wellington durante el fin de semana. Québec 511 anuncia el cierre de todos los carriles en dirección al puente Samuel-De Champlain mientras se modifica su configuración.\n\nPara los vehículos ligeros, el desvío señalizado pasa por las calles Wellington y Gilberte-Dubé y después por el bulevar Gaétan-Laberge hasta la autopista 15. Según la agencia QMI, que cita al operador de los puentes, las obras permitirán abrir al tráfico los carriles del nuevo bulevar en dirección al puente.",
+          "photoAlt": "Calzada de la salida Pierre-Dupuy junto a los carriles elevados de la autopista Bonaventure en Montreal.",
+          "photoCaption": "Foto de archivo del 10 de mayo de 2005. Salida Pierre-Dupuy de la autopista Bonaventure en Montreal antes de las obras actuales."
+        },
+        "ar": {
+          "title": "إغلاق طريق بونافانتور السريع في مونتريال باتجاه جسر صامويل دو شامبلان مساء الجمعة",
+          "summary": "من المقرر إغلاق جميع المسارات المؤدية إلى الجسر بدءاً من شارع ويلينغتون، من العاشرة مساء الجمعة 27 نوفمبر حتى الخامسة صباح الاثنين 30 نوفمبر، مع تحويلة للسائقين.",
+          "body": "سيضطر السائقون المغادرون وسط مونتريال عبر طريق بونافانتور السريع إلى تغيير مسارهم المعتاد عند شارع ويلينغتون خلال عطلة نهاية الأسبوع. وأعلنت خدمة «كيبيك 511» إغلاق جميع المسارات باتجاه جسر صامويل دو شامبلان أثناء إعادة ترتيبها.\n\nتمر التحويلة المحددة للمركبات الخفيفة عبر شارعي ويلينغتون وجيلبيرت دوبيه ثم جادة غايتان لابيرج وصولاً إلى الطريق السريع 15. وأفادت وكالة «كيو إم آي» نقلاً عن الجهة المشغلة للجسور بأن الأعمال ستتيح فتح مسارات الجادة الجديدة باتجاه الجسر أمام حركة المرور.",
+          "photoAlt": "طريق مخرج بيير دوبوي بجانب المسارات المرتفعة لطريق بونافانتور السريع في مونتريال.",
+          "photoCaption": "صورة أرشيفية من 10 مايو 2005 لمخرج بيير دوبوي على طريق بونافانتور السريع في مونتريال قبل الأشغال الحالية."
+        },
+        "zh-CN": {
+          "title": "蒙特利尔博纳旺蒂尔高速公路往尚普兰大桥方向将于周五晚封闭",
+          "summary": "从惠灵顿街起，通往塞缪尔·德·尚普兰大桥的全部车道计划于11月27日星期五晚10时至30日星期一早5时关闭，司机可按指引绕行。",
+          "body": "周末从蒙特利尔市中心经博纳旺蒂尔高速公路出城的司机，需在惠灵顿街改道。魁北克省路况服务平台 Québec 511 表示，施工方调整车道布局期间，往塞缪尔·德·尚普兰大桥方向的车道将全部关闭。\n\n轻型车辆的绕行路线依次经过惠灵顿街、吉尔贝特-迪贝街和加埃唐-拉贝尔日大道，再接入15号高速公路。据QMI通讯社援引桥梁管理机构的消息，此次施工将使新建大道往大桥方向的车道可以投入使用。",
+          "photoAlt": "蒙特利尔博纳旺蒂尔高速公路高架车道旁的皮埃尔-迪皮出口路面。",
+          "photoCaption": "资料照片，摄于2005年5月10日。图为本次工程开始前，蒙特利尔博纳旺蒂尔高速公路的皮埃尔-迪皮出口。"
+        },
+        "ru": {
+          "title": "В Монреале в пятницу вечером перекроют трассу Бонавантюр в направлении моста Самюэля де Шамплена",
+          "summary": "С 22:00 пятницы, 27 ноября, до 5:00 понедельника, 30 ноября, планируется закрыть все полосы от улицы Веллингтон в сторону моста. Для водителей предусмотрен объезд.",
+          "body": "Водителям, выезжающим в выходные из центра Монреаля по трассе Бонавантюр, придётся свернуть с привычного маршрута у улицы Веллингтон. По данным дорожной службы Québec 511, на время изменения схемы движения закроют все полосы в направлении моста Самюэля де Шамплена.\n\nЛегковые автомобили смогут проехать по улицам Веллингтон и Жильберт-Дюбе, а затем по бульвару Гаэтан-Лаберж выехать на автомагистраль 15. По сообщению агентства QMI со ссылкой на оператора мостов, работы позволят открыть для движения полосы нового бульвара, ведущие к мосту.",
+          "photoAlt": "Съезд Пьер-Дюпюи рядом с эстакадой трассы Бонавантюр в Монреале.",
+          "photoCaption": "Архивный снимок от 10 мая 2005 года. Съезд Пьер-Дюпюи с трассы Бонавантюр в Монреале до начала нынешних работ."
+        },
+        "ko": {
+          "title": "몬트리올 보나방튀르 고속도로, 금요일 밤부터 사뮈엘 드 샹플랭 다리 방면 통제",
+          "summary": "11월 27일 금요일 밤 10시부터 30일 월요일 오전 5시까지 웰링턴가에서 다리로 향하는 모든 차로가 폐쇄될 예정이다. 운전자에게는 우회로가 안내된다.",
+          "body": "주말에 몬트리올 도심에서 보나방튀르 고속도로를 이용해 나가는 운전자는 웰링턴가에서 평소 경로를 벗어나야 한다. 퀘벡 교통정보 서비스 Québec 511은 차로 재배치 공사 중 사뮈엘 드 샹플랭 다리 방면 전 차로를 통제한다고 밝혔다.\n\n경차량은 안내에 따라 웰링턴가와 질베르트 뒤베가를 거쳐 가에탕 라베르주 대로로 이동한 뒤 15번 고속도로에 진입할 수 있다. QMI 통신은 교량 운영기관을 인용해 이번 공사로 신설 대로의 다리 방면 차로를 개방할 수 있게 된다고 전했다.",
+          "photoAlt": "몬트리올 보나방튀르 고속도로 고가 차로 옆 피에르 뒤퓌 출구의 도로.",
+          "photoCaption": "2005년 5월 10일 자료 사진. 현재 공사가 시작되기 전 몬트리올 보나방튀르 고속도로의 피에르 뒤퓌 출구."
+        }
+      },
+      "title": "À Montréal, l’autoroute Bonaventure fermera vers le pont Samuel-De Champlain vendredi soir",
+      "summary": "À partir de la rue Wellington, toutes les voies vers le pont doivent fermer du vendredi 27 novembre à 22 h au lundi 30 novembre à 5 h. Un détour est prévu pour les automobilistes.",
+      "body": "Les conducteurs qui sortent du centre-ville de Montréal par l’autoroute Bonaventure devront quitter leur itinéraire habituel à la hauteur de la rue Wellington durant la fin de semaine. Québec 511 annonce une fermeture complète dans le sens du pont Samuel-De Champlain pendant le réaménagement des voies.\n\nPour les véhicules légers, le détour indiqué passe par les rues Wellington et Gilberte-Dubé, puis par le boulevard Gaétan-Laberge pour rejoindre l’autoroute 15. Selon l’Agence QMI, qui cite le gestionnaire des ponts, les travaux doivent permettre d’ouvrir à la circulation les voies du nouveau boulevard en direction du pont."
+    }
+  ]
+}
