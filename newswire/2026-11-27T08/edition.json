@@ -1,0 +1,157 @@
+{
+  "hour": "2026-11-27T08",
+  "articles": [
+    {
+      "eventKey": "france-inflation-novembre-2026-ralentissement-prix-petrole",
+      "category": "France",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Insee — estimation provisoire de novembre 2026",
+          "url": "https://www.insee.fr/fr/statistiques/9161375",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Dimitri Rhodes et Mathias de Rozario, Reuters",
+          "url": "https://www.reuters.com/markets/us/french-preliminary-inflation-32-november-2026-11-27/",
+          "publishedAt": "2026-11-27T07:50:00Z"
+        }
+      ],
+      "photo": {
+        "subject": "station-service",
+        "context": "Guingamp",
+        "capturedOn": "2026-04-06",
+        "download": "media/prix.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:April6_totalenergies.jpg",
+        "credit": "Roquex / Wikimedia Commons",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "alt": "Un panneau de prix et une pancarte manuscrite devant une station-service à Guingamp.",
+        "caption": "Archives du 6 avril 2026. Prix des carburants affichés dans une station-service de Guingamp, en Bretagne."
+      },
+      "translations": {
+        "en": {
+          "title": "French inflation estimated to have eased to 2.9% in November",
+          "summary": "Energy prices rose more slowly, especially for oil products. Fresh produce, meanwhile, pushed food prices higher.",
+          "body": "The basket of goods and services tracked by France’s statistics office, Insee, is estimated to have cost 2.9% more in November than a year earlier. The year-on-year gap was still 3.4% in October. The harmonised index used to compare France with its European neighbours shows a similar trend. Its annual rate is estimated to have fallen from 3.7% to 3.2%, according to preliminary figures the agency released on Friday and Reuters reported.\n\nTwo trends partly offset each other in energy. Oil product prices rose much more slowly, while gas prices climbed faster. In services, accommodation and transport contributed to the slowdown. The photograph of the petrol station in Guingamp shows prices posted in April.",
+          "photoAlt": "A fuel price board and a handwritten notice outside a petrol station in Guingamp.",
+          "photoCaption": "Archive photograph, 6 April 2026. Fuel prices displayed at a petrol station in Guingamp, Brittany."
+        },
+        "es": {
+          "title": "La inflación en Francia se habría moderado al 2,9 % en noviembre",
+          "summary": "Los precios de la energía subieron más despacio, sobre todo los de los derivados del petróleo. En cambio, los productos frescos impulsaron los precios de los alimentos.",
+          "body": "La cesta de bienes y servicios que mide el instituto francés de estadística, Insee, habría costado en noviembre un 2,9 % más que un año antes. En octubre, la diferencia interanual era aún del 3,4 %. El índice armonizado, que permite comparar a Francia con sus vecinos europeos, muestra una evolución similar. Su tasa anual habría bajado del 3,7 % al 3,2 %, según la estimación provisional que el instituto publicó el viernes y de la que informó Reuters.\n\nEn el sector energético, dos tendencias se compensaron en parte. Los precios de los derivados del petróleo subieron mucho más despacio, mientras que los del gas aumentaron con mayor rapidez. En los servicios, el alojamiento y el transporte contribuyeron a la moderación. La foto de la gasolinera de Guingamp muestra los precios anunciados en abril.",
+          "photoAlt": "Un panel de precios y un cartel manuscrito frente a una gasolinera de Guingamp.",
+          "photoCaption": "Foto de archivo del 6 de abril de 2026. Precios del combustible en una gasolinera de Guingamp, en Bretaña."
+        },
+        "ar": {
+          "title": "تقديرات أولية تشير إلى تباطؤ التضخم في فرنسا إلى 2.9% في نوفمبر",
+          "summary": "تباطأ ارتفاع أسعار الطاقة، ولا سيما المشتقات النفطية. في المقابل، دفعت المنتجات الطازجة أسعار الغذاء إلى الارتفاع.",
+          "body": "تشير تقديرات المعهد الوطني الفرنسي للإحصاء إلى أن تكلفة سلة السلع والخدمات التي يتابعها كانت في نوفمبر أعلى بنسبة 2.9% مما كانت عليه قبل عام. وفي أكتوبر كان الفارق السنوي لا يزال عند 3.4%. ويظهر المؤشر المنسق الذي يسمح بمقارنة فرنسا بجيرانها الأوروبيين اتجاهاً مماثلاً، إذ يُقدّر أن معدله السنوي تراجع من 3.7% إلى 3.2%، وفق الأرقام الأولية التي نشرها المعهد الجمعة وأوردتها رويترز.\n\nوفي قطاع الطاقة، عوّض اتجاهان أحدهما الآخر جزئياً. فقد تباطأ ارتفاع أسعار المشتقات النفطية بشكل ملحوظ، فيما تسارع ارتفاع أسعار الغاز. وفي قطاع الخدمات ساهمت خدمات الإقامة والنقل في التباطؤ. وتُظهر صورة محطة الوقود في غانغان الأسعار المعلنة في أبريل.",
+          "photoAlt": "لوحة أسعار ولافتة مكتوبة بخط اليد أمام محطة وقود في غانغان.",
+          "photoCaption": "صورة أرشيفية بتاريخ 6 أبريل 2026. أسعار الوقود المعروضة في محطة بمدينة غانغان في منطقة بريتاني."
+        },
+        "zh-CN": {
+          "title": "法国11月通胀率初估降至2.9%",
+          "summary": "能源价格涨幅收窄，石油产品尤为明显。与此同时，生鲜产品带动食品价格上涨。",
+          "body": "法国国家统计与经济研究所初步估计，11月该所跟踪的一篮子商品和服务比上年同期贵2.9%，10月的同比涨幅为3.4%。用于与欧洲邻国比较的调和消费价格指数也显示出类似趋势。据该所周五发布、路透社报道的初步数据，调和指数同比涨幅预计由3.7%降至3.2%。\n\n能源领域的两股趋势部分抵消。石油产品的价格涨幅明显收窄，天然气价格上涨却有所加快。在服务业，住宿和交通价格涨幅收窄推动了整体放缓。甘冈加油站的照片展示的是4月的挂牌价格。",
+          "photoAlt": "甘冈一座加油站前的油价牌和手写告示。",
+          "photoCaption": "资料照片，摄于2026年4月6日。布列塔尼地区甘冈一座加油站的燃油标价。"
+        },
+        "ru": {
+          "title": "По предварительной оценке, инфляция во Франции замедлилась до 2,9% в ноябре",
+          "summary": "Рост цен на энергоносители замедлился, особенно на нефтепродукты. Свежие продукты, напротив, подтолкнули вверх цены на продовольствие.",
+          "body": "В ноябре корзина товаров и услуг, стоимость которой отслеживает французский институт статистики Insee, по предварительной оценке, стоила на 2,9% дороже, чем год назад. В октябре разница составляла 3,4%. Сходную динамику показал гармонизированный индекс, позволяющий сопоставлять Францию с европейскими соседями. Его годовой рост, по предварительным данным института, опубликованным в пятницу и приведённым Reuters, замедлился с 3,7% до 3,2%.\n\nНа энергетическом рынке две тенденции отчасти компенсировали друг друга. Цены на нефтепродукты росли заметно медленнее, тогда как газ дорожал быстрее. В сфере услуг замедлению способствовала динамика цен на проживание и транспорт. На фотографии заправки в Генгаме видны цены, указанные в апреле.",
+          "photoAlt": "Табло с ценами и рукописное объявление у заправки в Генгаме.",
+          "photoCaption": "Архивный снимок от 6 апреля 2026 года. Цены на топливо на заправке в Генгаме, Бретань."
+        },
+        "ko": {
+          "title": "프랑스 11월 소비자물가 상승률 2.9%로 둔화 추정",
+          "summary": "에너지 가격은 석유제품을 중심으로 상승세가 둔화했다. 반면 신선식품은 식료품 가격을 끌어올렸다.",
+          "body": "프랑스 통계청(Insee)은 11월 소비자물가 조사 대상 상품과 서비스의 가격이 1년 전보다 2.9% 오른 것으로 잠정 추산했다. 10월의 전년 동월 대비 상승률은 3.4%였다. 유럽 이웃 국가와 비교할 때 쓰는 조화소비자물가지수도 비슷한 흐름을 보였다. 통계청이 금요일 발표하고 로이터가 보도한 잠정치에 따르면 이 지수의 연간 상승률은 3.7%에서 3.2%로 낮아진 것으로 추정된다.\n\n에너지 부문에서는 두 흐름이 서로의 영향을 일부 상쇄했다. 석유제품 가격 상승세가 뚜렷이 둔화한 반면 가스 가격은 더 빠르게 올랐다. 서비스 부문에서는 숙박과 운송이 상승세 둔화에 기여했다. 사진 속 갱강 주유소의 가격은 4월에 게시된 것이다.",
+          "photoAlt": "갱강의 한 주유소 앞에 연료 가격표와 손글씨 안내문이 보인다.",
+          "photoCaption": "2026년 4월 6일 촬영한 자료 사진. 브르타뉴 지방 갱강의 한 주유소에 게시된 연료 가격."
+        }
+      },
+      "title": "France : l’inflation ralentirait à 2,9 % en novembre",
+      "summary": "La hausse des prix de l’énergie s’atténue, surtout pour les produits pétroliers. Les produits frais poussent en revanche les prix alimentaires à la hausse.",
+      "body": "En France, le panier de biens et de services suivi par l’Insee aurait coûté 2,9 % de plus en novembre qu’un an auparavant. En octobre, l’écart sur un an était encore de 3,4 %. L’indice harmonisé, qui permet de comparer la France à ses voisins européens, raconte la même évolution : son taux annuel passerait de 3,7 % à 3,2 %, selon l’estimation provisoire publiée vendredi par l’institut et rapportée par Reuters.\n\nDeux mouvements se compensent en partie dans l’énergie. La hausse des prix des produits pétroliers a nettement perdu de la vitesse, alors que celle du gaz s’est accentuée. Dans les services, l’hébergement et les transports ont contribué au ralentissement. La photo de la station-service de Guingamp montre les prix affichés en avril."
+    },
+    {
+      "eventKey": "porto-rico-ponce-pr-52-fermetures-bretelles-fin-semaine-action-de-grace",
+      "category": "Porto Rico",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Metropistas — avis de chantier, sortie 104B à Ponce",
+          "url": "https://www.metropistas.com/alertas/pr-52-en-ponce-km-104-en-direccion-a-juana-diaz-con-cierre-de-salida-104b-43/?occurrence=2026-11-27",
+          "publishedAt": "2026-11-22T13:37:05Z"
+        },
+        {
+          "name": "Metro Puerto Rico — restrictions du week-end de l’Action de grâce",
+          "url": "https://www.metro.pr/noticias/2026/11/25/estas-son-las-carreteras-que-tendran-cierres-durante-el-fin-de-semana-de-accion-de-gracias/",
+          "publishedAt": "2026-11-25T11:22:00-04:00"
+        }
+      ],
+      "photo": {
+        "subject": "sortie 104B",
+        "context": "Ponce",
+        "capturedOn": "2024-12-28",
+        "download": "media/ponce.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autopista_PR-52,_salida_hacia_la_carretera_PR-12,_Ponce,_Puerto_Rico_(3).jpg",
+        "credit": "Yarfpr / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Panneau vert de la sortie 104B sur la PR-52 indiquant la route 12 sud, Ponce Playa et la zone portuaire.",
+        "caption": "Archives du 28 décembre 2024. Le panneau de la sortie 104B sur la PR-52 à Ponce indique la direction de Ponce Playa et de la zone portuaire."
+      },
+      "translations": {
+        "en": {
+          "title": "Puerto Rico schedules three PR-52 ramp closures in Ponce",
+          "summary": "Work scheduled for 27–29 November affects exit 104B towards Ponce Playa and both ramps at interchange 98.",
+          "body": "Drivers taking PR-52 towards Juana Díaz in Ponce should expect exit 104B to close over the Thanksgiving weekend. The ramp leads towards Ponce Playa via Route 12 south. The Metropistas work schedule, whose restrictions were detailed by Metro Puerto Rico, lists the restriction for the weekend of Friday 27 to Sunday 29 November.\n\nA second interchange is affected at kilometre 98, where ramps 98A and 98B are both listed for closure. On the main carriageway towards Juana Díaz, the operator also plans to close the left lane from kilometre 99.2 to kilometre 96.6. The schedule may change as work progresses.",
+          "photoAlt": "Green exit 104B sign on PR-52 pointing to Route 12 south, Ponce Playa and the port area.",
+          "photoCaption": "Archive photograph, 28 December 2024. The exit 104B sign on PR-52 in Ponce points towards Ponce Playa and the port area."
+        },
+        "es": {
+          "title": "Puerto Rico prevé cerrar tres rampas de la PR-52 en Ponce",
+          "summary": "Las obras del 27 al 29 de noviembre afectan a la salida 104B hacia Ponce Playa y a las dos rampas del enlace 98.",
+          "body": "Quienes circulen por la PR-52 en Ponce en dirección a Juana Díaz deben contar con el cierre previsto de la salida 104B durante el fin de semana de Acción de Gracias. La rampa da acceso a Ponce Playa por la carretera 12 sur. El calendario de Metropistas, cuyas restricciones detalló Metro Puerto Rico, incluye la restricción para el fin de semana del viernes 27 al domingo 29 de noviembre.\n\nTambién se verá afectado el enlace del kilómetro 98, donde está previsto el cierre de las rampas 98A y 98B. En la vía principal hacia Juana Díaz, la concesionaria proyecta cerrar además el carril izquierdo desde el kilómetro 99,2 hasta el 96,6. Los horarios pueden variar según avance el proyecto.",
+          "photoAlt": "Letrero verde de la salida 104B en la PR-52 que indica la carretera 12 sur, Ponce Playa y la zona portuaria.",
+          "photoCaption": "Foto de archivo del 28 de diciembre de 2024. El letrero de la salida 104B en la PR-52 en Ponce indica el camino a Ponce Playa y la zona portuaria."
+        },
+        "ar": {
+          "title": "بورتوريكو تعتزم إغلاق ثلاثة منحدرات على الطريق PR-52 في بونسي",
+          "summary": "تطال الأعمال المقررة من 27 إلى 29 نوفمبر المخرج 104B المؤدي إلى بونسي بلايا ومنحدرَي التقاطع 98.",
+          "body": "على السائقين الذين يسلكون الطريق PR-52 في بونسي باتجاه خوانا دياث توقع إغلاق المخرج 104B خلال عطلة عيد الشكر. ويؤدي هذا المنحدر إلى بونسي بلايا عبر الطريق 12 جنوباً. ويشمل جدول الإغلاق أيام العطلة الممتدة من الجمعة 27 إلى الأحد 29 نوفمبر وفق جدول شركة ميتروبيستاس الذي عرضت صحيفة مترو بورتوريكو تفاصيل القيود الواردة فيه.\n\nوتشمل الخطة كذلك إغلاق المنحدرَين 98A و98B عند تقاطع الكيلومتر 98. وعلى الطريق الرئيسي باتجاه خوانا دياث تعتزم الشركة المشغلة أيضاً إغلاق المسار الأيسر من الكيلومتر 99.2 إلى الكيلومتر 96.6. وقد تتغير المواعيد بحسب سير الأعمال.",
+          "photoAlt": "لافتة خضراء للمخرج 104B على الطريق PR-52 تشير إلى الطريق 12 جنوباً وبونسي بلايا ومنطقة الميناء.",
+          "photoCaption": "صورة أرشيفية بتاريخ 28 ديسمبر 2024. لافتة المخرج 104B على الطريق PR-52 في بونسي تشير إلى اتجاه بونسي بلايا ومنطقة الميناء."
+        },
+        "zh-CN": {
+          "title": "波多黎各庞塞计划关闭PR-52高速公路三条匝道",
+          "summary": "11月27日至29日的施工涉及通往庞塞海滨区的104B出口，以及98号立交的两条匝道。",
+          "body": "感恩节周末，沿庞塞PR-52高速公路驶向胡安娜迪亚斯的司机需留意104B出口的封闭计划。车辆通常可从这条匝道转入12号公路南向车道，前往庞塞海滨区。根据运营商Metropistas的日程，11月27日星期五至29日星期日的周末仍有这项交通限制。当地媒体《波多黎各地铁报》也报道了这些交通限制。\n\n另一处受影响的是98公里处的立交，98A和98B两条匝道均计划关闭。在通往胡安娜迪亚斯的主线上，运营商还计划封闭99.2公里处至96.6公里处的左侧车道。时间安排可能随工程进度调整。",
+          "photoAlt": "PR-52高速公路上的绿色104B出口标志指向12号公路南向车道、庞塞海滨区和港区。",
+          "photoCaption": "资料照片，摄于2024年12月28日。庞塞PR-52高速公路的104B出口标志指向庞塞海滨区和港区。"
+        },
+        "ru": {
+          "title": "В Пуэрто-Рико планируют закрыть три съезда с трассы PR-52 в Понсе",
+          "summary": "Работы с 27 по 29 ноября затронут съезд 104B в сторону Понсе-Плая и оба съезда на развязке 98.",
+          "body": "В Понсе водителям, направляющимся по трассе PR-52 в сторону Хуана-Диаса, следует учитывать запланированное на выходные по случаю Дня благодарения закрытие съезда 104B. Он ведёт в Понсе-Плая по дороге № 12 в южном направлении. Оператор Metropistas включил это ограничение в расписание на выходные с пятницы, 27 ноября, по воскресенье, 29 ноября. Подробности ограничений опубликовало издание Metro Puerto Rico.\n\nНа развязке у километровой отметки 98 в график закрытий включены оба съезда — 98A и 98B. На основной трассе в сторону Хуана-Диаса оператор также планирует закрыть левую полосу от отметки 99,2 до отметки 96,6 километра. График может меняться по ходу работ.",
+          "photoAlt": "Зелёный указатель съезда 104B на трассе PR-52 указывает на дорогу № 12 на юг, Понсе-Плая и портовую зону.",
+          "photoCaption": "Архивный снимок от 28 декабря 2024 года. Указатель съезда 104B на трассе PR-52 в Понсе показывает направление к Понсе-Плая и портовой зоне."
+        },
+        "ko": {
+          "title": "푸에르토리코 폰세, PR-52 고속도로 진출로 세 곳 폐쇄 예정",
+          "summary": "11월 27일부터 29일까지 예정된 공사로 폰세 플라야 방면 104B 출구와 98번 나들목 진출로 두 곳이 영향을 받는다.",
+          "body": "추수감사절 연휴에 폰세에서 PR-52를 타고 후아나 디아스 방면으로 가는 운전자는 104B 출구 폐쇄 계획을 확인해야 한다. 이 진출로는 12번 도로 남행선을 거쳐 폰세 플라야로 이어진다. 운영사 메트로피스타스는 11월 27일 금요일부터 29일 일요일까지의 주말 일정에 이 통행 제한을 포함했다. 현지 매체 메트로 푸에르토리코도 통행 제한 내용을 보도했다.\n\n98㎞ 지점 나들목에서는 98A와 98B 진출로가 모두 폐쇄 대상이다. 후아나 디아스 방면 본선에서는 99.2㎞ 지점에서 96.6㎞ 지점까지 왼쪽 차로도 폐쇄할 계획이다. 일정은 공사 진행 상황에 따라 달라질 수 있다.",
+          "photoAlt": "PR-52의 초록색 104B 출구 표지판이 12번 도로 남행선과 폰세 플라야, 항만 구역을 가리킨다.",
+          "photoCaption": "2024년 12월 28일 촬영한 자료 사진. 폰세의 PR-52에서 104B 출구 표지판이 폰세 플라야와 항만 구역 방향을 안내한다."
+        }
+      },
+      "title": "Porto Rico : trois bretelles de la PR-52 visées par des fermetures à Ponce",
+      "summary": "Du 27 au 29 novembre, les travaux touchent notamment la sortie 104B vers Ponce Playa et les deux bretelles de l’échangeur 98.",
+      "body": "À Ponce, les automobilistes qui empruntent la PR-52 en direction de Juana Díaz doivent compter avec la fermeture prévue de la sortie 104B pendant le week-end de l’Action de grâce. Cette bretelle mène vers Ponce Playa par la route 12 sud. Le calendrier de Metropistas, dont Metro Puerto Rico a détaillé les restrictions, prévoit cette restriction pour les journées du vendredi 27 au dimanche 29 novembre.\n\nUn autre échangeur est concerné au kilomètre 98, où les bretelles 98A et 98B figurent toutes deux au programme des fermetures. Sur la chaussée principale en direction de Juana Díaz, le concessionnaire prévoit aussi de fermer la voie de gauche du kilomètre 99,2 au kilomètre 96,6. Les horaires peuvent changer selon l’avancement du chantier."
+    }
+  ]
+}
