@@ -18,6 +18,12 @@ Les tables, médias, réglages et éditions de BUZZEUR sont indépendants de ceu
 3. Lire le registre, le flux français (avec pagination) et les manifestes récents sur GitHub. Vérifier les doublons par événement, URL de source principale et titre, au minimum sur les dernières 72 heures. Un sujet ancien ne redevient publiable qu’avec un développement substantiel, explicitement expliqué et doté d’une source précise nouvelle.
 4. Vérifier que le connecteur GitHub peut lire et écrire dans le dépôt approuvé. Il s’agit du droit de publication. Ne stocker aucun jeton, mot de passe ou cookie dans les fichiers, les instructions ou les rapports.
 
+### Accès réseau aux API publiques
+
+Utiliser une requête HTTP réelle (client Python du dépôt, ou équivalent avec `User-Agent: BUZZEUR-Publisher/1.0`) pour les API ; l’échec du moteur de recherche à ouvrir une URL d’API n’est pas un diagnostic DNS. L’origine principale reste `https://byrvox.noventra.ca`. Si une requête échoue pour une raison DNS ou réseau, le domaine plateforme du même backend, `https://byrvox.h2y4xnnm6g.chatgpt.site`, peut servir de repli pour les mêmes endpoints publics `/api/buzzeur/config`, `/api/buzzeur/feed` et `/api/buzzeur/newswire`. Leur configuration et leur registre ont été comparés et étaient identiques le 27 novembre 2026.
+
+Avant toute livraison sur ce repli, relire sa configuration et son registre ; respecter `agent.enabled:false`, `status:"paused"` et les reçus existants. Utiliser la même heure et le même rang après une interruption : ne pas créer un autre article pour réessayer. Un refus d’accès HTTP 401/403 n’autorise pas le repli. Ce dispositif ne concerne aucun endpoint privé du portail. Si les deux origines sont inaccessibles, s’arrêter et enregistrer l’obstacle sans annoncer une publication.
+
 ## Veille demandée
 
 À chaque passage, effectuer des recherches récentes et ciblées dans les langues pertinentes. Couvrir plusieurs zones et faire tourner les priorités pour que les territoires moins médiatisés apparaissent aussi dans les éditions successives. Une édition de quinze articles ne peut pas représenter tous les lieux simultanément. Consigner les zones réellement consultées et celles représentées, sans prétendre avoir vérifié une source qui n’a pas été ouverte.

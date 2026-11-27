@@ -1,0 +1,29 @@
+{
+  "verifiedOn": "2026-11-27",
+  "article": "nostalgie-13-hits-2008-2013-gangnam-style-mirrors",
+  "editorialNotes": [
+    "L’article rétrospectif couvre 2008–2013, soit environ 13–18 ans en 2026. Il ne reprend pas la fourchette 10–15 ans qui aurait été inexacte pour toute la sélection.",
+    "Les années des chansons ont été recoupées dans les fiches de titres/singles et les catalogues d’Apple Music. Aucune date de publication du clip n’a été assimilée à une date de sortie du single.",
+    "Seules les années sont publiées. Plusieurs dates précises de catalogues numériques diffèrent selon la compilation ou le territoire ; les dates fictivement précises comme le 1er janvier ne sont pas reprises.",
+    "La seule statistique d’audience publiée est un jalon historique : Gangnam Style premier clip à un milliard de vues sur YouTube le 21 décembre 2012, confirmé par YouTube. Aucun compteur de 2026 ni qualification commune à tous les titres comme milliardaires.",
+    "Les appréciations musicales et invitations à se souvenir relèvent du commentaire éditorial original. Aucun extrait de paroles n’est reproduit.",
+    "Douze sources CMS pour treize titres : la page artiste Jay Sean documente les deux chansons et leurs invités.",
+    "L’archive de PSY ne prétend pas représenter tous les artistes. Crédit, lieu, date, licence et recadrage Commons figurent dans les métadonnées de la photo.",
+    "La photo a été recherchée, téléchargée et inspectée par l’agent editorial_access ; sa fiche détaillée est media/psy-photo-metadata.json."
+  ],
+  "tracks": [
+    {"artist":"PSY","title":"Gangnam Style","year":2012,"sourceRef":"turn845903973view0","sourceUrl":"https://blog.youtube/creator-and-artist-stories/10-years-of-youtubes-billion-views-club-psy-gangnam-style/","verifiedFact":"Clip mis en ligne le 15 juillet 2012 ; premier clip à un milliard de vues le 21 décembre 2012. Article officiel du 15 juillet 2022."},
+    {"artist":"Gusttavo Lima","title":"Balada","year":2011,"sourceRef":"turn722522882view1","sourceUrl":"https://music.apple.com/us/song/balada-ao-vivo/1756437972","verifiedFact":"Balada (Ao Vivo), Gusttavo Lima, date catalogue 20 septembre 2011. Album live 2011 confirmé séparément par turn845903973view1."},
+    {"artist":"Taio Cruz","title":"Hangover","featuring":["Flo Rida"],"year":2011,"sourceRef":"turn845903973view2","sourceUrl":"https://music.apple.com/us/song/hangover-feat-flo-rida/1445152388"},
+    {"artist":"LMFAO","title":"Party Rock Anthem","featuring":["Lauren Bennett","GoonRock"],"year":2011,"sourceRef":"turn845903973view3","sourceUrl":"https://music.apple.com/us/album/sorry-for-party-rocking-deluxe-version/1440636622"},
+    {"artist":"Iyaz","title":"Replay","year":2009,"sourceRef":"turn602584939view0","sourceUrl":"https://music.apple.com/us/album/replay-single/326644019","verifiedFact":"Single 2009 ; ne pas confondre avec l’album Replay 2010 ni une sortie britannique ultérieure."},
+    {"artist":"Jay Sean","title":"Down","featuring":["Lil Wayne"],"year":2009,"sourceRef":"turn722522882view0","sourceUrl":"https://music.apple.com/us/artist/jay-sean/23172423"},
+    {"artist":"Jay Sean","title":"Do You Remember","featuring":["Sean Paul","Lil Jon"],"year":2009,"sourceRef":"turn722522882view0","sourceUrl":"https://music.apple.com/us/artist/jay-sean/23172423"},
+    {"artist":"Jason Derulo","title":"Whatcha Say","year":2009,"sourceRef":"turn602584939view2","sourceUrl":"https://music.apple.com/us/song/whatcha-say/1524097128"},
+    {"artist":"Soulja Boy Tell ’Em","title":"Kiss Me Thru the Phone","featuring":["Sammie"],"year":2008,"sourceRef":"turn602584939view3","sourceUrl":"https://music.apple.com/us/album/kiss-me-thru-the-phone-feat-sammie/1443711617?i=1443711628"},
+    {"artist":"Colby O’Donis","title":"What You Got","featuring":["Akon"],"year":2008,"sourceRef":"turn722522882view3","sourceUrl":"https://music.apple.com/us/song/what-you-got-feat-akon/1445665005"},
+    {"artist":"B.o.B","title":"Airplanes","featuring":["Hayley Williams"],"year":2010,"sourceRef":"turn378488707view1","sourceUrl":"https://music.apple.com/us/song/airplanes-feat-hayley-williams-of-paramore/367377663","verifiedFact":"Version Airplanes originale avec Hayley Williams, pas Airplanes Part II."},
+    {"artist":"Gym Class Heroes","title":"Stereo Hearts","featuring":["Adam Levine"],"year":2011,"sourceRef":"turn378488707view2","sourceUrl":"https://music.apple.com/us/song/stereo-hearts-feat-adam-levine/477341015"},
+    {"artist":"Justin Timberlake","title":"Mirrors","year":2013,"sourceRef":"turn378488707view3","sourceUrl":"https://music.apple.com/us/song/mirrors/1441493608","verifiedFact":"Titre de The 20/20 Experience, 2013."}
+  ]
+}
