@@ -1,6 +1,6 @@
 import { and, asc, desc, eq, inArray, not, or, sql, type SQL } from "drizzle-orm";
 import { getDb } from "../db";
-import { articles, articleRatings, articleTranslations } from "../db/schema";
+import { articles, articleTranslations } from "../db/schema";
 import { matchingSeedSummaries } from "./public-translations";
 import type { PublicLocale } from "./i18n";
 import { isoDate } from "./publication-date";
@@ -59,9 +59,10 @@ const dossierFeatures = [
 
 export async function listMostRatedArticles() {
   const count = sql<number>`count(*)`;
-  const average = sql<number>`avg(${articleRatings.score})`;
-  const rows = await getDb().select({...summaryFields, count, average}).from(articleRatings)
-    .innerJoin(articles, eq(articles.slug,articleRatings.slug)).where(isPublished)
+  const average = sql<number>`avg(votes.score)`;
+  const votes = sql`(SELECT slug, score FROM article_ratings UNION ALL SELECT slug, score FROM article_guest_ratings) AS votes`;
+  const rows = await getDb().select({...summaryFields, count, average}).from(votes)
+    .innerJoin(articles, sql`${articles.slug} = votes.slug`).where(isPublished)
     .groupBy(articles.slug)
     .orderBy(desc(count), desc(average), desc(articles.publishedAt), asc(articles.slug)).limit(mostRatedLimit);
   return rows.map(({count,average,...fields}) => ({story:summary(fields),count,average}));

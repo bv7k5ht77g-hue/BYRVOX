@@ -146,3 +146,11 @@ export const articleRatings = sqliteTable('article_ratings', {
   score: integer('score').notNull(),
   updatedAt: text('updated_at').notNull(),
 }, table => [primaryKey({columns:[table.slug,table.userId]})]);
+
+// Guest ratings never become reader accounts and contain no email or IP address.
+export const articleGuestRatings = sqliteTable('article_guest_ratings', {
+  slug: text('slug').notNull(),
+  guestDigest: text('guest_digest').notNull(),
+  score: integer('score').notNull(),
+  updatedAt: text('updated_at').notNull(),
+}, table => [primaryKey({columns:[table.slug,table.guestDigest]})]);
