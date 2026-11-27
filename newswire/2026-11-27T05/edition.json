@@ -1,0 +1,162 @@
+{
+  "hour": "2026-11-27T05",
+  "articles": [
+    {
+      "eventKey": "jamaique-deficit-commerce-marchandises-janvier-aout-2026",
+      "category": "Jamaïque",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Statistical Institute of Jamaica — International Merchandise Trade, August 2026",
+          "url": "https://wups.statinja.gov.jm/WUP/20261125_Trade_1ab61950-f297-4522-8af2-523ee639fa38.pdf",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Public Broadcasting Corporation of Jamaica — bulletin du 26 novembre, transcription sur Abeng",
+          "url": "https://abeng.org/the-news-november-26-2026-1db34a0",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "subject": "tuyaux d’acier",
+        "context": "port de Kingston",
+        "capturedOn": "1963",
+        "download": "media/commerce.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canadian-made_steel_pipe_is_among_cargo_unloaded_from_a_Canadian_freighter,_Kingston,_Jama%C3%AFque_Un_tuyau_d%E2%80%99acier_fabriqu%C3%A9_au_Canada_parmi_la_cargaison_d%C3%A9charg%C3%A9e_d%E2%80%99un_cargo_canadien,_Kingston_(Jama%C3%AFque)_(43854114545).jpg",
+        "credit": "Chris Lund / Office national du film du Canada / Bibliothèque et Archives Canada, e011177578",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Des tuyaux en acier sont empilés sur le quai devant un cargo au port de Kingston, en Jamaïque.",
+        "caption": "Archives, 1963. Des tuyaux d’acier fabriqués au Canada figurent parmi les marchandises déchargées d’un cargo canadien au port de Kingston, en Jamaïque."
+      },
+      "translations": {
+        "en": {
+          "title": "Jamaica’s merchandise trade deficit reaches US$4.25 billion",
+          "summary": "From January through August 2026, Jamaica spent 5% more on imports than a year earlier, while the value of its exports fell 4.7%.",
+          "body": "In the first eight months of 2026, Jamaica bought US$5.39 billion in goods abroad and sold US$1.13 billion. The gap reached US$4.25 billion, up from US$3.94 billion a year earlier, according to figures released on November 25 by the Statistical Institute of Jamaica. Public broadcaster PBCJ covered the results in its November 26 newscast.\n\nHigher import spending and lower export earnings both widened the deficit. The figures cover goods traded by the whole country. The archive photograph shows an earlier example of that trade at the port of Kingston, where a Canadian freighter delivered steel pipe in 1963.",
+          "photoAlt": "Steel pipes are stacked on the wharf in front of a freighter at the port of Kingston, Jamaica.",
+          "photoCaption": "Archive, 1963. Canadian-made steel pipe was among the goods unloaded from a Canadian freighter at the port of Kingston, Jamaica."
+        },
+        "es": {
+          "title": "El déficit comercial de mercancías de Jamaica alcanza los 4.250 millones de dólares estadounidenses",
+          "summary": "Entre enero y agosto de 2026, Jamaica gastó un 5 % más en importaciones que un año antes, mientras que el valor de sus exportaciones cayó un 4,7 %.",
+          "body": "En los primeros ocho meses de 2026, Jamaica compró en el extranjero mercancías por valor de 5.390 millones de dólares estadounidenses y vendió por 1.130 millones. La diferencia alcanzó los 4.250 millones, frente a los 3.940 millones de un año antes, según las cifras publicadas el 25 de noviembre por el Instituto de Estadística de Jamaica. La cadena pública PBCJ recogió los resultados en su informativo del 26 de noviembre.\n\nTanto el mayor gasto en importaciones como la caída de los ingresos por exportaciones ampliaron el déficit. Las cifras abarcan los bienes que comercia todo el país. La fotografía de archivo muestra un ejemplo histórico de ese comercio en el puerto de Kingston, donde un carguero canadiense entregó tuberías de acero en 1963.",
+          "photoAlt": "Tubos de acero apilados en el muelle frente a un carguero en el puerto de Kingston, Jamaica.",
+          "photoCaption": "Archivo, 1963. Entre las mercancías descargadas de un carguero canadiense en el puerto de Kingston, Jamaica, había tubos de acero fabricados en Canadá."
+        },
+        "ar": {
+          "title": "عجز تجارة السلع في جامايكا يبلغ 4.25 مليار دولار أمريكي",
+          "summary": "أنفقت جامايكا على الواردات بين يناير وأغسطس 2026 أكثر بنسبة 5% مقارنة بالفترة نفسها من العام السابق، فيما تراجعت قيمة صادراتها بنسبة 4.7%.",
+          "body": "اشترت جامايكا من الخارج سلعاً بقيمة 5.39 مليار دولار أمريكي خلال الأشهر الثمانية الأولى من 2026 وباعت سلعاً بقيمة 1.13 مليار. وبلغ الفارق 4.25 مليار دولار مقابل 3.94 مليار قبل عام، وفق الأرقام التي نشرها معهد الإحصاء الجامايكي في 25 نوفمبر. وعرضت هيئة البث العامة PBCJ النتائج في نشرتها يوم 26 نوفمبر.\n\nأسهم ارتفاع الإنفاق على الواردات وتراجع عائدات الصادرات معاً في اتساع العجز. وتشمل الأرقام تجارة السلع على مستوى البلاد. وتعرض صورة الأرشيف مثالاً قديماً على تلك التجارة في ميناء كينغستون، حيث سلّمت سفينة شحن كندية أنابيب فولاذية عام 1963.",
+          "photoAlt": "أنابيب فولاذية مكدسة على الرصيف أمام سفينة شحن في ميناء كينغستون بجامايكا.",
+          "photoCaption": "من الأرشيف، 1963. كانت أنابيب الفولاذ المصنوعة في كندا ضمن البضائع التي أُفرغت من سفينة شحن كندية في ميناء كينغستون بجامايكا."
+        },
+        "zh-CN": {
+          "title": "牙买加货物贸易逆差达42.5亿美元",
+          "summary": "2026年1月至8月，牙买加进口支出同比增长5%，出口额则下降4.7%。",
+          "body": "2026年前八个月，牙买加进口货物约53.9亿美元，出口货物约11.3亿美元。根据牙买加统计局11月25日公布的数据，逆差从上年同期的39.4亿美元扩大到42.5亿美元。牙买加公共广播公司PBCJ在11月26日的新闻节目中报道了这组数据。\n\n进口支出上升和出口收入下降共同推高了逆差。统计范围涵盖全国的货物贸易。档案照片记录了金斯敦港过去的一幕：1963年，一艘加拿大货轮向这里运送了钢管。",
+          "photoAlt": "牙买加金斯敦港的码头上堆放着钢管，后方停着一艘货轮。",
+          "photoCaption": "档案照片，1963年。在牙买加金斯敦港，从一艘加拿大货轮上卸下的货物中有加拿大制造的钢管。"
+        },
+        "ru": {
+          "title": "Дефицит торговли товарами на Ямайке достиг 4,25 млрд долларов США",
+          "summary": "С января по август 2026 года Ямайка потратила на импорт на 5 % больше, чем годом ранее, а стоимость экспорта снизилась на 4,7 %.",
+          "body": "За первые восемь месяцев 2026 года Ямайка закупила за рубежом товаров на 5,39 млрд долларов США и продала на 1,13 млрд. По данным Статистического института Ямайки, опубликованным 25 ноября, разрыв достиг 4,25 млрд долларов против 3,94 млрд годом ранее. Общественная телекомпания PBCJ сообщила об этих результатах в выпуске новостей 26 ноября.\n\nДефицит вырос как за счёт увеличения расходов на импорт, так и из-за сокращения экспортной выручки. Данные охватывают торговлю товарами по всей стране. Архивный снимок запечатлел эпизод из истории этой торговли в порту Кингстона, куда в 1963 году канадское грузовое судно доставило стальные трубы.",
+          "photoAlt": "Стальные трубы сложены на причале перед грузовым судном в порту Кингстона на Ямайке.",
+          "photoCaption": "Архив, 1963 год. Стальные трубы канадского производства в числе других товаров выгрузили с канадского судна в порту Кингстона на Ямайке."
+        },
+        "ko": {
+          "title": "자메이카 상품 무역적자 42억 5천만 달러로 확대",
+          "summary": "2026년 1~8월 자메이카의 수입 지출은 지난해 같은 기간보다 5% 늘었고 수출액은 4.7% 줄었다.",
+          "body": "자메이카는 2026년 첫 8개월 동안 53억 9천만 미국 달러어치의 상품을 수입하고 11억 3천만 달러어치를 수출했다. 자메이카 통계청이 11월 25일 발표한 수치에 따르면 무역적자는 1년 전 39억 4천만 달러에서 42억 5천만 달러로 늘었다. 공영방송 PBCJ는 11월 26일 뉴스에서 이 통계를 보도했다.\n\n수입 지출 증가와 수출 수입 감소가 모두 적자 확대에 영향을 미쳤다. 이 통계는 자메이카 전체의 상품 교역을 집계한 것이다. 자료 사진에는 1963년 캐나다 화물선이 킹스턴항에 강관을 실어 왔을 당시의 교역 현장이 담겨 있다.",
+          "photoAlt": "자메이카 킹스턴항에 정박한 화물선 앞 부두에 강관이 쌓여 있다.",
+          "photoCaption": "1963년 자료 사진. 자메이카 킹스턴항에서 캐나다 화물선이 내린 화물 가운데 캐나다산 강관이 보인다."
+        }
+      },
+      "title": "Jamaïque : le déficit du commerce de marchandises atteint 4,25 milliards de dollars américains",
+      "summary": "De janvier à août 2026, la Jamaïque a dépensé 5 % de plus pour ses importations qu’un an auparavant, tandis que la valeur de ses exportations a reculé de 4,7 %.",
+      "body": "Pour les huit premiers mois de 2026, la Jamaïque a acheté à l’étranger pour 5,39 milliards de dollars américains de marchandises et en a vendu pour 1,13 milliard. L’écart atteint 4,25 milliards, contre 3,94 milliards un an plus tôt, d’après les montants publiés le 25 novembre par l’Institut statistique de la Jamaïque. La chaîne publique PBCJ a repris ces résultats dans son bulletin du 26 novembre.\n\nLa hausse des dépenses d’importation et la baisse des recettes d’exportation ont toutes deux creusé le déficit. Ces chiffres portent sur les biens échangés par l’ensemble du pays. La photographie d’archives montre un exemple ancien de ce commerce au port de Kingston, où un cargo canadien a livré des tuyaux d’acier en 1963."
+    },
+    {
+      "eventKey": "buffalo-tyler-bass-placement-57-verges-chiefs-action-de-grace",
+      "category": "Sports",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Buffalo Bills — feuille de match officielle",
+          "url": "https://www.buffalobills.com/game-day/2026/reg-week12/chiefs-at-bills/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Sean Murphy, Buffalo Rumblings",
+          "url": "https://www.buffalorumblings.com/buffalo-bills-analysis/146471/buffalo-bills-stock-report-in-insane-13-10-victory-vs-kansas-city-chiefs",
+          "publishedAt": "2026-11-26T23:36:03-05:00"
+        },
+        {
+          "name": "ESPN — registre des jeux et du pointage",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873082",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "subject": "Tyler Bass",
+        "context": "Bills de Buffalo",
+        "capturedOn": "2021-09-26",
+        "download": "media/bass.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Washington_Football_Team_at_Buffalo_Bills_(26_September_2021)_D50_1271_(51528385837).jpg",
+        "credit": "All-Pro Reels / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "Tyler Bass, numéro 2 en bleu, s’apprête à frapper le ballon qu’un coéquipier des Bills de Buffalo tient au sol.",
+        "caption": "Archives, 26 septembre 2021. Tyler Bass tente un placement pour les Bills de Buffalo face au Washington Football Team."
+      },
+      "translations": {
+        "en": {
+          "title": "Tyler Bass hits a 57-yard field goal to lift Buffalo over Kansas City",
+          "summary": "The Bills kicker made two field goals from beyond 50 yards in the fourth quarter. His second, on the final play, sealed a 13–10 win.",
+          "body": "There were 11 minutes and 58 seconds left in the fourth quarter when Tyler Bass pulled the Buffalo Bills level with the Chiefs on Thursday night in Orchard Park, New York. His 54-yard field goal made it 10–10. On the final play he had to kick from three yards farther out to break the tie, according to the official game record and ESPN’s scoring log.\n\nThat 57-yarder gave Buffalo its tenth win in eleven games on November 26. Kansas City had led 10–7 after three quarters. As Sean Murphy reported in Buffalo Rumblings, Bass’s two kicks turned the Thanksgiving game around.",
+          "photoAlt": "Tyler Bass, wearing blue number 2, is about to kick the ball held on the ground by a Buffalo Bills teammate.",
+          "photoCaption": "Archive, September 26, 2021. Tyler Bass attempts a field goal for the Buffalo Bills against the Washington Football Team."
+        },
+        "es": {
+          "title": "Tyler Bass da la victoria a Buffalo ante Kansas City con un gol de campo de 57 yardas",
+          "summary": "El pateador de los Bills convirtió dos goles de campo de más de 50 yardas en el último cuarto. El segundo, en la última jugada, selló el triunfo por 13-10.",
+          "body": "Quedaban 11 minutos y 58 segundos en el último cuarto cuando Tyler Bass empató para los Buffalo Bills ante los Chiefs el jueves por la noche en Orchard Park, en el estado de Nueva York. Su gol de campo de 54 yardas puso el marcador 10-10. En la última jugada tuvo que patear desde tres yardas más lejos para romper el empate, según el registro oficial y el resumen de anotaciones de ESPN.\n\nEse gol de campo de 57 yardas dio a Buffalo su décima victoria en once partidos el 26 de noviembre. Kansas City ganaba 10-7 al cabo de tres cuartos. Como informó Sean Murphy en Buffalo Rumblings, las dos patadas de Bass dieron la vuelta al partido del Día de Acción de Gracias.",
+          "photoAlt": "Tyler Bass, con el dorsal 2 azul, se dispone a patear el balón que un compañero de los Buffalo Bills sujeta en el suelo.",
+          "photoCaption": "Archivo, 26 de septiembre de 2021. Tyler Bass intenta un gol de campo para los Buffalo Bills frente al Washington Football Team."
+        },
+        "ar": {
+          "title": "تايلر باس يمنح بافالو الفوز على كانساس سيتي بهدف ميداني من 57 ياردة",
+          "summary": "سجّل لاعب بيلز هدفين ميدانيين من مسافة تجاوزت 50 ياردة في الربع الأخير. وجاء الثاني في اللعبة الأخيرة ليحسم الفوز 13-10.",
+          "body": "بقيت 11 دقيقة و58 ثانية من الربع الأخير عندما أدرك تايلر باس التعادل لبافالو بيلز أمام تشيفز مساء الخميس في أورتشارد بارك بولاية نيويورك. ورفع هدفه الميداني من 54 ياردة النتيجة إلى 10-10. وفي اللعبة الأخيرة اضطر إلى الركل من مسافة تزيد ثلاث ياردات لكسر التعادل، بحسب السجل الرسمي للمباراة وسجل النقاط لدى ESPN.\n\nمنح الهدف من 57 ياردة بافالو فوزه العاشر في 11 مباراة يوم 26 نوفمبر. وكان كانساس سيتي متقدماً 10-7 في نهاية الربع الثالث. وكما أفاد شون ميرفي في موقع بافالو رامبلينغز، قلبت ركلتا باس نتيجة مباراة عيد الشكر الأمريكي.",
+          "photoAlt": "تايلر باس بالقميص الأزرق رقم 2 يستعد لركل الكرة التي يثبّتها زميله في بافالو بيلز على الأرض.",
+          "photoCaption": "من الأرشيف، 26 سبتمبر 2021. تايلر باس يحاول تسجيل هدف ميداني لبافالو بيلز أمام واشنطن فوتبول تيم."
+        },
+        "zh-CN": {
+          "title": "泰勒·巴斯命中57码射门，布法罗击败堪萨斯城",
+          "summary": "比尔队踢球手在第四节两次从50码开外射门得分，第二脚在全场最后一档将比分定格为13比10。",
+          "body": "周四晚，在纽约州奥查德帕克，第四节还剩11分58秒时，泰勒·巴斯踢进54码射门，帮助布法罗比尔队以10比10追平酋长队。据官方比赛记录和ESPN得分记录，全场最后一档，他从比上一次远三码的位置起脚，打破平局。\n\n11月26日，这记57码射门让布法罗取得11场比赛中的第10胜。前三节结束时，堪萨斯城还以10比7领先。正如肖恩·墨菲在《Buffalo Rumblings》的报道中所写，巴斯的两次射门逆转了这场美国感恩节比赛。",
+          "photoAlt": "身穿蓝色2号球衣的泰勒·巴斯准备踢球，一名布法罗比尔队队友将球扶在地上。",
+          "photoCaption": "档案照片，2021年9月26日。布法罗比尔队的泰勒·巴斯在对阵华盛顿橄榄球队的比赛中尝试射门。"
+        },
+        "ru": {
+          "title": "Тайлер Басс принёс «Баффало» победу над «Канзас-Сити» филд-голом с 57 ярдов",
+          "summary": "Кикер «Биллс» дважды забил с дистанции свыше 50 ярдов в четвёртой четверти. Второй удар в последнем розыгрыше принёс победу со счётом 13:10.",
+          "body": "В четверг вечером в Орчард-Парке, штат Нью-Йорк, Тайлер Басс сравнял счёт за 11 минут 58 секунд до конца четвёртой четверти. После его филд-гола с 54 ярдов «Баффало Биллс» и «Чифс» шли вровень — 10:10. По данным официального протокола и хроники ESPN, в последнем розыгрыше Басс пробил на три ярда дальше и вывел команду вперёд.\n\nБлагодаря филд-голу с 57 ярдов «Баффало» 26 ноября одержал десятую победу в одиннадцати матчах. После трёх четвертей «Канзас-Сити» вёл 10:7. Как написал Шон Мёрфи в Buffalo Rumblings, два удара Басса изменили исход матча в День благодарения в США.",
+          "photoAlt": "Тайлер Басс в синей форме под номером 2 готовится пробить по мячу, который придерживает на земле его партнёр по «Баффало Биллс».",
+          "photoCaption": "Архив, 26 сентября 2021 года. Тайлер Басс пробивает филд-гол за «Баффало Биллс» в матче против «Вашингтон Футбол Тим»."
+        },
+        "ko": {
+          "title": "타일러 배스의 57야드 필드골로 버펄로, 캔자스시티에 승리",
+          "summary": "빌스의 키커 배스는 4쿼터에 50야드가 넘는 필드골을 두 차례 성공시켰다. 두 번째 킥은 경기 마지막 플레이에서 13-10 승리를 확정했다.",
+          "body": "목요일 밤 뉴욕주 오처드파크에서 4쿼터 종료 11분 58초를 남기고 타일러 배스가 버펄로 빌스에 동점을 안겼다. 치프스를 상대로 54야드 필드골을 넣어 10-10을 만들었다. 공식 경기 기록과 ESPN 득점 기록에 따르면 마지막 플레이에서 배스는 그보다 3야드 먼 곳에서 킥을 성공시켜 동점 균형을 깼다.\n\n11월 26일 나온 이 57야드 필드골로 버펄로는 11경기에서 10승째를 거뒀다. 캔자스시티는 3쿼터까지 10-7로 앞섰다. 숀 머피가 버펄로 럼블링스에서 전한 대로 배스의 두 차례 킥이 미국 추수감사절 경기의 승부를 뒤집었다.",
+          "photoAlt": "파란색 2번 유니폼을 입은 타일러 배스가 버펄로 빌스 동료가 땅에 잡아 둔 공을 차려 한다.",
+          "photoCaption": "2021년 9월 26일 자료 사진. 버펄로 빌스의 타일러 배스가 워싱턴 풋볼 팀을 상대로 필드골을 시도하고 있다."
+        }
+      },
+      "title": "Un placement de 57 verges de Tyler Bass donne la victoire à Buffalo contre Kansas City",
+      "summary": "Le botteur des Bills a réussi deux placements de plus de 50 verges au quatrième quart. Le second, au dernier jeu du match, a scellé un gain de 13 à 10.",
+      "body": "Il restait 11 min 58 s au quatrième quart quand Tyler Bass a ramené les Bills de Buffalo à égalité avec les Chiefs, jeudi soir à Orchard Park, dans l’État de New York. Son placement de 54 verges portait le pointage à 10-10. Au dernier jeu, il a dû botter de trois verges plus loin pour départager les deux équipes, selon la feuille de match et le relevé des jeux d’ESPN.\n\nCe placement de 57 verges a donné à Buffalo sa dixième victoire en onze matchs, le 26 novembre. Kansas City menait 10 à 7 après trois quarts. Comme le rapporte Sean Murphy dans Buffalo Rumblings, les deux coups de pied de Bass ont renversé le résultat du match de l’Action de grâce américaine."
+    }
+  ]
+}
