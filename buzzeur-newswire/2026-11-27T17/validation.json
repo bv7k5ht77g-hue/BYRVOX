@@ -1,0 +1,298 @@
+{
+  "hour": "2026-11-27T17",
+  "checkedAt": "2026-11-27T17:56:06.846163+00:00",
+  "articles": [
+    {
+      "eventKey": "the-hunting-wives-saison-2-netflix-novembre-2026",
+      "sourceFile": "hunting_wives_publish.json",
+      "languages": {
+        "fr": {
+          "paragraphs": 6,
+          "characters": 2051
+        },
+        "en": {
+          "paragraphs": 6,
+          "characters": 1921
+        },
+        "es": {
+          "paragraphs": 6,
+          "characters": 2055
+        },
+        "it": {
+          "paragraphs": 6,
+          "characters": 2004
+        },
+        "zh": {
+          "paragraphs": 6,
+          "characters": 642
+        },
+        "ko": {
+          "paragraphs": 6,
+          "characters": 927
+        },
+        "ru": {
+          "paragraphs": 6,
+          "characters": 1867
+        },
+        "ar": {
+          "paragraphs": 6,
+          "characters": 1569
+        },
+        "sw": {
+          "paragraphs": 6,
+          "characters": 2078
+        }
+      },
+      "photoBytes": 106267,
+      "photoSHA256": "602898ae1622812d4a7412c0c90d4de61e451f18ef8a8e84a3094fc1af82a573",
+      "existingIdDuplicate": false,
+      "existingPrimarySourceDuplicate": false
+    },
+    {
+      "eventKey": "ultron-visionquest-james-spader-retour-marvel",
+      "sourceFile": "visionquest_publish.json",
+      "languages": {
+        "fr": {
+          "paragraphs": 5,
+          "characters": 2141
+        },
+        "en": {
+          "paragraphs": 5,
+          "characters": 1881
+        },
+        "es": {
+          "paragraphs": 5,
+          "characters": 2004
+        },
+        "it": {
+          "paragraphs": 5,
+          "characters": 2022
+        },
+        "zh": {
+          "paragraphs": 5,
+          "characters": 669
+        },
+        "ko": {
+          "paragraphs": 5,
+          "characters": 979
+        },
+        "ru": {
+          "paragraphs": 5,
+          "characters": 1910
+        },
+        "ar": {
+          "paragraphs": 5,
+          "characters": 1562
+        },
+        "sw": {
+          "paragraphs": 5,
+          "characters": 1965
+        }
+      },
+      "photoBytes": 107143,
+      "photoSHA256": "374ba5d7c1e60dfa0d81d27260352658d1b120828102f18e54ddf3cc27bf9eb1",
+      "existingIdDuplicate": false,
+      "existingPrimarySourceDuplicate": false
+    },
+    {
+      "eventKey": "rings-of-power-final-saison-3-saison-4-confirmee",
+      "sourceFile": "rings_power_publish.json",
+      "languages": {
+        "fr": {
+          "paragraphs": 6,
+          "characters": 2091
+        },
+        "en": {
+          "paragraphs": 6,
+          "characters": 1966
+        },
+        "es": {
+          "paragraphs": 6,
+          "characters": 2059
+        },
+        "it": {
+          "paragraphs": 6,
+          "characters": 2034
+        },
+        "zh": {
+          "paragraphs": 6,
+          "characters": 624
+        },
+        "ko": {
+          "paragraphs": 6,
+          "characters": 994
+        },
+        "ru": {
+          "paragraphs": 6,
+          "characters": 1943
+        },
+        "ar": {
+          "paragraphs": 6,
+          "characters": 1681
+        },
+        "sw": {
+          "paragraphs": 6,
+          "characters": 2126
+        }
+      },
+      "photoBytes": 210191,
+      "photoSHA256": "180445c5259e28995eac043e12907e85b643d05f735ea980a69dba72ea854baa",
+      "existingIdDuplicate": false,
+      "existingPrimarySourceDuplicate": false
+    },
+    {
+      "eventKey": "venus-rotation-plus-longue-annee",
+      "sourceFile": "insolite_3_publish.json",
+      "languages": {
+        "fr": {
+          "paragraphs": 5,
+          "characters": 1874
+        },
+        "en": {
+          "paragraphs": 5,
+          "characters": 1714
+        },
+        "es": {
+          "paragraphs": 5,
+          "characters": 1785
+        },
+        "it": {
+          "paragraphs": 5,
+          "characters": 1793
+        },
+        "zh": {
+          "paragraphs": 5,
+          "characters": 600
+        },
+        "ko": {
+          "paragraphs": 5,
+          "characters": 905
+        },
+        "ru": {
+          "paragraphs": 5,
+          "characters": 1790
+        },
+        "ar": {
+          "paragraphs": 5,
+          "characters": 1549
+        },
+        "sw": {
+          "paragraphs": 5,
+          "characters": 1829
+        }
+      },
+      "photoBytes": 82382,
+      "photoSHA256": "b3c8e46388ec694a398b7735b7147de05b4de5f5a4e4745bc9e7e061c90ccac2",
+      "existingIdDuplicate": false,
+      "existingPrimarySourceDuplicate": false
+    },
+    {
+      "eventKey": "poulpe-trois-coeurs-sang-bleu",
+      "sourceFile": "insolite_2_publish.json",
+      "languages": {
+        "fr": {
+          "paragraphs": 5,
+          "characters": 2008
+        },
+        "en": {
+          "paragraphs": 5,
+          "characters": 1842
+        },
+        "es": {
+          "paragraphs": 5,
+          "characters": 1900
+        },
+        "it": {
+          "paragraphs": 5,
+          "characters": 1889
+        },
+        "zh": {
+          "paragraphs": 5,
+          "characters": 577
+        },
+        "ko": {
+          "paragraphs": 5,
+          "characters": 864
+        },
+        "ru": {
+          "paragraphs": 5,
+          "characters": 1777
+        },
+        "ar": {
+          "paragraphs": 5,
+          "characters": 1609
+        },
+        "sw": {
+          "paragraphs": 5,
+          "characters": 1841
+        }
+      },
+      "photoBytes": 411971,
+      "photoSHA256": "9979a9f1a252eac3c5b511d63f3fedf045762a2f78e1c6ba96e2ab86ef938972",
+      "existingIdDuplicate": false,
+      "existingPrimarySourceDuplicate": false
+    },
+    {
+      "eventKey": "banane-baie-fraise-botanique",
+      "sourceFile": "insolite_1_publish.json",
+      "languages": {
+        "fr": {
+          "paragraphs": 5,
+          "characters": 1991
+        },
+        "en": {
+          "paragraphs": 5,
+          "characters": 1859
+        },
+        "es": {
+          "paragraphs": 5,
+          "characters": 1985
+        },
+        "it": {
+          "paragraphs": 5,
+          "characters": 1961
+        },
+        "zh": {
+          "paragraphs": 5,
+          "characters": 572
+        },
+        "ko": {
+          "paragraphs": 5,
+          "characters": 890
+        },
+        "ru": {
+          "paragraphs": 5,
+          "characters": 1874
+        },
+        "ar": {
+          "paragraphs": 5,
+          "characters": 1565
+        },
+        "sw": {
+          "paragraphs": 5,
+          "characters": 1973
+        }
+      },
+      "photoBytes": 115162,
+      "photoSHA256": "7fa8d71948c4d68f3572c29e6202d234e03ab422d97e119055e57e1881b23a26",
+      "existingIdDuplicate": false,
+      "existingPrimarySourceDuplicate": false
+    }
+  ],
+  "articleCount": 6,
+  "languageVersions": 54,
+  "existingFeedArticlesReviewed": 53,
+  "existingFeedHasMore": false,
+  "requestedPublication": "Explicit user request: series and unusual facts, publish on BUZZEUR",
+  "dataOnly": true,
+  "siteCodeChanged": false,
+  "editorialNotes": [
+    "Ultron is covered in the officially titled VisionQuest.",
+    "Rings of Power season 3 finale is distinguished from a final season; season 4 confirmed.",
+    "Wombat article rejected as an existing topic and replaced by banana botany.",
+    "Octopus circulation is distinct from the existing camouflage article.",
+    "Astronomy and animal/botanical explainers are not presented as new discoveries.",
+    "Photographs are documented with author, real context, date when available, source and reuse license.",
+    "French, English, Spanish, Italian, simplified Chinese, Korean, Russian, Arabic and Swahili are complete."
+  ]
+}
