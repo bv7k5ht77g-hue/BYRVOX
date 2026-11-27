@@ -1803,6 +1803,8 @@ test('les pays caribéens et le Brésil ont des filtres distincts et un réperto
     ['guyane','En Guyane, un projet de protection de la forêt','Environnement'],
     ['prenom','Dominique présente son nouveau roman','Culture'],
     ['arme','Une grenade retrouvée lors d’une intervention','Justice'],
+    ['colombie','Colombie-Britannique : des évacuations près de Nanaimo','Colombie-Britannique'],
+    ['royaume','Au Royaume-Uni, une réforme des transports','Transports'],
     ['brouillon-jamaique','Jamaïque : un projet encore en préparation','Jamaïque'],
   ];
   await db.batch(fixtures.map(([slug,title,category])=>insert.bind(slug,slug,title,category,
@@ -1834,6 +1836,11 @@ test('les pays caribéens et le Brésil ont des filtres distincts et un réperto
   assert.match(directory,/class="by-directory-countries"/);
   const world=await html('/?rubrique=actualites&categorie=International');
   for(const [,slug] of paths) assert.ok(world.includes('href="/article/'+slug+'"'),slug);
+  assert.ok(world.includes('href="/article/royaume"'));
+  assert.ok(!world.includes('href="/article/colombie"'));
+  const uk=await html('/?rubrique=actualites&categorie=Royaume-Uni');
+  assert.ok(uk.includes('href="/article/royaume"'));
+  assert.ok(!uk.includes('href="/article/colombie"'));
 });
 
 test('les moteurs trouvent les photos publiques, les traductions à jour et les dépêches récentes',async t=>{

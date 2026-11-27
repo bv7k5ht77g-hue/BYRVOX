@@ -26,7 +26,7 @@ export const countryAliases: Record<string, string[]> = {
 
 export const countryKeywords: Record<string, readonly string[]> = {
   France: ['France'],
-  'Royaume-Uni': ['Royaume-Uni', 'britannique', 'britanniques', 'Grande-Bretagne'],
+  'Royaume-Uni': ['Royaume-Uni', 'Grande-Bretagne', 'United Kingdom'],
   Haïti: ['Haïti', 'haïtien', 'haïtienne', 'haïtiens', 'haïtiennes', 'Port-au-Prince', 'Île-à-Vache'],
   Jamaïque: ['Jamaïque', 'jamaïcain', 'jamaïcaine', 'jamaïcains', 'jamaïcaines'],
   'République dominicaine': ['République dominicaine', 'dominicain', 'dominicaine', 'dominicains', 'dominicaines'],
