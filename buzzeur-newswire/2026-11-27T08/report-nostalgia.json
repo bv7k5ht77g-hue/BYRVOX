@@ -1,0 +1,99 @@
+{
+  "site": "buzzeur",
+  "id": "nostalgie-13-hits-2008-2013-gangnam-style-mirrors",
+  "delivery": {
+    "site": "buzzeur",
+    "requestedAt": "2026-11-27T08:34:54.032354+00:00",
+    "request": {
+      "hour": "2026-11-27T08",
+      "rank": 13
+    },
+    "response": {
+      "status": "published",
+      "id": "nostalgie-13-hits-2008-2013-gangnam-style-mirrors",
+      "slug": "nostalgie-13-hits-2008-2013-gangnam-style-mirrors"
+    }
+  },
+  "languages": {
+    "fr": {
+      "title": "De Gangnam Style à Mirrors : 13 hits qui réveillent nos années 2008–2013",
+      "url": "https://buzzeur.byrvox.today/article/?id=nostalgie-13-hits-2008-2013-gangnam-style-mirrors&lang=fr",
+      "paragraphs": 15,
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/cf35293c1ebf25c7c4d8ff3d4c16a5488048efc5cd969ba93780cf015193e874.jpg",
+      "contentMatches": true,
+      "public": true
+    },
+    "it": {
+      "title": "Da Gangnam Style a Mirrors: 13 hit che risvegliano i nostri anni 2008–2013",
+      "url": "https://buzzeur.byrvox.today/article/?id=nostalgie-13-hits-2008-2013-gangnam-style-mirrors&lang=it",
+      "paragraphs": 15,
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/cf35293c1ebf25c7c4d8ff3d4c16a5488048efc5cd969ba93780cf015193e874.jpg",
+      "contentMatches": true,
+      "public": true
+    },
+    "en": {
+      "title": "From Gangnam Style to Mirrors: 13 hits that bring back 2008–2013",
+      "url": "https://buzzeur.byrvox.today/article/?id=nostalgie-13-hits-2008-2013-gangnam-style-mirrors&lang=en",
+      "paragraphs": 15,
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/cf35293c1ebf25c7c4d8ff3d4c16a5488048efc5cd969ba93780cf015193e874.jpg",
+      "contentMatches": true,
+      "public": true
+    },
+    "es": {
+      "title": "De Gangnam Style a Mirrors: 13 éxitos que nos devuelven a 2008–2013",
+      "url": "https://buzzeur.byrvox.today/article/?id=nostalgie-13-hits-2008-2013-gangnam-style-mirrors&lang=es",
+      "paragraphs": 15,
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/cf35293c1ebf25c7c4d8ff3d4c16a5488048efc5cd969ba93780cf015193e874.jpg",
+      "contentMatches": true,
+      "public": true
+    },
+    "ar": {
+      "title": "من Gangnam Style إلى Mirrors: 13 أغنية تعيد إلينا سنوات 2008–2013",
+      "url": "https://buzzeur.byrvox.today/article/?id=nostalgie-13-hits-2008-2013-gangnam-style-mirrors&lang=ar",
+      "paragraphs": 15,
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/cf35293c1ebf25c7c4d8ff3d4c16a5488048efc5cd969ba93780cf015193e874.jpg",
+      "contentMatches": true,
+      "public": true
+    },
+    "zh": {
+      "title": "从 Gangnam Style 到 Mirrors：13首热曲，唤醒我们的2008—2013年",
+      "url": "https://buzzeur.byrvox.today/article/?id=nostalgie-13-hits-2008-2013-gangnam-style-mirrors&lang=zh",
+      "paragraphs": 15,
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/cf35293c1ebf25c7c4d8ff3d4c16a5488048efc5cd969ba93780cf015193e874.jpg",
+      "contentMatches": true,
+      "public": true
+    },
+    "ko": {
+      "title": "Gangnam Style부터 Mirrors까지: 2008~2013년의 기억을 깨우는 히트곡 13곡",
+      "url": "https://buzzeur.byrvox.today/article/?id=nostalgie-13-hits-2008-2013-gangnam-style-mirrors&lang=ko",
+      "paragraphs": 15,
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/cf35293c1ebf25c7c4d8ff3d4c16a5488048efc5cd969ba93780cf015193e874.jpg",
+      "contentMatches": true,
+      "public": true
+    },
+    "ru": {
+      "title": "От Gangnam Style до Mirrors: 13 хитов, которые возвращают нас в 2008–2013 годы",
+      "url": "https://buzzeur.byrvox.today/article/?id=nostalgie-13-hits-2008-2013-gangnam-style-mirrors&lang=ru",
+      "paragraphs": 15,
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/cf35293c1ebf25c7c4d8ff3d4c16a5488048efc5cd969ba93780cf015193e874.jpg",
+      "contentMatches": true,
+      "public": true
+    },
+    "sw": {
+      "title": "Kutoka Gangnam Style hadi Mirrors: nyimbo 13 zinazofufua kumbukumbu za 2008–2013",
+      "url": "https://buzzeur.byrvox.today/article/?id=nostalgie-13-hits-2008-2013-gangnam-style-mirrors&lang=sw",
+      "paragraphs": 15,
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/cf35293c1ebf25c7c4d8ff3d4c16a5488048efc5cd969ba93780cf015193e874.jpg",
+      "contentMatches": true,
+      "public": true
+    }
+  },
+  "errors": [],
+  "verifiedAt": "2026-11-27T08:37:06.208687+00:00",
+  "image": {
+    "url": "https://byrvox.noventra.ca/api/buzzeur/media/cf35293c1ebf25c7c4d8ff3d4c16a5488048efc5cd969ba93780cf015193e874.jpg",
+    "verified": true,
+    "sha256": "cf35293c1ebf25c7c4d8ff3d4c16a5488048efc5cd969ba93780cf015193e874"
+  },
+  "verifiedPublic": true
+}

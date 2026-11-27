@@ -1,0 +1,75 @@
+{
+  "site": "byrvox",
+  "id": "sap-incident-github-jetons-code-novembre-2026",
+  "delivery": {
+    "site": "byrvox",
+    "requestedAt": "2026-11-27T08:34:58.462973+00:00",
+    "request": {
+      "hour": "2026-11-27T08-thematique",
+      "rank": 1
+    },
+    "response": {
+      "status": "recorded",
+      "slug": "sap-incident-github-jetons-code-novembre-2026"
+    }
+  },
+  "languages": {
+    "fr": {
+      "title": "SAP reconnaît un incident : le vol de jetons et les modifications de code restent à confirmer",
+      "url": "https://byrvox.today/article/sap-incident-github-jetons-code-novembre-2026?lang=fr",
+      "paragraphs": 15,
+      "contentMatches": true,
+      "public": true
+    },
+    "en": {
+      "title": "SAP acknowledges an incident: token theft and code tampering remain unconfirmed",
+      "url": "https://byrvox.today/article/sap-incident-github-jetons-code-novembre-2026?lang=en",
+      "paragraphs": 15,
+      "contentMatches": true,
+      "public": true
+    },
+    "ar": {
+      "title": "SAP تقرّ بوقوع حادث أمني: سرقة رموز الدخول وتعديل الشيفرة لم يتأكدا بعد",
+      "url": "https://byrvox.today/article/sap-incident-github-jetons-code-novembre-2026?lang=ar",
+      "paragraphs": 15,
+      "contentMatches": true,
+      "public": true
+    },
+    "es": {
+      "title": "SAP reconoce un incidente: el robo de tokens y la alteración de código siguen sin confirmarse",
+      "url": "https://byrvox.today/article/sap-incident-github-jetons-code-novembre-2026?lang=es",
+      "paragraphs": 15,
+      "contentMatches": true,
+      "public": true
+    },
+    "zh-CN": {
+      "title": "SAP承认发生安全事件：令牌被盗及源代码遭篡改的说法仍待证实",
+      "url": "https://byrvox.today/article/sap-incident-github-jetons-code-novembre-2026?lang=zh-CN",
+      "paragraphs": 15,
+      "contentMatches": true,
+      "public": true
+    },
+    "ko": {
+      "title": "SAP, 보안 사고 인정…직원 토큰 탈취와 소스 코드 변조는 아직 미확인",
+      "url": "https://byrvox.today/article/sap-incident-github-jetons-code-novembre-2026?lang=ko",
+      "paragraphs": 15,
+      "contentMatches": true,
+      "public": true
+    },
+    "ru": {
+      "title": "SAP признала инцидент: кража токенов и изменение кода пока не подтверждены",
+      "url": "https://byrvox.today/article/sap-incident-github-jetons-code-novembre-2026?lang=ru",
+      "paragraphs": 15,
+      "contentMatches": true,
+      "public": true
+    }
+  },
+  "errors": [],
+  "verifiedAt": "2026-11-27T08:37:06.209133+00:00",
+  "image": {
+    "url": "https://byrvox.noventra.ca/api/photos/91e31391-5bad-4d66-88cf-9e911163248e.jpg",
+    "verified": true,
+    "sha256": "91e313915bad2d6698cf9e911163248e9fed4940e0a4ca5cc4da3f86fc535f3e"
+  },
+  "verifiedPublic": true
+}
