@@ -5,11 +5,7 @@
       "eventKey": "the-hunting-wives-saison-2-netflix-novembre-2026",
       "category": "cine-series",
       "tags": [
-        "The Hunting Wives",
-        "Netflix",
-        "Brittany Snow",
-        "Malin Åkerman",
-        "Séries"
+        "pop-culture"
       ],
       "publishedAt": "2026-11-27",
       "readMinutes": 3,
@@ -331,11 +327,7 @@
       "eventKey": "rings-of-power-final-saison-3-saison-4-confirmee",
       "category": "cine-series",
       "tags": [
-        "The Rings of Power",
-        "Prime Video",
-        "Tolkien",
-        "Sauron",
-        "Charlie Vickers"
+        "pop-culture"
       ],
       "publishedAt": "2026-11-27",
       "readMinutes": 3,
@@ -506,10 +498,7 @@
     {
       "eventKey": "venus-rotation-plus-longue-annee",
       "category": "insolite",
-      "tags": [
-        "espace",
-        "science"
-      ],
+      "tags": [],
       "publishedAt": "2026-11-27",
       "readMinutes": 2,
       "verified": true,
@@ -667,8 +656,7 @@
       "eventKey": "poulpe-trois-coeurs-sang-bleu",
       "category": "animaux",
       "tags": [
-        "insolite",
-        "science"
+        "insolite"
       ],
       "publishedAt": "2026-11-27",
       "readMinutes": 2,
@@ -820,10 +808,7 @@
     {
       "eventKey": "banane-baie-fraise-botanique",
       "category": "insolite",
-      "tags": [
-        "nature",
-        "science"
-      ],
+      "tags": [],
       "publishedAt": "2026-11-27",
       "readMinutes": 2,
       "verified": true,
