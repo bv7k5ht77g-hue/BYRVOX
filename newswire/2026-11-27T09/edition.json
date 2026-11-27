@@ -1,0 +1,157 @@
+{
+  "hour": "2026-11-27T09",
+  "articles": [
+    {
+      "eventKey": "espagne-prix-consommation-novembre-repli-mensuel-inflation",
+      "category": "Espagne",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Instituto Nacional de Estadística — estimation de novembre",
+          "url": "https://www.ine.es/dyngs/Prensa/adIPC1126.htm",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Europa Press — évolution des prix à la consommation",
+          "url": "https://www.europapress.es/economia/macroeconomia-00338/noticia-ipc-modera-ocho-decimas-noviembre-41-abaratamiento-gasolinas-20261127090034.html",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "photo": {
+        "subject": "station-service",
+        "context": "Torre-Pacheco",
+        "capturedOn": "2026-11-22",
+        "download": "media/esp.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gas_station_in_Torre-Pacheco_05.jpg",
+        "credit": "Anidae / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "Des voitures près des pompes sous l’auvent d’une station-service Repsol à Torre-Pacheco.",
+        "caption": "Photo d’archives du 22 novembre 2026. Des voitures se trouvent sous l’auvent de la station-service Repsol à Torre-Pacheco, en Espagne."
+      },
+      "translations": {
+        "en": {
+          "title": "Spanish prices estimated to have fallen 0.6% in November but remained 4.1% higher than a year earlier",
+          "summary": "Cheaper fuel helped slow inflation. In October, consumer prices were still 4.9% higher than a year earlier.",
+          "body": "Spanish consumers are estimated to have paid less for their basket of goods and services in November than in October, according to preliminary figures released on Friday by the national statistics institute, INE. The 0.6% monthly decline would bring the twelve-month increase down to 4.1%. Clothing and footwear prices rose more slowly than last November, the institute said.\n\nThe biggest difference from November 2025 was in motor fuels and lubricants. Their prices rose then and fell this time, Europa Press reported. Excluding energy and unprocessed food, annual inflation is estimated at 2.6%. The petrol station pictured in Torre-Pacheco, in the Murcia region, illustrates this part of motorists’ budgets.",
+          "photoAlt": "Cars near the pumps under the canopy of a Repsol petrol station in Torre-Pacheco.",
+          "photoCaption": "Archive photograph, 22 November 2026. Cars under the canopy of the Repsol petrol station in Torre-Pacheco, Spain."
+        },
+        "es": {
+          "title": "Los precios en España habrían bajado un 0,6 % en noviembre, aunque seguirían un 4,1 % por encima de los de hace un año",
+          "summary": "La caída de los carburantes contribuyó a moderar la inflación. En octubre, los precios de consumo aún superaban en un 4,9 % los de un año antes.",
+          "body": "Los consumidores españoles habrían pagado menos por su cesta de bienes y servicios en noviembre que en octubre, según el avance que publicó el viernes el Instituto Nacional de Estadística (INE). El descenso mensual del 0,6 % situaría la subida en doce meses en el 4,1 %. El vestido y el calzado se encarecieron menos que en noviembre del año pasado, precisó el instituto.\n\nLa principal diferencia respecto a noviembre de 2025 corresponde a los carburantes y lubricantes para vehículos, cuyos precios subieron entonces y bajan ahora, según Europa Press. Sin energía ni alimentos no elaborados, la inflación interanual se estima en el 2,6 %. La gasolinera fotografiada en Torre-Pacheco, en la Región de Murcia, ilustra este gasto de los automovilistas.",
+          "photoAlt": "Coches junto a los surtidores bajo la marquesina de una gasolinera Repsol de Torre-Pacheco.",
+          "photoCaption": "Foto de archivo del 22 de noviembre de 2026. Coches bajo la marquesina de la gasolinera Repsol en Torre-Pacheco, España."
+        },
+        "ar": {
+          "title": "تقديرات بانخفاض الأسعار في إسبانيا 0.6% في نوفمبر وبقائها أعلى بنسبة 4.1% مقارنة بالعام الماضي",
+          "summary": "أسهم تراجع أسعار الوقود في تباطؤ التضخم. وفي أكتوبر كانت أسعار المستهلك أعلى بنسبة 4.9% مما كانت عليه قبل عام.",
+          "body": "تشير الأرقام الأولية التي نشرها المعهد الوطني الإسباني للإحصاء الجمعة إلى أن المستهلكين دفعوا في نوفمبر ثمناً أقل لسلة السلع والخدمات مقارنة بأكتوبر. ومن شأن الانخفاض الشهري البالغ 0.6% أن يقلّص الزيادة على مدى اثني عشر شهراً إلى 4.1%. وأشار المعهد إلى أن أسعار الملابس والأحذية ارتفعت بوتيرة أبطأ منها في نوفمبر الماضي.\n\nوأفادت وكالة أوروبا برس بأن أبرز فرق عن نوفمبر 2025 يتعلق بوقود المركبات وزيوت التشحيم التي ارتفعت أسعارها آنذاك وانخفضت هذه المرة. ويُقدّر التضخم السنوي باستثناء الطاقة والأغذية غير المصنّعة بنحو 2.6%. وتوضح صورة محطة الوقود في توري باتشيكو بمنطقة مرسية هذا البند من ميزانية السائقين.",
+          "photoAlt": "سيارات قرب المضخات تحت مظلة محطة وقود ريبسول في توري باتشيكو.",
+          "photoCaption": "صورة أرشيفية بتاريخ 22 نوفمبر 2026. سيارات تحت مظلة محطة ريبسول في توري باتشيكو بإسبانيا."
+        },
+        "zh-CN": {
+          "title": "西班牙11月消费价格初估环比下降0.6%，同比仍上涨4.1%",
+          "summary": "燃油降价推动通胀放缓。10月消费价格同比涨幅仍为4.9%。",
+          "body": "西班牙国家统计局周五公布的初步数据表明，11月消费者购买一篮子商品和服务的支出低于10月。按环比下降0.6%计算，过去12个月的涨幅收窄至4.1%。统计局表示，服装和鞋类价格的涨幅也小于去年11月。\n\n据欧罗巴通讯社报道，与2025年11月相比，最大的变化来自车用燃料和润滑油。当时价格上升，今年则下降。剔除能源和未加工食品后，年通胀率估计为2.6%。照片中的加油站位于穆尔西亚地区的托雷帕切科，燃油是驾车人士的一项开支。",
+          "photoAlt": "托雷帕切科一座雷普索尔加油站内，汽车停在顶棚下的加油机旁。",
+          "photoCaption": "资料照片，摄于2026年11月22日。西班牙托雷帕切科雷普索尔加油站顶棚下的汽车。"
+        },
+        "ru": {
+          "title": "Цены в Испании в ноябре, по оценке, снизились на 0,6% за месяц, но выросли на 4,1% за год",
+          "summary": "Снижению инфляции способствовало удешевление топлива. В октябре потребительские цены ещё на 4,9% превышали прошлогодние.",
+          "body": "В ноябре испанские потребители заплатили за корзину товаров и услуг меньше, чем в октябре, следует из предварительной оценки Национального института статистики Испании (INE), опубликованной в пятницу. Снижение за месяц на 0,6% означало бы замедление роста цен за двенадцать месяцев до 4,1%. Одежда и обувь дорожали медленнее, чем в ноябре прошлого года, уточнил институт.\n\nГлавное отличие от ноября 2025 года связано с автомобильным топливом и смазочными материалами: тогда они подорожали, а теперь подешевели, сообщает Europa Press. Без учёта энергии и необработанных продуктов питания годовая инфляция оценивается в 2,6%. Заправка на фотографии из Торре-Пачеко в регионе Мурсия иллюстрирует эту статью расходов автомобилистов.",
+          "photoAlt": "Машины у колонок под навесом заправки Repsol в Торре-Пачеко.",
+          "photoCaption": "Архивный снимок от 22 ноября 2026 года. Автомобили под навесом заправки Repsol в Торре-Пачеко, Испания."
+        },
+        "ko": {
+          "title": "스페인 11월 소비자물가 전월 대비 0.6% 하락 추정…전년 대비로는 4.1% 상승",
+          "summary": "연료 가격 하락이 물가 상승세를 늦췄다. 10월 소비자물가는 1년 전보다 4.9% 높았다.",
+          "body": "스페인 통계청(INE)이 금요일 발표한 잠정치에 따르면 소비자들이 상품과 서비스 한 바구니에 지불한 금액은 11월에 10월보다 줄어든 것으로 추정된다. 전월 대비 0.6% 하락하면서 12개월 동안의 상승률은 4.1%로 둔화한 것으로 보인다. 통계청은 의류와 신발 가격도 지난해 11월보다 완만하게 올랐다고 밝혔다.\n\n유로파 프레스에 따르면 2025년 11월과 가장 달라진 부분은 차량용 연료와 윤활유다. 당시에는 가격이 올랐지만 이번에는 내렸다. 에너지와 비가공 식품을 제외한 연간 물가 상승률은 2.6%로 추정된다. 사진에 나온 무르시아 지방 토레파체코의 주유소는 운전자들이 지출하는 연료비와 관련된 현장이다.",
+          "photoAlt": "토레파체코의 렙솔 주유소 지붕 아래 주유기 옆에 차들이 서 있다.",
+          "photoCaption": "2026년 11월 22일 촬영한 자료 사진. 스페인 토레파체코의 렙솔 주유소 지붕 아래에 있는 차량들."
+        }
+      },
+      "title": "En Espagne, les prix reculeraient de 0,6 % en novembre, mais resteraient en hausse de 4,1 % sur un an",
+      "summary": "La baisse des carburants contribue au ralentissement de l’inflation. En octobre, les prix à la consommation dépassaient encore de 4,9 % leur niveau d’un an plus tôt.",
+      "body": "Les consommateurs espagnols auraient payé moins cher leur panier en novembre qu’en octobre, selon la première estimation de l’Institut national de statistique (INE), publiée vendredi. Le recul mensuel de 0,6 % ramènerait à 4,1 % la hausse des prix sur douze mois. Les vêtements et les chaussures ont augmenté moins vite qu’en novembre dernier, précise l’institut.\n\nLa principale différence avec novembre 2025 vient des carburants et des lubrifiants pour véhicules, dont les prix avaient alors monté et qui baissent cette fois, relève Europa Press. Hors énergie et aliments non transformés, l’inflation annuelle est estimée à 2,6 %. La station-service photographiée à Torre-Pacheco, dans la région de Murcie, illustre ce poste du budget des automobilistes."
+    },
+    {
+      "eventKey": "jamaique-kingston-aeroport-norman-manley-piste-aire-trafic",
+      "category": "Jamaïque",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Jamaica Information Service — présentation du ministre des Transports",
+          "url": "https://jis.gov.jm/us130-million-being-invested-in-four-major-infrastructure-projects-at-nmia/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Jamaica Gleaner — investissements et fréquentation à Kingston",
+          "url": "https://jamaica-gleaner.com/article/business/20261127/nmia-rolls-out-us130m-upgrade-programme-passenger-traffic-slips",
+          "publishedAt": "2026-11-27T01:06:02-05:00"
+        }
+      ],
+      "photo": {
+        "subject": "aire de trafic",
+        "context": "Kingston",
+        "capturedOn": "2005-11-27",
+        "download": "media/jam.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Norman_Manley_International_Airport.jpg",
+        "credit": "Wolmadrian / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Vue aérienne des avions et des passerelles sur l’aire de trafic de l’aéroport Norman-Manley, à Kingston.",
+        "caption": "Archives du 27 novembre 2005. À Kingston, des avions stationnent sur l’aire de trafic de l’aéroport Norman-Manley."
+      },
+      "translations": {
+        "en": {
+          "title": "Runway and apron account for most of Kingston airport’s investment",
+          "summary": "Of about US$130 million earmarked for four projects at Norman Manley airport, US$114 million is for the runway, its safety area and the apron.",
+          "body": "The biggest projects at Norman Manley International Airport in Kingston are on the aircraft side of the terminal. Jamaica’s transport minister, Daryl Vaz, put work on the runway and its safety area at US$62 million and replacement of the concrete slabs on the apron where aircraft park at US$52 million. He presented the figures at an airport forum on 24 November, according to the Jamaica Information Service and the Jamaica Gleaner.\n\nThe two other projects concern passengers and the airport’s power supply. Seven million dollars is earmarked for a customs and transit hall and nine million for the second phase of the solar farm. The investment comes as Kingston’s passenger traffic fell 1.4% from January to September compared with the same period in 2025.",
+          "photoAlt": "Aerial view of aircraft and boarding bridges on the apron at Norman Manley airport in Kingston.",
+          "photoCaption": "Archive photograph, 27 November 2005. Aircraft parked on the apron at Norman Manley airport in Kingston."
+        },
+        "es": {
+          "title": "La pista y la plataforma concentran la mayor parte de la inversión en el aeropuerto de Kingston",
+          "summary": "De unos 130 millones de dólares estadounidenses para cuatro obras en el aeropuerto Norman Manley, 114 millones corresponden a la pista, su zona de seguridad y la plataforma.",
+          "body": "Las mayores obras del aeropuerto internacional Norman Manley de Kingston se concentran en el área de operaciones de las aeronaves. El ministro jamaicano de Transporte, Daryl Vaz, cifró en 62 millones de dólares los trabajos en la pista y su zona de seguridad y en 52 millones el reemplazo de las losas de la plataforma donde estacionan los aviones. Presentó las cifras en el foro del aeropuerto el 24 de noviembre, según el Jamaica Information Service y el Jamaica Gleaner.\n\nLos otros dos proyectos se destinan a los pasajeros y al suministro eléctrico. Se prevén siete millones para una sala de aduanas y tránsito y nueve millones para la segunda fase del parque solar. Entre enero y septiembre, el tráfico de pasajeros en Kingston cayó un 1,4 % respecto al mismo periodo de 2025.",
+          "photoAlt": "Vista aérea de aviones y pasarelas en la plataforma del aeropuerto Norman Manley de Kingston.",
+          "photoCaption": "Foto de archivo del 27 de noviembre de 2005. Aviones estacionados en la plataforma del aeropuerto Norman Manley de Kingston."
+        },
+        "ar": {
+          "title": "المدرج وساحة وقوف الطائرات يستحوذان على معظم الاستثمارات في مطار كينغستون",
+          "summary": "من أصل نحو 130 مليون دولار أميركي لأربعة مشاريع في مطار نورمان مانلي، خُصص 114 مليوناً للمدرج ومنطقة الأمان وساحة وقوف الطائرات.",
+          "body": "تتركز أكبر الأعمال في مطار نورمان مانلي الدولي في كينغستون في المنطقة المخصصة للطائرات. وقدّر وزير النقل الجامايكي داريل فاز تكلفة أعمال المدرج ومنطقة الأمان بـ62 مليون دولار أميركي واستبدال بلاطات ساحة وقوف الطائرات بـ52 مليوناً. وعرض الأرقام في منتدى المطار يوم 24 نوفمبر، بحسب خدمة المعلومات الجامايكية وصحيفة جامايكا غلينر.\n\nيتعلق المشروعان الآخران بخدمة الركاب وإمدادات الكهرباء. وخُصص سبعة ملايين دولار لصالة الجمارك والعبور وتسعة ملايين للمرحلة الثانية من محطة الطاقة الشمسية. وتأتي الاستثمارات بعد تراجع حركة الركاب في كينغستون 1.4% بين يناير وسبتمبر مقارنة بالفترة نفسها من 2025.",
+          "photoAlt": "منظر جوي للطائرات وجسور صعود الركاب في ساحة مطار نورمان مانلي في كينغستون.",
+          "photoCaption": "صورة أرشيفية بتاريخ 27 نوفمبر 2005. طائرات متوقفة في ساحة مطار نورمان مانلي في كينغستون."
+        },
+        "zh-CN": {
+          "title": "金斯敦机场投资大部分用于跑道和停机坪",
+          "summary": "诺曼·曼利机场四项工程投资约1.3亿美元，其中1.14亿美元将用于跑道、跑道安全区和停机坪。",
+          "body": "金斯敦诺曼·曼利国际机场规模最大的两项工程都与飞机运行有关。牙买加交通部长达里尔·瓦兹表示，跑道及其安全区工程耗资6200万美元，更换停机坪道面板耗资5200万美元。据牙买加新闻署和《牙买加拾穗人报》报道，他于11月24日在机场论坛上公布了这些数字。\n\n另外两项工程涉及旅客服务和供电：海关及中转大厅预算为700万美元，太阳能电站二期预算为900万美元。今年1月至9月，金斯敦机场客流量比2025年同期下降1.4%。",
+          "photoAlt": "从空中俯瞰金斯敦诺曼·曼利机场停机坪上的飞机和登机桥。",
+          "photoCaption": "资料照片，摄于2005年11月27日。飞机停放在金斯敦诺曼·曼利机场的停机坪上。"
+        },
+        "ru": {
+          "title": "Большая часть инвестиций в аэропорт Кингстона пойдёт на полосу и перрон",
+          "summary": "Из примерно 130 млн долларов США на четыре проекта в аэропорту Норман-Мэнли 114 млн предназначены для полосы, её зоны безопасности и перрона.",
+          "body": "Крупнейшие работы в международном аэропорту Норман-Мэнли в Кингстоне пройдут на аэродроме. Министр транспорта Ямайки Дэрил Ваз оценил работы на взлётно-посадочной полосе и в её зоне безопасности в 62 млн долларов США, а замену плит на перроне, где стоят самолёты, — в 52 млн. По данным Jamaica Information Service и Jamaica Gleaner, он представил эти цифры на форуме аэропорта 24 ноября.\n\nЕщё два проекта связаны с обслуживанием пассажиров и энергоснабжением аэропорта. Семь миллионов долларов предусмотрены на зал таможенного оформления и транзита, девять миллионов — на вторую очередь солнечной электростанции. С января по сентябрь пассажиропоток в Кингстоне сократился на 1,4% к тому же периоду 2025 года.",
+          "photoAlt": "Вид с воздуха на самолёты и телетрапы на перроне аэропорта Норман-Мэнли в Кингстоне.",
+          "photoCaption": "Архивный снимок от 27 ноября 2005 года. Самолёты на стоянке на перроне аэропорта Норман-Мэнли в Кингстоне."
+        },
+        "ko": {
+          "title": "킹스턴 공항 투자 대부분 활주로와 계류장에 배정",
+          "summary": "노먼 맨리 공항의 4개 사업에 투입되는 약 1억 3천만 달러 가운데 1억 1,400만 달러가 활주로와 안전구역, 계류장에 쓰인다.",
+          "body": "킹스턴 노먼 맨리 국제공항에서 가장 규모가 큰 사업은 항공기 운항 구역에 집중돼 있다. 대릴 바즈 자메이카 교통장관은 활주로와 안전구역 공사에 미화 6,200만 달러, 항공기를 세워두는 계류장 포장판 교체에 5,200만 달러가 든다고 밝혔다. 자메이카 공보처와 자메이카 글리너에 따르면 바즈 장관은 11월 24일 공항 포럼에서 이 금액을 제시했다.\n\n다른 두 사업은 여객 서비스와 전력 공급에 관한 것이다. 세관·환승 홀에 700만 달러, 태양광 발전단지 2단계 사업에 900만 달러가 배정됐다. 올해 1월부터 9월까지 킹스턴 공항 여객은 2025년 같은 기간보다 1.4% 줄었다.",
+          "photoAlt": "킹스턴 노먼 맨리 공항 계류장의 항공기와 탑승교를 내려다본 모습.",
+          "photoCaption": "2005년 11월 27일 촬영한 자료 사진. 킹스턴 노먼 맨리 공항 계류장에 항공기가 서 있다."
+        }
+      },
+      "title": "À Kingston, la piste et l’aire de trafic absorbent l’essentiel des investissements à l’aéroport",
+      "summary": "Sur les quelque 130 millions de dollars américains consacrés à quatre chantiers à l’aéroport Norman-Manley, 114 millions sont destinés à la piste, à sa zone de sécurité et à l’aire de trafic.",
+      "body": "À Kingston, les plus gros chantiers de l’aéroport international Norman-Manley se trouvent du côté des avions. Le ministre jamaïcain des Transports, Daryl Vaz, a chiffré à 62 millions de dollars américains les travaux sur la piste et sa zone de sécurité, et à 52 millions le remplacement des dalles de l’aire de trafic où stationnent les appareils. Il a présenté ces montants au forum de l’aéroport le 24 novembre, selon le Jamaica Information Service et le Jamaica Gleaner.\n\nLes deux autres volets concernent les passagers et l’alimentation électrique du site. Sept millions sont prévus pour un hall de douane et de transit, et neuf millions pour la deuxième phase du parc solaire. Ces investissements interviennent alors que le trafic de passagers à Kingston a reculé de 1,4 % de janvier à septembre par rapport à la même période de 2025."
+    }
+  ]
+}
