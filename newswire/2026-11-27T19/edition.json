@@ -1,0 +1,86 @@
+{
+  "hour": "2026-11-27T19",
+  "articles": [
+    {
+      "title": "Au Brésil, plus de 30 millions de personnes recevront des messages de prévention contre la dengue",
+      "summary": "Le ministère brésilien de la Santé mobilise les États et les municipalités le 28 novembre contre la dengue, le zika et le chikungunya. La campagne cible notamment les zones où le risque de transmission est élevé.",
+      "body": "Au Brésil, les habitants des municipalités les plus exposées recevront sur WhatsApp ou par le portail Gov.br des conseils pour limiter la prolifération du moustique Aedes aegypti. Selon le ministère de la Santé, plus de 30 millions de personnes sont visées. Ces messages accompagnent la journée nationale de mobilisation du samedi 28 novembre.\n\nLe système public de santé associe les États et les municipalités à la lutte contre trois maladies transmises par ce moustique. À Garanhuns, dans l’État du Pernambouc, un premier lâcher de moustiques porteurs de la bactérie Wolbachia est prévu samedi, rapporte CNN Brasil.\n\nCette mobilisation intervient après une baisse des signalements. De janvier à octobre, le ministère a recensé 489 100 cas probables de dengue, soit 67 % de moins que pendant les mêmes mois de 2025.",
+      "category": "Brésil",
+      "eventKey": "bresil-dengue-mobilisation-nationale-messages-prevention-novembre",
+      "sources": [
+        {
+          "name": "Ministério da Saúde",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/ministerio-da-saude-promove-dia-d-de-combate-a-dengue-e-lanca-campanha-de-prevencao-as-arboviroses",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/saude/dia-d-contra-dengue-tem-mosquitos-estereis-e-com-bacteria-que-sabota-doenca/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "UOL",
+          "url": "https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2026/11/27/governo-lanca-dia-d-contra-dengue-e-notifica-30-milhoes-por-whatsapp.ghtm",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "photo": {
+        "subject": "Aedes aegypti",
+        "context": "Brésil",
+        "capturedOn": "2025-12-30",
+        "alt": "Gros plan d’un moustique Aedes aegypti aux pattes rayées de blanc sur une surface verte.",
+        "caption": "Archive. Un moustique Aedes aegypti photographié au Brésil le 30 décembre 2025.",
+        "credit": "Enéas V. Gouvêa Junior",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aedes_aegypti_603914269.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/9/95/Aedes_aegypti_603914269.jpg"
+      },
+      "translations": {
+        "en": {
+          "title": "Brazil to send dengue prevention messages to more than 30 million people",
+          "summary": "Brazil’s Health Ministry is mobilizing states and municipalities on November 28 to tackle dengue, Zika and chikungunya. The campaign targets areas at high risk of transmission.",
+          "body": "In Brazil, residents of high-risk municipalities will receive advice through WhatsApp or the Gov.br portal on how to keep Aedes aegypti mosquitoes from multiplying. The Health Ministry says it aims to reach more than 30 million people. The messages accompany a national day of action on Saturday, November 28.\n\nThe public health system is working with states and municipalities to tackle three diseases transmitted by the mosquito. In Garanhuns, in Pernambuco state, the first release of mosquitoes carrying Wolbachia bacteria is scheduled for Saturday, CNN Brasil reports.\n\nThe campaign follows a decline in reported cases. From January through October, the ministry recorded 489,100 probable dengue cases, down 67% from the same months of 2025.",
+          "photoAlt": "Close-up of an Aedes aegypti mosquito with white-banded legs on a green surface.",
+          "photoCaption": "Archive photograph. An Aedes aegypti mosquito in Brazil on December 30, 2025."
+        },
+        "es": {
+          "title": "Brasil enviará mensajes de prevención del dengue a más de 30 millones de personas",
+          "summary": "El Ministerio de Salud de Brasil moviliza a estados y municipios el 28 de noviembre contra el dengue, el zika y el chikunguña. La campaña se dirige en particular a las zonas de alto riesgo de transmisión.",
+          "body": "En Brasil, los habitantes de los municipios más expuestos recibirán por WhatsApp o por el portal Gov.br consejos para frenar la proliferación del mosquito Aedes aegypti. Según el Ministerio de Salud, se busca llegar a más de 30 millones de personas. Los mensajes acompañan la jornada nacional de movilización del sábado 28 de noviembre.\n\nEl sistema público de salud trabaja con los estados y municipios para combatir tres enfermedades transmitidas por este mosquito. En Garanhuns, en el estado de Pernambuco, está prevista para el sábado la primera liberación de mosquitos portadores de la bacteria Wolbachia, según CNN Brasil.\n\nLa movilización llega tras una caída de las notificaciones. De enero a octubre, el ministerio registró 489.100 casos probables de dengue, un 67 % menos que en los mismos meses de 2025.",
+          "photoAlt": "Primer plano de un mosquito Aedes aegypti de patas con bandas blancas sobre una superficie verde.",
+          "photoCaption": "Archivo. Un mosquito Aedes aegypti fotografiado en Brasil el 30 de diciembre de 2025."
+        },
+        "ar": {
+          "title": "البرازيل تعتزم إرسال رسائل للوقاية من حمى الضنك إلى أكثر من 30 مليون شخص",
+          "summary": "تحشد وزارة الصحة البرازيلية الولايات والبلديات في 28 نوفمبر لمكافحة حمى الضنك وزيكا وشيكونغونيا. وتركز الحملة على المناطق التي يرتفع فيها خطر انتقال العدوى.",
+          "body": "سيتلقى سكان البلديات البرازيلية الأكثر عرضة للخطر إرشادات عبر واتساب أو بوابة Gov.br للحد من تكاثر بعوض الزاعجة المصرية. وتقول وزارة الصحة إن الحملة تستهدف أكثر من 30 مليون شخص. وتواكب الرسائل يوم التعبئة الوطني المقرر السبت 28 نوفمبر.\n\nويتعاون النظام الصحي العام مع الولايات والبلديات لمكافحة ثلاثة أمراض ينقلها هذا البعوض. وأفادت شبكة CNN Brasil بأن مدينة غارانْيونس في ولاية بيرنامبوكو ستشهد السبت أول إطلاق مقرر لبعوض يحمل بكتيريا ولباخيا.\n\nوتأتي الحملة بعد تراجع البلاغات. فقد سجلت الوزارة من يناير إلى أكتوبر 489,100 حالة محتملة من حمى الضنك، بانخفاض نسبته 67٪ مقارنة بالأشهر نفسها من عام 2025.",
+          "photoAlt": "لقطة مقربة لبعوضة من نوع الزاعجة المصرية بأرجل مخططة بالأبيض على سطح أخضر.",
+          "photoCaption": "صورة أرشيفية لبعوضة الزاعجة المصرية التُقطت في البرازيل في 30 ديسمبر 2025."
+        },
+        "zh-CN": {
+          "title": "巴西将向超过3000万人发送登革热防控提示",
+          "summary": "巴西卫生部将于11月28日联合各州及市镇开展登革热、寨卡和基孔肯雅热防控行动，重点关注传播风险较高的地区。",
+          "body": "巴西传播风险较高的市镇居民将通过WhatsApp或政府门户网站Gov.br收到有关如何遏制埃及伊蚊孳生的建议。卫生部表示，预计将覆盖超过3000万人。这些信息是11月28日星期六全国动员日活动的一部分。\n\n公共卫生系统联合各州和市镇防控这种蚊子传播的三种疾病。据巴西CNN报道，伯南布哥州加拉纽斯市计划于周六首次释放携带沃尔巴克氏菌的蚊子。\n\n此次动员前，登革热报告病例有所减少。卫生部今年1月至10月共登记489,100例登革热可能病例，比2025年同期减少67%。",
+          "photoAlt": "一只埃及伊蚊停在绿色表面，腿上有白色环纹。",
+          "photoCaption": "资料照片。2025年12月30日在巴西拍摄的一只埃及伊蚊。"
+        },
+        "ru": {
+          "title": "Бразилия направит более чем 30 миллионам человек сообщения о профилактике денге",
+          "summary": "Минздрав Бразилии привлекает штаты и муниципалитеты к борьбе с денге, лихорадками Зика и чикунгунья 28 ноября. Особое внимание уделят районам с высоким риском передачи инфекции.",
+          "body": "Жители бразильских муниципалитетов с высоким риском заражения получат через WhatsApp или портал Gov.br советы о том, как ограничить размножение комаров Aedes aegypti. По данным Минздрава, рассылка рассчитана более чем на 30 миллионов человек и приурочена к общенациональной акции в субботу, 28 ноября.\n\nГосударственная система здравоохранения совместно со штатами и муниципалитетами ведёт борьбу с тремя заболеваниями, которые переносят эти комары. По сообщению CNN Brasil, в городе Гараньюнс в штате Пернамбуку на субботу намечен первый выпуск комаров, несущих бактерию вольбахию.\n\nАкция проходит на фоне снижения числа зарегистрированных случаев. С января по октябрь министерство зафиксировало 489 100 вероятных случаев денге, на 67% меньше, чем за те же месяцы 2025 года.",
+          "photoAlt": "Комар Aedes aegypti с белыми полосками на лапках на зелёной поверхности, снятый крупным планом.",
+          "photoCaption": "Архивное фото. Комар Aedes aegypti в Бразилии, 30 декабря 2025 года."
+        },
+        "ko": {
+          "title": "브라질, 3천만 명 넘는 주민에게 뎅기열 예방 안내 발송",
+          "summary": "브라질 보건부는 11월 28일 각 주 및 지방자치단체와 함께 뎅기열과 지카바이러스 감염증, 치쿤구니야열 예방에 나선다. 전파 위험이 높은 지역이 주요 대상이다.",
+          "body": "브라질에서 감염 위험이 높은 지역 주민들은 왓츠앱이나 정부 포털 Gov.br를 통해 이집트숲모기의 번식을 억제하는 방법을 안내받는다. 보건부에 따르면 대상은 3천만 명이 넘는다. 안내 발송은 11월 28일 토요일 전국에서 열리는 방역 활동의 일환이다.\n\n공공 보건 체계는 주 및 지방자치단체와 협력해 이 모기가 옮기는 세 가지 질병을 예방할 계획이다. CNN 브라질에 따르면 페르남부쿠주 가라뉴스에서는 토요일에 볼바키아균을 보유한 모기를 처음으로 방사할 예정이다.\n\n이번 캠페인은 신고 건수가 줄어든 가운데 진행된다. 보건부가 올해 1월부터 10월까지 집계한 뎅기열 추정 사례는 48만 9,100건으로 2025년 같은 기간보다 67% 감소했다.",
+          "photoAlt": "녹색 표면에 앉은 이집트숲모기를 가까이 찍은 사진으로 다리에 흰 띠가 보인다.",
+          "photoCaption": "자료 사진. 2025년 12월 30일 브라질에서 촬영한 이집트숲모기."
+        }
+      },
+      "verified": true
+    }
+  ]
+}
