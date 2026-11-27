@@ -1788,6 +1788,54 @@ test('la sous-rubrique Alberta retrouve les articles du Canada et les sujets pro
   assert.ok(links.includes('الصحة') && links.includes('ألبرتا') && links.includes('categorie=Alberta'));
 });
 
+test('les pays caribéens et le Brésil ont des filtres distincts et un répertoire traduit',async t=>{
+  const {mf,db}=await createNewsroom(t);
+  const now=new Date().toISOString();
+  const insert=db.prepare(`INSERT INTO articles(id,slug,title,category,summary,body,status,created_at,updated_at,published_at,author_id)
+    VALUES(?,?,?,?,'Résumé du reportage.','Corps du reportage.',?,?,?,?, 'test')`);
+  const fixtures=[
+    ['ecoles-haiti','Île-à-Vache : des écoles connectées','Éducation'],
+    ['croissance-jamaique','LA JAMAÏQUE prépare la reconstruction','Économie'],
+    ['economie-dominicaine','Une progression économique annoncée','République dominicaine'],
+    ['eau-belize','Un financement pour le traitement des eaux','Belize'],
+    ['dechets-guyana','Une stratégie de gestion des déchets','Guyana'],
+    ['prix-bresil','Au Brésil, les prix alimentaires progressent','Économie'],
+    ['guyane','En Guyane, un projet de protection de la forêt','Environnement'],
+    ['prenom','Dominique présente son nouveau roman','Culture'],
+    ['arme','Une grenade retrouvée lors d’une intervention','Justice'],
+    ['brouillon-jamaique','Jamaïque : un projet encore en préparation','Jamaïque'],
+  ];
+  await db.batch(fixtures.map(([slug,title,category])=>insert.bind(slug,slug,title,category,
+    slug.startsWith('brouillon') ? 'draft' : 'published',now,now,now)));
+  const html=async path=>{
+    const response=await mf.dispatchFetch(publicOrigin+path);
+    assert.equal(response.status,200);
+    return (await response.text()).split('<script type="module"')[0];
+  };
+  const paths=[['Haïti','ecoles-haiti'],['Jamaïque','croissance-jamaique'],['République dominicaine','economie-dominicaine'],
+    ['Belize','eau-belize'],['Guyana','dechets-guyana'],['Brazil','prix-bresil']];
+  for(const [country,expected] of paths){
+    const page=await html('/?rubrique=actualites&categorie='+encodeURIComponent(country));
+    for(const [,slug] of paths) assert.equal(page.includes('href="/article/'+slug+'"'),slug===expected,country+' / '+slug);
+    for(const slug of ['guyane','prenom','arme','brouillon-jamaique']) assert.ok(!page.includes('href="/article/'+slug+'"'),country+' / '+slug);
+  }
+  const caribbean=await html('/?rubrique=actualites&categorie=Cara%C3%AFbes');
+  for(const [,slug] of paths.slice(0,5)) assert.ok(caribbean.includes('href="/article/'+slug+'"'),slug);
+  assert.ok(!caribbean.includes('href="/article/prix-bresil"'));
+  const latin=await html('/?rubrique=actualites&categorie=Am%C3%A9rique%20latine');
+  assert.ok(latin.includes('href="/article/prix-bresil"'));
+  const dominica=await html('/?rubrique=actualites&categorie=Dominique');
+  assert.ok(!dominica.includes('href="/article/economie-dominicaine"'));
+  assert.ok(!dominica.includes('href="/article/prenom"'));
+  const english=await html('/?lang=en');
+  const directory=english.match(/<nav class="by-desk-directory"[^>]*>([\s\S]*?)<\/nav>/)?.[1] || '';
+  for(const label of ['Haiti','Jamaica','Dominican Republic','Belize','Guyana','Brazil','Caribbean','Latin America'])
+    assert.ok(directory.includes('>'+label+'</a>'),label);
+  assert.match(directory,/class="by-directory-countries"/);
+  const world=await html('/?rubrique=actualites&categorie=International');
+  for(const [,slug] of paths) assert.ok(world.includes('href="/article/'+slug+'"'),slug);
+});
+
 test('les moteurs trouvent les photos publiques, les traductions à jour et les dépêches récentes',async t=>{
   const {mf,db}=await createNewsroom(t);
   const read=async path=>(await mf.dispatchFetch(publicOrigin+path)).text();

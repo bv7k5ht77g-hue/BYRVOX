@@ -40,6 +40,7 @@
 .by-desk-directory [aria-current=page] {text-decoration:underline;text-underline-offset:3px}
 .by-desk-directory ul {display:grid;list-style:none;margin:5px 0 0;padding:0;gap:3px}
 .by-desk-directory li {font-size:.85rem;color:var(--muted)}
+.by-desk-directory .by-directory-countries {border-inline-start:1px solid var(--line);padding-inline-start:10px;margin-block:5px 9px;gap:4px}
 .by-most-rated ol {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,225px),1fr));gap:20px;margin:0;padding:0;list-style:none}
 .by-most-rated li {padding:0 0 10px;border-block-end:1px solid var(--line)}
 .by-most-rated li a {display:grid;gap:.4rem}

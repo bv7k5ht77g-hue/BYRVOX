@@ -1,5 +1,6 @@
 import type { CSSProperties, ComponentPropsWithoutRef } from 'react';
 import { canonicalCategory, parentDesk } from '../../lib/editorial-sections';
+import { countryRegion } from '../../lib/regional-coverage';
 import {
   BriefcaseBusiness, Building2, ChartColumn, Cpu, Earth, Flag, FlaskConical, Globe, GraduationCap,
   HeartPulse, Landmark, LayoutGrid, Leaf, Map as MapIcon, MapPin, Megaphone, Newspaper, Orbit, Palette,
@@ -51,6 +52,7 @@ const desks = [
   { names: ['Société'], icon: Users, color: '#79503c' },
   { names: ['Santé'], icon: HeartPulse, color: '#146751' },
   { names: ['Caraïbes', 'Antilles'], icon: TreePalm, color: '#00685e' },
+  { names: ['Amérique latine'], icon: Earth, color: '#516c2c' },
   { names: ['Haïti'], icon: MapIcon, color: '#74512d' },
   { names: ['États-Unis'], icon: Flag, color: '#714657' },
   { names: [''], icon: LayoutGrid, color: '#465166' },
@@ -67,7 +69,9 @@ const byName = new Map(desks.flatMap(desk => desk.names.map(name => [categoryKey
 
 function categoryAppearance(category: string) {
   const name = canonicalCategory(category);
-  return byName.get(categoryKey(name)) || byName.get(categoryKey(parentDesk(name))) || fallback;
+  const region = countryRegion(name);
+  return byName.get(categoryKey(name)) || (region ? byName.get(categoryKey(region)) : undefined)
+    || byName.get(categoryKey(parentDesk(name))) || fallback;
 }
 
 export function categoryColor(category: string) {

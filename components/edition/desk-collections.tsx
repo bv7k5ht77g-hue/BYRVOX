@@ -4,7 +4,7 @@ import { Star } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState, type CSSProperties, type ReactNode } from 'react';
 import { articleHref, type Summary } from '../../lib/edition';
-import { groupDesks, categoryHref, ratingChangedKey, type CategoryHeadlines, type RatedArticle } from '../../lib/editorial-sections';
+import { groupDesks, directoryRegions, categoryHref, ratingChangedKey, type CategoryHeadlines, type RatedArticle } from '../../lib/editorial-sections';
 import { discussionText } from '../../lib/discussion-copy';
 import { categoryLabel, localizedHref, publicLocales, type PublicLocale } from '../../lib/i18n';
 import { categoryColor } from './category-mark';
@@ -22,7 +22,12 @@ export function DeskDirectory({categories, current, lang}: {categories:string[];
   return <nav className="by-desk-directory" aria-label={sectionText(lang,'topics')}>
     {groupDesks(categories).map(desk => <div key={desk.name}>
       <a className="by-directory-parent" href={localizedHref(categoryHref(desk.name),lang)} aria-current={current === desk.name ? 'page' : undefined}>{categoryLabel(desk.name,lang)}</a>
-      {desk.children.length > 0 && <ul>{desk.children.map(child => <li key={child}><a href={localizedHref(categoryHref(child),lang)} aria-current={current === child ? 'page' : undefined}>{categoryLabel(child,lang)}</a></li>)}</ul>}
+      {desk.children.length > 0 && <ul>{directoryRegions(desk.children).map(({name,countries}) => <li key={name}>
+        <a href={localizedHref(categoryHref(name),lang)} aria-current={current === name ? 'page' : undefined}>{categoryLabel(name,lang)}</a>
+        {countries.length > 0 && <ul className="by-directory-countries">{countries.map(country=><li key={country}>
+          <a href={localizedHref(categoryHref(country),lang)} aria-current={current === country ? 'page' : undefined}>{categoryLabel(country,lang)}</a>
+        </li>)}</ul>}
+      </li>)}</ul>}
     </div>)}
   </nav>;
 }
@@ -68,7 +73,7 @@ export function DeskCollections({groups,lang}: {groups:CategoryHeadlines[];lang:
   const available = new Map(groups.filter(group=>group.stories.length).map(group=>[group.category,group]));
   return <div className="by-desk-collections">
     {groupDesks([...available.keys()]).map(desk=>{
-      const segments = desk.children.map(child=>available.get(child)!);
+      const segments = desk.children.flatMap(child=>available.has(child) ? [available.get(child)!] : []);
       const merged = new Map<string,Summary>();
       for(const group of [available.get(desk.name), ...segments]){
         for(const story of group?.stories || []) merged.set(story.slug,story);

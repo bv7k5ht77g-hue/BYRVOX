@@ -12,6 +12,7 @@ import { getHomepageLeadSlug } from "./homepage-lead";
 import { canonicalCategory, categoryAliases, deskFamilies, mostRatedLimit, orderedCategories, type CategoryHeadlines } from "./editorial-sections";
 import { albertaNationalTerms, albertaRegionalTerms, publicStoryCategory, sportKeywords } from "./story-topics";
 import { containsSearchTerms, hasSearchPhrase } from "./search-text";
+import { countryKeywords, regionalCountries, regionKeywords } from "./regional-coverage";
 
 const summaryFields = {
   slug: articles.slug,
@@ -79,9 +80,6 @@ export async function listPublishedArticles(limit?: number) {
   return rows.map(summary);
 }
 
-const haitiTerms = ['Haïti', 'haïtien', 'haïtienne', 'haïtiens', 'haïtiennes', 'Port-au-Prince'];
-const caribbeanTerms = [...haitiTerms, 'Caraïbes', 'Antilles', 'Guadeloupe', 'Martinique', 'Cuba', 'Jamaïque',
-  'Porto Rico', 'Puerto Rico', 'République dominicaine', 'Barbade', 'Trinité-et-Tobago', 'Bahamas', 'Sainte-Lucie'];
 const electionTerms = ['élection', 'élections', 'électoral', 'électorale', 'électoraux', 'électorales',
   'présidentielle', 'législatives', 'scrutin', 'scrutins', 'référendum'];
 
@@ -90,6 +88,15 @@ function categoryPredicate(name: string) {
   const exact = (names: string[]) => or(...names.map(n => sql`${articles.category} = ${n} COLLATE NOCASE`));
   const names = Object.hasOwn(categoryAliases,category) ? categoryAliases[category] : [category];
   const children = Object.hasOwn(deskFamilies,category) ? deskFamilies[category] : [];
+  const headline = sql`(' ' || ${articles.title} || ' ')`;
+  if (Object.hasOwn(countryKeywords,category)) {
+    return or(exact(names),hasSearchPhrase(headline,countryKeywords[category]));
+  }
+  if (Object.hasOwn(regionalCountries,category)) {
+    const countries = regionalCountries[category];
+    const terms = [category, ...(category === 'Caraïbes' ? ['Antilles'] : []), ...regionKeywords(category)];
+    return or(exact([...names,...countries.flatMap(country=>categoryAliases[country] || [country])]),hasSearchPhrase(headline,terms));
+  }
   if (category === 'Canada' || category === 'Alberta') {
     const copy = sql`(${articles.title} || ' ' || ${articles.summary})`;
     const dateline = sql`lower(trim(substr(${articles.title}, 1, instr(${articles.title}, ':') - 1), ' ' || char(160) || char(8239)))`;
@@ -99,16 +106,16 @@ function categoryPredicate(name: string) {
       and(exact(['Canada']),hasSearchPhrase(copy,albertaNationalTerms)));
     return or(exact([...names,...children]),regional);
   }
-  if (children.length) return exact([...names, ...children.flatMap(child => categoryAliases[child] || [child])]);
+  if (children.length) {
+    const categorized = exact([...names, ...children.flatMap(child => categoryAliases[child] || [child])]);
+    return category === 'International' ? or(categorized,hasSearchPhrase(headline,Object.values(countryKeywords).flat())) : categorized;
+  }
   if (category === 'Soccer' || category === 'LNH') {
     const sports = exact(['Sport','Sports','Hockey','Hockey sur glace']);
     const copy = sql`(' ' || ${articles.title} || ' ' || ${articles.summary} || ' ')`;
     const otherFootball = category === 'Soccer' ? hasSearchPhrase(copy,['football américain','football canadien','NFL','LCF']) : undefined;
     return or(exact(names), and(sports, hasSearchPhrase(copy,sportKeywords[category]), otherFootball ? not(otherFootball) : undefined));
   }
-  const headline = sql`(' ' || ${articles.title} || ' ')`;
-  if (category === 'Caraïbes') return or(exact([...names,...categoryAliases.Haïti,...caribbeanTerms]),hasSearchPhrase(headline,caribbeanTerms));
-  if (category === 'Haïti') return or(exact(names),hasSearchPhrase(headline,haitiTerms));
   if (category === 'Élections') return or(exact(names),hasSearchPhrase(headline,electionTerms));
   return exact(names);
 }
