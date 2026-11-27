@@ -1,0 +1,67 @@
+{
+  "articles": 12,
+  "languages": 9,
+  "paragraphs": 432,
+  "photos": [
+    {
+      "file": "media/michael-brun-bayo-brooklyn-2025.jpg",
+      "bytes": 113668,
+      "sha256": "8baf51475cf21cdce012dce3171f72d962bb46c638c01112ec17c7d6d70fba81"
+    },
+    {
+      "file": "media/joe-dwet-file-cotonou-2025.jpg",
+      "bytes": 102317,
+      "sha256": "cfc337317a502cfe6d6d089420127fa66cc5ad89c0a540cebf1c79c9040f815f"
+    },
+    {
+      "file": "media/tabou-combo-montreal-2014.jpg",
+      "bytes": 157472,
+      "sha256": "fc4567fccc4f695b90352033d7c2b8efabce74329e9dadc5a3df5b375a5b2574"
+    },
+    {
+      "file": "media/j-balvin-mexico-2026.jpg",
+      "bytes": 267700,
+      "sha256": "18ebac3383cce803c1b4a713ee8d53aeca4d785c667a859452dc05d4b2ffb1ee"
+    },
+    {
+      "file": "media/miley-cyrus-grammy-2024.png",
+      "bytes": 840176,
+      "sha256": "0a425a945282a3ef03f1d53d8e92c38d887fb15f77239733e41846f37ebd6b03"
+    },
+    {
+      "file": "media/carly-rae-jepsen-troubadour-2025.jpg",
+      "bytes": 163172,
+      "sha256": "5f5446a8ad93b248d2b917628402bc2fdef0f0d09ff5e8cdee31e1dcba047a65"
+    },
+    {
+      "file": "media/gordon-ramsay-fort-irwin-2014.jpg",
+      "bytes": 275606,
+      "sha256": "c23ec79a76b331214b68228b9da63f895ab7021d808b3694ed892a4e8298ddd5"
+    },
+    {
+      "file": "media/tatyana-ali-toronto-2012.jpg",
+      "bytes": 218734,
+      "sha256": "0edded99f96ad949d99d74fd986a681fb29cfa83fae3d9e271cbb861c16bd856"
+    },
+    {
+      "file": "media/gisele-bundchen-omina-2018.png",
+      "bytes": 658701,
+      "sha256": "0d2d3095b2d39aac5346e6e9a279d48e163277cb591ef198835d185bf76d38f2"
+    },
+    {
+      "file": "media/slayyyter-greek-theatre-2024.jpg",
+      "bytes": 5677368,
+      "sha256": "ba0b6809e918e4b10662ced995413db7d883ef3e8d4d1875cceb8c29bcd44e0b"
+    },
+    {
+      "file": "media/charlotte-cardin-baden-baden-2026.jpg",
+      "bytes": 102248,
+      "sha256": "2c99e652e726fffc197dc63271d6c46062e72abe2b477723521ad8c5cf8fb2c2"
+    },
+    {
+      "file": "media/britney-spears-london-2016.jpg",
+      "bytes": 3701704,
+      "sha256": "3f1015c231a1fad2f7d1d4837df8af2c58c2a70f61f11ccab5b9df37723f4f63"
+    }
+  ]
+}

@@ -34,6 +34,16 @@ Les tables, médias, réglages et éditions de BUZZEUR sont indépendants de ceu
 
 Privilégier les faits des dernières heures puis des dernières 24 à 48 heures, selon les fuseaux et les sources locales. Consulter médias locaux reconnus, institutions, musées, universités, observatoires, autorités municipales et annonces originales. Une exposition, une découverte ancienne ou un dossier explicatif peut être intéressant, mais doit garder ses dates réelles et être présenté comme tel. Les archives ne constituent pas artificiellement quinze nouveautés quotidiennes.
 
+## People et musique : priorités permanentes
+
+La demande éditoriale du 27 novembre 2026 ajoute les sujets people (« gossip ») vérifiés, le kompa haïtien, les scènes d’Haïti et des diasporas, la Caraïbe et les collaborations latino. Suivre notamment Joé Dwèt Filé, Michaël Brun et BAYO, ainsi que les albums, singles, concerts et récompenses annoncés par les artistes et leurs représentants officiels. Ces thèmes complètent la veille insolite internationale.
+
+Dans une édition de quinze articles, viser jusqu’à cinq sujets people lorsque des faits nouveaux documentés le permettent, et réserver une place aux nouveautés musicales. Ce sont des priorités, pas des quotas qui autorisent les doublons ou les rumeurs. Une annonce familiale rendue publique, une anecdote racontée par l’artiste, une apparition ou une collaboration confirmée peuvent alimenter la rubrique Stars. Une rumeur privée ne devient pas un fait par multiplication des reprises.
+
+Pour la musique, distinguer sortie annoncée, titre déjà disponible, réédition physique et album inédit. Vérifier de nouveau les dates chez l’artiste, le label ou la billetterie avant chaque livraison ; ne jamais prédire qu’un morceau sera un tube. Distinguer certification commerciale, classement et trophée remis par une cérémonie. Conserver tous les interprètes crédités. « Una Locura » appartient à ENOC (2020) et réunit Ozuna, J Balvin et Chencho Corleone. L’édition BAYO du 22 novembre 2026 s’est tenue à Little Haiti, dans la ville de Miami ; ne pas la déplacer dans la municipalité de North Miami.
+
+Les articles déjà publiés conservent leur date et leur identifiant. Corriger un fait existant à partir de nouvelles preuves par le portail et son historique ; l’agent ne remplace pas une correction manuelle et ne republie pas un ancien sujet comme s’il était nouveau.
+
 ## Vérifier et écrire
 
 - Ouvrir les sources, vérifier lieu, date de l’événement, date de publication, noms, chiffres et contexte. Privilégier la source primaire et chercher une confirmation indépendante. Deux reprises d’une dépêche, deux communiqués du même organisme, ou un communiqué et l’étude qu’il présente ne constituent pas deux confirmations indépendantes. Si une information non controversée repose sur une annonce officielle, l’attribuer clairement et ne pas affirmer davantage que la source.
