@@ -1,0 +1,145 @@
+{
+  "hour": "2026-11-27T03-initial-1",
+  "startedAt": "2026-11-27T03:45:38.757212+00:00",
+  "results": [
+    {
+      "rank": 15,
+      "status": "published",
+      "id": "souliers-rubis-magicien-oz",
+      "title": "Les souliers d’Oz étaient aussi un petit exploit de cinéma",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=souliers-rubis-magicien-oz&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/8a792f919f835cb69c148314ed2ddec37ac77646e06d2d06c07d33c8f29ebee5.webp"
+    },
+    {
+      "rank": 14,
+      "status": "published",
+      "id": "les-manchots-font-circuler-de-petites-vagues-dans-leur-groupe",
+      "title": "Chez les manchots, de petites vagues font bouger tout le groupe",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=les-manchots-font-circuler-de-petites-vagues-dans-leur-groupe&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/3485547bbd3457cd56c411e04d9c86fd25e191ade7dbb8e1dbb1d47d73f6c867.jpg"
+    },
+    {
+      "rank": 13,
+      "status": "published",
+      "id": "rivets-du-jean-petit-detail-grande-idee",
+      "title": "Ces petits rivets racontent une grande idée du jean",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=rivets-du-jean-petit-detail-grande-idee&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/7c08479f45bcd12915ec9c95902e283037d6a381b790e3e13b008de92959613e.jpg"
+    },
+    {
+      "rank": 12,
+      "status": "published",
+      "id": "axolotl-les-plumes-autour-de-sa-tete-sont-des-branchies",
+      "title": "Axolotl : les « plumes » autour de sa tête sont des branchies",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=axolotl-les-plumes-autour-de-sa-tete-sont-des-branchies&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/479d4ccaa300107081b4892555c071b07de4a9a2c929bbeda224e897aa31338c.jpg"
+    },
+    {
+      "rank": 11,
+      "status": "published",
+      "id": "premiere-video-youtube-dix-neuf-secondes-au-zoo",
+      "title": "La première vidéo YouTube tenait dans une visite au zoo",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=premiere-video-youtube-dix-neuf-secondes-au-zoo&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/9259695e2eaa9478f664fc8e2bd00ad44c4db9728cf3c99ab00fb60eb536921e.jpg"
+    },
+    {
+      "rank": 10,
+      "status": "published",
+      "id": "charlot-naissance-costume-1914",
+      "title": "La première apparition de Charlot cache un petit décalage",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=charlot-naissance-costume-1914&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/c4f8489f3e4bd7fd2c912ebd662fe9f99af057ef71419af2514889b5fc4bdc7a.webp"
+    },
+    {
+      "rank": 9,
+      "status": "published",
+      "id": "la-pieuvre-change-de-couleur-et-de-relief",
+      "title": "La pieuvre change de couleur… et même de relief",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=la-pieuvre-change-de-couleur-et-de-relief&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/c657768ed35daa00eefd631d2a685c7314192fea1baf6043d860406633d201f3.jpg"
+    },
+    {
+      "rank": 8,
+      "status": "published",
+      "id": "gif-petite-boucle-grande-reaction",
+      "title": "Le GIF : une petite boucle qui fait toute une réaction",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=gif-petite-boucle-grande-reaction&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/e0dffeb5f951f329451b44cf09f9f89fc10a3221fe7368c2820199d6bc520ec3.jpg"
+    },
+    {
+      "rank": 7,
+      "status": "published",
+      "id": "abbey-road-passage-pieton-1969",
+      "title": "Abbey Road : six photos pour une traversée devenue célèbre",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=abbey-road-passage-pieton-1969&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/cddcab2f3c695c9632d990a301f53811d7f65f6f90aa557ed98aa30d090c94b8.webp"
+    },
+    {
+      "rank": 6,
+      "status": "published",
+      "id": "le-wombat-fabrique-vraiment-des-crottes-cubiques",
+      "title": "Le wombat fabrique vraiment des crottes cubiques",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=le-wombat-fabrique-vraiment-des-crottes-cubiques&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/00b06105051a5bd27741e5063e4de414b139aafd7e40465e8ea223c43b59acef.jpg"
+    },
+    {
+      "rank": 5,
+      "status": "published",
+      "id": "trois-signes-pour-donner-un-ton-au-web",
+      "title": "Avant les émojis, trois signes ont donné un ton au Web",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=trois-signes-pour-donner-un-ton-au-web&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/287dce9527ec420b228b580128f3abae754d0b366014910e4623ccb7c1a4c876.jpg"
+    },
+    {
+      "rank": 4,
+      "status": "published",
+      "id": "disque-dor-voyager-musiques-terre",
+      "title": "Bach et Chuck Berry voyagent ensemble à bord de Voyager",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=disque-dor-voyager-musiques-terre&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/f9341f4c8e31c2d9f7a90cfd2b3626a9d9152fb09a34566fc65fadce17227b81.webp"
+    },
+    {
+      "rank": 3,
+      "status": "published",
+      "id": "les-piliers-de-la-creation-cachent-des-etoiles-en-formation",
+      "title": "Les Piliers de la création cachent des étoiles en formation",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=les-piliers-de-la-creation-cachent-des-etoiles-en-formation&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/9e26beccce55ee183269633e047de79a2f0976dcd18d5602692d77eae682ba2e.png"
+    },
+    {
+      "rank": 2,
+      "status": "published",
+      "id": "audrey-hepburn-unicef-1988",
+      "title": "Audrey Hepburn, cinq années d’engagement avec l’UNICEF",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=audrey-hepburn-unicef-1988&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/da3f3c5523f4c9f6cf5431206404101fd7f79df4d951f04a527540555acce40c.webp"
+    },
+    {
+      "rank": 1,
+      "status": "published",
+      "id": "les-abeilles-donnent-des-adresses-en-dansant",
+      "title": "Les abeilles donnent des adresses… en dansant",
+      "languages": 9,
+      "url": "https://buzzeur.byrvox.today/article/?id=les-abeilles-donnent-des-adresses-en-dansant&lang=fr",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/2f4bdbdb2158a0c7778f875a8e14507cd0b25912bbea6e36b46c7f1fc79c0848.jpg"
+    }
+  ],
+  "errors": [],
+  "completedAt": "2026-11-27T03:57:44.041119+00:00",
+  "newlyPublished": 15,
+  "verifiedPublic": 15
+}

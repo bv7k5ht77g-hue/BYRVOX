@@ -1,0 +1,602 @@
+{
+  "hour": "2026-11-27T03-initial-2",
+  "startedAt": "2026-11-27T04:00:28.902154+00:00",
+  "results": [
+    {
+      "rank": 10,
+      "status": "published",
+      "id": "pourquoi-les-aurores-passent-du-vert-au-rouge",
+      "url": "https://buzzeur.byrvox.today/article/?id=pourquoi-les-aurores-passent-du-vert-au-rouge&lang=fr",
+      "verified": true,
+      "title": "Pourquoi les aurores passent du vert au rouge",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/35218da0b4683d373c0c34fc5bc38e7107290d5ae993007e5d97009574b2d2f9.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=pourquoi-les-aurores-passent-du-vert-au-rouge&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=pourquoi-les-aurores-passent-du-vert-au-rouge&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=pourquoi-les-aurores-passent-du-vert-au-rouge&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=pourquoi-les-aurores-passent-du-vert-au-rouge&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=pourquoi-les-aurores-passent-du-vert-au-rouge&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=pourquoi-les-aurores-passent-du-vert-au-rouge&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=pourquoi-les-aurores-passent-du-vert-au-rouge&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=pourquoi-les-aurores-passent-du-vert-au-rouge&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=pourquoi-les-aurores-passent-du-vert-au-rouge&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 9,
+      "status": "published",
+      "id": "cafe-suspendu-un-geste-pour-un-inconnu",
+      "url": "https://buzzeur.byrvox.today/article/?id=cafe-suspendu-un-geste-pour-un-inconnu&lang=fr",
+      "verified": true,
+      "title": "Le café suspendu : payer une tasse pour quelqu’un qu’on ne connaît pas",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/36100129dc888370a5c5289dd0cd30369466d7b15be12ff07c11ab991590e40a.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cafe-suspendu-un-geste-pour-un-inconnu&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cafe-suspendu-un-geste-pour-un-inconnu&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cafe-suspendu-un-geste-pour-un-inconnu&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cafe-suspendu-un-geste-pour-un-inconnu&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cafe-suspendu-un-geste-pour-un-inconnu&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cafe-suspendu-un-geste-pour-un-inconnu&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cafe-suspendu-un-geste-pour-un-inconnu&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cafe-suspendu-un-geste-pour-un-inconnu&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cafe-suspendu-un-geste-pour-un-inconnu&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 8,
+      "status": "published",
+      "id": "rubik-cube-1974-design",
+      "url": "https://buzzeur.byrvox.today/article/?id=rubik-cube-1974-design&lang=fr",
+      "verified": true,
+      "title": "Avant le casse-tête mondial, le Rubik’s Cube était une idée de design",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/3cacb04ceee4124f37ce2b30d476797696c346b69720e24ff7572f628e1b56d0.webp",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rubik-cube-1974-design&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rubik-cube-1974-design&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rubik-cube-1974-design&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rubik-cube-1974-design&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rubik-cube-1974-design&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rubik-cube-1974-design&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rubik-cube-1974-design&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rubik-cube-1974-design&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=rubik-cube-1974-design&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 7,
+      "status": "published",
+      "id": "cave-canem-pompei-message-sur-le-seuil",
+      "url": "https://buzzeur.byrvox.today/article/?id=cave-canem-pompei-message-sur-le-seuil&lang=fr",
+      "verified": true,
+      "title": "À Pompéi, un chien en mosaïque vous attend sur le seuil",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/d29a6e8b49eeb7d435280e7f3a48339185c5e85e257b47623a758faf9da470b6.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cave-canem-pompei-message-sur-le-seuil&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cave-canem-pompei-message-sur-le-seuil&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cave-canem-pompei-message-sur-le-seuil&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cave-canem-pompei-message-sur-le-seuil&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cave-canem-pompei-message-sur-le-seuil&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cave-canem-pompei-message-sur-le-seuil&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cave-canem-pompei-message-sur-le-seuil&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cave-canem-pompei-message-sur-le-seuil&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=cave-canem-pompei-message-sur-le-seuil&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 6,
+      "status": "published",
+      "id": "bake-off-trois-defis-patisserie",
+      "url": "https://buzzeur.byrvox.today/article/?id=bake-off-trois-defis-patisserie&lang=fr",
+      "verified": true,
+      "title": "Pourquoi Bake Off organise ses épisodes en trois défis",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/a0cf87c610eed02c5d9b5a3478e9cf8df94f8b7c7e7424710bedba4e7c2f2cd0.webp",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=bake-off-trois-defis-patisserie&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=bake-off-trois-defis-patisserie&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=bake-off-trois-defis-patisserie&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=bake-off-trois-defis-patisserie&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=bake-off-trois-defis-patisserie&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=bake-off-trois-defis-patisserie&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=bake-off-trois-defis-patisserie&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=bake-off-trois-defis-patisserie&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=bake-off-trois-defis-patisserie&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 5,
+      "status": "published",
+      "id": "les-oiseaux-de-paradis-repetent-leurs-pas-de-danse",
+      "url": "https://buzzeur.byrvox.today/article/?id=les-oiseaux-de-paradis-repetent-leurs-pas-de-danse&lang=fr",
+      "verified": true,
+      "title": "Les oiseaux de paradis répètent leurs pas de danse",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/b745fbd1cdc4270ab3e9b18ecaa8862fdd979a91fafdcd48dd22be1e54601e8c.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=les-oiseaux-de-paradis-repetent-leurs-pas-de-danse&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=les-oiseaux-de-paradis-repetent-leurs-pas-de-danse&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=les-oiseaux-de-paradis-repetent-leurs-pas-de-danse&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=les-oiseaux-de-paradis-repetent-leurs-pas-de-danse&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=les-oiseaux-de-paradis-repetent-leurs-pas-de-danse&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=les-oiseaux-de-paradis-repetent-leurs-pas-de-danse&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=les-oiseaux-de-paradis-repetent-leurs-pas-de-danse&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=les-oiseaux-de-paradis-repetent-leurs-pas-de-danse&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=les-oiseaux-de-paradis-repetent-leurs-pas-de-danse&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 4,
+      "status": "published",
+      "id": "carte-postale-quelques-lignes-pour-un-proche",
+      "url": "https://buzzeur.byrvox.today/article/?id=carte-postale-quelques-lignes-pour-un-proche&lang=fr",
+      "verified": true,
+      "title": "La carte postale, quelques lignes qui choisissent leur destinataire",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/d2fc078abb4c8e2de6a03f9911341f409c0f75c5bb31ad7059d50fc8557054b4.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=carte-postale-quelques-lignes-pour-un-proche&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=carte-postale-quelques-lignes-pour-un-proche&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=carte-postale-quelques-lignes-pour-un-proche&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=carte-postale-quelques-lignes-pour-un-proche&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=carte-postale-quelques-lignes-pour-un-proche&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=carte-postale-quelques-lignes-pour-un-proche&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=carte-postale-quelques-lignes-pour-un-proche&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=carte-postale-quelques-lignes-pour-un-proche&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=carte-postale-quelques-lignes-pour-un-proche&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 3,
+      "status": "published",
+      "id": "retour-du-roi-onze-oscars-2004",
+      "url": "https://buzzeur.byrvox.today/article/?id=retour-du-roi-onze-oscars-2004&lang=fr",
+      "verified": true,
+      "title": "Le Retour du roi : onze nominations, onze Oscars en 2004",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/072c144fc3bf818b07aa75ecce9982f7ac41db511cae41882eaa6dca69489b75.webp",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=retour-du-roi-onze-oscars-2004&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=retour-du-roi-onze-oscars-2004&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=retour-du-roi-onze-oscars-2004&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=retour-du-roi-onze-oscars-2004&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=retour-du-roi-onze-oscars-2004&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=retour-du-roi-onze-oscars-2004&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=retour-du-roi-onze-oscars-2004&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=retour-du-roi-onze-oscars-2004&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=retour-du-roi-onze-oscars-2004&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 2,
+      "status": "published",
+      "id": "ces-champignons-produisent-leur-propre-lumiere",
+      "url": "https://buzzeur.byrvox.today/article/?id=ces-champignons-produisent-leur-propre-lumiere&lang=fr",
+      "verified": true,
+      "title": "Ces champignons produisent leur propre lumière",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/b15051b97809337927ca17c96ea98e943e79c4e53b8b5abe482dc1993add7554.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ces-champignons-produisent-leur-propre-lumiere&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ces-champignons-produisent-leur-propre-lumiere&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ces-champignons-produisent-leur-propre-lumiere&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ces-champignons-produisent-leur-propre-lumiere&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ces-champignons-produisent-leur-propre-lumiere&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ces-champignons-produisent-leur-propre-lumiere&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ces-champignons-produisent-leur-propre-lumiere&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ces-champignons-produisent-leur-propre-lumiere&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=ces-champignons-produisent-leur-propre-lumiere&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    },
+    {
+      "rank": 1,
+      "status": "published",
+      "id": "chaise-thonet-14-design-du-quotidien",
+      "url": "https://buzzeur.byrvox.today/article/?id=chaise-thonet-14-design-du-quotidien&lang=fr",
+      "verified": true,
+      "title": "La chaise Thonet 14 : du design caché à la table du café",
+      "image": "https://byrvox.noventra.ca/api/buzzeur/media/0047819bc419904976239342757a79ed0b502887e9e2cbe3cc8734e69db78137.jpg",
+      "languages": 9,
+      "languageChecks": {
+        "fr": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=chaise-thonet-14-design-du-quotidien&lang=fr",
+          "readback": "feed"
+        },
+        "en": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=chaise-thonet-14-design-du-quotidien&lang=en",
+          "readback": "feed"
+        },
+        "es": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=chaise-thonet-14-design-du-quotidien&lang=es",
+          "readback": "feed"
+        },
+        "it": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=chaise-thonet-14-design-du-quotidien&lang=it",
+          "readback": "feed"
+        },
+        "zh": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=chaise-thonet-14-design-du-quotidien&lang=zh",
+          "readback": "feed"
+        },
+        "ko": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=chaise-thonet-14-design-du-quotidien&lang=ko",
+          "readback": "feed"
+        },
+        "ru": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=chaise-thonet-14-design-du-quotidien&lang=ru",
+          "readback": "feed"
+        },
+        "ar": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=chaise-thonet-14-design-du-quotidien&lang=ar",
+          "readback": "feed"
+        },
+        "sw": {
+          "verified": true,
+          "url": "https://buzzeur.byrvox.today/article/?id=chaise-thonet-14-design-du-quotidien&lang=sw",
+          "readback": "feed"
+        }
+      },
+      "imageVerified": true,
+      "verificationErrors": []
+    }
+  ],
+  "errors": [],
+  "completedAt": "2026-11-27T04:01:49.260690+00:00",
+  "newlyPublished": 10,
+  "recorded": 0,
+  "duplicates": 0,
+  "verifiedPublic": 10
+}
