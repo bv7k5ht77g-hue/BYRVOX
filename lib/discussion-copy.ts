@@ -7,6 +7,8 @@ const labels = {
   heading: ['Réactions des lecteurs','Reader feedback','Opiniones de los lectores','آراء القراء','读者反馈','Отзывы читателей','독자 의견'],
   comments: ['Commentaires','Comments','Comentarios','التعليقات','评论','Комментарии','댓글'],
   rate: ['Évaluer cet article','Rate this article','Valorar este artículo','قيّم هذا المقال','为本文评分','Оценить статью','기사 평가하기'],
+  guestRating: ['Vous pouvez noter cet article sans compte.','You can rate this article without an account.','Puedes valorar este artículo sin una cuenta.','يمكنك تقييم هذا المقال دون حساب.','无需账户即可为本文评分。','Вы можете оценить статью без аккаунта.','계정 없이 이 기사에 평점을 남길 수 있습니다.'],
+  ratingCookieRequired: ['Autorisez les cookies nécessaires pour enregistrer votre note, puis réessayez.','Allow necessary cookies to save your rating, then try again.','Permite las cookies necesarias para guardar tu valoración y vuelve a intentarlo.','اسمح بملفات تعريف الارتباط اللازمة لحفظ تقييمك ثم أعد المحاولة.','请允许保存评分所需的 Cookie，然后重试。','Разрешите необходимые файлы cookie для сохранения оценки и повторите попытку.','평점 저장에 필요한 쿠키를 허용한 후 다시 시도하세요.'],
   yourRating: ['Votre note','Your rating','Tu puntuación','تقييمك','您的评分','Ваша оценка','내 평점'],
   average: ['Note moyenne','Average rating','Puntuación media','متوسط التقييم','平均评分','Средняя оценка','평균 평점'],
   votes: ['Nombre de notes','Number of ratings','Número de valoraciones','عدد التقييمات','评分人数','Число оценок','평가 수'],

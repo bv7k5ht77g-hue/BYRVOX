@@ -10,7 +10,7 @@ import './discussion.css';
 
 type Comment = {id:string; body:string; createdAt:string; authorName:string};
 type Ratings = {average:number|null; count:number; mine:number|null};
-type Discussion = {comments:Comment[]; ratings:Ratings; canParticipate:boolean; hasMore:boolean};
+type Discussion = {comments:Comment[]; ratings:Ratings; canRate:boolean; canParticipate:boolean; hasMore:boolean};
 type Words = Parameters<typeof discussionText>[1];
 
 function Rating({ratings, active, locale, saving, notice, onRate}:{
@@ -103,7 +103,7 @@ export function ArticleDiscussion({slug,locale}: {slug:string;locale:PublicLocal
   }
 
   async function write(kind:'comment'|'rating', score?:number) {
-    if (busy || !data?.canParticipate || (kind === 'comment' && !draft.trim())) return;
+    if (busy || !data || (kind === 'rating' && !data.canRate) || (kind === 'comment' && (!data.canParticipate || !draft.trim()))) return;
     setBusy(kind);
     const notify = kind === 'comment' ? setCommentNotice : setRatingNotice;
     notify(null);
@@ -112,7 +112,8 @@ export function ArticleDiscussion({slug,locale}: {slug:string;locale:PublicLocal
       const body = kind === 'rating' ? {kind,score} : {kind,body:comment,requestId:await commentRequestId(comment)};
       const response = await fetch(endpoint,{method:'POST',cache:'no-store',
         headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
-      if (response.status === 401) {setData({...data,canParticipate:false}); return;}
+      if (response.status === 401 && kind === 'comment') {setData({...data,canParticipate:false}); return;}
+      if (response.status === 428 && kind === 'rating') {notify('ratingCookieRequired'); reload(value=>value+1); return;}
       if (response.status === 403) {notify('restricted'); return;}
       if (response.status === 429) {notify('rateLimit'); return;}
       if (!response.ok) throw new Error();
@@ -144,7 +145,8 @@ export function ArticleDiscussion({slug,locale}: {slug:string;locale:PublicLocal
       <button type="button" className="discussion-more" onClick={()=>reload(value=>value+1)}>{t('retry')}</button></>}
     {!data && !loadError && <p className="discussion-notice" role="status">{t('loading')}</p>}
     {data && <>
-      <Rating ratings={data.ratings} active={data.canParticipate} locale={locale} saving={busy !== null}
+      {!data.canParticipate && <p className="discussion-help">{t('guestRating')}</p>}
+      <Rating ratings={data.ratings} active={data.canRate} locale={locale} saving={busy !== null}
         notice={ratingNotice} onRate={score=>void write('rating',score)}/>
       <section className="discussion-comments" aria-labelledby="article-comments-title">
         <h3 id="article-comments-title">{t('comments')}</h3>

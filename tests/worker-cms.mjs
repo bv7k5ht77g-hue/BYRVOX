@@ -1634,10 +1634,11 @@ test('les lecteurs évaluent une seule fois et la rédaction contrôle les comme
   });
   const anonymous = await read();
   assert.equal(anonymous.canParticipate,false);
+  assert.equal(anonymous.canRate,true);
   assert.deepEqual(anonymous.comments,[]);
   assert.deepEqual(anonymous.ratings,{average:null,count:0,mine:null});
   assert.equal((await read(first)).canParticipate,true);
-  assert.equal((await submit(null,{kind:'rating',score:5})).status,401);
+  assert.equal((await submit(null,{kind:'rating',score:5})).status,428);
   assert.equal((await submit(null,{kind:'comment',body:'Commentaire anonyme.'})).status,401);
   assert.equal((await submit(first,{kind:'rating',score:4},'https://other.example.invalid')).status,403);
   for (const score of [0,6,2.5]) assert.equal((await submit(first,{kind:'rating',score})).status,422);
@@ -1647,6 +1648,22 @@ test('les lecteurs évaluent une seule fois et la rédaction contrôle les comme
   assert.deepEqual((await read()).ratings,{average:4,count:2,mine:null});
   assert.deepEqual((await read(first)).ratings,{average:4,count:2,mine:5});
   assert.deepEqual((await read(second)).ratings,{average:4,count:2,mine:3});
+
+  const guestResponse=await mf.dispatchFetch(feedback);
+  assert.equal(guestResponse.status,200);
+  const guestHeader=guestResponse.headers.get('set-cookie');
+  assert.match(guestHeader ?? '',/__Host-byrvox-rating=[0-9a-f]{64}/);
+  assert.match(guestHeader ?? '',/HttpOnly/i);
+  assert.match(guestHeader ?? '',/Secure/i);
+  const guest=guestHeader.split(';')[0];
+  assert.equal((await submit(guest,{kind:'rating',score:6})).status,422);
+  assert.equal((await submit(guest,{kind:'rating',score:4},'https://other.example.invalid')).status,403);
+  assert.equal((await submit(guest,{kind:'rating',score:1})).status,200);
+  assert.equal((await submit(guest,{kind:'rating',score:4})).status,200);
+  assert.deepEqual((await read(guest)).ratings,{average:4,count:3,mine:4});
+  assert.equal((await read(guest)).canParticipate,false);
+  assert.equal((await submit(guest,{kind:'comment',body:'Commentaire invité.'})).status,401);
+  assert.equal((await db.prepare('SELECT count(*) AS n FROM article_guest_ratings').first()).n,1);
 
   const comment = {kind:'comment',body:'Comment la rédaction vérifie-t-elle les sources de cet article ?',
     requestId:'a714aca0-c397-4d57-b10d-93991a84dc09'};
@@ -1755,6 +1772,9 @@ test('les rubriques regroupent les sous-rubriques et le classement compte les vo
   assert.equal(spotlight.match(/<article class="by-spotlight-card">/g).length,4);
   assert.match(spotlight,/<a class="by-spotlight-more" href="\/\?rubrique=actualites"/);
   await db.prepare('DELETE FROM article_ratings').run();
+  await db.prepare('INSERT INTO article_guest_ratings(slug,guest_digest,score,updated_at) VALUES (?,?,?,?)').bind('trade','guest-test',5,now).run();
+  assert.deepEqual(ratingSlugs(await html('/')),['trade']);
+  await db.prepare('DELETE FROM article_guest_ratings').run();
   const empty = await html('/?lang=en');
   const emptyRatings = empty.match(/<section[^>]*aria-labelledby="most-rated-heading"[^>]*>([\s\S]*?)<\/section>/)?.[1];
   assert.match(emptyRatings || '', /Most rated stories/);
