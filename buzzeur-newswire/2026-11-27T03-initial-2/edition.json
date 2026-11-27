@@ -1,0 +1,1386 @@
+{
+  "hour": "2026-11-27T03-initial-2",
+  "articles": [
+    {
+      "eventKey": "chaise-thonet-14-design-du-quotidien",
+      "category": "pop-culture",
+      "tags": [
+        "pop-culture",
+        "mode-looks"
+      ],
+      "publishedAt": "2026-11-26",
+      "readMinutes": 2,
+      "verified": true,
+      "sources": [
+        {
+          "title": "Thonet Chair No. 14",
+          "url": "https://designmuseum.org/discover-design/all-design-objects/thonet-chair-no-14",
+          "publisher": "Design Museum"
+        },
+        {
+          "title": "Thonet and the invention of bentwood furniture",
+          "url": "https://www.vam.ac.uk/articles/thonet-and-the-invention-of-bentwood-furniture",
+          "publisher": "Victoria and Albert Museum"
+        }
+      ],
+      "photo": {
+        "download": "media/c-chaise-thonet-14-design-du-quotidien.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thonet-Stuhl-5120.jpg",
+        "credit": "Wuselig / Wikimedia Commons — CC0 1.0. Thonet no 14, vers 1885–1890, Museum für Kunst und Kulturgeschichte, Dortmund.",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "translations": {
+        "fr": {
+          "title": "La chaise Thonet 14 : du design caché à la table du café",
+          "excerpt": "Courbes de bois, pièces assemblées et silhouette familière : une chaise peut raconter beaucoup sans attirer l’attention.",
+          "body": [
+            "Un dossier arrondi, des pieds fins et une assise légère : la Thonet numéro 14 a une silhouette que l’on peut reconnaître sans connaître son nom. Lancée en 1859, elle associe, selon le Design Museum, une structure en hêtre à une assise en cannage.",
+            "Le V&A décrit une fabrication fondée sur le cintrage du bois et sur des pièces expédiées avant leur assemblage. Ce qui semble être une simple courbe appartient donc aussi à une organisation du travail. Le dessin de l’objet et sa manière de voyager se répondent.",
+            "Pour la regarder autrement, suivez une ligne du dossier jusqu’à l’assise, puis repérez les raccords. On voit mieux comment une forme peut paraître continue tout en étant composée d’éléments distincts. Pas besoin de vocabulaire savant : observer où les pièces se rejoignent donne déjà une lecture du meuble.",
+            "Cette chaise fournit un petit jeu pour la prochaine pause au café : regarder ce qui soutient la table et les conversations. Une silhouette ressemblante ne prouve toutefois ni la marque ni l’âge d’un siège. Elle peut simplement inviter à remarquer le design des objets que l’on utilise sans y penser."
+          ],
+          "alt": "Chaise Thonet numéro 14 conservée au musée d’art et d’histoire culturelle de Dortmund.",
+          "imageCredit": "Wuselig / Wikimedia Commons — CC0 1.0. Thonet no 14, vers 1885–1890, Museum für Kunst und Kulturgeschichte, Dortmund."
+        },
+        "en": {
+          "title": "Thonet No. 14: the design hiding at the café table",
+          "excerpt": "Curved wood, assembled parts and a familiar silhouette: a chair can say plenty without demanding attention.",
+          "body": [
+            "A rounded back, slim legs and a light-looking seat: Thonet No. 14 has a silhouette you may recognise without knowing its name. Launched in 1859, it combines a beechwood frame with a cane seat, as described by the Design Museum.",
+            "The V&A describes manufacturing based on bending wood and shipping parts before assembly. What looks like a simple curve is therefore also connected to the organisation of work. The object’s design and the way it travels answer each other.",
+            "To see it differently, follow a line from the back towards the seat, then locate the joints. It becomes easier to understand how a shape can look continuous while consisting of separate elements. No specialist vocabulary is required: noticing where the parts meet already offers a way to read the chair.",
+            "This chair suggests a small game for your next café break: look at what supports the table and the conversation. A similar silhouette does not, however, establish a chair’s maker or age. It can simply encourage you to notice the design of objects you use without thinking."
+          ],
+          "alt": "Thonet No. 14 chair in Dortmund’s Museum of Art and Cultural History.",
+          "imageCredit": "Wuselig / Wikimedia Commons — CC0 1.0. Thonet No. 14, circa 1885–1890, Museum für Kunst und Kulturgeschichte, Dortmund."
+        },
+        "es": {
+          "title": "Thonet número 14: el diseño escondido junto a la mesa del café",
+          "excerpt": "Madera curvada, piezas ensambladas y una silueta familiar: una silla puede contar mucho sin llamar la atención.",
+          "body": [
+            "Un respaldo redondeado, patas finas y un asiento ligero: la Thonet número 14 tiene una silueta reconocible incluso sin saber su nombre. Lanzada en 1859, combina, según el Design Museum, una estructura de haya con un asiento de rejilla.",
+            "El V&A describe una fabricación basada en curvar la madera y enviar las piezas antes de su montaje. Lo que parece una simple curva también forma parte de una organización del trabajo. El diseño del objeto y su manera de viajar se responden mutuamente.",
+            "Para mirarla de otra manera, sigue una línea desde el respaldo hasta el asiento y localiza después las uniones. Así se entiende mejor cómo una forma puede parecer continua y estar compuesta por elementos distintos. No hace falta vocabulario especializado: observar dónde se unen las piezas ya permite leer el mueble.",
+            "Esta silla propone un pequeño juego para la próxima pausa en una cafetería: fijarse en lo que sostiene la mesa y la conversación. Una silueta parecida, sin embargo, no demuestra la marca ni la edad de una silla. Puede simplemente animarnos a descubrir el diseño de objetos que usamos sin pensar."
+          ],
+          "alt": "Silla Thonet número 14 conservada en el Museo de Arte e Historia Cultural de Dortmund.",
+          "imageCredit": "Wuselig / Wikimedia Commons — CC0 1.0. Thonet n.º 14, hacia 1885–1890, Museum für Kunst und Kulturgeschichte, Dortmund."
+        },
+        "it": {
+          "title": "Thonet numero 14: il design nascosto al tavolino del caffè",
+          "excerpt": "Legno curvato, pezzi assemblati e una sagoma familiare: una sedia può raccontare molto senza farsi notare.",
+          "body": [
+            "Uno schienale arrotondato, gambe sottili e una seduta leggera: la Thonet numero 14 ha una sagoma riconoscibile anche senza conoscerne il nome. Presentata nel 1859, unisce, secondo il Design Museum, una struttura in faggio a una seduta in paglia di Vienna.",
+            "Il V&A descrive una produzione basata sulla curvatura del legno e su pezzi spediti prima dell’assemblaggio. Quella che sembra una semplice curva appartiene quindi anche a un’organizzazione del lavoro. Il disegno dell’oggetto e il suo modo di viaggiare si richiamano a vicenda.",
+            "Per guardarla diversamente, seguite una linea dallo schienale alla seduta, poi individuate le giunzioni. Diventa più chiaro come una forma possa apparire continua pur essendo composta da elementi distinti. Non serve un lessico specialistico: osservare dove si incontrano i pezzi offre già una lettura del mobile.",
+            "Questa sedia suggerisce un piccolo gioco per la prossima pausa al bar: guardare ciò che sostiene il tavolino e le conversazioni. Una sagoma simile, però, non dimostra né la marca né l’età di una sedia. Può semplicemente invitarci a notare il design degli oggetti che usiamo senza pensarci."
+          ],
+          "alt": "Sedia Thonet numero 14 conservata nel Museo di arte e storia culturale di Dortmund.",
+          "imageCredit": "Wuselig / Wikimedia Commons — CC0 1.0. Thonet n. 14, circa 1885–1890, Museum für Kunst und Kulturgeschichte, Dortmund."
+        },
+        "zh": {
+          "title": "托内特 14 号椅：藏在咖啡桌旁的设计",
+          "excerpt": "弯曲的木材、组装的零件和熟悉的轮廓：一把椅子不必抢眼，也能讲很多故事。",
+          "body": [
+            "圆弧形的椅背、细长的椅腿和轻巧的椅面：即使不知道名称，也可能认得托内特 14 号椅的轮廓。伦敦设计博物馆介绍，这款于 1859 年推出的椅子，结合了山毛榉木框架和藤编座面。",
+            "V&A 博物馆描述了一种以弯木工艺为基础、先运输零件再组装的生产方式。因此，看似简单的一条曲线，也属于一套工作组织方式。物件的设计与它的运输方法彼此呼应。",
+            "想换个角度看它，可以顺着一条线从椅背看到椅面，再找出连接处。这样更容易理解，一个看起来连贯的形状，如何由不同部件构成。不需要专业术语：留意零件在哪里相接，就已经是在读懂家具。",
+            "这把椅子也给下一次咖啡时间提供了一个小游戏：观察承托桌边交谈的家具。不过，相似轮廓不能证明椅子的品牌或年代。它只是邀请我们注意那些每天使用、却很少认真看过的物件设计。"
+          ],
+          "alt": "多特蒙德艺术与文化历史博物馆收藏的托内特 14 号椅。",
+          "imageCredit": "Wuselig / 维基共享资源 — CC0 1.0。约 1885–1890 年的托内特 14 号椅，藏于多特蒙德艺术与文化历史博物馆。"
+        },
+        "ko": {
+          "title": "토네트 14번 의자: 카페 테이블 옆에 숨어 있는 디자인",
+          "excerpt": "휘어진 나무, 조립된 부품, 익숙한 윤곽. 의자는 시선을 끌지 않고도 많은 이야기를 한다.",
+          "body": [
+            "둥근 등받이, 가는 다리, 가벼워 보이는 좌판. 토네트 14번 의자는 이름을 몰라도 윤곽을 알아볼 수 있다. 디자인 뮤지엄의 설명에 따르면 1859년에 출시된 이 의자는 너도밤나무 틀과 등나무로 짠 좌판을 결합했다.",
+            "V&A는 나무를 휘는 기술과 조립 전에 부품을 운송하는 방식에 기반한 생산을 설명한다. 단순한 곡선으로 보이는 것이 작업을 조직하는 방식의 일부이기도 한 것이다. 물건의 디자인과 이동 방법이 서로 맞물려 있다.",
+            "다르게 보고 싶다면 등받이에서 좌판까지 선 하나를 따라간 뒤 연결 부위를 찾아보자. 서로 다른 부품으로 만들어졌는데도 하나로 이어진 형태처럼 보이는 이유를 이해하기 쉬워진다. 전문 용어는 필요 없다. 부품이 어디서 만나는지 살피는 것만으로도 가구를 읽는 방법이 된다.",
+            "이 의자는 다음 카페 휴식 때 해 볼 작은 놀이를 제안한다. 테이블 곁의 대화를 받쳐 주는 가구를 관찰하는 것이다. 다만 비슷한 윤곽만으로 제조사나 제작 연도를 알 수는 없다. 그저 생각 없이 쓰던 물건의 디자인을 알아차리는 계기가 될 수 있다."
+          ],
+          "alt": "도르트문트 예술문화사 박물관이 소장한 토네트 14번 의자.",
+          "imageCredit": "Wuselig / 위키미디어 공용 — CC0 1.0. 약 1885~1890년의 토네트 14번 의자, 도르트문트 Museum für Kunst und Kulturgeschichte 소장."
+        },
+        "ru": {
+          "title": "Стул Thonet № 14: дизайн, спрятанный у столика кафе",
+          "excerpt": "Гнутое дерево, собранные детали и знакомый силуэт: стул способен многое рассказать, не привлекая внимания.",
+          "body": [
+            "Округлая спинка, тонкие ножки и лёгкое на вид сиденье: силуэт Thonet № 14 можно узнать, даже не зная названия. По описанию Design Museum, модель, представленная в 1859 году, сочетает буковый каркас с плетёным сиденьем.",
+            "Музей V&A описывает производство, основанное на гнутье дерева и отправке деталей до сборки. Поэтому кажущийся простым изгиб связан ещё и с организацией труда. Устройство предмета и способ его перевозки дополняют друг друга.",
+            "Чтобы взглянуть иначе, проследите линию от спинки к сиденью, затем найдите соединения. Так легче понять, как форма выглядит непрерывной, хотя состоит из отдельных частей. Специальная терминология не нужна: наблюдение за местами стыков уже даёт ключ к устройству мебели.",
+            "Этот стул предлагает небольшую игру для следующего перерыва в кафе: присмотреться к тому, что поддерживает разговор у столика. Впрочем, похожий силуэт не доказывает ни марку, ни возраст стула. Он лишь может побудить замечать дизайн вещей, которыми мы пользуемся не задумываясь."
+          ],
+          "alt": "Стул Thonet № 14 из Музея искусства и истории культуры в Дортмунде.",
+          "imageCredit": "Wuselig / Викисклад — CC0 1.0. Thonet № 14, около 1885–1890 годов, Museum für Kunst und Kulturgeschichte, Дортмунд."
+        },
+        "ar": {
+          "title": "كرسي ثونيت رقم 14: تصميم يختبئ بجانب طاولة المقهى",
+          "excerpt": "خشب منحني وقطع مجمّعة وهيئة مألوفة: يستطيع الكرسي أن يروي الكثير من دون أن يلفت الانتباه.",
+          "body": [
+            "مسند مستدير وأرجل رفيعة ومقعد خفيف المظهر: لكرسي ثونيت رقم 14 هيئة قد تتعرف إليها من دون معرفة اسمه. ويذكر متحف التصميم أن الكرسي، الذي طُرح عام 1859، يجمع هيكلاً من خشب الزان ومقعداً منسوجاً.",
+            "يصف متحف V&A طريقة تصنيع تقوم على ثني الخشب وشحن القطع قبل تجميعها. وهكذا يرتبط ما يبدو منحنى بسيطاً بتنظيم العمل أيضاً. تصميم الشيء وطريقة انتقاله يكمل أحدهما الآخر.",
+            "للنظر إليه بطريقة مختلفة، تتبع خطاً من المسند إلى المقعد، ثم حدد مواضع الوصل. ستفهم بسهولة أكبر كيف تبدو الهيئة متصلة رغم تكوّنها من عناصر منفصلة. لا تحتاج إلى مصطلحات متخصصة؛ فملاحظة أماكن التقاء القطع تتيح بالفعل قراءة هذا الأثاث.",
+            "يقدم هذا الكرسي لعبة صغيرة لاستراحتك المقبلة في المقهى: تأمل ما يسند الجلسة والحديث حول الطاولة. لكن تشابه الهيئة لا يثبت العلامة التجارية للكرسي ولا عمره. قد يكون مجرد دعوة إلى ملاحظة تصميم أشياء نستخدمها من دون تفكير."
+          ],
+          "alt": "كرسي ثونيت رقم 14 المحفوظ في متحف الفن والتاريخ الثقافي في دورتموند.",
+          "imageCredit": "Wuselig / ويكيميديا كومنز — CC0 1.0. ثونيت رقم 14، نحو 1885–1890، متحف Museum für Kunst und Kulturgeschichte في دورتموند."
+        },
+        "sw": {
+          "title": "Thonet namba 14: ubunifu uliojificha pembeni ya meza ya kahawa",
+          "excerpt": "Mbao zilizopindwa, vipande vilivyounganishwa na umbo la kufahamika: kiti kinaweza kusimulia mengi bila kuvuta macho.",
+          "body": [
+            "Mgongo wa mviringo, miguu myembamba na sehemu ya kukalia inayoonekana nyepesi: Thonet namba 14 ina umbo unaloweza kutambua bila kujua jina lake. Kwa maelezo ya Design Museum, kiti hiki kilichozinduliwa mwaka 1859 kina fremu ya mbao za beech na sehemu ya kukalia iliyosukwa.",
+            "V&A inaeleza uzalishaji uliotegemea kupinda mbao na kusafirisha vipande kabla ya kuviunganisha. Kwa hiyo kinachoonekana kama mkunjo rahisi kinahusiana pia na mpangilio wa kazi. Muundo wa kitu na namna ya kukisafirisha vinakamilishana.",
+            "Ili kukitazama tofauti, fuata mstari kutoka mgongoni hadi kwenye sehemu ya kukalia, halafu tafuta viungio. Inakuwa rahisi kuona jinsi umbo linavyoonekana kuendelea bila kukatika huku likiwa limetengenezwa kwa vipande tofauti. Huhitaji istilahi maalumu: kuona vipande vinapokutana tayari kunasaidia kuelewa kiti.",
+            "Kiti hiki kinapendekeza mchezo mdogo wakati wa mapumziko yajayo ya kahawa: angalia samani zinazobeba mazungumzo karibu na meza. Hata hivyo, umbo linalofanana halithibitishi mtengenezaji wala umri wa kiti. Linaweza tu kukualika kuona ubunifu wa vitu unavyotumia bila kuvifikiria."
+          ],
+          "alt": "Kiti cha Thonet namba 14 kilichohifadhiwa katika Jumba la Makumbusho la Sanaa na Historia ya Utamaduni la Dortmund.",
+          "imageCredit": "Wuselig / Wikimedia Commons — CC0 1.0. Thonet namba 14, takriban 1885–1890, Museum für Kunst und Kulturgeschichte, Dortmund."
+        }
+      }
+    },
+    {
+      "eventKey": "ces-champignons-produisent-leur-propre-lumiere",
+      "category": "insolite",
+      "tags": [
+        "buzz",
+        "petits-bonheurs"
+      ],
+      "publishedAt": "2026-11-26",
+      "readMinutes": 2,
+      "verified": true,
+      "sources": [
+        {
+          "title": "Circadian Control Sheds Light on Fungal Bioluminescence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4382382/",
+          "publisher": "Current Biology"
+        }
+      ],
+      "photo": {
+        "download": "media/a-mushroom.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mycena_chlorophos.jpg",
+        "credit": "Photo : Anonymous Powered, 2008, pose longue — CC BY-SA 3.0, via Wikimedia Commons.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "translations": {
+        "fr": {
+          "title": "Ces champignons produisent leur propre lumière",
+          "excerpt": "Une lueur verte bien réelle, des réactions chimiques et une question : à quoi sert de briller dans la forêt ?",
+          "body": [
+            "Certains champignons émettent une lumière verte grâce à des réactions chimiques dans leurs tissus. Ce phénomène, la bioluminescence, nécessite notamment de l’oxygène et de l’énergie. La photographie montre Mycena chlorophos au Japon : une pose longue enregistre sa lueur, qui n’a rien d’un éclairage ajouté au champignon.",
+            "Une autre espèce, Neonothopanus gardneri, a été étudiée dans un article de Current Biology publié en 2015. En laboratoire, les chercheurs ont montré que la lumière produite par son mycélium variait suivant un rythme interne proche d’une journée, même après un passage dans l’obscurité constante.",
+            "L’équipe a aussi placé dans la forêt des modèles de champignons équipés de lumières vertes, et des modèles non éclairés. Les dispositifs lumineux ont attiré davantage d’insectes. Cette expérience soutient l’idée que la lumière pourrait attirer des visiteurs susceptibles de transporter des spores.",
+            "La nuance est essentielle : attirer des insectes ne démontre pas, à lui seul, toute la chaîne de dispersion, ni une fonction identique chez chaque champignon lumineux. Le spectacle est réel ; son rôle écologique reste une question à explorer espèce par espèce. La photo et l’expérience concernent d’ailleurs deux espèces différentes."
+          ],
+          "alt": "Des champignons Mycena chlorophos émettent une lueur verte dans l’obscurité, photographiés au Japon.",
+          "imageCredit": "Photo : Anonymous Powered, 2008, pose longue — CC BY-SA 3.0, via Wikimedia Commons."
+        },
+        "en": {
+          "title": "These mushrooms make their own light",
+          "excerpt": "A real green glow, chemical reactions and a question: what is the advantage of shining in a forest?",
+          "body": [
+            "Some fungi emit green light through chemical reactions in their tissues. This phenomenon, called bioluminescence, requires oxygen and energy. The photograph shows Mycena chlorophos in Japan: a long exposure records its glow, rather than lighting added to the mushroom.",
+            "Another species, Neonothopanus gardneri, was examined in a Current Biology paper published in 2015. In the laboratory, researchers showed that light from its mycelium followed an internal rhythm close to a day, even after it was moved into constant darkness.",
+            "The team also placed mushroom models fitted with green lights in the forest, alongside unlit models. The illuminated devices attracted more insects. The experiment supports the idea that light could attract visitors capable of carrying spores.",
+            "The distinction matters: attracting insects does not by itself demonstrate the entire dispersal process, or an identical function in every glowing fungus. The spectacle is real; its ecological role still needs exploring species by species. The photograph and the experiment also concern two different species."
+          ],
+          "alt": "Mycena chlorophos mushrooms emit a green glow in the dark, photographed in Japan.",
+          "imageCredit": "Photo: Anonymous Powered, 2008, long exposure — CC BY-SA 3.0, via Wikimedia Commons."
+        },
+        "es": {
+          "title": "Estos hongos producen su propia luz",
+          "excerpt": "Un resplandor verde real, reacciones químicas y una pregunta: ¿para qué sirve brillar en el bosque?",
+          "body": [
+            "Algunos hongos emiten luz verde mediante reacciones químicas en sus tejidos. Este fenómeno, llamado bioluminiscencia, necesita oxígeno y energía. La fotografía muestra Mycena chlorophos en Japón: una larga exposición registra su resplandor, que no procede de una luz añadida al hongo.",
+            "Otra especie, Neonothopanus gardneri, fue estudiada en un artículo de Current Biology publicado en 2015. En el laboratorio, los investigadores demostraron que la luz de su micelio seguía un ritmo interno cercano a un día, incluso después de trasladarlo a una oscuridad constante.",
+            "El equipo también colocó en el bosque modelos de hongos equipados con luces verdes y otros sin iluminar. Los dispositivos luminosos atrajeron más insectos. El experimento respalda la idea de que la luz podría atraer visitantes capaces de transportar esporas.",
+            "El matiz es esencial: atraer insectos no demuestra por sí solo todo el proceso de dispersión ni una función idéntica en cada hongo luminoso. El espectáculo es real; su papel ecológico sigue siendo una cuestión que investigar especie por especie. La foto y el experimento, además, corresponden a dos especies distintas."
+          ],
+          "alt": "Hongos Mycena chlorophos emiten una luz verde en la oscuridad, fotografiados en Japón.",
+          "imageCredit": "Foto: Anonymous Powered, 2008, larga exposición — CC BY-SA 3.0, vía Wikimedia Commons."
+        },
+        "it": {
+          "title": "Questi funghi producono luce propria",
+          "excerpt": "Un bagliore verde reale, reazioni chimiche e una domanda: a cosa serve brillare nel bosco?",
+          "body": [
+            "Alcuni funghi emettono luce verde grazie a reazioni chimiche nei tessuti. Questo fenomeno, chiamato bioluminescenza, richiede ossigeno ed energia. La fotografia mostra Mycena chlorophos in Giappone: una lunga esposizione ne registra il bagliore, che non proviene da una luce aggiunta al fungo.",
+            "Un'altra specie, Neonothopanus gardneri, è stata studiata in un articolo di Current Biology pubblicato nel 2015. In laboratorio, i ricercatori hanno dimostrato che la luce del suo micelio seguiva un ritmo interno prossimo a un giorno, anche dopo il trasferimento al buio costante.",
+            "Il gruppo ha inoltre collocato nel bosco modelli di funghi dotati di luci verdi, accanto ad altri non illuminati. I dispositivi luminosi hanno attirato più insetti. L'esperimento sostiene l'idea che la luce possa attirare visitatori capaci di trasportare spore.",
+            "La distinzione è essenziale: attirare insetti non dimostra, da solo, l'intero processo di dispersione, né una funzione identica in tutti i funghi luminosi. Lo spettacolo è reale; il suo ruolo ecologico resta da esplorare specie per specie. Anche la foto e l'esperimento riguardano due specie diverse."
+          ],
+          "alt": "Funghi Mycena chlorophos emettono una luce verde al buio, fotografati in Giappone.",
+          "imageCredit": "Foto: Anonymous Powered, 2008, lunga esposizione — CC BY-SA 3.0, tramite Wikimedia Commons."
+        },
+        "zh": {
+          "title": "这些蘑菇会自己发光",
+          "excerpt": "真实的绿光、组织内的化学反应，以及一个问题：在森林里发光有什么作用？",
+          "body": [
+            "有些真菌能通过组织内的化学反应发出绿光。这种现象称为生物发光，需要氧气和能量。配图是在日本拍摄的 Mycena chlorophos；长曝光记录下了它自身的微光，并不是给蘑菇额外加上的照明。",
+            "另一种真菌 Neonothopanus gardneri 是2015年《Current Biology》一篇研究的对象。研究人员在实验室中发现，它的菌丝体发光遵循接近一天的内部节律，即使转入持续黑暗的环境后，节律依然存在。",
+            "研究团队还在森林中放置了装有绿色灯光的蘑菇模型，以及不发光的对照模型。发光模型吸引了更多昆虫。这个实验支持一种可能性：光能吸引访客，而这些访客可能帮助携带孢子。",
+            "这里的区别很重要：吸引昆虫，并不能单独证明完整的孢子传播过程，也不能证明所有发光真菌都具有同样的功能。景象是真实的，但其生态作用仍需逐种研究。照片与实验涉及的，实际上也是两个不同物种。"
+          ],
+          "alt": "在日本拍摄的 Mycena chlorophos 蘑菇，在黑暗中发出绿光。",
+          "imageCredit": "摄影：Anonymous Powered，2008年，长曝光 — CC BY-SA 3.0，图片来自维基共享资源。"
+        },
+        "ko": {
+          "title": "이 버섯들은 스스로 빛을 냅니다",
+          "excerpt": "실제 초록빛과 화학 반응, 그리고 한 가지 질문. 숲에서 빛나는 것은 어떤 도움이 될까요?",
+          "body": [
+            "일부 균류는 조직 안의 화학 반응으로 초록빛을 냅니다. 생물발광이라고 부르는 이 현상에는 산소와 에너지가 필요합니다. 사진은 일본의 Mycena chlorophos를 보여 줍니다. 장노출로 자체 발광을 기록한 것으로, 버섯에 따로 조명을 비춘 것이 아닙니다.",
+            "다른 종인 Neonothopanus gardneri는 2015년 Current Biology에 실린 논문의 연구 대상이었습니다. 연구진은 실험실에서 이 종의 균사체가 내는 빛이 하루에 가까운 내부 주기를 따른다는 것을 확인했습니다. 계속 어두운 환경으로 옮긴 뒤에도 그 리듬은 유지되었습니다.",
+            "연구팀은 숲에 초록색 조명을 단 버섯 모형과 불을 켜지 않은 모형도 놓았습니다. 빛나는 모형에는 곤충이 더 많이 모였습니다. 이 실험은 빛이 포자를 운반할 수 있는 방문자를 끌어들일 가능성을 뒷받침합니다.",
+            "이 구분은 중요합니다. 곤충을 끌어들인다는 사실만으로 전체 포자 확산 과정이 증명되거나 모든 발광 균류의 기능이 같다고 할 수는 없습니다. 신기한 광경은 실제지만, 생태적 역할은 종마다 더 연구해야 합니다. 사진과 실험 역시 서로 다른 두 종을 다룹니다."
+          ],
+          "alt": "일본에서 촬영한 Mycena chlorophos 버섯들이 어둠 속에서 초록빛을 냅니다.",
+          "imageCredit": "사진: Anonymous Powered, 2008년, 장노출 — CC BY-SA 3.0, 위키미디어 공용."
+        },
+        "ru": {
+          "title": "Эти грибы сами излучают свет",
+          "excerpt": "Настоящее зелёное свечение, химические реакции и вопрос: зачем светиться в лесу?",
+          "body": [
+            "Некоторые грибы излучают зелёный свет благодаря химическим реакциям в тканях. Это явление, биолюминесценция, требует кислорода и энергии. На фотографии — Mycena chlorophos из Японии: длинная выдержка фиксирует его собственное свечение, а не добавленную подсветку.",
+            "Другой вид, Neonothopanus gardneri, изучался в статье Current Biology, опубликованной в 2015 году. В лаборатории исследователи показали, что свечение его мицелия подчиняется внутреннему ритму продолжительностью примерно в сутки, даже после переноса в постоянную темноту.",
+            "Команда также разместила в лесу модели грибов с зелёными лампочками и модели без освещения. Светящиеся устройства привлекали больше насекомых. Эксперимент поддерживает предположение, что свет может привлекать посетителей, способных переносить споры.",
+            "Различие принципиально: привлечение насекомых само по себе не доказывает всю цепочку распространения спор или одинаковую функцию у всех светящихся грибов. Зрелище реально; его экологическую роль ещё предстоит изучать для каждого вида. К тому же фотография и эксперимент относятся к двум разным видам."
+          ],
+          "alt": "Грибы Mycena chlorophos светятся зелёным в темноте; фотография сделана в Японии.",
+          "imageCredit": "Фото: Anonymous Powered, 2008, длинная выдержка — CC BY-SA 3.0, через Викисклад."
+        },
+        "ar": {
+          "title": "هذا الفطر ينتج ضوءه بنفسه",
+          "excerpt": "وهج أخضر حقيقي وتفاعلات كيميائية وسؤال: ما فائدة الإضاءة في الغابة؟",
+          "body": [
+            "تصدر بعض الفطريات ضوءاً أخضر بفضل تفاعلات كيميائية في أنسجتها. وتحتاج هذه الظاهرة، المسماة الإضاءة الحيوية، إلى الأكسجين والطاقة. وتظهر الصورة Mycena chlorophos في اليابان؛ إذ يسجل التعريض الطويل وهجه الذاتي، لا إضاءة أضيفت إلى الفطر.",
+            "دُرس نوع آخر، هو Neonothopanus gardneri، في ورقة نشرتها Current Biology عام 2015. وفي المختبر، أظهر الباحثون أن ضوء غزله الفطري يتغير وفق إيقاع داخلي يقارب اليوم، حتى بعد نقله إلى ظلام مستمر.",
+            "كما وضع الفريق في الغابة نماذج فطر مزودة بأضواء خضراء، إلى جانب نماذج غير مضاءة. واجتذبت النماذج المضيئة حشرات أكثر. وتدعم التجربة فكرة أن الضوء قد يجذب زواراً قادرين على حمل الأبواغ.",
+            "والتمييز هنا أساسي: جذب الحشرات وحده لا يثبت سلسلة انتشار الأبواغ كاملة، ولا وظيفة متماثلة لدى كل فطر مضيء. المشهد حقيقي، لكن دوره البيئي يظل سؤالاً يُبحث لكل نوع على حدة. بل إن الصورة والتجربة تتناولان نوعين مختلفين."
+          ],
+          "alt": "فطر Mycena chlorophos يصدر وهجاً أخضر في الظلام، في صورة التُقطت باليابان.",
+          "imageCredit": "تصوير: Anonymous Powered، 2008، تعريض طويل — CC BY-SA 3.0، عبر ويكيميديا كومنز."
+        },
+        "sw": {
+          "title": "Uyoga huu hutengeneza mwanga wake wenyewe",
+          "excerpt": "Mwangaza halisi wa kijani, michakato ya kikemikali na swali: kuna faida gani ya kung'aa msituni?",
+          "body": [
+            "Baadhi ya kuvu hutoa mwanga wa kijani kutokana na michakato ya kikemikali katika tishu zao. Hali hii, inayoitwa bioluminesensi, huhitaji oksijeni na nishati. Picha inaonyesha Mycena chlorophos nchini Japani: muda mrefu wa kupiga picha hurekodi mwanga wake, si taa iliyoongezwa kwenye uyoga.",
+            "Spishi nyingine, Neonothopanus gardneri, ilichunguzwa katika makala ya Current Biology iliyochapishwa mwaka 2015. Katika maabara, watafiti walionyesha kwamba mwanga wa mtandao wake wa nyuzi, uitwao miseliamu, ulifuata mzunguko wa ndani wa karibu siku moja, hata baada ya kuwekwa katika giza lisilokatika.",
+            "Timu pia iliweka msituni mifano ya uyoga yenye taa za kijani, pamoja na mifano isiyowashwa. Vifaa vyenye mwanga vilivutia wadudu wengi zaidi. Jaribio linaunga mkono wazo kwamba mwanga unaweza kuvutia wageni wanaoweza kubeba spora.",
+            "Tofauti hii ni muhimu: kuvutia wadudu pekee hakuthibitishi mnyororo mzima wa usambazaji wa spora, wala kazi inayofanana katika kila kuvu inayong'aa. Mandhari hiyo ni halisi; jukumu lake katika mazingira bado linahitaji kuchunguzwa kwa kila spishi. Picha na jaribio pia zinahusu spishi mbili tofauti."
+          ],
+          "alt": "Uyoga wa Mycena chlorophos ukitoa mwanga wa kijani gizani, katika picha iliyopigwa Japani.",
+          "imageCredit": "Picha: Anonymous Powered, 2008, muda mrefu wa kufichua mwanga — CC BY-SA 3.0, kupitia Wikimedia Commons."
+        }
+      }
+    },
+    {
+      "eventKey": "retour-du-roi-onze-oscars-2004",
+      "category": "cine-series",
+      "tags": [
+        "stars",
+        "pop-culture"
+      ],
+      "publishedAt": "2026-11-26",
+      "readMinutes": 2,
+      "verified": true,
+      "sources": [
+        {
+          "title": "The 76th Academy Awards | 2004",
+          "url": "https://www.oscars.org/oscars/ceremonies/2004/P",
+          "publisher": "Academy of Motion Picture Arts and Sciences"
+        }
+      ],
+      "photo": {
+        "download": "media/b-peter-jackson.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peter_Jackson_2014_Comic_Con.jpg",
+        "credit": "Gage Skidmore, 2014 / Wikimedia Commons — CC BY-SA 2.0. Image redimensionnée et compressée.",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      "translations": {
+        "fr": {
+          "title": "Le Retour du roi : onze nominations, onze Oscars en 2004",
+          "excerpt": "Le palmarès du troisième Seigneur des anneaux raconte une réussite collective, de l’écriture aux effets visuels.",
+          "body": [
+            "Lors de la 76e cérémonie des Oscars, en 2004, Le Seigneur des anneaux : Le Retour du roi remporte les onze récompenses pour lesquelles il est nommé. Le film de Peter Jackson, sorti en 2003, réalise ainsi un parcours sans défaite dans ses catégories, selon le palmarès officiel de l’Académie.",
+            "Parmi ces prix figurent le meilleur film, la réalisation et le scénario adapté. Ce dernier récompense Fran Walsh, Philippa Boyens et Peter Jackson. Derrière un titre souvent associé à son réalisateur, la liste des lauréats rappelle donc immédiatement que l’adaptation d’un univers romanesque est un travail partagé.",
+            "Les autres distinctions rendent visible la fabrication du spectacle : direction artistique, costumes, montage, maquillage, musique originale, chanson originale, mixage sonore et effets visuels. Howard Shore est récompensé pour la partition ; Into the West vaut aussi un Oscar à Fran Walsh, Howard Shore et Annie Lennox.",
+            "Le chiffre onze demande cependant d’être lu correctement : le film gagne toutes ses nominations, pas toutes les catégories possibles de la cérémonie. Ce succès permet surtout de relier une émotion de spectateur à des métiers précis. La photographie de Jackson utilisée ici date du Comic-Con de 2014, dix ans après ce palmarès."
+          ],
+          "alt": "Peter Jackson au Comic-Con de San Diego en 2014 ; photographie d’archives distincte de la cérémonie des Oscars de 2004.",
+          "imageCredit": "Gage Skidmore, 2014 / Wikimedia Commons — CC BY-SA 2.0. Image redimensionnée et compressée."
+        },
+        "en": {
+          "title": "The Return of the King: eleven nominations, eleven Oscars in 2004",
+          "excerpt": "The third Lord of the Rings film’s awards tell a story of collective achievement, from writing to visual effects.",
+          "body": [
+            "At the 76th Academy Awards, in 2004, The Lord of the Rings: The Return of the King won all eleven awards for which it was nominated. Peter Jackson’s film, released in 2003, made a clean sweep of its categories, according to the Academy’s official results.",
+            "Those awards included Best Picture, Directing and Adapted Screenplay. The last recognised Fran Walsh, Philippa Boyens and Peter Jackson. Behind a title often associated with its director, the list of winners immediately reminds us that adapting a fictional world is a shared undertaking.",
+            "The other honours make the construction of the spectacle visible: art direction, costumes, editing, makeup, original score, original song, sound mixing and visual effects. Howard Shore won for the score; Into the West also earned an Oscar for Fran Walsh, Howard Shore and Annie Lennox.",
+            "The number eleven still needs to be read correctly: the film won every category in which it was nominated, not every possible category at the ceremony. Above all, this success connects a viewer’s emotions to specific crafts. The photograph of Jackson used here was taken at Comic-Con in 2014, ten years after those awards."
+          ],
+          "alt": "Peter Jackson at San Diego Comic-Con in 2014; an archive photograph unrelated to the 2004 Oscars ceremony.",
+          "imageCredit": "Gage Skidmore, 2014 / Wikimedia Commons — CC BY-SA 2.0. Image resized and compressed."
+        },
+        "es": {
+          "title": "El retorno del rey: once candidaturas y once Óscar en 2004",
+          "excerpt": "Los premios de la tercera película de El señor de los anillos cuentan un éxito colectivo, desde el guion hasta los efectos visuales.",
+          "body": [
+            "En la 76.ª ceremonia de los Óscar, celebrada en 2004, El señor de los anillos: El retorno del rey ganó los once premios a los que estaba nominada. La película de Peter Jackson, estrenada en 2003, completó así un pleno en sus categorías, según los resultados oficiales de la Academia.",
+            "Entre los premios figuran mejor película, dirección y guion adaptado. Este último reconoció a Fran Walsh, Philippa Boyens y Peter Jackson. Detrás de un título asociado a menudo con su director, la lista de ganadores recuerda que adaptar un universo literario es una tarea compartida.",
+            "Las demás distinciones hacen visible la construcción del espectáculo: dirección artística, vestuario, montaje, maquillaje, música original, canción original, mezcla de sonido y efectos visuales. Howard Shore ganó por la partitura; Into the West también dio un Óscar a Fran Walsh, Howard Shore y Annie Lennox.",
+            "La cifra once debe interpretarse con cuidado: la película ganó todas sus nominaciones, no todas las categorías posibles de la ceremonia. Este éxito permite relacionar la emoción del espectador con oficios concretos. La fotografía de Jackson utilizada aquí fue tomada en la Comic-Con de 2014, diez años después de aquellos premios."
+          ],
+          "alt": "Peter Jackson en la Comic-Con de San Diego de 2014; fotografía de archivo distinta de la ceremonia de los Óscar de 2004.",
+          "imageCredit": "Gage Skidmore, 2014 / Wikimedia Commons — CC BY-SA 2.0. Imagen redimensionada y comprimida."
+        },
+        "it": {
+          "title": "Il ritorno del re: undici candidature e undici Oscar nel 2004",
+          "excerpt": "I premi del terzo Signore degli Anelli raccontano un risultato collettivo, dalla sceneggiatura agli effetti visivi.",
+          "body": [
+            "Alla 76ª cerimonia degli Oscar, nel 2004, Il Signore degli Anelli: Il ritorno del re vinse tutti gli undici premi per cui era candidato. Il film di Peter Jackson, uscito nel 2003, completò così un percorso senza sconfitte nelle proprie categorie, secondo i risultati ufficiali dell’Academy.",
+            "Fra i riconoscimenti figurano miglior film, regia e sceneggiatura non originale. Quest’ultima premiò Fran Walsh, Philippa Boyens e Peter Jackson. Dietro un titolo spesso associato al regista, l’elenco dei vincitori ricorda subito che adattare un universo letterario è un lavoro condiviso.",
+            "Gli altri premi rendono visibile la costruzione dello spettacolo: scenografia, costumi, montaggio, trucco, colonna sonora originale, canzone originale, sonoro ed effetti visivi. Howard Shore vinse per la partitura; Into the West fruttò inoltre un Oscar a Fran Walsh, Howard Shore e Annie Lennox.",
+            "Il numero undici va però interpretato correttamente: il film vinse tutte le sue candidature, non tutte le categorie possibili della cerimonia. Il risultato permette soprattutto di collegare l’emozione dello spettatore a mestieri precisi. La fotografia di Jackson usata qui risale al Comic-Con del 2014, dieci anni dopo quei premi."
+          ],
+          "alt": "Peter Jackson al Comic-Con di San Diego nel 2014; fotografia d’archivio distinta dalla cerimonia degli Oscar del 2004.",
+          "imageCredit": "Gage Skidmore, 2014 / Wikimedia Commons — CC BY-SA 2.0. Immagine ridimensionata e compressa."
+        },
+        "zh": {
+          "title": "《王者归来》：2004年十一项提名，十一座奥斯卡",
+          "excerpt": "《指环王》第三部的获奖名单，记录了从编剧到视觉效果的集体成就。",
+          "body": [
+            "在2004年第76届奥斯卡颁奖典礼上，《指环王：王者归来》赢得了全部十一项提名对应的奖项。彼得·杰克逊执导的这部电影于2003年上映。根据学院的官方获奖记录，它在自己获提名的类别中实现了全胜。",
+            "这些奖项包括最佳影片、最佳导演和最佳改编剧本。改编剧本奖授予弗兰·沃尔什、菲利帕·鲍恩斯和彼得·杰克逊。一部往往与导演紧密联系的电影，其获奖名单却立刻提醒我们：把文学世界搬上银幕，是共同完成的工作。",
+            "其余奖项让奇观背后的制作过程变得清晰：艺术指导、服装、剪辑、化妆、原创配乐、原创歌曲、混音和视觉效果。霍华德·肖凭配乐获奖；《Into the West》还为弗兰·沃尔什、霍华德·肖和安妮·伦诺克斯带来了奥斯卡。",
+            "不过，“十一”需要准确理解：影片赢得了所有获提名的奖项，而不是典礼上所有可能的奖项。这样的成就尤其能把观众的感动与具体的专业工作联系起来。本文的杰克逊照片拍摄于2014年动漫展，距离那次获奖已经过去十年。"
+          ],
+          "alt": "彼得·杰克逊出席2014年圣迭戈国际动漫展；这是资料照片，并非2004年奥斯卡现场。",
+          "imageCredit": "Gage Skidmore, 2014 / Wikimedia Commons — CC BY-SA 2.0. 图片已调整尺寸并压缩。"
+        },
+        "ko": {
+          "title": "왕의 귀환: 2004년 11개 부문 후보, 11개의 오스카",
+          "excerpt": "반지의 제왕 세 번째 영화의 수상 목록은 각본부터 시각효과까지 이어진 공동의 성취를 보여 준다.",
+          "body": [
+            "2004년 제76회 아카데미 시상식에서 반지의 제왕: 왕의 귀환은 후보에 오른 11개 부문의 상을 모두 받았다. 피터 잭슨이 연출하고 2003년 개봉한 이 영화는 아카데미 공식 기록상 자신이 후보로 지명된 부문에서 전승을 거뒀다.",
+            "수상에는 작품상, 감독상, 각색상이 포함됐다. 각색상은 프랜 월시, 필리파 보옌스, 피터 잭슨에게 돌아갔다. 감독과 자주 연결되는 작품이지만, 수상자 명단은 소설 속 세계를 영화로 옮기는 일이 공동 작업이라는 사실을 곧바로 일깨운다.",
+            "나머지 상은 스펙터클을 만드는 과정을 드러낸다. 미술, 의상, 편집, 분장, 음악, 주제가, 음향 믹싱, 시각효과 부문이다. 하워드 쇼어는 영화 음악으로 수상했으며, Into the West는 프랜 월시와 하워드 쇼어, 애니 레녹스에게도 오스카를 안겼다.",
+            "다만 숫자 11은 정확히 읽어야 한다. 영화는 자신이 후보에 오른 모든 부문에서 수상했지, 시상식의 가능한 모든 부문을 휩쓴 것은 아니다. 이 성취는 관객의 감동을 구체적인 전문 작업과 연결해 준다. 기사에 사용한 잭슨의 사진은 수상으로부터 10년 뒤인 2014년 코믹콘에서 촬영됐다."
+          ],
+          "alt": "2014년 샌디에이고 코믹콘에 참석한 피터 잭슨. 2004년 아카데미 시상식과는 별개의 자료 사진이다.",
+          "imageCredit": "Gage Skidmore, 2014 / Wikimedia Commons — CC BY-SA 2.0. 이미지 크기를 조정하고 압축했습니다."
+        },
+        "ru": {
+          "title": "«Возвращение короля»: одиннадцать номинаций и одиннадцать «Оскаров» в 2004 году",
+          "excerpt": "Награды третьего «Властелина колец» рассказывают о коллективном успехе — от сценария до визуальных эффектов.",
+          "body": [
+            "На 76-й церемонии «Оскар» в 2004 году «Властелин колец: Возвращение короля» получил все одиннадцать наград, на которые был выдвинут. Фильм Питера Джексона, вышедший в 2003 году, победил в каждой из своих категорий, как подтверждают официальные результаты Академии.",
+            "Среди наград были лучший фильм, режиссура и адаптированный сценарий. Последнюю получили Фрэн Уолш, Филиппа Бойенс и Питер Джексон. За названием, которое часто связывают прежде всего с режиссёром, список лауреатов сразу обнаруживает совместную работу над переносом литературного мира на экран.",
+            "Другие награды показывают, как создавалось зрелище: работа художника-постановщика, костюмы, монтаж, грим, оригинальная музыка, оригинальная песня, сведение звука и визуальные эффекты. Говард Шор победил за партитуру; песня Into the West также принесла «Оскар» Фрэн Уолш, Говарду Шору и Энни Леннокс.",
+            "Но число одиннадцать нужно понимать правильно: фильм выиграл все свои номинации, а не все возможные категории церемонии. Этот успех прежде всего связывает зрительские эмоции с конкретными профессиями. Использованная здесь фотография Джексона сделана на Comic-Con в 2014 году, через десять лет после тех наград."
+          ],
+          "alt": "Питер Джексон на Comic-Con в Сан-Диего в 2014 году; архивный снимок не относится к церемонии «Оскар» 2004 года.",
+          "imageCredit": "Gage Skidmore, 2014 / Wikimedia Commons — CC BY-SA 2.0. Размер изображения изменён; выполнено сжатие."
+        },
+        "ar": {
+          "title": "عودة الملك: أحد عشر ترشيحاً وأحد عشر أوسكاراً في 2004",
+          "excerpt": "جوائز الجزء الثالث من سيد الخواتم تروي نجاحاً جماعياً، من الكتابة إلى المؤثرات البصرية.",
+          "body": [
+            "خلال حفل الأوسكار السادس والسبعين في 2004، فاز سيد الخواتم: عودة الملك بالجوائز الإحدى عشرة التي ترشح لها. ووفق السجل الرسمي للأكاديمية، حقق فيلم بيتر جاكسون، الصادر عام 2003، نجاحاً بلا خسارة في فئاته.",
+            "من بين هذه الجوائز أفضل فيلم والإخراج والسيناريو المقتبس. وذهبت جائزة السيناريو إلى فران والش وفيليبا بوينز وبيتر جاكسون. لذلك تذكّر قائمة الفائزين فوراً بأن اقتباس عالم روائي عمل مشترك، حتى عندما يرتبط عنوان الفيلم غالباً باسم مخرجه.",
+            "وتكشف الجوائز الأخرى صناعة المشهد: الإخراج الفني والأزياء والمونتاج والمكياج والموسيقى الأصلية والأغنية الأصلية ومزج الصوت والمؤثرات البصرية. كُرّم هوارد شور عن الموسيقى، كما نالت أغنية Into the West أوسكاراً لفران والش وهوارد شور وآني لينوكس.",
+            "لكن الرقم أحد عشر يحتاج إلى قراءة صحيحة: فاز الفيلم بكل ترشيحاته، لا بكل فئات الحفل الممكنة. يتيح هذا النجاح، قبل كل شيء، ربط إحساس المشاهد بمهن محددة. وصورة جاكسون المستخدمة هنا من كوميكون 2014، بعد تلك الجوائز بعشر سنوات."
+          ],
+          "alt": "بيتر جاكسون في كوميكون سان دييغو عام 2014؛ صورة أرشيفية منفصلة عن حفل الأوسكار لعام 2004.",
+          "imageCredit": "Gage Skidmore، 2014 / ويكيميديا كومنز — CC BY-SA 2.0. عُدّلت أبعاد الصورة وضُغط ملفها."
+        },
+        "sw": {
+          "title": "The Return of the King: uteuzi kumi na mmoja, Oscar kumi na moja mwaka 2004",
+          "excerpt": "Tuzo za sehemu ya tatu ya The Lord of the Rings zinasimulia mafanikio ya pamoja, kutoka uandishi hadi athari za picha.",
+          "body": [
+            "Katika sherehe za 76 za Oscar mwaka 2004, The Lord of the Rings: The Return of the King ilishinda tuzo zote kumi na moja ilizoteuliwa kuwania. Kwa mujibu wa orodha rasmi ya Academy, filamu ya Peter Jackson iliyotolewa mwaka 2003 haikushindwa katika kundi lolote ililowania.",
+            "Tuzo hizo zinajumuisha filamu bora, uongozaji na muswada uliotokana na kazi nyingine. Tuzo ya muswada iliwatambua Fran Walsh, Philippa Boyens na Peter Jackson. Hivyo, nyuma ya jina linalohusishwa mara nyingi na mkurugenzi, orodha ya washindi inakumbusha mara moja kwamba kuhamisha ulimwengu wa riwaya kwenye filamu ni kazi ya pamoja.",
+            "Tuzo nyingine zinaonyesha utengenezaji wa maonesho: usanifu wa kisanii, mavazi, uhariri, vipodozi, muziki asilia, wimbo asilia, uchanganyaji wa sauti na athari za picha. Howard Shore alituzwa kwa muziki; Into the West pia iliwapatia Oscar Fran Walsh, Howard Shore na Annie Lennox.",
+            "Hata hivyo, namba kumi na moja lazima ieleweke vizuri: filamu ilishinda uteuzi wake wote, si makundi yote yaliyokuwepo kwenye sherehe. Mafanikio haya hasa yanaunganisha hisia za mtazamaji na taaluma maalumu. Picha ya Jackson inayotumiwa hapa ni ya Comic-Con ya 2014, miaka kumi baada ya tuzo hizo."
+          ],
+          "alt": "Peter Jackson katika Comic-Con ya San Diego mwaka 2014; picha ya kumbukumbu tofauti na sherehe za Oscar za 2004.",
+          "imageCredit": "Gage Skidmore, 2014 / Wikimedia Commons — CC BY-SA 2.0. Vipimo vya picha vimebadilishwa na faili limebanwa."
+        }
+      }
+    },
+    {
+      "eventKey": "carte-postale-quelques-lignes-pour-un-proche",
+      "category": "love-relations",
+      "tags": [
+        "love-relations",
+        "petits-bonheurs"
+      ],
+      "publishedAt": "2026-11-26",
+      "readMinutes": 2,
+      "verified": true,
+      "sources": [
+        {
+          "title": "Postcard History",
+          "url": "https://siarchives.si.edu/history/featured-topics/postcard/postcard-history",
+          "publisher": "Smithsonian Institution Archives"
+        },
+        {
+          "title": "Make Your Own Postcard Template",
+          "url": "https://postalmuseum.si.edu/sites/default/files/education/make_your_own_postcard_template.pdf",
+          "publisher": "Smithsonian National Postal Museum"
+        }
+      ],
+      "photo": {
+        "download": "media/c-carte-postale-quelques-lignes-pour-un-proche.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Postcards.JPG",
+        "credit": "Jmschws / Wikimedia Commons — CC BY 3.0. Photographie de cartes postales, utilisée comme illustration.",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+      },
+      "translations": {
+        "fr": {
+          "title": "La carte postale, quelques lignes qui choisissent leur destinataire",
+          "excerpt": "Un dessin, un détail du quotidien et une adresse : une idée simple pour reprendre contact sans attendre un grand voyage.",
+          "body": [
+            "Une carte postale impose une limite agréable : il reste peu de place, il faut donc choisir. Un détail aperçu, une phrase qui rappelle un souvenir, un petit dessin peuvent suffire. Le destinataire n’a pas besoin d’un compte rendu complet pour comprendre pourquoi vous avez pensé à lui.",
+            "Les collections du Smithsonian montrent combien la forme de ces cartes a évolué. Aux États-Unis, le dos partagé entre adresse et message s’installe à partir de 1907. Cette précision rappelle qu’un support apparemment évident résulte aussi de conventions et d’usages qui ont changé.",
+            "Le National Postal Museum propose même un modèle de carte à fabriquer. On peut en tirer une idée toute simple : dessiner un coin de son quartier plutôt que chercher un panorama exceptionnel. Le choix de l’image devient alors une partie du message, aussi personnelle que les quelques lignes au verso.",
+            "Pour commencer, choisissez quelqu’un avec qui vous aimeriez renouer, puis racontez un moment précis de votre journée. Une question légère peut ouvrir la suite, sans réclamer de réponse immédiate. La carte n’a pas à être parfaite : l’attention se trouve dans le détail choisi et dans le fait de l’adresser à cette personne."
+          ],
+          "alt": "Cartes postales exposées, photographiées par Jmschws ; illustration de la correspondance sur papier.",
+          "imageCredit": "Jmschws / Wikimedia Commons — CC BY 3.0. Photographie de cartes postales, utilisée comme illustration."
+        },
+        "en": {
+          "title": "A postcard: a few lines meant for one person",
+          "excerpt": "A drawing, an everyday detail and an address: a simple way to reconnect without waiting for a big trip.",
+          "body": [
+            "A postcard imposes a pleasant limit: there is little space, so you have to choose. Something you noticed, a sentence recalling a memory or a small drawing can be enough. The recipient does not need a complete report to understand why you thought of them.",
+            "Smithsonian collections show how much these cards have changed in form. In the United States, backs divided between an address and a message became established from 1907. This detail reminds us that an apparently obvious format also comes from conventions and practices that have changed.",
+            "The National Postal Museum even offers a template for making your own card. One simple idea follows: draw a corner of your neighbourhood instead of searching for a spectacular view. The choice of image becomes part of the message, as personal as the few lines on the back.",
+            "To begin, choose someone you would like to reconnect with and describe one particular moment from your day. A light question can invite a continuation without demanding an immediate reply. The card need not be perfect: the thought lies in the detail you chose and in addressing it to that person."
+          ],
+          "alt": "Postcards on display, photographed by Jmschws, illustrating correspondence on paper.",
+          "imageCredit": "Jmschws / Wikimedia Commons — CC BY 3.0. Photograph of postcards used as an illustration."
+        },
+        "es": {
+          "title": "La postal: unas pocas líneas pensadas para alguien concreto",
+          "excerpt": "Un dibujo, un detalle cotidiano y una dirección: una idea sencilla para retomar el contacto sin esperar un gran viaje.",
+          "body": [
+            "Una postal impone un límite agradable: queda poco espacio, así que hay que elegir. Un detalle observado, una frase que evoque un recuerdo o un dibujo pequeño pueden bastar. Quien la recibe no necesita un informe completo para entender por qué has pensado en esa persona.",
+            "Las colecciones del Smithsonian muestran cuánto ha cambiado la forma de estas tarjetas. En Estados Unidos, el reverso dividido entre dirección y mensaje se establece a partir de 1907. Ese detalle recuerda que un soporte aparentemente obvio también procede de convenciones y usos que han evolucionado.",
+            "El National Postal Museum ofrece incluso una plantilla para fabricar tu propia postal. De ahí puede salir una idea muy sencilla: dibujar un rincón del barrio en lugar de buscar una vista espectacular. La imagen elegida se convierte en parte del mensaje, tan personal como las líneas del reverso.",
+            "Para empezar, elige a alguien con quien te gustaría retomar el contacto y cuenta un momento concreto de tu día. Una pregunta ligera puede abrir la conversación sin exigir una respuesta inmediata. La postal no tiene que ser perfecta: la atención está en el detalle elegido y en dirigirla a esa persona."
+          ],
+          "alt": "Postales expuestas, fotografiadas por Jmschws, como ilustración de la correspondencia en papel.",
+          "imageCredit": "Jmschws / Wikimedia Commons — CC BY 3.0. Fotografía de postales utilizada como ilustración."
+        },
+        "it": {
+          "title": "La cartolina: poche righe pensate per una persona precisa",
+          "excerpt": "Un disegno, un dettaglio quotidiano e un indirizzo: un’idea semplice per riallacciare i contatti senza aspettare un grande viaggio.",
+          "body": [
+            "Una cartolina impone un limite piacevole: lo spazio è poco, bisogna scegliere. Un dettaglio notato, una frase che richiama un ricordo o un piccolo disegno possono bastare. Chi la riceve non ha bisogno di un resoconto completo per capire perché avete pensato proprio a lui.",
+            "Le collezioni dello Smithsonian mostrano quanto sia cambiata la forma delle cartoline. Negli Stati Uniti, il retro diviso tra indirizzo e messaggio si afferma a partire dal 1907. Questo particolare ricorda che anche un supporto apparentemente ovvio deriva da convenzioni e abitudini mutate nel tempo.",
+            "Il National Postal Museum propone persino un modello per realizzare una cartolina. Se ne può ricavare un’idea molto semplice: disegnare un angolo del proprio quartiere invece di cercare un panorama eccezionale. L’immagine scelta diventa parte del messaggio, personale quanto le poche righe sul retro.",
+            "Per cominciare, scegliete qualcuno con cui vorreste riprendere i contatti e raccontate un momento preciso della vostra giornata. Una domanda leggera può aprire il seguito senza pretendere una risposta immediata. La cartolina non deve essere perfetta: l’attenzione sta nel dettaglio scelto e nel fatto di indirizzarlo a quella persona."
+          ],
+          "alt": "Cartoline esposte, fotografate da Jmschws, immagine illustrativa della corrispondenza su carta.",
+          "imageCredit": "Jmschws / Wikimedia Commons — CC BY 3.0. Fotografia di cartoline usata a scopo illustrativo."
+        },
+        "zh": {
+          "title": "明信片：专门写给一个人的几行字",
+          "excerpt": "一幅画、一个日常细节和一个地址：不必等到远行，也能重新联系。",
+          "body": [
+            "明信片带来一种令人愉快的限制：空间不多，所以必须挑选。一个看到的细节、一句唤起回忆的话，或一幅小画，也许就够了。收信人不需要完整报告，就能明白你为何想起了他。",
+            "史密森尼学会的收藏展示了明信片形式的变化。在美国，背面分为地址区和留言区的格式，从 1907 年起逐步确立。这个细节提醒我们，看起来理所当然的载体，也来自不断变化的惯例和使用方式。",
+            "美国国家邮政博物馆甚至提供了自制明信片的模板。从中可以得到一个简单主意：画下街区的某个角落，不必寻找壮观的风景。选哪幅图，本身就成了消息的一部分，和背面的几行字一样私人。",
+            "想开始时，先选一个希望重新联系的人，再讲述当天某个具体时刻。一个轻松的问题可以留出继续聊天的空间，而不催促对方立刻回复。明信片不必完美：心意在于选中的细节，也在于你把它寄给了这个人。"
+          ],
+          "alt": "Jmschws 拍摄的陈列明信片，用于说明纸质通信。",
+          "imageCredit": "Jmschws / 维基共享资源 — CC BY 3.0。明信片实拍照片，仅作文章配图。"
+        },
+        "ko": {
+          "title": "엽서: 한 사람을 위해 고른 몇 줄의 말",
+          "excerpt": "그림 하나, 일상의 작은 장면, 주소 하나. 큰 여행을 기다리지 않고도 다시 안부를 전하는 방법.",
+          "body": [
+            "엽서는 기분 좋은 제한을 준다. 공간이 작으니 무엇을 쓸지 골라야 한다. 눈에 들어온 장면, 기억을 떠올리게 하는 문장, 작은 그림이면 충분할 수 있다. 받는 사람은 완전한 보고서가 없어도 왜 자신을 떠올렸는지 이해할 수 있다.",
+            "스미스소니언의 소장 자료는 엽서의 형태가 얼마나 바뀌었는지 보여 준다. 미국에서는 1907년부터 뒷면을 주소와 메시지 공간으로 나누는 형식이 자리 잡았다. 당연해 보이는 매체도 변화해 온 관행과 사용 방식에서 나왔다는 점을 떠올리게 한다.",
+            "미국 국립우편박물관은 직접 엽서를 만들 수 있는 도안도 제공한다. 여기서 간단한 아이디어를 얻을 수 있다. 멋진 풍경을 찾는 대신 동네 한구석을 그려 보는 것이다. 고른 이미지도 뒷면의 몇 줄만큼 개인적인 메시지의 일부가 된다.",
+            "시작하려면 다시 연락하고 싶은 사람을 고르고 오늘의 구체적인 순간 하나를 적어 보자. 가벼운 질문은 곧바로 답을 요구하지 않으면서 다음 대화의 여지를 남긴다. 완벽한 엽서일 필요는 없다. 고른 디테일과 바로 그 사람에게 보낸다는 사실에 마음이 담긴다."
+          ],
+          "alt": "종이로 주고받는 소식을 설명하기 위해 사용한 Jmschws의 진열된 엽서 사진.",
+          "imageCredit": "Jmschws / 위키미디어 공용 — CC BY 3.0. 기사 설명을 위해 사용한 엽서 실물 사진."
+        },
+        "ru": {
+          "title": "Открытка: несколько строк для одного конкретного человека",
+          "excerpt": "Рисунок, повседневная деталь и адрес: простой способ восстановить связь, не дожидаясь большого путешествия.",
+          "body": [
+            "Открытка задаёт приятное ограничение: места мало, значит, придётся выбирать. Замеченная деталь, фраза, вызывающая воспоминание, или небольшой рисунок могут оказаться достаточными. Получателю не нужен полный отчёт, чтобы понять, почему вы о нём подумали.",
+            "Коллекции Смитсоновского института показывают, насколько менялась форма открыток. В США оборотная сторона, разделённая на адрес и сообщение, вошла в употребление с 1907 года. Эта подробность напоминает: даже очевидный на вид носитель возник из соглашений и привычек, которые со временем менялись.",
+            "Национальный почтовый музей предлагает даже шаблон для собственной открытки. Отсюда простая идея: нарисовать уголок своего района вместо поиска необыкновенного пейзажа. Выбор картинки становится частью сообщения, такой же личной, как несколько строк на обороте.",
+            "Для начала выберите человека, с которым хотели бы снова общаться, и расскажите об одном конкретном моменте своего дня. Ненавязчивый вопрос может открыть продолжение разговора без требования немедленного ответа. Открытка не обязана быть идеальной: внимание заключено в выбранной детали и в том, что вы адресовали её именно этому человеку."
+          ],
+          "alt": "Выставленные открытки на фотографии Jmschws, иллюстрация бумажной переписки.",
+          "imageCredit": "Jmschws / Викисклад — CC BY 3.0. Фотография открыток используется как иллюстрация."
+        },
+        "ar": {
+          "title": "البطاقة البريدية: أسطر قليلة تختار شخصاً بعينه",
+          "excerpt": "رسم وتفصيل يومي وعنوان: فكرة بسيطة لاستعادة التواصل من دون انتظار رحلة كبيرة.",
+          "body": [
+            "تفرض البطاقة البريدية حداً لطيفاً: المساحة قليلة، ولذلك لا بد من الاختيار. قد يكفي تفصيل لاحظته أو جملة تستحضر ذكرى أو رسم صغير. لا يحتاج المتلقي إلى تقرير كامل كي يفهم لماذا فكرت فيه.",
+            "تُظهر مجموعات سميثسونيان مقدار ما تغير شكل هذه البطاقات. في الولايات المتحدة، بدأ اعتماد الوجه الخلفي المقسّم بين العنوان والرسالة منذ عام 1907. يذكّرنا هذا التفصيل بأن وسيطاً يبدو بديهياً هو أيضاً نتيجة أعراف واستخدامات تغيرت.",
+            "ويقدم المتحف الوطني للبريد نموذجاً لصنع بطاقة بنفسك. يمكن أن نستخلص منه فكرة بسيطة: رسم زاوية من الحي بدلاً من البحث عن منظر استثنائي. يصبح اختيار الصورة جزءاً من الرسالة، شخصياً بقدر الأسطر القليلة على الخلف.",
+            "للبدء، اختر شخصاً ترغب في تجديد التواصل معه، واحك له لحظة محددة من يومك. قد يفتح سؤال خفيف باباً للمتابعة من دون المطالبة برد فوري. لا يجب أن تكون البطاقة مثالية؛ فالاهتمام يكمن في التفصيل المختار وفي توجيهه إلى هذا الشخص بالذات."
+          ],
+          "alt": "بطاقات بريدية معروضة بعدسة Jmschws، صورة توضيحية للمراسلة على الورق.",
+          "imageCredit": "Jmschws / ويكيميديا كومنز — CC BY 3.0. صورة فوتوغرافية لبطاقات بريدية مستخدمة للتوضيح."
+        },
+        "sw": {
+          "title": "Kadi ya posta: mistari michache iliyochaguliwa kwa mtu mmoja",
+          "excerpt": "Mchoro, jambo dogo la kila siku na anwani: wazo rahisi la kuwasiliana tena bila kusubiri safari kubwa.",
+          "body": [
+            "Kadi ya posta inaweka mpaka wa kupendeza: nafasi ni ndogo, kwa hiyo lazima uchague. Jambo uliloliona, sentensi inayokumbusha tukio au mchoro mdogo vinaweza kutosha. Anayeipokea hahitaji taarifa kamili ili kuelewa kwa nini ulimfikiria.",
+            "Makusanyo ya Smithsonian yanaonyesha jinsi umbo la kadi hizi lilivyobadilika. Marekani, upande wa nyuma uliogawanywa kwa anwani na ujumbe ulianza kutumika kuanzia 1907. Jambo hilo linatukumbusha kwamba hata kitu kinachoonekana cha kawaida kinatokana na kanuni na matumizi yaliyobadilika.",
+            "National Postal Museum hata inatoa kiolezo cha kutengeneza kadi yako mwenyewe. Hapo kuna wazo rahisi: chora kona ya mtaa wako badala ya kutafuta mandhari ya kipekee. Picha unayochagua inakuwa sehemu ya ujumbe, binafsi kama mistari michache iliyo nyuma.",
+            "Kuanza, chagua mtu ambaye ungependa kuwasiliana naye tena, kisha simulia wakati maalumu wa siku yako. Swali jepesi linaweza kufungua mwendelezo bila kudai jibu la haraka. Kadi si lazima iwe kamilifu: kujali kunaonekana katika jambo ulilochagua na katika kuielekeza kwa mtu huyo."
+          ],
+          "alt": "Kadi za posta zilizoonyeshwa, zilizopigwa picha na Jmschws, zikielezea mawasiliano ya karatasi.",
+          "imageCredit": "Jmschws / Wikimedia Commons — CC BY 3.0. Picha halisi ya kadi za posta iliyotumiwa kuelezea mada."
+        }
+      }
+    },
+    {
+      "eventKey": "les-oiseaux-de-paradis-repetent-leurs-pas-de-danse",
+      "category": "animaux",
+      "tags": [
+        "insolite",
+        "petits-bonheurs"
+      ],
+      "publishedAt": "2026-11-26",
+      "readMinutes": 2,
+      "verified": true,
+      "sources": [
+        {
+          "title": "Dance",
+          "url": "https://www.birdsofparadiseproject.org/dance/",
+          "publisher": "Birds-of-Paradise Project / Cornell Lab of Ornithology"
+        }
+      ],
+      "photo": {
+        "download": "media/a-bird.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magnificent_Riflebird.jpg",
+        "credit": "Photo : Eric Gropp, 2017 — CC BY 2.0, via Wikimedia Commons.",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      "translations": {
+        "fr": {
+          "title": "Les oiseaux de paradis répètent leurs pas de danse",
+          "excerpt": "Plumes, postures et déplacements : leurs parades demandent davantage qu’un joli costume.",
+          "body": [
+            "Chez les oiseaux de paradis, la parade ne se résume pas à déployer de belles plumes. Des mâles combinent postures, déplacements et sons pour attirer une femelle. Le Birds-of-Paradise Project, associé au Cornell Lab of Ornithology, documente ces séquences au plus près, dans leur environnement.",
+            "Les jeunes mâles peuvent passer des années à s’exercer avant de porter leur plumage adulte. Le projet décrit aussi des apprentissages par observation. Chez certaines espèces, de jeunes oiseaux pratiquent ensemble et alternent les rôles, offrant aux chercheurs un aperçu du développement de ces comportements complexes.",
+            "Ptiloris magnificus, une espèce de paradisier, fournit un exemple spectaculaire : le mâle utilise notamment des supports horizontaux, ouvre ses ailes et enchaîne des mouvements latéraux. L’angle depuis lequel une femelle regarde transforme la manière dont elle perçoit sa silhouette et ses surfaces colorées.",
+            "Ces scènes relèvent de la parade nuptiale et de la sélection sexuelle. Parler de danse aide à décrire les mouvements, sans supposer que l’oiseau cherche à divertir un public humain. La photo montre un paradisier perché ; il faut une séquence filmée ou une observation suivie pour apprécier toute la chorégraphie."
+          ],
+          "alt": "Un oiseau de paradis, Ptiloris magnificus, est perché dans la végétation à Lockhart River, en Australie.",
+          "imageCredit": "Photo : Eric Gropp, 2017 — CC BY 2.0, via Wikimedia Commons."
+        },
+        "en": {
+          "title": "Birds-of-paradise practise their dance steps",
+          "excerpt": "Feathers, poses and movement: their courtship displays take more than a beautiful costume.",
+          "body": [
+            "For birds-of-paradise, courtship involves more than showing off beautiful feathers. Males combine poses, movements and sounds to attract a female. The Birds-of-Paradise Project, associated with the Cornell Lab of Ornithology, documents these sequences up close in the birds’ own environment.",
+            "Young males can spend years practising before they acquire adult plumage. The project also describes learning through observation. In some species, young birds practise together and swap roles, giving researchers a glimpse of how these complex behaviours develop.",
+            "The magnificent riflebird, Ptiloris magnificus, offers a striking example: males use horizontal perches, open their wings and perform sequences of sideways movements. A female’s viewing angle changes how she perceives the bird’s outline and colourful surfaces.",
+            "These scenes belong to courtship and sexual selection. Calling them dances helps describe the movements without assuming that the bird is entertaining a human audience. The photograph shows a perched bird; video or prolonged observation is needed to appreciate the full choreography."
+          ],
+          "alt": "A magnificent riflebird, Ptiloris magnificus, perches in vegetation at Lockhart River, Australia.",
+          "imageCredit": "Photo: Eric Gropp, 2017 — CC BY 2.0, via Wikimedia Commons."
+        },
+        "es": {
+          "title": "Las aves del paraíso ensayan sus pasos de baile",
+          "excerpt": "Plumas, posturas y desplazamientos: sus exhibiciones de cortejo exigen algo más que un bonito traje.",
+          "body": [
+            "En las aves del paraíso, el cortejo no consiste únicamente en desplegar hermosas plumas. Los machos combinan posturas, movimientos y sonidos para atraer a una hembra. El Birds-of-Paradise Project, asociado al Cornell Lab of Ornithology, documenta de cerca estas secuencias en el entorno de las aves.",
+            "Los machos jóvenes pueden pasar años practicando antes de adquirir el plumaje adulto. El proyecto también describe el aprendizaje mediante la observación. En algunas especies, las aves jóvenes ensayan juntas y alternan los papeles, lo que permite estudiar el desarrollo de estos comportamientos complejos.",
+            "Ptiloris magnificus, una especie de ave del paraíso, ofrece un ejemplo espectacular: el macho utiliza soportes horizontales, abre las alas y encadena movimientos laterales. El ángulo desde el que observa una hembra cambia su percepción de la silueta y de las superficies coloreadas.",
+            "Estas escenas forman parte del cortejo y de la selección sexual. Hablar de baile ayuda a describir los movimientos sin suponer que el ave busca entretener a un público humano. La foto muestra un ave posada; hace falta un vídeo o una observación prolongada para apreciar toda la coreografía."
+          ],
+          "alt": "Un ave del paraíso, Ptiloris magnificus, está posada entre la vegetación en Lockhart River, Australia.",
+          "imageCredit": "Foto: Eric Gropp, 2017 — CC BY 2.0, vía Wikimedia Commons."
+        },
+        "it": {
+          "title": "Gli uccelli del paradiso provano i loro passi di danza",
+          "excerpt": "Piume, pose e movimenti: le loro parate richiedono più di un bel costume.",
+          "body": [
+            "Per gli uccelli del paradiso, il corteggiamento non consiste soltanto nello sfoggiare belle piume. I maschi combinano pose, movimenti e suoni per attirare una femmina. Il Birds-of-Paradise Project, associato al Cornell Lab of Ornithology, documenta da vicino queste sequenze nell'ambiente degli uccelli.",
+            "I giovani maschi possono esercitarsi per anni prima di acquisire il piumaggio adulto. Il progetto descrive anche l'apprendimento attraverso l'osservazione. In alcune specie, i giovani si allenano insieme e si scambiano i ruoli, offrendo ai ricercatori uno sguardo sullo sviluppo di questi comportamenti complessi.",
+            "Ptiloris magnificus, una specie di uccello del paradiso, offre un esempio spettacolare: il maschio utilizza sostegni orizzontali, apre le ali e concatena movimenti laterali. L'angolo di osservazione della femmina cambia il modo in cui percepisce la sagoma e le superfici colorate.",
+            "Queste scene appartengono al corteggiamento e alla selezione sessuale. Parlare di danza aiuta a descrivere i movimenti senza supporre che l'uccello voglia intrattenere un pubblico umano. La foto mostra un uccello posato; servono un filmato o un'osservazione prolungata per apprezzare l'intera coreografia."
+          ],
+          "alt": "Un uccello del paradiso, Ptiloris magnificus, è posato nella vegetazione a Lockhart River, in Australia.",
+          "imageCredit": "Foto: Eric Gropp, 2017 — CC BY 2.0, tramite Wikimedia Commons."
+        },
+        "zh": {
+          "title": "极乐鸟也会练习“舞步”",
+          "excerpt": "羽毛、姿势与动作：求偶展示所需的，可不只是一身漂亮行头。",
+          "body": [
+            "极乐鸟的求偶展示，不只是展开漂亮羽毛。雄鸟会结合姿势、移动和声音来吸引雌鸟。与康奈尔鸟类学实验室相关的 Birds-of-Paradise Project，在鸟类原本的生活环境中近距离记录这些动作序列。",
+            "年轻雄鸟在长出成年羽毛之前，可能已经花了数年练习。该项目也介绍了通过观察进行学习的情况。某些物种的幼鸟会一起练习、交换角色，让研究人员得以了解这些复杂行为如何逐步形成。",
+            "Ptiloris magnificus 是一个精彩的例子：雄鸟会使用水平支撑物，展开双翼，接连做出侧向移动。雌鸟观看的角度不同，对雄鸟轮廓和彩色表面的感受也会发生变化。",
+            "这些场景属于求偶和性选择。用“舞蹈”来形容有助于描述动作，但不能因此认为鸟是在取悦人类观众。配图展示了一只停栖的鸟；要欣赏完整的动作组合，需要观看影像或持续观察。"
+          ],
+          "alt": "一只学名为 Ptiloris magnificus 的极乐鸟，停在澳大利亚洛克哈特河地区的植被中。",
+          "imageCredit": "摄影：Eric Gropp，2017年 — CC BY 2.0，图片来自维基共享资源。"
+        },
+        "ko": {
+          "title": "극락조도 춤 동작을 연습합니다",
+          "excerpt": "깃털과 자세, 움직임. 구애 과시에는 멋진 옷차림 이상의 것이 필요합니다.",
+          "body": [
+            "극락조의 구애는 아름다운 깃털을 펼쳐 보이는 데서 끝나지 않습니다. 수컷들은 자세와 움직임, 소리를 결합해 암컷을 유혹합니다. 코넬 조류학연구소와 관련된 Birds-of-Paradise Project는 새들이 사는 환경에서 이런 연속 동작을 가까이 기록합니다.",
+            "어린 수컷은 성체의 깃털을 갖추기 전까지 여러 해 동안 연습할 수 있습니다. 이 프로젝트는 관찰을 통한 학습도 설명합니다. 일부 종에서는 어린 새들이 함께 연습하고 역할을 바꾸어, 연구진이 복잡한 행동의 발달 과정을 엿볼 수 있게 합니다.",
+            "극락조의 한 종인 Ptiloris magnificus는 인상적인 사례입니다. 수컷은 수평으로 놓인 지지대를 이용하고 날개를 펼친 뒤 옆으로 움직이는 동작을 이어 갑니다. 암컷이 바라보는 각도에 따라 실루엣과 색이 있는 표면이 다르게 보입니다.",
+            "이런 장면은 구애와 성 선택에 속합니다. 춤이라는 표현은 움직임을 설명하는 데 도움이 되지만, 새가 인간 관객을 즐겁게 하려 한다는 뜻은 아닙니다. 사진에는 앉아 있는 새가 담겨 있습니다. 전체 동작을 감상하려면 영상이나 지속적인 관찰이 필요합니다."
+          ],
+          "alt": "호주 록하트리버의 식물 사이에 앉아 있는 극락조 Ptiloris magnificus.",
+          "imageCredit": "사진: Eric Gropp, 2017년 — CC BY 2.0, 위키미디어 공용."
+        },
+        "ru": {
+          "title": "Райские птицы репетируют танцевальные движения",
+          "excerpt": "Перья, позы и перемещения: для брачной демонстрации нужен не только красивый наряд.",
+          "body": [
+            "У райских птиц ухаживание не сводится к демонстрации красивых перьев. Самцы сочетают позы, движения и звуки, чтобы привлечь самку. Birds-of-Paradise Project, связанный с Корнеллской лабораторией орнитологии, подробно документирует эти последовательности в естественном окружении птиц.",
+            "Молодые самцы могут практиковаться годами, прежде чем приобретут взрослое оперение. Проект также описывает обучение через наблюдение. У некоторых видов молодые птицы упражняются вместе и меняются ролями, позволяя исследователям увидеть развитие этих сложных форм поведения.",
+            "Яркий пример — Ptiloris magnificus: самец использует горизонтальные опоры, раскрывает крылья и выполняет последовательности боковых движений. Угол, под которым смотрит самка, меняет её восприятие силуэта и цветных участков оперения.",
+            "Такие сцены относятся к ухаживанию и половому отбору. Слово «танец» помогает описывать движения, но не означает, что птица развлекает человеческую публику. Фотография показывает сидящую птицу; оценить всю хореографию можно по видеозаписи или при длительном наблюдении."
+          ],
+          "alt": "Райская птица Ptiloris magnificus сидит среди растительности в районе Локхарт-Ривер, Австралия.",
+          "imageCredit": "Фото: Eric Gropp, 2017 — CC BY 2.0, через Викисклад."
+        },
+        "ar": {
+          "title": "طيور الجنة تتدرب على خطوات رقصها",
+          "excerpt": "ريش ووضعيات وحركات: عروض المغازلة تتطلب أكثر من مظهر جميل.",
+          "body": [
+            "عند طيور الجنة، لا تقتصر المغازلة على فرد ريش جميل. تجمع الذكور بين الوضعيات والحركات والأصوات لجذب الأنثى. ويوثق Birds-of-Paradise Project، المرتبط بمختبر كورنيل لعلم الطيور، هذه المقاطع عن قرب في البيئة التي تعيش فيها الطيور.",
+            "قد تقضي الذكور الصغيرة سنوات في التدريب قبل اكتساب ريش البالغين. ويصف المشروع أيضاً التعلم عبر الملاحظة. وفي بعض الأنواع، تتدرب الطيور الصغيرة معاً وتتبادل الأدوار، ما يتيح للباحثين لمحة عن تطور هذه السلوكيات المعقدة.",
+            "يقدم Ptiloris magnificus مثالاً لافتاً: يستخدم الذكر مجاثم أفقية، ويفرد جناحيه، ثم يؤدي سلسلة من الحركات الجانبية. وتؤثر زاوية مشاهدة الأنثى في الطريقة التي تدرك بها هيئة الطائر ومساحاته الملونة.",
+            "تنتمي هذه المشاهد إلى المغازلة والانتقاء الجنسي. وكلمة الرقص تساعد على وصف الحركات، من دون افتراض أن الطائر يسعى إلى تسلية جمهور بشري. تعرض الصورة طائراً واقفاً؛ أما تقدير الحركة كاملة فيحتاج إلى مقطع مصور أو مراقبة متواصلة."
+          ],
+          "alt": "طائر جنة من نوع Ptiloris magnificus يقف بين النباتات في لوكهارت ريفر بأستراليا.",
+          "imageCredit": "تصوير: Eric Gropp، 2017 — CC BY 2.0، عبر ويكيميديا كومنز."
+        },
+        "sw": {
+          "title": "Ndege wa peponi hufanya mazoezi ya hatua zao za dansi",
+          "excerpt": "Manyoya, mikao na mienendo: maonyesho yao ya kutafuta mwenzi yanahitaji zaidi ya mavazi mazuri.",
+          "body": [
+            "Kwa ndege wa peponi, maonyesho ya kutafuta mwenzi hayahusu kufungua manyoya mazuri tu. Madume huchanganya mikao, mienendo na sauti ili kuvutia jike. Birds-of-Paradise Project, inayohusishwa na Cornell Lab of Ornithology, hurekodi kwa karibu mfululizo huo katika mazingira ya ndege wenyewe.",
+            "Madume machanga yanaweza kutumia miaka kufanya mazoezi kabla ya kupata manyoya ya ukubwani. Mradi pia unaeleza kujifunza kwa kutazama. Katika baadhi ya spishi, ndege wachanga hufanya mazoezi pamoja na kubadilishana majukumu, wakiwapa watafiti nafasi ya kuona maendeleo ya tabia hizi tata.",
+            "Ptiloris magnificus, spishi mojawapo ya ndege wa peponi, ni mfano wa kuvutia: dume hutumia sehemu za kutua zilizo mlalo, hufungua mabawa na kuunganisha mienendo ya kwenda pembeni. Jike anapomtazama kutoka pembe tofauti, huona umbo lake na sehemu zenye rangi kwa namna tofauti.",
+            "Matukio haya yanahusu kutafuta mwenzi na uteuzi wa kijinsia. Kuyaita dansi husaidia kueleza mienendo, bila kudhani kwamba ndege anataka kuwaburudisha watazamaji binadamu. Picha inaonyesha ndege aliyetua; ili kufurahia mfululizo wote wa mienendo, unahitaji video au uchunguzi wa muda mrefu."
+          ],
+          "alt": "Ndege wa peponi, Ptiloris magnificus, ametua katikati ya mimea huko Lockhart River, Australia.",
+          "imageCredit": "Picha: Eric Gropp, 2017 — CC BY 2.0, kupitia Wikimedia Commons."
+        }
+      }
+    },
+    {
+      "eventKey": "bake-off-trois-defis-patisserie",
+      "category": "tele-realite",
+      "tags": [
+        "pop-culture",
+        "petits-bonheurs"
+      ],
+      "publishedAt": "2026-11-26",
+      "readMinutes": 2,
+      "verified": true,
+      "sources": [
+        {
+          "title": "PBS Heats Up Sundays with The Great British Baking Show",
+          "url": "https://www.pbs.org/about/about-pbs/blogs/news/pbs-heats-up-sundays-with-the-uks-smash-hit-competition-series-the-great-british-baking-show-sundays-starting-december-28/",
+          "publisher": "PBS"
+        },
+        {
+          "title": "The Great British Baking Show Returns to PBS for a Fourth Season",
+          "url": "https://www.pbs.org/about/about-pbs/blogs/news/the-great-british-baking-show-returns-to-pbs-for-a-fourth-season-of-merriment-in-the-kitchen/",
+          "publisher": "PBS"
+        }
+      ],
+      "photo": {
+        "download": "media/b-bake-off.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Victoria_sponge.jpg",
+        "credit": "Gordonplant, 2010 / Wikimedia Commons — CC BY 2.0. Image redimensionnée et compressée.",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      "translations": {
+        "fr": {
+          "title": "Pourquoi Bake Off organise ses épisodes en trois défis",
+          "excerpt": "Une création personnelle, une recette technique et une pièce spectaculaire : le format observe trois facettes d’un même talent.",
+          "body": [
+            "Quand PBS présente The Great British Baking Show au public américain en décembre 2014, la chaîne décrit une compétition britannique structurée autour de trois épreuves. Le programme, connu au Royaume-Uni sous le nom The Great British Bake Off, fait concourir des pâtissiers amateurs selon une mécanique facile à suivre.",
+            "L’épreuve « signature » donne d’abord une place à la personnalité et au savoir-faire de chacun. L’épreuve technique change ensuite les conditions : les participants reçoivent les mêmes ingrédients et des indications limitées. Le regard passe d’une proposition personnelle à la capacité d’interpréter une recette commune avec précision.",
+            "Enfin, le « showstopper » demande une réalisation ambitieuse qui doit impressionner sans oublier le goût. Les annonces de PBS en 2014 puis en 2017 décrivent cette même structure. Il s’agit ici de l’histoire d’un format télévisuel, et non d’une annonce sur sa diffusion ou ses candidats actuels.",
+            "Cette progression offre trois façons de regarder un gâteau : expression, maîtrise, puis mise en scène. Elle donne aussi au public des critères compréhensibles pour comparer les créations. Le Victoria sponge photographié pour illustrer cet article est une pâtisserie indépendante de l’émission ; il ne s’agit pas d’une réalisation attribuée à un candidat."
+          ],
+          "alt": "Victoria sponge à la confiture et à la crème, photographié en 2010 ; illustration indépendante de l’émission Bake Off.",
+          "imageCredit": "Gordonplant, 2010 / Wikimedia Commons — CC BY 2.0. Image redimensionnée et compressée."
+        },
+        "en": {
+          "title": "Why Bake Off builds its episodes around three challenges",
+          "excerpt": "A personal creation, a technical recipe and a spectacular centrepiece: the format explores three sides of the same talent.",
+          "body": [
+            "When PBS introduced The Great British Baking Show to American audiences in December 2014, it described a British competition structured around three challenges. Known in the United Kingdom as The Great British Bake Off, the programme puts amateur bakers through an easy-to-follow format.",
+            "The signature challenge first gives each baker room for personality and skill. The technical then changes the conditions: participants receive the same ingredients and limited instructions. Attention shifts from a personal proposal to the ability to interpret a common recipe precisely.",
+            "Finally, the showstopper requires an ambitious creation that must impress without forgetting flavour. PBS announcements in 2014 and 2017 describe this same structure. This is a look at the history of a television format, rather than an announcement about its current broadcasts or contestants.",
+            "The progression offers three ways to look at a cake: expression, mastery and presentation. It also gives viewers understandable criteria for comparing the creations. The Victoria sponge photographed to illustrate this article is independent of the programme; it is not presented as something baked by a contestant."
+          ],
+          "alt": "A Victoria sponge with jam and cream, photographed in 2010; an illustration independent of Bake Off.",
+          "imageCredit": "Gordonplant, 2010 / Wikimedia Commons — CC BY 2.0. Image resized and compressed."
+        },
+        "es": {
+          "title": "Por qué Bake Off organiza sus episodios en tres pruebas",
+          "excerpt": "Una creación personal, una receta técnica y una pieza espectacular: el formato examina tres facetas de un mismo talento.",
+          "body": [
+            "Cuando PBS presentó The Great British Baking Show al público estadounidense en diciembre de 2014, describió una competición británica organizada en tres pruebas. El programa, conocido en el Reino Unido como The Great British Bake Off, reúne a reposteros aficionados en una dinámica fácil de seguir.",
+            "La prueba «signature» deja espacio a la personalidad y al saber hacer de cada participante. La técnica cambia después las condiciones: todos reciben los mismos ingredientes e instrucciones limitadas. La atención pasa de una propuesta personal a la capacidad de interpretar con precisión una receta común.",
+            "Por último, el «showstopper» exige una creación ambiciosa que impresione sin olvidar el sabor. Los comunicados de PBS de 2014 y 2017 describen la misma estructura. Aquí se cuenta la historia de un formato televisivo, no se anuncia su emisión ni se habla de sus concursantes actuales.",
+            "Esta progresión ofrece tres formas de mirar una tarta: expresión, dominio y puesta en escena. También proporciona al público criterios comprensibles para comparar las creaciones. El Victoria sponge fotografiado para este artículo es independiente del programa; no se presenta como una elaboración de ningún concursante."
+          ],
+          "alt": "Victoria sponge con mermelada y crema, fotografiado en 2010; imagen ilustrativa ajena al programa Bake Off.",
+          "imageCredit": "Gordonplant, 2010 / Wikimedia Commons — CC BY 2.0. Imagen redimensionada y comprimida."
+        },
+        "it": {
+          "title": "Perché Bake Off costruisce gli episodi attorno a tre prove",
+          "excerpt": "Una creazione personale, una ricetta tecnica e un pezzo spettacolare: il formato osserva tre aspetti dello stesso talento.",
+          "body": [
+            "Quando PBS presentò The Great British Baking Show al pubblico americano nel dicembre 2014, descrisse una competizione britannica articolata in tre prove. Il programma, noto nel Regno Unito come The Great British Bake Off, mette in gara pasticcieri amatoriali con un meccanismo facile da seguire.",
+            "La prova «signature» lascia innanzitutto spazio alla personalità e alle capacità di ciascuno. Quella tecnica cambia le condizioni: i partecipanti ricevono gli stessi ingredienti e indicazioni limitate. L’attenzione passa da una proposta personale alla capacità di interpretare con precisione una ricetta comune.",
+            "Infine, lo «showstopper» richiede una creazione ambiziosa, capace di stupire senza dimenticare il gusto. Gli annunci di PBS del 2014 e del 2017 descrivono la stessa struttura. Qui si racconta la storia di un formato televisivo, senza annunciare le trasmissioni o i concorrenti attuali.",
+            "Questa progressione offre tre modi di osservare una torta: espressione, padronanza e presentazione. Fornisce inoltre al pubblico criteri comprensibili per confrontare le creazioni. La Victoria sponge fotografata per illustrare l’articolo è indipendente dal programma: non viene attribuita a nessun concorrente."
+          ],
+          "alt": "Victoria sponge con confettura e crema, fotografata nel 2010; immagine illustrativa indipendente dal programma Bake Off.",
+          "imageCredit": "Gordonplant, 2010 / Wikimedia Commons — CC BY 2.0. Immagine ridimensionata e compressa."
+        },
+        "zh": {
+          "title": "为什么《Bake Off》把每集分成三项挑战",
+          "excerpt": "个人创作、技术配方和惊艳大作：这一赛制从三个角度观察同一种才华。",
+          "body": [
+            "2014年12月，PBS向美国观众介绍《The Great British Baking Show》时，把它描述为一项围绕三种挑战展开的英国比赛。这个节目在英国名为《The Great British Bake Off》，让业余烘焙爱好者按照易于理解的赛制同场竞技。",
+            "“招牌挑战”首先为每位参赛者的个性和技艺留出空间。“技术挑战”随后改变条件：选手拿到相同的食材，却只有有限的操作说明。观看重点也从个人方案，转向能否准确理解和完成同一份配方。",
+            "最后，“惊艳挑战”要求完成一件有雄心的作品，既要吸引目光，也不能忽视味道。PBS在2014年和2017年的公告中都描述了这一结构。这里回顾的是一种电视赛制的历史，并不是介绍节目目前的播出安排或参赛者。",
+            "这样的递进提供了三种观看蛋糕的方式：表达、掌握技术，以及呈现效果。它也给观众提供了容易理解的比较标准。本文配图中的维多利亚海绵蛋糕独立于该节目，不应被当作任何一位参赛者制作的作品。"
+          ],
+          "alt": "2010年拍摄的夹有果酱和奶油的维多利亚海绵蛋糕；配图与《Bake Off》节目无关。",
+          "imageCredit": "Gordonplant, 2010 / Wikimedia Commons — CC BY 2.0. 图片已调整尺寸并压缩。"
+        },
+        "ko": {
+          "title": "베이크 오프가 한 회를 세 가지 과제로 구성하는 이유",
+          "excerpt": "개성 있는 작품, 기술을 요구하는 레시피, 화려한 대작. 이 형식은 같은 재능을 세 방향에서 살핀다.",
+          "body": [
+            "PBS는 2014년 12월 The Great British Baking Show를 미국 시청자에게 소개하면서 세 가지 과제로 구성된 영국 경연 프로그램이라고 설명했다. 영국에서 The Great British Bake Off라는 이름으로 알려진 이 프로그램은 아마추어 제빵 참가자들이 이해하기 쉬운 방식으로 겨루게 한다.",
+            "먼저 ‘시그니처’ 과제는 참가자마다 자신의 개성과 솜씨를 보여 줄 기회를 준다. 이어지는 기술 과제는 조건을 바꾼다. 모두 같은 재료를 받고, 설명은 제한적으로 주어진다. 시선은 개인적인 구상에서 공통 레시피를 정확하게 해석하는 능력으로 옮겨 간다.",
+            "마지막 ‘쇼스토퍼’는 맛을 놓치지 않으면서도 인상적인 대작을 요구한다. PBS의 2014년과 2017년 발표에는 같은 구조가 설명돼 있다. 이 기사는 현재의 방송 일정이나 출연자를 소개하는 것이 아니라, 한 텔레비전 형식의 역사를 다룬다.",
+            "이러한 진행은 케이크를 표현, 숙련도, 연출이라는 세 가지 방식으로 보게 한다. 시청자가 작품을 비교할 수 있는 이해하기 쉬운 기준도 제공한다. 기사를 설명하는 빅토리아 스펀지케이크 사진은 프로그램과 무관하며, 특정 참가자가 만든 작품으로 제시한 것이 아니다."
+          ],
+          "alt": "2010년에 촬영한 잼과 크림을 넣은 빅토리아 스펀지케이크. 베이크 오프와 관계없는 설명용 사진이다.",
+          "imageCredit": "Gordonplant, 2010 / Wikimedia Commons — CC BY 2.0. 이미지 크기를 조정하고 압축했습니다."
+        },
+        "ru": {
+          "title": "Почему в Bake Off каждый выпуск строится вокруг трёх испытаний",
+          "excerpt": "Личная идея, технический рецепт и эффектное произведение: формат рассматривает три стороны одного таланта.",
+          "body": [
+            "Когда PBS представляла The Great British Baking Show американской аудитории в декабре 2014 года, она описала британское соревнование, построенное вокруг трёх испытаний. Программа, известная в Великобритании как The Great British Bake Off, предлагает пекарям-любителям состязаться по понятным зрителю правилам.",
+            "Первое испытание, «signature», оставляет место для индивидуальности и мастерства каждого участника. Техническое испытание меняет условия: всем дают одинаковые ингредиенты и ограниченные инструкции. Внимание переключается с личного замысла на способность точно понять и выполнить общий рецепт.",
+            "Наконец, «showstopper» требует амбициозной работы, которая должна впечатлить, не заставляя забыть о вкусе. Сообщения PBS 2014 и 2017 годов описывают одну и ту же структуру. Здесь речь идёт об истории телевизионного формата, а не о нынешнем расписании показов или составе участников.",
+            "Такая последовательность предлагает три взгляда на торт: самовыражение, владение техникой и подача. Она также даёт зрителю понятные критерии сравнения. Бисквит «Виктория», снятый для иллюстрации этой статьи, не связан с программой и не представлен как работа какого-либо её участника."
+          ],
+          "alt": "Бисквит «Виктория» с джемом и кремом, сфотографированный в 2010 году; иллюстрация не связана со съёмками Bake Off.",
+          "imageCredit": "Gordonplant, 2010 / Wikimedia Commons — CC BY 2.0. Размер изображения изменён; выполнено сжатие."
+        },
+        "ar": {
+          "title": "لماذا ينظم Bake Off حلقاته حول ثلاثة تحديات؟",
+          "excerpt": "إبداع شخصي ووصفة تقنية وقطعة مبهرة: ينظر هذا القالب التلفزيوني إلى ثلاث جهات من الموهبة نفسها.",
+          "body": [
+            "عندما قدمت PBS برنامج The Great British Baking Show إلى الجمهور الأمريكي في ديسمبر 2014، وصفت القناة مسابقة بريطانية مبنية على ثلاثة اختبارات. ويجمع البرنامج، المعروف في المملكة المتحدة باسم The Great British Bake Off، خبازين هواة ضمن آلية يسهل متابعتها.",
+            "يمنح اختبار «التوقيع الشخصي» أولاً مساحة لشخصية كل مشارك ومهارته. ثم يغير الاختبار التقني الشروط: يتلقى المشاركون المكونات نفسها وإرشادات محدودة. ينتقل الاهتمام من اقتراح شخصي إلى القدرة على تفسير وصفة مشتركة بدقة.",
+            "أخيراً، يتطلب تحدي «showstopper» عملاً طموحاً يثير الإعجاب من دون إهمال المذاق. وتصف إعلانات PBS في 2014 ثم 2017 البنية نفسها. الحديث هنا عن تاريخ قالب تلفزيوني، وليس إعلاناً عن مواعيد عرضه أو متسابقيه الحاليين.",
+            "يقدم هذا التدرج ثلاث طرق للنظر إلى كعكة: التعبير، ثم الإتقان، ثم الإخراج البصري. ويمنح الجمهور أيضاً معايير مفهومة لمقارنة الأعمال. كعكة فيكتوريا الإسفنجية المصوّرة لتوضيح هذا المقال مستقلة عن البرنامج؛ ولا تُنسب إلى أي متسابق."
+          ],
+          "alt": "كعكة فيكتوريا الإسفنجية بالمربى والكريمة في صورة من 2010؛ صورة توضيحية مستقلة عن برنامج Bake Off.",
+          "imageCredit": "Gordonplant، 2010 / ويكيميديا كومنز — CC BY 2.0. عُدّلت أبعاد الصورة وضُغط ملفها."
+        },
+        "sw": {
+          "title": "Kwa nini Bake Off hupanga vipindi vyake katika changamoto tatu?",
+          "excerpt": "Ubunifu binafsi, mapishi ya kiufundi na kazi ya kuvutia: mfumo huu unaangalia pande tatu za kipaji kilekile.",
+          "body": [
+            "PBS ilipoitambulisha The Great British Baking Show kwa watazamaji wa Marekani Desemba 2014, kituo kilieleza mashindano ya Uingereza yaliyopangwa katika majaribio matatu. Kipindi hicho, kinachojulikana Uingereza kama The Great British Bake Off, kinawakutanisha waokaji wasio wa kitaaluma katika utaratibu rahisi kufuata.",
+            "Jaribio la «signature» kwanza linatoa nafasi kwa utu na ustadi wa kila mmoja. Jaribio la kiufundi kisha linabadilisha masharti: washiriki wanapokea viambato vilevile na maelekezo machache. Mtazamo unahama kutoka ubunifu binafsi kwenda uwezo wa kufasiri mapishi ya pamoja kwa usahihi.",
+            "Mwisho, «showstopper» inahitaji kazi kubwa inayopaswa kuvutia bila kusahau ladha. Matangazo ya PBS ya 2014 na baadaye ya 2017 yanaeleza muundo huohuo. Hapa tunazungumzia historia ya mfumo wa kipindi, si tangazo la muda wa kurushwa kwake au washiriki wa sasa.",
+            "Hatua hizi zinatoa njia tatu za kuangalia keki: kujieleza, umahiri, halafu uwasilishaji. Pia zinawapa watazamaji vigezo vinavyoeleweka vya kulinganisha kazi. Victoria sponge iliyopigwa picha kuielezea makala hii ni keki isiyohusiana na kipindi; si kazi inayohusishwa na mshiriki yeyote."
+          ],
+          "alt": "Keki ya Victoria sponge yenye jamu na krimu, iliyopigwa picha mwaka 2010; picha ya kuelezea isiyohusiana na kipindi cha Bake Off.",
+          "imageCredit": "Gordonplant, 2010 / Wikimedia Commons — CC BY 2.0. Vipimo vya picha vimebadilishwa na faili limebanwa."
+        }
+      }
+    },
+    {
+      "eventKey": "cave-canem-pompei-message-sur-le-seuil",
+      "category": "insolite",
+      "tags": [
+        "insolite",
+        "animaux",
+        "pop-culture"
+      ],
+      "publishedAt": "2026-11-26",
+      "readMinutes": 2,
+      "verified": true,
+      "sources": [
+        {
+          "title": "House of the Tragic Poet",
+          "url": "https://pompeiisites.org/en/archaeological-site/house-of-the-tragic-poet/",
+          "publisher": "Parco Archeologico di Pompei"
+        }
+      ],
+      "photo": {
+        "download": "media/c-cave-canem-pompei-message-sur-le-seuil.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cave_canem_mosaic_(Pompeii).jpg",
+        "credit": "Yair Haklai / Wikimedia Commons — CC BY-SA 4.0. Mosaïque de la maison du Poète tragique, photographiée à Pompéi en 2023.",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "translations": {
+        "fr": {
+          "title": "À Pompéi, un chien en mosaïque vous attend sur le seuil",
+          "excerpt": "« Cave canem » : deux mots et une silhouette animale qui rendent une maison antique étonnamment proche.",
+          "body": [
+            "À l’entrée de la maison du Poète tragique, à Pompéi, une mosaïque représente un chien et porte les mots « Cave canem » : attention au chien. Le parc archéologique signale cette image à l’entrée principale. Une formule brève suffit à rendre le seuil immédiatement parlant.",
+            "Ce qui frappe, c’est la proximité du geste. Nous connaissons les plaques de porte, les sonnettes et les petits messages destinés aux visiteurs. Devant cette image antique, on peut reconnaître une intention familière : faire comprendre quelque chose avant même que l’on entre dans la maison.",
+            "Cela ne permet pas de reconstituer le caractère d’un chien réel ni les habitudes de ses propriétaires. L’image invite surtout à observer comment texte, silhouette et emplacement travaillent ensemble. Le message est lié au passage : placé ailleurs, le même motif ne produirait pas tout à fait la même impression.",
+            "Pour regarder la photographie, prenez le temps de suivre le contour de l’animal, puis les lettres sous ses pattes. On peut ensuite comparer ce dispositif aux panneaux que l’on croise aujourd’hui. L’intérêt n’est pas de prétendre que rien n’a changé, mais de trouver, dans un objet ancien, une question très quotidienne de communication."
+          ],
+          "alt": "Mosaïque Cave canem avec un chien, à l’entrée de la maison du Poète tragique à Pompéi.",
+          "imageCredit": "Yair Haklai / Wikimedia Commons — CC BY-SA 4.0. Mosaïque de la maison du Poète tragique, photographiée à Pompéi en 2023."
+        },
+        "en": {
+          "title": "In Pompeii, a mosaic dog is waiting at the threshold",
+          "excerpt": "“Cave canem”: two words and an animal silhouette that make an ancient house feel unexpectedly familiar.",
+          "body": [
+            "At the entrance to the House of the Tragic Poet in Pompeii, a mosaic shows a dog and the words “Cave canem”: beware of the dog. The archaeological park identifies this image at the main entrance. A short phrase makes the threshold immediately expressive.",
+            "The familiarity of the gesture is striking. We know door signs, bells and little messages intended for visitors. Looking at this ancient image, we can recognise a familiar intention: communicating something before someone even enters the house.",
+            "It cannot reconstruct the temperament of a real dog or the habits of its owners. Instead, the image invites us to observe how wording, silhouette and location work together. The message belongs to the passageway: elsewhere, the same motif would not make quite the same impression.",
+            "Take time with the photograph to trace the animal’s outline, then the letters beneath its paws. You can compare that arrangement with signs you encounter today. The point is not to claim that nothing has changed, but to discover a very everyday communication question in an ancient object."
+          ],
+          "alt": "Cave canem dog mosaic at the entrance to the House of the Tragic Poet in Pompeii.",
+          "imageCredit": "Yair Haklai / Wikimedia Commons — CC BY-SA 4.0. Mosaic at the House of the Tragic Poet, photographed in Pompeii in 2023."
+        },
+        "es": {
+          "title": "En Pompeya, un perro de mosaico espera en el umbral",
+          "excerpt": "«Cave canem»: dos palabras y una silueta animal que hacen sorprendentemente cercana una casa antigua.",
+          "body": [
+            "En la entrada de la casa del Poeta Trágico de Pompeya, un mosaico representa un perro junto a las palabras «Cave canem»: cuidado con el perro. El parque arqueológico sitúa esta imagen en la entrada principal. Una frase breve basta para que el umbral comunique algo de inmediato.",
+            "Sorprende lo familiar que resulta el gesto. Conocemos las placas de las puertas, los timbres y los pequeños mensajes para las visitas. Ante esta imagen antigua podemos reconocer una intención cercana: hacer entender algo antes incluso de que alguien entre en la casa.",
+            "Eso no permite reconstruir el carácter de un perro real ni las costumbres de sus dueños. La imagen invita más bien a observar cómo colaboran el texto, la silueta y la ubicación. El mensaje está ligado al paso: colocado en otro lugar, el mismo motivo no produciría exactamente la misma impresión.",
+            "Al mirar la fotografía, dedica un momento a seguir el contorno del animal y después las letras bajo sus patas. Luego puedes comparar esa disposición con los letreros que encuentras hoy. No se trata de afirmar que nada ha cambiado, sino de descubrir en un objeto antiguo una cuestión cotidiana de comunicación."
+          ],
+          "alt": "Mosaico Cave canem con un perro, en la entrada de la casa del Poeta Trágico de Pompeya.",
+          "imageCredit": "Yair Haklai / Wikimedia Commons — CC BY-SA 4.0. Mosaico de la casa del Poeta Trágico, fotografiado en Pompeya en 2023."
+        },
+        "it": {
+          "title": "A Pompei, un cane a mosaico vi aspetta sulla soglia",
+          "excerpt": "«Cave canem»: due parole e una sagoma animale che rendono sorprendentemente vicina una casa antica.",
+          "body": [
+            "All’ingresso della casa del Poeta Tragico, a Pompei, un mosaico raffigura un cane e reca le parole «Cave canem»: attenti al cane. Il parco archeologico segnala questa immagine all’entrata principale. Una formula breve basta a rendere la soglia immediatamente espressiva.",
+            "Colpisce la familiarità del gesto. Conosciamo targhe sulle porte, campanelli e piccoli messaggi rivolti ai visitatori. Davanti a questa immagine antica possiamo riconoscere un’intenzione vicina: far capire qualcosa prima ancora che qualcuno entri in casa.",
+            "Questo non permette di ricostruire il carattere di un cane reale o le abitudini dei proprietari. L’immagine invita soprattutto a osservare come testo, sagoma e posizione lavorino insieme. Il messaggio è legato al passaggio: altrove, lo stesso motivo non produrrebbe esattamente la medesima impressione.",
+            "Guardando la fotografia, prendetevi il tempo di seguire il contorno dell’animale e poi le lettere sotto le zampe. Potete confrontare questa disposizione con i cartelli che incontrate oggi. Non si tratta di sostenere che nulla sia cambiato, ma di trovare in un oggetto antico una questione quotidiana di comunicazione."
+          ],
+          "alt": "Mosaico Cave canem con un cane all’ingresso della casa del Poeta Tragico a Pompei.",
+          "imageCredit": "Yair Haklai / Wikimedia Commons — CC BY-SA 4.0. Mosaico della casa del Poeta Tragico, fotografato a Pompei nel 2023."
+        },
+        "zh": {
+          "title": "在庞贝，一只马赛克小狗守在门槛前",
+          "excerpt": "“Cave canem”：两个词和一个动物轮廓，让一座古宅忽然变得亲切。",
+          "body": [
+            "庞贝的悲剧诗人之家入口处，有一幅狗的马赛克，旁边写着“Cave canem”，意思是“小心有狗”。考古公园将这幅图像的位置注明为正门入口。短短一句话，就让门槛立即具有了表达意味。",
+            "令人印象深刻的是这种做法的熟悉感。我们见过门牌、门铃，也见过留给访客的小纸条。站在这幅古老图像前，仍能认出一个熟悉的意图：在人走进屋子之前，先让他明白一件事。",
+            "当然，这并不能还原某只真实的狗是什么性格，也无法推知主人的生活习惯。图像更适合让我们观察文字、轮廓和位置如何协同工作。消息与通道有关：放在别处，同样的图案未必会产生完全相同的印象。",
+            "看照片时，可以先慢慢追随狗的轮廓，再看它爪子下的字母。然后，把这种安排与今天路上看到的标牌作比较。重点不是说一切都没变，而是在一件古物中，发现一个非常日常的沟通问题。"
+          ],
+          "alt": "庞贝悲剧诗人之家入口处带有狗形象的 Cave canem 马赛克。",
+          "imageCredit": "Yair Haklai / 维基共享资源 — CC BY-SA 4.0。悲剧诗人之家的马赛克，2023 年摄于庞贝。"
+        },
+        "ko": {
+          "title": "폼페이의 문턱에서 기다리는 모자이크 개",
+          "excerpt": "“Cave canem”. 두 단어와 동물의 윤곽이 고대의 집을 뜻밖에 가깝게 느끼게 한다.",
+          "body": [
+            "폼페이의 비극 시인의 집 입구에는 개와 함께 “Cave canem”, 즉 “개 조심”이라는 문구를 담은 모자이크가 있다. 고고학 공원은 이 이미지가 정문 입구에 있다고 설명한다. 짧은 문구만으로 문턱이 곧바로 메시지를 전한다.",
+            "눈길을 끄는 것은 그 행동의 익숙함이다. 우리는 문패, 초인종, 방문객을 위한 작은 안내문을 안다. 이 고대 이미지를 보면서도 친숙한 의도를 알아볼 수 있다. 누군가 집에 들어오기 전에 무언가를 이해하도록 하는 것이다.",
+            "그렇다고 실제 개의 성격이나 주인의 생활 습관까지 복원할 수 있는 것은 아니다. 이미지는 오히려 글자, 윤곽, 위치가 함께 어떻게 작동하는지 관찰하게 한다. 메시지는 통로와 연결되어 있다. 같은 무늬라도 다른 곳에 놓였다면 똑같은 인상을 주지는 않았을 것이다.",
+            "사진을 볼 때 동물의 윤곽을 천천히 따라간 뒤 발 아래의 글자를 살펴보자. 그런 다음 오늘날 마주치는 표지판과 이 배치를 비교해 볼 수 있다. 아무것도 변하지 않았다고 말하려는 것이 아니라, 오래된 물건 안에서 일상적인 소통의 질문을 발견하는 것이다."
+          ],
+          "alt": "폼페이 비극 시인의 집 입구에 있는 개와 Cave canem 문구의 모자이크.",
+          "imageCredit": "Yair Haklai / 위키미디어 공용 — CC BY-SA 4.0. 비극 시인의 집 모자이크, 2023년 폼페이에서 촬영."
+        },
+        "ru": {
+          "title": "В Помпеях на пороге ждёт мозаичная собака",
+          "excerpt": "«Cave canem»: два слова и силуэт животного делают древний дом неожиданно близким.",
+          "body": [
+            "У входа в Дом трагического поэта в Помпеях мозаика изображает собаку и слова «Cave canem»: берегись собаки. Археологический парк указывает, что изображение находится у главного входа. Короткая фраза сразу наделяет порог понятным сообщением.",
+            "Поражает знакомость этого жеста. Мы знаем дверные таблички, звонки и небольшие записки для посетителей. Глядя на древнее изображение, можно узнать привычное намерение: дать что-то понять ещё до того, как человек войдёт в дом.",
+            "Из этого нельзя восстановить характер настоящей собаки или привычки её хозяев. Скорее изображение предлагает посмотреть, как вместе работают текст, силуэт и расположение. Сообщение связано с проходом: в другом месте тот же мотив производил бы не совсем такое впечатление.",
+            "Рассматривая фотографию, неспешно проследите контур животного, а затем буквы под его лапами. После этого сравните композицию с вывесками, которые встречаете сегодня. Смысл не в утверждении, будто ничего не изменилось, а в возможности найти в древнем предмете очень повседневный вопрос общения."
+          ],
+          "alt": "Мозаика Cave canem с собакой у входа в Дом трагического поэта в Помпеях.",
+          "imageCredit": "Yair Haklai / Викисклад — CC BY-SA 4.0. Мозаика Дома трагического поэта, сфотографированная в Помпеях в 2023 году."
+        },
+        "ar": {
+          "title": "في بومبي، ينتظرك كلب من الفسيفساء عند العتبة",
+          "excerpt": "«Cave canem»: كلمتان وهيئة حيوان تجعل بيتاً قديماً يبدو قريباً على نحو مفاجئ.",
+          "body": [
+            "عند مدخل منزل الشاعر التراجيدي في بومبي، تصور فسيفساء كلباً وتحمل كلمتي «Cave canem»، أي احذر الكلب. ويحدد الموقع الرسمي للحديقة الأثرية مكان الصورة عند المدخل الرئيسي. عبارة قصيرة تكفي لجعل العتبة تعبّر عن رسالة فوراً.",
+            "اللافت هو ألفة هذه اللفتة. نعرف لوحات الأبواب والأجراس والرسائل الصغيرة الموجهة إلى الزوار. أمام هذه الصورة القديمة، يمكن التعرف إلى قصد مألوف: إفهام شيء ما قبل أن يدخل المرء البيت أصلاً.",
+            "لا يتيح ذلك إعادة بناء طباع كلب حقيقي أو عادات أصحابه. تدعونا الصورة بالأحرى إلى ملاحظة كيف يعمل النص والهيئة والمكان معاً. ترتبط الرسالة بالممر؛ ولو وُضع الشكل نفسه في مكان آخر، لما ترك الانطباع نفسه تماماً.",
+            "عند تأمل الصورة، خذ وقتك في تتبع حدود الحيوان، ثم الحروف تحت قوائمه. ويمكنك بعد ذلك مقارنة هذا الترتيب باللافتات التي تصادفها اليوم. ليست الفكرة الادعاء بأن شيئاً لم يتغير، بل العثور في شيء قديم على سؤال يومي جداً يتعلق بالتواصل."
+          ],
+          "alt": "فسيفساء Cave canem التي تصور كلباً عند مدخل منزل الشاعر التراجيدي في بومبي.",
+          "imageCredit": "Yair Haklai / ويكيميديا كومنز — CC BY-SA 4.0. فسيفساء منزل الشاعر التراجيدي، صُوّرت في بومبي عام 2023."
+        },
+        "sw": {
+          "title": "Pompeii, mbwa wa mozaiki anakusubiri mlangoni",
+          "excerpt": "«Cave canem»: maneno mawili na umbo la mnyama vinaifanya nyumba ya kale ionekane karibu nasi kwa namna ya kushangaza.",
+          "body": [
+            "Kwenye mlango wa House of the Tragic Poet huko Pompeii, mozaiki inaonyesha mbwa na maneno «Cave canem»: jihadhari na mbwa. Hifadhi ya akiolojia inaeleza kwamba picha hii ipo kwenye mlango mkuu. Kauli fupi inatosha kuufanya mlango uwasilishe ujumbe mara moja.",
+            "Kinachovutia ni jinsi kitendo hicho kinavyofahamika. Tunajua vibao vya milango, kengele na ujumbe mdogo kwa wageni. Tukitazama picha hii ya kale, tunaweza kutambua nia iliyozoeleka: kumwelewesha mtu jambo fulani kabla hata hajaingia ndani.",
+            "Hilo haliwezi kutuambia tabia ya mbwa halisi au desturi za wenye nyumba. Badala yake, picha inatualika kuona jinsi maandishi, umbo na mahali vinavyofanya kazi pamoja. Ujumbe unahusiana na sehemu ya kupita: ukiwekwa mahali pengine, mchoro huo huo usingetoa hisia zilezile kabisa.",
+            "Unapotazama picha, chukua muda kufuata umbo la mnyama, kisha herufi zilizo chini ya miguu yake. Baadaye unaweza kulinganisha mpangilio huo na vibao unavyokutana navyo leo. Lengo si kudai kwamba hakuna kilichobadilika, bali kuona swali la kawaida la mawasiliano ndani ya kitu cha kale."
+          ],
+          "alt": "Mozaiki ya Cave canem yenye mbwa kwenye mlango wa Nyumba ya Mshairi wa Tamthilia za Maafa huko Pompeii.",
+          "imageCredit": "Yair Haklai / Wikimedia Commons — CC BY-SA 4.0. Mozaiki ya House of the Tragic Poet, iliyopigwa picha Pompeii mwaka 2023."
+        }
+      }
+    },
+    {
+      "eventKey": "rubik-cube-1974-design",
+      "category": "pop-culture",
+      "tags": [
+        "insolite",
+        "petits-bonheurs"
+      ],
+      "publishedAt": "2026-11-26",
+      "readMinutes": 2,
+      "verified": true,
+      "sources": [
+        {
+          "title": "Ernö Rubik. Rubik’s Cube. 1974",
+          "url": "https://www.moma.org/collection/works/2908?sov_referrer=theme",
+          "publisher": "The Museum of Modern Art"
+        },
+        {
+          "title": "Puzzle, Rubik’s Cube",
+          "url": "https://www.si.edu/object/puzzle-rubiks-cube%3Anmah_1030876",
+          "publisher": "Smithsonian Institution"
+        }
+      ],
+      "photo": {
+        "download": "media/b-rubik.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rubiks_cube_by_keqs.jpg",
+        "credit": "Lars Karlsson (Keqs), 2007 / Wikimedia Commons — CC BY-SA 3.0. Image redimensionnée et compressée.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "translations": {
+        "fr": {
+          "title": "Avant le casse-tête mondial, le Rubik’s Cube était une idée de design",
+          "excerpt": "Créé en 1974 par un enseignant hongrois, le cube relie géométrie, mouvement et plaisir de manipuler un objet.",
+          "body": [
+            "Le Rubik’s Cube naît en 1974, bien avant de devenir un objet familier de la culture populaire. Le Museum of Modern Art présente son créateur, Ernő Rubik, comme un architecte et professeur de design de Budapest qui cherchait à aider ses étudiants à penser la géométrie.",
+            "Le Smithsonian rappelle une autre étape de cette histoire : l’objet s’appelle d’abord Magic Cube. Il prend le nom de Rubik’s Cube lorsque l’entreprise Ideal Toy Company en assure la distribution en 1980. L’invention et sa diffusion internationale correspondent donc à deux dates différentes, séparées de plusieurs années.",
+            "Son attrait tient à un geste élémentaire : tourner une couche modifie plusieurs faces à la fois. Les couleurs rendent le résultat immédiatement visible, tandis que la mécanique oblige à penser aux conséquences de chaque mouvement. On peut y voir une petite leçon de relations spatiales que les mains explorent directement.",
+            "Sa présence dans la collection d’architecture et de design du MoMA invite à dépasser la seule question de la vitesse de résolution. Le cube est aussi un objet conçu, fabriqué et compris par l’usage. Avant les performances, il y a cette idée très simple : donner une forme manipulable à un problème abstrait."
+          ],
+          "alt": "Rubik’s Cube mélangé photographié par Lars Karlsson en 2007, sur fond blanc.",
+          "imageCredit": "Lars Karlsson (Keqs), 2007 / Wikimedia Commons — CC BY-SA 3.0. Image redimensionnée et compressée."
+        },
+        "en": {
+          "title": "Before the worldwide puzzle, the Rubik’s Cube was a design idea",
+          "excerpt": "Created in 1974 by a Hungarian teacher, the cube connects geometry, movement and the pleasure of handling an object.",
+          "body": [
+            "The Rubik’s Cube originated in 1974, long before becoming a familiar object in popular culture. The Museum of Modern Art describes its creator, Ernő Rubik, as a Budapest architect and design professor who wanted to help his students think geometrically.",
+            "The Smithsonian recalls another stage in this history: the object was first called the Magic Cube. It became the Rubik’s Cube when the Ideal Toy Company took on distribution in 1980. Its invention and international circulation therefore belong to different dates, several years apart.",
+            "Its appeal begins with an elementary action: turning one layer changes several faces at once. The colours make the result immediately visible, while the mechanism requires thought about the consequences of every move. It can be seen as a small lesson in spatial relationships explored directly by the hands.",
+            "Its place in MoMA’s architecture and design collection invites us to look beyond solving speed. The cube is also an object that is designed, manufactured and understood through use. Before the feats of performance comes a very simple idea: giving an abstract problem a form we can manipulate."
+          ],
+          "alt": "A scrambled Rubik’s Cube photographed by Lars Karlsson in 2007 against a white background.",
+          "imageCredit": "Lars Karlsson (Keqs), 2007 / Wikimedia Commons — CC BY-SA 3.0. Image resized and compressed."
+        },
+        "es": {
+          "title": "Antes del rompecabezas mundial, el cubo de Rubik fue una idea de diseño",
+          "excerpt": "Creado en 1974 por un profesor húngaro, el cubo une geometría, movimiento y el placer de manipular un objeto.",
+          "body": [
+            "El cubo de Rubik nació en 1974, mucho antes de convertirse en un objeto familiar de la cultura popular. El Museum of Modern Art presenta a su creador, Ernő Rubik, como un arquitecto y profesor de diseño de Budapest que buscaba ayudar a sus estudiantes a pensar geométricamente.",
+            "El Smithsonian recuerda otra etapa de esta historia: el objeto se llamó primero Magic Cube. Adoptó el nombre Rubik’s Cube cuando Ideal Toy Company se encargó de su distribución en 1980. La invención y la difusión internacional corresponden, por tanto, a dos fechas distintas, separadas por varios años.",
+            "Su atractivo parte de un gesto elemental: girar una capa modifica varias caras a la vez. Los colores hacen visible el resultado de inmediato, mientras el mecanismo obliga a pensar en las consecuencias de cada movimiento. Puede entenderse como una pequeña lección de relaciones espaciales que las manos exploran directamente.",
+            "Su presencia en la colección de arquitectura y diseño del MoMA invita a ir más allá de la velocidad de resolución. El cubo es también un objeto diseñado, fabricado y comprendido mediante el uso. Antes de las proezas está esa idea sencilla: dar una forma manipulable a un problema abstracto."
+          ],
+          "alt": "Cubo de Rubik mezclado, fotografiado por Lars Karlsson en 2007 sobre fondo blanco.",
+          "imageCredit": "Lars Karlsson (Keqs), 2007 / Wikimedia Commons — CC BY-SA 3.0. Imagen redimensionada y comprimida."
+        },
+        "it": {
+          "title": "Prima del rompicapo mondiale, il cubo di Rubik era un’idea di design",
+          "excerpt": "Creato nel 1974 da un insegnante ungherese, il cubo unisce geometria, movimento e piacere di manipolare un oggetto.",
+          "body": [
+            "Il cubo di Rubik nacque nel 1974, molto prima di diventare un oggetto familiare della cultura popolare. Il Museum of Modern Art descrive il suo creatore, Ernő Rubik, come un architetto e professore di design di Budapest che voleva aiutare gli studenti a pensare geometricamente.",
+            "Lo Smithsonian ricorda un’altra tappa della storia: inizialmente l’oggetto si chiamava Magic Cube. Assunse il nome Rubik’s Cube quando la Ideal Toy Company ne prese in carico la distribuzione nel 1980. L’invenzione e la diffusione internazionale corrispondono quindi a due date differenti, distanti diversi anni.",
+            "Il suo fascino parte da un gesto elementare: ruotare uno strato modifica più facce contemporaneamente. I colori rendono subito visibile il risultato, mentre il meccanismo impone di pensare alle conseguenze di ogni mossa. È una piccola lezione di relazioni spaziali che le mani possono esplorare direttamente.",
+            "La presenza nella collezione di architettura e design del MoMA invita ad andare oltre la velocità di risoluzione. Il cubo è anche un oggetto progettato, fabbricato e compreso attraverso l’uso. Prima delle prestazioni viene un’idea molto semplice: dare una forma manipolabile a un problema astratto."
+          ],
+          "alt": "Cubo di Rubik mescolato, fotografato da Lars Karlsson nel 2007 su fondo bianco.",
+          "imageCredit": "Lars Karlsson (Keqs), 2007 / Wikimedia Commons — CC BY-SA 3.0. Immagine ridimensionata e compressa."
+        },
+        "zh": {
+          "title": "成为全球益智玩具之前，魔方首先是一个设计想法",
+          "excerpt": "1974年，一位匈牙利教师创造了这个立方体，把几何、运动与动手操作的乐趣联系起来。",
+          "body": [
+            "魔方诞生于1974年，那时它还远未成为流行文化中人们熟悉的物品。纽约现代艺术博物馆介绍，它的创造者厄尔诺·鲁比克是布达佩斯的一位建筑师和设计教授，希望帮助学生进行几何思考。",
+            "史密森学会记录了另一个阶段：这个物品最初叫作Magic Cube。1980年，Ideal Toy Company负责发行时，它改名为Rubik’s Cube。因此，发明与国际传播对应的是两个不同的日期，中间相隔了数年。",
+            "它的吸引力始于一个简单动作：转动一层，会同时改变多个面。颜色让结果立刻可见，而内部结构又要求人们思考每一步的后果。我们可以把它看作一堂由双手直接探索的空间关系小课。",
+            "魔方进入MoMA的建筑与设计收藏，提示我们把视线放到还原速度之外。它也是一个经过设计、制造，并在使用中被理解的物件。在各种成绩之前，首先有这样一个简单的想法：让抽象问题拥有可以动手操作的形状。"
+          ],
+          "alt": "拉尔斯·卡尔松于2007年拍摄的打乱状态魔方，背景为白色。",
+          "imageCredit": "Lars Karlsson (Keqs), 2007 / Wikimedia Commons — CC BY-SA 3.0. 图片已调整尺寸并压缩。"
+        },
+        "ko": {
+          "title": "세계적인 퍼즐이 되기 전, 루빅스 큐브는 디자인 아이디어였다",
+          "excerpt": "1974년 헝가리의 한 교수가 만든 큐브는 기하학과 움직임, 물건을 직접 다루는 즐거움을 연결한다.",
+          "body": [
+            "루빅스 큐브는 대중문화 속 친숙한 물건이 되기 훨씬 전인 1974년에 탄생했다. 뉴욕 현대미술관은 발명가 에르뇌 루빅을 부다페스트의 건축가이자 디자인 교수로 소개한다. 그는 학생들이 기하학적으로 사고하도록 돕고자 했다.",
+            "스미스소니언은 또 다른 단계를 기록한다. 이 물건의 첫 이름은 Magic Cube였다. 1980년 아이디얼 토이 컴퍼니가 유통을 맡으면서 Rubik’s Cube라는 이름을 얻었다. 따라서 발명과 국제적인 보급은 몇 년 간격을 둔 서로 다른 시점에 해당한다.",
+            "매력은 단순한 동작에서 시작된다. 한 층을 돌리면 여러 면이 동시에 바뀐다. 색은 결과를 곧바로 보여 주고, 구조는 각 움직임이 낳을 결과를 생각하게 한다. 손으로 직접 탐색하는 공간 관계의 작은 수업으로 볼 수 있다.",
+            "MoMA의 건축·디자인 소장품에 포함됐다는 사실은 풀이 속도 너머를 보도록 이끈다. 큐브는 설계되고 제조되며 사용을 통해 이해되는 물건이기도 하다. 각종 기록에 앞서 아주 단순한 아이디어가 있었다. 추상적인 문제에 손으로 움직일 수 있는 형태를 주는 것이다."
+          ],
+          "alt": "라르스 칼손이 2007년에 흰 배경에서 촬영한, 색이 섞인 루빅스 큐브.",
+          "imageCredit": "Lars Karlsson (Keqs), 2007 / Wikimedia Commons — CC BY-SA 3.0. 이미지 크기를 조정하고 압축했습니다."
+        },
+        "ru": {
+          "title": "До всемирной головоломки кубик Рубика был дизайнерской идеей",
+          "excerpt": "Созданный венгерским преподавателем в 1974 году, кубик соединяет геометрию, движение и удовольствие от работы руками.",
+          "body": [
+            "Кубик Рубика появился в 1974 году, задолго до того, как стал привычным предметом массовой культуры. Музей современного искусства MoMA описывает его создателя Эрнё Рубика как будапештского архитектора и преподавателя дизайна, который хотел помочь студентам мыслить геометрически.",
+            "Смитсоновский институт напоминает о следующем этапе: первоначально предмет назывался Magic Cube. Название Rubik’s Cube он получил, когда компания Ideal Toy Company занялась его распространением в 1980 году. Изобретение и международное продвижение, таким образом, относятся к разным датам, разделённым несколькими годами.",
+            "Его привлекательность начинается с простого действия: поворот одного слоя меняет сразу несколько граней. Цвета делают результат мгновенно заметным, а механизм заставляет думать о последствиях каждого хода. Это можно считать небольшим уроком пространственных отношений, которые руки исследуют непосредственно.",
+            "Присутствие кубика в архитектурной и дизайнерской коллекции MoMA предлагает смотреть шире скорости решения. Это также предмет, который проектируют, производят и понимают через использование. Прежде достижений стоит очень простая идея: придать абстрактной задаче форму, с которой можно работать руками."
+          ],
+          "alt": "Перемешанный кубик Рубика на белом фоне, сфотографированный Ларсом Карлссоном в 2007 году.",
+          "imageCredit": "Lars Karlsson (Keqs), 2007 / Wikimedia Commons — CC BY-SA 3.0. Размер изображения изменён; выполнено сжатие."
+        },
+        "ar": {
+          "title": "قبل أن يصبح لغزاً عالمياً، كان مكعب روبيك فكرة تصميم",
+          "excerpt": "ابتكره مدرس مجري عام 1974، فربط المكعب بين الهندسة والحركة ومتعة التعامل مع شيء باليد.",
+          "body": [
+            "وُلد مكعب روبيك عام 1974، قبل أن يصبح بوقت طويل شيئاً مألوفاً في الثقافة الشعبية. يقدم متحف الفن الحديث مبتكره، إرنو روبيك، بوصفه مهندساً معمارياً وأستاذ تصميم في بودابست كان يبحث عن طريقة لمساعدة طلابه على التفكير في الهندسة.",
+            "ويذكر سميثسونيان مرحلة أخرى من القصة: كان اسم الشيء أولاً Magic Cube، أي المكعب السحري. ثم صار اسمه Rubik’s Cube عندما تولت Ideal Toy Company توزيعه عام 1980. ولذلك يقع ابتكاره وانتشاره الدولي في تاريخين مختلفين تفصل بينهما عدة سنوات.",
+            "تنبع جاذبيته من حركة بسيطة: تدوير طبقة يغير عدة أوجه في الوقت نفسه. تجعل الألوان النتيجة ظاهرة فوراً، بينما تفرض الآلية التفكير في تبعات كل حركة. ويمكن رؤيته كدرس صغير في العلاقات المكانية تستكشفه اليدان مباشرة.",
+            "وجوده في مجموعة العمارة والتصميم في MoMA يدعونا إلى تجاوز مسألة سرعة الحل وحدها. فالمكعب أيضاً شيء جرى تصميمه وصنعه وفهمه من خلال الاستخدام. قبل الإنجازات القياسية، توجد هذه الفكرة البسيطة جداً: منح مشكلة مجردة شكلاً يمكن تحريكه باليد."
+          ],
+          "alt": "مكعب روبيك مختلط الألوان على خلفية بيضاء، صوّره لارس كارلسون عام 2007.",
+          "imageCredit": "Lars Karlsson (Keqs)، 2007 / ويكيميديا كومنز — CC BY-SA 3.0. عُدّلت أبعاد الصورة وضُغط ملفها."
+        },
+        "sw": {
+          "title": "Kabla ya kuwa fumbo la dunia nzima, Rubik’s Cube ilikuwa wazo la ubunifu",
+          "excerpt": "Ulioundwa mwaka 1974 na mwalimu wa Hungaria, mchemraba unaunganisha jiometria, mwendo na furaha ya kutumia kitu kwa mikono.",
+          "body": [
+            "Rubik’s Cube ilizaliwa mwaka 1974, muda mrefu kabla ya kuwa kitu cha kawaida katika utamaduni maarufu. Museum of Modern Art inamtambulisha muundaji wake, Ernő Rubik, kama mbunifu wa majengo na profesa wa usanifu wa Budapest aliyekuwa akitafuta kusaidia wanafunzi wake kufikiria jiometria.",
+            "Smithsonian inakumbusha hatua nyingine ya historia hii: mwanzoni kitu hicho kiliitwa Magic Cube. Kilichukua jina la Rubik’s Cube wakati kampuni ya Ideal Toy Company ilipoanza kukisambaza mwaka 1980. Kwa hiyo uvumbuzi na usambazaji wake wa kimataifa vina tarehe mbili tofauti, zilizotenganishwa na miaka kadhaa.",
+            "Mvuto wake unatokana na kitendo rahisi: kuzungusha tabaka moja kunabadilisha nyuso kadhaa kwa wakati mmoja. Rangi zinafanya matokeo yaonekane mara moja, huku mfumo wake ukilazimisha kufikiria athari za kila mwendo. Tunaweza kuiona kama somo dogo la mahusiano ya nafasi ambalo mikono inachunguza moja kwa moja.",
+            "Kuwepo kwake katika mkusanyo wa usanifu wa majengo na ubunifu wa MoMA kunatualika kwenda zaidi ya swali la kasi ya kutatua. Mchemraba pia ni kitu kilichobuniwa, kutengenezwa na kueleweka kupitia matumizi. Kabla ya rekodi za kasi, kuna wazo hili rahisi sana: kulipa tatizo la kinadharia umbo linaloweza kuchezewa kwa mikono."
+          ],
+          "alt": "Rubik’s Cube iliyochanganywa rangi, iliyopigwa picha na Lars Karlsson mwaka 2007 kwenye usuli mweupe.",
+          "imageCredit": "Lars Karlsson (Keqs), 2007 / Wikimedia Commons — CC BY-SA 3.0. Vipimo vya picha vimebadilishwa na faili limebanwa."
+        }
+      }
+    },
+    {
+      "eventKey": "cafe-suspendu-un-geste-pour-un-inconnu",
+      "category": "petits-bonheurs",
+      "tags": [
+        "petits-bonheurs",
+        "love-relations"
+      ],
+      "publishedAt": "2026-11-26",
+      "readMinutes": 2,
+      "verified": true,
+      "sources": [
+        {
+          "title": "Caffè Sospeso",
+          "url": "https://www.comune.ap.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/11303",
+          "publisher": "Comune di Ascoli Piceno"
+        },
+        {
+          "title": "Curiosità che (forse) non sai sul Gambrinus",
+          "url": "https://grancaffegambrinus.com/curiosita-che-forse-non-sai-sul-gambrinus/",
+          "publisher": "Gran Caffè Gambrinus"
+        }
+      ],
+      "photo": {
+        "download": "media/c-cafe-suspendu-un-geste-pour-un-inconnu.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coffee,_expresso.jpg",
+        "credit": "Kurt Kaiser / Wikimedia Commons — CC0 1.0. Café photographié à Berlin en 2019 ; illustration, pas une scène de don à Naples.",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "translations": {
+        "fr": {
+          "title": "Le café suspendu : payer une tasse pour quelqu’un qu’on ne connaît pas",
+          "excerpt": "Une tradition associée à Naples qui transforme un achat ordinaire en attention discrète.",
+          "body": [
+            "Commander un café et en payer deux : le principe du caffè sospeso tient dans ce petit décalage. Le second reste disponible pour une personne qui ne peut pas se l’offrir. La municipalité d’Ascoli Piceno présente cette pratique comme une habitude venue des cafés de Naples.",
+            "Le Gran Caffè Gambrinus décrit son propre dispositif : les reçus des cafés déjà payés sont déposés dans une grande cafetière. L’objet rend visible le mécanisme sans exiger que le donateur rencontre le bénéficiaire. Un comptoir devient ainsi un point de passage entre deux personnes qui ne se connaissent pas.",
+            "L’idée mérite aussi une question pratique : comment le commerce garde-t-il la trace des cafés offerts et les rend-il accessibles ? Avant de participer quelque part, demander simplement le fonctionnement local permet de comprendre le geste. Le nom de la tradition ne garantit pas un dispositif identique dans tous les établissements.",
+            "Ce qui nous plaît ici, c’est la discrétion possible. Nul besoin de transformer la personne aidée en personnage d’une vidéo ni de réclamer une preuve de gratitude. Une tasse peut rester une tasse, avec une place faite à quelqu’un d’autre dans un rituel très ordinaire."
+          ],
+          "alt": "Tasse de café et soucoupe photographiées par Kurt Kaiser ; illustration du café suspendu.",
+          "imageCredit": "Kurt Kaiser / Wikimedia Commons — CC0 1.0. Café photographié à Berlin en 2019 ; illustration, pas une scène de don à Naples."
+        },
+        "en": {
+          "title": "Suspended coffee: paying for a cup for someone you have never met",
+          "excerpt": "A tradition associated with Naples turns an ordinary purchase into a quiet gesture of care.",
+          "body": [
+            "Order one coffee and pay for two: that small difference captures the principle of caffè sospeso. The second remains available for someone who cannot afford it. Ascoli Piceno’s municipality describes the practice as a custom originating in the cafés of Naples.",
+            "Gran Caffè Gambrinus describes its own arrangement: receipts for prepaid coffees are placed in a large coffee pot. The object makes the mechanism visible without requiring the donor to meet the recipient. A counter becomes a connecting point between two people who do not know each other.",
+            "The idea also deserves a practical question: how does a business record donated coffees and make them available? Before taking part somewhere, simply ask how its local arrangement works. Sharing the tradition’s name does not guarantee an identical system in every establishment.",
+            "What appeals to us here is the possibility of discretion. There is no need to turn the person receiving help into a character in a video or to demand gratitude. A cup can remain a cup, making room for someone else within a very ordinary ritual."
+          ],
+          "alt": "Coffee cup and saucer photographed by Kurt Kaiser, illustrating the idea of suspended coffee.",
+          "imageCredit": "Kurt Kaiser / Wikimedia Commons — CC0 1.0. Coffee photographed in Berlin in 2019; an illustration, not a donation scene in Naples."
+        },
+        "es": {
+          "title": "El café pendiente: pagar una taza para alguien que no conoces",
+          "excerpt": "Una tradición asociada con Nápoles transforma una compra corriente en una atención discreta.",
+          "body": [
+            "Pedir un café y pagar dos: el principio del caffè sospeso cabe en esa pequeña diferencia. El segundo queda disponible para una persona que no puede permitírselo. El ayuntamiento de Ascoli Piceno presenta la práctica como una costumbre procedente de los cafés de Nápoles.",
+            "El Gran Caffè Gambrinus describe su propio sistema: los recibos de cafés ya pagados se depositan en una cafetera grande. El objeto hace visible el mecanismo sin exigir que el donante conozca al beneficiario. Una barra se convierte así en un punto de conexión entre dos desconocidos.",
+            "La idea también merece una pregunta práctica: ¿cómo registra el comercio los cafés ofrecidos y los pone a disposición de alguien? Antes de participar, preguntar simplemente cómo funciona el sistema local ayuda a comprender el gesto. Compartir el nombre de la tradición no garantiza un procedimiento idéntico en todos los establecimientos.",
+            "Lo que nos gusta aquí es la discreción posible. No hace falta convertir a la persona que recibe ayuda en protagonista de un vídeo ni reclamar una muestra de gratitud. Una taza puede seguir siendo una taza, dejando espacio para alguien más dentro de un ritual muy cotidiano."
+          ],
+          "alt": "Taza de café y platillo fotografiados por Kurt Kaiser, como ilustración del café pendiente.",
+          "imageCredit": "Kurt Kaiser / Wikimedia Commons — CC0 1.0. Café fotografiado en Berlín en 2019; ilustración, no una escena de donación en Nápoles."
+        },
+        "it": {
+          "title": "Il caffè sospeso: una tazzina pagata per uno sconosciuto",
+          "excerpt": "Una tradizione associata a Napoli che trasforma un acquisto ordinario in un’attenzione discreta.",
+          "body": [
+            "Ordinare un caffè e pagarne due: il principio del caffè sospeso sta in questo piccolo scarto. Il secondo resta a disposizione di una persona che non può permetterselo. Il Comune di Ascoli Piceno presenta la pratica come un’abitudine proveniente dai bar di Napoli.",
+            "Il Gran Caffè Gambrinus descrive il proprio sistema: gli scontrini dei caffè già pagati vengono depositati in una grande caffettiera. L’oggetto rende visibile il meccanismo senza richiedere che il donatore incontri chi ne beneficia. Un bancone diventa così un punto di collegamento fra due persone che non si conoscono.",
+            "L’idea merita anche una domanda pratica: come tiene traccia il locale dei caffè offerti e come li rende disponibili? Prima di partecipare, chiedere semplicemente come funzioni l’organizzazione locale aiuta a comprendere il gesto. Il nome della tradizione non garantisce un sistema identico in tutti gli esercizi.",
+            "Ci piace soprattutto la discrezione possibile. Non serve trasformare la persona aiutata nel personaggio di un video né chiedere una prova di gratitudine. Una tazzina può restare una tazzina, lasciando spazio a qualcun altro all’interno di un rito molto ordinario."
+          ],
+          "alt": "Tazzina di caffè e piattino fotografati da Kurt Kaiser, immagine illustrativa del caffè sospeso.",
+          "imageCredit": "Kurt Kaiser / Wikimedia Commons — CC0 1.0. Caffè fotografato a Berlino nel 2019; illustrazione, non una scena di donazione a Napoli."
+        },
+        "zh": {
+          "title": "待用咖啡：替一个素不相识的人付一杯的钱",
+          "excerpt": "一种与那不勒斯相关的传统，让平常的购买变成安静的关照。",
+          "body": [
+            "点一杯咖啡，付两杯的钱：caffè sospeso，也就是待用咖啡，核心就在这个小小的差额里。第二杯留给暂时负担不起的人。阿斯科利皮切诺市政府将这项做法介绍为源自那不勒斯咖啡馆的习惯。",
+            "Gran Caffè Gambrinus 介绍了自己的安排：已经付款的咖啡收据会被放进一个大咖啡壶里。这个物件让机制看得见，却不要求赠予者与领取者见面。吧台于是成了两个陌生人之间的连接点。",
+            "这个想法也值得问一个实际问题：店家怎样记录别人付过的钱，又怎样让有需要的人领到咖啡？参与之前，直接询问当地店铺的做法，有助于理解自己的举动。同样使用这项传统的名称，并不代表每家店都有一模一样的制度。",
+            "我们喜欢其中可以保持低调的部分。无需把受到帮助的人变成视频主角，也不必要求对方展示感激。一杯咖啡仍可以只是一杯咖啡，在极其普通的日常习惯中，为另一个人留出位置。"
+          ],
+          "alt": "Kurt Kaiser 拍摄的咖啡杯与杯碟，用于说明待用咖啡的概念。",
+          "imageCredit": "Kurt Kaiser / 维基共享资源 — CC0 1.0。2019 年摄于柏林的咖啡；仅作配图，并非那不勒斯的捐赠现场。"
+        },
+        "ko": {
+          "title": "맡겨 둔 커피: 모르는 사람의 한 잔을 미리 계산하기",
+          "excerpt": "나폴리와 연결된 전통이 평범한 구매를 조용한 배려로 바꾼다.",
+          "body": [
+            "커피 한 잔을 주문하고 두 잔 값을 낸다. 카페 소스페소의 원리는 이 작은 차이에 있다. 두 번째 잔은 커피를 살 여유가 없는 사람을 위해 남겨 둔다. 아스콜리피체노 시는 이 관행을 나폴리 카페에서 비롯된 습관으로 소개한다.",
+            "그란 카페 감브리누스는 자신의 운영 방식을 설명한다. 미리 계산한 커피의 영수증을 커다란 커피 주전자에 넣는 것이다. 이 물건은 도움을 주는 사람과 받는 사람이 직접 만나지 않아도 방식을 눈에 보이게 한다. 카운터는 서로 모르는 두 사람을 잇는 지점이 된다.",
+            "실제 운영에 관한 질문도 해 볼 만하다. 가게는 기부된 커피를 어떻게 기록하고 필요한 사람에게 제공할까? 참여하기 전 그곳의 방식을 간단히 물어보면 자신의 행동을 이해하는 데 도움이 된다. 같은 전통의 이름을 쓴다고 모든 가게의 제도가 같지는 않다.",
+            "마음에 드는 점은 조용히 할 수 있다는 것이다. 도움받는 사람을 영상의 주인공으로 만들거나 감사의 표시를 요구할 필요가 없다. 한 잔은 그저 한 잔으로 남을 수 있다. 아주 평범한 일상 속에 다른 사람의 자리를 하나 마련하면서 말이다."
+          ],
+          "alt": "맡겨 둔 커피의 개념을 설명하기 위해 사용한 Kurt Kaiser의 커피잔과 받침 사진.",
+          "imageCredit": "Kurt Kaiser / 위키미디어 공용 — CC0 1.0. 2019년 베를린에서 촬영한 커피 사진으로, 나폴리의 기부 현장이 아닙니다."
+        },
+        "ru": {
+          "title": "Подвешенный кофе: оплатить чашку для незнакомого человека",
+          "excerpt": "Традиция, связанная с Неаполем, превращает обычную покупку в ненавязчивый жест заботы.",
+          "body": [
+            "Заказать один кофе, а заплатить за два: в этой небольшой разнице и состоит принцип caffè sospeso. Вторая чашка остаётся для человека, который не может её себе позволить. Муниципалитет Асколи-Пичено описывает практику как обычай, пришедший из кафе Неаполя.",
+            "Gran Caffè Gambrinus объясняет собственную схему: чеки за заранее оплаченный кофе складывают в большой кофейник. Предмет делает механизм видимым, не требуя встречи дарителя с получателем. Стойка становится связующим местом между двумя незнакомыми людьми.",
+            "Идея заслуживает и практического вопроса: как заведение учитывает оплаченные чашки и делает их доступными? Прежде чем участвовать, стоит просто спросить о местном порядке. Общее название традиции не гарантирует одинакового устройства во всех заведениях.",
+            "Нам здесь нравится возможность сохранить деликатность. Не нужно превращать человека, получающего помощь, в героя видео или требовать доказательств благодарности. Чашка может остаться чашкой, оставив место кому-то ещё в самом обычном повседневном ритуале."
+          ],
+          "alt": "Чашка кофе с блюдцем на фотографии Kurt Kaiser, иллюстрация идеи подвешенного кофе.",
+          "imageCredit": "Kurt Kaiser / Викисклад — CC0 1.0. Кофе, снятый в Берлине в 2019 году; иллюстрация, а не сцена пожертвования в Неаполе."
+        },
+        "ar": {
+          "title": "القهوة المعلّقة: أن تدفع ثمن فنجان لشخص لا تعرفه",
+          "excerpt": "تقليد يرتبط بنابولي ويحوّل شراءً عادياً إلى لفتة اهتمام هادئة.",
+          "body": [
+            "أن تطلب قهوة وتدفع ثمن اثنتين: في هذا الفرق الصغير يكمن مبدأ caffè sospeso، أو القهوة المعلّقة. يبقى الفنجان الثاني متاحاً لشخص لا يستطيع دفع ثمنه. وتقدم بلدية أسكولي بيتشينو هذه الممارسة بوصفها عادة جاءت من مقاهي نابولي.",
+            "يصف مقهى Gran Caffè Gambrinus ترتيبه الخاص: توضع إيصالات القهوة المدفوعة مسبقاً داخل إبريق قهوة كبير. يجعل هذا الشيء الآلية مرئية من دون اشتراط لقاء المتبرع بالمستفيد. وهكذا تصبح المنضدة نقطة وصل بين شخصين لا يعرف أحدهما الآخر.",
+            "وتستحق الفكرة سؤالاً عملياً أيضاً: كيف يسجل المقهى أكواب القهوة المقدمة ويجعلها متاحة؟ قبل المشاركة، يساعد السؤال البسيط عن طريقة العمل المحلية على فهم هذه اللفتة. اشتراك المقاهي في اسم التقليد لا يضمن وجود نظام مطابق في كل منها.",
+            "ما يعجبنا هنا هو إمكانية الحفاظ على الخصوصية والهدوء. لا حاجة إلى تحويل من يتلقى المساعدة إلى شخصية في فيديو، ولا إلى طلب دليل على الامتنان. يمكن للفنجان أن يبقى فنجاناً، مع إفساح مكان لشخص آخر داخل طقس يومي عادي جداً."
+          ],
+          "alt": "فنجان قهوة وصحن بعدسة Kurt Kaiser، صورة توضيحية لفكرة القهوة المعلّقة.",
+          "imageCredit": "Kurt Kaiser / ويكيميديا كومنز — CC0 1.0. قهوة صُوّرت في برلين عام 2019؛ صورة توضيحية وليست مشهد تبرع في نابولي."
+        },
+        "sw": {
+          "title": "Kahawa kwa asiyejulikana: kulipia kikombe cha mtu usiyemjua",
+          "excerpt": "Desturi inayohusishwa na Naples inabadilisha ununuzi wa kawaida kuwa tendo la kujali kimya kimya.",
+          "body": [
+            "Kuagiza kahawa moja na kulipia mbili: tofauti hiyo ndogo ndiyo msingi wa caffè sospeso. Kikombe cha pili kinabaki kwa mtu asiyeweza kukilipia. Manispaa ya Ascoli Piceno inaeleza utaratibu huu kama desturi iliyotoka katika mikahawa ya Naples.",
+            "Gran Caffè Gambrinus inaeleza mfumo wake: risiti za kahawa zilizolipiwa mapema huwekwa ndani ya birika kubwa la kahawa. Kitu hicho kinafanya mfumo uonekane bila kuhitaji mtoaji akutane na anayepokea. Kaunta inakuwa sehemu ya kuunganisha watu wawili wasiofahamiana.",
+            "Wazo hili linastahili pia swali la vitendo: biashara inaandikaje kumbukumbu ya kahawa zilizotolewa na kuzifanya zipatikane? Kabla ya kushiriki, kuuliza tu namna mfumo wa mahali hapo unavyofanya kazi kunasaidia kuelewa kitendo hicho. Jina moja la desturi halihakikishi mfumo unaofanana katika kila mkahawa.",
+            "Tunachopenda hapa ni uwezekano wa kufanya jambo hili kwa utulivu. Hakuna haja ya kumfanya anayesaidiwa kuwa mhusika wa video au kumtaka athibitishe shukrani. Kikombe kinaweza kubaki kikombe, huku kikimpa mtu mwingine nafasi katika desturi ya kawaida kabisa ya kila siku."
+          ],
+          "alt": "Kikombe cha kahawa na kisahani vilivyopigwa picha na Kurt Kaiser, vikielezea wazo la kahawa iliyolipiwa mtu mwingine.",
+          "imageCredit": "Kurt Kaiser / Wikimedia Commons — CC0 1.0. Kahawa iliyopigwa picha Berlin mwaka 2019; ni picha ya kuelezea, si tukio la kutoa msaada Naples."
+        }
+      }
+    },
+    {
+      "eventKey": "pourquoi-les-aurores-passent-du-vert-au-rouge",
+      "category": "buzz",
+      "tags": [
+        "insolite",
+        "petits-bonheurs"
+      ],
+      "publishedAt": "2026-11-26",
+      "readMinutes": 2,
+      "verified": true,
+      "sources": [
+        {
+          "title": "Auroras",
+          "url": "https://science.nasa.gov/sun/auroras/",
+          "publisher": "NASA"
+        },
+        {
+          "title": "Aurora Australis and the International Space Station",
+          "url": "https://science.nasa.gov/image-article/apod-2024-september-13-aurora-australis-and-the-international-space-station/",
+          "publisher": "NASA"
+        }
+      ],
+      "photo": {
+        "download": "media/a-aurora.jpg",
+        "sourceUrl": "https://science.nasa.gov/image-article/apod-2024-september-13-aurora-australis-and-the-international-space-station/",
+        "credit": "Photo : NASA / ISS Expedition 71, 11 août 2024.",
+        "license": "NASA media usage guidelines",
+        "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+      },
+      "translations": {
+        "fr": {
+          "title": "Pourquoi les aurores passent du vert au rouge",
+          "excerpt": "Leurs couleurs racontent les rencontres entre des particules et les gaz de notre haute atmosphère.",
+          "body": [
+            "Vue depuis le sol, une aurore ressemble à un rideau lumineux. Depuis la Station spatiale internationale, elle dessine des couches colorées au-dessus de la courbe terrestre. Cette photographie prise le 11 août 2024 montre une aurore australe au-dessus de l’océan Indien, dans l’hémisphère Sud.",
+            "Le phénomène se produit lorsque des particules énergétiques rencontrent les gaz de la haute atmosphère. Le champ magnétique terrestre guide une partie de ces particules vers les régions polaires. Les atomes et molécules excités libèrent ensuite de l’énergie sous forme de lumière : les couleurs dépendent notamment du gaz concerné.",
+            "L’oxygène peut produire le vert très reconnaissable des aurores, ainsi que du rouge à des altitudes plus élevées. L’azote intervient dans des nuances bleues et roses. L’altitude, les collisions et l’énergie des particules contribuent au résultat ; une couleur ne suffit donc pas à résumer toute la scène.",
+            "La photo depuis l’orbite révèle particulièrement bien cette superposition. Elle montre un phénomène de notre atmosphère, avec ses différentes couches, plutôt qu’une lumière située parmi les étoiles. Les mêmes mécanismes physiques peuvent composer des spectacles très différents selon les conditions : c’est une partie du charme de chaque aurore."
+          ],
+          "alt": "Une aurore australe verte et rouge vue depuis la Station spatiale internationale au-dessus de l’océan Indien.",
+          "imageCredit": "Photo : NASA / ISS Expedition 71, 11 août 2024."
+        },
+        "en": {
+          "title": "Why auroras shift from green to red",
+          "excerpt": "Their colours tell the story of particles meeting gases high in our atmosphere.",
+          "body": [
+            "From the ground, an aurora resembles a luminous curtain. From the International Space Station, it forms coloured layers above Earth’s curve. This photograph, taken on 11 August 2024, shows an aurora australis over the Indian Ocean in the Southern Hemisphere.",
+            "The phenomenon occurs when energetic particles encounter gases in the upper atmosphere. Earth’s magnetic field guides some of those particles towards the polar regions. Excited atoms and molecules then release energy as light: the colours depend in part on the gas involved.",
+            "Oxygen can produce the familiar green of auroras, as well as red at higher altitudes. Nitrogen contributes blue and pink shades. Altitude, collisions and particle energy all help shape the result; a single colour therefore cannot explain the whole scene.",
+            "The orbital photograph makes these overlapping layers particularly clear. It shows a phenomenon within our atmosphere and its different layers, rather than a light situated among the stars. The same physical mechanisms can create very different displays as conditions change: part of what makes each aurora special."
+          ],
+          "alt": "A green and red aurora australis seen from the International Space Station over the Indian Ocean.",
+          "imageCredit": "Photo: NASA / ISS Expedition 71, 11 August 2024."
+        },
+        "es": {
+          "title": "Por qué las auroras pasan del verde al rojo",
+          "excerpt": "Sus colores cuentan lo que ocurre cuando las partículas se encuentran con los gases de la alta atmósfera.",
+          "body": [
+            "Desde el suelo, una aurora parece una cortina luminosa. Desde la Estación Espacial Internacional, dibuja capas de color sobre la curvatura terrestre. Esta fotografía, tomada el 11 de agosto de 2024, muestra una aurora austral sobre el océano Índico, en el hemisferio sur.",
+            "El fenómeno se produce cuando partículas energéticas se encuentran con los gases de la alta atmósfera. El campo magnético terrestre guía parte de esas partículas hacia las regiones polares. Los átomos y moléculas excitados liberan después energía en forma de luz: los colores dependen, entre otros factores, del gas involucrado.",
+            "El oxígeno puede producir el verde tan reconocible de las auroras y también rojo a mayor altitud. El nitrógeno interviene en los tonos azules y rosados. La altitud, las colisiones y la energía de las partículas contribuyen al resultado; un color no basta para explicar toda la escena.",
+            "La foto desde la órbita revela especialmente bien esta superposición. Muestra un fenómeno de nuestra atmósfera y de sus distintas capas, no una luz situada entre las estrellas. Los mismos mecanismos físicos pueden crear espectáculos muy diferentes según las condiciones: ahí reside parte del encanto de cada aurora."
+          ],
+          "alt": "Una aurora austral verde y roja vista desde la Estación Espacial Internacional sobre el océano Índico.",
+          "imageCredit": "Foto: NASA / ISS Expedition 71, 11 de agosto de 2024."
+        },
+        "it": {
+          "title": "Perché le aurore passano dal verde al rosso",
+          "excerpt": "I colori raccontano l'incontro fra particelle e gas negli strati alti della nostra atmosfera.",
+          "body": [
+            "Da terra, un'aurora assomiglia a una tenda luminosa. Dalla Stazione Spaziale Internazionale disegna strati colorati sopra la curvatura terrestre. Questa fotografia, scattata l'11 agosto 2024, mostra un'aurora australe sull'oceano Indiano, nell'emisfero meridionale.",
+            "Il fenomeno si verifica quando particelle energetiche incontrano i gas dell'alta atmosfera. Il campo magnetico terrestre guida parte delle particelle verso le regioni polari. Atomi e molecole eccitati rilasciano poi energia sotto forma di luce: i colori dipendono, fra l'altro, dal gas coinvolto.",
+            "L'ossigeno può produrre il caratteristico verde delle aurore e anche il rosso a quote più elevate. L'azoto contribuisce alle sfumature blu e rosa. Altitudine, collisioni ed energia delle particelle concorrono al risultato; un solo colore non basta quindi a spiegare tutta la scena.",
+            "La foto dall'orbita rende particolarmente evidente questa sovrapposizione. Mostra un fenomeno della nostra atmosfera, con i suoi diversi strati, anziché una luce fra le stelle. Gli stessi meccanismi fisici possono comporre spettacoli molto diversi secondo le condizioni: è parte del fascino di ogni aurora."
+          ],
+          "alt": "Un'aurora australe verde e rossa vista dalla Stazione Spaziale Internazionale sopra l'oceano Indiano.",
+          "imageCredit": "Foto: NASA / ISS Expedition 71, 11 agosto 2024."
+        },
+        "zh": {
+          "title": "极光为什么会从绿色变成红色？",
+          "excerpt": "它的色彩，讲述着粒子与高层大气中气体相遇的过程。",
+          "body": [
+            "从地面看，极光像一幅发亮的帘幕；从国际空间站看，它在地球弧线之上形成层层色彩。这张照片拍摄于2024年8月11日，展现的是南半球印度洋上空的南极光。",
+            "当高能粒子与高层大气中的气体相遇时，就可能出现这种现象。地球磁场将一部分粒子引向极地区域。受到激发的原子和分子随后以光的形式释放能量；发出的颜色，部分取决于参与其中的是哪种气体。",
+            "氧可以产生极光中十分醒目的绿色，也能在更高的高度产生红色。氮则参与形成蓝色和粉色。高度、碰撞和粒子的能量都会影响结果，因此仅凭一种颜色，无法解释整个场景。",
+            "从轨道拍摄的照片尤其清楚地展示了这些光层的叠加。它呈现的是我们大气层内部的现象，而不是星星之间的一束光。在不同条件下，同样的物理机制可以组合出迥异的景象，这也是每一次极光的魅力所在。"
+          ],
+          "alt": "从国际空间站俯瞰印度洋上空的南极光，可见绿色与红色光层。",
+          "imageCredit": "摄影：NASA / ISS Expedition 71，2024年8月11日。"
+        },
+        "ko": {
+          "title": "오로라는 왜 초록색에서 붉은색으로 바뀔까요?",
+          "excerpt": "그 색에는 입자와 대기 상층부의 기체가 만나는 이야기가 담겨 있습니다.",
+          "body": [
+            "지상에서 보면 오로라는 빛나는 커튼 같습니다. 국제우주정거장에서는 지구의 곡선 위에 겹겹의 색깔을 그립니다. 2024년 8월 11일 촬영한 이 사진은 남반구 인도양 위의 남극 오로라를 보여 줍니다.",
+            "이 현상은 에너지가 높은 입자들이 대기 상층부의 기체와 만날 때 발생합니다. 지구 자기장은 그 입자 일부를 극지방 쪽으로 이끕니다. 들뜬 원자와 분자는 이후 빛의 형태로 에너지를 방출합니다. 색은 어떤 기체가 관여하는지 등의 조건에 따라 달라집니다.",
+            "산소는 오로라의 익숙한 초록빛을 만들고, 더 높은 곳에서는 붉은빛도 낼 수 있습니다. 질소는 파란색과 분홍색 계열에 관여합니다. 고도와 충돌, 입자의 에너지가 모두 결과에 영향을 주므로 한 가지 색만으로 전체 장면을 설명할 수는 없습니다.",
+            "궤도에서 찍은 사진은 이런 층의 겹침을 특히 잘 보여 줍니다. 별들 사이에 떠 있는 빛이 아니라 여러 층으로 이루어진 우리 대기 안의 현상입니다. 같은 물리적 메커니즘도 조건에 따라 매우 다른 장관을 만들 수 있습니다. 그것이 각각의 오로라가 가진 매력입니다."
+          ],
+          "alt": "국제우주정거장에서 바라본 인도양 위의 초록색과 붉은색 남극 오로라.",
+          "imageCredit": "사진: NASA / ISS Expedition 71, 2024년 8월 11일."
+        },
+        "ru": {
+          "title": "Почему полярные сияния меняют зелёный цвет на красный",
+          "excerpt": "Их цвета рассказывают о встрече частиц с газами высоко в нашей атмосфере.",
+          "body": [
+            "С земли полярное сияние напоминает светящуюся занавесь. С Международной космической станции оно выглядит как цветные слои над изгибом Земли. Эта фотография сделана 11 августа 2024 года и показывает южное сияние над Индийским океаном в Южном полушарии.",
+            "Явление возникает, когда энергичные частицы сталкиваются с газами верхних слоёв атмосферы. Магнитное поле Земли направляет часть этих частиц к полярным областям. Возбуждённые атомы и молекулы затем выделяют энергию в виде света; его цвет зависит, в частности, от участвующего газа.",
+            "Кислород может создавать узнаваемый зелёный цвет сияний, а на больших высотах — красный. Азот участвует в появлении синих и розовых оттенков. На результат влияют высота, столкновения и энергия частиц, поэтому одного цвета недостаточно, чтобы объяснить всю картину.",
+            "Орбитальная фотография особенно хорошо показывает наложение этих слоёв. Перед нами явление внутри нашей атмосферы, а не свет где-то среди звёзд. Одни и те же физические механизмы при разных условиях создают очень разные зрелища — в этом часть очарования каждого сияния."
+          ],
+          "alt": "Зелёное и красное южное полярное сияние над Индийским океаном, снятое с Международной космической станции.",
+          "imageCredit": "Фото: NASA / ISS Expedition 71, 11 августа 2024 года."
+        },
+        "ar": {
+          "title": "لماذا ينتقل الشفق القطبي من الأخضر إلى الأحمر؟",
+          "excerpt": "تحكي ألوانه قصة التقاء الجسيمات بغازات الطبقات العليا من غلافنا الجوي.",
+          "body": [
+            "من الأرض، يشبه الشفق ستاراً مضيئاً. ومن محطة الفضاء الدولية، يرسم طبقات ملونة فوق انحناء الكوكب. التُقطت هذه الصورة في 11 أغسطس 2024، وتُظهر شفقاً جنوبياً فوق المحيط الهندي في نصف الكرة الجنوبي.",
+            "تحدث الظاهرة عندما تلتقي جسيمات عالية الطاقة بغازات الطبقات العليا من الغلاف الجوي. ويوجه المجال المغناطيسي للأرض بعض هذه الجسيمات نحو المناطق القطبية. ثم تطلق الذرات والجزيئات المثارة طاقة على هيئة ضوء؛ وتعتمد الألوان، ضمن عوامل أخرى، على الغاز المعني.",
+            "يمكن للأكسجين إنتاج الأخضر المميز للشفق، وكذلك الأحمر على ارتفاعات أعلى. ويسهم النيتروجين في درجات الأزرق والوردي. وتشارك الارتفاعات والتصادمات وطاقة الجسيمات في تشكيل النتيجة؛ لذلك لا يكفي لون واحد لتفسير المشهد كله.",
+            "تكشف الصورة المدارية هذا التراكب بوضوح خاص. فهي تُظهر ظاهرة داخل غلافنا الجوي وطبقاته المختلفة، لا ضوءاً بين النجوم. ويمكن للآليات الفيزيائية نفسها أن تصنع مشاهد متباينة جداً وفق الظروف، وهذا جزء من سحر كل شفق."
+          ],
+          "alt": "شفق جنوبي أخضر وأحمر فوق المحيط الهندي، كما يبدو من محطة الفضاء الدولية.",
+          "imageCredit": "تصوير: NASA / ISS Expedition 71، 11 أغسطس 2024."
+        },
+        "sw": {
+          "title": "Kwa nini aurora hubadilika kutoka kijani kuwa nyekundu?",
+          "excerpt": "Rangi zake zinaeleza mikutano kati ya chembe na gesi zilizo juu katika angahewa yetu.",
+          "body": [
+            "Kutoka ardhini, aurora hufanana na pazia la mwanga. Kutoka Kituo cha Kimataifa cha Anga, huunda tabaka zenye rangi juu ya mkunjo wa Dunia. Picha hii, iliyopigwa tarehe 11 Agosti 2024, inaonyesha aurora ya kusini juu ya Bahari ya Hindi katika Nusu ya Dunia ya Kusini.",
+            "Tukio hutokea chembe zenye nishati zinapokutana na gesi za sehemu ya juu ya angahewa. Uga wa sumaku wa Dunia huongoza baadhi ya chembe hizo kuelekea maeneo ya ncha. Atomi na molekuli zilizopata nishati kisha huiachilia kama mwanga: rangi hutegemea, miongoni mwa mambo mengine, gesi inayohusika.",
+            "Oksijeni inaweza kutoa kijani kinachotambulika sana katika aurora, na pia nyekundu katika urefu mkubwa zaidi. Nitrojeni huchangia vivuli vya buluu na waridi. Urefu, migongano na nishati ya chembe huchangia matokeo; rangi moja haitoshi kueleza mandhari yote.",
+            "Picha kutoka obitini inaonyesha vizuri sana tabaka hizi zinazopishana. Inaonyesha tukio ndani ya angahewa yetu na tabaka zake, badala ya mwanga ulio katikati ya nyota. Mifumo ileile ya kifizikia inaweza kutengeneza mandhari tofauti sana kulingana na hali: hiyo ni sehemu ya mvuto wa kila aurora."
+          ],
+          "alt": "Aurora ya kusini yenye kijani na nyekundu ikionekana kutoka Kituo cha Kimataifa cha Anga juu ya Bahari ya Hindi.",
+          "imageCredit": "Picha: NASA / ISS Expedition 71, 11 Agosti 2024."
+        }
+      }
+    }
+  ]
+}
