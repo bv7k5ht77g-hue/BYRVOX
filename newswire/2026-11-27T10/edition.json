@@ -1,0 +1,177 @@
+{
+  "hour": "2026-11-27T10",
+  "articles": [
+    {
+      "eventKey": "ontario-toronto-metro-warden-kennedy-navettes-28-29-novembre",
+      "category": "Ontario",
+      "sources": [
+        {
+          "name": "TTC — fermeture et adaptations du service",
+          "url": "https://www.ttc.ca/news/2026/November/WeekeLine-2-subway-closure-and-service-adjustments-across-the-city",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "TTC — avis aux voyageurs, version du 26 novembre",
+          "url": "https://www.ttc.ca/service-advisories/subway-service/Line-2-Warden-to-Kennedy-Full-weekend-closure-Nov-28-and-29",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "CityNews Toronto — transports de fin de semaine",
+          "url": "https://toronto.citynews.ca/2026/11/26/toronto-events-weekend-cavalcade-of-lights/",
+          "publishedAt": "2026-11-26T16:23:46Z"
+        },
+        {
+          "name": "Durham Post — service GO sur les lignes Lakeshore East et Stouffville",
+          "url": "https://durhampost.ca/lakeshore-east-and-stouffville-lines-service-disruptions",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "verified": true,
+      "photo": {
+        "download": "media/tor.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kennedy_Station_Line_2_Platform,_March_6_2026.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "credit": "Dillan Payne / Wikimedia Commons",
+        "subject": "station Kennedy",
+        "context": "ligne 2",
+        "capturedOn": "2026-03-06",
+        "alt": "La voie longe le quai de la ligne 2 à la station Kennedy, dont le nom est visible sur le mur.",
+        "caption": "Archives du 6 mars 2026. Quai de la ligne 2 à la station Kennedy du métro de Toronto."
+      },
+      "translations": {
+        "en": {
+          "title": "Buses to replace Toronto subway trains between Warden and Kennedy on November 28 and 29",
+          "summary": "In Ontario, the TTC expects to restore Line 2 service between the two stations at about 6 a.m. on Monday, November 30.",
+          "body": "Passengers travelling on Toronto’s Line 2 between Warden and Kennedy stations will need to take a shuttle bus on Saturday and Sunday. The Toronto Transit Commission (TTC) has set aside both days for track work. CityNews confirms that regular subway service is expected to resume at about 6 a.m. Monday.\n\nThe commuter rail connection at Kennedy will also be unavailable. No GO trains will run on the Stouffville line on either day. GO buses will serve the stops between Old Elm and Unionville, then run directly to Union Station Bus Terminal, skipping Kennedy GO.",
+          "photoAlt": "A track runs alongside the Line 2 platform at Kennedy station, with the station name visible on the wall.",
+          "photoCaption": "Archive photograph, March 6, 2026. The Line 2 platform at Kennedy station on the Toronto subway."
+        },
+        "es": {
+          "title": "Autobuses sustituirán al metro de Toronto entre Warden y Kennedy el 28 y el 29 de noviembre",
+          "summary": "En Ontario, la TTC prevé restablecer el servicio de la línea 2 entre ambas estaciones el lunes 30 de noviembre hacia las 6 de la mañana.",
+          "body": "Quienes viajen en la línea 2 del metro de Toronto entre las estaciones de Warden y Kennedy deberán tomar un autobús lanzadera el sábado y el domingo. La Comisión de Tránsito de Toronto (TTC) ha reservado ambos días para trabajos en las vías. CityNews confirma que el servicio habitual se reanudará previsiblemente el lunes hacia las 6 de la mañana.\n\nTampoco habrá conexión con el tren de cercanías en Kennedy. Durante esos dos días no circularán trenes GO en la línea Stouffville. Los autobuses GO harán las paradas entre Old Elm y Unionville y luego irán directamente a la terminal de autobuses de Union Station, sin parar en Kennedy GO.",
+          "photoAlt": "La vía discurre junto al andén de la línea 2 en la estación de Kennedy, cuyo nombre se lee en la pared.",
+          "photoCaption": "Foto de archivo del 6 de marzo de 2026. Andén de la línea 2 en la estación de Kennedy del metro de Toronto."
+        },
+        "ar": {
+          "title": "حافلات بديلة لقطارات مترو تورونتو بين واردن وكينيدي يومي 28 و29 نوفمبر",
+          "summary": "تتوقع هيئة النقل في تورونتو بمقاطعة أونتاريو استئناف خدمة الخط الثاني بين المحطتين قرابة السادسة صباح الاثنين 30 نوفمبر.",
+          "body": "سيحتاج ركاب الخط الثاني من مترو تورونتو بين محطتي واردن وكينيدي إلى استخدام حافلات بديلة السبت والأحد. وخصصت هيئة النقل في تورونتو اليومين لأعمال على السكة. وأكد موقع سيتي نيوز أن استئناف الخدمة المعتادة متوقع قرابة السادسة صباح الاثنين.\n\nوسيتوقف أيضاً الربط بقطار الضواحي في كينيدي. ولن تسير قطارات «غو» على خط ستوفيل خلال اليومين. وستخدم حافلات «غو» المحطات بين أولد إلم ويونيونفيل، ثم تتوجه مباشرة إلى محطة حافلات يونيون من دون التوقف في كينيدي غو.",
+          "photoAlt": "سكة بمحاذاة رصيف الخط الثاني في محطة كينيدي ويظهر اسم المحطة على الجدار.",
+          "photoCaption": "صورة أرشيفية بتاريخ 6 مارس 2026. رصيف الخط الثاني في محطة كينيدي بمترو تورونتو."
+        },
+        "zh-CN": {
+          "title": "多伦多地铁2号线沃登站至肯尼迪站11月28日和29日改由接驳巴士运行",
+          "summary": "在安大略省，多伦多公车局预计这段线路将于11月30日星期一早上6时左右恢复列车服务。",
+          "body": "本周六和周日，乘坐多伦多地铁2号线往返沃登站与肯尼迪站的乘客需改乘接驳巴士。多伦多公车局安排在这两天进行轨道施工。当地媒体CityNews证实，常规列车服务预计于星期一早上6时左右恢复。\n\n肯尼迪站的市郊铁路换乘也将中断。这两天斯托夫维尔线没有GO列车运行。GO巴士将在老榆树站与于宁维尔站之间各站停靠，随后直达联合车站巴士总站，不经停肯尼迪GO站。",
+          "photoAlt": "轨道沿肯尼迪站2号线站台延伸，墙上可见站名。",
+          "photoCaption": "资料照片，摄于2026年3月6日。多伦多地铁肯尼迪站的2号线站台。"
+        },
+        "ru": {
+          "title": "В Торонто 28 и 29 ноября автобусы заменят метро между станциями Уорден и Кеннеди",
+          "summary": "Транспортная комиссия Торонто в провинции Онтарио рассчитывает возобновить движение по этому участку линии 2 в понедельник, 30 ноября, около 6 утра.",
+          "body": "В субботу и воскресенье пассажирам линии 2 метро Торонто между станциями Уорден и Кеннеди предстоит пересесть на автобусы. Транспортная комиссия Торонто (TTC) отвела оба дня для путевых работ. По данным CityNews, поезда должны вернуться к обычному расписанию в понедельник около 6 утра.\n\nПересадка на пригородный поезд на станции Кеннеди также будет недоступна. В оба дня поезда GO на линии Стоуффвилл ходить не будут. Автобусы GO обслужат остановки от Олд-Элм до Юнионвилл, а затем направятся прямо к автобусному терминалу станции Юнион, минуя Кеннеди GO.",
+          "photoAlt": "Путь вдоль платформы линии 2 на станции Кеннеди. На стене видно название станции.",
+          "photoCaption": "Архивный снимок от 6 марта 2026 года. Платформа линии 2 на станции Кеннеди в метро Торонто."
+        },
+        "ko": {
+          "title": "토론토 지하철 워든∼케네디 구간, 11월 28·29일 버스로 대체",
+          "summary": "온타리오주 토론토교통위원회는 11월 30일 월요일 오전 6시쯤 두 역 사이의 2호선 운행을 재개할 예정이다.",
+          "body": "토요일과 일요일에 토론토 지하철 2호선 워든역과 케네디역 사이를 오가는 승객은 셔틀버스를 이용해야 한다. 토론토교통위원회(TTC)는 이틀 동안 선로 작업을 진행한다. 현지 매체 시티뉴스도 월요일 오전 6시쯤 정상 운행을 재개할 예정이라고 전했다.\n\n케네디역에서 통근열차로 갈아타는 것도 불가능하다. 이틀 동안 스토프빌선 GO 열차는 운행하지 않는다. GO 버스는 올드 엘름에서 유니언빌까지 각 정류장에 정차한 뒤 유니언역 버스터미널로 직행하며 케네디 GO역에는 서지 않는다.",
+          "photoAlt": "케네디역 2호선 승강장을 따라 선로가 이어지고 벽에는 역 이름이 보인다.",
+          "photoCaption": "2026년 3월 6일 촬영한 자료 사진. 토론토 지하철 케네디역 2호선 승강장."
+        }
+      },
+      "title": "À Toronto, des autobus remplaceront le métro entre Warden et Kennedy les 28 et 29 novembre",
+      "summary": "En Ontario, la TTC prévoit de rétablir le service de la ligne 2 entre les deux stations le lundi 30 novembre, vers 6 h.",
+      "body": "Les voyageurs qui empruntent la ligne 2 du métro de Toronto entre Warden et la station Kennedy devront prendre une navette samedi et dimanche. La Toronto Transit Commission (TTC) réserve ces deux journées à des travaux sur les voies. CityNews confirme que la reprise du service régulier est prévue lundi vers 6 h.\n\nLa correspondance avec le train de banlieue à Kennedy sera elle aussi interrompue. Sur la ligne Stouffville, aucun train GO ne circulera pendant ces deux jours. Les autobus GO desserviront les arrêts entre Old Elm et Unionville, puis fileront directement vers la gare routière Union. Ils ne s’arrêteront donc pas à Kennedy GO."
+    },
+    {
+      "eventKey": "sri-lanka-parlement-hommage-victimes-cyclone-ditwah-un-an",
+      "category": "Sri Lanka",
+      "sources": [
+        {
+          "name": "Parlement du Sri Lanka — séance du 27 novembre",
+          "url": "https://www.youtube.com/watch?v=82xksaR6Jp4",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Newswire — hommage au Parlement",
+          "url": "https://www.newswire.lk/2026/11/27/parliament-observes-moment-of-silence-to-mark-one-year-since-cyclone-ditwah/",
+          "publishedAt": "2026-11-27T04:16:59Z"
+        },
+        {
+          "name": "News 1st — compte rendu de la séance",
+          "url": "https://english.newsfirst.lk/2026/11/27/one-minute-of-silence-then-heated-words-parliament-remembers-ditwah-victims",
+          "publishedAt": "2026-11-27T12:12:00+05:30"
+        },
+        {
+          "name": "Banque mondiale — financement des routes endommagées",
+          "url": "https://www.worldbank.org/en/news/press-release/2026/09/30/world-bank-approves-110-million-for-climate-resilient-roads-in-sri-lanka",
+          "publishedAt": "2026-09-30"
+        }
+      ],
+      "verified": true,
+      "photo": {
+        "download": "media/flood.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flooding_in_Sri_Lanka_(MODIS_2025-12-09).jpg",
+        "license": "Domaine public (NASA)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flooding_in_Sri_Lanka_(MODIS_2025-12-09).jpg#Licensing",
+        "credit": "MODIS Land Rapid Response Team, NASA GSFC",
+        "subject": "inondations",
+        "context": "Sri Lanka",
+        "capturedOn": "2025-11-30",
+        "alt": "Des ramifications bleues traversent les zones vertes sur une vue satellitaire des inondations au Sri Lanka.",
+        "caption": "Archives du 30 novembre 2025. Le satellite Terra montre en fausses couleurs les inondations au Sri Lanka après le cyclone Ditwah."
+      },
+      "translations": {
+        "en": {
+          "title": "Sri Lankan parliament honours victims a year after Cyclone Ditwah",
+          "summary": "Lawmakers stood on Friday at the Speaker’s invitation. Floods and landslides struck the country in November 2025.",
+          "body": "Sri Lanka’s parliament observed a moment of silence on 27 November, a year after Cyclone Ditwah swept through the country. Speaker Jagath Wickramaratne invited lawmakers to stand in memory of those who died and in solidarity with the injured and bereaved families, according to the parliamentary record and Sri Lankan outlets Newswire and News 1st.\n\nOn 30 September, the World Bank approved US$110 million to help the country restore 600 kilometres of roads damaged by the cyclone.\n\nThe floods left traces visible from space. On 30 November 2025, NASA’s Terra satellite photographed flooding in Sri Lanka after the cyclone. In this false-colour image, branching blue features trace rivers and tributaries that overflowed their banks, while vegetation appears green.",
+          "photoAlt": "Branching blue patterns cross green areas in a satellite view of flooding in Sri Lanka.",
+          "photoCaption": "Archive image, 30 November 2025. Terra’s false-colour image shows flooding in Sri Lanka after Cyclone Ditwah."
+        },
+        "es": {
+          "title": "El Parlamento de Sri Lanka homenajea a las víctimas un año después del ciclón Ditwah",
+          "summary": "Los diputados se pusieron en pie el viernes a petición del presidente de la Cámara. En noviembre de 2025, el país sufrió inundaciones y deslizamientos de tierra.",
+          "body": "El Parlamento de Sri Lanka guardó un momento de silencio el 27 de noviembre, un año después del paso del ciclón Ditwah. Su presidente, Jagath Wickramaratne, invitó a los diputados a ponerse en pie en memoria de los fallecidos y en solidaridad con los heridos y las familias en duelo, según el acta parlamentaria y los medios esrilanqueses Newswire y News 1st.\n\nEl 30 de septiembre, el Banco Mundial aprobó 110 millones de dólares estadounidenses para ayudar al país a rehabilitar 600 kilómetros de carreteras dañadas por el ciclón.\n\nLas crecidas dejaron huellas visibles desde el espacio. El 30 de noviembre de 2025, el satélite Terra de la NASA fotografió las inundaciones en Sri Lanka tras el ciclón. En esta imagen en falso color, las ramificaciones azules corresponden a ríos y afluentes desbordados, mientras que la vegetación aparece en verde.",
+          "photoAlt": "Ramificaciones azules atraviesan áreas verdes en una vista satelital de las inundaciones en Sri Lanka.",
+          "photoCaption": "Imagen de archivo del 30 de noviembre de 2025. Imagen en falso color del satélite Terra que muestra las inundaciones en Sri Lanka tras el ciclón Ditwah."
+        },
+        "ar": {
+          "title": "برلمان سريلانكا يكرّم الضحايا بعد عام على إعصار ديتواه",
+          "summary": "وقف النواب الجمعة بدعوة من رئيس البرلمان. وكانت فيضانات وانهيارات أرضية قد ضربت البلاد في نوفمبر 2025.",
+          "body": "التزم برلمان سريلانكا لحظة صمت في 27 نوفمبر، بعد عام على اجتياح إعصار ديتواه للبلاد. ودعا رئيسه جاغاث ويكراماراتني النواب إلى الوقوف إحياءً لذكرى من فقدوا حياتهم وتضامناً مع الجرحى والأسر المفجوعة، وفقاً لمحضر المجلس ووسيلتي الإعلام السريلانكيتين نيوزواير ونيوز فرست.\n\nوفي 30 سبتمبر أقر البنك الدولي 110 ملايين دولار أميركي لمساعدة البلاد على إصلاح 600 كيلومتر من الطرق التي تضررت جراء الإعصار.\n\nتركت الفيضانات آثاراً أمكن رصدها من الفضاء. ففي 30 نوفمبر 2025 صوّر القمر الاصطناعي تيرا التابع لناسا الفيضانات في سريلانكا بعد الإعصار. وتبيّن التفرعات الزرقاء في الصورة ذات الألوان الاصطناعية الأنهار والروافد التي فاضت عن مجاريها، فيما يظهر الغطاء النباتي باللون الأخضر.",
+          "photoAlt": "تفرعات زرقاء تقطع مساحات خضراء في صورة فضائية للفيضانات في سريلانكا.",
+          "photoCaption": "صورة أرشيفية بتاريخ 30 نوفمبر 2025. صورة بألوان اصطناعية من القمر تيرا للفيضانات في سريلانكا بعد إعصار ديتواه."
+        },
+        "zh-CN": {
+          "title": "气旋“迪特瓦”过境一周年，斯里兰卡议会悼念遇难者",
+          "summary": "应议长提议，议员们星期五起立致意。2025年11月，洪水和山体滑坡袭击了斯里兰卡。",
+          "body": "11月27日，斯里兰卡议会为一年前席卷该国的气旋“迪特瓦”的受害者默哀。据议会记录及斯里兰卡媒体Newswire和News 1st报道，议长贾加特·维克拉马拉特纳请议员们起立，悼念遇难者，并向伤者和失去亲人的家庭表示慰问。\n\n9月30日，世界银行批准提供1.1亿美元，帮助斯里兰卡修复600公里受气旋破坏的道路。\n\n从太空也能看到洪灾留下的痕迹。2025年11月30日，美国国家航空航天局的“特拉”卫星拍下了气旋过境后斯里兰卡的洪水。在这幅假彩色影像中，蓝色分支勾勒出漫出河岸的河流及其支流，绿色则代表植被。",
+          "photoAlt": "在斯里兰卡洪灾的卫星图像上，蓝色分支穿过绿色地带。",
+          "photoCaption": "资料影像，摄于2025年11月30日。“特拉”卫星拍摄的假彩色影像显示气旋“迪特瓦”过境后斯里兰卡的洪水。"
+        },
+        "ru": {
+          "title": "Парламент Шри-Ланки почтил память жертв циклона «Дитва» год спустя",
+          "summary": "В пятницу депутаты встали по предложению спикера. В ноябре 2025 года на страну обрушились наводнения и оползни.",
+          "body": "27 ноября парламент Шри-Ланки почтил молчанием память жертв циклона «Дитва», прошедшего по стране год назад. Как следует из парламентского отчёта и сообщений местных изданий Newswire и News 1st, спикер Джагат Викрамаратне предложил депутатам встать в память о погибших и в знак солидарности с пострадавшими и семьями, потерявшими близких.\n\n30 сентября Всемирный банк одобрил выделение 110 млн долларов США на восстановление 600 километров дорог, повреждённых циклоном.\n\nСледы наводнений были видны из космоса. 30 ноября 2025 года спутник НАСА Terra запечатлел затопленные районы Шри-Ланки после циклона. На снимке в условных цветах синие разветвления показывают вышедшие из берегов реки и притоки, а зелёным выделена растительность.",
+          "photoAlt": "Синие разветвления пересекают зелёные участки на спутниковом снимке затопленных районов Шри-Ланки.",
+          "photoCaption": "Архивный снимок от 30 ноября 2025 года. Спутник Terra в условных цветах запечатлел наводнения в Шри-Ланке после циклона «Дитва»."
+        },
+        "ko": {
+          "title": "사이클론 디트와 1주년, 스리랑카 의회 희생자 추모",
+          "summary": "금요일 의장의 요청에 따라 의원들이 자리에서 일어섰다. 2025년 11월 스리랑카에서는 홍수와 산사태가 발생했다.",
+          "body": "스리랑카 의회는 사이클론 디트와가 나라를 휩쓴 지 1년이 된 11월 27일 묵념했다. 의회 기록과 현지 매체 뉴스와이어 및 뉴스퍼스트에 따르면 자가트 위크라마라트네 의장은 의원들에게 일어나 사망자를 기리고 부상자와 유가족에게 위로를 전하자고 요청했다.\n\n9월 30일 세계은행은 사이클론으로 파손된 도로 600㎞의 복구를 지원하기 위해 미화 1억 1천만 달러를 승인했다.\n\n홍수의 흔적은 우주에서도 보였다. 2025년 11월 30일 미국 항공우주국의 테라 위성이 사이클론이 지나간 뒤 스리랑카의 침수 지역을 촬영했다. 이 가색 영상에서 파란 나뭇가지 모양은 범람한 강과 지류를 나타내며 식생은 녹색으로 보인다.",
+          "photoAlt": "스리랑카 침수 지역을 찍은 위성 영상에서 파란 물줄기가 녹색 지역 사이로 뻗어 있다.",
+          "photoCaption": "2025년 11월 30일 촬영한 자료 영상. 테라 위성이 가색으로 촬영한 사이클론 디트와 통과 후 스리랑카의 홍수."
+        }
+      },
+      "title": "Un an après le cyclone Ditwah, le Parlement sri-lankais rend hommage aux victimes",
+      "summary": "Les députés se sont levés vendredi à l’invitation du président de la Chambre. En novembre 2025, des inondations et des glissements de terrain avaient frappé le pays.",
+      "body": "Le Parlement du Sri Lanka a observé un moment de silence le 27 novembre, un an après le passage du cyclone Ditwah. Son président, Jagath Wickramaratne, a invité les élus à se lever en mémoire des personnes mortes et en solidarité avec les blessés et les familles endeuillées, selon le compte rendu de la Chambre et les médias sri-lankais Newswire et News 1st.\n\nLe 30 septembre, la Banque mondiale a approuvé 110 millions de dollars américains pour aider le pays à remettre en état 600 kilomètres de routes endommagées par le cyclone.\n\nLes crues ont laissé des traces visibles depuis l’espace. Le 30 novembre 2025, le satellite Terra de la NASA a photographié les inondations au Sri Lanka après le cyclone. Sur cette image en fausses couleurs, les ramifications bleues correspondent aux cours d’eau sortis de leur lit, tandis que la végétation apparaît en vert."
+    }
+  ]
+}
