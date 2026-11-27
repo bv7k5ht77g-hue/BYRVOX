@@ -1,0 +1,162 @@
+{
+  "hour": "2026-11-27T04",
+  "articles": [
+    {
+      "eventKey": "nouvelle-zelande-decompte-officiel-coalition-65-sieges",
+      "category": "Nouvelle-Zélande",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Commission électorale de Nouvelle-Zélande — résultats officiels",
+          "url": "https://elections.nz/media-and-news/2026/2026-general-election-official-results",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Charlotte Graham-McLay, Associated Press",
+          "url": "https://apnews.com/article/new-zealand-election-results-a19a838d8256a0762703ff0572aca3e6",
+          "publishedAt": "2026-11-27T01:04:33Z"
+        }
+      ],
+      "photo": {
+        "subject": "panneau de vote",
+        "context": "Palmerston North",
+        "capturedOn": "2026-11-07",
+        "download": "media/scrutin.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Voting_sign_2026-2.jpg",
+        "credit": "IdiotSavant / Wikimedia Commons, recadrage BYRVOX",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Panneau orange en anglais et en maori avec une flèche vers le bureau de vote de la Winchester School à Palmerston North.",
+        "caption": "Archive du 7 novembre 2026. Un panneau de vote devant la Winchester School à Palmerston North, le jour des élections législatives néo-zélandaises."
+      },
+      "translations": {
+        "en": {
+          "title": "New Zealand’s official count leaves the outgoing coalition one seat short of a majority",
+          "summary": "With 65 of 130 seats, the three governing parties lose the narrow majority that election-night results had given them. The centrist Opportunity Party enters Parliament with seven seats.",
+          "body": "Prime Minister Christopher Luxon’s National Party won 40 seats, two fewer than on the night of the November 7 election. The official result released by the Electoral Commission on November 27 includes special votes, among them ballots cast overseas. In Palmerston North, a voting sign photographed outside Winchester School on election day showed voters where to go.\n\nWith ACT’s 13 seats and New Zealand First’s 12, Luxon’s bloc has 65. A majority requires 66. Labour has 36 seats, the Greens 17 and Te Pāti Māori five. According to the Associated Press, the distribution places Opportunity, which is aligned with neither bloc, at the centre of negotiations over the next government.",
+          "photoAlt": "Orange sign in English and Māori with an arrow pointing to the Winchester School polling place in Palmerston North.",
+          "photoCaption": "Archive photo, November 7, 2026. A voting sign outside Winchester School in Palmerston North on the day of New Zealand’s general election."
+        },
+        "es": {
+          "title": "El recuento oficial deja a la coalición saliente de Nueva Zelanda a un escaño de la mayoría",
+          "summary": "Con 65 de los 130 escaños, los tres partidos del gobierno saliente pierden la estrecha mayoría que les daban los resultados de la noche electoral. El partido centrista Opportunity entra en el Parlamento con siete diputados.",
+          "body": "El Partido Nacional del primer ministro Christopher Luxon obtiene 40 escaños, dos menos que en la noche de las elecciones del 7 de noviembre. El resultado oficial publicado el 27 de noviembre por la Comisión Electoral incluye los votos especiales, entre ellos los emitidos en el extranjero. En Palmerston North, un cartel fotografiado frente a la escuela Winchester el día de las elecciones indicaba a los electores adónde acudir.\n\nCon los 13 diputados de ACT y los 12 de New Zealand First, el bloque de Luxon suma 65 escaños. La mayoría exige 66. Los laboristas tienen 36, los Verdes 17 y Te Pāti Māori cinco. Según Associated Press, este reparto sitúa a Opportunity, que no está alineado con ninguno de los dos bloques, en el centro de las negociaciones para formar el próximo gobierno.",
+          "photoAlt": "Cartel naranja en inglés y maorí con una flecha hacia el colegio electoral de la escuela Winchester en Palmerston North.",
+          "photoCaption": "Archivo del 7 de noviembre de 2026. Cartel electoral frente a la escuela Winchester de Palmerston North el día de las elecciones generales de Nueva Zelanda."
+        },
+        "ar": {
+          "title": "الفرز الرسمي في نيوزيلندا يترك الائتلاف الحاكم على بُعد مقعد واحد من الأغلبية",
+          "summary": "حصدت أحزاب الحكومة المنتهية ولايتها 65 مقعداً من أصل 130، ففقدت الأغلبية الضئيلة التي منحتها إياها نتائج ليلة الانتخابات. ودخل حزب «أوبورتونيتي» الوسطي البرلمان بسبعة مقاعد.",
+          "body": "نال الحزب الوطني بزعامة رئيس الوزراء كريستوفر لوكسون 40 مقعداً، أي أقل بمقعدين من حصيلته ليلة اقتراع 7 نوفمبر. وتشمل النتيجة الرسمية التي أعلنتها لجنة الانتخابات في 27 نوفمبر الأصوات الخاصة، ومنها أصوات الناخبين في الخارج. وفي بالمرستون نورث، أظهرت صورة التُقطت يوم الاقتراع لافتة أمام مدرسة وينشستر ترشد الناخبين إلى مكان التصويت.\n\nبإضافة مقاعد حزب «أكت» الثلاثة عشر ومقاعد حزب «نيوزيلندا أولاً» الاثني عشر، يبلغ رصيد معسكر لوكسون 65 مقعداً، فيما تتطلب الأغلبية 66. وحصل العمال على 36 مقعداً والخضر على 17 وحزب «تي باتي ماوري» على خمسة. وبحسب أسوشيتد برس، تضع هذه النتائج «أوبورتونيتي»، غير المنضوي في أي من المعسكرين، في قلب مفاوضات تشكيل الحكومة المقبلة.",
+          "photoAlt": "لافتة برتقالية بالإنجليزية والماورية تحمل سهماً يشير إلى مركز الاقتراع بمدرسة وينشستر في بالمرستون نورث.",
+          "photoCaption": "صورة أرشيفية من 7 نوفمبر 2026 للافتة اقتراع أمام مدرسة وينشستر في بالمرستون نورث يوم الانتخابات العامة النيوزيلندية."
+        },
+        "zh-CN": {
+          "title": "新西兰正式计票结果揭晓，执政联盟距议会多数差一席",
+          "summary": "现政府三党在130席中共获65席，失去了选举之夜初步结果所显示的微弱多数。中间派机会党以七席首次进入议会。",
+          "body": "总理克里斯托弗·拉克森领导的国家党获得40席，比11月7日投票当晚的初步结果少两席。选举委员会11月27日公布的正式结果纳入了特别选票，其中包括海外选票。投票日拍摄的一张照片显示，北帕默斯顿温彻斯特学校门前的投票指示牌为选民指路。\n\n加上行动党的13席和新西兰优先党的12席，拉克森阵营合计65席，取得多数需要66席。工党获得36席，绿党17席，毛利党五席。据美联社报道，这一席位分布使不隶属两大阵营的机会党成为下一届政府组阁谈判的关键。",
+          "photoAlt": "北帕默斯顿温彻斯特学校外，橙色英毛双语指示牌上的箭头指向投票站。",
+          "photoCaption": "资料照片，2026年11月7日。新西兰大选当天，北帕默斯顿温彻斯特学校门前的投票指示牌。"
+        },
+        "ru": {
+          "title": "Правящей коалиции Новой Зеландии по итогам подсчёта не хватило одного места до большинства",
+          "summary": "Три партии уходящего правительства получили 65 из 130 мест и утратили небольшое большинство, которое давали им предварительные итоги в ночь выборов. Центристская партия Opportunity впервые проходит в парламент с семью мандатами.",
+          "body": "Национальная партия премьер-министра Кристофера Лаксона получила 40 мест, на два меньше, чем по итогам ночи после голосования 7 ноября. Официальный результат, опубликованный избирательной комиссией 27 ноября, учитывает специальные бюллетени, в том числе поданные за рубежом. На снимке из Палмерстон-Норта, сделанном в день выборов, указатель у школы Уинчестер показывает избирателям дорогу на участок.\n\nВместе с 13 мандатами ACT и 12 местами партии «Новая Зеландия прежде всего» у блока Лаксона 65 мест. Для большинства нужно 66. У лейбористов 36 мандатов, у зелёных 17, у Te Pāti Māori пять. По оценке Associated Press, такое распределение ставит Opportunity, не входящую ни в один из двух блоков, в центр переговоров о будущем правительстве.",
+          "photoAlt": "Оранжевый указатель на английском и маори со стрелкой к участку в школе Уинчестер в Палмерстон-Норте.",
+          "photoCaption": "Архивный снимок от 7 ноября 2026 года. Указатель у школы Уинчестер в Палмерстон-Норте в день парламентских выборов в Новой Зеландии."
+        },
+        "ko": {
+          "title": "뉴질랜드 총선 공식 집계, 집권 연정 과반에 한 석 부족",
+          "summary": "현 정부를 구성하는 세 정당은 130석 중 65석을 얻어 선거 당일 밤 잠정 집계에서 확보했던 근소한 과반을 잃었다. 중도 성향의 기회당은 7석으로 처음 의회에 진입했다.",
+          "body": "크리스토퍼 럭슨 총리가 이끄는 국민당은 40석을 얻었다. 11월 7일 선거 당일 밤보다 두 석 줄었다. 선거관리위원회가 11월 27일 발표한 공식 결과에는 해외 투표를 비롯한 특별 투표가 포함됐다. 선거 당일 파머스턴노스에서 촬영한 사진에는 윈체스터 학교 앞 표지판이 유권자에게 투표소 방향을 안내하는 모습이 담겼다.\n\n액트당의 13석과 뉴질랜드제일당의 12석을 더하면 럭슨 진영은 65석이다. 과반에는 66석이 필요하다. 노동당은 36석, 녹색당은 17석, 마오리당은 5석이다. AP통신은 이런 의석 분포로 어느 진영에도 속하지 않은 기회당이 차기 정부 구성 협상의 중심에 서게 됐다고 보도했다.",
+          "photoAlt": "파머스턴노스 윈체스터 학교 투표소 쪽으로 화살표가 그려진 영어·마오리어 주황색 표지판.",
+          "photoCaption": "2026년 11월 7일 자료 사진. 뉴질랜드 총선 당일 파머스턴노스 윈체스터 학교 앞에 세운 투표 안내판."
+        }
+      },
+      "title": "Nouvelle-Zélande : le décompte officiel laisse la coalition sortante à un siège de la majorité",
+      "summary": "Avec 65 élus sur 130, les trois partis du gouvernement sortant perdent la courte majorité que leur donnaient les résultats du soir de l’élection. Le parti centriste Opportunity fait son entrée avec sept sièges.",
+      "body": "Le Parti national du premier ministre Christopher Luxon obtient 40 sièges, deux de moins qu’au soir du scrutin du 7 novembre. Le résultat officiel publié le 27 novembre par la Commission électorale inclut les votes spéciaux, dont ceux exprimés à l’étranger. À Palmerston North, un panneau de vote photographié devant la Winchester School le jour de l’élection indiquait aux électeurs où se rendre.\n\nAvec les 13 élus d’ACT et les 12 de New Zealand First, le camp de Luxon totalise 65 sièges. Il en faut 66 pour détenir la majorité. Les travaillistes en ont 36, les Verts 17 et Te Pāti Māori cinq. Selon l’Associated Press, cette répartition place Opportunity, qui n’est affilié à aucun des deux blocs, au centre des négociations sur le prochain gouvernement."
+    },
+    {
+      "eventKey": "fidji-australie-entree-vigueur-alliance-veitacini-vuvale",
+      "category": "Fidji",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Premiers ministres des Fidji et de l’Australie — déclaration conjointe",
+          "url": "https://www.pm.gov.au/media/entry-force-fiji-australia-vuvale-union-and-ocean-peace-alliance-veitacini-treaty",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Anish Chand, The Fiji Times",
+          "url": "https://www.fijitimes.com.fj/vuvale-union-and-veitacini-treaty-officially-come-into-force/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Ministère fidjien des Affaires étrangères — cérémonie de signature",
+          "url": "https://www.foreignaffairs.gov.fj/fiji-and-australia-sign-the-vuvale-union-and-ocean-of-peace-alliance-marking-a-historic-achievement/",
+          "publishedAt": "2026-07-07"
+        }
+      ],
+      "photo": {
+        "subject": "Sitiveni Rabuka",
+        "context": "Fidji",
+        "capturedOn": "2023-02-21",
+        "download": "media/fidji.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Penny_Wong_meets_Sitiveni_Rabuka_2023.jpg",
+        "credit": "Sarah Hodges / Department of Foreign Affairs and Trade — www.dfat.gov.au",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "Penny Wong et Sitiveni Rabuka se serrent la main devant les drapeaux de l’Australie et des Fidji.",
+        "caption": "Archive du 21 février 2023. Sitiveni Rabuka, premier ministre des Fidji, accueille Penny Wong, ministre australienne des Affaires étrangères, lors d’une rencontre bilatérale."
+      },
+      "translations": {
+        "en": {
+          "title": "Fiji and Australia bring their Pacific defence alliance into force",
+          "summary": "Both countries pledge to act if either comes under armed attack in the Pacific. A second treaty, the Vuvale Union, extends cooperation to health, infrastructure and education.",
+          "body": "Fiji’s Prime Minister Sitiveni Rabuka and his Australian counterpart Anthony Albanese announced on November 26 that the two treaties signed in Suva on July 6 had entered into force. Under the defence agreement, known as Veitacini, each country will act to address the common danger under its own domestic procedures if either partner is attacked in the Pacific.\n\nIt is Fiji’s first alliance of its kind, the Fiji Times reports. The other agreement, the Vuvale Union, provides for a ministerial forum to oversee cooperation between the two countries. Australian Foreign Minister Penny Wong attended the July signing. The archive photo shows an earlier meeting with Sitiveni Rabuka.",
+          "photoAlt": "Penny Wong and Sitiveni Rabuka shake hands in front of Australian and Fijian flags.",
+          "photoCaption": "Archive photo, February 21, 2023. Fiji’s Prime Minister Sitiveni Rabuka greets Australian Foreign Minister Penny Wong at a bilateral meeting."
+        },
+        "es": {
+          "title": "Entra en vigor la alianza de defensa de Fiyi y Australia en el Pacífico",
+          "summary": "Los dos países se comprometen a actuar si uno de ellos sufre un ataque armado en el Pacífico. Un segundo tratado, la Unión Vuvale, amplía la cooperación en salud, infraestructura y educación.",
+          "body": "El primer ministro de Fiyi, Sitiveni Rabuka, y su homólogo australiano, Anthony Albanese, anunciaron el 26 de noviembre la entrada en vigor de los dos tratados firmados en Suva el 6 de julio. El acuerdo de defensa, llamado Veitacini, establece que si uno de los socios sufre un ataque armado en el Pacífico, cada país actuará ante el peligro común conforme a sus propios procedimientos internos.\n\nEs la primera alianza de este tipo suscrita por Fiyi, señala el Fiji Times. El otro acuerdo, la Unión Vuvale, prevé un foro ministerial para dar seguimiento a la cooperación entre ambos países. La ministra australiana de Asuntos Exteriores, Penny Wong, asistió a la firma en julio. La foto de archivo muestra un encuentro anterior con Sitiveni Rabuka.",
+          "photoAlt": "Penny Wong y Sitiveni Rabuka se estrechan la mano ante las banderas de Australia y Fiyi.",
+          "photoCaption": "Foto de archivo del 21 de febrero de 2023. El primer ministro de Fiyi, Sitiveni Rabuka, saluda a la ministra australiana de Asuntos Exteriores, Penny Wong, en una reunión bilateral."
+        },
+        "ar": {
+          "title": "دخول التحالف الدفاعي بين فيجي وأستراليا في المحيط الهادئ حيز التنفيذ",
+          "summary": "يتعهد البلدان بالتحرك إذا تعرض أحدهما لهجوم مسلح في المحيط الهادئ. وتوسع معاهدة ثانية، هي اتحاد فوفالي، التعاون ليشمل الصحة والبنية التحتية والتعليم.",
+          "body": "أعلن رئيس وزراء فيجي سيتيفيني رابوكا ونظيره الأسترالي أنتوني ألبانيزي في 26 نوفمبر دخول المعاهدتين الموقعتين في سوفا في 6 يوليو حيز التنفيذ. وينص الاتفاق الدفاعي المعروف باسم فيتاچيني على أن يتحرك كل بلد وفق إجراءاته الداخلية لمواجهة الخطر المشترك إذا تعرض أحد الشريكين لهجوم مسلح في المحيط الهادئ.\n\nوأوضحت صحيفة «فيجي تايمز» أنه أول تحالف من نوعه تبرمه فيجي. وينص الاتفاق الآخر، اتحاد فوفالي، على إنشاء منتدى وزاري لمتابعة التعاون بين البلدين. وكانت وزيرة الخارجية الأسترالية بيني وونغ قد حضرت مراسم التوقيع في يوليو. وتظهر الصورة الأرشيفية لقاء سابقاً مع سيتيفيني رابوكا.",
+          "photoAlt": "بيني وونغ وسيتيفيني رابوكا يتصافحان أمام علمي أستراليا وفيجي.",
+          "photoCaption": "صورة أرشيفية من 21 فبراير 2023. رئيس وزراء فيجي سيتيفيني رابوكا يستقبل وزيرة الخارجية الأسترالية بيني وونغ خلال لقاء ثنائي."
+        },
+        "zh-CN": {
+          "title": "斐济与澳大利亚的太平洋防务同盟正式生效",
+          "summary": "两国承诺，一方若在太平洋地区遭受武装攻击，双方将采取行动。另一项条约《武瓦莱联盟》把合作扩展到卫生、基础设施和教育领域。",
+          "body": "斐济总理西蒂维尼·兰布卡与澳大利亚总理安东尼·阿尔巴尼斯11月26日宣布，两国7月6日在苏瓦签署的两项条约已经生效。根据名为Veitacini的防务协定，一方若在太平洋地区遭受武装攻击，两国将各自按照国内程序采取行动，应对共同危险。\n\n据《斐济时报》报道，这是斐济首次缔结此类同盟。另一项条约《武瓦莱联盟》规定设立部长级论坛，跟进两国合作。澳大利亚外长黄英贤出席了7月的签字仪式。资料照片记录的是她此前与兰布卡的一次会晤。",
+          "photoAlt": "黄英贤与西蒂维尼·兰布卡在澳大利亚和斐济国旗前握手。",
+          "photoCaption": "资料照片，摄于2023年2月21日。斐济总理西蒂维尼·兰布卡在一次双边会晤中迎接澳大利亚外长黄英贤。"
+        },
+        "ru": {
+          "title": "Вступил в силу договор об оборонном союзе Фиджи и Австралии в Тихом океане",
+          "summary": "Страны обязались действовать, если одна из них подвергнется вооружённому нападению в Тихоокеанском регионе. Второй договор, Союз Вувале, расширяет сотрудничество в здравоохранении, инфраструктуре и образовании.",
+          "body": "Премьер-министр Фиджи Ситивени Рабука и его австралийский коллега Энтони Альбанезе 26 ноября объявили о вступлении в силу двух договоров, подписанных в Суве 6 июля. Оборонное соглашение Вейтачини предусматривает, что при вооружённом нападении на одного из партнёров в Тихоокеанском регионе каждая страна будет противодействовать общей угрозе в соответствии со своими внутренними процедурами.\n\nКак отмечает Fiji Times, для Фиджи это первый союз такого рода. Второе соглашение, Союз Вувале, предусматривает в том числе создание министерского форума для координации сотрудничества двух стран. На подписании договоров в июле присутствовала глава МИД Австралии Пенни Вонг. На архивной фотографии запечатлена её более ранняя встреча с Ситивени Рабукой.",
+          "photoAlt": "Пенни Вонг и Ситивени Рабука пожимают руки на фоне флагов Австралии и Фиджи.",
+          "photoCaption": "Архивный снимок от 21 февраля 2023 года. Премьер-министр Фиджи Ситивени Рабука приветствует главу МИД Австралии Пенни Вонг на двусторонней встрече."
+        },
+        "ko": {
+          "title": "피지와 호주의 태평양 방위동맹 발효",
+          "summary": "두 나라는 어느 한쪽이 태평양에서 무력 공격을 받으면 대응하기로 했다. 또 다른 조약인 부발레 연합은 보건과 기반시설, 교육으로 협력을 넓힌다.",
+          "body": "시티베니 라부카 피지 총리와 앤서니 앨버니지 호주 총리는 7월 6일 수바에서 서명한 두 조약이 발효됐다고 11월 26일 발표했다. 베이타치니 방위조약은 한쪽이 태평양에서 무력 공격을 받을 경우 양국이 각자의 국내 절차에 따라 공동의 위협에 대응한다고 규정한다.\n\n피지타임스에 따르면 피지가 이런 동맹을 맺은 것은 처음이다. 또 다른 조약인 부발레 연합은 양국 협력의 진행 상황을 살피는 장관급 포럼을 두기로 했다. 페니 웡 호주 외교장관은 7월 서명식에 참석했다. 자료 사진은 이에 앞서 웡 장관과 라부카 총리가 만난 모습을 담고 있다.",
+          "photoAlt": "호주와 피지 국기 앞에서 악수하는 페니 웡과 시티베니 라부카.",
+          "photoCaption": "2023년 2월 21일 자료 사진. 양자 회담에서 페니 웡 호주 외교장관을 맞이하는 시티베니 라부카 피지 총리."
+        }
+      },
+      "title": "Les Fidji et l’Australie mettent en vigueur leur alliance de défense dans le Pacifique",
+      "summary": "Les deux pays s’engagent à agir si l’un d’eux subit une attaque armée dans le Pacifique. Un second traité, l’Union Vuvale, élargit leur coopération à la santé, aux infrastructures et à l’éducation.",
+      "body": "Le premier ministre des Fidji, Sitiveni Rabuka, et son homologue australien, Anthony Albanese, ont annoncé le 26 novembre l’entrée en vigueur des deux traités signés à Suva le 6 juillet. L’accord de défense, appelé Veitacini, prévoit qu’en cas d’attaque armée contre l’un des partenaires dans le Pacifique, chacun agira face au danger commun selon ses propres procédures nationales.\n\nIl s’agit de la première alliance de ce type conclue par les Fidji, relève le Fiji Times. L’autre accord, l’Union Vuvale, prévoit notamment un forum ministériel pour suivre la coopération entre les deux pays. Penny Wong, ministre australienne des Affaires étrangères, avait assisté à la signature de juillet. La photo d’archives montre une rencontre antérieure avec Sitiveni Rabuka."
+    }
+  ]
+}
