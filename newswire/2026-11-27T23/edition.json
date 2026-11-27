@@ -1,0 +1,263 @@
+{
+  "hour": "2026-11-27T23",
+  "articles": [
+    {
+      "eventKey": "californie-pacifica-grandes-marees-fermetures-rues-27-novembre",
+      "category": "États-Unis",
+      "title": "En Californie, les grandes marées maintiennent plusieurs rues de Pacifica fermées",
+      "summary": "La police de Pacifica a demandé vendredi aux visiteurs d’éviter une partie du littoral. Les vagues avaient déjà emporté l’extrémité de la jetée municipale mercredi.",
+      "body": "Dans un avis publié vendredi 27 novembre en fin de matinée, la police de Pacifica a signalé des fermetures sur Clarendon Road, Palmetto Avenue et Brighton Road en raison des très fortes marées. Sur Palmetto Avenue, la restriction s’étendait de Clarendon Road à Montecito Avenue.\n\nDans le quartier de Sharp Park, l’eau et l’écume avaient envahi les rues dès mercredi. Des journalistes de Bay City News ont vu des habitants quitter leur domicile en traversant l’eau. Le même matin, une partie de la jetée municipale s’est effondrée dans le Pacifique.\n\nDu côté de la rive, les équipes municipales ont entrepris de consolider la première travée de la jetée, a expliqué le directeur général de la Ville à NBC Bay Area. La police a aussi fait état de réparations à la digue de Beach Boulevard et demandé au public de rester à l’écart des sections endommagées.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Police de Pacifica — avis du 27 novembre",
+          "url": "https://nextdoor.com/agency-post/ca/pacifica/pacifica-police-department-1/important-coastal-road-closure-notice-pacifica-528752367/",
+          "publishedAt": "2026-11-27T11:19:26-08:00"
+        },
+        {
+          "name": "Police de Pacifica — état du littoral",
+          "url": "https://nextdoor.com/agency-post/ca/pacifica/pacifica-police-department-1/pacifica-public-safety-update-november-26-528642212/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "NBC Bay Area — reportage à la jetée",
+          "url": "https://www.nbcbayarea.com/news/local/pacifica-pier-collapse-clean-up-waves/4182303/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Bay City News / SFGATE — reportage à Sharp Park",
+          "url": "https://www.sfgate.com/news/bayarea/article/pacifica-update-massive-waves-king-tides-flood-22550510.php",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "subject": "jetée municipale",
+        "context": "Pacifica",
+        "capturedOn": "2026-09-07",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pacifica_Pier_in_September_2026_seen_from_the_North.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/0/00/Pacifica_Pier_in_September_2026_seen_from_the_North.jpg",
+        "credit": "E mln e / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "Vue du nord de la jetée municipale de Pacifica sur ses piliers, à côté de la promenade et des rochers.",
+        "caption": "Archives du 7 septembre 2026. La jetée municipale de Pacifica vue depuis le nord, avant les dommages de novembre."
+      },
+      "translations": {
+        "en": {
+          "title": "High tides keep several streets closed in Pacifica, California",
+          "summary": "Pacifica police asked visitors on Friday to avoid part of the coast. Waves had already swept away the end of the municipal pier on Wednesday.",
+          "body": "In a notice issued late Friday morning, November 27, Pacifica police reported closures on Clarendon Road, Palmetto Avenue and Brighton Road because of exceptionally high tides. The restriction on Palmetto Avenue ran from Clarendon Road to Montecito Avenue.\n\nWater and sea foam had reached the streets of Sharp Park on Wednesday. Bay City News reporters saw residents wading away from their homes. That same morning, part of the municipal pier collapsed into the Pacific.\n\nOn the shore side, city crews began bracing the pier’s first span, the city manager told NBC Bay Area. Police also reported repairs to the Beach Boulevard seawall and asked people to keep away from damaged sections.",
+          "photoAlt": "The Pacifica Municipal Pier on its pilings, seen from the north beside the promenade and rocks.",
+          "photoCaption": "File photo, September 7, 2026. Pacifica Municipal Pier seen from the north, before the November damage."
+        },
+        "es": {
+          "title": "Las mareas altas mantienen cerradas varias calles de Pacifica, en California",
+          "summary": "La policía de Pacifica pidió el viernes a los visitantes que evitaran parte del litoral. El miércoles, las olas ya habían arrastrado el extremo del muelle municipal.",
+          "body": "En un aviso difundido a última hora de la mañana del viernes 27 de noviembre, la policía de Pacifica informó de cierres en Clarendon Road, Palmetto Avenue y Brighton Road por las mareas excepcionalmente altas. En Palmetto Avenue, la restricción abarcaba desde Clarendon Road hasta Montecito Avenue.\n\nEl agua y la espuma de mar ya habían inundado calles del barrio de Sharp Park el miércoles. Periodistas de Bay City News vieron a vecinos salir de sus casas y avanzar por el agua. Esa misma mañana, parte del muelle municipal cayó al Pacífico.\n\nDel lado de tierra, los equipos municipales empezaron a apuntalar el primer tramo del muelle, explicó el administrador municipal a NBC Bay Area. La policía también informó de reparaciones en el muro de contención de Beach Boulevard y pidió al público que se mantuviera alejado de los tramos dañados.",
+          "photoAlt": "El muelle municipal de Pacifica sobre sus pilotes, visto desde el norte junto al paseo y las rocas.",
+          "photoCaption": "Archivo del 7 de septiembre de 2026. El muelle municipal de Pacifica visto desde el norte, antes de los daños de noviembre."
+        },
+        "ar": {
+          "title": "المدّ العالي يُبقي شوارع مغلقة في باسيفيكا بولاية كاليفورنيا",
+          "summary": "طلبت شرطة باسيفيكا من الزوار يوم الجمعة تجنّب جزء من الساحل. وكانت الأمواج قد جرفت طرف الرصيف البحري البلدي يوم الأربعاء.",
+          "body": "أعلنت شرطة باسيفيكا في تنبيه أصدرته أواخر صباح الجمعة 27 نوفمبر إغلاق أجزاء من طرق كلارندون وبالميتو وبرايتون بسبب الارتفاع الاستثنائي للمدّ. وشمل الإغلاق في شارع بالميتو المقطع الممتد من طريق كلارندون إلى شارع مونتيسيتو.\n\nوكانت المياه وزبد البحر قد غمرت شوارع حي شارب بارك منذ الأربعاء. وشاهد صحفيون من «باي سيتي نيوز» سكاناً يغادرون منازلهم ويخوضون في المياه. وفي الصباح نفسه انهار جزء من الرصيف البحري البلدي وسقط في المحيط الهادئ.\n\nوقال مدير البلدية لشبكة «إن بي سي باي إيريا» إن الفرق بدأت تدعيم الجزء الأول من الرصيف من جهة الشاطئ. وأشارت الشرطة أيضاً إلى إصلاحات في الحاجز البحري بمحاذاة بيتش بوليفارد، وطلبت من الجمهور الابتعاد عن أجزائه المتضررة.",
+          "photoAlt": "الرصيف البحري البلدي في باسيفيكا على ركائزه بجوار الممشى والصخور كما يبدو من الشمال.",
+          "photoCaption": "صورة أرشيفية بتاريخ 7 سبتمبر 2026. الرصيف البحري البلدي في باسيفيكا من جهة الشمال قبل أضرار نوفمبر."
+        },
+        "zh-CN": {
+          "title": "美国加州帕西菲卡多条沿海道路因大潮继续封闭",
+          "summary": "帕西菲卡警方周五请游客避开部分海岸。周三，海浪已冲毁市政栈桥的外端。",
+          "body": "11月27日星期五临近中午，帕西菲卡警方发布通告称，因潮位异常高，克拉伦登路、帕尔梅托大道和布赖顿路部分路段封闭。帕尔梅托大道的封闭范围从克拉伦登路延伸至蒙特西托大道。\n\n早在周三，海水和泡沫就涌入夏普公园社区的街道。湾城新闻社记者看到居民离开住所，蹚水撤离。当天早晨，市政栈桥的一部分坍塌，落入太平洋。\n\n市政经理向NBC湾区频道表示，市政人员已开始加固栈桥靠岸侧的第一跨。警方还通报了海滩大道海堤的修复工作，并请民众远离受损地段。",
+          "photoAlt": "从北面看帕西菲卡市政栈桥，桥桩旁是滨海步道和岩石。",
+          "photoCaption": "资料照片摄于2026年9月7日。从北面看到的帕西菲卡市政栈桥，当时尚未遭遇11月的破坏。"
+        },
+        "ru": {
+          "title": "Высокие приливы оставили закрытыми несколько улиц в калифорнийской Пасифике",
+          "summary": "В пятницу полиция Пасифики попросила приезжих обходить часть побережья. В среду волны унесли дальнюю часть городского пирса.",
+          "body": "В сообщении, опубликованном ближе к полудню в пятницу, 27 ноября, полиция Пасифики указала, что из-за необычайно высоких приливов перекрыты участки Кларендон-роуд, Палметто-авеню и Брайтон-роуд. На Палметто-авеню ограничение действовало от Кларендон-роуд до Монтесито-авеню.\n\nЕщё в среду вода и морская пена залили улицы района Шарп-Парк. Журналисты Bay City News видели, как жители покидали дома, пробираясь вброд. Тем же утром часть городского пирса обрушилась в Тихий океан.\n\nСо стороны берега городские службы начали укреплять первый пролёт пирса, сообщил глава городской администрации телеканалу NBC Bay Area. Полиция также сообщила о ремонте волнозащитной стены вдоль Бич-бульвара и попросила людей держаться подальше от повреждённых участков.",
+          "photoAlt": "Городской пирс Пасифики на опорах рядом с набережной и камнями, вид с севера.",
+          "photoCaption": "Архивный снимок от 7 сентября 2026 года. Вид на городской пирс Пасифики с севера до ноябрьских разрушений."
+        },
+        "ko": {
+          "title": "미국 캘리포니아주 퍼시피카, 높은 조수로 해안 도로 여러 곳 통제 계속",
+          "summary": "퍼시피카 경찰은 금요일 방문객들에게 해안 일부 구간을 피해 달라고 요청했다. 앞서 수요일에는 파도가 시립 부두 끝부분을 휩쓸었다.",
+          "body": "퍼시피카 경찰은 11월 27일 금요일 오전 늦게 안내문을 내고 이례적으로 높은 조수로 클래런던 로드와 팰메토 애비뉴, 브라이턴 로드 일부를 통제한다고 밝혔다. 팰메토 애비뉴의 통제 구간은 클래런던 로드부터 몬테시토 애비뉴까지였다.\n\n샤프파크 지역에서는 이미 수요일에 바닷물과 거품이 도로를 덮었다. 베이시티뉴스 취재진은 주민들이 집을 떠나 물을 헤치고 가는 모습을 목격했다. 같은 날 아침 시립 부두 일부가 무너져 태평양으로 떨어졌다.\n\n시 행정책임자는 NBC 베이에어리어에 시 작업반이 해안 쪽 첫 번째 경간을 보강하기 시작했다고 설명했다. 경찰은 비치 불러바드 방파벽에서도 보수가 진행됐다며 파손된 구간에 접근하지 말아 달라고 당부했다.",
+          "photoAlt": "북쪽에서 바라본 퍼시피카 시립 부두의 교각과 그 옆 산책로, 바위.",
+          "photoCaption": "2026년 9월 7일 자료 사진. 11월에 피해를 입기 전 북쪽에서 바라본 퍼시피카 시립 부두."
+        }
+      }
+    },
+    {
+      "eventKey": "johannesburg-herman-mashaba-elu-maire-helen-zille-vote-conseil",
+      "category": "Afrique du Sud",
+      "title": "À Johannesburg, Herman Mashaba retrouve la mairie avec 170 voix contre 97 pour Helen Zille",
+      "summary": "Le chef d’ActionSA revient à la tête de la ville sud-africaine grâce à l’appui de l’ANC et de ses alliés. L’Alliance démocratique, arrivée en tête aux municipales, passe dans l’opposition.",
+      "body": "Le conseil municipal a élu Herman Mashaba maire de Johannesburg vendredi 27 novembre. D’après le décompte publié par la Ville et confirmé par Eyewitness News, 170 conseillers ont voté pour lui, contre 97 pour Helen Zille, candidate de l’Alliance démocratique.\n\nAucun parti n’avait obtenu la majorité aux élections municipales. L’Alliance démocratique avait remporté le plus de sièges, mais ActionSA a rassemblé autour de son candidat le Congrès national africain (ANC), les Combattants pour la liberté économique (EFF) et le parti uMkhonto weSizwe (MK).\n\nMashaba revient ainsi à la mairie sept ans après son départ. Lors de son premier mandat, de 2016 à 2019, il représentait l’Alliance démocratique. Il a ensuite fondé ActionSA, le parti qui lui a permis vendredi de battre son ancienne formation.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Ville de Johannesburg — résultat du vote reproduit par Inside Politics",
+          "url": "https://insidepolitic.co.za/breaking-news-herman-mashaba-elected-as-johannesburg-mayor/",
+          "publishedAt": "2026-11-27T19:48:44+02:00"
+        },
+        {
+          "name": "Eyewitness News",
+          "url": "https://www.ewn.co.za/2026/11/27/herman-mashaba-elected-new-mayor-of-johannesburg",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/africa/johannesburg-picks-mashaba-as-mayor-anc-backed-deal-2026-11-27/",
+          "publishedAt": "2026-11-27T17:42:02Z"
+        },
+        {
+          "name": "IOL",
+          "url": "https://iol.co.za/news/politics/2026-11-27-herman-mashaba-returns-as-johannesburg-mayor-after-defeating-helen-zille/",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "photo": {
+        "subject": "Herman Mashaba",
+        "context": "maire de Johannesburg",
+        "capturedOn": "2017-02-17",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Consul_General_Christopher_Rowan_with_Mayor_Mashaba_and_former_D.C._Mayor_Athony_Williams.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Consul_General_Christopher_Rowan_with_Mayor_Mashaba_and_former_D.C._Mayor_Athony_Williams.jpg",
+        "credit": "U.S. Embassy South Africa / Wikimedia Commons",
+        "license": "Domaine public — U.S. Department of State",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-DOS",
+        "alt": "Herman Mashaba, au centre en costume sombre, entre Christopher Rowan et Anthony Williams lors de son premier mandat.",
+        "caption": "Archives du 17 février 2017. Herman Mashaba, alors maire de Johannesburg, entre le consul général américain Christopher Rowan, à gauche, et l’ancien maire de Washington Anthony Williams."
+      },
+      "translations": {
+        "en": {
+          "title": "Johannesburg elects Herman Mashaba mayor by 170 votes to Helen Zille’s 97",
+          "summary": "The ActionSA leader returns to the helm of the South African city with the backing of the ANC and its allies. The Democratic Alliance, which won the most council seats, moves into opposition.",
+          "body": "The city council elected Herman Mashaba mayor of Johannesburg on Friday, November 27. According to the count released by the city and confirmed by Eyewitness News, 170 councillors voted for him and 97 for Helen Zille, the Democratic Alliance candidate.\n\nNo party had won a majority in the municipal elections. The Democratic Alliance took the most seats, but ActionSA secured the backing of the African National Congress (ANC), the Economic Freedom Fighters (EFF) and the uMkhonto weSizwe Party (MK) for its candidate.\n\nMashaba returns to city hall seven years after leaving office. He represented the Democratic Alliance in his first term, from 2016 to 2019. He went on to found ActionSA, the party with which he defeated his former party on Friday.",
+          "photoAlt": "Herman Mashaba, centre, in a dark suit between Christopher Rowan and Anthony Williams during his first term.",
+          "photoCaption": "File photo, February 17, 2017. Herman Mashaba, then mayor of Johannesburg, between US Consul General Christopher Rowan, left, and former Washington, DC, mayor Anthony Williams."
+        },
+        "es": {
+          "title": "Herman Mashaba recupera la alcaldía de Johannesburgo con 170 votos frente a los 97 de Helen Zille",
+          "summary": "El líder de ActionSA vuelve a gobernar la ciudad sudafricana con el respaldo del ANC y sus aliados. La Alianza Democrática, que obtuvo más escaños en las municipales, pasa a la oposición.",
+          "body": "El concejo municipal eligió a Herman Mashaba alcalde de Johannesburgo el viernes 27 de noviembre. Según el recuento publicado por la ciudad y confirmado por Eyewitness News, 170 concejales votaron por él y 97 por Helen Zille, candidata de la Alianza Democrática.\n\nNingún partido había logrado la mayoría en las elecciones municipales. La Alianza Democrática ganó más escaños, pero ActionSA consiguió para su candidato el apoyo del Congreso Nacional Africano (ANC), los Luchadores por la Libertad Económica (EFF) y el partido uMkhonto weSizwe (MK).\n\nMashaba regresa a la alcaldía siete años después de dejarla. En su primer mandato, de 2016 a 2019, representó a la Alianza Democrática. Después fundó ActionSA, el partido con el que el viernes derrotó a su antigua formación.",
+          "photoAlt": "Herman Mashaba, en el centro y con traje oscuro, entre Christopher Rowan y Anthony Williams durante su primer mandato.",
+          "photoCaption": "Archivo del 17 de febrero de 2017. Herman Mashaba, entonces alcalde de Johannesburgo, entre el cónsul general estadounidense Christopher Rowan, a la izquierda, y el exalcalde de Washington D. C. Anthony Williams."
+        },
+        "ar": {
+          "title": "هيرمان ماشابا يعود إلى رئاسة بلدية جوهانسبرغ بـ170 صوتاً مقابل 97 لهيلين زيله",
+          "summary": "يعود زعيم حزب «أكشن سا» إلى إدارة المدينة الجنوب أفريقية بدعم من المؤتمر الوطني الأفريقي وحلفائه. وينتقل التحالف الديمقراطي، الذي فاز بأكبر عدد من مقاعد المجلس، إلى المعارضة.",
+          "body": "انتخب المجلس البلدي هيرمان ماشابا رئيساً لبلدية جوهانسبرغ يوم الجمعة 27 نوفمبر. ووفق الحصيلة التي نشرتها المدينة وأكدتها «آي ويتنس نيوز»، صوّت له 170 عضواً مقابل 97 لهيلين زيله، مرشحة التحالف الديمقراطي.\n\nلم يفز أي حزب بأغلبية في الانتخابات البلدية. وحصل التحالف الديمقراطي على أكبر عدد من المقاعد، لكن «أكشن سا» حشد لمرشحه دعم المؤتمر الوطني الأفريقي ومقاتلي الحرية الاقتصادية وحزب أومكونتو وي سيزوي.\n\nيعود ماشابا إلى البلدية بعد سبع سنوات من مغادرته. وقد مثّل التحالف الديمقراطي خلال ولايته الأولى بين 2016 و2019، ثم أسس حزب «أكشن سا» الذي تغلّب به يوم الجمعة على حزبه السابق.",
+          "photoAlt": "هيرمان ماشابا في الوسط ببدلة داكنة بين كريستوفر روان وأنتوني وليامز خلال ولايته الأولى.",
+          "photoCaption": "صورة أرشيفية بتاريخ 17 فبراير 2017. هيرمان ماشابا، رئيس بلدية جوهانسبرغ آنذاك، بين القنصل العام الأميركي كريستوفر روان إلى اليسار وأنتوني وليامز، رئيس بلدية واشنطن العاصمة السابق."
+        },
+        "zh-CN": {
+          "title": "约翰内斯堡市议会选举市长：赫尔曼·马沙巴以170票对97票击败海伦·齐勒",
+          "summary": "在非国大及其盟友支持下，南非行动党党魁再度执掌这座城市。在地方选举中赢得最多席位的民主联盟成为反对党。",
+          "body": "11月27日星期五，约翰内斯堡市议会选举赫尔曼·马沙巴为市长。根据市政府公布并经当地媒体Eyewitness News确认的计票结果，170名市议员投票支持马沙巴，97人支持民主联盟候选人海伦·齐勒。\n\n地方选举中，没有任何政党取得过半席位。民主联盟的席位最多，但南非行动党为其候选人争取到了非洲人国民大会（非国大）、经济自由斗士党和民族之矛党的支持。\n\n马沙巴在离任七年后重返市长职位。2016至2019年首次担任市长时，他代表的是民主联盟。此后他创立了南非行动党，并于本周五带领该党击败自己的老东家。",
+          "photoAlt": "首个任期内身着深色西装的马沙巴站在中间，两侧分别是克里斯托弗·罗恩和安东尼·威廉斯。",
+          "photoCaption": "资料照片摄于2017年2月17日。时任约翰内斯堡市长的马沙巴站在美国总领事克里斯托弗·罗恩（左）与美国首都华盛顿前市长安东尼·威廉斯之间。"
+        },
+        "ru": {
+          "title": "Херман Машаба вновь избран мэром Йоханнесбурга: 170 голосов против 97 у Хелен Зилле",
+          "summary": "Лидер ActionSA вернулся к руководству южноафриканским городом при поддержке АНК и его союзников. Демократический альянс, занявший первое место на муниципальных выборах, переходит в оппозицию.",
+          "body": "В пятницу, 27 ноября, городской совет избрал Хермана Машабу мэром Йоханнесбурга. По данным города, подтверждённым изданием Eyewitness News, за него проголосовали 170 советников, за кандидата Демократического альянса Хелен Зилле — 97.\n\nНи одна партия не получила большинства на муниципальных выборах. Больше всего мест досталось Демократическому альянсу, но ActionSA заручилась поддержкой Африканского национального конгресса (АНК), «Борцов за экономическую свободу» и партии «Умконто ве сизве».\n\nМашаба возвращается в мэрию спустя семь лет после ухода. В первый срок, с 2016 по 2019 год, он представлял Демократический альянс. Затем он основал ActionSA, во главе которой в пятницу одержал победу над своей прежней партией.",
+          "photoAlt": "Херман Машаба в тёмном костюме между Кристофером Роуэном и Энтони Уильямсом в период своего первого срока.",
+          "photoCaption": "Архивный снимок от 17 февраля 2017 года. Тогдашний мэр Йоханнесбурга Херман Машаба между генеральным консулом США Кристофером Роуэном (слева) и бывшим мэром Вашингтона Энтони Уильямсом."
+        },
+        "ko": {
+          "title": "요하네스버그 시장으로 돌아온 헤르만 마샤바, 헬렌 질에 170대 97로 승리",
+          "summary": "액션SA 대표가 아프리카민족회의와 그 동맹 세력의 지지로 남아프리카공화국 요하네스버그 시정을 다시 이끌게 됐다. 지방선거에서 최다 의석을 얻은 민주동맹은 야당이 됐다.",
+          "body": "요하네스버그 시의회는 11월 27일 금요일 헤르만 마샤바를 시장으로 선출했다. 시가 발표하고 현지 매체 아이위트니스뉴스가 확인한 개표 결과, 시의원 170명이 마샤바에게, 97명이 민주동맹 후보 헬렌 질에게 표를 던졌다.\n\n지방선거에서 과반을 차지한 정당은 없었다. 민주동맹이 가장 많은 의석을 얻었지만 액션SA는 아프리카민족회의(ANC), 경제자유투사당(EFF), 움콘토 위시즈웨당(MK)의 지지를 끌어냈다.\n\n마샤바는 퇴임 7년 만에 시장직에 복귀한다. 2016년부터 2019년까지 첫 임기에는 민주동맹 소속이었다. 이후 액션SA를 창당했고 금요일 그 당 후보로 옛 소속 정당을 꺾었다.",
+          "photoAlt": "첫 임기 당시 어두운 정장을 입은 헤르만 마샤바가 가운데 서 있고 양옆에 크리스토퍼 로언과 앤서니 윌리엄스가 있다.",
+          "photoCaption": "2017년 2월 17일 자료 사진. 당시 요하네스버그 시장 헤르만 마샤바가 크리스토퍼 로언 미국 총영사(왼쪽)와 앤서니 윌리엄스 전 미국 워싱턴 D.C. 시장 사이에 서 있다."
+        }
+      }
+    },
+    {
+      "eventKey": "delaware-route-un-reouverture-dewey-bethany-indian-river-inlet",
+      "category": "États-Unis",
+      "title": "Au Delaware, la route 1 rouvre entre Dewey Beach et Bethany Beach après les inondations",
+      "summary": "Dans le comté de Sussex, la circulation a repris vendredi dans les deux sens sur l’Indian River Inlet Bridge. La tempête de Thanksgiving avait coupé cette liaison côtière pendant la nuit.",
+      "body": "Les véhicules pouvaient de nouveau emprunter la route 1 entre Dewey Beach et Bethany Beach vendredi matin, selon le département des Transports du Delaware. Une image de sa caméra, diffusée par CoastTV, montre la circulation sur l’Indian River Inlet Bridge à 7 h 30, heure locale.\n\nJeudi, les inondations avaient d’abord forcé la fermeture de la chaussée en direction nord près de Fred Hudson Road, puis celle des voies vers le sud. La coupure s’est prolongée dans la nuit, les deux sens de circulation restant fermés sur ce tronçon du comté de Sussex.\n\nLa réouverture rétablit un lien entre les deux stations balnéaires. Ailleurs sur le réseau, les conséquences de la tempête étaient encore visibles vendredi après-midi. WBOC a relevé sur la carte du département des restrictions sur des routes secondaires encombrées de débris, inondées ou coupées par des arbres tombés.",
+      "verified": true,
+      "sources": [
+        {
+          "name": "CoastTV — réouverture et image de la caméra de DelDOT",
+          "url": "https://www.coasttv.com/news/route-1-reopens-along-coastal-stretch/article_80b89938-17e2-4ed6-8e4f-67a756b5425d.html",
+          "publishedAt": "2026-11-27T12:48:00Z"
+        },
+        {
+          "name": "WBOC — état du réseau après la tempête",
+          "url": "https://www.wboc.com/news/update-power-outages-and-road-restrictions-persist-following-thanksgiving-day-noreaster/article_204fd1b1-933e-4277-845e-538580fab233.html",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "WGMD — fermetures de la nuit",
+          "url": "https://www.wgmd.com/the-cleanup-begins-after-thanksgiving-noreaster-ravages-delmarva/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "DelDOT — caméra de l’Indian River Inlet Bridge, 7 h 30 (via CoastTV)",
+          "url": "https://bloximages.newyork1.vip.townnews.com/coasttv.com/content/tncms/assets/v3/editorial/5/f5/5f502346-d6a5-4fd4-9631-6142dc9961ca/6b097b4d3b7e1.image.jpg?resize=400%2C225",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "photo": {
+        "subject": "Indian River Inlet Bridge",
+        "context": "route 1",
+        "capturedOn": "2023-08-10",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coastal_Highway_Bridge_at_Night.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Coastal_Highway_Bridge_at_Night.jpg",
+        "credit": "Andrew Parlette / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Les pylônes et les haubans éclairés de l’Indian River Inlet Bridge se reflètent dans l’eau, de nuit.",
+        "caption": "Archives du 10 août 2023. L’Indian River Inlet Bridge, qui porte la route 1 du Delaware, photographié de nuit depuis le camping de la rive nord."
+      },
+      "translations": {
+        "en": {
+          "title": "Delaware reopens Route 1 between Dewey Beach and Bethany Beach after flooding",
+          "summary": "Traffic resumed in both directions on the Indian River Inlet Bridge in Sussex County on Friday. The Thanksgiving storm had cut the coastal link overnight.",
+          "body": "Drivers could again take Route 1 between Dewey Beach and Bethany Beach on Friday morning, according to the Delaware Department of Transportation. An image from its camera, published by CoastTV, shows traffic on the Indian River Inlet Bridge at 7:30 a.m. local time.\n\nOn Thursday, flooding first forced the closure of the northbound roadway near Fred Hudson Road, then the southbound lanes. The closure continued overnight, with both directions shut along this stretch in Sussex County.\n\nThe reopening restores a link between the two beach towns. Elsewhere on the road network, the storm’s effects were still evident on Friday afternoon. WBOC found restrictions on the department’s map affecting side roads blocked by debris or fallen trees, or covered by floodwater.",
+          "photoAlt": "The illuminated towers and cables of the Indian River Inlet Bridge reflect in the water at night.",
+          "photoCaption": "File photo, August 10, 2023. The Indian River Inlet Bridge, which carries Delaware Route 1, photographed at night from the campground on the north shore."
+        },
+        "es": {
+          "title": "Delaware reabre la ruta 1 entre Dewey Beach y Bethany Beach tras las inundaciones",
+          "summary": "El tráfico volvió a circular el viernes en ambos sentidos por el Indian River Inlet Bridge, en el condado de Sussex. La tormenta de Acción de Gracias había cortado esta conexión costera durante la noche.",
+          "body": "Los vehículos pudieron volver a recorrer la ruta 1 entre Dewey Beach y Bethany Beach el viernes por la mañana, según el Departamento de Transporte de Delaware. Una imagen de su cámara, difundida por CoastTV, muestra tráfico en el Indian River Inlet Bridge a las 7:30, hora local.\n\nEl jueves, las inundaciones obligaron a cerrar primero la calzada en dirección norte cerca de Fred Hudson Road y después los carriles hacia el sur. El cierre de este tramo del condado de Sussex se prolongó durante la noche en ambos sentidos.\n\nLa reapertura restablece una conexión entre las dos localidades costeras. En otras partes de la red viaria, las consecuencias de la tormenta seguían siendo visibles el viernes por la tarde. WBOC observó en el mapa del departamento restricciones en carreteras secundarias inundadas u obstruidas por escombros o árboles caídos.",
+          "photoAlt": "Las torres y los tirantes iluminados del Indian River Inlet Bridge se reflejan de noche en el agua.",
+          "photoCaption": "Archivo del 10 de agosto de 2023. Vista nocturna del Indian River Inlet Bridge, por donde pasa la ruta 1 de Delaware, desde el campamento de la orilla norte."
+        },
+        "ar": {
+          "title": "ديلاوير تعيد فتح الطريق 1 بين ديوي بيتش وبيثاني بيتش بعد الفيضانات",
+          "summary": "استؤنفت حركة المرور في الاتجاهين الجمعة على جسر إنديان ريفر إنلت في مقاطعة ساسكس. وكانت عاصفة عيد الشكر قد قطعت هذا الرابط الساحلي طوال الليل.",
+          "body": "أفادت إدارة النقل في ولاية ديلاوير بأن المركبات تمكنت مجدداً من سلوك الطريق 1 بين ديوي بيتش وبيثاني بيتش صباح الجمعة. وتظهر لقطة من كاميرا تابعة للإدارة نشرتها محطة «كوست تي في» حركة المرور على جسر إنديان ريفر إنلت عند الساعة السابعة والنصف صباحاً بالتوقيت المحلي.\n\nوأجبرت الفيضانات السلطات يوم الخميس على إغلاق المسار المتجه شمالاً قرب طريق فريد هدسون أولاً، ثم المسارات المتجهة جنوباً. واستمر الإغلاق في الاتجاهين طوال الليل على هذا الجزء من الطريق في مقاطعة ساسكس.\n\nوأعادت الخطوة وصل البلدتين الساحليتين. وظلت آثار العاصفة ظاهرة في أجزاء أخرى من شبكة الطرق بعد ظهر الجمعة. ورصدت محطة «دبليو بي أو سي» على خريطة إدارة النقل قيوداً على طرق فرعية غمرتها المياه أو سدّها الحطام أو الأشجار المتساقطة.",
+          "photoAlt": "تنعكس أضواء أبراج جسر إنديان ريفر إنلت وكابلاته على الماء ليلاً.",
+          "photoCaption": "صورة أرشيفية بتاريخ 10 أغسطس 2023. جسر إنديان ريفر إنلت الذي يمر فوقه الطريق 1 في ديلاوير، كما بدا ليلاً من موقع التخييم على الضفة الشمالية."
+        },
+        "zh-CN": {
+          "title": "美国特拉华州1号公路杜威比奇至贝瑟尼比奇段在洪水后重新开放",
+          "summary": "周五，苏塞克斯县印第安河入海口大桥恢复双向通车。感恩节风暴曾导致这条沿海通道整夜关闭。",
+          "body": "特拉华州交通厅称，周五早晨，车辆已可再次沿1号公路往返杜威比奇和贝瑟尼比奇。当地电视台CoastTV发布的交通厅摄像头画面显示，当地时间早上7时30分，已有车辆驶过印第安河入海口大桥。\n\n周四，洪水先迫使弗雷德·哈德森路附近的北行车道关闭，随后南行车道也被封闭。苏塞克斯县这段公路双向封闭了一夜。\n\n道路重开使两个海滨城镇恢复了公路连通。周五下午，路网其他地方仍可见风暴的影响。当地电视台WBOC在交通厅地图上看到，一些支路因积水、杂物或倒下的树木阻路而受到通行限制。",
+          "photoAlt": "夜色中，印第安河入海口大桥照亮的桥塔和斜拉索倒映在水面上。",
+          "photoCaption": "资料照片摄于2023年8月10日。从北岸营地拍摄的印第安河入海口大桥夜景，特拉华州1号公路从桥上通过。"
+        },
+        "ru": {
+          "title": "В Делавэре после наводнения открыли трассу № 1 между Дьюи-Бич и Бетани-Бич",
+          "summary": "В пятницу на мосту Индиан-Ривер-Инлет в округе Сассекс возобновилось движение в обоих направлениях. Во время шторма в День благодарения эта прибрежная дорога оставалась закрытой всю ночь.",
+          "body": "По данным департамента транспорта Делавэра, в пятницу утром автомобили вновь могли проехать по трассе № 1 между Дьюи-Бич и Бетани-Бич. На кадре с камеры департамента, опубликованном CoastTV, видно движение на мосту Индиан-Ривер-Инлет в 7:30 по местному времени.\n\nВ четверг из-за наводнения сначала перекрыли дорогу на север вблизи Фред-Хадсон-роуд, а затем и полосы на юг. Этот участок в округе Сассекс оставался закрытым в обоих направлениях всю ночь.\n\nОткрытие трассы восстановило сообщение между двумя приморскими городами. На других дорогах последствия шторма были заметны и во второй половине дня в пятницу. Телеканал WBOC обнаружил на карте департамента ограничения на второстепенных дорогах: одни были затоплены, другие перекрыты обломками или упавшими деревьями.",
+          "photoAlt": "Освещённые пилоны и ванты моста Индиан-Ривер-Инлет ночью отражаются в воде.",
+          "photoCaption": "Архивный снимок от 10 августа 2023 года. Ночной вид на мост Индиан-Ривер-Инлет, по которому проходит трасса № 1 штата Делавэр, из кемпинга на северном берегу."
+        },
+        "ko": {
+          "title": "미국 델라웨어주, 침수됐던 듀이비치~베서니비치 1번 도로 재개통",
+          "summary": "금요일 서식스 카운티 인디언리버인렛 교량의 양방향 통행이 재개됐다. 추수감사절 폭풍으로 이 해안 도로는 밤새 통제됐다.",
+          "body": "델라웨어주 교통부에 따르면 금요일 아침부터 차량들이 1번 도로를 타고 듀이비치와 베서니비치 사이를 다시 오갈 수 있게 됐다. 현지 방송 코스트TV가 공개한 교통부 카메라 영상에는 현지 시각 오전 7시 30분 인디언리버인렛 교량을 통행하는 차량들이 보인다.\n\n목요일에는 침수로 프레드 허드슨 로드 인근 북행 차로가 먼저 폐쇄됐고, 이어 남행 차로도 통제됐다. 서식스 카운티의 이 구간은 밤새 양방향 통제가 이어졌다.\n\n도로가 다시 열리면서 두 해안 마을 사이의 연결이 복구됐다. 금요일 오후에도 다른 도로에는 폭풍의 여파가 남아 있었다. 지역 방송 WBOC는 교통부 지도에서 물에 잠기거나 잔해와 쓰러진 나무에 가로막힌 이면도로에 통행 제한이 표시돼 있다고 전했다.",
+          "photoAlt": "밤에 조명을 밝힌 인디언리버인렛 교량의 주탑과 케이블이 수면에 비친다.",
+          "photoCaption": "2023년 8월 10일 자료 사진. 북쪽 물가의 캠핑장에서 본 인디언리버인렛 교량의 야경. 델라웨어주 1번 도로가 이 다리를 지난다."
+        }
+      }
+    }
+  ]
+}
