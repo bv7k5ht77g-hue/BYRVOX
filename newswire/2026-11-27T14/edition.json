@@ -1,0 +1,91 @@
+{
+  "hour": "2026-11-27T14",
+  "articles": [
+    {
+      "title": "La Nouvelle-Écosse vise 2027 pour le début des travaux de protection de l’isthme de Chignecto",
+      "summary": "Le ministre Fred Tilley estime que le chantier pourrait s’achever en 2034. Les digues protègent le seul passage routier et ferroviaire entre la Nouvelle-Écosse et le Nouveau-Brunswick.",
+      "body": "Les travaux de protection contre les inondations sur l’isthme de Chignecto pourraient commencer en 2027, a déclaré le ministre néo-écossais des Travaux publics, Fred Tilley, après le conseil des ministres du 26 novembre. Selon les comptes rendus de CBC et de Your Halifax Now, la conception préliminaire est en cours. Le ministre prévoit des consultations, des essais et des démarches pour obtenir les permis au début de 2027. Il vise une fin de chantier en 2034.\n\nSur cette étroite bande de terre, la route Transcanadienne et la voie ferrée du CN traversent un secteur protégé des marées par des digues de terre, comme celle photographiée près du fort Beauséjour. En mars 2025, Ottawa et les deux provinces se sont entendus sur un financement de 650 millions de dollars canadiens. Le ministre a rappelé que le coût final dépendrait des soumissions.",
+      "eventKey": "chignecto-calendrier-digues-chantier-2027-fin-2034",
+      "category": "Nouvelle-Écosse",
+      "sources": [
+        {
+          "name": "Your Halifax Now — Evan Taylor",
+          "url": "https://yourhalifaxnow.ca/n-s-minister-provides-updated-timeline-for-chignecto-isthmus-project/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "CBC News — Taryn Grant (extrait diffusé par Nouzie)",
+          "url": "https://nouzie.com/chignecto-isthmus-flood-protection-work-to-be-complete-by-2034-minister-says-cbc-news/",
+          "publishedAt": "2026-11-26T14:56:00-05:00"
+        },
+        {
+          "name": "Logement, Infrastructures et Collectivités Canada",
+          "url": "https://www.canada.ca/en/housing-infrastructure-communities/news/2025/03/protecting-the-chignecto-isthmus-against-climate-change.html",
+          "publishedAt": "2025-03-20"
+        },
+        {
+          "name": "Gouvernement de la Nouvelle-Écosse",
+          "url": "https://news.novascotia.ca/en/2025/03/20/nova-scotia-new-brunswick-government-canada-reach-agreement-chignecto-isthmus",
+          "publishedAt": "2025-03-20"
+        }
+      ],
+      "photo": {
+        "subject": "digue",
+        "context": "fort Beauséjour",
+        "capturedOn": "2006-08-11",
+        "alt": "Chemin de terre sur une digue près du fort Beauséjour, entre les herbes et l’eau.",
+        "caption": "Archive du 11 août 2006. Une digue près du fort Beauséjour, sur l’isthme de Chignecto, au Nouveau-Brunswick. Photo de Larry.",
+        "download": "media/digue.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On_Dyke_near_Fort_Beausejour,_NB_(212861144).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "credit": "Larry (microbe), Flickr / Wikimedia Commons"
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Nova Scotia eyes 2027 start for Chignecto Isthmus flood defences",
+          "summary": "Minister Fred Tilley says construction could be finished in 2034. The dykes protect the only road and rail corridor between Nova Scotia and New Brunswick.",
+          "body": "Work to protect the Chignecto Isthmus from flooding could begin in 2027, Nova Scotia Public Works Minister Fred Tilley said after the November 26 cabinet meeting. According to CBC and Your Halifax Now, preliminary design is underway. Tilley expects consultations, testing and work to obtain permits to begin in early 2027. He is aiming for completion in 2034.\n\nOn this narrow strip of land, the Trans-Canada Highway and the CN rail line cross an area protected from the tides by earthen dykes like the one photographed near Fort Beauséjour. In March 2025, Ottawa and the two provinces agreed on C$650 million in funding. The minister said the final cost would depend on the bids.",
+          "photoAlt": "A dirt track on a dyke near Fort Beauséjour, with grass on one side and water on the other.",
+          "photoCaption": "Archive photo, August 11, 2006. A dyke near Fort Beauséjour on the Chignecto Isthmus in New Brunswick. Photo by Larry."
+        },
+        "es": {
+          "title": "Nueva Escocia prevé iniciar en 2027 las obras de protección del istmo de Chignecto",
+          "summary": "El ministro Fred Tilley estima que las obras podrían terminar en 2034. Los diques protegen el único corredor por carretera y ferrocarril entre Nueva Escocia y Nuevo Brunswick.",
+          "body": "Las obras para proteger el istmo de Chignecto de las inundaciones podrían comenzar en 2027, declaró el ministro de Obras Públicas de Nueva Escocia, Fred Tilley, tras la reunión del gabinete del 26 de noviembre. Según CBC y Your Halifax Now, el diseño preliminar ya está en marcha. El ministro prevé iniciar las consultas, las pruebas y los trámites para obtener permisos a principios de 2027. Su objetivo es terminar las obras en 2034.\n\nEn esta estrecha franja de tierra, la carretera Transcanadiense y la línea ferroviaria de CN atraviesan una zona protegida de las mareas por diques de tierra como el fotografiado cerca del fuerte Beauséjour. En marzo de 2025, el Gobierno federal y las dos provincias acordaron destinar 650 millones de dólares canadienses al proyecto. El ministro señaló que el coste final dependerá de las ofertas que se presenten.",
+          "photoAlt": "Camino de tierra sobre un dique cerca del fuerte Beauséjour, con hierba a un lado y agua al otro.",
+          "photoCaption": "Foto de archivo del 11 de agosto de 2006. Un dique cerca del fuerte Beauséjour, en el istmo de Chignecto, Nuevo Brunswick. Fotografía de Larry."
+        },
+        "ar": {
+          "title": "نوفا سكوشا تستهدف بدء أعمال حماية برزخ تشيغنيكتو من الفيضانات في 2027",
+          "summary": "يقدّر الوزير فريد تيلي أن الأعمال قد تنتهي في 2034. وتحمي السدود الترابية الممر الوحيد الذي يربط نوفا سكوشا بنيو برونزويك عبر الطرق والسكك الحديدية.",
+          "body": "قال وزير الأشغال العامة في نوفا سكوشا فريد تيلي عقب اجتماع مجلس الوزراء في 26 نوفمبر إن أعمال حماية برزخ تشيغنيكتو من الفيضانات قد تبدأ في 2027. وأفادت هيئة الإذاعة الكندية وموقع «يور هاليفاكس ناو» بأن إعداد التصميم الأولي جارٍ. ويتوقع الوزير بدء المشاورات والاختبارات وإجراءات الحصول على التصاريح مطلع 2027، ويستهدف إتمام الأعمال في 2034.\n\nيعبر الطريق السريع العابر لكندا وخط السكك الحديدية التابع لشركة «سي إن» هذا الشريط الضيق من الأرض في منطقة تحميها من المد سدود ترابية، مثل السد الظاهر في الصورة قرب حصن بوسيجور. وفي مارس 2025، اتفقت الحكومة الاتحادية والمقاطعتان على تمويل المشروع بمبلغ 650 مليون دولار كندي. وأشار الوزير إلى أن التكلفة النهائية ستعتمد على العطاءات المقدمة.",
+          "photoAlt": "مسار ترابي فوق سد قرب حصن بوسيجور، بين الأعشاب والمياه.",
+          "photoCaption": "صورة أرشيفية التقطت في 11 أغسطس 2006 لسد قرب حصن بوسيجور على برزخ تشيغنيكتو في نيو برونزويك. تصوير لاري."
+        },
+        "zh-CN": {
+          "title": "加拿大新斯科舍省力争2027年启动奇格内克托地峡防洪工程",
+          "summary": "新斯科舍省公共工程厅长弗雷德·蒂利表示，工程有望在2034年完工。当地堤坝保护着连接新斯科舍省和新不伦瑞克省的唯一公路和铁路通道。",
+          "body": "蒂利在11月26日的内阁会议后表示，奇格内克托地峡的防洪工程有望于2027年开工。据加拿大广播公司和当地媒体Your Halifax Now报道，初步设计正在进行。蒂利预计，咨询、测试及许可申请将于2027年初启动，目标是在2034年完工。\n\n横贯加拿大公路和加拿大国家铁路的线路都穿过这片狭长地带。沿线的土堤阻挡潮水，照片中博塞茹尔堡附近的堤坝便是一例。2025年3月，联邦政府与两省就6.5亿加元的项目资金达成协议。蒂利指出，最终造价取决于投标报价。",
+          "photoAlt": "博塞茹尔堡附近堤坝上的土路，一侧是草地，另一侧是水面。",
+          "photoCaption": "资料照片，摄于2006年8月11日。新不伦瑞克省奇格内克托地峡上，博塞茹尔堡附近的一段堤坝。摄影：Larry。"
+        },
+        "ru": {
+          "title": "Новая Шотландия рассчитывает начать защиту перешейка Чигнекто от наводнений в 2027 году",
+          "summary": "По оценке министра Фреда Тилли, работы могут завершиться в 2034 году. Дамбы защищают единственный автомобильный и железнодорожный коридор между Новой Шотландией и Нью-Брансуиком.",
+          "body": "Работы по защите перешейка Чигнекто от наводнений могут начаться в 2027 году, заявил министр общественных работ Новой Шотландии Фред Тилли после заседания кабинета 26 ноября. Как сообщают CBC и Your Halifax Now, предварительное проектирование уже идёт. По словам министра, консультации, испытания и оформление разрешений должны начаться в начале 2027 года. Завершить работы он рассчитывает в 2034 году.\n\nНа этой узкой полосе суши Трансканадское шоссе и железная дорога CN пересекают участок, защищённый от приливов земляными дамбами. Одна из них видна на снимке у форта Босежур. В марте 2025 года федеральное правительство и обе провинции договорились выделить на проект 650 миллионов канадских долларов. Министр отметил, что окончательная стоимость будет зависеть от предложений участников торгов.",
+          "photoAlt": "Грунтовая дорога на дамбе у форта Босежур. По одну сторону растёт трава, по другую видна вода.",
+          "photoCaption": "Архивный снимок от 11 августа 2006 года. Дамба у форта Босежур на перешейке Чигнекто в Нью-Брансуике. Фото Ларри."
+        },
+        "ko": {
+          "title": "노바스코샤주, 2027년 치그넥토 지협 홍수 방지 공사 착공 목표",
+          "summary": "프레드 틸리 주 공공사업부 장관은 공사가 2034년에 끝날 수 있다고 밝혔다. 이곳의 제방은 노바스코샤주와 뉴브런즈윅주를 도로와 철도로 잇는 유일한 통로를 지킨다.",
+          "body": "틸리 장관은 11월 26일 주 내각 회의가 끝난 뒤 치그넥토 지협의 홍수 방지 공사를 2027년에 시작할 수 있다고 밝혔다. CBC와 현지 매체 유어 핼리팩스 나우에 따르면 현재 예비 설계가 진행 중이다. 틸리 장관은 2027년 초에 의견 수렴과 시험, 인허가 절차에 착수할 것으로 내다봤다. 완공 목표는 2034년이다.\n\n캐나다 횡단 고속도로와 캐나다 내셔널 철도(CN) 노선은 이 좁은 땅을 지난다. 사진 속 보세주르 요새 인근 제방과 같은 흙제방이 밀물을 막아 준다. 2025년 3월 연방 정부와 두 주는 이 사업에 6억 5천만 캐나다달러를 투입하기로 합의했다. 틸리 장관은 최종 비용이 입찰가에 달렸다고 설명했다.",
+          "photoAlt": "보세주르 요새 근처 제방 위로 흙길이 나 있고 양옆에 풀밭과 수면이 보인다.",
+          "photoCaption": "2006년 8월 11일 자료 사진. 뉴브런즈윅주 치그넥토 지협의 보세주르 요새 인근 제방. 촬영 래리."
+        }
+      }
+    }
+  ]
+}
