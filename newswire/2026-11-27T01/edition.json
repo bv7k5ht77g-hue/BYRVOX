@@ -1,0 +1,167 @@
+{
+  "hour": "2026-11-27T01",
+  "articles": [
+    {
+      "eventKey": "colombie-britannique-crue-riviere-nanaimo-evacuation-cedar",
+      "category": "Colombie-Britannique",
+      "verified": true,
+      "sources": [
+        {
+          "name": "District régional de Nanaimo — ordre et carte de Cedar",
+          "url": "https://www.emergencyinfobc.gov.bc.ca/app/uploads/sites/893/2026/11/Cedar-Evacuation_Order-.pdf",
+          "publishedAt": "2026-11-26T05:00:00-08:00"
+        },
+        {
+          "name": "Tyler Hay, My Coast Now",
+          "url": "https://www.mycoastnow.com/95580/news/municipal-news/regional-district-of-nanaimo/flooding-prompts-evacuation-order-in-cedar/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "Curtis Blandy, Victoria Buzz",
+          "url": "https://victoriabuzz.com/2026/11/evacuation-orders-issued-for-two-vancouver-island-communities-as-weather-worsens/",
+          "publishedAt": "2026-11-26T16:40:00-08:00"
+        }
+      ],
+      "photo": {
+        "subject": "rivière Nanaimo",
+        "context": "Colombie-Britannique",
+        "capturedOn": "2020-09-01",
+        "download": "media/cedar.webp",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanaimo_River_(50308233821).jpg",
+        "credit": "David Stanley / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "La rivière Nanaimo coule entre des berges rocheuses et boisées.",
+        "caption": "Archives, 1er septembre 2020. La rivière Nanaimo au sud de la ville du même nom, en Colombie-Britannique, avant la crue de novembre 2026."
+      },
+      "translations": {
+        "en": {
+          "title": "Nanaimo River flooding prompts evacuations in Cedar, British Columbia",
+          "summary": "The Regional District of Nanaimo ordered households on several roads in Cedar, on Vancouver Island, to leave on Thursday. Its map identifies the properties covered by the order.",
+          "body": "In British Columbia, rising water on the Nanaimo River led the regional district to upgrade an evacuation alert in Cedar to an order. The November 26 order took effect at 5 a.m. local time, following the declaration of a local state of emergency the previous day.\n\nResidents can locate the affected properties on the map attached to the order. They include addresses on Alice, Raines and Wilkinson roads. Local radio outlet My Coast Now reported that the district designated Cedar Community Hall as a reception centre for people leaving their homes.",
+          "photoAlt": "The Nanaimo River runs between rocky, wooded banks.",
+          "photoCaption": "Archive, September 1, 2020. The Nanaimo River south of its namesake city in British Columbia, before the November 2026 flood."
+        },
+        "es": {
+          "title": "La crecida del río Nanaimo obliga a evacuar viviendas en Cedar, en Columbia Británica",
+          "summary": "El distrito regional de Nanaimo ordenó el jueves la evacuación de hogares de varias calles de Cedar, en la isla de Vancouver. Su mapa delimita los inmuebles afectados.",
+          "body": "En Columbia Británica, la subida del río Nanaimo llevó al distrito regional a convertir una alerta en una orden de evacuación en Cedar. La orden del 26 de noviembre entró en vigor a las cinco de la mañana, hora local, después de que la víspera se declarara el estado de emergencia local.\n\nLos residentes pueden localizar los inmuebles afectados en el mapa adjunto a la orden. Hay direcciones en las vías Alice, Raines y Wilkinson, entre otras. Según la emisora local My Coast Now, el distrito habilitó el Cedar Community Hall como centro de acogida para quienes abandonan sus hogares.",
+          "photoAlt": "El río Nanaimo discurre entre orillas rocosas y arboladas.",
+          "photoCaption": "Archivo, 1 de septiembre de 2020. El río Nanaimo al sur de la ciudad del mismo nombre, en Columbia Británica, antes de la crecida de noviembre de 2026."
+        },
+        "ar": {
+          "title": "فيضان نهر نانايمو يدفع إلى إخلاء منازل في سيدار بكولومبيا البريطانية",
+          "summary": "أمرت منطقة نانايمو الإقليمية الخميس أسراً في عدة شوارع ببلدة سيدار في جزيرة فانكوفر بالمغادرة. وتحدد خريطة المنطقة العقارات المشمولة بالأمر.",
+          "body": "دفع ارتفاع منسوب نهر نانايمو في كولومبيا البريطانية سلطات المنطقة إلى تحويل تنبيه بالإخلاء في سيدار إلى أمر ملزم. ودخل أمر 26 نوفمبر حيز التنفيذ في الخامسة صباحاً بالتوقيت المحلي، بعدما أُعلنت حالة طوارئ محلية في اليوم السابق.\n\nيمكن للسكان تحديد العقارات المعنية على الخريطة المرفقة بالأمر، ومنها عناوين في طرق أليس ورينز وويلكنسون. وذكرت إذاعة ماي كوست ناو المحلية أن المنطقة خصصت قاعة سيدار المجتمعية مركزاً لاستقبال من يغادرون منازلهم.",
+          "photoAlt": "يجري نهر نانايمو بين ضفتين صخريتين تكسوهما الأشجار.",
+          "photoCaption": "صورة أرشيفية من 1 سبتمبر 2020. نهر نانايمو جنوب المدينة التي تحمل اسمه في كولومبيا البريطانية، قبل فيضان نوفمبر 2026."
+        },
+        "zh-CN": {
+          "title": "加拿大不列颠哥伦比亚省纳奈莫河水位上涨，锡达部分居民接令撤离",
+          "summary": "纳奈莫地区政府星期四下令，温哥华岛锡达社区多条道路沿线的部分住户须撤离。官方地图标明了命令涉及的地块。",
+          "body": "在不列颠哥伦比亚省，纳奈莫河水位上涨，地区政府将锡达社区的撤离警报升级为撤离命令。该命令于当地时间11月26日清晨5时生效。当地已在前一天宣布进入紧急状态。\n\n居民可以查阅命令所附地图，确认哪些房产在撤离范围内。部分地址位于爱丽丝路、雷恩斯路和威尔金森路。据当地电台My Coast Now报道，地区政府指定锡达社区会堂为接待中心，供离家的居民前往。",
+          "photoAlt": "纳奈莫河流经两侧树木掩映的岩石河岸。",
+          "photoCaption": "资料照片，摄于2020年9月1日。不列颠哥伦比亚省纳奈莫市以南的同名河流，拍摄于2026年11月洪水之前。"
+        },
+        "ru": {
+          "title": "Разлив реки Нанаймо привёл к эвакуации в Сидаре в Британской Колумбии",
+          "summary": "В четверг власти регионального округа Нанаймо предписали жителям ряда домов в Сидаре на острове Ванкувер покинуть жильё. Границы участков обозначены на карте округа.",
+          "body": "В Британской Колумбии из-за подъёма воды в реке Нанаймо власти округа сменили предупреждение об эвакуации в Сидаре на обязательное предписание. Оно вступило в силу 26 ноября в пять утра по местному времени. Накануне округ объявил чрезвычайное положение местного уровня.\n\nЖители могут найти затронутые участки на карте, приложенной к распоряжению. Среди них есть дома на Элис-роуд, Рейнс-роуд и Уилкинсон-роуд. По данным местной радиостанции My Coast Now, округ организовал пункт приёма в общественном центре Сидара для людей, покидающих дома.",
+          "photoAlt": "Река Нанаймо течёт между скалистыми берегами, поросшими лесом.",
+          "photoCaption": "Архив, 1 сентября 2020 года. Река Нанаймо к югу от одноимённого города в Британской Колумбии до наводнения в ноябре 2026 года."
+        },
+        "ko": {
+          "title": "캐나다 브리티시컬럼비아주 나나이모강 범람으로 시더 일부 주민 대피",
+          "summary": "나나이모 광역지구는 목요일 밴쿠버섬 시더 지역의 여러 도로를 따라 거주하는 일부 가구에 대피를 명령했다. 당국의 지도에서 해당 필지를 확인할 수 있다.",
+          "body": "브리티시컬럼비아주에서 나나이모강 수위가 높아지자 광역지구는 시더 지역의 대피 경보를 대피 명령으로 격상했다. 전날 지역 비상사태가 선포된 데 이어 11월 26일 현지 시간 오전 5시부터 명령이 발효됐다.\n\n주민은 명령에 첨부된 지도에서 대상 필지를 확인할 수 있다. 앨리스 로드, 레인스 로드, 윌킨슨 로드의 일부 주소가 포함된다. 현지 라디오 매체 마이 코스트 나우에 따르면 광역지구는 집을 떠나는 주민을 위해 시더 커뮤니티 홀을 접수센터로 지정했다.",
+          "photoAlt": "나나이모강이 나무가 우거진 바위 강둑 사이로 흐른다.",
+          "photoCaption": "자료 사진, 2020년 9월 1일. 브리티시컬럼비아주 나나이모시 남쪽을 흐르는 나나이모강으로, 2026년 11월 홍수 이전 모습이다."
+        }
+      },
+      "title": "En Colombie-Britannique, la crue de la rivière Nanaimo force des évacuations à Cedar",
+      "summary": "Le district régional de Nanaimo a ordonné jeudi le départ des ménages de plusieurs rues de Cedar, sur l’île de Vancouver. L’ordre vise les propriétés délimitées sur sa carte.",
+      "body": "En Colombie-Britannique, la montée de la rivière Nanaimo a conduit le district régional à transformer une alerte en ordre d’évacuation à Cedar. L’arrêté du 26 novembre a pris effet à 5 h, heure locale, après la déclaration de l’état d’urgence local la veille.\n\nLa carte annexée à l’arrêté permet aux résidents de repérer les propriétés visées. Parmi les voies concernées figurent les chemins Alice, Raines et Wilkinson. Selon la radio locale My Coast Now, le district a prévu un lieu d’accueil au Cedar Community Hall pour les personnes qui quittent leur domicile."
+    },
+    {
+      "eventKey": "afrique-du-sud-opposition-appel-jugement-phala-phala",
+      "category": "Afrique",
+      "verified": true,
+      "sources": [
+        {
+          "name": "Haute Cour du Cap-Occidental — Ramaphosa v Ngcobo",
+          "url": "https://www.judiciary.org.za/index.php/courts/high-courts/western-cape-division-of-the-high-court/court-judgments/category/214-matamela-cyril-ramaphosa-v-sandile-ngcobo-n-o-others",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "Innocentia Nkadimeng, TimesLIVE",
+          "url": "https://www.timeslive.co.za/politics/2026-11-26-atm-eff-vow-to-appeal-phala-phala-court-victory-for-ramaphosa/",
+          "publishedAt": "2026-11-26T14:52:00+02:00"
+        },
+        {
+          "name": "Voice of the Cape — réaction de Vuyo Zungula",
+          "url": "https://vocfm.co.za/atm-to-consider-appeal-after-court-sets-aside-phala-phala-panel-report/",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "subject": "Cyril Ramaphosa",
+        "context": "Afrique du Sud",
+        "capturedOn": "2026-11",
+        "download": "media/phala.jpg",
+        "sourceUrl": "https://www.flickr.com/photos/governmentza/55662555517/",
+        "credit": "Government Communication and Information System (GCIS), GovernmentZA",
+        "license": "CC BY-ND 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "alt": "Cyril Ramaphosa, assis à droite, s’entretient avec un interlocuteur lors d’une visite en Californie.",
+        "caption": "Archives, novembre 2026. Cyril Ramaphosa, à droite, lors d’un déplacement d’une délégation de l’Afrique du Sud dans la Silicon Valley."
+      },
+      "translations": {
+        "en": {
+          "title": "South African opposition parties plan to appeal Phala Phala ruling",
+          "summary": "The Western Cape High Court set aside a report that examined grounds for a parliamentary inquiry into President Cyril Ramaphosa. Two parties are challenging that decision.",
+          "body": "In South Africa, the African Transformation Movement and the Economic Freedom Fighters have expressed their intention to appeal, TimesLIVE reported on Thursday, November 26. The previous day, Cyril Ramaphosa had secured a Western Cape High Court ruling setting aside the 2022 report on the affair involving his Phala Phala farm.\n\nAfter foreign currency was stolen from the farm in 2020, an independent panel was asked to examine whether the president’s conduct warranted a parliamentary impeachment inquiry. African Transformation Movement leader Vuyo Zungula told Voice of the Cape radio that his party would consult its lawyers about its response to the ruling.",
+          "photoAlt": "Cyril Ramaphosa, seated at right, speaks with another man during a visit to California.",
+          "photoCaption": "Archive, November 2026. Cyril Ramaphosa, right, during a South African delegation’s visit to Silicon Valley."
+        },
+        "es": {
+          "title": "La oposición sudafricana quiere apelar el fallo sobre Phala Phala",
+          "summary": "El Tribunal Superior del Cabo Occidental anuló el informe que examinaba los motivos para abrir una investigación parlamentaria sobre el presidente Cyril Ramaphosa. Dos partidos cuestionan la decisión.",
+          "body": "En Sudáfrica, el African Transformation Movement y los Economic Freedom Fighters han expresado su intención de apelar, según informó TimesLIVE el jueves 26 de noviembre. La víspera, Cyril Ramaphosa había conseguido que el Tribunal Superior del Cabo Occidental anulara el informe de 2022 sobre el caso de su finca Phala Phala.\n\nTras el robo de divisas en la finca en 2020, un panel independiente recibió el encargo de examinar si la conducta del presidente justificaba una investigación parlamentaria con vistas a su destitución. El líder del African Transformation Movement, Vuyo Zungula, dijo a la emisora Voice of the Cape que su partido consultaría a sus abogados sobre cómo responder al fallo.",
+          "photoAlt": "Cyril Ramaphosa, sentado a la derecha, conversa con otro hombre durante una visita a California.",
+          "photoCaption": "Archivo, noviembre de 2026. Cyril Ramaphosa, a la derecha, durante una visita de una delegación de Sudáfrica a Silicon Valley."
+        },
+        "ar": {
+          "title": "حزبان معارضان في جنوب أفريقيا يعتزمان الطعن في الحكم المتعلق بمزرعة فالا فالا",
+          "summary": "أبطلت المحكمة العليا في الكاب الغربية تقريراً تناول مبررات فتح تحقيق برلماني بشأن الرئيس سيريل رامافوزا. ويعترض حزبان على القرار.",
+          "body": "أعلنت حركة التحول الأفريقي وحزب المناضلين من أجل الحرية الاقتصادية في جنوب أفريقيا عزمهما على استئناف الحكم، وفق ما أفادت به تايمز لايف الخميس 26 نوفمبر. وكان سيريل رامافوزا قد حصل في اليوم السابق على حكم من المحكمة العليا في الكاب الغربية يبطل تقرير عام 2022 المتعلق بقضية مزرعته فالا فالا.\n\nبعد سرقة عملات أجنبية من المزرعة عام 2020، كُلّفت لجنة مستقلة ببحث ما إذا كان تصرف الرئيس يبرر فتح تحقيق برلماني تمهيداً لعزله. وقال زعيم حركة التحول الأفريقي فويو زونغولا لإذاعة فويس أوف ذا كيب إن حزبه سيستشير محاميه بشأن كيفية الرد على الحكم.",
+          "photoAlt": "سيريل رامافوزا جالساً إلى اليمين يتحدث مع رجل آخر أثناء زيارة لكاليفورنيا.",
+          "photoCaption": "صورة أرشيفية من نوفمبر 2026. سيريل رامافوزا إلى اليمين خلال زيارة وفد من جنوب أفريقيا لوادي السيليكون."
+        },
+        "zh-CN": {
+          "title": "南非反对党拟就“帕拉帕拉农场案”裁决提出上诉",
+          "summary": "西开普高等法院撤销了一份报告，该报告审查是否有理由对总统西里尔·拉马福萨展开议会调查。两个反对党对裁决提出异议。",
+          "body": "据南非媒体TimesLIVE于11月26日星期四报道，非洲转型运动和经济自由斗士党均表示有意上诉。前一天，西开普高等法院应西里尔·拉马福萨的请求，撤销了2022年就其帕拉帕拉农场事件出具的报告。\n\n2020年农场发生外币失窃案后，一个独立小组受命审查总统的行为是否足以启动议会弹劾调查。非洲转型运动领导人武约·宗古拉告诉开普之声电台，该党将就如何回应裁决征询律师意见。",
+          "photoAlt": "在加利福尼亚州访问期间，坐在右侧的西里尔·拉马福萨与另一名男子交谈。",
+          "photoCaption": "资料照片，摄于2026年11月。西里尔·拉马福萨（右）随南非代表团访问硅谷。"
+        },
+        "ru": {
+          "title": "Оппозиционные партии ЮАР намерены обжаловать решение по делу фермы «Пала-Пала»",
+          "summary": "Высокий суд Западно-Капской провинции отменил доклад об основаниях для парламентского расследования в отношении президента Сирила Рамафосы. Две партии оспаривают решение.",
+          "body": "В ЮАР «Африканское движение за преобразования» и партия «Борцы за экономическую свободу» заявили о намерении подать апелляцию, сообщило издание TimesLIVE в четверг, 26 ноября. Накануне Сирил Рамафоса добился в Высоком суде Западно-Капской провинции отмены доклада 2022 года о событиях на его ферме «Пала-Пала».\n\nПосле кражи иностранной валюты на ферме в 2020 году независимой комиссии поручили выяснить, давали ли действия президента основания для парламентского расследования в рамках процедуры импичмента. Лидер «Африканского движения за преобразования» Вуйо Зунгула заявил радиостанции Voice of the Cape, что партия обсудит с юристами дальнейшие шаги в ответ на решение суда.",
+          "photoAlt": "Сирил Рамафоса, сидящий справа, беседует с собеседником во время визита в Калифорнию.",
+          "photoCaption": "Архив, ноябрь 2026 года. Сирил Рамафоса справа во время визита южноафриканской делегации в Кремниевую долину."
+        },
+        "ko": {
+          "title": "남아공 야당 두 곳, 팔라팔라 농장 사건 판결에 항소 의사",
+          "summary": "웨스턴케이프 고등법원이 시릴 라마포사 대통령에 대한 의회 조사 착수 근거를 검토한 보고서를 무효화했다. 두 야당이 판결에 반발했다.",
+          "body": "남아프리카공화국의 아프리카변혁운동과 경제자유투사당이 항소할 뜻을 밝혔다고 현지 매체 타임스라이브가 11월 26일 목요일 보도했다. 전날 웨스턴케이프 고등법원은 시릴 라마포사의 청구를 받아들여 그의 팔라팔라 농장 사건에 관한 2022년 보고서를 무효화했다.\n\n2020년 농장에서 외화 도난 사건이 발생한 뒤 독립 조사단은 대통령의 행위에 대해 의회가 탄핵 조사를 개시할 근거가 있는지 검토하는 임무를 맡았다. 아프리카변혁운동의 부요 중굴라 대표는 보이스 오브 더 케이프 라디오에 당이 판결에 어떻게 대응할지 변호사들과 협의할 것이라고 밝혔다.",
+          "photoAlt": "캘리포니아 방문 중 오른쪽에 앉은 시릴 라마포사가 상대방과 대화하고 있다.",
+          "photoCaption": "자료 사진, 2026년 11월. 남아프리카공화국 대표단의 실리콘밸리 방문 당시 시릴 라마포사(오른쪽)."
+        }
+      },
+      "title": "En Afrique du Sud, l’opposition veut faire appel du jugement sur Phala Phala",
+      "summary": "La Haute Cour du Cap-Occidental a annulé le rapport qui examinait les motifs d’une enquête parlementaire visant le président Cyril Ramaphosa. Deux partis contestent cette décision.",
+      "body": "En Afrique du Sud, l’African Transformation Movement et les Economic Freedom Fighters ont fait connaître leur intention de faire appel, rapporte TimesLIVE jeudi 26 novembre. La veille, Cyril Ramaphosa avait obtenu de la Haute Cour du Cap-Occidental l’annulation du rapport de 2022 sur l’affaire de sa ferme de Phala Phala.\n\nAprès un vol de devises à la ferme en 2020, un groupe indépendant avait été chargé d’examiner si la conduite du président justifiait l’ouverture d’une enquête parlementaire en vue d’une destitution. Le chef de l’African Transformation Movement, Vuyo Zungula, a dit à la radio Voice of the Cape que son parti consulterait ses avocats sur la suite à donner au jugement."
+    }
+  ]
+}
