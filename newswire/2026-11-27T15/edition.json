@@ -1,0 +1,86 @@
+{
+  "hour": "2026-11-27T15",
+  "articles": [
+    {
+      "eventKey": "allemagne-bundestag-adoption-budget-federal-2027",
+      "category": "Allemagne",
+      "photo": {
+        "subject": "Svenja Stadler",
+        "context": "Bundestag",
+        "capturedOn": "2026-09-11",
+        "sourceUrl": "https://bilddatenbank.bundestag.de/site/picture-detail?id=5032759",
+        "download": "media/stadler.jpg",
+        "license": "Usage journalistique politique autorisé, diffusion sur les réseaux sociaux interdite",
+        "licenseUrl": "https://bilddatenbank.bundestag.de/site/nutzungsbedingungen",
+        "credit": "Deutscher Bundestag / Inga Haar",
+        "alt": "Svenja Stadler debout à la tribune du Bundestag, ses notes devant elle.",
+        "caption": "Archives. Svenja Stadler intervient au Bundestag à Berlin le 11 septembre 2026 lors du débat sur le budget de 2027."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Germany’s Bundestag approves €555.9 billion budget for 2027",
+          "summary": "Core federal spending will rise by about 6% compared with 2026. Planned net borrowing under the core budget reaches nearly €123 billion.",
+          "body": "The Bundestag approved the 2027 federal budget in Berlin on Friday, November 27. The vote announced earlier in the day has now taken place. According to the parliamentary record and German broadcaster ntv, lawmakers approved about €555.9 billion in core spending, excluding special funds.\n\nThat is about €31.4 billion more than budgeted for 2026. Net borrowing for the core budget rises from about €98 billion to nearly €123 billion, ntv reports. Lawmakers had already debated the bill in September, when Social Democratic MP Svenja Stadler addressed the Bundestag.",
+          "photoAlt": "Svenja Stadler standing at the Bundestag lectern with her notes in front of her.",
+          "photoCaption": "Archive photo. Svenja Stadler addresses the Bundestag in Berlin on September 11, 2026, during the debate on the 2027 budget."
+        },
+        "es": {
+          "title": "El Bundestag alemán aprueba un presupuesto de 555.900 millones de euros para 2027",
+          "summary": "El gasto del presupuesto federal ordinario aumentará alrededor de un 6 % respecto a 2026. El endeudamiento neto previsto en ese presupuesto roza los 123.000 millones de euros.",
+          "body": "El Bundestag aprobó el presupuesto federal para 2027 el viernes 27 de noviembre en Berlín. La votación anunciada horas antes ya se ha celebrado. Según el informe parlamentario y la cadena alemana ntv, los diputados aprobaron unos 555.900 millones de euros en gasto ordinario, sin contar los fondos especiales.\n\nSon unos 31.400 millones de euros más de lo presupuestado para 2026. Según ntv, el endeudamiento neto del presupuesto ordinario pasa de unos 98.000 millones a casi 123.000 millones de euros. La cámara ya había debatido el proyecto en septiembre, cuando la diputada socialdemócrata Svenja Stadler intervino ante el Bundestag.",
+          "photoAlt": "Svenja Stadler de pie en la tribuna del Bundestag, con sus notas delante.",
+          "photoCaption": "Foto de archivo. Svenja Stadler interviene en el Bundestag en Berlín el 11 de septiembre de 2026 durante el debate sobre el presupuesto de 2027."
+        },
+        "ar": {
+          "title": "البوندستاغ الألماني يقر ميزانية بقيمة 555.9 مليار يورو لعام 2027",
+          "summary": "سيرتفع الإنفاق في الميزانية الاتحادية الأساسية بنحو 6% مقارنة بعام 2026. ويقترب صافي الاقتراض المقرر ضمنها من 123 مليار يورو.",
+          "body": "أقر البوندستاغ الميزانية الاتحادية لعام 2027 في برلين يوم الجمعة 27 نوفمبر، بعدما أجرى التصويت الذي أُعلن عنه في وقت سابق من اليوم. ووفقاً لمحضر البرلمان وقناة ntv الألمانية، وافق النواب على إنفاق نحو 555.9 مليار يورو في الميزانية الأساسية، باستثناء الصناديق الخاصة.\n\nويزيد هذا المبلغ بنحو 31.4 مليار يورو على الاعتمادات المقررة لعام 2026. وأفادت ntv بأن صافي الاقتراض المخصص للميزانية الأساسية يرتفع من نحو 98 ملياراً إلى قرابة 123 مليار يورو. وكان النواب قد ناقشوا المشروع في سبتمبر، حين ألقت النائبة الاشتراكية الديمقراطية سفينيا شتادلر كلمة أمام البوندستاغ.",
+          "photoAlt": "سفينيا شتادلر واقفة أمام منصة البوندستاغ وأوراقها أمامها.",
+          "photoCaption": "صورة أرشيفية. سفينيا شتادلر تتحدث أمام البوندستاغ في برلين يوم 11 سبتمبر 2026 خلال مناقشة ميزانية عام 2027."
+        },
+        "zh-CN": {
+          "title": "德国联邦议院通过2027年预算，核心支出为5559亿欧元",
+          "summary": "联邦核心预算支出将比2026年增加约6%，计划净借款接近1230亿欧元。",
+          "body": "11月27日星期五，德国联邦议院在柏林举行当天早些时候预告的表决，通过了2027年联邦预算。根据议会记录和德国电视台ntv的报道，议员批准的核心预算支出约为5559亿欧元，不包括特别基金。\n\n这一数额比2026年的预算多约314亿欧元。据ntv报道，核心预算净借款将从约980亿欧元增至近1230亿欧元。议员们曾在9月就这一预算案展开辩论，社会民主党议员斯韦尼娅·施塔德勒当时在联邦议院发言。",
+          "photoAlt": "斯韦尼娅·施塔德勒站在联邦议院讲台前，面前摆着讲稿。",
+          "photoCaption": "资料照片。2026年9月11日，斯韦尼娅·施塔德勒在柏林联邦议院就2027年预算发言。"
+        },
+        "ru": {
+          "title": "Бундестаг одобрил бюджет Германии на 2027 год с расходами в 555,9 млрд евро",
+          "summary": "Расходы основного федерального бюджета вырастут примерно на 6% по сравнению с 2026 годом. Планируемые чистые заимствования по нему составят почти 123 млрд евро.",
+          "body": "В пятницу, 27 ноября, Бундестаг в Берлине провёл анонсированное ранее в тот же день голосование и принял федеральный бюджет на 2027 год. Согласно парламентскому отчёту и сообщению немецкого телеканала ntv, депутаты одобрили расходы основного бюджета в размере около 555,9 млрд евро без учёта специальных фондов.\n\nЭто примерно на 31,4 млрд евро больше, чем предусмотрено бюджетом на 2026 год. По данным ntv, чистые заимствования по основному бюджету вырастут примерно с 98 млрд до почти 123 млрд евро. Законопроект уже обсуждали в сентябре, когда в Бундестаге выступила депутат от социал-демократов Свенья Штадлер.",
+          "photoAlt": "Свенья Штадлер стоит за трибуной Бундестага, перед ней лежат записи.",
+          "photoCaption": "Архивный снимок. Свенья Штадлер выступает в Бундестаге в Берлине 11 сентября 2026 года во время обсуждения бюджета на 2027 год."
+        },
+        "ko": {
+          "title": "독일 연방의회, 2027년 5,559억 유로 예산안 가결",
+          "summary": "연방 본예산 지출은 2026년보다 약 6% 늘어난다. 본예산의 순차입 예정액은 1,230억 유로에 육박한다.",
+          "body": "독일 연방의회는 11월 27일 금요일 베를린에서 이날 앞서 예고했던 표결을 진행해 2027년 연방 예산안을 통과시켰다. 의회 회의록과 독일 방송 ntv에 따르면 의원들이 승인한 본예산 지출은 특별기금을 제외하고 약 5,559억 유로다.\n\n이는 2026년 예산보다 약 314억 유로 많은 금액이다. ntv에 따르면 본예산 순차입액은 약 980억 유로에서 1,230억 유로에 가까운 수준으로 늘어난다. 의회는 지난 9월에도 이 예산안을 논의했으며 당시 사회민주당의 스베냐 슈타들러 의원이 연방의회에서 발언했다.",
+          "photoAlt": "스베냐 슈타들러가 연방의회 연단에 서 있고 앞에 발언 자료가 놓여 있다.",
+          "photoCaption": "자료 사진. 2026년 9월 11일 베를린 연방의회에서 스베냐 슈타들러 의원이 2027년 예산안 토론 중 발언하고 있다."
+        }
+      },
+      "title": "Allemagne : le Bundestag adopte un budget de 555,9 milliards d’euros pour 2027",
+      "summary": "Les dépenses du budget fédéral courant augmenteront d’environ 6 % par rapport à 2026. L’emprunt net prévu dans ce budget atteint près de 123 milliards d’euros.",
+      "body": "Le Bundestag a adopté le budget fédéral pour 2027 vendredi 27 novembre à Berlin. Le vote annoncé plus tôt dans la journée est désormais acquis. Selon le compte rendu du Parlement et la chaîne allemande ntv, les députés ont approuvé environ 555,9 milliards d’euros de dépenses dans le budget courant, hors fonds spéciaux.\n\nCe montant représente environ 31,4 milliards d’euros de plus que le budget prévu pour 2026. L’emprunt net destiné au budget courant passe d’environ 98 milliards à près de 123 milliards d’euros, rapporte ntv. Le texte avait déjà fait l’objet de débats en septembre, lorsque la députée sociale-démocrate Svenja Stadler avait pris la parole au Bundestag.",
+      "sources": [
+        {
+          "name": "Bundestag — compte rendu de la troisième lecture",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "ntv",
+          "url": "https://www.n-tv.de/politik/Bundestag-beschliesst-Haushalt-fuer-2027-id31586033.html",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Bundestag — résultat définitif du scrutin nominal",
+          "url": "https://www.bundestag.de/resource/blob/1238132/20261127_1.pdf",
+          "publishedAt": "2026-11-27"
+        }
+      ]
+    }
+  ]
+}
