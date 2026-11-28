@@ -1,0 +1,86 @@
+{
+  "hour": "2026-11-28T14",
+  "articles": [
+    {
+      "eventKey": "new-york-maire-mamdani-operation-tendon-achille-retour-gracie-mansion",
+      "title": "À New York, Zohran Mamdani quitte l’hôpital après une opération du tendon d’Achille",
+      "category": "États-Unis",
+      "summary": "Le maire a regagné Gracie Mansion vendredi après l’intervention. Son premier adjoint, Dean Fuleihan, a assuré la gestion courante de la ville ce jour-là.",
+      "body": "Zohran Mamdani, maire de New York, a quitté l’hôpital vendredi 27 novembre après une opération destinée à réparer son tendon d’Achille droit. Son porte-parole, Joe Calvello, a indiqué que l’intervention s’était bien déroulée et que le maire se reposait à Gracie Mansion, sa résidence officielle. Selon le communiqué de la mairie, également rapporté par la chaîne locale WABC, le premier adjoint Dean Fuleihan dirigeait les affaires courantes de la ville vendredi.\n\nLa blessure remonte au 19 novembre. Ce jour-là, le maire participait à un match amical de soccer opposant son équipe à des journalistes qui couvrent la mairie. Comme le rapporte l’Associated Press, Mamdani a raconté le lendemain s’être blessé peu après avoir marqué un but. Vendredi, son porte-parole a dit s’attendre à un rétablissement complet.",
+      "sources": [
+        {
+          "name": "Ville de New York — déclaration de Joe Calvello",
+          "url": "https://www.nyc.gov/mayors-office/news/2026/11/statement-from-the-mayor-s-press-secretary",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/zohran-mamdani-achilles-tendon-surgery-soccer-injury-5f07861fd27c9dc498b7721391daeb71",
+          "publishedAt": "2026-11-27T21:59:01Z"
+        },
+        {
+          "name": "WABC / ABC7 New York",
+          "url": "https://abc7ny.com/post/mamdani-recovering-surgery-torn-achilles-tendon/20091889/",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "photo": {
+        "subject": "Zohran Mamdani",
+        "context": "maire de New York",
+        "capturedOn": "2026-09-24",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/2026-09-24_Zohran-Mamdani-LGBT-Center_Jack-Walker-Jakwaka.jpg/1280px-2026-09-24_Zohran-Mamdani-LGBT-Center_Jack-Walker-Jakwaka.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026-09-24_Zohran-Mamdani-LGBT-Center_Jack-Walker-Jakwaka.jpg",
+        "credit": "Jakwaka / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Zohran Mamdani sourit, en veste brune et cravate, au centre communautaire LGBT de Manhattan.",
+        "caption": "Archive du 24 septembre 2026. Zohran Mamdani, maire de New York, au Lesbian, Gay, Bisexual & Transgender Community Center de Manhattan, avant sa blessure."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "New York Mayor Zohran Mamdani leaves hospital after Achilles tendon surgery",
+          "summary": "The mayor returned to Gracie Mansion on Friday after surgery. First Deputy Mayor Dean Fuleihan oversaw the city’s day-to-day operations that day.",
+          "body": "New York Mayor Zohran Mamdani left the hospital on Friday, November 27, after surgery to repair his right Achilles tendon. His press secretary, Joe Calvello, said the procedure went well and the mayor was resting at Gracie Mansion, his official residence. According to the City Hall statement, also reported by local station WABC, First Deputy Mayor Dean Fuleihan managed the city’s day-to-day affairs on Friday.\n\nMamdani was injured on November 19 during a friendly soccer match between his team and journalists who cover City Hall. As the Associated Press reported, Mamdani said the following day that he had been injured shortly after scoring a goal. On Friday, his press secretary said he expected the mayor to make a full recovery.",
+          "photoAlt": "Zohran Mamdani smiles, wearing a brown jacket and tie at the LGBT community center in Manhattan.",
+          "photoCaption": "File photo, September 24, 2026. New York Mayor Zohran Mamdani at the Lesbian, Gay, Bisexual & Transgender Community Center in Manhattan before his injury."
+        },
+        "es": {
+          "title": "El alcalde de Nueva York, Zohran Mamdani, sale del hospital tras una operación del tendón de Aquiles",
+          "summary": "El alcalde regresó el viernes a Gracie Mansion después de la intervención. Su primer adjunto, Dean Fuleihan, estuvo al frente de la gestión diaria de la ciudad ese día.",
+          "body": "Zohran Mamdani, alcalde de Nueva York, salió del hospital el viernes 27 de noviembre tras someterse a una operación para reparar el tendón de Aquiles derecho. Su portavoz, Joe Calvello, dijo que la intervención había salido bien y que el alcalde descansaba en Gracie Mansion, su residencia oficial. Según el comunicado del Ayuntamiento, del que también informó la cadena local WABC, el primer teniente de alcalde, Dean Fuleihan, dirigió la gestión diaria de la ciudad el viernes.\n\nMamdani se lesionó el 19 de noviembre en un partido amistoso de fútbol entre su equipo y periodistas que cubren el Ayuntamiento. Según informó Associated Press, Mamdani contó al día siguiente que se había lesionado poco después de marcar un gol. El viernes, su portavoz dijo que esperaba que el alcalde se recuperara por completo.",
+          "photoAlt": "Zohran Mamdani sonríe con chaqueta marrón y corbata en el centro comunitario LGBT de Manhattan.",
+          "photoCaption": "Archivo del 24 de septiembre de 2026. Zohran Mamdani, alcalde de Nueva York, en el Lesbian, Gay, Bisexual & Transgender Community Center de Manhattan, antes de su lesión."
+        },
+        "ar": {
+          "title": "عمدة نيويورك زهران ممداني يغادر المستشفى بعد جراحة في وتر أخيل",
+          "summary": "عاد العمدة الجمعة إلى مقر إقامته الرسمي غرايسي مانشن بعد الجراحة. وتولى نائبه الأول دين فوليهان إدارة الشؤون اليومية للمدينة ذلك اليوم.",
+          "body": "غادر عمدة نيويورك زهران ممداني المستشفى الجمعة 27 نوفمبر بعد جراحة لإصلاح وتر أخيل في ساقه اليمنى. وقال المتحدث باسمه جو كالفيلو إن الجراحة سارت على ما يرام وإن العمدة يستريح في مقر إقامته الرسمي غرايسي مانشن. ووفقاً لبيان البلدية الذي نقلته أيضاً قناة WABC المحلية، تولى النائب الأول للعمدة دين فوليهان إدارة الشؤون اليومية للمدينة يوم الجمعة.\n\nتعود الإصابة إلى 19 نوفمبر حين شارك العمدة في مباراة ودية لكرة القدم بين فريقه ومجموعة من الصحفيين الذين يغطون شؤون البلدية. وأفادت وكالة أسوشيتد برس بأن ممداني روى في اليوم التالي أنه أصيب بعد وقت قصير من تسجيله هدفاً. وقال المتحدث باسمه الجمعة إنه يتوقع أن يتعافى العمدة تماماً.",
+          "photoAlt": "زهران ممداني يبتسم مرتدياً سترة بنية وربطة عنق في المركز المجتمعي لمجتمع الميم في مانهاتن.",
+          "photoCaption": "صورة أرشيفية من 24 سبتمبر 2026. عمدة نيويورك زهران ممداني في المركز المجتمعي للمثليات والمثليين ومزدوجي الميل الجنسي والعابرين جنسياً في مانهاتن قبل إصابته."
+        },
+        "zh-CN": {
+          "title": "纽约市长祖赫兰·马姆达尼接受跟腱手术后出院",
+          "summary": "市长周五在术后返回官邸格雷西大厦，当天由第一副市长迪恩·富莱汉主持市政府日常工作。",
+          "body": "11月27日星期五，纽约市长祖赫兰·马姆达尼接受右脚跟腱修复手术后出院。市长新闻秘书乔·卡尔韦洛表示，手术顺利，市长正在官邸格雷西大厦休养。据市政府声明，当天由第一副市长迪恩·富莱汉主持市政府日常工作。当地电视台WABC也报道了这份声明。\n\n马姆达尼于11月19日受伤。当天，他参加了一场足球友谊赛，对阵双方是市长所在的球队和报道市政府事务的记者。据美联社报道，马姆达尼次日回忆，他在进球后不久受伤。卡尔韦洛周五表示，预计市长将完全康复。",
+          "photoAlt": "祖赫兰·马姆达尼身穿棕色外套、系着领带，在曼哈顿的LGBT社区中心微笑。",
+          "photoCaption": "资料照片，摄于2026年9月24日。纽约市长祖赫兰·马姆达尼在曼哈顿的男女同性恋、双性恋及跨性别者社区中心，当时他尚未受伤。"
+        },
+        "ru": {
+          "title": "Мэр Нью-Йорка Зохран Мамдани выписался из больницы после операции на ахилловом сухожилии",
+          "summary": "В пятницу после операции мэр вернулся в официальную резиденцию Грейси-Мэншн. Текущими делами города в тот день руководил первый заместитель мэра Дин Фулейхан.",
+          "body": "Мэр Нью-Йорка Зохран Мамдани покинул больницу в пятницу, 27 ноября, после операции по восстановлению правого ахиллова сухожилия. Его пресс-секретарь Джо Кальвелло сообщил, что операция прошла успешно и мэр отдыхает в своей официальной резиденции Грейси-Мэншн. Согласно заявлению мэрии, о котором также сообщил местный телеканал WABC, текущими делами города в пятницу руководил первый заместитель мэра Дин Фулейхан.\n\nМамдани получил травму 19 ноября во время товарищеского футбольного матча между его командой и журналистами, освещающими работу мэрии. Как сообщило агентство Associated Press, на следующий день Мамдани рассказал, что травмировался вскоре после того, как забил гол. В пятницу его пресс-секретарь заявил, что ожидает полного выздоровления мэра.",
+          "photoAlt": "Зохран Мамдани в коричневом пиджаке и галстуке улыбается в общественном центре ЛГБТ на Манхэттене.",
+          "photoCaption": "Архивный снимок от 24 сентября 2026 года. Мэр Нью-Йорка Зохран Мамдани в общественном центре лесбиянок, геев, бисексуалов и трансгендерных людей на Манхэттене до получения травмы."
+        },
+        "ko": {
+          "title": "조란 맘다니 뉴욕시장, 아킬레스건 수술 후 퇴원",
+          "summary": "맘다니 시장은 금요일 수술을 받고 관저인 그레이시 맨션으로 돌아갔다. 이날 뉴욕시의 일상 업무는 딘 풀레이핸 수석부시장이 총괄했다.",
+          "body": "조란 맘다니 뉴욕시장이 11월 27일 금요일 오른쪽 아킬레스건 복원 수술을 받고 퇴원했다. 조 칼벨로 시장 대변인은 수술이 잘 끝났으며 시장이 관저인 그레이시 맨션에서 쉬고 있다고 밝혔다. 현지 방송 WABC도 보도한 시청 성명에 따르면 금요일에는 딘 풀레이핸 수석부시장이 뉴욕시의 일상 업무를 총괄했다.\n\n맘다니 시장은 11월 19일 자신의 팀과 시청 출입기자단 간의 친선 축구 경기에서 다쳤다. AP통신에 따르면 맘다니는 이튿날 자신이 골을 넣은 직후에 부상을 입었다고 말했다. 칼벨로 대변인은 금요일 시장이 완전히 회복될 것으로 기대한다고 밝혔다.",
+          "photoAlt": "조란 맘다니가 맨해튼 성소수자 커뮤니티 센터에서 갈색 재킷에 넥타이를 매고 미소 짓고 있다.",
+          "photoCaption": "2026년 9월 24일 자료 사진. 부상을 입기 전 조란 맘다니 뉴욕시장이 맨해튼의 레즈비언·게이·양성애자·트랜스젠더 커뮤니티 센터에 참석한 모습."
+        }
+      }
+    }
+  ]
+}
