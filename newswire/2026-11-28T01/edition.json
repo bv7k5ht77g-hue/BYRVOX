@@ -1,0 +1,86 @@
+{
+  "hour": "2026-11-28T01",
+  "articles": [
+    {
+      "eventKey": "new-york-long-island-retablissement-electricite-tempete-thanksgiving",
+      "category": "États-Unis",
+      "title": "À Long Island, plus de 5 000 clients restaient privés de courant vendredi après-midi",
+      "summary": "Dans l’État de New York, aux États-Unis, le courant était déjà revenu chez plus de 54 800 clients vendredi matin après la tempête de Thanksgiving, selon PSEG Long Island.",
+      "body": "Les réparations se sont poursuivies vendredi 27 novembre à Long Island après le passage de la tempête de Thanksgiving sur la côte Est des États-Unis. Dans son bilan de 8 h, heure locale, PSEG Long Island indiquait que ses équipes avaient rétabli le service chez plus de 54 800 clients depuis jeudi matin. Il restait alors 5 734 clients sans électricité sur son réseau, qui dessert aussi les Rockaways, à New York.\n\nDans l’après-midi, la chaîne locale News 12 signalait encore plus de 5 000 clients privés de courant. L’exploitant comptait réalimenter la grande majorité des clients restants dans la soirée. Ce chiffre de l’après-midi ne constitue donc pas un bilan de fin de journée.",
+      "sources": [
+        {
+          "name": "PSEG Long Island — point de 8 h",
+          "url": "https://www.psegliny.com/en/Newsroom/2025/112726-StormUpdate0800",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "News 12 Long Island",
+          "url": "https://longisland.news12.com/thousands-still-without-power-on-long-island-after-thanksgiving-storm",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "LongIsland.com — texte du communiqué de PSEG",
+          "url": "https://www.longisland.com/news/11-27-26/pseg-long-island-storm-update-friday-nov-27-8-am.html",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "photo": {
+        "subject": "tempête de Thanksgiving",
+        "context": "côte Est des États-Unis",
+        "capturedOn": "2026-11-26",
+        "alt": "Une large bande de nuages recouvre la côte Est des États-Unis sur une image du satellite NOAA-20.",
+        "caption": "Archives du 26 novembre 2026 à 18 h 15 UTC. L’instrument VIIRS du satellite NOAA-20 observe la tempête de Thanksgiving sur la côte Est des États-Unis, la veille du bilan des réparations.",
+        "credit": "NOAA / VIIRS, NOAA-20 — NASA Worldview",
+        "license": "Domaine public (NOAA)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NOAA",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026_Thanksgiving_nor%27easter_2026-11-26_1815Z.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/9/98/2026_Thanksgiving_nor%27easter_2026-11-26_1815Z.jpg"
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "More than 5,000 customers on Long Island still had no power Friday afternoon",
+          "summary": "In New York state, the Thanksgiving storm left thousands without electricity. By Friday morning, PSEG Long Island said it had restored service to more than 54,800 customers.",
+          "body": "Repairs continued on Long Island on Friday, November 27, after the Thanksgiving storm swept the US East Coast. In its 8 a.m. local update, PSEG Long Island said its crews had restored service to more than 54,800 customers since Thursday morning. At that point, 5,734 customers were still without electricity on its network, which also serves the Rockaways in New York City.\n\nLocal broadcaster News 12 reported that more than 5,000 customers were still without power in the afternoon. The utility expected to reconnect the vast majority of the remaining customers by that evening. The afternoon figure was therefore not an end-of-day count.",
+          "photoAlt": "A broad band of clouds covers the US East Coast in an image from the NOAA-20 satellite.",
+          "photoCaption": "File image, November 26, 2026, at 18:15 UTC. The VIIRS instrument aboard NOAA-20 observed the Thanksgiving storm over the US East Coast the day before the restoration update."
+        },
+        "es": {
+          "title": "Más de 5.000 clientes de Long Island seguían sin luz el viernes por la tarde",
+          "summary": "En el estado de Nueva York, Estados Unidos, más de 54.800 clientes ya habían recuperado el suministro el viernes por la mañana tras la tormenta de Acción de Gracias, según PSEG Long Island.",
+          "body": "Las reparaciones continuaron en Long Island el viernes 27 de noviembre, tras el paso de la tormenta de Acción de Gracias por la costa este de Estados Unidos. En su parte de las 8:00, hora local, PSEG Long Island informó que sus equipos habían restablecido el servicio a más de 54.800 clientes desde la mañana del jueves. En ese momento, 5.734 clientes seguían sin electricidad en su red, que también abastece a los Rockaways, en la ciudad de Nueva York.\n\nPor la tarde, la emisora local News 12 informó que más de 5.000 clientes seguían sin luz. La compañía esperaba restablecer el suministro a la gran mayoría de los restantes esa noche. La cifra de la tarde, por tanto, no era un balance al cierre del día.",
+          "photoAlt": "Una extensa banda de nubes cubre la costa este de Estados Unidos en una imagen del satélite NOAA-20.",
+          "photoCaption": "Imagen de archivo del 26 de noviembre de 2026 a las 18:15 UTC. El instrumento VIIRS del satélite NOAA-20 observó la tormenta de Acción de Gracias sobre la costa este de Estados Unidos la víspera del informe de reparaciones."
+        },
+        "ar": {
+          "title": "أكثر من خمسة آلاف مشترك في لونغ آيلاند ظلوا بلا كهرباء بعد ظهر الجمعة",
+          "summary": "قالت شركة «بي إس إي جي لونغ آيلاند» إن الكهرباء عادت إلى أكثر من 54,800 مشترك بحلول صباح الجمعة في ولاية نيويورك الأمريكية بعد عاصفة عيد الشكر.",
+          "body": "تواصلت الإصلاحات في لونغ آيلاند يوم الجمعة 27 نوفمبر بعد مرور عاصفة عيد الشكر على الساحل الشرقي للولايات المتحدة. وقالت شركة «بي إس إي جي لونغ آيلاند» في بيان الساعة الثامنة صباحاً بالتوقيت المحلي إن فرقها أعادت الخدمة إلى أكثر من 54,800 مشترك منذ صباح الخميس. وكان 5,734 مشتركاً لا يزالون بلا كهرباء على شبكتها التي تخدم أيضاً منطقة الروكاويز في مدينة نيويورك.\n\nوأفادت قناة «نيوز 12» المحلية بعد الظهر بأن أكثر من خمسة آلاف مشترك ما زالوا بلا كهرباء. وكانت الشركة تتوقع إعادة التيار إلى الغالبية العظمى من المشتركين المتبقين بحلول المساء. لذا فإن حصيلة بعد الظهر لا تعبّر عن الوضع في نهاية اليوم.",
+          "photoAlt": "شريط واسع من السحب يغطي الساحل الشرقي للولايات المتحدة في صورة من القمر الصناعي NOAA-20.",
+          "photoCaption": "صورة أرشيفية من 26 نوفمبر 2026 الساعة 18:15 بالتوقيت العالمي المنسق. رصد جهاز VIIRS على متن القمر الصناعي NOAA-20 عاصفة عيد الشكر فوق الساحل الشرقي للولايات المتحدة في اليوم السابق لتقرير الإصلاحات."
+        },
+        "zh-CN": {
+          "title": "纽约州长岛周五下午仍有逾五千用户停电",
+          "summary": "美国纽约州遭遇感恩节风暴后，长岛电力运营商PSEG表示，截至周五早晨，已有超过54,800户用户恢复供电。",
+          "body": "感恩节风暴席卷美国东海岸后，长岛的抢修工作持续到11月27日星期五。PSEG长岛公司在当地时间上午8时通报，自周四早晨以来，抢修人员已为超过54,800户用户恢复供电。当时，公司电网内仍有5,734户停电。该电网也为纽约市的洛卡韦地区供电。\n\n据当地电视台News 12报道，到下午仍有超过5,000户用户停电。电力公司预计，当晚可为其余用户中的绝大多数恢复供电。因此，下午的数据并非当日最终统计。",
+          "photoAlt": "NOAA-20卫星影像显示，宽广的云带覆盖美国东海岸。",
+          "photoCaption": "资料影像，摄于2026年11月26日协调世界时18时15分。在抢修进展通报的前一天，NOAA-20卫星上的VIIRS仪器观测到了美国东海岸上空的感恩节风暴。"
+        },
+        "ru": {
+          "title": "На Лонг-Айленде более пяти тысяч абонентов оставались без света во второй половине пятницы",
+          "summary": "По данным PSEG Long Island, к утру пятницы в американском штате Нью-Йорк более 54 800 абонентам вернули электричество после шторма в День благодарения.",
+          "body": "В пятницу, 27 ноября, на Лонг-Айленде продолжались ремонтные работы после шторма, обрушившегося на восточное побережье США в День благодарения. В сводке на 8:00 по местному времени PSEG Long Island сообщила, что с утра четверга её бригады восстановили подачу электричества более чем 54 800 абонентам. На тот момент без света оставались 5 734 абонента сети, которая также обслуживает район Рокавей в городе Нью-Йорке.\n\nПо сообщению местного телеканала News 12, во второй половине дня без электричества всё ещё оставались более пяти тысяч абонентов. Компания рассчитывала вернуть свет подавляющему большинству из них к вечеру. Таким образом, дневные данные не отражают положение на конец дня.",
+          "photoAlt": "На снимке со спутника NOAA-20 видна широкая полоса облаков над восточным побережьем США.",
+          "photoCaption": "Архивный снимок от 26 ноября 2026 года, 18:15 UTC. Прибор VIIRS на спутнике NOAA-20 зафиксировал шторм в День благодарения над восточным побережьем США за день до сообщения о ходе ремонта."
+        },
+        "ko": {
+          "title": "뉴욕주 롱아일랜드, 금요일 오후에도 5천여 고객에 전력 공급 중단",
+          "summary": "미국 뉴욕주 전력회사 PSEG 롱아일랜드는 추수감사절 폭풍이 지나간 뒤 금요일 아침까지 고객 5만 4,800여 곳에 전력 공급을 재개했다고 밝혔다.",
+          "body": "추수감사절 폭풍이 미국 동부 해안을 휩쓸고 지나간 뒤 11월 27일 금요일에도 롱아일랜드에서 복구 작업이 이어졌다. PSEG 롱아일랜드는 현지 시각 오전 8시 발표에서 목요일 아침부터 고객 5만 4,800여 곳에 전력 공급을 재개했다고 밝혔다. 당시 뉴욕시 로커웨이스 지역까지 포함하는 이 회사의 전력망에서 고객 5,734곳이 여전히 정전 상태였다.\n\n현지 방송 뉴스12에 따르면 오후에도 고객 5천여 곳에 전기가 들어오지 않았다. 전력회사는 남은 고객 대부분에게 저녁까지 전력을 다시 공급할 수 있을 것으로 내다봤다. 따라서 오후 수치는 하루를 마감한 최종 집계가 아니다.",
+          "photoAlt": "NOAA-20 위성 영상에서 넓은 구름띠가 미국 동부 해안을 덮고 있다.",
+          "photoCaption": "2026년 11월 26일 18시 15분(UTC) 자료 영상. 복구 현황 발표 전날 NOAA-20 위성의 VIIRS 관측기가 미국 동부 해안 상공의 추수감사절 폭풍을 포착했다."
+        }
+      }
+    }
+  ]
+}
