@@ -1,0 +1,167 @@
+{
+  "hour": "2026-11-28T06",
+  "articles": [
+    {
+      "eventKey": "californie-pacific-surfliner-autocars-irvine-oceanside-marees",
+      "category": "États-Unis",
+      "sources": [
+        {
+          "name": "Pacific Surfliner",
+          "url": "https://www.pacificsurfliner.com/plan-your-trip/alerts/travel-advisories",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "edhat",
+          "url": "https://www.edhat.com/beyond-local/news/pacific-surfliner-service-disruption-san-clemente/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "City News Service / NBC Los Angeles",
+          "url": "https://www.nbclosangeles.com/news/local/amtrak-pacific-surfliner-shut-down/3975382/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pacific_Surfliner_in_San_Clemente%2C_July_2011.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pacific_Surfliner_in_San_Clemente%2C_July_2011.jpg",
+        "credit": "Loco Steve / Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "subject": "Pacific Surfliner",
+        "context": "San Clemente",
+        "capturedOn": "2011-07-10",
+        "alt": "Le Pacific Surfliner longe la plage sous les maisons de San Clemente.",
+        "caption": "Archive du 10 juillet 2011. Le Pacific Surfliner circule sur la voie côtière de San Clemente, en Californie."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Buses bridge the gap on California’s Pacific Surfliner between Irvine and Oceanside",
+          "summary": "High tides damaged the tracks in San Clemente. The replacement service announced for Friday skips San Juan Capistrano station.",
+          "body": "In Southern California, high tides washed away part of the ground supporting the railroad tracks in San Clemente. In a passenger advisory, the Pacific Surfliner announced replacement buses starting Friday, November 27, to link Irvine and Oceanside while rail traffic was suspended.\n\nFor passengers traveling north from San Diego, the train journey ended at Oceanside. In the other direction, trains from Goleta stopped at Irvine, California outlet edhat reported. The advisory said neither trains nor replacement buses served San Juan Capistrano.",
+          "photoAlt": "The Pacific Surfliner follows the beach below homes in San Clemente.",
+          "photoCaption": "Archive photograph, July 10, 2011. The Pacific Surfliner travels along the coastal tracks in San Clemente, California."
+        },
+        "es": {
+          "title": "En California, autobuses sustituyen al Pacific Surfliner entre Irvine y Oceanside",
+          "summary": "Las mareas altas dañaron la vía en San Clemente. El servicio alternativo anunciado para el viernes no para en San Juan Capistrano.",
+          "body": "En el sur de California, Estados Unidos, las mareas altas arrastraron parte del terreno que sostiene la vía férrea en San Clemente. En un aviso a los pasajeros, el Pacific Surfliner anunció autobuses de sustitución a partir del viernes 27 de noviembre para conectar Irvine y Oceanside durante la suspensión del servicio ferroviario.\n\nPara los viajeros procedentes de San Diego rumbo al norte, el trayecto en tren terminaba en Oceanside. En sentido contrario, los trenes de Goleta llegaban hasta Irvine, según el medio californiano edhat. El aviso precisó que ni los trenes ni los autobuses de sustitución paraban en San Juan Capistrano.",
+          "photoAlt": "El Pacific Surfliner bordea la playa al pie de las casas de San Clemente.",
+          "photoCaption": "Archivo del 10 de julio de 2011. El Pacific Surfliner circula por la vía costera de San Clemente, California."
+        },
+        "ar": {
+          "title": "حافلات بديلة لقطار باسيفيك سيرفلاينر بين إرفاين وأوشنسايد في كاليفورنيا",
+          "summary": "أضر المد العالي بالسكة في سان كليمنتي. ولا تتوقف الحافلات البديلة المعلن عنها ليوم الجمعة في محطة سان خوان كابيسترانو.",
+          "body": "جرف المد العالي جزءاً من التربة التي تحمل خط السكك الحديدية في سان كليمنتي بجنوب ولاية كاليفورنيا الأمريكية. وأعلنت خدمة باسيفيك سيرفلاينر في إشعار للمسافرين عن حافلات تربط إرفاين بأوشنسايد بدءاً من الجمعة 27 نوفمبر أثناء توقف القطارات على هذا المقطع.\n\nوكانت رحلة القادمين بالقطار من سان دييغو باتجاه الشمال تنتهي في أوشنسايد. وفي الاتجاه المعاكس كانت قطارات غوليتا تتوقف عند إرفاين، وفقاً لموقع إد هات الإخباري في كاليفورنيا. وأوضح الإشعار أن القطارات والحافلات البديلة لم تخدم محطة سان خوان كابيسترانو.",
+          "photoAlt": "قطار باسيفيك سيرفلاينر بمحاذاة الشاطئ أسفل منازل سان كليمنتي.",
+          "photoCaption": "صورة أرشيفية من 10 يوليو 2011. قطار باسيفيك سيرفلاينر على الخط الساحلي في سان كليمنتي بولاية كاليفورنيا."
+        },
+        "zh-CN": {
+          "title": "加州太平洋冲浪者号部分停运，尔湾至欧申赛德间安排接驳巴士",
+          "summary": "圣克莱门特的铁轨路基受大潮冲刷。周五公布的替代服务不停靠圣胡安卡皮斯特拉诺站。",
+          "body": "在美国加利福尼亚州南部，大潮冲走了圣克莱门特一段铁轨下方的土层。太平洋冲浪者号在旅客通告中宣布，从11月27日星期五起，在铁路停运期间安排巴士往返尔湾和欧申赛德。\n\n据加州媒体edhat报道，从圣迭戈向北出发的旅客只能乘火车到欧申赛德；反方向从戈利塔开来的火车则以尔湾为终点。通告说明，火车和替代巴士均不停靠圣胡安卡皮斯特拉诺站。",
+          "photoAlt": "太平洋冲浪者号沿着圣克莱门特民宅下方的海滩行驶。",
+          "photoCaption": "资料照片，摄于2011年7月10日。太平洋冲浪者号行驶在加州圣克莱门特的海岸铁路上。"
+        },
+        "ru": {
+          "title": "В Калифорнии автобусы заменяют Pacific Surfliner между Ирвайном и Оушенсайдом",
+          "summary": "Прилив повредил пути в Сан-Клементе. Объявленные на пятницу автобусные рейсы не предусматривают остановки в Сан-Хуан-Капистрано.",
+          "body": "На юге американского штата Калифорния прилив размыл грунт под железнодорожным полотном в Сан-Клементе. Служба Pacific Surfliner объявила, что с пятницы, 27 ноября, на время перерыва в движении поездов между Ирвайном и Оушенсайдом будут курсировать автобусы.\n\nДля пассажиров, ехавших на север из Сан-Диего, поездка по железной дороге заканчивалась в Оушенсайде. На встречном направлении поезда из Голиты следовали до Ирвайна, сообщило калифорнийское издание edhat. Согласно извещению, ни поезда, ни заменяющие их автобусы не останавливались в Сан-Хуан-Капистрано.",
+          "photoAlt": "Поезд Pacific Surfliner идёт вдоль пляжа под домами Сан-Клементе.",
+          "photoCaption": "Архивное фото от 10 июля 2011 года. Pacific Surfliner на прибрежной линии в Сан-Клементе, Калифорния."
+        },
+        "ko": {
+          "title": "미 캘리포니아 어바인∼오션사이드 구간, 퍼시픽 서프라이너 열차 대신 버스 운행",
+          "summary": "높은 조수로 샌클레멘테의 선로가 손상됐다. 금요일부터 투입되는 대체 버스는 샌후안카피스트라노역에 서지 않는다.",
+          "body": "미국 캘리포니아주 남부 샌클레멘테에서 높은 조수가 선로를 받치던 지반 일부를 쓸어갔다. 퍼시픽 서프라이너는 승객 공지를 통해 열차 운행이 중단된 동안 11월 27일 금요일부터 어바인과 오션사이드를 잇는 대체 버스를 운행한다고 밝혔다.\n\n캘리포니아 지역 매체 에드햇에 따르면 샌디에이고에서 북쪽으로 가는 승객은 오션사이드까지만 열차를 이용할 수 있었다. 반대 방향으로 골리타에서 출발하는 열차는 어바인에서 운행을 마쳤다. 공지에 따르면 열차와 대체 버스 모두 샌후안카피스트라노역에 정차하지 않았다.",
+          "photoAlt": "퍼시픽 서프라이너 열차가 샌클레멘테 주택가 아래 해변을 따라 달린다.",
+          "photoCaption": "2011년 7월 10일 자료 사진. 퍼시픽 서프라이너 열차가 캘리포니아주 샌클레멘테의 해안 철도를 달리고 있다."
+        }
+      },
+      "title": "En Californie, des autocars prennent le relais du Pacific Surfliner entre Irvine et Oceanside",
+      "summary": "Les grandes marées ont endommagé la voie à San Clemente. La liaison de remplacement annoncée pour vendredi laisse de côté la gare de San Juan Capistrano.",
+      "body": "Dans le sud de la Californie, aux États-Unis, les grandes marées ont emporté une partie du sol soutenant la voie ferrée à San Clemente. Dans son avis aux voyageurs, le Pacific Surfliner a annoncé des autocars de remplacement à partir du vendredi 27 novembre pour relier Irvine à Oceanside pendant l’interruption du trafic ferroviaire.\n\nPour les voyageurs venant de San Diego, le trajet en train vers le nord s’arrêtait à Oceanside. Dans l’autre sens, les trains venant de Goleta s’arrêtaient à Irvine, selon le média californien edhat. L’avis précise que ni les trains ni les autocars de remplacement ne desservaient San Juan Capistrano."
+    },
+    {
+      "eventKey": "nouvelle-zelande-majorite-siege-qiulae-wong-negociations",
+      "category": "Nouvelle-Zélande",
+      "sources": [
+        {
+          "name": "Electoral Commission",
+          "url": "https://elections.nz/media-and-news/2026/2026-general-election-official-results",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/parties-negotiate-after-no-one-wins-majority-new-zealand-election-2026-11-27/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-27/official-results-of-new-zealand-s-national-election-announced/107434326",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qiulae_Wong_2026_%28cropped%29.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Qiulae_Wong_2026_%28cropped%29.jpg",
+        "credit": "The Opportunity Party / Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "subject": "Qiulae Wong",
+        "context": "Opportunity Party",
+        "capturedOn": "2026-02-24",
+        "alt": "Qiulae Wong, cheffe de l’Opportunity Party, sourit face à l’objectif, un foulard noué au cou.",
+        "caption": "Portrait d’archive de Qiulae Wong, cheffe de l’Opportunity Party, photographiée le 24 février 2026."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "New Zealand’s outgoing coalition falls one seat short of governing alone",
+          "summary": "Official results give Christopher Luxon’s three parties 65 of 130 seats. Qiulae Wong, whose party won seven seats, says she is ready to negotiate.",
+          "body": "The official count from New Zealand’s November 7 election erased the majority that had appeared within reach on election night. In results released Friday by the Electoral Commission, National took 40 seats, ACT 13 and New Zealand First 12. Together the three partners hold exactly half the seats in Parliament.\n\nWith seven seats, Qiulae Wong’s Opportunity Party could give outgoing Prime Minister Christopher Luxon a majority. Wong said she would negotiate with National, which won the most seats, Reuters reported. The terms of any support remain to be settled.",
+          "photoAlt": "Opportunity Party leader Qiulae Wong smiles at the camera wearing a scarf around her neck.",
+          "photoCaption": "Archive portrait of Opportunity Party leader Qiulae Wong, photographed on February 24, 2026."
+        },
+        "es": {
+          "title": "A la coalición saliente de Nueva Zelanda le falta un escaño para gobernar sola",
+          "summary": "Los resultados oficiales dan a los tres partidos de Christopher Luxon 65 de los 130 escaños. Qiulae Wong, cuyo partido obtuvo siete, está dispuesta a negociar.",
+          "body": "El recuento oficial de las elecciones del 7 de noviembre en Nueva Zelanda borró la mayoría que se perfilaba la noche electoral. Según los resultados publicados el viernes por la Comisión Electoral, el Partido Nacional logró 40 escaños, ACT obtuvo 13 y Nueva Zelanda Primero, 12. Los tres socios ocupan exactamente la mitad del Parlamento.\n\nCon siete escaños, el Opportunity Party de Qiulae Wong podría dar una mayoría al primer ministro saliente Christopher Luxon. Wong dijo que negociaría con el Partido Nacional, la formación con más escaños, según Reuters. Aún quedan por determinar las condiciones de su apoyo.",
+          "photoAlt": "Qiulae Wong, líder del Opportunity Party, sonríe a la cámara con un pañuelo al cuello.",
+          "photoCaption": "Retrato de archivo de Qiulae Wong, líder del Opportunity Party, tomado el 24 de febrero de 2026."
+        },
+        "ar": {
+          "title": "مقعد واحد يفصل الائتلاف الحاكم في نيوزيلندا عن الأغلبية",
+          "summary": "منحت النتائج الرسمية أحزاب كريستوفر لوكسون الثلاثة 65 من أصل 130 مقعداً. وأبدت كيولاي وونغ، التي فاز حزبها بسبعة مقاعد، استعدادها للتفاوض.",
+          "body": "أزال الفرز الرسمي لانتخابات 7 نوفمبر في نيوزيلندا الأغلبية التي لاحت ليلة الاقتراع. وبحسب النتائج التي نشرتها اللجنة الانتخابية الجمعة، حصل الحزب الوطني على 40 مقعداً وحزب ACT على 13 وحزب نيوزيلندا أولاً على 12. وهكذا يشغل الشركاء الثلاثة نصف مقاعد البرلمان تماماً.\n\nويمكن لحزب الفرصة بزعامة كيولاي وونغ أن يمنح رئيس الوزراء المنتهية ولايته كريستوفر لوكسون أغلبية بفضل مقاعده السبعة. وقالت وونغ إنها ستتفاوض مع الحزب الوطني الذي فاز بأكبر عدد من المقاعد، وفق رويترز. وما زالت شروط دعمها موضع تفاوض.",
+          "photoAlt": "كيولاي وونغ، زعيمة حزب الفرصة، تبتسم أمام الكاميرا وترتدي وشاحاً حول رقبتها.",
+          "photoCaption": "صورة أرشيفية لزعيمة حزب الفرصة كيولاي وونغ التُقطت في 24 فبراير 2026."
+        },
+        "zh-CN": {
+          "title": "新西兰执政联盟距单独执政所需多数还差一席",
+          "summary": "官方结果显示，克里斯托弗·拉克森领导的三党联盟在130个议席中获得65席。赢得7席的机会党领袖Qiulae Wong表示愿意谈判。",
+          "body": "新西兰11月7日大选的正式计票结果改变了选举之夜执政联盟有望取得多数的局面。选举委员会周五公布的结果显示，国家党获得40席，行动党13席，新西兰优先党12席。三党合计恰好占据议会一半席位。\n\nQiulae Wong领导的机会党掌握7席，有可能帮助即将结束本届任期的总理克里斯托弗·拉克森获得多数。据路透社报道，她表示愿意与赢得最多席位的国家党谈判。她会以什么条件提供支持，仍待确定。",
+          "photoAlt": "机会党领袖Qiulae Wong颈系丝巾，面向镜头微笑。",
+          "photoCaption": "资料肖像，摄于2026年2月24日。图为机会党领袖Qiulae Wong。"
+        },
+        "ru": {
+          "title": "Правящей коалиции Новой Зеландии не хватило одного места до большинства",
+          "summary": "По официальным итогам три партии Кристофера Лаксона получили 65 мест из 130. Киулэй Вонг, чья партия получила семь мандатов, готова к переговорам.",
+          "body": "Официальный подсчёт голосов на выборах 7 ноября в Новой Зеландии лишил правящую коалицию большинства, которое намечалось в ночь выборов. По данным избирательной комиссии, опубликованным в пятницу, Национальная партия получила 40 мест, ACT — 13, «Новая Зеландия прежде всего» — 12. Вместе они занимают ровно половину мест в парламенте.\n\nСемь депутатов от Партии возможностей во главе с Киулэй Вонг могут обеспечить большинство действующему премьер-министру Кристоферу Лаксону. По сообщению Reuters, Вонг заявила, что будет вести переговоры с Национальной партией, получившей больше всех мандатов. Условия поддержки ещё предстоит согласовать.",
+          "photoAlt": "Лидер Партии возможностей Киулэй Вонг улыбается в камеру, на шее у неё платок.",
+          "photoCaption": "Архивный портрет лидера Партии возможностей Киулэй Вонг, снятый 24 февраля 2026 года."
+        },
+        "ko": {
+          "title": "뉴질랜드 집권 연정, 단독 과반에 한 석 부족",
+          "summary": "공식 개표 결과 크리스토퍼 럭슨 총리의 연정 3당은 130석 중 65석을 얻었다. 7석을 확보한 기회당의 키울레이 웡 대표는 협상할 뜻을 밝혔다.",
+          "body": "뉴질랜드의 11월 7일 총선 공식 개표에서 선거 당일 밤 예상됐던 집권 연정의 과반이 무산됐다. 선거관리위원회가 금요일 발표한 결과에 따르면 국민당은 40석, 액트당은 13석, 뉴질랜드제일당은 12석을 확보했다. 세 정당을 합치면 의회 의석의 정확히 절반이다.\n\n키울레이 웡이 이끄는 기회당은 7석으로 현 총리 크리스토퍼 럭슨에게 과반을 안겨줄 수 있다. 로이터에 따르면 웡은 가장 많은 의석을 차지한 국민당과 협상하겠다고 밝혔다. 지지 조건은 아직 정해지지 않았다.",
+          "photoAlt": "목에 스카프를 두른 기회당의 키울레이 웡 대표가 카메라를 향해 웃고 있다.",
+          "photoCaption": "2026년 2월 24일 촬영한 기회당 키울레이 웡 대표의 자료 사진."
+        }
+      },
+      "title": "En Nouvelle-Zélande, il manque un siège à la coalition sortante pour gouverner seule",
+      "summary": "Les résultats officiels donnent 65 sièges sur 130 aux trois partis de Christopher Luxon. Qiulae Wong, dont le parti compte sept élus, se dit prête à négocier.",
+      "body": "Le décompte officiel des élections du 7 novembre en Nouvelle-Zélande a fait disparaître la majorité qui se dessinait le soir du scrutin. Selon les résultats publiés vendredi par la Commission électorale, le Parti national obtient 40 sièges, ACT en décroche 13 et Nouvelle-Zélande d’abord 12. Ensemble, les trois partenaires occupent exactement la moitié du Parlement.\n\nAvec sept sièges, l’Opportunity Party de Qiulae Wong peut donner une majorité au premier ministre sortant Christopher Luxon. Wong a déclaré qu’elle négocierait avec le Parti national, arrivé en tête en nombre de sièges, rapporte Reuters. Cette ouverture laisse encore à déterminer les conditions de son soutien."
+    }
+  ]
+}
