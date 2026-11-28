@@ -1,0 +1,23 @@
+{
+  "hour": "2026-11-28T14",
+  "origin": "automation",
+  "status": "blocked",
+  "zonesConsulted": [],
+  "zonesRepresented": [],
+  "selected": [],
+  "discarded": [],
+  "sources": [],
+  "published": [],
+  "duplicates": [],
+  "publishedCount": 0,
+  "translationsPublished": 0,
+  "obstacles": [
+    "Direct HTTP GET to https://byrvox.today/agent-session?site=buzzeur: curl exit 6, HTTP 000, could not resolve host byrvox.today.",
+    "Chromium navigation to the documented session page did not complete within 20 seconds. No session created; no access restrictions bypassed.",
+    "Private settings.value, settings.version and due remain unavailable. No proof or private status receipt; research, deduplication, translation and delivery not started. These local failures do not establish a public site outage."
+  ],
+  "protocolsRead": [
+    "docs/AGENT_BUZZEUR.md",
+    "docs/EDITION_HORAIRE_BUZZEUR.md"
+  ]
+}
