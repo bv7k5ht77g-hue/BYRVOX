@@ -1,0 +1,32 @@
+{
+  "hour": "2026-11-28T08",
+  "status": "blocked",
+  "checkedAt": "2026-11-28T07:56:06Z",
+  "protocolsRead": [
+    "docs/AGENT_BUZZEUR.md",
+    "docs/EDITION_HORAIRE_BUZZEUR.md"
+  ],
+  "settingsValidated": false,
+  "sessionCreated": false,
+  "privateReportSent": false,
+  "zonesConsulted": [],
+  "zonesRepresented": [],
+  "subjectsRetained": [],
+  "subjectsDiscarded": [],
+  "sources": [],
+  "published": [],
+  "duplicates": [],
+  "obstacles": [
+    {
+      "step": "private-session",
+      "url": "https://byrvox.today/agent-session?site=buzzeur",
+      "error": "cURL exit 6: Could not resolve host; HTTP 000. No interactive browser session established."
+    },
+    {
+      "step": "network-check",
+      "url": "https://byrvox.noventra.ca/api/buzzeur/config",
+      "error": "cURL exit 6: Could not resolve host; HTTP 000. Public configuration does not replace private settings."
+    }
+  ],
+  "notes": "Passage interrompu avant veille, sélection, rédaction et livraison. Aucun manifeste ni preuve de session créé. Aucun refus HTTP 401/403 observé. Les erreurs locales ne démontrent pas une panne publique."
+}
