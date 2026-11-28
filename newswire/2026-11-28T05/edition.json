@@ -162,6 +162,87 @@
           "photoCaption": "2026년 11월 7일 촬영한 자료 사진. 컬럼비아에서 열린 미주리와의 경기에서 텍사스 롱혼스의 아치 매닝이 패스를 준비한다. 조슈아 헤이스팅스가 찍은 사진의 일부다."
         }
       }
+    },
+    {
+      "eventKey": "cuba-naufrage-halima-bilan-recherches-cabanas",
+      "category": "Cuba",
+      "title": "Naufrage du Halima au large de Cuba : douze marins sauvés, trois portés disparus vendredi",
+      "summary": "Le porte-conteneurs a sombré jeudi au nord de la baie de Cabañas. Sur les seize membres d’équipage, un marin est mort, selon les autorités maritimes.",
+      "body": "Le Halima, un porte-conteneurs battant pavillon panaméen, a coulé le 26 novembre à environ trois milles marins au nord de la baie de Cabañas, dans l’ouest de Cuba. Vendredi, l’Autorité maritime du Panama a fait état de douze survivants, d’un décès et de trois disparus parmi les seize personnes à bord.\n\nLes autorités cubaines dirigeaient les recherches. Une commission cubaine enquêtait sur les circonstances du naufrage, selon le communiqué cubain rapporté par Reuters. Au Panama, le service chargé des accidents maritimes a pris contact avec Cuba et avec l’exploitant pour coordonner l’enquête.\n\nLe navire porte le numéro OMI 9121869. Sur la photo d’archive prise dans le port de Göteborg en Suède en 2015, il naviguait sous le nom de Katharina B.",
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015-07-02_KATHARINA_B_l%C3%A4uft_ein_in_Hafen_von_G%C3%B6teborg_01_RB1517.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/3/3f/2015-07-02_KATHARINA_B_l%C3%A4uft_ein_in_Hafen_von_G%C3%B6teborg_01_RB1517.jpg",
+        "subject": "Katharina B",
+        "context": "port de Göteborg",
+        "capturedOn": "2015-07-02",
+        "credit": "Eduard47 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Le Katharina B, coque bleue et conteneurs sur le pont, à son entrée dans le port de Göteborg.",
+        "caption": "Archive du 2 juillet 2015. Le futur Halima entre dans le port de Göteborg, en Suède, sous le nom de Katharina B."
+      },
+      "sources": [
+        {
+          "name": "Autoridad Marítima de Panamá",
+          "url": "https://www.amp.gob.pa/noticias/notas-de-prensa/amp-da-seguimiento-al-hundimiento-del-buque-portacontenedores-halima-en-aguas-cubanas/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/americas/cargo-ship-sinks-off-cuba-leaving-one-dead-three-missing-2026-11-27/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "MundoMaritimo",
+          "url": "https://www.mundomaritimo.cl/noticias/cuba-naufragio-de-portacontenedores-deja-un-fallecido-y-tres-tripulantes-desaparecidos",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Halima sinking off Cuba leaves 12 sailors alive and three missing as of Friday",
+          "summary": "The container ship sank north of Cabañas Bay on Thursday. One of the 16 crew members died, maritime authorities said.",
+          "body": "The Panama-flagged container ship Halima sank on November 26 about three nautical miles north of Cabañas Bay in western Cuba. On Friday, the Panama Maritime Authority reported 12 survivors, one death and three people missing among the 16 aboard.\n\nCuban authorities were leading the search. A Cuban commission was investigating the circumstances of the sinking, according to a Cuban statement reported by Reuters. Panama’s marine accident investigators contacted Cuba and the ship’s operator to coordinate the investigation.\n\nThe ship’s IMO number is 9121869. In the archive photograph taken in the Swedish port of Gothenburg in 2015, it was sailing under the name Katharina B.",
+          "photoAlt": "The blue-hulled Katharina B enters the port of Gothenburg with containers on deck.",
+          "photoCaption": "Archive photograph, July 2, 2015. The ship later named Halima enters the port of Gothenburg, Sweden, as Katharina B."
+        },
+        "es": {
+          "title": "Naufragio del Halima frente a Cuba: doce supervivientes y tres desaparecidos en el balance del viernes",
+          "summary": "El portacontenedores se hundió el jueves al norte de la bahía de Cabañas. Uno de los dieciséis tripulantes murió, según las autoridades marítimas.",
+          "body": "El Halima, un portacontenedores de bandera panameña, se hundió el 26 de noviembre a unas tres millas náuticas al norte de la bahía de Cabañas, en el oeste de Cuba. El viernes, la Autoridad Marítima de Panamá informó de doce supervivientes, un fallecido y tres desaparecidos entre las dieciséis personas a bordo.\n\nLas autoridades cubanas dirigían la búsqueda. Una comisión cubana investigaba las circunstancias del naufragio, según el comunicado cubano recogido por Reuters. El departamento panameño de investigación de accidentes marítimos se puso en contacto con Cuba y con el operador del buque para coordinar la investigación.\n\nEl número OMI del buque es 9121869. En la fotografía de archivo tomada en el puerto sueco de Gotemburgo en 2015, navegaba con el nombre de Katharina B.",
+          "photoAlt": "El Katharina B, de casco azul y con contenedores en cubierta, entra en el puerto de Gotemburgo.",
+          "photoCaption": "Archivo del 2 de julio de 2015. El buque que después se llamaría Halima entra en el puerto de Gotemburgo, en Suecia, con el nombre de Katharina B."
+        },
+        "ar": {
+          "title": "غرق «حليمة» قبالة كوبا: 12 ناجياً وثلاثة مفقودين بحسب حصيلة الجمعة",
+          "summary": "غرقت سفينة الحاويات الخميس شمال خليج كابانياس. وأفادت السلطات البحرية بوفاة بحّار من أفراد الطاقم البالغ عددهم 16 شخصاً.",
+          "body": "غرقت سفينة الحاويات «حليمة» التي ترفع علم بنما في 26 نوفمبر على بعد نحو ثلاثة أميال بحرية شمال خليج كابانياس في غرب كوبا. وأعلنت هيئة بنما البحرية الجمعة أن حصيلة الأشخاص الستة عشر الذين كانوا على متنها بلغت 12 ناجياً ووفاة شخص واحد وفقدان ثلاثة.\n\nوتولت السلطات الكوبية قيادة عمليات البحث. وكانت لجنة كوبية تحقق في ملابسات الغرق، بحسب بيان كوبي نقلته رويترز. واتصلت إدارة التحقيق في الحوادث البحرية في بنما بالجانب الكوبي وبمشغّل السفينة لتنسيق التحقيق.\n\nتحمل السفينة الرقم 9121869 لدى المنظمة البحرية الدولية. وتظهر في الصورة الأرشيفية الملتقطة في ميناء غوتنبرغ السويدي عام 2015 حين كانت تبحر باسم «كاتارينا بي».",
+          "photoAlt": "السفينة «كاتارينا بي» ذات الهيكل الأزرق تدخل ميناء غوتنبرغ وعلى سطحها حاويات.",
+          "photoCaption": "صورة أرشيفية من 2 يوليو 2015. السفينة التي سُمّيت لاحقاً «حليمة» تدخل ميناء غوتنبرغ في السويد تحت اسم «كاتارينا بي»."
+        },
+        "zh-CN": {
+          "title": "“哈利马”号在古巴近海沉没：截至周五，12人获救，3人失踪",
+          "summary": "这艘集装箱船周四在卡瓦尼亚斯湾以北沉没。海事部门称，16名船员中有1人死亡。",
+          "body": "11月26日，悬挂巴拿马国旗的集装箱船“哈利马”号在古巴西部卡瓦尼亚斯湾以北约3海里处沉没。巴拿马海事局周五通报，船上16人中，12人生还，1人死亡，3人失踪。\n\n古巴当局负责指挥搜救。据路透社援引的古巴方面声明，一个古巴调查委员会正在调查沉船经过。巴拿马海事事故调查部门已联系古巴方面和船舶运营方，以协调调查工作。\n\n该船的国际海事组织编号为9121869。2015年在瑞典哥德堡港拍摄的资料照片中，它当时使用的船名是“Katharina B”。",
+          "photoAlt": "蓝色船身的“Katharina B”号驶入哥德堡港，甲板上载着集装箱。",
+          "photoCaption": "资料照片，摄于2015年7月2日。后来更名为“哈利马”号的船只当时以“Katharina B”为名驶入瑞典哥德堡港。"
+        },
+        "ru": {
+          "title": "Крушение Halima у берегов Кубы: к пятнице 12 моряков спасены, трое числились пропавшими",
+          "summary": "Контейнеровоз затонул в четверг к северу от залива Кабаньяс. По данным морских властей, один из 16 членов экипажа погиб.",
+          "body": "Контейнеровоз Halima под панамским флагом затонул 26 ноября примерно в трёх морских милях к северу от залива Кабаньяс на западе Кубы. В пятницу Морское управление Панамы сообщило, что из 16 человек на борту 12 выжили, один погиб, трое числились пропавшими без вести.\n\nПоисками руководили кубинские власти. Как передало агентство Reuters со ссылкой на кубинское заявление, обстоятельства крушения выясняла кубинская комиссия. Панамское ведомство по расследованию морских аварий связалось с кубинской стороной и оператором судна для координации расследования.\n\nНомер судна в реестре ИМО — 9121869. На архивном снимке, сделанном в шведском порту Гётеборг в 2015 году, оно ходило под названием Katharina B.",
+          "photoAlt": "Синяя Katharina B с контейнерами на палубе входит в порт Гётеборга.",
+          "photoCaption": "Архивный снимок от 2 июля 2015 года. Судно, позднее получившее название Halima, входит в порт Гётеборга в Швеции под именем Katharina B."
+        },
+        "ko": {
+          "title": "쿠바 앞바다에서 컨테이너선 할리마호 침몰…금요일 집계 12명 생존·3명 실종",
+          "summary": "컨테이너선은 목요일 카바냐스만 북쪽에서 침몰했다. 해사 당국에 따르면 승조원 16명 가운데 1명이 숨졌다.",
+          "body": "파나마 선적 컨테이너선 할리마호가 11월 26일 쿠바 서부 카바냐스만에서 북쪽으로 약 3해리 떨어진 해역에서 침몰했다. 파나마 해사청은 금요일 승선자 16명 가운데 12명이 살아남았고 1명이 숨졌으며 3명이 실종됐다고 밝혔다.\n\n수색은 쿠바 당국이 지휘했다. 로이터가 인용한 쿠바 측 성명에 따르면 쿠바 조사위원회가 침몰 경위를 조사하고 있었다. 파나마 해양사고 조사 당국은 조사 공조를 위해 쿠바 당국 및 선박 운영사와 연락을 취했다.\n\n이 선박의 국제해사기구 식별번호는 9121869다. 2015년 스웨덴 예테보리항에서 촬영한 자료 사진에는 당시 선명인 카타리나 B호로 운항하던 모습이 담겼다.",
+          "photoAlt": "푸른 선체의 카타리나 B호가 갑판에 컨테이너를 싣고 예테보리항으로 들어간다.",
+          "photoCaption": "2015년 7월 2일 자료 사진. 훗날 할리마호로 이름이 바뀐 선박이 카타리나 B호라는 이름으로 스웨덴 예테보리항에 들어오고 있다."
+        }
+      }
     }
   ]
 }
