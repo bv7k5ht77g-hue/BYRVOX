@@ -1,0 +1,32 @@
+# Édition du 28 novembre 2026 à 06 h UTC
+
+Deux nouvelles distinctes livrées. États-Unis 1 (Californie), Canada 1 (Québec), autres pays 0. Floride, Texas, New York, Delaware et Massachusetts : 0 chacun. Aucun lien transfrontalier à compter. [Une](https://byrvox.today/) · [Édition](https://byrvox.today/newswire?hour=2026-11-28T06) · [Registre](https://byrvox.today/api/newswire) · [RSS](https://byrvox.today/rss.xml).
+
+| Rang | Publication | Sélection et illustration |
+| --- | --- | --- |
+| 1 | [Californie — autocars entre Irvine et Oceanside](https://byrvox.today/article/californie-pacific-surfliner-autocars-irvine-oceanside-marees) | L’interruption à San Clemente a modifié le trajet réel des voyageurs vendredi. Avis de Pacific Surfliner, couverture d’edhat et de City News Service chez NBC Los Angeles. Aucun cliché des dégâts du 26 ou du 27 novembre avec droits établis n’a été trouvé. Comparaison de vues côtières de 2008, 2010 et du 10 juillet 2011. Le cliché de Loco Steve situe le train et la voie le long de la plage. Celui de 2019 montre un autre secteur de la ligne. |
+| 2 | [Québec — fermeture du tunnel La Fontaine vers Montréal](https://byrvox.today/article/quebec-tunnel-la-fontaine-fermeture-montreal-fin-semaine-27-novembre) | La fermeture du vendredi soir rend l’itinéraire impraticable vers Montréal pendant la fin de semaine. Horaires vérifiés auprès du ministère et de CityNews, qui a également interrogé son porte-parole sur le déplacement des voies. Aucune photo réutilisable de cette fermeture précise n’a été identifiée. Le cliché du 7 septembre 2014 situe la chaussée sur l’île Charron. Les intérieurs de 2007 et 2009 sont plus anciens. Le panorama aérien de 2024 situe le fleuve mais rend l’ouvrage difficile à distinguer en vignette. |
+
+Les deux rangs ont été contrôlés au registre public, en français et dans les six traductions sur les pages des articles, y compris les photos, les légendes, les textes alternatifs et les crédits.
+
+### Historique examiné
+
+Éditions du 27 novembre à 06 h au 28 novembre à 05 h UTC incluses, manifestes horaires et thématiques disponibles sur main. Sur 49 eventKey distinctes, 45 avaient un reçu encore visible dans le registre récent et les quatre autres une publication dans le RSS. Répartition par lieu principal : États-Unis 13, Canada 9, autres 27. États-Unis : New York 3, Delaware 2, Floride 2, Californie 1, Texas 1, Indiana 1, Pennsylvanie 1, Porto Rico 1 (territoire) et sujet fédéral 1. Les traductions et les tentatives de livraison écartées sont exclues.
+
+### Veille et décisions
+
+Les recherches ont porté sur les zones suivantes. Les sources repérées par leurs index locaux n’ont pas toutes fait l’objet d’une vérification article par article.
+
+| Zone | Sources et suites |
+| --- | --- |
+| Californie | Los Angeles, San Diego, Sacramento, baie de San Francisco. Les horaires de Thanksgiving publiés par SFMTA étaient antérieurs. L’interruption à San Clemente est distincte des fermetures de rues à Pacifica déjà livrées. |
+| Floride | Miami-Dade, Broward/Fort Lauderdale, Naples/Collier, Lehigh Acres/Lee, Tallahassee/Leon et Orlando. WSVN, Miami Herald et les avis du National Weather Service. Réouverture des pistes de Miami et préparatifs de lancement à Cap Canaveral déjà couverts. L’incendie d’une habitation à Fort Lauderdale n’a pas réuni une seconde confirmation et une image appropriée. |
+| Delaware | Wilmington, Dover, New Castle, Kent et Sussex. Le fil Delaware Express reprenait la fermeture de la route 1, dont la réouverture était déjà publiée. Aucun nouveau point de situation vérifié et illustré sur les dégâts à Bowers Beach. |
+| Texas | Houston, Dallas–Fort Worth, Austin, San Antonio. Bulletins de la Texas Division of Emergency Management et couverture de la circulation sur l’I‑35 par MySA. Les prévisions de déplacements ne constituaient pas un nouvel incident. |
+| New York et Massachusetts | Ville et État de New York, Long Island (Nassau et Suffolk), Boston et Massachusetts. Avis de circulation de la Ville de New York et couverture d’AP et CBS New York sur le défilé. Les préparatifs figuraient déjà dans les manifestes. Les résultats sur Boston n’ont pas fourni une nouvelle locale suffisamment vérifiée. |
+| Canada | Recherches sur les dix provinces, notamment avec TVA Nouvelles et CityNews au Québec, le Winnipeg Free Press et les nouvelles municipales dans les Prairies, les bulletins d’Environnement Canada dans les Maritimes. Pour le tunnel, l’article français du Journal de Montréal a présenté une boucle de redirection. Le contrôle a pu être fait avec les publications gouvernementales et CityNews. |
+| Caraïbes | Recherches en français, anglais et espagnol concernant notamment Kingston et la Jamaïque, Martinique, Guadeloupe, Haïti, République dominicaine, Porto Rico, Cuba, Bahamas, Trinidad-et-Tobago et Barbade. Bulletin du 27 novembre de Santé publique France sur les infections respiratoires aux Antilles, RCI, presse jamaïcaine et bulletins bahamiens. La phase épidémique de bronchiolite en Martinique reposait dans les résultats vérifiés sur une seule chaîne de données. |
+| Afrique, Europe, Amérique latine | Recherches sur les cinq sous-régions africaines, y compris en arabe et en portugais. Revues régionales Impact.sn, résultats marocains, brèves d’Afrique australe. Le bulletin hispanophone d’EFE chez Infobae a alimenté la veille européenne et latino-américaine. Aucun sujet supplémentaire n’a réuni le recoupement et la photographie requis. |
+| Asie et Océanie | Recherches sur l’Asie de l’Est, du Sud-Est, du Sud, du Centre et de l’Ouest. Résultats en chinois de la commission électorale taïwanaise et couverture Reuters. L’ouverture du vote à Taïwan était déjà publiée. Recherches sur l’Australie, la Nouvelle-Zélande et les îles du Pacifique. La Commission électorale néo-zélandaise, Reuters, ABC et RNZ ont permis de vérifier le décompte. Le contrôle historique du site a reconnu [l’article déjà publié](https://byrvox.today/article/nouvelle-zelande-decompte-officiel-coalition-65-sieges). La proposition a été retirée du manifeste avant la livraison du sujet québécois au rang 2. |
+
+La cible complète de trois articles américains, deux canadiens et deux internationaux n’a pas été atteinte. Priorités au prochain passage : vérifier les rétablissements effectifs sur le littoral en Californie et au Delaware, les développements locaux en Floride et les premiers résultats électoraux confirmés à Taïwan. Une évolution du bilan à Cuba ou des données sanitaires aux Antilles mérite un nouveau recoupement local.
