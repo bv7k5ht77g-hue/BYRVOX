@@ -1,0 +1,162 @@
+{
+  "hour": "2026-11-28T00",
+  "articles": [
+    {
+      "eventKey": "floride-cap-canaveral-cygnus-xl-crs-25-preparatifs-lancement-dimanche",
+      "category": "États-Unis",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/11/27/nasa-partners-preps-on-track-for-sunday-space-station-cargo-launch/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Central Florida Public Media — Marian Summerall",
+          "url": "https://www.cfpublic.org/space/2026-11-25/international-space-station-expecting-post-black-friday-delivery",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "photo": {
+        "subject": "Cygnus XL",
+        "context": "Station spatiale internationale",
+        "capturedOn": "2026-10-09",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Cygnus_XL_cargo_spacecraft_is_pictured_in_the_grip_of_the_Canadarm2_robotic_arm_(iss075e0189493).jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/2/2b/The_Cygnus_XL_cargo_spacecraft_is_pictured_in_the_grip_of_the_Canadarm2_robotic_arm_(iss075e0189493).jpg",
+        "credit": "NASA Johnson Space Center / Wikimedia Commons",
+        "license": "Domaine public (NASA)",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA",
+        "alt": "Le cargo cylindrique Cygnus XL, panneaux solaires déployés, au bout du bras Canadarm2 de la Station spatiale internationale, au-dessus de la Terre.",
+        "caption": "Archives du 9 octobre 2026. Le bras Canadarm2 de la Station spatiale internationale tient un Cygnus XL juste avant son largage au terme d’une précédente mission, au-dessus de l’océan Indien, au large de Madagascar."
+      },
+      "title": "En Floride, la NASA maintient dimanche comme objectif pour le lancement de Cygnus XL",
+      "summary": "À Cap Canaveral, aux États-Unis, une fusée Falcon 9 doit emporter près de cinq tonnes de vivres, de matériel et d’expériences vers la Station spatiale internationale.",
+      "body": "La NASA a donné vendredi 27 novembre son feu vert à la poursuite des préparatifs de la mission de ravitaillement CRS-25. Après examen des prévisions météo et du travail restant, l’équipe de la Station spatiale internationale vise un décollage de Cap Canaveral dimanche 29 novembre à 10 h 47, heure de Floride (15 h 47 UTC).\n\nUne fusée Falcon 9 de SpaceX doit placer en orbite le cargo Cygnus XL de Northrop Grumman. Parmi les expériences à bord, Central Florida Public Media signale une étude sur la perte musculaire en vol spatial. Une fois le cargo à portée de la station, les astronautes doivent le saisir à l’aide du bras robotisé Canadarm2 avant de pouvoir décharger la cargaison.",
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "NASA keeps Sunday as its target for Cygnus XL launch from Florida",
+          "summary": "At Cape Canaveral in the United States, a Falcon 9 rocket is due to carry nearly five metric tons of supplies, equipment and experiments to the International Space Station.",
+          "body": "On Friday, November 27, NASA gave teams the go-ahead to continue preparing the CRS-25 resupply mission. After reviewing the weather forecast and the remaining work, the International Space Station team is targeting liftoff from Cape Canaveral on Sunday, November 29, at 10:47 a.m. local time (15:47 UTC).\n\nA SpaceX Falcon 9 rocket is to carry Northrop Grumman’s Cygnus XL cargo spacecraft into orbit. Central Florida Public Media reports that the experiments aboard include a study of muscle loss during spaceflight. Once the spacecraft is within reach of the station, astronauts are to capture it with the Canadarm2 robotic arm before unloading its cargo.",
+          "photoAlt": "The cylindrical Cygnus XL, its solar panels extended, at the end of the International Space Station’s Canadarm2 arm above Earth.",
+          "photoCaption": "File photo, October 9, 2026. The International Space Station’s Canadarm2 holds a Cygnus XL just before its release at the end of an earlier mission, above the Indian Ocean off Madagascar."
+        },
+        "es": {
+          "title": "La NASA mantiene el domingo como fecha prevista para lanzar el Cygnus XL desde Florida",
+          "summary": "En Cabo Cañaveral, Estados Unidos, un cohete Falcon 9 llevará cerca de cinco toneladas de víveres, equipos y experimentos a la Estación Espacial Internacional.",
+          "body": "La NASA dio el viernes 27 de noviembre el visto bueno para continuar los preparativos de la misión de reabastecimiento CRS-25. Tras revisar el pronóstico del tiempo y el trabajo pendiente, el equipo de la Estación Espacial Internacional prevé el despegue desde Cabo Cañaveral para el domingo 29 de noviembre a las 10:47, hora local (15:47 UTC).\n\nUn cohete Falcon 9 de SpaceX pondrá en órbita el carguero Cygnus XL de Northrop Grumman. Entre los experimentos a bordo, Central Florida Public Media destaca un estudio sobre la pérdida muscular durante los vuelos espaciales. Cuando el carguero esté al alcance de la estación, los astronautas deberán capturarlo con el brazo robótico Canadarm2 antes de descargarlo.",
+          "photoAlt": "El carguero cilíndrico Cygnus XL, con los paneles solares desplegados, en el extremo del brazo Canadarm2 de la Estación Espacial Internacional, sobre la Tierra.",
+          "photoCaption": "Archivo del 9 de octubre de 2026. El brazo Canadarm2 de la Estación Espacial Internacional sujeta un Cygnus XL justo antes de soltarlo al término de una misión anterior, sobre el océano Índico frente a Madagascar."
+        },
+        "ar": {
+          "title": "ناسا تواصل الاستعداد لإطلاق مركبة «سيغنوس إكس إل» من فلوريدا الأحد",
+          "summary": "من المقرر أن ينطلق صاروخ فالكون 9 من كيب كانافيرال في الولايات المتحدة حاملاً قرابة خمسة أطنان من المؤن والمعدات والتجارب إلى محطة الفضاء الدولية.",
+          "body": "أعطت ناسا يوم الجمعة 27 نوفمبر الضوء الأخضر لمواصلة الاستعدادات لمهمة الإمداد CRS-25. وبعد مراجعة توقعات الطقس والأعمال المتبقية، يستهدف فريق محطة الفضاء الدولية إطلاق المركبة من كيب كانافيرال يوم الأحد 29 نوفمبر عند الساعة 10:47 صباحاً بالتوقيت المحلي (15:47 بالتوقيت العالمي المنسق).\n\nومن المقرر أن يضع صاروخ فالكون 9 التابع لشركة سبيس إكس مركبة الشحن «سيغنوس إكس إل» التي صنعتها نورثروب غرومان في المدار. وذكرت إذاعة «سنترال فلوريدا بابليك ميديا» أن التجارب على متنها تشمل دراسة عن فقدان الكتلة العضلية أثناء الرحلات الفضائية. وعند اقتراب المركبة من المحطة، سيستخدم رواد الفضاء الذراع الآلية «كندارم 2» للإمساك بها قبل تفريغ حمولتها.",
+          "photoAlt": "مركبة الشحن الأسطوانية «سيغنوس إكس إل» بألواحها الشمسية المفتوحة في قبضة ذراع «كندارم 2» التابعة لمحطة الفضاء الدولية، وتبدو الأرض خلفها.",
+          "photoCaption": "صورة أرشيفية من 9 أكتوبر 2026. تمسك ذراع «كندارم 2» التابعة لمحطة الفضاء الدولية بمركبة «سيغنوس إكس إل» قبيل إطلاقها في نهاية مهمة سابقة فوق المحيط الهندي قبالة مدغشقر."
+        },
+        "zh-CN": {
+          "title": "美国航天局继续以周日为目标，准备从佛罗里达州发射天鹅座XL货运飞船",
+          "summary": "一枚猎鹰9号火箭预计从美国卡纳维拉尔角升空，向国际空间站运送近五吨食品、设备和实验物资。",
+          "body": "美国航天局11月27日星期五同意继续进行CRS-25补给任务的发射准备工作。国际空间站任务团队评估了天气预报和尚待完成的工作后，将发射目标时间定在11月29日星期日当地时间上午10时47分（协调世界时15时47分），地点在卡纳维拉尔角。\n\nSpaceX的猎鹰9号火箭将把诺斯罗普·格鲁曼公司的天鹅座XL货运飞船送入轨道。据佛罗里达中部公共媒体报道，船上的实验包括一项有关太空飞行中肌肉流失的研究。待飞船接近空间站，航天员将用加拿大臂2号机械臂捕获飞船，随后才能卸货。",
+          "photoAlt": "地球上空，国际空间站加拿大臂2号机械臂抓住圆柱形的天鹅座XL货运飞船，飞船的太阳能电池板已展开。",
+          "photoCaption": "资料照片，摄于2026年10月9日。在此前一次任务结束时，国际空间站的加拿大臂2号机械臂即将释放一艘天鹅座XL飞船，下方是马达加斯加近海的印度洋。"
+        },
+        "ru": {
+          "title": "НАСА по-прежнему планирует запустить Cygnus XL из Флориды в воскресенье",
+          "summary": "Ракета Falcon 9 должна стартовать с мыса Канаверал в США и доставить к Международной космической станции почти пять тонн продовольствия, оборудования и материалов для экспериментов.",
+          "body": "В пятницу, 27 ноября, НАСА одобрило продолжение подготовки к полёту грузовой миссии CRS-25. Изучив прогноз погоды и оценив оставшиеся работы, группа управления Международной космической станцией по-прежнему планирует старт с мыса Канаверал на воскресенье, 29 ноября, в 10:47 по местному времени (15:47 UTC).\n\nРакета Falcon 9 компании SpaceX должна вывести на орбиту грузовой корабль Cygnus XL компании Northrop Grumman. По данным Central Florida Public Media, один из экспериментов на борту посвящён потере мышечной массы в космическом полёте. Когда корабль приблизится к станции, астронавты должны захватить его манипулятором Canadarm2, после чего можно будет приступить к разгрузке.",
+          "photoAlt": "Цилиндрический грузовой корабль Cygnus XL с раскрытыми солнечными батареями в захвате манипулятора Canadarm2 Международной космической станции на фоне Земли.",
+          "photoCaption": "Архивный снимок от 9 октября 2026 года. Манипулятор Canadarm2 Международной космической станции удерживает Cygnus XL перед отделением в конце предыдущей миссии над Индийским океаном у берегов Мадагаскара."
+        },
+        "ko": {
+          "title": "미 항공우주국, 플로리다에서 일요일 시그너스 XL 발사 목표 유지",
+          "summary": "미국 플로리다주 케이프커내버럴에서 팰컨 9 로켓이 식량과 장비, 실험 물자 약 5톤을 싣고 국제우주정거장으로 향할 예정이다.",
+          "body": "미 항공우주국(NASA)은 11월 27일 금요일 CRS-25 보급 임무의 발사 준비를 계속하도록 승인했다. 국제우주정거장 임무팀은 기상 예보와 남은 작업을 검토한 뒤 케이프커내버럴 발사 목표 시각을 11월 29일 일요일 현지 시각 오전 10시 47분(UTC 15시 47분)으로 잡았다.\n\n스페이스X의 팰컨 9 로켓이 노스럽그러먼의 시그너스 XL 화물선을 궤도에 올릴 예정이다. 센트럴 플로리다 퍼블릭 미디어에 따르면 화물선에는 우주 비행 중 근육 손실을 조사하는 실험 물자도 실린다. 화물선이 정거장 가까이 오면 우주비행사들이 로봇팔 캐나담2로 화물선을 붙잡은 뒤 짐을 내릴 수 있다.",
+          "photoAlt": "지구를 배경으로 국제우주정거장의 로봇팔 캐나담2가 태양 전지판을 펼친 원통형 시그너스 XL 화물선을 붙잡고 있다.",
+          "photoCaption": "2026년 10월 9일 자료 사진. 이전 임무가 끝날 무렵 마다가스카르 연안 인도양 상공에서 국제우주정거장의 캐나담2가 시그너스 XL을 놓아주기 직전의 모습이다."
+        }
+      }
+    },
+    {
+      "eventKey": "australie-victoria-ouverture-bureaux-vote-elections-parlement-2026",
+      "category": "Australie",
+      "sources": [
+        {
+          "name": "Victorian Electoral Commission",
+          "url": "https://vec.vic.gov.au/about-us/media/media-releases/make-your-voice-heard-in-victorias-biggest-election-yet",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "ABC News Australia — reportage en direct",
+          "url": "https://www.abc.net.au/news/2026-11-28/victorian-election-live-updates-voting-results-seat-count/107418038",
+          "publishedAt": "2026-11-28"
+        },
+        {
+          "name": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/28/victorian-election-2026-when-is-it-how-to-vote-date-where-victoria-state-polls-candidates-voting-near-count-ntwnfb",
+          "publishedAt": "2026-10-29T01:00:00+11:00"
+        }
+      ],
+      "photo": {
+        "subject": "bureau de vote anticipé",
+        "context": "Melbourne",
+        "capturedOn": "2026-11-20",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Town_Hall_early_voting_20112026.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/9/93/Town_Hall_early_voting_20112026.jpg",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "credit": "Totallynotarandomalt69 / Wikimedia Commons",
+        "alt": "Des personnes sous des parapluies et des panneaux de campagne devant le bureau de vote anticipé de l’hôtel de ville de Melbourne.",
+        "caption": "Archives du 20 novembre 2026. Des personnes se tiennent devant l’hôtel de ville de Melbourne, alors utilisé comme bureau de vote anticipé pour l’élection du Victoria."
+      },
+      "title": "En Australie, les électeurs du Victoria votent pour renouveler le Parlement de l’État",
+      "summary": "À Melbourne, des électeurs ont fait la queue sous la pluie samedi matin. Les bureaux de vote du Victoria doivent fermer à 18 h, heure locale.",
+      "body": "Les électeurs du Victoria ont commencé à voter samedi 28 novembre à 8 h pour renouveler les deux chambres du Parlement de cet État australien. À Kensington, un quartier de Melbourne, des habitants attendaient sous la pluie pour déposer leur bulletin, selon les journalistes d’ABC présents sur place.\n\nLe vote anticipé s’est terminé vendredi. Dans le centre de Melbourne, l’hôtel de ville avait notamment accueilli un bureau de vote anticipé. Pour les personnes inscrites qui votent samedi, la commission électorale précise qu’elles peuvent choisir un bureau dans tout l’État et que le scrutin se termine à 18 h, heure locale.",
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Voters in Australia’s Victoria go to the polls to elect a new state parliament",
+          "summary": "Voters lined up in the rain in Melbourne on Saturday morning. Polling places across Victoria are due to close at 6 p.m. local time.",
+          "body": "Voters in Victoria began casting ballots at 8 a.m. on Saturday, November 28, to elect both houses of the Australian state’s parliament. In the Melbourne suburb of Kensington, residents waited in the rain to cast their ballots, ABC journalists at the scene reported.\n\nEarly voting ended on Friday. Melbourne Town Hall was among the early voting centres in the city centre. The electoral commission says registered voters who cast their ballots on Saturday may use any polling place in the state. Voting closes at 6 p.m. local time.",
+          "photoAlt": "People shelter under umbrellas beside campaign signs outside the early voting centre at Melbourne Town Hall.",
+          "photoCaption": "File photo, November 20, 2026. People stand outside Melbourne Town Hall while it was serving as an early voting centre for the Victorian state election."
+        },
+        "es": {
+          "title": "El estado australiano de Victoria acude a las urnas para renovar su Parlamento",
+          "summary": "En Melbourne, los votantes hicieron cola bajo la lluvia el sábado por la mañana. Los colegios electorales de Victoria cierran a las 18:00, hora local.",
+          "body": "Los electores de Victoria empezaron a votar el sábado 28 de noviembre a las 8:00 para renovar las dos cámaras del Parlamento de este estado australiano. En Kensington, un barrio de Melbourne, los vecinos esperaban bajo la lluvia para depositar su voto, según los periodistas de ABC presentes en el lugar.\n\nLa votación anticipada terminó el viernes. El ayuntamiento de Melbourne había albergado uno de los centros de voto anticipado del centro de la ciudad. La comisión electoral indica que los electores inscritos que voten el sábado pueden hacerlo en cualquier colegio del estado. La votación concluye a las 18:00, hora local.",
+          "photoAlt": "Personas con paraguas junto a carteles de campaña frente al centro de voto anticipado del ayuntamiento de Melbourne.",
+          "photoCaption": "Archivo del 20 de noviembre de 2026. Varias personas ante el ayuntamiento de Melbourne, que entonces funcionaba como centro de voto anticipado para las elecciones de Victoria."
+        },
+        "ar": {
+          "title": "الناخبون في ولاية فيكتوريا الأسترالية يصوّتون لانتخاب برلمان جديد",
+          "summary": "اصطف ناخبون تحت المطر في ملبورن صباح السبت. ومن المقرر أن تغلق مراكز الاقتراع في فيكتوريا عند السادسة مساءً بالتوقيت المحلي.",
+          "body": "بدأ ناخبو فيكتوريا التصويت في الثامنة صباح السبت 28 نوفمبر لانتخاب أعضاء مجلسَي برلمان هذه الولاية الأسترالية. وفي حي كنسينغتون في ملبورن، انتظر السكان تحت المطر للإدلاء بأصواتهم، بحسب صحفيي هيئة الإذاعة الأسترالية الموجودين في الموقع.\n\nانتهى التصويت المبكر يوم الجمعة. وكان مبنى بلدية ملبورن أحد مراكز التصويت المبكر في وسط المدينة. وأوضحت لجنة الانتخابات أن بإمكان الناخبين المسجلين الذين يدلون بأصواتهم يوم السبت اختيار أي مركز اقتراع في الولاية، وأن التصويت ينتهي في السادسة مساءً بالتوقيت المحلي.",
+          "photoAlt": "أشخاص يحتمون بمظلات بجوار لافتات انتخابية أمام مركز التصويت المبكر في مبنى بلدية ملبورن.",
+          "photoCaption": "صورة أرشيفية من 20 نوفمبر 2026. أشخاص أمام مبنى بلدية ملبورن عندما كان يُستخدم مركزاً للتصويت المبكر في انتخابات ولاية فيكتوريا."
+        },
+        "zh-CN": {
+          "title": "澳大利亚维多利亚州选民投票改选州议会",
+          "summary": "周六上午，墨尔本有选民冒雨排队。维多利亚州各投票站将于当地时间下午6时关闭。",
+          "body": "11月28日星期六上午8时，澳大利亚维多利亚州选民开始投票，选举州议会上下两院议员。澳大利亚广播公司记者在墨尔本的肯辛顿区看到，当地居民在雨中等候投票。\n\n提前投票已于星期五结束。墨尔本市政厅此前是市中心的一处提前投票站。州选举委员会表示，已登记并选择在星期六投票的选民可以前往州内任何一个投票站。投票于当地时间下午6时结束。",
+          "photoAlt": "墨尔本市政厅提前投票站外，人们撑着雨伞站在竞选标牌旁。",
+          "photoCaption": "资料照片，摄于2026年11月20日。人们站在墨尔本市政厅外，当时这里是维多利亚州议会选举的提前投票站。"
+        },
+        "ru": {
+          "title": "В австралийском штате Виктория избиратели выбирают новый парламент",
+          "summary": "Утром в субботу в Мельбурне избиратели стояли в очереди под дождём. Участки в Виктории закроются в 18:00 по местному времени.",
+          "body": "В субботу, 28 ноября, в 8:00 в австралийском штате Виктория началось голосование на выборах в обе палаты парламента штата. В мельбурнском районе Кенсингтон жители ждали своей очереди под дождём, передали с места событий журналисты австралийской телерадиокомпании ABC.\n\nДосрочное голосование завершилось в пятницу. Один из досрочных участков в центре Мельбурна работал в городской ратуше. По данным избирательной комиссии, зарегистрированные избиратели в субботу могут проголосовать на любом участке штата. Голосование заканчивается в 18:00 по местному времени.",
+          "photoAlt": "Люди под зонтами рядом с агитационными плакатами у участка досрочного голосования в ратуше Мельбурна.",
+          "photoCaption": "Архивный снимок от 20 ноября 2026 года. Люди перед ратушей Мельбурна, где в то время работал участок досрочного голосования на выборах в парламент Виктории."
+        },
+        "ko": {
+          "title": "호주 빅토리아주, 주의회 선거 투표 시작",
+          "summary": "토요일 오전 멜버른에서는 유권자들이 비를 맞으며 줄을 섰다. 빅토리아주 투표소는 현지 시각 오후 6시에 문을 닫는다.",
+          "body": "호주 빅토리아주에서 11월 28일 토요일 오전 8시 주의회 상원과 하원 의원을 뽑는 투표가 시작됐다. 현장을 취재한 호주 ABC 기자들에 따르면 멜버른 켄싱턴 지역에서는 주민들이 빗속에서 투표 차례를 기다렸다.\n\n사전투표는 금요일에 끝났다. 멜버른 도심에서는 시청 건물도 사전투표소로 쓰였다. 주 선거관리위원회에 따르면 토요일에 투표하는 등록 유권자는 주 내 어느 투표소에서나 표를 행사할 수 있다. 투표는 현지 시각 오후 6시에 마감된다.",
+          "photoAlt": "멜버른 시청에 마련된 사전투표소 밖에서 사람들이 선거 홍보물 옆에 우산을 쓰고 서 있다.",
+          "photoCaption": "2026년 11월 20일 자료 사진. 빅토리아주 선거 사전투표소로 쓰이던 멜버른 시청 앞에 사람들이 서 있다."
+        }
+      }
+    }
+  ]
+}
