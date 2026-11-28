@@ -1,0 +1,23 @@
+{
+  "hour": "2026-11-28T11",
+  "origin": "automation",
+  "status": "blocked",
+  "zonesConsulted": [],
+  "zonesRepresented": [],
+  "selected": [],
+  "discarded": [],
+  "sources": [],
+  "published": [],
+  "duplicates": [],
+  "publishedCount": 0,
+  "translationsPublished": 0,
+  "obstacles": [
+    "Normal private session page: Chromium returned net::ERR_BLOCKED_BY_ADMINISTRATOR; no access controls bypassed.",
+    "Direct connectivity check to the same URL at 2026-11-28T10:59:47Z: curl exit 6, HTTP 000, could not resolve host byrvox.today.",
+    "Private settings.value, settings.version and due could not be read; no session or proof created, no private status receipt possible. Editorial research, deduplication and delivery not started."
+  ],
+  "protocolsRead": [
+    "docs/AGENT_BUZZEUR.md",
+    "docs/EDITION_HORAIRE_BUZZEUR.md"
+  ]
+}
