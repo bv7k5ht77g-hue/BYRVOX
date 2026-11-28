@@ -1,0 +1,23 @@
+{
+  "hour": "2026-11-28T13",
+  "origin": "automation",
+  "status": "blocked",
+  "zonesConsulted": [],
+  "zonesRepresented": [],
+  "selected": [],
+  "discarded": [],
+  "sources": [],
+  "published": [],
+  "duplicates": [],
+  "publishedCount": 0,
+  "translationsPublished": 0,
+  "obstacles": [
+    "Direct HTTP check to https://byrvox.today/agent-session?site=buzzeur: curl exit 6, HTTP 000, could not resolve host byrvox.today.",
+    "Chromium navigation to the documented session page returned net::ERR_BLOCKED_BY_ADMINISTRATOR. No access restrictions bypassed.",
+    "Private settings.value, settings.version and due remain unknown. No session or proof created; no private status receipt possible. Research, deduplication, translation and publication not started."
+  ],
+  "protocolsRead": [
+    "docs/AGENT_BUZZEUR.md",
+    "docs/EDITION_HORAIRE_BUZZEUR.md"
+  ]
+}
