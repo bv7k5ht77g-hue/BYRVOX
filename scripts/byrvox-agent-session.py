@@ -23,6 +23,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--hour', required=True)
     parser.add_argument('--origin', choices=ORIGINS, default=ORIGINS[0])
+    parser.add_argument('--media', choices=('byrvox','buzzeur'), default='byrvox')
     args = parser.parse_args()
     if not re.fullmatch(r'\d{4}-\d{2}-\d{2}T\d{2}', args.hour):
         parser.error('An edition hour YYYY-MM-DDTHH is required.')
@@ -31,7 +32,8 @@ def main():
     secret = secrets.token_hex(32)
     proof = {'hour':args.hour, 'sha256':hashlib.sha256(secret.encode()).hexdigest(),
              'issuedAt':issued.isoformat(), 'expiresAt':expiry.isoformat()}
-    emit({'event':'access-proof', 'path':'newswire/agent-access/'+args.hour+'/'+proof['sha256']+'.json', 'document':proof})
+    directory = 'buzzeur-newswire' if args.media == 'buzzeur' else 'newswire'
+    emit({'event':'access-proof', 'path':directory+'/agent-access/'+args.hour+'/'+proof['sha256']+'.json', 'document':proof})
     for line in sys.stdin:
         try:
             command = json.loads(line)
@@ -53,9 +55,9 @@ def main():
                 payload = json.dumps({**data,'hour':args.hour},ensure_ascii=False).encode()
                 if len(payload) > 40000:
                     raise ValueError('Compte rendu trop volumineux.')
-            headers = {'User-Agent':'BYRVOX-Agent/1.0','Authorization':'Bearer '+secret,
-                       'X-BYRVOX-Edition':args.hour,'Content-Type':'application/json'}
-            request = urllib.request.Request(args.origin+'/api/agent/byrvox',data=payload,headers=headers,
+            headers = {'User-Agent':args.media.upper()+'-Agent/1.0','Authorization':'Bearer '+secret,
+                       'X-'+args.media.upper()+'-Edition':args.hour,'Content-Type':'application/json'}
+            request = urllib.request.Request(args.origin+'/api/agent/'+args.media,data=payload,headers=headers,
                                              method='POST' if payload is not None else 'GET')
             try:
                 with urllib.request.urlopen(request,timeout=35) as response:
