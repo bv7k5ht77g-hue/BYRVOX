@@ -1,0 +1,167 @@
+{
+  "hour": "2026-11-28T04",
+  "articles": [
+    {
+      "eventKey": "taiwan-elections-locales-ouverture-vote-referendum-nucleaire",
+      "category": "Taïwan",
+      "title": "Taïwan vote pour ses élus locaux et se prononce sur l’avenir du nucléaire",
+      "summary": "À Taipei comme ailleurs à Taïwan, les électeurs choisissent leurs représentants locaux. Un bulletin distinct porte sur l’abandon de la politique de sortie du nucléaire.",
+      "body": "À Taipei, des électeurs attendaient samedi matin devant les bureaux de vote pour les élections locales de Taïwan. Les bureaux ont ouvert à 8 h le 28 novembre et doivent fermer à 16 h, heure locale, selon la Commission électorale centrale. Les journalistes de l’agence CNA et d’Associated Press ont suivi le début du scrutin sur place.\n\nDeux décisions se jouent dans la même journée. Les électeurs renouvellent notamment les maires et les conseils locaux. Un référendum national leur demande aussi s’ils soutiennent le recours à l’électricité nucléaire pour stimuler l’économie et abandonner la politique de sortie du nucléaire.",
+      "photo": {
+        "subject": "électeurs",
+        "context": "élections locales",
+        "capturedOn": "2014-11-29",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2014%E5%B9%B4%E5%8F%B0%E7%81%A3%E9%81%B8%E6%B0%91%E6%8E%92%E9%9A%8A%E7%AD%89%E5%80%99%E6%8A%95%E7%A5%A8.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/7/7f/2014%E5%B9%B4%E5%8F%B0%E7%81%A3%E9%81%B8%E6%B0%91%E6%8E%92%E9%9A%8A%E7%AD%89%E5%80%99%E6%8A%95%E7%A5%A8.jpg",
+        "credit": "Xu Bo (許波) / Voice of America",
+        "license": "Domaine public — Voice of America",
+        "licenseUrl": "https://www.voanews.com/p/5338.html",
+        "alt": "Des électeurs font la queue devant un bureau de vote à Taipei lors des élections locales de 2014.",
+        "caption": "Archive du 29 novembre 2014. Des électeurs attendent leur tour dans un bureau de vote à Taipei lors des élections locales de Taïwan."
+      },
+      "sources": [
+        {
+          "name": "Central News Agency (CNA)",
+          "url": "https://focustaiwan.tw/politics/202611280002",
+          "publishedAt": "2026-11-28"
+        },
+        {
+          "name": "Commission électorale centrale de Taïwan",
+          "url": "https://info.cec.gov.tw/vote2026/static/file/2074fdd683844689b5bbdfe0e3ac48b3.pdf",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/taiwan-local-elections-a7e3622548f69a41da3e1ec6ce9c9f19",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Taiwan votes for local leaders and weighs the future of nuclear power",
+          "summary": "In Taipei and across Taiwan, voters are choosing local representatives. A separate ballot asks whether to abandon the nuclear phaseout policy.",
+          "body": "Voters lined up at polling stations in Taipei on Saturday morning for Taiwan’s local elections. Polls opened at 8 a.m. on November 28 and are due to close at 4 p.m. local time, according to the Central Election Commission. Reporters from CNA and The Associated Press were on the ground as voting began.\n\nVoters face two decisions on the same day. They are electing mayors and local councils, among other offices. A national referendum also asks whether they support using nuclear power to stimulate the economy and ending the policy of phasing out nuclear energy.",
+          "photoAlt": "Voters queue outside a Taipei polling station during the 2014 local elections.",
+          "photoCaption": "Archive photo, November 29, 2014. Voters wait their turn at a Taipei polling station during Taiwan’s local elections."
+        },
+        "es": {
+          "title": "Taiwán elige a sus autoridades locales y vota sobre el futuro de la energía nuclear",
+          "summary": "En Taipéi y el resto de Taiwán, el electorado elige a sus representantes locales. En una papeleta aparte se consulta si debe abandonarse la política de eliminación gradual de la energía nuclear.",
+          "body": "En Taipéi se formaron filas en los colegios electorales el sábado por la mañana con motivo de las elecciones locales de Taiwán. Según la Comisión Electoral Central, los centros abrieron a las 8 y tienen previsto cerrar a las 16, hora local, este 28 de noviembre. Periodistas de CNA y de Associated Press cubrieron sobre el terreno el inicio de la votación.\n\nEl electorado tiene dos decisiones ante sí en una misma jornada. Se eligen, entre otros cargos, alcaldes y concejales. Un referéndum nacional pregunta además si se apoya el uso de la electricidad nuclear para estimular la economía y abandonar la política de eliminación gradual de esta fuente de energía.",
+          "photoAlt": "Electores hacen fila ante un colegio electoral de Taipéi en las elecciones locales de 2014.",
+          "photoCaption": "Archivo del 29 de noviembre de 2014. Electores esperan su turno en un colegio electoral de Taipéi durante las elecciones locales de Taiwán."
+        },
+        "ar": {
+          "title": "تايوان تنتخب ممثليها المحليين وتصوّت على مستقبل الطاقة النووية",
+          "summary": "يختار الناخبون في تايبيه وسائر أنحاء تايوان ممثليهم المحليين، ويصوّتون بورقة منفصلة على التخلي عن سياسة الاستغناء التدريجي عن الطاقة النووية.",
+          "body": "اصطف ناخبون صباح السبت أمام مراكز الاقتراع في تايبيه للمشاركة في الانتخابات المحلية في تايوان. ووفق اللجنة المركزية للانتخابات، فتحت المراكز أبوابها في الثامنة صباح 28 نوفمبر، ومن المقرر إغلاقها في الرابعة عصراً بالتوقيت المحلي. وتابع مراسلو وكالة الأنباء المركزية ووكالة أسوشيتد برس انطلاق التصويت ميدانياً.\n\nيتخذ الناخبون قرارين في يوم واحد. فهم ينتخبون رؤساء البلديات وأعضاء المجالس المحلية، إلى جانب مناصب أخرى. ويسألهم استفتاء وطني أيضاً عما إذا كانوا يؤيدون استخدام الكهرباء النووية لتنشيط الاقتصاد والتخلي عن سياسة الاستغناء التدريجي عن الطاقة النووية.",
+          "photoAlt": "ناخبون يصطفون أمام مركز اقتراع في تايبيه خلال الانتخابات المحلية عام 2014.",
+          "photoCaption": "صورة أرشيفية التُقطت في 29 نوفمبر 2014. ناخبون ينتظرون دورهم في مركز اقتراع في تايبيه خلال الانتخابات المحلية في تايوان."
+        },
+        "zh-CN": {
+          "title": "台湾地方选举开始投票，同日公投决定是否废除非核家园政策",
+          "summary": "从台北到台湾各地，选民投票选出地方公职人员，并用另一张选票表决是否废除非核家园政策。",
+          "body": "周六上午，台北多处投票所前有选民排队参加台湾地方选举。根据中央选举委员会的安排，各投票所于11月28日当地时间上午8时开放，预定下午4时结束投票。中央社和美联社记者在现场报道了投票开始时的情况。\n\n选民在同一天要做出两项决定。地方选举将选出市长、地方议员等公职人员。此外，全国性公投还询问选民是否支持政府使用核电振兴经济，以废除非核家园的能源政策。",
+          "photoAlt": "2014年地方选举期间，选民在台北一处投票所外排队。",
+          "photoCaption": "资料照片，摄于2014年11月29日。台湾地方选举期间，选民在台北一处投票所排队等候投票。"
+        },
+        "ru": {
+          "title": "Тайвань выбирает местные власти и голосует о будущем атомной энергетики",
+          "summary": "В Тайбэе и других городах Тайваня избиратели выбирают местных представителей. Отдельный бюллетень посвящён вопросу об отмене политики отказа от атомной энергетики.",
+          "body": "Утром в субботу у избирательных участков в Тайбэе выстроились очереди на местных выборах. По данным Центральной избирательной комиссии, 28 ноября участки открылись в 8 утра и должны закрыться в 16 часов по местному времени. Начало голосования на месте освещали журналисты агентств CNA и Associated Press.\n\nЗа один день избирателям предстоит принять два решения. В частности, они выбирают мэров и депутатов местных советов. На общенациональном референдуме их также спрашивают, поддерживают ли они использование атомной электроэнергии для стимулирования экономики и отмену курса на отказ от неё.",
+          "photoAlt": "Очередь избирателей у участка в Тайбэе во время местных выборов 2014 года.",
+          "photoCaption": "Архивное фото от 29 ноября 2014 года. Избиратели ждут своей очереди на участке в Тайбэе во время местных выборов на Тайване."
+        },
+        "ko": {
+          "title": "대만 지방선거 투표 시작…탈원전 정책 폐지 여부도 국민투표에",
+          "summary": "타이베이를 비롯한 대만 전역에서 유권자들이 지역 대표를 뽑는다. 별도의 투표용지로 탈원전 정책을 폐지할지도 결정한다.",
+          "body": "토요일 오전 타이베이의 투표소 앞에는 대만 지방선거에 참여하려는 유권자들이 줄을 섰다. 중앙선거위원회에 따르면 11월 28일 투표는 현지 시각 오전 8시에 시작됐으며 오후 4시에 마감될 예정이다. 중앙통신사(CNA)와 AP통신 기자들이 투표 개시 현장을 취재했다.\n\n유권자들은 이날 두 가지 결정을 내린다. 지방선거에서는 시장과 지방의회 의원 등을 선출한다. 함께 치러지는 전국 국민투표는 경제를 활성화하기 위해 원자력 발전을 활용하고 탈원전 정책을 폐지하는 데 찬성하는지 묻는다.",
+          "photoAlt": "2014년 지방선거 때 타이베이의 한 투표소 앞에서 줄을 선 유권자들.",
+          "photoCaption": "2014년 11월 29일 촬영한 자료 사진. 대만 지방선거 당시 타이베이의 한 투표소에서 유권자들이 차례를 기다리고 있다."
+        }
+      }
+    },
+    {
+      "eventKey": "pittsburgh-steelers-deux-touches-defensifs-contre-denver",
+      "category": "Sports",
+      "title": "Deux touchés défensifs portent les Steelers à une victoire de 27 à 5 contre Denver",
+      "summary": "À Pittsburgh, en Pennsylvanie (États-Unis), T.J. Watt et Jalen Ramsey ont marqué avant la pause. Les Steelers mettent fin à la série de sept victoires des Broncos.",
+      "body": "Les Steelers de Pittsburgh ont battu les Broncos de Denver 27 à 5 vendredi 27 novembre, en Pennsylvanie, aux États-Unis. La défense locale a inscrit deux touchés en première demie, selon la feuille de match de la NFL et le compte rendu du Pittsburgh Post-Gazette.\n\nT.J. Watt a ouvert le pointage au premier quart en recouvrant dans la zone des buts un ballon échappé par le quart de Denver, Bo Nix. Au deuxième quart, Jalen Ramsey a intercepté une passe de Nix et parcouru 36 verges pour porter la marque à 24 à 5 à la pause. Pittsburgh renoue avec la victoire après deux défaites et interrompt la série de sept gains de Denver.",
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steelers_vs_Bucs_10.18.2026_19.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/0/07/Steelers_vs_Bucs_10.18.2026_19.jpg",
+        "subject": "T.J. Watt",
+        "context": "Steelers de Pittsburgh",
+        "capturedOn": "2026-10-18",
+        "credit": "ANTbook365 / Wikimedia Commons",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "alt": "T.J. Watt sur le terrain avec le maillot noir numéro 90 des Steelers de Pittsburgh.",
+        "caption": "Archive du 18 octobre 2026. T.J. Watt porte le numéro 90 des Steelers de Pittsburgh lors de la rencontre contre les Buccaneers de Tampa Bay."
+      },
+      "sources": [
+        {
+          "name": "NFL — feuille de match",
+          "url": "https://static.clubs.nfl.com/image/upload/steelers/q2damj6u6yv7fykgd6pv",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Pittsburgh Steelers",
+          "url": "https://www.steelers.com/news/steelers-top-broncos-27-5-at-home",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Pittsburgh Post-Gazette",
+          "url": "https://www.post-gazette.com/sports/steelers/steelers-broncos-nfl-game-recap-75VKDTQP4NBARMGWMJ3GRLB574/",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Two defensive touchdowns lift the Steelers to a 27–5 win over Denver",
+          "summary": "In Pittsburgh, Pennsylvania, USA, T.J. Watt and Jalen Ramsey scored before halftime as the Steelers ended the Broncos’ seven-game winning streak.",
+          "body": "The Pittsburgh Steelers beat the Denver Broncos 27–5 on Friday, November 27, in Pennsylvania, USA. The home defense scored two first-half touchdowns, according to the NFL gamebook and the Pittsburgh Post-Gazette’s game report.\n\nT.J. Watt opened the scoring in the first quarter when he recovered a fumble by Denver quarterback Bo Nix in the end zone. In the second quarter, Jalen Ramsey intercepted a Nix pass and returned it 36 yards to make it 24–5 at halftime. Pittsburgh snapped a two-game losing streak and ended Denver’s run of seven straight wins.",
+          "photoAlt": "T.J. Watt on the field in his black number 90 Pittsburgh Steelers jersey.",
+          "photoCaption": "Archive photo, October 18, 2026. T.J. Watt wears number 90 for the Pittsburgh Steelers at the game against the Tampa Bay Buccaneers."
+        },
+        "es": {
+          "title": "Dos touchdowns defensivos dan a los Steelers la victoria por 27-5 sobre Denver",
+          "summary": "En Pittsburgh, Pensilvania, Estados Unidos, T.J. Watt y Jalen Ramsey anotaron antes del descanso. Los Steelers pusieron fin a una racha de siete victorias de los Broncos.",
+          "body": "Los Pittsburgh Steelers derrotaron 27-5 a los Denver Broncos el viernes 27 de noviembre en Pensilvania, Estados Unidos. La defensa local anotó dos touchdowns en la primera mitad, según el acta del partido de la NFL y la crónica del Pittsburgh Post-Gazette.\n\nT.J. Watt abrió el marcador en el primer cuarto al recuperar en la zona de anotación un balón suelto del mariscal de campo de Denver, Bo Nix. En el segundo cuarto, Jalen Ramsey interceptó un pase de Nix y lo devolvió 36 yardas para dejar el marcador en 24-5 al descanso. Pittsburgh volvió a ganar después de dos derrotas y cortó la racha de siete victorias de Denver.",
+          "photoAlt": "T.J. Watt en el campo con la camiseta negra número 90 de los Pittsburgh Steelers.",
+          "photoCaption": "Archivo del 18 de octubre de 2026. T.J. Watt lleva el número 90 de los Pittsburgh Steelers en el partido contra los Tampa Bay Buccaneers."
+        },
+        "ar": {
+          "title": "دفاع ستيلرز يسجل مرتين ويقود الفريق إلى الفوز على دنفر 27–5",
+          "summary": "في بيتسبرغ بولاية بنسلفانيا الأمريكية سجّل تي جاي وات وجايلن رامزي قبل الاستراحة، لينهي ستيلرز سلسلة من سبعة انتصارات لبرونكوس.",
+          "body": "فاز بيتسبرغ ستيلرز على دنفر برونكوس بنتيجة 27–5 يوم الجمعة 27 نوفمبر في ولاية بنسلفانيا الأمريكية. وسجّل دفاع أصحاب الأرض هدفَي «تاتش داون» في الشوط الأول، وفق سجل المباراة الرسمي لدوري كرة القدم الأمريكية وتقرير صحيفة بيتسبرغ بوست غازيت.\n\nافتتح تي جاي وات التسجيل في الربع الأول بعدما استحوذ في منطقة النهاية على كرة أفلتت من بو نيكس، لاعب الوسط في دنفر. وفي الربع الثاني اعترض جايلن رامزي تمريرة لنيكس وقطع بالكرة 36 ياردة لتصل النتيجة إلى 24–5 عند الاستراحة. وعاد بيتسبرغ إلى الفوز بعد خسارتين وأنهى سلسلة دنفر التي امتدت سبع مباريات بلا هزيمة حقق الفوز فيها جميعاً.",
+          "photoAlt": "تي جاي وات على أرض الملعب بقميص بيتسبرغ ستيلرز الأسود رقم 90.",
+          "photoCaption": "صورة أرشيفية من 18 أكتوبر 2026. يرتدي تي جاي وات القميص رقم 90 لبيتسبرغ ستيلرز في مباراة الفريق أمام تامبا باي بوكانيرز."
+        },
+        "zh-CN": {
+          "title": "防守组两次达阵，钢人27比5击败野马",
+          "summary": "在美国宾夕法尼亚州匹兹堡，T.J.瓦特和贾伦·拉姆齐在上半场先后达阵，钢人队终结了野马队的七连胜。",
+          "body": "11月27日星期五，匹兹堡钢人队在美国宾夕法尼亚州主场以27比5战胜丹佛野马队。据美国职业橄榄球大联盟的比赛记录和《匹兹堡邮报》的战报，主队防守组在上半场两次达阵。\n\n首节，丹佛四分卫博·尼克斯掉球，T.J.瓦特在端区拿到球，为钢人队率先得分。第二节，贾伦·拉姆齐抄截尼克斯的传球后回攻36码达阵，钢人队以24比5领先进入中场休息。这场胜利让匹兹堡结束两连败，也终结了丹佛的七连胜。",
+          "photoAlt": "T.J.瓦特身穿匹兹堡钢人队黑色90号球衣站在场上。",
+          "photoCaption": "资料照片，摄于2026年10月18日。匹兹堡钢人队对阵坦帕湾海盗队时，T.J.瓦特身穿钢人队90号球衣。"
+        },
+        "ru": {
+          "title": "Два тачдауна защиты принесли «Питтсбургу» победу над «Денвером» со счётом 27:5",
+          "summary": "В Питтсбурге, штат Пенсильвания, США, Ти Джей Уотт и Джейлен Рэмзи отличились до перерыва. «Стилерз» прервали серию «Бронкос» из семи побед.",
+          "body": "В пятницу, 27 ноября, «Питтсбург Стилерз» обыграли «Денвер Бронкос» на своём поле в американском штате Пенсильвания со счётом 27:5. По данным протокола НФЛ и репортажа Pittsburgh Post-Gazette, защита хозяев занесла два тачдауна в первой половине встречи.\n\nВ первой четверти квотербек «Денвера» Бо Никс выронил мяч. Ти Джей Уотт подобрал его в зачётной зоне и открыл счёт. Во второй четверти Джейлен Рэмзи перехватил передачу Никса и пробежал с мячом 36 ярдов до зачётной зоны. К перерыву «Стилерз» вели 24:5. «Питтсбург» победил после двух поражений подряд и прервал семиматчевую победную серию «Денвера».",
+          "photoAlt": "Ти Джей Уотт на поле в чёрной форме «Питтсбург Стилерз» с номером 90.",
+          "photoCaption": "Архивное фото от 18 октября 2026 года. Ти Джей Уотт в форме «Питтсбург Стилерз» под номером 90 на матче с «Тампа-Бэй Бакканирс»."
+        },
+        "ko": {
+          "title": "수비진이 터치다운 두 개 올린 피츠버그, 덴버에 27 대 5 승리",
+          "summary": "미국 펜실베이니아주 피츠버그에서 T.J. 와트와 제일런 램지가 전반에 터치다운을 기록했다. 스틸러스는 브롱코스의 7연승을 끊었다.",
+          "body": "피츠버그 스틸러스는 11월 27일 금요일 미국 펜실베이니아주 홈경기에서 덴버 브롱코스를 27 대 5로 꺾었다. 미국프로풋볼(NFL) 공식 경기 기록과 피츠버그 포스트가제트의 보도에 따르면 홈팀 수비진이 전반에 터치다운 두 개를 올렸다.\n\n1쿼터에 덴버 쿼터백 보 닉스가 놓친 공을 T.J. 와트가 엔드존에서 확보하며 선취점을 냈다. 2쿼터에는 제일런 램지가 닉스의 패스를 가로챈 뒤 36야드를 달려 터치다운을 기록했다. 피츠버그는 전반을 24 대 5로 마쳤다. 이날 승리로 피츠버그는 2연패에서 벗어났고 덴버의 7연승도 끝났다.",
+          "photoAlt": "피츠버그 스틸러스의 검은색 90번 유니폼을 입고 필드에 선 T.J. 와트.",
+          "photoCaption": "2026년 10월 18일 촬영한 자료 사진. 탬파베이 버커니어스와의 경기에서 피츠버그 스틸러스의 T.J. 와트가 90번 유니폼을 입고 있다."
+        }
+      }
+    }
+  ]
+}
