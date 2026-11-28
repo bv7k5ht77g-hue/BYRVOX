@@ -1,0 +1,263 @@
+{
+  "hour": "2026-11-28T09",
+  "articles": [
+    {
+      "eventKey": "australie-victoria-coalition-jess-wilson-projection-election",
+      "category": "Australie",
+      "title": "Au Victoria, ABC donne la coalition de Jess Wilson gagnante après douze ans de pouvoir travailliste",
+      "summary": "En Australie, le diffuseur public prévoit une alternance dans l’État du Victoria. Au moment de sa projection, la possibilité pour les libéraux et leurs alliés de gouverner seuls restait ouverte.",
+      "body": "À 19 h 40, heure de Melbourne, samedi 28 novembre, l’analyste électoral d’ABC Casey Briggs a donné gagnante l’alliance du Parti libéral et du Parti national. Selon ABC et le Guardian, les premiers résultats écartaient la possibilité d’un quatrième mandat consécutif pour les travaillistes.\n\nJess Wilson, cheffe des libéraux et députée de Kew, est ainsi en voie de succéder au premier ministre de l’État, Ben Carroll. Le dépouillement se poursuit dans les 88 circonscriptions de l’Assemblée législative. La majorité absolue y est de 45 sièges. À l’heure de la projection, la répartition finale restait à déterminer.\n\nÀ Kew, le bureau de circonscription de Jess Wilson porte son nom et celui du siège qu’elle représente.",
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320",
+          "publishedAt": "2026-11-28"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/28/victoria-election-2026-winner-announced-who-won-poll-win-coalition-labor-victorian-state-results",
+          "publishedAt": "2026-11-28T08:49:53Z"
+        },
+        {
+          "name": "Victorian Electoral Commission",
+          "url": "https://www.vec.vic.gov.au/voting/2026-state-election",
+          "publishedAt": "2026-11-28"
+        },
+        {
+          "name": "ABC News — résultats par circonscription",
+          "url": "https://www.abc.net.au/news/elections/vic/2026/results",
+          "publishedAt": "2026-11-28"
+        }
+      ],
+      "photo": {
+        "subject": "bureau de circonscription de Jess Wilson",
+        "context": "Kew",
+        "capturedOn": "2026-10-22",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jess_Wilson_electorate_office%2C_2026.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jess_Wilson_electorate_office%2C_2026.jpg/1280px-Jess_Wilson_electorate_office%2C_2026.jpg",
+        "credit": "Alison Newman / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "La façade du bureau de circonscription de Jess Wilson porte son nom et celui de Kew au-dessus de l’entrée.",
+        "caption": "Archive du 22 octobre 2026. La façade du bureau de circonscription de Jess Wilson, députée de Kew, avant le scrutin du Victoria."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "ABC projects Jess Wilson’s Coalition will win Victoria after 12 years of Labor rule",
+          "summary": "Australia’s public broadcaster projects a change of government in Victoria. When it made the call, it was still unclear whether the Liberals and their allies could govern in their own right.",
+          "body": "At 7:40 p.m. Melbourne time on Saturday, November 28, ABC election analyst Casey Briggs called the election for the alliance of the Liberal and National parties. According to the ABC and the Guardian, the early returns ruled out a fourth consecutive term for Labor.\n\nJess Wilson, the Liberal leader and member for Kew, is now on course to succeed state premier Ben Carroll. Counting continues across the Legislative Assembly’s 88 districts. It takes 45 seats to secure an outright majority. The final distribution of seats was still open when the projection was made.\n\nIn Kew, Jess Wilson’s electorate office bears her name and that of the seat she represents.",
+          "photoAlt": "Jess Wilson’s electorate office has her name and the name of her district, Kew, above the entrance.",
+          "photoCaption": "Archive photo, October 22, 2026. The front of the electorate office of Jess Wilson, the member for Kew, ahead of the Victorian election."
+        },
+        "es": {
+          "title": "ABC da por ganadora a la coalición de Jess Wilson en Victoria tras doce años de gobierno laborista",
+          "summary": "La radiotelevisión pública australiana prevé un cambio de gobierno en el estado de Victoria. Al anunciar su proyección, aún estaba por ver si los liberales y sus aliados podrían gobernar sin otros apoyos.",
+          "body": "A las 19:40, hora de Melbourne, del sábado 28 de noviembre, el analista electoral de ABC Casey Briggs dio por ganadora a la alianza del Partido Liberal y el Partido Nacional. Según ABC y The Guardian, los primeros resultados descartaban un cuarto mandato consecutivo para los laboristas.\n\nJess Wilson, líder liberal y diputada por Kew, se perfila así como sucesora del primer ministro del estado, Ben Carroll. El escrutinio continúa en las 88 circunscripciones de la Asamblea Legislativa. La mayoría absoluta requiere 45 escaños. Al anunciarse la proyección aún quedaba por determinar el reparto definitivo.\n\nEn Kew, la oficina de Jess Wilson lleva su nombre y el de la circunscripción que representa.",
+          "photoAlt": "El nombre de Jess Wilson y el de su circunscripción, Kew, figuran sobre la entrada de su oficina de diputada.",
+          "photoCaption": "Foto de archivo del 22 de octubre de 2026. Fachada de la oficina de Jess Wilson, diputada por Kew, antes de las elecciones en Victoria."
+        },
+        "ar": {
+          "title": "هيئة البث الأسترالية ترجّح فوز ائتلاف جيس ويلسون في فيكتوريا بعد 12 عاماً من حكم العمال",
+          "summary": "تتوقع هيئة البث العامة في أستراليا انتقال السلطة في ولاية فيكتوريا. وعند إعلان التوقع لم يكن قد اتضح ما إذا كان بوسع الليبراليين وحلفائهم الحكم من دون دعم أحزاب أخرى.",
+          "body": "عند الساعة السابعة وأربعين دقيقة مساء السبت 28 نوفمبر بتوقيت ملبورن، رجّح كيسي بريغز، المحلل الانتخابي في هيئة البث الأسترالية (ABC)، فوز تحالف الحزب الليبرالي والحزب الوطني. ووفقاً للهيئة وصحيفة الغارديان، استبعدت النتائج الأولية حصول حزب العمال على ولاية رابعة على التوالي.\n\nوبذلك تتجه جيس ويلسون، زعيمة الليبراليين والنائبة عن دائرة كيو، إلى خلافة بن كارول في رئاسة حكومة الولاية. ويتواصل فرز الأصوات في دوائر الجمعية التشريعية البالغ عددها 88. وتتطلب الأغلبية المطلقة 45 مقعداً. وعند صدور التوقع كان التوزيع النهائي للمقاعد لا يزال مفتوحاً.\n\nوفي كيو يظهر على مكتب جيس ويلسون النيابي اسمها واسم الدائرة التي تمثلها.",
+          "photoAlt": "يظهر اسم جيس ويلسون واسم دائرتها كيو فوق مدخل مكتبها النيابي.",
+          "photoCaption": "صورة أرشيفية في 22 أكتوبر 2026. واجهة المكتب النيابي لجيس ويلسون، النائبة عن كيو، قبل انتخابات فيكتوريا."
+        },
+        "zh-CN": {
+          "title": "澳广预测杰丝·威尔逊领导的联盟将在维州胜选，结束工党十二年执政",
+          "summary": "澳大利亚公共广播机构预测，维多利亚州将迎来政党轮替。作出预测时，自由党及其盟友能否在不依靠其他政党的情况下组阁，仍不明朗。",
+          "body": "墨尔本时间11月28日星期六晚7时40分，澳大利亚广播公司（ABC）选举分析员凯西·布里格斯预测，自由党和国家党组成的联盟将赢得州选举。据澳广和《卫报》报道，初步计票结果已排除工党连续第四届执政的可能。\n\n自由党领袖、基尤选区议员杰丝·威尔逊有望接替本·卡罗尔出任州长。州立法议会88个选区的计票仍在进行，获得绝对多数需要45席。作出胜选预测时，各党最终席次仍待确定。\n\n在基尤，杰丝·威尔逊的选区办公室外标有她的姓名和所代表的选区名称。",
+          "photoAlt": "杰丝·威尔逊选区办公室的入口上方标有她的姓名及基尤选区名称。",
+          "photoCaption": "资料照片，摄于2026年10月22日。维多利亚州选举前，基尤选区议员杰丝·威尔逊的选区办公室正面。"
+        },
+        "ru": {
+          "title": "ABC прогнозирует победу коалиции Джесс Уилсон в Виктории после 12 лет правления лейбористов",
+          "summary": "Общественная телерадиокомпания Австралии прогнозирует смену власти в штате Виктория. На момент прогноза оставалось неясным, смогут ли либералы и их союзники сформировать правительство без поддержки других сил.",
+          "body": "В субботу, 28 ноября, в 19:40 по времени Мельбурна электоральный аналитик ABC Кейси Бриггс спрогнозировал победу союза Либеральной и Национальной партий. По данным ABC и The Guardian, первые итоги подсчёта исключали для лейбористов возможность остаться у власти на четвёртый срок подряд.\n\nТаким образом, лидер либералов и депутат от округа Кью Джесс Уилсон, вероятно, сменит Бена Кэрролла на посту премьера штата. Подсчёт голосов продолжается в 88 округах Законодательного собрания. Для абсолютного большинства нужно 45 мест. На момент прогноза окончательное распределение мандатов оставалось неизвестным.\n\nНа приёмной Джесс Уилсон в Кью указаны её имя и округ, который она представляет.",
+          "photoAlt": "Над входом в депутатскую приёмную Джесс Уилсон указаны её имя и название округа Кью.",
+          "photoCaption": "Архивный снимок от 22 октября 2026 года. Фасад приёмной Джесс Уилсон, депутата от округа Кью, до выборов в штате Виктория."
+        },
+        "ko": {
+          "title": "호주 ABC “빅토리아주 제스 윌슨 연합 승리 전망”…노동당 12년 집권 막 내릴 듯",
+          "summary": "호주 공영방송이 빅토리아주의 정권 교체를 전망했다. 예측을 발표한 시점에는 자유당과 그 연합 파트너가 다른 정당의 지원 없이 정부를 구성할 수 있을지 불분명했다.",
+          "body": "11월 28일 토요일 멜버른 시각 오후 7시 40분, ABC 선거 분석가 케이시 브리그스는 자유당과 국민당의 연합이 주 선거에서 승리할 것으로 예측했다. ABC와 가디언에 따르면 초기 개표 결과로 볼 때 노동당의 4연속 집권 가능성은 사라졌다.\n\n이에 따라 자유당 대표이자 큐 지역구 의원인 제스 윌슨이 벤 캐럴 주총리의 뒤를 이을 것으로 보인다. 주 하원의 88개 지역구에서 개표가 계속되고 있다. 과반을 확보하려면 45석이 필요하다. 승리 예측이 나왔을 때 최종 의석 분포는 아직 정해지지 않았다.\n\n큐에 있는 제스 윌슨의 지역구 사무실에는 의원 이름과 지역구 이름이 표시돼 있다.",
+          "photoAlt": "제스 윌슨의 지역구 사무실 입구 위에 의원 이름과 지역구 이름인 큐가 표시돼 있다.",
+          "photoCaption": "2026년 10월 22일 자료사진. 빅토리아주 선거 전 촬영한 큐 지역구 의원 제스 윌슨의 사무실 정면."
+        }
+      }
+    },
+    {
+      "eventKey": "delaware-electric-cooperative-retablissement-tempete-thanksgiving",
+      "category": "États-Unis",
+      "title": "Au Delaware, le courant revient progressivement après la tempête de Thanksgiving",
+      "summary": "Aux États-Unis, Bowers Beach figure parmi les localités où les chutes d’arbres ont compliqué les réparations. Les équipes de la Delaware Electric Cooperative étaient encore à pied d’œuvre vendredi soir.",
+      "body": "Dans le Delaware, environ 2 400 abonnés de la Delaware Electric Cooperative restaient sans courant vendredi 27 novembre au matin, selon le bilan de la coopérative également rapporté par CoastTV. Quelque 1 400 foyers avaient retrouvé l’électricité pendant la nuit de jeudi à vendredi.\n\nÀ Bowers Beach, dans le comté de Kent, ainsi qu’à Sandtown et à Big Stone Beach, des arbres tombés ont endommagé les lignes. Les équipes devaient dégager les fils avant de réparer le réseau. Vendredi soir, la coopérative signalait que les interventions se poursuivaient. La radio locale WGMD avait suivi dans la journée la baisse du nombre d’abonnés privés de courant.",
+      "sources": [
+        {
+          "name": "Delaware Electric Cooperative",
+          "url": "https://www.delaware.coop/thanksgiving-noreaster-outage-updates",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "CoastTV",
+          "url": "https://www.coasttv.com/news/2-400-delaware-electric-cooperative-members-remain-without-power-following-noreaster/article_8ce444ec-41a3-44d8-a553-cfd9c50402f9.html",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "WGMD",
+          "url": "https://www.wgmd.com/utility-crews-continue-working-to-restore-power-after-thanksgiving-day-noreaster/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Delaware Public Media",
+          "url": "https://www.delawarepublic.org/delaware-headlines/2026-11-26/thanksgiving-coastal-storm-causes-flooding-road-closures-and-power-outages?_amp=true",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "subject": "Bowers Beach",
+        "context": "comté de Kent",
+        "capturedOn": "2022-07-17",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022-07-17_12_55_25_View_southwest_along_Main_Street_at_Clifton_Cubbage_Drive_in_Bowers_Beach%2C_Kent_County%2C_Delaware.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/2022-07-17_12_55_25_View_southwest_along_Main_Street_at_Clifton_Cubbage_Drive_in_Bowers_Beach%2C_Kent_County%2C_Delaware.jpg/1280px-2022-07-17_12_55_25_View_southwest_along_Main_Street_at_Clifton_Cubbage_Drive_in_Bowers_Beach%2C_Kent_County%2C_Delaware.jpg",
+        "credit": "Famartin / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Des poteaux et des lignes aériennes bordent Main Street à Bowers Beach, entre les maisons.",
+        "caption": "Archive du 17 juillet 2022. Vue de Main Street vers le sud-ouest, à hauteur de Clifton Cubbage Drive, à Bowers Beach, dans le comté de Kent au Delaware, avant la tempête de 2026."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Power gradually returns in Delaware after the Thanksgiving storm",
+          "summary": "In the United States, Bowers Beach was among the communities where fallen trees complicated repairs. Delaware Electric Cooperative crews were still at work on Friday evening.",
+          "body": "About 2,400 Delaware Electric Cooperative members in Delaware were still without power on the morning of Friday, November 27, according to the cooperative’s update, also reported by CoastTV. Some 1,400 homes had their electricity restored overnight from Thursday to Friday.\n\nIn Bowers Beach in Kent County, as well as in Sandtown and Big Stone Beach, fallen trees damaged power lines. Crews had to clear the wires before repairing the network. The cooperative reported that work was continuing Friday evening. Local radio station WGMD had tracked the decline in the number of members without power during the day.",
+          "photoAlt": "Utility poles and overhead lines run along Main Street between the houses in Bowers Beach.",
+          "photoCaption": "Archive photo, July 17, 2022. Main Street looking southwest at Clifton Cubbage Drive in Bowers Beach, Kent County, Delaware, before the 2026 storm."
+        },
+        "es": {
+          "title": "El suministro eléctrico se recupera poco a poco en Delaware tras la tormenta de Acción de Gracias",
+          "summary": "En Estados Unidos, Bowers Beach fue una de las localidades donde la caída de árboles dificultó las reparaciones. El personal de Delaware Electric Cooperative seguía trabajando el viernes por la noche.",
+          "body": "Unos 2.400 abonados de Delaware Electric Cooperative en Delaware seguían sin luz la mañana del viernes 27 de noviembre, según el balance de la cooperativa, recogido también por CoastTV. Unos 1.400 hogares recuperaron el suministro durante la noche del jueves al viernes.\n\nEn Bowers Beach, en el condado de Kent, así como en Sandtown y Big Stone Beach, los árboles caídos dañaron el tendido. Las cuadrillas tuvieron que despejar los cables antes de reparar la red. El viernes por la noche, la cooperativa informó que los trabajos continuaban. La emisora local WGMD había seguido durante el día el descenso del número de abonados sin electricidad.",
+          "photoAlt": "Postes y cables aéreos bordean Main Street entre las casas de Bowers Beach.",
+          "photoCaption": "Foto de archivo del 17 de julio de 2022. Vista hacia el suroeste por Main Street a la altura de Clifton Cubbage Drive, en Bowers Beach, condado de Kent, Delaware, antes de la tormenta de 2026."
+        },
+        "ar": {
+          "title": "عودة تدريجية للكهرباء في ديلاوير بعد عاصفة عيد الشكر",
+          "summary": "كانت باورز بيتش من بين البلدات الأميركية التي أعاق سقوط الأشجار فيها إصلاح الأعطال. وظلت فرق تعاونية ديلاوير للكهرباء تعمل مساء الجمعة.",
+          "body": "كان نحو 2400 مشترك في تعاونية ديلاوير للكهرباء في الولاية لا يزالون من دون كهرباء صباح الجمعة 27 نوفمبر، وفق حصيلة التعاونية التي أوردتها أيضاً قناة كوست تي في. وكان التيار قد عاد إلى نحو 1400 منزل خلال ليل الخميس إلى الجمعة.\n\nفي باورز بيتش بمقاطعة كِنت، وكذلك في ساندتاون وبيغ ستون بيتش، ألحقت الأشجار المتساقطة أضراراً بخطوط الكهرباء. وكان على الفرق إزالة ما سقط على الأسلاك قبل إصلاح الشبكة. وأفادت التعاونية مساء الجمعة بأن الأعمال مستمرة. وكانت إذاعة WGMD المحلية قد تابعت خلال النهار تراجع عدد المشتركين المحرومين من الكهرباء.",
+          "photoAlt": "تمتد أعمدة وأسلاك كهربائية هوائية على طول مين ستريت بين منازل باورز بيتش.",
+          "photoCaption": "صورة أرشيفية في 17 يوليو 2022. منظر لمين ستريت باتجاه الجنوب الغربي عند تقاطعه مع كليفتون كابيج درايف، في باورز بيتش بمقاطعة كِنت بولاية ديلاوير، قبل عاصفة عام 2026."
+        },
+        "zh-CN": {
+          "title": "感恩节风暴过后，美国特拉华州供电逐步恢复",
+          "summary": "在美国特拉华州，鲍尔斯比奇等地的倒树给抢修带来困难。周五晚间，特拉华电力合作社的抢修人员仍在作业。",
+          "body": "据特拉华电力合作社通报，当地电视台CoastTV也报道，11月27日星期五上午，该合作社在特拉华州仍有约2400户用户停电。此前从周四夜间到周五早晨，约1400户家庭已恢复供电。\n\n在肯特县的鲍尔斯比奇以及桑德敦和大石滩，倒下的树木损坏了电线。抢修人员得先清除压在线上的树木，才能修复电网。周五晚间，合作社表示抢修仍在进行。当地电台WGMD白天也跟踪报道了停电用户数量的下降。",
+          "photoAlt": "鲍尔斯比奇主街的住宅之间，沿街可见电线杆和架空线路。",
+          "photoCaption": "资料照片，摄于2022年7月17日。美国特拉华州肯特县鲍尔斯比奇，在克利夫顿·卡贝奇路交会处沿主街向西南望。照片摄于2026年风暴之前。"
+        },
+        "ru": {
+          "title": "В Делавэре постепенно восстанавливают электроснабжение после шторма в День благодарения",
+          "summary": "В американском штате Делавэр поваленные деревья осложнили ремонт в Бауэрс-Бич и других населённых пунктах. В пятницу вечером бригады Delaware Electric Cooperative продолжали работу.",
+          "body": "Утром в пятницу, 27 ноября, около 2400 абонентов Delaware Electric Cooperative в Делавэре оставались без света, согласно сводке кооператива, данные которой также привёл телеканал CoastTV. За ночь с четверга на пятницу электричество вернули примерно в 1400 домов.\n\nВ Бауэрс-Бич в округе Кент, а также в Сандтауне и Биг-Стоун-Бич упавшие деревья повредили линии электропередачи. Чтобы приступить к ремонту, бригадам требовалось освободить провода. В пятницу вечером кооператив сообщил, что работы продолжаются. Местная радиостанция WGMD в течение дня следила за сокращением числа абонентов, остававшихся без электричества.",
+          "photoAlt": "Вдоль Мейн-стрит в Бауэрс-Бич между домами видны столбы и воздушные линии электропередачи.",
+          "photoCaption": "Архивный снимок от 17 июля 2022 года. Вид на юго-запад вдоль Мейн-стрит у перекрёстка с Клифтон-Каббедж-драйв в Бауэрс-Бич, округ Кент, штат Делавэр, до шторма 2026 года."
+        },
+        "ko": {
+          "title": "추수감사절 폭풍 지나간 미국 델라웨어주, 전력 공급 점차 회복",
+          "summary": "미국 델라웨어주 바워스비치 등지에서는 쓰러진 나무 때문에 복구 작업이 어려웠다. 델라웨어 전력협동조합 작업반은 금요일 저녁에도 현장에 있었다.",
+          "body": "델라웨어 전력협동조합이 발표하고 지역 방송 코스트TV도 보도한 집계에 따르면 11월 27일 금요일 오전 델라웨어주에서 조합 가입자 약 2,400곳이 여전히 전기를 공급받지 못했다. 목요일 밤부터 금요일 아침 사이 약 1,400가구에는 전력 공급이 재개됐다.\n\n켄트 카운티의 바워스비치와 샌드타운, 빅스톤비치에서는 나무가 쓰러지며 전선을 손상시켰다. 작업반은 전선을 덮친 나무를 치운 뒤에야 전력망을 수리할 수 있었다. 조합은 금요일 저녁에도 복구 작업을 계속하고 있다고 밝혔다. 지역 라디오 WGMD는 낮 동안 정전 피해 가입자 수가 줄어드는 상황을 전했다.",
+          "photoAlt": "바워스비치 메인 스트리트의 주택 사이로 전신주와 가공 전선이 이어진다.",
+          "photoCaption": "2022년 7월 17일 자료사진. 델라웨어주 켄트 카운티 바워스비치의 클리프턴 커비지 드라이브 교차로에서 메인 스트리트를 따라 남서쪽을 바라본 모습. 2026년 폭풍 이전에 촬영됐다."
+        }
+      }
+    },
+    {
+      "eventKey": "afrique-du-sud-sp-dette-rands-categorie-investissement",
+      "category": "Économie",
+      "title": "La dette sud-africaine en rands retrouve la catégorie investissement chez S&P",
+      "summary": "S&P a relevé les deux notes souveraines à long terme de l’Afrique du Sud. Seule la dette en monnaie locale franchit le seuil de la catégorie investissement.",
+      "body": "Le 27 novembre, S&P Global Ratings a fait passer la note des emprunts de l’État sud-africain en rands de BB+ à BBB−. Sur l’échelle de l’agence, BBB− est le premier niveau de la catégorie investissement. Pour les emprunts en devises, la note monte de BB à BB+, un cran sous ce seuil. Les deux notes sont assorties d’une perspective stable.\n\nS&P attribue ce relèvement à l’amélioration des finances publiques. Selon Reuters, le Trésor national, dont des bureaux se trouvent dans l’ancienne Banque de réserve sur Church Square à Pretoria, estime que la dette publique a culminé à 74,6 % du produit intérieur brut pendant l’exercice 2025-2026.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/africa/sp-lifts-south-africa-ratings-improving-fiscal-position-2026-11-27/",
+          "publishedAt": "2026-11-27T21:52:47Z"
+        },
+        {
+          "name": "S&P Global Ratings — décisions de notation",
+          "url": "https://www.spglobal.com/ratings/en/regulatory/ratings-actions?app=sp&id=1494366",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Newsday South Africa",
+          "url": "https://newsday.co.za/business/44062/good-news-for-south-africa-as-sp-upgrades-its-sovereign-ratings/",
+          "publishedAt": "2026-11-28"
+        },
+        {
+          "name": "Parlement sud-africain",
+          "url": "https://www.parliament.gov.za/press-releases/media-alert-standing-committee-appropriations-conduct-oversight-institutions-responsible-fiscal-policy",
+          "publishedAt": "2026-04-27"
+        }
+      ],
+      "photo": {
+        "subject": "ancienne Banque de réserve",
+        "context": "Church Square",
+        "capturedOn": "2014",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Reserve_Bank_and_Mutual_Building_in_Pretoria%2C_South_Africa.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Old_Reserve_Bank_and_Mutual_Building_in_Pretoria%2C_South_Africa.jpg/1280px-Old_Reserve_Bank_and_Mutual_Building_in_Pretoria%2C_South_Africa.jpg",
+        "credit": "Fritz Joubert / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Façades de l’ancienne Banque de réserve et du Mutual Building sur Church Square à Pretoria.",
+        "caption": "Archive de 2014. L’ancienne Banque de réserve et le Mutual Building sur Church Square, à Pretoria. Le Trésor national a des bureaux dans l’ancienne banque."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "South Africa’s rand debt regains investment grade at S&P",
+          "summary": "S&P raised both of South Africa’s long-term sovereign ratings. Only the local-currency debt crossed the investment-grade threshold.",
+          "body": "On November 27, S&P Global Ratings raised its rating on South African government borrowing in rand from BB+ to BBB−. On the agency’s scale, BBB− is the lowest investment-grade rating. The foreign-currency rating rose from BB to BB+, one notch below that threshold. Both ratings carry a stable outlook.\n\nS&P attributed the upgrades to improving public finances. According to Reuters, the National Treasury, which has offices in the Old Reserve Bank building on Church Square in Pretoria, estimates that public debt peaked at 74.6% of gross domestic product in the 2025–26 fiscal year.",
+          "photoAlt": "The façades of the Old Reserve Bank and the Mutual Building on Church Square in Pretoria.",
+          "photoCaption": "Archive photo, 2014. The Old Reserve Bank and the Mutual Building on Church Square in Pretoria. The National Treasury has offices in the former bank."
+        },
+        "es": {
+          "title": "La deuda sudafricana en rands recupera el grado de inversión de S&P",
+          "summary": "S&P elevó las dos calificaciones soberanas a largo plazo de Sudáfrica. Solo la deuda en moneda local cruzó el umbral del grado de inversión.",
+          "body": "El 27 de noviembre, S&P Global Ratings elevó de BB+ a BBB− la calificación de la deuda del Estado sudafricano en rands. BBB− es el primer escalón del grado de inversión en la escala de la agencia. La calificación de la deuda en divisas subió de BB a BB+, un escalón por debajo de ese umbral. Ambas calificaciones tienen perspectiva estable.\n\nS&P atribuye la mejora a la evolución de las finanzas públicas. Según Reuters, el Tesoro Nacional, que tiene oficinas en el antiguo Banco de la Reserva en Church Square, Pretoria, calcula que la deuda pública alcanzó su máximo en el ejercicio 2025-2026, con un 74,6 % del producto interior bruto.",
+          "photoAlt": "Fachadas del antiguo Banco de la Reserva y del Mutual Building en Church Square, Pretoria.",
+          "photoCaption": "Foto de archivo de 2014. El antiguo Banco de la Reserva y el Mutual Building en Church Square, Pretoria. El Tesoro Nacional tiene oficinas en el antiguo banco."
+        },
+        "ar": {
+          "title": "ديون جنوب أفريقيا بالراند تستعيد الدرجة الاستثمارية لدى ستاندرد آند بورز",
+          "summary": "رفعت ستاندرد آند بورز تصنيفي جنوب أفريقيا السياديين طويلي الأجل. واجتازت الديون بالعملة المحلية وحدها عتبة الدرجة الاستثمارية.",
+          "body": "رفعت وكالة ستاندرد آند بورز غلوبال ريتنغز في 27 نوفمبر تصنيف اقتراض حكومة جنوب أفريقيا بالراند من ‎BB+‎ إلى ‎BBB−‎، وهي أدنى درجات التصنيف الاستثماري على سلم الوكالة. وارتفع تصنيف الديون بالعملات الأجنبية من ‎BB‎ إلى ‎BB+‎، أي أدنى بدرجة واحدة من تلك العتبة. والنظرة المستقبلية لكلا التصنيفين مستقرة.\n\nوعزت الوكالة رفع التصنيفين إلى تحسن المالية العامة. وبحسب رويترز، تقدر الخزانة الوطنية، التي لها مكاتب في مبنى بنك الاحتياطي القديم في ساحة تشيرش سكوير ببريتوريا، أن الدين العام بلغ ذروته عند 74.6% من الناتج المحلي الإجمالي خلال السنة المالية 2025-2026.",
+          "photoAlt": "واجهتا بنك الاحتياطي القديم ومبنى ميوتشوال في ساحة تشيرش سكوير ببريتوريا.",
+          "photoCaption": "صورة أرشيفية من عام 2014. بنك الاحتياطي القديم ومبنى ميوتشوال في ساحة تشيرش سكوير ببريتوريا. وللخزانة الوطنية مكاتب في مبنى البنك القديم."
+        },
+        "zh-CN": {
+          "title": "标普将南非兰特计价主权债务评级重新调升至投资级",
+          "summary": "标普同时上调了南非的两项长期主权信用评级。其中，只有本币债务跨过投资级门槛。",
+          "body": "11月27日，标普全球评级将南非政府兰特计价债务评级从BB+上调至BBB−。在标普的评级体系中，BBB−是投资级的最低一档。外币债务评级则从BB升至BB+，距离投资级还差一档。两项评级的展望均为稳定。\n\n标普将此次上调归因于公共财政改善。据路透社报道，南非国库部估计，公共债务占国内生产总值的比重在2025至2026财年达到74.6%的峰值。国库部在比勒陀利亚教堂广场的旧储备银行大楼设有办公室。",
+          "photoAlt": "比勒陀利亚教堂广场上的旧储备银行大楼和穆图尔大楼外立面。",
+          "photoCaption": "2014年资料照片。比勒陀利亚教堂广场上的旧储备银行大楼和穆图尔大楼。南非国库部在旧银行大楼内设有办公室。"
+        },
+        "ru": {
+          "title": "S&P вернуло долгу ЮАР в рандах рейтинг инвестиционного уровня",
+          "summary": "S&P повысило оба долгосрочных суверенных рейтинга ЮАР. Инвестиционного уровня достиг только рейтинг долга в национальной валюте.",
+          "body": "27 ноября S&P Global Ratings повысило рейтинг государственных заимствований ЮАР в рандах с BB+ до BBB−. На шкале агентства BBB− является нижней ступенью инвестиционного уровня. Рейтинг долга в иностранной валюте вырос с BB до BB+ и остаётся на одну ступень ниже этого порога. Прогноз по обоим рейтингам стабильный.\n\nS&P объяснило повышение улучшением состояния государственных финансов. По данным Reuters, Национальное казначейство, офисы которого расположены в том числе в старом здании Резервного банка на площади Чёрч-сквер в Претории, оценивает, что отношение госдолга к ВВП достигло пика в 74,6% в 2025–2026 финансовом году.",
+          "photoAlt": "Фасады старого здания Резервного банка и Мьючуэл-билдинг на площади Чёрч-сквер в Претории.",
+          "photoCaption": "Архивный снимок 2014 года. Старое здание Резервного банка и Мьючуэл-билдинг на площади Чёрч-сквер в Претории. В бывшем здании банка находятся офисы Национального казначейства."
+        },
+        "ko": {
+          "title": "남아공 랜드화 표시 국가채무, S&P 투자적격 등급 회복",
+          "summary": "S&P가 남아프리카공화국의 장기 국가신용등급 두 가지를 모두 올렸다. 이 가운데 자국 통화 표시 채무만 투자적격 기준선을 넘었다.",
+          "body": "S&P 글로벌 레이팅스는 11월 27일 남아공 정부의 랜드화 표시 채무 등급을 BB+에서 BBB−로 올렸다. BBB−는 이 기관이 정하는 투자적격 등급 중 가장 낮은 단계다. 외화 표시 채무 등급은 BB에서 BB+로 한 단계 올랐지만 투자적격 기준보다 한 단계 낮다. 두 등급 모두 전망은 안정적이다.\n\nS&P는 공공 재정 개선을 등급 상향의 이유로 들었다. 로이터에 따르면 남아공 재무부는 국내총생산 대비 공공부채 비율이 2025~2026 회계연도에 74.6%로 정점을 찍었다고 추산한다. 재무부는 프리토리아 처치 광장의 옛 준비은행 건물에 사무실을 두고 있다.",
+          "photoAlt": "프리토리아 처치 광장에 있는 옛 준비은행과 뮤추얼 빌딩의 정면.",
+          "photoCaption": "2014년 자료사진. 프리토리아 처치 광장의 옛 준비은행과 뮤추얼 빌딩. 옛 은행 건물에는 남아공 재무부 사무실이 있다."
+        }
+      }
+    }
+  ]
+}
