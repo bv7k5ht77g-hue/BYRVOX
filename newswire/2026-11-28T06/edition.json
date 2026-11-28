@@ -81,6 +81,87 @@
       "title": "En Californie, des autocars prennent le relais du Pacific Surfliner entre Irvine et Oceanside",
       "summary": "Les grandes marées ont endommagé la voie à San Clemente. La liaison de remplacement annoncée pour vendredi laisse de côté la gare de San Juan Capistrano.",
       "body": "Dans le sud de la Californie, aux États-Unis, les grandes marées ont emporté une partie du sol soutenant la voie ferrée à San Clemente. Dans son avis aux voyageurs, le Pacific Surfliner a annoncé des autocars de remplacement à partir du vendredi 27 novembre pour relier Irvine à Oceanside pendant l’interruption du trafic ferroviaire.\n\nPour les voyageurs venant de San Diego, le trajet en train vers le nord s’arrêtait à Oceanside. Dans l’autre sens, les trains venant de Goleta s’arrêtaient à Irvine, selon le média californien edhat. L’avis précise que ni les trains ni les autocars de remplacement ne desservaient San Juan Capistrano."
+    },
+    {
+      "eventKey": "quebec-tunnel-la-fontaine-fermeture-montreal-fin-semaine-27-novembre",
+      "category": "Québec",
+      "sources": [
+        {
+          "name": "Ministère des Transports et de la Mobilité durable du Québec",
+          "url": "https://www.quebec.ca/transports/infrastructures-projets/projets/projets-routiers/montreal/tunnel-louis-hippolyte-la-fontaine/fermetures",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "CityNews Montréal",
+          "url": "https://montreal.citynews.ca/2026/11/27/closures-la-fontaine-tunnel-bonaventure-highway-weekend/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "CityNews Montréal, reportage sur les travaux",
+          "url": "https://montreal.citynews.ca/2026/11/23/two-lanes-each-direction-opening-la-fontaine-tunnel-dec-14/",
+          "publishedAt": "2026-11-23"
+        }
+      ],
+      "photo": {
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pont-tunnel_Louis-Hippolyte-La_Fontaine%2C_ile_Charron_02.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/1/17/Pont-tunnel_Louis-Hippolyte-La_Fontaine%2C_ile_Charron_02.jpg",
+        "credit": "Jeangagnon / Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "subject": "pont-tunnel Louis-Hippolyte-La Fontaine",
+        "context": "île Charron",
+        "capturedOn": "2014-09-07",
+        "alt": "Vue plongeante sur les véhicules et les poutres de béton au pont-tunnel Louis-Hippolyte-La Fontaine, sur l’île Charron.",
+        "caption": "Archive du 7 septembre 2014. Vue du pont-tunnel Louis-Hippolyte-La Fontaine depuis l’île Charron, à Longueuil."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Quebec’s La Fontaine tunnel closes toward Montreal until Monday morning",
+          "summary": "The Montreal-bound closure on Highway 25 lasts all weekend. In the opposite direction, three overnight closures are scheduled toward the South Shore.",
+          "body": "In Quebec, drivers coming from the South Shore need another route into Montreal. The provincial transport ministry has scheduled a full northbound closure of Highway 25 at the Louis-Hippolyte-La Fontaine bridge-tunnel from 11 p.m. Friday, November 27, until 5 a.m. Monday, November 30, local time. The work prepares for the transfer of the two Montreal-bound lanes into the renovated tube.\n\nIn the opposite direction, the closure extends from exit 5 to the entrance from Île Charron. According to the ministry schedule, also reported by CityNews, it begins at 11 p.m. on each of the three nights. Reopening is scheduled for 8 a.m. Saturday, 9 a.m. Sunday and 5 a.m. Monday.",
+          "photoAlt": "Looking down on vehicles and concrete beams at the Louis-Hippolyte-La Fontaine bridge-tunnel on Île Charron.",
+          "photoCaption": "Archive photograph, September 7, 2014. The Louis-Hippolyte-La Fontaine bridge-tunnel seen from Île Charron in Longueuil."
+        },
+        "es": {
+          "title": "En Quebec, el túnel La Fontaine cierra hacia Montreal hasta el lunes por la mañana",
+          "summary": "El cierre de la autopista 25 hacia Montreal abarca todo el fin de semana. En sentido contrario se prevén tres cierres nocturnos hacia la Ribera Sur.",
+          "body": "En Quebec, los conductores procedentes de la Ribera Sur deben buscar otro paso hacia Montreal. El Ministerio de Transportes provincial programó el cierre total de la autopista 25 en sentido norte en el puente-túnel Louis-Hippolyte-La Fontaine desde las 23:00 del viernes 27 de noviembre hasta las 5:00 del lunes 30, hora local. Las obras preparan el traslado de los dos carriles hacia Montreal al tubo renovado.\n\nEn sentido contrario, el cierre abarca el tramo entre la salida 5 y el acceso desde la isla Charron. Según el horario del ministerio, recogido también por CityNews, comienza a las 23:00 cada una de las tres noches. La reapertura está prevista para las 8:00 del sábado, las 9:00 del domingo y las 5:00 del lunes.",
+          "photoAlt": "Vista desde arriba de vehículos y vigas de hormigón en el puente-túnel Louis-Hippolyte-La Fontaine en la isla Charron.",
+          "photoCaption": "Archivo del 7 de septiembre de 2014. El puente-túnel Louis-Hippolyte-La Fontaine visto desde la isla Charron, en Longueuil."
+        },
+        "ar": {
+          "title": "إغلاق نفق لافونتين في كيبيك باتجاه مونتريال حتى صباح الاثنين",
+          "summary": "يستمر إغلاق الطريق السريع 25 باتجاه مونتريال طوال عطلة نهاية الأسبوع. وفي الاتجاه المعاكس تُغلق الطريق ليلاً ثلاث مرات نحو الضفة الجنوبية.",
+          "body": "يتعين على السائقين القادمين من الضفة الجنوبية في كيبيك سلوك معبر آخر إلى مونتريال. وحددت وزارة النقل في المقاطعة موعد الإغلاق الكامل للطريق السريع 25 شمالاً عند جسر ونفق لوي هيبوليت لافونتين من الساعة 11 مساء الجمعة 27 نوفمبر إلى الخامسة صباح الاثنين 30 نوفمبر بالتوقيت المحلي. وتمهّد الأشغال لنقل المسارين المتجهين نحو مونتريال إلى الأنبوب المجدد.\n\nوفي الاتجاه المعاكس يشمل الإغلاق المقطع من المخرج 5 إلى المدخل القادم من جزيرة شارون. ووفق جدول الوزارة الذي نقلته أيضاً سيتي نيوز، يبدأ الإغلاق في الحادية عشرة مساء في كل ليلة من الليالي الثلاث. وتُتوقع إعادة الفتح في الثامنة صباح السبت والتاسعة صباح الأحد والخامسة صباح الاثنين.",
+          "photoAlt": "منظر من أعلى للمركبات والعوارض الخرسانية في جسر ونفق لوي هيبوليت لافونتين بجزيرة شارون.",
+          "photoCaption": "صورة أرشيفية من 7 سبتمبر 2014. جسر ونفق لوي هيبوليت لافونتين كما يبدو من جزيرة شارون في لونغوي."
+        },
+        "zh-CN": {
+          "title": "魁北克省拉方丹隧道通往蒙特利尔方向封闭至周一清晨",
+          "summary": "25号高速公路进蒙特利尔方向整个周末关闭。反方向通往南岸的路段将连续三个夜间封闭。",
+          "body": "在加拿大魁北克省，从南岸驾车前往蒙特利尔须改走其他通道。省交通部门安排从当地时间11月27日星期五23时至11月30日星期一5时，全面封闭路易－伊波利特－拉方丹桥隧的25号高速公路北行路段。施工是为了将通往蒙特利尔的两条车道转入翻新后的隧道管道。\n\n反方向的封闭路段从5号出口延伸至沙龙岛入口。据省交通部门公布、CityNews也报道的时间表，连续三个夜间均从23时开始封路。预计周六8时、周日9时和周一5时恢复通行。",
+          "photoAlt": "俯视沙龙岛路易－伊波利特－拉方丹桥隧内的车辆和混凝土横梁。",
+          "photoCaption": "资料照片，摄于2014年9月7日。从隆格伊的沙龙岛看路易－伊波利特－拉方丹桥隧。"
+        },
+        "ru": {
+          "title": "В Квебеке тоннель Лафонтена закрывают в сторону Монреаля до утра понедельника",
+          "summary": "Движение по шоссе 25 в сторону Монреаля перекрывают на все выходные. В обратном направлении, к Южному берегу, запланированы три ночных перекрытия.",
+          "body": "В Квебеке водителям с Южного берега нужно выбирать другой путь в Монреаль. Министерство транспорта провинции запланировало полное перекрытие шоссе 25 в северном направлении в районе моста-тоннеля Луи-Ипполита Лафонтена с 23:00 пятницы, 27 ноября, до 05:00 понедельника, 30 ноября, по местному времени. Работы готовят перевод двух полос в сторону Монреаля в отремонтированную часть тоннеля.\n\nВ обратном направлении закрывается участок от съезда 5 до въезда с острова Шаррон. Согласно графику министерства, о котором также сообщило CityNews, перекрытие начинается в 23:00 каждую из трёх ночей. Возобновление движения намечено на 08:00 в субботу, 09:00 в воскресенье и 05:00 в понедельник.",
+          "photoAlt": "Вид сверху на автомобили и бетонные балки моста-тоннеля Луи-Ипполита Лафонтена на острове Шаррон.",
+          "photoCaption": "Архивный снимок от 7 сентября 2014 года. Вид на мост-тоннель Луи-Ипполита Лафонтена с острова Шаррон в Лонгёе."
+        },
+        "ko": {
+          "title": "퀘벡 라퐁텐 터널 몬트리올 방향, 월요일 새벽까지 전면 통제",
+          "summary": "25번 고속도로 몬트리올 방향은 주말 내내 폐쇄된다. 반대편 사우스쇼어 방향은 사흘 밤에 걸쳐 통제된다.",
+          "body": "캐나다 퀘벡주에서 사우스쇼어를 출발해 몬트리올로 향하는 운전자는 다른 통로를 이용해야 한다. 주 교통부는 현지 시각 11월 27일 금요일 오후 11시부터 30일 월요일 오전 5시까지 루이이폴리트라퐁텐 교량·터널 구간의 25번 고속도로 북행 차로를 전면 통제할 계획이다. 이번 작업은 몬트리올 방향 두 차로를 보수된 터널로 옮기기 위한 준비다.\n\n반대 방향은 5번 출구부터 샤롱섬에서 들어오는 진입로까지 통제된다. 시티뉴스도 보도한 주 교통부 일정에 따르면 사흘 모두 오후 11시에 통제가 시작된다. 개통 예정 시각은 토요일 오전 8시, 일요일 오전 9시, 월요일 오전 5시다.",
+          "photoAlt": "샤롱섬에서 내려다본 루이이폴리트라퐁텐 교량·터널의 차량과 콘크리트 들보.",
+          "photoCaption": "2014년 9월 7일 자료 사진. 롱괴유 샤롱섬에서 바라본 루이이폴리트라퐁텐 교량·터널."
+        }
+      },
+      "title": "Au Québec, le tunnel La Fontaine ferme vers Montréal jusqu’à lundi matin",
+      "summary": "Sur l’autoroute 25, la fermeture vers Montréal couvre toute la fin de semaine. En sens inverse, trois fermetures nocturnes sont prévues vers la Rive-Sud.",
+      "body": "Au Québec, les automobilistes venant de la Rive-Sud doivent prévoir un autre passage vers Montréal. Le ministère des Transports et de la Mobilité durable prévoit une fermeture complète de l’autoroute 25 nord au pont-tunnel Louis-Hippolyte-La Fontaine, entre vendredi 27 novembre à 23 h et lundi 30 novembre à 5 h, heure locale. Ces travaux préparent le transfert des deux voies vers Montréal dans le tube rénové.\n\nDans l’autre sens, la fermeture touche le tronçon allant de la sortie 5 à l’entrée de l’île Charron. Selon l’horaire ministériel, également rapporté par CityNews, elle commence à 23 h chacune des trois nuits. La réouverture est prévue à 8 h samedi, à 9 h dimanche et à 5 h lundi."
     }
   ]
 }
