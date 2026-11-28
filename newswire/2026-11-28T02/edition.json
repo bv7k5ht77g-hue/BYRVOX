@@ -1,0 +1,182 @@
+{
+  "hour": "2026-11-28T02",
+  "articles": [
+    {
+      "eventKey": "new-york-macys-defile-samedi-preparatifs-ballons-meteo",
+      "category": "États-Unis",
+      "sources": [
+        {
+          "name": "Associated Press — entretien avec Will Coss, producteur du défilé",
+          "url": "https://apnews.com/article/ba6b05f16873b2b8966de38d5be8444d",
+          "publishedAt": "2026-11-28T01:28:39Z"
+        },
+        {
+          "name": "WABC New York",
+          "url": "https://abc7ny.com/post/macys-thanksgiving-day-parade-2026-lineup-time-balloons-route-inflation-more/20027422/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "name": "CBS New York — prévisions de Matthew Villafane",
+          "url": "https://www.cbsnews.com/newyork/news/macys-thanksgiving-day-parade-weather-forecast/",
+          "publishedAt": "2026-11-28T00:37:00Z"
+        },
+        {
+          "name": "WABC — suivi météo régional",
+          "url": "https://abc7ny.com/live-updates/thanksgiving-storm-2026-strong-wind-rain-hit-nyc-tri-state-during-parade/20069977/entry/20075638/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "WABC — horaire de départ confirmé",
+          "url": "https://abc7ny.com/post/thanksgiving-storm-shifts-macys-parade-plans-visitors/20087074/",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "subject": "char",
+        "context": "défilé de Macy’s",
+        "capturedOn": "2024-11-28",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Macy's_Thanksgiving_Day_Parade_(54173278827).jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/f/f1/2024_Macy%27s_Thanksgiving_Day_Parade_%2854173278827%29.jpg",
+        "credit": "Anthony Quintano / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Deux personnes sous un parapluie transparent saluent la foule depuis un char décoré de soldats de bois au défilé de Macy’s.",
+        "caption": "Archives du 28 novembre 2024. Deux participants saluent le public depuis un char du défilé de Macy’s à New York, deux ans avant la centième édition."
+      },
+      "title": "À New York, les ballons du défilé de Macy’s se préparent à reprendre la rue samedi",
+      "summary": "À Manhattan, dans l’État de New York, aux États-Unis, les prévisions de vendredi soir placent les rafales sous le seuil qui empêcherait les ballons géants de voler.",
+      "body": "Vendredi soir, les équipes du défilé de Macy’s regonflaient les ballons à Manhattan en vue du départ prévu samedi 28 novembre à 8 h 30, heure locale. L’Associated Press a suivi les préparatifs sur l’Upper West Side. La tempête avait obligé les organisateurs à reporter le centième défilé de Thanksgiving, initialement prévu jeudi.\n\nD’après les dernières prévisions de CBS New York et de WABC, le vent devrait faiblir suffisamment pour permettre aux ballons de voler samedi matin. Les chars et les ballons doivent partir de l’Upper West Side et rejoindre Herald Square, devant le grand magasin Macy’s.",
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "New York readies Macy’s parade balloons for Saturday morning",
+          "summary": "In Manhattan, New York, Friday evening forecasts put gusts below the threshold that would ground the giant balloons.",
+          "body": "Crews were reinflating the Macy’s parade balloons in Manhattan on Friday evening ahead of a start scheduled for 8:30 a.m. local time on Saturday, November 28. The Associated Press followed preparations on the Upper West Side. A storm had forced organizers to postpone the 100th Thanksgiving parade, originally planned for Thursday.\n\nAccording to the latest forecasts from CBS New York and WABC, winds should ease enough for the balloons to fly on Saturday morning. The floats and balloons are due to travel from the Upper West Side to Herald Square, outside the Macy’s flagship store.",
+          "photoAlt": "Two people under a clear umbrella wave from a float decorated with toy soldiers at the Macy’s parade.",
+          "photoCaption": "File photo, November 28, 2024. Two participants wave to spectators from a float at the Macy’s parade in New York, two years before the 100th edition."
+        },
+        "es": {
+          "title": "Nueva York prepara los globos del desfile de Macy’s para el sábado",
+          "summary": "En Manhattan, en el estado de Nueva York, Estados Unidos, los pronósticos del viernes por la noche situaban las ráfagas por debajo del umbral que impediría volar a los globos gigantes.",
+          "body": "El viernes por la noche los equipos del desfile de Macy’s volvían a inflar los globos en Manhattan antes de la salida prevista para el sábado 28 de noviembre a las 8:30, hora local. Associated Press siguió los preparativos en el Upper West Side. Una tormenta había obligado a posponer la centésima edición del desfile de Acción de Gracias, prevista para el jueves.\n\nSegún los últimos pronósticos de CBS New York y WABC, el viento debería amainar lo suficiente para permitir que los globos vuelen el sábado por la mañana. Las carrozas y los globos partirán del Upper West Side rumbo a Herald Square, frente a los grandes almacenes Macy’s.",
+          "photoAlt": "Dos personas bajo un paraguas transparente saludan desde una carroza decorada con soldados de juguete en el desfile de Macy’s.",
+          "photoCaption": "Archivo del 28 de noviembre de 2024. Dos participantes saludan al público desde una carroza del desfile de Macy’s en Nueva York, dos años antes de la centésima edición."
+        },
+        "ar": {
+          "title": "نيويورك تجهز بالونات موكب ميسيز لصباح السبت",
+          "summary": "في مانهاتن بولاية نيويورك الأمريكية، أشارت توقعات مساء الجمعة إلى أن هبّات الرياح ستكون دون الحد الذي يمنع تحليق البالونات العملاقة.",
+          "body": "مساء الجمعة، كانت فرق موكب ميسيز تعيد نفخ البالونات في مانهاتن استعداداً لانطلاق الموكب السبت 28 نوفمبر عند الثامنة والنصف صباحاً بالتوقيت المحلي. وتابعت وكالة أسوشيتد برس التحضيرات في حي أبر ويست سايد. وكانت عاصفة قد أجبرت المنظمين على تأجيل الدورة المئة من موكب عيد الشكر الذي كان مقرراً الخميس.\n\nوبحسب أحدث توقعات محطتي سي بي إس نيويورك وWABC، يُنتظر أن تهدأ الرياح بما يكفي لتحلّق البالونات صباح السبت. ومن المقرر أن تنطلق العربات والبالونات من أبر ويست سايد وصولاً إلى ساحة هيرالد أمام متجر ميسيز الرئيسي.",
+          "photoAlt": "شخصان تحت مظلة شفافة يلوحان من عربة مزينة بجنود من الدمى في موكب ميسيز.",
+          "photoCaption": "صورة أرشيفية من 28 نوفمبر 2024. مشاركان يحييان الجمهور من عربة في موكب ميسيز بنيويورك قبل عامين من دورته المئة."
+        },
+        "zh-CN": {
+          "title": "纽约为周六的梅西感恩节游行重新给气球充气",
+          "summary": "周五晚间的天气预报显示，美国纽约州曼哈顿的阵风预计不会达到禁止巨型气球升空的风速。",
+          "body": "周五晚，梅西游行的工作人员在曼哈顿重新给气球充气，为当地时间11月28日星期六上午8时30分的游行做准备。美联社在上西区报道了现场的筹备情况。此前，一场风暴迫使主办方推迟了原定于周四举行的第100届感恩节游行。\n\n据纽约CBS和WABC电视台的最新预报，周六上午风势预计会减弱，届时气球应能升空。花车和气球将从上西区出发，前往梅西旗舰店前的先驱广场。",
+          "photoAlt": "梅西游行中，两人在透明雨伞下站在饰有玩具士兵的花车上向观众挥手。",
+          "photoCaption": "资料照片，摄于2024年11月28日。在纽约梅西游行上，两名参与者从花车上向观众挥手。两年后，游行迎来第100届。"
+        },
+        "ru": {
+          "title": "В Нью-Йорке готовят воздушные фигуры к субботнему параду Macy’s",
+          "summary": "По прогнозам на вечер пятницы, на Манхэттене в американском штате Нью-Йорк порывы ветра будут слабее предела, при котором гигантские воздушные фигуры приходится оставлять на земле.",
+          "body": "Вечером в пятницу на Манхэттене вновь надували воздушные фигуры для парада Macy’s. Старт намечен на субботу, 28 ноября, в 8:30 по местному времени. Корреспонденты Associated Press наблюдали за подготовкой в районе Верхний Вест-Сайд. Сотый парад в честь Дня благодарения должен был пройти в четверг, но из-за шторма его перенесли.\n\nПо последним прогнозам CBS New York и WABC, к субботнему утру ветер должен стихнуть настолько, чтобы фигуры могли подняться в воздух. Платформы и воздушные фигуры проследуют из района Верхний Вест-Сайд к Геральд-сквер перед флагманским универмагом Macy’s.",
+          "photoAlt": "Два человека под прозрачным зонтом машут зрителям с платформы, украшенной игрушечными солдатами, на параде Macy’s.",
+          "photoCaption": "Архивный снимок от 28 ноября 2024 года. Двое участников приветствуют зрителей с платформы на параде Macy’s в Нью-Йорке за два года до сотого шествия."
+        },
+        "ko": {
+          "title": "뉴욕, 토요일 메이시스 퍼레이드 앞두고 대형 풍선 다시 띄울 준비",
+          "summary": "금요일 저녁 예보에 따르면 미국 뉴욕주 맨해튼의 돌풍은 대형 풍선을 띄울 수 없게 되는 기준 풍속을 밑돌 전망이다.",
+          "body": "금요일 저녁 맨해튼에서는 메이시스 퍼레이드 관계자들이 풍선에 다시 바람을 넣고 있었다. 퍼레이드는 현지 시각 11월 28일 토요일 오전 8시 30분에 출발할 예정이다. AP통신은 어퍼웨스트사이드에서 준비 현장을 취재했다. 주최 측은 폭풍으로 목요일에 예정됐던 제100회 추수감사절 퍼레이드를 연기했다.\n\n뉴욕 CBS와 WABC 방송의 최신 예보에 따르면 토요일 오전에는 바람이 잦아들어 풍선을 띄울 수 있을 것으로 보인다. 장식 차량과 풍선은 어퍼웨스트사이드에서 출발해 메이시스 본점 앞 헤럴드스퀘어로 향할 예정이다.",
+          "photoAlt": "메이시스 퍼레이드에서 투명 우산 아래 두 사람이 장난감 병정으로 꾸민 차량에 서서 관중에게 손을 흔들고 있다.",
+          "photoCaption": "2024년 11월 28일 자료 사진. 제100회 행사보다 2년 앞서 뉴욕 메이시스 퍼레이드 참가자 두 명이 장식 차량에서 관중에게 인사하고 있다."
+        }
+      }
+    },
+    {
+      "eventKey": "malabo-ceeac-tchad-deby-presidence-tournante",
+      "category": "Guinée équatoriale",
+      "sources": [
+        {
+          "name": "Agence gabonaise de presse",
+          "url": "https://agpgabon.ga/ceeac-le-president-mahamat-idriss-deby-itno-prend-les-renes-de-lorganisation/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Agence de presse africaine — discours d’investiture",
+          "url": "https://fr.apanews.net/diplomacy/ceeac-le-nouveau-president-en-exercice-promet-une-presidence-de-lengagement/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "ATPE — communiqué de l’Assemblée nationale tchadienne",
+          "url": "https://www.atpe.td/ceeac-lassemblee-nationale-felicite-mahamat-idriss-deby-itno/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Gouvernement de la Guinée équatoriale",
+          "url": "https://www.guineaecuatorialpress.com/index.php/noticias/el_jefe_de_estado_dirige_la_27_sesion_ordinaria_de_la_ceeac",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "photo": {
+        "subject": "Mahamat Idriss Déby Itno",
+        "context": "Tchad",
+        "capturedOn": "2023-02-01",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isaac_Herzog_in_Beit_HaNassi,_February_2023_(GPOABG_9193)_(cropped_Mahamat_D%C3%A9by).jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/7/78/Isaac_Herzog_in_Beit_HaNassi%2C_February_2023_%28GPOABG_9193%29_%28cropped_Mahamat_D%C3%A9by%29.jpg",
+        "credit": "Amos Ben Gershom / Government Press Office of Israel · Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Mahamat Idriss Déby Itno porte une tenue blanche, un bonnet et des lunettes lors d’une visite à Jérusalem.",
+        "caption": "Archive du 1er février 2023. Mahamat Idriss Déby Itno, alors président de transition du Tchad, lors de sa visite au président israélien Isaac Herzog à Jérusalem. Photo recadrée."
+      },
+      "title": "À Malabo, le Tchad prend la présidence tournante de la CEEAC",
+      "summary": "Les dirigeants d’Afrique centrale réunis en Guinée équatoriale ont confié la présidence à Mahamat Idriss Déby Itno. Le chef de l’État tchadien veut faciliter les déplacements sur le continent.",
+      "body": "Mahamat Idriss Déby Itno a succédé vendredi 27 novembre au président équato-guinéen Teodoro Obiang Nguema Mbasogo à la tête de la Communauté économique des États de l’Afrique centrale (CEEAC). La passation a eu lieu à Malabo, à l’issue du 27e sommet ordinaire de l’organisation, rapporte l’Agence gabonaise de presse.\n\nDans son discours, le président du Tchad a donné un exemple concret de la libre circulation qu’il défend. Il a annoncé que son pays dispenserait de visa d’entrée les ressortissants de tous les pays africains à compter du 1er janvier 2027. L’Agence de presse africaine a rendu compte de cet engagement, également relevé dans un communiqué de l’Assemblée nationale tchadienne.",
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Chad takes over the rotating chair of ECCAS in Malabo",
+          "summary": "Central African leaders meeting in Equatorial Guinea chose Mahamat Idriss Déby Itno as chair. The Chadian president wants to make travel across the continent easier.",
+          "body": "On Friday, November 27, Mahamat Idriss Déby Itno succeeded Equatorial Guinea’s president, Teodoro Obiang Nguema Mbasogo, as chair of the Economic Community of Central African States (ECCAS). The handover took place in Malabo at the close of the organization’s 27th ordinary summit, the Gabonese Press Agency reported.\n\nIn his speech, Chad’s president gave a concrete example of the freedom of movement he supports. He announced that his country would waive entry visas for nationals of all African countries starting January 1, 2027. The African Press Agency reported the pledge, which Chad’s National Assembly also noted in a statement.",
+          "photoAlt": "Mahamat Idriss Déby Itno wears white clothing, a cap and glasses during a visit to Jerusalem.",
+          "photoCaption": "File photo, February 1, 2023. Mahamat Idriss Déby Itno, then Chad’s transitional president, during a visit to Israeli President Isaac Herzog in Jerusalem. Cropped photograph."
+        },
+        "es": {
+          "title": "Chad asume en Malabo la presidencia rotatoria de la CEEAC",
+          "summary": "Los dirigentes de África central reunidos en Guinea Ecuatorial eligieron a Mahamat Idriss Déby Itno como presidente de turno. El mandatario chadiano quiere facilitar los viajes por el continente.",
+          "body": "El viernes 27 de noviembre, Mahamat Idriss Déby Itno sucedió al presidente de Guinea Ecuatorial, Teodoro Obiang Nguema Mbasogo, al frente de la Comunidad Económica de los Estados de África Central (CEEAC). El traspaso tuvo lugar en Malabo al cierre de la 27.ª cumbre ordinaria de la organización, según la Agencia Gabonesa de Prensa.\n\nEn su discurso, el presidente de Chad dio un ejemplo concreto de la libre circulación que defiende. Anunció que su país eximirá del visado de entrada a los ciudadanos de todos los países africanos a partir del 1 de enero de 2027. La Agencia de Prensa Africana informó del compromiso, recogido también en un comunicado de la Asamblea Nacional chadiana.",
+          "photoAlt": "Mahamat Idriss Déby Itno viste de blanco y lleva gorro y gafas durante una visita a Jerusalén.",
+          "photoCaption": "Archivo del 1 de febrero de 2023. Mahamat Idriss Déby Itno, entonces presidente de transición de Chad, durante una visita al presidente israelí Isaac Herzog en Jerusalén. Fotografía recortada."
+        },
+        "ar": {
+          "title": "تشاد تتولى الرئاسة الدورية للجماعة الاقتصادية لدول وسط أفريقيا في مالابو",
+          "summary": "اختار قادة دول وسط أفريقيا المجتمعون في غينيا الاستوائية محمد إدريس ديبي إتنو رئيساً للدورة. ويسعى الرئيس التشادي إلى تسهيل السفر في القارة.",
+          "body": "تسلّم محمد إدريس ديبي إتنو يوم الجمعة 27 نوفمبر رئاسة الجماعة الاقتصادية لدول وسط أفريقيا خلفاً لرئيس غينيا الاستوائية تيودورو أوبيانغ نغيما مباسوغو. وجرت مراسم التسليم في مالابو في ختام القمة العادية السابعة والعشرين للجماعة، بحسب وكالة الأنباء الغابونية.\n\nوضرب رئيس تشاد في كلمته مثالاً على حرية التنقل التي يدعو إليها. فأعلن أن بلاده ستعفي مواطني جميع الدول الأفريقية من تأشيرة الدخول ابتداءً من الأول من يناير 2027. ونقلت وكالة الصحافة الأفريقية هذا التعهد، الذي أشارت إليه أيضاً الجمعية الوطنية التشادية في بيان.",
+          "photoAlt": "محمد إدريس ديبي إتنو يرتدي زياً أبيض وقبعة ونظارات خلال زيارة للقدس.",
+          "photoCaption": "صورة أرشيفية من 1 فبراير 2023. محمد إدريس ديبي إتنو، رئيس تشاد الانتقالي آنذاك، خلال زيارته للرئيس الإسرائيلي إسحاق هرتسوغ في القدس. الصورة مقتصّة."
+        },
+        "zh-CN": {
+          "title": "乍得在马拉博接任中部非洲国家经济共同体轮值主席国",
+          "summary": "在赤道几内亚开会的中非地区领导人推选穆罕默德·伊德里斯·代比·伊特诺担任轮值主席。这位乍得总统希望让人们在非洲各国之间出行更加便利。",
+          "body": "11月27日星期五，穆罕默德·伊德里斯·代比·伊特诺接替赤道几内亚总统特奥多罗·奥比昂·恩圭马·姆巴索戈，担任中部非洲国家经济共同体轮值主席。据加蓬通讯社报道，交接仪式在该组织第27届例行峰会闭幕时于马拉博举行。\n\n乍得总统在讲话中举例说明了他所倡导的人员自由流动。他宣布，乍得将从2027年1月1日起对所有非洲国家公民免除入境签证要求。非洲通讯社报道了这一承诺，乍得国民议会也在一份声明中提及此事。",
+          "photoAlt": "穆罕默德·伊德里斯·代比·伊特诺访问耶路撒冷时身穿白衣，戴着帽子和眼镜。",
+          "photoCaption": "资料照片，摄于2023年2月1日。时任乍得过渡总统穆罕默德·伊德里斯·代比·伊特诺在耶路撒冷访问以色列总统伊萨克·赫尔佐格。照片经过裁剪。"
+        },
+        "ru": {
+          "title": "Чад принял председательство в Экономическом сообществе стран Центральной Африки",
+          "summary": "Лидеры стран Центральной Африки на встрече в Экваториальной Гвинее избрали председателем Махамата Идриса Деби Итно. Президент Чада выступает за упрощение поездок по континенту.",
+          "body": "В пятницу, 27 ноября, Махамат Идрис Деби Итно сменил президента Экваториальной Гвинеи Теодоро Обианга Нгему Мбасого на посту председателя Экономического сообщества стран Центральной Африки. По данным Габонского агентства печати, передача полномочий состоялась в Малабо по завершении 27-го очередного саммита организации.\n\nВ своей речи президент Чада привёл конкретный пример того, как он намерен облегчить передвижение по континенту. Он объявил, что с 1 января 2027 года его страна отменит въездные визы для граждан всех африканских государств. Об этом обязательстве сообщило Африканское агентство печати. О нём также говорится в заявлении Национальной ассамблеи Чада.",
+          "photoAlt": "Махамат Идрис Деби Итно в белой одежде, шапочке и очках во время визита в Иерусалим.",
+          "photoCaption": "Архивное фото от 1 февраля 2023 года. Махамат Идрис Деби Итно, в то время временный президент Чада, во время визита к президенту Израиля Ицхаку Герцогу в Иерусалиме. Снимок кадрирован."
+        },
+        "ko": {
+          "title": "차드, 말라보에서 중앙아프리카경제공동체 순회의장국 맡아",
+          "summary": "적도기니에 모인 중앙아프리카 각국 정상들은 마하마트 이드리스 데비 이트노를 의장으로 선출했다. 차드 대통령은 아프리카 역내 이동을 더 쉽게 하겠다고 밝혔다.",
+          "body": "11월 27일 금요일 마하마트 이드리스 데비 이트노 차드 대통령이 테오도로 오비앙 응게마 음바소고 적도기니 대통령의 뒤를 이어 중앙아프리카경제공동체 의장을 맡았다. 가봉통신에 따르면 의장직 인계는 말라보에서 열린 제27차 정기 정상회의 폐막에 맞춰 이뤄졌다.\n\n차드 대통령은 연설에서 자신이 지지하는 이동의 자유가 어떤 조치로 이어질 수 있는지 예를 들었다. 그는 2027년 1월 1일부터 차드가 모든 아프리카 국가 국민에게 입국 비자를 면제할 것이라고 발표했다. 아프리카통신이 이 약속을 보도했고 차드 국회도 성명에서 이를 언급했다.",
+          "photoAlt": "마하마트 이드리스 데비 이트노가 예루살렘 방문 당시 흰옷을 입고 모자와 안경을 쓰고 있다.",
+          "photoCaption": "2023년 2월 1일 자료 사진. 당시 차드 과도정부 대통령 마하마트 이드리스 데비 이트노가 예루살렘에서 이츠하크 헤르초그 이스라엘 대통령을 방문했을 때의 모습. 일부를 잘라낸 사진이다."
+        }
+      }
+    }
+  ]
+}
