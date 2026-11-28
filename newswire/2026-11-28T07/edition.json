@@ -1,0 +1,157 @@
+{
+  "hour": "2026-11-28T07",
+  "articles": [
+    {
+      "eventKey": "australie-victoria-fermeture-bureaux-debut-depouillement",
+      "category": "Australie",
+      "title": "En Australie, le dépouillement commence au Victoria après la fermeture des bureaux de vote",
+      "summary": "Les bureaux ont fermé samedi à 18 h, heure locale. Pour la chambre basse, un premier relevé des préférences doit aider à interpréter les résultats qui arrivent circonscription par circonscription.",
+      "body": "Dans l’État australien du Victoria, la journée de vote a pris fin samedi 28 novembre à 18 h, a constaté la rédaction d’ABC. Les électeurs qui attendaient déjà dans la file pouvaient encore voter. Le scrutin avait commencé plus tôt pour d’autres habitants, notamment à Brunswick, où un bureau de vote anticipé avait accueilli les électeurs avant samedi.\n\nPour les sièges de la chambre basse, les agents comptent d’abord les bulletins selon le premier choix de chaque électeur. La commission électorale du Victoria prévoit aussi un décompte indicatif entre deux candidats dans chaque circonscription. Ce second relevé montre vers lequel des deux se reportent les préférences des électeurs ayant placé quelqu’un d’autre en tête.",
+      "photo": {
+        "subject": "bureau de vote anticipé",
+        "context": "Brunswick",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Early_voting_in_Brunswick%2C_Pallaconian_Brotherhood_of_Melbourne_%26_Victoria_%283%29_-_55671547022.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/8/82/Early_voting_in_Brunswick%2C_Pallaconian_Brotherhood_of_Melbourne_%26_Victoria_%283%29_-_55671547022.jpg",
+        "capturedOn": "2026-11-25",
+        "credit": "leo_puglisi6 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Des personnes et des affiches de campagne devant le bureau de vote anticipé de Brunswick.",
+        "caption": "Archive du 25 novembre 2026. À Brunswick, des personnes se tiennent devant le bureau de vote anticipé installé à la Pallaconian Brotherhood of Melbourne & Victoria."
+      },
+      "sources": [
+        {
+          "name": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-28/victorian-election-live-updates-voting-results-seat-count/107418038#live-blog-post-364686",
+          "publishedAt": "2026-11-28"
+        },
+        {
+          "name": "Victorian Electoral Commission",
+          "url": "https://www.vec.vic.gov.au/about-us/media/media-releases/three-days-left-to-vote-in-this-years-state-election",
+          "publishedAt": "2026-11-25"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Vote counting begins as polls close in Australia’s state of Victoria",
+          "summary": "Polling places closed at 6 p.m. local time on Saturday. An initial preference count will help readers interpret lower-house results as they come in district by district.",
+          "body": "Voting day in the Australian state of Victoria ended at 6 p.m. on Saturday, November 28, ABC reported. People already in line could still cast their ballots. Others had voted earlier, including in Brunswick, where an early voting centre served residents before Saturday.\n\nFor lower-house seats, officials first count ballots according to each voter’s first choice. The Victorian Electoral Commission also schedules an indicative count between two candidates in each district. This shows which of the two is preferred by voters who ranked someone else first.",
+          "photoAlt": "People and campaign signs outside the early voting centre in Brunswick.",
+          "photoCaption": "Archive photograph, November 25, 2026. People stand outside the early voting centre at the Pallaconian Brotherhood of Melbourne & Victoria in Brunswick."
+        },
+        "es": {
+          "title": "Comienza el escrutinio en el estado australiano de Victoria tras el cierre de las urnas",
+          "summary": "Los centros cerraron el sábado a las 18:00, hora local. Un primer recuento de preferencias ayudará a interpretar los resultados de la cámara baja a medida que se conozcan por circunscripción.",
+          "body": "La jornada electoral en el estado australiano de Victoria terminó el sábado 28 de noviembre a las 18:00, según informó ABC. Quienes ya hacían fila pudieron votar. Otros residentes lo habían hecho antes, por ejemplo en Brunswick, donde funcionó un centro de votación anticipada antes del sábado.\n\nPara los escaños de la cámara baja, el personal cuenta primero las papeletas según la primera opción de cada votante. La comisión electoral de Victoria también prevé un recuento indicativo entre dos candidatos por circunscripción. Este muestra a cuál de los dos prefieren quienes pusieron a otra persona en primer lugar.",
+          "photoAlt": "Personas y carteles de campaña ante el centro de votación anticipada de Brunswick.",
+          "photoCaption": "Archivo del 25 de noviembre de 2026. Varias personas ante el centro de votación anticipada de la Pallaconian Brotherhood of Melbourne & Victoria, en Brunswick."
+        },
+        "ar": {
+          "title": "بدء فرز الأصوات بعد إغلاق مراكز الاقتراع في ولاية فيكتوريا الأسترالية",
+          "summary": "أغلقت المراكز السبت عند السادسة مساء بالتوقيت المحلي. وسيساعد فرز أولي لتفضيلات الناخبين على قراءة نتائج المجلس الأدنى مع ورودها من الدوائر.",
+          "body": "انتهى يوم الاقتراع في ولاية فيكتوريا الأسترالية عند السادسة مساء السبت 28 نوفمبر، وفق هيئة البث الأسترالية ABC. وتمكن من كانوا ينتظرون بالفعل في الطوابير من الإدلاء بأصواتهم. وكان سكان آخرون قد صوّتوا من قبل، ومنهم ناخبون في برونزويك استقبلهم مركز اقتراع مبكر قبل السبت.\n\nبالنسبة إلى مقاعد المجلس الأدنى، يفرز الموظفون الأوراق أولاً بحسب الخيار الأول لكل ناخب. وتعتزم لجنة الانتخابات في فيكتوريا أيضاً إجراء عدّ استرشادي بين مرشّحين في كل دائرة، يبيّن أيهما يفضّله الناخبون الذين اختاروا شخصاً آخر في المرتبة الأولى.",
+          "photoAlt": "أشخاص وملصقات انتخابية أمام مركز الاقتراع المبكر في برونزويك.",
+          "photoCaption": "صورة أرشيفية من 25 نوفمبر 2026. أشخاص أمام مركز الاقتراع المبكر في مقر جمعية Pallaconian Brotherhood of Melbourne & Victoria في برونزويك."
+        },
+        "zh-CN": {
+          "title": "澳大利亚维多利亚州投票结束，计票开始",
+          "summary": "投票站于当地时间周六18时关闭。各选区陆续公布下议院选举结果时，初步的偏好票统计将有助于解读票数。",
+          "body": "据澳大利亚广播公司ABC报道，维多利亚州的选举日投票于11月28日星期六18时结束。已经排队的选民仍可投票。一些居民此前已经投票，例如布伦瑞克就有提前投票站在周六之前接待选民。\n\n在下议院选举中，工作人员先按选民的第一志愿清点选票。维州选举委员会还安排各选区进行两名候选人之间的初步计票，以显示将其他候选人列为首选的选民更倾向于这两人中的哪一位。",
+          "photoAlt": "布伦瑞克提前投票站外的人群和竞选标语。",
+          "photoCaption": "资料照片，摄于2026年11月25日。人们站在布伦瑞克的Pallaconian Brotherhood of Melbourne & Victoria会馆外，此处当时设有提前投票站。"
+        },
+        "ru": {
+          "title": "В австралийском штате Виктория после закрытия участков начался подсчёт голосов",
+          "summary": "Участки закрылись в субботу в 18:00 по местному времени. Предварительный подсчёт предпочтений поможет оценить результаты выборов в нижнюю палату по мере поступления данных из округов.",
+          "body": "В австралийском штате Виктория голосование в день выборов завершилось в субботу, 28 ноября, в 18:00, сообщила телекомпания ABC. Те, кто уже стоял в очереди, могли подать голос. Некоторые жители проголосовали заранее, в том числе в Брансуике, где до субботы работал участок для досрочного голосования.\n\nНа выборах в нижнюю палату сотрудники сначала подсчитывают бюллетени по первым предпочтениям избирателей. Избирательная комиссия Виктории также предусматривает предварительный подсчёт для пары кандидатов в каждом округе. Он показывает, кому из этих двоих отдают предпочтение избиратели, поставившие на первое место другого кандидата.",
+          "photoAlt": "Люди и предвыборные плакаты перед участком досрочного голосования в Брансуике.",
+          "photoCaption": "Архивное фото от 25 ноября 2026 года. Люди у участка досрочного голосования в здании Pallaconian Brotherhood of Melbourne & Victoria в Брансуике."
+        },
+        "ko": {
+          "title": "호주 빅토리아주 투표 종료…개표 시작",
+          "summary": "토요일 현지 시각 오후 6시에 투표소가 문을 닫았다. 하원 선거구별 결과가 나오는 동안 예비 선호투표 집계가 판세 파악을 돕는다.",
+          "body": "호주 ABC 방송에 따르면 빅토리아주의 선거일 투표는 11월 28일 토요일 오후 6시에 끝났다. 이미 줄을 서 있던 유권자는 투표할 수 있었다. 일부 주민들은 그전에 투표를 마쳤다. 브런즈윅에도 토요일 전에 유권자를 맞은 사전투표소가 있었다.\n\n하원 선거에서는 먼저 각 유권자의 1순위 후보별로 표를 센다. 빅토리아주 선거관리위원회는 선거구마다 두 후보를 놓고 예비 집계도 한다. 다른 후보를 1순위로 적은 유권자가 두 사람 중 누구를 더 선호하는지 보여주는 집계다.",
+          "photoAlt": "브런즈윅 사전투표소 앞에 모인 사람들과 선거 홍보물.",
+          "photoCaption": "2026년 11월 25일 자료 사진. 브런즈윅의 팔라코니안 브라더후드 오브 멜버른 앤드 빅토리아 회관에 마련된 사전투표소 앞에 사람들이 서 있다."
+        }
+      }
+    },
+    {
+      "eventKey": "floride-tampa-stutzle-double-senators-lightning",
+      "category": "Sports",
+      "title": "En Floride, Tim Stützle marque deux fois dans la victoire de 6 à 2 d’Ottawa à Tampa",
+      "summary": "Les Senators ont même marqué pendant une pénalité. Le gardien Linus Ullmark a réalisé 18 arrêts et Jake Guentzel a inscrit les deux buts du Lightning.",
+      "body": "Les Senators d’Ottawa ont battu le Lightning de Tampa Bay 6 à 2 vendredi 27 novembre à Tampa, en Floride, aux États-Unis. Tim Stützle a inscrit deux buts pour le club ontarien. Son premier a donné deux buts d’avance à Ottawa alors que Tampa profitait d’un avantage numérique, selon la feuille de match de la LNH.\n\nSur cette action, Michael Amadio a récupéré la rondelle avant de la servir à Stützle lors d’une attaque à deux contre un. L’attaquant a ensuite marqué sur un retour de tir en deuxième période. Selon Field Level Media, Linus Ullmark a arrêté 18 tirs pour Ottawa. Jake Guentzel a signé les deux buts de Tampa Bay.",
+      "photo": {
+        "subject": "Tim Stützle",
+        "context": "Senators d’Ottawa",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schwartz%2C_St%C3%BCtzle%2C_and_Ullmark_2024-12-17.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Schwartz%2C_St%C3%BCtzle%2C_and_Ullmark_2024-12-17.jpg/1280px-Schwartz%2C_St%C3%BCtzle%2C_and_Ullmark_2024-12-17.jpg",
+        "capturedOn": "2024-12-17",
+        "credit": "Jenn G / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "De dos en maillot blanc des Senators d’Ottawa, Tim Stützle porte le numéro 18 près de Linus Ullmark et de Jaden Schwartz.",
+        "caption": "Archive du 17 décembre 2024 à Seattle. Tim Stützle, à gauche, et Linus Ullmark portent le maillot des Senators d’Ottawa face à Jaden Schwartz du Kraken."
+      },
+      "sources": [
+        {
+          "name": "Ligue nationale de hockey",
+          "url": "https://www.nhl.com/scores/htmlreports/20262027/GS020404.HTM",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Field Level Media / Reuters",
+          "url": "https://www.reuters.com/sports/nhl/senators-bounce-back-with-blowout-win-over-lightning--flm-2026-11-27/",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Tim Stützle scores twice as Ottawa wins 6–2 in Tampa, Florida",
+          "summary": "The Senators scored even while serving a penalty. Goalie Linus Ullmark made 18 saves and Jake Guentzel scored both Lightning goals.",
+          "body": "The Ottawa Senators beat the Tampa Bay Lightning 6–2 on Friday, November 27, in Tampa, Florida. Tim Stützle scored twice for the Ontario team. His first goal gave Ottawa a two-goal lead while Tampa was on a power play, according to the NHL game sheet.\n\nMichael Amadio won the puck and fed Stützle on a two-on-one rush. The forward later scored on a rebound in the second period. Field Level Media reported that Linus Ullmark stopped 18 shots for Ottawa. Jake Guentzel scored both of Tampa Bay’s goals.",
+          "photoAlt": "Seen from behind in his white Ottawa Senators jersey, Tim Stützle wears number 18 next to Linus Ullmark and Jaden Schwartz.",
+          "photoCaption": "Archive photograph, December 17, 2024, in Seattle. Tim Stützle, left, and Linus Ullmark wear Ottawa Senators jerseys against the Kraken’s Jaden Schwartz."
+        },
+        "es": {
+          "title": "Tim Stützle marca dos goles en el triunfo de Ottawa por 6-2 en Tampa, Florida",
+          "summary": "Los Senators marcaron incluso en inferioridad numérica. El portero Linus Ullmark realizó 18 paradas y Jake Guentzel anotó los dos tantos del Lightning.",
+          "body": "Los Ottawa Senators vencieron por 6-2 al Tampa Bay Lightning el viernes 27 de noviembre en Tampa, Florida, Estados Unidos. Tim Stützle marcó dos goles para el equipo de Ontario. Según el acta de la NHL, su primer tanto amplió a dos goles la ventaja de Ottawa cuando Tampa jugaba en superioridad numérica.\n\nMichael Amadio recuperó el disco y se lo pasó a Stützle en un ataque de dos contra uno. En el segundo periodo, el delantero volvió a marcar tras un rebote. Según Field Level Media, Linus Ullmark detuvo 18 tiros para Ottawa. Jake Guentzel anotó ambos goles de Tampa Bay.",
+          "photoAlt": "De espaldas con la camiseta blanca de los Ottawa Senators, Tim Stützle luce el número 18 junto a Linus Ullmark y Jaden Schwartz.",
+          "photoCaption": "Archivo del 17 de diciembre de 2024 en Seattle. Tim Stützle, a la izquierda, y Linus Ullmark visten la camiseta de los Ottawa Senators frente a Jaden Schwartz, del Kraken."
+        },
+        "ar": {
+          "title": "شتوتسله يسجل هدفين في فوز أوتاوا 6-2 في تامبا بفلوريدا",
+          "summary": "هزّ سيناتورز الشباك حتى أثناء النقص العددي. وتصدّى الحارس لينوس أولمارك لـ18 تسديدة وسجّل جيك غينتزل هدفي لايتنينغ.",
+          "body": "فاز أوتاوا سيناتورز على تامبا باي لايتنينغ 6-2 يوم الجمعة 27 نوفمبر في مدينة تامبا بولاية فلوريدا الأمريكية. وسجّل تيم شتوتسله هدفين لفريق أونتاريو. وبحسب محضر المباراة الرسمي لدوري هوكي الجليد NHL، وسّع هدفه الأول الفارق إلى هدفين بينما كان تامبا يلعب بأفضلية عددية.\n\nواستخلص مايكل أماديو القرص ومرّره إلى شتوتسله في هجمة لاثنين ضد واحد. ثم سجّل المهاجم مجدداً من قرص مرتد في الشوط الثاني. وبحسب وكالة فيلد ليفل ميديا، تصدّى لينوس أولمارك لـ18 تسديدة لأوتاوا، فيما أحرز جيك غينتزل هدفي تامبا باي.",
+          "photoAlt": "تيم شتوتسله من الخلف مرتدياً القميص الأبيض رقم 18 لأوتاوا سيناتورز قرب لينوس أولمارك وجايدن شوارتز.",
+          "photoCaption": "صورة أرشيفية من سياتل في 17 ديسمبر 2024. تيم شتوتسله، يساراً، ولينوس أولمارك بقميص أوتاوا سيناتورز أمام جايدن شوارتز لاعب كراكن."
+        },
+        "zh-CN": {
+          "title": "施蒂茨勒梅开二度，渥太华在佛罗里达州坦帕以6比2获胜",
+          "summary": "参议员队在少打一人时仍然破门。门将利努斯·乌尔马克完成18次扑救，杰克·根策尔包办闪电队的两粒进球。",
+          "body": "11月27日星期五，渥太华参议员队在美国佛罗里达州坦帕以6比2击败坦帕湾闪电队。蒂姆·施蒂茨勒为这支安大略省球队打进两球。根据北美职业冰球联赛官方比赛记录，他的首球出现在坦帕多打一人期间，将渥太华的领先优势扩大到两球。\n\n迈克尔·阿马迪奥抢下冰球，在一次二打一反击中传给施蒂茨勒。第二节，施蒂茨勒又补射得分。据Field Level Media报道，渥太华门将利努斯·乌尔马克扑出18次射门。坦帕湾的两粒进球均由杰克·根策尔打进。",
+          "photoAlt": "蒂姆·施蒂茨勒身穿渥太华参议员队白色18号球衣，背对镜头，身边是利努斯·乌尔马克和杰登·施瓦茨。",
+          "photoCaption": "资料照片，2024年12月17日摄于西雅图。左侧的施蒂茨勒与乌尔马克身穿参议员队球衣，对阵海怪队的杰登·施瓦茨。"
+        },
+        "ru": {
+          "title": "Штюцле сделал дубль в Тампе, где «Оттава» выиграла со счётом 6:2",
+          "summary": "«Сенаторз» забили даже в меньшинстве. Линус Улльмарк отразил 18 бросков, а Джейк Генцел забросил обе шайбы «Лайтнинг».",
+          "body": "«Оттава Сенаторз» обыграла «Тампа-Бэй Лайтнинг» со счётом 6:2 в пятницу, 27 ноября, в американском городе Тампа, штат Флорида. Тим Штюцле забросил две шайбы за клуб из Онтарио. Согласно протоколу НХЛ, его первый гол увеличил отрыв «Оттавы» до двух шайб, когда «Тампа» играла в большинстве.\n\nМайкл Амадио завладел шайбой и отдал пас Штюцле при выходе «два в одного». Во втором периоде нападающий снова отличился на добивании. По данным Field Level Media, Линус Улльмарк отразил 18 бросков по воротам «Оттавы». Обе шайбы «Тампы» забросил Джейк Генцел.",
+          "photoAlt": "Тим Штюцле спиной к камере в белом свитере «Оттавы» с номером 18 рядом с Линусом Улльмарком и Джейденом Шварцем.",
+          "photoCaption": "Архивное фото от 17 декабря 2024 года, Сиэтл. Тим Штюцле (слева) и Линус Улльмарк в форме «Оттава Сенаторз» против Джейдена Шварца из «Сиэтл Кракен»."
+        },
+        "ko": {
+          "title": "슈퇴츨레 두 골…오타와, 플로리다주 탬파에서 6대 2 승리",
+          "summary": "세너터스는 페널티로 한 명이 적은 상황에서도 득점했다. 골리 리누스 울마르크가 슛 18개를 막았고 제이크 겐첼이 라이트닝의 두 골을 모두 넣었다.",
+          "body": "오타와 세너터스는 11월 27일 금요일 미국 플로리다주 탬파에서 탬파베이 라이트닝을 6대 2로 이겼다. 팀 슈퇴츨레가 온타리오주 연고 팀인 오타와를 위해 두 골을 넣었다. NHL 공식 경기 기록에 따르면 그의 첫 골은 탬파의 파워플레이 때 나와 오타와가 두 골 차로 앞섰다.\n\n마이클 아마디오가 퍽을 빼앗아 2대1 속공에서 슈퇴츨레에게 패스했다. 슈퇴츨레는 2피리어드에 리바운드 퍽을 밀어 넣어 다시 득점했다. 필드 레벨 미디어에 따르면 울마르크는 오타와 골문에서 슛 18개를 막았다. 탬파베이의 두 골은 모두 겐첼이 기록했다.",
+          "photoAlt": "오타와 세너터스의 흰색 18번 유니폼을 입은 슈퇴츨레의 뒷모습. 옆에는 울마르크와 제이든 슈워츠가 있다.",
+          "photoCaption": "2024년 12월 17일 시애틀에서 촬영한 자료 사진. 왼쪽의 슈퇴츨레와 울마르크가 오타와 유니폼을 입고 크라켄의 슈워츠를 상대하고 있다."
+        }
+      }
+    }
+  ]
+}
