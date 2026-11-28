@@ -1,0 +1,177 @@
+{
+  "hour": "2026-11-28T03",
+  "articles": [
+    {
+      "eventKey": "miami-floride-reouverture-toutes-pistes-sortie-md11-fedex",
+      "category": "États-Unis",
+      "sources": [
+        {
+          "name": "WSVN 7News — Isabella Fernandez de Cueto",
+          "url": "https://wsvn.com/news/local/miami-dade/mia-runways-reopen-after-incident/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Aéroport international de Miami — avis de réouverture (@iflymia, copie publique)",
+          "url": "https://www.sotwe.com/iflyMIA",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Associated Press",
+          "url": "https://apnews.com/article/miami-airport-fedex-plane-off-runway-07567f757a4cef4356dfa4fc3bf5e561",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "name": "AeroInside — identification de l’appareil",
+          "url": "https://www.aeroinside.com/22399/fedex-md11-at-miami-on-nov-25th-2026-overran-runway-on-landing",
+          "publishedAt": "2026-11-26"
+        }
+      ],
+      "photo": {
+        "subject": "MD-11 de FedEx",
+        "context": "FedEx",
+        "capturedOn": "2018-01",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:FedEx_MD11F_at_Bangalore_International_Airport_(38764402385).jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/a/aa/FedEx_MD11F_at_Bangalore_International_Airport_%2838764402385%29.jpg",
+        "credit": "Venkat Mangudi / Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "alt": "Le MD-11 de FedEx immatriculé N605FE stationne de nuit sur l’aire de trafic de l’aéroport de Bangalore.",
+        "caption": "Archive de janvier 2018. Le MD-11 de FedEx immatriculé N605FE sur le tarmac à Bangalore, en Inde, plusieurs années avant la sortie de piste à Miami."
+      },
+      "title": "Miami rouvre toutes ses pistes après la sortie de piste d’un avion cargo",
+      "summary": "En Floride, aux États-Unis, l’aéroport international de Miami a confirmé vendredi que toutes ses pistes étaient de nouveau ouvertes. Des retards restaient possibles.",
+      "body": "L’aéroport international de Miami a annoncé vendredi 27 novembre la réouverture de toutes ses pistes, deux jours après la sortie de piste d’un MD-11 de FedEx. La chaîne locale WSVN a confirmé la reprise. L’aéroport a conseillé aux voyageurs de vérifier leur vol auprès de leur compagnie, car la remise en service des pistes ne résorbait pas immédiatement les retards.\n\nL’avion cargo arrivait de Memphis mercredi soir. Il a dépassé l’extrémité de la piste à l’atterrissage, sans blesser les deux pilotes. Selon l’Associated Press, une seule piste était restée accessible juste après l’incident, à la veille de Thanksgiving.",
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Miami reopens all runways after cargo plane overrun",
+          "summary": "Miami International Airport in Florida confirmed on Friday that all its runways were open again. Travelers could still face delays.",
+          "body": "Miami International Airport announced on Friday, November 27, that all its runways had reopened, two days after a FedEx MD-11 overran a runway. Local station WSVN confirmed the reopening. The airport advised passengers to check with their airlines, as reopening the runways would not immediately clear the delays.\n\nThe cargo plane was arriving from Memphis on Wednesday evening. It ran past the end of the runway on landing. Neither pilot was hurt. According to the Associated Press, only one runway remained available immediately after the incident on Thanksgiving Eve.",
+          "photoAlt": "FedEx MD-11 N605FE parked on the apron at Bangalore airport at night.",
+          "photoCaption": "File photo, January 2018. FedEx MD-11 N605FE on the apron in Bangalore, India, years before the runway overrun in Miami."
+        },
+        "es": {
+          "title": "Miami reabre todas sus pistas tras la salida de pista de un avión de carga",
+          "summary": "El aeropuerto internacional de Miami, en Florida, Estados Unidos, confirmó el viernes que todas sus pistas volvían a estar abiertas. Aún podían producirse retrasos.",
+          "body": "El aeropuerto internacional de Miami anunció el viernes 27 de noviembre la reapertura de todas sus pistas, dos días después de que un MD-11 de FedEx se saliera de una de ellas. La cadena local WSVN confirmó la reapertura. El aeropuerto aconsejó a los pasajeros consultar con sus aerolíneas, ya que los retrasos no desaparecerían de inmediato.\n\nEl carguero llegaba de Memphis el miércoles por la noche y rebasó el final de la pista al aterrizar. Los dos pilotos resultaron ilesos. Según Associated Press, solo una pista quedó disponible justo después del incidente, en vísperas del Día de Acción de Gracias.",
+          "photoAlt": "El MD-11 de FedEx con matrícula N605FE estacionado de noche en la plataforma del aeropuerto de Bangalore.",
+          "photoCaption": "Archivo de enero de 2018. El MD-11 de FedEx con matrícula N605FE en Bangalore, India, años antes de la salida de pista en Miami."
+        },
+        "ar": {
+          "title": "مطار ميامي يعيد فتح جميع مدارجِه بعد تجاوز طائرة شحن نهاية المدرج",
+          "summary": "أكد مطار ميامي الدولي بولاية فلوريدا الأمريكية يوم الجمعة أن مدارج المطار عادت جميعها إلى الخدمة، مع احتمال استمرار بعض التأخيرات.",
+          "body": "أعلن مطار ميامي الدولي يوم الجمعة 27 نوفمبر إعادة فتح جميع مدارجِه بعد يومين من تجاوز طائرة شحن من طراز MD-11 تابعة لفيديكس نهاية أحد المدارج. وأكدت قناة WSVN المحلية إعادة فتحها. ودعا المطار المسافرين إلى مراجعة شركات الطيران لأن عودة المدارج إلى الخدمة لن تنهي التأخيرات على الفور.\n\nكانت الطائرة قادمة من ممفيس مساء الأربعاء وتجاوزت نهاية المدرج عند الهبوط. ولم يصب أي من الطيارين. وبحسب وكالة أسوشيتد برس، بقي مدرج واحد فقط متاحاً مباشرة بعد الحادث عشية عيد الشكر.",
+          "photoAlt": "طائرة فيديكس من طراز MD-11 المسجلة برقم N605FE متوقفة ليلاً على ساحة مطار بنغالور.",
+          "photoCaption": "صورة أرشيفية من يناير 2018 لطائرة فيديكس MD-11 المسجلة برقم N605FE في ساحة مطار بنغالور بالهند، قبل سنوات من تجاوزها المدرج في ميامي."
+        },
+        "zh-CN": {
+          "title": "货机冲出跑道后，迈阿密国际机场重新开放全部跑道",
+          "summary": "美国佛罗里达州迈阿密国际机场周五确认，所有跑道均已恢复开放，但航班仍可能延误。",
+          "body": "11月27日星期五，迈阿密国际机场宣布所有跑道重新开放。两天前，联邦快递一架MD-11货机冲出了跑道。当地电视台WSVN证实了跑道重开的消息。机场建议旅客向航空公司查询航班情况，因为跑道恢复使用后，积压的航班仍需时间消化。\n\n这架货机周三晚从孟菲斯飞抵迈阿密，在降落时冲过跑道尽头。两名飞行员均未受伤。据美联社报道，在感恩节前夕这起事件发生后，一度只有一条跑道可以使用。",
+          "photoAlt": "夜间，注册号为N605FE的联邦快递MD-11货机停在班加罗尔机场的停机坪上。",
+          "photoCaption": "资料照片，摄于2018年1月。注册号为N605FE的联邦快递MD-11货机停在印度班加罗尔的停机坪上，距迈阿密冲出跑道事件尚有数年。"
+        },
+        "ru": {
+          "title": "Аэропорт Майами открыл все полосы после выкатывания грузового самолёта",
+          "summary": "В пятницу международный аэропорт Майами в американском штате Флорида подтвердил, что все полосы вновь открыты. Задержки рейсов ещё возможны.",
+          "body": "В пятницу, 27 ноября, международный аэропорт Майами объявил об открытии всех полос. Двумя днями ранее грузовой MD-11 компании FedEx выкатился за пределы одной из них. Местный телеканал WSVN подтвердил возобновление работы. Аэропорт посоветовал пассажирам уточнять сведения о рейсах у перевозчиков, поскольку задержки не исчезнут сразу.\n\nСамолёт прибыл из Мемфиса вечером в среду и при посадке выкатился за торец полосы. Оба пилота не пострадали. По данным Associated Press, сразу после происшествия накануне Дня благодарения доступной оставалась только одна полоса.",
+          "photoAlt": "Грузовой MD-11 компании FedEx с регистрацией N605FE ночью на перроне аэропорта Бангалора.",
+          "photoCaption": "Архивное фото, январь 2018 года. MD-11 компании FedEx с регистрацией N605FE на перроне в Бангалоре, Индия, за несколько лет до происшествия в Майами."
+        },
+        "ko": {
+          "title": "마이애미 국제공항, 화물기 활주로 이탈 이틀 만에 모든 활주로 재개방",
+          "summary": "미국 플로리다주 마이애미 국제공항은 금요일 모든 활주로를 다시 열었다고 밝혔다. 일부 항공편은 여전히 지연될 수 있다.",
+          "body": "마이애미 국제공항은 11월 27일 금요일 모든 활주로를 다시 열었다고 발표했다. 페덱스 MD-11 화물기가 활주로 끝을 벗어난 지 이틀 만이다. 현지 방송 WSVN도 재개방을 확인했다. 공항은 활주로가 정상화돼도 지연이 곧바로 해소되지는 않는다며 승객들에게 항공사에 운항 정보를 확인하라고 안내했다.\n\n수요일 저녁 멤피스에서 도착한 이 화물기는 착륙 도중 활주로 끝을 넘어갔다. 조종사 두 명 모두 다치지 않았다. AP통신에 따르면 추수감사절 전날 발생한 사고 직후에는 활주로 한 곳만 사용할 수 있었다.",
+          "photoAlt": "등록번호 N605FE인 페덱스 MD-11 화물기가 밤에 벵갈루루 공항 계류장에 서 있다.",
+          "photoCaption": "2018년 1월 자료 사진. 등록번호 N605FE인 페덱스 MD-11이 인도 벵갈루루 계류장에 서 있다. 마이애미에서 활주로를 이탈하기 수년 전의 모습이다."
+        }
+      }
+    },
+    {
+      "eventKey": "new-york-deces-andrea-stewart-cousins-majorite-senat",
+      "category": "États-Unis",
+      "sources": [
+        {
+          "name": "Procureure générale de l’État de New York",
+          "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-releases-statement-passing-senate-majority-leader-andrea",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Associated Press, via ABC News",
+          "url": "https://abcnews.com/Politics/wireStory/ny-senate-leader-andrea-stewart-cousins-woman-role-138488279",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "CBS New York",
+          "url": "https://www.cbsnews.com/newyork/news/andrea-stewart-cousins-dead-ny-senate-majority-leader/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Sénat de l’État de New York — rencontre de Yonkers",
+          "url": "https://www.nysenate.gov/newsroom/press-releases/2026/andrea-stewart-cousins/senate-majority-leader-andrea-stewart-cousins",
+          "publishedAt": "2026-11-18"
+        }
+      ],
+      "photo": {
+        "subject": "Andrea Stewart-Cousins",
+        "context": "Yonkers",
+        "capturedOn": "2026-11-18",
+        "download": "media/yonkers.webp",
+        "sourceUrl": "https://www.nysenate.gov/newsroom/press-releases/2026/andrea-stewart-cousins/senate-majority-leader-andrea-stewart-cousins",
+        "credit": "New York State Senate",
+        "license": "CC BY-NC-ND 3.0 US + CC Plus (New York State Senate)",
+        "licenseUrl": "https://www.nysenate.gov/copyright-policy",
+        "alt": "Andrea Stewart-Cousins au pupitre, entourée des participants à une conférence de presse à Yonkers.",
+        "caption": "Archive du 18 novembre 2026. Andrea Stewart-Cousins prend la parole à Yonkers lors du lancement des travaux de rénovation de la Police Athletic League locale."
+      },
+      "title": "Andrea Stewart-Cousins, première femme à diriger le Sénat de l’État de New York, meurt à 76 ans",
+      "summary": "Élue du comté de Westchester, où elle représentait notamment une partie de Yonkers, la démocrate dirigeait la majorité au Sénat de cet État américain depuis 2019.",
+      "body": "Le bureau de la majorité démocrate a annoncé vendredi 27 novembre la mort d’Andrea Stewart-Cousins, à 76 ans. Élue au Sénat de l’État de New York en 2006, elle était devenue en 2019 la première femme à prendre la tête de la majorité dans cette chambre, rappellent l’Associated Press et CBS New York.\n\nSa circonscription comprenait une partie de Yonkers. Les démocrates venaient de la reconduire à leur tête après les élections de novembre. Dans son hommage, la procureure générale de l’État, Letitia James, a rappelé leur travail commun sur la protection des locataires et les droits reproductifs.",
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Andrea Stewart-Cousins, first woman to lead the New York State Senate, dies at 76",
+          "summary": "The Westchester County Democrat, whose district included part of Yonkers, had led the majority in the US state’s Senate since 2019.",
+          "body": "The Democratic majority’s office announced the death of Andrea Stewart-Cousins, 76, on Friday, November 27. First elected to the New York State Senate in 2006, she became the first woman to lead the chamber’s majority in 2019, the Associated Press and CBS New York reported.\n\nHer district included part of Yonkers. Democrats had just chosen her to continue as their leader after the November elections. In her tribute, state Attorney General Letitia James recalled their work together on tenant protections and reproductive rights.",
+          "photoAlt": "Andrea Stewart-Cousins at a lectern surrounded by participants at a news conference in Yonkers.",
+          "photoCaption": "File photo, November 18, 2026. Andrea Stewart-Cousins speaks in Yonkers as renovations get under way at the local Police Athletic League."
+        },
+        "es": {
+          "title": "Muere a los 76 años Andrea Stewart-Cousins, primera mujer en dirigir el Senado del estado de Nueva York",
+          "summary": "La demócrata del condado de Westchester, cuyo distrito incluía parte de Yonkers, dirigía la mayoría del Senado de este estado de EE. UU. desde 2019.",
+          "body": "La oficina de la mayoría demócrata anunció el viernes 27 de noviembre la muerte de Andrea Stewart-Cousins a los 76 años. Elegida al Senado del estado de Nueva York en 2006, en 2019 se convirtió en la primera mujer en dirigir la mayoría de la cámara, según Associated Press y CBS New York.\n\nSu distrito incluía parte de Yonkers. Los demócratas acababan de reelegirla como líder tras los comicios de noviembre. En su homenaje, la fiscal general del estado, Letitia James, recordó su trabajo conjunto para proteger a los inquilinos y defender los derechos reproductivos.",
+          "photoAlt": "Andrea Stewart-Cousins ante un atril, rodeada de participantes en una rueda de prensa en Yonkers.",
+          "photoCaption": "Archivo del 18 de noviembre de 2026. Andrea Stewart-Cousins habla en Yonkers al comenzar las obras de renovación de la Police Athletic League local."
+        },
+        "ar": {
+          "title": "وفاة أندريا ستيوارت كازنز، أول امرأة تقود مجلس شيوخ ولاية نيويورك، عن 76 عاماً",
+          "summary": "مثّلت الديمقراطية عن مقاطعة ويستشستر دائرة تضم جزءاً من مدينة يونكرز، وقادت الأغلبية في مجلس شيوخ الولاية الأمريكية منذ 2019.",
+          "body": "أعلن مكتب الأغلبية الديمقراطية يوم الجمعة 27 نوفمبر وفاة أندريا ستيوارت كازنز عن 76 عاماً. وانتُخبت لعضوية مجلس شيوخ ولاية نيويورك عام 2006، ثم أصبحت في 2019 أول امرأة تتولى قيادة الأغلبية في المجلس، وفقاً لأسوشيتد برس وسي بي إس نيويورك.\n\nكانت دائرتها تضم جزءاً من يونكرز. وكان الديمقراطيون قد جددوا اختيارها لقيادتهم بعد انتخابات نوفمبر. وفي نعيها، استذكرت المدعية العامة للولاية ليتيشيا جيمس عملهما المشترك لحماية المستأجرين والدفاع عن الحقوق الإنجابية.",
+          "photoAlt": "أندريا ستيوارت كازنز تقف أمام منصة محاطة بالمشاركين في مؤتمر صحفي في يونكرز.",
+          "photoCaption": "صورة أرشيفية من 18 نوفمبر 2026. أندريا ستيوارت كازنز تتحدث في يونكرز بمناسبة بدء تجديد مقر رابطة الشرطة الرياضية المحلية."
+        },
+        "zh-CN": {
+          "title": "首位领导纽约州参议院的女性安德烈娅·斯图尔特-卡曾斯逝世，享年76岁",
+          "summary": "这位民主党人来自美国纽约州威斯特切斯特县，选区包括扬克斯市的一部分。她自2019年起担任州参议院多数党领袖。",
+          "body": "11月27日星期五，民主党多数党办公室宣布安德烈娅·斯图尔特-卡曾斯逝世，享年76岁。据美联社和纽约CBS电视台报道，她于2006年当选纽约州参议员，2019年成为首位担任该院多数党领袖的女性。\n\n她的选区涵盖扬克斯市的部分地区。11月选举后，民主党人刚刚推选她继续担任领袖。州总检察长利蒂希娅·詹姆斯在悼念声明中回忆了两人在保护租户和维护生育权利方面的合作。",
+          "photoAlt": "安德烈娅·斯图尔特-卡曾斯在扬克斯的一场记者会上站在讲台前，身旁站着与会者。",
+          "photoCaption": "资料照片，摄于2026年11月18日。安德烈娅·斯图尔特-卡曾斯在扬克斯当地警察体育联盟场馆翻修启动活动上发言。"
+        },
+        "ru": {
+          "title": "Умерла Андреа Стюарт-Казинс, первая женщина во главе сената штата Нью-Йорк. Ей было 76 лет",
+          "summary": "Демократка от округа Уэстчестер представляла в том числе часть города Йонкерс. С 2019 года она возглавляла большинство в сенате этого американского штата.",
+          "body": "В пятницу, 27 ноября, аппарат демократического большинства объявил о смерти 76-летней Андреа Стюарт-Казинс. По данным Associated Press и CBS New York, она была избрана в сенат штата Нью-Йорк в 2006 году, а в 2019 году стала первой женщиной, возглавившей большинство в этой палате.\n\nВ её округ входила часть Йонкерса. После ноябрьских выборов демократы вновь избрали её своим лидером. В заявлении в память о Стюарт-Казинс генеральный прокурор штата Летиция Джеймс вспомнила об их совместной работе по защите прав арендаторов и репродуктивных прав.",
+          "photoAlt": "Андреа Стюарт-Казинс за трибуной в окружении участников пресс-конференции в Йонкерсе.",
+          "photoCaption": "Архивное фото от 18 ноября 2026 года. Андреа Стюарт-Казинс выступает в Йонкерсе на мероприятии по случаю начала ремонта местного центра Полицейской спортивной лиги."
+        },
+        "ko": {
+          "title": "뉴욕주 상원을 이끈 첫 여성 앤드리아 스튜어트커즌스 별세…향년 76세",
+          "summary": "미국 뉴욕주 웨스트체스터 카운티 출신의 이 민주당 의원은 용커스 일부 지역을 대표했으며 2019년부터 주 상원 다수당을 이끌었다.",
+          "body": "민주당 다수당 사무실은 11월 27일 금요일 앤드리아 스튜어트커즌스가 향년 76세로 별세했다고 발표했다. AP통신과 뉴욕 CBS 방송에 따르면 그는 2006년 뉴욕주 상원의원에 처음 당선됐고 2019년 여성 최초로 주 상원 다수당 대표가 됐다.\n\n그의 선거구에는 용커스 일부가 포함됐다. 민주당은 11월 선거 직후 그를 대표로 다시 선출했다. 레티샤 제임스 주 법무장관은 추모 성명에서 두 사람이 세입자 보호와 재생산권을 위해 함께 일했던 경험을 돌아봤다.",
+          "photoAlt": "앤드리아 스튜어트커즌스가 용커스 기자회견에서 참석자들에게 둘러싸여 연단에 서 있다.",
+          "photoCaption": "2026년 11월 18일 자료 사진. 앤드리아 스튜어트커즌스가 용커스 지역 경찰체육연맹 시설 개보수 착수 행사에서 발언하고 있다."
+        }
+      }
+    }
+  ]
+}
