@@ -1,0 +1,162 @@
+{
+  "hour": "2026-11-28T08",
+  "articles": [
+    {
+      "eventKey": "new-york-knicks-elimination-coupe-nba-miami-108-105",
+      "title": "À New York, Miami élimine les Knicks de la Coupe NBA malgré leur remontée de 23 points",
+      "category": "Basketball",
+      "summary": "Les Knicks ont repris l’avantage dans le dernier quart au Madison Square Garden, mais le Heat l’a emporté 108 à 105 vendredi. New York perd son titre en Coupe NBA après six victoires de suite en saison régulière.",
+      "body": "Jalen Brunson a eu trois lancers francs à 9,8 secondes de la fin. Le meneur des Knicks de New York en a réussi deux. Miami a conservé l’avance et s’est imposé vendredi 27 novembre au Madison Square Garden, 108 à 105, selon la feuille de match de la NBA.\n\nLe Heat avait mené de 23 points avant la pause. New York a fini par passer devant, 92 à 91, dans le dernier quart. À quatre minutes de la fin, Bam Adebayo a rompu l’égalité à 95 partout. Miami a gardé la tête jusqu’au bout, rapporte l’Associated Press.\n\nAdebayo a inscrit 25 points pour le Heat. Son coéquipier Giannis Antetokounmpo a ajouté 22 points et capté 23 rebonds. Brunson a terminé avec 27 points et huit passes décisives pour les Knicks. La défaite met fin à leur défense du titre en Coupe NBA ainsi qu’à leur série de six victoires.",
+      "sources": [
+        {
+          "name": "NBA — feuille de match officielle",
+          "url": "https://www.nba.com/game/mia-vs-nyk-0022600064/box-score",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "name": "Associated Press, via CBS Sports",
+          "url": "https://www.cbssports.com/nba/news/heat-hold-off-knicks-108-105-to-end-new-yorks-six-game-streak/",
+          "publishedAt": "2026-11-27T22:37:00-05:00"
+        }
+      ],
+      "photo": {
+        "subject": "Jalen Brunson",
+        "context": "Knicks de New York",
+        "capturedOn": "2023-04-26",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jalen_Brunson_-_52977333593_%28wide_crop%29.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Jalen_Brunson_-_52977333593_%28wide_crop%29.jpg/1280px-Jalen_Brunson_-_52977333593_%28wide_crop%29.jpg",
+        "credit": "Erik Drost / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Jalen Brunson dribble en maillot bleu numéro 11 des Knicks de New York devant un défenseur de Cleveland.",
+        "caption": "Archive du 26 avril 2023 à Cleveland. Jalen Brunson, en bleu, attaque face aux Cavaliers sous le maillot des Knicks de New York. Photo recadrée."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "Miami knocks the Knicks out of the NBA Cup in New York despite a 23-point comeback",
+          "summary": "The Knicks regained the lead in the fourth quarter at Madison Square Garden, but the Heat won 108–105 on Friday. New York’s NBA Cup title defense ended after six straight regular-season wins.",
+          "body": "Jalen Brunson went to the line for three free throws with 9.8 seconds left. The New York Knicks guard made two. Miami held on to win 108–105 at Madison Square Garden on Friday, November 27, according to the NBA’s official box score.\n\nThe Heat had led by 23 before halftime. New York eventually pulled ahead 92–91 in the fourth quarter. With four minutes left, Bam Adebayo broke a 95–95 tie. Miami led the rest of the way, the Associated Press reported.\n\nAdebayo scored 25 points for the Heat. Teammate Giannis Antetokounmpo added 22 points and grabbed 23 rebounds. Brunson finished with 27 points and eight assists for the Knicks. The loss ended their NBA Cup title defense and their six-game winning streak.",
+          "photoAlt": "Jalen Brunson dribbles in his blue No. 11 New York Knicks jersey in front of a Cleveland defender.",
+          "photoCaption": "Archive photo taken April 26, 2023, in Cleveland. Jalen Brunson, in blue for the New York Knicks, drives against the Cavaliers. Cropped image."
+        },
+        "es": {
+          "title": "Miami elimina a los Knicks de la Copa NBA en Nueva York pese a una remontada de 23 puntos",
+          "summary": "Los Knicks recuperaron la ventaja en el último cuarto en el Madison Square Garden, pero el Heat ganó el viernes por 108-105. Nueva York se despide de su título de Copa tras seis victorias seguidas en la temporada regular.",
+          "body": "Jalen Brunson dispuso de tres tiros libres a falta de 9,8 segundos. El base de los Knicks de Nueva York convirtió dos. Miami conservó la ventaja y ganó por 108-105 el viernes 27 de noviembre en el Madison Square Garden, según el acta oficial de la NBA.\n\nEl Heat había llegado a tener 23 puntos de ventaja antes del descanso. Nueva York acabó por adelantarse 92-91 en el último cuarto. A cuatro minutos del final, Bam Adebayo deshizo el empate a 95. Miami mantuvo la delantera hasta el final, según Associated Press.\n\nAdebayo anotó 25 puntos para el Heat. Su compañero Giannis Antetokounmpo sumó 22 puntos y capturó 23 rebotes. Brunson terminó con 27 puntos y ocho asistencias para los Knicks. La derrota puso fin a su defensa del título de la Copa NBA y a su racha de seis victorias.",
+          "photoAlt": "Jalen Brunson bota el balón con la camiseta azul número 11 de los Knicks de Nueva York ante un defensor de Cleveland.",
+          "photoCaption": "Foto de archivo del 26 de abril de 2023 en Cleveland. Jalen Brunson, de azul con los Knicks de Nueva York, ataca frente a los Cavaliers. Imagen recortada."
+        },
+        "ar": {
+          "title": "ميامي يخرج نيكس من كأس الرابطة في نيويورك رغم عودة أصحاب الأرض من تأخر بـ23 نقطة",
+          "summary": "استعاد نيكس التقدم في الربع الأخير في ماديسون سكوير غاردن، لكن ميامي هيت فاز الجمعة 108-105. وانتهى مشوار نيويورك في الدفاع عن لقب كأس الرابطة بعد ستة انتصارات متتالية في الموسم المنتظم.",
+          "body": "حصل جيلن برونسون على ثلاث رميات حرة قبل 9.8 ثوانٍ من النهاية. وسجل صانع ألعاب نيويورك نيكس اثنتين منها. واحتفظ ميامي بتقدمه ليفوز بنتيجة 108-105 يوم الجمعة 27 نوفمبر في ماديسون سكوير غاردن، وفق سجل المباراة الرسمي لرابطة كرة السلة الأميركية.\n\nكان هيت قد تقدم بفارق 23 نقطة قبل الاستراحة. ونجح نيويورك في انتزاع التقدم 92-91 في الربع الأخير. وقبل أربع دقائق من النهاية كسر بام أديبايو التعادل عند 95 نقطة لكل فريق. وأفادت وكالة أسوشيتد برس بأن ميامي ظل متقدماً حتى النهاية.\n\nسجل أديبايو 25 نقطة لهيت، وأضاف زميله يانيس أنتيتوكونمبو 22 نقطة واستحوذ على 23 متابعة. وأنهى برونسون المباراة برصيد 27 نقطة وثماني تمريرات حاسمة لنيكس. ووضعت الخسارة حداً لدفاع نيويورك عن لقب الكأس ولسلسلة انتصاراته الستة.",
+          "photoAlt": "جيلن برونسون يحاور بالكرة مرتدياً قميص نيويورك نيكس الأزرق رقم 11 أمام مدافع من كليفلاند.",
+          "photoCaption": "صورة أرشيفية التُقطت في كليفلاند في 26 أبريل 2023. جيلن برونسون بقميص نيويورك نيكس الأزرق ينطلق نحو السلة أمام كافالييرز. الصورة مقتصّة."
+        },
+        "zh-CN": {
+          "title": "尼克斯在纽约填平23分分差，仍遭迈阿密淘汰无缘卫冕NBA杯",
+          "summary": "尼克斯在麦迪逊广场花园末节反超比分，但热火周五以108比105取胜。纽约队的NBA杯卫冕之路和常规赛六连胜双双告终。",
+          "body": "终场前9.8秒，杰伦·布伦森获得三次罚球机会。这名纽约尼克斯后卫罚中两球。根据NBA官方比赛记录，迈阿密守住领先优势，于11月27日星期五在麦迪逊广场花园以108比105获胜。\n\n热火在上半场一度领先23分。尼克斯在第四节以92比91反超。据美联社报道，比赛还剩约四分钟时，巴姆·阿德巴约打破95平的僵局，迈阿密此后一直领先。\n\n阿德巴约为热火拿下25分，队友扬尼斯·阿德托昆博得到22分并抢下23个篮板。布伦森为尼克斯贡献27分和8次助攻。此役失利终结了尼克斯的NBA杯卫冕之旅和六连胜。",
+          "photoAlt": "杰伦·布伦森身穿纽约尼克斯蓝色11号球衣，在一名克利夫兰防守球员面前运球。",
+          "photoCaption": "资料照片，2023年4月26日摄于克利夫兰。杰伦·布伦森身穿纽约尼克斯蓝色球衣，面对骑士队防守持球突破。图片经过裁剪。"
+        },
+        "ru": {
+          "title": "«Майами» выбил «Никс» из Кубка НБА в Нью-Йорке, хотя хозяева отыграли 23 очка",
+          "summary": "В четвёртой четверти в «Мэдисон-сквер-гарден» хозяева вернули себе лидерство, но в пятницу «Хит» победили со счётом 108:105. После шести побед подряд в регулярном чемпионате «Нью-Йорк» сложил полномочия обладателя Кубка НБА.",
+          "body": "За 9,8 секунды до конца Джейлен Брансон получил право на три штрафных броска. Разыгрывающий «Нью-Йорк Никс» реализовал два. «Майами» удержал преимущество и в пятницу, 27 ноября, выиграл в «Мэдисон-сквер-гарден» со счётом 108:105, согласно официальному протоколу НБА.\n\nДо большого перерыва преимущество «Хит» достигало 23 очков. В четвёртой четверти «Нью-Йорк» вышел вперёд — 92:91. Как сообщает Associated Press, примерно за четыре минуты до конца Бэм Адебайо нарушил равновесие при счёте 95:95. Больше «Майами» лидерства не уступал.\n\nАдебайо набрал 25 очков за «Хит». Его партнёр Яннис Адетокунбо добавил 22 очка и сделал 23 подбора. На счету Брансона 27 очков и восемь результативных передач. Поражение оборвало серию «Никс» из шести побед и лишило команду возможности защитить Кубок НБА.",
+          "photoAlt": "Джейлен Брансон ведёт мяч перед защитником «Кливленда» в синей форме «Нью-Йорк Никс» под номером 11.",
+          "photoCaption": "Архивное фото, Кливленд, 26 апреля 2023 года. Джейлен Брансон в синей форме «Нью-Йорк Никс» идёт в проход в матче с «Кавальерс». Кадр обрезан."
+        },
+        "ko": {
+          "title": "마이애미, 뉴욕서 23점 차 따라잡은 닉스 꺾고 NBA컵 타이틀 방어 저지",
+          "summary": "뉴욕 닉스는 금요일 매디슨 스퀘어 가든에서 열린 경기 4쿼터에 역전했지만 마이애미 히트가 108-105로 이겼다. 뉴욕은 정규시즌 6연승을 마감하며 NBA컵 타이틀도 내줬다.",
+          "body": "경기 종료 9.8초 전 제일런 브런슨이 자유투 세 개를 얻었다. 뉴욕 닉스의 가드 브런슨은 그중 두 개를 넣었다. NBA 공식 경기 기록에 따르면 마이애미는 리드를 지켜 11월 27일 금요일 매디슨 스퀘어 가든에서 108-105로 승리했다.\n\n히트는 전반 한때 23점 차로 앞섰다. 뉴욕은 4쿼터에 92-91로 전세를 뒤집었다. AP통신에 따르면 종료 약 4분 전 뱀 아데바요가 95-95 동점 상황에서 득점했고 마이애미는 이후 한 번도 리드를 내주지 않았다.\n\n아데바요는 25점을 올렸고 팀 동료 야니스 아데토쿤보는 22득점 23리바운드를 기록했다. 브런슨은 뉴욕에서 27득점 8어시스트를 올렸다. 이 패배로 닉스의 NBA컵 타이틀 방어 도전과 6연승이 모두 끝났다.",
+          "photoAlt": "뉴욕 닉스의 파란색 11번 유니폼을 입은 제일런 브런슨이 클리블랜드 수비수 앞에서 드리블한다.",
+          "photoCaption": "2023년 4월 26일 클리블랜드에서 촬영한 자료 사진. 뉴욕 닉스의 파란 유니폼을 입은 제일런 브런슨이 캐벌리어스를 상대로 돌파하고 있다. 사진 일부를 잘라 사용했다."
+        }
+      }
+    },
+    {
+      "eventKey": "france-sp-perspective-negative-note-a-plus-novembre",
+      "title": "Dette française : S&P maintient la note A+ et fait passer sa perspective à négative",
+      "category": "Économie",
+      "summary": "L’agence juge que la faiblesse de la croissance et la hausse des intérêts compliquent la réduction du déficit. Le ministre français de l’Économie, Roland Lescure, défend un budget qui ramènerait le déficit à 5 % du PIB au plus.",
+      "body": "S&P Global Ratings a confirmé vendredi 27 novembre la note à long terme A+ de la France. L’agence a toutefois changé son appréciation de la trajectoire de la dette française. La perspective, jusque-là stable, devient négative. Une baisse de la note devient ainsi possible lors d’un prochain examen.\n\nDans sa décision, S&P fait valoir que la croissance reste faible alors que les intérêts de la dette pèsent davantage sur le budget. Selon l’agence, les divisions politiques risquent aussi de compliquer l’adoption des mesures nécessaires pour réduire le déficit, y compris après la présidentielle de 2027.\n\nÀ Paris, le ministre de l’Économie Roland Lescure a réagi en défendant l’adoption rapide du budget pour 2027. Comme le rapportent Reuters et Le Monde, le ministre veut ramener le déficit public à 5 % du produit intérieur brut au plus. Ce chiffre est l’objectif du gouvernement.",
+      "sources": [
+        {
+          "name": "S&P Global Ratings — décision sur la France",
+          "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3668694",
+          "publishedAt": "2026-11-27T16:11:00-05:00"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/markets/currencies/sp-revises-france-outlook-negative-mounting-budget-pressures-weak-growth-2026-11-27/",
+          "publishedAt": "2026-11-27T21:27:08Z"
+        },
+        {
+          "name": "Le Monde",
+          "url": "https://www.lemonde.fr/politique/article/2026/11/27/l-agence-s-p-menace-de-degrader-encore-la-note-de-la-france-entree-en-recession_6815934_823448.html",
+          "publishedAt": "2026-11-27"
+        }
+      ],
+      "photo": {
+        "subject": "Roland Lescure",
+        "context": "ministre de l’Économie",
+        "capturedOn": "2026-10-13",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Visit_of_Wopke_Hoekstra%2C_to_France_%28P-070688-00-09%29.jpg",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Visit_of_Wopke_Hoekstra%2C_to_France_%28P-070688-00-09%29.jpg/1280px-Visit_of_Wopke_Hoekstra%2C_to_France_%28P-070688-00-09%29.jpg",
+        "credit": "© Union européenne, 2026 / Geoffroy Van der Hasselt",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "alt": "À droite, le ministre de l’Économie Roland Lescure serre la main du commissaire européen Wopke Hoekstra devant deux drapeaux.",
+        "caption": "Archive du 13 octobre 2026 à Paris. Le ministre de l’Économie Roland Lescure, à droite, reçoit le commissaire européen Wopke Hoekstra lors de sa visite en France."
+      },
+      "verified": true,
+      "translations": {
+        "en": {
+          "title": "French debt outlook turns negative as S&P keeps its A+ rating",
+          "summary": "The agency says weak growth and rising interest costs are making it harder to cut the deficit. French Economy Minister Roland Lescure is calling for a budget that would bring the deficit down to no more than 5% of GDP.",
+          "body": "S&P Global Ratings affirmed France’s A+ long-term rating on Friday, November 27. The agency did, however, change its assessment of the outlook for French debt from stable to negative. A downgrade is now possible at a future review.\n\nIn explaining its decision, S&P pointed to weak growth at a time when debt interest is weighing more heavily on the budget. In the agency’s view, political divisions could also make it harder to adopt the measures needed to reduce the deficit, even after the 2027 presidential election.\n\nIn Paris, Economy Minister Roland Lescure responded by urging swift passage of the 2027 budget. As Reuters and Le Monde reported, the minister wants to bring the public deficit down to at most 5% of gross domestic product. That figure is the government’s target.",
+          "photoAlt": "At right, Economy Minister Roland Lescure shakes hands with European Commissioner Wopke Hoekstra in front of two flags.",
+          "photoCaption": "Archive photo taken in Paris on October 13, 2026. Economy Minister Roland Lescure, right, welcomes European Commissioner Wopke Hoekstra during his visit to France."
+        },
+        "es": {
+          "title": "S&P mantiene la nota A+ de Francia y rebaja su perspectiva a negativa",
+          "summary": "La agencia considera que el débil crecimiento y el aumento de los intereses dificultan la reducción del déficit. El ministro francés de Economía, Roland Lescure, defiende un presupuesto que lo rebaje hasta un máximo del 5 % del PIB.",
+          "body": "S&P Global Ratings confirmó el viernes 27 de noviembre la calificación a largo plazo de Francia en A+. La agencia modificó, sin embargo, su perspectiva sobre la deuda francesa, que pasó de estable a negativa. Esto abre la posibilidad de una rebaja de la nota en una próxima revisión.\n\nAl explicar su decisión, S&P señaló que el crecimiento sigue siendo débil mientras los intereses de la deuda pesan cada vez más en el presupuesto. Según la agencia, las divisiones políticas también podrían dificultar la adopción de las medidas necesarias para reducir el déficit, incluso después de las elecciones presidenciales de 2027.\n\nEn París, el ministro de Economía, Roland Lescure, respondió pidiendo una rápida aprobación del presupuesto de 2027. Según Reuters y Le Monde, el ministro quiere reducir el déficit público a un máximo del 5 % del producto interior bruto. Esa cifra es el objetivo del Gobierno.",
+          "photoAlt": "A la derecha, el ministro de Economía Roland Lescure estrecha la mano del comisario europeo Wopke Hoekstra ante dos banderas.",
+          "photoCaption": "Foto de archivo tomada en París el 13 de octubre de 2026. El ministro de Economía Roland Lescure, a la derecha, recibe al comisario europeo Wopke Hoekstra durante su visita a Francia."
+        },
+        "ar": {
+          "title": "ستاندرد آند بورز تثبّت تصنيف فرنسا عند «A+» وتخفض نظرتها المستقبلية إلى سلبية",
+          "summary": "ترى الوكالة أن ضعف النمو وارتفاع كلفة الفوائد يصعّبان خفض العجز. ويدعو وزير الاقتصاد الفرنسي رولان ليسكور إلى إقرار موازنة تخفّض العجز إلى ما لا يتجاوز 5% من الناتج المحلي الإجمالي.",
+          "body": "أكّدت وكالة ستاندرد آند بورز غلوبال ريتنغز يوم الجمعة 27 نوفمبر تصنيف فرنسا الائتماني طويل الأجل عند «A+». لكنها غيّرت نظرتها المستقبلية للديون الفرنسية من مستقرة إلى سلبية، ما يفتح الباب أمام احتمال خفض التصنيف في مراجعة مقبلة.\n\nوأوضحت الوكالة في قرارها أن النمو لا يزال ضعيفاً في وقت تزداد فيه أعباء فوائد الدين على الموازنة. وترى أن الانقسامات السياسية قد تعرقل أيضاً إقرار التدابير اللازمة لخفض العجز، حتى بعد انتخابات الرئاسة عام 2027.\n\nوفي باريس، ردّ وزير الاقتصاد رولان ليسكور بالدعوة إلى إقرار موازنة 2027 سريعاً. وأفادت رويترز ولوموند بأن الوزير يريد خفض العجز العام إلى ما لا يزيد على 5% من الناتج المحلي الإجمالي. وهذه النسبة هي الهدف الذي حددته الحكومة.",
+          "photoAlt": "وزير الاقتصاد رولان ليسكور، إلى اليمين، يصافح المفوض الأوروبي فوبكه هوكسترا أمام علمين.",
+          "photoCaption": "صورة أرشيفية التُقطت في باريس في 13 أكتوبر 2026. وزير الاقتصاد رولان ليسكور، إلى اليمين، يستقبل المفوض الأوروبي فوبكه هوكسترا خلال زيارته إلى فرنسا."
+        },
+        "zh-CN": {
+          "title": "标普维持法国长期信用评级为A+，将展望下调至负面",
+          "summary": "标普认为，经济增长疲弱、利息支出上升，加大了削减赤字的难度。法国经济部长罗兰·莱斯屈尔呼吁通过预算，将公共赤字降至国内生产总值的5%以内。",
+          "body": "标普全球评级于11月27日星期五确认，法国的长期信用评级维持在A+。不过，标普将法国债务的评级展望由稳定调整为负面。这意味着在今后的评估中，法国评级有可能被下调。\n\n标普在解释这一决定时指出，经济增长依然疲弱，而债务利息给预算带来的负担正在加重。标普认为，政治分歧也可能阻碍削减赤字所需措施的通过，这种情况甚至可能持续到2027年总统选举之后。\n\n法国经济部长罗兰·莱斯屈尔在巴黎作出回应，呼吁尽快通过2027年预算。据路透社和《世界报》报道，莱斯屈尔希望将公共赤字降至国内生产总值的5%以内。这是政府设定的目标。",
+          "photoAlt": "法国经济部长罗兰·莱斯屈尔（右）在两面旗帜前与欧盟委员会委员沃普克·胡克斯特拉握手。",
+          "photoCaption": "资料照片，2026年10月13日摄于巴黎。法国经济部长罗兰·莱斯屈尔（右）接待到访法国的欧盟委员会委员沃普克·胡克斯特拉。"
+        },
+        "ru": {
+          "title": "S&P сохранило рейтинг Франции на уровне A+ и понизило прогноз до негативного",
+          "summary": "По оценке агентства, слабый экономический рост и увеличение расходов на проценты затрудняют сокращение дефицита. Министр экономики Франции Ролан Лескюр выступает за бюджет, который позволит снизить дефицит до уровня не выше 5% ВВП.",
+          "body": "В пятницу, 27 ноября, S&P Global Ratings подтвердило долгосрочный рейтинг Франции на уровне A+. При этом агентство изменило прогноз по французскому долгу со стабильного на негативный. Это допускает понижение рейтинга в ходе одной из следующих оценок.\n\nОбъясняя своё решение, S&P указывает, что экономический рост остаётся слабым, а проценты по долгу всё сильнее обременяют бюджет. По мнению агентства, политические разногласия также могут затруднить принятие мер по сокращению дефицита, в том числе после президентских выборов 2027 года.\n\nВ Париже министр экономики Ролан Лескюр в ответ призвал как можно скорее принять бюджет на 2027 год. Как сообщают Reuters и Le Monde, министр хочет сократить дефицит государственных финансов до уровня не выше 5% валового внутреннего продукта. Это целевой показатель правительства.",
+          "photoAlt": "Министр экономики Ролан Лескюр, справа, пожимает руку еврокомиссару Вопке Хукстре на фоне двух флагов.",
+          "photoCaption": "Архивное фото, Париж, 13 октября 2026 года. Министр экономики Ролан Лескюр, справа, принимает еврокомиссара Вопке Хукстру во время его визита во Францию."
+        },
+        "ko": {
+          "title": "S&P, 프랑스 장기 신용등급 A+ 유지하고 등급 전망은 부정적으로 하향",
+          "summary": "S&P는 성장 부진과 이자 비용 증가로 재정 적자를 줄이기가 어려워졌다고 평가했다. 롤랑 레스퀴르 프랑스 경제장관은 적자를 국내총생산의 5% 이하로 낮추는 예산안의 처리를 촉구했다.",
+          "body": "S&P 글로벌 레이팅스는 11월 27일 금요일 프랑스의 장기 신용등급을 A+로 유지했다. 다만 프랑스 국가채무에 대한 등급 전망은 기존의 ‘안정적’에서 ‘부정적’으로 내렸다. 향후 평가에서 신용등급을 낮출 가능성이 열렸다는 뜻이다.\n\nS&P는 경제 성장이 여전히 부진한 가운데 국가채무에 대한 이자가 예산에 주는 부담이 커지고 있다고 설명했다. 정치권의 분열도 적자 감축에 필요한 조치의 채택을 어렵게 할 수 있으며, 이런 상황이 2027년 대선 이후까지 이어질 수 있다고 봤다.\n\n파리에서 롤랑 레스퀴르 경제장관은 이 결정에 대해 2027년 예산안의 신속한 처리가 필요하다고 밝혔다. 로이터통신과 르몽드에 따르면 장관은 재정 적자를 국내총생산의 5% 이하로 낮추겠다는 입장이다. 이 수치는 프랑스 정부의 목표다.",
+          "photoAlt": "오른쪽에 선 롤랑 레스퀴르 경제장관이 두 깃발 앞에서 보프커 훅스트라 유럽연합 집행위원과 악수한다.",
+          "photoCaption": "2026년 10월 13일 파리에서 촬영한 자료 사진. 오른쪽의 롤랑 레스퀴르 경제장관이 프랑스를 방문한 보프커 훅스트라 유럽연합 집행위원을 맞이하고 있다."
+        }
+      }
+    }
+  ]
+}
