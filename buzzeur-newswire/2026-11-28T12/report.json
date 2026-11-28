@@ -1,0 +1,23 @@
+{
+  "hour": "2026-11-28T12",
+  "origin": "automation",
+  "status": "blocked",
+  "zonesConsulted": [],
+  "zonesRepresented": [],
+  "selected": [],
+  "discarded": [],
+  "sources": [],
+  "published": [],
+  "duplicates": [],
+  "publishedCount": 0,
+  "translationsPublished": 0,
+  "obstacles": [
+    "Direct connectivity check to https://byrvox.today/agent-session?site=buzzeur at 2026-11-28T11:57:48Z: curl exit 6, HTTP 000, could not resolve host byrvox.today.",
+    "Chromium headless attempt timed out (exit 124, no page output); no authenticated session created. No access restrictions bypassed.",
+    "Private settings.value, settings.version and due remain unknown; no proof created, no private status receipt possible. Research, deduplication and publication not started."
+  ],
+  "protocolsRead": [
+    "docs/AGENT_BUZZEUR.md",
+    "docs/EDITION_HORAIRE_BUZZEUR.md"
+  ]
+}
