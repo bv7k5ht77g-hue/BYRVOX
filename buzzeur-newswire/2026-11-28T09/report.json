@@ -1,0 +1,34 @@
+{
+  "hour": "2026-11-28T09",
+  "status": "blocked",
+  "origin": "automation",
+  "zonesConsulted": [],
+  "zonesRepresented": [],
+  "selected": [],
+  "discarded": [],
+  "sources": [],
+  "published": [],
+  "duplicates": [],
+  "counts": {
+    "published": 0,
+    "recorded": 0,
+    "duplicate": 0,
+    "no_entry": 0,
+    "paused": 0
+  },
+  "obstacles": [
+    {
+      "stage": "agent-session",
+      "detail": "Navigation Chromium vers la liaison normale refusée par l’environnement (net::ERR_BLOCKED_BY_ADMINISTRATOR). Contrôle HTTP distinct : cURL code 6, HTTP 000, résolution du nom byrvox.today impossible dans cet environnement. Aucun contournement tenté."
+    },
+    {
+      "stage": "settings",
+      "detail": "Consignes privées, version, due et plafond non lus. Session non créée, aucun rapport privé transmissible. Arrêt avant veille, rédaction et livraison."
+    }
+  ],
+  "protocols": [
+    "docs/AGENT_BUZZEUR.md",
+    "docs/EDITION_HORAIRE_BUZZEUR.md"
+  ],
+  "privateReceipt": null
+}
